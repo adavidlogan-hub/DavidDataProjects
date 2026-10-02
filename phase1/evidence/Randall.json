@@ -1,87 +1,86 @@
 {
-  "county": "Randall",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
-  "elections_office_phone": "",
-  "elections_office_email": "",
-  "results_url": "https://www.randallcounty.gov/183/Election-Results",
-  "platform": "county_pdfs",
-  "host": "www.randallcounty.gov",
-  "evidence_url": "https://www.scribd.com/document/1043721264/Randall-Co-Republican-Cumulative-5-26-2026-08-43-35-PM",
-  "evidence_snapshot_timestamp": "",
-  "precinct_first_seen_local_time": "",
-  "stated_change_2026": "n",
-  "stated_change_source": "",
-  "usage_notice_text": "",
-  "notes": "Seed URL https://www.randallcounty.com/QuickLinks.aspx?CID=19 and the current domain https://www.randallcounty.gov/ were both refused by the fetch module (robots_disallowed_or_unreachable; the robots.txt request for each host was reset by the peer), so no county page, report list or Last-Modified header could be read. One web search located the results page https://www.randallcounty.gov/183/Election-Results (CivicPlus DocumentCenter files such as 'Official Canvass Results' and 2020 cumulative reports), but it could not be fetched; search text is not evidence. No Clarity site (elections.json 404). Check 3 pending: origin/wayback-data not present. Targeted pass 3 2026-10-02 (targeted3-B): www.randallcounty.gov is now reachable; /183/Election-Results lists only Official Cumulative and Official Canvass (precinct) reports plus reconciliations for all three elections, and /166/Election-Administration has no other results link. Check 4 found a NewsChannel 10 runoff-night article (published 8:58 PM CDT) embedding the county's 'Republican Cumulative' report 'Unofficial Results' printed 8:43 PM 05/26/2026 (county totals). The 2026 runoff is set to LATER on that basis (check 4, rule check4): an election-night county-totals report and no election-night precinct report found; caveat: the copy came from a TV station, so it does not show the county posted it online itself. Searches found no comparable March 2026 or November 2024 election-night copy; those stay UNDETERMINED. Sweep pending.",
-  "tag_rationale": "Only the 2026 runoff is determined (LATER from an election-night county Cumulative report embedded by NewsChannel 10, check 4), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS at confidence low under the single-election rule.",
-  "agent": "research-6",
-  "method_version": "v2",
-  "elections": {
-    "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "Election Results page (now reachable) lists for 'General Election November 5, 2024' only 'Official Canyon ISD Canvass Report', 'Official City of Amarillo Canvass Report', 'Official Randall County Canvass Report', 'Official Wildorado ISD Canvass Report', 'Official Canvass Results', 'Official Cumulative Results' (CivicPlus DocumentCenter). No election-night file survives. Wayback harvest of randallcounty.com: 0 captures. Sweep pending."
-    },
-    "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "Election Results page lists for '2026 Joint Primary Election March 3, 2026' only 'OFFICIAL DEM Canvass Results-3-10-2026 10-51-03 AM', 'OFFICIAL REP Canvass Results-3-10-2026 10-50-36 AM', 'Official Republican Cumulative Results', 'Official Democratic Cumulative Results' and reconciliation forms. No election-night file survives; no third-party election-night copy found. Sweep pending."
-    },
-    "2026_runoff": {
-      "result": "LATER",
-      "check": "4",
-      "county_totals_first_seen": "2026-05-26 20:43 CT",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "0",
-      "evidence_url": "https://www.scribd.com/document/1043721264/Randall-Co-Republican-Cumulative-5-26-2026-08-43-35-PM",
-      "fact": "NewsChannel 10 (KFDA) article 'See May 2026 Joint Primary Election runoff results here' (article:published_time 2026-05-27T01:58:16Z = 8:58 PM CDT, modified 03:18:35Z = 10:18 PM CDT) embeds under 'Randall Co. Election Results' a Scribd copy of the county's report 'Randall Co. Republican Cumulative-5-26-2026 08-43-35 PM', which reads 'Republican Cumulative Run Time Run Date 8:43 PM 05/26/2026 RANDALL COUNTY, TEXAS 2026 Joint Primary Runoff Election 5/26/2026 Page 1 Unofficial Results Registered Voters 10678 of 101083 = 10.56% Polling Places Reporting 18 of 18 = 100.00%' with Absentee, Early Voting and Election Day county totals. This is a county-totals report printed on election night. The county's Election Results page today lists for this runoff only 'Official Republican Cumulative Report', 'Official Democratic Cumulative Report', 'Official Democratic Canvass Report', 'Official Republican Canvass Report' (the Canvass reports are the precinct-level reports) and reconciliation forms; no election-night precinct report was found anywhere. LATER under rule 43 via a third-party copy; it does not show whether the county itself posted the cumulative online that night.",
-      "rule": "check4"
-    }
+ "county": "Randall",
+ "tag": "UNKNOWN",
+ "confidence": "low",
+ "elections_office_phone": "",
+ "elections_office_email": "",
+ "results_url": "https://www.randallcounty.gov/183/Election-Results",
+ "platform": "county_pdfs",
+ "host": "www.randallcounty.gov",
+ "evidence_url": "https://www.scribd.com/document/1043721264/Randall-Co-Republican-Cumulative-5-26-2026-08-43-35-PM",
+ "evidence_snapshot_timestamp": "",
+ "precinct_first_seen_local_time": "",
+ "stated_change_2026": "n",
+ "stated_change_source": "",
+ "usage_notice_text": "",
+ "notes": "Seed URL https://www.randallcounty.com/QuickLinks.aspx?CID=19 and the current domain https://www.randallcounty.gov/ were both refused by the fetch module (robots_disallowed_or_unreachable; the robots.txt request for each host was reset by the peer), so no county page, report list or Last-Modified header could be read. One web search located the results page https://www.randallcounty.gov/183/Election-Results (CivicPlus DocumentCenter files such as 'Official Canvass Results' and 2020 cumulative reports), but it could not be fetched; search text is not evidence. No Clarity site (elections.json 404). Check 3 pending: origin/wayback-data not present. Targeted pass 3 2026-10-02 (targeted3-B): www.randallcounty.gov is now reachable; /183/Election-Results lists only Official Cumulative and Official Canvass (precinct) reports plus reconciliations for all three elections, and /166/Election-Administration has no other results link. Check 4 found a NewsChannel 10 runoff-night article (published 8:58 PM CDT) embedding the county's 'Republican Cumulative' report 'Unofficial Results' printed 8:43 PM 05/26/2026 (county totals). The 2026 runoff is set to LATER on that basis (check 4, rule check4): an election-night county-totals report and no election-night precinct report found; caveat: the copy came from a TV station, so it does not show the county posted it online itself. Searches found no comparable March 2026 or November 2024 election-night copy; those stay UNDETERMINED. Sweep pending. Orchestrator ruling 2026-10-02: 2026_runoff reverted from LATER (check 4) to UNDETERMINED (DECISIONS 62).",
+ "tag_rationale": "No election is determined (the runoff county-totals report is known only from a TV station's copy), so the tag is UNKNOWN.",
+ "agent": "research-6",
+ "method_version": "v2",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "Election Results page (now reachable) lists for 'General Election November 5, 2024' only 'Official Canyon ISD Canvass Report', 'Official City of Amarillo Canvass Report', 'Official Randall County Canvass Report', 'Official Wildorado ISD Canvass Report', 'Official Canvass Results', 'Official Cumulative Results' (CivicPlus DocumentCenter). No election-night file survives. Wayback harvest of randallcounty.com: 0 captures. Sweep pending."
   },
-  "sources": [
-    {
-      "url": "websearch:?q=randall%20county%20texas%20election%20results",
-      "via": "websearch",
-      "quote": "Election Results https://www.randallcounty.gov/183/Election-Results",
-      "supports": "locating only",
-      "content_hash": "f248941c6e0518c1eda76350b5052238e147dec2dae1f9adc0e32f42bc672fe1"
-    },
-    {
-      "url": "https://www.randallcounty.gov/183/Election-Results",
-      "via": "fetch_module",
-      "content_hash": "ec9e9b9e682582fea38b73efa31ea58ae81b791a21467c45d07406be6db8bdaf",
-      "quote": "2026 Joint Primary Runoff Election Official Republican Cumulative Report Final Election Reconciliation Report Official Democratic Cumulative Report Official Democratic Canvass Report Official Republican Canvass Report ... 2026 Joint Primary Election March 3, 2026 ... OFFICIAL DEM Canvass Results-3-10-2026 10-51-03 AM ... General Election November 5, 2024 ... Official Randall County Canvass Report ... Official Cumulative Results",
-      "supports": "County results page lists only official files for the three elections"
-    },
-    {
-      "url": "https://www.newschannel10.com/2026/05/27/see-may-2026-joint-primary-election-runoff-results-here/",
-      "via": "fetch_module",
-      "content_hash": "dc38e0a71e2c2e3a5d0e68835ba7c430e269591e1a83946fb3b8d3c76df74dd1",
-      "quote": "AMARILLO, Texas (KFDA) - The results for the runoff election for Tuesday, May 26, are rolling in. ... Randall Co. Election Results ... Randall Co. Republican Cumulative-5-26-2026 08-43-35 PM by NewsChannel 10 (article:published_time 2026-05-27T01:58:16.922Z; article:modified_time 2026-05-27T03:18:35.351Z)",
-      "supports": "Election-night news article embedding the county cumulative report"
-    },
-    {
-      "url": "https://www.scribd.com/document/1043721264/Randall-Co-Republican-Cumulative-5-26-2026-08-43-35-PM",
-      "via": "fetch_module",
-      "content_hash": "46d50835e487e3f9cf3bb6ba195dc9dc9af1bce1875fe715be4f4f24fc6f1aaa",
-      "quote": "Republican Cumulative Run Time Run Date 8:43 PM 05/26/2026 RANDALL COUNTY, TEXAS 2026 Joint Primary Runoff Election 5/26/2026 Page 1 Unofficial Results Registered Voters 10678 of 101083 = 10.56% Polling Places Reporting 18 of 18 = 100.00%",
-      "supports": "County-totals report printed on runoff election night"
-    },
-    {
-      "url": "websearch:?q=randall%20county%20potter%20county%20election%20night%20results%20by%20precinct%202026%20primary%20amarillo",
-      "via": "websearch",
-      "content_hash": "942ab058ef5079207e9fa7b49affeb0be4922fec105eb74e6fa09674c69a051d",
-      "quote": "See May 2026 Joint Primary Election runoff results here https://www.newschannel10.com/2026/05/27/...",
-      "supports": "located the NewsChannel 10 article"
-    }
-  ]
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "Election Results page lists for '2026 Joint Primary Election March 3, 2026' only 'OFFICIAL DEM Canvass Results-3-10-2026 10-51-03 AM', 'OFFICIAL REP Canvass Results-3-10-2026 10-50-36 AM', 'Official Republican Cumulative Results', 'Official Democratic Cumulative Results' and reconciliation forms. No election-night file survives; no third-party election-night copy found. Sweep pending."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "0",
+   "evidence_url": "https://www.scribd.com/document/1043721264/Randall-Co-Republican-Cumulative-5-26-2026-08-43-35-PM",
+   "fact": "Lead only (orchestrator ruling 2026-10-02, DECISIONS 62): a NewsChannel 10 (KFDA) article published 8:58 PM CDT on runoff night embeds a Scribd copy of the county's 'Republican Cumulative' (county totals, 'Run Time Run Date 8:43 PM 05/26/2026 ... Unofficial Results ... Polling Places Reporting 18 of 18'). That copy came from a TV station, so it does not show what the county itself posted online that night; rule 43 needs a county-posted file, and check 4 covers only per-precinct pages. Research had recorded LATER (check 4). Original fact: NewsChannel 10 (KFDA) article 'See May 2026 Joint Primary Election runoff results here' (article:published_time 2026-05-27T01:58:16Z = 8:58 PM CDT, modified 03:18:35Z = 10:18 PM CDT) embeds under 'Randall Co. Election Results' a Scribd copy of the county's report 'Randall Co. Republican Cumulative-5-26-2026 08-43-35 PM', which reads 'Republican Cumulative Run Time Run Date 8:43 PM 05/26/2026 RANDALL COUNTY, TEXAS 2026 Joint Primary Runoff Election 5/26/2026 Page 1 Unofficial Results Registered Voters 10678 of 101083 = 10.56% Polling Places Reporting 18 of 18 = 100.00%' with Absentee, Early Voting and Election Day county totals. This is a county-totals report printed on election night. The county's Election Results page today lists for this runoff only 'Official Republican Cumulative Report', 'Official Democratic Cumulative Report', 'Official Democratic Canvass Report', 'Official Republican Canvass Report' (the Canvass reports are the precinct-level reports) and reconciliation forms; no election-night precinct report was found anywhere. LATER under rule 43 via a third-party copy; it does not show whether the county itself posted the cumulative online that night."
+  }
+ },
+ "sources": [
+  {
+   "url": "websearch:?q=randall%20county%20texas%20election%20results",
+   "via": "websearch",
+   "quote": "Election Results https://www.randallcounty.gov/183/Election-Results",
+   "supports": "locating only",
+   "content_hash": "f248941c6e0518c1eda76350b5052238e147dec2dae1f9adc0e32f42bc672fe1"
+  },
+  {
+   "url": "https://www.randallcounty.gov/183/Election-Results",
+   "via": "fetch_module",
+   "content_hash": "ec9e9b9e682582fea38b73efa31ea58ae81b791a21467c45d07406be6db8bdaf",
+   "quote": "2026 Joint Primary Runoff Election Official Republican Cumulative Report Final Election Reconciliation Report Official Democratic Cumulative Report Official Democratic Canvass Report Official Republican Canvass Report ... 2026 Joint Primary Election March 3, 2026 ... OFFICIAL DEM Canvass Results-3-10-2026 10-51-03 AM ... General Election November 5, 2024 ... Official Randall County Canvass Report ... Official Cumulative Results",
+   "supports": "County results page lists only official files for the three elections"
+  },
+  {
+   "url": "https://www.newschannel10.com/2026/05/27/see-may-2026-joint-primary-election-runoff-results-here/",
+   "via": "fetch_module",
+   "content_hash": "dc38e0a71e2c2e3a5d0e68835ba7c430e269591e1a83946fb3b8d3c76df74dd1",
+   "quote": "AMARILLO, Texas (KFDA) - The results for the runoff election for Tuesday, May 26, are rolling in. ... Randall Co. Election Results ... Randall Co. Republican Cumulative-5-26-2026 08-43-35 PM by NewsChannel 10 (article:published_time 2026-05-27T01:58:16.922Z; article:modified_time 2026-05-27T03:18:35.351Z)",
+   "supports": "Election-night news article embedding the county cumulative report"
+  },
+  {
+   "url": "https://www.scribd.com/document/1043721264/Randall-Co-Republican-Cumulative-5-26-2026-08-43-35-PM",
+   "via": "fetch_module",
+   "content_hash": "46d50835e487e3f9cf3bb6ba195dc9dc9af1bce1875fe715be4f4f24fc6f1aaa",
+   "quote": "Republican Cumulative Run Time Run Date 8:43 PM 05/26/2026 RANDALL COUNTY, TEXAS 2026 Joint Primary Runoff Election 5/26/2026 Page 1 Unofficial Results Registered Voters 10678 of 101083 = 10.56% Polling Places Reporting 18 of 18 = 100.00%",
+   "supports": "County-totals report printed on runoff election night"
+  },
+  {
+   "url": "websearch:?q=randall%20county%20potter%20county%20election%20night%20results%20by%20precinct%202026%20primary%20amarillo",
+   "via": "websearch",
+   "content_hash": "942ab058ef5079207e9fa7b49affeb0be4922fec105eb74e6fa09674c69a051d",
+   "quote": "See May 2026 Joint Primary Election runoff results here https://www.newschannel10.com/2026/05/27/...",
+   "supports": "located the NewsChannel 10 article"
+  }
+ ]
 }
