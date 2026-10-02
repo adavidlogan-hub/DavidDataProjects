@@ -2,19 +2,19 @@
   "county": "Harris",
   "tag": "UNKNOWN",
   "confidence": "low",
-  "elections_office_phone": "",
-  "elections_office_email": "",
-  "results_url": "https://www.harrisvotes.com/ElectionResults?lang=en-US",
-  "platform": "county_pdfs",
-  "host": "appfiles.harrisvotes.com",
+  "elections_office_phone": "713-755-6965",
+  "elections_office_email": "voters@harrisvotes.com",
+  "results_url": "https://www.harrisvotes.com/Election-Results/Live-Results",
+  "platform": "homegrown",
+  "host": "app.harrisvotes.com",
   "evidence_url": "",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
-  "usage_notice_text": "",
-  "notes": "Results site: search result titled 'Harris Votes - Election Results Archive' at harrisvotes.com/ElectionResults, plus 'Archives' at harrisvotes.com/Election-Results/Archives. Report files are PDFs on the county domain (appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/cumulative.pdf for Nov 5 2024, Data/0326/rep-cumulative.pdf for Mar 3 2026 primary, Data/0525/cumulative.pdf for May 2025) and canvass reports on files.harrisvotes.com, so platform recorded as county_pdfs from URL pattern only; the live election-night page may be a homegrown HTML view that I could not inspect. Phone and email: the search tool summary listed 713-755-6965 and an obfuscated email for the Harris County Clerk elections office, attributed loosely to a harrisvotes.com/Contact-Us result, but the number did not appear in any result title, URL, or attributable quoted text, so it is a lead only and left empty; the email was rendered as '[email protected]' (obfuscated). Fetch module attempts to harrisvotes.com/Contact-Us and harrisvotes.com/Election-Results failed (robots_disallowed_or_unreachable). Wayback probe for appfiles.harrisvotes.com/harrisvotes/prd/Data/ failed for all three windows (robots_disallowed_or_unreachable). WebFetch attempts to fox26houston.com, votebeat.org and ballotpedia.org were all EGRESS_BLOCKED. No source found that states when precinct-level results appeared on election night for Nov 5 2024, Mar 3 2026, or May 26 2026. A search summary mentioned '240 out of 275 voting precinct reporting as of the morning of March 4' (communityimpact.com, lead only), which is a reporting-progress count, not evidence of precinct-level result posting. No 2025 or 2026 stated change to precinct-level reporting found. Usage notice: no source showed results-site notice text verbatim, so left empty.",
-  "tag_rationale": "No citable source states when precinct-level results were posted on election night in Harris County; the existence of cumulative and canvass PDFs does not establish election-night timing.",
+  "usage_notice_text": "The Harris County Elections Administrator's Office makes a diligent effort to post accurate information on this website, but assumes no liability for damages incurred directly or indirectly as a result of errors, omissions, or discrepancies. For additional information please review our Privacy Policy and our Accessibility Statement.",
+  "notes": "UPDATE after the network opened at about 14:07 UTC: harrisvotes.com became reachable through the fetch module and the earlier blocked attempts were superseded. Results site: the Live Results page (harrisvotes.com/Election-Results/Live-Results) embeds the county's own election-day app at https://app.harrisvotes.com/electionresults/electionday (title 'Election Day Results - Election Division'), an AngularJS page that loads JSON from https://appfiles.harrisvotes.com/harrisvotes/prd/Data/<electionCode>/ (resultsbyballot.json, pr.json, pv-<contest>.json); electionCode is currently '1126'. Platform is therefore homegrown (county-built app and data host), not a vendor ENR. The app template has a per-contest 'Precinct Reporting' tab that loads pv-<contest>.json, and pr.json lists precincts; Data/1124/pr.json still exists with Last-Modified 'Fri, 15 Nov 2024 18:01:45 GMT' (canvass time), while Data/0326/pr.json and Data/0526/pr.json return 404. This shows the live app can display precinct-level results and was updated through canvass, but does not show whether the precinct tab was populated during election night for Nov 5 2024, Mar 3 2026, or May 26 2026; treated as a strong lead only. The Archives page lists, per election, a 'Cumulative Report' and a 'Canvass Report' (for example Nov 5 2024 cumulative at appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/cumulative.pdf and 'FINAL Official Canvass Results-11-14-2024 03-12-57 PM.pdf'; Mar 3 2026 canvass reports dated 3-10-2026); no election-night precinct report is archived. The Election Reports page lists reconciliation reports, not precinct results. Contact: harrisvotes.com/Contact-Us shows 'Phone: 713-755-6965', '15600 Morales Road, Houston, TX 77032', and an 'Email:' link (Cloudflare-obfuscated) decoding to voters@harrisvotes.com; the TX SOS county election officials list gives Harris County Clerk Teneshia E. Hudspeth, (713) 755-6965, County Email Address mailto voters@vote.hctx.net. Usage notice: the results pages carry this site-wide footer disclaimer verbatim (recorded in usage_notice_text); it is a liability disclaimer, not a redistribution restriction. Earlier (pre-14:07 UTC) attempts: fetch module to harrisvotes.com/Contact-Us and /Election-Results failed (robots_disallowed_or_unreachable, proxy 403); Wayback probe for appfiles.harrisvotes.com/harrisvotes/prd/Data/ failed for all three windows; WebFetch to fox26houston.com, votebeat.org and ballotpedia.org were EGRESS_BLOCKED. Search leads: the search summary's 713-755-6965 is now confirmed on the county page; '240 out of 275 voting precinct reporting as of the morning of March 4' (communityimpact.com) is a reporting-progress count, not precinct-level results. No 2025 or 2026 stated change to precinct-level reporting found.",
+  "tag_rationale": "The county's homegrown live results app has a precinct reporting tab, but no source shows when precinct-level data appeared on election night for the three target elections; archived precinct detail is the canvass report.",
   "sources": [
     {
       "url": "https://www.harrisvotes.com/ElectionResults?lang=en-US",
@@ -45,20 +45,6 @@
       "supports": "platform"
     },
     {
-      "url": "https://www.harrisvotes.com/Contact-Us",
-      "via": "fetch_module",
-      "query": "",
-      "quote": "",
-      "supports": "contact"
-    },
-    {
-      "url": "https://www.harrisvotes.com/Election-Results",
-      "via": "fetch_module",
-      "query": "",
-      "quote": "",
-      "supports": "results_url"
-    },
-    {
       "url": "https://www.fox26houston.com/news/harris-county-election-results-november-2025",
       "via": "webfetch",
       "query": "",
@@ -78,13 +64,55 @@
       "query": "",
       "quote": "",
       "supports": "tag"
+    },
+    {
+      "url": "https://www.harrisvotes.com/Election-Results/Live-Results",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "embeds https://app.harrisvotes.com/electionresults/electionday ... footer: The Harris County Elections Administrator's Office makes a diligent effort to post accurate information on this website, but assumes no liability for damages incurred directly or indirectly as a result of errors, omissions, or discrepancies. For additional information please review our Privacy Policy and our Accessibility Statement. (content_hash 9aa46ff68a00)",
+      "supports": "usage_notice"
+    },
+    {
+      "url": "https://app.harrisvotes.com/electionresults/electionday",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Election Day Results - Election Division ... Unofficial Election Results ... title=\"Precinct Reporting\" ... var electionCode = '1126'; var dnnPrefix = 'https://appfiles.harrisvotes.com/harrisvotes/prd'; ... '/pv-' + contestId + '.json' (content_hash 6e5cc9f6089d)",
+      "supports": "platform"
+    },
+    {
+      "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/pr.json",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "{\"p\":[\"0001\",\"0002\",... ; HTTP Last-Modified: Fri, 15 Nov 2024 18:01:45 GMT (content_hash 79d9b058dd2f)",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.harrisvotes.com/Election-Results/Archives",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Date Election Cumulative Report Canvass Report ... November 5, 2024 General and Special Elections (content_hash 0f95719fd9f2)",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.harrisvotes.com/Contact-Us",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Phone: 713-755-6965 ... 15600 Morales Road, Houston, TX 77032 Email: (obfuscated, decodes to voters@harrisvotes.com) (content_hash 3cd7ec6858ac)",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "HARRIS COUNTY County Clerk Teneshia E. Hudspeth 15600 Morales Rd. Houston 77032 ... County Email Address (713) 755-6965 (mailto:voters@vote.hctx.net) (content_hash 065e1ebd63c5)",
+      "supports": "contact"
     }
   ],
   "agent": "research-A",
   "searches_run": 9,
   "cached_search_hits": 0,
-  "fetch_module_attempts": 3,
+  "fetch_module_attempts": 10,
   "webfetch_attempts": 3,
   "started_at_utc": "2026-10-02T13:57:00Z",
-  "finished_at_utc": "2026-10-02T13:59:37Z"
+  "finished_at_utc": "2026-10-02T14:22:40Z"
 }
