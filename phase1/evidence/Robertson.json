@@ -1,6 +1,6 @@
 {
   "county": "Robertson",
-  "tag": "LIVE_PRECINCT",
+  "tag": "PRECINCT_END_OF_NIGHT",
   "confidence": "high",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,37 +13,37 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https; the Elections page links each election's Clarity site. Clarity elections.json for TX/Robertson returns 404, so the check 1 script was run with the county-linked EIDs (122830, 126055, 126389). Each Clarity site had one or more unreadable early versions (HTTP 404) that are pre-election. The 2026 runoff has a 4:23 PM CDT update with precinct numbers before polls closed (likely early votes). The county also posts reconciliation PDFs; not needed since check 1 settled all three elections.",
+  "notes": "Seed URL works over https; the Elections page links each election's Clarity site. Clarity elections.json for TX/Robertson returns 404, so the check 1 script was run with the county-linked EIDs (122830, 126055, 126389). Each Clarity site had one or more unreadable early versions (HTTP 404) that are pre-election. The 2026 runoff has a 4:23 PM CDT update with precinct numbers before polls closed (likely early votes). The county also posts reconciliation PDFs; not needed since check 1 settled all three elections. Check 1 reconciled to the election-day precinct measure: 2024_general: LIVE -> END; 2026_primary: LIVE -> END; 2026_runoff: LIVE -> END; tag LIVE_PRECINCT -> PRECINCT_END_OF_NIGHT.",
   "tag_rationale": "All three elections are LIVE by check 1 (precinct numbers in two or more election-night Clarity updates), so the tag is LIVE_PRECINCT with high confidence.",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LIVE",
+      "result": "END",
       "check": "1",
       "county_totals_first_seen": "2024-11-05 19:07 CT",
       "precinct_first_seen": "2024-11-05 19:07 CT",
       "night_updates_with_precinct_numbers": "2",
       "evidence_url": "https://results.enr.clarityelections.com/TX/Robertson/122830/351866/reports/detailxml.zip",
-      "fact": "Clarity EID 122830 (linked from the county page under 'NOVEMBER 5, 2024 GENERAL: COUNTY-WIDE'). Election-night updates: 11/5/2024 7:07:09 PM CST (13 precincts with votes, 842 nonzero precinct cells) and 9:06:33 PM CST (13 precincts, 1294 cells). Next update 11/15/2024 3:42:56 PM CST."
+      "fact": "Reconciled (LIVE to END). Clarity update log: 1 distinct election-day precinct releases across 2 election-night updates (county local time, 7 PM to 3 AM); first update with election-day precinct votes 11/5/2024 7:07:09 PM CST. Previous: Clarity EID 122830 (linked from the county page under 'NOVEMBER 5, 2024 GENERAL: COUNTY-WIDE'). Election-night updates: 11/5/2024 7:07:09 PM CST (13 precincts with votes, 842 nonzero precinct cells) and 9:06:33 PM CST (13 precincts, 1294 cells). Next update 11/15/2024 3:42:56 PM CST."
     },
     "2026_primary": {
-      "result": "LIVE",
+      "result": "END",
       "check": "1",
       "county_totals_first_seen": "2026-03-03 19:03 CT",
       "precinct_first_seen": "2026-03-03 19:03 CT",
       "night_updates_with_precinct_numbers": "4",
       "evidence_url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368459/reports/detailxml.zip",
-      "fact": "Clarity EID 126055 ('MARCH 3, 2026 PRIMARY: COUNTY-WIDE RESULTS'). Election-night updates with precinct votes: 3/3/2026 7:03:34 PM (13 precincts, 2459 cells), 8:17:27 PM (2721), 8:59:24 PM (4099), 9:15:56 PM CST (4235). Next update 3/11/2026."
+      "fact": "Reconciled (LIVE to END). Clarity update log: 1 distinct election-day precinct releases across 4 election-night updates (county local time, 7 PM to 3 AM); first update with election-day precinct votes 3/3/2026 7:03:34 PM CST. Previous: Clarity EID 126055 ('MARCH 3, 2026 PRIMARY: COUNTY-WIDE RESULTS'). Election-night updates with precinct votes: 3/3/2026 7:03:34 PM (13 precincts, 2459 cells), 8:17:27 PM (2721), 8:59:24 PM (4099), 9:15:56 PM CST (4235). Next update 3/11/2026."
     },
     "2026_runoff": {
-      "result": "LIVE",
+      "result": "END",
       "check": "1",
       "county_totals_first_seen": "2026-05-26 19:50 CT",
       "precinct_first_seen": "2026-05-26 19:50 CT",
       "night_updates_with_precinct_numbers": "2",
       "evidence_url": "https://results.enr.clarityelections.com/TX/Robertson/126389/",
-      "fact": "Clarity EID 126389 ('MAY 26, 2026: COUNTY-WIDE RESULTS'). Update 5/26/2026 4:23:27 PM CDT already has 13 precincts with votes (255 cells, before polls closed); election-night updates 7:50:30 PM CDT (283 cells) and 8:31:08 PM CDT (418 cells), both with 13 precincts. Next update 6/2/2026."
+      "fact": "Reconciled (LIVE to END). Clarity update log: 1 distinct election-day precinct releases across 2 election-night updates (county local time, 7 PM to 3 AM); first update with election-day precinct votes 5/26/2026 4:23:27 PM CDT. Previous: Clarity EID 126389 ('MAY 26, 2026: COUNTY-WIDE RESULTS'). Update 5/26/2026 4:23:27 PM CDT already has 13 precincts with votes (255 cells, before polls closed); election-night updates 7:50:30 PM CDT (283 cells) and 8:31:08 PM CDT (418 cells), both with 13 precincts. Next update 6/2/2026."
     }
   },
   "sources": [

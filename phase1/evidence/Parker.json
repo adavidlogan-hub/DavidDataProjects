@@ -1,7 +1,7 @@
 {
   "county": "Parker",
-  "tag": "LIVE_PRECINCT",
-  "confidence": "high",
+  "tag": "UNKNOWN",
+  "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.parkercountytx.gov/441/Past-Election-Results",
@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL www.parkercountytx.com (http and https) returned HTTP 403. Clarity elections.json for Parker is an empty list. Web search (locating only) found the county's current site page https://www.parkercountytx.gov/441/Past-Election-Results, whose 'Joint Primary March 3, 2026' block links Clarity EID 126014 and whose 'May 26, 2026 Primary Runoff Election' block links EID 126279 ('Official results'); the check 1 script was run with these EIDs from the county's own page. No 2024 general block or Clarity link appears on that page, so the 2024 general is undetermined. Primary: election-night versions at 7:22, 8:57, 9:48, 10:02 and 10:29 PM CST all have 47 precincts with nonzero votes, and nonzero precinct vote cells rise 16358, 21399, 22843, 22913, 23051 (election-day precinct votes added through the night); 3 versions unreadable. Runoff: versions at 7:07 PM and 9:13 PM CDT, 47 precincts, cells 1244 then 1778; 1 version unreadable. The first night versions (7:07 and 7:22 PM) may hold only early-vote precinct numbers; later versions add votes. precinct_first_seen_local_time is the first runoff night version. Check 3 pending for 2024 general: origin/wayback-data not present.",
+  "notes": "Seed URL www.parkercountytx.com (http and https) returned HTTP 403. Clarity elections.json for Parker is an empty list. Web search (locating only) found the county's current site page https://www.parkercountytx.gov/441/Past-Election-Results, whose 'Joint Primary March 3, 2026' block links Clarity EID 126014 and whose 'May 26, 2026 Primary Runoff Election' block links EID 126279 ('Official results'); the check 1 script was run with these EIDs from the county's own page. No 2024 general block or Clarity link appears on that page, so the 2024 general is undetermined. Primary: election-night versions at 7:22, 8:57, 9:48, 10:02 and 10:29 PM CST all have 47 precincts with nonzero votes, and nonzero precinct vote cells rise 16358, 21399, 22843, 22913, 23051 (election-day precinct votes added through the night); 3 versions unreadable. Runoff: versions at 7:07 PM and 9:13 PM CDT, 47 precincts, cells 1244 then 1778; 1 version unreadable. The first night versions (7:07 and 7:22 PM) may hold only early-vote precinct numbers; later versions add votes. precinct_first_seen_local_time is the first runoff night version. Check 3 pending for 2024 general: origin/wayback-data not present. Check 1 reconciled to the election-day precinct measure: 2026_runoff: LIVE -> END; tag LIVE_PRECINCT -> UNKNOWN.",
   "tag_rationale": "2026 primary and 2026 runoff are both LIVE by check 1 (Clarity precinct numbers in several election-night updates), so the rule gives LIVE_PRECINCT with confidence high; 2024 general is UNDETERMINED.",
   "agent": "research-6",
   "method_version": "v2",
@@ -37,13 +37,13 @@
       "fact": "Clarity EID 126014 (linked from the county page under 'Joint Primary March 3, 2026'): election-night versions at 7:22, 8:57, 9:48, 10:02 and 10:29 PM CST, each with 47 precincts with nonzero votes; nonzero precinct vote cells 16358, 21399, 22843, 22913, 23051."
     },
     "2026_runoff": {
-      "result": "LIVE",
+      "result": "END",
       "check": "1",
       "county_totals_first_seen": "2026-05-26 19:07 CT",
       "precinct_first_seen": "2026-05-26 19:07 CT",
       "night_updates_with_precinct_numbers": "2 of 2",
       "evidence_url": "https://results.enr.clarityelections.com/TX/Parker/126279/373012/reports/detailxml.zip",
-      "fact": "Clarity EID 126279 (linked from the county page under 'May 26, 2026 Primary Runoff Election'): election-night versions at 7:07 PM and 9:13 PM CDT, each with 47 precincts with nonzero votes; cells 1244 then 1778."
+      "fact": "Reconciled (LIVE to END). Clarity update log: 1 distinct election-day precinct releases across 2 election-night updates (county local time, 7 PM to 3 AM); first update with election-day precinct votes 5/26/2026 9:13:01 PM CDT. Previous: Clarity EID 126279 (linked from the county page under 'May 26, 2026 Primary Runoff Election'): election-night versions at 7:07 PM and 9:13 PM CDT, each with 47 precincts with nonzero votes; cells 1244 then 1778."
     }
   },
   "sources": [
