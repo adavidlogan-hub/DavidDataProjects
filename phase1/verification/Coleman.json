@@ -1,0 +1,65 @@
+{
+  "county": "Coleman",
+  "reason_selected": "tag changed in targeted pass 3",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 20:41 CT",
+      "fact": "Elections page, NOVEMBER 5, 2024: 'Unofficial Results' = UNOFFICIAL ALL PRECINCTS coleman county.pdf, a 7-page 'Summary Results Report / UNOFFICIAL RESULTS / TX Coleman 241105 General' of county totals ('Election Day Precincts Reporting 5 of 5'), printed 'Election Summary - 11/05/2024 8:00 PM', PDF CreationDate 2024-11-06 02:11:21 UTC, server Last-Modified Wed, 06 Nov 2024 02:41:05 GMT (8:41 PM CST, election night). The only precinct file is 'OFFICIAL RESULTS BY PRECINCT GEN ELEC 11.05.24.pdf' printed 'Precinct Summary - 11/12/2024 9:52 AM', Last-Modified 15 Nov 2024. Check 3 agrees: the wayback capture 2024-11-06 01:42:52 CST of the same file (sha256 9ae01f73..., identical to the live copy) shows county totals only."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Unofficial Results (UNOFFICIAL RESULTS.pdf) printed 'Election Summary - 03/05/2026 12:41 PM', Last-Modified 21 Apr 2026; party files printed 03/10/2026; precinct files are official (printed 04/15/2026). No file from election night survives. Wayback: no captures.",
+      "county_totals_first_seen": ""
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 19:39 CT",
+      "fact": "UNOFFICIAL ELECTION NIGHT RESULTS AND REPORTS: 'COLEMAN COUNTY JOINT ELECTION REPORT' = UNOFFICIAL RESULTS 2026 JOINT RUNOFF.pdf, 3-page county-totals 'Summary Results Report ... 260526 Primary Runoff Election' ('Election Day Precincts Reporting 4 of 4'), printed 'Election Summary - 05/26/2026 8:02 PM', server Last-Modified Wed, 27 May 2026 00:39:30 GMT (7:39 PM CDT May 26; the file's ModDate 00:22:32 UTC and the printed 8:02 PM differ, but every time is on election night). No unofficial precinct report is linked; the only runoff precinct file is 'OFFICIAL PRECINCT RESULTS - REPUBLICAN PARTY.pdf' printed 06/10/2026, Last-Modified 10 Jun 2026."
+    }
+  },
+  "rationale": "Not on Clarity (elections.json 404). 2024 and the 2026 runoff are LATER from county-totals reports uploaded on election night with no unofficial precinct report; precinct numbers appear only in official reports after canvass. The primary has no election-night file. Two LATER elections from check 2 give COUNTY_ONLY_PRECINCT_AT_CANVASS, med.",
+  "sources": [
+    {
+      "url": "https://newtools.cira.state.tx.us/page/coleman.Elections",
+      "content_hash": "6ca4e185fd6621a65aceb3e2a29bf5ac3935ac734cbcd3e99b47e21ba7439dc7",
+      "what_i_checked": "Result links per election (www.co.coleman.tx.us served the home page for these paths)"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2024%20GENERAL%20ELECTION/UNOFFICIAL%20ALL%20PRECINCTS%20coleman%20county.pdf",
+      "content_hash": "9ae01f73397af679cefbcfe22bb54d101181be88a8dd8aecb26ffdc4564a76f3",
+      "what_i_checked": "County totals, printed 11/05/2024 8:00 PM, Last-Modified 06 Nov 2024 02:41:05 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2024%20GENERAL%20ELECTION/OFFICIAL%20RESULTS%20BY%20PRECINCT%20GEN%20ELEC%2011.05.24.pdf",
+      "content_hash": "d26488741d285ee538f224830fcaafe3e292617869e180f887f79f6cda38062f",
+      "what_i_checked": "Official precinct report printed 11/12/2024, Last-Modified 15 Nov 2024"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2026%20MARCH%20PRIMARY/UNOFFICIAL%20RESULTS%202026%20JOINT%20RUNOFF.pdf",
+      "content_hash": "8c9ad1c2f6bb58eacfcf6f88b95c58687db81e75790ff746cd46befceaf26904",
+      "what_i_checked": "Runoff county totals, printed 05/26/2026 8:02 PM, Last-Modified 27 May 2026 00:39:30 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2026%20MARCH%20PRIMARY/OFFICIAL%20PRECINCT%20RESULTS%20-%20REPUBLICAN%20PARTY.pdf",
+      "content_hash": "5c2a12281b7a30f6cc8bcf13ee6252dedc55b53ef22c1b12e82fcc5584ddae96",
+      "what_i_checked": "Runoff official precinct report printed 06/10/2026"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2026%20MARCH%20PRIMARY/UNOFFICIAL%20RESULTS.pdf",
+      "content_hash": "a67429e22ca7a07e2c4ae8271c38312f3017f95cb424da31c4ffbfbb6989a847",
+      "what_i_checked": "Primary unofficial printed 03/05/2026 12:41 PM, Last-Modified 21 Apr 2026"
+    },
+    {
+      "url": "git:origin/wayback-data:phase1/wayback_snapshots/Coleman/2024_general_20241106074252_9ae01f73397a.pdf",
+      "content_hash": "9ae01f73397af679cefbcfe22bb54d101181be88a8dd8aecb26ffdc4564a76f3",
+      "what_i_checked": "Capture 2024-11-06 01:42:52 CST; identical to live county-totals file"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T22:55:15Z"
+}

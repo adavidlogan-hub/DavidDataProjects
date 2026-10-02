@@ -1,0 +1,66 @@
+{
+ "county": "Menard",
+ "reason_selected": "tag changed in targeted pass 3",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "The Elections page (www.co.menard.tx.us/page/menard.Elections; co.menard.tx.us without www is robots-blocked) links \"Election Night Results / Resultados de la noche de las elecciones\" to /upload/page/0215/Menard County 2024 Nov 5 ENR.pdf, which returns HTTP 404 (also 404 on newtools.cira mirror). No surviving file. Check 3: Wayback CDX for co.menard.tx.us was robots_disallowed_or_unreachable, no captures."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"ELECTION NIGHT RESULTS\" = Elections/2026/Primary/Cumulative Results-3-3-2026 08-49-21 PM.pdf: \"Cumulative Results Report MENARD COUNTY, TEXAS Unofficial Results\", county totals by Absentee/Early/Election Day Voting, \"Run Time 8:48 PM Run Date 03/03/2026\", no per-precinct sections; Last-Modified Wed 04 Mar 2026 02:56:15 GMT (8:56 PM CST Mar 3). No precinct results report posted (the \"SB Rep/Dem Prt n\" links are sample ballots, Last-Modified Jan 15 2026)."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Election Night Results\" = Elections/2026/Runoff/20260526201711scan.pdf (scanned, read visually): \"Cumulative Results Report MENARD COUNTY, TEXAS ... PRIMARY RUNOFF ELECTION ... Unofficial Results\", county totals with Election Day Voting column, \"Precincts Reporting 6 of 6\", \"Run Time 7:38 PM\" (REP) and \"7:40 PM\" (DEM), \"Run Date 05/26/2026\"; Last-Modified Wed 27 May 2026 01:35:21 GMT (8:35 PM CDT May 26). No precinct results posted."
+  }
+ },
+ "rationale": "Primary and runoff are LATER (election-night cumulative county-totals reports uploaded 8:56 PM Mar 3 and 8:35 PM May 26; no precinct results posted); the 2024 file is 404. Two LATER results give COUNTY_ONLY_PRECINCT_AT_CANVASS, med (check 2).",
+ "sources": [
+  {
+   "url": "https://www.co.menard.tx.us/page/menard.Elections",
+   "content_hash": "cd38d3915f443376d35ccf79bae8dbbab32c8d1a15371b48f6e2c98de6b20c25",
+   "what_i_checked": "elections page: report list"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/page/menard.Elections",
+   "content_hash": "cd38d3915f443376d35ccf79bae8dbbab32c8d1a15371b48f6e2c98de6b20c25",
+   "what_i_checked": "cira mirror: same list"
+  },
+  {
+   "url": "https://www.co.menard.tx.us/upload/page/0215/Menard County 2024 Nov 5 ENR.pdf",
+   "content_hash": "",
+   "what_i_checked": "HTTP 404"
+  },
+  {
+   "url": "https://www.co.menard.tx.us/upload/page/0215/Elections/2026/Primary/Cumulative Results-3-3-2026 08-49-21 PM.pdf",
+   "content_hash": "9d2df242e9d7b84b969026f6fed48bbcc1a9147978ac61ae9955360a1c8fe77d",
+   "what_i_checked": "primary county totals, run 8:48 PM, Last-Modified 8:56 PM CST"
+  },
+  {
+   "url": "https://www.co.menard.tx.us/upload/page/0215/Elections/2026/Runoff/20260526201711scan.pdf",
+   "content_hash": "4ab7bb8784ecbc8166a8581fd9f52bd2ed3aee236f29d606c45551cea1c54510",
+   "what_i_checked": "runoff county totals, run 7:38/7:40 PM, Last-Modified 8:35 PM CDT"
+  },
+  {
+   "url": "https://www.co.menard.tx.us/upload/page/0215/Elections/2026/Primary/SB Rep Prt 1.pdf",
+   "content_hash": "cc396e29ec18e3c7134cab795c007351dc0b66ae45dc0812b5cde82688dd0697",
+   "what_i_checked": "sample ballot, not results"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T22:54:26Z",
+ "verifier_agent": "verifier-12",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED): the linked 'Menard County 2024 Nov 5 ENR.pdf' returns 404 (also on the cira mirror); Wayback CDX was robots-blocked.",
+  "2026_primary": "same (LATER, check 2): cumulative county-totals report, Run Time 8:48 PM, uploaded 8:56 PM CST Mar 3; no per-precinct sections; the 'SB ... Prt n' links are sample ballots.",
+  "2026_runoff": "same (LATER, check 2): scanned cumulative county totals, Run Time 7:38 PM / 7:40 PM, uploaded 8:35 PM CDT May 26; no precinct results posted.",
+  "unsupported_claims": "None found."
+ }
+}

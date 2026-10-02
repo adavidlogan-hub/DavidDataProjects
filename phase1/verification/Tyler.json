@@ -1,51 +1,106 @@
 {
   "county": "Tyler",
-  "reason_selected": "random 10 percent sample",
+  "reason_selected": "tag changed in targeted pass 3",
   "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "verifier_confidence": "low",
   "elections": {
     "2024_general": {
       "result": "UNDETERMINED",
       "check": "none",
-      "fact": "Election Information page has 2024 local option orders and notices; the 'Official Election Summary Results' and 'Official Election Precinct Summary Results' links (Election Summary.pdf, Election Precicnt Summary.pdf) return HTTP 404, so their election and dates cannot be read. No 2024 election-night file. Check 3 pending (no wayback folder)."
+      "fact": "Election Information page (co.tyler.tx.us/page/tyler.ElectionInformation) lists under 2024 NOVEMBER 5 GENERAL ELECTION: 'Unofficial Election Precinct Summary' (file named 'Unofficial Election Results for Nov 7 2023000001.pdf'), 'Official Election Summary Results' (Election Summary.pdf), 'Official Election Precinct Summary Results' (Election Precicnt Summary.pdf). All three return HTTP 404 on www.co.tyler.tx.us and on newtools.cira.state.tx.us. No surviving file, no times. Check 3: wayback harvest for co.tyler.tx.us failed (robots_disallowed_or_unreachable), no captures.",
+      "county_totals_first_seen": ""
     },
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "fact": "'UNOFFICIAL RESULTS' (RESULTS/2026 UNOFFICIAL RESULTS.pdf, 22-page scan, pages 1 and 10 read as images): 'Summary Results Report TX TYLER 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS PCT BY PCT REPORT Tyler County', 'Election Day Precincts Reporting 17 of 17', but the pages are contest totals (footer 'Election Summary - 03/03/2026 10:07 PM'); contests named 'REP JOP Pct 1' etc. are Justice of the Peace races, not per-precinct breakdowns. Last-Modified Wed, 04 Mar 2026 18:40:46 GMT (12:40 PM CST next day). County totals printed on election night; no per-precinct results posted; 'OFFICIAL RESULTS' links to the SOS site."
+      "county_totals_first_seen": "2026-03-03 22:07 CT",
+      "fact": "Only results file for the primary: '/upload/page/3316/RESULTS/2026 UNOFFICIAL RESULTS.pdf' (scanned, 22 pages). Header 'Summary Results Report / TX TYLER 260303 Primary 6110' with stamp 'UNOFFICIAL RESULTS PCT BY PCT REPORT' (pages 1-13) and 'ACCUMULATIVE REPORT' (pages 14-22); every page is county totals by contest (Total, Absentee, Early Voting, Election Day; 'Election Day Precincts Reporting 17 of 17'), no per-precinct breakdown. Printed footer 'Election Summary - 03/03/2026 10:07 PM' (REP pages) and '10:13 PM' (DEM pages). Server Last-Modified Wed, 04 Mar 2026 18:40:46 GMT (12:40 PM CST Mar 4, after election night; same on newtools.cira mirror). No other unofficial or precinct report for the primary is linked ('OFFICIAL RESULTS ( tba )'). County totals printed on election night, no precinct report posted: LATER under the rule 43 reading."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",
       "check": "none",
-      "fact": "Runoff section lists notices only; no runoff results file. Check 3 pending."
+      "fact": "2026 PRIMARY RUNOFF ELECTION NOTICES section shows the text 'UNOFFICIAL RESULTS' with no link; 'OFFICIAL RESULTS' links to the SOS goelect EVR turnout site. No county file and no time. Check 3 unavailable (harvest error).",
+      "county_totals_first_seen": ""
     }
   },
-  "rationale": "Only the primary is determined (LATER: county-total summary printed 10:07 PM on election night, no precinct results posted), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "rationale": "Not on Clarity (elections.json 404). Only the 2026 primary is determined: LATER from a county-totals report printed 10:07 PM on election night with no precinct report posted. 2024 files are 404 and the runoff has no file. One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS at low confidence.",
   "sources": [
     {
       "url": "https://www.co.tyler.tx.us/page/tyler.ElectionInformation",
-      "what_i_checked": "results file list",
-      "content_hash": "a753072580e96b20483601ec32bad82060a9e9961d719c7f894a123b9dbb3381"
+      "content_hash": "a753072580e96b20483601ec32bad82060a9e9961d719c7f894a123b9dbb3381",
+      "what_i_checked": "List of result links per election"
     },
     {
       "url": "https://www.co.tyler.tx.us/upload/page/3316/RESULTS/2026 UNOFFICIAL RESULTS.pdf",
-      "what_i_checked": "primary summary printed 10:07 PM, uploaded 18:40 GMT Mar 4, contest totals only",
-      "content_hash": "46056854de0ed36806b4586966550f64b97662ea85d39285a90826c683bc2d80"
+      "content_hash": "46056854de0ed36806b4586966550f64b97662ea85d39285a90826c683bc2d80",
+      "what_i_checked": "Rendered pages 1, 3 and 4-22: county totals only, printed 03/03/2026 10:07 PM and 10:13 PM; Last-Modified 04 Mar 2026 18:40:46 GMT"
     },
     {
-      "url": "https://www.co.tyler.tx.us/upload/page/3316/Election Summary.pdf",
-      "what_i_checked": "official summary link returns 404",
-      "content_hash": "f67fc72af6821a0fd2461c9336df4c49fbb8ed1b8f5caedf85baf2648594ecdd (HTTP 404 body)"
+      "url": "https://www.co.tyler.tx.us/upload/page/3316/Election Precicnt Summary.pdf",
+      "content_hash": "f67fc72af6821a0fd2461c9336df4c49fbb8ed1b8f5caedf85baf2648594ecdd",
+      "what_i_checked": "HTTP 404 (also the 2024 unofficial and official summary links, and newtools.cira copies)"
+    },
+    {
+      "url": "git:origin/wayback-data:phase1/wayback_snapshots/Tyler/index.json",
+      "content_hash": "",
+      "what_i_checked": "Wayback branch index.json for this county: harvest recorded every CDX query as robots_disallowed_or_unreachable, no captures; check 3 unavailable"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Tyler/elections.json",
+      "content_hash": "",
+      "what_i_checked": "check 1 script: no Clarity election list (404)"
     }
   ],
-  "written_blind_at_utc": "2026-10-02T16:32:33Z",
-  "research_tag": "UNKNOWN",
-  "agree": false,
-  "comparison_notes": {
-    "2024_general": "same (UNDETERMINED). Both found the official links return 404.",
-    "2026_primary": "different: research UNDETERMINED (scanned file not read, upload after election night). I read pages 1 and 10 as images: footer 'Election Summary - 03/03/2026 10:07 PM' with 17 of 17 Election Day precincts reporting, contest totals only. Under the updated rule a county-totals file with a printed run time on election night is positive evidence, so LATER. Research says the PDF has 'no creation metadata', which matches pdfinfo, but the printed footer time is on the page.",
-    "2026_runoff": "same (UNDETERMINED).",
-    "unsupported_or_unchecked": "None unsupported; research did not read the scan's printed time. Tags differ (research UNKNOWN, verifier COUNTY_ONLY_PRECINCT_AT_CANVASS low)."
-  },
-  "compared_at_utc": "2026-10-02T16:32:43Z"
+  "written_blind_at_utc": "2026-10-02T22:55:15Z",
+  "previous_verification": {
+    "county": "Tyler",
+    "reason_selected": "random 10 percent sample",
+    "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+    "verifier_confidence": "low",
+    "elections": {
+      "2024_general": {
+        "result": "UNDETERMINED",
+        "check": "none",
+        "fact": "Election Information page has 2024 local option orders and notices; the 'Official Election Summary Results' and 'Official Election Precinct Summary Results' links (Election Summary.pdf, Election Precicnt Summary.pdf) return HTTP 404, so their election and dates cannot be read. No 2024 election-night file. Check 3 pending (no wayback folder)."
+      },
+      "2026_primary": {
+        "result": "LATER",
+        "check": "2",
+        "fact": "'UNOFFICIAL RESULTS' (RESULTS/2026 UNOFFICIAL RESULTS.pdf, 22-page scan, pages 1 and 10 read as images): 'Summary Results Report TX TYLER 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS PCT BY PCT REPORT Tyler County', 'Election Day Precincts Reporting 17 of 17', but the pages are contest totals (footer 'Election Summary - 03/03/2026 10:07 PM'); contests named 'REP JOP Pct 1' etc. are Justice of the Peace races, not per-precinct breakdowns. Last-Modified Wed, 04 Mar 2026 18:40:46 GMT (12:40 PM CST next day). County totals printed on election night; no per-precinct results posted; 'OFFICIAL RESULTS' links to the SOS site."
+      },
+      "2026_runoff": {
+        "result": "UNDETERMINED",
+        "check": "none",
+        "fact": "Runoff section lists notices only; no runoff results file. Check 3 pending."
+      }
+    },
+    "rationale": "Only the primary is determined (LATER: county-total summary printed 10:07 PM on election night, no precinct results posted), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+    "sources": [
+      {
+        "url": "https://www.co.tyler.tx.us/page/tyler.ElectionInformation",
+        "what_i_checked": "results file list",
+        "content_hash": "a753072580e96b20483601ec32bad82060a9e9961d719c7f894a123b9dbb3381"
+      },
+      {
+        "url": "https://www.co.tyler.tx.us/upload/page/3316/RESULTS/2026 UNOFFICIAL RESULTS.pdf",
+        "what_i_checked": "primary summary printed 10:07 PM, uploaded 18:40 GMT Mar 4, contest totals only",
+        "content_hash": "46056854de0ed36806b4586966550f64b97662ea85d39285a90826c683bc2d80"
+      },
+      {
+        "url": "https://www.co.tyler.tx.us/upload/page/3316/Election Summary.pdf",
+        "what_i_checked": "official summary link returns 404",
+        "content_hash": "f67fc72af6821a0fd2461c9336df4c49fbb8ed1b8f5caedf85baf2648594ecdd (HTTP 404 body)"
+      }
+    ],
+    "written_blind_at_utc": "2026-10-02T16:32:33Z",
+    "research_tag": "UNKNOWN",
+    "agree": false,
+    "comparison_notes": {
+      "2024_general": "same (UNDETERMINED). Both found the official links return 404.",
+      "2026_primary": "different: research UNDETERMINED (scanned file not read, upload after election night). I read pages 1 and 10 as images: footer 'Election Summary - 03/03/2026 10:07 PM' with 17 of 17 Election Day precincts reporting, contest totals only. Under the updated rule a county-totals file with a printed run time on election night is positive evidence, so LATER. Research says the PDF has 'no creation metadata', which matches pdfinfo, but the printed footer time is on the page.",
+      "2026_runoff": "same (UNDETERMINED).",
+      "unsupported_or_unchecked": "None unsupported; research did not read the scan's printed time. Tags differ (research UNKNOWN, verifier COUNTY_ONLY_PRECINCT_AT_CANVASS low)."
+    },
+    "compared_at_utc": "2026-10-02T16:32:43Z"
+  }
 }
