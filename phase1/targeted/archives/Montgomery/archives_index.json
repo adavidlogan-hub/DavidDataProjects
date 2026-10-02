@@ -1,0 +1,63 @@
+{
+  "county": "Montgomery",
+  "generated_utc": "2026-10-02T20:00:18Z",
+  "lookups": [
+    {
+      "url": "https://elections.mctx.org/ElectionResults.asp",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://elections.mctx.org/ElectionResults.asp",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://elections.mctx.org/ElectionResults.asp",
+          "ok": false,
+          "error": "URLError: [Errno 101] Network is unreachable",
+          "content_hash": null,
+          "mementos": []
+        }
+      }
+    },
+    {
+      "url": "https://elections.mctx.org/",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://elections.mctx.org/",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://elections.mctx.org/",
+          "ok": false,
+          "error": "URLError: [Errno 101] Network is unreachable",
+          "content_hash": null,
+          "mementos": []
+        }
+      }
+    },
+    {
+      "url": "https://www.mctx.org/departments/departments_d_-_f/elections/index.php",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.mctx.org/departments/departments_d_-_f/elections/index.php",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.mctx.org/departments/departments_d_-_f/elections/index.php",
+          "ok": false,
+          "error": "URLError: [Errno 101] Network is unreachable",
+          "content_hash": null,
+          "mementos": []
+        }
+      }
+    }
+  ]
+}

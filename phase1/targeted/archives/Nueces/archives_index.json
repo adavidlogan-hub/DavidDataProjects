@@ -1,0 +1,63 @@
+{
+  "county": "Nueces",
+  "generated_utc": "2026-10-02T20:10:25Z",
+  "lookups": [
+    {
+      "url": "https://www.nuecescountytx.gov/",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.nuecescountytx.gov/",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.nuecescountytx.gov/",
+          "ok": false,
+          "error": "URLError: [Errno 101] Network is unreachable",
+          "content_hash": null,
+          "mementos": []
+        }
+      }
+    },
+    {
+      "url": "https://www.nuecesco.com/",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.nuecesco.com/",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.nuecesco.com/",
+          "ok": false,
+          "error": "URLError: [Errno 101] Network is unreachable",
+          "content_hash": null,
+          "mementos": []
+        }
+      }
+    },
+    {
+      "url": "https://www.co.nueces.tx.us/elections/",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.co.nueces.tx.us/elections/",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.co.nueces.tx.us/elections/",
+          "ok": false,
+          "error": "URLError: [Errno 101] Network is unreachable",
+          "content_hash": null,
+          "mementos": []
+        }
+      }
+    }
+  ]
+}
