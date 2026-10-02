@@ -16,6 +16,7 @@ import os
 import ssl
 import time
 import urllib.error
+import http.cookiejar
 import urllib.request
 import urllib.robotparser
 from dataclasses import dataclass, field
@@ -75,7 +76,10 @@ class FetchClient:
     def _build_opener(self) -> urllib.request.OpenerDirector:
         cafile = self.cfg.ca_bundle or os.environ.get("SSL_CERT_FILE") or None
         ctx = ssl.create_default_context(cafile=cafile) if cafile else ssl.create_default_context()
-        return urllib.request.build_opener(urllib.request.HTTPSHandler(context=ctx))
+        # In-memory cookie jar, as a browser keeps: some public document portals (Laserfiche)
+        # set a session cookie and redirect, which loops without one. Never persisted.
+        return urllib.request.build_opener(urllib.request.HTTPSHandler(context=ctx),
+                                           urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
 
     # Public API ------------------------------------------------------------
     def get(self, url: str, *, use_cache: bool = True, max_age: float | None = None,
