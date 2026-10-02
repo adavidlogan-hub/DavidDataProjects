@@ -3,26 +3,142 @@
   "targets": [
     "johnsoncountytx.org"
   ],
-  "harvested_at_utc": "2026-10-02T16:50:57Z",
+  "harvested_at_utc": "2026-10-02T18:32:35Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "e895c291f4dd9b246889f9b36e571c351963e4f4dde77a430d3d1aa7c92593fe"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106030413",
+          "local": "2024-11-05 21:04:13 CST",
+          "original": "https://www.johnsoncountytx.org/departments/elections-office?os=firetvFno_journeystrue&ref=app",
+          "mimetype": "text/html",
+          "digest": "TDZ2ELOY4GF5XCO7QM754R3BOTUC4APO",
+          "length": "25392",
+          "replay_url": "https://web.archive.org/web/20241106030413id_/https://www.johnsoncountytx.org/departments/elections-office?os=firetvFno_journeystrue&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "ad7be694a8ac2a971c8093786271540c877b5e841d0d83079e7f72ccf12925da",
+          "saved_as": "Johnson/2024_general_20241106030413_ad7be694a8ac.html"
+        },
+        {
+          "timestamp_utc": "20241106040051",
+          "local": "2024-11-05 22:00:51 CST",
+          "original": "https://www.johnsoncountytx.org/departments/elections-office?os=wtmb5utkcxk5ref",
+          "mimetype": "text/html",
+          "digest": "5R6I4RYEYP752CLZUXATTSXOYV5GGIBN",
+          "length": "25406",
+          "replay_url": "https://web.archive.org/web/20241106040051id_/https://www.johnsoncountytx.org/departments/elections-office?os=wtmb5utkcxk5ref",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106045915",
+          "local": "2024-11-05 22:59:15 CST",
+          "original": "https://www.johnsoncountytx.org/departments/elections-office?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "6D2GWFV4G4ZPL7TJ4QCM66XIMSYU2XY3",
+          "length": "25381",
+          "replay_url": "https://web.archive.org/web/20241106045915id_/https://www.johnsoncountytx.org/departments/elections-office?os=0slw57psddf&ref=app",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106045922",
+          "local": "2024-11-05 22:59:22 CST",
+          "original": "https://www.johnsoncountytx.org/departments/elections-office?os=0slw57psddf",
+          "mimetype": "text/html",
+          "digest": "ANCNMTLBD4Z3RB6M2R3EGQVNM77TISGJ",
+          "length": "25385",
+          "replay_url": "https://web.archive.org/web/20241106045922id_/https://www.johnsoncountytx.org/departments/elections-office?os=0slw57psddf",
+          "ok": true,
+          "error": null,
+          "content_hash": "73a08b0ba6c6400ab17badad3dfe336c16ea274f2a7ec2f0867ab240432ffd63",
+          "saved_as": "Johnson/2024_general_20241106045922_73a08b0ba6c6.html"
+        },
+        {
+          "timestamp_utc": "20241106051130",
+          "local": "2024-11-05 23:11:30 CST",
+          "original": "https://www.johnsoncountytx.org/departments/elections-office/election-day-locations-primary-run-off?os=wtmb5utKCxk5ref%3Dapp",
+          "mimetype": "text/html",
+          "digest": "2CJMFBMC22CRCQ77YPZK5CLFBKLCC2F3",
+          "length": "25342",
+          "replay_url": "https://web.archive.org/web/20241106051130id_/https://www.johnsoncountytx.org/departments/elections-office/election-day-locations-primary-run-off?os=wtmb5utKCxk5ref%3Dapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "4240a8e9c866064e55a3b65c41f6b391bc6d8ca9bf224e315d189b5721c30b51",
+          "saved_as": "Johnson/2024_general_20241106051130_4240a8e9c866.html"
+        },
+        {
+          "timestamp_utc": "20241106080409",
+          "local": "2024-11-06 02:04:09 CST",
+          "original": "https://www.johnsoncountytx.org/departments/elections-office?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "ZUVEYGE2DZNWNJ6KJOMUT5YLXKT7X2Z6",
+          "length": "25374",
+          "replay_url": "https://web.archive.org/web/20241106080409id_/https://www.johnsoncountytx.org/departments/elections-office?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "46c822ee496f0f8d10e13eba99f8d0f673878e8dc3874b5838bcb7b78607c2b4",
+          "saved_as": "Johnson/2024_general_20241106080409_46c822ee496f.html"
+        },
+        {
+          "timestamp_utc": "20241106081531",
+          "local": "2024-11-06 02:15:31 CST",
+          "original": "https://www.johnsoncountytx.org/departments/elections-office?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "BUSGIGLUQGT7X23QPIDMVZ2W2A4OASHW",
+          "length": "25439",
+          "replay_url": "https://web.archive.org/web/20241106081531id_/https://www.johnsoncountytx.org/departments/elections-office?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "fdaabc736b2143079441b400e8a115e9c42d182f2d48017d88a2a40fc38fae86",
+          "saved_as": "Johnson/2024_general_20241106081531_fdaabc736b21.html"
+        },
+        {
+          "timestamp_utc": "20241106081544",
+          "local": "2024-11-06 02:15:44 CST",
+          "original": "https://www.johnsoncountytx.org/departments/elections-office?os=www.youtube.comdFwatchFvDep9IYJ93QII",
+          "mimetype": "text/html",
+          "digest": "XQJ3ETO5KPOHJCPRFIJYZR4NEEXCHLJ5",
+          "length": "25403",
+          "replay_url": "https://web.archive.org/web/20241106081544id_/https://www.johnsoncountytx.org/departments/elections-office?os=www.youtube.comdFwatchFvDep9IYJ93QII",
+          "ok": true,
+          "error": null,
+          "content_hash": "6fc1bdeaa00fd431149b3e8b94ff1925dacca825b2d6e3e81afe08c9825d2f31",
+          "saved_as": "Johnson/2024_general_20241106081544_6fc1bdeaa00f.html"
+        },
+        {
+          "timestamp_utc": "20241106081551",
+          "local": "2024-11-06 02:15:51 CST",
+          "original": "https://www.johnsoncountytx.org/departments/elections-office?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "3UUIEC2BIQENHMBQOBNTA5PRODPFMXAM",
+          "length": "24971",
+          "replay_url": "https://web.archive.org/web/20241106081551id_/https://www.johnsoncountytx.org/departments/elections-office?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "f9d0fcacab21afd10aed5c19cf467626a4a1af36cad13a12a33c7cefe0dca4e4",
+          "saved_as": "Johnson/2024_general_20241106081551_f9d0fcacab21.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +147,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 9
 }

@@ -3,26 +3,336 @@
   "targets": [
     "collincountytx.gov"
   ],
-  "harvested_at_utc": "2026-10-02T16:50:57Z",
+  "harvested_at_utc": "2026-10-02T18:14:00Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=collincountytx.gov&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "cd513a7594c35364601e1b4f1f8324a50d50bd122770d05693e4fa211af61259"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106022644",
+          "local": "2024-11-05 20:26:44 CST",
+          "original": "https://www.collincountytx.gov/Elections/live",
+          "mimetype": "text/html",
+          "digest": "PVPIDKT2LXIAIBQR47KMXTPUSBQMJD27",
+          "length": "12076",
+          "replay_url": "https://web.archive.org/web/20241106022644id_/https://www.collincountytx.gov/Elections/live",
+          "ok": true,
+          "error": null,
+          "content_hash": "44ccee4a41f05ae4ce441875dce3c91aa04af4573eca9339032869cac240367e",
+          "saved_as": "Collin/2024_general_20241106022644_44ccee4a41f0.html"
+        },
+        {
+          "timestamp_utc": "20241106043447",
+          "local": "2024-11-05 22:34:47 CST",
+          "original": "https://www.collincountytx.gov/Elections/ResultsArchive/November%203,%202020%20Combined%20Accumulated%20Totals.pdf?os=bingquiz.combing-entertainment-quiz&ref=app",
+          "mimetype": "application/pdf",
+          "digest": "4VZTU55LKGKQVVLJDJJ2AMGUHYP6A7NS",
+          "length": "112123",
+          "replay_url": "https://web.archive.org/web/20241106043447id_/https://www.collincountytx.gov/Elections/ResultsArchive/November%203,%202020%20Combined%20Accumulated%20Totals.pdf?os=bingquiz.combing-entertainment-quiz&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "2167ef318014e07e522f361af70e3eece3781ec5bfdc5268e8ba8817b8c9cac4",
+          "saved_as": "Collin/2024_general_20241106043447_2167ef318014.pdf"
+        },
+        {
+          "timestamp_utc": "20241106045858",
+          "local": "2024-11-05 22:58:58 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=0slw57psddf",
+          "mimetype": "text/html",
+          "digest": "TSBSP2VEQBAKU7WZ7ZTF5PXL5BMZMJSV",
+          "length": "13043",
+          "replay_url": "https://web.archive.org/web/20241106045858id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=0slw57psddf",
+          "ok": true,
+          "error": null,
+          "content_hash": "6b861cad70dfff4b0112228f4b8ae507d7d724606e78f819537dac0b4f2091a2",
+          "saved_as": "Collin/2024_general_20241106045858_6b861cad70df.html"
+        },
+        {
+          "timestamp_utc": "20241106045908",
+          "local": "2024-11-05 22:59:08 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "B3IZKBGIFYVQJLPYSO6NFFUUSCTXT7DA",
+          "length": "13066",
+          "replay_url": "https://web.archive.org/web/20241106045908id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=0slw57psddf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "d16c465c11867d9ec59c8d3d8a963959446ea13821b2694ad35f6f70e1e93aa3",
+          "saved_as": "Collin/2024_general_20241106045908_d16c465c1186.html"
+        },
+        {
+          "timestamp_utc": "20241106045934",
+          "local": "2024-11-05 22:59:34 CST",
+          "original": "https://www.collincountytx.gov/elections/Pages/default.aspx?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "762D5BQHQAYN2NGPESPLQNOE7G6TMOTZ",
+          "length": "17049",
+          "replay_url": "https://web.archive.org/web/20241106045934id_/https://www.collincountytx.gov/elections/Pages/default.aspx?os=0slw57psddf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "83c5ba00a9d72a2e989e3b653b37b3dcf4ccc39b83b9f838b331062ec17e4e89",
+          "saved_as": "Collin/2024_general_20241106045934_83c5ba00a9d7.html"
+        },
+        {
+          "timestamp_utc": "20241106050231",
+          "local": "2024-11-05 23:02:31 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=qtfT_1no_journeystrue&ref=app",
+          "mimetype": "text/html",
+          "digest": "6X5GLTCLA5XVF3NUMUYPBMRFZ643DMSA",
+          "length": "13072",
+          "replay_url": "https://web.archive.org/web/20241106050231id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=qtfT_1no_journeystrue&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "8578657503bc7a13d6eed93873a8bbf4c7b1b06d2fab3875da1d495cb477ec6e",
+          "saved_as": "Collin/2024_general_20241106050231_8578657503bc.html"
+        },
+        {
+          "timestamp_utc": "20241106050710",
+          "local": "2024-11-05 23:07:10 CST",
+          "original": "https://www.collincountytx.gov/elections/Pages/default.aspx?os=vbkn42tqhoorjmxr5b",
+          "mimetype": "text/html",
+          "digest": "TCADJDPQENHEMDDQNJOHZKGGT4NDEAXX",
+          "length": "17009",
+          "replay_url": "https://web.archive.org/web/20241106050710id_/https://www.collincountytx.gov/elections/Pages/default.aspx?os=vbkn42tqhoorjmxr5b",
+          "ok": true,
+          "error": null,
+          "content_hash": "a4a98fb70afbcaa8603a823738c76558c8301f08771aca4593f0885d84e14134",
+          "saved_as": "Collin/2024_general_20241106050710_a4a98fb70afb.html"
+        },
+        {
+          "timestamp_utc": "20241106061336",
+          "local": "2024-11-06 00:13:36 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=io...b0&ref=app",
+          "mimetype": "text/html",
+          "digest": "MFZNXVT4UDB5DQWVVN5O3PUHNZFKK6ZV",
+          "length": "13067",
+          "replay_url": "https://web.archive.org/web/20241106061336id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=io...b0&ref=app",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106063547",
+          "local": "2024-11-06 00:35:47 CST",
+          "original": "https://www.collincountytx.gov/Elections/election-information",
+          "mimetype": "text/html",
+          "digest": "FGSXAV6L6YXTGEDUQGDLFDPYMY7APTF5",
+          "length": "12827",
+          "replay_url": "https://web.archive.org/web/20241106063547id_/https://www.collincountytx.gov/Elections/election-information",
+          "ok": true,
+          "error": null,
+          "content_hash": "724fc4682193987530afa8d2d8b63a5bba3d88beebe46a686ac53c88ecbdcc42",
+          "saved_as": "Collin/2024_general_20241106063547_724fc4682193.html"
+        },
+        {
+          "timestamp_utc": "20241106064855",
+          "local": "2024-11-06 00:48:55 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "67TB7SO2AECIGQKUS7TXCY7B2VQE2FXT",
+          "length": "13100",
+          "replay_url": "https://web.archive.org/web/20241106064855id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": false,
+          "error": "URLError: _ssl.c:999: The handshake operation timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106064855",
+          "local": "2024-11-06 00:48:55 CST",
+          "original": "https://www.collincountytx.gov/elections/Pages/default.aspx?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "ZCYBU5OKQYMCTIIXBGRWDELSHOM2KH33",
+          "length": "17067",
+          "replay_url": "https://web.archive.org/web/20241106064855id_/https://www.collincountytx.gov/elections/Pages/default.aspx?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106064906",
+          "local": "2024-11-06 00:49:06 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "GQNT36DAIKRNEUPL7KSYMTZRHT4UQ74I",
+          "length": "13067",
+          "replay_url": "https://web.archive.org/web/20241106064906id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "7fc3235d30578a4766fe6ce3a007d46f79c624aa5dfd100a48ac8ca4853c45cc",
+          "saved_as": "Collin/2024_general_20241106064906_7fc3235d3057.html"
+        },
+        {
+          "timestamp_utc": "20241106064920",
+          "local": "2024-11-06 00:49:20 CST",
+          "original": "https://www.collincountytx.gov/elections/Pages/default.aspx?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "PGIM2GBVQOT7HMFDWJXW6PKSQUTOBAVR",
+          "length": "17052",
+          "replay_url": "https://web.archive.org/web/20241106064920id_/https://www.collincountytx.gov/elections/Pages/default.aspx?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "32138efa0f0d9ef3b2c673b930ed16097d4536f901ae296c53327c8074d7569f",
+          "saved_as": "Collin/2024_general_20241106064920_32138efa0f0d.html"
+        },
+        {
+          "timestamp_utc": "20241106075754",
+          "local": "2024-11-06 01:57:54 CST",
+          "original": "https://www.collincountytx.gov/Elections/ElectionRosters/Totals%20by%20Site%20through%20November%201,%202024.PDF",
+          "mimetype": "application/pdf",
+          "digest": "SU6YVQQPPBEPSZBUBQCIWU4ZPMPVM6L5",
+          "length": "30485",
+          "replay_url": "https://web.archive.org/web/20241106075754id_/https://www.collincountytx.gov/Elections/ElectionRosters/Totals%20by%20Site%20through%20November%201,%202024.PDF",
+          "ok": true,
+          "error": null,
+          "content_hash": "e9f58a62a5bd5df5dcfbb2d99af2ca6b5315b437bdd18fd1b43e7525a661ee3d",
+          "saved_as": "Collin/2024_general_20241106075754_e9f58a62a5bd.pdf"
+        },
+        {
+          "timestamp_utc": "20241106075822",
+          "local": "2024-11-06 01:58:22 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=dio____refapp%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C'&ref=app",
+          "mimetype": "text/html",
+          "digest": "GUVNU33FFPDFIJ2DMY5V7IZFMAIHIQIP",
+          "length": "13098",
+          "replay_url": "https://web.archive.org/web/20241106075822id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=dio____refapp%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C'&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "36a85cd02a591c278e772b3653447d02feb04c67f3fdce9a4821e2978fbdba3f",
+          "saved_as": "Collin/2024_general_20241106075822_36a85cd02a59.html"
+        },
+        {
+          "timestamp_utc": "20241106080339",
+          "local": "2024-11-06 02:03:39 CST",
+          "original": "https://www.collincountytx.gov/elections/Pages/default.aspx?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "UZOCAU2QL6GQPN7OLERU5NOVCNH27CMR",
+          "length": "17014",
+          "replay_url": "https://web.archive.org/web/20241106080339id_/https://www.collincountytx.gov/elections/Pages/default.aspx?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "255a36f4d3a84333ed379c6b925fd389051cd71ff5e81355f2cb5ff236cdaa82",
+          "saved_as": "Collin/2024_general_20241106080339_255a36f4d3a8.html"
+        },
+        {
+          "timestamp_utc": "20241106080402",
+          "local": "2024-11-06 02:04:02 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "R5V5OC2TF3L3ITDHTUXKUXXFX3UHOKU2",
+          "length": "13037",
+          "replay_url": "https://web.archive.org/web/20241106080402id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "2ea6812053fdfb6dc61149d151221358beb0f54aeaf2dae2a827de57f839049c",
+          "saved_as": "Collin/2024_general_20241106080402_2ea6812053fd.html"
+        },
+        {
+          "timestamp_utc": "20241106080416",
+          "local": "2024-11-06 02:04:16 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "OGUPJEGK6ABUI7YSEXAQIXMMWCOMQD5B",
+          "length": "12811",
+          "replay_url": "https://web.archive.org/web/20241106080416id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "b0cb02b584222f4a697e36dbda3786e0f477972aa66159c3365ab412e7fdff7f",
+          "saved_as": "Collin/2024_general_20241106080416_b0cb02b58422.html"
+        },
+        {
+          "timestamp_utc": "20241106080456",
+          "local": "2024-11-06 02:04:56 CST",
+          "original": "https://www.collincountytx.gov/elections/Pages/default.aspx?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "QDFRLJFVJTEVAIEC6K4ZH6FLQP7VGHNP",
+          "length": "16823",
+          "replay_url": "https://web.archive.org/web/20241106080456id_/https://www.collincountytx.gov/elections/Pages/default.aspx?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "c39f1f23883f925439ff8fda42bc49864532ca8908b0353605d6791b2d5d4c98",
+          "saved_as": "Collin/2024_general_20241106080456_c39f1f23883f.html"
+        },
+        {
+          "timestamp_utc": "20241106081458",
+          "local": "2024-11-06 02:14:58 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "23OXXUNZVCO37QSA47XEZMRAR33H3VEL",
+          "length": "13047",
+          "replay_url": "https://web.archive.org/web/20241106081458id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "bd552a11afffc22268f45304867d0dfe8628aa1b7a8569153be754790783ef28",
+          "saved_as": "Collin/2024_general_20241106081458_bd552a11afff.html"
+        },
+        {
+          "timestamp_utc": "20241106081500",
+          "local": "2024-11-06 02:15:00 CST",
+          "original": "https://www.collincountytx.gov/elections/Pages/default.aspx?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "WMLKKRQYXPEADEGOHWPOH3PBJQFTPTBX",
+          "length": "17040",
+          "replay_url": "https://web.archive.org/web/20241106081500id_/https://www.collincountytx.gov/elections/Pages/default.aspx?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "22f59ac360554c5857c7ebb788215afde6c5635efbdb317b67d66ef889816fdf",
+          "saved_as": "Collin/2024_general_20241106081500_22f59ac36055.html"
+        },
+        {
+          "timestamp_utc": "20241106081510",
+          "local": "2024-11-06 02:15:10 CST",
+          "original": "https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "JZR7PMVJMEBTBK3PRGBIADP2VULUOTOS",
+          "length": "12947",
+          "replay_url": "https://web.archive.org/web/20241106081510id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "6efb791b6ada70f37f709164da5cde631207f33337d87c81ff6402f02c36894d",
+          "saved_as": "Collin/2024_general_20241106081510_6efb791b6ada.html"
+        },
+        {
+          "timestamp_utc": "20241106081607",
+          "local": "2024-11-06 02:16:07 CST",
+          "original": "https://www.collincountytx.gov/elections/Pages/default.aspx?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "PSG27CMMUAZSN5PGS4WK724M2H5NFREP",
+          "length": "17026",
+          "replay_url": "https://web.archive.org/web/20241106081607id_/https://www.collincountytx.gov/elections/Pages/default.aspx?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "eef943cb57441537ebef506acd42f0360f451635592696b8965acad73e990b93",
+          "saved_as": "Collin/2024_general_20241106081607_eef943cb5744.html"
+        },
+        {
+          "timestamp_utc": "20241106081841",
+          "local": "2024-11-06 02:18:41 CST",
+          "original": "https://www.collincountytx.gov/elections/Pages/default.aspx?os=firetvno_journeystruekjuhl2zj&ref=app",
+          "mimetype": "text/html",
+          "digest": "67D2U3DD4LXSRVJY32EPMD2IZDR5QYT5",
+          "length": "17039",
+          "replay_url": "https://web.archive.org/web/20241106081841id_/https://www.collincountytx.gov/elections/Pages/default.aspx?os=firetvno_journeystruekjuhl2zj&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "cb56f2c4929cacd9a3f44d9ab4fa911aed77fcb6bbb8ec3e230e34738f309a65",
+          "saved_as": "Collin/2024_general_20241106081841_cb56f2c4929c.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=collincountytx.gov&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +341,27 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=collincountytx.gov&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "b7a73e6356b490d55eaa756c4f990c74ab8dd476ca8c3180acff6c8435ba6186"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20260527042720",
+          "local": "2026-05-26 23:27:20 CDT",
+          "original": "https://www.collincountytx.gov/elections/voter-registration-information",
+          "mimetype": "text/html",
+          "digest": "ZZ7QPZQD25UHNAV6A4YY2KHIEJBSCQS7",
+          "length": "17849",
+          "replay_url": "https://web.archive.org/web/20260527042720id_/https://www.collincountytx.gov/elections/voter-registration-information",
+          "ok": true,
+          "error": null,
+          "content_hash": "0cf5673333e3b2e2d0f1c09d4712d5c043cb805a5caf72a997f0d27cf0a2e676",
+          "saved_as": "Collin/2026_runoff_20260527042720_0cf5673333e3.html"
+        }
+      ]
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 25
 }

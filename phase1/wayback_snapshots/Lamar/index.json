@@ -3,26 +3,207 @@
   "targets": [
     "co.lamar.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:50:57Z",
+  "harvested_at_utc": "2026-10-02T18:37:34Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.lamar.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "43979e16325444662429bd1a5ec807885629c39caa2cce26b7a8fb8a64145e2c"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106035855",
+          "local": "2024-11-05 21:58:55 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=wtmb5utKCxk5refDapp",
+          "mimetype": "text/html",
+          "digest": "CPSTAKER7QA4Z2NV5B2PMXAF3NGRMQTW",
+          "length": "10503",
+          "replay_url": "https://web.archive.org/web/20241106035855id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=wtmb5utKCxk5refDapp",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106045922",
+          "local": "2024-11-05 22:59:22 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "BZLJ76QVBP2T5NLINNYHBZPVRU3M5YHG",
+          "length": "10506",
+          "replay_url": "https://web.archive.org/web/20241106045922id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=0slw57psddf&ref=app",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106050052",
+          "local": "2024-11-05 23:00:52 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=0slw57psddf",
+          "mimetype": "text/html",
+          "digest": "YCP5MGLHPBL3GA2VLKOKX57NQ7CS3VTV",
+          "length": "10490",
+          "replay_url": "https://web.archive.org/web/20241106050052id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=0slw57psddf",
+          "ok": true,
+          "error": null,
+          "content_hash": "fc0cdafdbf987178addd8828a6b5f84644b214c2453be10c930c10a3b67b3e33",
+          "saved_as": "Lamar/2024_general_20241106050052_fc0cdafdbf98.html"
+        },
+        {
+          "timestamp_utc": "20241106054754",
+          "local": "2024-11-05 23:47:54 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=wtmb5utKCxk5refDappF",
+          "mimetype": "text/html",
+          "digest": "2E2WM275UO347RCPPYLRDVOCPJZUXRON",
+          "length": "10505",
+          "replay_url": "https://web.archive.org/web/20241106054754id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=wtmb5utKCxk5refDappF",
+          "ok": true,
+          "error": null,
+          "content_hash": "2cbf72da8b240fdcafd5e693c8e1fa6862bd3f082b57cf3679a8b2afbb2076a4",
+          "saved_as": "Lamar/2024_general_20241106054754_2cbf72da8b24.html"
+        },
+        {
+          "timestamp_utc": "20241106062406",
+          "local": "2024-11-06 00:24:06 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=fno_journeystrueFno_journeysDtrue&ref=app",
+          "mimetype": "text/html",
+          "digest": "UJHWCYOK3IUJA7SLKVBIIPW5Y23UVBDB",
+          "length": "10517",
+          "replay_url": "https://web.archive.org/web/20241106062406id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=fno_journeystrueFno_journeysDtrue&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "6aeec363bb8fce83506de1ae1dde8def0618524826e40ae4b5edc915d7e6e9f5",
+          "saved_as": "Lamar/2024_general_20241106062406_6aeec363bb8f.html"
+        },
+        {
+          "timestamp_utc": "20241106062419",
+          "local": "2024-11-06 00:24:19 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=fno_journeystrueFno_journeysDtrue",
+          "mimetype": "text/html",
+          "digest": "GYHUWVY7Z23342MCMVDUBGOHAWGYDFOY",
+          "length": "10500",
+          "replay_url": "https://web.archive.org/web/20241106062419id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=fno_journeystrueFno_journeysDtrue",
+          "ok": true,
+          "error": null,
+          "content_hash": "b5ecf30d1315607efc46956526136c9464b655f8eb20e12a9ea61f32a13a119e",
+          "saved_as": "Lamar/2024_general_20241106062419_b5ecf30d1315.html"
+        },
+        {
+          "timestamp_utc": "20241106065016",
+          "local": "2024-11-06 00:50:16 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "4RD7WSTRDF2O6T6MNGALQEPZWGGETHVF",
+          "length": "10509",
+          "replay_url": "https://web.archive.org/web/20241106065016id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "b6419bd6401c051349da30d464031132a7c1274c7c18aa75b748d403823db34f",
+          "saved_as": "Lamar/2024_general_20241106065016_b6419bd6401c.html"
+        },
+        {
+          "timestamp_utc": "20241106065033",
+          "local": "2024-11-06 00:50:33 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "CLOYNNX6K2ZFHDYZN4PVX7MRGEE2V2H2",
+          "length": "10523",
+          "replay_url": "https://web.archive.org/web/20241106065033id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "2dfd59933186e3793ccb8e6214b081bb5c3e8768f429bb7a4a7f3f24dd4a084f",
+          "saved_as": "Lamar/2024_general_20241106065033_2dfd59933186.html"
+        },
+        {
+          "timestamp_utc": "20241106080502",
+          "local": "2024-11-06 02:05:02 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "2ICCUS3TIRX2BCSEMEV57MVLHPQW5L2B",
+          "length": "10501",
+          "replay_url": "https://web.archive.org/web/20241106080502id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "823367734bcb8d5e4c82b0071c4bf0a6b221a50f47386179fd4eeeb336f0ddc8",
+          "saved_as": "Lamar/2024_general_20241106080502_823367734bcb.html"
+        },
+        {
+          "timestamp_utc": "20241106080517",
+          "local": "2024-11-06 02:05:17 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "4KNSJY6T4HOMEWYC2DESLK4KDW32U3LC",
+          "length": "10493",
+          "replay_url": "https://web.archive.org/web/20241106080517id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "767b9da4def59178ade974ca88264e0f0a3feee7fb070148559f6e67522afdcf",
+          "saved_as": "Lamar/2024_general_20241106080517_767b9da4def5.html"
+        },
+        {
+          "timestamp_utc": "20241106081546",
+          "local": "2024-11-06 02:15:46 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "WI3A6GOSQLCJX4RUIRSKIMMK5OGZCBCH",
+          "length": "10517",
+          "replay_url": "https://web.archive.org/web/20241106081546id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "668719b40a06e4d84acb42846a8064f443293d6e86d8ff44e09914881f87f3dc",
+          "saved_as": "Lamar/2024_general_20241106081546_668719b40a06.html"
+        },
+        {
+          "timestamp_utc": "20241106081627",
+          "local": "2024-11-06 02:16:27 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "2MEFT2HPXWNOLQZHVSFCM3252WVRPIYX",
+          "length": "10506",
+          "replay_url": "https://web.archive.org/web/20241106081627id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "abfaf16e6dce2147cad4cc8d25f563088030d9fecb4c9e27498ba7a45c9f2ca7",
+          "saved_as": "Lamar/2024_general_20241106081627_abfaf16e6dce.html"
+        },
+        {
+          "timestamp_utc": "20241106081840",
+          "local": "2024-11-06 02:18:40 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=fuzzscanL12trCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "mimetype": "text/html",
+          "digest": "VVB6KYUKMDQWT6OE2WXATL375AM6PC6Z",
+          "length": "10501",
+          "replay_url": "https://web.archive.org/web/20241106081840id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=fuzzscanL12trCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "ok": true,
+          "error": null,
+          "content_hash": "cb95ac4bc21184b75f8b4c6d67eb6f9051143369a7027e4054d62a9709726a00",
+          "saved_as": "Lamar/2024_general_20241106081840_cb95ac4bc211.html"
+        },
+        {
+          "timestamp_utc": "20241106082513",
+          "local": "2024-11-06 02:25:13 CST",
+          "original": "https://www.co.lamar.tx.us/page/lamar.Elections?os=io....sxj9oul9%3Fno_journeystrue&ref=app",
+          "mimetype": "text/html",
+          "digest": "KXFQW55QKV3Z2HND45627CEYUZOZIFLQ",
+          "length": "10521",
+          "replay_url": "https://web.archive.org/web/20241106082513id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=io....sxj9oul9%3Fno_journeystrue&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "9331b875f40dee7ec7c619ecab4474804da932ce4548f931acd1ba746821a858",
+          "saved_as": "Lamar/2024_general_20241106082513_9331b875f40d.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.lamar.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +212,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.lamar.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 14
 }

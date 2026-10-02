@@ -3,26 +3,181 @@
   "targets": [
     "co.navarro.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:50:57Z",
+  "harvested_at_utc": "2026-10-02T18:47:41Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.navarro.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "240d70ab77aa19d805f8f2fb5e1fb4f4905fbde63634d244b747b755b1b2d765"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106044118",
+          "local": "2024-11-05 22:41:18 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=vbkn4ztqhoorjmxr5bP0w2IDHZ",
+          "mimetype": "text/html",
+          "digest": "JPFNXAF7KW2SSVNQPZXYIF7H325KKGNM",
+          "length": "16496",
+          "replay_url": "https://web.archive.org/web/20241106044118id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=vbkn4ztqhoorjmxr5bP0w2IDHZ",
+          "ok": true,
+          "error": null,
+          "content_hash": "19dd8cf031a7bac7cc82327b10e34c325b27611b63fb3f37ee56cbad764c5390",
+          "saved_as": "Navarro/2024_general_20241106044118_19dd8cf031a7.html"
+        },
+        {
+          "timestamp_utc": "20241106050019",
+          "local": "2024-11-05 23:00:19 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "FAV7OCEHOPDHKKMYVLT3CCCEGMRGRUIG",
+          "length": "16489",
+          "replay_url": "https://web.archive.org/web/20241106050019id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=0slw57psddf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "a8cc04d2e6bfbda098ecfcbe053f1530c253fc2a4f8a4caa5aceb396dc928f22",
+          "saved_as": "Navarro/2024_general_20241106050019_a8cc04d2e6bf.html"
+        },
+        {
+          "timestamp_utc": "20241106050057",
+          "local": "2024-11-05 23:00:57 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=0slw57psddf",
+          "mimetype": "text/html",
+          "digest": "54HDCOBKCXZXFH4UG44H3BU3A7RGGDPK",
+          "length": "16481",
+          "replay_url": "https://web.archive.org/web/20241106050057id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=0slw57psddf",
+          "ok": true,
+          "error": null,
+          "content_hash": "277f784c5912ba5c81005a5da276a3637e23178f7f21b611efd265fcc6f8da41",
+          "saved_as": "Navarro/2024_general_20241106050057_277f784c5912.html"
+        },
+        {
+          "timestamp_utc": "20241106064937",
+          "local": "2024-11-06 00:49:37 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "ZQSMMTWSTFP4ZYPD4RB2VCASVRQZBE3E",
+          "length": "16493",
+          "replay_url": "https://web.archive.org/web/20241106064937id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "df7268a2d5fe7588cf2c08aaf89607b07d9c5155eadce8d6e1668c9f40bc1418",
+          "saved_as": "Navarro/2024_general_20241106064937_df7268a2d5fe.html"
+        },
+        {
+          "timestamp_utc": "20241106064948",
+          "local": "2024-11-06 00:49:48 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "ADAMQYSCW57CWMQDW6HUIL5M3RMQBZDW",
+          "length": "16483",
+          "replay_url": "https://web.archive.org/web/20241106064948id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106072850",
+          "local": "2024-11-06 01:28:50 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=0slw57psddF&ref=app",
+          "mimetype": "text/html",
+          "digest": "5UWA2C7AD6TR64Y7UW2L63TLZKYKGTHK",
+          "length": "16480",
+          "replay_url": "https://web.archive.org/web/20241106072850id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=0slw57psddF&ref=app",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106080316",
+          "local": "2024-11-06 02:03:16 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=fuzzscanL12trCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC&ref=app",
+          "mimetype": "text/html",
+          "digest": "LLRNKP6YR5O52IZBBUDTU5O4IHI24EZR",
+          "length": "16502",
+          "replay_url": "https://web.archive.org/web/20241106080316id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=fuzzscanL12trCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "86822c2c8e87d1c1d992ac40cce4cb81dd444e1e2519e6eebe4cece42cbf2b15",
+          "saved_as": "Navarro/2024_general_20241106080316_86822c2c8e87.html"
+        },
+        {
+          "timestamp_utc": "20241106080448",
+          "local": "2024-11-06 02:04:48 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "UQH3EODGDKRITDUDUP2NNCLY54KKUUAB",
+          "length": "16475",
+          "replay_url": "https://web.archive.org/web/20241106080448id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "39916c74278115b4201c200f5dbeec75ac63f5e9ac89ebfdf97b20d5aa3b24ad",
+          "saved_as": "Navarro/2024_general_20241106080448_39916c742781.html"
+        },
+        {
+          "timestamp_utc": "20241106080533",
+          "local": "2024-11-06 02:05:33 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "76MDBEVCEHBMIIS6VHKAXGPYZLM34ISZ",
+          "length": "16487",
+          "replay_url": "https://web.archive.org/web/20241106080533id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "3a09a49e5cea50a4b528b7bbe63c7136d1433d73877bdd38834433b698442d9d",
+          "saved_as": "Navarro/2024_general_20241106080533_3a09a49e5cea.html"
+        },
+        {
+          "timestamp_utc": "20241106081556",
+          "local": "2024-11-06 02:15:56 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "UWTBVKYPAJXDXQK6ERLHZ3MBTNYMYPGD",
+          "length": "16493",
+          "replay_url": "https://web.archive.org/web/20241106081556id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "063946e908ef3a0063e9d289c4f8e06ebf4ae4dcde471576ca967a25f0d460c5",
+          "saved_as": "Navarro/2024_general_20241106081556_063946e908ef.html"
+        },
+        {
+          "timestamp_utc": "20241106081718",
+          "local": "2024-11-06 02:17:18 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "QFUEPNDYLMS6SDAILEHRFG24HSAI2YF2",
+          "length": "16501",
+          "replay_url": "https://web.archive.org/web/20241106081718id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "50c231815c61c56181c2d629d368a59453faf60af61003a37e150f964c91895e",
+          "saved_as": "Navarro/2024_general_20241106081718_50c231815c61.html"
+        },
+        {
+          "timestamp_utc": "20241106084450",
+          "local": "2024-11-06 02:44:50 CST",
+          "original": "https://www.co.navarro.tx.us/page/navarro.Elections?os=vb_swmkumk5",
+          "mimetype": "text/html",
+          "digest": "YRAUSHDKBCE6XFVLNQI3RM7KISOIEXAR",
+          "length": "16477",
+          "replay_url": "https://web.archive.org/web/20241106084450id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=vb_swmkumk5",
+          "ok": true,
+          "error": null,
+          "content_hash": "b29a87726632c9d4d011986e803c91155094b4601998c18f7ead992d0665d13d",
+          "saved_as": "Navarro/2024_general_20241106084450_b29a87726632.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.navarro.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +186,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.navarro.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 12
 }
