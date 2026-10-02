@@ -2,12 +2,17 @@
  "county": "Jim Hogg",
  "reason_selected": "tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)",
  "verifier_tag": "PRECINCT_END_OF_NIGHT",
- "verifier_confidence": "med",
+ "verifier_confidence": "low",
  "elections": {
   "2024_general": {
-   "result": "END",
-   "check": "2",
-   "fact": "'Precinct Results-11-5-2024.pdf': 'Precinct Results Report Unofficial Results JIM HOGG COUNTY, TEXAS ... GENERAL ELECTION', per-precinct with Absentee/Early/Election Day columns (Precinct 1 President: Trump 12 / 65 / 92 = 169), printed 'Run Time 7:39 PM Run Date 11/05/2024' (CreationDate 2024-11-06 01:40:10 UTC, ModDate 02:01:01 UTC = 8:01 PM CST). Companion 'Election Results-11-5-2024.pdf' cumulative, same run time. Caveat: Last-Modified Wed, 06 Nov 2024 13:25:31 GMT (7:25 AM CST Nov 6), so the surviving copy was uploaded the next morning; END rests on the printed run time only. Wayback folder exists but its 2024 CDX query timed out (no captures)."
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "'Precinct Results-11-5-2024.pdf': 'Precinct Results Report Unofficial Results JIM HOGG COUNTY, TEXAS ... GENERAL ELECTION', per-precinct with Absentee/Early/Election Day columns (Precinct 1 President: Trump 12 / 65 / 92 = 169), printed 'Run Time 7:39 PM Run Date 11/05/2024' (CreationDate 2024-11-06 01:40:10 UTC, ModDate 02:01:01 UTC = 8:01 PM CST). Companion 'Election Results-11-5-2024.pdf' cumulative, same run time. Caveat: Last-Modified Wed, 06 Nov 2024 13:25:31 GMT (7:25 AM CST Nov 6), so the surviving copy was uploaded the next morning; END rests on the printed run time only. Wayback folder exists but its 2024 CDX query timed out (no captures).",
+   "rule_47_previous": {
+    "result": "END",
+    "check": "2"
+   },
+   "rule_47_note": "DECISIONS 47: a known later upload cannot show election-night publication; precinct report upload 2024-11-06 07:25 CT (Last-Modified 13:25:31 GMT) is after election night, so UNDETERMINED (facts unchanged)."
   },
   "2026_primary": {
    "result": "END",
@@ -15,12 +20,17 @@
    "fact": "'Unofficial Precinct Results 3-3-2026' (2026/Unofficial Precinct Results-3-3-2026.pdf): 'Precinct Results Report Unofficial Results ... PRIMARY ELECTION', per-precinct with Election Day column (Precinct 1 DEM US Senator: Talarico 19 / 56 / 45 = 120), printed 'Run Time 8:47 PM Run Date 03/03/2026' (CreationDate 2026-03-04 02:48:22 UTC); Last-Modified Wed, 04 Mar 2026 06:41:37 GMT (12:41 AM CST, election night). Cumulative companion Last-Modified 06:41:12 GMT. Single election-night precinct posting. Wayback CDX for this window returned no captures."
   },
   "2026_runoff": {
-   "result": "END",
-   "check": "2",
-   "fact": "'Unofficial Precinct Results' (2026/Unofficial Precinct Results.pdf): 'Precinct Results Report Unofficial Results ... PRIMARY RUNOFF ELECTION', per-precinct with Election Day column, printed 'Run Time 7:16 PM Run Date 05/26/2026' (CreationDate 2026-05-27 00:16:56 UTC). Its cumulative companion (7:15 PM) equals the official canvass totals (Lt. Gov. DEM Velez 39 / 14 / 2 = 55), so it is the final unofficial count. Caveat: Last-Modified Wed, 27 May 2026 18:23:42 GMT (1:23 PM CDT May 27); END rests on the printed run time only. Wayback CDX for this window timed out."
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "'Unofficial Precinct Results' (2026/Unofficial Precinct Results.pdf): 'Precinct Results Report Unofficial Results ... PRIMARY RUNOFF ELECTION', per-precinct with Election Day column, printed 'Run Time 7:16 PM Run Date 05/26/2026' (CreationDate 2026-05-27 00:16:56 UTC). Its cumulative companion (7:15 PM) equals the official canvass totals (Lt. Gov. DEM Velez 39 / 14 / 2 = 55), so it is the final unofficial count. Caveat: Last-Modified Wed, 27 May 2026 18:23:42 GMT (1:23 PM CDT May 27); END rests on the printed run time only. Wayback CDX for this window timed out.",
+   "rule_47_previous": {
+    "result": "END",
+    "check": "2"
+   },
+   "rule_47_note": "DECISIONS 47: a known later upload cannot show election-night publication; precinct report upload 2026-05-27 13:23 CT (Last-Modified 18:23:42 GMT) is after election night, so UNDETERMINED (facts unchanged)."
   }
  },
- "rationale": "All three elections have one unofficial precinct-by-precinct report with election-day votes and the final count, printed on election night (END); for the primary the upload time is also on election night, for 2024 and the runoff the surviving copy was uploaded the next day. Three END results, so PRECINCT_END_OF_NIGHT; med because the deciding elections rest on check 2.",
+ "rationale": "After DECISIONS 47: only the primary is END (precinct report uploaded 12:41 AM CST election night); the 2024 and runoff precinct reports were printed on election night but uploaded the next day, so those elections are UNDETERMINED. One determined election, so PRECINCT_END_OF_NIGHT, low.",
  "sources": [
   {
    "url": "https://www.co.jim-hogg.tx.us/page/jim-hogg.Elections",
@@ -59,6 +69,7 @@
  "comparison_notes": {
   "2024_general": "different: research UNDETERMINED, mine END (check 2). Same file and same facts: 'Precinct Results-11-5-2024' printed 'Run Time 7:39 PM 11/05/2024' with per-precinct Election Day votes, uploaded 2024-11-06 07:25 CT. The difference is interpretation: I accept a printed run time on election night as election-night evidence (as rule 43 does for LATER county-totals files, and as research itself does for Cass runoff and Hartley 2024, which were also uploaded the next day); research uses the next-morning upload as precinct_first_seen and so finds nothing from election night. Research facts are supported by the files.",
   "2026_primary": "same (END, check 2). Research quotes match (run 8:47 PM, Last-Modified 06:41:37 GMT Mar 4).",
-  "2026_runoff": "different: research UNDETERMINED, mine END (check 2). Same file and facts ('Unofficial Precinct Results', Run Time 7:16 PM 05/26/2026, uploaded 2026-05-27 13:23 CT); same interpretive difference as 2024. I also checked that the 7:15 PM cumulative equals the official canvass totals (final count). Tag is the same either way (PRECINCT_END_OF_NIGHT); confidence differs (mine med, research low). Check 3: the Jim_Hogg wayback folder has no captures in any window."
+  "2026_runoff": "different: research UNDETERMINED, mine END (check 2). Same file and facts ('Unofficial Precinct Results', Run Time 7:16 PM 05/26/2026, uploaded 2026-05-27 13:23 CT); same interpretive difference as 2024. I also checked that the 7:15 PM cumulative equals the official canvass totals (final count). Tag is the same either way (PRECINCT_END_OF_NIGHT); confidence differs (mine med, research low). Check 3: the Jim_Hogg wayback folder has no captures in any window.",
+  "rule_47": "rule 47 applied: results changed: 2024_general, 2026_runoff now UNDETERMINED; tag/confidence/agree ('PRECINCT_END_OF_NIGHT', 'med', True) -> ('PRECINCT_END_OF_NIGHT', 'low', True)."
  }
 }
