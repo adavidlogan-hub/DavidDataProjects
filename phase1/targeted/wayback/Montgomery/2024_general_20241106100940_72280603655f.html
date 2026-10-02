@@ -1,0 +1,679 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+	    <title>Montgomery County, Texas - Elections</title>
+
+              
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--<meta content="charset=UTF-8" />  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.working.css" rel="stylesheet" id="bootstrap-css" />
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/montco.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+    <script type="text/javascript" src="scripts/jquery-1.12.3.min.js"></script>
+
+
+
+
+        <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="scripts/modernizr-custom.min.js"></script>
+        <script type="text/javascript" src="scripts/tether.min.js"></script>
+        <script type="text/javascript" src="scripts/outdatedbrowser.min.js"></script>
+        <script type="text/javascript" src="css_browser_selector.js" ></script>
+
+        <link rel="stylesheet" type="text/css" href="css/tether.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/outdatedbrowser.min.css" />
+
+        <script type="text/javascript">
+            var iELID=87;
+            var strJPGLink;
+            var jsObj = [];
+            var bOld;
+            
+            function getmybrowser(pct, pollid) {
+                var str = document.getElementById("outdated").innerHTML.toString();
+                var strHTML = "drvDirectionsNew.asp?ELType=1&ELID=" + iELID + "&Loc="  + pollid + "&ConsLet=" + pct;
+                if(str.length > 0){
+                    
+                    window.open(strHTML, "_self");
+                    //alert("no, no, no, no!");
+                }
+            } 
+        
+        </script>
+
+        
+
+        <style type="text/css">
+            td, th{border-left: solid thin;}
+            .no-border{border-left:none;}
+        </style>
+
+        <script type='text/javascript'>
+            var mainUrl = "elections.mctx.org";
+
+            $(window).load(function () {
+                $('#myModalPollingLoc').on('show.bs.modal', function (e) {
+                   
+                    
+
+                    var polId = $(e.relatedTarget).data('pol-loc');
+                  
+                    var consLet = $(e.relatedTarget).data('pol-conslet');
+
+                    $.ajax({
+                        type: "POST",
+                        data: JSON.stringify({ strELID: iELID, strPollingId: polId }),
+                        dataType: "json",
+                        url: "electioninfo/deliver.asmx/GetPollingLocation",
+                        contentType: "application/json; charset=utf-8",
+                        beforeSend: function () {
+                            $("#loading").show();
+                        },
+                        complete: function () {
+                            $("#loading").hide();
+                        },
+                        success: OnSuccess,
+                        error: OnError
+                    });
+
+                    function ImageExist(url) {
+                        var fullurl = "https://" + mainUrl + "/" + url 
+
+                        return true;
+                        
+                        //var http = new XMLHttpRequest();  
+                        //http.open('HEAD', fullurl, true); // true = asynchronous, which won't help us.  Setting to false = synchronously never returns a status, someone said this is deprecated
+                        //http.send();
+
+
+                        //return http.status != 404;
+                    }
+
+
+                    function OnSuccess(response) {
+                        //console.log(response).toString();
+
+
+
+                        jsObj = JSON.parse(response.d);
+
+                        
+                        strJPGLink = "Building_Pictures/" + jsObj.locations.PollingLocation[0].PollingLocationId + ".jpg";
+
+                        
+                        
+                        var exists = ImageExist(strJPGLink);
+                        //alert("error retrieving image");
+                        
+                        if (exists == false) {
+                            strJPGLink = "Images/comingsoon.jpg";
+                        }
+
+                        $.fn.image = function (src, f) {
+                            return this.each(function () {
+                                var i = new Image();
+                                i.src = src;
+                                i.onload = f;
+                                this.appendChild(i);
+                            });
+                        }
+
+                        $("div#pollingImage").empty();
+
+                        $("div#pollingImage").image(strJPGLink, function () {
+                            
+                            var x;
+                            var maxWidth = 300;
+                            if (this.naturalWidth > maxWidth) {
+                                x = maxWidth / this.naturalWidth;
+                                this.width = this.naturalWidth * x;
+                                this.height = this.naturalHeight * x;
+                            } else {
+                                x = maxWidth - this.naturalWidth;
+                                x = (x / this.naturalWidth) + 1.0;
+                                this.width = this.naturalWidth * x;
+                                this.height = this.naturalHeight * x;
+                            }
+
+                            //this.width = 400;
+                        });
+
+                        
+                        var loc = jsObj.locations.PollingLocation[0];
+                        var latlon = loc.Lat + ", " + loc.Lon;
+                        var polinfo = "Polling Location <strong>" + consLet + "</strong><br />";
+                        polinfo += loc.PollingNameLong + "<br />" + loc.Address + "<br />";
+                        polinfo += loc.City + "&nbsp;" + loc.Zipcode;
+
+                        
+
+                        $("#myModalLabel").html(polinfo);
+
+                        var votingroom = "";
+                        votingroom = "" + loc.VotingLocation;
+
+                        if (votingroom.length > 1) { votingroom = "Voting Location: " + votingroom; }
+                        $("#votinglocationroom").html(votingroom);
+
+                        var bldgId = loc.PollingLocationId;
+
+                        var mapaddress = loc.Address + " " + loc.City + " TX " + loc.Zipcode;
+
+                        var maplinks = "<a href='building_maps/" + bldgId + ".pdf'>View PDF Map</a> &nbsp; &nbsp;" 
+                        maplinks = maplinks + " <a href='http://maps.google.com/maps?saddr=My+Location&daddr= " + latlon + "' target='_top'>View Google Map</a>"; 
+                        if (loc.HasDiagram == true) {
+                            maplinks = maplinks + "&nbsp; &nbsp;<a href='building_pictures/DIAGRAM_" + bldgId + ".jpg'>View Diagram</a> "
+                        }
+                        $("#maplinks").html(maplinks);
+
+                        var mydirections = loc.DrivingDirections;
+                        var drvDirections = "" + mydirections.split("Updated", 1);
+
+                        $("#drivingdirections").html(drvDirections);
+
+                    }
+
+                    function OnError(res, status) {
+                        alert("status: " + status + "  error:" + res.d);
+                        if (status === "error") {
+                            // errorMessage can be an object with 3 string properties: ExceptionType, Message and StackTrace
+                            var errorMessage = $.parseJSON(res.responseText);
+                            alert(errorMessage.Message);
+                        }
+                    }
+                });
+
+                $('#myModalPollingLoc').on('hide.bs.modal', function (e) {
+                    $("#myModalLabel").html("Polling Location Information");
+                    $("#votinglocationroom").html("&nbsp;");
+                    $("div#pollingImage").empty();
+                })
+
+            })
+        </script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                outdatedBrowser({
+                    bgColor: '#f25648',
+                    color: '#ffffff',
+                    lowerThan: 'transform',
+                    languagePath: 'lang/en.html'
+                });
+
+
+            });
+        </script> 
+
+         
+
+    </head>
+
+    <body style="margin-top:0px; padding-top:0px;">
+            <noscript><div style="margin-left:15px; margin-right:15px; background-color:#FACC2E;"><span class="mediumtext">For full functionality of this page it is necessary to enable JavaScript. Here are the <a href="https://www.whatismybrowser.com/guides/how-to-enable-javascript/"> instructions how to enable JavaScript in your web browser</a></span></div></noscript>
+        
+            <div class="container" style="padding:0px; margin-bottom:0px; ">
+                
+
+
+
+<nav class="navbar navbar-inverse bg-dark  hidden-md hidden-lg">
+
+
+
+
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Montgomery County Elections</a>
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav navbar-right hidden-md hidden-lg ">
+                        <li>
+
+
+                            <a  href="index.asp?curLang=English">Home</a>
+
+ 
+
+                        </li>
+                        <li>
+                            <a  href="vrlookup.asp?curLang=English">My Registration Status</a>
+                        </li>        
+                    
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Voter Links<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                
+                                           <li>
+                                                 
+                                                    <a  href='vapp.asp?curlang=English' class='nav-link list-group-item'> Register to Vote</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a  href='https://txapps.texas.gov/tolapp/sos/SOSACManager' class='nav-link list-group-item'> Address Change</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a  href='vrlookup.asp?curlang=English' class='nav-link list-group-item'> Your Registration Status</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a  href='votinginformation.asp?curLang=English' class='nav-link list-group-item'> Voting System</a>
+		                                        
+                                            </li>
+                                    
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">County Links<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                
+                                           <li>
+                                                 
+                                                    <a href='ElectionResults.asp' class='list-group-item'> Montgomery County Election Results</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='./elpublicinfo/' class='list-group-item'> Public Information Request</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='electioninfo/eStreetSearch.aspx' class='list-group-item'> Street Search</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='pdf/growthchart7.2024.pdf' class='list-group-item'> Growth Chart of Registered Voters</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='pdf/2024_Election_Calendar_Bilingual.pdf' class='list-group-item'> 2024 Elections Schedule</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='pdf/BF2011.pdf' class='list-group-item'> Bilingual Pollworkers Needed</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='http://www.sos.state.tx.us/elections/' class='list-group-item'> Important Voter Information</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='FAQ.asp' class='list-group-item'> Frequently Asked Questions</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='pdf/votingpcts2024_r1.pdf' class='list-group-item'> Elected Official Information</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='Maps.asp' class='list-group-item'> Maps</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='training/default.html' class='list-group-item'> Training</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='WebCams.asp' class='list-group-item'> Livestream of Voted Ballots</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='CandidateFiling.asp' class='list-group-item'> Candidate Filings</a>
+		                                        
+                                            </li>
+                                    
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Election Links<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                
+                                           <li>
+                                                 
+                                                    <a href='http://www.sos.state.tx.us/elections/candidates/index.shtml' class='list-group-item'> Candidate Information</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='http://www.fvap.gov/' class='list-group-item'> FVAP/FPCA - Military/Overseas Voters</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='BBM.asp' class='list-group-item'> Ballot by Mail Application</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='VDR.asp' class='list-group-item'> Volunteer Deputy Registrar</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='http://www.sos.state.tx.us/elections/forms/index.shtml' class='list-group-item'> Index of Other Election Forms</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='Links.asp' class='list-group-item'> Commonly Used Links</a>
+		                                        
+                                            </li>
+                                        
+                                           <li>
+                                                 
+                                                    <a href='mission.asp' class='list-group-item'> Mission Statement</a>
+		                                        
+                                            </li>
+                                    
+                            </ul>
+                        </li>
+                        <li>
+                            
+	                            <a  href="contactus.asp?curLang=English">Contact Us</a>
+                             
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                        <li>
+                            
+	                            <a  href="contactus.asp?curLang=English">Contact Us</a>
+                             
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            </div>
+
+            <div class="container" >
+            
+        <style>
+            body{
+                 background-color:#72bbf1;
+            }
+
+        </style>
+        
+        <div class="row panel panel-default" style="margin-top:10px;">
+            <div class="panel-heading centertext">
+                <span class="darkbluetext boldtext hidden-md hidden-lg ">Election Central Information </span>
+                
+
+
+                <span class="largebold darkbluetext boldtext hidden-xs hidden-sm">Montgomery County Elections </span>
+
+
+                
+            </div>
+            <div class="container" style="margin-top:1px; margin-bottom:1px; ">
+                <div class="col-sm-4 centertext boldtext" style="margin-top:5px; margin-bottom:10px; padding-top:5px; ">
+                    <div class="container" style="width:100%;">
+		                <button type="button" class="btn btn-success btn-md  btn-block  bold" 
+                                onclick="document.location='index.asp?curLang=Spanish'" style="white-space: normal;">
+                                    Ver la p&#225gina en Espa&#241ol
+                        </button>
+
+                        <div class="hidden-xs hidden-sm" style="margin-top:10px;">
+                            <button type="button" class="btn btn-primary btn-md btn-block bold" 
+                                onclick="document.location='contactus.asp?curLang=English'" style="white-space: normal;">
+                                    Contact Us
+                            </button>
+                        </div>
+
+                        <div class="hidden-xs hidden-sm" style="margin-top:10px;">
+                            <button type="button" class="btn btn-danger btn-md btn-block bold" 
+                                onclick="document.location='vrlookup.asp?Pollworker=True'" style="white-space: normal;">
+                                   I want to be a Poll Worker
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 centerelements darkbluetext boldtext" style="padding-top:5px; ">
+                    <span class="suzie darkbluetext"> Suzie Harvey</span><br />
+
+                    
+                    Elections Administrator/Voter Registrar<br /><br />
+                    
+                    9159 Airport Road, Conroe, Texas 77303<br />
+                    (936) 539-7843<br /><br />
+                    Registered Voters as of <span class="redtextonly">11/5/2024 : 456,324</span>
+                </div>
+                <div class="col-sm-3 centerelements redboldtext smalltext mypadding smallbottomspacer "  >
+                    <div style="display: table-cell; vertical-align: middle; padding:1px; margin:0;">
+                    
+                        Required Identification<br /> for Voting in Person 
+                     
+
+                        <button type="button" class="btn btn-success btn-md  btn-block  bold" 
+                                onclick="document.location='photoidfaqs.asp?curLang=English'" style="margin-top:20px;">
+                                    
+    Photo ID FAQs
+  
+                        </button>
+                    </div>
+                </div>
+                 <div class="col-sm-1 centerelements" style="padding:1px; padding-bottom:8px;">
+                    
+                        <img src="images/sos_photo_id2.png" alt="photo id"
+                            style="cursor: pointer; margin-top:10px; width:60px; height:60px;" 
+                            onclick="document.location='photoidfaqs.asp?curLang=English'" 
+                            tabindex='0' onkeypress="document.location='photoidfaqs.asp?curLang=English'" />
+                     
+                 </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-lg-12" style="padding:0px;">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item  boldtext"><a href="https://www.mctx.org">Montgomery County</a></li>
+                        <li class="breadcrumb-item  boldtext"><a href="index.asp?curLang=English">Elections</a></li>
+                        <li class="breadcrumb-item  active  boldtext" style="color:#8085c4;">Election Day Polling Locations</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="darkbluetext textcenter boldtext" style="margin-left:3px; margin-right:3px;">
+                    <div class="panel panel-default" >
+                        <div class="panel-heading">
+                            <a href='#' class='largebold darkbluetext boldtext'>
+                                
+    MONTGOMERY COUNTY POLLING LOCATION(S)
+  
+                            </a>
+                        </div>
+                        <div class="panel-body" style="margin:0px; padding:0px;">
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModalPollingLoc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+
+                                            <h2 class="modal-title smallheader mediumbold" style="text-align:center;" id="myModalLabel">
+                                                <span class="largebold">Polling Location Information</span>
+                                            </h2>
+                                        </div>
+
+                                        <div id="loading" style="display: none">
+                                                <img alt="loading, please wait..." src="css/ajax-loading.gif" />
+                                        </div>
+            
+                                        <!-- Modal Body -->
+                                        <div class="modal-body" style="margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" >
+                                            <form class="form-horizontal"  >
+                                                <div class="form-group">
+                                                    <div class="col-sm-12" style="text-align:center;">
+                                                        <span class="extralargebold" id="votinglocationroom" style="margin-top:5px;"></span>
+                                                    </div>
+                                                    <div id="pollingImage" class="col-sm-12 text-center"></div>
+                                                    <div id="maplinks" class="col-md-12 boldtext" style="text-align:center;"></div>
+                                                    <div class="col-sm-12 mediumbold"><h2 class="largebold" style="margin-top:5px; margin-bottom:5px;">Directions</h2><p id="drivingdirections"></p></div>
+                                                </div>
+                                            </form>
+                                        </div>
+
+
+                                        <!-- Modal Footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default boldtext" data-dismiss="modal">
+                                                        Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+	                        <table role='presentation' style="width:100%; height:auto;"  ><!-- 3 -->
+		                        <tr>
+			                        <td class="no-border"><br />
+				                        <table role='presentation' class="centerpolltable">
+					                        <tr>
+						                        <td class="no-border centerpolltable"  style="width:22%;"></td>
+						                        <td class="no-border"  style="width:48%;">
+                                                    <div class="alert alert-info text-center darkbluetext extralargebold">
+									                        November 5, 2024 Joint Election
+							                        </div>
+                                                    <div class="text-center extralargebold darkbluetext">
+								                        
+    ELECTION DAY 7 A.M. TO 7 P.M.
+  
+                                                    </div>	
+						                        </td>
+						                        <td class="no-border centerelements" style="width:22%;"></td>
+					                        </tr>
+				                        </table>
+                                        <div class="div_smallbuffertopbottom"></div>
+		                                <table role='presentation' class="centerelements ">
+		                                    <tr>
+		                                        <td id="adobejl" class="no-border boldtext darkbluetext" style="vertical-align:middle;">
+		                                        </td>
+		                                        <td>
+		                                            <a href="http://get.adobe.com/reader/"><img src="images/adobereader.png" title="getadobe"  alt="get adobe reader" style="width:173px; height:50px"/></a>
+		                                        </td>
+		                                    </tr>
+		                                </table>
+                                        <div class="div_smallbuffertopbottom"></div>
+                                        <p class="centertext blacktext  boldtext">
+                                            
+    You can search our <a href="vrlookup.asp?curLang=English">Voter Registration Database</a> to see if you are eligible and to view your precinct, polling location information, Sample Ballot, and elected officials.<br />If you feel this is in error, please feel free to call Election Central at 936.539.7843.
+  <span class='blacktext boldtext'><br /><br />
+    On Election Day voters must vote in their precinct where registered to vote.
+   </span>
+				                        </p>
+			                        </td>
+		                        </tr>
+                            </table>
+
+                            <div class="table-responsive">
+				                <table class="table table-striped table-responsive" style="border-width:thin; border-style:solid; width:1420; " >        
+					                <tr >
+                                        <th abbr="PCT" class="centertext">Pct</th>
+                                        
+                                            <th abbr="Elections Being Held"><center>
+    Elections Being Held
+  </center></th>
+                                        
+						                <th abbr="Maps/Photos/Directions" class="centertext">
+    MAP/Photo/Directions
+  </th>
+						                <th class="text-center" abbr="Poll Location">
+    Polling Location
+  </th>
+						                <th abbr="Physical Addr">
+    Physical Address
+  </th>
+						                <th abbr="voting location in building">
+    Location in Building
+  </th>
+						                <th abbr="PCT">Pct</th>
+					                </tr>
+					                <tr>	<td class='centertext'>01</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Willis Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(01, 1);return false;' href='#myModalPollingLoc' data-pol-conslet=01 data-pol-loc=1>Get All Information</a></td>	<td class='text-left'>Willis Community Building</td>	<td class='text-left'>109 West Mink Street, Willis  77378</td>	<td>&nbsp;Main Room</td>	<td >01</td></tr><tr>	<td class='centertext'>02</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(02, 2);return false;' href='#myModalPollingLoc' data-pol-conslet=02 data-pol-loc=2>Get All Information</a></td>	<td class='text-left'>Conroe Seventh-Day Adventist Church</td>	<td class='text-left'>3601 South Loop 336 East, Conroe  77301</td>	<td>&nbsp;Gym</td>	<td >02</td></tr><tr>	<td class='centertext'>03</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> Magnolia Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(03, 3);return false;' href='#myModalPollingLoc' data-pol-conslet=03 data-pol-loc=3>Get All Information</a></td>	<td class='text-left'>The Woodlands High School Ninth Grade Campus</td>	<td class='text-left'>10010 Branch Crossing Drive, The Woodlands  77382</td>	<td>&nbsp;Gym 1<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >03</td></tr><tr>	<td class='centertext'>04</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(04, 4);return false;' href='#myModalPollingLoc' data-pol-conslet=04 data-pol-loc=4>Get All Information</a></td>	<td class='text-left'>McCullough Junior High School - Nancy Bock Center for Performing Arts</td>	<td class='text-left'>3800 South Panther Creek Drive, The Woodlands  77381</td>	<td>&nbsp;Auditorium</td>	<td >04</td></tr><tr>	<td class='centertext'>05</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Montgomery Independent School District<br /> Richards Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(05, 5);return false;' href='#myModalPollingLoc' data-pol-conslet=05 data-pol-loc=5>Get All Information</a></td>	<td class='text-left'>Long Street Community Center</td>	<td class='text-left'>20240 Bays Chapel Road, Richards  77873</td>	<td>&nbsp;Main Room</td>	<td >05</td></tr><tr>	<td class='centertext'>06</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> Magnolia Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(06, 6);return false;' href='#myModalPollingLoc' data-pol-conslet=06 data-pol-loc=6>Get All Information</a></td>	<td class='text-left'>Joel L. Deretchin Elementary School</td>	<td class='text-left'>11000 Merit Oaks Drive, The Woodlands  77382</td>	<td>&nbsp;Gym<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >06</td></tr><tr>	<td class='centertext'>07</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(07, 7);return false;' href='#myModalPollingLoc' data-pol-conslet=07 data-pol-loc=7>Get All Information</a></td>	<td class='text-left'>New Caney Elementary School</td>	<td class='text-left'>20501 FM 1485, New Caney  77357</td>	<td>&nbsp;Gym</td>	<td >07</td></tr><tr>	<td class='centertext'>08</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District<br /> Willis Independent School District<br /> Montgomery County Municipal Utility District 238</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(08, 8);return false;' href='#myModalPollingLoc' data-pol-conslet=08 data-pol-loc=8>Get All Information</a></td>	<td class='text-left'>Browder Community Center</td>	<td class='text-left'>14865 County Line Road, Willis  77378</td>	<td>&nbsp;Main Room</td>	<td >08</td></tr><tr>	<td class='centertext'>09</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Magnolia Independent School District<br /> Montgomery Independent School District<br /> City of Montgomery</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(09, 9);return false;' href='#myModalPollingLoc' data-pol-conslet=09 data-pol-loc=9>Get All Information</a></td>	<td class='text-left'>Dobbin - Dacus Community Center</td>	<td class='text-left'>695 South FM 1486, Montgomery  77316</td>	<td>&nbsp;Main Room</td>	<td >09</td></tr><tr>	<td class='centertext'>10</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(10, 10);return false;' href='#myModalPollingLoc' data-pol-conslet=10 data-pol-loc=10>Get All Information</a></td>	<td class='text-left'>Booker T. Washington High School</td>	<td class='text-left'>507 Dr. Martin L. King, Jr. Place North, Conroe  77301</td>	<td>&nbsp;Girls' Gym</td>	<td >10</td></tr><tr>	<td class='centertext'>11</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(11, 11);return false;' href='#myModalPollingLoc' data-pol-conslet=11 data-pol-loc=11>Get All Information</a></td>	<td >Lake Conroe Forest Community Building<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>610 Navajo Drive, Montgomery  77316</td>	<td>&nbsp;Main Room</td>	<td >11</td></tr><tr>	<td class='centertext'>12</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(12, 12);return false;' href='#myModalPollingLoc' data-pol-conslet=12 data-pol-loc=12>Get All Information</a></td>	<td class='text-left'>Security Community Center</td>	<td class='text-left'>18760 Highway 105 East, Cleveland  77328</td>	<td>&nbsp;Main Room</td>	<td >12</td></tr><tr>	<td class='centertext'>13</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(13, 13);return false;' href='#myModalPollingLoc' data-pol-conslet=13 data-pol-loc=13>Get All Information</a></td>	<td >High Meadow Ranch Golf Club<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>37300 Golf Club Trail, Magnolia  77355</td>	<td>&nbsp;The Ranch House</td>	<td >13</td></tr><tr>	<td class='centertext'>14</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(14, 14);return false;' href='#myModalPollingLoc' data-pol-conslet=14 data-pol-loc=14>Get All Information</a></td>	<td class='text-left'>Robert L. Crippen Elementary School</td>	<td class='text-left'>18690 Cumberland Boulevard, Porter  77365</td>	<td>&nbsp;Gym<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >14</td></tr><tr>	<td class='centertext'>15</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(15, 15);return false;' href='#myModalPollingLoc' data-pol-conslet=15 data-pol-loc=15>Get All Information</a></td>	<td class='text-left'>Cornerstone Church</td>	<td class='text-left'>100 Mosswood Drive, Conroe  77302</td>	<td>&nbsp;Children's Room</td>	<td >15</td></tr><tr>	<td class='centertext'>16</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> New Caney Independent School District<br /> City of Splendora</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(16, 16);return false;' href='#myModalPollingLoc' data-pol-conslet=16 data-pol-loc=16>Get All Information</a></td>	<td >East Montgomery County Community Development Center<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>16401 First Street, Suite 100, Splendora  77372</td>	<td>&nbsp;Hayden and Dunn Conference Rooms</td>	<td >16</td></tr><tr>	<td class='centertext'>17</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(17, 17);return false;' href='#myModalPollingLoc' data-pol-conslet=17 data-pol-loc=17>Get All Information</a></td>	<td class='text-left'>First Baptist Church Groceville</td>	<td class='text-left'>19256 FM 1484, Conroe  77303</td>	<td>&nbsp;Fellowship Hall</td>	<td >17</td></tr><tr>	<td class='centertext'>18</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(18, 18);return false;' href='#myModalPollingLoc' data-pol-conslet=18 data-pol-loc=18>Get All Information</a></td>	<td class='text-left'>Magnolia Community Center</td>	<td class='text-left'>422 Melton Street, Magnolia  77354</td>	<td>&nbsp;Main Room</td>	<td >18</td></tr><tr>	<td class='centertext'>19</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Montgomery Independent School District<br /> City of Montgomery</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(19, 19);return false;' href='#myModalPollingLoc' data-pol-conslet=19 data-pol-loc=19>Get All Information</a></td>	<td >City of Montgomery City Hall<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>101 Old Plantersville Road, Montgomery  77316</td>	<td>&nbsp;City Council and Courtroom Chambers</td>	<td >19</td></tr><tr>	<td class='centertext'>20</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(20, 20);return false;' href='#myModalPollingLoc' data-pol-conslet=20 data-pol-loc=20>Get All Information</a></td>	<td class='text-left'>Travis Intermediate School</td>	<td class='text-left'>1100 North Thompson Street, Conroe  77301</td>	<td>&nbsp;Auditorium</td>	<td >20</td></tr><tr>	<td class='centertext'>21</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(21, 21);return false;' href='#myModalPollingLoc' data-pol-conslet=21 data-pol-loc=21>Get All Information</a></td>	<td class='text-left'>Conroe High School Ninth Grade Campus</td>	<td class='text-left'>400 Sgt Ed Holcomb Blvd N, Conroe  77304</td>	<td>&nbsp;Gym A<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >21</td></tr><tr>	<td class='centertext'>22</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Willis Independent School District<br /> Point Aquarius Municipal Utility District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(22, 22);return false;' href='#myModalPollingLoc' data-pol-conslet=22 data-pol-loc=22>Get All Information</a></td>	<td class='text-left'>Lake Conroe Hills Community Building</td>	<td class='text-left'>13621 Lake Breeze, Willis  77318</td>	<td>&nbsp;Main Room</td>	<td >22</td></tr><tr>	<td class='centertext'>23</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Willis Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(23, 23);return false;' href='#myModalPollingLoc' data-pol-conslet=23 data-pol-loc=23>Get All Information</a></td>	<td class='text-left'>North Montgomery County Community Center</td>	<td class='text-left'>600 Gerald Street, Willis  77378</td>	<td>&nbsp;Meador Room<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >23</td></tr><tr>	<td class='centertext'>24</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> Chateau Woods Municipal Utility District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(24, 24);return false;' href='#myModalPollingLoc' data-pol-conslet=24 data-pol-loc=24>Get All Information</a></td>	<td class='text-left'>Emmit E. Houser Elementary School</td>	<td class='text-left'>27370 Oak Ridge School Road, Conroe  77385</td>	<td>&nbsp;Gym<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >24</td></tr><tr>	<td class='centertext'>25</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(25, 25);return false;' href='#myModalPollingLoc' data-pol-conslet=25 data-pol-loc=25>Get All Information</a></td>	<td class='text-left'>Grangerland Community Center</td>	<td class='text-left'>15636 FM 3083, Grangerland  77302</td>	<td>&nbsp;Community Room</td>	<td >25</td></tr><tr>	<td class='centertext'>26</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(26, 26);return false;' href='#myModalPollingLoc' data-pol-conslet=26 data-pol-loc=26>Get All Information</a></td>	<td class='text-left'>East Montgomery County Fair Association Building</td>	<td class='text-left'>21675A McCleskey Road, New Caney  77357</td>	<td>&nbsp;Main Room</td>	<td >26</td></tr><tr>	<td class='centertext'>27</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(27, 27);return false;' href='#myModalPollingLoc' data-pol-conslet=27 data-pol-loc=27>Get All Information</a></td>	<td class='text-left'>Rivershire Club House</td>	<td class='text-left'>206 Scarborough Drive, Conroe  77304</td>	<td>&nbsp;Large Banquet Room</td>	<td >27</td></tr><tr>	<td class='centertext'>28</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District<br /> Tomball Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(28, 28);return false;' href='#myModalPollingLoc' data-pol-conslet=28 data-pol-loc=28>Get All Information</a></td>	<td class='text-left'>Decker Prairie Elementary School</td>	<td class='text-left'>27427 Decker Prairie Rosehill Road, Magnolia  77355</td>	<td>&nbsp;Gym</td>	<td >28</td></tr><tr>	<td class='centertext'>29</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(29, 29);return false;' href='#myModalPollingLoc' data-pol-conslet=29 data-pol-loc=29>Get All Information</a></td>	<td class='text-left'>West Montgomery County Community Development Center</td>	<td class='text-left'>31355 Friendship Drive, Magnolia  77355</td>	<td>&nbsp;Green Room </td>	<td >29</td></tr><tr>	<td class='centertext'>30</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(30, 30);return false;' href='#myModalPollingLoc' data-pol-conslet=30 data-pol-loc=30>Get All Information</a></td>	<td class='text-left'>Magnolia High School</td>	<td class='text-left'>14350 FM 1488, Magnolia  77354</td>	<td>&nbsp;Library<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >30</td></tr><tr>	<td class='centertext'>31</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(31, 31);return false;' href='#myModalPollingLoc' data-pol-conslet=31 data-pol-loc=31>Get All Information</a></td>	<td class='text-left'>Shenandoah Municipal Complex</td>	<td class='text-left'>29955 I-45 North, Shenandoah  77381</td>	<td>&nbsp;Council Chambers</td>	<td >31</td></tr><tr>	<td class='centertext'>32</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(32, 32);return false;' href='#myModalPollingLoc' data-pol-conslet=32 data-pol-loc=32>Get All Information</a></td>	<td >W. D. Wilkerson Intermediate School<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>12312 Sawmill Road, The Woodlands  77380</td>	<td>&nbsp;Cafeteria</td>	<td >32</td></tr><tr>	<td class='centertext'>33</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(33, 33);return false;' href='#myModalPollingLoc' data-pol-conslet=33 data-pol-loc=33>Get All Information</a></td>	<td class='text-left'>South County Community Center</td>	<td class='text-left'>2235 Lake Robbins Drive, The Woodlands  77380</td>	<td>&nbsp;Room 102<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >33</td></tr><tr>	<td class='centertext'>34</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> Magnolia Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(34, 34);return false;' href='#myModalPollingLoc' data-pol-conslet=34 data-pol-loc=34>Get All Information</a></td>	<td class='text-left'>Needham Fire and Rescue Station 64</td>	<td class='text-left'>15341 Lake Lamond Road, Conroe  77384</td>	<td>&nbsp;Public Area Meeting Room<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >34</td></tr><tr>	<td class='centertext'>35</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Lone Star College District 2<br /> Conroe Independent School District<br /> Chateau Woods Municipal Utility District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(35, 35);return false;' href='#myModalPollingLoc' data-pol-conslet=35 data-pol-loc=35>Get All Information</a></td>	<td class='text-left'>Oak Ridge North Municipal Building</td>	<td class='text-left'>27424 Robinson Road, Oak Ridge North  77385</td>	<td>&nbsp;Council Chambers</td>	<td >35</td></tr><tr>	<td class='centertext'>36</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(36, 36);return false;' href='#myModalPollingLoc' data-pol-conslet=36 data-pol-loc=36>Get All Information</a></td>	<td class='text-left'>Allendale Baptist Church</td>	<td class='text-left'>14535 Allendale Lane, Conroe  77302</td>	<td>&nbsp;Fellowship Hall</td>	<td >36</td></tr><tr>	<td class='centertext'>37</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(37, 37);return false;' href='#myModalPollingLoc' data-pol-conslet=37 data-pol-loc=37>Get All Information</a></td>	<td class='text-left'>Friendship United Methodist Church</td>	<td class='text-left'>22388 Ford Road, Porter  77365</td>	<td>&nbsp;Family Life Center</td>	<td >37</td></tr><tr>	<td class='centertext'>38</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Montgomery Independent School District<br /> City of Montgomery</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(38, 38);return false;' href='#myModalPollingLoc' data-pol-conslet=38 data-pol-loc=38>Get All Information</a></td>	<td class='text-left'>Montgomery County West Annex</td>	<td class='text-left'>19380 Highway 105 W., Suite 507, Montgomery  77356</td>	<td>&nbsp;Courtroom</td>	<td >38</td></tr><tr>	<td class='centertext'>39</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(39, 39);return false;' href='#myModalPollingLoc' data-pol-conslet=39 data-pol-loc=39>Get All Information</a></td>	<td >Oak Hills Junior High School<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>19190 Keenan Cut Off Road, Montgomery  77316</td>	<td>&nbsp;Library</td>	<td >39</td></tr><tr>	<td class='centertext'>40</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District<br /> Willis Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(40, 40);return false;' href='#myModalPollingLoc' data-pol-conslet=40 data-pol-loc=40>Get All Information</a></td>	<td class='text-left'>Harold Cryar Intermediate School</td>	<td class='text-left'>2375 Montgomery Park Boulevard, Conroe  77304</td>	<td>&nbsp;Gym</td>	<td >40</td></tr><tr>	<td class='centertext'>41</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> City of Splendora</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(41, 41);return false;' href='#myModalPollingLoc' data-pol-conslet=41 data-pol-loc=41>Get All Information</a></td>	<td class='text-left'>Splendora ISD Administration Building</td>	<td class='text-left'>23419 FM 2090, Splendora  77372</td>	<td>&nbsp;Board Room</td>	<td >41</td></tr><tr>	<td class='centertext'>42</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(42, 42);return false;' href='#myModalPollingLoc' data-pol-conslet=42 data-pol-loc=42>Get All Information</a></td>	<td >Veterans Memorial Intermediate<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>13475 Highway 1485, Conroe  77306</td>	<td>&nbsp;Gym</td>	<td >42</td></tr><tr>	<td class='centertext'>43</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Willis Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(43, 43);return false;' href='#myModalPollingLoc' data-pol-conslet=43 data-pol-loc=43>Get All Information</a></td>	<td class='text-left'>Panorama Village City Hall</td>	<td class='text-left'>99 Hiwon Drive, Panorama Village  77304</td>	<td>&nbsp;City Hall</td>	<td >43</td></tr><tr>	<td class='centertext'>44</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District<br /> Willis Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(44, 44);return false;' href='#myModalPollingLoc' data-pol-conslet=44 data-pol-loc=44>Get All Information</a></td>	<td class='text-left'>The Lone Star Convention Center</td>	<td class='text-left'>9055 Airport Road, Conroe  77303</td>	<td>&nbsp;San Jacinto 1<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >44</td></tr><tr>	<td class='centertext'>45</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(45, 45);return false;' href='#myModalPollingLoc' data-pol-conslet=45 data-pol-loc=45>Get All Information</a></td>	<td class='text-left'>Timber Lakes/Timber Ridge Pavilion</td>	<td class='text-left'>25610 Timber Lakes Drive, Spring  77380</td>	<td>&nbsp;Meeting Room</td>	<td >45</td></tr><tr>	<td class='centertext'>46</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(46, 46);return false;' href='#myModalPollingLoc' data-pol-conslet=46 data-pol-loc=46>Get All Information</a></td>	<td class='text-left'>Spring Creek Greenway Nature Center</td>	<td class='text-left'>1300 Riley Fuzzel Road, Spring  77386</td>	<td>&nbsp;Community Center</td>	<td >46</td></tr><tr>	<td class='centertext'>47</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Lone Star College District 2<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(47, 47);return false;' href='#myModalPollingLoc' data-pol-conslet=47 data-pol-loc=47>Get All Information</a></td>	<td >C. D. York Junior High School<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>3515 Waterbend Cove, Spring  77386</td>	<td>&nbsp;Gym</td>	<td >47</td></tr><tr>	<td class='centertext'>48</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(48, 48);return false;' href='#myModalPollingLoc' data-pol-conslet=48 data-pol-loc=48>Get All Information</a></td>	<td class='text-left'>Sally K. Ride Elementary School</td>	<td class='text-left'>4920 West Panther Creek Drive, The Woodlands  77381</td>	<td>&nbsp;Main Hallway - West Side</td>	<td >48</td></tr><tr>	<td class='centertext'>49</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(49, 49);return false;' href='#myModalPollingLoc' data-pol-conslet=49 data-pol-loc=49>Get All Information</a></td>	<td class='text-left'>David Elementary School</td>	<td class='text-left'>5301 Shadowbend Place, The Woodlands  77381</td>	<td>&nbsp;Front Hallway on 3rd/4th Grade Side of Building</td>	<td >49</td></tr><tr>	<td class='centertext'>50</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Willis Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(50, 50);return false;' href='#myModalPollingLoc' data-pol-conslet=50 data-pol-loc=50>Get All Information</a></td>	<td class='text-left'>Far Hills Utility District Building</td>	<td class='text-left'>10320 Cude Cemetery Road, Willis  77318</td>	<td>&nbsp;Meeting Room</td>	<td >50</td></tr><tr>	<td class='centertext'>51</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(51, 51);return false;' href='#myModalPollingLoc' data-pol-conslet=51 data-pol-loc=51>Get All Information</a></td>	<td class='text-left'>Central Library</td>	<td class='text-left'>104 I-45 North, Conroe  77301</td>	<td>&nbsp;Large Meeting Room</td>	<td >51</td></tr><tr>	<td class='centertext'>52</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(52, 52);return false;' href='#myModalPollingLoc' data-pol-conslet=52 data-pol-loc=52>Get All Information</a></td>	<td class='text-left'>New Caney Central Administration Office</td>	<td class='text-left'>21580 Loop 494, New Caney  77357</td>	<td>&nbsp;LGI Room</td>	<td >52</td></tr><tr>	<td class='centertext'>53</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> New Caney Independent School District<br /> City of Roman Forest<br /> City of Woodbranch Village</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(53, 53);return false;' href='#myModalPollingLoc' data-pol-conslet=53 data-pol-loc=53>Get All Information</a></td>	<td class='text-left'>Woodbranch City Hall</td>	<td class='text-left'>58 A Woodbranch Drive, New Caney  77357</td>	<td>&nbsp;Meeting Room</td>	<td >53</td></tr><tr>	<td class='centertext'>54</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> New Caney Independent School District<br /> City of Roman Forest<br /> City of Woodbranch Village</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(54, 54);return false;' href='#myModalPollingLoc' data-pol-conslet=54 data-pol-loc=54>Get All Information</a></td>	<td >Peach Creek Baptist Church<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>25963 FM 1485/99 W, New Caney  77357</td>	<td>&nbsp;Fellowship Hall</td>	<td >54</td></tr><tr>	<td class='centertext'>55</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(55, 55);return false;' href='#myModalPollingLoc' data-pol-conslet=55 data-pol-loc=55>Get All Information</a></td>	<td class='text-left'>Stephen F. Austin Elementary School</td>	<td class='text-left'>14796 Highway 105 East, Conroe  77306</td>	<td>&nbsp;Gym</td>	<td >55</td></tr><tr>	<td class='centertext'>56</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(56, 56);return false;' href='#myModalPollingLoc' data-pol-conslet=56 data-pol-loc=56>Get All Information</a></td>	<td class='text-left'>The Woodlands Emergency Training Center</td>	<td class='text-left'>16135 IH-45 South, The Woodlands  77385</td>	<td>&nbsp;Room A/B</td>	<td >56</td></tr><tr>	<td class='centertext'>57</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Willis Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(57, 57);return false;' href='#myModalPollingLoc' data-pol-conslet=57 data-pol-loc=57>Get All Information</a></td>	<td class='text-left'>Calvary Road Baptist Church</td>	<td class='text-left'>12621 Calvary Road, Willis  77318</td>	<td>&nbsp;Sanctuary</td>	<td >57</td></tr><tr>	<td class='centertext'>58</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(58, 58);return false;' href='#myModalPollingLoc' data-pol-conslet=58 data-pol-loc=58>Get All Information</a></td>	<td class='text-left'>Lone Star College System </td>	<td class='text-left'>5000 Research Forest Drive, The Woodlands  77381</td>	<td>&nbsp;Room 113-115</td>	<td >58</td></tr><tr>	<td class='centertext'>59</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(59, 59);return false;' href='#myModalPollingLoc' data-pol-conslet=59 data-pol-loc=59>Get All Information</a></td>	<td class='text-left'>Colin L. Powell Elementary School</td>	<td class='text-left'>7332 Cochrans Crossing Drive, The Woodlands  77381</td>	<td>&nbsp;Front Office Vestibule</td>	<td >59</td></tr><tr>	<td class='centertext'>60</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(60, 60);return false;' href='#myModalPollingLoc' data-pol-conslet=60 data-pol-loc=60>Get All Information</a></td>	<td class='text-left'>Montgomery County Juvenile Facility</td>	<td class='text-left'>200 Academy Drive, Conroe  77301</td>	<td>&nbsp;Juvenile Conference Room<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >60</td></tr><tr>	<td class='centertext'>61</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> Magnolia Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(61, 61);return false;' href='#myModalPollingLoc' data-pol-conslet=61 data-pol-loc=61>Get All Information</a></td>	<td class='text-left'>George and Cynthia Woods Mitchell Library</td>	<td class='text-left'>8125 Ashlane Way, The Woodlands  77382</td>	<td>&nbsp;Meeting Room 101 and 102</td>	<td >61</td></tr><tr>	<td class='centertext'>62</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(62, 62);return false;' href='#myModalPollingLoc' data-pol-conslet=62 data-pol-loc=62>Get All Information</a></td>	<td class='text-left'>Donald R. Collins Intermediate School</td>	<td class='text-left'>6020 Shadowbend Place, The Woodlands  77381</td>	<td>&nbsp;Cafeteria/Gym<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >62</td></tr><tr>	<td class='centertext'>63</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(63, 63);return false;' href='#myModalPollingLoc' data-pol-conslet=63 data-pol-loc=63>Get All Information</a></td>	<td class='text-left'>Walden Community Church</td>	<td class='text-left'>12400 Walden Road, Montgomery  77356</td>	<td>&nbsp;Family Life Center</td>	<td >63</td></tr><tr>	<td class='centertext'>64</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(64, 64);return false;' href='#myModalPollingLoc' data-pol-conslet=64 data-pol-loc=64>Get All Information</a></td>	<td class='text-left'>Whispering Pines Baptist Church</td>	<td class='text-left'>15200 FM 1485, Conroe  77306</td>	<td>&nbsp;FLC Dining Room</td>	<td >64</td></tr><tr>	<td class='centertext'>65</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(65, 65);return false;' href='#myModalPollingLoc' data-pol-conslet=65 data-pol-loc=65>Get All Information</a></td>	<td class='text-left'>J. L. Lyon Elementary School</td>	<td class='text-left'>27035 Nichols Sawmill Road, Magnolia  77355</td>	<td>&nbsp;Gym</td>	<td >65</td></tr><tr>	<td class='centertext'>66</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District<br /> Tomball Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(66, 66);return false;' href='#myModalPollingLoc' data-pol-conslet=66 data-pol-loc=66>Get All Information</a></td>	<td class='text-left'>Outback Western Wear Event Hall</td>	<td class='text-left'>30405 Dobbin Huffsmith Road, Magnolia  77354</td>	<td>&nbsp;Longbranch Pavilion</td>	<td >66</td></tr><tr>	<td class='centertext'>67</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(67, 67);return false;' href='#myModalPollingLoc' data-pol-conslet=67 data-pol-loc=67>Get All Information</a></td>	<td class='text-left'>Lamar Elementary School</td>	<td class='text-left'>1300 Many Pines Road, The Woodlands  77380</td>	<td>&nbsp;Gym</td>	<td >67</td></tr><tr>	<td class='centertext'>68</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Lone Star College District 2<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(68, 68);return false;' href='#myModalPollingLoc' data-pol-conslet=68 data-pol-loc=68>Get All Information</a></td>	<td class='text-left'>Knights of Columbus Hall</td>	<td class='text-left'>29327 South Plum Creek Drive, Spring  77386</td>	<td>&nbsp;Main Hall</td>	<td >68</td></tr><tr>	<td class='centertext'>69</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> Magnolia Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(69, 69);return false;' href='#myModalPollingLoc' data-pol-conslet=69 data-pol-loc=69>Get All Information</a></td>	<td class='text-left'>Barbara Pierce Bush Elementary School</td>	<td class='text-left'>7420 Crownridge Drive, The Woodlands  77382</td>	<td>&nbsp;Cafeteria<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >69</td></tr><tr>	<td class='centertext'>70</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(70, 70);return false;' href='#myModalPollingLoc' data-pol-conslet=70 data-pol-loc=70>Get All Information</a></td>	<td class='text-left'>The Woodlands Recreation Center at Bear Branch Park</td>	<td class='text-left'>5310 Research Forest Drive, The Woodlands  77381</td>	<td>&nbsp;Live Oak Room</td>	<td >70</td></tr><tr>	<td class='centertext'>71</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> Magnolia Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(71, 71);return false;' href='#myModalPollingLoc' data-pol-conslet=71 data-pol-loc=71>Get All Information</a></td>	<td class='text-left'>Don A. Buckalew Elementary School</td>	<td class='text-left'>4909 West Alden Bridge Drive, The Woodlands  77382</td>	<td>&nbsp;Hall in Front of Library<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >71</td></tr><tr>	<td class='centertext'>72</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(72, 72);return false;' href='#myModalPollingLoc' data-pol-conslet=72 data-pol-loc=72>Get All Information</a></td>	<td class='text-left'>Bentwater Yacht Club</td>	<td class='text-left'>200 Bentwater Harbor Drive, Montgomery  77356</td>	<td>&nbsp;Harbor View Room</td>	<td >72</td></tr><tr>	<td class='centertext'>73</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(73, 73);return false;' href='#myModalPollingLoc' data-pol-conslet=73 data-pol-loc=73>Get All Information</a></td>	<td class='text-left'>City of Conroe, Dean Towery Service Center</td>	<td class='text-left'>401 Sgt. Ed Holcomb Boulevard South, Conroe  77304</td>	<td>&nbsp;Public Works Classroom</td>	<td >73</td></tr><tr>	<td class='centertext'>74</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(74, 74);return false;' href='#myModalPollingLoc' data-pol-conslet=74 data-pol-loc=74>Get All Information</a></td>	<td class='text-left'>Cedric C. Smith Elementary School</td>	<td class='text-left'>28747 Hardin Store Road, Magnolia  77354</td>	<td>&nbsp;Gym<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >74</td></tr><tr>	<td class='centertext'>75</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(75, 75);return false;' href='#myModalPollingLoc' data-pol-conslet=75 data-pol-loc=75>Get All Information</a></td>	<td class='text-left'>Windsor Hills Homeowners' Association Club House</td>	<td class='text-left'>1 East Windsor Hills Circle, The Woodlands  77384</td>	<td>&nbsp;Ballroom</td>	<td >75</td></tr><tr>	<td class='centertext'>76</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> Magnolia Independent School District<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(76, 76);return false;' href='#myModalPollingLoc' data-pol-conslet=76 data-pol-loc=76>Get All Information</a></td>	<td class='text-left'>Westwood Landowners' Association Building</td>	<td class='text-left'>406 Mackintosh Drive, Magnolia  77354</td>	<td>&nbsp;Back Civic Room</td>	<td >76</td></tr><tr>	<td class='centertext'>77</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(77, 77);return false;' href='#myModalPollingLoc' data-pol-conslet=77 data-pol-loc=77>Get All Information</a></td>	<td class='text-left'>April Sound Church</td>	<td class='text-left'>67 1/2 April Wind Drive South, Montgomery  77356</td>	<td>&nbsp;Fellowship Hall</td>	<td >77</td></tr><tr>	<td class='centertext'>78</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(78, 78);return false;' href='#myModalPollingLoc' data-pol-conslet=78 data-pol-loc=78>Get All Information</a></td>	<td class='text-left'>Roger L. Galatas Elementary School</td>	<td class='text-left'>9001 Cochrans Crossing Drive, The Woodlands  77381</td>	<td>&nbsp;Front Right Vestibule</td>	<td >78</td></tr><tr>	<td class='centertext'>79</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(79, 79);return false;' href='#myModalPollingLoc' data-pol-conslet=79 data-pol-loc=79>Get All Information</a></td>	<td class='text-left'>Glen Loch Elementary School</td>	<td class='text-left'>27505 Glen Loch Drive, The Woodlands  77381</td>	<td>&nbsp;Foyer</td>	<td >79</td></tr><tr>	<td class='centertext'>80</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(80, 80);return false;' href='#myModalPollingLoc' data-pol-conslet=80 data-pol-loc=80>Get All Information</a></td>	<td class='text-left'>Imperial Oaks Neighborhood Center - Recreation Center</td>	<td class='text-left'>31110 Imperial Oaks Boulevard, Spring  77386</td>	<td>&nbsp;POA Clubroom</td>	<td >80</td></tr><tr>	<td class='centertext'>81</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> Magnolia Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(81, 81);return false;' href='#myModalPollingLoc' data-pol-conslet=81 data-pol-loc=81>Get All Information</a></td>	<td class='text-left'>George P. Mitchell Intermediate School</td>	<td class='text-left'>6800 Alden Bridge Drive, The Woodlands  77382</td>	<td>&nbsp;The Commons/Cafeteria<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >81</td></tr><tr>	<td class='centertext'>82</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(82, 82);return false;' href='#myModalPollingLoc' data-pol-conslet=82 data-pol-loc=82>Get All Information</a></td>	<td class='text-left'>Bens Branch Elementary School</td>	<td class='text-left'>24160 Briar Berry Lane, Porter  77365</td>	<td>&nbsp;Gym</td>	<td >82</td></tr><tr>	<td class='centertext'>83</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(83, 83);return false;' href='#myModalPollingLoc' data-pol-conslet=83 data-pol-loc=83>Get All Information</a></td>	<td class='text-left'>Security Community Center</td>	<td class='text-left'>18760 Highway 105 East, Cleveland  77328</td>	<td>&nbsp;Main Room</td>	<td >83</td></tr><tr>	<td class='centertext'>84</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(84, 84);return false;' href='#myModalPollingLoc' data-pol-conslet=84 data-pol-loc=84>Get All Information</a></td>	<td class='text-left'>South Montgomery County Fire Station #1</td>	<td class='text-left'>335 Volunteer Lane, Spring  77380</td>	<td>&nbsp;Conference Room</td>	<td >84</td></tr><tr>	<td class='centertext'>85</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District<br /> Willis Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(85, 85);return false;' href='#myModalPollingLoc' data-pol-conslet=85 data-pol-loc=85>Get All Information</a></td>	<td class='text-left'>Northridge Baptist Church</td>	<td class='text-left'>10681 FM 1484, Conroe  77303</td>	<td>&nbsp;Fellowship Hall</td>	<td >85</td></tr><tr>	<td class='centertext'>86</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(86, 86);return false;' href='#myModalPollingLoc' data-pol-conslet=86 data-pol-loc=86>Get All Information</a></td>	<td class='text-left'>Living Branch Church</td>	<td class='text-left'>13229 Highway 105 West, Conroe  77304</td>	<td>&nbsp;Sanctuary</td>	<td >86</td></tr><tr>	<td class='centertext'>87</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(87, 87);return false;' href='#myModalPollingLoc' data-pol-conslet=87 data-pol-loc=87>Get All Information</a></td>	<td class='text-left'>Birnham Woods Elementary School</td>	<td class='text-left'>31150 Birnham Woods Drive, Spring  77386</td>	<td>&nbsp;Gym</td>	<td >87</td></tr><tr>	<td class='centertext'>88</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(88, 88);return false;' href='#myModalPollingLoc' data-pol-conslet=88 data-pol-loc=88>Get All Information</a></td>	<td class='text-left'>Ann K. Snyder Elementary School</td>	<td class='text-left'>28601 Birnham Woods Drive, Spring  77386</td>	<td>&nbsp;Gym</td>	<td >88</td></tr><tr>	<td class='centertext'>89</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(89, 89);return false;' href='#myModalPollingLoc' data-pol-conslet=89 data-pol-loc=89>Get All Information</a></td>	<td class='text-left'>Bear Branch Elementary School </td>	<td class='text-left'>8909 FM 1488, Magnolia  77354</td>	<td>&nbsp;Cafeteria<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >89</td></tr><tr>	<td class='centertext'>90</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(90, 90);return false;' href='#myModalPollingLoc' data-pol-conslet=90 data-pol-loc=90>Get All Information</a></td>	<td class='text-left'>The Palm Community Building</td>	<td class='text-left'>285 Central Pine Street, Montgomery  77316</td>	<td>&nbsp;Building 2</td>	<td >90</td></tr><tr>	<td class='centertext'>91</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(91, 91);return false;' href='#myModalPollingLoc' data-pol-conslet=91 data-pol-loc=91>Get All Information</a></td>	<td class='text-left'>Magnolia West High School</td>	<td class='text-left'>42202 FM 1774, Magnolia  77355</td>	<td>&nbsp;Library</td>	<td >91</td></tr><tr>	<td class='centertext'>92</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(92, 92);return false;' href='#myModalPollingLoc' data-pol-conslet=92 data-pol-loc=92>Get All Information</a></td>	<td class='text-left'>George C. Kaufman III Elementary School</td>	<td class='text-left'>2760 Northridge Forest Drive, Spring  77386</td>	<td>&nbsp;Gym<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >92</td></tr><tr>	<td class='centertext'>93</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(93, 93);return false;' href='#myModalPollingLoc' data-pol-conslet=93 data-pol-loc=93>Get All Information</a></td>	<td class='text-left'>Valley Ranch Elementary School</td>	<td class='text-left'>21700 Valley Ranch Crossing Drive, Porter  77365</td>	<td>&nbsp;Gym</td>	<td >93</td></tr><tr>	<td class='centertext'>94</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(94, 94);return false;' href='#myModalPollingLoc' data-pol-conslet=94 data-pol-loc=94>Get All Information</a></td>	<td class='text-left'>Lone Star College - Kingwood, Performing Arts Center</td>	<td class='text-left'>500 Royston Drive, Kingwood  77339</td>	<td>&nbsp;APA 119</td>	<td >94</td></tr><tr>	<td class='centertext'>95</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> New Caney Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(95, 95);return false;' href='#myModalPollingLoc' data-pol-conslet=95 data-pol-loc=95>Get All Information</a></td>	<td class='text-left'>Kings Manor Elementary School</td>	<td class='text-left'>21111 Royal Crossing Drive, Kingwood  77339</td>	<td>&nbsp;Gym</td>	<td >95</td></tr><tr>	<td class='centertext'>96</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(96, 96);return false;' href='#myModalPollingLoc' data-pol-conslet=96 data-pol-loc=96>Get All Information</a></td>	<td class='text-left'>Gerald D. Irons, Sr. Junior High School</td>	<td class='text-left'>16780 Needham Road, Conroe  77385</td>	<td>&nbsp;Boys' Gym (Gym 2)</td>	<td >96</td></tr><tr>	<td class='centertext'>97</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(97, 97);return false;' href='#myModalPollingLoc' data-pol-conslet=97 data-pol-loc=97>Get All Information</a></td>	<td class='text-left'>Magnolia Event Center</td>	<td class='text-left'>11659 FM 1488, Magnolia  77354</td>	<td>&nbsp;Ballroom C</td>	<td >97</td></tr><tr>	<td class='centertext'>98</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(98, 98);return false;' href='#myModalPollingLoc' data-pol-conslet=98 data-pol-loc=98>Get All Information</a></td>	<td class='text-left'>KC Event Center</td>	<td class='text-left'>2655 FM 1488, Conroe  77384</td>	<td>&nbsp;Hall</td>	<td >98</td></tr><tr>	<td class='centertext'>99</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(99, 99);return false;' href='#myModalPollingLoc' data-pol-conslet=99 data-pol-loc=99>Get All Information</a></td>	<td class='text-left'>Jean E. Stewart Elementary School</td>	<td class='text-left'>680 Fish Creek Thoroughfare, Montgomery  77316</td>	<td>&nbsp;Gym</td>	<td >99</td></tr><tr>	<td class='centertext'>100</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(100, 100);return false;' href='#myModalPollingLoc' data-pol-conslet=100 data-pol-loc=100>Get All Information</a></td>	<td class='text-left'>Grand Oaks High School</td>	<td class='text-left'>4800 Riley Fuzzel Road, Spring  77386</td>	<td>&nbsp;LGI<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >100</td></tr><tr>	<td class='centertext'>101</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District<br /> Magnolia Independent School District<br /> The Woodlands Township</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(101, 101);return false;' href='#myModalPollingLoc' data-pol-conslet=101 data-pol-loc=101>Get All Information</a></td>	<td class='text-left'>Coulson Tough Flex School Grades K-6</td>	<td class='text-left'>11660 Crane Brook Drive, The Woodlands  77382</td>	<td>&nbsp;Gym</td>	<td >101</td></tr><tr>	<td class='centertext'>102</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District<br /> Montgomery Independent School District<br /> Willis Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(102, 102);return false;' href='#myModalPollingLoc' data-pol-conslet=102 data-pol-loc=102>Get All Information</a></td>	<td class='text-left'>John V. Peet Junior High School</td>	<td class='text-left'>1895 Longmire Rd, Conroe  77304</td>	<td>&nbsp;Gym 2</td>	<td >102</td></tr><tr>	<td class='centertext'>103</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Lone Star College District 2<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(103, 103);return false;' href='#myModalPollingLoc' data-pol-conslet=103 data-pol-loc=103>Get All Information</a></td>	<td class='text-left'>C. D. York Junior High School</td>	<td class='text-left'>3515 Waterbend Cove, Spring  77386</td>	<td>&nbsp;Gym</td>	<td >103</td></tr><tr>	<td class='centertext'>104</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(104, 104);return false;' href='#myModalPollingLoc' data-pol-conslet=104 data-pol-loc=104>Get All Information</a></td>	<td class='text-left'>Foster's Ridge Club House</td>	<td class='text-left'>14100 Denali Wilderness Parkway, Conroe  77384</td>	<td>&nbsp;Lodge</td>	<td >104</td></tr><tr>	<td class='centertext'>105</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Montgomery Independent School District<br /> City of Montgomery</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(105, 105);return false;' href='#myModalPollingLoc' data-pol-conslet=105 data-pol-loc=105>Get All Information</a></td>	<td class='text-left'>Lone Star Community Center</td>	<td class='text-left'>2500 Lone Star Parkway, Montgomery  77356</td>	<td>&nbsp;Cissy Boulware Room<br /><img src=images/star.gif alt='new room star'  style='width:20px; height:20px;'><span class='italictext'>New Room</span></td>	<td >105</td></tr><tr>	<td class='centertext'>106</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> Magnolia Independent School District<br /> Montgomery Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(106, 106);return false;' href='#myModalPollingLoc' data-pol-conslet=106 data-pol-loc=106>Get All Information</a></td>	<td >Montgomery County ESD #3 Administration and Training Facility<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>4711 Honea Egypt Road, Montgomery  77316</td>	<td>&nbsp;Training Room</td>	<td >106</td></tr><tr>	<td class='centertext'>107</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(107, 107);return false;' href='#myModalPollingLoc' data-pol-conslet=107 data-pol-loc=107>Get All Information</a></td>	<td class='text-left'>George P. Mitchell Intermediate School</td>	<td class='text-left'>6800 Alden Bridge Drive, The Woodlands  77382</td>	<td>&nbsp;Commons/Cafeteria</td>	<td >107</td></tr><tr>	<td class='centertext'>108</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(108, 108);return false;' href='#myModalPollingLoc' data-pol-conslet=108 data-pol-loc=108>Get All Information</a></td>	<td >KC Event Center<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>2655 FM 1488, Conroe  77384</td>	<td>&nbsp;Hall</td>	<td >108</td></tr><tr>	<td class='centertext'>109</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(109, 109);return false;' href='#myModalPollingLoc' data-pol-conslet=109 data-pol-loc=109>Get All Information</a></td>	<td >The Lake House at Grand Central Park<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>1039 Lake House Dr, Conroe  77304</td>	<td>&nbsp;Grand Room</td>	<td >109</td></tr><tr>	<td class='centertext'>110</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 1<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(110, 110);return false;' href='#myModalPollingLoc' data-pol-conslet=110 data-pol-loc=110>Get All Information</a></td>	<td class='text-left'>Bonnie Wilkinson Elementary School</td>	<td class='text-left'>2575 Ed Kharbat Drive, Conroe  77301</td>	<td>&nbsp;Gym</td>	<td >110</td></tr><tr>	<td class='centertext'>111</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Conroe Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(111, 111);return false;' href='#myModalPollingLoc' data-pol-conslet=111 data-pol-loc=111>Get All Information</a></td>	<td class='text-left'>Ben Milam Elementary School</td>	<td class='text-left'>16415 FM 3083, Conroe  77302</td>	<td>&nbsp;Gym</td>	<td >111</td></tr><tr>	<td class='centertext'>112</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Conroe Independent School District<br /> Montgomery Independent School District<br /> City of Montgomery</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(112, 112);return false;' href='#myModalPollingLoc' data-pol-conslet=112 data-pol-loc=112>Get All Information</a></td>	<td >Lake Creek High School<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>20639 FM 2854, Montgomery  77316</td>	<td>&nbsp;Athletic Foyer</td>	<td >112</td></tr><tr>	<td class='centertext'>113</td><td style='padding-left:5px;'><div class='.hidden-sm-*' style='text-align: left;'>Montgomery County<br /> Montgomery County Hospital District<br /> Montgomery County Hospital District Precinct 2<br /> Magnolia Independent School District<br /> Tomball Independent School District</div></td>	<td class='centertext'><a class='boldtext' data-toggle='modal' onClick='getmybrowser(113, 113);return false;' href='#myModalPollingLoc' data-pol-conslet=113 data-pol-loc=113>Get All Information</a></td>	<td >Decker Prairie Community Center<br /><img src=images/star.gif alt='new location star' style='width:20px; height:20px;'><span class='italictext'>New Location </span></td>	<td class='text-left'>32434 Decker Prairie Road, Magnolia  77355</td>	<td>&nbsp;Main Room</td>	<td >113</td></tr>
+				                </table>
+                            </div>
+
+	                        <div class="div_whiteblock div_blacktext ">
+                                <br />
+                                <br />
+                                
+    If you would like to receive current election notices and information <br>or for comments or questions, please 
+	                            <a href="contactus.asp?curLang=English">Email</a> us.
+  
+                                <br />
+                                <br />
+                                <span id="skip"><a href="#content-anchor">[Skip repetitive links]</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="outdated"></div>
+    </body>
+</html>
+

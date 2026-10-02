@@ -1,0 +1,40 @@
+name: pdf-probe
+# Reads the dates inside archived election-night report PDFs (phase1/targeted/pdf_urls.txt).
+# Shares the wayback-harvest concurrency group, so archive.org never has more than one client at a time.
+on:
+  push:
+    branches: [claude/tx-precinct-pipeline]
+    paths: [phase1/targeted/pdf_urls.txt, .github/workflows/pdf-probe.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  pdf-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    concurrency:
+      group: wayback-harvest
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Probe archived PDFs
+        shell: bash
+        run: set -o pipefail; python -m phase1.pdf_probe --urls-file phase1/targeted/pdf_urls.txt --out-dir phase1/targeted/pdfs | tee pdf_probe_log.jsonl
+      - name: Upload artifact (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdf-probe-${{ github.run_id }}
+          path: phase1/targeted/pdfs
+          retention-days: 30
+      - name: Push to wayback-data branch
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+          JOB: pdf-probe
+        run: bash tools/push_targeted.sh

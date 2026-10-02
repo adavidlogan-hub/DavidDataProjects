@@ -6,6 +6,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from phase1.schema import BANNED_RE  # noqa: E402
 
+# Raw archived source files are preserved byte for byte and are not deliverables.
+RAW_DIRS = ("phase1/targeted/wayback/", "phase1/targeted/archives/", "phase1/targeted/pdfs/", "phase1/wayback_snapshots/")
 TEXT_EXT = {".md", ".csv", ".py", ".js", ".html", ".toml", ".json", ".txt", ".ps1", ".bat", ".cmd", ".yml", ".yaml"}
 
 
@@ -15,6 +17,8 @@ def main() -> int:
                            capture_output=True, text=True, check=True).stdout.split("\n")
     bad = []
     for f in filter(None, files):
+        if f.startswith(RAW_DIRS):
+            continue
         p = root / f
         if p.suffix.lower() in TEXT_EXT and p.exists():
             for i, line in enumerate(p.read_text(encoding="utf-8", errors="replace").splitlines(), 1):
