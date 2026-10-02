@@ -1,0 +1,86 @@
+{
+  "county": "Throckmorton",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.throckmortoncounty.org/page/throckmorton.electionsposting",
+  "platform": "county_pdfs",
+  "host": "www.throckmortoncounty.org",
+  "evidence_url": "https://www.throckmortoncounty.org/upload/page/10021/52626OfficialResults.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No seed website. The SOS email domain's site www.throckmortoncountytx.gov links to page/throckmorton.elections, which returns 404 there; the same page works on www.throckmortoncounty.org (Elections page and 'Previous Election Results' page throckmorton.electionsposting). No Clarity site (elections.json 404). Server Last-Modified values differ by file. All posted results are Hart cumulative county-total reports; no precinct reports for any target election. The 2024 and 2026 primary files are post-election runs, so election-night publication cannot be read for those two. Check 3 pending for the 2024 general and 2026 primary (wayback-data branch not found on origin).",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER by check 2: unofficial county totals only, no precinct numbers posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only '2024 General Election Results' = 'Cumulative Results Report THROCKMORTON COUNTY, TEXAS Official Results GENERAL ELECTION ... Run Time 2:05 PM Run Date 11/06/2024' (county totals), Last-Modified Wed, 15 Jan 2025 20:20:26 GMT, is posted; no election-night file survives. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only '2026 Primary - Republicans/Democrats' = 'Cumulative Results Report ... Run Time 7:55 AM Run Date 03/09/2026' (county totals), Last-Modified Fri, 08 May 2026 13:44:05 GMT, is posted; no election-night file survives. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-06-01 09:21 CT (upload)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.throckmortoncounty.org/upload/page/10021/52626OfficialResults.pdf",
+      "fact": "'ELECTION NIGHT RETURNS Republican and Democrat' (52626OfficialResults.pdf, 3-page scan) = preliminary reconciliation form plus 'Cumulative Results Report THROCKMORTON COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Unofficial Results' (county totals by Absentee/Early/Election Day; read visually); PDF ModDate Mon Jun 1 14:20:41 2026 UTC, Last-Modified Mon, 01 Jun 2026 14:21:08 GMT. No precinct-level runoff results are posted (never published online as far as the site shows)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.throckmortoncounty.org/page/throckmorton.elections",
+      "via": "fetch_module",
+      "content_hash": "50d8e6983687af52635e63551705dfb3a6cc82cfc0f1f5ad5fe9c2fa6c53f507",
+      "quote": "ELECTION NIGHT RETURNS Republican and Democrat -> 52626OfficialResults.pdf; Throckmorton County Previous Election Results",
+      "supports": "Runoff election-night returns posting"
+    },
+    {
+      "url": "https://www.throckmortoncounty.org/page/throckmorton.electionsposting",
+      "via": "fetch_module",
+      "content_hash": "79f78dd7662c632c3b8f1eaf620e2f419e12950dd9c11ab8c4ba8f95aeecda14",
+      "quote": "2024 General Election Results; 2026 Primary - Democrats; 2026 Primary - Republicans; 2026 Primary Run-off",
+      "supports": "Results archive per election"
+    },
+    {
+      "url": "https://www.throckmortoncounty.org/upload/page/10021/52626OfficialResults.pdf",
+      "via": "fetch_module",
+      "content_hash": "6f85017bdbdf167f448f620760e2ff5f1ca758776621a62ffc8df83dcc97d08d",
+      "quote": "Cumulative Results Report THROCKMORTON COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Unofficial Results (scanned, read visually)",
+      "supports": "Runoff county totals uploaded June 1"
+    },
+    {
+      "url": "https://www.throckmortoncounty.org/upload/page/11531/2024 Gen Results-11-6-2024 02-06-46 PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "afc5261e7b4b446b38bcd160cd8fa51373982f7774629bab67495ce12c6ef735",
+      "quote": "Cumulative Results Report THROCKMORTON COUNTY, TEXAS Official Results GENERAL ELECTION Run Time 2:05 PM Run Date 11/06/2024",
+      "supports": "2024 only official county totals"
+    },
+    {
+      "url": "https://www.throckmortoncounty.org/upload/page/11531/rep3326result.pdf",
+      "via": "fetch_module",
+      "content_hash": "371f42d1971d854bac6b19052184599b8ee6a70261cd137b0ae398501035b1a3",
+      "quote": "Cumulative Results Report THROCKMORTON COUNTY, TEXAS ... PRIMARY ELECTION ... Run Time 7:55 AM Run Date 03/09/2026",
+      "supports": "2026 primary only post-election county totals"
+    }
+  ]
+}
