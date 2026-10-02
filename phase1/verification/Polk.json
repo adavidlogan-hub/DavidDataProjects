@@ -66,5 +66,15 @@
    "what_i_checked": "Old portal lists years through 2022 only; year=2024 and year=2026 return HTTP 500."
   }
  ],
- "written_blind_at_utc": "2026-10-02T22:34:01Z"
+ "written_blind_at_utc": "2026-10-02T22:34:01Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "Different: verifier LATER (check 2), research UNDETERMINED. polktx.gov/389/Election-Results lists 'November 7, 2024 Election Unofficial Results (PDF)' (DocumentCenter/View/301), a 'Cumulative Results Report ... Unofficial Results GENERAL ELECTION', 42 of 42 precincts, 'Run Time 9:40 PM' 'Run Date 11/05/2024' (CreationDate 2024-11-06 03:41 UTC), county totals only; no Nov 2024 precinct report is posted anywhere on the county pages, while both cumulative and precinct reports are posted for March 2024, March 2026 and May 2026. Caveat: the absence of precinct numbers rests on today's pages, not an election-night capture. The difference does not change the tag (two END elections either way).",
+  "2026_primary": "Same (END, check 2): Precinct Results-3-3-2026 (View/1105), Run Time 9:53 PM 03/03/2026, CreationDate 03:53:24 UTC Mar 4; Last-Modified equals request time, so no upload time; rule 47 printed time decides.",
+  "2026_runoff": "Same (END, check 2): Precinct Results-5-26-2026 (View/1298), Run Time 9:28 PM 05/26/2026, CreationDate 02:28:25 UTC May 27; request-time Last-Modified confirmed on my own fetch of View/1297 (22:27:49 GMT Oct 2 2026).",
+  "unsupported_claims": "Research's 2024 fact 'Not listed on the current Elections or Election Results pages' is not supported: the Election Results page links the Nov 2024 Unofficial Results PDF (View/301). The earlier note that the Election Results Portal returned HTTP 403 is superseded by research's own later note; today it loads and lists years through 2022 (2024 and 2026 year pages HTTP 500).",
+  "verifier": "verifier-9",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT"
+ }
 }

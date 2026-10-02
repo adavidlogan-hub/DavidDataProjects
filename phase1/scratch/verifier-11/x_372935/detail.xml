@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<!--Election result snapshot imported from Tabulation System
+-->
+<ElectionResult>
+    <Timestamp>5/26/2026 7:15:22 PM CDT</Timestamp>
+    <ElectionName>2026 Primary Runoff</ElectionName>
+    <ElectionDate>5/26/2026</ElectionDate>
+    <Region>Lamar</Region>
+    <VoterTurnout totalVoters="33064" ballotsCast="4170" voterTurnout="12.61">
+        <Precincts>
+            <Precinct name="Lamar County" totalVoters="16449" ballotsCast="1999" voterTurnout="12.15" percentReporting="4" />
+            <Precinct name="County and Commissioner Pct 2" totalVoters="7151" ballotsCast="486" voterTurnout="6.80" percentReporting="4" />
+            <Precinct name="County and Commissioner Pct 4" totalVoters="9464" ballotsCast="1685" voterTurnout="17.80" percentReporting="4" />
+        </Precincts>
+    </VoterTurnout>
+    <Contest key="0010" text="REP US Senator" voteFor="1" isQuestion="false" precinctsReporting="3" precinctsReported="3">
+        <VoteType name="regVotersCounty" votes="0">
+            <Precinct name="Lamar County" votes="0" />
+            <Precinct name="County and Commissioner Pct 2" votes="0" />
+            <Precinct name="County and Commissioner Pct 4" votes="0" />
+        </VoteType>
+        <Choice key="001" text="Ken Paxton" party="REP" totalVotes="2535">
+            <VoteType name="Absentee" votes="58">
+                <Precinct name="Lamar County" votes="35" />
+                <Precinct name="County and Commissioner Pct 2" votes="8" />
+                <Precinct name="County and Commissioner Pct 4" votes="15" />
+            </VoteType>
+            <VoteType name="Early" votes="1584">
+                <Precinct name="Lamar County" votes="721" />
+                <Precinct name="County and Commissioner Pct 2" votes="173" />
+                <Precinct name="County and Commissioner Pct 4" votes="690" />
+            </VoteType>
+            <VoteType name="Election Day" votes="893">
+                <Precinct name="Lamar County" votes="421" />
+                <Precinct name="County and Commissioner Pct 2" votes="110" />
+                <Precinct name="County and Commissioner Pct 4" votes="362" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+        <Choice key="002" text="John Cornyn" party="REP" totalVotes="1300">
+            <VoteType name="Absentee" votes="84">
+                <Precinct name="Lamar County" votes="56" />
+                <Precinct name="County and Commissioner Pct 2" votes="7" />
+                <Precinct name="County and Commissioner Pct 4" votes="21" />
+            </VoteType>
+            <VoteType name="Early" votes="807">
+                <Precinct name="Lamar County" votes="379" />
+                <Precinct name="County and Commissioner Pct 2" votes="87" />
+                <Precinct name="County and Commissioner Pct 4" votes="341" />
+            </VoteType>
+            <VoteType name="Election Day" votes="409">
+                <Precinct name="Lamar County" votes="218" />
+                <Precinct name="County and Commissioner Pct 2" votes="47" />
+                <Precinct name="County and Commissioner Pct 4" votes="144" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+    </Contest>
+    <Contest key="0011" text="REP Attorney General" voteFor="1" isQuestion="false" precinctsReporting="3" precinctsReported="3">
+        <VoteType name="regVotersCounty" votes="0">
+            <Precinct name="Lamar County" votes="0" />
+            <Precinct name="County and Commissioner Pct 2" votes="0" />
+            <Precinct name="County and Commissioner Pct 4" votes="0" />
+        </VoteType>
+        <Choice key="001" text="Mayes Middleton" party="REP" totalVotes="2081">
+            <VoteType name="Absentee" votes="90">
+                <Precinct name="Lamar County" votes="53" />
+                <Precinct name="County and Commissioner Pct 2" votes="13" />
+                <Precinct name="County and Commissioner Pct 4" votes="24" />
+            </VoteType>
+            <VoteType name="Early" votes="1327">
+                <Precinct name="Lamar County" votes="610" />
+                <Precinct name="County and Commissioner Pct 2" votes="148" />
+                <Precinct name="County and Commissioner Pct 4" votes="569" />
+            </VoteType>
+            <VoteType name="Election Day" votes="664">
+                <Precinct name="Lamar County" votes="321" />
+                <Precinct name="County and Commissioner Pct 2" votes="76" />
+                <Precinct name="County and Commissioner Pct 4" votes="267" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+        <Choice key="002" text="Chip Roy" party="REP" totalVotes="1672">
+            <VoteType name="Absentee" votes="54">
+                <Precinct name="Lamar County" votes="39" />
+                <Precinct name="County and Commissioner Pct 2" votes="3" />
+                <Precinct name="County and Commissioner Pct 4" votes="12" />
+            </VoteType>
+            <VoteType name="Early" votes="1020">
+                <Precinct name="Lamar County" votes="482" />
+                <Precinct name="County and Commissioner Pct 2" votes="113" />
+                <Precinct name="County and Commissioner Pct 4" votes="425" />
+            </VoteType>
+            <VoteType name="Election Day" votes="598">
+                <Precinct name="Lamar County" votes="306" />
+                <Precinct name="County and Commissioner Pct 2" votes="74" />
+                <Precinct name="County and Commissioner Pct 4" votes="218" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+    </Contest>
+    <Contest key="0012" text="REP Railroad Commissioner" voteFor="1" isQuestion="false" precinctsReporting="3" precinctsReported="3">
+        <VoteType name="regVotersCounty" votes="0">
+            <Precinct name="Lamar County" votes="0" />
+            <Precinct name="County and Commissioner Pct 2" votes="0" />
+            <Precinct name="County and Commissioner Pct 4" votes="0" />
+        </VoteType>
+        <Choice key="001" text="Bo French" party="REP" totalVotes="1637">
+            <VoteType name="Absentee" votes="41">
+                <Precinct name="Lamar County" votes="22" />
+                <Precinct name="County and Commissioner Pct 2" votes="6" />
+                <Precinct name="County and Commissioner Pct 4" votes="13" />
+            </VoteType>
+            <VoteType name="Early" votes="1053">
+                <Precinct name="Lamar County" votes="513" />
+                <Precinct name="County and Commissioner Pct 2" votes="112" />
+                <Precinct name="County and Commissioner Pct 4" votes="428" />
+            </VoteType>
+            <VoteType name="Election Day" votes="543">
+                <Precinct name="Lamar County" votes="283" />
+                <Precinct name="County and Commissioner Pct 2" votes="63" />
+                <Precinct name="County and Commissioner Pct 4" votes="197" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+        <Choice key="002" text="Jim Wright" party="REP" totalVotes="1950">
+            <VoteType name="Absentee" votes="88">
+                <Precinct name="Lamar County" votes="59" />
+                <Precinct name="County and Commissioner Pct 2" votes="9" />
+                <Precinct name="County and Commissioner Pct 4" votes="20" />
+            </VoteType>
+            <VoteType name="Early" votes="1193">
+                <Precinct name="Lamar County" votes="541" />
+                <Precinct name="County and Commissioner Pct 2" votes="140" />
+                <Precinct name="County and Commissioner Pct 4" votes="512" />
+            </VoteType>
+            <VoteType name="Election Day" votes="669">
+                <Precinct name="Lamar County" votes="313" />
+                <Precinct name="County and Commissioner Pct 2" votes="81" />
+                <Precinct name="County and Commissioner Pct 4" votes="275" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+    </Contest>
+    <Contest key="0013" text="REP Judge, Ct of Crim App, Pl 3" voteFor="1" isQuestion="false" precinctsReporting="3" precinctsReported="3">
+        <VoteType name="regVotersCounty" votes="0">
+            <Precinct name="Lamar County" votes="0" />
+            <Precinct name="County and Commissioner Pct 2" votes="0" />
+            <Precinct name="County and Commissioner Pct 4" votes="0" />
+        </VoteType>
+        <Choice key="001" text="Thomas Smith" party="REP" totalVotes="2088">
+            <VoteType name="Absentee" votes="75">
+                <Precinct name="Lamar County" votes="48" />
+                <Precinct name="County and Commissioner Pct 2" votes="10" />
+                <Precinct name="County and Commissioner Pct 4" votes="17" />
+            </VoteType>
+            <VoteType name="Early" votes="1278">
+                <Precinct name="Lamar County" votes="612" />
+                <Precinct name="County and Commissioner Pct 2" votes="141" />
+                <Precinct name="County and Commissioner Pct 4" votes="525" />
+            </VoteType>
+            <VoteType name="Election Day" votes="735">
+                <Precinct name="Lamar County" votes="361" />
+                <Precinct name="County and Commissioner Pct 2" votes="80" />
+                <Precinct name="County and Commissioner Pct 4" votes="294" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+        <Choice key="002" text="Alison Fox" party="REP" totalVotes="1184">
+            <VoteType name="Absentee" votes="42">
+                <Precinct name="Lamar County" votes="24" />
+                <Precinct name="County and Commissioner Pct 2" votes="4" />
+                <Precinct name="County and Commissioner Pct 4" votes="14" />
+            </VoteType>
+            <VoteType name="Early" votes="774">
+                <Precinct name="Lamar County" votes="352" />
+                <Precinct name="County and Commissioner Pct 2" votes="84" />
+                <Precinct name="County and Commissioner Pct 4" votes="338" />
+            </VoteType>
+            <VoteType name="Election Day" votes="368">
+                <Precinct name="Lamar County" votes="183" />
+                <Precinct name="County and Commissioner Pct 2" votes="47" />
+                <Precinct name="County and Commissioner Pct 4" votes="138" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+    </Contest>
+    <Contest key="0014" text="REP County Commissioner Pct 2" voteFor="1" isQuestion="false" precinctsReporting="1" precinctsReported="1">
+        <VoteType name="regVotersCounty" votes="0">
+            <Precinct name="County and Commissioner Pct 2 Precinct No. 2" votes="0" />
+        </VoteType>
+        <Choice key="001" text="Mike Ford" party="REP" totalVotes="261">
+            <VoteType name="Absentee" votes="8">
+                <Precinct name="County and Commissioner Pct 2 Precinct No. 2" votes="8" />
+            </VoteType>
+            <VoteType name="Early" votes="162">
+                <Precinct name="County and Commissioner Pct 2 Precinct No. 2" votes="162" />
+            </VoteType>
+            <VoteType name="Election Day" votes="91">
+                <Precinct name="County and Commissioner Pct 2 Precinct No. 2" votes="91" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="County and Commissioner Pct 2 Precinct No. 2" votes="0" />
+            </VoteType>
+        </Choice>
+        <Choice key="002" text="Cody Jones" party="REP" totalVotes="152">
+            <VoteType name="Absentee" votes="7">
+                <Precinct name="County and Commissioner Pct 2 Precinct No. 2" votes="7" />
+            </VoteType>
+            <VoteType name="Early" votes="85">
+                <Precinct name="County and Commissioner Pct 2 Precinct No. 2" votes="85" />
+            </VoteType>
+            <VoteType name="Election Day" votes="60">
+                <Precinct name="County and Commissioner Pct 2 Precinct No. 2" votes="60" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="County and Commissioner Pct 2 Precinct No. 2" votes="0" />
+            </VoteType>
+        </Choice>
+    </Contest>
+    <Contest key="0015" text="REP County Commissioner Pct 4" voteFor="1" isQuestion="false" precinctsReporting="1" precinctsReported="1">
+        <VoteType name="regVotersCounty" votes="0">
+            <Precinct name="County and Commissioner Pct 4 Precinct No. 4" votes="0" />
+        </VoteType>
+        <Choice key="001" text="Casey Johnson" party="REP" totalVotes="591">
+            <VoteType name="Absentee" votes="13">
+                <Precinct name="County and Commissioner Pct 4 Precinct No. 4" votes="13" />
+            </VoteType>
+            <VoteType name="Early" votes="391">
+                <Precinct name="County and Commissioner Pct 4 Precinct No. 4" votes="391" />
+            </VoteType>
+            <VoteType name="Election Day" votes="187">
+                <Precinct name="County and Commissioner Pct 4 Precinct No. 4" votes="187" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="County and Commissioner Pct 4 Precinct No. 4" votes="0" />
+            </VoteType>
+        </Choice>
+        <Choice key="002" text="Ken High" party="REP" totalVotes="1014">
+            <VoteType name="Absentee" votes="21">
+                <Precinct name="County and Commissioner Pct 4 Precinct No. 4" votes="21" />
+            </VoteType>
+            <VoteType name="Early" votes="652">
+                <Precinct name="County and Commissioner Pct 4 Precinct No. 4" votes="652" />
+            </VoteType>
+            <VoteType name="Election Day" votes="341">
+                <Precinct name="County and Commissioner Pct 4 Precinct No. 4" votes="341" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="County and Commissioner Pct 4 Precinct No. 4" votes="0" />
+            </VoteType>
+        </Choice>
+    </Contest>
+    <Contest key="0016" text="DEM Lieutenant Governor" voteFor="1" isQuestion="false" precinctsReporting="3" precinctsReported="3">
+        <VoteType name="regVotersCounty" votes="0">
+            <Precinct name="Lamar County" votes="0" />
+            <Precinct name="County and Commissioner Pct 2" votes="0" />
+            <Precinct name="County and Commissioner Pct 4" votes="0" />
+        </VoteType>
+        <Choice key="001" text="Marcos Isaias Velez" party="DEM" totalVotes="80">
+            <VoteType name="Absentee" votes="16">
+                <Precinct name="Lamar County" votes="16" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+            <VoteType name="Early" votes="47">
+                <Precinct name="Lamar County" votes="19" />
+                <Precinct name="County and Commissioner Pct 2" votes="11" />
+                <Precinct name="County and Commissioner Pct 4" votes="17" />
+            </VoteType>
+            <VoteType name="Election Day" votes="17">
+                <Precinct name="Lamar County" votes="12" />
+                <Precinct name="County and Commissioner Pct 2" votes="4" />
+                <Precinct name="County and Commissioner Pct 4" votes="1" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+        <Choice key="002" text="Vikki Goodwin" party="DEM" totalVotes="151">
+            <VoteType name="Absentee" votes="45">
+                <Precinct name="Lamar County" votes="45" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+            <VoteType name="Early" votes="72">
+                <Precinct name="Lamar County" votes="46" />
+                <Precinct name="County and Commissioner Pct 2" votes="14" />
+                <Precinct name="County and Commissioner Pct 4" votes="12" />
+            </VoteType>
+            <VoteType name="Election Day" votes="34">
+                <Precinct name="Lamar County" votes="18" />
+                <Precinct name="County and Commissioner Pct 2" votes="12" />
+                <Precinct name="County and Commissioner Pct 4" votes="4" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+    </Contest>
+    <Contest key="0017" text="DEM Attorney General" voteFor="1" isQuestion="false" precinctsReporting="3" precinctsReported="3">
+        <VoteType name="regVotersCounty" votes="0">
+            <Precinct name="Lamar County" votes="0" />
+            <Precinct name="County and Commissioner Pct 2" votes="0" />
+            <Precinct name="County and Commissioner Pct 4" votes="0" />
+        </VoteType>
+        <Choice key="001" text="Nathan Johnson" party="DEM" totalVotes="128">
+            <VoteType name="Absentee" votes="35">
+                <Precinct name="Lamar County" votes="35" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+            <VoteType name="Early" votes="68">
+                <Precinct name="Lamar County" votes="36" />
+                <Precinct name="County and Commissioner Pct 2" votes="17" />
+                <Precinct name="County and Commissioner Pct 4" votes="15" />
+            </VoteType>
+            <VoteType name="Election Day" votes="25">
+                <Precinct name="Lamar County" votes="15" />
+                <Precinct name="County and Commissioner Pct 2" votes="8" />
+                <Precinct name="County and Commissioner Pct 4" votes="2" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+        <Choice key="002" text="Joe Jaworski" party="DEM" totalVotes="98">
+            <VoteType name="Absentee" votes="26">
+                <Precinct name="Lamar County" votes="26" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+            <VoteType name="Early" votes="49">
+                <Precinct name="Lamar County" votes="31" />
+                <Precinct name="County and Commissioner Pct 2" votes="8" />
+                <Precinct name="County and Commissioner Pct 4" votes="10" />
+            </VoteType>
+            <VoteType name="Election Day" votes="23">
+                <Precinct name="Lamar County" votes="13" />
+                <Precinct name="County and Commissioner Pct 2" votes="7" />
+                <Precinct name="County and Commissioner Pct 4" votes="3" />
+            </VoteType>
+            <VoteType name="Provisional" votes="0">
+                <Precinct name="Lamar County" votes="0" />
+                <Precinct name="County and Commissioner Pct 2" votes="0" />
+                <Precinct name="County and Commissioner Pct 4" votes="0" />
+            </VoteType>
+        </Choice>
+    </Contest>
+</ElectionResult>

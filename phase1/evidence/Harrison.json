@@ -110,5 +110,15 @@
       "evidence_url": "",
       "fact": "No 2026 runoff results on the county '2026 Elections' or 'Past Elections' pages. Check 3 pending."
     }
+  },
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same (UNDETERMINED): only post-election files (FINAL RESULTS created Nov 13 2024, Precinct Results run 11/18/2024, both Last-Modified Apr 2025); no archive captures.",
+    "2026_primary": "Blind verdict UNDETERMINED (the county-host copies return HTTP 404; I did not find the CIRA host). After opening the files research cites (DECISIONS 44) I agree: LATER, check 2. UNOFFICIAL EARLY RESULTS (0 of 52 precincts, Election Day 0) Last-Modified 01:15:27 GMT Mar 4 = 7:15 PM CST election night; precinct report Last-Modified 20:02:01 GMT Mar 4 = 2:02 PM CST next day; my conditional refetches returned 304 (unchanged). Blind verdict kept in phase1/verification/Harrison.json under blind_verdict.",
+    "2026_runoff": "Same (UNDETERMINED): no runoff results on either host; no captures.",
+    "unsupported_claims": "None found. Caveat: the 'no election-day precinct numbers that night' half of rule 43 rests on the stale CIRA page copy listing only the next-day precinct report and on the unofficial final county totals also being uploaded the next afternoon, not on an election-night capture.",
+    "verifier": "verifier-9",
+    "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS"
   }
 }

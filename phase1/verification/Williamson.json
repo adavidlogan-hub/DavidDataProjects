@@ -54,5 +54,15 @@
    "what_i_checked": "Captures per window: 2024 general 0, 2026 primary 1 (above), 2026 runoff 0; no Memento or archive.today mementos. phase1/wayback_snapshots/Williamson/index.json: 2024 0 captures, 2026 windows robots-blocked."
   }
  ],
- "written_blind_at_utc": "2026-10-02T22:34:01Z"
+ "written_blind_at_utc": "2026-10-02T22:34:01Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "Same (UNDETERMINED): no election-night capture of the ENR host or county pages; today's Index_3.html is the 11/20/2024 canvass state.",
+  "2026_primary": "Same (LIVE, check 3, live precinct view rule) from the same 8:25 PM CST Wayback capture of ENR Index_11.html: Website Updated 3/3/2026 7:29:36 PM, hdnPrecinctLevelResults=1, hdnAutoRefresh=600, per-precinct candidate tables for 178 precincts in the same page as the county totals, all values 0. Research quotes checked against the saved file and supported (including \"['reporting',0],['remaining',177]\" and lblLastPublishedDateTime).",
+  "2026_runoff": "Same (UNDETERMINED): zero captures in the window; today's Index_14.html is the 6/2/2026 canvass state.",
+  "unsupported_claims": "None that affect a result. Not checked by me: the Clarity EID 127277 mention in the runoff fact and the check 4 news pages listed in notes (leads only).",
+  "verifier": "verifier-9",
+  "verifier_tag": "LIVE_PRECINCT"
+ }
 }

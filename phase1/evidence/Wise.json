@@ -117,5 +117,15 @@
       "quote": "March 3, 2026 Primary Election Results https://www.wcmessenger.com/articles/march-3-2026-primary-election-results",
       "supports": "locating only"
     }
-  ]
+  ],
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same (LATER, check 3, county totals first seen 2024-11-05 21:14 CT): election-night Wayback captures (10:59 PM and 2:03 AM CST) of /315/Elections link only the Unofficial Cumulative Report - Final (View/5970, Run Time 9:14 PM) and - Early Voting (View/5969, 6:37 PM); the precinct report (View/6011) is Official, Run Date 11/18/2024.",
+    "2026_primary": "Same (UNDETERMINED): only the official cumulative report (Run Date 03/09/2026); no captures.",
+    "2026_runoff": "Same (UNDETERMINED): only the Official FINAL cumulative report (Run Date 06/02/2026); no captures.",
+    "unsupported_claims": "None affecting results. Minor: research notes say www.co.wise.tx.us was refused by the fetch module; on my run it served /315/Elections and the DocumentCenter files directly (robots.txt allows them). The Wise County Messenger lead was not checked (lead only).",
+    "verifier": "verifier-9",
+    "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS"
+  }
 }

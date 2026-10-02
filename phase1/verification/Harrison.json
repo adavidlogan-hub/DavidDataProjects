@@ -1,7 +1,7 @@
 {
  "county": "Harrison",
  "reason_selected": "tag changed in targeted pass 3",
- "verifier_tag": "UNKNOWN",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
  "verifier_confidence": "low",
  "elections": {
   "2024_general": {
@@ -10,9 +10,10 @@
    "fact": "Seed URL redirects to harrisoncountytexas.gov. /page/PastElections lists for NOV 5, 2024 'FINAL RESULTS' (county totals, CreationDate Wed Nov 13 21:26:11 2024 UTC, Last-Modified Fri, 11 Apr 2025), 'Precinct Results-11-18-2024 01-03-20 PM' ('Official Results', 'Run Date 11/18/2024', CreationDate Mon Nov 18 19:03:28 2024 UTC, Last-Modified Fri, 11 Apr 2025), and 'Final Reconciliation'. All are post-election; no election-night file survives (rule 43). Wayback harvest of harrisoncountytexas.org was robots-blocked for all windows; no other archive material. No Clarity election list (404). Sweep pending."
   },
   "2026_primary": {
-   "result": "UNDETERMINED",
-   "check": "none",
-   "fact": "/page/Elections-2026 has an 'ELECTION RESULTS' section whose 'RESULTS' and 'AFTER LATE & PROVISIONAL BALLOT BOARD/CANVASS' lists are now empty. A web search (locating only) listed files under /upload/page/11882/March 3, 2026 PRIMARY/ ('UNOFFICIAL EARLY RESULTS', 'UNOFFICIAL FINAL RESULTS', 'DEM 2', 'REP 12'); each returns HTTP 404 today, so their contents and times cannot be read. No archive captures. Sweep pending."
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2026-03-03 19:15 CT",
+   "fact": "Corrected after the blind verdict (DECISIONS 44) by opening the files research cites, refetched by me with conditional headers (HTTP 304, unchanged). On the county's CMS host newtools.cira.state.tx.us, /upload/page/11882/March 3, 2026 PRIMARY/: 'UNOFFICIAL EARLY RESULTS.pdf' = 'Cumulative Results Report HARRISON COUNTY Unofficial Results PRIMARY 2026', 'Precincts Reporting 0 of 52 = 0.00%', 'Run Time 7:01 PM', 'Run Date 03/03/2026', CreationDate Wed Mar 4 01:08:39 2026 UTC, county totals with Election Day Voting all 0 (e.g. 'John Cornyn Rep 66 ... 2,417 ... 0 ... 2,483'), Last-Modified Wed, 04 Mar 2026 01:15:27 GMT = 7:15 PM CST on election night. 'UNOFFICIAL FINAL RESULTS.pdf' (52 of 52, Run Time 1:16 PM, Run Date 03/04/2026) Last-Modified Wed, 04 Mar 2026 19:56:53 GMT = 1:56 PM CST Mar 4. 'Precinct Results-3-4-2026 01-26-42 PM.pdf' ('Precinct Results Report ... Unofficial Results', Run Time 1:25 PM, Run Date 03/04/2026, per-precinct rows such as '1R - 1R ... John Cornyn Rep 5 ... 134 ... 50 ... 189' with an Election Day Voting column) Last-Modified Wed, 04 Mar 2026 20:02:01 GMT = 2:02 PM CST Mar 4, after election night. The CIRA copy of the Elections page (harrison.Elections) lists this as the only precinct report for the primary. Election-night county totals (early and mail only) and precinct numbers with election-day votes only the next afternoon: LATER under rule 43. My blind search found the same file names via web search but tried only the www.harrisoncountytexas.gov host, where they return HTTP 404."
   },
   "2026_runoff": {
    "result": "UNDETERMINED",
@@ -20,7 +21,7 @@
    "fact": "No runoff result files are linked on the county's pages today (only 'Dates Times Places Primary Run-Off 5-2026.pdf'); no archive captures; no Clarity site. Sweep pending."
   }
  },
- "rationale": "No election has election-night evidence that I could open: 2024 files are post-election, 2026 files are gone (404) or never linked, and no archive captured the county site. UNKNOWN, low. Disclosure: before starting, a routine `git log --oneline` showed the latest commit subjects, which name research's pass 3 tags for Williamson, Polk, and Harrison; no evidence file, DECISIONS item 60 to 62, counties.csv, or targeted3 scratch file was opened before this file was written, and every result here rests on sources I opened myself.",
+ "rationale": "After correction (DECISIONS 44): only the 2026 primary is decided (LATER, check 2: early county totals uploaded 7:15 PM on election night, precinct report uploaded 2:02 PM the next day), so COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence. The blind verdict (UNKNOWN) is kept under blind_verdict.",
  "sources": [
   {
    "url": "http://harrisoncountytexas.org/?page_id=1224",
@@ -51,7 +52,60 @@
    "url": "https://www.harrisoncountytexas.gov/upload/page/11882/March 3, 2026 PRIMARY/UNOFFICIAL FINAL RESULTS.pdf",
    "content_hash": "",
    "what_i_checked": "Located by web search; HTTP 404 today (also UNOFFICIAL EARLY RESULTS.pdf, DEM 2.pdf, REP 12.pdf). Search snippet not used as evidence."
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/11882/March%203,%202026%20PRIMARY/UNOFFICIAL%20EARLY%20RESULTS.pdf",
+   "content_hash": "a25efb70d5fa4b84d121d4f80ebd893102b917736c6dd0db557b3306fc2e27e5",
+   "what_i_checked": "Post-blind: Last-Modified 04 Mar 2026 01:15:27 GMT (304 on my conditional refetch), Run Time 7:01 PM 03/03/2026, 0 of 52 precincts, county totals only."
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/11882/March%203,%202026%20PRIMARY/UNOFFICIAL%20FINAL%20RESULTS.pdf",
+   "content_hash": "f94cdd89fe08333dc8cd333f2d2dc9fca78f2ea9b67abc8cbbc708099396d241",
+   "what_i_checked": "Post-blind: Last-Modified 04 Mar 2026 19:56:53 GMT, Run 1:16 PM 03/04/2026."
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/11882/March%203,%202026%20PRIMARY/Precinct%20Results-3-4-2026%2001-26-42%20PM.pdf",
+   "content_hash": "b7b6e6e7b9c62ace939bf81a5e2b2a289b851b7a5a4847b274e5cf4ad714fce9",
+   "what_i_checked": "Post-blind: Last-Modified 04 Mar 2026 20:02:01 GMT, Run 1:25 PM 03/04/2026, per-precinct votes with Election Day column."
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/page/harrison.Elections",
+   "content_hash": "2ab2bf686feea1a257bb5ecf372854c795dcab156aaa464e5e8cae090c6fea3a",
+   "what_i_checked": "Post-blind: lists 'Precinct Results-3-4-2026 01-26-42 PM.pdf' as the only primary precinct report."
   }
  ],
- "written_blind_at_utc": "2026-10-02T22:34:01Z"
+ "written_blind_at_utc": "2026-10-02T22:34:01Z",
+ "blind_verdict": {
+  "verifier_tag": "UNKNOWN",
+  "verifier_confidence": "low",
+  "elections": {
+   "2024_general": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "Seed URL redirects to harrisoncountytexas.gov. /page/PastElections lists for NOV 5, 2024 'FINAL RESULTS' (county totals, CreationDate Wed Nov 13 21:26:11 2024 UTC, Last-Modified Fri, 11 Apr 2025), 'Precinct Results-11-18-2024 01-03-20 PM' ('Official Results', 'Run Date 11/18/2024', CreationDate Mon Nov 18 19:03:28 2024 UTC, Last-Modified Fri, 11 Apr 2025), and 'Final Reconciliation'. All are post-election; no election-night file survives (rule 43). Wayback harvest of harrisoncountytexas.org was robots-blocked for all windows; no other archive material. No Clarity election list (404). Sweep pending."
+   },
+   "2026_primary": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "/page/Elections-2026 has an 'ELECTION RESULTS' section whose 'RESULTS' and 'AFTER LATE & PROVISIONAL BALLOT BOARD/CANVASS' lists are now empty. A web search (locating only) listed files under /upload/page/11882/March 3, 2026 PRIMARY/ ('UNOFFICIAL EARLY RESULTS', 'UNOFFICIAL FINAL RESULTS', 'DEM 2', 'REP 12'); each returns HTTP 404 today, so their contents and times cannot be read. No archive captures. Sweep pending."
+   },
+   "2026_runoff": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "No runoff result files are linked on the county's pages today (only 'Dates Times Places Primary Run-Off 5-2026.pdf'); no archive captures; no Clarity site. Sweep pending."
+   }
+  },
+  "rationale": "No election has election-night evidence that I could open: 2024 files are post-election, 2026 files are gone (404) or never linked, and no archive captured the county site. UNKNOWN, low. Disclosure: before starting, a routine `git log --oneline` showed the latest commit subjects, which name research's pass 3 tags for Williamson, Polk, and Harrison; no evidence file, DECISIONS item 60 to 62, counties.csv, or targeted3 scratch file was opened before this file was written, and every result here rests on sources I opened myself."
+ },
+ "corrected_after_blind_at_utc": "2026-10-02T22:35:31Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "Same (UNDETERMINED): only post-election files (FINAL RESULTS created Nov 13 2024, Precinct Results run 11/18/2024, both Last-Modified Apr 2025); no archive captures.",
+  "2026_primary": "Blind verdict UNDETERMINED (the county-host copies return HTTP 404; I did not find the CIRA host). After opening the files research cites (DECISIONS 44) I agree: LATER, check 2. UNOFFICIAL EARLY RESULTS (0 of 52 precincts, Election Day 0) Last-Modified 01:15:27 GMT Mar 4 = 7:15 PM CST election night; precinct report Last-Modified 20:02:01 GMT Mar 4 = 2:02 PM CST next day; my conditional refetches returned 304 (unchanged). Blind verdict kept in phase1/verification/Harrison.json under blind_verdict.",
+  "2026_runoff": "Same (UNDETERMINED): no runoff results on either host; no captures.",
+  "unsupported_claims": "None found. Caveat: the 'no election-day precinct numbers that night' half of rule 43 rests on the stale CIRA page copy listing only the next-day precinct report and on the unofficial final county totals also being uploaded the next afternoon, not on an election-night capture.",
+  "verifier": "verifier-9",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS"
+ }
 }
