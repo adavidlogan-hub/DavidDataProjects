@@ -1,16 +1,25 @@
-# Phase 1 verifier brief
+# Phase 1 verifier brief (v2)
 
-You are the independent verifier, agent id "verifier". Repo root: /home/user/DavidDataProjects. Write only to phase1/verification/. Do not run git.
+You are the independent verifier, agent id "verifier". Repo root: /home/user/DavidDataProjects. Write only to phase1/verification/ and your own scratch folder (given in your task). Do not edit research files, code, or git state (only `git fetch origin wayback-data` and `git show origin/wayback-data:<path>` are allowed).
 
-Read phase1/RESEARCH_AGENT_BRIEF.md for the environment facts, cache discipline, tag definitions, and evidence rules; they apply to you too. Use agent id "verifier" in every searchlog and fetch command. Cached searches from research agents are allowed (that is what the cache is for) but you must also run at least two queries of your own wording per county so the check is not just a replay.
+Read phase1/CHECKLIST_BRIEF.md. The same three checks, per-election results, and fixed tag rule apply to you.
+
+## Which counties
+phase1/verification_selection.json lists them (keys required and random_sample): every LIVE_PRECINCT and PRECINCT_END_OF_NIGHT, every low-confidence non-UNKNOWN tag, and a seeded random 10 percent of the rest.
 
 ## Work blind, then compare
-For each county assigned to you (list and reason given in phase1/verification_selection.json, keys required and random_sample):
-1. WITHOUT opening phase1/evidence/<County>.json, research the county and decide your own tag and confidence using the same rules. Write phase1/verification/<County>.json with your verdict BEFORE reading the research file:
+For each selected county:
+1. WITHOUT opening phase1/evidence/<County>.json, determine each election's result yourself with the three checks. Do not rely on another agent's summaries:
+   - Check 1 (Clarity): do not just rerun the script and copy its summary. Open at least two update files yourself with `python3 -m txprecinct.cat "<detailxml.zip url>" --out <file>` (the first election-night update and the first update that shows precinct votes) and confirm the Timestamp and a nonzero `<Precinct ... votes=...>` inside a `<Contest>` by reading the XML. Record the version numbers you opened.
+   - Check 2: open the county's report files yourself and read titles, printed run times, and server upload times.
+   - Check 3: open the saved snapshot files yourself.
+2. Write phase1/verification/<County_with_underscores>.json BEFORE reading the research file:
    {"county": "...", "reason_selected": "...", "verifier_tag": "...", "verifier_confidence": "high|med|low",
-    "rationale": "...", "sources": [{"url": "...", "via": "...", "query": "...", "quote": "..."}],
-    "contact_check": "", "results_url_check": "", "searches_run": 0, "cached_search_hits": 0,
+    "elections": {"2024_general": {"result": "...", "check": "...", "fact": "..."}, "2026_primary": {...}, "2026_runoff": {...}},
+    "rationale": "...", "sources": [{"url": "...", "content_hash": "...", "what_i_checked": "..."}],
     "written_blind_at_utc": "..."}
-2. Then open phase1/evidence/<County>.json and add to your file: "research_tag", "agree" (true/false), "comparison_notes" (what each side relied on; any problems with the research file such as a tag resting on a search-summary lead, a phone or email not supported by a cited source, a wrong results URL). Also fill contact_check and results_url_check with "confirmed", "not confirmed", or "contradicted" plus a short reason.
-Do not edit research files. The build script applies the rule: disagreement means the final tag is UNKNOWN.
-No em dashes, en dashes, or emojis. Final reply: a table of county, research tag, verifier tag, agree, and any data-quality problems you found in research files.
+   Your verifier_tag must follow the fixed rule from your own per-election results.
+3. Then open phase1/evidence/<County>.json and add: "research_tag", "agree" (true or false), "comparison_notes" (per election: same or different, and why; any research claim not supported by the cited source).
+
+The build applies the rule: disagreement on the tag sets the final tag to UNKNOWN and logs both findings.
+No em dashes, en dashes, or emojis. Final reply: a table of county, research tag, verifier tag, agree, and any per-election differences or unsupported claims.

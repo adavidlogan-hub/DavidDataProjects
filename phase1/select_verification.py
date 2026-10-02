@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from phase1.schema import validate  # noqa: E402
+from phase1.schema import validate_v2 as validate  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent
 
