@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed default.aspx URL replaced by https://www.co.hartley.tx.us/page/Voter.Information; the page links its PDFs over http, which return 403, so they were fetched over https. Results are scanned Electionware PDFs (no text layer; read visually). The printed report times look like the tabulator clock is off (2024 general footer 'Election Summary - 11/05/2024 7:22 PM' already includes 458 Election Day ballots; runoff footer 'Election Summary - 05/26/2026 6:02 PM' includes 203 Election Day ballots before polls closed), so printed times are not used. 2024 general: 'SUMMARY RESULTS REPORT - UNOFFICIAL RESULTS' (county totals) Last-Modified Wed, 06 Nov 2024 14:19:00 GMT; no 2024 general precinct report is listed. 2026 primary: 'SUMMARY RESULTS REPORT REPUBLICAN PARTY' (Last-Modified Thu, 12 Mar 2026 15:26:31 GMT) and 'SUMMARY RESULTS REPORT BY PRECINCT REPUBLICAN PARTY' (36 pages, Last-Modified Mon, 16 Mar 2026 18:40:06 GMT); no election-night file. 2026 runoff: 'SUMMARY RESULTS REPORT - UNOFFICIAL' (county totals) Last-Modified Fri, 29 May 2026 22:34:30 GMT; no runoff precinct report listed. No Clarity link. Check 3 pending (wayback-data branch not on origin).",
-  "tag_rationale": "The 2024 general and 2026 runoff are both LATER (unofficial county totals only, no precinct report posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because the check 2 files were uploaded after election night.",
+  "notes": "Seed default.aspx URL replaced by https://www.co.hartley.tx.us/page/Voter.Information; the page links its PDFs over http, which return 403, so they were fetched over https. Results are scanned Electionware PDFs (no text layer; read visually). The printed report times look like the tabulator clock is off (2024 general footer 'Election Summary - 11/05/2024 7:22 PM' already includes 458 Election Day ballots; runoff footer 'Election Summary - 05/26/2026 6:02 PM' includes 203 Election Day ballots before polls closed), so printed times are not used. 2024 general: 'SUMMARY RESULTS REPORT - UNOFFICIAL RESULTS' (county totals) Last-Modified Wed, 06 Nov 2024 14:19:00 GMT; no 2024 general precinct report is listed. 2026 primary: 'SUMMARY RESULTS REPORT REPUBLICAN PARTY' (Last-Modified Thu, 12 Mar 2026 15:26:31 GMT) and 'SUMMARY RESULTS REPORT BY PRECINCT REPUBLICAN PARTY' (36 pages, Last-Modified Mon, 16 Mar 2026 18:40:06 GMT); no election-night file. 2026 runoff: 'SUMMARY RESULTS REPORT - UNOFFICIAL' (county totals) Last-Modified Fri, 29 May 2026 22:34:30 GMT; no runoff precinct report listed. No Clarity link. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-4): 2024_general LATER kept, county_totals_first_seen 2024-11-05 19:22 CT; 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-4",
   "method_version": "v2",
   "sources": [
@@ -58,11 +58,11 @@
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2024-11-06 08:19 CT (upload)",
+      "county_totals_first_seen": "2024-11-05 19:22 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.hartley.tx.us/upload/page/0103/Unofficial%20Results.pdf",
-      "fact": "'Summary Results Report TX Hartley 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS Hartley County' (county totals by Absentee, Early Voting, Election Day; 'Ballots Cast - Total 2,028 94 1,476 458'), Last-Modified Wed, 06 Nov 2024 14:19:00 GMT. No precinct results report is posted for this election (never published online)."
+      "fact": "'Summary Results Report TX Hartley 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS Hartley County' (county totals by Absentee, Early Voting, Election Day; 'Ballots Cast - Total 2,028 94 1,476 458'), Last-Modified Wed, 06 Nov 2024 14:19:00 GMT. No precinct results report is posted for this election (never published online). Rule 43: county totals first seen 2024-11-05 19:22 CT in Unofficial Results.pdf (printed footer 'Election Summary - 11/05/2024 7:22 PM'; no precinct report for this election)."
     },
     "2026_primary": {
       "result": "UNDETERMINED",
@@ -74,13 +74,13 @@
       "fact": "'SUMMARY RESULTS REPORT REPUBLICAN PARTY' Last-Modified Thu, 12 Mar 2026 15:26:31 GMT and 'SUMMARY RESULTS REPORT BY PRECINCT REPUBLICAN PARTY' Last-Modified Mon, 16 Mar 2026 18:40:06 GMT; nothing shows what was posted on election night. Check 3 pending."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-05-29 17:34 CT (upload)",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.hartley.tx.us/upload/page/0103/5.26.26%20Summary%20Results.pdf",
-      "fact": "'Summary Results Report TX Hartley 260526 Primary Runoff 6110 May 26, 2026 UNOFFICIAL RESULTS Hartley' (county totals; 'Ballots Cast - Total 389 28 158 203'), Last-Modified Fri, 29 May 2026 22:34:30 GMT. No precinct results report is posted for the runoff (never published online)."
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-05-29 17:34 CT (upload); printed footer 'Election Summary - 05/26/2026 6:02 PM' is before polls closed although the report shows 6 of 6 election-day precincts, so the report clock is not a usable election-night time; scan created 2026-05-29 23:31 UTC). Previous: 'Summary Results Report TX Hartley 260526 Primary Runoff 6110 May 26, 2026 UNOFFICIAL RESULTS Hartley' (county totals; 'Ballots Cast - Total 389 28 158 203'), Last-Modified Fri, 29 May 2026 22:34:30 GMT. No precinct results report is posted for the runoff (never published online)."
     }
   }
 }

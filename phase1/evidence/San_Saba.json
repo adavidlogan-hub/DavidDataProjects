@@ -1,6 +1,6 @@
 {
   "county": "San Saba",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https; results are scanned PDFs on the Elections page (page/sansaba.Elections). No Clarity site (elections.json 404). The server returns distinct per-file Last-Modified values close to the scan CreationDate, so upload times are usable. Only county-total reports are posted for the 2026 primary and runoff, both after election night; no 2024 general results are posted. Check 3 pending for the 2024 general (wayback-data branch not found on origin).",
-  "tag_rationale": "The 2026 primary and runoff are both LATER by check 2 (county totals only, posted after election night, no precinct numbers published), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because no upload is on election night.",
+  "notes": "Seed URL works over https; results are scanned PDFs on the Elections page (page/sansaba.Elections). No Clarity site (elections.json 404). The server returns distinct per-file Last-Modified values close to the scan CreationDate, so upload times are usable. Only county-total reports are posted for the 2026 primary and runoff, both after election night; no 2024 general results are posted. Check 3 pending for the 2024 general (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_primary LATER to UNDETERMINED; 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
@@ -28,22 +28,22 @@
       "fact": "No 2024 general results on the county Elections page (2025 constitutional amendment results are the oldest results posted). Check 3 pending."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-03-04 10:45 CT (upload)",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.san-saba.tx.us/upload/page/6028/DOC716.pdf",
-      "fact": "'2026 Republican Primary Election' (DOC716.pdf) and '2026 Democratic Primary Election' (DOC717.pdf) are scans of the SOS 'Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 SAN SABA County' (county totals by Early Voting by Mail / In Person / Election Day; read visually). DOC716 CreationDate Wed Mar 4 16:23:27 2026 UTC, Last-Modified Wed, 04 Mar 2026 16:45:19 GMT (10:45 AM CST Mar 4). No precinct-level results are posted (the 'Precinct 1 ... 4' links are sample ballots); precinct numbers never published online as far as the site shows."
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-03-04 10:45 CT (upload); the SOS unofficial report carries no printed time; scan created 2026-03-04 16:23 UTC). Previous: '2026 Republican Primary Election' (DOC716.pdf) and '2026 Democratic Primary Election' (DOC717.pdf) are scans of the SOS 'Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 SAN SABA County' (county totals by Early Voting by Mail / In Person / Election Day; read visually). DOC716 CreationDate Wed Mar 4 16:23:27 2026 UTC, Last-Modified Wed, 04 Mar 2026 16:45:19 GMT (10:45 AM CST Mar 4). No precinct-level results are posted (the 'Precinct 1 ... 4' links are sample ballots); precinct numbers never published online as far as the site shows."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-05-29 11:06 CT (upload)",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.san-saba.tx.us/upload/page/6028/DOC896.pdf",
-      "fact": "'Unofficial Results for San Saba County Primary Runoff May 26, 2026' (DOC896.pdf) = scanned Electionware 'Summary Results Report TX San Saba County 260526 Primary Runoff May 26, 2026 UNOFFICIAL RESULTS', county totals, footer 'Election Summary - 05/28/2026 11:57 AM'; Last-Modified Fri, 29 May 2026 16:06:46 GMT. No precinct-level results are posted (never published online as far as the site shows)."
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-05-29 11:06 CT (upload); printed footer 'Election Summary - 05/28/2026 11:57 AM'; scan created 2026-05-29 17:04 UTC). Previous: 'Unofficial Results for San Saba County Primary Runoff May 26, 2026' (DOC896.pdf) = scanned Electionware 'Summary Results Report TX San Saba County 260526 Primary Runoff May 26, 2026 UNOFFICIAL RESULTS', county totals, footer 'Election Summary - 05/28/2026 11:57 AM'; Last-Modified Fri, 29 May 2026 16:06:46 GMT. No precinct-level results are posted (never published online as far as the site shows)."
     }
   },
   "sources": [

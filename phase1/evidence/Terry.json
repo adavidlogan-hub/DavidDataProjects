@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https (already in the shared cache); results are on page/elections.PREVIOUSELECTIONS ('2025-2026 Elections'). No Clarity site (elections.json 404). Server Last-Modified values differ by file. The runoff unofficial county summary was printed and scanned on election night but its current server copy dates from June 1; precinct numbers appear only in the official report printed June 2. The 2026 primary postings are county-total images for local races, uploaded March 27. No 2024 general results are on the site. Check 3 pending for the 2024 general (wayback-data branch not found on origin).",
-  "tag_rationale": "The 2026 primary and runoff are both LATER by check 2 (county totals only, precinct numbers only in official reports or never), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because no upload is on election night.",
+  "notes": "Seed URL works over https (already in the shared cache); results are on page/elections.PREVIOUSELECTIONS ('2025-2026 Elections'). No Clarity site (elections.json 404). Server Last-Modified values differ by file. The runoff unofficial county summary was printed and scanned on election night but its current server copy dates from June 1; precinct numbers appear only in the official report printed June 2. The 2026 primary postings are county-total images for local races, uploaded March 27. No 2024 general results are on the site. Check 3 pending for the 2024 general (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
@@ -28,13 +28,13 @@
       "fact": "The Past Elections page covers only 2025-2026; no 2024 general results are posted. Check 3 pending."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-03-27 09:06 CT (upload)",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.terry.tx.us/upload/page/0145/ELECTIONNIGHTTOTALS1.png",
-      "fact": "Under 'MARCH 3, 2026 PRIMARY': 'CONTESTED LOCAL RESULTS' = image 'March 3, 2026 Primary Election Terry County Clerk' with county totals for one race (Nancy Gonzales 18 / 475 / 493 / 240 / 733; Jeffrey Davis 7 / 452 / 459 / 198 / 657 by mail, early in person, early combined, Election Day, 'Unofficial Results'); Last-Modified Fri, 27 Mar 2026 14:06:56 GMT. Also 'UNCONTESTED LOCAL RESULTS' (image) and audit files. No precinct-level primary results are posted (never published online as far as the site shows)."
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-03-27 09:06 CT (upload); the image ELECTIONNIGHTTOTALS1.png carries no time). Previous: Under 'MARCH 3, 2026 PRIMARY': 'CONTESTED LOCAL RESULTS' = image 'March 3, 2026 Primary Election Terry County Clerk' with county totals for one race (Nancy Gonzales 18 / 475 / 493 / 240 / 733; Jeffrey Davis 7 / 452 / 459 / 198 / 657 by mail, early in person, early combined, Election Day, 'Unofficial Results'); Last-Modified Fri, 27 Mar 2026 14:06:56 GMT. Also 'UNCONTESTED LOCAL RESULTS' (image) and audit files. No precinct-level primary results are posted (never published online as far as the site shows)."
     },
     "2026_runoff": {
       "result": "LATER",

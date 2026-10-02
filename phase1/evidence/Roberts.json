@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No seed website; the county site is https://www.co.roberts.tx.us/ (Elections page page/roberts.elections). No Clarity site (elections.json 404). The server returns distinct per-file Last-Modified values, so upload times are usable. The two primary result files are image scans (RICOH copier) with no text layer; pages 1-2 of the Republican file were read visually. Nothing for the 2024 general or the 2026 runoff results is posted. Check 3 pending (wayback-data branch not found on origin).",
-  "tag_rationale": "Only the 2026 primary is determined (LATER by check 2: county-total cumulative scans posted the day after, no precinct report), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "notes": "No seed website; the county site is https://www.co.roberts.tx.us/ (Elections page page/roberts.elections). No Clarity site (elections.json 404). The server returns distinct per-file Last-Modified values, so upload times are usable. The two primary result files are image scans (RICOH copier) with no text layer; pages 1-2 of the Republican file were read visually. Nothing for the 2024 general or the 2026 runoff results is posted. Check 3 pending (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_primary LATER kept, county_totals_first_seen 2026-03-03 20:13 CT.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff UNDETERMINED. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
@@ -30,11 +30,11 @@
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2026-03-04 12:57 CT (upload)",
+      "county_totals_first_seen": "2026-03-03 20:13 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.roberts.tx.us/upload/page/9388/REPUBLICAN RESULTS.pdf",
-      "fact": "Under 'PRIMARY ELECTION DAY RESULTS': 'REPUBLICAN RESULTS' (12 pages) and 'DEMOCRAT RESULTS' (11 pages), scanned 'Republican Primary Cumulative Results ... ROBERTS COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 ... Unofficial Results', county totals by Absentee/Early/Election Day (read visually; printed run time not legible at scan resolution). PDF CreationDate Wed Mar 4 01:16:20 and 01:32:07 2026 UTC; Last-Modified Thu, 05 Mar 2026 14:12:08 GMT (Republican) and Wed, 04 Mar 2026 18:57:46 GMT (Democratic), both after election night. No precinct-by-precinct report is posted (precinct numbers never published online as far as the site shows)."
+      "fact": "Under 'PRIMARY ELECTION DAY RESULTS': 'REPUBLICAN RESULTS' (12 pages) and 'DEMOCRAT RESULTS' (11 pages), scanned 'Republican Primary Cumulative Results ... ROBERTS COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 ... Unofficial Results', county totals by Absentee/Early/Election Day (read visually; printed run time not legible at scan resolution). PDF CreationDate Wed Mar 4 01:16:20 and 01:32:07 2026 UTC; Last-Modified Thu, 05 Mar 2026 14:12:08 GMT (Republican) and Wed, 04 Mar 2026 18:57:46 GMT (Democratic), both after election night. No precinct-by-precinct report is posted (precinct numbers never published online as far as the site shows). Rule 43: county totals first seen 2026-03-03 20:13 CT in REPUBLICAN RESULTS.pdf (printed 'Run Time 8:13 PM Run Date 03/03/2026', read at 300 dpi; DEMOCRAT RESULTS.pdf Run Time 8:14 PM 03/03/2026; scans created 2026-03-04 01:16 and 01:32 UTC; no precinct report posted)."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",

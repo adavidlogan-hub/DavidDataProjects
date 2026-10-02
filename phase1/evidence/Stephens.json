@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https; results are on page/stephens.Elections, with several files served from newtools.cira.state.tx.us. No Clarity site (elections.json 404). Server Last-Modified values differ by file and follow PDF creation times, so upload times are usable. 2026 files are scanned Electionware summary reports (county totals); no precinct reports are posted for 2026. The 2024 precinct report is image-only and was not read page by page; its title and dates show it came weeks after the election. Check 3 pending for confirming nothing was posted on election night (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED.",
+  "notes": "Seed URL works over https; results are on page/stephens.Elections, with several files served from newtools.cira.state.tx.us. No Clarity site (elections.json 404). Server Last-Modified values differ by file and follow PDF creation times, so upload times are usable. 2026 files are scanned Electionware summary reports (county totals); no precinct reports are posted for 2026. The 2024 precinct report is image-only and was not read page by page; its title and dates show it came weeks after the election. Check 3 pending for confirming nothing was posted on election night (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED. Rule 43 applied 2026-10-02 (normalize-4): 2026_primary LATER kept, county_totals_first_seen 2026-03-03 20:58 CT; 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 20:02 CT.",
   "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
@@ -30,20 +30,20 @@
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2026-03-04 11:14 CT (upload)",
+      "county_totals_first_seen": "2026-03-03 20:58 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://newtools.cira.state.tx.us/upload/page/2592/UNOFFICIAL%20RESULTS%2003032026.pdf",
-      "fact": "'UNOFFICIAL RESULTS 03032026.pdf' = scanned Electionware 'Summary Results Report Tx Stephens County 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS Stephens County' (county totals), footer 'Election Summary - 03/03/2026 8:58 PM'; Last-Modified Wed, 04 Mar 2026 17:14:17 GMT (11:14 AM CST Mar 4). Later 'OFFICIAL SUMMARY RESULTS 2026'. No precinct report for the primary is posted."
+      "fact": "'UNOFFICIAL RESULTS 03032026.pdf' = scanned Electionware 'Summary Results Report Tx Stephens County 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS Stephens County' (county totals), footer 'Election Summary - 03/03/2026 8:58 PM'; Last-Modified Wed, 04 Mar 2026 17:14:17 GMT (11:14 AM CST Mar 4). Later 'OFFICIAL SUMMARY RESULTS 2026'. No precinct report for the primary is posted. Rule 43: county totals first seen 2026-03-03 20:58 CT in UNOFFICIAL RESULTS 03032026.pdf (printed footer 'Election Summary - 03/03/2026 8:58 PM'; no precinct report posted)."
     },
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2026-05-27 11:39 CT (upload)",
+      "county_totals_first_seen": "2026-05-26 20:02 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://newtools.cira.state.tx.us/upload/page/2592/UNOFFICAL%20RESULTS%2005262026.pdf",
-      "fact": "'UNOFFICAL RESULTS 05262026.pdf' = scanned Electionware 'Summary Results Report Tx Stephens County 260526 Primary Runoff 6110 May 26, 2026 UNOFFICIAL RESULTS' (county totals), footer 'Election Summary - 05/26/2026' (time about 9:02 PM, low-resolution read); Last-Modified Wed, 27 May 2026 16:39:02 GMT (11:39 AM CDT May 27). No precinct report for the runoff is posted."
+      "fact": "'UNOFFICAL RESULTS 05262026.pdf' = scanned Electionware 'Summary Results Report Tx Stephens County 260526 Primary Runoff 6110 May 26, 2026 UNOFFICIAL RESULTS' (county totals), footer 'Election Summary - 05/26/2026' (time about 9:02 PM, low-resolution read); Last-Modified Wed, 27 May 2026 16:39:02 GMT (11:39 AM CDT May 27). No precinct report for the runoff is posted. Rule 43: county totals first seen 2026-05-26 20:02 CT in UNOFFICAL RESULTS 05262026.pdf (printed footer 'Election Summary - 05/26/2026 8:02 PM', re-read at 250 dpi, correcting the earlier 'about 9:02 PM'; no precinct report posted)."
     }
   },
   "sources": [

@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https (already in the shared cache); results are on page/elections.home (2024) and page/elections.Elections 2026. No Clarity site (elections.json 404). Server Last-Modified values differ by file, so upload times are usable. Titus posts Hart cumulative county-total scans on election night (two postings for the 2026 primary: early voting at 8:51 PM and final at 10:27 PM CST) but no precinct-level results for any target election. The home page also links the SOS early-voting site. Run times were read from low-resolution renders where noted.",
-  "tag_rationale": "All three elections are LATER by check 2 (county totals only, precinct numbers never posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the 2026 primary and runoff night reports carry printed run times and election-night upload times.",
+  "notes": "Seed URL works over https (already in the shared cache); results are on page/elections.home (2024) and page/elections.Elections 2026. No Clarity site (elections.json 404). Server Last-Modified values differ by file, so upload times are usable. Titus posts Hart cumulative county-total scans on election night (two postings for the 2026 primary: early voting at 8:51 PM and final at 10:27 PM CST) but no precinct-level results for any target election. The home page also links the SOS early-voting site. Run times were read from low-resolution renders where noted. Rule 43 applied 2026-10-02 (normalize-4): 2024_general LATER kept, county_totals_first_seen 2024-11-05 23:53 CT.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2024-11-06 10:20 CT (upload)",
+      "county_totals_first_seen": "2024-11-05 23:53 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.titus.tx.us/upload/page/0098/Results/Elections_20241106_103205.pdf",
-      "fact": "'November 5, 2024 Unofficial Results' = 14-page scan of Hart 'Cumulative Results Report Titus County 2024 November 5th General Election 11/5/2024 ... Unofficial Results ... Precincts Reporting 34 of 34' (county totals by Absentee/Early/Election Day; run time about 11:53 PM 11/05/2024, low-resolution read); Last-Modified Wed, 06 Nov 2024 16:20:29 GMT (10:20 AM CST Nov 6). The only other 2024 results file is the 'Canvass Report'. No precinct-by-precinct results are posted (never published online as far as the site shows)."
+      "fact": "'November 5, 2024 Unofficial Results' = 14-page scan of Hart 'Cumulative Results Report Titus County 2024 November 5th General Election 11/5/2024 ... Unofficial Results ... Precincts Reporting 34 of 34' (county totals by Absentee/Early/Election Day; run time about 11:53 PM 11/05/2024, low-resolution read); Last-Modified Wed, 06 Nov 2024 16:20:29 GMT (10:20 AM CST Nov 6). The only other 2024 results file is the 'Canvass Report'. No precinct-by-precinct results are posted (never published online as far as the site shows). Rule 43: county totals first seen 2024-11-05 23:53 CT in Elections_20241106_103205.pdf (printed 'Run Time 11:53 PM Run Date 11/05/2024', confirmed at 250 dpi; no precinct results posted)."
     },
     "2026_primary": {
       "result": "LATER",

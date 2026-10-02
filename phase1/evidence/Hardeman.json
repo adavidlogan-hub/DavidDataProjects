@@ -1,6 +1,6 @@
 {
   "county": "Hardeman",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity link; results are scanned county-posted PDFs (no text layer; read visually). 2024 general: no results file on the Elections page. 2026 primary: 'Unofficial Results of 2026 Republican Primary Election' and '... Democratic ...' are SOS Election Unofficial Results Reports with county totals (Last-Modified Thu, 05 Mar 2026 15:45:19 GMT and 15:47:09 GMT, after election night). 2026 runoff: only 'Canvass County Votes Report 2026' (SOS canvass, county totals, signed June 2, 2026; Last-Modified Wed, 03 Jun 2026 14:27:47 GMT); 'MAY 2026 PRIMARY RUNOFF ELECTION.pdf' is a polling location and hours notice. No precinct-level results are posted for any election. Check 3 pending (wayback-data branch not on origin).",
-  "tag_rationale": "The 2026 primary and runoff are both LATER (county totals only, precinct numbers never published online), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because check 2 had no election-night upload times.",
+  "notes": "No Clarity link; results are scanned county-posted PDFs (no text layer; read visually). 2024 general: no results file on the Elections page. 2026 primary: 'Unofficial Results of 2026 Republican Primary Election' and '... Democratic ...' are SOS Election Unofficial Results Reports with county totals (Last-Modified Thu, 05 Mar 2026 15:45:19 GMT and 15:47:09 GMT, after election night). 2026 runoff: only 'Canvass County Votes Report 2026' (SOS canvass, county totals, signed June 2, 2026; Last-Modified Wed, 03 Jun 2026 14:27:47 GMT); 'MAY 2026 PRIMARY RUNOFF ELECTION.pdf' is a polling location and hours notice. No precinct-level results are posted for any election. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_primary LATER to UNDETERMINED; 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-4",
   "method_version": "v2",
   "sources": [
@@ -65,22 +65,22 @@
       "fact": "No 2024 general results file on the county Elections page. Check 3 pending."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-03-05 09:45 CT (upload)",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.hardeman.tx.us/upload/page/10202/Unofficial%20Results%20of%202026%20Republican%20Primary%20Election.pdf",
-      "fact": "'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 HARDEMAN County' (county totals by Early Voting by Mail, Early Voting In Person, Election Day Count), Last-Modified Thu, 05 Mar 2026 15:45:19 GMT; Democratic file Last-Modified 15:47:09 GMT. No precinct results posted (never published online)."
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-03-05 09:45 CT (upload); the SOS unofficial reports carry no printed time; scans created 2026-03-05 15:37 and 15:38 UTC). Previous: 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 HARDEMAN County' (county totals by Early Voting by Mail, Early Voting In Person, Election Day Count), Last-Modified Thu, 05 Mar 2026 15:45:19 GMT; Democratic file Last-Modified 15:47:09 GMT. No precinct results posted (never published online)."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-06-03 09:27 CT (upload)",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.hardeman.tx.us/upload/page/10202/Canvass%20County%20Votes%20Report%202026.pdf",
-      "fact": "Only 'Texas Secretary of State Canvass County Votes Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 HARDEMAN ... Total # of Voters Voted: 193' (county totals, certified June 2, 2026), Last-Modified Wed, 03 Jun 2026 14:27:47 GMT. No precinct results posted (never published online)."
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-06-03 09:27 CT (upload); only the canvass report, scanned 2026-06-03). Previous: Only 'Texas Secretary of State Canvass County Votes Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 HARDEMAN ... Total # of Voters Voted: 193' (county totals, certified June 2, 2026), Last-Modified Wed, 03 Jun 2026 14:27:47 GMT. No precinct results posted (never published online)."
     }
   }
 }

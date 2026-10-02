@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL loads (CIRA page). No Clarity site (elections.json 404). Results are scanned Electionware reports; the 2024 precinct report has an OCR text layer, the 2026 primary summary was read visually. Last-Modified differs per file (meaningful). Printed footer times run later than PDF creation and upload times (2024: printed 10:06 PM vs upload 9:42 PM), so the printing machine clock is not reliable. 2024 general had an unofficial precinct-by-precinct report on election night (END); in 2026 the county posted only a county summary (primary, 4:01 AM next morning) or nothing unofficial (runoff), with precinct numbers only in official canvass reports. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED.",
+  "notes": "Seed URL loads (CIRA page). No Clarity site (elections.json 404). Results are scanned Electionware reports; the 2024 precinct report has an OCR text layer, the 2026 primary summary was read visually. Last-Modified differs per file (meaningful). Printed footer times run later than PDF creation and upload times (2024: printed 10:06 PM vs upload 9:42 PM), so the printing machine clock is not reliable. 2024 general had an unofficial precinct-by-precinct report on election night (END); in 2026 the county posted only a county summary (primary, 4:01 AM next morning) or nothing unofficial (runoff), with precinct numbers only in official canvass reports. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED. Rule 43 applied 2026-10-02 (normalize-4): 2026_primary LATER kept, county_totals_first_seen 2026-03-04 00:15 CT.",
   "tag_rationale": "Results: 2024_general END, 2026_primary LATER, 2026_runoff UNDETERMINED. No result is shared by two elections and more than one election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-5",
   "method_version": "v2",
@@ -30,11 +30,11 @@
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2026-03-04 04:01 CT",
+      "county_totals_first_seen": "2026-03-04 00:15 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.leon.tx.us/upload/page/4964/docs/JOINT%20PRIMARY%20UNOFFICIAL%20RESULTS/030326%20JOINT%20PRIMARY%20UNOFFICIAL%20RESULTS%200001.pdf",
-      "fact": "'LEON COUNTY UNOFFICIAL TOTALS' (030326 JOINT PRIMARY UNOFFICIAL RESULTS 0001.pdf, scanned, read visually): 'Election Summary Results Report 2026 Primary Election March 3, 2026 ... UNOFFICIAL RESULTS Leon County, Texas ... Election Day Precincts Reporting 14 of 14'; county totals; footer 'Election Summary - 03/04/2026 12:15'. CreationDate Wed Mar 4 09:59:23 2026 UTC; Last-Modified Wed, 04 Mar 2026 10:01:27 GMT (4:01 AM CST Mar 4). No unofficial precinct report listed; precinct numbers only in 'Official Canvass of Election Precinct by Precinct Results'."
+      "fact": "'LEON COUNTY UNOFFICIAL TOTALS' (030326 JOINT PRIMARY UNOFFICIAL RESULTS 0001.pdf, scanned, read visually): 'Election Summary Results Report 2026 Primary Election March 3, 2026 ... UNOFFICIAL RESULTS Leon County, Texas ... Election Day Precincts Reporting 14 of 14'; county totals; footer 'Election Summary - 03/04/2026 12:15'. CreationDate Wed Mar 4 09:59:23 2026 UTC; Last-Modified Wed, 04 Mar 2026 10:01:27 GMT (4:01 AM CST Mar 4). No unofficial precinct report listed; precinct numbers only in 'Official Canvass of Election Precinct by Precinct Results'. Rule 43: county totals first seen 2026-03-04 00:15 CT in 030326 JOINT PRIMARY UNOFFICIAL RESULTS 0001.pdf (printed footer 'Election Summary - 03/04/2026 12:15 PM'; the server received the scan at 04:01 AM CST Mar 4, so the printed 12:15 on Mar 4 can only be 12:15 AM; no unofficial precinct report listed)."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",

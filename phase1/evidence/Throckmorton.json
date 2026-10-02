@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No seed website. The SOS email domain's site www.throckmortoncountytx.gov links to page/throckmorton.elections, which returns 404 there; the same page works on www.throckmortoncounty.org (Elections page and 'Previous Election Results' page throckmorton.electionsposting). No Clarity site (elections.json 404). Server Last-Modified values differ by file. All posted results are Hart cumulative county-total reports; no precinct reports for any target election. The 2024 and 2026 primary files are post-election runs, so election-night publication cannot be read for those two. Check 3 pending for the 2024 general and 2026 primary (wayback-data branch not found on origin).",
-  "tag_rationale": "Only the 2026 runoff is determined (LATER by check 2: unofficial county totals only, no precinct numbers posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "notes": "No seed website. The SOS email domain's site www.throckmortoncountytx.gov links to page/throckmorton.elections, which returns 404 there; the same page works on www.throckmortoncounty.org (Elections page and 'Previous Election Results' page throckmorton.electionsposting). No Clarity site (elections.json 404). Server Last-Modified values differ by file. All posted results are Hart cumulative county-total reports; no precinct reports for any target election. The 2024 and 2026 primary files are post-election runs, so election-night publication cannot be read for those two. Check 3 pending for the 2024 general and 2026 primary (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:00 CT.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
@@ -39,11 +39,11 @@
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2026-06-01 09:21 CT (upload)",
+      "county_totals_first_seen": "2026-05-26 19:00 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.throckmortoncounty.org/upload/page/10021/52626OfficialResults.pdf",
-      "fact": "'ELECTION NIGHT RETURNS Republican and Democrat' (52626OfficialResults.pdf, 3-page scan) = preliminary reconciliation form plus 'Cumulative Results Report THROCKMORTON COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Unofficial Results' (county totals by Absentee/Early/Election Day; read visually); PDF ModDate Mon Jun 1 14:20:41 2026 UTC, Last-Modified Mon, 01 Jun 2026 14:21:08 GMT. No precinct-level runoff results are posted (never published online as far as the site shows)."
+      "fact": "'ELECTION NIGHT RETURNS Republican and Democrat' (52626OfficialResults.pdf, 3-page scan) = preliminary reconciliation form plus 'Cumulative Results Report THROCKMORTON COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Unofficial Results' (county totals by Absentee/Early/Election Day; read visually); PDF ModDate Mon Jun 1 14:20:41 2026 UTC, Last-Modified Mon, 01 Jun 2026 14:21:08 GMT. No precinct-level runoff results are posted (never published online as far as the site shows). Rule 43: county totals first seen 2026-05-26 19:00 CT in 52626OfficialResults.pdf (Cumulative Results Report pages printed 'Run Time 7:00 PM Run Date 05/26/2026', read at 300 dpi; no precinct results posted)."
     }
   },
   "sources": [

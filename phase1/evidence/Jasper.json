@@ -1,6 +1,6 @@
 {
   "county": "Jasper",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "County Elections page (co.jasper.tx.us) links 'Election Results/Voting History' to the SOS historical site and posts PDFs for 2026 only. 2026 primary: 'Unofficial Totals' = Electionware Summary Results Report, county totals (scan CreationDate 2026-03-04 18:29 UTC, Last-Modified Thu, 05 Mar 2026 21:41:18 GMT); 'Official PCT by PCT Results' (CreationDate 2026-03-10, Last-Modified Fri, 20 Mar 2026 19:00:51 GMT) is the only precinct file. 2026 runoff: only 'Official Summary Results', 'Official Pct by Pct Results', canvass notice and audit certification; no unofficial or election-night file. 2024 general: no results on the page. No Clarity link. Check 3 pending (wayback-data branch not on origin).",
-  "tag_rationale": "Only the 2026 primary is determined (LATER: unofficial county totals, precinct numbers only in the official file), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low as the rule requires for one determined election.",
+  "notes": "County Elections page (co.jasper.tx.us) links 'Election Results/Voting History' to the SOS historical site and posts PDFs for 2026 only. 2026 primary: 'Unofficial Totals' = Electionware Summary Results Report, county totals (scan CreationDate 2026-03-04 18:29 UTC, Last-Modified Thu, 05 Mar 2026 21:41:18 GMT); 'Official PCT by PCT Results' (CreationDate 2026-03-10, Last-Modified Fri, 20 Mar 2026 19:00:51 GMT) is the only precinct file. 2026 runoff: only 'Official Summary Results', 'Official Pct by Pct Results', canvass notice and audit certification; no unofficial or election-night file. 2024 general: no results on the page. No Clarity link. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-4",
   "method_version": "v2",
   "sources": [
@@ -51,13 +51,13 @@
       "fact": "No 2024 general results on the county Elections page (it links the SOS historical results site). Check 3 pending."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-03-05 15:41 CT (upload)",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "2026-03-20 14:00 CT (official, upload)",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.jasper.tx.us/upload/page/0095/3326%20Unofficial%20Summary%20Totals.pdf",
-      "fact": "'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Jasper County, Texas ... Election Day Precincts Reporting 20 of 20 ... Ballots Cast - Total 6,289 130 3,725 2,434' (county totals), Last-Modified Thu, 05 Mar 2026 21:41:18 GMT. Precinct numbers appear only in 'Summary Results Report OFFICIAL RESULTS ... Pct # 1 Three Corners', CreationDate 2026-03-10, Last-Modified Fri, 20 Mar 2026 19:00:51 GMT."
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-03-05 15:41 CT (upload); printed footer 'Election Summary - 03/04/2026 8:31 AM'; scan created 2026-03-04 18:29 UTC). Previous: 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Jasper County, Texas ... Election Day Precincts Reporting 20 of 20 ... Ballots Cast - Total 6,289 130 3,725 2,434' (county totals), Last-Modified Thu, 05 Mar 2026 21:41:18 GMT. Precinct numbers appear only in 'Summary Results Report OFFICIAL RESULTS ... Pct # 1 Three Corners', CreationDate 2026-03-10, Last-Modified Fri, 20 Mar 2026 19:00:51 GMT."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",
