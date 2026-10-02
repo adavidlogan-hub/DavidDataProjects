@@ -35,6 +35,7 @@ def pdf_info(data: bytes, stream_cap: int = 400) -> dict:
         out.setdefault(k.decode(), v.decode("latin-1", "replace"))
     printed: list[str] = []
     precinct_words = 0
+    sample = ""
     for i, m in enumerate(STREAM_RE.finditer(data)):
         if i >= stream_cap:
             break
@@ -43,11 +44,14 @@ def pdf_info(data: bytes, stream_cap: int = 400) -> dict:
         except zlib.error:
             continue
         precinct_words += len(re.findall(r"(?i)precinct", txt))
+        if len(sample) < 6000:
+            sample += " ".join(re.findall(r"\(((?:[^()\\]|\\.)*)\)\s*Tj", txt)) + " | "
         for s in PRINTED_RE.findall(txt):
             if s not in printed:
                 printed.append(s)
     out["printed_datetimes_first_streams"] = printed[:20]
     out["precinct_word_count_first_streams"] = precinct_words
+    out["text_sample_first_streams"] = sample[:6000]
     return out
 
 
