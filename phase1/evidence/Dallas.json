@@ -1,0 +1,79 @@
+{
+  "county": "Dallas",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.dallascountyvotes.org/election-results/",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Dallas/126270/372964/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-05-26 20:16 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "County site www.dallascountyvotes.org (http and https, results pages and PDF uploads) answered the fetch module with HTTP 403 (http) or HTTP 202 with an empty body (https), so check 2 could not read any page, report list, or Last-Modified header. Web search (locating only) showed PDF titles under dallascountyvotes.org/wp-content/uploads such as 'Summary Results Report General Joint November 5, 2024 Upload 6' and 'Summary Results Report Democratic Party Primary March 3, 2026 Upload 3', but these could not be fetched and search text is not evidence. Clarity elections.json for Dallas lists only '2026 Republican Primary Runoff' (5/26/2026) and '2026 Joint and Special Runoff' (6/13/2026); 2024 general and 2026 primary are not on Clarity. No Democratic runoff listing was found on Clarity. Runoff: the 6:29 PM CDT pre-night update had early-vote-only precinct numbers (697 precincts); election-day precinct votes appear from 8:16 PM. 3 runoff versions returned HTTP 404. Wayback branch origin/wayback-data was not present when checked, so check 3 is pending for 2024 general and 2026 primary.",
+  "tag_rationale": "Only the 2026 runoff is determined (LIVE by check 1); 2024 general and 2026 primary are UNDETERMINED (county site blocked, check 3 pending), so the single determined result gives LIVE_PRECINCT with confidence low.",
+  "agent": "research-A",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Not on Clarity. County results site returned empty HTTP 202 to the fetch module (check 2 not possible). Check 3 pending: origin/wayback-data branch not present."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Not on Clarity. County results PDFs returned empty HTTP 202 to the fetch module (check 2 not possible). Check 3 pending: origin/wayback-data branch not present."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 20:16 CT",
+      "precinct_first_seen": "2026-05-26 20:16 CT",
+      "night_updates_with_precinct_numbers": "6 of 6",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Dallas/126270/372964/reports/detailxml.zip",
+      "fact": "Clarity '2026 Republican Primary Runoff': election-night versions at 8:16, 8:50, 9:50, 10:47, 11:54 PM and 1:14 AM CDT have 697 to 708 precincts with nonzero votes; Election Day precinct sums 57, 6967, 27878, 58818, 85740, 107405 (13 to 677 precincts with election-day votes)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Dallas/126270/372964/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "141924d6a4bb3afd71540b9ca7f9128b1a1989a128f69529f715b18cfd404432",
+      "quote": "Timestamp 5/26/2026 8:16:44 PM CDT; 697 precincts with nonzero votes; Election Day precinct votes 57",
+      "supports": "2026_runoff LIVE, first night update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Dallas/126270/373072/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "e228b832735616c44645d3503a3d358db9db9c0f5f32e01add78b7c1cb12ae47",
+      "quote": "Timestamp 5/27/2026 1:14:39 AM CDT; 708 precincts with nonzero votes; Election Day precinct votes 107405",
+      "supports": "2026_runoff LIVE, last night update"
+    },
+    {
+      "url": "https://www.dallascountyvotes.org/election-results/",
+      "via": "fetch_module",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote": "HTTP 202, empty body",
+      "supports": "check 2 blocked"
+    },
+    {
+      "url": "websearch:?q=dallas%20county%20march%203%202026%20primary%20election%20night%20results",
+      "via": "websearch",
+      "content_hash": "aeb050cf103525b3ba0c14e666c72dfb6ad06d2f66f6412648449927a7e43493",
+      "quote": "Summary Results Report Democratic Party Primary March 3, 2026 Upload 3",
+      "supports": "locating only: county posts PDF uploads; not evidence"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "county": "Hidalgo",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.hidalgocounty.us/557/Primary-Elections",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Hidalgo/122498/352838/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 21:21 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL www.co.hidalgo.tx.us/elections/ returned HTTP 403; the county elections site is www.hidalgocounty.us/elections. Its election pages (2024 General 3318, 2026 Joint Primary 3456, 2026 Runoff 3477) link to Clarity EIDs 122498, 125934 and 126201. The county's Clarity elections.json lists elections only through 2020, so the check 1 script reported 'not listed'; the same reading (current_ver.txt, electionsettings.json versions, every reports/detailxml.zip, Timestamp and precincts with nonzero votes, using the script's own read_detail and on_election_night functions) was run on those EIDs from a scratch runner. Vote type for election day is named 'Election'. Precinct numbers before 9:21 PM in 2024 were early and mail only; election-day precinct votes first at 11:19 PM CST (2024), 9:29 PM CST (2026 primary), 8:28 PM CDT (2026 runoff). Unreadable (HTTP 404) versions: 5 (2024), 7 (2026 primary), 1 (2026 runoff), all before election night or after it. County pages also post later PCT by PCT and cumulative results documents (DocumentCenter). Wayback branch origin/wayback-data was not present when checked (not needed).",
+  "tag_rationale": "All three elections are LIVE by check 1 (Clarity update log), so the tag is LIVE_PRECINCT with confidence high.",
+  "agent": "research-A",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 21:21 CT",
+      "precinct_first_seen": "2024-11-05 21:21 CT",
+      "night_updates_with_precinct_numbers": "6 of 7 (4 with election-day votes, first 2024-11-05 23:19 CT)",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Hidalgo/122498/352838/reports/detailxml.zip",
+      "fact": "Clarity EID 122498 night versions: 7:47 PM CST 0 precincts with votes; 9:21 PM and 9:45 PM 257 precincts (early and absentee only); 11:19 PM, 12:29 AM, 2:52 AM, 2:55 AM 257 precincts with 'Election' vote type precinct sums 481446, 778485, 1649509, 1649509 (244 to 250 precincts with election-day votes)."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 21:05 CT",
+      "precinct_first_seen": "2026-03-03 21:05 CT",
+      "night_updates_with_precinct_numbers": "5 of 6 (4 with election-day votes, first 2026-03-03 21:29 CT)",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Hidalgo/125934/368480/reports/detailxml.zip",
+      "fact": "Clarity EID 125934 night versions: 8:46 PM 0 precincts; 9:05 PM 252 precincts early only; 9:29, 9:50, 11:36, 11:40 PM CST 252 precincts with election-day precinct sums 168197, 380747, 945771, 945771 (208 to 249 precincts with election-day votes)."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 20:03 CT",
+      "precinct_first_seen": "2026-05-26 20:03 CT",
+      "night_updates_with_precinct_numbers": "3 of 3 (2 with election-day votes, first 2026-05-26 20:28 CT)",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Hidalgo/126201/372977/reports/detailxml.zip",
+      "fact": "Clarity EID 126201 night versions: 8:03 PM CDT 245 precincts early and absentee only; 8:28 PM 248 precincts, election-day precinct sum 5996 (191 precincts); 9:40 PM 249 precincts, election-day sum 19152 (238 precincts). Next version 5/28/2026."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/122498/352838/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "50a7081db628fdb419b3dffb2309c0ca8e65996c01cc0355e999a3177cab64ba",
+      "quote": "Timestamp 11/5/2024 11:19:47 PM CST; 257 precincts with nonzero votes; 244 with election-day votes",
+      "supports": "2024_general LIVE"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/122498/353273/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "af4a02937520733a8c5ce505160ea79e1d4cbc08b12891eb8e465e4ffc55a1fd",
+      "quote": "Timestamp 11/6/2024 2:52:39 AM CST; 257 precincts with nonzero votes",
+      "supports": "2024_general LIVE"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/122498/352023/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "bd9cf841154d3499a267988a1a079876d762f31f5108afd5a1d9e69b7ec10350",
+      "quote": "Timestamp 11/5/2024 9:21:44 PM CST; 257 precincts with nonzero votes",
+      "supports": "precinct_first_seen"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/125934/368480/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "800d04c22a293ba6ced45e2c533cd3b125dbe94939518f507daf1f602ea01b3f",
+      "quote": "Timestamp 3/3/2026 9:29:34 PM CST; 252 precincts; 208 with election-day votes",
+      "supports": "2026_primary LIVE"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/125934/368548/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "f5faccdf0d013510fa51f5504087d88505a5e691e7a35d6e9a0bc7f8055da80e",
+      "quote": "Timestamp 3/3/2026 11:36:14 PM CST; 252 precincts; 249 with election-day votes",
+      "supports": "2026_primary LIVE"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/126201/372977/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "24b7885aaa736a7fdcddfaac84e1e7ba79837e6f42cbb88dae6ea5c536a28b4a",
+      "quote": "Timestamp 5/26/2026 8:28:13 PM CDT; 248 precincts; 191 with election-day votes",
+      "supports": "2026_runoff LIVE"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/126201/373024/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "e83df70f56254b631b6dfe794623c42ecc36c4705ab4c0cf46a1cbee7f5ea61f",
+      "quote": "Timestamp 5/26/2026 9:40:55 PM CDT; 249 precincts; 238 with election-day votes",
+      "supports": "2026_runoff LIVE"
+    },
+    {
+      "url": "https://www.hidalgocounty.us/3477/May-26-2026-Primary-Runoff-Election",
+      "via": "fetch_module",
+      "content_hash": "fc904504128ca488413635a4f6084d68a8aacbb35b2ad172c466edb18457c759",
+      "quote": "Republican Primary Runoff - Results (link to results.enr.clarityelections.com/TX/Hidalgo/126201/)",
+      "supports": "county page links Clarity EID"
+    }
+  ]
+}

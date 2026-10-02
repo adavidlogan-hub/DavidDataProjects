@@ -1,6 +1,8 @@
 name: wayback-harvest
 # Runs the Wayback harvest on a GitHub-hosted runner, where web.archive.org is
 # reachable, and pushes the raw snapshots to the wayback-data branch.
+# Output is never lost: the fetch cache is saved even when a later step fails,
+# and the snapshots are always uploaded as a run artifact.
 on:
   push:
     branches: [claude/tx-precinct-pipeline]
@@ -21,28 +23,54 @@ jobs:
         with:
           python-version: "3.11"
       - name: Restore fetch cache
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: var
           key: fetch-cache-${{ github.run_id }}
           restore-keys: fetch-cache-
       - name: Harvest
         run: python -m phase1.wayback_harvest --agent wayback-harvest --cap 60 | tee harvest_log.jsonl
+      - name: Save fetch cache (always)
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: var
+          key: fetch-cache-${{ github.run_id }}
+      - name: Upload snapshots as artifact (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wayback-snapshots-${{ github.run_id }}
+          path: |
+            phase1/wayback_snapshots
+            harvest_log.jsonl
+            var/logs/fetch_failures.jsonl
+          if-no-files-found: warn
+          retention-days: 30
       - name: Push snapshots to wayback-data branch
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -u
+          REMOTE="https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git"
+          WD=$(mktemp -d)
+          if git ls-remote --exit-code --heads "$REMOTE" wayback-data >/dev/null 2>&1; then
+            git clone -q --depth 1 --branch wayback-data "$REMOTE" "$WD"
+          else
+            git init -q "$WD" && git -C "$WD" checkout -q -b wayback-data && git -C "$WD" remote add origin "$REMOTE"
+          fi
+          mkdir -p "$WD/phase1" "$WD/harvest_logs"
+          cp -r phase1/wayback_snapshots "$WD/phase1/"
+          cp harvest_log.jsonl "$WD/harvest_logs/run_${{ github.run_id }}.jsonl"
+          cp var/logs/fetch_failures.jsonl "$WD/harvest_logs/failures_${{ github.run_id }}.jsonl" 2>/dev/null || true
+          cd "$WD"
           git config user.name "wayback-harvest"
           git config user.email "wayback-harvest@users.noreply.github.com"
-          mkdir -p /tmp/out && cp -r phase1/wayback_snapshots /tmp/out/ && cp harvest_log.jsonl /tmp/out/
-          cp var/logs/fetch_failures.jsonl /tmp/out/ 2>/dev/null || true
-          git fetch origin wayback-data || true
-          if git rev-parse --verify origin/wayback-data >/dev/null 2>&1; then
-            git checkout -B wayback-data origin/wayback-data
-          else
-            git checkout --orphan wayback-data && git rm -rf -q . && git clean -fdq -e var
-          fi
-          mkdir -p phase1 && cp -r /tmp/out/wayback_snapshots phase1/
-          mkdir -p harvest_logs && cp /tmp/out/harvest_log.jsonl harvest_logs/run_${{ github.run_id }}.jsonl
-          cp /tmp/out/fetch_failures.jsonl harvest_logs/failures_${{ github.run_id }}.jsonl 2>/dev/null || true
           git add phase1 harvest_logs
           git commit -q -m "Wayback harvest run ${{ github.run_id }}" || echo "nothing new"
-          git push origin wayback-data
+          for delay in 0 2 4 8 16; do
+            sleep $delay
+            if git push -q origin wayback-data; then echo "pushed"; exit 0; fi
+            echo "push failed, retrying"
+          done
+          echo "push failed after retries; snapshots are in the run artifact"; exit 1

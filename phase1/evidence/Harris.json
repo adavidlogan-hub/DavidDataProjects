@@ -1,0 +1,86 @@
+{
+  "county": "Harris",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.harrisvotes.com/Election-Results/Live-Results",
+  "platform": "homegrown",
+  "host": "app.harrisvotes.com",
+  "evidence_url": "https://app.harrisvotes.com/electionresults/electionday",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "The Harris County Elections Administrator's Office makes a diligent effort to post accurate information on this website, but assumes no liability for damages incurred directly or indirectly as a result of errors, omissions, or discrepancies. For additional information please review our Privacy Policy and our Accessibility Statement.",
+  "notes": "Harris runs its own results app (harrisvotes.com Live Results iframes app.harrisvotes.com/electionresults/electionday). The app code loads appfiles.harrisvotes.com/harrisvotes/prd/Data/<electionCode>/resultsbyballot.json and, per contest, pv-<contestId>.json, rendered as a 'Precinct' voting tab, so the live site is built to show per-precinct numbers. But the files are overwritten in place: for the 2024 general (code 1124) resultsbyballot.json has dt 2024-11-15T17:30:00Z and Last-Modified Fri, 15 Nov 2024 18:03:43 GMT; pv-7281.json (President) Last-Modified Fri, 15 Nov 2024 18:03:22 GMT. No dated update history exists (check 1 not applicable; not Clarity). Data codes for the 2026 primary and runoff were not found (0326 and 0526 return 404) and were not guessed further. The Archives page lists only Official Cumulative and Official Canvass PDFs (e.g. 2024 general canvass file stamped 11-14-2024 03-12-57 PM); Election Reports lists reconciliation and audit forms, no election-night precinct reports. So no check could place precinct numbers on election night. Check 3 pending (wayback-data branch not found on origin). The usage notice is the site footer on the Live Results page.",
+  "tag_rationale": "All three elections are UNDETERMINED (check 1 not applicable, check 2 files overwritten after canvass, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-B",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Live app precinct file https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/pv-7281.json exists but Last-Modified is Fri, 15 Nov 2024 18:03:22 GMT (post-canvass overwrite); no election-night copy available. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Archives list 'Official Cumulative' and 'Official Canvass' PDFs stamped 3-10-2026; no election-night report. Live data path for this election not found. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Archives list 'Final Official Cumulative/Canvass' PDFs stamped 6-2-2026; no election-night report. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.harrisvotes.com/Election-Results/Live-Results",
+      "via": "fetch_module",
+      "content_hash": "9aa46ff68a0001622e8aa77af1fbfd0017d9950cdd8174631abe85905b9076fc",
+      "quote": "<iframe src=\"https://app.harrisvotes.com/electionresults/electionday\" title=\"Election Day Live Results\">",
+      "supports": "Live results page embeds the county's own app"
+    },
+    {
+      "url": "https://app.harrisvotes.com/electionresults/electionday",
+      "via": "fetch_module",
+      "content_hash": "6e5cc9f6089dee8e44a377e85ec56d0e1f64277eb66b0e3bead4929a149b95bf",
+      "quote": "$http.get(dnnPrefix + '/Data/' + electionCode + '/pv-' + contestId + '.json?nocache=' + cacheTime) ... createTextNode(\"Precinct\")",
+      "supports": "Live app has a per-precinct voting tab"
+    },
+    {
+      "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/resultsbyballot.json",
+      "via": "fetch_module",
+      "content_hash": "d418eb218a70ce59b1334f999b946845c39f13fca718e089034318fd67a51c84",
+      "quote": "\"ec\":\"1124\",\"edt\":\"November 05, 2024\" ... \"dt\":\"2024-11-15T17:30:00Z\"",
+      "supports": "2024 data file is the post-canvass version; Last-Modified Fri, 15 Nov 2024 18:03:43 GMT"
+    },
+    {
+      "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/pv-7281.json",
+      "via": "fetch_module",
+      "content_hash": "5baaf0810fb0fc9a9b83887c034f1b4d7ad3feab586fbcc9b864082b3df83b8c",
+      "quote": "{\"i\":7281,\"p\":[\"0001\",\"0002\",...",
+      "supports": "2024 per-precinct file exists; Last-Modified Fri, 15 Nov 2024 18:03:22 GMT"
+    },
+    {
+      "url": "https://www.harrisvotes.com/Election-Results/Archives",
+      "via": "fetch_module",
+      "content_hash": "0f95719fd9f28cba1a36bee30a3b20e44c825500cbd1f83d77bb1d206bbf58c7",
+      "quote": "Date Election Cumulative Report Canvass Report ... November 05, 2024 General and Special Elections PDF Version PDF Version",
+      "supports": "Archive lists only official cumulative and canvass reports"
+    }
+  ]
+}
