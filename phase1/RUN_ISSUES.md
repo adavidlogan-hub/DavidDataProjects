@@ -19,3 +19,14 @@ Issues reported by agents during the full run, kept for the final report.
 - soesoftware.com and scytl.us return empty 202 (bot challenge); businesswire.com 403; Dallas civicweb agenda disallowed by robots.txt (Dallas Scytl renewal remains a search lead only).
 - Added source: TX SOS "Voting Systems by County" PDF (revised 09/01/2026): ES&S 141 counties, Hart 113.
 - Rule breach: one direct curl to www.co.zavala.tx.us outside the fetch module (403, unused).
+
+## Batch 1 (research-1, Anderson to Camp; 30 counties, 33.9 min, 400,758 agent tokens)
+- Applied the stricter LIVE reading (election-day precinct votes only); this prompted DECISIONS 36 and the check 1 reconciliation pass.
+- Bastrop runoff reporting units are combined polling places ("Poll 1" to "Poll 4"), not regular precincts; recorded as END.
+- END from printed run time only (no upload time): Bandera, Burnet, Bowie runoffs.
+- Egress proxy refused www.bosquecounty.gov ("Host not in allowlist") even with full network access; Bosque UNKNOWN.
+- Bot protection (not circumvented): Aransas (Incapsula), Brazoria (Akamai 403), Bastrop (empty 202), Burleson ENR portal (Cloudflare).
+- Bell: robots.txt disallows all agents, so its 2026 Clarity links could not be read from the county site.
+- Dead links: Bailey 2024 and primary unofficial files; Briscoe 2024 unofficial file.
+- Cameron and Angelina live results apps show only the current state (vote centers, no history).
+- Two scanner clocks contradict printed times (Armstrong 2024, Brown 2024); noted in the records.

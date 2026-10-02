@@ -48,6 +48,7 @@
               "timestamp": "11/4/2024 6:22:16 PM CST",
               "precincts_with_votes": 0,
               "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
               "version": "350265",
               "url": "https://results.enr.clarityelections.com/TX/Hood/122858/350265/reports/detailxml.zip",
               "content_hash": "ee4e04ee3b1f511f0932eeb2ea874eea994cbac229582791440b9dbd4283128c",
@@ -147,6 +148,7 @@
               "timestamp": "11/5/2024 7:09:46 PM CST",
               "precincts_with_votes": 17,
               "nonzero_precinct_vote_cells": 476,
+              "precincts_with_election_day_votes": 0,
               "version": "350835",
               "url": "https://results.enr.clarityelections.com/TX/Hood/122858/350835/reports/detailxml.zip",
               "content_hash": "3268b25d1f6d672336de964ee97c8d37f0e5a93b178a42408ba41ba36a317530",
@@ -176,6 +178,7 @@
               "timestamp": "11/5/2024 9:57:28 PM CST",
               "precincts_with_votes": 18,
               "nonzero_precinct_vote_cells": 2538,
+              "precincts_with_election_day_votes": 17,
               "version": "352326",
               "url": "https://results.enr.clarityelections.com/TX/Hood/122858/352326/reports/detailxml.zip",
               "content_hash": "4d4b1b48d6191006f193606865abf3459491a900069055ec6900d68892dd6157",
@@ -185,6 +188,7 @@
               "timestamp": "11/5/2024 10:11:30 PM CST",
               "precincts_with_votes": 18,
               "nonzero_precinct_vote_cells": 2539,
+              "precincts_with_election_day_votes": 17,
               "version": "352477",
               "url": "https://results.enr.clarityelections.com/TX/Hood/122858/352477/reports/detailxml.zip",
               "content_hash": "8344622df8d529e325513ed0be78c78f47e2154d638b10b66720f730542f62e4",
@@ -194,6 +198,7 @@
               "timestamp": "11/14/2024 5:00:22 PM CST",
               "precincts_with_votes": 18,
               "nonzero_precinct_vote_cells": 2542,
+              "precincts_with_election_day_votes": 17,
               "version": "354996",
               "url": "https://results.enr.clarityelections.com/TX/Hood/122858/354996/reports/detailxml.zip",
               "content_hash": "583f4a6295500f7dc8113fc6050b40d8ef4e2c8ad80f6ffd192345b1452ca44b",
@@ -218,6 +223,7 @@
               "timestamp": "11/20/2024 10:33:31 AM CST",
               "precincts_with_votes": 18,
               "nonzero_precinct_vote_cells": 2355,
+              "precincts_with_election_day_votes": 17,
               "version": "355543",
               "url": "https://results.enr.clarityelections.com/TX/Hood/122858/355543/reports/detailxml.zip",
               "content_hash": "70f00aec1084389e64ab426671f4835bc313124bdc1bdb2b103453fb60e263b6",
@@ -230,6 +236,12 @@
             "timestamp": "11/5/2024 7:09:46 PM CST",
             "version": "350835",
             "url": "https://results.enr.clarityelections.com/TX/Hood/122858/350835/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 2,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 9:57:28 PM CST",
+            "version": "352326",
+            "url": "https://results.enr.clarityelections.com/TX/Hood/122858/352326/reports/detailxml.zip"
           },
           "unreadable_versions": 32
         }
@@ -286,6 +298,7 @@
               "timestamp": "3/2/2026 1:03:10 PM CST",
               "precincts_with_votes": 0,
               "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
               "version": "368322",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126050/368322/reports/detailxml.zip",
               "content_hash": "a2fed5d452291e562d6d0340c8d0fa88d2aa329cb09802a4d282497f7c2b41f6",
@@ -295,6 +308,7 @@
               "timestamp": "3/3/2026 3:03:30 PM CST",
               "precincts_with_votes": 0,
               "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
               "version": "368367",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126050/368367/reports/detailxml.zip",
               "content_hash": "f3418f65a4d0075b675b85ce88613ae19381f62e79596caf35d0396ece9c3ebd",
@@ -304,6 +318,7 @@
               "timestamp": "3/3/2026 7:13:41 PM CST",
               "precincts_with_votes": 17,
               "nonzero_precinct_vote_cells": 1211,
+              "precincts_with_election_day_votes": 0,
               "version": "368394",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126050/368394/reports/detailxml.zip",
               "content_hash": "59fa64defb71024818414e61592c44faa872e5e164ece7662d3ad1b411759d25",
@@ -313,6 +328,7 @@
               "timestamp": "3/3/2026 8:24:53 PM CST",
               "precincts_with_votes": 17,
               "nonzero_precinct_vote_cells": 1268,
+              "precincts_with_election_day_votes": 0,
               "version": "368432",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126050/368432/reports/detailxml.zip",
               "content_hash": "cef0264233b96621057e243457470bad09e1b1618a3cc5fa87092a8e5670891e",
@@ -322,6 +338,7 @@
               "timestamp": "3/3/2026 8:49:03 PM CST",
               "precincts_with_votes": 17,
               "nonzero_precinct_vote_cells": 1281,
+              "precincts_with_election_day_votes": 0,
               "version": "368451",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126050/368451/reports/detailxml.zip",
               "content_hash": "a72c94f3b24079a0d4471ae948c1400e093305a18ac15b03fa20d7203e8c517d",
@@ -335,6 +352,8 @@
             "version": "368394",
             "url": "https://results.enr.clarityelections.com/TX/Hood/126050/368394/reports/detailxml.zip"
           },
+          "election_night_updates_with_election_day_precinct_votes": 0,
+          "first_update_with_election_day_precinct_votes": null,
           "unreadable_versions": 8
         }
       ]
@@ -370,6 +389,7 @@
               "timestamp": "5/26/2026 3:18:39 PM CDT",
               "precincts_with_votes": 0,
               "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
               "version": "372846",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126481/372846/reports/detailxml.zip",
               "content_hash": "70951b44712f6886f03449c73d9dc64370f79e57f4a5d0faaef63089ac079b6a",
@@ -379,6 +399,7 @@
               "timestamp": "5/26/2026 3:20:53 PM CDT",
               "precincts_with_votes": 0,
               "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
               "version": "372848",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126481/372848/reports/detailxml.zip",
               "content_hash": "cf51b8aa38ef49a98690a6c2a3d6fb795ab5b44d6d19ec6bb7eb26ac5ab9f2a4",
@@ -388,6 +409,7 @@
               "timestamp": "5/26/2026 4:36:20 PM CDT",
               "precincts_with_votes": 0,
               "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
               "version": "372900",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126481/372900/reports/detailxml.zip",
               "content_hash": "149737aedcfb18fda086f6e1537894ac1b9406892777a72ca970c4605d0a308f",
@@ -397,6 +419,7 @@
               "timestamp": "5/26/2026 7:05:52 PM CDT",
               "precincts_with_votes": 17,
               "nonzero_precinct_vote_cells": 65,
+              "precincts_with_election_day_votes": 0,
               "version": "372932",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126481/372932/reports/detailxml.zip",
               "content_hash": "a65700acbdcbde3e4bc30e7b76631bf630f5b1a8d94b1b2339e687efcc2a9fdd",
@@ -406,6 +429,7 @@
               "timestamp": "5/26/2026 8:47:30 PM CDT",
               "precincts_with_votes": 17,
               "nonzero_precinct_vote_cells": 83,
+              "precincts_with_election_day_votes": 0,
               "version": "372991",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126481/372991/reports/detailxml.zip",
               "content_hash": "6669434143c0075fa5fffffd8beaac63bb795b4a11b3998e54c1bc0fbf89a559",
@@ -415,6 +439,7 @@
               "timestamp": "6/2/2026 3:47:46 PM CDT",
               "precincts_with_votes": 17,
               "nonzero_precinct_vote_cells": 550,
+              "precincts_with_election_day_votes": 17,
               "version": "373448",
               "url": "https://results.enr.clarityelections.com/TX/Hood/126481/373448/reports/detailxml.zip",
               "content_hash": "d4bdcb81f3253d56af15d71493d38eafb6df99624b3f2fa00cc59d8a9028a736",
@@ -427,6 +452,12 @@
             "timestamp": "5/26/2026 7:05:52 PM CDT",
             "version": "372932",
             "url": "https://results.enr.clarityelections.com/TX/Hood/126481/372932/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 0,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "6/2/2026 3:47:46 PM CDT",
+            "version": "373448",
+            "url": "https://results.enr.clarityelections.com/TX/Hood/126481/373448/reports/detailxml.zip"
           },
           "unreadable_versions": 4
         }
