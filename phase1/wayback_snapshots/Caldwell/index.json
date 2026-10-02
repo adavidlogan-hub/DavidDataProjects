@@ -3,7 +3,7 @@
   "targets": [
     "co.caldwell.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:53:32Z",
+  "harvested_at_utc": "2026-10-02T21:42:28Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -75,9 +75,10 @@
           "digest": "TYOV57SGNK3B4WFCDIKGBWGXTLTJF3BX",
           "length": "8306",
           "replay_url": "https://web.archive.org/web/20241106074343id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20ev-06302018172620.pdf",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "705e5fc3970fd5c572475878850bed9c0cec678976f347c2a4a6dc70cacc1b4b",
+          "saved_as": "Caldwell/2024_general_20241106074343_705e5fc3970f.pdf"
         },
         {
           "timestamp_utc": "20241106074343",
@@ -87,9 +88,10 @@
           "digest": "TABOSK4XUX5G4RBRYHUIZTQVASLV67CW",
           "length": "8218",
           "replay_url": "https://web.archive.org/web/20241106074343id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20gt-06302018202902.pdf",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "c377fd3546b5809bd1416e78bf8fef33e6986dc631567a207bc77f8c200d9107",
+          "saved_as": "Caldwell/2024_general_20241106074343_c377fd3546b5.pdf"
         },
         {
           "timestamp_utc": "20241106074351",
@@ -190,9 +192,10 @@
           "digest": "VNXF7G2METIGKN2LGP5QRLIR3T7IH4KH",
           "length": "59539",
           "replay_url": "https://web.archive.org/web/20241106074410id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/ed%20unoffivial%20results-11092016004131.pdf",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "797cdec64577fde48b16dc89a265f9707ef3edd1c4977d418dd015b79eb22d08",
+          "saved_as": "Caldwell/2024_general_20241106074410_797cdec64577.pdf"
         },
         {
           "timestamp_utc": "20241106074410",
@@ -215,9 +218,10 @@
           "digest": "BWWGG6FY5V4SULZBF5GPFGVYMJ3ZIZGE",
           "length": "14731",
           "replay_url": "https://web.archive.org/web/20241106074411id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/DEMS%20UNOFFICAL%20ED%20RESULTS%20RO%202018.pdf",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "6c92740278c2e4c9d3276e5864f19f6725d6711c183e97d2296da59e1e355f66",
+          "saved_as": "Caldwell/2024_general_20241106074411_6c92740278c2.pdf"
         },
         {
           "timestamp_utc": "20241106074413",
