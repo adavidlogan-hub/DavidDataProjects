@@ -1,31 +1,31 @@
 {
   "county": "Coleman",
-  "tag": "UNKNOWN",
-  "confidence": "low",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
-  "results_url": "https://www.co.coleman.tx.us/page/coleman.Elections",
-  "platform": "unknown",
-  "host": "www.co.coleman.tx.us",
-  "evidence_url": "",
-  "evidence_snapshot_timestamp": "",
+  "results_url": "https://newtools.cira.state.tx.us/page/coleman.Elections",
+  "platform": "county_pdfs",
+  "host": "newtools.cira.state.tx.us",
+  "evidence_url": "https://web.archive.org/web/20241106074252id_/https://www.co.coleman.tx.us/upload/page/6055/docs/UNOFFICIAL%20ALL%20PRECINCTS%20coleman%20county.pdf",
+  "evidence_snapshot_timestamp": "20241106074252",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.coleman.tx.us/default.aspx?Coleman_County/Elections; https://www.co.coleman.tx.us/page/coleman.Elections, page/Elections, page/Election.CurrentLocal, page/Election.Day.Info, page/Election.PublicNotices and page/Current%20ELection%20-%20Local all returned HTTP 200 with the same Home page body (content hash a0f2703b...), so check 2 failed. One web search found the same URLs; its summary claims official and precinct results are posted there, which could not be verified. No Clarity or vendor link found. Check 3 pending (wayback-data branch not on origin).",
-  "tag_rationale": "No election could be determined because the county site served only its Home page, so the tag is UNKNOWN.",
+  "notes": "Seed http://www.co.coleman.tx.us/default.aspx?Coleman_County/Elections; https://www.co.coleman.tx.us/page/coleman.Elections, page/Elections, page/Election.CurrentLocal, page/Election.Day.Info, page/Election.PublicNotices and page/Current%20ELection%20-%20Local all returned HTTP 200 with the same Home page body (content hash a0f2703b...), so check 2 failed. One web search found the same URLs; its summary claims official and precinct results are posted there, which could not be verified. No Clarity or vendor link found. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-G): the www.co.coleman.tx.us host (and the new www.colemancounty.gov domain) still serves the Home page for every path, but the same CIRA-hosted site answers at newtools.cira.state.tx.us/page/coleman.Elections with the full results list, and its upload files load there with per-file Last-Modified. 2024_general UNDETERMINED to LATER (check 3: Wayback election-night capture of the county-totals report, plus the official precinct report uploaded 15 Nov 2024); 2026_runoff UNDETERMINED to LATER (check 2: county-totals report printed 8:02 PM and uploaded on election night, official precinct reports uploaded 10 Jun 2026); 2026_primary stays UNDETERMINED (unofficial files printed 5 and 10 Mar, uploaded 21 Apr 2026). Wayback captures for the primary and runoff windows: none. Sweep: no sweep file for this county. Source text '(c)' symbol omitted from quotes.",
+  "tag_rationale": "2024 general (check 3) and 2026 runoff (check 2) are both LATER: election-night county totals only, precinct numbers only in official reports after the canvass; two LATER results give COUNTY_ONLY_PRECINCT_AT_CANVASS. The 2026 primary is UNDETERMINED.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "3",
+      "county_totals_first_seen": "2024-11-05 20:00 CT",
       "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "The county site returns its Home page (title 'Home | Coleman County, Texas', identical content hash) for every elections page requested, so no results files could be listed. Check 3 pending."
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://web.archive.org/web/20241106074252id_/https://www.co.coleman.tx.us/upload/page/6055/docs/UNOFFICIAL%20ALL%20PRECINCTS%20coleman%20county.pdf",
+      "fact": "Wayback capture 2024-11-06 01:42:52 CST (election night) of 'UNOFFICIAL ALL PRECINCTS coleman county.pdf' (wayback-data Coleman/2024_general_20241106074252_9ae01f73397a.pdf): 'Summary Results Report UNOFFICIAL RESULTS TX Coleman 241105 General 6110 November 5, 2024 Coleman ... Election Day Precincts Reporting 5 of 5 ... Precincts Complete 0 of 5', footer 'Election Summary - 11/05/2024 8:00 PM', PDF CreationDate 2024-11-06 02:11:21 UTC (8:11 PM CST); county totals only (columns Absentee, Early Voting, Election Day). The harvest's CDX query for co.coleman.tx.us election/result/precinct/canvass/cumulative URLs from 7 PM to 3 AM returned only this file. The county's 2024 list (CIRA copy of the Elections page) has only 'Official Results', 'Precinct Results' (OFFICIAL RESULTS BY PRECINCT, 'OFFICIAL RESULTS ... PRECINCT RESULTS / GENERAL ELECTION', CreationDate 2024-11-12, Last-Modified Fri, 15 Nov 2024 15:20:34 GMT), 'Unofficial Results' (this county summary) and reconciliation forms. Precinct numbers appeared only with the official canvass report after election night."
     },
     "2026_primary": {
       "result": "UNDETERMINED",
@@ -34,16 +34,16 @@
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "",
-      "fact": "The county site returns its Home page (title 'Home | Coleman County, Texas', identical content hash) for every elections page requested, so no results files could be listed. Check 3 pending."
+      "fact": "Rule 43: no election-night file survives. 'Unofficial Results' (UNOFFICIAL RESULTS.pdf): 'Summary Results Report UNOFFICIAL RESULTS TX Coleman County 260303 Primary Election', county totals, footer 'Election Summary - 03/05/2026 12:41 PM', Last-Modified Tue, 21 Apr 2026 19:07:02 GMT. 'Republican' unofficial (REPUBLICAN PARTY RESULTS UNOFFICIAL.pdf): footer 'Election Summary - 03/10/2026 10:38 AM', Last-Modified Tue, 21 Apr 2026 19:08:56 GMT. Precinct reports listed are official. Wayback harvest found no election-night captures."
     },
     "2026_runoff": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:02 CT",
       "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "The county site returns its Home page (title 'Home | Coleman County, Texas', identical content hash) for every elections page requested, so no results files could be listed. Check 3 pending."
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2026%20MARCH%20PRIMARY/UNOFFICIAL%20RESULTS%202026%20JOINT%20RUNOFF.pdf",
+      "fact": "Under 'UNOFFICIAL ELECTION NIGHT RESULTS AND REPORTS' the Elections page (CIRA copy) lists only 'COLEMAN COUNTY JOINT ELECTION REPORT' (UNOFFICIAL RESULTS 2026 JOINT RUNOFF.pdf) and 'UNOFFICIAL RECONCILIATION REPORT'. The report reads 'Summary Results Report UNOFFICIAL RESULTS TX Coleman County 260526 Primary Runoff Election ... Election Day Precincts Reporting 4 of 4 ... Precincts Complete 0 of 4 ... Precincts Partially Reported 4 of 4', footer 'Election Summary - 05/26/2026 8:02 PM', county totals only; PDF CreationDate 2026-05-27 01:03:50 UTC (8:03 PM CDT); Last-Modified Wed, 27 May 2026 00:39:30 GMT (7:39 PM CDT, earlier than the printed time, so the server or report clock is off; both fall on election night). Precinct reports for the runoff are under 'Official Election Results and Reports', e.g. 'OFFICIAL PRECINCT RESULTS - REPUBLICAN PARTY' ('OFFICIAL RESULTS ... PRECINCT RESULTS - REPUBLICAN PARTY'), CreationDate 2026-06-10, Last-Modified Wed, 10 Jun 2026 20:40:23 GMT. No precinct numbers on election night."
     }
   },
   "sources": [
@@ -60,6 +60,55 @@
       "content_hash": "a2fb1a3e97578682080b892b23a3044e11ef1e17871b264230f7b01c662bcdbc",
       "quote": "election information page - Coleman County Texas | https://www.co.coleman.tx.us/page/coleman.Elections",
       "supports": "Located the elections page (search text is not evidence)"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/page/coleman.Elections",
+      "via": "fetch_module",
+      "content_hash": "6ca4e185fd6621a65aceb3e2a29bf5ac3935ac734cbcd3e99b47e21ba7439dc7",
+      "quote": "UNOFFICIAL ELECTION NIGHT RESULTS AND REPORTS ... COLEMAN COUNTY JOINT ELECTION REPORT | UNOFFICIAL RECONCILIATION REPORT ... NOVEMBER 5, 2024 GENERAL ELECTION Official Results | Precinct Results | Unofficial Results | Preliminary Reconciliation Form | Official Reconciliation Form",
+      "supports": "County's own Elections page served from the CIRA host (the www.co.coleman.tx.us host returns its Home page for every path); lists all result files per election"
+    },
+    {
+      "url": "https://web.archive.org/web/20241106074252id_/https://www.co.coleman.tx.us/upload/page/6055/docs/UNOFFICIAL%20ALL%20PRECINCTS%20coleman%20county.pdf",
+      "via": "wayback_branch",
+      "content_hash": "9ae01f73397af679cefbcfe22bb54d101181be88a8dd8aecb26ffdc4564a76f3",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Coleman 241105 General 6110 ... Election Day Precincts Reporting 5 of 5 ... Election Summary - 11/05/2024 8:00 PM",
+      "supports": "2024 general: county totals online on election night (captured 2024-11-06 01:42:52 CST), LATER"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2024%20GENERAL%20ELECTION/OFFICIAL%20RESULTS%20BY%20PRECINCT%20GEN%20ELEC%2011.05.24.pdf",
+      "via": "fetch_module",
+      "content_hash": "d26488741d285ee538f224830fcaafe3e292617869e180f887f79f6cda38062f",
+      "quote": "Summary Results Report OFFICIAL RESULTS TX Coleman 241105 General 6110 PRECINCT RESULTS / GENERAL ELECTION ... PRECINCT 1 (Last-Modified Fri, 15 Nov 2024 15:20:34 GMT)",
+      "supports": "2024 general: precinct numbers only in the official report uploaded after election night"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2026%20MARCH%20PRIMARY/UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "a67429e22ca7a07e2c4ae8271c38312f3017f95cb424da31c4ffbfbb6989a847",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Coleman County 260303 Primary Election ... Election Summary - 03/05/2026 12:41 PM (Last-Modified Tue, 21 Apr 2026 19:07:02 GMT)",
+      "supports": "2026 primary: unofficial county totals printed and uploaded after election night; UNDETERMINED"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2026%20MARCH%20PRIMARY/REPUBLICAN%20PARTY%20RESULTS%20UNOFFICIAL.pdf",
+      "via": "fetch_module",
+      "content_hash": "59cfd7a9c40915c56c807e4943807fe3a6280aa1e5912c70549b8229a89d5f35",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS ... Election Summary - 03/10/2026 10:38 AM (Last-Modified Tue, 21 Apr 2026 19:08:56 GMT)",
+      "supports": "2026 primary: no election-night file"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2026%20MARCH%20PRIMARY/UNOFFICIAL%20RESULTS%202026%20JOINT%20RUNOFF.pdf",
+      "via": "fetch_module",
+      "content_hash": "8c9ad1c2f6bb58eacfcf6f88b95c58687db81e75790ff746cd46befceaf26904",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Coleman County 260526 Primary Runoff Election ... Precincts Partially Reported 4 of 4 ... Election Summary - 05/26/2026 8:02 PM (Last-Modified Wed, 27 May 2026 00:39:30 GMT)",
+      "supports": "2026 runoff: county totals posted on election night, LATER"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6075/docs/ELECTIONS/2026%20MARCH%20PRIMARY/OFFICIAL%20PRECINCT%20RESULTS%20-%20REPUBLICAN%20PARTY.pdf",
+      "via": "fetch_module",
+      "content_hash": "5c2a12281b7a30f6cc8bcf13ee6252dedc55b53ef22c1b12e82fcc5584ddae96",
+      "quote": "Summary Results Report OFFICIAL RESULTS TX Coleman County 260526 Primary Runoff Election PRECINCT RESULTS - REPUBLICAN PARTY ... PRECINCT 1 (Last-Modified Wed, 10 Jun 2026 20:40:23 GMT)",
+      "supports": "2026 runoff: precinct numbers posted at canvass"
     }
   ]
 }
