@@ -43,5 +43,12 @@
    "what_i_checked": "run 03/04/2026 11:13 AM"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:46:34Z"
+ "written_blind_at_utc": "2026-10-02T16:46:34Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (LATER, check 2). Research county_totals_first_seen 2026-05-26 21:39 CT matches the printed run time I read. Its evidence_url is the post-night precinct file rather than the election-night cumulative file, but its fact names the cumulative file correctly. I note the cumulative file's Last-Modified (01:49:57 GMT = 8:49 PM CDT) precedes its printed 9:39 PM run time; research does not mention this. No unsupported claims."
+ }
 }

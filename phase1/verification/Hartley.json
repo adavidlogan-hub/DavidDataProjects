@@ -1,13 +1,14 @@
 {
  "county": "Hartley",
  "reason_selected": "low confidence (after rule 43 normalization)",
- "verifier_tag": "UNKNOWN",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
  "verifier_confidence": "low",
  "elections": {
   "2024_general": {
-   "result": "UNDETERMINED",
-   "check": "none",
-   "fact": "Voter.Information page, 'GENERAL ELECTION ON NOVEMBER 5, 2024': only notices (notice of general/special election, Hartley ISD, Channing tax rate) and 'SEC of State 11.05.2024.pdf' (Last-Modified 26 Sep 2024, pre-election). No results file posted. No wayback folder (check 3 unavailable)."
+   "result": "LATER",
+   "check": "2",
+   "fact": "Voter.Information page, 'GENERAL ELECTION ON NOVEMBER 5, 2024': only notices (notice of general/special election, Hartley ISD, Channing tax rate) and 'SEC of State 11.05.2024.pdf' (Last-Modified 26 Sep 2024, pre-election). No results file posted. No wayback folder (check 3 unavailable).",
+   "corrected_after_comparison": "Election-night county-totals file opened by me after comparison: https://www.co.hartley.tx.us/upload/page/0103/Unofficial%20Results.pdf ('*SUMMARY RESULTS REPORT - UNOFFICIAL RESULTS*', linked in the page's '2024 Elections' accordion under 'GENERAL ELECTION ON NOVEMBER 5, 2024'), a scanned Electionware 'Summary Results Report TX Hartley 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS Hartley County', county totals ('Ballots Cast - Total 2,028 94 1,476 458', 'Election Day Precincts Reporting 6 of 6'), footer 'Election Summary - 11/05/2024 7:22 PM' (read from the rendered scan), Last-Modified Wed, 06 Nov 2024 14:19:00 GMT. No precinct results file for this election on the page. Content hash 518ce06c82ff7c2f40949c736cae5daabf2fe869fecc44a32bfa0b9bf20b5010."
   },
   "2026_primary": {
    "result": "UNDETERMINED",
@@ -20,7 +21,7 @@
    "fact": "'SUMMARY RESULTS REPORT - UNOFFICIAL' (5.26.26 Summary Results.pdf): CreationDate 2026-05-29 23:31 UTC, Last-Modified Fri, 29 May 2026 22:34:30 GMT, after election night. Other runoff files are reconciliation forms. No election-night results file survives."
   }
  },
- "rationale": "No election is determined: 2024 has no results file, and the 2026 county results files were all uploaded days after election night (the primary page points election-night viewers to the SOS portal, which is not a timed county file). Tag UNKNOWN.",
+ "rationale": "After comparison (DECISIONS 44): 2024 is LATER from a county-totals unofficial summary printed 7:22 PM on election night with no precinct report posted; the 2026 elections remain UNDETERMINED (county files uploaded days later). One determined election, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low. Blind verdict was UNKNOWN.",
  "sources": [
   {
    "url": "https://www.co.hartley.tx.us/page/Voter.Information",
@@ -46,7 +47,28 @@
    "url": "https://www.co.hartley.tx.us/upload/page/0103/docs/SEC%20of%20State%2011.05.2024.pdf",
    "content_hash": "28feb3306affd2927cd7039968722980bef040357657b5687d9f14e93497f86f",
    "what_i_checked": "pre-election SOS document, Sep 2024"
+  },
+  {
+   "url": "https://www.co.hartley.tx.us/upload/page/0103/Unofficial%20Results.pdf",
+   "content_hash": "518ce06c82ff7c2f40949c736cae5daabf2fe869fecc44a32bfa0b9bf20b5010",
+   "what_i_checked": "opened after comparison: county totals printed 11/05/2024 7:22 PM, uploaded 14:19 GMT Nov 6"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:48:44Z"
+ "written_blind_at_utc": "2026-10-02T16:48:44Z",
+ "blind_verdict": {
+  "verifier_tag": "UNKNOWN",
+  "verifier_confidence": "low",
+  "elections": {
+   "2024_general": "UNDETERMINED",
+   "2026_primary": "UNDETERMINED",
+   "2026_runoff": "UNDETERMINED"
+  }
+ },
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "different blind: research LATER, mine UNDETERMINED. My blind pass missed 'Unofficial Results.pdf', which is linked on the page I read (in the '2024 Elections' accordion; my filter only looked at the notice lines). I opened the research-cited file: county totals, footer 'Election Summary - 11/05/2024 7:22 PM', Last-Modified 06 Nov 2024 14:19:00 GMT, no precinct file posted. Research claim supported. blind miss corrected after opening Unofficial Results.pdf myself (DECISIONS 44): 2024 result now LATER (check 2), tag COUNTY_ONLY_PRECINCT_AT_CANVASS low.",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (UNDETERMINED)."
+ }
 }

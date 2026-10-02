@@ -53,5 +53,12 @@
    "what_i_checked": "no captures in any window (2024 and runoff CDX timed out; primary CDX empty)"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:50:14Z"
+ "written_blind_at_utc": "2026-10-02T16:50:14Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "different: research UNDETERMINED, mine END (check 2). Same file and same facts: 'Precinct Results-11-5-2024' printed 'Run Time 7:39 PM 11/05/2024' with per-precinct Election Day votes, uploaded 2024-11-06 07:25 CT. The difference is interpretation: I accept a printed run time on election night as election-night evidence (as rule 43 does for LATER county-totals files, and as research itself does for Cass runoff and Hartley 2024, which were also uploaded the next day); research uses the next-morning upload as precinct_first_seen and so finds nothing from election night. Research facts are supported by the files.",
+  "2026_primary": "same (END, check 2). Research quotes match (run 8:47 PM, Last-Modified 06:41:37 GMT Mar 4).",
+  "2026_runoff": "different: research UNDETERMINED, mine END (check 2). Same file and facts ('Unofficial Precinct Results', Run Time 7:16 PM 05/26/2026, uploaded 2026-05-27 13:23 CT); same interpretive difference as 2024. I also checked that the 7:15 PM cumulative equals the official canvass totals (final count). Tag is the same either way (PRECINCT_END_OF_NIGHT); confidence differs (mine med, research low). Check 3: the Jim_Hogg wayback folder has no captures in any window."
+ }
 }
