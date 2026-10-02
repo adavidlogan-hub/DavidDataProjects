@@ -1,0 +1,90 @@
+{
+  "county": "Dallas",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.dallascountyvotes.org/election-results/enr/",
+  "platform": "county_pdfs",
+  "host": "www.dallascountyvotes.org",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Results URL and platform from search result titles/URLs on the county domain: an 'Election Night' page at dallascountyvotes.org/election-results/enr/ and election-night results PDFs under dallascountyvotes.org/wp-content/uploads/ (e.g. 'Summary Results Report General Joint November 5, 2024 Upload 6', 'Summary Results Report Democratic Primary Runoff May 26, 2026' Dem-Election-Night-Final.pdf). The search summaries also mention an 'interactive Election Night Reporting Tool' (vendor not identified), so platform could be vendor_hosted for the interactive tool; county_pdfs is what the URLs show. LEADS only (search-generated summary, not attributed verbatim to a page): 'results begin posting at 9:00 PM and are updated hourly until all votes have been counted', the tool lets users 'download precinct reports', and Nov 5 2024 reports were released at 7:00 pm, 9:30 pm, 10:30 pm, 11:00 pm, 12:00 am, 1:00 am, 2:45 am. None of these say WHEN precinct-level detail (as opposed to summary totals) appeared; the titled PDFs are summary reports. Phone (469) 627-VOTE (8683) and email (redacted as [email protected]) appeared only in a search summary, not attributed verbatim to the dallascountyvotes.org Contact Us page, so left empty. Stated change: 2026 news concerns the switch from countywide vote centers to precinct-based polling places for the Mar 3 2026 primary (reverted by GOP for the runoff), not precinct-level results reporting, so stated_change_2026=n. No usage notice text seen verbatim. Fetch module: 1 direct attempt on the ENR page plus wayback_probe (3 CDX windows), all robots_disallowed_or_unreachable. WebFetch: 3 attempts (dallascountyvotes.org/election-results/enr/, usvotefoundation.org, keranews.org), all EGRESS_BLOCKED.",
+  "tag_rationale": "No source explicitly states when precinct-level results were posted on election night for Nov 2024, Mar 2026, or May 2026; the only timing statements are search-summary leads about overall result updates. Tag UNKNOWN.",
+  "sources": [
+    {
+      "url": "https://www.dallascountyvotes.org/election-results/enr/",
+      "via": "websearch",
+      "query": "Dallas County elections department election results",
+      "quote": "Election Night",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.dallascountyvotes.org/wp-content/uploads/2024/11/Upload-6.pdf",
+      "via": "websearch",
+      "query": "Dallas County precinct-by-precinct results election night November 2024",
+      "quote": "Summary Results Report General Joint November 5, 2024 Upload 6 Dallas County",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.dallascountyvotes.org/wp-content/uploads/2026/05/Dem-Election-Night-Final.pdf",
+      "via": "websearch",
+      "query": "Dallas County election night precinct results posted",
+      "quote": "Summary Results Report Democratic Primary Runoff May 26, 2026",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.dallascountyvotes.org/contact-us/",
+      "via": "websearch",
+      "query": "Dallas County elections contact phone email dallascountyvotes",
+      "quote": "Contact Us",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.dallasnews.com/news/elections/2026/03/05/dallas-countys-switch-to-precincts-confused-voters-were-election-workers-prepared/",
+      "via": "websearch",
+      "query": "Dallas County elections 2026 precinct-level results change commissioners court",
+      "quote": "Dallas County's switch to precincts confused voters. Were election workers prepared?",
+      "supports": "stated_change"
+    },
+    {
+      "url": "https://www.dallascountyvotes.org/election-results/enr/",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "attempt failed: robots_disallowed_or_unreachable (no content)",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.dallascountyvotes.org/election-results/enr/",
+      "via": "webfetch",
+      "query": "",
+      "quote": "attempt failed: EGRESS_BLOCKED (no content)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.usvotefoundation.org/dallas-county-tx-election-office",
+      "via": "webfetch",
+      "query": "",
+      "quote": "attempt failed: EGRESS_BLOCKED (no content)",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.keranews.org/elections-2026/2026-03-04/legal-challenges-lead-to-election-turmoil-in-dallas-county-and-questions-about-some-votes-republican-democrat",
+      "via": "webfetch",
+      "query": "",
+      "quote": "attempt failed: EGRESS_BLOCKED (no content)",
+      "supports": "tag"
+    }
+  ],
+  "agent": "research-B",
+  "searches_run": 7,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 4,
+  "webfetch_attempts": 3,
+  "started_at_utc": "2026-10-02T13:56:57Z",
+  "finished_at_utc": "2026-10-02T13:59:16Z"
+}

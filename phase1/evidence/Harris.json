@@ -1,0 +1,90 @@
+{
+  "county": "Harris",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.harrisvotes.com/ElectionResults?lang=en-US",
+  "platform": "county_pdfs",
+  "host": "appfiles.harrisvotes.com",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Results site: search result titled 'Harris Votes - Election Results Archive' at harrisvotes.com/ElectionResults, plus 'Archives' at harrisvotes.com/Election-Results/Archives. Report files are PDFs on the county domain (appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/cumulative.pdf for Nov 5 2024, Data/0326/rep-cumulative.pdf for Mar 3 2026 primary, Data/0525/cumulative.pdf for May 2025) and canvass reports on files.harrisvotes.com, so platform recorded as county_pdfs from URL pattern only; the live election-night page may be a homegrown HTML view that I could not inspect. Phone and email: the search tool summary listed 713-755-6965 and an obfuscated email for the Harris County Clerk elections office, attributed loosely to a harrisvotes.com/Contact-Us result, but the number did not appear in any result title, URL, or attributable quoted text, so it is a lead only and left empty; the email was rendered as '[email protected]' (obfuscated). Fetch module attempts to harrisvotes.com/Contact-Us and harrisvotes.com/Election-Results failed (robots_disallowed_or_unreachable). Wayback probe for appfiles.harrisvotes.com/harrisvotes/prd/Data/ failed for all three windows (robots_disallowed_or_unreachable). WebFetch attempts to fox26houston.com, votebeat.org and ballotpedia.org were all EGRESS_BLOCKED. No source found that states when precinct-level results appeared on election night for Nov 5 2024, Mar 3 2026, or May 26 2026. A search summary mentioned '240 out of 275 voting precinct reporting as of the morning of March 4' (communityimpact.com, lead only), which is a reporting-progress count, not evidence of precinct-level result posting. No 2025 or 2026 stated change to precinct-level reporting found. Usage notice: no source showed results-site notice text verbatim, so left empty.",
+  "tag_rationale": "No citable source states when precinct-level results were posted on election night in Harris County; the existence of cumulative and canvass PDFs does not establish election-night timing.",
+  "sources": [
+    {
+      "url": "https://www.harrisvotes.com/ElectionResults?lang=en-US",
+      "via": "websearch",
+      "query": "Harris County election night precinct results 2024 cumulative report harrisvotes",
+      "quote": "Harris Votes - Election Results Archive",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/cumulative.pdf",
+      "via": "websearch",
+      "query": "Harris County election night precinct results 2024 cumulative report harrisvotes",
+      "quote": "Harris County, Texas General and Special Elections 11/5/2024 Page 1",
+      "supports": "platform"
+    },
+    {
+      "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/rep-cumulative.pdf",
+      "via": "websearch",
+      "query": "harrisvotes.com election results precinct report",
+      "quote": "Harris County, Texas Primary Election 3/3/2026 Page 1 Official Results",
+      "supports": "platform"
+    },
+    {
+      "url": "https://files.harrisvotes.com/harrisvotes/prd/Reports/Final-Official-Canvass-Results-11-14-2023_03-26-24-PM.pdf",
+      "via": "websearch",
+      "query": "harrisvotes.com election results precinct report",
+      "quote": "Canvass Results Report",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.harrisvotes.com/Contact-Us",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.harrisvotes.com/Election-Results",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.fox26houston.com/news/harris-county-election-results-november-2025",
+      "via": "webfetch",
+      "query": "",
+      "quote": "",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.votebeat.org/texas/2026/03/03/2026-primary-results-timeline-hand-count-eastland-gillespie-senate/",
+      "via": "webfetch",
+      "query": "",
+      "quote": "",
+      "supports": "tag"
+    },
+    {
+      "url": "https://ballotpedia.org/Harris_County,_Texas,_elections,_2026",
+      "via": "webfetch",
+      "query": "",
+      "quote": "",
+      "supports": "tag"
+    }
+  ],
+  "agent": "research-A",
+  "searches_run": 9,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 3,
+  "webfetch_attempts": 3,
+  "started_at_utc": "2026-10-02T13:57:00Z",
+  "finished_at_utc": "2026-10-02T13:59:37Z"
+}
