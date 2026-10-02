@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL http://www.co.gregg.tx.us returned HTTP 403; https redirects to greggcounty.texas.gov, whose 'Elections' link goes to www.greggcountyvotes.com, which answered with an empty HTTP 202 (bot protection, not bypassed). Gregg's Clarity elections.json lists all three elections (EIDs 122313, 125930, 126274; detail.xml Region 'Gregg' with matching ElectionDate). Check 1: pre-election versions with precinct votes (9/24/2024, 10/15/2024, 2/20/2026, 4/22/2026) are pre-election test data, not results. 2024 general: two election-night updates, 10:34:05 PM and 10:41:00 PM CST, each with 21 precincts with votes and identical summed precinct votes (833,833), so the precinct numbers were in fact released once; a version just before (352612) has no detail file (HTTP 404). 2026 primary: one election-night update, 9:34:33 PM CST, 21 precincts (the prior readable update at 6:37 PM had 0; version 368483 just before 9:34 PM has no detail file). 2026 runoff: one election-night update, 8:35:28 PM CDT, 21 precincts (prior readable update 5/20/2026 had 0). Next updates are post-canvass (11/20/2024, 3/12/2026, 6/2/2026). Check 3 not needed.",
+  "notes": "Seed URL http://www.co.gregg.tx.us returned HTTP 403; https redirects to greggcounty.texas.gov, whose 'Elections' link goes to www.greggcountyvotes.com, which answered with an empty HTTP 202 (bot protection, not bypassed). Gregg's Clarity elections.json lists all three elections (EIDs 122313, 125930, 126274; detail.xml Region 'Gregg' with matching ElectionDate). Check 1: pre-election versions with precinct votes (9/24/2024, 10/15/2024, 2/20/2026, 4/22/2026) are pre-election test data, not results. 2024 general: two election-night updates, 10:34:05 PM and 10:41:00 PM CST, each with 21 precincts with votes and identical summed precinct votes (833,833), so the precinct numbers were in fact released once; a version just before (352612) has no detail file (HTTP 404). 2026 primary: one election-night update, 9:34:33 PM CST, 21 precincts (the prior readable update at 6:37 PM had 0; version 368483 just before 9:34 PM has no detail file). 2026 runoff: one election-night update, 8:35:28 PM CDT, 21 precincts (prior readable update 5/20/2026 had 0). Next updates are post-canvass (11/20/2024, 3/12/2026, 6/2/2026). Check 3 not needed. Check 1 reconciled to the election-day precinct measure: 2024_general: LIVE -> END; tag PRECINCT_END_OF_NIGHT -> PRECINCT_END_OF_NIGHT.",
   "tag_rationale": "2026 primary and 2026 runoff are both END by check 1 (precinct numbers in a single election-night Clarity update with the final unofficial count), so the tag is PRECINCT_END_OF_NIGHT with high confidence; the 2024 general counts as LIVE under the two-update rule although both updates carry identical numbers.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LIVE",
+      "result": "END",
       "check": "1",
       "county_totals_first_seen": "2024-11-05 22:34 CT",
       "precinct_first_seen": "2024-11-05 22:34 CT",
       "night_updates_with_precinct_numbers": "2",
       "evidence_url": "https://results.enr.clarityelections.com/TX/Gregg/122313/352631/reports/detailxml.zip",
-      "fact": "Clarity EID 122313 '2024 General Election': election-night updates 11/5/2024 10:34:05 PM CST and 10:41:00 PM CST, each with 21 precincts with nonzero votes; summed precinct votes 833,833 in both. Next update 11/20/2024."
+      "fact": "Reconciled (LIVE to END). Clarity update log: 1 distinct election-day precinct releases across 2 election-night updates (county local time, 7 PM to 3 AM); first update with election-day precinct votes 11/5/2024 10:34:05 PM CST. Previous: Clarity EID 122313 '2024 General Election': election-night updates 11/5/2024 10:34:05 PM CST and 10:41:00 PM CST, each with 21 precincts with nonzero votes; summed precinct votes 833,833 in both. Next update 11/20/2024."
     },
     "2026_primary": {
       "result": "END",

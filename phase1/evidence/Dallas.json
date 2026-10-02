@@ -1,7 +1,7 @@
 {
   "county": "Dallas",
   "tag": "LIVE_PRECINCT",
-  "confidence": "low",
+  "confidence": "high",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.dallascountyvotes.org/election-results/",
@@ -9,11 +9,11 @@
   "host": "results.enr.clarityelections.com",
   "evidence_url": "https://results.enr.clarityelections.com/TX/Dallas/126270/372964/reports/detailxml.zip",
   "evidence_snapshot_timestamp": "",
-  "precinct_first_seen_local_time": "2026-05-26 20:16 CT",
+  "precinct_first_seen_local_time": "2026-03-03 20:53 CT",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "County site www.dallascountyvotes.org (http and https, results pages and PDF uploads) answered the fetch module with HTTP 403 (http) or HTTP 202 with an empty body (https), so check 2 could not read any page, report list, or Last-Modified header. Web search (locating only) showed PDF titles under dallascountyvotes.org/wp-content/uploads such as 'Summary Results Report General Joint November 5, 2024 Upload 6' and 'Summary Results Report Democratic Party Primary March 3, 2026 Upload 3', but these could not be fetched and search text is not evidence. Clarity elections.json for Dallas lists only '2026 Republican Primary Runoff' (5/26/2026) and '2026 Joint and Special Runoff' (6/13/2026); 2024 general and 2026 primary are not on Clarity. No Democratic runoff listing was found on Clarity. Runoff: the 6:29 PM CDT pre-night update had early-vote-only precinct numbers (697 precincts); election-day precinct votes appear from 8:16 PM. 3 runoff versions returned HTTP 404. Check 3 (wayback-data branch): no 2024 general election-night captures; the one 2026 primary capture (ENR page, 2026-03-03 19:59:54 CST) has no vote numbers, so both stay UNDETERMINED. That capture links Clarity IDs 126006 (Democratic) and 126007 (Republican) from the county's own page, so check 1 can be rerun with --eid for the 2026 primary (not done here). check 3 applied 2026-10-02 (agent check3-pilot).",
+  "notes": "County site www.dallascountyvotes.org (http and https, results pages and PDF uploads) answered the fetch module with HTTP 403 (http) or HTTP 202 with an empty body (https), so check 2 could not read any page, report list, or Last-Modified header. Web search (locating only) showed PDF titles under dallascountyvotes.org/wp-content/uploads such as 'Summary Results Report General Joint November 5, 2024 Upload 6' and 'Summary Results Report Democratic Party Primary March 3, 2026 Upload 3', but these could not be fetched and search text is not evidence. Clarity elections.json for Dallas lists only '2026 Republican Primary Runoff' (5/26/2026) and '2026 Joint and Special Runoff' (6/13/2026); 2024 general and 2026 primary are not on Clarity. No Democratic runoff listing was found on Clarity. Runoff: the 6:29 PM CDT pre-night update had early-vote-only precinct numbers (697 precincts); election-day precinct votes appear from 8:16 PM. 3 runoff versions returned HTTP 404. Check 3 (wayback-data branch): no 2024 general election-night captures; the one 2026 primary capture (ENR page, 2026-03-03 19:59:54 CST) has no vote numbers, so both stay UNDETERMINED. That capture links Clarity IDs 126006 (Democratic) and 126007 (Republican) from the county's own page, so check 1 can be rerun with --eid for the 2026 primary (not done here). check 3 applied 2026-10-02 (agent check3-pilot). 2026 primary decided by check 1 (orchestrator, 2026-10-02) using election IDs found on the archived county ENR page.",
   "tag_rationale": "Only the 2026 runoff is determined (LIVE by check 1); 2024 general and 2026 primary are UNDETERMINED (county site blocked, check 3 pending), so the single determined result gives LIVE_PRECINCT with confidence low.",
   "agent": "research-A",
   "method_version": "v2",
@@ -28,13 +28,13 @@
       "fact": "Not on Clarity. County results site returned empty HTTP 202 to the fetch module (check 2 not possible). Check 3 applied, not decided: the wayback-data index for dallascountyvotes.org lists no election-night captures (7:00 PM Nov 5 to 3:00 AM Nov 6 2024 CST) of result, ENR, precinct, canvass or cumulative pages."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
+      "result": "LIVE",
+      "check": "1",
       "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "Not on Clarity elections.json. County results PDFs returned empty HTTP 202 to the fetch module (check 2 not possible). Check 3 applied, not decided: the only election-night capture, www.dallascountyvotes.org/election-results/enr/ at 2026-03-03 19:59:54 CST (file Dallas/2026_primary_20260304015954_1158c0a4b62d.html), contains no vote numbers, only links to Clarity ('Election Night Reporting Democratic Party' href https://results.enr.clarityelections.com/TX/Dallas/126006/; 'Election Night Reporting Republican Party' href https://results.enr.clarityelections.com/TX/Dallas/126007/) and the text 'Use this interactive Election Night Reporting Tool to view unofficial cumulative results and download detailed precinct reports. On Election Night, results begin posting at 9:00 PM and are updated hourly until all votes have been counted.'"
+      "precinct_first_seen": "2026-03-03 20:53 CT",
+      "night_updates_with_precinct_numbers": "Democratic 126006: 3 distinct election-day precinct releases in 5 night updates; Republican 126007: 4 distinct in 5",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368455/reports/detailxml.zip",
+      "fact": "Election IDs 126006 (2026 Democratic Primary Election) and 126007 (2026 Republican Primary Election) are linked from dallascountyvotes.org/election-results/enr/ as archived by the Wayback Machine at 2026-03-03 19:59:54 CST; the downloaded detail.xml files show Region Dallas and ElectionDate 3/3/2026. Democratic updates at 8:53 PM, 12:40 AM, 1:00 AM, 2:05 AM carry election-day precinct votes (642, 118, 118, 271 precincts); Republican updates at 10:48 PM, 11:53 PM, 12:05 AM, 12:56 AM, 12:58 AM carry them (474, 150, 325, 477, 477 precincts)."
     },
     "2026_runoff": {
       "result": "LIVE",
@@ -81,6 +81,13 @@
       "content_hash": "1158c0a4b62d1277edd7eeae1aa80d2aaaac9a8d2912f005e80f89f8d102198e",
       "quote": "href=\"https://results.enr.clarityelections.com/TX/Dallas/126006/\" ... Election Night Reporting Democratic Party ... href=\"https://results.enr.clarityelections.com/TX/Dallas/126007/\" ... Election Night Reporting Republican Party",
       "supports": "2026_primary stays UNDETERMINED (no precinct numbers in the capture); the county's own page links Clarity election IDs 126006 (Dem) and 126007 (Rep) for the 2026 primary, usable for check 1"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/",
+      "via": "clarity_script",
+      "content_hash": "",
+      "quote": "phase1/checks/clarity_orchestrator/Dallas.json (check 1 run with --eid 2026_primary=126006,126007)",
+      "supports": "2026_primary LIVE"
     }
   ]
 }
