@@ -3,26 +3,258 @@
   "targets": [
     "co.freestone.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:14Z",
+  "harvested_at_utc": "2026-10-02T19:14:22Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.freestone.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "2ffc219cafe0ca4934063b858435590553989a9acb8228c3e26c959befe5f3ad"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106040354",
+          "local": "2024-11-05 22:03:54 CST",
+          "original": "https://www.co.freestone.tx.us/upload/page/1902/2024/notice_of_election_11_2024.pdf",
+          "mimetype": "application/pdf",
+          "digest": "CSWNCSCKDDJF4UWGBXM2TWBLRITONC64",
+          "length": "426081",
+          "replay_url": "https://web.archive.org/web/20241106040354id_/https://www.co.freestone.tx.us/upload/page/1902/2024/notice_of_election_11_2024.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "234afa3b78f9c52325ef5be8ddb83eb169b5be6afcaef48ee577b4500b65a28d",
+          "saved_as": "Freestone/2024_general_20241106040354_234afa3b78f9.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044916",
+          "local": "2024-11-05 22:49:16 CST",
+          "original": "https://www.co.freestone.tx.us/upload/page/1902/2024/notice_of_bond_election_buffalo_isd.pdf",
+          "mimetype": "application/pdf",
+          "digest": "P3O67VGFKDW3JECDM7AZZBTLESYDAUIQ",
+          "length": "799657",
+          "replay_url": "https://web.archive.org/web/20241106044916id_/https://www.co.freestone.tx.us/upload/page/1902/2024/notice_of_bond_election_buffalo_isd.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "c8abbbdb9d9e4448a00558e16d2e1e16605c8d95c5e114b83f178f17445cf3d3",
+          "saved_as": "Freestone/2024_general_20241106044916_c8abbbdb9d9e.pdf"
+        },
+        {
+          "timestamp_utc": "20241106045928",
+          "local": "2024-11-05 22:59:28 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=0slw57psddf",
+          "mimetype": "text/html",
+          "digest": "65PMNFM6XCJZNUJR35AWLPP47YTV43QR",
+          "length": "28515",
+          "replay_url": "https://web.archive.org/web/20241106045928id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=0slw57psddf",
+          "ok": true,
+          "error": null,
+          "content_hash": "5307fc6a631d87d0a369bd9cd1351f2c43ff852aebb6ed08959f7010e69f6f13",
+          "saved_as": "Freestone/2024_general_20241106045928_5307fc6a631d.html"
+        },
+        {
+          "timestamp_utc": "20241106050045",
+          "local": "2024-11-05 23:00:45 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "IYAIFBTLS7I2RRLIHB7S33NWHOXODLXJ",
+          "length": "28507",
+          "replay_url": "https://web.archive.org/web/20241106050045id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=0slw57psddf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "a27cb47d34a9c776df1216adea4bbc581e64be6a3bc29e9244dfce60fcc21918",
+          "saved_as": "Freestone/2024_general_20241106050045_a27cb47d34a9.html"
+        },
+        {
+          "timestamp_utc": "20241106052313",
+          "local": "2024-11-05 23:23:13 CST",
+          "original": "https://www.co.freestone.tx.us/upload/page/1902/2024/signed_order_of_election%20415.pdf",
+          "mimetype": "application/pdf",
+          "digest": "74IFQMND2O2SL6UIDT54PGZ2NMEP3QW3",
+          "length": "732069",
+          "replay_url": "https://web.archive.org/web/20241106052313id_/https://www.co.freestone.tx.us/upload/page/1902/2024/signed_order_of_election%20415.pdf",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106052919",
+          "local": "2024-11-05 23:29:19 CST",
+          "original": "https://www.co.freestone.tx.us/upload/page/1902/2024/buffalo_bond_election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "LSHM2GNNTEZSV7VGBJ6LXATUWMT7FGED",
+          "length": "814768",
+          "replay_url": "https://web.archive.org/web/20241106052919id_/https://www.co.freestone.tx.us/upload/page/1902/2024/buffalo_bond_election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "2c0f2d8469b8bea5f36f2274efbf5afa2e4c480d0289ce848ee046f4c33a9c95",
+          "saved_as": "Freestone/2024_general_20241106052919_2c0f2d8469b8.pdf"
+        },
+        {
+          "timestamp_utc": "20241106055820",
+          "local": "2024-11-05 23:58:20 CST",
+          "original": "https://www.co.freestone.tx.us/upload/page/1902/2024/ntc_of_election_oakwood_isd.pdf",
+          "mimetype": "application/pdf",
+          "digest": "7EZUCAFPWI76S6Y6DPHJTFB3CQ5TP32P",
+          "length": "91483",
+          "replay_url": "https://web.archive.org/web/20241106055820id_/https://www.co.freestone.tx.us/upload/page/1902/2024/ntc_of_election_oakwood_isd.pdf",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106062351",
+          "local": "2024-11-06 00:23:51 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=vbkn42tqho5h1rnbcsp",
+          "mimetype": "text/html",
+          "digest": "D7UZYKS2FSTHHVAY4MLF2O24CDAKDFIW",
+          "length": "28524",
+          "replay_url": "https://web.archive.org/web/20241106062351id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=vbkn42tqho5h1rnbcsp",
+          "ok": true,
+          "error": null,
+          "content_hash": "3489c984229f286fc304b32927995a58c5685f9bc48e8a1ec6e7d9d69d70828b",
+          "saved_as": "Freestone/2024_general_20241106062351_3489c984229f.html"
+        },
+        {
+          "timestamp_utc": "20241106064643",
+          "local": "2024-11-06 00:46:43 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=vpkn75tqhopmkpsxtqemvd8y1m",
+          "mimetype": "text/html",
+          "digest": "M3QS3WSBI43AP4UBVVJJGLUIMSG7HEZ4",
+          "length": "28531",
+          "replay_url": "https://web.archive.org/web/20241106064643id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=vpkn75tqhopmkpsxtqemvd8y1m",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106064916",
+          "local": "2024-11-06 00:49:16 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "KYMTBOMUDKQU5XPAQ2WI6JLNGE5ABOVX",
+          "length": "28530",
+          "replay_url": "https://web.archive.org/web/20241106064916id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "6a1659827f08441d3f65b43142809970e130be99f99112197d51ea54000140ce",
+          "saved_as": "Freestone/2024_general_20241106064916_6a1659827f08.html"
+        },
+        {
+          "timestamp_utc": "20241106065017",
+          "local": "2024-11-06 00:50:17 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "YKPEG7DKJIJUFJCKTILVQGZS3NUOVYUZ",
+          "length": "28550",
+          "replay_url": "https://web.archive.org/web/20241106065017id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "24e33b77e7ff3ffacad878a4d9b494682148a5634f0aedc66ad53586bd6fef07",
+          "saved_as": "Freestone/2024_general_20241106065017_24e33b77e7ff.html"
+        },
+        {
+          "timestamp_utc": "20241106073310",
+          "local": "2024-11-06 01:33:10 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=httpsadfdfwww.google",
+          "mimetype": "text/html",
+          "digest": "AZU5RLKISVEHTI7DC5G7S5V76K25CFXR",
+          "length": "28513",
+          "replay_url": "https://web.archive.org/web/20241106073310id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=httpsadfdfwww.google",
+          "ok": true,
+          "error": null,
+          "content_hash": "6464d767afb7008804829daf9376fce88db81a8dc2f72dc58cc1520a401465e2",
+          "saved_as": "Freestone/2024_general_20241106073310_6464d767afb7.html"
+        },
+        {
+          "timestamp_utc": "20241106073935",
+          "local": "2024-11-06 01:39:35 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=fno_journeystruefno_journeysdtrue",
+          "mimetype": "text/html",
+          "digest": "MKCGAQLA6LD6MBMHFFVQQWMZNPMYSKCY",
+          "length": "28529",
+          "replay_url": "https://web.archive.org/web/20241106073935id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=fno_journeystruefno_journeysdtrue",
+          "ok": true,
+          "error": null,
+          "content_hash": "37e036bbf3d67b252874c8a390c6aa8ab37a838fe30b869e5ebb246e4d62d773",
+          "saved_as": "Freestone/2024_general_20241106073935_37e036bbf3d6.html"
+        },
+        {
+          "timestamp_utc": "20241106080424",
+          "local": "2024-11-06 02:04:24 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "6RUMOBALH6JCDGNC2XOES4CL3DGZ4IH5",
+          "length": "28529",
+          "replay_url": "https://web.archive.org/web/20241106080424id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "dd2b38bc325cd137fb03b01ee4a68ad853a4ee373823263f445c236776b4a894",
+          "saved_as": "Freestone/2024_general_20241106080424_dd2b38bc325c.html"
+        },
+        {
+          "timestamp_utc": "20241106080429",
+          "local": "2024-11-06 02:04:29 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "6LV4J3YQY4T4EUHAMUTCDQZPZ37XNQIY",
+          "length": "28475",
+          "replay_url": "https://web.archive.org/web/20241106080429id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "24fbc39a212b84d9bfa571bb0386c9820aeb60b6ae6e77935b34499d25b0874c",
+          "saved_as": "Freestone/2024_general_20241106080429_24fbc39a212b.html"
+        },
+        {
+          "timestamp_utc": "20241106081552",
+          "local": "2024-11-06 02:15:52 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "MPSR3IUSMBV3XKLX7K2OTUKE7O4AWKTZ",
+          "length": "28528",
+          "replay_url": "https://web.archive.org/web/20241106081552id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "8520ea2c0c3531f8de2d7e43b13395d821f158af0d2f5e1d2c2ee6037330ef4e",
+          "saved_as": "Freestone/2024_general_20241106081552_8520ea2c0c35.html"
+        },
+        {
+          "timestamp_utc": "20241106081615",
+          "local": "2024-11-06 02:16:15 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=dio____refapp%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C'",
+          "mimetype": "text/html",
+          "digest": "54GC3U3WNXXHWFTSFVFWTPHQ4UDMGLIN",
+          "length": "28536",
+          "replay_url": "https://web.archive.org/web/20241106081615id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=dio____refapp%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C'",
+          "ok": true,
+          "error": null,
+          "content_hash": "da48b8eac6e9d5c541856b6fce836aba439c8ab03862708607b754e18fa7b9a4",
+          "saved_as": "Freestone/2024_general_20241106081615_da48b8eac6e9.html"
+        },
+        {
+          "timestamp_utc": "20241106081640",
+          "local": "2024-11-06 02:16:40 CST",
+          "original": "https://www.co.freestone.tx.us/page/freestone.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "M5CNBPFDH4E7K3DL42QMGZFMAIFO5OMB",
+          "length": "28545",
+          "replay_url": "https://web.archive.org/web/20241106081640id_/https://www.co.freestone.tx.us/page/freestone.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "a6c040695ff1605cbab8ec80ee2d75fd2cab9301e6870a31d3dde7758cea4c04",
+          "saved_as": "Freestone/2024_general_20241106081640_a6c040695ff1.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.freestone.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +263,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.freestone.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 18
 }

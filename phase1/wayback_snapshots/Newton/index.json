@@ -3,26 +3,53 @@
   "targets": [
     "co.newton.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:14Z",
+  "harvested_at_utc": "2026-10-02T19:44:25Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.newton.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "acd8c51a4b1b23bf8b0d29a38c8e8a7a37ec09733cbb3b96d7247cbd9750de00"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106072357",
+          "local": "2024-11-06 01:23:57 CST",
+          "original": "https://www.co.newton.tx.us/upload/page/3518/docs/2024%20General/Order%20of%20General%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "ULRORQPITGFRCQPMOTNUUG3QKYHWNEMR",
+          "length": "342546",
+          "replay_url": "https://web.archive.org/web/20241106072357id_/https://www.co.newton.tx.us/upload/page/3518/docs/2024%20General/Order%20of%20General%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "d56f39966f60f55ed8ba323ea68ad576549ea937bdc44fb30e957842d27d7cbc",
+          "saved_as": "Newton/2024_general_20241106072357_d56f39966f60.pdf"
+        },
+        {
+          "timestamp_utc": "20241106082256",
+          "local": "2024-11-06 02:22:56 CST",
+          "original": "https://www.co.newton.tx.us/upload/page/3518/docs/Election%20Results/March%201%202022%20Primaries%20Official%20Canvass.pdf",
+          "mimetype": "application/pdf",
+          "digest": "L7TN6TGDTCTJDCUJPJWOUMMRQAFBIJFO",
+          "length": "465086",
+          "replay_url": "https://web.archive.org/web/20241106082256id_/https://www.co.newton.tx.us/upload/page/3518/docs/Election%20Results/March%201%202022%20Primaries%20Official%20Canvass.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "f6b236b9e9cd786a40804abf77edab3edffe5a026d026c09cedf36999352afa3",
+          "saved_as": "Newton/2024_general_20241106082256_f6b236b9e9cd.pdf"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.newton.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +58,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.newton.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 2
 }

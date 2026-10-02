@@ -3,26 +3,53 @@
   "targets": [
     "co.palo-pinto.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:14Z",
+  "harvested_at_utc": "2026-10-02T19:44:38Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.palo-pinto.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "6d39f3d4d3ec5677c1c80c2519ac6167ba199580cb47e2b010ed844a1bf265c4"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106022853",
+          "local": "2024-11-05 20:28:53 CST",
+          "original": "https://www.co.palo-pinto.tx.us/page/November2024Election",
+          "mimetype": "text/html",
+          "digest": "A6HALS4VOYLS22AGQYTJ5QTF4ACEJKNY",
+          "length": "14747",
+          "replay_url": "https://web.archive.org/web/20241106022853id_/https://www.co.palo-pinto.tx.us/page/November2024Election",
+          "ok": true,
+          "error": null,
+          "content_hash": "07af5e0534294a1fdc72e6c3f5d45a105c9649c4997acf1fa517b69c75e2f0af",
+          "saved_as": "Palo_Pinto/2024_general_20241106022853_07af5e053429.html"
+        },
+        {
+          "timestamp_utc": "20241106022958",
+          "local": "2024-11-05 20:29:58 CST",
+          "original": "https://www.co.palo-pinto.tx.us/upload/page/0148/docs/Cumulative%20Results-11-5-2024%2008-45-41%20PM.pdf",
+          "mimetype": "application/pdf",
+          "digest": "ZQKQFTSOKLJPVQG4B4CLZ7Y7YI43N2CD",
+          "length": "246314",
+          "replay_url": "https://web.archive.org/web/20241106022958id_/https://www.co.palo-pinto.tx.us/upload/page/0148/docs/Cumulative%20Results-11-5-2024%2008-45-41%20PM.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "10e7f338b1c10d1062172b68ef0315b958b2f8d873f95453bca3039f2d7c5487",
+          "saved_as": "Palo_Pinto/2024_general_20241106022958_10e7f338b1c1.pdf"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.palo-pinto.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +58,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.palo-pinto.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 2
 }

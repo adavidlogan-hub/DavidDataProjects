@@ -3,26 +3,155 @@
   "targets": [
     "co.fannin.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:14Z",
+  "harvested_at_utc": "2026-10-02T19:11:47Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.fannin.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "12fbcbfd014da1096db030c1a267ec9c74d0bbf226b47df246efd8de4c51b694"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106040955",
+          "local": "2024-11-05 22:09:55 CST",
+          "original": "https://www.co.fannin.tx.us/page/fannin.Elections?os=wtmb5utkcxk5refdappf",
+          "mimetype": "text/html",
+          "digest": "ZZBWFLGXWZEB3ZTSZPWWFRBDFJKEZC67",
+          "length": "18266",
+          "replay_url": "https://web.archive.org/web/20241106040955id_/https://www.co.fannin.tx.us/page/fannin.Elections?os=wtmb5utkcxk5refdappf",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106041001",
+          "local": "2024-11-05 22:10:01 CST",
+          "original": "https://www.co.fannin.tx.us/page/fannin.Elections?os=wtmb5utkcxk5refdappf&ref=app",
+          "mimetype": "text/html",
+          "digest": "OETCUHCIWWAN5YWW36JJOTHBMGJWC24T",
+          "length": "18277",
+          "replay_url": "https://web.archive.org/web/20241106041001id_/https://www.co.fannin.tx.us/page/fannin.Elections?os=wtmb5utkcxk5refdappf&ref=app",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106045947",
+          "local": "2024-11-05 22:59:47 CST",
+          "original": "https://www.co.fannin.tx.us/page/fannin.Elections?os=0slw57psddf",
+          "mimetype": "text/html",
+          "digest": "JXE7X24XOGJFEMTZ4TDV7XXQWDJ3FYM4",
+          "length": "17983",
+          "replay_url": "https://web.archive.org/web/20241106045947id_/https://www.co.fannin.tx.us/page/fannin.Elections?os=0slw57psddf",
+          "ok": true,
+          "error": null,
+          "content_hash": "87edfb2b4d7d53826f46e7814d29489767da1f4fd258f80cb3f33a93cc1db916",
+          "saved_as": "Fannin/2024_general_20241106045947_87edfb2b4d7d.html"
+        },
+        {
+          "timestamp_utc": "20241106050051",
+          "local": "2024-11-05 23:00:51 CST",
+          "original": "https://www.co.fannin.tx.us/page/fannin.Elections?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "F3R7UPGZQZ4ZYSO42VEBZXK4ENU7K4E2",
+          "length": "17995",
+          "replay_url": "https://web.archive.org/web/20241106050051id_/https://www.co.fannin.tx.us/page/fannin.Elections?os=0slw57psddf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "4b9f5e91ce1ce99c013e88ce74ed0132b2189cdfe846ab1fd1daa36f2df025b5",
+          "saved_as": "Fannin/2024_general_20241106050051_4b9f5e91ce1c.html"
+        },
+        {
+          "timestamp_utc": "20241106064946",
+          "local": "2024-11-06 00:49:46 CST",
+          "original": "https://www.co.fannin.tx.us/page/fannin.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "32QQRKSI4Y2XUNPSHXAUGSBK7EMO22HK",
+          "length": "18016",
+          "replay_url": "https://web.archive.org/web/20241106064946id_/https://www.co.fannin.tx.us/page/fannin.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "64963b97614415cf08389a07cab332c3a3b0a960bebe2efc0af641af99e74d23",
+          "saved_as": "Fannin/2024_general_20241106064946_64963b976144.html"
+        },
+        {
+          "timestamp_utc": "20241106065009",
+          "local": "2024-11-06 00:50:09 CST",
+          "original": "https://www.co.fannin.tx.us/page/fannin.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "DLB4KREKZZVG4EEMULODEA5IBUNMRUJI",
+          "length": "18004",
+          "replay_url": "https://web.archive.org/web/20241106065009id_/https://www.co.fannin.tx.us/page/fannin.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "a27d8d0b529e5ab7ffe00010772bc45f45f3df756605de33b5b743f069b07465",
+          "saved_as": "Fannin/2024_general_20241106065009_a27d8d0b529e.html"
+        },
+        {
+          "timestamp_utc": "20241106080440",
+          "local": "2024-11-06 02:04:40 CST",
+          "original": "https://www.co.fannin.tx.us/page/fannin.Elections?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "RDMZ4XQZKP6GBIFHARJMEUKZ4RJ7PGW4",
+          "length": "17983",
+          "replay_url": "https://web.archive.org/web/20241106080440id_/https://www.co.fannin.tx.us/page/fannin.Elections?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "8a473ceaa6365f98d5aa57d8169d5aad7e43936dc0cb3b8008bc183e0b3444c3",
+          "saved_as": "Fannin/2024_general_20241106080440_8a473ceaa636.html"
+        },
+        {
+          "timestamp_utc": "20241106080447",
+          "local": "2024-11-06 02:04:47 CST",
+          "original": "https://www.co.fannin.tx.us/page/fannin.Elections?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "MBP7A3VJYSSPHYQGOT2DV6NQ5OTFJ45I",
+          "length": "17959",
+          "replay_url": "https://web.archive.org/web/20241106080447id_/https://www.co.fannin.tx.us/page/fannin.Elections?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "ccf78a87ae29eb51bed0c9d9711d16e8aced406bc700d082922bc7ae60be99cc",
+          "saved_as": "Fannin/2024_general_20241106080447_ccf78a87ae29.html"
+        },
+        {
+          "timestamp_utc": "20241106081548",
+          "local": "2024-11-06 02:15:48 CST",
+          "original": "https://www.co.fannin.tx.us/page/fannin.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "KMHOC4CLREY5CMC36YMHMZPZFRA3MJ26",
+          "length": "18009",
+          "replay_url": "https://web.archive.org/web/20241106081548id_/https://www.co.fannin.tx.us/page/fannin.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "0f0a54420780efa11946ee7ef1f9e820f9f9e6af098a12b36312ef084fd77260",
+          "saved_as": "Fannin/2024_general_20241106081548_0f0a54420780.html"
+        },
+        {
+          "timestamp_utc": "20241106081600",
+          "local": "2024-11-06 02:16:00 CST",
+          "original": "https://www.co.fannin.tx.us/page/fannin.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "CTAE6JKBHKLK2LIGRR46EUNATASJ6CCD",
+          "length": "17998",
+          "replay_url": "https://web.archive.org/web/20241106081600id_/https://www.co.fannin.tx.us/page/fannin.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "da892a5cc69039d809e481b4d9fb156947db876cd0d63699d15545f5af423bd6",
+          "saved_as": "Fannin/2024_general_20241106081600_da892a5cc690.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.fannin.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +160,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.fannin.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 10
 }
