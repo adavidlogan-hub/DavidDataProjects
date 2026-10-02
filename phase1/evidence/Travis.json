@@ -1,0 +1,62 @@
+{
+  "county": "Travis",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://votetravis.gov/current-election-information/election-results-and-reconciliation-forms/",
+  "platform": "county_pdfs",
+  "host": "votetravis.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Results page is votetravis.gov 'Election Results and Reconciliation Forms' (title/URL in search results). Platform county_pdfs: search result URLs show results PDFs on the county domain under votetravis.gov/wp-content/uploads/travis-tx/election-results/ (e.g. 'Precinct Summary Results Report Joint General and Special Election' G20 Final Precinct.pdf for Nov 2020; Democratic Cumulative.pdf for May 2022 runoff titled OFFICIAL RESULTS). These are older elections and the filenames do not timestamp election-night precinct posting. LEADS only (search summaries): Nov 5 2024 as of 9:42 p.m. the clerk had not yet posted Election Day results; for Mar 2026 the clerk changed how it reports early voting results (counting began on election day) which delayed results; neither statement addresses when precinct-level detail appeared. Phone (512) 238-8683 appeared only in a search summary (email redacted), not attributed verbatim to a county page, so left empty. The 2026 early-vote reporting change is not a precinct-level reporting change, so stated_change_2026=n. No usage notice seen verbatim. Fetch module: 1 direct attempt on the results page plus wayback_probe (3 CDX windows), all robots_disallowed_or_unreachable. WebFetch: not attempted for Travis (all 3 WebFetch attempts in Dallas, including news hosts, returned EGRESS_BLOCKED).",
+  "tag_rationale": "No source states when precinct-level results were posted on election night for any of the three target elections; existing precinct PDFs are from older elections and carry no posting time. Tag UNKNOWN.",
+  "sources": [
+    {
+      "url": "https://votetravis.gov/current-election-information/election-results-and-reconciliation-forms/",
+      "via": "websearch",
+      "query": "Travis County election results",
+      "quote": "Election Results and Reconciliation Forms",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://votetravis.gov/wp-content/uploads/travis-tx/election-results/2020/Tuesday,%20November%203,%202020%20Joint%20General%20and%20Special%20Elections/G20%20Final%20Precinct.pdf",
+      "via": "websearch",
+      "query": "votetravis.gov election night results precinct by precinct cumulative report",
+      "quote": "Precinct Summary Results Report Joint General and Special Election",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.kvue.com/article/news/politics/vote-texas/travis-county-primary-election-results-early-voting-delay/269-772ff099-d03d-499d-9b1a-2267bb73b709",
+      "via": "websearch",
+      "query": "Travis County Clerk 2026 primary election night results precinct report posted unofficial",
+      "quote": "Travis County Clerk says reporting of early voting primary election results may be delayed later than 7 p.m.",
+      "supports": "stated_change"
+    },
+    {
+      "url": "https://votetravis.gov/",
+      "via": "websearch",
+      "query": "Travis County Clerk elections division phone email",
+      "quote": "Travis County Clerk",
+      "supports": "contact"
+    },
+    {
+      "url": "https://votetravis.gov/current-election-information/election-results-and-reconciliation-forms/",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "attempt failed: robots_disallowed_or_unreachable (no content)",
+      "supports": "results_url"
+    }
+  ],
+  "agent": "research-B",
+  "searches_run": 6,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 4,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T13:59:16Z",
+  "finished_at_utc": "2026-10-02T14:00:54Z"
+}
