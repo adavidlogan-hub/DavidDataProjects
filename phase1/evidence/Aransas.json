@@ -1,0 +1,65 @@
+{
+  "county": "Aransas",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.aransascountytx.gov/electionadmin/voteelectinfo.php",
+  "platform": "unknown",
+  "host": "www.aransascountytx.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed page (clerk/voteelectinfo.php) and the current elections page found by one web search (electionadmin/voteelectinfo.php) both return HTTP 200 with only an Incapsula bot-protection script ('/_Incapsula_Resource?...', robots noindex), so county-posted reports cannot be read; not circumvented. No Clarity site (elections.json 404) and no other vendor results site found. Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (bot-protected county site, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site is behind bot protection (every request returns a 212-byte Incapsula challenge page); check 2 not possible. No Clarity site. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site is behind bot protection (every request returns a 212-byte Incapsula challenge page); check 2 not possible. No Clarity site. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site is behind bot protection (every request returns a 212-byte Incapsula challenge page); check 2 not possible. No Clarity site. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.aransascountytx.gov/electionadmin/voteelectinfo.php",
+      "via": "fetch_module",
+      "quote": "<script src=\"/_Incapsula_Resource?SWJIYLWA=...\">",
+      "supports": "County elections page is bot-protected",
+      "content_hash": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+    },
+    {
+      "url": "https://www.aransascountytx.gov/electionadmin/voteelectinfo.php",
+      "via": "websearch",
+      "content_hash": "b54ac99b5b7919a20a450b08fa0f9640c502950aa2a8a935c07f1b59cf971189",
+      "quote": "Aransas County Elections https://www.aransascountytx.gov/electionadmin/voteelectinfo.php",
+      "supports": "Located the current elections page (search text is not evidence)"
+    }
+  ]
+}

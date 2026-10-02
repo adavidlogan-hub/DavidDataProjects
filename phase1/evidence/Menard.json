@@ -1,0 +1,65 @@
+{
+  "county": "Menard",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.menard.tx.us/page/menard.Elections",
+  "platform": "unknown",
+  "host": "www.co.menard.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://co.menard.tx.us/ returned HTTP 403; https://co.menard.tx.us/ failed TLS (certificate not valid for that hostname). One web search located the elections page https://www.co.menard.tx.us/page/menard.Elections, but the fetch module refused every www.co.menard.tx.us URL (robots_disallowed_or_unreachable; its robots.txt request was reset by the peer), so no results page, report list, or Last-Modified header could be read. No Clarity site (elections.json 404). Check 3 pending: origin/wayback-data not present.",
+  "tag_rationale": "No election could be determined (county site unreachable to the fetch module, no vendor site, check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County elections page unreachable (robots.txt fetch reset; seed host 403). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County elections page unreachable (robots.txt fetch reset; seed host 403). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County elections page unreachable (robots.txt fetch reset; seed host 403). Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "http://co.menard.tx.us/",
+      "via": "fetch_module",
+      "quote": "HTTP 403",
+      "supports": "seed site blocked",
+      "content_hash": "bf5f0b2a2b0e5db558936f4f60a02a4f61d739e0c947316604b329e4f532ee7c"
+    },
+    {
+      "url": "websearch:?q=menard%20county%20texas%20election%20results",
+      "via": "websearch",
+      "quote": "Menard County, Texas https://www.co.menard.tx.us/page/menard.Elections",
+      "supports": "locating only",
+      "content_hash": "dc77bd4fb080ec7a293964342a6e5a9865818531aa6c93c5927a6b309fe96e38"
+    }
+  ]
+}
