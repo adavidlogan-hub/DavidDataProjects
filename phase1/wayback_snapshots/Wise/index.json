@@ -3,7 +3,7 @@
   "targets": [
     "co.wise.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T17:08:24Z",
+  "harvested_at_utc": "2026-10-02T21:53:55Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -23,9 +23,10 @@
           "digest": "INLRDOYWMRUQBBGFNQYYSWOJYGXFWLOF",
           "length": "21126",
           "replay_url": "https://web.archive.org/web/20241106045904id_/https://www.co.wise.tx.us/315/Elections?os=0slw57psddf",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "6df2daac85bf3ac70fef0b1671dadf80d8a48054530356e5d37d4fc75b0a3e9d",
+          "saved_as": "Wise/2024_general_20241106045904_6df2daac85bf.html"
         },
         {
           "timestamp_utc": "20241106080340",
