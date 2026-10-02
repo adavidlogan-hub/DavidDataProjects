@@ -1,7 +1,7 @@
 {
  "county": "Hardin",
  "reason_selected": "low confidence",
- "verifier_tag": "UNKNOWN",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
  "verifier_confidence": "low",
  "elections": {
   "2024_general": {
@@ -15,9 +15,10 @@
    "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: Only \"Republican/Democratic Cumulative Results-3-12-2026\" official cumulative files (PDF and TXT) and official reconciliation listed (read from file names and link titles). No precinct report. Check 3 pending (no wayback folder)."
   },
   "2026_runoff": {
-   "result": "UNDETERMINED",
-   "check": "none",
-   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"OFFICIAL_REP_Cumulative Results-6-4-2026\": Run Time 8:05 AM, Run Date 06/04/2026, Last-Modified Thu 04 Jun 2026 16:39:20 GMT, county totals. No precinct report. Check 3 pending (no wayback folder)."
+   "result": "LATER",
+   "check": "2",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"OFFICIAL_REP_Cumulative Results-6-4-2026\": Run Time 8:05 AM, Run Date 06/04/2026, Last-Modified Thu 04 Jun 2026 16:39:20 GMT, county totals. No precinct report. Check 3 pending (no wayback folder).",
+   "corrected_after_comparison": "Election-night county-totals file opened by me from cache: https://hcelectioncenter.hardincountytx.gov/media/pdf/2026_may_runoff.pdf : \"Cumulative Results Report HARDIN COUNTY, TEXAS ... Unofficial Results ... Run Time 8:41 PM\", county totals, CreationDate 27 May 2026 01:41:37 UTC, Last-Modified 27 May 2026 02:15:57 GMT (9:15 PM CDT). No precinct numbers that night."
   }
  },
  "rationale": "No election is determined. The elections page sends election-night viewers to the SOS site, and the county later posts official county totals of its own (so not NONE). No county election-night file survives, so each election is UNDETERMINED under the clarified rule. Tag UNKNOWN.",
@@ -40,10 +41,19 @@
  ],
  "written_blind_at_utc": "2026-10-02T16:25:07Z",
  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
- "agree": false,
+ "agree": true,
  "comparison_notes": {
   "2024_general": "same (UNDETERMINED).",
   "2026_primary": "same (UNDETERMINED).",
-  "2026_runoff": "different: research LATER, mine UNDETERMINED. My blind pass missed this file (it is linked on the cached copy of the page I read; my link filter dropped it). I opened the research-cited file from cache: hcelectioncenter.hardincountytx.gov/media/pdf/2026_may_runoff.pdf is \"Cumulative Results Report HARDIN COUNTY, TEXAS ... Unofficial Results ... Run Time 8:41 PM\", CreationDate 27 May 2026 01:41:37 UTC, Last-Modified 02:15:57 GMT (9:15 PM CDT), county totals. The research claim is supported; with it the tag would be COUNTY_ONLY_PRECINCT_AT_CANVASS low, matching research."
+  "2026_runoff": "different: research LATER, mine UNDETERMINED. My blind pass missed this file (it is linked on the cached copy of the page I read; my link filter dropped it). I opened the research-cited file from cache: hcelectioncenter.hardincountytx.gov/media/pdf/2026_may_runoff.pdf is \"Cumulative Results Report HARDIN COUNTY, TEXAS ... Unofficial Results ... Run Time 8:41 PM\", CreationDate 27 May 2026 01:41:37 UTC, Last-Modified 02:15:57 GMT (9:15 PM CDT), county totals. The research claim is supported; with it the tag would be COUNTY_ONLY_PRECINCT_AT_CANVASS low, matching research. blind miss corrected after opening 2026_may_runoff.pdf myself (DECISIONS 44): runoff result now LATER (check 2)."
+ },
+ "blind_verdict": {
+  "verifier_tag": "UNKNOWN",
+  "verifier_confidence": "low",
+  "elections": {
+   "2024_general": "UNDETERMINED",
+   "2026_primary": "UNDETERMINED",
+   "2026_runoff": "UNDETERMINED"
+  }
  }
 }

@@ -1,7 +1,7 @@
 {
  "county": "Carson",
  "reason_selected": "low confidence",
- "verifier_tag": "UNKNOWN",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
  "verifier_confidence": "low",
  "elections": {
   "2024_general": {
@@ -15,9 +15,10 @@
    "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"030326 Official Grand Total.pdf\": \"Grand Total ... Official Results\", printed \"Election Summary - 03/12/2026 2:09 PM\", Last-Modified Thu 12 Mar 2026 21:39:35 GMT. County totals only (21 pages, every page \"Grand Total\"). Check 3 pending (no wayback folder)."
   },
   "2026_runoff": {
-   "result": "UNDETERMINED",
-   "check": "none",
-   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"Carson Co Official Results 05262026.pdf\" Grand Total printed 06/04/2026 12:12 PM, Last-Modified Thu 04 Jun 2026 19:08:06 GMT; Rep/Dem Canvass are SOS canvass county-vote reports. No precinct numbers. Check 3 pending (no wayback folder)."
+   "result": "LATER",
+   "check": "2",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"Carson Co Official Results 05262026.pdf\" Grand Total printed 06/04/2026 12:12 PM, Last-Modified Thu 04 Jun 2026 19:08:06 GMT; Rep/Dem Canvass are SOS canvass county-vote reports. No precinct numbers. Check 3 pending (no wayback folder).",
+   "corrected_after_comparison": "Election-night county-totals file opened by me from cache: https://www.co.carson.tx.us/upload/page/1423/2026/2026%20May%2026/ELECTION-UNOFFICIAL-RESULT-REPORT_94037_1779847152460.pdf : SOS \"Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION ... CARSON County\", county totals only, CreationDate 27 May 2026 01:59:12 UTC, Last-Modified 27 May 2026 02:05:48 GMT (9:05 PM CDT). No precinct numbers that night."
   }
  },
  "rationale": "No election is determined. Carson posts only official grand totals, printed and uploaded after canvass, and no precinct numbers; with no election-night file surviving, each election is UNDETERMINED under the clarified rule. Tag UNKNOWN.",
@@ -45,10 +46,19 @@
  ],
  "written_blind_at_utc": "2026-10-02T16:25:07Z",
  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
- "agree": false,
+ "agree": true,
  "comparison_notes": {
   "2024_general": "same (UNDETERMINED).",
   "2026_primary": "same (UNDETERMINED).",
-  "2026_runoff": "different: research LATER, mine UNDETERMINED. My blind pass missed this file (it is linked on the cached copy of the page I read; my link filter dropped it). I opened the research-cited file from cache: ELECTION-UNOFFICIAL-RESULT-REPORT_94037_1779847152460.pdf is the SOS \"Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION ... CARSON County\" (county totals), CreationDate 27 May 2026 01:59:12 UTC, Last-Modified 27 May 2026 02:05:48 GMT (9:05 PM CDT). The research claim is supported; with it the runoff would be LATER and the tag COUNTY_ONLY_PRECINCT_AT_CANVASS low, matching research."
+  "2026_runoff": "different: research LATER, mine UNDETERMINED. My blind pass missed this file (it is linked on the cached copy of the page I read; my link filter dropped it). I opened the research-cited file from cache: ELECTION-UNOFFICIAL-RESULT-REPORT_94037_1779847152460.pdf is the SOS \"Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION ... CARSON County\" (county totals), CreationDate 27 May 2026 01:59:12 UTC, Last-Modified 27 May 2026 02:05:48 GMT (9:05 PM CDT). The research claim is supported; with it the runoff would be LATER and the tag COUNTY_ONLY_PRECINCT_AT_CANVASS low, matching research. blind miss corrected after opening ELECTION-UNOFFICIAL-RESULT-REPORT_94037_1779847152460.pdf myself (DECISIONS 44): runoff result now LATER (check 2)."
+ },
+ "blind_verdict": {
+  "verifier_tag": "UNKNOWN",
+  "verifier_confidence": "low",
+  "elections": {
+   "2024_general": "UNDETERMINED",
+   "2026_primary": "UNDETERMINED",
+   "2026_runoff": "UNDETERMINED"
+  }
  }
 }

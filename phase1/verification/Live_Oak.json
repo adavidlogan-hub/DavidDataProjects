@@ -1,7 +1,7 @@
 {
  "county": "Live Oak",
  "reason_selected": "random 10 percent sample",
- "verifier_tag": "LIVE_PRECINCT",
+ "verifier_tag": "UNKNOWN",
  "verifier_confidence": "low",
  "elections": {
   "2024_general": {
@@ -15,9 +15,10 @@
    "fact": "No 2026 results on the Results, Elections or Election History pages (only sample ballots and notices). No wayback folder for this county, check 3 pending."
   },
   "2026_runoff": {
-   "result": "UNDETERMINED",
-   "check": "none",
-   "fact": "Same as primary. No wayback folder for this county, check 3 pending."
+   "result": "LATER",
+   "check": "2",
+   "fact": "Same as primary. No wayback folder for this county, check 3 pending.",
+   "corrected_after_comparison": "Election-night county-totals file opened by me from cache: https://www.co.live-oak.tx.us/upload/page/1218/2026May/unoffical%20res%20rep.pdf : Runoff unofficial Republican results, CreationDate 27 May 2026 02:45:27 UTC, Last-Modified 27 May 2026 02:48:19 GMT (9:48 PM CDT); research quotes it as a county-totals \"Cumulative Results Report ... Run Time 9:38 PM ... Unofficial Results\". No precinct numbers that night."
   }
  },
  "rationale": "Only 2024 is determined (LIVE, check 2: per-precinct unofficial reports uploaded at 9:53, 10:17 and 10:37 PM CST). One election gives LIVE_PRECINCT, low.",
@@ -50,10 +51,19 @@
  ],
  "written_blind_at_utc": "2026-10-02T16:25:07Z",
  "research_tag": "UNKNOWN",
- "agree": false,
+ "agree": true,
  "comparison_notes": {
   "2024_general": "same (LIVE: per-precinct unofficial reports uploaded at several times on election night). Research read Pct 11 (run 9:20 PM, uploaded 9:36 PM CST) and Pct 2; I read Pct 3 (run 9:03 PM, uploaded 9:53 PM CST) and upload times of Pct 13 and Pct 2.",
   "2026_primary": "same (UNDETERMINED).",
-  "2026_runoff": "different: research LATER, mine UNDETERMINED. My blind pass missed this file (it is linked on the cached copy of the page I read; my link filter dropped it). I opened the research-cited file from cache: 2026May/unoffical res rep.pdf, CreationDate 27 May 2026 02:45:27 UTC, Last-Modified 02:48:19 GMT (9:48 PM CDT); I did not re-read its page content (no text layer), research quotes \"Cumulative Results Report ... Run Time 9:38 PM ... Unofficial Results\", county totals. Supported as far as times go; with it the tag would be UNKNOWN (LIVE once, LATER once), matching research."
+  "2026_runoff": "different: research LATER, mine UNDETERMINED. My blind pass missed this file (it is linked on the cached copy of the page I read; my link filter dropped it). I opened the research-cited file from cache: 2026May/unoffical res rep.pdf, CreationDate 27 May 2026 02:45:27 UTC, Last-Modified 02:48:19 GMT (9:48 PM CDT); I did not re-read its page content (no text layer), research quotes \"Cumulative Results Report ... Run Time 9:38 PM ... Unofficial Results\", county totals. Supported as far as times go; with it the tag would be UNKNOWN (LIVE once, LATER once), matching research. blind miss corrected after opening unoffical%20res%20rep.pdf myself (DECISIONS 44): runoff result now LATER (check 2)."
+ },
+ "blind_verdict": {
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "low",
+  "elections": {
+   "2024_general": "LIVE",
+   "2026_primary": "UNDETERMINED",
+   "2026_runoff": "UNDETERMINED"
+  }
  }
 }
