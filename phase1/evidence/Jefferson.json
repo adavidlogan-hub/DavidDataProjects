@@ -1,0 +1,79 @@
+{
+  "county": "Jefferson",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://jefferson-tx.connect4.clarityelections.com/",
+  "platform": "clarity_style",
+  "host": "jefferson-tx.connect4.clarityelections.com",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "The SOS seed website for Jefferson is the county's Clarity Connect elections site (jefferson-tx.connect4.clarityelections.com). That site, and the two other county election domains found by one web search (www.jeffcotxvotes.gov and www.jeffersonelections.com), return an empty HTTP 202 to every request (bot protection); this was not worked around. www.jeffersoncountytx.gov is unreachable through the fetch module (robots check failed). Check 1: Clarity's elections.json for TX/Jefferson does not list the 2024 general, 2026 primary or 2026 runoff, and no county page could be read to obtain their EIDs (IDs were not probed). Checks 1 and 2 therefore failed. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (Clarity EIDs not obtainable, county sites bot-protected, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://jefferson-tx.connect4.clarityelections.com/",
+      "via": "fetch_module",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote": "HTTP 202 with empty body",
+      "supports": "County Clarity Connect site is bot-protected"
+    },
+    {
+      "url": "https://www.jeffcotxvotes.gov/elections/election-history-maps/archived-election-results/",
+      "via": "fetch_module",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote": "HTTP 202 with empty body",
+      "supports": "County archived results page is bot-protected"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Jefferson/",
+      "via": "clarity_script",
+      "content_hash": "",
+      "quote": "election not listed on this county's Clarity site (all three target elections)",
+      "supports": "Check 1 could not locate the target elections"
+    },
+    {
+      "url": "websearch:Jefferson County Texas election results clarityelections",
+      "via": "websearch",
+      "content_hash": "f9063b181d506e5fe8b12c4559d12eb001c7109119fe05bcf3030aef28a19c30",
+      "quote": "Archived Election Results https://www.jeffcotxvotes.gov/elections/election-history-maps/archived-election-results/",
+      "supports": "Located county election domains"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Not listed in Clarity elections.json for TX/Jefferson; county pages return empty HTTP 202 so no EID link could be read. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Not listed in Clarity elections.json for TX/Jefferson; county pages return empty HTTP 202 so no EID link could be read. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Not listed in Clarity elections.json for TX/Jefferson; county pages return empty HTTP 202 so no EID link could be read. Check 3 pending."
+    }
+  }
+}

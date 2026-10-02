@@ -1,0 +1,65 @@
+{
+  "county": "Grayson",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.grayson.tx.us/page/elec.history",
+  "platform": "county_pdfs",
+  "host": "www.co.grayson.tx.us",
+  "evidence_url": "https://www.co.grayson.tx.us/page/elec.history",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL (http default.aspx?name=elec.home) returned HTTP 403; https://www.co.grayson.tx.us/page/elec.home loads and links 'Prior Election Results' (/page/elec.history). No Clarity site (elections.json 404) and no other vendor results link was found on the elections pages. The Prior Election Results page lists only official, post-canvass reports for the target elections: 'Official Results Summary Report General 11.5.24 Election' and 'Official Pct. by Pct. Summary Results General 11.5.24 Election'; 'Official_Rep_Party_Pct_Summ_Results_Report_2026.pdf' and 'Official_Rep_Party_Summ_Results_Report_2026.pdf' (and Democratic) for the 2026 primary; nothing for the 2026 runoff. No election-night report remains, so check 2 cannot show what was public on election night. Document links (/page/open/...) carry no upload dates. Check 3 pending (origin/wayback-data not present).",
+  "tag_rationale": "No election could be determined (only official canvass reports remain online and check 3 is pending), so the rule gives UNKNOWN.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only 'Official Results Summary Report General 11.5.24 Election' and 'Official Pct. by Pct. Summary Results General 11.5.24 Election' listed. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only 'Official_Rep_Party_Pct_Summ_Results_Report_2026.pdf', 'Official_Rep_Party_Summ_Results_Report_2026.pdf' and Democratic equivalents listed. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No 2026 runoff results listed on the elections pages. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.grayson.tx.us/page/elec.history",
+      "via": "fetch_module",
+      "content_hash": "d9524fee1b88bfcae05e53e759f9e06140d15353cfbeae70a12729feff75359c",
+      "quote": "Official Pct. by Pct. Summary Results General 11.5.24 Election | Official_Rep_Party_Pct_Summ_Results_Report_2026.pdf",
+      "supports": "only official reports remain"
+    },
+    {
+      "url": "https://www.co.grayson.tx.us/page/elec.home",
+      "via": "fetch_module",
+      "content_hash": "112b5ba3dca01452065845cd96d7183b42374ffaccfc8adc6259b74fecd1d432",
+      "quote": "Prior Election Results | Elections Livestream",
+      "supports": "elections page has no results vendor link"
+    }
+  ]
+}

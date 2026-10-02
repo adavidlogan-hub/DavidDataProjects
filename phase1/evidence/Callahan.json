@@ -1,0 +1,79 @@
+{
+  "county": "Callahan",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.callahancounty.org/page/callahan.Election",
+  "platform": "county_pdfs",
+  "host": "www.callahancounty.org",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/5118/3-3-2026/Cumulative%20Results-3-3-2026%2009-46-42%20PM.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed host www.co.callahan.tx.us is unreachable (robots.txt fetch: connection reset). One web search located the current site www.callahancounty.org; its Election page links files hosted on newtools.cira.state.tx.us (the county site platform host). No Clarity site (elections.json 404). For the 2024 general and 2026 primary the election-night file is a Hart Cumulative Results Report (county totals) uploaded on election night; precinct results appear only in post-canvass 'Precinct Results' files (11-19-2024, 3-10-2026). The 2026 runoff lists only files run 6-2-2026 (Cumulative, Precinct Results) and reconciliations, so its election night cannot be decided; check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "2024 general and 2026 primary are both LATER (election-night county totals, precinct numbers only after canvass), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because both were settled by check 2 with printed/creation and upload times on election night.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 22:26 CT (server upload; PDF created 22:25)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/5118/unofficial.pdf",
+      "fact": "'Unofficial Report' (unofficial.pdf) = scanned 'Cumulative Results Report CALLAHAN COUNTY, TEXAS GENERAL ELECTION 11/5/2024 Unofficial Results' (county totals; stamped 'UNOFFICIAL' and 'CORRECTION ACTION REQUIRED'); PDF CreationDate Wed Nov 6 04:25:10 2024 UTC; Last-Modified Wed, 06 Nov 2024 04:26:36 GMT. Precinct numbers only in 'Official Precinct Results' (Precinct Results-11-19-2024 03-44-57 PM.pdf)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 22:50 CT (server upload; printed 21:46)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/5118/3-3-2026/Cumulative%20Results-3-3-2026%2009-46-42%20PM.pdf",
+      "fact": "'Unofficial Results' = 'Cumulative Results Report CALLAHAN COUNTY, TEXAS Unofficial Results PRIMARY ELECTION ... Run Time 9:46 PM 3/3/2026' (county totals); Last-Modified Wed, 04 Mar 2026 04:50:50 GMT. Precinct numbers only in 'Precinct Results- pdf' (Precinct Results-3-10-2026 12-14-13 PM.pdf, Official)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Runoff files listed are 'Precinct Results Report' and 'Cumulative Results' run 6-2-2026 plus reconciliations; no election-night file remains. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.callahancounty.org/page/callahan.Election",
+      "via": "fetch_module",
+      "quote": "Unofficial Results -> Cumulative Results-3-3-2026 09-46-42 PM.pdf; Precinct Results- pdf -> Precinct Results-3-10-2026 12-14-13 PM.pdf; Unofficial Report -> unofficial.pdf; Official Precinct Results -> Precinct Results-11-19-2024; Precinct Results Report - PDF -> Precinct Results-6-2-2026",
+      "supports": "County-posted report list",
+      "content_hash": "dfc7499f5431b91dfe0346378cbfa6968eaf22326ec437ac2d1667019bdf8f39"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/5118/3-3-2026/Cumulative%20Results-3-3-2026%2009-46-42%20PM.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report CALLAHAN COUNTY, TEXAS Unofficial Results PRIMARY ELECTION ... Run Time 9:46 PM",
+      "supports": "Primary election-night county totals uploaded 10:50 PM CST",
+      "content_hash": "69e786637e2805ff4347e0a314d63a0f21706402fb8bfb49b88479e3476e559a"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/5118/unofficial.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report CALLAHAN COUNTY, TEXAS GENERAL ELECTION 11/5/2024 Unofficial Results (scan)",
+      "supports": "2024 election-night county totals uploaded 10:26 PM CST",
+      "content_hash": "9ce488323db09a55f99e0055359d6c7b74fa07155545e9187951ec50904ac99b"
+    },
+    {
+      "url": "https://www.callahancounty.org/page/callahan.Election",
+      "via": "websearch",
+      "content_hash": "a87fecb8dbc5221d232f8fb3e2dab86041cfe8b6e8a798dd892ef3d094ee547f",
+      "quote": "Callahan County, Texas https://www.callahancounty.org/page/callahan.Election",
+      "supports": "Located current county site (search text is not evidence)"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "county": "Dickens",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.dickens.tx.us/page/dickens.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.dickens.tx.us",
+  "evidence_url": "https://www.co.dickens.tx.us/upload/page/1679/image3884.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.dickens.tx.us/ works over https. No Clarity or vendor link. Files are scanned Hart reports named imageNNNN.pdf; Last-Modified values differ per file and follow PDF creation times. For the runoff, both the 'Unofficial Results' and 'Preliminary Election Reconciliation' links point to the same reconciliation form. 2024 general undetermined (check 3 pending; wayback-data branch not on origin).",
+  "tag_rationale": "The 2026 primary and 2026 runoff are both LATER (check 2: precinct reports printed and uploaded after election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS. Confidence low because no precinct-free county-total report has both a printed run time and upload time on election night.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Elections page groups files without election labels for older entries; no file clearly tied to the Nov 5, 2024 general election was identified within budget. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-06 16:22 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.dickens.tx.us/upload/page/1679/image3029.pdf",
+      "fact": "'Unofficial Results' for the primary (image3029.pdf) is a scanned Hart 'Cumulative Results Report DICKENS COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Unofficial Results' (county totals), 'Run Time 3:18 PM Run Date 03/05/2026', Last-Modified Fri, 06 Mar 2026 22:22:17 GMT. Precinct numbers appear only in the later 'Official Republican Precinct Results' and 'Official Democratic Precinct Results' files. Nothing with precinct numbers dates from election night."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-06-03 09:57 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.dickens.tx.us/upload/page/1679/image3884.pdf",
+      "fact": "On runoff night the county uploaded 'Primary Runoff Election 5/26/2026 Unofficial Results' (image3863.pdf, Last-Modified Wed, 27 May 2026 01:40:59 GMT, 8:40 PM CDT), which is only the 'Preliminary Election Reconciliation - Unofficial Totals' form (ballot counts, no candidate votes). The 'Precinct Results Report for Primary Runoff' (image3884.pdf) is a scanned Hart 'Precinct Results Report ... PRIMARY RUNOFF ELECTION 5/26/2026 Official Results', 'Run Time 9:44 AM Run Date 06/01/2026', Last-Modified Wed, 03 Jun 2026 14:57:58 GMT."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.dickens.tx.us/page/dickens.Elections",
+      "via": "fetch_module",
+      "content_hash": "ca5c026d112bbc726fc30c1f24a2e0526d595e5ac4e1924e68bdfecd46bcbc1f",
+      "quote": "Unofficial Results; Official Republican Precinct Results; Primary Runoff Election 5/26/2026 Unofficial Results; Precinct Results Report for Primary Runoff",
+      "supports": "Elections page result links"
+    },
+    {
+      "url": "https://www.co.dickens.tx.us/upload/page/1679/image3029.pdf",
+      "via": "fetch_module",
+      "content_hash": "fea8bee2930dfbdb426e288c40ab29d57ac4881377424b412c577753c5499f1f",
+      "quote": "Cumulative Results Report DICKENS COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Unofficial Results Run Time 3:18 PM Run Date 03/05/2026 (scanned image, read visually)",
+      "supports": "Primary first results posted Mar 6"
+    },
+    {
+      "url": "https://www.co.dickens.tx.us/upload/page/1679/image3863.pdf",
+      "via": "fetch_module",
+      "content_hash": "16883930a0453d4bdb4c3d40ad9aad72f38d4a00cdab77cec8aa28b9efa57039",
+      "quote": "Preliminary Election Reconciliation - Unofficial Totals ... Joint Primary Run off 5/26/26 (scanned image, read visually)",
+      "supports": "Runoff election-night upload has no candidate votes"
+    },
+    {
+      "url": "https://www.co.dickens.tx.us/upload/page/1679/image3884.pdf",
+      "via": "fetch_module",
+      "content_hash": "5d9c1f5947d17f75aa4c0de1c8950fbb3148892b65c09d785ed855b994278964",
+      "quote": "Precinct Results Report DICKENS COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Official Results Run Time 9:44 AM Run Date 06/01/2026 (scanned image, read visually)",
+      "supports": "Runoff precinct numbers posted June 3"
+    }
+  ]
+}

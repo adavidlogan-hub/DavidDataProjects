@@ -1,0 +1,72 @@
+{
+  "county": "Presidio",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.presidio.tx.us/page/presidio.Election.Information",
+  "platform": "county_pdfs",
+  "host": "www.co.presidio.tx.us",
+  "evidence_url": "https://www.co.presidio.tx.us/upload/page/4732/2026/2026 REPUBLICAN PRIMARY ELECTION.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The 'Elections Information' page lists for the 2026 primary two SOS 'Election Unofficial Results Report' PDFs (county totals; REP CreationDate Mar 4 06:49 UTC = 12:49 AM CST, Last-Modified Wed, 04 Mar 2026 15:58:54 GMT = 9:58 AM CST Mar 4) and two Excel-made 'Unofficial Election Results by Precinct' PDFs (REP: columns PCT 1 to PCT 7 with election-day votes, CreationDate and Last-Modified Wed, 11 Mar 2026 16:5x GMT). No results are listed for the 2026 runoff or the 2024 general (older results listed: 2024 March primary, 2020 and 2016 generals). Check 3 pending for 2024 general and 2026 runoff: origin/wayback-data not present.",
+  "tag_rationale": "Only the 2026 primary is determined (LATER by check 2: county totals posted the next morning, precinct breakdown posted Mar 11), so the single determined result gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results listed on the Elections Information page. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.presidio.tx.us/upload/page/4732/2026/2026 REPUBLICAN PRIMARY ELECTION.pdf",
+      "fact": "'Unofficial Election Results by Precinct 2026 Republican Party' ('ELECTION DAY REPUBLICAN PRIMARY ELECTION MARCH 3, 2026 ... PCT 1 PCT 2 ... PCT 7') Last-Modified Wed, 11 Mar 2026 16:51:54 GMT; the SOS county-total 'Election Unofficial Results Report' Last-Modified Wed, 04 Mar 2026 15:58:54 GMT. Precinct numbers came after election night."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 runoff results listed on the Elections Information page. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.presidio.tx.us/page/presidio.Election.Information",
+      "via": "fetch_module",
+      "quote": "Unofficial Election Results by Precinct 2026 Republican Party; Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026",
+      "supports": "report list",
+      "content_hash": "d014a095838b59aaeb5682ae17a7c9ff7b9ba6c8bb83b247839433fbba701cb1"
+    },
+    {
+      "url": "https://www.co.presidio.tx.us/upload/page/4732/2026/2026 REPUBLICAN PRIMARY ELECTION.pdf",
+      "via": "fetch_module",
+      "quote": "ELECTION DAY REPUBLICAN PRIMARY ELECTION MARCH 3, 2026 ... PCT 1 PCT 2 PCT 3 PCT 4 PCT 5 PCT 6 PCT 7",
+      "supports": "2026_primary precinct numbers posted Mar 11",
+      "content_hash": "2f14c5e74822acfd41f2f84187ebf541fff6db9a842c6e1caeb78507eaddbb29"
+    },
+    {
+      "url": "https://www.co.presidio.tx.us/upload/page/4732/2026/ELECTION-UNOFFICIAL-RESULT-REPORT_52712_1772606992256.pdf",
+      "via": "fetch_module",
+      "quote": "Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION ... PRESIDIO County",
+      "supports": "2026_primary county totals posted Mar 4 morning",
+      "content_hash": "db398445c6bbae001d1c4cf03b91846c11c2a865b437ec76d8f54c65f068f90e"
+    }
+  ]
+}

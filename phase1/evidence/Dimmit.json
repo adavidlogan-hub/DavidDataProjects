@@ -1,0 +1,58 @@
+{
+  "county": "Dimmit",
+  "tag": "NO_SITE_OR_SOS_ONLY",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://dimmitcounty.org/government/departments/elections/index.php",
+  "platform": "county_pdfs",
+  "host": "dimmitcounty.org",
+  "evidence_url": "https://dimmitcounty.org/government/departments/elections/index.php",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.dimmitcounty.org/ works over https and links the Elections page. No Clarity or vendor link. File links carry a CMS '?t=YYYYMMDDhhmmss' upload stamp. The primary NONE rests on the absence of any results file on a page that keeps other primary files (notices, voter-history files, hand count audit); a removed file cannot be ruled out. The runoff canvassed-results PDF returned 404 to the fetch module (ampersand in file name). Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "Only the 2026 primary is determined (NONE, check 2). With exactly one election determined the tag is NO_SITE_OR_SOS_ONLY with low confidence.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Elections page lists nothing for the Nov 5, 2024 general election. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "NONE",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://dimmitcounty.org/government/departments/elections/index.php",
+      "fact": "For the March 3, 2026 joint primary the Elections page keeps 'NOTICE OF ELECTION - MARCH 3, 2026 JOINT PRIMARY', L&A testing notices, daily early-voting voter-history text files (VoterHistoryDEM0217.txt ...), 'Notice of Canvass.pdf' (?t=202603091614390) and 'Post-Election Hand County Audit Results (Dem & Rep)' (?t=202603231240330), but no unofficial, cumulative, precinct or canvassed results file."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "For the May 26 runoff the page keeps rosters, sample ballots and 'CANVASSED ELECTION RESULTS - DEM & REP COMBINED' (May 26 Final Canvassed Results Dem & Rep.pdf, CMS upload stamp ?t=202608251547420, i.e. 2026-08-25); that file returned 404 to the fetch module so its content was not read. Nothing shows what was posted on election night. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://dimmitcounty.org/government/departments/elections/index.php",
+      "via": "fetch_module",
+      "content_hash": "b53aa71755498f391f9170dad8107a57edd73747fe9ccc4153fb9f7bc0b9584f",
+      "quote": "NOTICE OF ELECTION - MARCH 3, 2026 JOINT PRIMARY; Notice of Canvass.pdf; Post-Election Hand County Audit Results (Dem & Rep); CANVASSED ELECTION RESULTS - DEM & REP COMBINED",
+      "supports": "Elections page: primary files without results; runoff canvassed results added 2026-08-25"
+    }
+  ]
+}

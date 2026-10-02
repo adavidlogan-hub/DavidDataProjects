@@ -1,0 +1,58 @@
+{
+  "county": "Martin",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "http://www.co.martin.tx.us/158/Elections-Administration-Office",
+  "platform": "unknown",
+  "host": "www.co.martin.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.co.martin.tx.us/158/Elections-Administration-Office/ returned HTTP 403 to the fetch module and the https version failed with an SSL UNEXPECTED_EOF error (treated as bot protection; not worked around). One web search found no other county or vendor results site (only the same CivicPlus pages). No Clarity site (elections.json 404). Checks 1 and 2 could not settle any election; check 3 pending.",
+  "tag_rationale": "No election was determined (all UNDETERMINED), so the rule gives UNKNOWN.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; county site not readable by the fetch module"
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; county site not readable by the fetch module"
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; county site not readable by the fetch module"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Martin/elections.json",
+      "via": "clarity_script",
+      "content_hash": "",
+      "quote": "HTTP 404",
+      "supports": "no Clarity site for Martin"
+    }
+  ]
+}

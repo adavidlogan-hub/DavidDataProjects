@@ -1,0 +1,79 @@
+{
+  "county": "Goliad",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.goliad.tx.us/page/goliad.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.goliad.tx.us",
+  "evidence_url": "https://www.co.goliad.tx.us/upload/page/2545/2026/May262026/Unofficial%20Election%20Results%20May262026.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.co.goliad.tx.us/ (https used) links /page/goliad.Elections, which lists results PDFs per election; goliadcountytx.gov was refused by the fetch module. No Clarity site (elections.json 404). Election-night postings are county totals only: 2024 general 'Unofficial ENR' is a Texas Secretary of State 'Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION GOLIAD County' (PDF CreationDate 6 Nov 2024 05:05 UTC, Last-Modified Wed, 06 Nov 2024 05:26:31 GMT = 11:26 PM CST election night); 2026 runoff 'CUMULATIVE UNOFFICIAL RESULTS REPORT' is an Electionware 'Summary Results Report 2026 Primary Runoff Election ... UNOFFICIAL RESULTS', footer 'Unofficial results - 05/26/2026 8:21 PM', Last-Modified Wed, 27 May 2026 02:03:51 GMT (9:03 PM CDT election night); 2026 primary 'CUMULATIVE UNOFFICIAL RESULTS REPORT' is a Summary Results Report with footer '03/04/2026 8:52 AM', Last-Modified Wed, 04 Mar 2026 18:39:04 GMT (next day). The other unofficial files are SOS-format party reports (county totals). Precinct-level numbers appear only in the official canvass reports posted after canvass. Last-Modified values differ per file, so they are real upload times. Check 3 not needed for the deciding elections.",
+  "tag_rationale": "All three elections are LATER by check 2 (county totals only on election night, precinct numbers at canvass), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; the 2024 general and 2026 runoff reports both have a printed time and a server upload time on election night, so confidence is med.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 23:26 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.goliad.tx.us/upload/page/2545/Nov052024/Unofficial%20ENR%20Nov052024.pdf",
+      "fact": "'Unofficial ENR Nov052024.pdf': 'Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 GOLIAD County' with Early Voting By Mail, In Person, Election Day Count, Total Votes (county totals); CreationDate 6 Nov 2024 05:05:20 UTC; Last-Modified Wed, 06 Nov 2024 05:26:31 GMT. Precinct numbers only in 'Canvass Official Results Nov052024' / 'Official Canvass Report' (11/18/2024).",
+      "precinct_first_seen": ""
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 12:39 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.goliad.tx.us/upload/page/2545/2026/Mar032026/Results/Cumulative%20Results%20Report%20Mar032026.pdf",
+      "fact": "'CUMULATIVE UNOFFICIAL RESULTS REPORT': 'Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Unofficial Results Mar032026 ... Election Day Precincts Reporting 9 of 9', county totals; footer 'Unofficial Results Mar032026 - 03/04/2026 8:52 AM'; Last-Modified Wed, 04 Mar 2026 18:39:04 GMT. Precinct numbers only in the Primary Election Canvass Reports (03/12/2026).",
+      "precinct_first_seen": ""
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:03 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.goliad.tx.us/upload/page/2545/2026/May262026/Unofficial%20Election%20Results%20May262026.pdf",
+      "fact": "'CUMULATIVE UNOFFICIAL RESULTS REPORT': 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS ... Election Day Precincts Reporting 9 of 9', county totals; footer 'Unofficial results - 05/26/2026 8:21 PM'; Last-Modified Wed, 27 May 2026 02:03:51 GMT. Precinct numbers only in the Official Canvass Results.",
+      "precinct_first_seen": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.goliad.tx.us/page/goliad.Elections",
+      "via": "fetch_module",
+      "content_hash": "3b8b28f60f52657cbedbbd80ea0a14622b494ade231bb2a2d344c09cbacdf61d",
+      "quote": "REPUBLICAN UNOFFICIAL ELECTION NIGHT RESULTS | CUMULATIVE UNOFFICIAL RESULTS REPORT | REPUBLICAN OFFICIAL RESULTS | Official Canvass Report",
+      "supports": "report lists for all three elections"
+    },
+    {
+      "url": "https://www.co.goliad.tx.us/upload/page/2545/Nov052024/Unofficial%20ENR%20Nov052024.pdf",
+      "via": "fetch_module",
+      "content_hash": "4cf99f368f4024d18f255eabe0b15a39f382c5069e00f84b5cdac92f7c6ab78c",
+      "quote": "Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION GOLIAD County",
+      "supports": "2024_general county totals uploaded 11:26 PM CST"
+    },
+    {
+      "url": "https://www.co.goliad.tx.us/upload/page/2545/2026/Mar032026/Results/Cumulative%20Results%20Report%20Mar032026.pdf",
+      "via": "fetch_module",
+      "content_hash": "a35c30c96e0958f607cba6e87ac24f30218ed080ff04ad5abde88407dfba0757",
+      "quote": "Summary Results Report 2026 Primary Election ... Unofficial Results Mar032026 - 03/04/2026 8:52 AM",
+      "supports": "2026_primary county totals next day"
+    },
+    {
+      "url": "https://www.co.goliad.tx.us/upload/page/2545/2026/May262026/Unofficial%20Election%20Results%20May262026.pdf",
+      "via": "fetch_module",
+      "content_hash": "58759d63bf9f10550a6558108130e3eeaa2467f6cd74b1da362594eb6724c2bd",
+      "quote": "Summary Results Report 2026 Primary Runoff Election ... Unofficial results - 05/26/2026 8:21 PM",
+      "supports": "2026_runoff county totals uploaded 9:03 PM CDT"
+    }
+  ]
+}

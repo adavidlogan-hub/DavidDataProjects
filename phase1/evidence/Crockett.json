@@ -1,0 +1,79 @@
+{
+  "county": "Crockett",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.crockett.tx.us/page/crockett.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.crockett.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No seed website in the SOS list; one web search found https://www.co.crockett.tx.us/page/crockett.Elections (first fetches were refused after a robots.txt connection reset during proxy relay failures; it loaded after the retry window). No Clarity or vendor link. The county posts scanned county-total unofficial results the morning after each 2026 election and no precinct-level results; with no election-night upload, the checks cannot say what was available on election night. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "No election could be determined from checks 1 and 2, so the tag is UNKNOWN.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Elections page lists no 2024 general election files. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Unofficial Primary Elections Results 03-03-26' is a scanned Electionware 'Summary Results Report TX Crockett County 260303 Primary 6300 March 3, 2026 UNOFFICIAL RESULTS' (county totals; footer 'Election Summary - 03/03/2026 07:44PM' as read from the scan), Last-Modified Wed, 04 Mar 2026 16:07:32 GMT (10:07 AM CST Mar 4), after election night. No precinct-level primary file is posted. Nothing shows what was posted on election night itself. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Election Results for Republican and Democratic 5/26/2026' (preliminaryelectionreconciliationunofficialtotals052726.pdf) is a scanned 5-page file including the 'Preliminary Election Reconciliation - Unofficial Totals' forms, Last-Modified Wed, 27 May 2026 16:26:46 GMT (11:26 AM CDT May 27), after election night. No precinct-level runoff file is posted. Nothing shows what was posted on election night itself. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.crockett.tx.us/page/crockett.Elections",
+      "via": "fetch_module",
+      "content_hash": "d6c4d64f9ec1ea1e9eff780c062b2baad20fa3a9c6d052f4d0c28a5f270364e1",
+      "quote": "Election Results for Republican and Democratic 5/26/2026; Unofficial Primary Elections Results 03-03-26",
+      "supports": "Elections page result links"
+    },
+    {
+      "url": "https://www.co.crockett.tx.us/upload/page/9753/2026/unofficialprimaryelectionresults030426.pdf",
+      "via": "fetch_module",
+      "content_hash": "c315672c1774873ae37657a87a09fe25836dba9d308eb985ecff6054a710f97c",
+      "quote": "Summary Results Report TX Crockett County 260303 Primary 6300 March 3, 2026 UNOFFICIAL RESULTS (scanned image, read visually)",
+      "supports": "Primary county totals uploaded 2026-03-04 16:07:32 GMT"
+    },
+    {
+      "url": "https://www.co.crockett.tx.us/upload/page/9753/preliminaryelectionreconciliationunofficialtotals052726.pdf",
+      "via": "fetch_module",
+      "content_hash": "064cf8b4e8c66ab284ab8b95212b5e3a680a335af4e7d3e656656bb5be31d393",
+      "quote": "Preliminary Election Reconciliation - Unofficial Totals ... Crockett ... 2026 Primary Runoff 05/26/26 (scanned image, read visually)",
+      "supports": "Runoff file uploaded 2026-05-27 16:26:46 GMT"
+    },
+    {
+      "url": "websearch:?q=crockett%20county%20texas%20elections%20results",
+      "via": "websearch",
+      "content_hash": "fcf077565f2e2dd50a8035ca3b501ebd0dafae19a99b17b2eb682c31a708d35c",
+      "quote": "Election Notices - Crockett County | https://www.co.crockett.tx.us/page/crockett.Elections",
+      "supports": "Located county elections page (no seed URL)"
+    }
+  ]
+}

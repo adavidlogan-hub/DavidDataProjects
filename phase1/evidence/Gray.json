@@ -1,0 +1,100 @@
+{
+  "county": "Gray",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.gray.tx.us/page/gray.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.gray.tx.us",
+  "evidence_url": "https://www.co.gray.tx.us/upload/page/2023/Precinct%20By%20Precinct%20%20Results-5-26-2026.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.co.gray.tx.us/ (https used) links /page/gray.Elections and 'Archived Election Information'. No Clarity site (elections.json 404). 2026 runoff: 'Unofficial Cumulative Results' (Cumulative Results Report, CreationDate 27 May 2026 01:06 UTC, Last-Modified Wed, 27 May 2026 01:15:52 GMT = 8:15 PM CDT election night) is county totals; 'Precinct By Precinct Results' (Precinct Results Report, Unofficial Results, Run Time 1:56 PM, CreationDate 27 May 2026 18:57 UTC) has Last-Modified Fri, 29 May 2026 16:44:16 GMT. 2026 primary: all listed files are dated 3-9-2026: 'Republican Precinct Results' (Run Time 9:13 AM, CreationDate 9 Mar 2026 15:14 UTC, Last-Modified Mon, 09 Mar 2026 18:56:38 GMT) and cumulative reports '3-9-2026 09-12-46 AM'; no election-night file remains. 2024 general (Archived Election Information): 'Election Results' (FINAL RESULTS.pdf, scanned 7 Nov 2024 14:06 UTC, Last-Modified Thu, 07 Nov 2024 14:08:18 GMT) and 'Precinct 1 Results' through 'Precinct 7 Results' (Precinct 1.pdf Last-Modified Thu, 21 Nov 2024 13:29:01 GMT). Last-Modified values differ per file, so they are real upload times. The page editor's link ids (e.g. link_1779844562708) match these upload times but were not used as evidence. Check 3 pending (origin/wayback-data not present).",
+  "tag_rationale": "All three elections are LATER by check 2 (precinct reports run or uploaded days after election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; only the runoff has an election-night upload (county totals), so confidence is low.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-07 08:08 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.gray.tx.us/upload/page/2023/Precinct%201.pdf",
+      "fact": "Archived 2024 general section: 'Election Results' (FINAL RESULTS.pdf) Last-Modified Thu, 07 Nov 2024 14:08:18 GMT; 'Precinct 1 Results' (Precinct 1.pdf) scanned 21 Nov 2024 13:21 UTC, Last-Modified Thu, 21 Nov 2024 13:29:01 GMT. Precinct numbers posted after canvass.",
+      "precinct_first_seen": ""
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.gray.tx.us/upload/page/2023/Republican%20Precinct%20Results%203.9.26.pdf",
+      "fact": "'Republican Precinct Results': 'Republican Precinct Results Unofficial Results ... Run Time 9:13 AM' (CreationDate 9 Mar 2026 15:14:03 UTC), Last-Modified Mon, 09 Mar 2026 18:56:38 GMT. Precinct numbers first produced six days after election night.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": ""
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:15 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.gray.tx.us/upload/page/2023/Precinct%20By%20Precinct%20%20Results-5-26-2026.pdf",
+      "fact": "'Unofficial Cumulative Results': 'Cumulative Results Report GRAY COUNTY, TEXAS Unofficial Results' (CreationDate 27 May 2026 01:06:28 UTC), Last-Modified Wed, 27 May 2026 01:15:52 GMT. 'Precinct By Precinct Results': 'Precinct Results Report Unofficial Results ... Run Time 1:56 PM' (CreationDate 27 May 2026 18:57:19 UTC), Last-Modified Fri, 29 May 2026 16:44:16 GMT.",
+      "precinct_first_seen": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.gray.tx.us/page/gray.Elections",
+      "via": "fetch_module",
+      "content_hash": "1a794d8a00bd54972553fe0d8d3eb14c831172230b9cafbf37a6c3f175ceefa2",
+      "quote": "Unofficial Cumulative Results | Republican Results | Democratic Results | Precinct By Precinct Results ... Unofficial Republican Results | Republican Precinct Results",
+      "supports": "2026 report lists"
+    },
+    {
+      "url": "https://www.co.gray.tx.us/upload/page/2023/5.26.2026%20Unofficial%20Final%20Cumulative%20Results-5-26-2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "3fdb0c80bffb37b85437ae2c77935c16115dd80c1d5649a8e2d31ed82c6507a7",
+      "quote": "Cumulative Results Report GRAY COUNTY, TEXAS Unofficial Results",
+      "supports": "2026_runoff county totals uploaded 8:15 PM CDT"
+    },
+    {
+      "url": "https://www.co.gray.tx.us/upload/page/2023/Precinct%20By%20Precinct%20%20Results-5-26-2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "8ab45e2b65c1227b72ce5189b8ff1112d3143fa6087772ce0d223c8edbd712ca",
+      "quote": "Precinct Results Report Unofficial Results ... Run Time 1:56 PM",
+      "supports": "2026_runoff precinct numbers after election night"
+    },
+    {
+      "url": "https://www.co.gray.tx.us/upload/page/2023/Republican%20Precinct%20Results%203.9.26.pdf",
+      "via": "fetch_module",
+      "content_hash": "91723027a8a7a3d57c586a8b32a75034191635a146454f0992dc031fe66b980f",
+      "quote": "Republican Precinct Results Unofficial Results Run Time 9:13 AM",
+      "supports": "2026_primary precinct numbers on 9 Mar 2026"
+    },
+    {
+      "url": "https://www.co.gray.tx.us/page/gray.Archived.Elections",
+      "via": "fetch_module",
+      "content_hash": "0d17cb062fdabd15cf475fe0fe01743e36e2c54f41dfb5a0118a08bc2f092f5c",
+      "quote": "Election Results | Precinct 1 Results ... Precinct 7 Results | Preliminary Election Reconciliation",
+      "supports": "2024 report list"
+    },
+    {
+      "url": "https://www.co.gray.tx.us/upload/page/2023/FINAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "9fcdb4eb604b6a36d445b1ace98d4fd59715d2381805cf1beb65833bc7976015",
+      "quote": "Last-Modified Thu, 07 Nov 2024 14:08:18 GMT",
+      "supports": "2024_general county results posted 7 Nov 2024"
+    },
+    {
+      "url": "https://www.co.gray.tx.us/upload/page/2023/Precinct%201.pdf",
+      "via": "fetch_module",
+      "content_hash": "6b100e3d3820d12e6bcf6e74034bd2c402b44fd08f1b63fcc7363c631085a881",
+      "quote": "Last-Modified Thu, 21 Nov 2024 13:29:01 GMT",
+      "supports": "2024_general precinct results posted 21 Nov 2024"
+    }
+  ]
+}

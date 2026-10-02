@@ -12,3 +12,10 @@ Issues reported by agents during the full run, kept for the final report.
 - Washington runoff left UNDETERMINED: precinct report printed 9:38 PM election night but uploaded 11:17 AM next day.
 - Scanned PDFs read by rendering page 1 to an image (Ward, Webb, Wilson).
 - Rule breach: one direct curl to vanzandtcounty.org/robots.txt outside the fetch module (connection reset, nothing used).
+
+## Vendor agent (113 vendor-county rows across 72 counties; Clarity presence for all 254)
+- Clarity elections.json is unreliable as a fingerprint: 30 counties return 200 (22 non-empty lists, 8 empty: Bexar, Hunt, Jefferson, Kendall, Lubbock, Montague, Parker, Victoria), 221 return 404, 3 return 403 (Liberty, Potter, Wise). Clay and Robertson have Clarity folders without elections.json. Tarrant lists only May 2025 although its site links 2024 and 2026 Clarity elections.
+- The build container's egress proxy refuses plain http:// requests ("Host not in allowlist"). 173 SOS-listed county URLs are http://; 137 loaded over https. Counties whose sites are http-only cannot be read from this container (the Windows laptop is not affected).
+- soesoftware.com and scytl.us return empty 202 (bot challenge); businesswire.com 403; Dallas civicweb agenda disallowed by robots.txt (Dallas Scytl renewal remains a search lead only).
+- Added source: TX SOS "Voting Systems by County" PDF (revised 09/01/2026): ES&S 141 counties, Hart 113.
+- Rule breach: one direct curl to www.co.zavala.tx.us outside the fetch module (403, unused).

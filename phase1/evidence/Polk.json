@@ -1,0 +1,86 @@
+{
+  "county": "Polk",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.polktx.gov/313/Elections",
+  "platform": "county_pdfs",
+  "host": "www.polktx.gov",
+  "evidence_url": "https://www.polktx.gov/DocumentCenter/View/1105",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL www.co.polk.tx.us failed (https: certificate not valid for that host; http: HTTP 403). One web search located the current site www.polktx.gov (CivicPlus). No Clarity site (elections.json 404). The Elections page lists 'Cumulative Results-3-3-2026' and 'Precinct Results-3-3-2026', and 'Cumulative Results- 5-26-2026' and 'Precinct Results-5-26-2026'. Both precinct files are 'Precinct Results Report ... Unofficial Results' with per-precinct rows and Election Day votes, 'Precincts Reporting 22 of 22 = 100.00%': primary Run Time 9:53 PM Run Date 03/03/2026 (CreationDate Mar 4 03:53 UTC), runoff Run Time 9:28 PM Run Date 05/26/2026 (CreationDate May 27 02:28 UTC; file name 'Precinct-Results-5-26-2026-09-28-21-PM'). So precinct numbers with election-day votes were printed on election night, but the server stamps every response (PDFs included) with the request time as Last-Modified (e.g. Fri, 02 Oct 2026 15:44:54 GMT), so there is no evidence of when they were posted online; END versus LATER cannot be decided by check 2. The 'Election Results Portal' (polkcountyapps.net/easydocs/election/) returned HTTP 403. The 2024 general is not listed on the current Elections or Election Results pages. Check 3 pending: origin/wayback-data not present.",
+  "tag_rationale": "No election could be determined (unofficial precinct reports printed on election night but no upload time; 2024 not listed; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Not listed on the current Elections or Election Results pages; the Election Results Portal returned HTTP 403. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.polktx.gov/DocumentCenter/View/1105",
+      "fact": "'Precinct Results Report ... Unofficial Results POLK COUNTY, TEXAS PRIMARY ELECTION ... Precincts Reporting 22 of 22 = 100.00% Run Time 9:53 PM Run Date 03/03/2026' with per-precinct rows; upload time unknown (server Last-Modified is the request time). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.polktx.gov/DocumentCenter/View/1298",
+      "fact": "'Precinct Results Report ... Unofficial Results PRIMARY RUNOFF ELECTION ... Precincts Reporting 22 of 22 = 100.00% Run Time 9:28 PM Run Date 05/26/2026' with per-precinct rows; upload time unknown (server Last-Modified is the request time). Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.polktx.gov/313/Elections",
+      "via": "fetch_module",
+      "quote": "Cumulative Results-3-3-2026; Precinct Results-3-3-2026; Cumulative Results- 5-26-2026; Precinct Results-5-26-2026",
+      "supports": "report list",
+      "content_hash": "a34321f80dcda17dcf958482b2b55ffa8587b1cf0878465ea5080183e2c74f66"
+    },
+    {
+      "url": "https://www.polktx.gov/DocumentCenter/View/1105",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report Unofficial Results ... Run Time 9:53 PM Run Date 03/03/2026",
+      "supports": "primary precinct report printed on election night; upload time unknown",
+      "content_hash": "d2e8af9186c00a3ffed32f64b71816a64c21b71f366b2b54f4bd898d918e67f4"
+    },
+    {
+      "url": "https://www.polktx.gov/DocumentCenter/View/1298",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report Unofficial Results ... Run Time 9:28 PM Run Date 05/26/2026",
+      "supports": "runoff precinct report printed on election night; upload time unknown",
+      "content_hash": "c110460d6a3c3c0ffc05375ea1495271d58e055172bf531cad9ea889fd2f013d"
+    },
+    {
+      "url": "http://polkcountyapps.net/easydocs/election/",
+      "via": "fetch_module",
+      "quote": "HTTP 403",
+      "supports": "results portal blocked",
+      "content_hash": "14cefe6399ba574d9ae703aebac317886c13487f61ea373bb1ff9d6b08061ffa"
+    },
+    {
+      "url": "websearch:?q=polk%20county%20texas%20county%20clerk%20election%20results",
+      "via": "websearch",
+      "quote": "Cumulative Results Report Unofficial Results Run Time Run Date 9:52 PM https://www.polktx.gov/DocumentCenter/View/1104",
+      "supports": "locating only",
+      "content_hash": "2efecb3f2feffa71e12738a6fdc484b42d0d676efdc1d84310742f047e234b47"
+    }
+  ]
+}
