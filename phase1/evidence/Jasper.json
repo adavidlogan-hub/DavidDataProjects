@@ -1,0 +1,72 @@
+{
+  "county": "Jasper",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.jasper.tx.us/page/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.jasper.tx.us",
+  "evidence_url": "https://www.co.jasper.tx.us/upload/page/0095/3326%20Unofficial%20Summary%20Totals.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "County Elections page (co.jasper.tx.us) links 'Election Results/Voting History' to the SOS historical site and posts PDFs for 2026 only. 2026 primary: 'Unofficial Totals' = Electionware Summary Results Report, county totals (scan CreationDate 2026-03-04 18:29 UTC, Last-Modified Thu, 05 Mar 2026 21:41:18 GMT); 'Official PCT by PCT Results' (CreationDate 2026-03-10, Last-Modified Fri, 20 Mar 2026 19:00:51 GMT) is the only precinct file. 2026 runoff: only 'Official Summary Results', 'Official Pct by Pct Results', canvass notice and audit certification; no unofficial or election-night file. 2024 general: no results on the page. No Clarity link. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "Only the 2026 primary is determined (LATER: unofficial county totals, precinct numbers only in the official file), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low as the rule requires for one determined election.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.co.jasper.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "e9bb0d215d7a870aae91ca63654ab6af9ac300fe5ffe880a54577087aa9606e0",
+      "quote": "Official Summary Results (PDF); Official Pct by Pct Results (PDF); Official PCT by PCT Results (PDF); Unofficial Totals (PDF)",
+      "supports": "Results files listed per election"
+    },
+    {
+      "url": "https://www.co.jasper.tx.us/upload/page/0095/3326%20Unofficial%20Summary%20Totals.pdf",
+      "via": "fetch_module",
+      "content_hash": "ff7b5424d40b1fa7af8fc0f85981155f9a23f9d37b56decec4e81286d120a9ca",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election ... Jasper County, Texas",
+      "supports": "Primary unofficial results are county totals"
+    },
+    {
+      "url": "https://www.co.jasper.tx.us/upload/page/0095/2026%20elections/3326%20Official%20Pct%20by%20Pct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "ded276b4a371cacfb123535e633966c2c23db00653b65ce7735cd5089e890b5d",
+      "quote": "Summary Results Report OFFICIAL RESULTS 2026 Primary Election ... Pct # 1 Three Corners",
+      "supports": "Primary precinct numbers posted at the official stage"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results on the county Elections page (it links the SOS historical results site). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-05 15:41 CT (upload)",
+      "precinct_first_seen": "2026-03-20 14:00 CT (official, upload)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.jasper.tx.us/upload/page/0095/3326%20Unofficial%20Summary%20Totals.pdf",
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Jasper County, Texas ... Election Day Precincts Reporting 20 of 20 ... Ballots Cast - Total 6,289 130 3,725 2,434' (county totals), Last-Modified Thu, 05 Mar 2026 21:41:18 GMT. Precinct numbers appear only in 'Summary Results Report OFFICIAL RESULTS ... Pct # 1 Three Corners', CreationDate 2026-03-10, Last-Modified Fri, 20 Mar 2026 19:00:51 GMT."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only official runoff files are posted ('5-26-2026 Official Summary Results', '5-26-2026 Official Pct by Pct Results'); nothing shows what was published on election night. Check 3 pending."
+    }
+  }
+}

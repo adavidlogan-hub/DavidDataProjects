@@ -1,0 +1,79 @@
+{
+  "county": "Brazos",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://elections.brazoscountytx.gov/results/",
+  "platform": "county_pdfs",
+  "host": "elections.brazoscountytx.gov",
+  "evidence_url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/05/Unofficial-Cumulative-Results-05262026.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed www.brazosvotes.org redirects to elections.brazoscountytx.gov. No Clarity site (elections.json 404). The Results page posts Hart-style Cumulative Results Reports (county totals) as 'Unofficial' and 'Official'. Files for elections before May 2026 were re-uploaded in April 2026 as ADA 'accessible' versions (wp-content/uploads/2026/04), so they carry no election-night upload time. 2026 primary: besides the unofficial cumulative (Run Time 9:28 PM 3/3/2026), per-location 'Precinct Report 3-3-26' files are posted, but only as April 2026 re-uploads, so whether precinct numbers appeared on election night cannot be decided; check 3 pending. 2024 general: the only unofficial file is a cumulative report run 10:15 AM Nov 6 and no precinct-level report is posted. 2026 runoff: unofficial cumulative county totals run 9:09 PM and uploaded 10:15 PM CDT; no precinct report posted.",
+  "tag_rationale": "2024 general and 2026 runoff are both LATER (county totals only, no precinct numbers posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because the 2024 evidence has no election-night upload time.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 10:15 CT (printed run time)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-11-6-2024-10-15-52-AM-accessible.pdf",
+      "fact": "'Nov. 5, 2024 General and Special Elections - Cumulative Results Report (Unofficial)' = 'Cumulative Results Report Brazos County Unofficial Results 2024 November 5th General and Special Elections ... Precincts Reporting 125 of 125 = 100.00% Run Time 10:15 AM' (county totals); re-uploaded Tue, 07 Apr 2026. Other 2024 general files are Official Cumulative and reconciliations; no precinct-level report is posted."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Unofficial Cumulative Results Report Run Time 9:28 PM 3/3/2026 (county totals) and per-location 'Precinct Report 3-3-26' PDFs are posted, all re-uploaded April 2026 (Last-Modified Mon, 06 Apr 2026), so election-night publication of precinct numbers cannot be decided. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 22:15 CT (server upload; printed 21:09)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/05/Unofficial-Cumulative-Results-05262026.pdf",
+      "fact": "'May 26, 2026 Primary Runoff Election - Cumulative Results (Unofficial)' = 'Cumulative Results Report Brazos County Unofficial Results 2026 May 26th Run-Off Primary Election ... Precincts Reporting 79 of 79 = 100.00% Run Time 9:09 PM 5/26/2026' (county totals); Last-Modified Wed, 27 May 2026 03:15:57 GMT. Only other runoff results file is 'Cumulative Results (Official)'; no precinct report."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://elections.brazoscountytx.gov/results/",
+      "via": "fetch_module",
+      "quote": "May 26, 2026 Primary Runoff Election - Cumulative Results (Unofficial); March 3, 2026 - A&M Church of Christ (Precinct Report); Nov. 5, 2024 General and Special Elections - Cumulative Results Report (Unofficial)",
+      "supports": "County-posted report list (dashes normalized)",
+      "content_hash": "9142ea0ec67647df2c5da1528f070f7522dbc0d6670aa38e024586d4a5f4bc95"
+    },
+    {
+      "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/05/Unofficial-Cumulative-Results-05262026.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report Brazos County Unofficial Results ... Precincts Reporting 79 of 79 = 100.00% Run Time 9:09 PM 5/26/2026",
+      "supports": "Runoff election-night county totals uploaded 10:15 PM CDT",
+      "content_hash": "97aedc0514ad60cbb233adff393b323a33928b5281064a6898a44161da1d04a1"
+    },
+    {
+      "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-3-2026-accessible.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report Brazos County Unofficial Results 2026 March 3rd Primary Election ... Run Time 9:28 PM 3/3/2026",
+      "supports": "Primary unofficial county totals (re-uploaded April 2026)",
+      "content_hash": "56f4f8bfde9c1cb930a58f2755ec86ed25cf41119124e03cab5be457d662e4f3"
+    },
+    {
+      "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-11-6-2024-10-15-52-AM-accessible.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report Brazos County Unofficial Results 2024 November 5th General and Special Elections ... Run Time 10:15 AM",
+      "supports": "2024 unofficial county totals printed next morning",
+      "content_hash": "4fc6827896516f1631feb4d19d115dbf99ef2f509ffba21a0a25df1714426a0c"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "county": "Delta",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.deltacountytx.com/elections/page/election-results",
+  "platform": "unknown",
+  "host": "www.deltacountytx.com",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed https://www.deltacountytx.com/ returns HTTP 403 (bot protection); one web search found the results page https://www.deltacountytx.com/elections/page/election-results, which also returns 403. Not worked around, per brief. No vendor site found. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "No election could be determined because the county site refused access, so the tag is UNKNOWN.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county site returns HTTP 403 to the fetch module for both the home page and the Election Results page, so no reports could be listed. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county site returns HTTP 403 to the fetch module for both the home page and the Election Results page, so no reports could be listed. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county site returns HTTP 403 to the fetch module for both the home page and the Election Results page, so no reports could be listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.deltacountytx.com/elections/page/election-results",
+      "via": "fetch_module",
+      "content_hash": "c33329ba1ead3d7538445a2496469dce8a5a90c6112c72aa7f523c1e60b2d10b",
+      "quote": "HTTP 403",
+      "supports": "County results page refuses the fetch module"
+    },
+    {
+      "url": "websearch:?q=delta%20county%20texas%20election%20results",
+      "via": "websearch",
+      "content_hash": "a83c355887ddf79d2aab7bc4fc5318ef27921d34eb2fa1aaef71af3e4295808e",
+      "quote": "Election Results | https://www.deltacountytx.com/elections/page/election-results",
+      "supports": "Located the county results page (search text is not evidence)"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "county": "Parmer",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://parmercounty.texas.gov/?page_id=334",
+  "platform": "county_pdfs",
+  "host": "parmercounty.texas.gov",
+  "evidence_url": "https://parmercounty.texas.gov/?page_id=334",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The county Elections page has an 'ELECTION NIGHT RESULTS' heading whose only link is 'Election Night Results' -> https://results.texas-election.com/landing-page (the SOS results site), followed by a results list with one official file per election: 'Nov 5, 2024 General Election' (Official Results, precinct-by-precinct 'Pct.101' etc., created Jan 27 2025, Last-Modified Wed, 29 Jan 2025 16:27:00 GMT), 'March 3rd 2026 Primary Election' (Summary Results Report OFFICIAL RESULTS, county totals, created and Last-Modified Thu, 19 Mar 2026 19:27:22 GMT), 'May 26th 2026 Primary Runoff Election' (OFFICIAL RESULTS with precinct '101' page, created Jun 15 2026, Last-Modified Mon, 15 Jun 2026 21:36:53 GMT). So on election night the county points voters to the SOS site for results, and its own precinct numbers (where posted) come weeks later. The county does post its own official results, so NONE does not fit; LATER is used. It cannot be fully excluded that an election-night file was posted and later replaced, hence confidence low. The HTML page's Last-Modified (Thu, 01 Oct 2026 21:03:45 GMT, cached by another agent) is not used.",
+  "tag_rationale": "All three elections are LATER by check 2 (election-night results only via the SOS link; county precinct numbers posted weeks later or not at all), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://parmercounty.texas.gov/wp-content/uploads/2025/01/11524-General-Election-Official-Results.pdf",
+      "fact": "Only file: 'Summary Results Report OFFICIAL RESULTS TX Parmer County 241105 General 6110 ... Pct.X Pct.' with precinct pages ('Pct.101'); CreationDate Jan 27 2025; Last-Modified Wed, 29 Jan 2025 16:27:00 GMT. Election night results linked to the SOS site."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://parmercounty.texas.gov/wp-content/uploads/2026/03/Official-Results-Primary-2026-2-1.pdf",
+      "fact": "Only file: 'Summary Results Report Primary 2026 OFFICIAL RESULTS TX PARMER 260303 Primary 6110', county totals; Last-Modified Thu, 19 Mar 2026 19:27:22 GMT. Precinct numbers never published online by the county; election night results linked to the SOS site."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://parmercounty.texas.gov/wp-content/uploads/2026/06/Officail-Results-5-26-26.pdf",
+      "fact": "Only file: 'Summary Results Report OFFICIAL RESULTS TX Parmer 260526 Primary Runoff 6110' with a precinct '101' page; CreationDate Jun 15 2026; Last-Modified Mon, 15 Jun 2026 21:36:53 GMT. Election night results linked to the SOS site."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://parmercounty.texas.gov/?page_id=334",
+      "via": "fetch_module",
+      "quote": "ELECTION NIGHT RESULTS ... Election Night Results -> https://results.texas-election.com/landing-page; Nov 5, 2024 General Election; March 3rd 2026 Primary Election; May 26th 2026 Primary Runoff Election",
+      "supports": "election-night results via SOS; one official file per election",
+      "content_hash": "3e65f211de17901b6af8c24ca0ab1893f63eb749d622fc0865a2a4c0b7a73333"
+    },
+    {
+      "url": "https://parmercounty.texas.gov/wp-content/uploads/2025/01/11524-General-Election-Official-Results.pdf",
+      "via": "fetch_module",
+      "quote": "OFFICIAL RESULTS TX Parmer County 241105 General ... Pct.101",
+      "supports": "2024 precinct numbers in January 2025",
+      "content_hash": "4a1fe4e81ffa642021b472fe10f2e7c0ba5ddadb9e32bf68d59a33d2e0811c3e"
+    },
+    {
+      "url": "https://parmercounty.texas.gov/wp-content/uploads/2026/03/Official-Results-Primary-2026-2-1.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report Primary 2026 OFFICIAL RESULTS",
+      "supports": "2026 primary county totals, March 19",
+      "content_hash": "5a82e6cc3e84e0fe12ce0b48f3ef044221e6ad8c35c6b9bb349825c404b237b6"
+    },
+    {
+      "url": "https://parmercounty.texas.gov/wp-content/uploads/2026/06/Officail-Results-5-26-26.pdf",
+      "via": "fetch_module",
+      "quote": "OFFICIAL RESULTS TX Parmer 260526 Primary Runoff",
+      "supports": "2026 runoff official results, June 15",
+      "content_hash": "5e8295735674c8803d966bc2ed6f7b6965c9f7826a02b2b8d7403701166831ff"
+    }
+  ]
+}

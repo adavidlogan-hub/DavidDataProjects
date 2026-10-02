@@ -1,0 +1,79 @@
+{
+  "county": "Foard",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.foardcounty.texas.gov/page/Elections",
+  "platform": "county_pdfs",
+  "host": "www.foardcounty.texas.gov",
+  "evidence_url": "https://www.foardcounty.texas.gov/upload/page/0086/2026/Cumulative%20Results%20Report%20Unofficial%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "The seed list has no website for Foard; www.co.foard.tx.us and www.foardcounty.gov were refused by the fetch module (robots disallowed or unreachable). One web search found www.foardcounty.texas.gov, whose Elections and Past Elections pages load. No Clarity site (elections.json 404). 2026 primary: 'Cumulative Results Report Unofficial Results' is an 18-page scanned report headed 'ELECTION NIGHT', 'Run Time 1:34 PM Run Date 03/04/2026', 'Precincts Reporting 4 of 4', county totals by Absentee/Early/Election Day only; Last-Modified Wed, 04 Mar 2026 20:45:29 GMT (2:45 PM CST next day); the only other primary result is 'March Primary Cumulative Results- Official'. 2026 runoff: the link 'Unofficial Results Primary Run-Off Election.' points to a 'Notice of Delivery of Balloting Materials to Signature Verification Committee' file, so no runoff unofficial results are readable; 'Official Results for Primary Party Run-Off Election' is also listed. 2024 general: neither page lists 2024 general results. Check 3 pending (origin/wayback-data not present).",
+  "tag_rationale": "Only the 2026 primary is determined (LATER by check 2, county totals only, no precinct results posted), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No 2024 general results listed on the Elections or Past Elections pages (only 'Order of General Election 2024'). Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 14:45 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.foardcounty.texas.gov/upload/page/0086/2026/Cumulative%20Results%20Report%20Unofficial%20Results.pdf",
+      "fact": "'Cumulative Results Report Unofficial Results': 'Cumulative Results Report FOARD COUNTY, TEXAS PRIMARY ELECTION ELECTION NIGHT ... Run Time 1:34 PM Run Date 03/04/2026 ... Precincts Reporting 4 of 4 = 100.00%', county totals; Last-Modified Wed, 04 Mar 2026 20:45:29 GMT. No precinct results posted (never published online).",
+      "precinct_first_seen": ""
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'Unofficial Results Primary Run-Off Election.' links to '/upload/page/0086/2026/Notice of Delivery of Balloting Materials to Signature Verification Committee.pdf'; 'Official Results for Primary Party Run-Off Election.' also listed (not opened). Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.foardcounty.texas.gov/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "52230011323c8dbb660ba71606605282bd8b9f6163af29705d5a7655171b1789",
+      "quote": "Cumulative Results Report Unofficial Results ... March Primary Cumulative Results- Official ... Unofficial Results Primary Run-Off Election.",
+      "supports": "2026 report lists"
+    },
+    {
+      "url": "https://www.foardcounty.texas.gov/upload/page/0086/2026/Cumulative%20Results%20Report%20Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "4671dcc0b76f64c281d3789eb99092f7b80fd36045b1a757a284dd14c209b7c2",
+      "quote": "Cumulative Results Report FOARD COUNTY, TEXAS PRIMARY ELECTION ELECTION NIGHT Run Time 1:34 PM Run Date 03/04/2026",
+      "supports": "2026_primary county totals posted next day"
+    },
+    {
+      "url": "https://www.foardcounty.texas.gov/page/Elections.Past",
+      "via": "fetch_module",
+      "content_hash": "bb6693e891fb1d28369077b00265effaf9a2f1b17eaae17d5731c11889a9ec76",
+      "quote": "Order of General Election 2024",
+      "supports": "no 2024 results listed"
+    },
+    {
+      "url": "websearch:?q=foard%20county%20texas%20election%20results",
+      "via": "websearch",
+      "content_hash": "62beca69d63586f7196947e519f2fdc2b8f337e035f02d73ededdf1f022e96f7",
+      "quote": "Elections | https://www.foardcounty.texas.gov/page/Elections",
+      "supports": "locating the county site only"
+    }
+  ]
+}

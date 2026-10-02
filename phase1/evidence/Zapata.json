@@ -1,0 +1,72 @@
+{
+  "county": "Zapata",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.zapata.tx.us/",
+  "platform": "county_pdfs",
+  "host": "www.co.zapata.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). Results are posted on the county home page (the Elections page holds notices only). 2026 primary: 'ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - REP/DEM' scanned PDFs (Republican: CreationDate 2026-03-04 21:08 UTC, Last-Modified Wed, 04 Mar 2026 20:42:37 GMT, the day after), then official versions. 2026 runoff (labelled 'March 26, 2026 - Primary Runoff Election' on the page): 'UNOFFICIAL ... CUMULATIVE RESULTS' scan, Last-Modified Thu, 28 May 2026 17:38:38 GMT (two days after), then official cumulative and canvass reports. 2024 general: no results listed. No unofficial file was uploaded on election night per the server times, but whether something else was posted that night and replaced cannot be told. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined by checks 1 and 2 (unofficial files uploaded after election night; 2024 not listed; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results listed on the county site. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - REP' scan, Last-Modified 2026-03-04 20:42:37 GMT (after election night). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'2026 Primary Runoff Election - unofficial' cumulative scan, Last-Modified 2026-05-28 17:38:38 GMT (after election night). Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.zapata.tx.us/",
+      "via": "fetch_module",
+      "content_hash": "51322b6212f32ed74c19fb5334cdf64dce0ba623ed909d3e193a07a9656c8e74",
+      "quote": "UNOFFICIAL Zapata County March 26, 2026 - Primary Runoff Election CUMULATIVE RESULTS ... UNOFFICIAL Zapata County March 3, 2026 - Primary Election DEMOCRATIC | REPUBLICAN",
+      "supports": "report list"
+    },
+    {
+      "url": "https://www.co.zapata.tx.us/upload/page/6434/docs/2026%20Primary%20Runoff%20Election%20-%20unofficial.pdf",
+      "via": "fetch_module",
+      "content_hash": "24e540201e2688484665d851abfa3cdce8761572da77a8a6fdd623911758cbbe",
+      "quote": "Last-Modified: Thu, 28 May 2026 17:38:38 GMT (RICOH scan)",
+      "supports": "runoff unofficial uploaded after election night"
+    },
+    {
+      "url": "https://www.co.zapata.tx.us/upload/page/6434/docs/ZAPATA%20COUNTY%20UNOFFICIAL%20-%20MARCH%202026%20-%20REP.pdf",
+      "via": "fetch_module",
+      "content_hash": "2427c154cadf86ef4a02c464ed75fd3391828ffdf3f169abbea32257e8fc36e9",
+      "quote": "Last-Modified: Wed, 04 Mar 2026 20:42:37 GMT (RICOH scan)",
+      "supports": "primary unofficial uploaded after election night"
+    }
+  ]
+}

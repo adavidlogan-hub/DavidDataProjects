@@ -1,0 +1,72 @@
+{
+  "county": "Williamson",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.wilcotx.gov/292/Results-Archive",
+  "platform": "vendor_hosted",
+  "host": "www.livevoterturnout.com",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed www.wilco.org/Departments/Elections redirects to www.wilcotx.gov/elections. The Results Archive page links the county's election night results site on livevoterturnout.com: November 5, 2024 Joint General and Special Elections -> /ENR/williamsontxenr/3/, March 3, 2026 Primary -> /11/, May 26, 2026 Primary Runoff -> /14/. The runoff site (read) is a static 'Unofficial Election Results' page with per-precinct tabs ('Precinct: 116 116 Reporting') and a single 'Website Updated: 6/2/2026 11:19:37 AM' stamp; it exposes no dated update history, so it cannot show when precinct numbers first appeared. The check 1 script found 2024 general and 2026 primary not listed on Clarity; Clarity lists one Williamson election '2026 May Primary Runoff' (EID 127277) whose four readable updates are dated 8/27/2026 and 9/30/2026 (177 precincts with votes), none on election night, and the county site does not link it, so it says nothing about election night. Other Results Archive links are reconciliation forms and hand count audits. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined (the vendor results site shows only a final publish time and no update history; Clarity has no election-night updates; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Results Archive links 'November 5, 2024 Joint General and Special Elections' to livevoterturnout.com/ENR/williamsontxenr/3/; no dated update history available. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Results Archive links 'March 3, 2026 Primary Election' to livevoterturnout.com/ENR/williamsontxenr/11/; no dated update history available. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "livevoterturnout.com/ENR/williamsontxenr/14/ shows precinct-level results with 'Website Updated: 6/2/2026 11:19:37 AM' only; Clarity EID 127277 updates dated 8/27/2026 and later. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.wilcotx.gov/292/Results-Archive",
+      "via": "fetch_module",
+      "content_hash": "bee22327041243fe5a3cd3fa1ee62577f291e835f1e42e4dc8f9b4317fc4c0f0",
+      "quote": "November 5, 2024 Joint General and Special Elections ; March 3, 2026 Primary Election ; May 26, 2026 Primary Runoff Election (livevoterturnout.com links)",
+      "supports": "county results locations"
+    },
+    {
+      "url": "https://www.livevoterturnout.com/ENR/williamsontxenr/14/en/Index_14.html",
+      "via": "fetch_module",
+      "content_hash": "6f75257a42efb51f82ba60383dafb76c3806282c8c45a4a125f786d5f20d0691",
+      "quote": "Website Updated: 6/2/2026 11:19:37 AM ... Precinct: 116 116 Reporting",
+      "supports": "vendor site has precinct results but no update history"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Williamson/elections.json",
+      "via": "clarity_script",
+      "content_hash": "bac19933a806b76561ef9b4cc9436ba2b6d876d5e61847533238627f4786be68",
+      "quote": "2026 May Primary Runoff (127277): 0/0 night updates with precinct votes; first 8/27/2026 11:05:08 AM CDT",
+      "supports": "Clarity has no election-night data for Williamson"
+    }
+  ]
+}

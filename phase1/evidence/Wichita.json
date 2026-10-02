@@ -1,0 +1,58 @@
+{
+  "county": "Wichita",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://wichitacountytx.com/election_info/election-results-archive/",
+  "platform": "unknown",
+  "host": "wichitacountytx.com",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The county site returns HTTP 403 to every fetch (seed https://wichitacountytx.com/elections/, the www variant, and the Election Results Archive page located by one web search), so it is treated as bot protection and not worked around. No vendor results site was found. Check 2 failed for this county. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined because the county site returned HTTP 403 and there is no Clarity site; check 3 pending, so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site HTTP 403. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site HTTP 403. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site HTTP 403. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "websearch:?q=wichita%20county%20texas%20election%20results%202026%20primary%20unofficial%20precinct",
+      "via": "websearch",
+      "content_hash": "cdbb30423d9db38efa7fa259fe4c1cae76e934fb004daad87537a34e87d3d746",
+      "quote": "Election Results Archive https://wichitacountytx.com/election_info/election-results-archive/",
+      "supports": "location of county results page only (returned HTTP 403)"
+    }
+  ]
+}

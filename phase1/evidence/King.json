@@ -1,0 +1,72 @@
+{
+  "county": "King",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.king.tx.us/",
+  "platform": "county_pdfs",
+  "host": "www.co.king.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No website in the SOS seed list. One web search found no King County, Texas site; the conventional domain www.co.king.tx.us was unreachable at first (robots.txt connection reset) and loaded on a later retry. Its home page lists election files. 'Republican Election Totals' (Last-Modified Wed, 18 Mar 2026 15:29:07 GMT, scanned, read visually) is actually a '2020 King County General Election Results-- NOV 3' table with per-precinct EV and ED columns, not 2026 results. '28 May 2026 Canvas Runoff Election' (Last-Modified 27 May 2026) is a notice of the canvass meeting ('CANVASS OF MAY 26, 2026 ... Thursday, May 28, 2026, at 10:00 a.m.'), not results. 'Election Results' (King Co Elecetion Results.pdf) has Last-Modified 10 Jul 2024, before the 2024 general. No results for the three target elections were found. No Clarity site (elections.json 404). Check 3 pending.",
+  "tag_rationale": "No election was determined (all UNDETERMINED), so the rule gives UNKNOWN.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; no results for this election found on the county site"
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; no results for this election found on the county site"
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; no results for this election found on the county site"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.king.tx.us/",
+      "via": "fetch_module",
+      "content_hash": "88a8c64dae5f77f50b9293f8de1482feaf369ddbf56991f5aa5198c0a5ee4011",
+      "quote": "28 May 2026 Canvas Runoff Election | Republican Election Totals | Democratic Election Totals | Election Results",
+      "supports": "files listed on the county home page"
+    },
+    {
+      "url": "https://www.co.king.tx.us/upload/page/9611/Republican%20Election%20Totals.pdf",
+      "via": "fetch_module",
+      "content_hash": "039408d181ff72e5c358392be0b92396a7bcef49e0186627aff6d9a178281805",
+      "quote": "2020 King County General Election Results-- NOV 3",
+      "supports": "file labelled Republican Election Totals holds 2020 results"
+    },
+    {
+      "url": "https://www.co.king.tx.us/upload/page/9611/26%20May%202026%20Canvas%20Runoff%20Election.pdf",
+      "via": "fetch_module",
+      "content_hash": "13295fcb351f4351a03b3d149a816892abe70d8332d892abc8291f42bac7618a",
+      "quote": "CANVASS OF MAY 26, 2026 REPUBLICAN & DEMOCRAT PRIMARY RUNOFF ELECTIONS Thursday, May 28, 2026, at 10:00 a.m.",
+      "supports": "runoff file is a canvass notice"
+    }
+  ]
+}

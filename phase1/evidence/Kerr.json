@@ -1,0 +1,58 @@
+{
+  "county": "Kerr",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://legacy.co.kerr.tx.us/elections/results/",
+  "platform": "county_pdfs",
+  "host": "legacy.co.kerr.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.kerr.tx.us/elections/ is unreachable (proxy CONNECT rejected / robots unreachable). Current site www.kerrcountytx.gov Elections page loads and links 'Elections Results' at https://legacy.co.kerr.tx.us/elections/results/ plus 'Official Republican Primary Run-Off Election Results 05/26/2026' and 'Official Democratic Primary Run-Off Election Results 05/26/2026' (legacy.co.kerr.tx.us/elections/docs/2026-05-26/...) and SOS results. The legacy host fails TLS certificate verification in the fetch module (CERTIFICATE_VERIFY_FAILED, unable to get local issuer certificate); http also fails, so no report list or upload times could be read. Platform county_pdfs is from the link paths only. Clarity elections.json 404. Check 3 pending.",
+  "tag_rationale": "No election was determined (all UNDETERMINED), so the rule gives UNKNOWN.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; results files are on legacy.co.kerr.tx.us, which the fetch module cannot read (TLS certificate verification failure)"
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; results files are on legacy.co.kerr.tx.us, which the fetch module cannot read (TLS certificate verification failure)"
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; results files are on legacy.co.kerr.tx.us, which the fetch module cannot read (TLS certificate verification failure)"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.kerrcountytx.gov/voting-in-kerr-county/kerr-county-elections",
+      "via": "fetch_module",
+      "content_hash": "f098ed5b405fe53e65e4b59db1511dd3e815d8850e95ace8b3ec7df90ead3320",
+      "quote": "Elections Results | https://legacy.co.kerr.tx.us/elections/results/ ; Official Republican Primary Run-Off Election Results 05/26/2026",
+      "supports": "location of results files"
+    }
+  ]
+}

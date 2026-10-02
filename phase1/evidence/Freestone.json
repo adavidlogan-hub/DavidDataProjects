@@ -1,0 +1,65 @@
+{
+  "county": "Freestone",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.freestone.tx.us/page/freestone.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.freestone.tx.us",
+  "evidence_url": "https://www.co.freestone.tx.us/upload/page/1902/2024/unofficial_official_results_1152024.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL (http default.aspx) was not used; https://www.co.freestone.tx.us/page/freestone.Elections loads and lists results PDFs in sections per election. No Clarity site (elections.json 404). 2024 general: 'Unofficial Results' is a scanned Electionware 'Summary Results Report TX Freestone 241105 General 6110 ... UNOFFICIAL RESULTS' (county totals by Absentee/Early/Election Day/Provisional, 'Election Day Precincts Reporting 20 of 20'), footer 'Election Summary - 11/05/2024 10:18 PM', scanned 6 Nov 2024 18:42 UTC, Last-Modified Wed, 06 Nov 2024 19:00:12 GMT (1:00 PM CST next day); precinct numbers appear only in 'OFFICIAL PRECINCT BY PRECINCT TOTALS - PART 1/2' (canvass). 2026 primary: the section lists only 'OFFICIAL RESULTS' files (Democratic/Republican state, props, county) and voter lists; no unofficial report remains. 2026 runoff: the section's 'UNOFFICIAL RESULTS' link (/upload/page/1902/EV ED BBM ELECTION TOTAL ALL0001.pdf) returned HTTP 404; 'PRECINCT BY PRECINCT' appears as text without a link. Last-Modified values differ per file, so they are real upload times. Check 3 pending (origin/wayback-data not present).",
+  "tag_rationale": "Only the 2024 general is determined (LATER by check 2, county totals only, precinct numbers at canvass), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 13:00 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.freestone.tx.us/upload/page/1902/2024/unofficial_official_results_1152024.pdf",
+      "fact": "'Unofficial Results': 'Summary Results Report TX Freestone 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS ... Election Day Precincts Reporting 20 of 20 ... Ballots Cast - Total 9,036 215 6,715 2,106', footer 'Election Summary - 11/05/2024 10:18 PM'; Last-Modified Wed, 06 Nov 2024 19:00:12 GMT. Precinct numbers only in 'OFFICIAL PRECINCT BY PRECINCT TOTALS' (after canvass).",
+      "precinct_first_seen": ""
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Section lists 'OFFICIAL RESULTS DEMOCRATIC STATE', 'OFFICIAL RESULTS REPUBLICAN STATE', 'OFFICIAL RESULTS DEMOCRATIC AND REPUBLICAN PROPS.', 'OFFICIAL RESULTS REPUBLICAN & DEMOCRATIC COUNTY ONLY'; no election-night report. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'PRIMARY RUNOFF MAY 26, 2026' section: 'UNOFFICIAL RESULTS' link returned HTTP 404; 'PRECINCT BY PRECINCT' listed without a link. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.freestone.tx.us/page/freestone.Elections",
+      "via": "fetch_module",
+      "content_hash": "a68dc959e78a5b0071f0008754e3cc7441931e0642a07d4665da58ee865c858e",
+      "quote": "NOVEMBER 5, 2024 GENERAL ELECTION ... OFFICIAL PRECINCT BY PRECINCT TOTALS - PART 1 ... PRIMARY RUNOFF MAY 26, 2026 ... PRECINCT BY PRECINCT ... UNOFFICIAL RESULTS OFFICIAL RESULTS",
+      "supports": "report lists"
+    },
+    {
+      "url": "https://www.co.freestone.tx.us/upload/page/1902/2024/unofficial_official_results_1152024.pdf",
+      "via": "fetch_module",
+      "content_hash": "49c753ba1c2d2321437e7e86ca217681ef71c4c03752b5e7b51648a421f15b99",
+      "quote": "Summary Results Report TX Freestone 241105 General 6110 ... UNOFFICIAL RESULTS ... Election Summary - 11/05/2024 10:18 PM",
+      "supports": "2024_general county totals, uploaded next day"
+    }
+  ]
+}

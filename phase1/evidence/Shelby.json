@@ -1,0 +1,86 @@
+{
+  "county": "Shelby",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.shelby.tx.us/page/shelby.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.shelby.tx.us",
+  "evidence_url": "https://www.co.shelby.tx.us/upload/page/2753/2026NewFolder/Unofficial Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https; all results are on page/shelby.Elections. No Clarity site (elections.json 404). Server Last-Modified values differ by file and generally follow PDF creation times, so upload times are usable. The Electionware footer clock appears to run ahead of the server clock (the primary summary footer says 11:00 PM but the file was on the server at 10:36 PM CST; the precinct report footer says 6:29 PM Mar 4 but Last-Modified is 4:11 PM CST Mar 4); either way the primary precinct report is from Mar 4. Confidence med follows the pilot practice (Hudspeth) where at least one deciding election has both a printed run time and an election-night upload (the 2026 primary); the 2024 and runoff uploads are next-day.",
+  "tag_rationale": "All three elections are LATER by check 2 (county totals only on or after election night, precinct reports the next day or never), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the 2026 primary night report has a printed run time and an election-night upload time.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 08:20 CT (upload of report printed 2024-11-05 21:25)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.shelby.tx.us/upload/page/2753/2024/11-5-24 unofficial results Shelby County.pdf",
+      "fact": "'Unofficial Results for Shelby County 11-5-24 General Election, including Center ISD and City' = scanned Electionware 'Summary Results Report TX Shelby 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS EV-ABS-City-School Shelby County', county totals, footer 'Election Summary - 11/05/2024 9:25 PM'; Last-Modified Wed, 06 Nov 2024 14:20:00 GMT (8:20 AM CST Nov 6). No precinct report for the 2024 general is posted (never published online as far as the site shows)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 22:36 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.shelby.tx.us/upload/page/2753/2026NewFolder/Unofficial Results.pdf",
+      "fact": "'Unofficial Results of the March 3, 2026 Primary' = scanned Electionware 'Election Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Shelby County' (county totals; 'Election Day Precincts Reporting 14 of 14'), footer 'Election Summary - 03/03/2026 11:00 PM'; Last-Modified Wed, 04 Mar 2026 04:36:52 GMT (10:36 PM CST Mar 3). Precinct numbers: 'March 2026 Primary Precinct by Precinct Report - Unofficial Results' = 'Precinct Summary Results Report UNOFFICIAL RESULTS ... PCT 1N ...', footer 'Precinct Summary - 03/04/2026 6:29 PM', Last-Modified Wed, 04 Mar 2026 22:11:44 GMT (4:11 PM CST Mar 4), after election night."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.shelby.tx.us/upload/page/2753/2026NewFolder/Pct by Pct Unofficial Results.pdf",
+      "fact": "'May 2026 Primary Runoff Precinct by Precinct Report - Unofficial' = scanned 28-page file, PDF CreationDate Wed May 27 17:16:32 2026 UTC, Last-Modified Thu, 28 May 2026 16:12:17 GMT (11:12 AM CDT May 28). No other runoff results file is posted; precinct numbers appeared after election night. What, if anything, was posted on election night itself is not shown."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.shelby.tx.us/page/shelby.Elections",
+      "via": "fetch_module",
+      "content_hash": "13dd8035e24720d9494e6e1fee09b1f47a3e0535d2a7d67a169f483fef7fecb3",
+      "quote": "Unofficial Results of the March 3, 2026 Primary; March 2026 Primary Precinct by Precinct Report - Unofficial Results; May 2026 Primary Runoff Precinct by Precinct Report - Unofficial; Unofficial Results for Shelby County 11-5-24 General Election",
+      "supports": "Results postings per election"
+    },
+    {
+      "url": "https://www.co.shelby.tx.us/upload/page/2753/2024/11-5-24 unofficial results Shelby County.pdf",
+      "via": "fetch_module",
+      "content_hash": "63d38d91e5f81faf1480be73a2ac9d0f3ffc5c8f864c2d5d05f8007007a30889",
+      "quote": "Summary Results Report TX Shelby 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS ... Election Summary - 11/05/2024 9:25 PM (scanned, read visually)",
+      "supports": "2024 county totals posted the next morning"
+    },
+    {
+      "url": "https://www.co.shelby.tx.us/upload/page/2753/2026NewFolder/Unofficial Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "5fef476d6e1cbf5eb807b70e0358feb53f9151a53ce68584a3b82713a15fada8",
+      "quote": "Election Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Shelby County ... Election Summary - 03/03/2026 11:00 PM (scanned, read visually)",
+      "supports": "2026 primary night county totals, uploaded 10:36 PM"
+    },
+    {
+      "url": "https://www.co.shelby.tx.us/upload/page/2753/2026NewFolder/Primary Unofficial Results 3-3-26.pdf",
+      "via": "fetch_module",
+      "content_hash": "78a3aa36fabf61e11ff20ba895fed312f5261fe4933688622b4c591890d6cc32",
+      "quote": "Precinct Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Shelby County, Texas PCT 1N ... Precinct Summary - 03/04/2026 6:29 PM",
+      "supports": "2026 primary precinct numbers posted Mar 4"
+    },
+    {
+      "url": "https://www.co.shelby.tx.us/upload/page/2753/2026NewFolder/Pct by Pct Unofficial Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "4720cc478f4f594f8f23e7a6aecdcbdad51740b786c3353e218f7e8046ed03ef",
+      "quote": "(scanned 28-page precinct-by-precinct unofficial runoff report, CreationDate 2026-05-27 17:16 UTC)",
+      "supports": "Runoff precinct numbers posted May 28"
+    }
+  ]
+}

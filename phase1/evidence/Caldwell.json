@@ -1,0 +1,79 @@
+{
+  "county": "Caldwell",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.caldwell.tx.us/page/Elections.Results%20Page",
+  "platform": "county_pdfs",
+  "host": "www.co.caldwell.tx.us",
+  "evidence_url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primaries/FULL PCTbyPCT_Rep Primary Unofficial_030326.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works. No Clarity site (elections.json 404). The Election Results page posts Electionware summary and precinct-by-precinct ('PCTbyPCT') reports in several stages (Unofficial, Final Unofficial, Official). For both 2026 elections the unofficial precinct-by-precinct reports were uploaded after election night: primary PCTbyPCT created 10:51 PM CST election night but uploaded 9:47 AM CST Mar 4; runoff PCTbyPCT created 3:51 PM CDT May 28 and uploaded May 29. Election-night summary files (e.g. 'Unofficial_REP Primary Runoff_05262026.pdf', 'Summary Results_REP Primary_030326.pdf') were not opened. 2024 general: the earliest precinct file present is 'FinalPCTbyPCT11052024.pdf' (FINAL UNOFFICIAL RESULTS, created and uploaded Nov 13, 2024); the name implies earlier versions that are no longer posted, so the 2024 general is left UNDETERMINED (check 3 pending; wayback-data branch not found on origin).",
+  "tag_rationale": "2026 primary and 2026 runoff are both LATER (precinct numbers first uploaded after election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because LATER rests on upload times without an election-night precinct file to compare.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Earliest precinct file present: 'FinalPCTbyPCT11052024.pdf' = 'Summary Results Report FINAL UNOFFICIAL RESULTS TX Caldwell County 241105 General 6110', PDF CreationDate Thu Nov 14 02:01:34 2024 UTC, Last-Modified Thu, 14 Nov 2024 02:42:32 GMT; any election-night version is no longer posted. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-04 09:47 CT (server upload; created 2026-03-03 22:51)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primaries/FULL PCTbyPCT_Rep Primary Unofficial_030326.pdf",
+      "fact": "'FULL PCTbyPCT_Rep Primary Unofficial_030326.pdf' = 'Precinct by Precinct Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election ... Caldwell County PCT 100 ... Absentee Early Voting Election Day'; PDF CreationDate Wed Mar 4 04:51:37 2026 UTC; Last-Modified Wed, 04 Mar 2026 15:47:28 GMT (9:47 AM CST, after election night)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-29 08:24 CT (server upload; created 2026-05-28 15:51)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primary Runoff/Unofficial_REP Primary Runoff_PCTbyPCT Report.pdf",
+      "fact": "'Unofficial_REP Primary Runoff_PCTbyPCT Report.pdf' = 'REP Primary Runoff_PCTbyPCT UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Caldwell County PCT 100 ... Absentee Early Voting Election Day'; PDF CreationDate Thu May 28 20:51:32 2026 UTC; Last-Modified Fri, 29 May 2026 13:24:22 GMT."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.caldwell.tx.us/page/Elections.Results%20Page",
+      "via": "fetch_module",
+      "quote": "Republican Primary Runoff -> Unofficial_REP Primary Runoff_PCTbyPCT Report.pdf; Republican Party -> FULL PCTbyPCT_Rep Primary Unofficial_030326.pdf; FinalPCTbyPCT11052024.pdf",
+      "supports": "County-posted report list",
+      "content_hash": "f1fd3beea682c5e2a6a46720bdc4f838091de55478f0e1ed94cd7cf88709ea3c"
+    },
+    {
+      "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primaries/FULL PCTbyPCT_Rep Primary Unofficial_030326.pdf",
+      "via": "fetch_module",
+      "quote": "Precinct by Precinct Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election",
+      "supports": "Primary precinct numbers uploaded 9:47 AM CST Mar 4",
+      "content_hash": "81d9a15c00c5ed34f745d13c1c324132a91e774db4d1df26747e0edeaa4c0518"
+    },
+    {
+      "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primary Runoff/Unofficial_REP Primary Runoff_PCTbyPCT Report.pdf",
+      "via": "fetch_module",
+      "quote": "REP Primary Runoff_PCTbyPCT UNOFFICIAL RESULTS 2026 Primary Runoff Election",
+      "supports": "Runoff precinct numbers uploaded May 29",
+      "content_hash": "39144a6e90c8c04742b37cd66aee94c4d16d92d3c10278578c8d4adbc9e2ec2f"
+    },
+    {
+      "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2024/FinalPCTbyPCT11052024.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report FINAL UNOFFICIAL RESULTS TX Caldwell County 241105 General 6110",
+      "supports": "2024 precinct file posted Nov 13",
+      "content_hash": "423a82b147c01fbf778f2f097e2272bf77537c76e17b973af29769278dbb30ba"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "county": "Parker",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.parkercountytx.gov/441/Past-Election-Results",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368522/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-05-26 19:07 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL www.parkercountytx.com (http and https) returned HTTP 403. Clarity elections.json for Parker is an empty list. Web search (locating only) found the county's current site page https://www.parkercountytx.gov/441/Past-Election-Results, whose 'Joint Primary March 3, 2026' block links Clarity EID 126014 and whose 'May 26, 2026 Primary Runoff Election' block links EID 126279 ('Official results'); the check 1 script was run with these EIDs from the county's own page. No 2024 general block or Clarity link appears on that page, so the 2024 general is undetermined. Primary: election-night versions at 7:22, 8:57, 9:48, 10:02 and 10:29 PM CST all have 47 precincts with nonzero votes, and nonzero precinct vote cells rise 16358, 21399, 22843, 22913, 23051 (election-day precinct votes added through the night); 3 versions unreadable. Runoff: versions at 7:07 PM and 9:13 PM CDT, 47 precincts, cells 1244 then 1778; 1 version unreadable. The first night versions (7:07 and 7:22 PM) may hold only early-vote precinct numbers; later versions add votes. precinct_first_seen_local_time is the first runoff night version. Check 3 pending for 2024 general: origin/wayback-data not present.",
+  "tag_rationale": "2026 primary and 2026 runoff are both LIVE by check 1 (Clarity precinct numbers in several election-night updates), so the rule gives LIVE_PRECINCT with confidence high; 2024 general is UNDETERMINED.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general Clarity link on the county's Historical Results page and Clarity's elections.json is empty; county results site www.parkercountytx.com returns HTTP 403. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 19:22 CT",
+      "precinct_first_seen": "2026-03-03 19:22 CT",
+      "night_updates_with_precinct_numbers": "5 of 5",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368522/reports/detailxml.zip",
+      "fact": "Clarity EID 126014 (linked from the county page under 'Joint Primary March 3, 2026'): election-night versions at 7:22, 8:57, 9:48, 10:02 and 10:29 PM CST, each with 47 precincts with nonzero votes; nonzero precinct vote cells 16358, 21399, 22843, 22913, 23051."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 19:07 CT",
+      "precinct_first_seen": "2026-05-26 19:07 CT",
+      "night_updates_with_precinct_numbers": "2 of 2",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Parker/126279/373012/reports/detailxml.zip",
+      "fact": "Clarity EID 126279 (linked from the county page under 'May 26, 2026 Primary Runoff Election'): election-night versions at 7:07 PM and 9:13 PM CDT, each with 47 precincts with nonzero votes; cells 1244 then 1778."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.parkercountytx.gov/441/Past-Election-Results",
+      "via": "fetch_module",
+      "quote": "Joint Primary March 3, 2026 -> results.enr.clarityelections.com/TX/Parker/126014; May 26, 2026 Primary Runoff Election ... Official results -> /TX/Parker/126279",
+      "supports": "EIDs from the county's own page",
+      "content_hash": "84a369dc93dab7512e20ec2e0583233e02b31beaf9cc8795eea37fda566b59e2"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368400/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 3/3/2026 7:22:30 PM CST; 47 precincts; 16358 cells",
+      "supports": "2026_primary first night update",
+      "content_hash": "f3cef7e1c6a81bf9c083dcbf8dc9d2b1f4c6958dd1a68971b5c73104150fdb69"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368522/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 3/3/2026 10:29:14 PM CST; 47 precincts; 23051 cells",
+      "supports": "2026_primary last night update",
+      "content_hash": "b988aa4a56811a1d840339afa5634cd1281ccd5c0d44ee2423037f5d05ef2f13"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Parker/126279/372934/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 5/26/2026 7:07:29 PM CDT; 47 precincts; 1244 cells",
+      "supports": "2026_runoff first night update",
+      "content_hash": "f74097adde44e1e2a8ba2446eca8de906e73f0105ab59c0d100af12129358746"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Parker/126279/373012/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 5/26/2026 9:13:01 PM CDT; 47 precincts; 1778 cells",
+      "supports": "2026_runoff second night update",
+      "content_hash": "8aed3b785bb27d48a558d8b25458f9b91b1d59bdbb988d4e9311cc19f3ca9de5"
+    },
+    {
+      "url": "websearch:?q=parker%20county%20election%20night%20results%20march%203%202026%20primary%20weatherford",
+      "via": "websearch",
+      "quote": "Historical Results https://www.parkercountytx.gov/441/Past-Election-Results",
+      "supports": "locating only",
+      "content_hash": "302ab8ca2cffa0926d7855f46f9e977bb7bc14fddc79d0ef38e007ffb039e91b"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "county": "Ellis",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.livevoterturnout.com/ENR/ellistxenr/4/en/Index_4.html",
+  "platform": "vendor_hosted",
+  "host": "www.livevoterturnout.com",
+  "evidence_url": "https://www.elliscountytx.gov/1363/March-3-2026-Joint-Primary-Elections",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL co.ellis.tx.us/index.asp?nid=312 and every co.ellis.tx.us page tried (/312/Elections, home) returned HTTP 403 (bot protection, not bypassed). One web search found the county's current domain www.elliscountytx.gov, which loads; its Prior Election Results pages link per-election pages. No Clarity site (elections.json 404). Election-night results are hosted on livevoterturnout.com ENR (ellistxenr/4 and /5 for the 2026 primary, /9 and /10 for the runoff), which shows per-precinct results; the pages now show 'Official Results for Canvass' with 'Website Updated: 3/10/2026 2:10:56 PM' (Last-Modified Tue, 10 Mar 2026 19:10:57 GMT) and expose no dated update history, so check 1 cannot be read. County pages now list only official canvass PDFs (Official Cumulative/Summary Results, Official Precinct by Race Results, reconciliation forms) for all three elections; the election-night unofficial results have been replaced, so check 2 cannot show what was public on election night. Check 3 pending (origin/wayback-data not present).",
+  "tag_rationale": "No election could be determined by checks 1 or 2 (election-night pages replaced by canvass results, check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "November 5, 2024 General Election page lists 'Official Cumulative Results Summary', 'Official Precinct by Race Results', 'Official Countywide Vote Center Turnout Reporting', 'Official Reconciliation Report', 'Official Results for Canvass and other Documents'; no election-night report. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "March 3, 2026 page lists 'Republican Party Official Results for Canvass' (livevoterturnout ENR /4, now 'Official Results for Canvass', updated 3/10/2026 2:10:56 PM) and 'Republican Official For Canvass Precinct by Race Results'; no election-night version available. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "May 26, 2026 page lists 'Republican Party Official Runoff Results for Canvass (Link)' (livevoterturnout ENR /9) and official canvass PDFs only. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.elliscountytx.gov/1363/March-3-2026-Joint-Primary-Elections",
+      "via": "fetch_module",
+      "content_hash": "97a9a6334932e91fb1f12bd799d3b6574051a231a85473c4c69581f8861cd308",
+      "quote": "Republican Party Official Results for Canvass (livevoterturnout.com/ENR/ellistxenr/4) ... Republican Official For Canvass Precinct by Race Results",
+      "supports": "2026 primary results location and current documents"
+    },
+    {
+      "url": "https://www.elliscountytx.gov/1384/May-26-2026-Republican-and-Democratic-Jo",
+      "via": "fetch_module",
+      "content_hash": "734ea582c1a92ba2f08f8ce7801c83ddc118dbc4dcf5d18477f90d3c6a0f25a4",
+      "quote": "Republican Party Official Runoff Results for Canvass (Link)",
+      "supports": "2026 runoff results location"
+    },
+    {
+      "url": "https://www.elliscountytx.gov/1228/November-5-2024-General-Election",
+      "via": "fetch_module",
+      "content_hash": "695d4977c1de6adff9d04bf4efa9f9e81b92836a0f0d4e03ac4ce215570e1d59",
+      "quote": "Official Cumulative Results Summary | Official Precinct by Race Results",
+      "supports": "2024 general documents (official only)"
+    },
+    {
+      "url": "https://www.livevoterturnout.com/ENR/ellistxenr/4/en/Index_4.html",
+      "via": "fetch_module",
+      "content_hash": "a10121ed0cc138f6102fa3867fee7cdc68aa58e105c84234c863f28117ffce51",
+      "quote": "Website Updated: 3/10/2026 2:10:56 PM ... Official Results for Canvass ... Precinct: 1001 - Contest: REP US Senator",
+      "supports": "vendor ENR shows precinct results; no update history"
+    },
+    {
+      "url": "websearch:?q=ellis%20county%20texas%20election%20results%202026%20primary",
+      "via": "websearch",
+      "content_hash": "031af500d7657d592574dd2639f14b098c1264feeb64e41a05c29d636c53353d",
+      "quote": "Ellis County, Texas Election Department - Election Night Results | livevoterturnout.com/ENR/ellistxenr/4",
+      "supports": "locating the county's current domain and vendor site only"
+    }
+  ]
+}

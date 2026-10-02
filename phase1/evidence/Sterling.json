@@ -1,0 +1,58 @@
+{
+  "county": "Sterling",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.sterling.tx.us/page/Elections%202026",
+  "platform": "unknown",
+  "host": "www.co.sterling.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https; its menu lists 'Elections 2026' and 'Elections 2019-2025' (ezTask Titanium site). Both URLs returned HTTP 200 with the homepage body (burn ban notice, tax abatement and community center links) and no election documents, the same behavior seen on Sherman County's site, so check 2 could not be done. No Clarity site (elections.json 404). Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (no vendor log and the county election pages could not be read, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county election pages return only the homepage content to the fetch module, so no results postings could be read; no Clarity site. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county election pages return only the homepage content to the fetch module, so no results postings could be read; no Clarity site. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county election pages return only the homepage content to the fetch module, so no results postings could be read; no Clarity site. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.sterling.tx.us/page/Elections%202026",
+      "via": "fetch_module",
+      "content_hash": "4c57d87e9be68757e737646381da4d7f2a48b3066926b7af837e7203d0bda75d",
+      "quote": "Tax Abatement Guidelines; Community Center Rules and Regulations; Sterling County Is Under a Burn Ban Order At This Time (homepage links served for the Elections 2026 URL)",
+      "supports": "Election pages not readable through the fetch module"
+    }
+  ]
+}

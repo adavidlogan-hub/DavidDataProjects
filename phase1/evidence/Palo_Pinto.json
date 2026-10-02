@@ -1,0 +1,72 @@
+{
+  "county": "Palo Pinto",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.palo-pinto.tx.us/page/ELECTIONRESULTS",
+  "platform": "county_pdfs",
+  "host": "www.co.palo-pinto.tx.us",
+  "evidence_url": "https://www.co.palo-pinto.tx.us/upload/page/0199/docs/UNOFFICIAL%20Cumulative%20Results-3-3-2026%2010-56-20%20PM.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The Election Results page lists for each 2026 election an early-vote/mail cumulative report, an unofficial cumulative report, then 'Official Cumulative Results' and 'Official Canvass Results'. 2026 primary: '**March 3, 2026 Primary Unofficial Results**' is a Cumulative Results Report (county totals by Absentee / Early / Election Day), 'Precincts Reporting 27 of 54', Run Time 10:56 PM Run Date 03/03/2026, Last-Modified Wed, 04 Mar 2026 04:26:38 GMT (10:26 PM CST; the PDF CreationDate 04:56 UTC is 30 minutes later than the server time, so one of the clocks is off, but both fall on election night). 2026 runoff: '**May 26, 2026 Unofficial Results**' is a Cumulative Results Report (header text reads 'Official Results' though posted as unofficial), Run Time 9:03 PM Run Date 05/26/2026, Last-Modified Wed, 27 May 2026 02:25:53 GMT (9:25 PM CDT). No precinct-level report is listed apart from the 'Official Canvass Results' files (not opened) (primary file stamped 3-9-2026 02-57-25 PM). The 2024 general is not on the page. Check 3 pending for 2024 general: origin/wayback-data not present.",
+  "tag_rationale": "2026 primary and 2026 runoff are both LATER by check 2 (county-total cumulative reports on election night, no precinct report before the canvass), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS; both have printed and upload times on election night, so confidence med.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "2024 general not listed on the Election Results page. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 22:26 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.palo-pinto.tx.us/upload/page/0199/docs/UNOFFICIAL%20Cumulative%20Results-3-3-2026%2010-56-20%20PM.pdf",
+      "fact": "'Cumulative Results Report PALO PINTO COUNTY, TEXAS PRIMARY ELECTION Unofficial Results ... Precincts Reporting 27 of 54 ... Run Time 10:56 PM Run Date 03/03/2026', county totals; Last-Modified Wed, 04 Mar 2026 04:26:38 GMT. No unofficial precinct report listed; only 'Official Canvass Results-3-9-2026 02-57-25 PM.pdf' after canvass."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:25 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.palo-pinto.tx.us/upload/page/0199/docs/5-26-26 Unofficial Results.pdf",
+      "fact": "'Cumulative Results Report PALO PINTO COUNTY, TEXAS PRIMARY RUNOFF ELECTION ... Run Time 9:03 PM Run Date 05/26/2026', county totals; Last-Modified Wed, 27 May 2026 02:25:53 GMT. No unofficial precinct report listed; only 'Official Canvass Results' after canvass."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.palo-pinto.tx.us/page/ELECTIONRESULTS",
+      "via": "fetch_module",
+      "quote": "**March 3, 2026 Primary Unofficial Results**; **May 26, 2026 Unofficial Results**; Official Cumulative Results; Official Canvass Results",
+      "supports": "report list",
+      "content_hash": "cf553f3d83c3e13954770c5ac6c286e8c6aa8310f90daabad43b8d5cda4ccdcc"
+    },
+    {
+      "url": "https://www.co.palo-pinto.tx.us/upload/page/0199/docs/UNOFFICIAL%20Cumulative%20Results-3-3-2026%2010-56-20%20PM.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report ... Unofficial Results ... Run Time 10:56 PM Run Date 03/03/2026",
+      "supports": "2026_primary county totals on election night",
+      "content_hash": "55140fc11580c773ae11c66ea1a445bfdb220612dd636b60160133ba6e1e65de"
+    },
+    {
+      "url": "https://www.co.palo-pinto.tx.us/upload/page/0199/docs/5-26-26 Unofficial Results.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report ... PRIMARY RUNOFF ELECTION ... Run Time 9:03 PM Run Date 05/26/2026",
+      "supports": "2026_runoff county totals on election night",
+      "content_hash": "96a02549eb33ee6adc59640880f69e9b296a1180f6ccd358604b59234ae4e1e2"
+    }
+  ]
+}

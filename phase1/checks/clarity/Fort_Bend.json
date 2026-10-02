@@ -3,16 +3,378 @@
   "check": "clarity_update_log",
   "elections": {
     "2024_general": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "122596",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "346187",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/346187/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346230",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/346230/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346595",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/346595/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346599",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/346599/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347236",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/347236/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/17/2024 8:39:34 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "347329",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/347329/reports/detailxml.zip",
+              "content_hash": "724f9abba847f17448ced9fe6c40897c5c418c05032f78ebc45a78cbc8351a58",
+              "election_night": false
+            },
+            {
+              "version": "350768",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/350768/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350806",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/350806/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 7:12:34 PM CST",
+              "precincts_with_votes": 173,
+              "nonzero_precinct_vote_cells": 21821,
+              "version": "350851",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/350851/reports/detailxml.zip",
+              "content_hash": "7a2a5b32ecdc9b128c4c9924a634b9e3cabfdf3733c004f191f466b3d7de4fe6",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:06:34 PM CST",
+              "precincts_with_votes": 173,
+              "nonzero_precinct_vote_cells": 31246,
+              "version": "351874",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/351874/reports/detailxml.zip",
+              "content_hash": "c3ec9c0f7c4053011514a8b214ed41aaa316fbd88a5e96fdcd251070539d933b",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:20:52 PM CST",
+              "precincts_with_votes": 173,
+              "nonzero_precinct_vote_cells": 32931,
+              "version": "352554",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/352554/reports/detailxml.zip",
+              "content_hash": "9940d3397e4ffa9302ef12c40fc2ada09a2ef4a36c0eb4e9d503585594015f06",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:28:35 PM CST",
+              "precincts_with_votes": 173,
+              "nonzero_precinct_vote_cells": 35381,
+              "version": "352869",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/352869/reports/detailxml.zip",
+              "content_hash": "0f1774186b0aa0ddc21c0435415c49c8e080b71d193241c66a4637366f381953",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:18:11 AM CST",
+              "precincts_with_votes": 173,
+              "nonzero_precinct_vote_cells": 35434,
+              "version": "353021",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/353021/reports/detailxml.zip",
+              "content_hash": "7041dfe24569b2a86794dbb880a42b20af9eed6d0000b608530cbe1d6c8ce545",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:48:36 AM CST",
+              "precincts_with_votes": 173,
+              "nonzero_precinct_vote_cells": 35434,
+              "version": "353089",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/353089/reports/detailxml.zip",
+              "content_hash": "f7707ba9dcbb7c76d89bcf3594096a376de0a5faa48caf33fe83287fe0569f9d",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/13/2024 4:45:19 PM CST",
+              "precincts_with_votes": 173,
+              "nonzero_precinct_vote_cells": 35503,
+              "version": "354717",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/354717/reports/detailxml.zip",
+              "content_hash": "5c2ad0b266fe261583bdf80ac126822a42a0128de6887eea4ad9777e87f3e268",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 6,
+          "election_night_updates_with_precinct_votes": 6,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:12:34 PM CST",
+            "version": "350851",
+            "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/350851/reports/detailxml.zip"
+          },
+          "unreadable_versions": 7
+        }
+      ]
     },
     "2026_primary": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "125940",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "367948",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/367948/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367951",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/367951/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367966",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/367966/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367967",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/367967/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367978",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/367978/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367980",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/367980/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367988",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/367988/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368052",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368052/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/17/2026 2:45:20 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368099",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368099/reports/detailxml.zip",
+              "content_hash": "593d03e469861e1ad2da84625b51c1fb4b84be662cc7c2fda6cefdadf6e3a305",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/25/2026 12:47:45 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368234",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368234/reports/detailxml.zip",
+              "content_hash": "183c6f198e0b337b2b60a73c703575e75181f50aedf282cd41c0993a0eac7775",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:07:35 PM CST",
+              "precincts_with_votes": 197,
+              "nonzero_precinct_vote_cells": 69545,
+              "version": "368391",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368391/reports/detailxml.zip",
+              "content_hash": "27565ffbe8eac92018c3737afa856d16060e6e11e87e06be7decacf758975d27",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:48:38 PM CST",
+              "precincts_with_votes": 197,
+              "nonzero_precinct_vote_cells": 87701,
+              "version": "368448",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368448/reports/detailxml.zip",
+              "content_hash": "481bb900e0a6b726255c1a3d693bcf506de5830fbb2dc479a408a89d8d4c9c27",
+              "election_night": true
+            },
+            {
+              "version": "368485",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368485/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 9:46:32 PM CST",
+              "precincts_with_votes": 197,
+              "nonzero_precinct_vote_cells": 107941,
+              "version": "368498",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368498/reports/detailxml.zip",
+              "content_hash": "dd43629824cb729bd7974bec05f20e68a0e0e28df2fe5e22c913a3443f65dc56",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:43:37 PM CST",
+              "precincts_with_votes": 197,
+              "nonzero_precinct_vote_cells": 113745,
+              "version": "368552",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368552/reports/detailxml.zip",
+              "content_hash": "8f287f65c9563e8ba6617fada7f0b54498df3e928e65f0b5dc17884cf5ec86b7",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 1:47:16 AM CST",
+              "precincts_with_votes": 197,
+              "nonzero_precinct_vote_cells": 113824,
+              "version": "368577",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368577/reports/detailxml.zip",
+              "content_hash": "a79ae1a5f0b0dfb267153b33c983a7834c6adbbe781bdcb6461c2a5a5c3551bc",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/10/2026 11:53:14 AM CDT",
+              "precincts_with_votes": 197,
+              "nonzero_precinct_vote_cells": 114581,
+              "version": "368725",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368725/reports/detailxml.zip",
+              "content_hash": "aed900b899a2d81d939f7f6d78bb3b16a01289422d375c8004e452000fddcf4c",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:07:35 PM CST",
+            "version": "368391",
+            "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368391/reports/detailxml.zip"
+          },
+          "unreadable_versions": 9
+        }
+      ]
     },
     "2026_runoff": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "126372",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "371756",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/371756/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371804",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/371804/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371811",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/371811/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371818",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/371818/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/15/2026 4:05:06 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "371823",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/371823/reports/detailxml.zip",
+              "content_hash": "5a9cf709fff15112981adf4568716ab7d3274d42d115c6e374933cf2954f41be",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:17:04 PM CDT",
+              "precincts_with_votes": 195,
+              "nonzero_precinct_vote_cells": 8798,
+              "version": "372938",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/372938/reports/detailxml.zip",
+              "content_hash": "6287a55418a41464dab09f8a1efc6bf9ceee964fc2f7b580e2cf8e6eceb5cda2",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:51:54 PM CDT",
+              "precincts_with_votes": 195,
+              "nonzero_precinct_vote_cells": 12984,
+              "version": "372994",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/372994/reports/detailxml.zip",
+              "content_hash": "c0c03587611baf0b03cd1dd226413fd5138eb042f730b37f394d901320de56a4",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:46:56 PM CDT",
+              "precincts_with_votes": 195,
+              "nonzero_precinct_vote_cells": 13595,
+              "version": "373029",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/373029/reports/detailxml.zip",
+              "content_hash": "595220c3e0de0ba1ef0b561ae488901a82cee68ae64a782e0d77e950c5eef8c9",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/27/2026 12:03:34 AM CDT",
+              "precincts_with_votes": 195,
+              "nonzero_precinct_vote_cells": 13665,
+              "version": "373063",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/373063/reports/detailxml.zip",
+              "content_hash": "cb8dcd00ebe2c994a0e2970caf90442d34aae5d15b3f10619fe06ed9b473e374",
+              "election_night": true
+            },
+            {
+              "version": "373393",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/373393/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "6/1/2026 5:48:06 PM CDT",
+              "precincts_with_votes": 195,
+              "nonzero_precinct_vote_cells": 13708,
+              "version": "373394",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/373394/reports/detailxml.zip",
+              "content_hash": "c7a5405b0f024d9edf457a6e19cf178832690bc3398e18aa75d7cbb35c3e9e36",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/5/2026 7:43:47 AM CDT",
+              "precincts_with_votes": 195,
+              "nonzero_precinct_vote_cells": 13708,
+              "version": "374303",
+              "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/374303/reports/detailxml.zip",
+              "content_hash": "205078210865b1b19c2f3701bd2c16f64b86d0eb57fd72e17f99f790f1026a53",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 7:17:04 PM CDT",
+            "version": "372938",
+            "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/372938/reports/detailxml.zip"
+          },
+          "unreadable_versions": 5
+        }
+      ]
     }
+  },
+  "eid_overrides": {
+    "2024_general": "122596",
+    "2026_primary": "125940",
+    "2026_runoff": "126372"
   }
 }

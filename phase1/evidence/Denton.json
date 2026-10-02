@@ -1,0 +1,79 @@
+{
+  "county": "Denton",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Denton/",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Denton/126053/",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 20:57 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed https://www.dentoncounty.gov/; the elections site www.votedenton.gov returned an empty HTTP 202 (bot protection), so county-page links could not be read and were not worked around. Denton's Clarity elections.json lists all three elections, and the check 1 script read every update. In each election an early-vote update stamped before 7 PM already had per-precinct numbers; election-night updates then added election-day votes in several steps.",
+  "tag_rationale": "All three elections are LIVE (check 1: precinct numbers in 5 to 7 election-night Clarity updates each), so the tag is LIVE_PRECINCT with high confidence.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-05 20:57 CT",
+      "night_updates_with_precinct_numbers": "7",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Denton/122426/",
+      "fact": "Clarity update log for TX/Denton/122426 '2024 General Election': an early-vote update stamped 11/5/2024 6:47:29 PM CST already has precinct votes in 226 precincts (27611 nonzero cells); 7 election-night updates from 8:57:31 PM CST to 11/6/2024 1:12:14 AM CST all have precinct votes, with nonzero precinct vote cells rising 28978, 31585, 33853, 37121, 38553, 38553, 38579."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-03 21:23 CT",
+      "night_updates_with_precinct_numbers": "7",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Denton/126053/",
+      "fact": "Clarity update logs: '2026 Republican Primary' (126053) has 6 election-night updates 9:24:08 PM CST to 3/4/2026 12:43:48 AM CST with precinct votes in 235-236 precincts, nonzero cells rising 53961 to 73578; '2026 Democratic Primary' (126054) has 7 election-night updates 9:23:14 PM to 1:26:36 AM CST, cells rising 36706 to 52210."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-26 20:44 CT",
+      "night_updates_with_precinct_numbers": "5",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Denton/126377/",
+      "fact": "Clarity update logs: '2026 Republican Primary Runoff' (126377) has 5 election-night updates 8:44:31 PM CDT to 10:44:44 PM CDT with precinct votes in 232-234 precincts, nonzero cells rising 4857 to 6589; '2026 Democratic Primary Runoff' (126378) has 5 updates 8:46:04 PM to 10:47:03 PM CDT, cells 1650 to 2385."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/122426/351775/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "45d94f1cfac1879b35affb1394a74be11a9471999457894523969a34299dacca",
+      "quote": "11/5/2024 8:57:31 PM CST: precincts_with_votes 226, nonzero_precinct_vote_cells 28978",
+      "supports": "2024 general election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368479/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "1b65704433c637f35f0856c77494204ac578ee58df5b09d348bf7ca43f04dba7",
+      "quote": "3/3/2026 9:24:08 PM CST: precincts_with_votes 235, nonzero_precinct_vote_cells 53961",
+      "supports": "2026 primary election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372988/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "ddf6b361b872e4e431a5ac29b98b13d4298d91930208bbb1f64600846c89ebfe",
+      "quote": "5/26/2026 8:44:31 PM CDT: precincts_with_votes 232, nonzero_precinct_vote_cells 4857",
+      "supports": "2026 runoff election-night update with precinct numbers"
+    },
+    {
+      "url": "https://www.votedenton.gov/",
+      "via": "fetch_module",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote": "(empty HTTP 202 body)",
+      "supports": "County elections site returns empty 202 (bot protection)"
+    }
+  ]
+}

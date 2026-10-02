@@ -1,0 +1,79 @@
+{
+  "county": "Dawson",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.dawson.tx.us/page/dawson.Election.Information",
+  "platform": "county_pdfs",
+  "host": "www.co.dawson.tx.us",
+  "evidence_url": "https://www.co.dawson.tx.us/upload/page/1590/2026/20260526215018.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-05-26 21:54 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.dawson.tx.us/ works over https; results are on page/dawson.Election.Information. No Clarity or vendor link. Files are scanned Hart reports named by scanner timestamp; Last-Modified values differ per file and look like real upload times (the 2024 'UNOFFICIAL TOTALS' Last-Modified is the next afternoon, later than its scan time, possibly a re-upload). The county posted only county totals for the 2024 general but per-precinct unofficial reports on runoff night. 2026 primary undetermined (check 3 pending; wayback-data branch not on origin).",
+  "tag_rationale": "The 2024 general is LATER and the 2026 runoff is END (both check 2); no two elections share a result, so by the rule the tag is UNKNOWN.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 19:25 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.dawson.tx.us/upload/page/1590/2024/20241105220214.pdf",
+      "fact": "Two 2024 general files are linked: an unlabeled scanned Hart 'Cumulative Results Report DAWSON COUNTY, TEXAS GENERAL ELECTION 11/5/2024 Unofficial Results' with 'Run Time 7:09 PM' and zero Election Day votes (Last-Modified Wed, 06 Nov 2024 01:25:56 GMT, 7:25 PM CST), and 'UNOFFICIAL TOTALS', the same county-total report with 'Run Time 8:32 PM' including Election Day votes (scanner file name 20241105220214, Last-Modified Wed, 06 Nov 2024 19:38:25 GMT). No 2024 general precinct-level file is posted."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No March 3, 2026 primary results files are listed on the Election Information page (only notices). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-26 21:54 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.dawson.tx.us/upload/page/1590/2026/20260526215018.pdf",
+      "fact": "'REPUBLICAN UNOFFICIAL PRECINCT RESULTS' is a scanned Hart 'PRECINCT RESULTS REPORT DAWSON COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Unofficial Results ... Run Time 9:35 PM Run Date 05/26/2026' with per-precinct candidate votes including Election Day Voting (precinct 1: Ken Paxton 53 = 1 absentee, 27 early, 25 election day). PDF CreationDate 2026-05-27 02:50:18 UTC; Last-Modified Wed, 27 May 2026 02:54:14 GMT (9:54 PM CDT). A matching 'DEMOCRATIC UNOFFICIAL PRECINCT RESULTS' (20260526214924.pdf) and cumulative files are listed; official files followed on 6-4-2026."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.dawson.tx.us/page/dawson.Election.Information",
+      "via": "fetch_module",
+      "content_hash": "67062e4586b6f21b6091894af15d4390c58a4cbf114b4a890d3c642ff06c9a2b",
+      "quote": "DEMOCRATIC UNOFFICIAL PRECINCT RESULTS; REPUBLICAN UNOFFICIAL PRECINCT RESULTS; REPUBLICAN UNOFFICIAL CUMULATIVE RESULTS; UNOFFICIAL TOTALS",
+      "supports": "Election Information page result links"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2026/20260526215018.pdf",
+      "via": "fetch_module",
+      "content_hash": "f2ef88aa233fbad5fbd2ba4d669b97e162b1fa5be136086ab4eed482fa7652af",
+      "quote": "PRECINCT RESULTS REPORT ... PRIMARY RUNOFF ELECTION 5/26/2026 Unofficial Results Run Time 9:35 PM (scanned image, read visually)",
+      "supports": "Runoff precinct numbers uploaded 2026-05-27 02:54:14 GMT"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2024/20241105202939.pdf",
+      "via": "fetch_module",
+      "content_hash": "b6a1d7ecb1e06a8707c534badd10863521e30ab5a5bb6c47f133df570c4427cd",
+      "quote": "Cumulative Results Report DAWSON COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Run Time 7:09 PM (scanned image, read visually)",
+      "supports": "2024 early county totals uploaded 2024-11-06 01:25:56 GMT"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2024/20241105220214.pdf",
+      "via": "fetch_module",
+      "content_hash": "d3e78ee5b639f14eb708d2650be19e50dc10d27c0440d550cf0cbf0c96a24f1e",
+      "quote": "Cumulative Results Report ... GENERAL ELECTION 11/5/2024 ... Run Time 8:32 PM (scanned image, read visually)",
+      "supports": "2024 final unofficial county totals; Last-Modified 2024-11-06 19:38:25 GMT"
+    }
+  ]
+}

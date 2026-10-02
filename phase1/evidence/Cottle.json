@@ -1,0 +1,58 @@
+{
+  "county": "Cottle",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.cottle.tx.us/page/Elections.2026",
+  "platform": "unknown",
+  "host": "www.co.cottle.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.cottle.tx.us/ works over https and its menu links 'Elections - Home', '2026 Elections' (page/Elections.2026) and 'Past Elections' (page/Elections.Archive), but those pages returned HTTP 200 with the Home page body, so check 2 failed (same behavior seen on Coleman's site on the same platform). No Clarity or vendor link found. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "No election could be determined because the county site served only its Home page, so the tag is UNKNOWN.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county site returns its Home page (identical content hash ee009211...) for the '2026 Elections' and 'Past Elections' pages, so no results files could be listed. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county site returns its Home page (identical content hash ee009211...) for the '2026 Elections' and 'Past Elections' pages, so no results files could be listed. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county site returns its Home page (identical content hash ee009211...) for the '2026 Elections' and 'Past Elections' pages, so no results files could be listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.cottle.tx.us/page/Elections.2026",
+      "via": "fetch_module",
+      "content_hash": "ee009211183f08acac35e349a726ceaf6bc48a75ff97f78c72f4065ca8287ffb",
+      "quote": "<title>Cottle County, Texas (same body as the Home page)",
+      "supports": "Elections pages serve the Home page"
+    }
+  ]
+}

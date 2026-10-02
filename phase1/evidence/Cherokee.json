@@ -1,0 +1,79 @@
+{
+  "county": "Cherokee",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
+  "platform": "county_pdfs",
+  "host": "www.co.cherokee.tx.us",
+  "evidence_url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/2026-05/05-26-26%20OFFICIAL%20TOTALS-Precinct%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed elections page works over https. No Clarity or vendor site found. The county posts Hart PDF reports (Cumulative and Precinct) on its OpenCms site; link hrefs use backslashes, fetched with forward slashes. Last-Modified headers vary per file and look like real upload times. The 8:40 PM runoff cumulative file returned 403, so its content was not read; its county-total nature is inferred from its 'Cumulative Results' name and is supported by the absence of any election-night precinct file. 2024 general undetermined (check 3 pending; wayback-data branch not on origin).",
+  "tag_rationale": "The 2026 primary and 2026 runoff are both LATER (check 2: precinct reports printed and uploaded days after election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS. Confidence low because no report has both a printed run time and upload time on election night.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Previous Election Results page lists for Nov 5, 2024 only 'Official Precinct-by-Precinct' (2024-11/11-05-24 official pct x pct.pdf). Nothing shows what was posted on election night. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-06 21:01 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/2026-03/UNOFFICIAL%20Precinct%20Results%2003-03-2026.pdf",
+      "fact": "'Unofficial Precinct Results - All reporting' is a 500-page 'Precinct Results Report Unofficial Results CHEROKEE COUNTY, TEXAS ... PRIMARY ELECTION ... Run Time 3:30 PM Run Date 03/05/2026', Last-Modified Sat, 07 Mar 2026 03:01:37 GMT (9:01 PM CST Mar 6), both after election night. No earlier precinct file for the primary is listed."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:40 CT",
+      "precinct_first_seen": "2026-06-05 08:47 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/2026-05/05-26-26%20OFFICIAL%20TOTALS-Precinct%20Results.pdf",
+      "fact": "Election-night links on the Elections page are 'Absentee + Early Voting Totals - 7:00pm' and '8:40pm - All 8 of 8 locations reporting' (both Hart 'Cumulative Results' county totals by file name; the 8:40 PM file returned HTTP 403 to the fetch module). The only runoff precinct file is 'Official Precinct-by-Precinct Results', a 'Precinct Results Report Official Results ... Run Time 3:21 PM ... Run Date 06/01/2026', Last-Modified Fri, 05 Jun 2026 13:47:07 GMT."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
+      "via": "fetch_module",
+      "content_hash": "a6d85d1c676d9c5b59fd636e4a2e890d50688793d1630a4eda397da6f021eb2f",
+      "quote": "Absentee + Early Voting Totals - 7:00pm; 8:40pm - All 8 of 8 locations reporting; Unofficial Precinct Results - All reporting; Official Cumulative Results; Official Precinct-by-Precinct Results",
+      "supports": "Elections page result links with stated times"
+    },
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/2026-03/UNOFFICIAL%20Precinct%20Results%2003-03-2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "4603161800a70eb4db19780373f5802b651a4360d5ee384dc217ab658bed4791",
+      "quote": "Precinct Results Report Unofficial Results CHEROKEE COUNTY, TEXAS ... Run Time 3:30 PM ... Run Date 03/05/2026",
+      "supports": "Primary precinct numbers printed Mar 5, uploaded Mar 7 03:01 GMT"
+    },
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/2026-05/05-26-26%20OFFICIAL%20TOTALS-Precinct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "773ccaf6fe26bba1d4df8a55c08bcc4ab27eb0e1eb3638535104cd52fb94a6b8",
+      "quote": "Precinct Results Report Official Results CHEROKEE COUNTY, TEXAS OFFICIAL TOTALS PRIMARY RUNOFF ELECTION Run Time 3:21 PM Run Date 06/01/2026",
+      "supports": "Runoff precinct numbers first posted after canvass (Last-Modified 2026-06-05)"
+    },
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/previousElectionResults.html",
+      "via": "fetch_module",
+      "content_hash": "be65f37c246927e57d31eca36d444b1883601dc673740808c0c2437a01aa2bc1",
+      "quote": "Official Precinct-by-Precinct => 2024-11\\11-05-24 official pct x pct.pdf",
+      "supports": "Only official 2024 general file remains"
+    }
+  ]
+}

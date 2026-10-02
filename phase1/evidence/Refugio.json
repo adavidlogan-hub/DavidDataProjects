@@ -1,0 +1,72 @@
+{
+  "county": "Refugio",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.refugio.tx.us/page/refugio.Elections.ElectionResults",
+  "platform": "county_pdfs",
+  "host": "www.co.refugio.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL (default.aspx?Refugio_County/Elections) loads over https. No Clarity site (elections.json 404). The Election Results page says results are posted twice on election night (early voting after 7 PM, then end of night) but does not say whether they are county totals or precinct numbers, and it links only results.texas-election.com and a turnout history PDF. Past Elections lists 2022 and earlier official cumulative, precinct and canvass PDFs; nothing for the 2024 general, 2026 primary or 2026 runoff is posted now, so checks 1 and 2 cannot decide any election. Check 3 pending (wayback-data branch not found on origin); the stated two-posting practice makes check 3 worthwhile here.",
+  "tag_rationale": "All three elections are UNDETERMINED (no vendor log, no 2024 or 2026 files on the county site, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county Election Results, Current Elections and Past Elections pages hold no results files for this election (Past Elections ends with 2022). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county Election Results, Current Elections and Past Elections pages hold no results files for this election (Past Elections ends with 2022). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county Election Results, Current Elections and Past Elections pages hold no results files for this election (Past Elections ends with 2022). Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.refugio.tx.us/page/refugio.Elections.ElectionResults",
+      "via": "fetch_module",
+      "content_hash": "1fca38eec53a7e9a8af6b986498251ea8b372ea7a22aab0b9598b31f77d2154a",
+      "quote": "ELECTION RESULTS WILL BE RELEASED AND POSTED (2) TIMES ON ELECTION NIGHT: THE FIRST POSTING WILL BE THE EARLY VOTING RESULTS AFTER POLLS HAVE CLOSED AT 7:00 P.M. ON ELECTION NIGHT. ... THE SECOND POSTING WILL BE AT THE END OF THE NIGHT AFTER ALL ELECTION DAY POLLING LOCATIONS HAVE BEEN PROCESSED AND TABULATED",
+      "supports": "County states it posts results twice on election night (level of detail not stated); no 2024 or 2026 files currently linked"
+    },
+    {
+      "url": "https://www.co.refugio.tx.us/page/refugio.Elections.PastElections",
+      "via": "fetch_module",
+      "content_hash": "7700136ee8b49080397480aa2ef0db02af9ce55130e32791427a0ac7fe6a17fa",
+      "quote": "2022 - NOVEMBER 8 - OFFICIAL - CUMULATIVE RESULTS / PRECINCT RESULTS / CANVASS RESULTS",
+      "supports": "Past Elections archive ends at 2022"
+    },
+    {
+      "url": "https://www.co.refugio.tx.us/page/refugio.Elections.CurrentElections",
+      "via": "fetch_module",
+      "content_hash": "de684155a200c0c193f2dfc3c9d6dc2a3e1ebebf6bdac4283d6823666f1d1e39",
+      "quote": "(no results links)",
+      "supports": "Current Elections page has no results files"
+    }
+  ]
+}

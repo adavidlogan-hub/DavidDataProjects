@@ -1,0 +1,93 @@
+{
+  "county": "Hunt",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.huntcounty.net/page/election.2026",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Hunt/122429/352455/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 20:19 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "County pages 'Elections: 2026' and 'Past Election Results' link each election to Clarity: 2024 general EID 122429, 2026 primary EID 125942, 2026 runoff EID 126349. Clarity's elections.json does not list them, so check 1 was run with these EIDs. Candidate-only precinct sums were computed from the cached detail.xml files, because the check 1 script also counts contest-level undervotes. 2026 primary: the 7:11 PM update shows 303723 votes under the 'Election' vote type and 0 under 'Early', and the 1:07 AM update moves them to 'Early', so the first update looks like early votes with a wrong label; election-day precinct votes then rise across later night updates. 2026 runoff: every night update has candidate precinct values 'N/A' (870 cells). The county's 'Night Reporting' runoff precinct PDFs ('PRECINCT RESULTS - REPUBLICAN PARTY' and '- DEMOCRATIC PARTY') were created June 2, 2026 (Run Time 9:28 AM and 9:24 AM; Last-Modified Tue, 07 Jul 2026).",
+  "tag_rationale": "The 2024 general and 2026 primary are both LIVE (precinct numbers with election-day votes in several night updates), so the tag is LIVE_PRECINCT; confidence high because both were settled by check 1.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.huntcounty.net/page/election.archive",
+      "via": "fetch_module",
+      "content_hash": "036781241b1701bc0eebd2a96d257263f40e366c24695d7adfe7bc623ceb3e01",
+      "quote": "2026/03/03 - Primary Election -> results.enr.clarityelections.com/TX/Hunt/125942/ ... 2024/11/05 - General Election -> results.enr.clarityelections.com/TX/Hunt/122429/",
+      "supports": "County links to Clarity EIDs"
+    },
+    {
+      "url": "https://www.huntcounty.net/page/election.2026",
+      "via": "fetch_module",
+      "content_hash": "b60b36dd6d0e6b1aee0284e4d8bcdd63e6917677fa1c29ec33c96c62c7faf63a",
+      "quote": "May 26, 2026 - Runoff Election -> results.enr.clarityelections.com/TX/Hunt/126349/",
+      "supports": "Runoff Clarity EID"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/352455/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "2673956f39ade39cbc6146c13ff1c60ccc55c9c50391e00edcc0486a80b29081",
+      "quote": "Timestamp 11/5/2024 10:08:12 PM CST; 56 precincts with candidate votes; election-day precinct sum 335150",
+      "supports": "2024 general live precinct updates"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368525/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "1670f25d4b075c9103bdb76831f4c39422414121c13a4ef7318d91e74b64a98a",
+      "quote": "Timestamp 3/3/2026 10:40:03 PM CST; 39 precincts; election-day precinct sum 295915",
+      "supports": "2026 primary live precinct updates"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373127/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "781e49643ef6cc33cfd48f60d66b49d23304580667771b830ed6cf07f32706a2",
+      "quote": "Timestamp 5/27/2026 11:35:42 AM CDT; first update with candidate precinct votes",
+      "supports": "2026 runoff precinct numbers after election night"
+    },
+    {
+      "url": "https://www.huntcounty.net/upload/page/0153/2026/Night%20Reporting/PRECINCT%20RESULTS%20-%20REPUBLICAN%20PARTY.pdf",
+      "via": "fetch_module",
+      "content_hash": "8f43c5b1f54ab1708465023358882337196281052eaec86f33a06ffe8c36ecd3",
+      "quote": "PRECINCT RESULTS - REPUBLICAN PARTY ... Unofficial Results ... Run Time 9:28 AM (CreationDate 2026-06-02)",
+      "supports": "County runoff precinct PDF made after election night"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-05 20:19 CT",
+      "night_updates_with_precinct_numbers": "5",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Hunt/122429/352455/reports/detailxml.zip",
+      "fact": "Clarity EID 122429 night updates with candidate precinct votes in 56 precincts: 7:46 PM (early and absentee only; election-day sum 0), then 8:19:52 PM, 8:55:30 PM, 10:08:12 PM, 11:27:44 PM CST and 12:16:40 AM with election-day precinct sums 52522, 190738, 335150, 356584, 356584."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-03 20:33 CT",
+      "night_updates_with_precinct_numbers": "7",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368525/reports/detailxml.zip",
+      "fact": "Clarity EID 125942 night updates with candidate precinct votes in 39 precincts at 8:33:45, 8:51:13, 9:11:46, 9:32:08, 10:18:58, 10:40:03 PM and 1:07:28 AM CST; election-day precinct sums rise 12938, 47901, 97111, 186466, 272618, 295915, 295969."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-27 11:35 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373127/reports/detailxml.zip",
+      "fact": "Clarity EID 126349 night updates 7:17, 8:25, 9:10, 10:58 and 11:24 PM CDT have every candidate precinct value 'N/A' (county totals only); the 5/27/2026 11:35:42 AM CDT update is the first with candidate precinct votes (19 precincts, election-day sum 22802). County 'Night Reporting' precinct PDFs were created June 2, 2026."
+    }
+  }
+}

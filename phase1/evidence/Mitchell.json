@@ -1,0 +1,79 @@
+{
+  "county": "Mitchell",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.mitchell.tx.us/page/Elections.2026",
+  "platform": "county_pdfs",
+  "host": "www.co.mitchell.tx.us",
+  "evidence_url": "https://www.co.mitchell.tx.us/upload/page/0094/docs/20260303/20260303 - Primary - Unofficial Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL redirects to https://www.co.mitchell.tx.us/page/Elections. No Clarity site (elections.json 404). The '2026 Elections' page lists for the March 3 primary 'Unofficial Results' (Electionware Summary Results Report, county totals by Absentee / Early Voting / Election Day, footer 'Election Summary - 03/03/2026 8:51 PM', CreationDate Mar 4 02:52 UTC, Last-Modified Wed, 04 Mar 2026 03:45:53 GMT = 9:45 PM CST) and, separately, 'PCT by PCT' DEM and REP Official Results (REP file scanned Mar 4 23:41 UTC, Last-Modified Thu, 05 Mar 2026 20:28:22 GMT). For the May 26 runoff only Official reports (Summary, Summary PCT by PCT) and reconciliation forms are listed, so any election-night runoff posting has been replaced. The 'Past Elections' page lists only the November 2025 election; the 2024 general is not on the site. The site's HTML pages send no Last-Modified header. Check 3 pending for 2024 general and 2026 runoff: origin/wayback-data not present.",
+  "tag_rationale": "Only the 2026 primary is determined (LATER by check 2: election-night county-total summary, precinct report uploaded Mar 5), so the single determined result gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "2024 general not listed on the 2026 Elections or Past Elections pages. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:45 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.mitchell.tx.us/upload/page/0094/docs/20260303/20260303 - Primary - Unofficial Results.pdf",
+      "fact": "'Unofficial Results': 'Summary Results Report UNOFFICIAL RESULTS TX Mitchell County 260303 Primary 6110', county totals only, 'Election Day Precincts Reporting 4 of 4', footer 'Election Summary - 03/03/2026 8:51 PM', Last-Modified Wed, 04 Mar 2026 03:45:53 GMT. Precinct numbers came after election night: 'PCT by PCT - REP Official Results' Last-Modified Thu, 05 Mar 2026 20:28:22 GMT."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only '5.26.2026 Summary PCT by PCT - Official Results', Official summaries and reconciliation forms are listed; no election-night report remains. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.mitchell.tx.us/page/Elections.2026",
+      "via": "fetch_module",
+      "quote": "Unofficial Results; Unofficial Reconciliation; PCT by PCT (DEM/REP Official Results); Summary PCT by PCT - Official Results",
+      "supports": "report lists for 2026 primary and runoff",
+      "content_hash": "105e5e76ae70eed50c89313fa36572039db0cd1af2c7f9b54763f566267e9703"
+    },
+    {
+      "url": "https://www.co.mitchell.tx.us/upload/page/0094/docs/20260303/20260303 - Primary - Unofficial Results.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS ... Election Summary - 03/03/2026 8:51 PM",
+      "supports": "2026_primary election-night county totals",
+      "content_hash": "6e32b2214b92b3a8d2ced2fdef54949e7c45a6c9330e131c234b92da2da4ae07"
+    },
+    {
+      "url": "https://www.co.mitchell.tx.us/upload/page/0094/docs/20260303/332026 Pct by Pct - REP Official Results.pdf",
+      "via": "fetch_module",
+      "quote": "Last-Modified Thu, 05 Mar 2026 20:28:22 GMT",
+      "supports": "2026_primary precinct numbers after election night",
+      "content_hash": "e089903e36fa4bce50ba5ca7546d80d9ac095fb189b7aa1c52d48342a0730ede"
+    },
+    {
+      "url": "https://www.co.mitchell.tx.us/page/Elections.Past",
+      "via": "fetch_module",
+      "quote": "Unofficial Results (20251104); Final Canvass PCT by PCT; Final Canvass Summary",
+      "supports": "2024 general not listed",
+      "content_hash": "2a1f6d132d7d6709817e2e31651915eb64c3a121605d8f0727519b4c209708f7"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "county": "Swisher",
+  "tag": "NO_SITE_OR_SOS_ONLY",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.swisher.tx.us/page/swisher.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.swisher.tx.us",
+  "evidence_url": "https://www.co.swisher.tx.us/page/swisher.Elections",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https (already in the shared cache); results are listed on page/swisher.Elections. No Clarity site (elections.json 404). The results list gives one link per election: county PDFs of official results for 2024-2026 elections except the November 5, 2024 general, whose link goes to the SOS results site, so the 2024 general is NONE by check 2 (the current page is the evidence; an earlier county posting later replaced by the SOS link cannot be ruled out without check 3). For the 2026 primary and runoff only post-canvass official files exist. Check 3 pending for the 2026 elections (wayback-data branch not found on origin).",
+  "tag_rationale": "Only the 2024 general is determined (NONE by check 2: the county's results link for it is the SOS site), so the tag is NO_SITE_OR_SOS_ONLY with low confidence.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "NONE",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.swisher.tx.us/page/swisher.Elections",
+      "fact": "In the county's results list, the entry 'November 5, 2024 - General Election ( 5 de noviembre de 2024 - Elecciones General )' links to https://results.texas-election.com/races (the SOS results site); every other election in the list links to a county-posted results PDF. No county results file for the 2024 general is posted."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'March 3, 2026 - Joint Primary Election' Official Results (Electionware 'Official Results - Joint Primary Election', footer 'Election Summary - 03/19/2026 11:34 AM', Last-Modified Fri, 20 Mar 2026 14:52:48 GMT) is posted; no election-night file. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'May 26, 2026 - Joint Primary Runoff Election' Official Results (Electionware 'Summary Results Report OFFICIAL RESULTS' with per-precinct pages, footer 'Precinct Summary - 06/08/2026 11:32 AM', Last-Modified Mon, 08 Jun 2026 14:52:16 GMT) is posted; no election-night file. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.swisher.tx.us/page/swisher.Elections",
+      "via": "fetch_module",
+      "content_hash": "1b33a9ae4614e68aa884aa6eca34394812fdc95d634eeb1e975a5bd756da9d77",
+      "quote": "November 5, 2024 - General Election ( 5 de noviembre de 2024 - Elecciones General ) -> https://results.texas-election.com/races; March 3, 2026 - Joint Primary Election -> March 3 2026 Joint Primary Election Official Results .pdf; May 26, 2026 - Joint Primary Runoff Election -> Official Results Post 05.26.2026.pdf",
+      "supports": "2024 general results only via SOS link; 2026 only official files"
+    },
+    {
+      "url": "https://www.co.swisher.tx.us/upload/page/7290/2026/Official Results Post 05.26.2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "f598458ef86f45ecc0919e5b0ef255228a38cdf40bbf6c8d61edf7339a0dcdee",
+      "quote": "Summary Results Report OFFICIAL RESULTS TX Swisher 260526 Primary Runoff 6110 ... Precinct Summary - 06/08/2026 11:32 AM",
+      "supports": "Runoff official precinct results posted June 8"
+    },
+    {
+      "url": "https://www.co.swisher.tx.us/upload/page/7290/2026/March 3 2026 Joint Primary Election Official Results .pdf",
+      "via": "fetch_module",
+      "content_hash": "a401f7bc08238fab564938c93c887407d209cfccc7000b0fcc80a48d48549ef0",
+      "quote": "Summary Results Report Official Results - Joint Primary Election Tx Swisher County 260303 Primary 6110 ... Election Summary - 03/19/2026 11:34 AM",
+      "supports": "Primary official county results posted March 20"
+    }
+  ]
+}

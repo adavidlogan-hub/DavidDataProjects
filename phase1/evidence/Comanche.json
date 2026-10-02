@@ -1,0 +1,107 @@
+{
+  "county": "Comanche",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.comanchecountytx.gov/252/2026-May-26th-Primary-Runoff-Election",
+  "platform": "county_pdfs",
+  "host": "www.comanchecountytx.gov",
+  "evidence_url": "https://www.comanchecountytx.gov/DocumentCenter/View/1653",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No seed website in the SOS list; one web search found www.comanchecountytx.gov (CivicPlus) and the older newtools.cira.state.tx.us pages. No Clarity or vendor site found. Reports are Hart PDFs (Cumulative and Precinct Results). The DocumentCenter server sets Last-Modified to the request time (Fri, 02 Oct 2026), so it gives no upload evidence; times used are printed run times (PDF CreationDate agrees, e.g. runoff cumulative 2026-05-27 01:42:16 UTC). Pattern also seen in 2024 primary and runoff archive file names (Cumulative Results on election night, Precinct Results days later). 2024 general undetermined (check 3 pending; wayback-data branch not on origin).",
+  "tag_rationale": "The 2026 primary and 2026 runoff are both LATER (check 2: county totals on election night, precinct reports printed after), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS. Confidence low because the server gives no upload times.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Archived Elections page lists for 11-5-24 only notices, orders, sample ballots and polling places; no 2024 general results file is posted. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:14 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.comanchecountytx.gov/DocumentCenter/View/1446",
+      "fact": "'Unofficial - Results' (View/1420) is a Hart 'Cumulative Results Report Comanche County Unofficial Results 2026 March 3rd Joint Primary Election ... Polling Places Reporting 11 of 12 ... Run Time 9:14 PM Run Date 03/03/2026' (county totals). The 'Precinct by Precinct Report' (View/1446) is a 'Precinct Results Report Unofficial Results ... Polling Places Reporting 12 of 12 ... Run Time 10:08 AM Run Date 03/12/2026', nine days later. The server returns the request time as Last-Modified, so there is no upload-time evidence."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:41 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.comanchecountytx.gov/DocumentCenter/View/1653",
+      "fact": "'Unofficial - Results' (View/1642) is a Hart 'Cumulative Results Report ... 2026 May 26th Joint Primary Runoff ... Polling Places Reporting 8 of 9 ... Run Time 8:41 PM Run Date 05/26/2026' (county totals). The 'Precinct by Precinct Report' (View/1653) is a 'Precinct Results Report Unofficial Results ... Run Time 3:15 PM Run Date 05/27/2026', the afternoon after election night. No server upload times available."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.comanchecountytx.gov/259/2026-March-3rd-Joint-Primary-Election",
+      "via": "fetch_module",
+      "content_hash": "eff5a1faf1ca3a5a90d3e0fde38ab4b6df251b39c5ed7ee1fa6ee0a63fac5ec3",
+      "quote": "Unofficial - Results; Precinct by Precinct Report; Official Election Reconciliation",
+      "supports": "Primary page result links"
+    },
+    {
+      "url": "https://www.comanchecountytx.gov/252/2026-May-26th-Primary-Runoff-Election",
+      "via": "fetch_module",
+      "content_hash": "9aa15ca6a7d8803f1e6843b4d58f7ccfbe4838d67eff9c495b1824e975e4ecf6",
+      "quote": "Unofficial - Early Results; Unofficial - Results; Precinct by Precinct Report",
+      "supports": "Runoff page result links"
+    },
+    {
+      "url": "https://www.comanchecountytx.gov/DocumentCenter/View/1420",
+      "via": "fetch_module",
+      "content_hash": "ef1b640b16afa39e6e1382b048b37939be1db2a497873d6101ba61e45c667497",
+      "quote": "Cumulative Results Report Comanche County Unofficial Results 2026 March 3rd Joint Primary Election ... Run Time 9:14 PM Run Date 03/03/2026",
+      "supports": "Primary election-night county totals"
+    },
+    {
+      "url": "https://www.comanchecountytx.gov/DocumentCenter/View/1446",
+      "via": "fetch_module",
+      "content_hash": "782d38bca1c4f7a9658f4996da5ba6e0002ed903003272fd1e3711cefa7716fc",
+      "quote": "Precinct Results Report Unofficial Results Comanche County ... Run Time 10:08 AM Run Date 03/12/2026",
+      "supports": "Primary precinct numbers printed Mar 12"
+    },
+    {
+      "url": "https://www.comanchecountytx.gov/DocumentCenter/View/1642",
+      "via": "fetch_module",
+      "content_hash": "e9bfb76eecdaa889eca2afdc8c545cb6be1498138f395290be1850e8995fa5b9",
+      "quote": "Cumulative Results Report ... 2026 May 26th Joint Primary Runoff ... Run Time 8:41 PM Run Date 05/26/2026",
+      "supports": "Runoff election-night county totals"
+    },
+    {
+      "url": "https://www.comanchecountytx.gov/DocumentCenter/View/1653",
+      "via": "fetch_module",
+      "content_hash": "481996b019f101d9bcc6d7732b51c5b8ed6f3b00d036e834cfea135d090f3c36",
+      "quote": "Precinct Results Report Unofficial Results ... 2026 May 26th Joint Primary Runoff ... Run Time 3:15 PM Run Date 05/27/2026",
+      "supports": "Runoff precinct numbers printed May 27 afternoon"
+    },
+    {
+      "url": "https://www.comanchecountytx.gov/256/Archived-Elections",
+      "via": "fetch_module",
+      "content_hash": "d05e8ead212ea3afc4937fbf4a4e82d5a8a2876e928a10967fff7df76ae058eb",
+      "quote": "11-5-24 Order of Election; 11-5-24 Notice of Election; 11-5-24 Notice of Delivery of Ballots Voted by Mail",
+      "supports": "No 2024 general results listed"
+    },
+    {
+      "url": "websearch:?q=comanche%20county%20texas%20elections%20results",
+      "via": "websearch",
+      "content_hash": "1328def8c27fc71b0e38b6bd0a19e76b079ad1a23c270c6053eddbe24b1ab7dd",
+      "quote": "Archived Elections | https://www.comanchecountytx.gov/256/Archived-Elections",
+      "supports": "Located county site (no seed URL)"
+    }
+  ]
+}

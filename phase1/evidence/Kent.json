@@ -1,0 +1,72 @@
+{
+  "county": "Kent",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.kent.tx.us/page/kent.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.kent.tx.us",
+  "evidence_url": "https://www.co.kent.tx.us/upload/page/11626/REPUBLICAN%20PARTY%20PRIMARY%20CERTIFIED%20ELECTION%20RESULTS.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No website in the SOS seed list; one web search found www.co.kent.tx.us. First attempts failed (robots.txt connection reset); a retry about 10 minutes later succeeded. No Clarity site (elections.json 404). The Elections page lists 2025 and 2026 notices, sample ballots, and, as the only results, certified (post-canvass) county-total results for the March 2026 primary, uploaded 24 Mar 2026. No results are listed for the 2024 general or the 2026 runoff (could be NONE or removed; not assigned without evidence). Check 3 pending for those.",
+  "tag_rationale": "Only the 2026 primary is determined (LATER by check 2: certified county totals posted 24 Mar 2026, no precinct numbers online), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the Elections page lists only 2025 and 2026 items, no 2024 general results"
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-24 13:21 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.kent.tx.us/upload/page/11626/REPUBLICAN%20PARTY%20PRIMARY%20CERTIFIED%20ELECTION%20RESULTS.pdf",
+      "fact": "Elections page lists for the primary only 'March 3, 2026 Democratic Party Primary Certified Election Results' and 'March 3, 2026 Republican Party Primary Certified Election Results'. The Republican file (Word-generated PDF, CreationDate Tue Mar 24 18:11:41 2026 UTC; Last-Modified Tue, 24 Mar 2026 18:21:17 GMT) shows 'REPUBLICAN PARTY PRIMARY CERTIFIED ELECTION RESULTS ... EARLY VOTING ELECTION DAY GRAND TOTAL' county totals only; no precinct numbers published online and nothing listed from election night."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the Elections page lists runoff notices and sample ballots but no runoff results"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.kent.tx.us/page/kent.Elections",
+      "via": "fetch_module",
+      "content_hash": "4479c851731493df214ee06892b209b04dc37f8bf1c204c025ba16d99abad97a",
+      "quote": "March 3, 2026 Democratic Party Primary Certified Election Results | March 3, 2026 Republican Party Primary Certified Election Results | Notice of May 26, 2026 Republican Primary Runoff Election | Sample Republican Party Ballot for May 26, 2026 Primary Runoff Election",
+      "supports": "only results listed are certified primary results"
+    },
+    {
+      "url": "https://www.co.kent.tx.us/upload/page/11626/REPUBLICAN%20PARTY%20PRIMARY%20CERTIFIED%20ELECTION%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "65b9eb20ecdef3c80f2d543d46b9a18d55511ae32b54c8db477c9d7732eee6f6",
+      "quote": "REPUBLICAN PARTY PRIMARY CERTIFIED ELECTION RESULTS ... PARTY EARLY VOTING ELECTION DAY GRAND TOTAL ... John Cornyn 33 40 73",
+      "supports": "2026_primary county totals only, posted 24 Mar 2026"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kent/elections.json",
+      "via": "clarity_script",
+      "content_hash": "",
+      "quote": "HTTP 404",
+      "supports": "no Clarity site for Kent"
+    }
+  ]
+}

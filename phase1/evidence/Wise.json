@@ -1,0 +1,65 @@
+{
+  "county": "Wise",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.wise.tx.us/315/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.wise.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://co.wise.tx.us/ returned HTTP 403 and www.co.wise.tx.us was refused by the fetch module (robots_disallowed_or_unreachable). One web search located the same CivicPlus Elections page also served at www.ems.co.wise.tx.us/315/Elections, which the fetch module read. Clarity: results.enr.clarityelections.com/TX/Wise/elections.json returned HTTP 403 (not 404), and the county page has no Clarity link, so no EIDs were available and none were probed. The Elections page lists only canvass-time reports: 'May 26, 2026 Joint Primary Runoff Election Final Official Cumulative Results Report', 'March 3, 2026 Joint Primary Election Official Cumulative Results Report', reconciliation forms and hand count audits; no election-night report remains. 2024 general results were not examined beyond this list. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined (only official canvass reports remain on the county page; no Clarity access; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Not settled by checks 1 or 2 (Clarity elections.json HTTP 403; county page lists official reports). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'March 3, 2026 Joint Primary Election Official Cumulative Results Report' only; no election-night report listed. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'May 26, 2026 Joint Primary Runoff Election Final Official Cumulative Results Report' only; no election-night report listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.ems.co.wise.tx.us/315/Elections",
+      "via": "fetch_module",
+      "content_hash": "648a7ed505e4b92db7ecfb4e1bef0c75a2953f15d87041dc5db5d735d0b221ce",
+      "quote": "ELECTION RESULTS: May 26, 2026 Joint Primary Runoff Election Final Official Cumulative Results Report ... March 3, 2026 Joint Primary Election Official Cumulative Results Report",
+      "supports": "only official reports listed"
+    },
+    {
+      "url": "websearch:?q=wise%20county%20texas%20elections%20results%202026%20clarityelections",
+      "via": "websearch",
+      "content_hash": "3ceece89d720766a8105165ed016a90031f71a4f6e881aab9c4532f4899c41d8",
+      "quote": "Elections https://www.ems.co.wise.tx.us/315/Elections",
+      "supports": "location of county elections page only"
+    }
+  ]
+}

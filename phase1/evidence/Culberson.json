@@ -1,0 +1,79 @@
+{
+  "county": "Culberson",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.culberson.tx.us/page/Elections%202026",
+  "platform": "county_pdfs",
+  "host": "www.co.culberson.tx.us",
+  "evidence_url": "https://www.co.culberson.tx.us/upload/page/0111/2026/May%2026%20Run%20Off/Primary%20Runoff%20Election%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.culberson.tx.us/ works over https; election pages are 'Elections 2026' and 'Elections 2019-2025'. No Clarity or vendor link. Election-night files are scanned Hart cumulative (county total) reports, read visually; Last-Modified values differ per file and follow PDF scan times. Culberson is treated as Central time (the brief names only Hudspeth and El Paso as Mountain). No precinct-level results are posted for these elections. 2026 primary undetermined (check 3 pending; wayback-data branch not on origin).",
+  "tag_rationale": "The 2024 general and 2026 runoff are both LATER (check 2: county totals only on election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS. Confidence med because each has a printed run time and a server upload time on election night.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 22:29 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.culberson.tx.us/upload/page/0086/2024%20Election/11052024_imulative_results_report.pdf",
+      "fact": "'Unofficial Results 11.5.24' is a scanned 11-page Hart 'Cumulative Results Report CULBERSON COUNTY, TEXAS GENERAL ELECTION 11/5/2024' (county totals by Absentee, Early, Election Day; header box reads 'Official Results ... Precincts Reporting 4 of 4'), 'Run Time 8:19 PM Run Date 11/05/2024'. PDF CreationDate 2024-11-06 03:41:59 UTC; Last-Modified Wed, 06 Nov 2024 04:29:56 GMT (10:29 PM CST). No precinct-level 2024 general file is posted."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The 2026 page lists only 'March 3, 2026 Joint Primary Democratic Official Results' and '... Republican Official Results'; nothing shows what was posted on election night. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:48 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.culberson.tx.us/upload/page/0111/2026/May%2026%20Run%20Off/Primary%20Runoff%20Election%20Results.pdf",
+      "fact": "'Primary Runoff Election Results' is a scanned 3-page Hart 'Cumulative Results Report CULBERSON COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026' (county totals; 'Precincts Reporting 4 of 4'), 'Run Time 8:06 PM Run Date 05/26/2026'. PDF CreationDate 2026-05-27 01:27:16 UTC, ModDate 02:46:16 UTC; Last-Modified Wed, 27 May 2026 02:48:49 GMT (9:48 PM CDT). No precinct-level runoff file is posted."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.culberson.tx.us/page/Elections%202026",
+      "via": "fetch_module",
+      "content_hash": "4be3e44ae82a5a176e7a40f8b1c883de780bb6270757fedfa72483008716311b",
+      "quote": "Primary Runoff Election Results; March 3, 2026 Joint Primary Democratic Official Results; March 3, 2026 Joint Primary Republican Official Results",
+      "supports": "Elections 2026 page result links"
+    },
+    {
+      "url": "https://www.co.culberson.tx.us/page/Elections%202019-2025",
+      "via": "fetch_module",
+      "content_hash": "273544b84018077ddd2f443f285f8ce980e0102d240968cc83b00ef18985ce31",
+      "quote": "Unofficial Results 11.5.24",
+      "supports": "Elections 2019-2025 page 2024 result link"
+    },
+    {
+      "url": "https://www.co.culberson.tx.us/upload/page/0111/2026/May%2026%20Run%20Off/Primary%20Runoff%20Election%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "64bd40c18ffd693b861d16b707960c5cc6bfac0fa2c5dff32a4060c712a5c56f",
+      "quote": "Cumulative Results Report CULBERSON COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Run Time 8:06 PM (scanned image, read visually)",
+      "supports": "Runoff county totals uploaded 2026-05-27 02:48:49 GMT"
+    },
+    {
+      "url": "https://www.co.culberson.tx.us/upload/page/0086/2024%20Election/11052024_imulative_results_report.pdf",
+      "via": "fetch_module",
+      "content_hash": "299c43585473eb0c1a57b7db6214db8fb55f0313c7e90dc86441707b4bcd7260",
+      "quote": "Cumulative Results Report CULBERSON COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Run Time 8:19 PM (scanned image, read visually)",
+      "supports": "2024 county totals uploaded 2024-11-06 04:29:56 GMT"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "county": "Val Verde",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://valverdecounty.texas.gov/528/_2026",
+  "platform": "county_pdfs",
+  "host": "valverdecounty.texas.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL www.valverdecounty.org returned HTTP 403 (http and https); www.valverdecounty.texas.gov was refused by the fetch module (robots_disallowed_or_unreachable); one web search located valverdecounty.texas.gov (no www), which works. No Clarity site (elections.json 404). Election pages /528/_2026 and /519/_2024 (CivicPlus DocumentCenter) list per election an unofficial results file, then 'Official Results' summary and 'Official Results Precinct-by-Precinct'. The unofficial files are scanned PDFs with no text layer and CreationDate the day after the election: 2024 general Wed Nov 6 2024 21:42 UTC (3:42 PM CST Nov 6); 2026 primary Wed Mar 4 2026 15:18 UTC (9:18 AM CST); 2026 runoff Wed May 27 2026 14:42 UTC (9:42 AM CDT). DocumentCenter sends no Last-Modified header. So the posted unofficial files were made after election night, but whether anything else was posted on election night (and later removed) cannot be told from the current pages. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined by checks 1 and 2 (the posted unofficial files are next-day scans and no election-night posting is visible; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'2024 General Election Unofficial Results' scanned PDF, CreationDate 2024-11-06 21:42 UTC; '2024 General Election Official Results Precinct-by-Precinct' posted later. No Last-Modified. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Unofficial Joint Primary Results' scanned PDF (22 pages), CreationDate 2026-03-04 15:18 UTC; 'Final -Official Joint Primary Results - Precinct-by-Precinct' posted later. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Unofficial Results - Val Verde County' scanned PDF (4 pages), CreationDate 2026-05-27 14:42 UTC; 'Official Results Precinct by Precinct' posted later. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://valverdecounty.texas.gov/528/_2026",
+      "via": "fetch_module",
+      "content_hash": "fc568a20cbe6f93f4be2a6fa62afb1d79b1101d4825c72452e0742d13573a1a3",
+      "quote": "Unofficial Joint Primary Results ; Final -Official Joint Primary Results - Precinct-by-Precinct ; Unofficial Results - Val Verde County ; Official Results Precinct by Precinct",
+      "supports": "2026 report list"
+    },
+    {
+      "url": "https://valverdecounty.texas.gov/519/_2024",
+      "via": "fetch_module",
+      "content_hash": "83743d1cfd953c38fedd8f77cc2be8c03c2847bdda405757fd0ff7b4849f9b45",
+      "quote": "2024 General Election Unofficial Results ; 2024 General Election Official Results Precinct-by-Precinct",
+      "supports": "2024 report list"
+    },
+    {
+      "url": "https://valverdecounty.texas.gov/DocumentCenter/View/10174/2026-JOINT-PRIMARY-ELECTIONS-UNOFFICIAL-RESULTS",
+      "via": "fetch_module",
+      "content_hash": "c0f3be7f3601e74598d1f801a2f9c050a64a8000462e3b4c01fdc0964540ca4b",
+      "quote": "CreationDate: Wed Mar 4 15:18:15 2026 UTC (PaperStream Capture scan)",
+      "supports": "2026 primary unofficial made after election night"
+    },
+    {
+      "url": "https://valverdecounty.texas.gov/DocumentCenter/View/10450/2026-JOINT-PRIMARY-RUN-OFF-UNOFFICIAL-RESULTS",
+      "via": "fetch_module",
+      "content_hash": "fa58e4244960f8d2661b3de89d50643925ea67879568babca8d4c535dce32f2d",
+      "quote": "CreationDate: Wed May 27 14:42:06 2026 UTC (PaperStream Capture scan)",
+      "supports": "2026 runoff unofficial made after election night"
+    },
+    {
+      "url": "https://valverdecounty.texas.gov/DocumentCenter/View/8410/Unofficial-Results-Val-Verde-County-General-Election-202",
+      "via": "fetch_module",
+      "content_hash": "8da7666cc1cdca5a190ce6e56e87e6df317305f9f0d8e6725baab53b556d4c3d",
+      "quote": "CreationDate: Wed Nov 6 21:42:16 2024 UTC (PaperStream Capture scan)",
+      "supports": "2024 unofficial made after election night"
+    },
+    {
+      "url": "websearch:?q=val%20verde%20county%20texas%20election%20results%20unofficial%202026%20primary",
+      "via": "websearch",
+      "content_hash": "429550c547b7996d85eda187843f41204290590b33f6a1f20be6a4c89b1c57ab",
+      "quote": "2026 https://www.valverdecounty.texas.gov/528/_2026",
+      "supports": "location of county results pages only"
+    }
+  ]
+}

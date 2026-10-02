@@ -1,0 +1,65 @@
+{
+  "county": "Collin",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.collincountytx.gov/elections/election-results",
+  "platform": "homegrown",
+  "host": "www.collincountytx.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed https://www.collincountytx.gov/elections works. No Clarity site (clarity script: 'no Clarity election list (404)'). The Election Results page says the county publishes unofficial results from its tabulation system on that page: early voting at 7 p.m., updates from 8:30 p.m. at half-hour intervals; it does not say whether election-night results are by precinct. Only official files remain for all three elections, so election night cannot be judged from the live site. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "No election could be determined from checks 1 and 2, so the tag is UNKNOWN.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Results Archive keeps only official/post-canvass 2024 general files ('november-5-2024---statement-of-votes-cast---official-final.pdf', 'combined-accumulated-totals-official-final') plus an early-ballots accumulated totals file; the election-night results page content is gone. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Results Archive keeps only 'Precinct Results Report - Official Totals', 'Election Summary Report - Official Totals', precinct export (official) and reconciliation forms for the March 3, 2026 primary; no election-night files remain. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Results Archive keeps only 'Precinct Results Report - Official Totals', 'Summary Results Report - Official Totals', an official export CSV and reconciliation forms for the May 26, 2026 runoff; no election-night files remain. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.collincountytx.gov/elections/election-results",
+      "via": "fetch_module",
+      "content_hash": "04acb1f68aaf163e1b7a3de91b4ef0197139ccf020ce90d25ef5d80f7eff9cc5",
+      "quote": "Early voting results will appear at 7 p.m. on election night. Election results will be updated beginning at 8:30 p.m., and then at half hour intervals until tabulation is completed.",
+      "supports": "County states it posts unofficial results on its own page through election night (granularity not stated)"
+    },
+    {
+      "url": "https://www.collincountytx.gov/elections/election-results-archive",
+      "via": "fetch_module",
+      "content_hash": "9445b285aff65052856dc958ac6075a0fb48d8fec83026221887f5fa5498a2f7",
+      "quote": "March 3, 2026 - Primary Election - Precinct Results Report - Official Totals; May 26, 2026 - Primary Runoff Election - Precinct Results Report - Official Totals; november-5-2024---statement-of-votes-cast---official-final.pdf",
+      "supports": "Archive holds only official files for the three elections"
+    }
+  ]
+}

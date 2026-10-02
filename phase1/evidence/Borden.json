@@ -1,0 +1,65 @@
+{
+  "county": "Borden",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.borden.tx.us/page/Elections.2026",
+  "platform": "county_pdfs",
+  "host": "www.co.borden.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Elections 2026 and Past Elections pages list only 'OFFICIAL RESULTS' files for each target election (xls for the 2024 general and 2026 primary, scanned PDFs for the 2026 runoff) plus hand count certifications; no election-night (unofficial) file survives, so election-night publication cannot be decided from checks 1 and 2. Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (only official post-canvass files, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Past Elections lists only 'OFFICIAL RESULTS FOR THE NOVEMBER 5 2024 GENERAL ELECTION' (xls). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Elections 2026 lists only 'OFFICIAL RESULTS FOR DEMOCRATIC/REPUBLICAN PRIMARY ELECTION MARCH 3, 2026' (xls). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Elections 2026 lists only 'OFFICIAL RESULTS FOR REPUBLICAN/DEMOCRATIC PRIMARY RUNOFF MAY 26, 2026' and hand count certifications. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.borden.tx.us/page/Elections.2026",
+      "via": "fetch_module",
+      "quote": "OFFICIAL RESULTS FOR REPUBLICAN PRIMARY RUNOFF MAY 26, 2026; OFFICIAL RESULTS FOR DEMOCRATIC PRIMARY ELECTION MARCH 3, 2026",
+      "supports": "Only official files for 2026",
+      "content_hash": "e0184adf9c8a6ff765249a6f6474fb896e4ce55b9983ae6683d2ba9297eb8a7c"
+    },
+    {
+      "url": "https://www.co.borden.tx.us/page/Elections.Archive",
+      "via": "fetch_module",
+      "quote": "OFFICIAL RESULTS FOR THE NOVEMBER 5 2024 GENERAL ELECTION",
+      "supports": "Only official file for 2024 general",
+      "content_hash": "02dd2b5ba70fc4fb3c34b5842567fc5206c3c7ba0a6b746532aab8457fd43437"
+    }
+  ]
+}

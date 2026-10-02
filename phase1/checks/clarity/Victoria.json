@@ -3,16 +3,278 @@
   "check": "clarity_update_log",
   "elections": {
     "2024_general": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "122848",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "348932",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/348932/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348933",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/348933/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/30/2024 6:57:51 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "348934",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/348934/reports/detailxml.zip",
+              "content_hash": "1761943d748f74e250a90c2b4be5f62e15668e5b3bedbdfd11fa2bc832949308",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/30/2024 10:20:59 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "348955",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/348955/reports/detailxml.zip",
+              "content_hash": "576dfa82096ff0798f8e59539a278a5c3ae4618af221c84fa472035c557a1cf8",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:53:10 PM CST",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 2886,
+              "version": "351128",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/351128/reports/detailxml.zip",
+              "content_hash": "b1fe19f9decca1cdd32346422be5c698e8b5dca3480e5d4d62cb9831b9d27d63",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:17:50 PM CST",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 4281,
+              "version": "351371",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/351371/reports/detailxml.zip",
+              "content_hash": "39ac887a373b05749e0b3618aef4ac80cc3e068ab75d3c0794c9a767d8e9174e",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:35:30 PM CST",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 4379,
+              "version": "351575",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/351575/reports/detailxml.zip",
+              "content_hash": "3b5e168495523aa0ac0b4cb00f6989d46897abdbe3872b7298160c5a7b92c01d",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:51:56 PM CST",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 4395,
+              "version": "351718",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/351718/reports/detailxml.zip",
+              "content_hash": "6535707a7ccbd9b4ca924feabafdb9ee8945cfb51af7a5b06f26a52e49a87c92",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:56:45 PM CST",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 4402,
+              "version": "352363",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/352363/reports/detailxml.zip",
+              "content_hash": "b26089654dbfc2d96a6a3e11f96c955a50d1920863e0d2170ac7d37bc81f0ce0",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/18/2024 11:33:24 AM CST",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 4405,
+              "version": "355288",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/355288/reports/detailxml.zip",
+              "content_hash": "7a67a415b14100b9dac54ad595ee03fb653210dc13fd24d889c8d2cb466fb44e",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:53:10 PM CST",
+            "version": "351128",
+            "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/351128/reports/detailxml.zip"
+          },
+          "unreadable_versions": 2
+        }
+      ]
     },
     "2026_primary": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "126049",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "368262",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368262/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368263",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368263/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/28/2026 8:57:20 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368288",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368288/reports/detailxml.zip",
+              "content_hash": "a991861e89d3bf29f9d863d4868f8a8c3469e513e7e79e8712354b4262465e8f",
+              "election_night": false
+            },
+            {
+              "version": "368418",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368418/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368419",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368419/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368420",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368420/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368421",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368421/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 8:12:40 PM CST",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 8965,
+              "version": "368426",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368426/reports/detailxml.zip",
+              "content_hash": "eace2e7fa7c1940cf256551868917ad9834e04595ca5a00c7ae09cdbe4a38a71",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:58:31 PM CST",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 13614,
+              "version": "368460",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368460/reports/detailxml.zip",
+              "content_hash": "28e131e57baecd7a871b3965959447118ca6110ebe1b944bfbbd532c99339602",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:38:47 PM CST",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 14030,
+              "version": "368488",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368488/reports/detailxml.zip",
+              "content_hash": "3a1594dfd03f62ad7acc969979752d7c6b7a92658fa8522e3aef479cf2a77beb",
+              "election_night": true
+            },
+            {
+              "version": "368527",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368527/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/11/2026 10:38:05 AM CDT",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 14125,
+              "version": "368777",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368777/reports/detailxml.zip",
+              "content_hash": "53350e9bea9bfccba321f79d70b24a0e982f0043c6d2fcf8a8d2208efcc5b70d",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/20/2026 10:33:22 AM CDT",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 14125,
+              "version": "369076",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/369076/reports/detailxml.zip",
+              "content_hash": "6c9b3b855289a182afe4be815f9f57c6a02d34954b9f301c95a4169fce29b689",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 3,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 8:12:40 PM CST",
+            "version": "368426",
+            "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368426/reports/detailxml.zip"
+          },
+          "unreadable_versions": 7
+        }
+      ]
     },
     "2026_runoff": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "126376",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "372334",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126376/372334/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/20/2026 11:35:56 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372338",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126376/372338/reports/detailxml.zip",
+              "content_hash": "f820967b82bf169dd236cd860c245e3ce00615f0e40ed1f57af6bb6cf14df1bf",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:19:22 PM CDT",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 363,
+              "version": "372941",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126376/372941/reports/detailxml.zip",
+              "content_hash": "48725c6b69f24d5810505bc51b6f68425f7058a40cbd0b386dd99321dd130250",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:07:39 PM CDT",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 685,
+              "version": "372961",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126376/372961/reports/detailxml.zip",
+              "content_hash": "2ca9edf830c2ccbb6540a412195b6cb14bb0155e7fac5caadfef7228a49f9e02",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:48:46 PM CDT",
+              "precincts_with_votes": 35,
+              "nonzero_precinct_vote_cells": 1119,
+              "version": "372992",
+              "url": "https://results.enr.clarityelections.com/TX/Victoria/126376/372992/reports/detailxml.zip",
+              "content_hash": "b91047f51e2e4a6f3be77e80bdc7bc7ae54d23c320142a7b9c0b7651cb1c421c",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 3,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 7:19:22 PM CDT",
+            "version": "372941",
+            "url": "https://results.enr.clarityelections.com/TX/Victoria/126376/372941/reports/detailxml.zip"
+          },
+          "unreadable_versions": 1
+        }
+      ]
     }
+  },
+  "eid_overrides": {
+    "2024_general": "122848",
+    "2026_primary": "126049",
+    "2026_runoff": "126376"
   }
 }

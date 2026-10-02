@@ -1,0 +1,86 @@
+{
+  "county": "Lavaca",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.lavaca.tx.us/page/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.lavaca.tx.us",
+  "evidence_url": "https://www.co.lavaca.tx.us/upload/page/0134/images/2026/May%2026%20RUNOFF/UNOFFICIAL%20RESULTS.1.jpg",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https; Elections page /page/Elections lists results files. No Clarity site (elections.json 404). Results are scanned Electionware reports (PDF or JPG); runoff page 1 was read visually. Last-Modified values differ per file (meaningful). 2026 runoff: county summary posted on election night, no precinct report online. 2026 primary: only official and a 6 Mar 2026 precinct-by-precinct report listed. 2024 general: election-night posting not identifiable (the 'Unofficial Results' link is a Nov 2023 file); check 3 pending. An 'Archived Election Info 2022-2024' page exists but was not needed for the 2024 listing, which is on the main page.",
+  "tag_rationale": "2026 primary and runoff are LATER by check 2, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; the primary has no election-night printed time or upload, so confidence is low.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending. The 2024 'Unofficial Results' link (Unofficial Results 11 2024.pdf) is a file created Wed Nov 8 2023 03:05 UTC with Last-Modified Wed, 08 Nov 2023 14:07:30 GMT, i.e. not the 2024 election-night report; 'Official Precinct Results' (11052024OFFICIAL PRECINCT RESULTS.pdf) was created Mon Feb 24 2025 and uploaded Tue, 25 Feb 2025 02:48:50 GMT. What was posted on 2024 election night cannot be identified."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.lavaca.tx.us/upload/page/0134/docs/Elections/2026/March%203rd%20PRIMARY/MARCH%203RD%202026_Primary%20Election_UNOFFICIAL_FINAL_PCTbyPCT_03062026.pdf",
+      "fact": "Elections page lists for March 3rd 2026 only 'RESULTS_REPUBLICAN_OFFICIAL', 'RESULTS DEMOCRATIC_OFFICIAL', 'PRECINCT BY PRECINCT_RESULTS_OFFICIAL' (file MARCH 3RD 2026_Primary Election_UNOFFICIAL_FINAL_PCTbyPCT_03062026.pdf, scanned, 154 pages, CreationDate Fri Mar 6 22:08:20 2026 UTC, Last-Modified Fri, 06 Mar 2026 22:58:03 GMT) and hand count audits. Precinct numbers first appear 6 Mar 2026; no election-night report is listed."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:17 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.lavaca.tx.us/upload/page/0134/images/2026/May%2026%20RUNOFF/UNOFFICIAL%20RESULTS.1.jpg",
+      "fact": "'UNOFFICIAL RESULTS_Page 1 of 2' (JPG scan, read visually): 'Summary Results Report May 26, 2026 Lavaca County ... UNOFFICIAL RESULTS ... Ballots Cast - Total 2,674 ... Election Summary - 05/26/2026 8:42 PM'; county totals only; Last-Modified Wed, 27 May 2026 02:17:07 GMT (9:17 PM CDT May 26). No runoff precinct report listed (only hand-count audit files and notice of canvass)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.lavaca.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "0805446446a25abda173922d14cc835c6f4be43cc12940d1df5ac8a86389bd8c",
+      "quote": "UNOFFICIAL RESULTS_Page 1 of 2 | ... | PRECINCT BY PRECINCT_RESULTS_OFFICIAL | ... | Official Precinct Results (11052024) | ... | Unofficial Results (Unofficial Results 11 2024.pdf)",
+      "supports": "report lists for all three elections"
+    },
+    {
+      "url": "https://www.co.lavaca.tx.us/upload/page/0134/images/2026/May%2026%20RUNOFF/UNOFFICIAL%20RESULTS.1.jpg",
+      "via": "fetch_module",
+      "content_hash": "af27c5a3fe182cf16819852f3dfc06ed1667495eda0a8d035217037ebaa1b781",
+      "quote": "Summary Results Report May 26, 2026 Lavaca County ... UNOFFICIAL RESULTS ... Election Summary - 05/26/2026 8:42 PM",
+      "supports": "2026_runoff county totals on election night"
+    },
+    {
+      "url": "https://www.co.lavaca.tx.us/upload/page/0134/docs/Elections/2026/March%203rd%20PRIMARY/MARCH%203RD%202026_Primary%20Election_UNOFFICIAL_FINAL_PCTbyPCT_03062026.pdf",
+      "via": "fetch_module",
+      "content_hash": "bd29eac156faae4b91d3124de4851e21bc22e4a4b5170d47814aa6e6dd82ebc3",
+      "quote": "scanned PDF (NAPS2), 154 pages, CreationDate Fri Mar 6 22:08:20 2026 UTC; Last-Modified Fri, 06 Mar 2026 22:58:03 GMT",
+      "supports": "2026_primary precinct report posted 6 Mar 2026"
+    },
+    {
+      "url": "https://www.co.lavaca.tx.us/upload/page/0134/Unofficial%20Results%2011%202024.pdf",
+      "via": "fetch_module",
+      "content_hash": "a1657fa668d5a3d241105a83bff0375b611f8781cb9fbd5791bc279dbf2a78d7",
+      "quote": "CreationDate Wed Nov 8 03:05:21 2023 UTC; Last-Modified Wed, 08 Nov 2023 14:07:30 GMT",
+      "supports": "2024 unofficial link points to a 2023 file"
+    },
+    {
+      "url": "https://www.co.lavaca.tx.us/upload/page/0134/11052024OFFICIAL%20PRECINCT%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "a062449155943054fe127ec521478588c7ebfb669318996bfe1045e917b4102b",
+      "quote": "CreationDate Mon Feb 24 20:14:28 2025 UTC; Last-Modified Tue, 25 Feb 2025 02:48:50 GMT",
+      "supports": "2024 official precinct results posted Feb 2025"
+    }
+  ]
+}

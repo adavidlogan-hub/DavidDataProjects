@@ -1,0 +1,86 @@
+{
+  "county": "Hill",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.hill.tx.us/page/hill.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.hill.tx.us",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/7619/docs/2026/Election%20Day%20Vote%20Unofficial%20Totals-Final.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity link. The county Elections page links election-night PDFs hosted on newtools.cira.state.tx.us (the CIRA platform behind co.hill.tx.us). All are Hart 'Cumulative Results Report' county totals. 2026 runoff: 'Unofficial Results Election Day Part 1' (Run Time 7:53 PM, 3 of 13 precincts, Last-Modified Wed, 27 May 2026 01:09:35 GMT), 'Part 2' (8:23 PM, 9 of 13, 01:37:40 GMT), 'Final' (8:37 PM, 13 of 13, 01:47:32 GMT). 2026 primary: 'Unofficial Election Day Final Results' (Run Time 9:32 PM 3/3/2026, 13 of 13, Last-Modified Wed, 04 Mar 2026 03:46:29 GMT). No precinct-level report is posted for either 2026 election. 2024 general: only 'Official Results - November 5, 2024 General Election' (posted in the 2026 docs folder); no election-night file. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "The 2026 primary and runoff are both LATER (county totals only on election night, no precinct report posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because both were settled by check 2 with printed run times and Last-Modified times on election night.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.co.hill.tx.us/page/hill.Elections",
+      "via": "fetch_module",
+      "content_hash": "c0ecc690be79bd3c7472b7bf1ab35fe902c91d613374a0ab5c6a9caa1ea86261",
+      "quote": "Unofficial Election Day Final Results; Unofficial Results Election Day Part 1; Unofficial Results Election Day Part 2; Unofficial Results Election Day Final; Official Results - November 5, 2024 General Election",
+      "supports": "Reports listed per election"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/7619/docs/2026/Election%20Day%20Vote%20Unofficial%20Totals-rev1.pdf",
+      "via": "fetch_module",
+      "content_hash": "7c4e4b19cbe41b0ab6cfb4cfb1e434b5fa532d7a11e4966f8ab191fb42632f95",
+      "quote": "Cumulative Results Report Hill County, Texas Unofficial Results ... Precincts Reporting 3 of 13 = 23.08% Run Time 7:53 PM",
+      "supports": "Runoff night update 1, county totals"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/7619/docs/2026/Election%20Day%20Vote%20Unofficial%20Totals-rev2.pdf",
+      "via": "fetch_module",
+      "content_hash": "17c87be2b204cd80f8cf0c7a1ea8abaa40a2ac7667661c24a43b98d040ba7edb",
+      "quote": "Precincts Reporting 9 of 13 = 69.23% Run Time 8:23 PM",
+      "supports": "Runoff night update 2, county totals"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/7619/docs/2026/Election%20Day%20Vote%20Unofficial%20Totals-Final.pdf",
+      "via": "fetch_module",
+      "content_hash": "ebd70a377fb5980e430c412887e4b5ae7965498c0bb8d5855258ddc2ba923cd5",
+      "quote": "Precincts Reporting 13 of 13 = 100.00% Run Time 8:37 PM",
+      "supports": "Runoff final night update, county totals"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/7619/docs/2026/Cumulative%20Results-3-3-2026%20-%20Election%20Day%20Final%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "5b4c95389f84a2fbe2b313d4054c3242f8181b09cd276919b721ac320aef7b31",
+      "quote": "Unoffical March 3, 2026 Primary Election ... Precincts Reporting 13 of 13 = 100.00% Run Time 9:32 PM",
+      "supports": "Primary county totals on election night"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Official Results - November 5, 2024 General Election' is posted; what was published on election night is not shown. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:46 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/7619/docs/2026/Cumulative%20Results-3-3-2026%20-%20Election%20Day%20Final%20Results.pdf",
+      "fact": "'Cumulative Results Report HILL COUNTY, TEXAS Unofficial Results ... Unoffical March 3, 2026 Primary Election ... Precincts Reporting 13 of 13 = 100.00% Run Time 9:32 PM' (county totals), Last-Modified Wed, 04 Mar 2026 03:46:29 GMT (9:46 PM CST). No precinct report posted (never published online)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:09 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/7619/docs/2026/Election%20Day%20Vote%20Unofficial%20Totals-Final.pdf",
+      "fact": "Three election-night 'Cumulative Results Report Hill County, Texas Unofficial Results May 26, 2026 Primary Run-Off Election' county-total files: Run Time 7:53 PM (3 of 13) Last-Modified 01:09:35 GMT, 8:23 PM (9 of 13) 01:37:40 GMT, 8:37 PM (13 of 13) Wed, 27 May 2026 01:47:32 GMT. No precinct report posted (never published online)."
+    }
+  }
+}

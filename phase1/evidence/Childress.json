@@ -1,0 +1,93 @@
+{
+  "county": "Childress",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.childresstx.us/",
+  "platform": "county_pdfs",
+  "host": "www.childresstx.us",
+  "evidence_url": "https://www.childresstx.us/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaG9EIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d2e4d75c5b35a1884573306d33a53724b2b121f/PCT%20X%20PCT%20PART%201.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No seed website in the SOS list; one web search found www.childresstx.us. No Clarity or vendor site found. Files are Rails active_storage blobs served from the county host; Last-Modified values differ per file and match plausible upload dates. The precinct PDF is a scan (no text layer); its content was identified by page title and file name 'PCT X PCT PART 1/2'. The runoff NONE rests on absence of any results file on both runoff pages; results could have been posted elsewhere and removed. 2024 general undetermined (check 3 pending; wayback-data branch not on origin).",
+  "tag_rationale": "The 2026 primary is LATER and the 2026 runoff is NONE (both check 2); no two elections share a result, so by the rule the tag is UNKNOWN.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county home page lists election pages only from Nov 2025 onward; no 2024 general results are posted. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 12:43 CT",
+      "precinct_first_seen": "2026-04-13 23:35 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.childresstx.us/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaG9EIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d2e4d75c5b35a1884573306d33a53724b2b121f/PCT%20X%20PCT%20PART%201.pdf",
+      "fact": "'Republican Primary 2026 results' is the 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 CHILDRESS County' (county totals only), PDF CreationDate 2026-03-04 06:09:10 UTC, Last-Modified Wed, 04 Mar 2026 18:43:13 GMT (12:43 PM CST Mar 4). Precinct numbers appear only in 'Precinct by Precinct Results of March Primaries' ('PCT X PCT PART 1.pdf', CreationDate 2026-04-02, Last-Modified Tue, 14 Apr 2026 05:35:01 GMT)."
+    },
+    "2026_runoff": {
+      "result": "NONE",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.childresstx.us/pages/may-2026-republican-runoff-election",
+      "fact": "The 'May 2026 Republican Runoff Election' page lists only 'Notice of Runoff Primary Election', 'Notice of Precinct Consolidations' and 'Precinct Consolidation Approval Form'; the 'May 2026 Democratic Primary Runoff Election' page lists only notices and consolidation forms. The home page links no runoff results page."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.childresstx.us/",
+      "via": "fetch_module",
+      "content_hash": "80e666562b38c1b5a817f4cae338808a0e0c545e4bd9276f4b8e63a9cfd3c877",
+      "quote": "Republican Primary 2026 results; Democratic Primary 2026 Results; May 2026 Republican Runoff Election; May 2026 Democratic Primary Runoff Election; Precinct by Precinct Results of March Primaries for Republican and Democratic Parties",
+      "supports": "County home page election links"
+    },
+    {
+      "url": "https://www.childresstx.us/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ2tEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7e3aca8540832354e7d0af251b88a0dd998556bb/republican%20results%20primary%2002026.pdf",
+      "via": "fetch_module",
+      "content_hash": "03457eada48b088f6494c74609933e508229ec3f1efe32ce31c484705d5c6177",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 CHILDRESS County",
+      "supports": "Primary county totals uploaded 2026-03-04 18:43 GMT"
+    },
+    {
+      "url": "https://www.childresstx.us/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaG9EIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d2e4d75c5b35a1884573306d33a53724b2b121f/PCT%20X%20PCT%20PART%201.pdf",
+      "via": "fetch_module",
+      "content_hash": "e85463bdaab4c80043ed0a3a8bae6fe6d0c055a6f4fc9b22e9ff71d0b2bb19c6",
+      "quote": "PCT X PCT PART 1.pdf (scanned, 16 pages)",
+      "supports": "Primary precinct numbers uploaded 2026-04-14 05:35 GMT"
+    },
+    {
+      "url": "https://www.childresstx.us/pages/may-2026-republican-runoff-election",
+      "via": "fetch_module",
+      "content_hash": "1d255f0e48d011eaea72e163a8e14b6fa6a0b4ba985eba7c34314ce342ffc55b",
+      "quote": "Notice of Runoff Primary Election; Notice of Precinct Consolidations; Precinct Consolidation Approval Form",
+      "supports": "Runoff page has no results"
+    },
+    {
+      "url": "https://www.childresstx.us/pages/may-2026-democratic-primary-runoff-election",
+      "via": "fetch_module",
+      "content_hash": "52bb0bef49a4025e66946cfd0c5929e8f4bfe58c9a3d40ce6a3649b8d642291b",
+      "quote": "Notice of Runoff Primary Election; Notice to Precincts of Consolidation; Democratic Notice of Precinct Consolidation",
+      "supports": "Democratic runoff page has no results"
+    },
+    {
+      "url": "websearch:?q=childress%20county%20texas%20elections%20results",
+      "via": "websearch",
+      "content_hash": "cd662a27f0c114348d2b7ea5fcbd8374e334b4ce260eee921e9bf6ff7cb712ff",
+      "quote": "Childress County Texas | https://www.childresstx.us/",
+      "supports": "Located county site (no seed URL)"
+    }
+  ]
+}

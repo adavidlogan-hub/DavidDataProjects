@@ -1,0 +1,58 @@
+{
+  "county": "Reeves",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.reevescounty.org/departments/elections/election-results-archive",
+  "platform": "unknown",
+  "host": "www.reevescounty.org",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The seed elections page https://www.reevescounty.org/departments/elections, the home page and the results archive page found by one web search (departments/elections/election-results-archive) all return HTTP 403 to the fetch module (bot protection); per the brief this was not worked around, so no county-posted reports could be read. No other vendor site was found. Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED because the county site blocks automated requests and check 3 is pending, so by rule the tag is UNKNOWN.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site returns HTTP 403 to every request (bot protection), so check 2 could not be done; no Clarity site. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site returns HTTP 403 to every request (bot protection), so check 2 could not be done; no Clarity site. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site returns HTTP 403 to every request (bot protection), so check 2 could not be done; no Clarity site. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "websearch:?q=reeves%20county%20texas%20election%20results",
+      "via": "websearch",
+      "content_hash": "9e96ad9e7153c651ca7f535f9fe724318cb31b4f72c19772f02bf6c64bfcbe00",
+      "quote": "Election Results Archive https://www.reevescounty.org/departments/elections/election-results-archive",
+      "supports": "Locates the county results page (search text is not evidence)"
+    }
+  ]
+}

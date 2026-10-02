@@ -1,0 +1,65 @@
+{
+  "county": "San Patricio",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.sanpatriciocountytx.gov/page/elections.current",
+  "platform": "county_pdfs",
+  "host": "www.sanpatriciocountytx.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "The seed domain co.san-patricio.tx.us now serves the county homepage for the elections path; the current domain is www.sanpatriciocountytx.gov (page/elections.home, page/elections.current). No Clarity site (elections.json 404). The Elections page lists only official cumulative and canvass reports for the 2026 primary and runoff (canvass reports are precinct-level by name, dated after canvass) and nothing for the 2024 general; the archive pages stop at 2022. No election-night file survives, so checks 1 and 2 cannot decide any election. Precinct-level canvass PDFs were not opened since they are post-canvass by title. Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (only post-canvass official files remain, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results on the current Elections page; the results archive pages cover only 2006-2015 and 2016-2022. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Official Results' (Official Republican Cumulative Results) and 'Official Canvass' (Republican Canvass Results-3-11-2026) are posted, both after canvass; no election-night file. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Democratic/Republican Party Official Cumulative Results' and 'Official Canvass Results' plus PEHCA certifications are posted; no election-night file. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.sanpatriciocountytx.gov/page/elections.current",
+      "via": "fetch_module",
+      "content_hash": "e7859f254b210fda242069f18ae91536c86ead13b4ef415ec01604034aa7ea4d",
+      "quote": "Official Results (Official Republican Cumulative Results.pdf); Official Canvass (Republican Canvass Results-3-11-2026 11-49-02 AM.pdf); Democratic Party Official Cumulative Results; Republican Official Canvass Results",
+      "supports": "Only official, post-canvass results are posted for 2026"
+    },
+    {
+      "url": "https://www.sanpatriciocountytx.gov/page/elections.home",
+      "via": "fetch_module",
+      "content_hash": "d87d77d6949ea51294432024302684b53af19bcb746c689ef6b599bbfbd8ebb3",
+      "quote": "Election Results 2006-2015; Election Results 2016-2022",
+      "supports": "Results archive ends at 2022"
+    }
+  ]
+}

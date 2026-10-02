@@ -1,0 +1,79 @@
+{
+  "county": "Winkler",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.winkler.tx.us/213/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.winkler.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed home page has no elections link; one web search located /213/Elections. No Clarity site (elections.json 404). CivicPlus DocumentCenter returns Last-Modified equal to the request time (Fri, 02 Oct 2026 15:37 GMT), so it gives no upload evidence. 2024 general: 'Unofficial Results - General Election (PDF)' is a scan created 2024-11-06 18:15 UTC (next day); 'Official Election Results' also listed. 2026 primary: 'Unofficial Results March 3, 2026' is an 18-page scan of a 'Summary Results Report TX Winkler County Primary Election Day March 3 ... UNOFFICIAL RESULTS' (county totals) created 2026-03-05 15:50 UTC. 2026 runoff: 'Summary results 2026 runoff election' is a scan created 2026-06-01; the link 'Precinct Results 2026 Primary runoff election' opens a Republican runoff sample ballot, not results. Every posted unofficial file was made after election night, but whether anything else was posted on election night cannot be told. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined by checks 1 and 2 (posted unofficial files are post-election-night scans; no upload times; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Unofficial Results - General Election (PDF)' scan CreationDate 2024-11-06 18:15 UTC; no upload time (Last-Modified = request time). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Unofficial Results March 3, 2026' scan of a county-total 'Summary Results Report ... UNOFFICIAL RESULTS', CreationDate 2026-03-05 15:50 UTC. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Summary results 2026 runoff election' scan CreationDate 2026-06-01; 'Precinct Results 2026 Primary runoff election' link is a sample ballot. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.winkler.tx.us/213/Elections",
+      "via": "fetch_module",
+      "content_hash": "5acb75b336019c3a18af67158a237452d54dda51c5fad9f2b043c2b3d0ab3c8c",
+      "quote": "2026 Elections Precinct Results 2026 Primary runoff election Summary results 2026 runoff election ... Unofficial Results March 3, 2026 ... 2024 Elections Official Election Results (PDF) Unofficial Results - General Election (PDF)",
+      "supports": "report list"
+    },
+    {
+      "url": "https://www.co.winkler.tx.us/DocumentCenter/View/783",
+      "via": "fetch_module",
+      "content_hash": "c62ad653c8ebeda9b2fb9f7d889242eb1c1b9baa0960d0933f76748778029ef5",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Winkler County Primary Election Day March 3, 2026 (CreationDate 2026-03-05)",
+      "supports": "2026 primary unofficial made after election night"
+    },
+    {
+      "url": "https://www.co.winkler.tx.us/DocumentCenter/View/808",
+      "via": "fetch_module",
+      "content_hash": "ab093c448de335ef0100526d7c0a8cadd8ae2f3d52ec8127ffe31b0fc47659c4",
+      "quote": "Republican Party Primary Runoff Election ... Official Ballot",
+      "supports": "runoff 'Precinct Results' link is a sample ballot"
+    },
+    {
+      "url": "websearch:?q=winkler%20county%20texas%20election%20results%202026%20primary%20county%20clerk",
+      "via": "websearch",
+      "content_hash": "62aaa5224f70e0a1955e82eaa1e907dbd1dff712349124de4fd6c4f1cfd9c22f",
+      "quote": "Elections https://www.co.winkler.tx.us/213/Elections",
+      "supports": "location of county elections page only"
+    }
+  ]
+}

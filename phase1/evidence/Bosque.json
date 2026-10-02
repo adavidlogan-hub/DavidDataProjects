@@ -1,0 +1,58 @@
+{
+  "county": "Bosque",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "",
+  "platform": "unknown",
+  "host": "www.bosquecounty.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL www.bosquecounty.us (http and https) returns HTTP 403 whose body is the session egress proxy message 'Host not in allowlist: www.bosquecounty.gov. Add this host to your network egress settings to allow access.' (the county site redirects to www.bosquecounty.gov). This is an environment network limit, not county bot protection; the county's results page was not read. No Clarity site (elections.json 404). Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (county site unreachable from this environment, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site could not be reached (seed bosquecounty.us redirects to www.bosquecounty.gov, which the session's egress proxy blocks: 'Host not in allowlist'); check 2 not possible. No Clarity site. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site could not be reached (seed bosquecounty.us redirects to www.bosquecounty.gov, which the session's egress proxy blocks: 'Host not in allowlist'); check 2 not possible. No Clarity site. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site could not be reached (seed bosquecounty.us redirects to www.bosquecounty.gov, which the session's egress proxy blocks: 'Host not in allowlist'); check 2 not possible. No Clarity site. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.bosquecounty.us/",
+      "via": "fetch_module",
+      "content_hash": "90dd19539ae8952dd33096705c99701c91cd3a530daa42002be98494eaa0f4c9",
+      "quote": "Host not in allowlist: www.bosquecounty.gov. Add this host to your network egress settings to allow access.",
+      "supports": "County site blocked by environment egress allowlist"
+    }
+  ]
+}

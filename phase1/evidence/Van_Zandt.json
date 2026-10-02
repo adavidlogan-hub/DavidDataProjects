@@ -1,0 +1,58 @@
+{
+  "county": "Van Zandt",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.vanzandtcounty.org/page/vanzandt.Elections",
+  "platform": "unknown",
+  "host": "www.vanzandtcounty.org",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The fetch module refused www.vanzandtcounty.org and vanzandtcounty.org over http and https with 'robots_disallowed_or_unreachable' (the host reset connections), so no county page or report could be read. One web search located the Election Notices page and PDF names under /upload/page/2685/ (for example a file named 'unofficial final Cumulative Results-3-3-2026 11-23-52 PM.pdf'); search text is not evidence and these files could not be fetched. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined because the county site was unreachable to the fetch module and there is no Clarity site; check 3 pending, so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site unreachable (robots_disallowed_or_unreachable). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site unreachable (robots_disallowed_or_unreachable). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site unreachable (robots_disallowed_or_unreachable). Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "websearch:?q=van%20zandt%20county%20texas%20elections%20results%20unofficial%202026",
+      "via": "websearch",
+      "content_hash": "71ac62ffc7584b7d730563ec630aa6700a75e3801f68bc5334f7a417912bd126",
+      "quote": "Election Notices - Van Zandt County https://www.vanzandtcounty.org/page/vanzandt.Elections",
+      "supports": "location of county results page only (not evidence)"
+    }
+  ]
+}

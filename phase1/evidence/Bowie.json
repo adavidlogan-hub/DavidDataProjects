@@ -1,0 +1,100 @@
+{
+  "county": "Bowie",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.bowiecounty.org/1239/Elections",
+  "platform": "county_pdfs",
+  "host": "www.bowiecounty.org",
+  "evidence_url": "https://www.bowiecounty.org/DocumentCenter/View/338/March-3-2026-Unofficial-Results-PDF",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-05-26 22:33 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed page returns 404; www.co.bowie.tx.us redirects to www.bowiecounty.org (CivicPlus). The server stamps every DocumentCenter file with the request time as Last-Modified (Fri, 02 Oct 2026 15:33-15:34 GMT), so it gives no upload evidence; only printed run times are used. No Clarity site (elections.json 404); the Elections page also links 'Texas Election Results' (SOS goelect site). 2024 general and 2026 primary: the posted unofficial file is an Electionware county Summary printed the next morning, and precinct numbers appear only in 'Official' Pct X Pct reports. 2026 runoff: an unofficial 'Precinct Summary' (per precinct, with Election Day column) printed 10:33 PM election night is posted; treated as END on printed run time only.",
+  "tag_rationale": "2024 general and 2026 primary are both LATER (unofficial county totals, precinct numbers only in official reports), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS even though the 2026 runoff was END; confidence low because no upload times exist.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 10:35 CT (printed)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.bowiecounty.org/DocumentCenter/View/1179/Unofficial-Results-PDF",
+      "fact": "'Unofficial Results (PDF)' = 'Summary Results Report UNOFFICIAL RESULTS TX Bowie County 241105 General 6110 ALL ELECTION DAY, ALL EARLY, MAIL IN AND LIMITED BALLOTS; No Provisional', county totals, footer 'Election Summary - 11/06/2024 10:35 AM'. Precinct numbers only in 'Official Results By Precinct' and 'Official Results Precinct By Precinct'."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 08:32 CT (printed)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.bowiecounty.org/DocumentCenter/View/338/March-3-2026-Unofficial-Results-PDF",
+      "fact": "'March 3 2026 Unofficial Results (PDF)' = 'Summary Results Report UNOFFICIAL RESULTS TX Bowie County 260303 Primary 6110 ... Election Day Precincts Reporting 52 of 52', county totals, footer 'Election Summary - 03/04/2026 8:32 AM'. '3326 Joint Primary Pct X Pct Republican' = 'OFFICIAL RESULTS Pct X Pct Republican', footer 'Precinct Summary - 03/10/2026 12:35 PM'."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 22:32 CT (printed)",
+      "precinct_first_seen": "2026-05-26 22:33 CT (printed; no upload time)",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.bowiecounty.org/DocumentCenter/View/600/2026-05-26-Precinct-by-Precinct-PDF",
+      "fact": "'2026-05-26-Precinct-by-Precinct (PDF)' = 'Summary Results Report UNOFFICIAL RESULTS TX Bowie County 260526 Primary Runoff 6110 All Ballots ... 1A Statistics TOTAL Absentee Early Voting Election Day', 76 pages, footer 'Precinct Summary - 05/26/2026 10:33 PM'; companion 'Election Summary Report' shows 'Election Day Precincts Reporting 38 of 38', footer 'Election Summary - 05/26/2026 10:32 PM'."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.bowiecounty.org/1239/Elections",
+      "via": "fetch_module",
+      "quote": "March 3 2026 Unofficial Results (PDF); 3326 Joint Primary Pct X Pct Republican (PDF); 2026-05-26-Election-Summary-Report (PDF); 2026-05-26-Precinct-by-Precinct (PDF); Texas Election Results",
+      "supports": "2026 report list",
+      "content_hash": "8db0f3a36cfe48a5a1b309cd12ea95bd9cb2b239829f02e96c455bbe6f91abc0"
+    },
+    {
+      "url": "https://www.bowiecounty.org/1241/Past-Election-Results",
+      "via": "fetch_module",
+      "quote": "Official Results By Precinct (PDF); Official Results Precinct By Precinct (PDF); Unofficial Results (PDF)",
+      "supports": "2024 general report list",
+      "content_hash": "3b654a8ac90ace9d636351541f2e5d6cb65050b0438b4c7a5fcfe4542ebc6ef3"
+    },
+    {
+      "url": "https://www.bowiecounty.org/DocumentCenter/View/1179/Unofficial-Results-PDF",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Bowie County 241105 General 6110 ... Election Summary - 11/06/2024 10:35 AM",
+      "supports": "2024 unofficial results are county totals printed next morning",
+      "content_hash": "7a5bced350cd3307d3ccfa5466d7bbb7bf3583ea9d60a9ed456dc7767718c3e4"
+    },
+    {
+      "url": "https://www.bowiecounty.org/DocumentCenter/View/338/March-3-2026-Unofficial-Results-PDF",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Bowie County 260303 Primary 6110 ... Election Summary - 03/04/2026 8:32 AM",
+      "supports": "Primary unofficial results are county totals printed next morning",
+      "content_hash": "e93bc2ec89344f52f97dc777345a30e261c224946af00260829e2105c275d4bd"
+    },
+    {
+      "url": "https://www.bowiecounty.org/DocumentCenter/View/334/3326-Joint-Primary-Pct-X-Pct-Republican-PDF",
+      "via": "fetch_module",
+      "quote": "OFFICIAL RESULTS Pct X Pct Republican ... Precinct Summary - 03/10/2026 12:35 PM",
+      "supports": "Primary precinct numbers only official",
+      "content_hash": "02af8a03bd6678abad118e2df1e8060b838dd3b472e41bd85f6231ff7859521b"
+    },
+    {
+      "url": "https://www.bowiecounty.org/DocumentCenter/View/600/2026-05-26-Precinct-by-Precinct-PDF",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Bowie County 260526 Primary Runoff 6110 All Ballots ... Precinct Summary - 05/26/2026 10:33 PM",
+      "supports": "Runoff unofficial precinct numbers printed on election night",
+      "content_hash": "9e72c84dea6c76bd9382770046fcb417033fa981b4aeea3d3321b22a2a1bdc0f"
+    },
+    {
+      "url": "https://www.bowiecounty.org/DocumentCenter/View/599/2026-05-26-Election-Summary-Report-PDF",
+      "via": "fetch_module",
+      "quote": "Election Day Precincts Reporting 38 of 38 ... Election Summary - 05/26/2026 10:32 PM",
+      "supports": "Runoff election-night count complete",
+      "content_hash": "c0c33d5e5551e5490552ac1b6794394d28e1f47884280d93ef14e87888177079"
+    }
+  ]
+}

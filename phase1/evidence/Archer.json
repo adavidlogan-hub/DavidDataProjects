@@ -1,0 +1,65 @@
+{
+  "county": "Archer",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.archer.tx.us/page/archer.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.archer.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL over http returns 403; https works. No Clarity site (elections.json 404). The Elections page posts Hart-style 'Official Cumulative Report' and 'Official Precinct Report' PDFs for all three target elections, with file names stamped after canvass: 2024 general 'Precinct Results-11-14-2024 04-31-30 PM.pdf', 2026 primary 'Republican Precinct Results-3-18-2026 02-17-47 PM.pdf', 2026 runoff 'Democrat Precinct Results-6-8-2026 09-17-49 AM.pdf' and 'Republican Precinct Results.pdf' (Official Results, Run Date 06/08/2026, Last-Modified Thu, 11 Jun 2026 14:47:11 GMT). The county does post precinct reports, but no election-night (unofficial) file for any target election remains on the page (an 'UNOFFICIAL Election Results' cumulative file exists only for the May 2, 2026 local election), so election-night publication cannot be decided. Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (only post-canvass official files survive, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Listed: 'Cumulative Results 11-05-2024 - OFFICIAL Totals' (Cumulative Results-11-14-2024 04-30-35 PM.pdf) and 'Precinct Results 11-05-2024 - OFFICIAL Totals' (Precinct Results-11-14-2024 04-31-30 PM.pdf); no election-night file. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Listed: Republican/Democrat 'Official Cumulative Report' and 'Official Precinct Report' stamped 3-18-2026; no election-night file. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Listed: Republican/Democrat Official Cumulative and Precinct reports; 'Republican Precinct Results.pdf' = 'Precinct Results Report Official Results ARCHER COUNTY, TEXAS May 26 2026 REP and DEM Primary Run- PRIMARY RUNOFF ELECTION ... Run Date 06/08/2026', Last-Modified Thu, 11 Jun 2026 14:47:11 GMT; no election-night file. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.archer.tx.us/page/archer.Elections",
+      "via": "fetch_module",
+      "quote": "Republican Official Precinct Report; Democrat Official Precinct Report; Precinct Results 11-05-2024 - OFFICIAL Totals; UNOFFICIAL Election Results -> Cumulative Results-5-2-2026 07-40-34 PM.pdf",
+      "supports": "Only official reports posted for the target elections",
+      "content_hash": "01c5e9a51017a8e9ca1258ce2635d1f792196528965c1d2f2d6116db57461e0a"
+    },
+    {
+      "url": "https://www.co.archer.tx.us/upload/page/1336/Republican Precinct Results.pdf",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report Official Results ARCHER COUNTY, TEXAS ... PRIMARY RUNOFF ELECTION ... Run Date 06/08/2026",
+      "supports": "Runoff precinct report is post-canvass",
+      "content_hash": "cfdaa0b79c65a9436cdcbd34fb06028a843545c2b2f2ea2c079a25868e3e6be6"
+    }
+  ]
+}

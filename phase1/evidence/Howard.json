@@ -1,0 +1,65 @@
+{
+  "county": "Howard",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.howard.tx.us/1263/Election-Results",
+  "platform": "county_pdfs",
+  "host": "www.co.howard.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed default.aspx URL replaced by https://www.co.howard.tx.us/ (CivicPlus). Check 1: no Clarity election list (elections.json 404). The Election Results page says 'Find posted election results and related reports' and links 'View Howard County Election Results' to DocumentCenter/Index/79 and 'View Texas Election Results' to the state portal; the Document Center folder contents are loaded by JavaScript (docCenterFrontendAndRelatedBidAndJobsApp.react.js) and are not in the fetched HTML, so no results files could be listed or read. Check 2 therefore failed for all three elections. This server also stamps pages with the request time as Last-Modified. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (no Clarity log, county document folder not readable without JavaScript, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.co.howard.tx.us/1263/Election-Results",
+      "via": "fetch_module",
+      "content_hash": "0fdaa159702164a142e477128a5e51730b556b20f77995f3657904e89816b7d8",
+      "quote": "Howard County Results and Reports | Open the results folder to browse available reports by election.",
+      "supports": "County results live in the Document Center"
+    },
+    {
+      "url": "https://www.co.howard.tx.us/DocumentCenter/Index/79",
+      "via": "fetch_module",
+      "content_hash": "8b671602d26b65598418a6b209b83b03ea426a3b46b43cccd409d36669f8efe0",
+      "quote": "folderId = \"79\"; (contents rendered by docCenterFrontendAndRelatedBidAndJobsApp.react.js)",
+      "supports": "Folder listing not present in static HTML"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County results are in a JavaScript-loaded Document Center folder (DocumentCenter/Index/79); no file could be read. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County results are in a JavaScript-loaded Document Center folder (DocumentCenter/Index/79); no file could be read. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County results are in a JavaScript-loaded Document Center folder (DocumentCenter/Index/79); no file could be read. Check 3 pending."
+    }
+  }
+}

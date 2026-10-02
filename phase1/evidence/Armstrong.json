@@ -1,0 +1,79 @@
+{
+  "county": "Armstrong",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.armstrong.tx.us/page/armstrong.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.armstrong.tx.us",
+  "evidence_url": "https://www.co.armstrong.tx.us/upload/page/5375/docs/2026 Primary/ELECTION-UNOFFICIAL-RESULT-REPORT_primary 030326.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 21:18 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Elections page posts county PDFs (several are scans, read visually). 2024 general: 'Unofficial Results General Election 11 05 2024' is a 45-page scanned Electionware 'Summary Results Report ... UNOFFICIAL RESULTS' broken out by precinct with an Election Day column; footer 'Precinct Summary - 11/05/2024 9:48 PM', but its XMP CreateDate is 2024-11-05T21:17:29-06:00 and Last-Modified Wed, 06 Nov 2024 03:18:31 GMT (9:18 PM CST), so the printed footer time is 30 minutes later than the file creation and upload (tabulator clock likely ahead); either way on election night. 2026 primary: unofficial files are the SOS 'Election Unofficial Results Report' (county totals; text layer garbled, read visually); precinct files are titled 'Official ... Results by Precinct'. 2026 runoff: unofficial file is a scanned 2-page Electionware Summary (county totals); no precinct report is posted for the runoff. Primary and runoff each have printed time and server upload time on election night, so confidence med. Check 3 not needed for decided elections (wayback-data branch not found on origin).",
+  "tag_rationale": "2026 primary and 2026 runoff are both LATER (county totals only on election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS even though the 2024 general was END; confidence med because both deciding elections were settled by check 2 with printed and upload times on election night.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 21:18 CT",
+      "precinct_first_seen": "2024-11-05 21:18 CT (server upload)",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.armstrong.tx.us/upload/page/5375/Summary Results Unofficial 11 05 2024 precinct by precinct.pdf",
+      "fact": "'Unofficial Results General Election 11 05 2024' = scanned 'Summary Results Report TX Armstrong 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS', one section per precinct ('Precinct 101 ... REP Donald J. Trump/JD Vance 257 12 217 28' with TOTAL/Absentee/Early Voting/Election Day), footer 'Precinct Summary - 11/05/2024 9:48 PM'; XMP CreateDate 2024-11-05T21:17:29-06:00; Last-Modified Wed, 06 Nov 2024 03:18:31 GMT. Only one unofficial file for this election."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 23:07 CT (server upload; PDF created 22:12 CT)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.armstrong.tx.us/upload/page/5375/docs/2026 Primary/ELECTION-UNOFFICIAL-RESULT-REPORT_primary 030326.pdf",
+      "fact": "'Unofficial Republican Results' = 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 ARMSTRONG County' (county totals by Early Voting by Mail / In Person / Election Day; e.g. 'KEN PAXTON 4 145 94 149 243'); PDF CreationDate Wed Mar 4 04:12:47 2026 UTC; Last-Modified Wed, 04 Mar 2026 05:07:09 GMT. Precinct numbers appear only in 'Official Democratic Results by Precinct' and 'Officcial Republican Results by Precinct'."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:04 CT (server upload; printed 19:24)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.armstrong.tx.us/upload/page/5375/docs/2026 Prime Runoff/Unofficial Results Joint Primary Runoff 05 26 26.pdf",
+      "fact": "'Primary Runoff Unofficial Runoff Results' = scanned 'Summary Results Report TX Armstrong County 260526 Primary Runoff Election 6110 May 26, 2026 UNOFFICIAL RESULTS', county totals ('Election Day Precincts Reporting 8 of 8'), footer 'Election Summary - 05/26/2026 7:24 PM'; Last-Modified Wed, 27 May 2026 01:04:55 GMT. No precinct results report for the runoff is posted."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.armstrong.tx.us/page/armstrong.Elections",
+      "via": "fetch_module",
+      "quote": "Unofficial Results General Election 11 05 2024; Official Results Precinct by Precinct General Election 11 05 2024; Unofficial Republican Results; Officcial Republican Results by Precinct; Primary Runoff Unofficial Runoff Results",
+      "supports": "County-posted report list per election",
+      "content_hash": "e748db17801593887385c3aae8ac5107c4cd660938a920fdb1150e746a1e682b"
+    },
+    {
+      "url": "https://www.co.armstrong.tx.us/upload/page/5375/Summary Results Unofficial 11 05 2024 precinct by precinct.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report TX Armstrong 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS Armstrong Precinct 101 ... Precinct Summary - 11/05/2024 9:48 PM",
+      "supports": "2024 general precinct numbers with Election Day votes uploaded 9:18 PM CST election night",
+      "content_hash": "98f0db5a0d36ec990c079e3f3383f11a48700e1d1f757cc2b29db85164b84832"
+    },
+    {
+      "url": "https://www.co.armstrong.tx.us/upload/page/5375/docs/2026 Primary/ELECTION-UNOFFICIAL-RESULT-REPORT_primary 030326.pdf",
+      "via": "fetch_module",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 ARMSTRONG County",
+      "supports": "Primary election-night results are county totals",
+      "content_hash": "c9479ca8c98e615c2b172aff9ee00a93c2e63b1dbe9196cf9c5f7cd4ca0a3298"
+    },
+    {
+      "url": "https://www.co.armstrong.tx.us/upload/page/5375/docs/2026 Prime Runoff/Unofficial Results Joint Primary Runoff 05 26 26.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report TX Armstrong County 260526 Primary Runoff Election 6110 May 26, 2026 ... Election Summary - 05/26/2026 7:24 PM",
+      "supports": "Runoff election-night results are county totals",
+      "content_hash": "58d21fb8da838b81eafdf7860fdfaadfab674476fe793e220422ab2236eec02d"
+    }
+  ]
+}

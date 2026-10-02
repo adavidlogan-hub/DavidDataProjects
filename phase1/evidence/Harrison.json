@@ -1,0 +1,72 @@
+{
+  "county": "Harrison",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.harrisoncountytexas.gov/page/PastElections",
+  "platform": "county_pdfs",
+  "host": "www.harrisoncountytexas.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL harrisoncountytexas.org/?page_id=1224 redirects to www.harrisoncountytexas.gov. The '2026 Elections' page and the Elections home page carry no results links for the 2026 primary or runoff. 'Past Elections' lists for NOV 5, 2024 only 'FINAL RESULTS' (scanned county cumulative report, PDF CreationDate 2024-11-13 21:26 UTC, Last-Modified Fri, 11 Apr 2025 03:05:50 GMT) and 'Precinct Results-11-18-2024 01-03-20 PM' (canvass-stage precinct report); no unofficial or election-night file survives. No Clarity link. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (no vendor log, no surviving election-night county files, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.harrisoncountytexas.gov/page/PastElections",
+      "via": "fetch_module",
+      "content_hash": "b6a85141a74a04f8dc7911e2c9d188ad9d7fa8521b108c1f895276f1764d561a",
+      "quote": "FINAL RESULTS; Precinct Results-11-18-2024 01-03-20 PM",
+      "supports": "Only canvass-stage 2024 general files posted"
+    },
+    {
+      "url": "https://www.harrisoncountytexas.gov/page/Elections-2026",
+      "via": "fetch_module",
+      "content_hash": "eaac92512fa3d3a11617c8d48a01d9a8d22710b466f6a52b2fb5d9870b48ccb6",
+      "quote": "CANDIDATE APPLICATION; Precinct or County Chair applicatio",
+      "supports": "No 2026 results files"
+    },
+    {
+      "url": "https://www.harrisoncountytexas.gov/upload/page/0116/NOV%205,%202024/FINAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "94ab8a85c4ab7d406d38fdc42e68b6efa25fba2e37214eee0dec33a1a6d04284",
+      "quote": "Harrison County 2024 November 5th General Election 11/5/2024 (scanned cumulative report)",
+      "supports": "2024 final county totals created Nov 13, 2024"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'FINAL RESULTS' (county totals, CreationDate 2024-11-13, Last-Modified Fri, 11 Apr 2025) and 'Precinct Results-11-18-2024 01-03-20 PM' are posted; what was published on election night is not shown. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 primary results on the county '2026 Elections' or 'Past Elections' pages. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 runoff results on the county '2026 Elections' or 'Past Elections' pages. Check 3 pending."
+    }
+  }
+}

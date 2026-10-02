@@ -1,0 +1,72 @@
+{
+  "county": "Navarro",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.navarro.tx.us/page/Elections.2026",
+  "platform": "county_pdfs",
+  "host": "www.co.navarro.tx.us",
+  "evidence_url": "https://www.co.navarro.tx.us/upload/page/0129/docs/Elections/2024/Nov 5 2024/UNOFFICIAL ELECTION RESULTS.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). Results are PDFs on 'Elections 2026' and 'Elections 2025 and Earlier'. 2024 general: 'Unofficial Election Results' is an Electionware Summary Results Report 'COMBINED UNOFFICIAL' with county totals only ('Election Day Precincts Reporting 30 of 33'), footer 'Election Summary - 11/05/2024 22:22 PM', CreationDate Nov 6 04:23 UTC (10:23 PM CST), Last-Modified Wed, 06 Nov 2024 14:52:05 GMT (8:52 AM CST Nov 6); the page also lists 'Official Election Results' and the canvass (not opened). 2026 primary: only 'OFFICIAL Election Results - By Precinct' and '- Overall' remain. 2026 runoff: only 'Official Primary Runoff Results' and '- by Precinct' remain. So the election-night postings for 2026 are no longer listed and check 2 cannot decide them. Check 3 pending for 2026 primary and runoff: origin/wayback-data not present.",
+  "tag_rationale": "Only the 2024 general is determined (LATER by check 2: a county-total unofficial summary, no precinct numbers until the official results), so the single determined result gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.navarro.tx.us/upload/page/0129/docs/Elections/2024/Nov 5 2024/UNOFFICIAL ELECTION RESULTS.pdf",
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS 2024 General Election COMBINED UNOFFICIAL November 5, 2024 Navarro County', county totals by Absentee / Early Voting / Election Day, 'Election Day Precincts Reporting 30 of 33', footer 'Election Summary - 11/05/2024 22:22 PM', Last-Modified Wed, 06 Nov 2024 14:52:05 GMT. No unofficial precinct report listed; precinct numbers only with the official results after canvass."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only '3-3-26 OFFICIAL RESULTS By Precinct' and '3-3-26 OFFICIAL RESULTS Summary' remain listed. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only '5-26-26 Official Results' and '5-26-26 Official Results by precinct' remain listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.navarro.tx.us/page/Elections.2026",
+      "via": "fetch_module",
+      "quote": "Official Primary Runoff Results - by Precinct; OFFICIAL Election Results - By Precinct",
+      "supports": "2026 lists only official reports",
+      "content_hash": "56782ac008234b076e47a5c328e0f6fc7771f7b0c213479d7f8d9d0e6079a1df"
+    },
+    {
+      "url": "https://www.co.navarro.tx.us/page/Elections.2025.and.Earlier",
+      "via": "fetch_module",
+      "quote": "Official Election Results; Canvass for November 5th 2024 General Election; Unofficial Election Results",
+      "supports": "2024 report list",
+      "content_hash": "ca7941ef6baaef3b47a895bbda1f4b2e51b78e16c26b6a64fb2d48cbb2080579"
+    },
+    {
+      "url": "https://www.co.navarro.tx.us/upload/page/0129/docs/Elections/2024/Nov 5 2024/UNOFFICIAL ELECTION RESULTS.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS 2024 General Election COMBINED UNOFFICIAL ... Election Summary - 11/05/2024 22:22 PM",
+      "supports": "2024_general county totals only",
+      "content_hash": "97365013fc9daa3f2606df22bd57cc686533d5fa7ef4bf0e107b2a92d2fb3a8b"
+    }
+  ]
+}

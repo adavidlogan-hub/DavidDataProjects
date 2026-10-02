@@ -1,0 +1,79 @@
+{
+  "county": "Hays",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.hayscountytx.gov/257/Election-Results-Archive",
+  "platform": "county_pdfs",
+  "host": "www.hayscountytx.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Check 1: no Clarity election list for Hays (elections.json 404). The county Elections page (hayscountytx.gov/172/Elections, CivicPlus) links only an 'Election Results Archive' (Archive.aspx?AMID=53), whose entries (for example 'May 26, 2026 Primary Runoff', 'March 3, 2026 Primaries', 'November 5, 2024 General (ZIP)') hold only official files: 'Official Canvass Results', 'Official Cumulative Results', 'Official Results Reports (ZIP)', CVR export, certification and reconciliation. This server stamps every page with the request time as Last-Modified, so it gives no upload evidence. One web search listed an egovlink.com-hosted 'Cumulative Results - Democratic Party - unofficial' PDF for the 2026 primary, but that URL now returns 404, and a livevoterturnout.com/HaysTX election-night site that only covers November 2020 (Last-Modified 2022). No election-night file for the three target elections could be read. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (no Clarity log, only official files on the county site, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.hayscountytx.gov/Archive.aspx?AMID=53",
+      "via": "fetch_module",
+      "content_hash": "d5da082f995ef32b40fc7d1974c36eaca1dfd6b9350be50f2af7db78e523e08a",
+      "quote": "May 26, 2026 Primary Runoff; March 3, 2026 Primaries; November 5, 2024 General (ZIP)",
+      "supports": "County results archive entries"
+    },
+    {
+      "url": "https://www.hayscountytx.gov/Archive.aspx?ADID=208",
+      "via": "fetch_module",
+      "content_hash": "f306e81ecbb40868ec796a32d8774307f8503c578012f9cf397acc1e87d63f29",
+      "quote": "Official Canvass Results - Democratic Party May 26, 2026 Primary Runoff (PDF) | Official Cumulative Results - Republican Party May 26, 2026 Primary Runoff (PDF)",
+      "supports": "Runoff archive has official files only"
+    },
+    {
+      "url": "https://www.livevoterturnout.com/HaysTX/LiveResults/en/Index_5.html",
+      "via": "fetch_module",
+      "content_hash": "7454ba493f3d32bc66f450f6df6454b0207fe5b8e76e8e0848606e70eedf815e",
+      "quote": "Contest: U.S. President / Vice President (Last-Modified Wed, 20 Apr 2022)",
+      "supports": "Old vendor election-night site covers 2020 only"
+    },
+    {
+      "url": "websearch:Hays County Texas unofficial election night results 2026 primary",
+      "via": "websearch",
+      "content_hash": "dc66ae8f84a647e4cfc591620b0392923448dd681b90c18693dbdf080327cf06",
+      "quote": "Cumulative Results - Democratic Party March 3, 2026 Joint Primary Election (egovlink.com)",
+      "supports": "Lead to unofficial file, which now returns 404"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Archive entry 'November 5, 2024 General (ZIP)' holds official files only; election-night publication not shown. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Archive entry 'March 3, 2026 Primaries' holds official files; the egovlink unofficial cumulative PDF named in search results returns 404. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Archive entry 'May 26, 2026 Primary Runoff' lists 'Official Canvass Results', 'Official Cumulative Results', 'Official Results Reports (ZIP)', CVR export, certification and reconciliation only. Check 3 pending."
+    }
+  }
+}

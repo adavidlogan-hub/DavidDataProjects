@@ -1,0 +1,72 @@
+{
+  "county": "Wheeler",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.wheelercounty.texas.gov/page/Elections.2026",
+  "platform": "county_pdfs",
+  "host": "www.wheelercounty.texas.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed domain www.co.wheeler.tx.us serves the home page for the election page paths; the current domain wheelercounty.texas.gov (named in the site's translate link) has the election pages. No Clarity site (elections.json 404). 2026 primary: 'Republican Unofficial Election Results' is a scanned 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION ... WHEELER County' with county totals only, CreationDate 2026-03-04 17:23 UTC and Last-Modified Thu, 05 Mar 2026 13:32:05 GMT (after election night). 2026 runoff: only 'Election Reconciliation-Official Totals' and hand count audits listed. 2024 general: 'Official Results' and a 'Preliminary Election Reconciliation-UNOFFICIAL TOTALS' listed; no unofficial results report. No precinct-level report is listed for any of the three elections, but whether anything was posted on election night cannot be told, so all three are left for check 3. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined by checks 1 and 2 (no election-night upload visible; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Elections 2018-2025 page lists 'Official Results' and 'Preliminary Election Reconciliation-UNOFFICIAL TOTALS' for 2024-11-05. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Republican Unofficial Election Results' (SOS-format county totals) Last-Modified Thu, 05 Mar 2026 13:32:05 GMT, after election night. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Election Reconciliation-Official Totals' and hand count audits listed for May 26, 2026. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.wheelercounty.texas.gov/page/Elections.2026",
+      "via": "fetch_module",
+      "content_hash": "bfbb2ed2ed5120170d1e7d5fba0b16fc7ba617378eae73c834395ac3a681171c",
+      "quote": "Republican Unofficial Election Results ; Democratic Unofficial Election Results ; Election Reconciliation-Official Totals",
+      "supports": "2026 report list"
+    },
+    {
+      "url": "https://www.wheelercounty.texas.gov/upload/page/0104/2026/March%20Primary/Results/Rep%20Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "575abffe4250a6449cba80dffe3bc454a1d45351b049a6cf637b42ba44ee3eb9",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 WHEELER County",
+      "supports": "primary unofficial county totals uploaded 05 Mar 2026"
+    },
+    {
+      "url": "https://www.wheelercounty.texas.gov/page/Elections.2018-2025",
+      "via": "fetch_module",
+      "content_hash": "9b30b9bfb6b19b399bab2b16df09cdda21940fcfc72d4c53eab41ad9d8751946",
+      "quote": "Official Results ; Preliminary Election Reconciliation-UNOFFICIAL TOTALS (2024-11-05)",
+      "supports": "2024 report list"
+    }
+  ]
+}

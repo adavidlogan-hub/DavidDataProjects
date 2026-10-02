@@ -1,0 +1,79 @@
+{
+  "county": "Gillespie",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.gillespiecounty.gov/1319/Election-Results-Past-Present",
+  "platform": "county_pdfs",
+  "host": "www.gillespiecounty.gov",
+  "evidence_url": "https://www.gillespiecounty.gov/DocumentCenter/View/2594/2026-Republican-Primary-Runoff-Unofficial-Results-PDF",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL (http gillespiecounty.org default.aspx) and https://www.gillespiecounty.org/ returned HTTP 403; the county's current domain www.gillespiecounty.gov loads and has 'Election Results (Past & Present)'. No Clarity site (elections.json 404). Document Center files here are served with no Last-Modified header, so there is no upload evidence; only PDF creation times. 2026 runoff: '2026 Republican Primary Runoff Unofficial Results' is a Google Sheets printout '2026 Unofficial Results of May 26 Republican Primary Runoff' with candidate votes for Pct 1 through Pct 15 and Totals, PDF CreationDate 27 May 2026 03:55:09 UTC (10:55 PM CDT election night); when it was posted is not shown. 2026 primary: '2026 Gillespie County Republican Primary Unofficial Results' is a county-total sheet (Election Day, Early Voting In Person, Ballot by Mail, Grand Total), CreationDate 6 Mar 2026 16:25 UTC; precinct numbers appear in the Canvass Results Report. 2024 general: only canvass-stage reports remain ('General Election (Early Voting and Election Day)' is a Canvass Results Report run 4:15 PM 11/15/2024; 'Precinct Official Results Report'); no election-night report is listed. Check 3 pending (origin/wayback-data not present).",
+  "tag_rationale": "2026 primary is LATER and 2026 runoff is END (both check 2, creation times only); 2024 is UNDETERMINED, so no result appears twice and the rule gives UNKNOWN.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Results page lists 'November 5, 2024 General Election (Early Voting and Election Day)' (Canvass Results Report, Run Time 4:15 PM Run Date 11/15/2024) and 'November 5, 2024 General Election Precinct Official Results Report'; no election-night report. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.gillespiecounty.gov/DocumentCenter/View/2345/2026-Gillespie-County-Republican-Primary-Unofficial-Results-PDF",
+      "fact": "'2026 Gillespie County Republican Primary Unofficial Results': '2026 Gillespie County Republican Primary - Unofficial Results ... U.S. SENATOR ELECTION DAY EARLY VOTING IN PERSON BALLOT BY MAIL GRAND TOTAL JOHN CORNYN 1390 1880 125 3395' (county totals); PDF CreationDate 6 Mar 2026 16:25:21 UTC. Precinct numbers only in '2026 Gillespie County Republican Primary Canvass Results Report'.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": ""
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.gillespiecounty.gov/DocumentCenter/View/2594/2026-Republican-Primary-Runoff-Unofficial-Results-PDF",
+      "fact": "'2026 Republican Primary Runoff Unofficial Results': '2026 Unofficial Results of May 26 Republican Primary Runoff ... Position Candidate Pct 1 Pct 2 ... Pct 15 Totals ... John Cornyn 203 129 103 228 ... 1828 ... Ken Paxton 291 169 171 333 ... 3049'; PDF CreationDate 27 May 2026 03:55:09 UTC (10:55 PM CDT). No server upload time available.",
+      "county_totals_first_seen": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.gillespiecounty.gov/1319/Election-Results-Past-Present",
+      "via": "fetch_module",
+      "content_hash": "46fe55ccd7fb163e5c6c2742013249c1066b661f1330c7a513389d911dcfa2b6",
+      "quote": "2026 Republican Primary Runoff Unofficial Results (PDF) ... 2026 Gillespie County Republican Primary Unofficial Results (PDF) ... November 5, 2024 General Election Precinct Official Results Report (PDF)",
+      "supports": "report lists"
+    },
+    {
+      "url": "https://www.gillespiecounty.gov/DocumentCenter/View/2594/2026-Republican-Primary-Runoff-Unofficial-Results-PDF",
+      "via": "fetch_module",
+      "content_hash": "ca586abfb863bf0c2b0090474db1d1c99f98a81ff0018b55fb1ed46291aca13a",
+      "quote": "2026 Unofficial Results of May 26 Republican Primary Runoff ... Pct 1 Pct 2 Pct 3",
+      "supports": "2026_runoff precinct numbers created 10:55 PM CDT"
+    },
+    {
+      "url": "https://www.gillespiecounty.gov/DocumentCenter/View/2345/2026-Gillespie-County-Republican-Primary-Unofficial-Results-PDF",
+      "via": "fetch_module",
+      "content_hash": "808cb3830fa2b0c3cc39aad5c3da604513ef461e3e47978fb6f0199155484c55",
+      "quote": "2026 Gillespie County Republican Primary - Unofficial Results ... ELECTION DAY EARLY VOTING IN PERSON BALLOT BY MAIL GRAND TOTAL",
+      "supports": "2026_primary unofficial is county totals"
+    },
+    {
+      "url": "https://www.gillespiecounty.gov/DocumentCenter/View/1146/November-5-2024-General-Election-Early-Voting-and-Election-Day-PDF",
+      "via": "fetch_module",
+      "content_hash": "5ec13fe1f8dca21887a3f84716606d93f62367def1b08b8d687b4ef2d4140fb4",
+      "quote": "Canvass Results Report ... Run Time 4:15 PM Run Date 11/15/2024",
+      "supports": "2024 only canvass reports remain"
+    }
+  ]
+}

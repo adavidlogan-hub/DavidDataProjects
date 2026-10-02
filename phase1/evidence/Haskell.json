@@ -1,0 +1,58 @@
+{
+  "county": "Haskell",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.haskellcountytx.gov/page/haskell.Elections",
+  "platform": "unknown",
+  "host": "www.haskellcountytx.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Check 2 failed: the seed host www.co.haskell.tx.us returns a TLS hostname mismatch over https and 403 over http, and the current county host located by one web search (www.haskellcountytx.gov, also haskellcountytx.gov) is unreachable through the fetch module (robots check: connection reset by peer), so no county page or file could be read. The search listing names SOS 'Election Unofficial Results Report' PDFs for the 2026 primaries on that host, but search text is not evidence and the files could not be fetched. No Clarity link found. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (county host unreachable, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "websearch:Haskell County Texas elections results",
+      "via": "websearch",
+      "content_hash": "34c26cacd474ea3bde2fb1e198bb2b639e8cfd5ba2bbe14fc298c83601f16c83",
+      "quote": "Haskell County, Texas https://www.haskellcountytx.gov/page/haskell.Elections",
+      "supports": "Located the current county elections page (not fetchable)"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site unreachable through the fetch module; nothing read. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site unreachable through the fetch module; nothing read. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site unreachable through the fetch module; nothing read. Check 3 pending."
+    }
+  }
+}

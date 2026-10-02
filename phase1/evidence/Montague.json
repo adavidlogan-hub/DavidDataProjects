@@ -1,0 +1,100 @@
+{
+  "county": "Montague",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.montague.tx.us/page/montague.ElectionResults",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Montague/126366/372995/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-05-26 19:16 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL over http returned HTTP 403; https works. The county 'Election Results' page links each election to Clarity: November 5, 2024 -> EID 122664, March 3, 2026 -> EID 126015, May 26, 2026 -> EID 126366. Clarity elections.json for Montague is an empty list, so the check 1 script was run with these EIDs from the county's own links. In every election the pre-7 PM update (4:15 to 5:50 PM) already had early-vote precinct numbers for all 15 precincts; during election night the nonzero precinct vote cells kept rising with each update (2024: 1990 to 2228; primary: 3913 to 4768; runoff: 328 to 404), showing election-day votes added per precinct. Some versions returned HTTP 404 (2024: 5, primary: 8, runoff: 2). precinct_first_seen_local_time is the first election-night update of the most recent target election (runoff); 2024 general and 2026 primary first election-night updates were 7:39 PM and 7:38 PM CST.",
+  "tag_rationale": "All three elections are LIVE by check 1 (Clarity precinct-level updates several times on election night), so the rule gives LIVE_PRECINCT with confidence high.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 17:50 CT",
+      "precinct_first_seen": "2024-11-05 19:39 CT",
+      "night_updates_with_precinct_numbers": "5 of 5",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Montague/122664/351720/reports/detailxml.zip",
+      "fact": "Clarity EID 122664: election-night versions at 7:39, 7:53, 8:01, 8:17 and 8:52 PM CST each have 15 precincts with nonzero votes; nonzero precinct vote cells 1990, 2089, 2135, 2201, 2228 (5:50 PM pre-night update: 1539 cells)."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 16:15 CT",
+      "precinct_first_seen": "2026-03-03 19:38 CT",
+      "night_updates_with_precinct_numbers": "5 of 5",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Montague/126015/368449/reports/detailxml.zip",
+      "fact": "Clarity EID 126015: election-night versions at 7:38, 7:50, 8:19, 8:32 and 8:48 PM CST each have 15 precincts with nonzero votes; cells 3913, 4065, 4445, 4726, 4768 (4:15 PM pre-night update: 2899 cells)."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 16:15 CT",
+      "precinct_first_seen": "2026-05-26 19:16 CT",
+      "night_updates_with_precinct_numbers": "4 of 4",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Montague/126366/372995/reports/detailxml.zip",
+      "fact": "Clarity EID 126366: election-night versions at 7:16, 8:06, 8:21 and 8:52 PM CDT each have 15 precincts with nonzero votes; cells 328, 362, 398, 404 (4:15 PM pre-night update: 245 cells)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.montague.tx.us/page/montague.ElectionResults",
+      "via": "fetch_module",
+      "quote": "May 26, 2026 -> results.enr.clarityelections.com/TX/Montague/126366; March 3, 2026 -> /126015; November 5, 2024 -> /122664",
+      "supports": "EIDs from the county's own links",
+      "content_hash": "a83097be7d3e6375ba15b30ac9159c5c6de3e05f048125e265ad6378d02bfec3"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351035/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 11/5/2024 7:39:02 PM CST; 15 precincts with nonzero votes; 1990 cells",
+      "supports": "2024_general LIVE, first night update",
+      "content_hash": "be44881ce6222913ed55b522779865897593ce0b49e08b238adae55bb5f1fbb4"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351720/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 11/5/2024 8:52:02 PM CST; 15 precincts; 2228 cells",
+      "supports": "2024_general LIVE, last night update",
+      "content_hash": "c28fa6fc88a85f4ed9cebd40515a20c9a7f420e061beb4a2b57109214ac54b3f"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368406/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 3/3/2026 7:38:53 PM CST; 15 precincts; 3913 cells",
+      "supports": "2026_primary LIVE, first night update",
+      "content_hash": "b4319d6652c7275514234cb48e2367dfa448ee26021197ac08ac6eeda0e7a3ed"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368449/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 3/3/2026 8:48:39 PM CST; 15 precincts; 4768 cells",
+      "supports": "2026_primary LIVE, last night update",
+      "content_hash": "042cd6fe6331e112b06d385845535754d1fe37219e01ee67687913f35182b6a1"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372937/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 5/26/2026 7:16:44 PM CDT; 15 precincts; 328 cells",
+      "supports": "2026_runoff LIVE, first night update",
+      "content_hash": "74f6bbb97b584be3fd460894821b4508ade696edb93557abb13c5793d6b1c26d"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372995/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 5/26/2026 8:52:36 PM CDT; 15 precincts; 404 cells",
+      "supports": "2026_runoff LIVE, last night update",
+      "content_hash": "d2230243b192ddc333dd91830a7e68e14c8ec1ce43e0f23f8c1d3850fe62170a"
+    }
+  ]
+}

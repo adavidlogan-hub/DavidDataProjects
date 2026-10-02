@@ -1,0 +1,58 @@
+{
+  "county": "Nolan",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.nolan.tx.us/page/nolan.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.nolan.tx.us",
+  "evidence_url": "https://www.co.nolan.tx.us/page/nolan.Elections",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The Elections page section 'ELECTION RESULTS & INFORMATION' lists, for each target election, only official files: 2024 general 'NC Official Summary Results 11052024.pdf' and 'NC Official Precinct Summary Results 11052024.pdf'; 2026 primary 'Official Summary Results 03032026 canvassed.pdf' and 'Official Precinct Summary Results 03032026 canvassed.pdf'; 2026 runoff 'NC Official Summary Results 05262026.pdf' and 'NC Official Precinct Summary Results 05262026.pdf', plus reconciliation and audit forms. The runoff heading reads 'OFFICIAL RESULTS OF THE JOINT PRIMARY RUNOFF ELECTION - MAY 26, 2026' while its Spanish line still reads '(RESULTADOS NO OFICIALES DE LA SEGUNDA VUELTA ...)', which suggests unofficial files were posted and later replaced; their content and timing cannot be read now. The page also links the SOS results site ('TEXAS ELECTION RESULTS'). PDFs not opened since titles mark them as canvassed/official. Check 3 pending: origin/wayback-data not present. En dash in the quoted heading replaced with a hyphen.",
+  "tag_rationale": "No election could be determined (election-night files replaced by official canvass files; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'NC Official Summary Results 11052024.pdf' and 'NC Official Precinct Summary Results 11052024.pdf' listed. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Official Summary Results 03032026 canvassed.pdf' and 'Official Precinct Summary Results 03032026 canvassed.pdf' listed. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'NC Official Summary Results 05262026.pdf' and 'NC Official Precinct Summary Results 05262026.pdf' listed; Spanish heading still says 'RESULTADOS NO OFICIALES'. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.nolan.tx.us/page/nolan.Elections",
+      "via": "fetch_module",
+      "quote": "OFFICIAL RESULTS OF THE JOINT PRIMARY RUNOFF ELECTION - MAY 26, 2026 (RESULTADOS NO OFICIALES DE LA SEGUNDA VUELTA DE LAS PRIMARIAS CONJUNTAS - 26 DE MAYO DE 2026)",
+      "supports": "only official files listed; unofficial replaced",
+      "content_hash": "119be6d50235b2232963c6998ada2470d8a5af3c445218eeab2c27cb55eea107"
+    }
+  ]
+}

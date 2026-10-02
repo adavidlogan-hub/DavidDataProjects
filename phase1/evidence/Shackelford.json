@@ -1,0 +1,58 @@
+{
+  "county": "Shackelford",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.shackelfordcounty.org/page/shackelford.Elections",
+  "platform": "unknown",
+  "host": "www.shackelfordcounty.org",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No seed website; the county site is www.shackelfordcounty.org (domain of the SOS-listed email), Elections page page/shackelford.Elections. No Clarity site (elections.json 404). The page lists November 2026 notices, a runoff PEHCA certification and the March primary 'Election Reconciliation Official Totals', but no results reports for the 2024 general, 2026 primary or 2026 runoff. Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (no vendor log and no results posted on the county site, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No results files for this election on the county Elections page (only notices, PEHCA certifications and reconciliation totals). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No results files for this election on the county Elections page (only notices, PEHCA certifications and reconciliation totals). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No results files for this election on the county Elections page (only notices, PEHCA certifications and reconciliation totals). Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.shackelfordcounty.org/page/shackelford.Elections",
+      "via": "fetch_module",
+      "content_hash": "a1970e92a32feeaecbcaa241cabb86792978af0c38bd64c17f8381e4d21feca8",
+      "quote": "May 26, 2026 PRIMARY RUN-OFF INFORMATION Summary and certification of Post election hand count Audit results ... March Primary Info Election Reconciliation Official Totals",
+      "supports": "Elections page posts no results reports"
+    }
+  ]
+}

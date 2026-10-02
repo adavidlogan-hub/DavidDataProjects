@@ -1,0 +1,86 @@
+{
+  "county": "San Jacinto",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.san-jacinto.tx.us/page/sanjacinto.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.san-jacinto.tx.us",
+  "evidence_url": "https://www.co.san-jacinto.tx.us/upload/page/6941/Republican Unofficial Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https; all results are on the single Elections page (page/sanjacinto.Elections), some served from newtools.cira.state.tx.us. No Clarity site (elections.json 404). The server returns distinct per-file Last-Modified values, so upload times are usable, though a replaced file would hide an earlier upload. The 2024 and 2026 primary result files are image scans read visually; the 2026 primary pages carry Hart's 'Official Results' banner but are listed as unofficial and printed on election night. No precinct-by-precinct reports are posted for any of the three elections. Check 3 pending for the runoff (wayback-data branch not found on origin).",
+  "tag_rationale": "The 2024 general and 2026 primary are both LATER by check 2 (county-total reports only, posted the morning after, no precinct reports), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because the upload times are not on election night.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 09:07 CT (upload)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/6941/docs/202411060.pdf",
+      "fact": "'2024 JOINT GENERAL ELECTION RESULTS' = scanned Hart 'Cumulative Results Report SAN JACINTO COUNTY, TEXAS JOINT GENERAL ELECTION 11/5/2024 ... Unofficial Results ... Run Date 11/06/2024' (run time about 1:12 AM, read visually at low resolution), county totals by Absentee/Early/Election Day; Last-Modified Wed, 06 Nov 2024 15:07:28 GMT (9:07 AM CST Nov 6). No precinct report for 2024 is posted (never published online as far as the site shows)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 11:21 CT (upload of report printed 2026-03-03 23:14)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.san-jacinto.tx.us/upload/page/6941/Republican Unofficial Results.pdf",
+      "fact": "Under '****UNOFFICIAL ELECTION RESULTS***': 'REPUBLICAN PARTY' (12 pages) and 'DEMOCRATIC PARTY' (9 pages), scanned Hart 'Cumulative Results Report SAN JACINTO COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 ... Run Time 11:14 PM Run Date 03/03/2026', county totals; Last-Modified Wed, 04 Mar 2026 17:21:34 GMT and 17:23:22 GMT (11:21 AM CST Mar 4). No precinct report is posted."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The runoff section lists only 'OFFICIAL RESULTS' = 'Cumulative Results Report ... Official Results ... Run Time 4:40 PM Run Date 06/03/2026' (county totals; Last-Modified Thu, 04 Jun 2026 20:56:22 GMT), reconciliation and PEHCA files; no election-night file. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.san-jacinto.tx.us/page/sanjacinto.Elections",
+      "via": "fetch_module",
+      "content_hash": "ae5438addd8e04d4ed56e57e73b3156188c6f165aab488ec63f2eeb5ad2f4ba6",
+      "quote": "2024 JOINT GENERAL ELECTION RESULTS; ****UNOFFICIAL ELECTION RESULTS*** REPUBLICAN PARTY DEMOCRATIC PARTY; MAY 26, 2026 PRIMARY RUNOFF ELECTION ... OFFICIAL RESULTS",
+      "supports": "Results postings per election"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6941/docs/202411060.pdf",
+      "via": "fetch_module",
+      "content_hash": "de28ff2ba5102f76f3f27605ea05593009df78eaf612ad18ff531b0b45aab6ff",
+      "quote": "Cumulative Results Report SAN JACINTO COUNTY, TEXAS JOINT GENERAL ELECTION 11/5/2024 Unofficial Results (scanned, read visually)",
+      "supports": "2024 results county totals, uploaded morning of Nov 6"
+    },
+    {
+      "url": "https://www.co.san-jacinto.tx.us/upload/page/6941/Republican Unofficial Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "b8a36e96bb7cc6c16e6ef9825d8bdb1fcb7852f6913932be6592ddf035215329",
+      "quote": "Cumulative Results Report SAN JACINTO COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Run Time 11:14 PM Run Date 03/03/2026 (scanned, read visually)",
+      "supports": "2026 primary results county totals, uploaded Mar 4"
+    },
+    {
+      "url": "https://www.co.san-jacinto.tx.us/upload/page/6941/Democratic Unofficial Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "0df12288bfaf1fc58d6c24754bf7ba6c3d71f657c26c408da78886f62ecac859",
+      "quote": "(scanned 9-page Democratic results file)",
+      "supports": "Democratic primary results upload time"
+    },
+    {
+      "url": "https://www.co.san-jacinto.tx.us/upload/page/6941/Cumulative Results-6-3-2026 04-40-11 PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "80e27e14bc2db822fa50dc6132eff4a7f2d5e7e88c39eb83b063c62213213d70",
+      "quote": "Cumulative Results Report SAN JACINTO COUNTY, TEXAS Official Results PRIMARY RUNOFF ELECTION Run Time 4:40 PM Run Date 06/03/2026",
+      "supports": "Runoff only official county totals"
+    }
+  ]
+}

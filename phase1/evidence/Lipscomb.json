@@ -1,0 +1,79 @@
+{
+  "county": "Lipscomb",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.lipscomb.tx.us/page/lipscomb.ElectionInformation",
+  "platform": "county_pdfs",
+  "host": "www.co.lipscomb.tx.us",
+  "evidence_url": "https://www.co.lipscomb.tx.us/upload/page/4352/2026/Primary/Unofficial%20Result%20Precinct%20Results-3-3-2026%2008-55-20%20PM.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-03 21:11 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL loads; Election Information page lists results PDFs (Microsoft Reporting Services, text). No Clarity site (elections.json 404). Last-Modified differs per file. In 2026 the county posted one unofficial cumulative and one unofficial precinct report on election night for each election; in 2024 it posted only an unofficial cumulative report (and later official cumulative), no precinct report. Report header 'Precincts Reporting 0 of 7' although votes are present.",
+  "tag_rationale": "2026 primary and runoff are END by check 2 (2024 general LATER), so the tag is PRECINCT_END_OF_NIGHT; both have printed run times and upload times on election night, so confidence is med.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 22:25 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.lipscomb.tx.us/upload/page/4352/2024%20General%20Election/2024%20General%20Election%20Unoffical%20Results.pdf",
+      "fact": "'2024 General Election-Unofficial Results' (Count_CumulativeReport): 'Cumulative Results Report LIPSCOMB COUNTY, TEXAS Unofficial Results ... Run Time 9:50 PM Run Date 11/05/2024'; county totals by Absentee / Early / Election Day; Last-Modified Wed, 06 Nov 2024 04:25:04 GMT (10:25 PM CST). The only other 2024 results file is 'Official Cumulative Results-11-13-2024'. No precinct report listed; precinct numbers not published online."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-03 21:11 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.lipscomb.tx.us/upload/page/4352/2026/Primary/Unofficial%20Result%20Precinct%20Results-3-3-2026%2008-55-20%20PM.pdf",
+      "fact": "'Unofficial Result Precinct Results-3-3-2026 08-55-20 PM.pdf' (133 pages): 'Precinct Results Report LIPSCOMB COUNTY, TEXAS Unofficial Results ... PRIMARY ELECTION ... Run Time 8:55 PM Run Date 03/03/2026 ... 106 ... Absentee Voting Early Voting Election Day Voting' with election-day votes per precinct (e.g. precinct 106 US Senator DEM: James Talarico 2 election day). Last-Modified Wed, 04 Mar 2026 03:11:29 GMT (9:11 PM CST). One precinct report listed."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-26 20:47 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.lipscomb.tx.us/upload/page/4352/2026/Runoff/Unofficial%20Results%205.26%20Run%20Off%20Precinct%20Results-5-26-2026%2008-25-51%20PM.pdf",
+      "fact": "'Unofficial Results 5.26 Run Off Precinct Results-5-26-2026 08-25-51 PM.pdf' (14 pages): 'Precinct Results Report LIPSCOMB COUNTY, TEXAS Unofficial Results May 26 2026 Primary Run Off Election ... Run Time 8:25 PM Run Date 05/26/2026'; per-precinct Election Day Voting values (e.g. 'Cast Votes: 10 11 20 41'). Last-Modified Wed, 27 May 2026 01:47:24 GMT (8:47 PM CDT). One precinct report listed."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.lipscomb.tx.us/page/lipscomb.ElectionInformation",
+      "via": "fetch_module",
+      "content_hash": "038588e2eca54c831bef412afe7c08f6e33bb75f2ac6848b0d5e83ee049303ca",
+      "quote": "May 26, 2026 Joint Primary Run Off- | Unofficial Results 5.26 Run Off Precinct Results-5-26-2026 08-25-51 PM.pdf ; March 3, 2026 Joint Primary Election- | Unofficial Result Precinct Results-3-3-2026 08-55-20 PM.pdf ; 2024 General Election-Unofficial Results",
+      "supports": "report lists for all three elections"
+    },
+    {
+      "url": "https://www.co.lipscomb.tx.us/upload/page/4352/2026/Runoff/Unofficial%20Results%205.26%20Run%20Off%20Precinct%20Results-5-26-2026%2008-25-51%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "04a7aff64284cb5e778d472d9e080d135f46b01e93812a8f287d3af8080a7cea",
+      "quote": "Precinct Results Report ... Unofficial Results ... Run Time 8:25 PM Run Date 05/26/2026",
+      "supports": "2026_runoff precinct numbers on election night"
+    },
+    {
+      "url": "https://www.co.lipscomb.tx.us/upload/page/4352/2026/Primary/Unofficial%20Result%20Precinct%20Results-3-3-2026%2008-55-20%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "3ab206f616d8e427bae5e2259e780c3b9a1f870722f62ec2f28a28b5db68bd90",
+      "quote": "Precinct Results Report ... Unofficial Results ... Run Time 8:55 PM Run Date 03/03/2026",
+      "supports": "2026_primary precinct numbers on election night"
+    },
+    {
+      "url": "https://www.co.lipscomb.tx.us/upload/page/4352/2024%20General%20Election/2024%20General%20Election%20Unoffical%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "689c45563c9411318e2ce154e7889e05cff7c30d5a0c3c0791c82b06e57aa12e",
+      "quote": "Cumulative Results Report ... Unofficial Results ... Run Time 9:50 PM Run Date 11/05/2024",
+      "supports": "2024 county totals only"
+    }
+  ]
+}

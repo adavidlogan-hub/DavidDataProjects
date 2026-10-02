@@ -1,0 +1,65 @@
+{
+  "county": "Floyd",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.floyd.tx.us/page/floyd.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.floyd.tx.us",
+  "evidence_url": "https://www.co.floyd.tx.us/upload/page/1798/Unofficial%20Election%20Night%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://co.floyd.tx.us/ returned HTTP 403; https://www.co.floyd.tx.us/ loads and links /page/floyd.Elections. No Clarity site (elections.json 404). 2026 primary: 'Unofficial Election Night Results.pdf' is a 19-page scanned 'Cumulative Results Report FLOYD COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Unofficial Results' with county totals by Absentee/Early/Election Day only (through 'End of report'), scanned 4 Mar 2026 01:58 UTC and Last-Modified Wed, 04 Mar 2026 02:40:15 GMT (8:40 PM CST election night); no precinct report is posted. 2024 general: the 'November 5th, 2024 General Election' section lists only L&A tests and an early-voting roster; no results. 2026 runoff: no runoff section or results on the page. Check 3 pending (origin/wayback-data not present).",
+  "tag_rationale": "Only the 2026 primary is determined (LATER by check 2, county totals only on election night), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections page section 'November 5th, 2024 General Election' lists 'October 16th, 2024 L&A Testing', 'September 18th, 2024 L&A Test', '10-21-2024 EV Roster'; no results posted. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 20:40 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.floyd.tx.us/upload/page/1798/Unofficial%20Election%20Night%20Results.pdf",
+      "fact": "'Unofficial Election Night Results.pdf': 'Cumulative Results Report FLOYD COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 ... Unofficial Results ... United States Senator - DEMOCRATIC PARTY ... Absentee Voting Early Voting Election Day Voting Total', 19 pages ending '*** End of report ***', county totals only; PDF CreationDate 4 Mar 2026 01:58:48 UTC; Last-Modified Wed, 04 Mar 2026 02:40:15 GMT. No precinct results posted (never published online).",
+      "precinct_first_seen": ""
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No May 26, 2026 runoff results or section on the Elections page. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.floyd.tx.us/page/floyd.Elections",
+      "via": "fetch_module",
+      "content_hash": "4e4be1caf0bdfb20ade1876e03200f72f64a2516546371e9d627e11c1dc6b027",
+      "quote": "Unofficial Election Night Results.pdf | Polling Place Dates & Times ... November 5th, 2024 General Election | October 16th, 2024 L&A Testing",
+      "supports": "report lists"
+    },
+    {
+      "url": "https://www.co.floyd.tx.us/upload/page/1798/Unofficial%20Election%20Night%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "bbe017708233c455ef292db92c992eb684393e7cd308510a427c962e185dcd17",
+      "quote": "Cumulative Results Report FLOYD COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Unofficial Results",
+      "supports": "2026_primary county totals uploaded 8:40 PM CST"
+    }
+  ]
+}

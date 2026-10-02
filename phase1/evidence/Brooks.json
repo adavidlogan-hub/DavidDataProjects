@@ -1,0 +1,86 @@
+{
+  "county": "Brooks",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.brooks.tx.us/page/brooks.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.brooks.tx.us",
+  "evidence_url": "https://www.co.brooks.tx.us/upload/page/5156/Precinct Results-05262026.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-03 21:40 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Elections Administrator page posts Hart-style Cumulative and Precinct Results Reports for each election. 2024 general: the precinct-by-precinct file is a 35-page scan (header shading makes the run time illegible; header reads 'Unofficial Results' and 'OFFICAL ELECTION RESULTS') scanned and uploaded the morning of Nov 6. 2026 primary: unofficial Precinct Results Report with Election Day columns, Run Time 9:33 PM, uploaded 9:40 PM CST on election night. 2026 runoff: on election night only the cumulative county totals (Run Time 8:25 PM, uploaded 8:36 PM CDT); the precinct report was run 12:24 PM May 28 and uploaded 3:58 PM CDT May 28. Both runoff reports show 'Precincts Reporting 0 of 5' although they include Election Day votes (as printed).",
+  "tag_rationale": "2024 general and 2026 runoff are both LATER (precinct numbers uploaded after election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS even though the 2026 primary was END; confidence low because the 2024 general lacks an election-night printed and upload time.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-06 09:45 CT (server upload; scan created 09:11)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.brooks.tx.us/upload/page/5156/November General Precinct by Precinct Results11052024.pdf",
+      "fact": "'November General Precinct by Precinct Results11052024.pdf' = scanned 'Precinct Results Report ... BROOKS COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Unofficial Results', per precinct with Absentee/Early/Election Day Voting ('Donald J. Trump JD Vance REP 8 ... 134 ... 87 ... 229'); PDF CreationDate Wed Nov 6 15:11:18 2024 UTC; Last-Modified Wed, 06 Nov 2024 15:45:48 GMT. Run time not legible in the scan."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-03 21:40 CT (server upload; printed 21:33)",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.brooks.tx.us/upload/page/5156/Precinct Results 03032026.pdf",
+      "fact": "'Precinct Results 03032026.pdf' = 'Precinct Results Report Unofficial Results BROOKS COUNTY, TEXAS CUMULATIVE RESULTS PRIMARY ELECTION Precincts Reporting 5 of 5 = 100.00% Run Time 9:33 PM 3/3/2026', per precinct with Absentee/Early/Election Day Voting ('James Talarico 6 ... 83 ... 35 ... 124'); PDF CreationDate Wed Mar 4 03:33:30 2026 UTC; Last-Modified Wed, 04 Mar 2026 03:40:10 GMT. Companion 'Cumulative Results-3-3-2026 FINAL.pdf'."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:36 CT (server upload; printed 20:25)",
+      "precinct_first_seen": "2026-05-28 15:58 CT (server upload; printed 2026-05-28 12:24)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.brooks.tx.us/upload/page/5156/Precinct Results-05262026.pdf",
+      "fact": "Night file 'Primary Runoff Results 05262026.pdf' = 'Cumulative Results Report BROOKS COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION ... Run Time 8:25 PM Run Date 05/26/2026' (county totals), Last-Modified Wed, 27 May 2026 01:36:59 GMT. 'Precinct Results-05262026.pdf' = 'Precinct Results Report Unofficial Results ... Run Time 12:24 PM ... Run Date 05/28/2026', Last-Modified Thu, 28 May 2026 20:58:28 GMT."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.brooks.tx.us/page/brooks.Elections",
+      "via": "fetch_module",
+      "quote": "Primary Runoff Results 05262026.pdf; Precinct Results-05262026.pdf; Cumulative Results-3-3-2026 FINAL.pdf; Precinct Results 03032026.pdf; November General Precinct by Precinct Results11052024.pdf",
+      "supports": "County-posted report list",
+      "content_hash": "f9692e641e813f77db977168afe04729a0ef18be3d4851e034e53089b7843e91"
+    },
+    {
+      "url": "https://www.co.brooks.tx.us/upload/page/5156/Precinct Results 03032026.pdf",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report Unofficial Results BROOKS COUNTY, TEXAS ... PRIMARY ELECTION Precincts Reporting 5 of 5 = 100.00% Run Time 9:33 PM",
+      "supports": "Primary precinct numbers uploaded 9:40 PM CST election night",
+      "content_hash": "0d22c26b490db7b62242cef55aae5e9eca3e084c78e7216c6dcc902e1dea3196"
+    },
+    {
+      "url": "https://www.co.brooks.tx.us/upload/page/5156/Primary Runoff Results 05262026.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report BROOKS COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION ... Run Time 8:25 PM",
+      "supports": "Runoff election-night county totals",
+      "content_hash": "682161714a91d5297398c4c4f6df4a441521564519ceeda704135ef659f3ce3e"
+    },
+    {
+      "url": "https://www.co.brooks.tx.us/upload/page/5156/Precinct Results-05262026.pdf",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report Unofficial Results ... Run Time 12:24 PM ... Run Date 05/28/2026",
+      "supports": "Runoff precinct numbers posted May 28",
+      "content_hash": "1f3495f408923f6ba2bcd83648edc8b60d565975157ced0f0e9802413bdaf26f"
+    },
+    {
+      "url": "https://www.co.brooks.tx.us/upload/page/5156/November General Precinct by Precinct Results11052024.pdf",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report BROOKS COUNTY, TEXAS GENERAL ELECTION 11/5/2024 Unofficial Results (scan)",
+      "supports": "2024 precinct numbers uploaded morning of Nov 6",
+      "content_hash": "46ad70227c190fcb8b7887ada27d8d4206ffd1dccb13056367f82643eb0eb85b"
+    }
+  ]
+}

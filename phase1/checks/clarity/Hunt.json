@@ -1,0 +1,430 @@
+{
+  "county": "Hunt",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122429",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "345754",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/345754/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "9/24/2024 11:31:43 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "345756",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/345756/reports/detailxml.zip",
+              "content_hash": "70545beb62df22f82b9eb66e2c73bc3400adebd6e8ddc6e3cd7c406fc9fb93e4",
+              "election_night": false
+            },
+            {
+              "version": "346070",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/346070/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346071",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/346071/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/9/2024 8:01:37 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "346236",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/346236/reports/detailxml.zip",
+              "content_hash": "7761c9415460fc4a6298fd901ccc0131a453dfe76aba34ed8e1ec0d2a506e18b",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/16/2024 1:13:10 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "347257",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/347257/reports/detailxml.zip",
+              "content_hash": "7916153f4f69b10589ae22bdfb5a080f67d0245be6897dd621265847ea7d1e17",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/16/2024 1:44:01 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "347275",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/347275/reports/detailxml.zip",
+              "content_hash": "b69df0bc6c94a3d9ec778e840d6766b21f7b8abfe727602ba1e01359bd707e19",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/16/2024 1:48:20 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "347278",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/347278/reports/detailxml.zip",
+              "content_hash": "b3bdb050310f9c5ec99f9ebf3beba3f063552923b74e77bcd4d40cadc25e3b3f",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/4/2024 9:03:07 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "350276",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/350276/reports/detailxml.zip",
+              "content_hash": "46b1425a00e1c97662ddbf7b7c6627d093d472c35ec3370d078c500222c0dafb",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:46:13 PM CST",
+              "precincts_with_votes": 56,
+              "nonzero_precinct_vote_cells": 7376,
+              "version": "351078",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/351078/reports/detailxml.zip",
+              "content_hash": "a529d12c18935fdaa5e24c813f348ab0cbca238833ee0f38dd78ee88439d5f31",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:19:52 PM CST",
+              "precincts_with_votes": 56,
+              "nonzero_precinct_vote_cells": 7967,
+              "version": "351396",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/351396/reports/detailxml.zip",
+              "content_hash": "d718bef255e5d79cd19c1d4af8972b884187a9cc3ef4d0e9b5e178f18560c380",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:55:30 PM CST",
+              "precincts_with_votes": 56,
+              "nonzero_precinct_vote_cells": 9254,
+              "version": "351752",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/351752/reports/detailxml.zip",
+              "content_hash": "03d1356cbbf6ce7f15f8dddc163ecfc6a4d5bab9dab01367c3121e115c40697f",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:08:12 PM CST",
+              "precincts_with_votes": 56,
+              "nonzero_precinct_vote_cells": 10379,
+              "version": "352455",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/352455/reports/detailxml.zip",
+              "content_hash": "2673956f39ade39cbc6146c13ff1c60ccc55c9c50391e00edcc0486a80b29081",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:27:44 PM CST",
+              "precincts_with_votes": 56,
+              "nonzero_precinct_vote_cells": 10555,
+              "version": "352864",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/352864/reports/detailxml.zip",
+              "content_hash": "d18841f03996154462d388cf34e98d99c1f343e0e11c9aec6d936b6d3824f4f3",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:16:40 AM CST",
+              "precincts_with_votes": 56,
+              "nonzero_precinct_vote_cells": 10555,
+              "version": "353015",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/353015/reports/detailxml.zip",
+              "content_hash": "3e389f8d00f3bbb50b8d9ddef69d4d6763adba74581fccbe883bbc30eca5e3ce",
+              "election_night": true
+            },
+            {
+              "timestamp": "2/3/2025 11:59:19 AM CST",
+              "precincts_with_votes": 56,
+              "nonzero_precinct_vote_cells": 10556,
+              "version": "356329",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/356329/reports/detailxml.zip",
+              "content_hash": "ee35b24b594ae009919d7480da55de7177c363fadadae91818937d4ff1257774",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 6,
+          "election_night_updates_with_precinct_votes": 6,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:46:13 PM CST",
+            "version": "351078",
+            "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/351078/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "125942",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "367959",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/367959/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367960",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/367960/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367961",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/367961/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367962",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/367962/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367963",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/367963/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367964",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/367964/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368013",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368013/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/26/2026 5:01:41 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368260",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368260/reports/detailxml.zip",
+              "content_hash": "ab285e04b8f850d84dd92302dca54b974f1dc8d5d3b19c3e8cb4452548677c0b",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:11:45 PM CST",
+              "precincts_with_votes": 39,
+              "nonzero_precinct_vote_cells": 12582,
+              "version": "368393",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368393/reports/detailxml.zip",
+              "content_hash": "354a27ce3b57bdf0d0911b54b2163eef9d3cbc3106da93445358bea48ee58e3e",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 7:34:37 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368405",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368405/reports/detailxml.zip",
+              "content_hash": "ae79d53682db7cf02c7390ad187e429c6ec3115f2be190030ca8d129aee46e6b",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:33:45 PM CST",
+              "precincts_with_votes": 39,
+              "nonzero_precinct_vote_cells": 5640,
+              "version": "368440",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368440/reports/detailxml.zip",
+              "content_hash": "95ce59a639a12aef5da3bb5861e7978df7f6b59bbfc77465fd10c87deecdcd0c",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:51:13 PM CST",
+              "precincts_with_votes": 39,
+              "nonzero_precinct_vote_cells": 6839,
+              "version": "368454",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368454/reports/detailxml.zip",
+              "content_hash": "fcbfd7660e56a0cc52f138f11386627ed64066f7566785ea0ea1e35534749015",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:11:46 PM CST",
+              "precincts_with_votes": 39,
+              "nonzero_precinct_vote_cells": 8083,
+              "version": "368468",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368468/reports/detailxml.zip",
+              "content_hash": "7da50ad2e8b442e9bfd58497bfd9f68656b47ddb92ba55328c690942ca54abe4",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:32:08 PM CST",
+              "precincts_with_votes": 39,
+              "nonzero_precinct_vote_cells": 10280,
+              "version": "368481",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368481/reports/detailxml.zip",
+              "content_hash": "80f4f62a25eec0bc69bb8f22ea0f8af5a8db363254521511c3324417b473a74a",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:18:58 PM CST",
+              "precincts_with_votes": 39,
+              "nonzero_precinct_vote_cells": 12230,
+              "version": "368519",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368519/reports/detailxml.zip",
+              "content_hash": "946ee041c96d356f14855fb72f4a90d57710d2963ae8f162b4bfd41ca35c6680",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:40:03 PM CST",
+              "precincts_with_votes": 39,
+              "nonzero_precinct_vote_cells": 12792,
+              "version": "368525",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368525/reports/detailxml.zip",
+              "content_hash": "1670f25d4b075c9103bdb76831f4c39422414121c13a4ef7318d91e74b64a98a",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 1:07:28 AM CST",
+              "precincts_with_votes": 39,
+              "nonzero_precinct_vote_cells": 18902,
+              "version": "368572",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368572/reports/detailxml.zip",
+              "content_hash": "42f06c305dd7c194d159d8d12de3d87a1a20a4b22cbf64e83cf45c158a25c4d1",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 1:33:59 AM CST",
+              "precincts_with_votes": 39,
+              "nonzero_precinct_vote_cells": 18902,
+              "version": "368576",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368576/reports/detailxml.zip",
+              "content_hash": "e40b61577f407dc2e7eae5f0578350cc8621af6f8325b38c37c9bd88bd579c04",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/10/2026 10:24:34 AM CDT",
+              "precincts_with_votes": 39,
+              "nonzero_precinct_vote_cells": 18914,
+              "version": "368720",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368720/reports/detailxml.zip",
+              "content_hash": "d662e38ac3c1652c52d83dd62c41be9b95afcab8cd15014b50572120f9c5c762",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 10,
+          "election_night_updates_with_precinct_votes": 9,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:11:45 PM CST",
+            "version": "368393",
+            "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368393/reports/detailxml.zip"
+          },
+          "unreadable_versions": 7
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126349",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "370399",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/370399/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "370419",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/370419/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/5/2026 3:17:59 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "370428",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/370428/reports/detailxml.zip",
+              "content_hash": "3a996abb86954c8a068eeda56ce2f83277ab5661ae564bd44be4db0e4952ca04",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:17:07 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372939",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/372939/reports/detailxml.zip",
+              "content_hash": "16f9a3fefe682e3c79a56333f8eba70f2fa633204e6c13560fb574689b29c392",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:25:29 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372975",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/372975/reports/detailxml.zip",
+              "content_hash": "84f181222f4e93f367706e3ac269088c19222be19c04a8aa3583ab7590698f73",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:10:26 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373008",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373008/reports/detailxml.zip",
+              "content_hash": "54ddad1d7bb53d8a6d3e940ef33c2c73ce9b7dbb44ff7fd5db5befd186778e90",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 10:58:34 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373052",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373052/reports/detailxml.zip",
+              "content_hash": "0211e02a0f01d8e8fc46fa9469e3ecd3a953eab2ebbab6708999b30d9371abb1",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 11:24:57 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373058",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373058/reports/detailxml.zip",
+              "content_hash": "e2264b250bd8ed406f9bed8650fea5627b82ade0c2c575c6290d48d17598270e",
+              "election_night": true
+            },
+            {
+              "version": "373126",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373126/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/27/2026 11:35:42 AM CDT",
+              "precincts_with_votes": 19,
+              "nonzero_precinct_vote_cells": 937,
+              "version": "373127",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373127/reports/detailxml.zip",
+              "content_hash": "781e49643ef6cc33cfd48f60d66b49d23304580667771b830ed6cf07f32706a2",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/2/2026 10:00:55 AM CDT",
+              "precincts_with_votes": 19,
+              "nonzero_precinct_vote_cells": 937,
+              "version": "373406",
+              "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373406/reports/detailxml.zip",
+              "content_hash": "89a8af0c5bef306a76e041fe5975f91dd705d2086d191f5e7f85c16da0a3ef14",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 0,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/27/2026 11:35:42 AM CDT",
+            "version": "373127",
+            "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373127/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122429",
+    "2026_primary": "125942",
+    "2026_runoff": "126349"
+  }
+}

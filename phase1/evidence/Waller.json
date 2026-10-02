@@ -1,0 +1,72 @@
+{
+  "county": "Waller",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.waller.tx.us/page/2026%20County%20and%20Entity%20Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.waller.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The 2026 County and Entity Elections page lists for the March 3 primary only 'OFFICIAL FINAL - JOINT PRIMARY ELECTION' (file 'OFFICIAL FINAL BOTH Cumulative Results-3-11-2026 01-26-24 PM.pdf') and Democrat/Republican official finals, and for the May 26 runoff only 'Official Dem/Rep Primary Runoff Cumulative Results-6-2-2026'; no election-night report remains. The 2024 page lists, for the November 5 general, 'Unofficial Final - Includes Limited Ballots', a 'Cumulative Results Report ... Unofficial Results' with 'Run Time 10:07PM Run Date 11/05/2024' printed but CreationDate 2024-11-09 21:59 UTC and Last-Modified Sun, 10 Nov 2024 16:31:23 GMT (uploaded after election night), county totals only, plus an official cumulative report. No precinct-level report is listed for any of the three elections, but the election-night postings themselves are gone, so check 2 cannot decide. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined by checks 1 and 2 (only post-election cumulative reports remain; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Unofficial Final - Includes Limited Ballots' cumulative county totals, printed Run Time 10:07PM 11/05/2024 but Last-Modified 10 Nov 2024; 'CUMULATIVE - ABS, EV AND ED OFFICIAL FINAL'. No election-night upload visible. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'OFFICIAL FINAL BOTH Cumulative Results-3-11-2026' and party official finals listed. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Official Dem/Rep Primary Runoff Cumulative Results-6-2-2026' listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.waller.tx.us/page/2026%20County%20and%20Entity%20Elections",
+      "via": "fetch_module",
+      "content_hash": "21ae6dabcf41328f1c8af05e2a7854da83e822ed0668f69c0bfc4f81676435cd",
+      "quote": "OFFICIAL FINAL - JOINT PRIMARY ELECTION ; Official Rep Primary Runoff Cumulative Results-6-2-2026 10-59-57 AM.pdf",
+      "supports": "2026 report list"
+    },
+    {
+      "url": "https://www.co.waller.tx.us/page/2024%20County%20and%20Entity%20Elections",
+      "via": "fetch_module",
+      "content_hash": "1c296466f746761fe427afc7d9571aac785cd456f37f3b9a0f32ac5a0d9447f2",
+      "quote": "Unofficial Final - Includes Limited Ballots",
+      "supports": "2024 report list"
+    },
+    {
+      "url": "https://www.co.waller.tx.us/upload/page/0274/UNOFFICIAL%20FINAL%20-%20Includes%20Limited%20Ballots.pdf",
+      "via": "fetch_module",
+      "content_hash": "8a7b7345be0ebbb5d937f032675280a7a6e91ed6a98f00cede453cb7fbdf80ae",
+      "quote": "Cumulative Results Report WALLER COUNTY, TEXAS Unofficial Results ... Run Time 10:07PM Run Date 11/05/2024",
+      "supports": "2024 unofficial cumulative uploaded 10 Nov 2024"
+    }
+  ]
+}

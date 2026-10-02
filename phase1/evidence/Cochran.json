@@ -1,0 +1,86 @@
+{
+  "county": "Cochran",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.cochran.tx.us/page/cochran.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.cochran.tx.us",
+  "evidence_url": "https://www.co.cochran.tx.us/upload/page/1499/2026%20MAY%2026TH%20REPUBLICAN%20PRIMARY%20RUNOFF%20ELECITON%20-%20UNOFFICIAL%20RESULTS.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-04 00:27 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.cochran.tx.us/default.aspx?Cochran_County/Elections replaced by https://www.co.cochran.tx.us/page/cochran.Elections; older files on newtools.cira.state.tx.us. No Clarity or vendor site. Results are tally sheets by voting box (BOX 101, 202, 303, 306, 404; EV and BBM are county-level columns), scanned. Last-Modified values differ per file and look like real upload times. The 2026 files are scanner PDFs with no CreationDate and no printed run time, so only server upload times are available; confidence low under the rule. Only the Republican files were read; Democratic files are listed alongside. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "The 2026 primary and 2026 runoff are both END (check 2: one per-box unofficial sheet uploaded on election night), so the tag is PRECINCT_END_OF_NIGHT; the 2024 general is LATER. Confidence low because there is no printed run time to pair with the upload times.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-06 11:24 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/1499/2024/2024%20NOVEMBER%205TH%20GENERAL%20ELECTION%20TALLY%20SHEET%20-%20ELECTION%20DAY.pdf",
+      "fact": "'Unofficial Results' (2024 NOVEMBER 5TH GENERAL ELECTION TALLY SHEET - ELECTION DAY.pdf) is a tally sheet 'UNOFFICIAL RESULTS TOTAL NUMBER OF VOTERS IN COUNTY: 1676' with columns 'EV BBM BOX 101 BOX 202 BOX 303 BOX 306 BOX 404 TOTAL'. PDF CreationDate 2024-11-06 14:33:10 UTC, ModDate 17:24:24 UTC, Last-Modified Wed, 06 Nov 2024 17:24:35 GMT (11:24 AM CST Nov 6), after election night. It is the only 2024 general results file listed."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-04 00:27 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/1499/2026/2026%20MARCH%203RD%20REPUBLICAN%20PRIMARY%20UNOFFICIAL%20RESULTS.pdf",
+      "fact": "'REPUBLICAN PRIMARY UNOFFICIAL RESULTS' is a scanned 'MARCH 3, 2026 REPUBLICAN PRIMARY ELECTION - ELECTION DAY ... TOTAL NUMBER OF VOTERS IN COUNTY: 1473 - 35%' sheet with candidate votes per 'BOX 101, BOX 202, BOX 303, BOX 306, BOX 404' plus EV and BBM columns. Last-Modified Wed, 04 Mar 2026 06:27:40 GMT (12:27 AM CST Mar 4), within election night. No printed run time (scanner PDF, no CreationDate)."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-26 21:52 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.cochran.tx.us/upload/page/1499/2026%20MAY%2026TH%20REPUBLICAN%20PRIMARY%20RUNOFF%20ELECITON%20-%20UNOFFICIAL%20RESULTS.pdf",
+      "fact": "'REPUBLICAN PRIMARY RUNOFF UNOFFICIAL RESULTS' is a scanned 'MAY 26, 2026 REPUBLICAN PRIMARY RUNOFF ELECTION ELECTION DAY UNOFFICIAL RESULTS TOTAL NUMBER OF VOTERS IN COUNTY: 1481' sheet with candidate votes per 'BOX 101 ... BOX 404' plus EV and BBM columns (e.g. U.S. Senator, Ken Paxton: EV 103, BBM 9, BOX 101 11, BOX 202 25 ... TOTAL 171). Last-Modified Wed, 27 May 2026 02:52:14 GMT (9:52 PM CDT), within election night. No printed run time."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.cochran.tx.us/page/cochran.Elections",
+      "via": "fetch_module",
+      "content_hash": "39bd30a374a6fc418ab240e9b4b32c88e5e96830417c6e70468bca742d77396d",
+      "quote": "REPUBLICAN PRIMARY RUNOFF UNOFFICIAL RESULTS; DEMOCRATIC PRIMARY RUNOFF UNOFFICIAL RESULTS; REPUBLICAN PRIMARY UNOFFICIAL RESULTS; DEMOCRATIC PRIMARY UNOFFICIAL RESULTS",
+      "supports": "Elections page lists 2026 unofficial results"
+    },
+    {
+      "url": "https://www.co.cochran.tx.us/upload/page/1499/2026%20MAY%2026TH%20REPUBLICAN%20PRIMARY%20RUNOFF%20ELECITON%20-%20UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "257b79b24a9d6f42fdc0ae7d56354cfa2cbb756d67c62f3411ccf53e08932970",
+      "quote": "MAY 26, 2026 REPUBLICAN PRIMARY RUNOFF ELECTION ELECTION DAY UNOFFICIAL RESULTS ... BOX 101 BOX 202 BOX 303 BOX 306 BOX 404 TOTAL (scanned image, read visually)",
+      "supports": "Runoff per-box numbers uploaded 2026-05-27 02:52:14 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1499/2026/2026%20MARCH%203RD%20REPUBLICAN%20PRIMARY%20UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "8a0155ab460939f24f4cf85a5264bf858263a97254892d69f9b3f7eec46f0d38",
+      "quote": "MARCH 3, 2026 REPUBLICAN PRIMARY ELECTION - ELECTION DAY TOTAL NUMBER OF VOTERS IN COUNTY: 1473 - 35% (scanned image, read visually)",
+      "supports": "Primary per-box numbers uploaded 2026-03-04 06:27:40 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1499/2024/2024%20NOVEMBER%205TH%20GENERAL%20ELECTION%20TALLY%20SHEET%20-%20ELECTION%20DAY.pdf",
+      "via": "fetch_module",
+      "content_hash": "6af8f38f624198d55e831f16b35f39125d766a450a771d460ec3b36a95a350a4",
+      "quote": "NOVEMBER 5TH GENERAL ELECTION TALLY SHEET ... UNOFFICIAL RESULTS TOTAL NUMBER OF VOTERS IN COUNTY: 1676",
+      "supports": "2024 per-box numbers uploaded 2024-11-06 17:24:35 GMT"
+    },
+    {
+      "url": "https://www.co.cochran.tx.us/page/cochran.PastElectionInformation",
+      "via": "fetch_module",
+      "content_hash": "5fb6bde23e1dc420c96765fefc5e481c7ecc6667087b6ce2073886c7aed4b945",
+      "quote": "Unofficial Results => 2024 NOVEMBER 5TH GENERAL ELECTION TALLY SHEET - ELECTION DAY.pdf",
+      "supports": "Past Election Information page lists the 2024 file"
+    }
+  ]
+}

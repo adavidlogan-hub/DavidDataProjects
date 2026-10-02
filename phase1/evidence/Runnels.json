@@ -1,0 +1,58 @@
+{
+  "county": "Runnels",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.runnelscounty.org/page/runnels.Elections",
+  "platform": "unknown",
+  "host": "www.runnelscounty.org",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.co.runnels.tx.us/ (and its https form and /page/runnels.Elections) returns HTTP 403; the county's current domain www.runnelscounty.org (matching the elections email) loads. No Clarity site (elections.json 404). The Elections page and the Elections Administrator page post no results for the 2024 general, 2026 primary or 2026 runoff; the only results file is 'May 2025 Jail Bond Election Precinct Results.pdf'. The page carries a notice about political subdivision documents (not a results usage notice). Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (no vendor log and no 2024 or 2026 results posted, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No results files for this election on the county Elections page (only November 2026 orders and a May 2025 bond precinct results PDF). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No results files for this election on the county Elections page (only November 2026 orders and a May 2025 bond precinct results PDF). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No results files for this election on the county Elections page (only November 2026 orders and a May 2025 bond precinct results PDF). Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.runnelscounty.org/page/runnels.Elections",
+      "via": "fetch_module",
+      "content_hash": "ae78ec07568c156929235999b762f0d10fb4487c898757ea28362146e2df0e65",
+      "quote": "Orders Ballinger Resolution for Election 11-3-2026.pdf ... May 2025 Jail Bond Election Precinct Results.pdf",
+      "supports": "Elections page holds no 2024 or 2026 results"
+    }
+  ]
+}

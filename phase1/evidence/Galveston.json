@@ -1,0 +1,86 @@
+{
+  "county": "Galveston",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Galveston/",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Galveston/122842/351017/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 19:37 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.galvestonvotes.org/ returned HTTP 403 and https://www.galvestonvotes.org/ an empty HTTP 202 (bot protection, not bypassed), so the county's own links and reports could not be read. Galveston's Clarity site lists all three elections in elections.json (EIDs 122842, 125923, 126480; detail.xml Region 'Galveston' with matching ElectionDate). Check 1: 2024 general 6 election-night updates (7:37 PM to 11:45 PM CST), each with 90 precincts with nonzero votes, summed precinct votes 4,295,411 to 5,282,128; 2026 primary 6 updates (7:13 PM to 10:51 PM CST), 90 precincts, sums 1,744,845 to 2,728,476. 2026 runoff: 6 election-night updates (7:03 PM to 9:37 PM CDT) in which every precinct value is 'protected' (e.g. '<Precinct name=\"137\" votes=\"protected\" />'); precinct values stay protected through the last version (6/2/2026 3:37 PM CDT), so precinct numbers never appeared on Clarity; whether the county posted them elsewhere could not be checked (county site blocked). The final 2026 primary version (6/3/2026) also shows 0 precincts with votes. Many early versions had no readable detail file. Check 3 not needed for the deciding elections.",
+  "tag_rationale": "2024 general and 2026 primary are both LIVE by check 1 (precinct numbers in six election-night Clarity updates each), so the tag is LIVE_PRECINCT with high confidence; the 2026 runoff is LATER (precinct values protected).",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 19:37 CT",
+      "precinct_first_seen": "2024-11-05 19:37 CT",
+      "night_updates_with_precinct_numbers": "6",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Galveston/122842/351017/reports/detailxml.zip",
+      "fact": "Clarity EID 122842 '2024 November Election': election-night updates 11/5/2024 7:37:14 PM, 8:42:19 PM, 9:14:39 PM, 9:51:38 PM, 11:05:07 PM, 11:45:46 PM CST, each with 90 precincts with nonzero votes; summed precinct votes 4,295,411 then 5,282,128."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 19:13 CT",
+      "precinct_first_seen": "2026-03-03 19:13 CT",
+      "night_updates_with_precinct_numbers": "6",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368395/reports/detailxml.zip",
+      "fact": "Clarity EID 125923 '2026 Joint Primary Election': election-night updates 3/3/2026 7:13:55 PM, 7:18:29 PM, 9:19:06 PM, 9:39:49 PM, 9:56:51 PM, 10:51:53 PM CST, each with 90 precincts with nonzero votes; summed precinct votes 1,744,845 then 2,728,476."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 19:03 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Galveston/126480/373023/reports/detailxml.zip",
+      "fact": "Clarity EID 126480 '2026 Joint Primary Runoff': election-night updates 5/26/2026 7:03:48 PM to 9:37:09 PM CDT (6) with 0 precincts with votes; detail.xml shows '<Precinct name=\"137\" votes=\"protected\" />' for every precinct; still protected in the last version 6/2/2026 3:37:33 PM CDT. Precinct numbers never published on Clarity."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/351017/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "b87553af26fb1fc9cb6a7ee6661b15502d21c03fe71472b5db61f2742be1eb4e",
+      "quote": "Timestamp 11/5/2024 7:37:14 PM CST; Region Galveston; 90 precincts with votes",
+      "supports": "2024_general first night update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/352919/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "c49c920455475024cdcb929569fb4faa2613e8d01f6c621be8a0ec87c4c40673",
+      "quote": "Timestamp 11/5/2024 11:45:46 PM CST; 90 precincts with votes",
+      "supports": "2024_general last night update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368395/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "1491aa5dbcf75539de353e3e88202a9528d762a4978b6c445af7b003c7f6c783",
+      "quote": "Timestamp 3/3/2026 7:13:55 PM CST; 90 precincts with votes",
+      "supports": "2026_primary first night update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/373023/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "5486588449efbd40f05836faecd21aa499f10907d25160de5e46fcf2c88258d1",
+      "quote": "<Precinct name=\"137\" votes=\"protected\" />",
+      "supports": "2026_runoff precinct values protected on election night"
+    },
+    {
+      "url": "https://www.galvestonvotes.org/",
+      "via": "fetch_module",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote": "HTTP 202 with empty body",
+      "supports": "county site blocked by bot protection"
+    }
+  ]
+}

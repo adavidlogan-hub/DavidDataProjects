@@ -1,0 +1,65 @@
+{
+  "county": "Coleman",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.coleman.tx.us/page/coleman.Elections",
+  "platform": "unknown",
+  "host": "www.co.coleman.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.coleman.tx.us/default.aspx?Coleman_County/Elections; https://www.co.coleman.tx.us/page/coleman.Elections, page/Elections, page/Election.CurrentLocal, page/Election.Day.Info, page/Election.PublicNotices and page/Current%20ELection%20-%20Local all returned HTTP 200 with the same Home page body (content hash a0f2703b...), so check 2 failed. One web search found the same URLs; its summary claims official and precinct results are posted there, which could not be verified. No Clarity or vendor link found. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "No election could be determined because the county site served only its Home page, so the tag is UNKNOWN.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county site returns its Home page (title 'Home | Coleman County, Texas', identical content hash) for every elections page requested, so no results files could be listed. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county site returns its Home page (title 'Home | Coleman County, Texas', identical content hash) for every elections page requested, so no results files could be listed. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county site returns its Home page (title 'Home | Coleman County, Texas', identical content hash) for every elections page requested, so no results files could be listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.coleman.tx.us/page/coleman.Elections",
+      "via": "fetch_module",
+      "content_hash": "a0f2703bb93f188e9fb08240d428f2292b58728c16994a475df7461a1af4fdd4",
+      "quote": "<title>Home | Coleman County, Texas",
+      "supports": "Elections page URL serves the Home page"
+    },
+    {
+      "url": "websearch:?q=coleman%20county%20texas%20election%20results%202026",
+      "via": "websearch",
+      "content_hash": "a2fb1a3e97578682080b892b23a3044e11ef1e17871b264230f7b01c662bcdbc",
+      "quote": "election information page - Coleman County Texas | https://www.co.coleman.tx.us/page/coleman.Elections",
+      "supports": "Located the elections page (search text is not evidence)"
+    }
+  ]
+}

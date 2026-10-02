@@ -1,0 +1,72 @@
+{
+  "county": "Rusk",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Rusk/",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Rusk/122760/351536/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 20:14 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Rusk's Clarity elections.json lists all three elections (EIDs 122760, 126016, 126475); the check 1 script read every published update. Several versions returned HTTP 404 (unreadable), all numbered before the readable pre-election versions, except two after election night for 2024 (355916, 355917). The 2026 primary and runoff each have a pre-close afternoon update with precinct numbers (early votes). The county website was not opened because check 1 settled all three elections.",
+  "tag_rationale": "The 2024 general and 2026 primary are LIVE by check 1 (two or more election-night updates with precinct numbers) and the runoff is END, so two elections share LIVE and the tag is LIVE_PRECINCT with high confidence.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 20:14 CT",
+      "precinct_first_seen": "2024-11-05 20:14 CT",
+      "night_updates_with_precinct_numbers": "3",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Rusk/122760/351536/reports/detailxml.zip",
+      "fact": "Clarity EID 122760 '2024 GENERAL ELECTION': 3 election-night updates, all with 22 precincts with votes: 11/5/2024 8:14:07 PM (939 cells), 8:31:52 PM (1824), 9:28:41 PM CST (2606). Next readable update 12/12/2024."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 20:42 CT",
+      "precinct_first_seen": "2026-03-03 20:42 CT",
+      "night_updates_with_precinct_numbers": "2",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368444/reports/detailxml.zip",
+      "fact": "Clarity EID 126016 '2026 PRIMARY': pre-close update 3/3/2026 5:36:10 PM CST with 22 precincts (5531 cells); election-night updates 8:42:45 PM (22 precincts, 8791 cells) and 10:04:28 PM CST (8811 cells). No later update listed."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 20:19 CT",
+      "precinct_first_seen": "2026-05-26 20:19 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Rusk/126475/372965/reports/detailxml.zip",
+      "fact": "Clarity EID 126475 '2026 Primary Runoff': update 5/26/2026 2:59:34 PM CDT (before polls closed, 22 precincts, 529 cells, early votes); one election-night update 8:19:46 PM CDT (22 precincts, 804 cells), which is the last published update. Precinct numbers with election-day votes appeared once on election night with the final unofficial count."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/351536/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "3a9eaa496f0af00465e5b2bd3207b8dbc69d23b7fe9cba34708990fc09a490c6",
+      "quote": "Timestamp 11/5/2024 8:31:52 PM CST; 22 precincts with nonzero votes",
+      "supports": "2024 general night updates"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368444/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "6ba63a5ad36dd7b9d825f5efc901cf55d24f2763ae6237c2247ecfd2ba883729",
+      "quote": "Timestamp 3/3/2026 8:42:45 PM CST; 22 precincts with nonzero votes",
+      "supports": "2026 primary night updates"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rusk/126475/372965/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "09c0772fbd62d082d58e83aebd711e08dac4657e14102ad29ec3f07fab34e3f4",
+      "quote": "Timestamp 5/26/2026 8:19:46 PM CDT; 22 precincts with nonzero votes (only night update)",
+      "supports": "2026 runoff single night update"
+    }
+  ]
+}

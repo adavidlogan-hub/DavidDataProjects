@@ -1,0 +1,79 @@
+{
+  "county": "Clay",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.claycountytx.net/electionsadmin",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Clay/122307/",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 19:08 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed https://www.claycountytx.net/ works (Wix site). Clay used Clarity through Nov 2025 (links on the page for 2024 general and 2025 elections) but for the 2026 primary posted scanned PDFs on its own site; Clarity's elections.json does not list 2026 elections. Wix file Last-Modified values sit minutes after PDF CreationDate, consistent with real upload times. The 2026 primary LATER rests on files currently posted; an election-night file that was later removed cannot be ruled out. 2026 runoff undetermined (check 3 pending; wayback-data branch not on origin).",
+  "tag_rationale": "The 2024 general is LIVE (check 1) and the 2026 primary is LATER (check 2); no two elections share a result, so by the rule the tag is UNKNOWN.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-05 19:08 CT",
+      "night_updates_with_precinct_numbers": "15",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Clay/122307/",
+      "fact": "Clarity update log for TX/Clay/122307 (linked from the county page as 'General Election November, 05, 2024'): 15 election-night updates from 11/5/2024 7:08:05 PM CST to 9:18:46 PM CST all have precinct votes in 16 precincts, with nonzero precinct vote cells rising from 1123 to 1742 (e.g. 8:07:19 PM: 1164; 8:45:36 PM: 1707)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-23 14:54 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.claycountytx.net/_files/ugd/cb6725_d33b37dc49dc4253b19e5b6ee4dd88de.pdf",
+      "fact": "Under 'Primary Election March 3, 2026' the page links 'EV RESULTS.pdf', 'ED RESULTS.pdf', 'TOTALS.pdf' and 'CO COMMISSIONER PCT 4 RESULTS'. 'ED RESULTS.pdf' is a scanned Electionware 'Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election ED' (county totals), Last-Modified Thu, 05 Mar 2026 20:54:13 GMT. The only precinct numbers are in 'CO COMMISSIONER PCT 4 RESULTS' ('PRECINCT REPORT MARCH 3, 2026 PRIMARY ELECTION COUNTY COMMISSIONER PCT. 4 RACE'), Last-Modified Mon, 23 Mar 2026 19:54:58 GMT. No Clarity link for 2026 on the county page and the Clarity script reports the election not listed."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No May 26, 2026 runoff results file or Clarity link was found on the elections page, and the Clarity script reports the runoff not listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.claycountytx.net/electionsadmin",
+      "via": "fetch_module",
+      "content_hash": "863c2f3a5dc15184ae4a2718c9ad888f664fd63e60feeebe11b8bb4aaf0ee81f",
+      "quote": "General Election November, 05, 2024 => https://results.enr.clarityelections.com/TX/Clay/122307/web.346416/#/summary; EV RESULTS.pdf; ED RESULTS.pdf; CO COMMISSIONER PCT 4 RESULTS",
+      "supports": "County elections page with Clarity link and 2026 PDFs"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351261/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "41e4888790f0b52bdaebc8236f6378858641c2e3affe135f2b6db7f56e940a0a",
+      "quote": "11/5/2024 8:07:19 PM CST: precincts_with_votes 16, nonzero_precinct_vote_cells 1164",
+      "supports": "One of 15 election-night Clarity updates with precinct numbers"
+    },
+    {
+      "url": "https://www.claycountytx.net/_files/ugd/cb6725_a49218fd691e488986fe82720e79bf2b.pdf",
+      "via": "fetch_module",
+      "content_hash": "1b459af8a3b55bb85b9b7ac19ab93463cf464f5be756eabc16faadf1644a64f6",
+      "quote": "Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election ED March 3, 2026 Clay County, Texas",
+      "supports": "Primary ED county totals, uploaded 2026-03-05 20:54 GMT"
+    },
+    {
+      "url": "https://www.claycountytx.net/_files/ugd/cb6725_d33b37dc49dc4253b19e5b6ee4dd88de.pdf",
+      "via": "fetch_module",
+      "content_hash": "df9f978fc6ef6cf42fdcdbf436cfae1a14754fdb0c163825eb689466bd555d20",
+      "quote": "PRECINCT REPORT MARCH 3, 2026 PRIMARY ELECTION COUNTY COMMISSIONER PCT. 4 RACE HENRIETTA (PCT 1)",
+      "supports": "Primary precinct numbers (one race) uploaded 2026-03-23 19:54 GMT"
+    }
+  ]
+}

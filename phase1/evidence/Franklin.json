@@ -1,0 +1,72 @@
+{
+  "county": "Franklin",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://franklincountytxelections.gov/election-information/election-results/",
+  "platform": "unknown",
+  "host": "franklincountytxelections.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "The county site www.co.franklin.tx.us links its Elections office to franklincountytxelections.gov. That site answered every request (home page and, after one web search located it, /election-information/election-results/) with an empty HTTP 202 (bot protection); it was not bypassed, so check 2 could not be done. No Clarity site (elections.json 404) and no other vendor results site was found. Search result titles mention a 'March 3, 2026 Primary Results Documents' page, but search text is not evidence. Check 3 pending for all three elections (origin/wayback-data not present).",
+  "tag_rationale": "No election could be determined (the county results site returns empty HTTP 202 responses and check 3 is pending), so the rule gives UNKNOWN.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "County results site returned empty HTTP 202. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "County results site returned empty HTTP 202. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "County results site returned empty HTTP 202. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.franklin.tx.us/",
+      "via": "fetch_module",
+      "content_hash": "f1ba4e3affdc71a584f7d7182d33abcf8843a3943733aa6bdf33d25d068c5804",
+      "quote": "Elections (https://franklincountytxelections.gov/)",
+      "supports": "county site links its elections site"
+    },
+    {
+      "url": "https://franklincountytxelections.gov/election-information/election-results/",
+      "via": "fetch_module",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote": "HTTP 202 with empty body",
+      "supports": "results site blocked by bot protection"
+    },
+    {
+      "url": "websearch:?q=franklin%20county%20texas%20election%20results%202026%20primary",
+      "via": "websearch",
+      "content_hash": "a53d3180e68057b3cbeeb860ca9a2d188d5c0d59fd53a0b9b29ab62e662341cc",
+      "quote": "Election Results | https://franklincountytxelections.gov/election-information/election-results/",
+      "supports": "locating the results page only"
+    }
+  ]
+}

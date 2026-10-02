@@ -1,0 +1,72 @@
+{
+  "county": "Rockwall",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Rockwall/",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368461/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 19:00 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Rockwall's Clarity elections.json lists all three elections (EIDs 122491, 126010, 126371); the check 1 script read every published update. Several versions returned HTTP 404 (unreadable); readable election-night updates alone show precinct numbers in multiple updates. The county website was not opened because check 1 settled all three elections.",
+  "tag_rationale": "All three elections are LIVE by check 1 (precinct numbers in multiple election-night Clarity updates), so the tag is LIVE_PRECINCT with high confidence.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 19:00 CT",
+      "precinct_first_seen": "2024-11-05 19:00 CT",
+      "night_updates_with_precinct_numbers": "7",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/351523/reports/detailxml.zip",
+      "fact": "Clarity EID 122491 '2024 General Election': 7 election-night updates, all with 26 precincts with votes: 11/5/2024 7:00:25 PM (3051 nonzero precinct cells), 8:30:38 PM (4497), 8:53:56 PM, 9:06:27 PM, 9:31:21 PM, 9:44:41 PM, 11:42:50 PM CST (4688). Next readable update 11/18/2024."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 19:00 CT",
+      "precinct_first_seen": "2026-03-03 19:00 CT",
+      "night_updates_with_precinct_numbers": "7",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368461/reports/detailxml.zip",
+      "fact": "Clarity EID 126010 '2026 March 3 Primary Election': update 3/3/2026 6:59:10 PM CST already had 27 precincts with votes (7962 cells); 7 election-night updates from 7:00:55 PM to 9:55:20 PM CST, all with 27 precincts, cells rising from 7962 to 12563. Next update 3/10/2026."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 19:00 CT",
+      "precinct_first_seen": "2026-05-26 19:00 CT",
+      "night_updates_with_precinct_numbers": "4",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372944/reports/detailxml.zip",
+      "fact": "Clarity EID 126371 '2026 May 26 Primary Runoff': 4 election-night updates, 7:00:04 PM (27 precincts, 815 cells), 7:37:55 PM (1207), 8:07:14 PM (1223), 8:22:48 PM CDT (1237). Next update 6/2/2026."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/351523/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "b1b91c18866d920443d5065fc77b2f96e672e67c29a029f73108e0fe86750c33",
+      "quote": "Timestamp 11/5/2024 8:30:38 PM CST; 26 precincts with nonzero votes",
+      "supports": "2024 general night updates"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368461/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "ad6656ae199bfd4ed536c7912589b09614f9b059d10ee983e40d64a21f6485d9",
+      "quote": "Timestamp 3/3/2026 8:58:33 PM CST; 27 precincts with nonzero votes",
+      "supports": "2026 primary night updates"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372944/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "aa74a24e751824ec7cf2994f9fa5530a03d57f7cc712a3710f362e13d389558a",
+      "quote": "Timestamp 5/26/2026 7:37:55 PM CDT; 27 precincts with nonzero votes",
+      "supports": "2026 runoff night updates"
+    }
+  ]
+}
