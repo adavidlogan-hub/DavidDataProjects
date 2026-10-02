@@ -1,12 +1,24 @@
 # Blockers
 
-1. **[PARTLY RESOLVED 14:07 UTC] Network egress was blocked for every target host (2026-10-02).** From this build container, HTTPS CONNECT to www.sos.state.tx.us, www.harrisvotes.com, www.dallascountyvotes.org, results.enr.clarityelections.com, web.archive.org, archive.org, and general sites is rejected by the environment's network policy (proxy returns 403 "connect_rejected"). The hosted page-fetch tool is blocked for the same hosts (EGRESS_BLOCKED). Only the hosted web search tool works.
-   - Impact: Phase 1 step 3 (Wayback CDX election-night timing) cannot be done at all; county results pages, usage notices, and the SOS county official list cannot be read directly. Tags rest on search-indexed text only, so most counties will be UNKNOWN or low/med confidence.
-   - Fix (owner action): in the Claude Code cloud environment settings (environment menu in the session title bar, then Edit), set Network access to a broader level or add these to the allowed domains: web.archive.org, archive.org, sos.state.tx.us, www.sos.state.tx.us, sos.texas.gov, results.texas-election.com, clarityelections.com, and the county election domains (a full list will be in counties.csv results_url/host). Docs: https://code.claude.com/docs/en/claude-code-on-the-web
-   - Not affected: the poller and dry run are designed to run on the Windows laptop, which has normal internet access.
-   - Update 2026-10-02 14:07 UTC: the owner switched the environment to full network access. County sites, sos.state.tx.us, and archive.org now work through the fetch module (harrisvotes.com fetched with HTTP 200).
+Status as of 2026-10-02 14:15 UTC.
 
-2. **web.archive.org still fails (2026-10-02 14:07 UTC onward).** The CONNECT tunnel opens but the TLS handshake is reset after about 12 seconds, every time (curl error 35, proxy log "tunnel closed code 1006"). archive.org itself works, including the availability API (https://archive.org/wayback/available), which returns only the single closest snapshot to a timestamp. CDX listing and snapshot replay both live on web.archive.org, so Phase 1 step 3 (when precinct data first appeared on election night) still cannot be done from this container.
-   - Likely cause: web.archive.org refusing traffic from this cloud provider's egress addresses (archive.org is known to throttle or block some datacenter ranges); not something the environment setting controls.
-   - Workaround in use: availability API at hourly points across each window to identify candidate snapshot timestamps; recorded but not treated as timing evidence because snapshot content cannot be opened.
-   - Fallback options: (a) run phase1/wayback_probe.py and snapshot checks from the Windows laptop or any home connection, which is a single command and writes into the same cache format; (b) retry from this container later in case the reset is temporary.
+## Open
+
+None blocking the pilot. Item 2 below is worked around, not fixed.
+
+## Worked around
+
+2. **web.archive.org is unreachable from the build container (2026-10-02, from 14:07 UTC).**
+   - Symptom: the CONNECT tunnel opens but the TLS handshake is reset after about 12 seconds on every attempt (curl error 35; proxy log "tunnel closed code 1006"). The hosted page-fetch tool also refuses web.archive.org. Memento aggregator and archive.ph are unreachable too.
+   - Likely cause: web.archive.org refusing traffic from this cloud provider's egress addresses. The environment's network setting does not control this.
+   - What does work from the container: archive.org itself, including the availability API, which returns only the single snapshot closest to a timestamp. That cannot show what a page contained.
+   - **Workaround (in use): GitHub Actions.** GitHub-hosted runners reach web.archive.org normally (test run 2026-10-02 14:09 UTC: CDX listing HTTP 200 in 1.9 s, snapshot replay HTTP 200 in 1.6 s; Harris Live-Results captured at 2024-11-05 20:39 CST). The harvest runs there as .github/workflows/wayback-harvest.yml using the same fetch module and config, so the archive.org limit (1 request per 2 s, 429 backoff), robots.txt, and caching still apply. One harvest runs at a time. Raw snapshots go to the wayback-data branch. Pushing a change to phase1/wayback_targets.json starts a harvest.
+   - Limits of the workaround: about 6 hours per job on GitHub-hosted runners; the full 254-county harvest needs to be split across several runs. Uses GitHub Actions minutes on the owner's account.
+   - Second fallback: run `python -m phase1.wayback_harvest` from the Windows laptop or any home connection; it writes the same output format.
+
+## Resolved
+
+1. **Network egress was blocked for every target host (2026-10-02 13:49 to 14:07 UTC).** County sites, sos.state.tx.us, archive.org, and general sites were rejected by the environment's network policy (proxy 403 "connect_rejected"); only the hosted web search tool worked.
+   - Resolved 14:07 UTC: the owner set the environment (named "Default") to full network access. County sites, sos.state.tx.us, and archive.org now work through the fetch module (harrisvotes.com fetched with HTTP 200).
+   - Residual effect: research agents worked from search results only until 14:07 UTC; they were told to backfill contacts, results URLs, platforms, and usage notice text with direct fetches for counties finished before then.
+   - Not affected at any point: the poller and dry run run on the Windows laptop, which has normal internet access.
