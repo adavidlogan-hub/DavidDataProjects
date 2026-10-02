@@ -1,20 +1,20 @@
 {
   "county": "Harrison",
-  "tag": "UNKNOWN",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.harrisoncountytexas.gov/page/PastElections",
   "platform": "county_pdfs",
   "host": "www.harrisoncountytexas.gov",
-  "evidence_url": "",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/11882/March%203,%202026%20PRIMARY/UNOFFICIAL%20EARLY%20RESULTS.pdf",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL harrisoncountytexas.org/?page_id=1224 redirects to www.harrisoncountytexas.gov. The '2026 Elections' page and the Elections home page carry no results links for the 2026 primary or runoff. 'Past Elections' lists for NOV 5, 2024 only 'FINAL RESULTS' (scanned county cumulative report, PDF CreationDate 2024-11-13 21:26 UTC, Last-Modified Fri, 11 Apr 2025 03:05:50 GMT) and 'Precinct Results-11-18-2024 01-03-20 PM' (canvass-stage precinct report); no unofficial or election-night file survives. No Clarity link. Check 3 pending (wayback-data branch not on origin).",
-  "tag_rationale": "All three elections are UNDETERMINED (no vendor log, no surviving election-night county files, check 3 pending), so by rule the tag is UNKNOWN.",
+  "notes": "Seed URL harrisoncountytexas.org/?page_id=1224 redirects to www.harrisoncountytexas.gov. The '2026 Elections' page and the Elections home page carry no results links for the 2026 primary or runoff. 'Past Elections' lists for NOV 5, 2024 only 'FINAL RESULTS' (scanned county cumulative report, PDF CreationDate 2024-11-13 21:26 UTC, Last-Modified Fri, 11 Apr 2025 03:05:50 GMT) and 'Precinct Results-11-18-2024 01-03-20 PM' (canvass-stage precinct report); no unofficial or election-night file survives. No Clarity link. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-A): 2026_primary changed UNDETERMINED -> LATER (check 2). A web search located the county's 2026 primary files under /upload/page/11882/March 3, 2026 PRIMARY/; on www.harrisoncountytexas.gov they now return HTTP 404, but the county's CMS host newtools.cira.state.tx.us still serves them with original Last-Modified headers, and its copy of the Elections page (harrison.Elections, a stale copy from about May 2026) lists the precinct report. Early county totals: Run Time 7:01 PM 03/03/2026, Last-Modified 01:15:27 GMT Mar 4 (7:15 PM CST); unofficial final county totals Run 1:16 PM 03/04/2026, Last-Modified 19:56:53 GMT; precinct report Run 1:25 PM 03/04/2026, Last-Modified 20:02:01 GMT Mar 4. 2024 general: CIRA harrison.PastElections lists the same files as the county Past Elections page (FINAL RESULTS, Precinct Results-11-18-2024), nothing from election night. 2026 runoff: no runoff results on either host and a web search found none. Wayback main harvest targeted harrisoncountytexas.org only (robots_disallowed_or_unreachable); no phase1/targeted/ folder for Harrison; sweep pending.",
+  "tag_rationale": "Only the 2026 primary is determined (LATER from check 2: county totals posted 7:15 PM on election night, precinct report posted 2:02 PM the next day); one determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
   "agent": "research-4",
   "method_version": "v2",
   "sources": [
@@ -38,6 +38,48 @@
       "content_hash": "94ab8a85c4ab7d406d38fdc42e68b6efa25fba2e37214eee0dec33a1a6d04284",
       "quote": "Harrison County 2024 November 5th General Election 11/5/2024 (scanned cumulative report)",
       "supports": "2024 final county totals created Nov 13, 2024"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/page/harrison.Elections",
+      "via": "fetch_module",
+      "content_hash": "2ab2bf686feea1a257bb5ecf372854c795dcab156aaa464e5e8cae090c6fea3a",
+      "quote": "/upload/page/11882/March 3, 2026 PRIMARY/Precinct Results-3-4-2026 01-26-42 PM.pdf | Precinct Results-3-4-2026 01-26-42 PM; /upload/page/11882/March 3, 2026 PRIMARY/RECONCILIATION FORM.pdf",
+      "supports": "CIRA-hosted copy of the county Elections page (title Elections - Harrison County, TX) lists the 2026 primary precinct report; no other 2026 primary precinct report is listed."
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/11882/March%203,%202026%20PRIMARY/UNOFFICIAL%20EARLY%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "a25efb70d5fa4b84d121d4f80ebd893102b917736c6dd0db557b3306fc2e27e5",
+      "quote": "Cumulative Results Report HARRISON COUNTY Unofficial Results PRIMARY 2026 ... Precincts Reporting 0 of 52 = 0.00% Run Time 7:01 PM Run Date 03/03/2026 | Last-Modified: Wed, 04 Mar 2026 01:15:27 GMT",
+      "supports": "2026_primary county totals printed and uploaded on election night (LATER, rule 43)."
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/11882/March%203,%202026%20PRIMARY/UNOFFICIAL%20FINAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "f94cdd89fe08333dc8cd333f2d2dc9fca78f2ea9b67abc8cbbc708099396d241",
+      "quote": "Cumulative Results Report HARRISON COUNTY Unofficial Results ... Precincts Reporting 52 of 52 = 100.00% Run Time 1:16 PM Run Date 03/04/2026 | Last-Modified: Wed, 04 Mar 2026 19:56:53 GMT",
+      "supports": "Final unofficial county totals posted the afternoon after election night."
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/11882/March%203,%202026%20PRIMARY/Precinct%20Results-3-4-2026%2001-26-42%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "b7b6e6e7b9c62ace939bf81a5e2b2a289b851b7a5a4847b274e5cf4ad714fce9",
+      "quote": "Precinct Results Report ... Unofficial Results ... Run Time 1:25 PM Run Date 03/04/2026 ... 1R - 1R ... U. S. SENATOR - Republican Party ... Election Day Voting | Last-Modified: Wed, 04 Mar 2026 20:02:01 GMT",
+      "supports": "2026_primary precinct numbers with election-day votes first posted 2026-03-04 14:02 CST, after election night."
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/11882/March%203,%202026%20PRIMARY/RECONCILIATION%20FORM.pdf",
+      "via": "fetch_module",
+      "content_hash": "8e929013dd70b1fb8a89a7e4e567c2fa30dd210452ce97a7dc82f44da25a3c01",
+      "quote": "Preliminary Election Reconciliation Unofficial Totals | Last-Modified: Wed, 04 Mar 2026 04:43:04 GMT",
+      "supports": "Context: the office was uploading to this folder on election night (22:43 CST) but posted no precinct report then."
+    },
+    {
+      "url": "websearch:?q=harrison%20county%20texas%20election%20results%202026%20primary%20unofficial%20precinct%20marshall",
+      "via": "websearch",
+      "content_hash": "6c969a64536cdffb5412bff51490654eb2184cd116cdabbbb1161ac617e05f2d",
+      "quote": "UNOFFICIAL EARLY RESULTS https://www.harrisoncountytexas.gov/upload/page/11882/March 3, 2026 PRIMARY/UNOFFICIAL EARLY RESULTS.pdf",
+      "supports": "Located the 2026 primary file folder only (the harrisoncountytexas.gov copies now return HTTP 404; the CIRA host serves them)."
     }
   ],
   "elections": {
@@ -51,13 +93,13 @@
       "fact": "Only 'FINAL RESULTS' (county totals, CreationDate 2024-11-13, Last-Modified Fri, 11 Apr 2025) and 'Precinct Results-11-18-2024 01-03-20 PM' are posted; what was published on election night is not shown. Check 3 pending."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 19:15 CT",
       "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "No 2026 primary results on the county '2026 Elections' or 'Past Elections' pages. Check 3 pending."
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/11882/March%203,%202026%20PRIMARY/UNOFFICIAL%20EARLY%20RESULTS.pdf",
+      "fact": "County files for the March 3, 2026 primary on the county's CIRA-hosted site (folder /upload/page/11882/March 3, 2026 PRIMARY/, linked from newtools.cira.state.tx.us/page/harrison.Elections): 'UNOFFICIAL EARLY RESULTS.pdf' is a 'Cumulative Results Report HARRISON COUNTY Unofficial Results PRIMARY 2026 ... Precincts Reporting 0 of 52 = 0.00% Run Time 7:01 PM Run Date 03/03/2026' with county totals only (Election Day Voting all 0), server Last-Modified Wed, 04 Mar 2026 01:15:27 GMT (2026-03-03 19:15 CST). 'UNOFFICIAL FINAL RESULTS.pdf' (county totals, 'Precincts Reporting 52 of 52 = 100.00% Run Time 1:16 PM Run Date 03/04/2026') has Last-Modified Wed, 04 Mar 2026 19:56:53 GMT (2026-03-04 13:56 CST). The only precinct report, 'Precinct Results-3-4-2026 01-26-42 PM.pdf' ('Precinct Results Report ... Unofficial Results ... Run Time 1:25 PM Run Date 03/04/2026', per-precinct rows such as '1R - 1R ... John Cornyn Rep 5 ... 134 ... 50 ... 189' with an Election Day Voting column), has Last-Modified Wed, 04 Mar 2026 20:02:01 GMT (2026-03-04 14:02 CST), after election night. So on election night the county posted county totals (early and mail only); precinct numbers with election-day votes were posted the next afternoon."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",

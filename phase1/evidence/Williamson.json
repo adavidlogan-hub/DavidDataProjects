@@ -1,20 +1,20 @@
 {
   "county": "Williamson",
-  "tag": "UNKNOWN",
+  "tag": "LIVE_PRECINCT",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.wilcotx.gov/292/Results-Archive",
   "platform": "vendor_hosted",
   "host": "www.livevoterturnout.com",
-  "evidence_url": "",
-  "evidence_snapshot_timestamp": "",
+  "evidence_url": "https://web.archive.org/web/20260304022512id_/https://www.livevoterturnout.com/ENR/williamsontxenr/11/en/Index_11.html",
+  "evidence_snapshot_timestamp": "20260304022512",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed www.wilco.org/Departments/Elections redirects to www.wilcotx.gov/elections. The Results Archive page links the county's election night results site on livevoterturnout.com: November 5, 2024 Joint General and Special Elections -> /ENR/williamsontxenr/3/, March 3, 2026 Primary -> /11/, May 26, 2026 Primary Runoff -> /14/. The runoff site (read) is a static 'Unofficial Election Results' page with per-precinct tabs ('Precinct: 116 116 Reporting') and a single 'Website Updated: 6/2/2026 11:19:37 AM' stamp; it exposes no dated update history, so it cannot show when precinct numbers first appeared. The check 1 script found 2024 general and 2026 primary not listed on Clarity; Clarity lists one Williamson election '2026 May Primary Runoff' (EID 127277) whose four readable updates are dated 8/27/2026 and 9/30/2026 (177 precincts with votes), none on election night, and the county site does not link it, so it says nothing about election night. Other Results Archive links are reconciliation forms and hand count audits. Check 3 pending (origin/wayback-data branch not found). Targeted pass 2026-10-02 (targeted-Williamson): no election changed. Tried: (1) vendor data behind the livevoterturnout pages: Index_3/11/14.html are single static ASP.NET-generated pages (form action NewResults.aspx?electid=N) with all per-precinct tables embedded (hdnPrecinctLevelResults=1, hdnAutoRefresh=600, page reload only); the shared script LiveResultsScripts_v4.1.js loads no per-precinct data feed (only optional report exports and a summary XML, and the pages offer no report downloads); the only version stamps are the final ones (script v=20241120031355 / 20260312042908 / 20260602111704; Website Updated 11/20/2024 3:15:26 PM, 3/12/2026 4:29:55 PM, 6/2/2026 11:19:37 AM; Last-Modified Wed 20 Nov 2024 21:15:28 GMT, Thu 12 Mar 2026 21:29:57 GMT, Tue 02 Jun 2026 16:19:37 GMT), all after election night, and the vendor keeps no older versions. (2) wayback-data branch: phase1/targeted/ (archives and wayback for Williamson) not yet published as of 19:55 UTC batch 3, checked three times; check 3 still pending for the livevoterturnout captures. (3) main harvest phase1/wayback_snapshots/Williamson targets wilco.org only and returned robots_disallowed_or_unreachable with no captures. (4) check 4: KUT 2024 general and 2026 primary results pages, Fox 7 live results 2024, Community Impact 2026 primary and runoff live-update articles, WilCo Sun 2024 sheriff article, KXAN voting-rules article, Statesman 2026 primary live results (AP) and delay article: all show county totals only, none shows per-precinct candidate votes. Leads only: Community Impact (updated Mar 4 7 a.m.) says the county tracker was last updated just after 4 a.m. with 168 of 178 Democratic and 15 of 178 Republican precincts reporting election day results, and quotes Elections Administrator Escobedo at the Jan 27 2026 Commissioners Court saying results might not be available until the next day; WilCo Sun 2024 says 99 percent of precincts reporting as of 10:20 p.m. Nov 5 2024. These are precinct-reporting counts, not per-precinct candidate numbers.",
-  "tag_rationale": "No election could be determined (the vendor results site shows only a final publish time and no update history; Clarity has no election-night updates; check 3 pending), so the rule gives UNKNOWN.",
+  "notes": "Seed www.wilco.org/Departments/Elections redirects to www.wilcotx.gov/elections. The Results Archive page links the county's election night results site on livevoterturnout.com: November 5, 2024 Joint General and Special Elections -> /ENR/williamsontxenr/3/, March 3, 2026 Primary -> /11/, May 26, 2026 Primary Runoff -> /14/. The runoff site (read) is a static 'Unofficial Election Results' page with per-precinct tabs ('Precinct: 116 116 Reporting') and a single 'Website Updated: 6/2/2026 11:19:37 AM' stamp; it exposes no dated update history, so it cannot show when precinct numbers first appeared. The check 1 script found 2024 general and 2026 primary not listed on Clarity; Clarity lists one Williamson election '2026 May Primary Runoff' (EID 127277) whose four readable updates are dated 8/27/2026 and 9/30/2026 (177 precincts with votes), none on election night, and the county site does not link it, so it says nothing about election night. Other Results Archive links are reconciliation forms and hand count audits. Check 3 pending (origin/wayback-data branch not found). Targeted pass 2026-10-02 (targeted-Williamson): no election changed. Tried: (1) vendor data behind the livevoterturnout pages: Index_3/11/14.html are single static ASP.NET-generated pages (form action NewResults.aspx?electid=N) with all per-precinct tables embedded (hdnPrecinctLevelResults=1, hdnAutoRefresh=600, page reload only); the shared script LiveResultsScripts_v4.1.js loads no per-precinct data feed (only optional report exports and a summary XML, and the pages offer no report downloads); the only version stamps are the final ones (script v=20241120031355 / 20260312042908 / 20260602111704; Website Updated 11/20/2024 3:15:26 PM, 3/12/2026 4:29:55 PM, 6/2/2026 11:19:37 AM; Last-Modified Wed 20 Nov 2024 21:15:28 GMT, Thu 12 Mar 2026 21:29:57 GMT, Tue 02 Jun 2026 16:19:37 GMT), all after election night, and the vendor keeps no older versions. (2) wayback-data branch: phase1/targeted/ (archives and wayback for Williamson) not yet published as of 19:55 UTC batch 3, checked three times; check 3 still pending for the livevoterturnout captures. (3) main harvest phase1/wayback_snapshots/Williamson targets wilco.org only and returned robots_disallowed_or_unreachable with no captures. (4) check 4: KUT 2024 general and 2026 primary results pages, Fox 7 live results 2024, Community Impact 2026 primary and runoff live-update articles, WilCo Sun 2024 sheriff article, KXAN voting-rules article, Statesman 2026 primary live results (AP) and delay article: all show county totals only, none shows per-precinct candidate votes. Leads only: Community Impact (updated Mar 4 7 a.m.) says the county tracker was last updated just after 4 a.m. with 168 of 178 Democratic and 15 of 178 Republican precincts reporting election day results, and quotes Elections Administrator Escobedo at the Jan 27 2026 Commissioners Court saying results might not be available until the next day; WilCo Sun 2024 says 99 percent of precincts reporting as of 10:20 p.m. Nov 5 2024. These are precinct-reporting counts, not per-precinct candidate numbers. Targeted pass 3 2026-10-02 (targeted3-A): 2026_primary changed UNDETERMINED -> LIVE (check 3, live precinct view rule). phase1/targeted/wayback/Williamson/index.json (harvested 2026-10-02T20:47Z) has one election-night capture, livevoterturnout.com/ENR/williamsontxenr/11/en/Index_11.html at 2026-03-03 20:25:12 CST: 'Website Updated: 3/3/2026 7:29:36 PM', hdnPrecinctLevelResults=1, auto-refresh 600 s, per-precinct candidate tables for 178 precincts embedded in the same page as the county totals, all values 0 (0 of 177 precincts reporting, turnout 0%). No captures in the 7 PM to 9 AM windows for the 2024 general or the 2026 runoff; archives_index.json has no archive.today mementos and the Memento aggregator was unreachable. A wider-window Wayback CDX query from this environment returned robots_disallowed_or_unreachable (web.archive.org not reachable here). Sweep pending (phase1/targeted/sweep/Williamson not on the branch).",
+  "tag_rationale": "Only the 2026 primary is determined (LIVE, check 3 under the live precinct view rule); one determined election gives LIVE_PRECINCT with confidence low. The 2024 general and 2026 runoff remain UNDETERMINED (no election-night capture).",
   "agent": "research-8",
   "method_version": "v2",
   "elections": {
@@ -28,13 +28,15 @@
       "fact": "Results Archive links 'November 5, 2024 Joint General and Special Elections' to livevoterturnout.com/ENR/williamsontxenr/3/; no dated update history available. Check 3 pending."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
+      "result": "LIVE",
+      "check": "3",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "Results Archive links 'March 3, 2026 Primary Election' to livevoterturnout.com/ENR/williamsontxenr/11/; no dated update history available. Check 3 pending."
+      "evidence_url": "https://web.archive.org/web/20260304022512id_/https://www.livevoterturnout.com/ENR/williamsontxenr/11/en/Index_11.html",
+      "fact": "Live precinct view rule. Wayback capture of the county's election night results site (linked from the county Results Archive) livevoterturnout.com/ENR/williamsontxenr/11/en/Index_11.html at 2026-03-03 20:25:12 CST (wayback-data file phase1/targeted/wayback/Williamson/2026_primary_20260304022512_9b39a3cd35db.html). The page shows '<span id=\"lblLastPublishedDateTime\" class=\"updated-at\">3/3/2026 7:29:36 PM</span>', reloads itself ('<input type=\"hidden\" name=\"hdnAutoRefresh\" id=\"hdnAutoRefresh\" value=\"600\" />'; 'Refresh Display' onclick=\"javascript: document.location.reload(true);\"), has precinct results switched on ('<input type=\"hidden\" name=\"hdnPrecinctLevelResults\" id=\"hdnPrecinctLevelResults\" value=\"1\" />'; tab onclick \"PrecinctTabClick(); if($('#hdnPrecinctLevelResults').val() === '1') { SetPrecinctResults('precinct-list'); }\") and embeds, in the same published page as the county totals, per-precinct candidate tables for 178 precincts, e.g. 'Precinct: 116 - Contest: REP United States Senator ... Candidate Name Total Votes Percentage Sara Canady 0 0.00% Ken Paxton 0 0.00% John Cornyn 0 0.00%'. At this capture no votes were yet posted: county turnout 0%, 'Precincts Reporting 0%' (['reporting',0],['remaining',177]), every precinct 'Not Reported' with all candidate values 0. So precinct numbers with votes are not seen in the capture; the result rests on the live precinct view rule (per-precinct candidate view regenerated from the same live, auto-refreshing publication as the county totals).",
+      "rule": "live_precinct_view",
+      "evidence_snapshot_timestamp": "20260304022512"
     },
     "2026_runoff": {
       "result": "UNDETERMINED",
@@ -67,6 +69,20 @@
       "content_hash": "bac19933a806b76561ef9b4cc9436ba2b6d876d5e61847533238627f4786be68",
       "quote": "2026 May Primary Runoff (127277): 0/0 night updates with precinct votes; first 8/27/2026 11:05:08 AM CDT",
       "supports": "Clarity has no election-night data for Williamson"
+    },
+    {
+      "url": "https://web.archive.org/web/20260304022512id_/https://www.livevoterturnout.com/ENR/williamsontxenr/11/en/Index_11.html",
+      "via": "wayback_branch",
+      "content_hash": "9b39a3cd35db067b7a7fd745f5bc6f78a85160b0e019f835d9f87f06c6a2ad85",
+      "quote": "Website Updated: 3/3/2026 7:29:36 PM | hdnAutoRefresh value=\"600\" | hdnPrecinctLevelResults value=\"1\" | Precinct: 116 - Contest: REP United States Senator ... Candidate Name Total Votes Percentage Sara Canady 0 0.00% | Precincts Reporting 0% ['reporting',0],['remaining',177]",
+      "supports": "2026_primary LIVE under the live precinct view rule (election-night copy of the live page with per-precinct candidate tables in the same auto-refreshing publication as the county totals); values all zero at 8:25 PM."
+    },
+    {
+      "url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&from=20241101&to=20260701",
+      "via": "fetch_module",
+      "content_hash": "",
+      "quote": "robots_disallowed_or_unreachable",
+      "supports": "web.archive.org not reachable from this environment; wider-window CDX search could not be run."
     }
   ]
 }
