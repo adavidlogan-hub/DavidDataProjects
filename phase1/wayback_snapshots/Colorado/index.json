@@ -3,15 +3,15 @@
   "targets": [
     "co.colorado.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:29Z",
+  "harvested_at_utc": "2026-10-02T20:01:32Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.colorado.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -21,7 +21,7 @@
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.colorado.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
           "ok": false,
-          "error": "robots_disallowed_or_unreachable",
+          "error": "URLError: timed out",
           "content_hash": null
         }
       ],
@@ -31,13 +31,27 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.colorado.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "3458a1feb7d6433cd2228d96463557d1fe7c72a75e7e4e79ede5ac546addf23d"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20260527024921",
+          "local": "2026-05-26 21:49:21 CDT",
+          "original": "https://www.co.colorado.tx.us/upload/page/6210/26-05-26/Notice%20of%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "S2QFEJCNHLXHSIO2JYGKW4HNQ57PYU3W",
+          "length": "156217",
+          "replay_url": "https://web.archive.org/web/20260527024921id_/https://www.co.colorado.tx.us/upload/page/6210/26-05-26/Notice%20of%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "95322d23af3c1f438e6d3eaccfa4396f446f76b645850f667084073bc8389143",
+          "saved_as": "Colorado/2026_runoff_20260527024921_95322d23af3c.pdf"
+        }
+      ]
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 1
 }
