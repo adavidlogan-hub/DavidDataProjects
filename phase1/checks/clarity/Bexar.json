@@ -7,12 +7,302 @@
       "note": "election not listed on this county's Clarity site"
     },
     "2026_primary": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "125927",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "367786",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/367786/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367994",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/367994/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368034",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368034/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368035",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368035/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368037",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368037/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368038",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368038/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368039",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368039/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/18/2026 2:26:50 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368136",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368136/reports/detailxml.zip",
+              "content_hash": "a2c4cac1a14021fff7111215340b70627eef60263acf2530446c5d48ed1fbc97",
+              "election_night": false
+            },
+            {
+              "version": "368138",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368138/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/18/2026 7:43:23 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368139",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368139/reports/detailxml.zip",
+              "content_hash": "280db157c34e20a1cfa40a748314d651945c4e8b710d5397228ab83101f20311",
+              "election_night": false
+            },
+            {
+              "version": "368365",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368365/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 3:02:21 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368366",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368366/reports/detailxml.zip",
+              "content_hash": "883a52ce59ef3a1e1e004f1ae5590a4cc2237931552da607dfed261abb3b33e2",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:17:07 PM CST",
+              "precincts_with_votes": 738,
+              "nonzero_precinct_vote_cells": 241737,
+              "version": "368397",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368397/reports/detailxml.zip",
+              "content_hash": "899d667cf13845f6042c30afef53d4c46ba04a323907e2358ce7457930fc184a",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:33:19 PM CST",
+              "precincts_with_votes": 738,
+              "nonzero_precinct_vote_cells": 333785,
+              "version": "368523",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368523/reports/detailxml.zip",
+              "content_hash": "47048f02e3d5c9f40c59fa4ba478990c2f80173d0a2eb8361de7272b6c7b95c5",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:42:59 PM CST",
+              "precincts_with_votes": 739,
+              "nonzero_precinct_vote_cells": 363696,
+              "version": "368551",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368551/reports/detailxml.zip",
+              "content_hash": "412ca30c90bf67d3fee4ef32a423e5bf19763c2bb28c73147810bde82965f8fd",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 1:26:09 AM CST",
+              "precincts_with_votes": 743,
+              "nonzero_precinct_vote_cells": 387461,
+              "version": "368575",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368575/reports/detailxml.zip",
+              "content_hash": "0102e6ad70dc3a5332f259fac316ff84d18222c756db14d47726e29c2673bb5f",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/11/2026 8:01:55 AM CDT",
+              "precincts_with_votes": 743,
+              "nonzero_precinct_vote_cells": 390242,
+              "version": "368768",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368768/reports/detailxml.zip",
+              "content_hash": "7d20c5573afb5714e28a5cc54b0148e0028a14d5431a8e2263cade90168af50a",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:17:07 PM CST",
+            "version": "368397",
+            "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368397/reports/detailxml.zip"
+          },
+          "unreadable_versions": 9
+        }
+      ]
     },
     "2026_runoff": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "126369",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "371778",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/371778/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371781",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/371781/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371782",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/371782/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371784",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/371784/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371786",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/371786/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371796",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/371796/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/15/2026 12:20:37 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "371797",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/371797/reports/detailxml.zip",
+              "content_hash": "c80ac6fbeaca57734645dc6cf65a7752bbdcae54acaf05bfaa1023a12ba9876d",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/15/2026 3:53:31 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "371820",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/371820/reports/detailxml.zip",
+              "content_hash": "ee8818a87bffa15ec5c33d4c133905c3b2ba19cf65d69b9fcaa02e785c85ba53",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 9:54:32 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372705",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/372705/reports/detailxml.zip",
+              "content_hash": "29f9eeb05b71d22d05fdc5b4698f11d5f9bed07e015ba573c34af140b0dc46d0",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:18:42 PM CDT",
+              "precincts_with_votes": 715,
+              "nonzero_precinct_vote_cells": 25784,
+              "version": "372940",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/372940/reports/detailxml.zip",
+              "content_hash": "bf8d829f7fdd2eecfd324e758ed6f34c220ccd364e8282b5e35b8616dfb8e22a",
+              "election_night": true
+            },
+            {
+              "version": "373017",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/373017/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 9:29:56 PM CDT",
+              "precincts_with_votes": 717,
+              "nonzero_precinct_vote_cells": 32996,
+              "version": "373019",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/373019/reports/detailxml.zip",
+              "content_hash": "5a84befb5a9ce1be053e662ce40e717db25b2d724bbc13ea02bce4ba8720d20e",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:45:00 PM CDT",
+              "precincts_with_votes": 720,
+              "nonzero_precinct_vote_cells": 36135,
+              "version": "373028",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/373028/reports/detailxml.zip",
+              "content_hash": "1e855e68a9d3ceff9e6d79944b3f4598e378662a5a05c4c1f8a9e4ab92dbc23c",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 10:16:10 PM CDT",
+              "precincts_with_votes": 720,
+              "nonzero_precinct_vote_cells": 37828,
+              "version": "373040",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/373040/reports/detailxml.zip",
+              "content_hash": "891006978bf4c31f880b95f88a6868ae93c3b4ea86dff638cdbbc99825fe973f",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 11:31:58 PM CDT",
+              "precincts_with_votes": 722,
+              "nonzero_precinct_vote_cells": 40057,
+              "version": "373059",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/373059/reports/detailxml.zip",
+              "content_hash": "8bba925dd5f4f04b2cdf02708bbf6a9000f125b7ee1404130d2daa92aa457858",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/27/2026 6:48:22 AM CDT",
+              "precincts_with_votes": 722,
+              "nonzero_precinct_vote_cells": 40057,
+              "version": "373073",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/373073/reports/detailxml.zip",
+              "content_hash": "1fe16f03528fae3114d7290982197f57813f34abe3a5a6fa2662c8f48726bece",
+              "election_night": false
+            },
+            {
+              "version": "373404",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/373404/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "6/2/2026 11:07:04 AM CDT",
+              "precincts_with_votes": 722,
+              "nonzero_precinct_vote_cells": 40299,
+              "version": "373413",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/373413/reports/detailxml.zip",
+              "content_hash": "d4a67e99bfacf4626a36b76a4c8b61c5f766fbabc5a9dbc11ea40af0c2804cf6",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/2/2026 4:41:25 PM CDT",
+              "precincts_with_votes": 722,
+              "nonzero_precinct_vote_cells": 40301,
+              "version": "373450",
+              "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/373450/reports/detailxml.zip",
+              "content_hash": "8f09a863b0cc87f8b0066852d4a218cca3bd9a2d7087717a5a34f0c64e1c29fb",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 7:18:42 PM CDT",
+            "version": "372940",
+            "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/372940/reports/detailxml.zip"
+          },
+          "unreadable_versions": 8
+        }
+      ]
     }
+  },
+  "eid_overrides": {
+    "2026_primary": "125927",
+    "2026_runoff": "126369"
   }
 }

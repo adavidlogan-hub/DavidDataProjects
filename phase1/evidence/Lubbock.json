@@ -1,0 +1,65 @@
+{
+  "county": "Lubbock",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://votelubbock.gov/",
+  "platform": "unknown",
+  "host": "votelubbock.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL www.votelubbock.org/elections-office/ returns HTTP 403 over http and HTTP 202 with an empty body over https; votelubbock.gov (named in a web search as the county elections site) also returns HTTP 202 with an empty body, including on a refreshed fetch, so the county's results page could not be read. lubbockcounty.gov home page has no election results link. Clarity: results.enr.clarityelections.com/TX/Lubbock/elections.json exists but is an empty list, so the check 1 script found no elections; no 2024 or 2026 Lubbock EIDs could be located (three web searches and the linked news pages gave none; Wikipedia only cites old EIDs 60299, 74828, 105035). EIDs were not probed by guessing. The Clarity Connect site lubbock-tx.connect.clarityelections.com is robots-disallowed for the fetch module. Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED because the county results site was unreachable and no Clarity EIDs were found, so by rule the tag is UNKNOWN.",
+  "agent": "research-B",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County results site returned empty HTTP 202; no Clarity EID found. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County results site returned empty HTTP 202; no Clarity EID found. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County results site returned empty HTTP 202; no Clarity EID found. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Lubbock/elections.json",
+      "via": "clarity_script",
+      "content_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "quote": "[]",
+      "supports": "Lubbock Clarity election list is empty"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dan_Pope",
+      "via": "fetch_module",
+      "content_hash": "96e7fd998538ec7001ebc0f39a5794d0e9ace929ddaff8ac67b5200db35904e7",
+      "quote": "clarityelections.com/TX/Lubbock/60299 ; /74828 ; /105035",
+      "supports": "Only older Lubbock Clarity EIDs located"
+    }
+  ]
+}

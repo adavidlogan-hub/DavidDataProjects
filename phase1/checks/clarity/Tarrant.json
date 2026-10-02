@@ -3,16 +3,651 @@
   "check": "clarity_update_log",
   "elections": {
     "2024_general": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "122489",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "345861",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/345861/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345863",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/345863/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345865",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/345865/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345866",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/345866/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345867",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/345867/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "9/26/2024 4:26:54 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "345868",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/345868/reports/detailxml.zip",
+              "content_hash": "c0b2944063deec6dfa570b90694ebe8a4e6b3438fc96d742db41e0445c06ded2",
+              "election_night": false
+            },
+            {
+              "timestamp": "9/26/2024 4:42:22 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "345869",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/345869/reports/detailxml.zip",
+              "content_hash": "c47408345ae85b90b83f550bf407263634bb77c343bcd6681b354ae970cb2265",
+              "election_night": false
+            },
+            {
+              "timestamp": "9/26/2024 4:52:34 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "345870",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/345870/reports/detailxml.zip",
+              "content_hash": "9d5e427ddb8e29c0aa1f3c9d10d01758428585cc4a119e1c1fbfcb3a1983907b",
+              "election_night": false
+            },
+            {
+              "version": "346359",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/346359/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346361",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/346361/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 6:42:26 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "350656",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/350656/reports/detailxml.zip",
+              "content_hash": "3a0a1e1767fe89ee09bd9f0d7d452d936ac0cebe06956746c6b566677acf75f5",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:04:56 PM CST",
+              "precincts_with_votes": 692,
+              "nonzero_precinct_vote_cells": 92703,
+              "version": "350796",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/350796/reports/detailxml.zip",
+              "content_hash": "ab135459c6efbfa50c919999a7a6e2c5fe907aaba53723667b56f5f7971e70fb",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 7:09:00 PM CST",
+              "precincts_with_votes": 692,
+              "nonzero_precinct_vote_cells": 92703,
+              "version": "350824",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/350824/reports/detailxml.zip",
+              "content_hash": "44c4e5d79d2da8611137f3a18af5a4111478afa223c81a332c4ff36d1e2a659e",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:10:34 PM CST",
+              "precincts_with_votes": 692,
+              "nonzero_precinct_vote_cells": 121143,
+              "version": "351910",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/351910/reports/detailxml.zip",
+              "content_hash": "a56e2613fe6161ae21f9914bc90336dec99cd8c8371e53a38ad3d41f2b48ecef",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:12:26 PM CST",
+              "precincts_with_votes": 692,
+              "nonzero_precinct_vote_cells": 121143,
+              "version": "351925",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/351925/reports/detailxml.zip",
+              "content_hash": "3646742ecbae0279e0577622169ea5d61fbc020dd8203125b70bd4d980fa70df",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:58:36 PM CST",
+              "precincts_with_votes": 692,
+              "nonzero_precinct_vote_cells": 123840,
+              "version": "352374",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/352374/reports/detailxml.zip",
+              "content_hash": "3a87d9af4dd3e614ecce0613ec895534369c5704bdf65f97fdd41beea1fb9712",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:01:56 PM CST",
+              "precincts_with_votes": 692,
+              "nonzero_precinct_vote_cells": 123840,
+              "version": "352407",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/352407/reports/detailxml.zip",
+              "content_hash": "6378ab194be6f763a18a00cb4368a4638f1162f4ed13169bb0d17b70cbded9f2",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:44:28 PM CST",
+              "precincts_with_votes": 693,
+              "nonzero_precinct_vote_cells": 129970,
+              "version": "352689",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/352689/reports/detailxml.zip",
+              "content_hash": "560034823742cbae371575ebb1018543ef55d6d7f24a7865195279710b9d5bcb",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:57:56 PM CST",
+              "precincts_with_votes": 693,
+              "nonzero_precinct_vote_cells": 129970,
+              "version": "352753",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/352753/reports/detailxml.zip",
+              "content_hash": "06832a7f293695ae638bacf2786c36ffed8f0533cb7f28064b51ffb09217e8e8",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:50:26 PM CST",
+              "precincts_with_votes": 693,
+              "nonzero_precinct_vote_cells": 131098,
+              "version": "352940",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/352940/reports/detailxml.zip",
+              "content_hash": "799c37c9963fb937146ffc937f46ef7a59fb858a40a58656468653827a77512e",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:53:15 PM CST",
+              "precincts_with_votes": 693,
+              "nonzero_precinct_vote_cells": 131098,
+              "version": "352952",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/352952/reports/detailxml.zip",
+              "content_hash": "547c7897a5d019c178ad9dc950ca0cc6f38c125bae3310aba1928679355edcdb",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:46:42 AM CST",
+              "precincts_with_votes": 693,
+              "nonzero_precinct_vote_cells": 131633,
+              "version": "353083",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/353083/reports/detailxml.zip",
+              "content_hash": "af1f82ca08a689eceeefa56da4a2b3ad852fbbe5c81d4a0244dc84e9e7d0aa80",
+              "election_night": true
+            },
+            {
+              "version": "353277",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/353277/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/6/2024 3:08:08 AM CST",
+              "precincts_with_votes": 693,
+              "nonzero_precinct_vote_cells": 132659,
+              "version": "353281",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/353281/reports/detailxml.zip",
+              "content_hash": "1a09be9a74915c8c11cb5548ed5da2621abbb78c36ae8d5f66f569f68457e8b1",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/18/2024 4:44:11 PM CST",
+              "precincts_with_votes": 693,
+              "nonzero_precinct_vote_cells": 132860,
+              "version": "355333",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/355333/reports/detailxml.zip",
+              "content_hash": "db4daa837108077ac9f2e6e1891d783b1828ac10507199ab37b550b03dcfd711",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/21/2024 8:17:02 AM CST",
+              "precincts_with_votes": 693,
+              "nonzero_precinct_vote_cells": 132860,
+              "version": "355610",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/355610/reports/detailxml.zip",
+              "content_hash": "91e121028cce5660fa36df181bca8c8660cc3c70a7782adcdae861960add625f",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 11,
+          "election_night_updates_with_precinct_votes": 11,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:04:56 PM CST",
+            "version": "350796",
+            "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/350796/reports/detailxml.zip"
+          },
+          "unreadable_versions": 8
+        }
+      ]
     },
     "2026_primary": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "125924",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "367782",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/367782/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367783",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/367783/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367784",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/367784/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367785",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/367785/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367787",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/367787/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367788",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/367788/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367789",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/367789/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367791",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/367791/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367792",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/367792/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "1/29/2026 11:02:34 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "367795",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/367795/reports/detailxml.zip",
+              "content_hash": "88d540bc385b7f347b46d6e1741151f165013fdb7fcf3c91e36e7348e290d6ca",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:00:55 PM CST",
+              "precincts_with_votes": 688,
+              "nonzero_precinct_vote_cells": 204044,
+              "version": "368389",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368389/reports/detailxml.zip",
+              "content_hash": "155b65dbbef0485040f98dcea7b2b345d58e589df7626a9eaae8049e997029c9",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 7:44:56 PM CST",
+              "precincts_with_votes": 689,
+              "nonzero_precinct_vote_cells": 279697,
+              "version": "368408",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368408/reports/detailxml.zip",
+              "content_hash": "6e1a06a5bcf2197ce4d69cd4c5acab619ef59c8dd97a5c19578e3af90591d32c",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:59:09 PM CST",
+              "precincts_with_votes": 689,
+              "nonzero_precinct_vote_cells": 282572,
+              "version": "368462",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368462/reports/detailxml.zip",
+              "content_hash": "5cabae2c7c3cc5ec618195247ec3cd66b4bf5fd6ff83c6ba311545051f316295",
+              "election_night": true
+            },
+            {
+              "version": "368464",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368464/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 9:55:22 PM CST",
+              "precincts_with_votes": 692,
+              "nonzero_precinct_vote_cells": 329593,
+              "version": "368503",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368503/reports/detailxml.zip",
+              "content_hash": "d0bbbab992dc4c98e45636b070667e606164708d4713bf6ebdddffde6f13e8d0",
+              "election_night": true
+            },
+            {
+              "version": "368512",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368512/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 10:51:03 PM CST",
+              "precincts_with_votes": 705,
+              "nonzero_precinct_vote_cells": 361893,
+              "version": "368532",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368532/reports/detailxml.zip",
+              "content_hash": "5c61e8fdc3278998621c2725a9e24349935cc3513ddd7c60efcc0e7bbac544ac",
+              "election_night": true
+            },
+            {
+              "version": "368543",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368543/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 11:57:40 PM CST",
+              "precincts_with_votes": 707,
+              "nonzero_precinct_vote_cells": 392606,
+              "version": "368555",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368555/reports/detailxml.zip",
+              "content_hash": "61a6046287b84cec896208ca4bec3dd7c4e9ab5acdc2bd10b4a37681885af3fa",
+              "election_night": true
+            },
+            {
+              "version": "368562",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368562/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/4/2026 12:55:00 AM CST",
+              "precincts_with_votes": 707,
+              "nonzero_precinct_vote_cells": 397754,
+              "version": "368567",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368567/reports/detailxml.zip",
+              "content_hash": "3d4e9b30df3e464b34890c97984d19340e69e72ff02aec80ec5d02dca14e1a99",
+              "election_night": true
+            },
+            {
+              "version": "368573",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368573/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/4/2026 1:59:06 AM CST",
+              "precincts_with_votes": 707,
+              "nonzero_precinct_vote_cells": 403910,
+              "version": "368579",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368579/reports/detailxml.zip",
+              "content_hash": "e06a969df299aacd11d597e736744cfb47cfadf8cd82fc4900e1ee6e72ad7fd2",
+              "election_night": true
+            },
+            {
+              "version": "368582",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368582/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/4/2026 2:57:30 AM CST",
+              "precincts_with_votes": 707,
+              "nonzero_precinct_vote_cells": 406273,
+              "version": "368583",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368583/reports/detailxml.zip",
+              "content_hash": "d486da5cce0b8cbaca75c685b348f74d447a209a8817827f59303738ad625ce8",
+              "election_night": true
+            },
+            {
+              "version": "368584",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368584/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/4/2026 3:53:51 AM CST",
+              "precincts_with_votes": 708,
+              "nonzero_precinct_vote_cells": 410343,
+              "version": "368585",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368585/reports/detailxml.zip",
+              "content_hash": "b6ba7fb0d20bdacbbdca8220e795aa5c58fc7a3a909f8d383a46059479b74e09",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/4/2026 4:54:43 AM CST",
+              "precincts_with_votes": 708,
+              "nonzero_precinct_vote_cells": 415334,
+              "version": "368587",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368587/reports/detailxml.zip",
+              "content_hash": "06d9953ec67e5ea258563996e7445550905d13305c5d9438f2009008cbf7580a",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/4/2026 7:31:02 AM CST",
+              "precincts_with_votes": 708,
+              "nonzero_precinct_vote_cells": 415489,
+              "version": "368589",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368589/reports/detailxml.zip",
+              "content_hash": "7ed47285abb1dcbc5c7064164b6732a16a11455ab3ae4de3052c6fda614a20aa",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/11/2026 4:08:14 PM CDT",
+              "precincts_with_votes": 709,
+              "nonzero_precinct_vote_cells": 416297,
+              "version": "368791",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368791/reports/detailxml.zip",
+              "content_hash": "18d657e16d109cf3aca16e26b506caf4a3c8e91540c8e8f73fef0cb468c6ff99",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/12/2026 11:31:35 AM CDT",
+              "precincts_with_votes": 709,
+              "nonzero_precinct_vote_cells": 416880,
+              "version": "368802",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368802/reports/detailxml.zip",
+              "content_hash": "a9290422a4fb80cd65c80b586e3abd74922827b52152ea1b2fb50997c1219f46",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/16/2026 9:10:30 AM CDT",
+              "precincts_with_votes": 709,
+              "nonzero_precinct_vote_cells": 416880,
+              "version": "368843",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368843/reports/detailxml.zip",
+              "content_hash": "6334166eb6f78333def18765d8ba52d657c48c67158cf8539a387e77b5aa9f13",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 9,
+          "election_night_updates_with_precinct_votes": 9,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:00:55 PM CST",
+            "version": "368389",
+            "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368389/reports/detailxml.zip"
+          },
+          "unreadable_versions": 16
+        }
+      ]
     },
     "2026_runoff": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "126079",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "369148",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/369148/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369149",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/369149/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/26/2026 2:36:44 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "369150",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/369150/reports/detailxml.zip",
+              "content_hash": "9c94aaecfdbb69791e2bedd7824c9352da61ce794b495e96947347b595fcff3b",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/26/2026 2:48:25 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "369151",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/369151/reports/detailxml.zip",
+              "content_hash": "63bb39fd642a8d59befba5719cb017f24946e4eaa0b1ee6fdd472a15503f2b09",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/26/2026 2:52:36 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "369152",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/369152/reports/detailxml.zip",
+              "content_hash": "835c1d95075b8861c510f4a9592e1a46c20d1d872bd745f99438e3bdd37022bb",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 5:25:08 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372908",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/372908/reports/detailxml.zip",
+              "content_hash": "b6e3750d63e7ca2a88bfd3b3e7fe5fe21eb60ff743e74ea5712d04e24ce76150",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 5:26:49 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372909",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/372909/reports/detailxml.zip",
+              "content_hash": "37066f75130612a34638b1f356f0e7fe9cfc95e6f66ea45f66e7e1871e5f0b68",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 6:55:54 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372925",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/372925/reports/detailxml.zip",
+              "content_hash": "92031b9bf2340f7a69d324edaf4e4988581f151657b47e6d934a2be3e8abbcba",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 8:54:07 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372998",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/372998/reports/detailxml.zip",
+              "content_hash": "a432f1889949e80a2b5e76d907c8fb1a42678894600294215d0fdcd16c87401e",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:04:23 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373005",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373005/reports/detailxml.zip",
+              "content_hash": "e553cc981adeb11106393148007e4e0cfe8e3d1b987882ed711a8299e08c825e",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:54:00 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373033",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373033/reports/detailxml.zip",
+              "content_hash": "81ea13fdf72d90f8ab7d9e960222bf503b04c94f80aec00fc1d06d1c72f2bbba",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 10:12:14 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373039",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373039/reports/detailxml.zip",
+              "content_hash": "bc2c892b1eecd62abe764aa9514ec5c189bd65b32950c00442b4ca809612401a",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 10:55:20 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373050",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373050/reports/detailxml.zip",
+              "content_hash": "d432a77da7c90b184fba8907a2f00e0ee48779befaf3f21c4b2275648b4c766c",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 11:02:38 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373053",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373053/reports/detailxml.zip",
+              "content_hash": "9b6084a27c40104aa9f0693149cad1130043f7091b6baeae3928ae259acb0447",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 11:34:13 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373057",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373057/reports/detailxml.zip",
+              "content_hash": "7af0f38b0679f667cc50fb529fca60b2cea12a989145fcdf0b82533a9ed9183f",
+              "election_night": true
+            },
+            {
+              "version": "373062",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373062/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "6/2/2026 1:31:21 PM CDT",
+              "precincts_with_votes": 699,
+              "nonzero_precinct_vote_cells": 25036,
+              "version": "373430",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373430/reports/detailxml.zip",
+              "content_hash": "0b4776649e50d08aec939d12a6ec84266cb45f96b9594d432d9c94e9b887704d",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/3/2026 2:52:37 PM CDT",
+              "precincts_with_votes": 699,
+              "nonzero_precinct_vote_cells": 25044,
+              "version": "374143",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/374143/reports/detailxml.zip",
+              "content_hash": "e0946a8aa43b9dc20bf844a4454aef92242204954373cd8f5c8c39fdc80fc07a",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/29/2026 3:49:52 PM CDT",
+              "precincts_with_votes": 699,
+              "nonzero_precinct_vote_cells": 25044,
+              "version": "376507",
+              "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/376507/reports/detailxml.zip",
+              "content_hash": "d8328cdb58085e908de7f95cac13a7f7c1465bc468ab57633e9792946082c067",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 7,
+          "election_night_updates_with_precinct_votes": 0,
+          "first_update_with_precinct_votes": {
+            "timestamp": "6/2/2026 1:31:21 PM CDT",
+            "version": "373430",
+            "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373430/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
     }
+  },
+  "eid_overrides": {
+    "2024_general": "122489",
+    "2026_primary": "125924",
+    "2026_runoff": "126079"
   }
 }
