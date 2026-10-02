@@ -1,7 +1,7 @@
 {
   "county": "Kinney",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.kinney.tx.us/page/Elections.2026",
@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL was first unreachable (robots.txt connection reset) and loaded on a retry about 20 minutes later. No Clarity site (elections.json 404). Results are scanned Electionware 'Election Summary Results Report' PDFs (county totals); no precinct reports are listed for any of the three elections. Only the 2026 primary file was uploaded on election night; the 2024 and runoff files now online were uploaded the next day (they may have replaced election-night copies). Last-Modified differs per file.",
-  "tag_rationale": "All three elections are LATER by check 2 (county summary reports only, no precinct reports online), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; only one election has an election-night upload time, so confidence is low.",
+  "notes": "Seed URL was first unreachable (robots.txt connection reset) and loaded on a retry about 20 minutes later. No Clarity site (elections.json 404). Results are scanned Electionware 'Election Summary Results Report' PDFs (county totals); no precinct reports are listed for any of the three elections. Only the 2026 primary file was uploaded on election night; the 2024 and runoff files now online were uploaded the next day (they may have replaced election-night copies). Last-Modified differs per file. Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER kept, county_totals_first_seen 2024-11-05 21:34 CT; 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 21:56 CT.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2024-11-05 21:34 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.kinney.tx.us/upload/page/0119/2024%20Election/election_results.pdf",
-      "fact": "Past Elections page lists only 'Unofficial General Election Results' (election_results.pdf, OCR text): 'Summary Results Report UNOFFICIAL RESULTS 2024 General Election November 5, 2024 Kinney County ... Election Day Precincts Reporting 4 of 4'; county totals. PDF CreationDate Wed Nov 6 03:55:15 2024 UTC (9:55 PM CST); Last-Modified Wed, 06 Nov 2024 16:28:12 GMT (10:28 AM CST Nov 6). No precinct report listed; precinct numbers not published online."
+      "fact": "Past Elections page lists only 'Unofficial General Election Results' (election_results.pdf, OCR text): 'Summary Results Report UNOFFICIAL RESULTS 2024 General Election November 5, 2024 Kinney County ... Election Day Precincts Reporting 4 of 4'; county totals. PDF CreationDate Wed Nov 6 03:55:15 2024 UTC (9:55 PM CST); Last-Modified Wed, 06 Nov 2024 16:28:12 GMT (10:28 AM CST Nov 6). No precinct report listed; precinct numbers not published online. Rule 43: county totals first seen 2024-11-05 21:34 CT in 'Unofficial General Election Results' (election_results.pdf), county totals, printed footer 'Election Summary - 11/05/2024 21:34 PM' (OCR), scan CreationDate Wed Nov 6 03:55:15 2024 UTC (9:55 PM CST)."
     },
     "2026_primary": {
       "result": "LATER",
@@ -39,11 +39,11 @@
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-05-26 21:56 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.kinney.tx.us/upload/page/0118/2026/unofficial_results.pdf",
-      "fact": "'Primary Runoff Unofficial Results' (unofficial_results.pdf, OCR text): 'Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Kinney County'; county totals. PDF CreationDate Wed May 27 02:56:59 2026 UTC (9:56 PM CDT); Last-Modified Wed, 27 May 2026 18:34:50 GMT (1:34 PM CDT May 27). No precinct report listed."
+      "fact": "'Primary Runoff Unofficial Results' (unofficial_results.pdf, OCR text): 'Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Kinney County'; county totals. PDF CreationDate Wed May 27 02:56:59 2026 UTC (9:56 PM CDT); Last-Modified Wed, 27 May 2026 18:34:50 GMT (1:34 PM CDT May 27). No precinct report listed. Rule 43: county totals first seen 2026-05-26 21:56 CT in 'Primary Runoff Unofficial Results' (unofficial_results.pdf), county totals, scan CreationDate Wed May 27 02:56:59 2026 UTC (9:56 PM CDT); printed footer reads 'Election Summary - 05/26/2026 22:04 PM' (OCR)."
     }
   },
   "sources": [

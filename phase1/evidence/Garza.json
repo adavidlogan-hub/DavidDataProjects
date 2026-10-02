@@ -1,6 +1,6 @@
 {
   "county": "Garza",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL http://www.garzacounty.net/ returned HTTP 403; https://www.garzacounty.net/ redirects to www.garzacounty.gov, whose Elections page loads. No Clarity site (elections.json 404). The server sends no Last-Modified header for documents (/page/open/... links), so there is no upload evidence. 2026 primary: 'March 3, 2026 Primary Election Results' page links 'Republican Unofficial Results March 3, 2026 Primary' and 'Democratic Primary Unofficail Results', which are scanned Texas Secretary of State 'Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION ... GARZA County' county-total reports (Republican scanned 4 Mar 2026 14:22 UTC = 8:22 AM CST next morning); the 'March 3, 2026 Primary Unofficial Totals' page holds a Preliminary Election Reconciliation form, not results; no precinct-level results are posted. 2026 runoff: the Elections page lists only 'May 26 2026 Primary Runoff Official Results', reconciliation, canvass and hand count audit files; no election-night report remains. 2024 general: no 2024 results found on the Elections pages checked. Check 3 pending (origin/wayback-data not present).",
-  "tag_rationale": "Only the 2026 primary is determined (LATER by check 2: county totals only, no precinct results posted), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "notes": "Seed URL http://www.garzacounty.net/ returned HTTP 403; https://www.garzacounty.net/ redirects to www.garzacounty.gov, whose Elections page loads. No Clarity site (elections.json 404). The server sends no Last-Modified header for documents (/page/open/... links), so there is no upload evidence. 2026 primary: 'March 3, 2026 Primary Election Results' page links 'Republican Unofficial Results March 3, 2026 Primary' and 'Democratic Primary Unofficail Results', which are scanned Texas Secretary of State 'Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION ... GARZA County' county-total reports (Republican scanned 4 Mar 2026 14:22 UTC = 8:22 AM CST next morning); the 'March 3, 2026 Primary Unofficial Totals' page holds a Preliminary Election Reconciliation form, not results; no precinct-level results are posted. 2026 runoff: the Elections page lists only 'May 26 2026 Primary Runoff Official Results', reconciliation, canvass and hand count audit files; no election-night report remains. 2024 general: no 2024 results found on the Elections pages checked. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No result is shared by two elections and the number of determined elections is not exactly one, so by the rule the tag is UNKNOWN.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
@@ -28,11 +28,11 @@
       "evidence_url": ""
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.garzacounty.gov/page/open/1660/0/March%20Primary%20Republican.pdf",
-      "fact": "'Republican Unofficial Results March 3, 2026 Primary': 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 GARZA County' with Early Voting by Mail, In Person, Election Day Count, Total Voters (county totals); PDF CreationDate 4 Mar 2026 14:22:51 UTC; no Last-Modified header. No precinct results posted (never published online).",
+      "fact": "Rule 43: no election-night file survives (the SOS-format county totals scan was created 2026-03-04 8:22 AM CST and prints no run time). Previous: 'Republican Unofficial Results March 3, 2026 Primary': 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 GARZA County' with Early Voting by Mail, In Person, Election Day Count, Total Voters (county totals); PDF CreationDate 4 Mar 2026 14:22:51 UTC; no Last-Modified header. No precinct results posted (never published online).",
       "county_totals_first_seen": "",
       "precinct_first_seen": ""
     },

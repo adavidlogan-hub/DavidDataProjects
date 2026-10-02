@@ -1,6 +1,6 @@
 {
   "county": "Glasscock",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "PRECINCT_END_OF_NIGHT",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,18 +13,18 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). Results are hand-tally Excel workbooks ('TALLY TOTALS') with one sheet per precinct (Precinct #1 to #4) giving Mailed in, Early and Election Day votes per candidate, plus county total sheets. 2026 primary: '3-3-2026 Republican Tally Totals' xlsx, workbook modified 2026-03-04T04:01:42Z (10:01 PM CST), Last-Modified Wed, 04 Mar 2026 06:37:56 GMT (12:37 AM CST, election night). 2026 runoff: '5-26-26 REPUBLICAN RUNOFF TALLY TOTALS' xlsx, workbook modified 2026-05-27T13:07:54Z, Last-Modified Wed, 27 May 2026 15:42:10 GMT (10:42 AM CDT next morning). 2024 general: 'GLASSCOCK COUNTY TOTAL RESULTS - 11/5/24' xlsx (per-precinct sheets), workbook modified 2024-11-06T13:56:09Z, Last-Modified Wed, 06 Nov 2024 14:19:00 GMT (8:19 AM CST next morning); an 'EARLY VOTING RESULTS' PDF was also posted. The workbook files may have replaced earlier uploads, which the server would not show. An en dash in the 2024 link title was replaced with a hyphen. Check 3 pending (origin/wayback-data not present).",
-  "tag_rationale": "2024 general and 2026 runoff are both LATER by check 2 (per-precinct tally workbooks first uploaded the morning after), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS even though the 2026 primary is END; the deciding uploads were not on election night, so confidence is low.",
+  "notes": "No Clarity site (elections.json 404). Results are hand-tally Excel workbooks ('TALLY TOTALS') with one sheet per precinct (Precinct #1 to #4) giving Mailed in, Early and Election Day votes per candidate, plus county total sheets. 2026 primary: '3-3-2026 Republican Tally Totals' xlsx, workbook modified 2026-03-04T04:01:42Z (10:01 PM CST), Last-Modified Wed, 04 Mar 2026 06:37:56 GMT (12:37 AM CST, election night). 2026 runoff: '5-26-26 REPUBLICAN RUNOFF TALLY TOTALS' xlsx, workbook modified 2026-05-27T13:07:54Z, Last-Modified Wed, 27 May 2026 15:42:10 GMT (10:42 AM CDT next morning). 2024 general: 'GLASSCOCK COUNTY TOTAL RESULTS - 11/5/24' xlsx (per-precinct sheets), workbook modified 2024-11-06T13:56:09Z, Last-Modified Wed, 06 Nov 2024 14:19:00 GMT (8:19 AM CST next morning); an 'EARLY VOTING RESULTS' PDF was also posted. The workbook files may have replaced earlier uploads, which the server would not show. An en dash in the 2024 link title was replaced with a hyphen. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED; 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary END, 2026_runoff UNDETERMINED. Exactly one election is determined, so the tag is PRECINCT_END_OF_NIGHT with low confidence.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.glasscock.tx.us/upload/page/0114/2024/TALLY%20TOTALS%20for%2011-5-24%20General%20Election%201124%2024.xlsx",
-      "fact": "'GLASSCOCK COUNTY TOTAL RESULTS - 11/5/24' workbook: sheet 'Precinct #1 Glasscock County - GENERAL ELECTION 11/5/2024 ... Mailed in Votes | Early Votes | Election Day Votes | Total Votes ... Donald J. Trump / JD Vance (REP) 11 | 123 | 48 | 182'; workbook modified 2024-11-06T13:56:09Z; Last-Modified Wed, 06 Nov 2024 14:19:00 GMT (precinct numbers first available the morning after).",
+      "fact": "Rule 43: no election-night file survives. Previous: 'GLASSCOCK COUNTY TOTAL RESULTS - 11/5/24' workbook: sheet 'Precinct #1 Glasscock County - GENERAL ELECTION 11/5/2024 ... Mailed in Votes | Early Votes | Election Day Votes | Total Votes ... Donald J. Trump / JD Vance (REP) 11 | 123 | 48 | 182'; workbook modified 2024-11-06T13:56:09Z; Last-Modified Wed, 06 Nov 2024 14:19:00 GMT (precinct numbers first available the morning after).",
       "county_totals_first_seen": ""
     },
     "2026_primary": {
@@ -37,12 +37,12 @@
       "county_totals_first_seen": ""
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.glasscock.tx.us/upload/page/0113/5-26-26%20REPUBLICAN%20RUNOFF%20TALLY%20TOTALS.xlsx",
-      "fact": "'5-26-26 REPUBLICAN RUNOFF TALLY TOTALS' workbook: 'May 26th, 2026 - Republican Party Primary RUNOFF Election PRECINCT #1 ... United States Senator | John Cornyn | 3 | 9 | 12 | 24'; workbook modified 2026-05-27T13:07:54Z; Last-Modified Wed, 27 May 2026 15:42:10 GMT (precinct numbers first available the morning after).",
+      "fact": "Rule 43: no election-night file survives. Previous: '5-26-26 REPUBLICAN RUNOFF TALLY TOTALS' workbook: 'May 26th, 2026 - Republican Party Primary RUNOFF Election PRECINCT #1 ... United States Senator | John Cornyn | 3 | 9 | 12 | 24'; workbook modified 2026-05-27T13:07:54Z; Last-Modified Wed, 27 May 2026 15:42:10 GMT (precinct numbers first available the morning after).",
       "county_totals_first_seen": ""
     }
   },

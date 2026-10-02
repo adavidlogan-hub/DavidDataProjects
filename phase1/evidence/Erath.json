@@ -1,7 +1,7 @@
 {
   "county": "Erath",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.erath.tx.us/186/Current-Elections",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The Current Elections page (CivicPlus Document Center) lists for each 2026 election 'Unofficial Early Results', 'Unofficial Final/Total Results', 'Official Results', a canvass PDF and reconciliation forms. The unofficial reports are Electionware 'Summary Results Report' county totals split by Absentee/Early Voting/Election Day: 2026 primary Republican 'Unofficial Final Results' footer 'Election Summary - Republican - 03/03/2026 9:06 PM' (CreationDate 4 Mar 2026 03:19 UTC = 9:19 PM CST); 2026 runoff Republican 'Unofficial Total Results' footer '05/26/2026 8:17 PM' (CreationDate 27 May 2026 02:23 UTC). The 'Official Results' (CreationDate 10 Mar 2026) are also Summary Results Reports; precinct numbers, if any, appear only in the canvass PDFs (not opened). No election-night precinct report is listed. The CivicPlus server stamps every file with the request time as Last-Modified, so there is no upload evidence. 2024 general results are not on the current site (no archive page found on the Elections pages). OCR noise in quoted PDF text was normalized. Check 3 pending (origin/wayback-data not present).",
-  "tag_rationale": "2026 primary and 2026 runoff are both LATER by check 2 (election-night reports are county totals only), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; no server upload times exist, so confidence is low.",
+  "notes": "No Clarity site (elections.json 404). The Current Elections page (CivicPlus Document Center) lists for each 2026 election 'Unofficial Early Results', 'Unofficial Final/Total Results', 'Official Results', a canvass PDF and reconciliation forms. The unofficial reports are Electionware 'Summary Results Report' county totals split by Absentee/Early Voting/Election Day: 2026 primary Republican 'Unofficial Final Results' footer 'Election Summary - Republican - 03/03/2026 9:06 PM' (CreationDate 4 Mar 2026 03:19 UTC = 9:19 PM CST); 2026 runoff Republican 'Unofficial Total Results' footer '05/26/2026 8:17 PM' (CreationDate 27 May 2026 02:23 UTC). The 'Official Results' (CreationDate 10 Mar 2026) are also Summary Results Reports; precinct numbers, if any, appear only in the canvass PDFs (not opened). No election-night precinct report is listed. The CivicPlus server stamps every file with the request time as Last-Modified, so there is no upload evidence. 2024 general results are not on the current site (no archive page found on the Elections pages). OCR noise in quoted PDF text was normalized. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary LATER kept, county_totals_first_seen 2026-03-03 21:06 CT; 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 20:17 CT.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
@@ -32,8 +32,8 @@
       "check": "2",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.erath.tx.us/DocumentCenter/View/6459/2026-03-Republican-Unofficial-Final-Results-PDF",
-      "fact": "'2026-03 Republican Unofficial Final Results': 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election Republican March 3, 2026 Erath County ... Ballots Cast - Total 6,829 180 3,575 3,014' (county totals by Absentee/Early/Election Day); footer 'Election Summary - Republican - 03/03/2026 9:06 PM'. No unofficial precinct report listed; precinct numbers never published on election night.",
-      "county_totals_first_seen": "",
+      "fact": "'2026-03 Republican Unofficial Final Results': 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election Republican March 3, 2026 Erath County ... Ballots Cast - Total 6,829 180 3,575 3,014' (county totals by Absentee/Early/Election Day); footer 'Election Summary - Republican - 03/03/2026 9:06 PM'. No unofficial precinct report listed; precinct numbers never published on election night. Rule 43: county totals first seen 2026-03-03 21:06 CT in '2026-03 Republican Unofficial Final Results' (DocumentCenter/View/6459), county totals, printed footer 'Election Summary - Republican - 03/03/2026 9:06 PM' (PDF CreationDate 9:19 PM CST).",
+      "county_totals_first_seen": "2026-03-03 21:06 CT",
       "precinct_first_seen": ""
     },
     "2026_runoff": {
@@ -41,8 +41,8 @@
       "check": "2",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.erath.tx.us/DocumentCenter/View/6693/2026-0526-Unofficial-Total-Republican-Results-PDF",
-      "fact": "'2026-0526 Unofficial Total Republican Results': 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election Republican May 26, 2026 Erath County ... REP US Senator John Cornyn 1,130 ... Ken Paxton 2,191' county totals; footer 'Election Summary Republican - 05/26/2026 8:17 PM'. No unofficial precinct report listed.",
-      "county_totals_first_seen": "",
+      "fact": "'2026-0526 Unofficial Total Republican Results': 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election Republican May 26, 2026 Erath County ... REP US Senator John Cornyn 1,130 ... Ken Paxton 2,191' county totals; footer 'Election Summary Republican - 05/26/2026 8:17 PM'. No unofficial precinct report listed. Rule 43: county totals first seen 2026-05-26 20:17 CT in '2026-0526 Unofficial Total Republican Results' (DocumentCenter/View/6693), county totals, printed footer 'Election Summary Republican - 05/26/2026 8:17 PM'.",
+      "county_totals_first_seen": "2026-05-26 20:17 CT",
       "precinct_first_seen": ""
     }
   },

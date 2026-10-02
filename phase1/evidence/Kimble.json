@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.kimble.tx.us/ works over https. No Clarity site (elections.json 404). Results are Microsoft Reporting Services 'Cumulative Results Report' PDFs (county totals, 7 precincts) posted on the Elections page (2026) and Elections Archive page (2024). No precinct-by-precinct report is listed for any of the three elections, so precinct numbers are never published online. Server Last-Modified values differ per file (meaningful); 2024 and 2026 primary unofficial reports were uploaded on election night; the runoff copy found was re-uploaded 30 Jun 2026. 2024 archive entry over http returned 403; https works.",
-  "tag_rationale": "All three elections are LATER by check 2 (county-total cumulative reports only, no precinct reports online), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; 2024 and 2026 primary have printed run times and server upload times on election night, so confidence is med.",
+  "notes": "Seed http://www.co.kimble.tx.us/ works over https. No Clarity site (elections.json 404). Results are Microsoft Reporting Services 'Cumulative Results Report' PDFs (county totals, 7 precincts) posted on the Elections page (2026) and Elections Archive page (2024). No precinct-by-precinct report is listed for any of the three elections, so precinct numbers are never published online. Server Last-Modified values differ per file (meaningful); 2024 and 2026 primary unofficial reports were uploaded on election night; the runoff copy found was re-uploaded 30 Jun 2026. 2024 archive entry over http returned 403; https works. Rule 43 applied 2026-10-02 (normalize-1): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:34 CT.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
@@ -39,11 +39,11 @@
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-05-26 19:34 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.kimble.tx.us/upload/page/0089/2026/TOTAL%20Cumulative%20Results-5-26-2026%2007-34-52%20PM.pdf",
-      "fact": "'Unofficial Results - Cumulative Report' PDF: 'Cumulative Results Report ... PRIMARY RUNOFF ELECTION ... Precincts Reporting 7 of 7 ... Run Time 7:34 PM Run Date 05/26/2026'; county totals only; Last-Modified Tue, 30 Jun 2026 19:15:31 GMT (re-upload; no election-night upload time). 'Official Results' is also a cumulative report. No precinct report listed."
+      "fact": "'Unofficial Results - Cumulative Report' PDF: 'Cumulative Results Report ... PRIMARY RUNOFF ELECTION ... Precincts Reporting 7 of 7 ... Run Time 7:34 PM Run Date 05/26/2026'; county totals only; Last-Modified Tue, 30 Jun 2026 19:15:31 GMT (re-upload; no election-night upload time). 'Official Results' is also a cumulative report. No precinct report listed. Rule 43: county totals first seen 2026-05-26 19:34 CT in 'Unofficial Results - Cumulative Report' (TOTAL Cumulative Results-5-26-2026 07-34-52 PM.pdf), county totals, 'Run Time 7:34 PM Run Date 05/26/2026'."
     }
   },
   "sources": [

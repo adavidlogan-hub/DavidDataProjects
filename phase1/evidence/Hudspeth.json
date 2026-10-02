@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No website in the seed list; the county site co.hudspeth.tx.us (https) has 'Elections 2025-2026' and 'Elections Results 2025 and Earlier' pages listing Hart InterCivic report PDFs. No Clarity site (elections.json 404). The server gives real per-file Last-Modified values (they differ by file and match file-name stamps), so upload times are usable. Hudspeth is Mountain time: MST (UTC-7) in Nov and Mar, MDT (UTC-6) in May. The Elections Home page also points to state-wide results (results.texas-election.com). Check 3 pending (wayback-data branch not found on origin).",
-  "tag_rationale": "All three elections are LATER by check 2 (no precinct numbers with election-day votes posted on election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the 2026 primary night reports carry both printed run times and election-night upload times.",
+  "notes": "No website in the seed list; the county site co.hudspeth.tx.us (https) has 'Elections 2025-2026' and 'Elections Results 2025 and Earlier' pages listing Hart InterCivic report PDFs. No Clarity site (elections.json 404). The server gives real per-file Last-Modified values (they differ by file and match file-name stamps), so upload times are usable. Hudspeth is Mountain time: MST (UTC-7) in Nov and Mar, MDT (UTC-6) in May. The Elections Home page also points to state-wide results (results.texas-election.com). Check 3 pending (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER kept, county_totals_first_seen 2024-11-05 22:05 MT; 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary LATER, 2026_runoff UNDETERMINED. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-B",
   "method_version": "v2",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2024-11-05 22:05 MT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.hudspeth.tx.us/upload/page/0119/2024/general_election_november_2024_hart_intercivic.pdf",
-      "fact": "'Unofficial General Election Results' (SOS 'Election Unofficial Results Report ... HUDSPETH County', county totals) Last-Modified Wed, 06 Nov 2024 15:04:52 GMT (8:04 AM MST Nov 6) and 'Cumulative Results Report' (Hart, county totals) Last-Modified Wed, 06 Nov 2024 15:02:34 GMT (8:02 AM MST); both posted after election night. No precinct report for the 2024 general is posted on the county site (precinct numbers never published online as far as the site shows)."
+      "fact": "'Unofficial General Election Results' (SOS 'Election Unofficial Results Report ... HUDSPETH County', county totals) Last-Modified Wed, 06 Nov 2024 15:04:52 GMT (8:04 AM MST Nov 6) and 'Cumulative Results Report' (Hart, county totals) Last-Modified Wed, 06 Nov 2024 15:02:34 GMT (8:02 AM MST); both posted after election night. No precinct report for the 2024 general is posted on the county site (precinct numbers never published online as far as the site shows). Rule 43: county totals first seen 2024-11-05 22:05 MT in 'Unofficial General Election Results' (report_10_sos_enr_november_5_2024.pdf), SOS 'Election Unofficial Results Report' county totals with Election Day counts, PDF CreationDate Wed Nov 6 05:05:21 2024 UTC (10:05 PM MST Nov 5); the Hart 'Cumulative Results Report' scan has CreationDate 05:25:06 UTC (10:25 PM MST); both uploaded the next morning."
     },
     "2026_primary": {
       "result": "LATER",
@@ -37,13 +37,13 @@
       "fact": "Night reports: 'Republican Absentee and Early Voting Unofficial Results ... by precinct' (Precinct Results Report, Run Time 7:27 PM 03/03/2026, no election-day column; Last-Modified Wed, 04 Mar 2026 02:33:04 GMT = 7:33 PM MST); 'Republican Cumulative Election Day Unofficial Results' (county totals, Run Time 11:01 PM 03/03/2026; Last-Modified Wed, 04 Mar 2026 06:13:25 GMT = 11:13 PM MST). Precinct numbers with election-day votes: 'Dem and Rep Precinct Results-3-4-2026 04-09-28 PM' (Run Time 4:08 PM, Run Date 03/04/2026; Last-Modified Wed, 04 Mar 2026 23:39:28 GMT = 4:39 PM MST Mar 4), after election night."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.hudspeth.tx.us/upload/page/0118/Republican%20Unofficial%20Precinct%20Results-5-27-2026%2003-45-48%20PM.pdf",
-      "fact": "'Republican Unofficial Precinct Results-5-27-2026' = 'Precinct Results Report ... Unofficial Results ... Run Time 3:44 PM ... Run Date 05/27/2026', Last-Modified Thu, 28 May 2026 15:03:59 GMT (9:03 AM MDT May 28); Democratic file Run Time 3:46 PM 05/27/2026, Last-Modified Thu, 28 May 2026 15:02:34 GMT. No election-night report is posted for the runoff."
+      "fact": "Rule 43: no election-night file survives. Previous: 'Republican Unofficial Precinct Results-5-27-2026' = 'Precinct Results Report ... Unofficial Results ... Run Time 3:44 PM ... Run Date 05/27/2026', Last-Modified Thu, 28 May 2026 15:03:59 GMT (9:03 AM MDT May 28); Democratic file Run Time 3:46 PM 05/27/2026, Last-Modified Thu, 28 May 2026 15:02:34 GMT. No election-night report is posted for the runoff."
     }
   },
   "sources": [

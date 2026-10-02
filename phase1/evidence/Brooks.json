@@ -1,6 +1,6 @@
 {
   "county": "Brooks",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Elections Administrator page posts Hart-style Cumulative and Precinct Results Reports for each election. 2024 general: the precinct-by-precinct file is a 35-page scan (header shading makes the run time illegible; header reads 'Unofficial Results' and 'OFFICAL ELECTION RESULTS') scanned and uploaded the morning of Nov 6. 2026 primary: unofficial Precinct Results Report with Election Day columns, Run Time 9:33 PM, uploaded 9:40 PM CST on election night. 2026 runoff: on election night only the cumulative county totals (Run Time 8:25 PM, uploaded 8:36 PM CDT); the precinct report was run 12:24 PM May 28 and uploaded 3:58 PM CDT May 28. Both runoff reports show 'Precincts Reporting 0 of 5' although they include Election Day votes (as printed).",
-  "tag_rationale": "2024 general and 2026 runoff are both LATER (precinct numbers uploaded after election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS even though the 2026 primary was END; confidence low because the 2024 general lacks an election-night printed and upload time.",
+  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Elections Administrator page posts Hart-style Cumulative and Precinct Results Reports for each election. 2024 general: the precinct-by-precinct file is a 35-page scan (header shading makes the run time illegible; header reads 'Unofficial Results' and 'OFFICAL ELECTION RESULTS') scanned and uploaded the morning of Nov 6. 2026 primary: unofficial Precinct Results Report with Election Day columns, Run Time 9:33 PM, uploaded 9:40 PM CST on election night. 2026 runoff: on election night only the cumulative county totals (Run Time 8:25 PM, uploaded 8:36 PM CDT); the precinct report was run 12:24 PM May 28 and uploaded 3:58 PM CDT May 28. Both runoff reports show 'Precincts Reporting 0 of 5' although they include Election Day votes (as printed). Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary END, 2026_runoff LATER. No result is shared by two elections and the number of determined elections is not exactly one, so by the rule the tag is UNKNOWN.",
   "agent": "research-1",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "2024-11-06 09:45 CT (server upload; scan created 09:11)",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.brooks.tx.us/upload/page/5156/November General Precinct by Precinct Results11052024.pdf",
-      "fact": "'November General Precinct by Precinct Results11052024.pdf' = scanned 'Precinct Results Report ... BROOKS COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Unofficial Results', per precinct with Absentee/Early/Election Day Voting ('Donald J. Trump JD Vance REP 8 ... 134 ... 87 ... 229'); PDF CreationDate Wed Nov 6 15:11:18 2024 UTC; Last-Modified Wed, 06 Nov 2024 15:45:48 GMT. Run time not legible in the scan."
+      "fact": "Rule 43: no election-night file survives. Previous: 'November General Precinct by Precinct Results11052024.pdf' = scanned 'Precinct Results Report ... BROOKS COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Unofficial Results', per precinct with Absentee/Early/Election Day Voting ('Donald J. Trump JD Vance REP 8 ... 134 ... 87 ... 229'); PDF CreationDate Wed Nov 6 15:11:18 2024 UTC; Last-Modified Wed, 06 Nov 2024 15:45:48 GMT. Run time not legible in the scan."
     },
     "2026_primary": {
       "result": "END",

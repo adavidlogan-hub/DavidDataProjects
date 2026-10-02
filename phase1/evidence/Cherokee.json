@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed elections page works over https. No Clarity or vendor site found. The county posts Hart PDF reports (Cumulative and Precinct) on its OpenCms site; link hrefs use backslashes, fetched with forward slashes. Last-Modified headers vary per file and look like real upload times. The 8:40 PM runoff cumulative file returned 403, so its content was not read; its county-total nature is inferred from its 'Cumulative Results' name and is supported by the absence of any election-night precinct file. 2024 general undetermined (check 3 pending; wayback-data branch not on origin).",
-  "tag_rationale": "The 2026 primary and 2026 runoff are both LATER (check 2: precinct reports printed and uploaded days after election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS. Confidence low because no report has both a printed run time and upload time on election night.",
+  "notes": "Seed elections page works over https. No Clarity or vendor site found. The county posts Hart PDF reports (Cumulative and Precinct) on its OpenCms site; link hrefs use backslashes, fetched with forward slashes. Last-Modified headers vary per file and look like real upload times. The 8:40 PM runoff cumulative file returned 403, so its content was not read; its county-total nature is inferred from its 'Cumulative Results' name and is supported by the absence of any election-night precinct file. 2024 general undetermined (check 3 pending; wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
@@ -28,13 +28,13 @@
       "fact": "The Previous Election Results page lists for Nov 5, 2024 only 'Official Precinct-by-Precinct' (2024-11/11-05-24 official pct x pct.pdf). Nothing shows what was posted on election night. Check 3 pending."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "2026-03-06 21:01 CT",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/2026-03/UNOFFICIAL%20Precinct%20Results%2003-03-2026.pdf",
-      "fact": "'Unofficial Precinct Results - All reporting' is a 500-page 'Precinct Results Report Unofficial Results CHEROKEE COUNTY, TEXAS ... PRIMARY ELECTION ... Run Time 3:30 PM Run Date 03/05/2026', Last-Modified Sat, 07 Mar 2026 03:01:37 GMT (9:01 PM CST Mar 6), both after election night. No earlier precinct file for the primary is listed."
+      "fact": "Rule 43: no election-night file survives. Previous: 'Unofficial Precinct Results - All reporting' is a 500-page 'Precinct Results Report Unofficial Results CHEROKEE COUNTY, TEXAS ... PRIMARY ELECTION ... Run Time 3:30 PM Run Date 03/05/2026', Last-Modified Sat, 07 Mar 2026 03:01:37 GMT (9:01 PM CST Mar 6), both after election night. No earlier precinct file for the primary is listed."
     },
     "2026_runoff": {
       "result": "LATER",

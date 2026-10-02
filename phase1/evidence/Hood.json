@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL www.co.hood.tx.us resets the connection; the county now uses hoodcounty.texas.gov, whose Elections Administration page links 'Election Results' to results.enr.clarityelections.com/TX/Hood/. Check 1 script output (phase1/checks/clarity/Hood.json) reports 'precincts with votes' on every night update, but reading the cached detail.xml files shows that in the 2026 primary and runoff night updates, and the 7:09 PM 2024 update, every candidate precinct value is 'N/A' (for example 'Choice text=John Cornyn ... VoteType name=Absentee votes=N/A ... Precinct name=101 votes=N/A'); the nonzero precinct values the script counted are contest-level Undervotes and Overvotes, not candidate votes. Per-vote-type candidate precinct sums were computed from the same cached files. Results here use candidate votes only. Many earlier update versions return 404 (unreadable). Re-run with the updated check 1 script (election-day precinct votes counted separately) confirms: 2024 general 2/3 night updates with election-day precinct votes (first 9:57:28 PM CST), 2026 primary 0/3, 2026 runoff 0/2 (first 6/2/2026).",
-  "tag_rationale": "The 2026 primary and runoff are LATER and the 2024 general is LIVE, so two elections share LATER and the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence high because all three were settled by check 1.",
+  "notes": "Seed URL www.co.hood.tx.us resets the connection; the county now uses hoodcounty.texas.gov, whose Elections Administration page links 'Election Results' to results.enr.clarityelections.com/TX/Hood/. Check 1 script output (phase1/checks/clarity/Hood.json) reports 'precincts with votes' on every night update, but reading the cached detail.xml files shows that in the 2026 primary and runoff night updates, and the 7:09 PM 2024 update, every candidate precinct value is 'N/A' (for example 'Choice text=John Cornyn ... VoteType name=Absentee votes=N/A ... Precinct name=101 votes=N/A'); the nonzero precinct values the script counted are contest-level Undervotes and Overvotes, not candidate votes. Per-vote-type candidate precinct sums were computed from the same cached files. Results here use candidate votes only. Many earlier update versions return 404 (unreadable). Re-run with the updated check 1 script (election-day precinct votes counted separately) confirms: 2024 general 2/3 night updates with election-day precinct votes (first 9:57:28 PM CST), 2026 primary 0/3, 2026 runoff 0/2 (first 6/2/2026). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary LATER kept, county_totals_first_seen 2026-03-03 19:13 CT; 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:05 CT.",
+  "tag_rationale": "After Rule 43: 2024_general LIVE, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-4",
   "method_version": "v2",
   "sources": [
@@ -74,20 +74,20 @@
     "2026_primary": {
       "result": "LATER",
       "check": "1",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-03-03 19:13 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://results.enr.clarityelections.com/TX/Hood/126050/368451/reports/detailxml.zip",
-      "fact": "Clarity EID 126050 night updates 7:13:41, 8:24:53 and 8:49:03 PM CST carry county totals (e.g. 'John Cornyn ... totalVotes=5139') but every candidate precinct value is 'votes=N/A'; no later readable update exists, so precinct candidate numbers were never published on Clarity."
+      "fact": "Clarity EID 126050 night updates 7:13:41, 8:24:53 and 8:49:03 PM CST carry county totals (e.g. 'John Cornyn ... totalVotes=5139') but every candidate precinct value is 'votes=N/A'; no later readable update exists, so precinct candidate numbers were never published on Clarity. Rule 43: county totals first seen 2026-03-03 19:13 CT in Clarity EID 126050 update version 368394, timestamp 3/3/2026 7:13:41 PM CST (county totals; candidate precinct values N/A)."
     },
     "2026_runoff": {
       "result": "LATER",
       "check": "1",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-05-26 19:05 CT",
       "precinct_first_seen": "2026-06-02 15:47 CT",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://results.enr.clarityelections.com/TX/Hood/126481/373448/reports/detailxml.zip",
-      "fact": "Clarity EID 126481 night updates 7:05:52 and 8:47:30 PM CDT have candidate precinct values 'N/A' (county totals only, e.g. 'John Cornyn ... totalVotes=2984'); the 6/2/2026 3:47:46 PM CDT update is the first with candidate precinct votes (Election Day precinct sum 15688)."
+      "fact": "Clarity EID 126481 night updates 7:05:52 and 8:47:30 PM CDT have candidate precinct values 'N/A' (county totals only, e.g. 'John Cornyn ... totalVotes=2984'); the 6/2/2026 3:47:46 PM CDT update is the first with candidate precinct votes (Election Day precinct sum 15688). Rule 43: county totals first seen 2026-05-26 19:05 CT in Clarity EID 126481 update version 372932, timestamp 5/26/2026 7:05:52 PM CDT (county totals; candidate precinct values N/A)."
     }
   }
 }

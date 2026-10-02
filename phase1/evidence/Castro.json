@@ -1,6 +1,6 @@
 {
   "county": "Castro",
-  "tag": "NO_SITE_OR_SOS_ONLY",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.castro.tx.us/ moved to https; site has 'Elections' and 'Elections Administrator' pages (the latter has no files). No Clarity or other vendor link found. The NONE results rest on the absence of any results file on a page that does keep other files from the same 2026 elections (rosters, hand count audits); it is possible results were posted and later removed, so confidence is low. Check 3 pending (wayback-data branch not on origin).",
-  "tag_rationale": "The 2026 primary and runoff are both NONE (check 2: no results files posted by the county), so the tag is NO_SITE_OR_SOS_ONLY. Confidence low because it rests on absence of files with no upload times.",
+  "notes": "Seed http://www.co.castro.tx.us/ moved to https; site has 'Elections' and 'Elections Administrator' pages (the latter has no files). No Clarity or other vendor link found. The NONE results rest on the absence of any results file on a page that does keep other files from the same 2026 elections (rosters, hand count audits); it is possible results were posted and later removed, so confidence is low. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary NONE to UNDETERMINED; 2026_runoff NONE to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No result is shared by two elections and the number of determined elections is not exactly one, so by the rule the tag is UNKNOWN.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
@@ -28,22 +28,22 @@
       "fact": "The current Elections page has no 2024 general election files of any kind, so what was posted in 2024 cannot be judged. Check 3 pending."
     },
     "2026_primary": {
-      "result": "NONE",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.castro.tx.us/page/castro.Elections",
-      "fact": "The Elections page lists for the March 3, 2026 primary only 'Notice of Election and Sample Ballots - March 3, 2026', 'ELECTION DAY IN PERSON ROSTER 3-3-26 (XLSX)', '2026 Republican Primary Hand Count Results (PDF)' and '2026 Democratic Primary Hand Count Results (PDF)' (post-election hand count audit, Last-Modified 2026-04-01). No unofficial, cumulative, precinct, or official results file is posted."
+      "fact": "Rule 43: the county page does not point this election's results to the SOS site, so NONE lacks positive evidence. Previous: The Elections page lists for the March 3, 2026 primary only 'Notice of Election and Sample Ballots - March 3, 2026', 'ELECTION DAY IN PERSON ROSTER 3-3-26 (XLSX)', '2026 Republican Primary Hand Count Results (PDF)' and '2026 Democratic Primary Hand Count Results (PDF)' (post-election hand count audit, Last-Modified 2026-04-01). No unofficial, cumulative, precinct, or official results file is posted."
     },
     "2026_runoff": {
-      "result": "NONE",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.castro.tx.us/page/castro.Elections",
-      "fact": "The Elections page lists for the May 26 runoff only 'Election Hand Count Summary & Certification May 26 Runoff (PDF)', the two PEHCA worksheets (XLSX) and 'Election Day Roster 5-26-2026 & Mail in Ballots (XLSX)'. No unofficial, cumulative, precinct, or official results file is posted."
+      "fact": "Rule 43: the county page does not point this election's results to the SOS site, so NONE lacks positive evidence. Previous: The Elections page lists for the May 26 runoff only 'Election Hand Count Summary & Certification May 26 Runoff (PDF)', the two PEHCA worksheets (XLSX) and 'Election Day Roster 5-26-2026 & Mail in Ballots (XLSX)'. No unofficial, cumulative, precinct, or official results file is posted."
     }
   },
   "sources": [

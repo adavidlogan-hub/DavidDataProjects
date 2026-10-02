@@ -13,37 +13,37 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.kenedy.tx.us/ returned 403; https redirects to www.kenedycountytx.gov whose Elections page links kenedycountyelections.com (WordPress). Results are scanned PDFs (VersaLink C405 scanner, no text layer, so contents read only from titles). The server's Last-Modified values are all midnight GMT dates (day granularity), so they are not usable as upload times; PDF CreationDate (scan time) shows every summary and precinct report was created after election night. No Clarity link. The page also links the SOS ENR (goelect.txelections.civixapps.com). Whether anything was posted on election night itself is not shown; check 3 pending.",
-  "tag_rationale": "All three elections are LATER by check 2 (precinct reports scanned and posted after election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; check 2 has no election-night upload time, so confidence is low.",
+  "notes": "Seed http://www.co.kenedy.tx.us/ returned 403; https redirects to www.kenedycountytx.gov whose Elections page links kenedycountyelections.com (WordPress). Results are scanned PDFs (VersaLink C405 scanner, no text layer, so contents read only from titles). The server's Last-Modified values are all midnight GMT dates (day granularity), so they are not usable as upload times; PDF CreationDate (scan time) shows every summary and precinct report was created after election night. No Clarity link. The page also links the SOS ENR (goelect.txelections.civixapps.com). Whether anything was posted on election night itself is not shown; check 3 pending. Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED; 2026_primary LATER kept, county_totals_first_seen 2026-03-03 20:22 CT; 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff UNDETERMINED. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/Pct_-by-Pct_-Report-11-5-24.pdf",
-      "fact": "Results page lists for the 2024 general only 'Summary Report' and 'Precinct by Precinct Report' (Pct_-by-Pct_-Report-11-5-24.pdf). The precinct report is a scanned PDF (Creator VersaLink C405) with CreationDate Thu Nov 14 18:29:26 2024 UTC; server Last-Modified Thu, 14 Nov 2024 00:00:00 GMT. No election-night precinct report found."
+      "fact": "Rule 43: no election-night file survives (the precinct report is 'OFFICIAL RESULTS', footer 'Precinct Summary - 11/14/2024 12:49 PM'). Previous: Results page lists for the 2024 general only 'Summary Report' and 'Precinct by Precinct Report' (Pct_-by-Pct_-Report-11-5-24.pdf). The precinct report is a scanned PDF (Creator VersaLink C405) with CreationDate Thu Nov 14 18:29:26 2024 UTC; server Last-Modified Thu, 14 Nov 2024 00:00:00 GMT. No election-night precinct report found."
     },
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-03-03 20:22 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/03_03_26-Pct-Report-1-2-3.pdf",
-      "fact": "Current Election page lists 'Unofficial Election Results Summary Report' (03_03_26-Summary-Report.pdf, scanned, CreationDate Wed Mar 4 18:30:46 2026 UTC) and 'Unofficial Pct. Report Part 1/Part 2' (03_03_26-Pct-Report-1-2-3.pdf, scanned, CreationDate Thu Mar 5 20:46:36 2026 UTC; Last-Modified Thu, 05 Mar 2026 00:00:00 GMT). Both scanned after election night."
+      "fact": "Current Election page lists 'Unofficial Election Results Summary Report' (03_03_26-Summary-Report.pdf, scanned, CreationDate Wed Mar 4 18:30:46 2026 UTC) and 'Unofficial Pct. Report Part 1/Part 2' (03_03_26-Pct-Report-1-2-3.pdf, scanned, CreationDate Thu Mar 5 20:46:36 2026 UTC; Last-Modified Thu, 05 Mar 2026 00:00:00 GMT). Both scanned after election night. Rule 43: county totals first seen 2026-03-03 20:22 CT in 'Unofficial Election Results Summary Report' (03_03_26-Summary-Report.pdf), Electionware county-totals 'Summary Results Report ... UNOFFICIAL RESULTS', printed footer 'Election Summary - 03/03/2026 8:22 PM'; the precinct report footer reads 'Precinct Summary - 03/05/2026 2:53 PM'."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/05_26_26-Pct-Report.pdf",
-      "fact": "Current Election page lists 'Summary Report - Unofficial Totals' (05_26_26-Summary-Report.pdf, CreationDate Wed May 27 12:59:36 2026 UTC) and 'Precinct Report - Unofficial Totals' (05_26_26-Pct-Report.pdf, scanned, CreationDate Wed May 27 13:00:30 2026 UTC = 8:00 AM CDT May 27; Last-Modified Wed, 27 May 2026 00:00:00 GMT). Scanned the morning after election night."
+      "fact": "Rule 43: what was posted on election night is not shown; the summary (footer 'Election Summary - 05/26/2026 7:53 PM') and the precinct report with election-day votes (footer 'Precinct Summary - 05/26/2026 7:55 PM') were both printed on election night and both scanned the next morning. Previous: Current Election page lists 'Summary Report - Unofficial Totals' (05_26_26-Summary-Report.pdf, CreationDate Wed May 27 12:59:36 2026 UTC) and 'Precinct Report - Unofficial Totals' (05_26_26-Pct-Report.pdf, scanned, CreationDate Wed May 27 13:00:30 2026 UTC = 8:00 AM CDT May 27; Last-Modified Wed, 27 May 2026 00:00:00 GMT). Scanned the morning after election night."
     }
   },
   "sources": [

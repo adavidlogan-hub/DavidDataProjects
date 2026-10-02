@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed https://www.claycountytx.net/ works (Wix site). Clay used Clarity through Nov 2025 (links on the page for 2024 general and 2025 elections) but for the 2026 primary posted scanned PDFs on its own site; Clarity's elections.json does not list 2026 elections. Wix file Last-Modified values sit minutes after PDF CreationDate, consistent with real upload times. The 2026 primary LATER rests on files currently posted; an election-night file that was later removed cannot be ruled out. 2026 runoff undetermined (check 3 pending; wayback-data branch not on origin).",
-  "tag_rationale": "The 2024 general is LIVE (check 1) and the 2026 primary is LATER (check 2); no two elections share a result, so by the rule the tag is UNKNOWN.",
+  "notes": "Seed https://www.claycountytx.net/ works (Wix site). Clay used Clarity through Nov 2025 (links on the page for 2024 general and 2025 elections) but for the 2026 primary posted scanned PDFs on its own site; Clarity's elections.json does not list 2026 elections. Wix file Last-Modified values sit minutes after PDF CreationDate, consistent with real upload times. The 2026 primary LATER rests on files currently posted; an election-night file that was later removed cannot be ruled out. 2026 runoff undetermined (check 3 pending; wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary LATER kept, county_totals_first_seen 2026-03-03 22:06 CT.",
+  "tag_rationale": "After Rule 43: 2024_general LIVE, 2026_primary LATER, 2026_runoff UNDETERMINED. No result is shared by two elections and the number of determined elections is not exactly one, so by the rule the tag is UNKNOWN.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
@@ -30,11 +30,11 @@
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-03-03 22:06 CT",
       "precinct_first_seen": "2026-03-23 14:54 CT",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.claycountytx.net/_files/ugd/cb6725_d33b37dc49dc4253b19e5b6ee4dd88de.pdf",
-      "fact": "Under 'Primary Election March 3, 2026' the page links 'EV RESULTS.pdf', 'ED RESULTS.pdf', 'TOTALS.pdf' and 'CO COMMISSIONER PCT 4 RESULTS'. 'ED RESULTS.pdf' is a scanned Electionware 'Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election ED' (county totals), Last-Modified Thu, 05 Mar 2026 20:54:13 GMT. The only precinct numbers are in 'CO COMMISSIONER PCT 4 RESULTS' ('PRECINCT REPORT MARCH 3, 2026 PRIMARY ELECTION COUNTY COMMISSIONER PCT. 4 RACE'), Last-Modified Mon, 23 Mar 2026 19:54:58 GMT. No Clarity link for 2026 on the county page and the Clarity script reports the election not listed."
+      "fact": "Under 'Primary Election March 3, 2026' the page links 'EV RESULTS.pdf', 'ED RESULTS.pdf', 'TOTALS.pdf' and 'CO COMMISSIONER PCT 4 RESULTS'. 'ED RESULTS.pdf' is a scanned Electionware 'Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election ED' (county totals), Last-Modified Thu, 05 Mar 2026 20:54:13 GMT. The only precinct numbers are in 'CO COMMISSIONER PCT 4 RESULTS' ('PRECINCT REPORT MARCH 3, 2026 PRIMARY ELECTION COUNTY COMMISSIONER PCT. 4 RACE'), Last-Modified Mon, 23 Mar 2026 19:54:58 GMT. No Clarity link for 2026 on the county page and the Clarity script reports the election not listed. Rule 43: county totals first seen 2026-03-03 22:06 CT in 'ED RESULTS.pdf' (cb6725_a49218fd691e488986fe82720e79bf2b.pdf), an Electionware county-totals 'Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election ED', printed footer 'Election Summary - 03/03/2026 10:06PM' (scan uploaded 2026-03-05)."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",

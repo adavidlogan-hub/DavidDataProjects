@@ -13,26 +13,26 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL (http eastlandcountytexas.com/page/...) returned HTTP 403 and the https version 404; the home page redirects to www.eastlandcounty.gov (CivicPlus), whose Elections page and per-election pages under Previous Elections list PDFs in the Document Center. No Clarity site (elections.json 404). The CivicPlus server stamps every file with the request time as Last-Modified (e.g. Fri, 02 Oct 2026 15:19:23 GMT), so it gives no upload evidence; only printed run times and PDF CreationDate are available. 2024 general: 'Unofficial Cumulative Results Report' (county totals, CreationDate 6 Nov 2024 17:40 UTC); '11-05-24 Precinct by Precinct' PDFs created 14 Feb 2025. 2026 primary: 'Unofficial - Democratic/Republican Results' are SOS-format 'Election Unofficial Results Report' county totals (Republican CreationDate 5 Mar 2026 02:02 UTC = 8:02 PM CST Mar 4); 'Precinct by Precinct Report-Democratic' and '-Republican' are listed as plain text with no link, so primary precinct numbers are not published online. 2026 runoff: 'Unofficial Results' cumulative report run 9:02 PM 05/26/2026; 'Democratic/Republican-Precinct by Precinct Report' run 12:56 PM 05/27/2026. Check 3 pending (origin/wayback-data not present).",
-  "tag_rationale": "All three elections are LATER by check 2 (precinct reports produced after election night or not posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; the server gives no upload times, so confidence is low.",
+  "notes": "Seed URL (http eastlandcountytexas.com/page/...) returned HTTP 403 and the https version 404; the home page redirects to www.eastlandcounty.gov (CivicPlus), whose Elections page and per-election pages under Previous Elections list PDFs in the Document Center. No Clarity site (elections.json 404). The CivicPlus server stamps every file with the request time as Last-Modified (e.g. Fri, 02 Oct 2026 15:19:23 GMT), so it gives no upload evidence; only printed run times and PDF CreationDate are available. 2024 general: 'Unofficial Cumulative Results Report' (county totals, CreationDate 6 Nov 2024 17:40 UTC); '11-05-24 Precinct by Precinct' PDFs created 14 Feb 2025. 2026 primary: 'Unofficial - Democratic/Republican Results' are SOS-format 'Election Unofficial Results Report' county totals (Republican CreationDate 5 Mar 2026 02:02 UTC = 8:02 PM CST Mar 4); 'Precinct by Precinct Report-Democratic' and '-Republican' are listed as plain text with no link, so primary precinct numbers are not published online. 2026 runoff: 'Unofficial Results' cumulative report run 9:02 PM 05/26/2026; 'Democratic/Republican-Precinct by Precinct Report' run 12:56 PM 05/27/2026. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED; 2026_primary LATER to UNDETERMINED; 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 21:02 CT.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.eastlandcounty.gov/DocumentCenter/View/1319/11-05-24-Precinct-by-Precinct-Precincts-1-5-PDF",
-      "fact": "2024 general page lists 'Unofficial Cumulative Results Report (PDF)' (PDF CreationDate 6 Nov 2024 17:40:50 UTC) and '11-05-24 Precinct by Precinct Precincts 1-5 (PDF)' (33 pages, PDF CreationDate 14 Feb 2025 22:11:03 UTC). Precinct numbers available after election night.",
+      "fact": "Rule 43: no election-night file survives (the 'Unofficial Cumulative Results Report' scan prints 'Run Time 12:30 PM Run Date 11/06/2024'). Previous: 2024 general page lists 'Unofficial Cumulative Results Report (PDF)' (PDF CreationDate 6 Nov 2024 17:40:50 UTC) and '11-05-24 Precinct by Precinct Precincts 1-5 (PDF)' (33 pages, PDF CreationDate 14 Feb 2025 22:11:03 UTC). Precinct numbers available after election night.",
       "county_totals_first_seen": "",
       "precinct_first_seen": ""
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.eastlandcounty.gov/1314/2026-March-Primary",
-      "fact": "Results section: 'Unofficial - Democratic Results (PDF)', 'Unofficial - Republican Results (PDF)' (Texas Secretary of State 'Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION ... EASTLAND County', county totals, CreationDate 5 Mar 2026 02:02:44 UTC), then 'Precinct by Precinct Report-Democratic' and 'Precinct by Precinct Report-Republican' with no link. Precinct numbers never published online.",
+      "fact": "Rule 43: no election-night file survives (the SOS-format county totals were created 2026-03-04 8:02 PM CST, the day after). Previous: Results section: 'Unofficial - Democratic Results (PDF)', 'Unofficial - Republican Results (PDF)' (Texas Secretary of State 'Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION ... EASTLAND County', county totals, CreationDate 5 Mar 2026 02:02:44 UTC), then 'Precinct by Precinct Report-Democratic' and 'Precinct by Precinct Report-Republican' with no link. Precinct numbers never published online.",
       "county_totals_first_seen": "",
       "precinct_first_seen": ""
     },
@@ -41,8 +41,8 @@
       "check": "2",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.eastlandcounty.gov/DocumentCenter/View/708/Republican-Precinct-by-Precinct-Report-PDF",
-      "fact": "'Republican-Precinct by Precinct Report': 'Precinct Results Report Unofficial Results Eastland County 2026 May 26th Primary Run-Off ... Precincts Reporting 9 of 9 ... Run Time 12:56 PM Run Date 05/27/2026'. 'Unofficial Results': 'Cumulative Results Report ... Run Time 9:02 PM Run Date 05/26/2026' (county totals).",
-      "county_totals_first_seen": "",
+      "fact": "'Republican-Precinct by Precinct Report': 'Precinct Results Report Unofficial Results Eastland County 2026 May 26th Primary Run-Off ... Precincts Reporting 9 of 9 ... Run Time 12:56 PM Run Date 05/27/2026'. 'Unofficial Results': 'Cumulative Results Report ... Run Time 9:02 PM Run Date 05/26/2026' (county totals). Rule 43: county totals first seen 2026-05-26 21:02 CT in 'Unofficial Results' (DocumentCenter/View/710), 'Cumulative Results Report ... Unofficial Results ... Run Time 9:02 PM Run Date 05/26/2026', county totals.",
+      "county_totals_first_seen": "2026-05-26 21:02 CT",
       "precinct_first_seen": ""
     }
   },

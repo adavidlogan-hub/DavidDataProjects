@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "County pages 'Elections: 2026' and 'Past Election Results' link each election to Clarity: 2024 general EID 122429, 2026 primary EID 125942, 2026 runoff EID 126349. Clarity's elections.json does not list them, so check 1 was run with these EIDs. Candidate-only precinct sums were computed from the cached detail.xml files, because the check 1 script also counts contest-level undervotes. 2026 primary: the 7:11 PM update shows 303723 votes under the 'Election' vote type and 0 under 'Early', and the 1:07 AM update moves them to 'Early', so the first update looks like early votes with a wrong label; election-day precinct votes then rise across later night updates. 2026 runoff: every night update has candidate precinct values 'N/A' (870 cells). The county's 'Night Reporting' runoff precinct PDFs ('PRECINCT RESULTS - REPUBLICAN PARTY' and '- DEMOCRATIC PARTY') were created June 2, 2026 (Run Time 9:28 AM and 9:24 AM; Last-Modified Tue, 07 Jul 2026). Re-run with the updated check 1 script (election-day precinct votes counted separately): 2024 general 5/6 night updates with election-day precinct votes, 2026 primary 9/10, 2026 runoff 0/5.",
-  "tag_rationale": "The 2024 general and 2026 primary are both LIVE (precinct numbers with election-day votes in several night updates), so the tag is LIVE_PRECINCT; confidence high because both were settled by check 1.",
+  "notes": "County pages 'Elections: 2026' and 'Past Election Results' link each election to Clarity: 2024 general EID 122429, 2026 primary EID 125942, 2026 runoff EID 126349. Clarity's elections.json does not list them, so check 1 was run with these EIDs. Candidate-only precinct sums were computed from the cached detail.xml files, because the check 1 script also counts contest-level undervotes. 2026 primary: the 7:11 PM update shows 303723 votes under the 'Election' vote type and 0 under 'Early', and the 1:07 AM update moves them to 'Early', so the first update looks like early votes with a wrong label; election-day precinct votes then rise across later night updates. 2026 runoff: every night update has candidate precinct values 'N/A' (870 cells). The county's 'Night Reporting' runoff precinct PDFs ('PRECINCT RESULTS - REPUBLICAN PARTY' and '- DEMOCRATIC PARTY') were created June 2, 2026 (Run Time 9:28 AM and 9:24 AM; Last-Modified Tue, 07 Jul 2026). Re-run with the updated check 1 script (election-day precinct votes counted separately): 2024 general 5/6 night updates with election-day precinct votes, 2026 primary 9/10, 2026 runoff 0/5. Rule 43 applied 2026-10-02 (normalize-1): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:17 CT.",
+  "tag_rationale": "After Rule 43: 2024_general LIVE, 2026_primary LIVE, 2026_runoff LATER. Two or more elections share the result that maps to LIVE_PRECINCT, so that is the tag.",
   "agent": "research-4",
   "method_version": "v2",
   "sources": [
@@ -83,11 +83,11 @@
     "2026_runoff": {
       "result": "LATER",
       "check": "1",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-05-26 19:17 CT",
       "precinct_first_seen": "2026-05-27 11:35 CT",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373127/reports/detailxml.zip",
-      "fact": "Clarity EID 126349 night updates 7:17, 8:25, 9:10, 10:58 and 11:24 PM CDT have every candidate precinct value 'N/A' (county totals only); the 5/27/2026 11:35:42 AM CDT update is the first with candidate precinct votes (19 precincts, election-day sum 22802). County 'Night Reporting' precinct PDFs were created June 2, 2026."
+      "fact": "Clarity EID 126349 night updates 7:17, 8:25, 9:10, 10:58 and 11:24 PM CDT have every candidate precinct value 'N/A' (county totals only); the 5/27/2026 11:35:42 AM CDT update is the first with candidate precinct votes (19 precincts, election-day sum 22802). County 'Night Reporting' precinct PDFs were created June 2, 2026. Rule 43: county totals first seen 2026-05-26 19:17 CT in Clarity EID 126349 update version 372939, timestamp 5/26/2026 7:17:07 PM CDT (county totals; candidate precinct values N/A)."
     }
   }
 }

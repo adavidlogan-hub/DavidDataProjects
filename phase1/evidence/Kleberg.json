@@ -1,7 +1,7 @@
 {
   "county": "Kleberg",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.kleberg.tx.us/page/kleberg.Elections",
@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL redirects to the CIRA page /page/kleberg.Elections, which lists all results PDFs. No Clarity site (elections.json 404). All fetched results PDFs are scanned images without text or PDF dates, so contents are read from titles and upload times from Last-Modified (values differ per file, so meaningful). 2026 runoff: county summary uploaded on election night, unofficial precinct reports uploaded 2 Jun 2026. 2026 primary: only summary reports listed. 2024 general: only summary, official and canvass reports listed (the election-night upload, if any, is not visible now). Check 3 pending for any election-night posting not listed now.",
-  "tag_rationale": "All three elections are LATER by check 2 (summaries on election night; precinct reports only later or not online), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; no printed run time is readable, so confidence is low.",
+  "notes": "Seed URL redirects to the CIRA page /page/kleberg.Elections, which lists all results PDFs. No Clarity site (elections.json 404). All fetched results PDFs are scanned images without text or PDF dates, so contents are read from titles and upload times from Last-Modified (values differ per file, so meaningful). 2026 runoff: county summary uploaded on election night, unofficial precinct reports uploaded 2 Jun 2026. 2026 primary: only summary reports listed. 2024 general: only summary, official and canvass reports listed (the election-night upload, if any, is not visible now). Check 3 pending for any election-night posting not listed now. Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.kleberg.tx.us/upload/page/6346/Updated%20unoffical%20summary%20report%2011052024.pdf",
-      "fact": "Elections page lists for Nov 5 2024: 'EL45A Updated Unofficial Summary Report with Provisionals' (Last-Modified Thu, 14 Nov 2024 16:04:03 GMT), 'EL45A Official Summary Report', and 'Texas Secretary of State Canvass Report General Election Nov. 5, 2024'. No unofficial precinct report is listed; precinct-level numbers appear only in post-election canvass material."
+      "fact": "Rule 43: no election-night file survives. Previous: Elections page lists for Nov 5 2024: 'EL45A Updated Unofficial Summary Report with Provisionals' (Last-Modified Thu, 14 Nov 2024 16:04:03 GMT), 'EL45A Official Summary Report', and 'Texas Secretary of State Canvass Report General Election Nov. 5, 2024'. No unofficial precinct report is listed; precinct-level numbers appear only in post-election canvass material."
     },
     "2026_primary": {
       "result": "LATER",

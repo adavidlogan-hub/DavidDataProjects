@@ -1,6 +1,6 @@
 {
   "county": "Irion",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "County site is CivicPlus (co.irion.tx.us); its Elections > Notices page has a 'Results' tab listing only 2026 primary items: 'Unofficial March 3, 2026 Primary (PDF)', 'Unofficial March 3, 2026 Precinct by Precinct (PDF)' and hand count audit certifications. The server stamps every file with the request time as Last-Modified, so it gives no upload evidence. The precinct file is a scan (VersaLink C605) of a Hart 'Precinct Results Report ... Unofficial Results ... Run Time 7:58 PM Run Date 03/03/2026' with per-precinct Absentee, Early and Election Day votes, but the scan's CreationDate is 2026-03-04 15:43:21 UTC (9:43 AM CST March 4), so this file could not have been posted on election night. No 2024 general or 2026 runoff results are posted. No Clarity link. Check 3 pending (wayback-data branch not on origin).",
-  "tag_rationale": "Only the 2026 primary is determined (LATER: the precinct report was scanned and posted the morning after election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low as the rule requires for one determined election.",
+  "notes": "County site is CivicPlus (co.irion.tx.us); its Elections > Notices page has a 'Results' tab listing only 2026 primary items: 'Unofficial March 3, 2026 Primary (PDF)', 'Unofficial March 3, 2026 Precinct by Precinct (PDF)' and hand count audit certifications. The server stamps every file with the request time as Last-Modified, so it gives no upload evidence. The precinct file is a scan (VersaLink C605) of a Hart 'Precinct Results Report ... Unofficial Results ... Run Time 7:58 PM Run Date 03/03/2026' with per-precinct Absentee, Early and Election Day votes, but the scan's CreationDate is 2026-03-04 15:43:21 UTC (9:43 AM CST March 4), so this file could not have been posted on election night. No 2024 general or 2026 runoff results are posted. No Clarity link. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No result is shared by two elections and the number of determined elections is not exactly one, so by the rule the tag is UNKNOWN.",
   "agent": "research-4",
   "method_version": "v2",
   "sources": [
@@ -44,13 +44,13 @@
       "fact": "No 2024 general results on the county Elections pages. Check 3 pending."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "2026-03-04 09:43 CT (scan CreationDate)",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.irion.tx.us/DocumentCenter/View/302/Unofficial-March-3-2026-Precinct-by-Precinct-PDF",
-      "fact": "'Precinct Results Report PRIMARY MARCH 3 2026 Run Time 7:58 PM Run Date 03/03/2026 IRION COUNTY, TEXAS PRIMARY ELECTION ... Unofficial Results ... 100 ... James Talarico 0 2 0 2' (Absentee, Early, Election Day, Total); the posted file is a scan with CreationDate 2026-03-04 15:43:21 UTC, after election night. Server Last-Modified is the request time (no upload evidence)."
+      "fact": "Rule 43: no election-night county-totals file survives (the only file is the precinct report with election-day votes, printed 7:58 PM on election night but scanned the next morning, so what was posted that night is not shown). Previous: 'Precinct Results Report PRIMARY MARCH 3 2026 Run Time 7:58 PM Run Date 03/03/2026 IRION COUNTY, TEXAS PRIMARY ELECTION ... Unofficial Results ... 100 ... James Talarico 0 2 0 2' (Absentee, Early, Election Day, Total); the posted file is a scan with CreationDate 2026-03-04 15:43:21 UTC, after election night. Server Last-Modified is the request time (no upload evidence)."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",
