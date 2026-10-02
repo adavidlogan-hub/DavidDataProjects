@@ -1,20 +1,20 @@
 {
   "county": "Cherokee",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
   "platform": "county_pdfs",
   "host": "www.co.cherokee.tx.us",
-  "evidence_url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/2026-05/05-26-26%20OFFICIAL%20TOTALS-Precinct%20Results.pdf",
+  "evidence_url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed elections page works over https. No Clarity or vendor site found. The county posts Hart PDF reports (Cumulative and Precinct) on its OpenCms site; link hrefs use backslashes, fetched with forward slashes. Last-Modified headers vary per file and look like real upload times. The 8:40 PM runoff cumulative file returned 403, so its content was not read; its county-total nature is inferred from its 'Cumulative Results' name and is supported by the absence of any election-night precinct file. 2024 general undetermined (check 3 pending; wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary LATER to UNDETERMINED. Targeted pass 3 2026-10-02 (targeted3-D): no election changed. Verifier disagreement on 2026_runoff not resolved by new evidence; the runoff record is left as the research wrote it. Tried: (1) the commented-out night links on elections.html at their linked paths and in the 2026-05 and 2024-11 folders: 'EV AND ABSENTEE Cumulative Results-5-26-2026.pdf' (root and 2026-05), '11-05-24 Unofficial FINAL Cumulative - All reporting.pdf' (root and 2024-11) and 'prelim reconcile 05-26-26.pdf' return HTTP 403; '2026-05/8 of 8 locations Cumulative Results-5-26-2026.pdf' redirects to the county home page (index.html), not a PDF. So the 8:40 PM runoff file still cannot be opened and no printed run time or upload time for it exists. (2) archive.org/wayback/available: no snapshot of the 8 of 8 file; elections.html only at 20260526203722 (3:37 PM CDT May 26, before polls closed; replay host unreachable). (3) wayback-data harvest: zero captures for all three elections. (4) Check 4: Cherokeean Herald 'March 3, 2026, primary results - Cherokee County, Texas' (dated March 04, 2026) says 'Complete but unofficial results, with 16 of 16 Cherokee County precincts reporting, were posted by the Cherokee County Election Department as of 9:33 p.m. Tuesday' and gives county percentages only (lead, not a county file); the runoff preview has no results. Sweep pending.",
-  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "notes": "Seed elections page works over https. No Clarity or vendor site found. The county posts Hart PDF reports (Cumulative and Precinct) on its OpenCms site; link hrefs use backslashes, fetched with forward slashes. Last-Modified headers vary per file and look like real upload times. The 8:40 PM runoff cumulative file returned 403, so its content was not read; its county-total nature is inferred from its 'Cumulative Results' name and is supported by the absence of any election-night precinct file. 2024 general undetermined (check 3 pending; wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary LATER to UNDETERMINED. Targeted pass 3 2026-10-02 (targeted3-D): no election changed. Verifier disagreement on 2026_runoff not resolved by new evidence; the runoff record is left as the research wrote it. Tried: (1) the commented-out night links on elections.html at their linked paths and in the 2026-05 and 2024-11 folders: 'EV AND ABSENTEE Cumulative Results-5-26-2026.pdf' (root and 2026-05), '11-05-24 Unofficial FINAL Cumulative - All reporting.pdf' (root and 2024-11) and 'prelim reconcile 05-26-26.pdf' return HTTP 403; '2026-05/8 of 8 locations Cumulative Results-5-26-2026.pdf' redirects to the county home page (index.html), not a PDF. So the 8:40 PM runoff file still cannot be opened and no printed run time or upload time for it exists. (2) archive.org/wayback/available: no snapshot of the 8 of 8 file; elections.html only at 20260526203722 (3:37 PM CDT May 26, before polls closed; replay host unreachable). (3) wayback-data harvest: zero captures for all three elections. (4) Check 4: Cherokeean Herald 'March 3, 2026, primary results - Cherokee County, Texas' (dated March 04, 2026) says 'Complete but unofficial results, with 16 of 16 Cherokee County precincts reporting, were posted by the Cherokee County Election Department as of 9:33 p.m. Tuesday' and gives county percentages only (lead, not a county file); the runoff preview has no results. Sweep pending. Targeted pass 4 2026-10-02 (targeted4-J): 2026_runoff LATER to UNDETERMINED; tag COUNTY_ONLY_PRECINCT_AT_CANVASS to UNKNOWN (settles the verifier disagreement in phase1/verification/Cherokee.json). Finding: the fetch store shows the earlier HTTP 403 responses for '8 of 8 locations Cumulative Results-5-26-2026.pdf' (research-2, verifier-6) had the body 'Host not in allowlist: www.co.cherokee.tx.us' (this sandbox's egress block), not a county response. Re-fetched today, the root URL redirects to the county home page index.html, so the 8:40 PM file no longer exists there; the same redirect happens for '11-05-24 Unofficial FINAL Cumulative - All reporting.pdf' (root and 2024-11) and 'prelim reconcile 05-26-26.pdf'. 'EV AND ABSENTEE Cumulative Results-5-26-2026.pdf' returns a 'Verifying Your Browser' proof-of-work challenge (HTTP 403, twice); not circumvented. With no opened election-night file, the 8:40 PM time rests only on a link label in commented-out HTML, which rule 43 does not accept. Also tried: runoff Official Cumulative (post-canvass, CreationDate Jun 1, Last-Modified Jun 5); newtools.cira.state.tx.us/page/cherokee.elections (IIS 403, Cherokee is not a CIRA-hosted site); wayback-data branch: no Cherokee sweep, targeted archives, or targeted wayback folders, main harvest zero captures (sweep pending); check 4: two web searches and Cherokeean Herald articles 53216 (Nov 6 2024, county totals only) and 47468 (2020 general, not in scope); no per-precinct third-party page found.",
+  "tag_rationale": "All three elections are UNDETERMINED after Targeted pass 4 (no election-night file can be opened for any of them), so the rule gives UNKNOWN.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
@@ -37,13 +37,13 @@
       "fact": "Rule 43: no election-night file survives. Previous: 'Unofficial Precinct Results - All reporting' is a 500-page 'Precinct Results Report Unofficial Results CHEROKEE COUNTY, TEXAS ... PRIMARY ELECTION ... Run Time 3:30 PM Run Date 03/05/2026', Last-Modified Sat, 07 Mar 2026 03:01:37 GMT (9:01 PM CST Mar 6), both after election night. No earlier precinct file for the primary is listed."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-05-26 20:40 CT",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "2026-06-05 08:47 CT",
       "night_updates_with_precinct_numbers": "0",
-      "evidence_url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/2026-05/05-26-26%20OFFICIAL%20TOTALS-Precinct%20Results.pdf",
-      "fact": "Election-night links on the Elections page are 'Absentee + Early Voting Totals - 7:00pm' and '8:40pm - All 8 of 8 locations reporting' (both Hart 'Cumulative Results' county totals by file name; the 8:40 PM file returned HTTP 403 to the fetch module). The only runoff precinct file is 'Official Precinct-by-Precinct Results', a 'Precinct Results Report Official Results ... Run Time 3:21 PM ... Run Date 06/01/2026', Last-Modified Fri, 05 Jun 2026 13:47:07 GMT."
+      "evidence_url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/8%20of%208%20locations%20Cumulative%20Results-5-26-2026.pdf",
+      "fact": "Rule 43 (DECISIONS 67): no election-night file could be opened. The night links survive only as commented-out HTML on elections.html: 'Absentee + Early Voting Totals - 7:00pm' (EV AND ABSENTEE Cumulative Results-5-26-2026.pdf) and '8:40pm - All 8 of 8 locations reporting' (8 of 8 locations Cumulative Results-5-26-2026.pdf). On 2026-10-02 the 8 of 8 URL redirects to http://www.co.cherokee.tx.us/ips/cms/index.html (the file is no longer on the server); the EV AND ABSENTEE URL returns a 'Verifying Your Browser' proof-of-work challenge (HTTP 403), not the file. A link label is not a printed run time or upload time, so the 8:40 PM county-totals time is not shown by any opened file. The only runoff precinct file is 'Official Precinct-by-Precinct Results' (Run Date 06/01/2026, Last-Modified Fri, 05 Jun 2026 13:47:07 GMT); 'Official Cumulative Results' has CreationDate Mon Jun 1 20:21:10 2026 UTC and Last-Modified Fri, 05 Jun 2026 13:47:08 GMT."
     }
   },
   "sources": [
@@ -74,6 +74,34 @@
       "content_hash": "be65f37c246927e57d31eca36d444b1883601dc673740808c0c2437a01aa2bc1",
       "quote": "Official Precinct-by-Precinct => 2024-11\\11-05-24 official pct x pct.pdf",
       "supports": "Only official 2024 general file remains"
+    },
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/8%20of%208%20locations%20Cumulative%20Results-5-26-2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "53ae48d18ef9fa428ea823ba1006485caf0460a97f811dc043f937acc0416b92",
+      "quote": "HTTP 200 after redirect; final_url http://www.co.cherokee.tx.us/ips/cms/index.html (county home page HTML, not a PDF)",
+      "supports": "the 8:40 PM runoff night totals file is no longer on the server; earlier HTTP 403 records for it were this sandbox's egress block ('Host not in allowlist: www.co.cherokee.tx.us'), not a county response"
+    },
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/EV%20AND%20ABSENTEE%20Cumulative%20Results-5-26-2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "618e6a1b01a31855a4448f7096ae22e265b5b82d72aa8c49ca78264b62e94a4a",
+      "quote": "Verifying Your Browser ... We're performing a brief security check before loading ... <script src=\"/wab-cgi/static/pow.js\">",
+      "supports": "7:00 PM early-vote totals file is behind a bot challenge (HTTP 403); not circumvented, content not read"
+    },
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/2026-05/05-26-26%20OFFICIAL%20TOTALS-Cumulative%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "f440e254433daa63199f517ab92bcadfce698ccac51049be06fd0ed94c112d48",
+      "quote": "Cumulative Results Report CHEROKEE COUNTY, TEXAS Official Results ... PRIMARY RUNOFF ELECTION OFFICIAL TOTALS (CreationDate Mon Jun 1 20:21:10 2026 UTC; Last-Modified Fri, 05 Jun 2026 13:47:08 GMT)",
+      "supports": "surviving runoff county-totals file is post-canvass, not election night"
+    },
+    {
+      "url": "https://thecherokeean.com/articles/53216/view/cherokee-county-election-results",
+      "via": "fetch_module",
+      "content_hash": "3295ac511c57ef9fb4db615b42bc8fad74c990fee277b5542a50cafebef0521a",
+      "quote": "Cherokee County Election Results November 06, 2024 ... unofficial complete results are available at the Cherokee County Elections Office on 5th Street.",
+      "supports": "2024 general: third-party page gives county totals only, no per-precinct numbers (not check 4 evidence)"
     }
   ]
 }
