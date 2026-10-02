@@ -1,0 +1,57 @@
+{
+  "county": "Cherokee",
+  "reason_selected": "low confidence (after rule 43 normalization)",
+  "verifier_tag": "UNKNOWN",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No Clarity link. Election page (elections.html) has the 2024 night link only inside an HTML comment ('11-05-24 Unofficial FINAL Cumulative - All reporting.pdf'); previousElectionResults.html lists only '11-05-24 official cumulative.pdf', 'official pct x pct.pdf', 'official reconciliation.pdf'. No election-night file could be opened. check 3 unavailable (no Cherokee folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'UNOFFICIAL Precinct Results 03-03-2026.pdf' (2026-03 folder): Precinct Results Report, 'Run Time 3:30 PM ... Run Date 03/05/2026', CreationDate Mar 5 2026 21:30 UTC, Last-Modified Sat 07 Mar 2026 03:01:37 GMT (Mar 6 9:01 PM CST): precinct numbers two days after election night. No election-night county-totals file survives (previous results page lists only official files), so LATER cannot be shown."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "elections.html keeps commented-out links 'EV AND ABSENTEE Cumulative Results-5-26-2026.pdf' ('Absentee + Early Voting Totals - 7:00pm') and '8 of 8 locations Cumulative Results-5-26-2026.pdf' ('8:40pm - All 8 of 8 locations reporting'), but the 8 of 8 file returns 403 and the labels are not printed run or upload times. Surviving runoff files are official (e.g. '05-26-26 OFFICIAL TOTALS-Precinct Results.pdf', Last-Modified Fri 05 Jun 2026). No openable election-night file."
+    }
+  },
+  "rationale": "No openable election-night file for any of the three elections; precinct numbers appear only after election night (primary unofficial precinct report run 03/05/2026) but the night county totals cannot be opened, so all three are UNDETERMINED and the tag is UNKNOWN.",
+  "sources": [
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
+      "content_hash": "a6d85d1c676d9c5b59fd636e4a2e890d50688793d1630a4eda397da6f021eb2f",
+      "what_i_checked": "commented-out night links with labels; current visible content (cached copy; host now blocked by this session's egress allowlist)"
+    },
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/previousElectionResults.html",
+      "content_hash": "",
+      "what_i_checked": "only official files for 2024, primary, runoff (cached copy)"
+    },
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/2026-03/UNOFFICIAL%20Precinct%20Results%2003-03-2026.pdf",
+      "content_hash": "4603161800a70eb4db19780373f5802b651a4360d5ee384dc217ab658bed4791",
+      "what_i_checked": "primary precinct report run 03/05/2026 3:30 PM, uploaded Mar 7 03:01 GMT"
+    },
+    {
+      "url": "https://www.co.cherokee.tx.us/ips/cms/othercountyoffices/8%20of%208%20locations%20Cumulative%20Results-5-26-2026.pdf",
+      "content_hash": "",
+      "what_i_checked": "runoff night totals link: HTTP 403, not openable"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:42:11Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": false,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED): only official files listed for Nov 5 2024.",
+    "2026_primary": "same (UNDETERMINED): unofficial precinct report run 03/05/2026 3:30 PM, uploaded Mar 7 03:01 GMT; no night county-totals file.",
+    "2026_runoff": "different: research LATER (check 2, county_totals_first_seen 2026-05-26 20:40 CT), I say UNDETERMINED. The 20:40 time comes only from the link label '8:40pm - All 8 of 8 locations reporting' (a commented-out link in the page HTML); the file itself returned HTTP 403 to both of us, so no printed run time or upload time was read and its county-totals nature is inferred from the file name. Under rule 43 a label is not a file's printed run or upload time. Research claim not supported by an opened source.",
+    "unsupported_claims": "2026_runoff county_totals_first_seen 20:40 rests on a link label in commented-out HTML, not on the file (403).",
+    "note": "This session's egress allowlist blocks www.co.cherokee.tx.us; I read the cached bodies of the county page and PDFs through txprecinct.cat."
+  },
+  "compared_at_utc": "2026-10-02T16:42:20Z"
+}

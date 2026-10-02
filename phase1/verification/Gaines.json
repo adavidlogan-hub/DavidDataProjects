@@ -1,0 +1,47 @@
+{
+ "county": "Gaines",
+ "reason_selected": "low confidence (after rule 43 normalization)",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Neither gaines.elections.current nor gaines.Elections.Archive lists any November 5, 2024 results file (the archive's '2024' headings contain only 2025 elections' files). No file to read; no wayback folder (check 3 unavailable)."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Results for 'March 3rd, 2026 Primary': 'Unofficial' = 'Cumulative Results-3-4-2026 11-13-48 AM Unofficial Partial.pdf' (county totals, 'Precincts Reporting 7 of 7', printed 'Run Time 11:13 AM Run Date 03/04/2026', Last-Modified Wed, 04 Mar 2026 17:17:09 GMT); 'Precinct' = 'Precinct Results-3-6-2026 09-28-05 AM Final Official.pdf'. All after election night; no election-night file survives."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "'Unofficial' = 'Cumulative Results-5-26-2026 09-39-16 PM ED Unofficial.pdf': 'Cumulative Results Report GAINES COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION', county totals with Absentee/Early/Election Day columns (Lt. Governor DEM: Goodwin 11 total, 4 Election Day), no precinct rows, printed 'Run Time 9:39 PM Run Date 05/26/2026' (CreationDate 2026-05-27 02:39:24 UTC). Last-Modified Wed, 27 May 2026 01:49:57 GMT (8:49 PM CDT; 50 minutes before the printed time, so the server clock or header is off, but both fall on election night). The precinct file 'Precinct Results-5-29-2026 04-49-26 PM.pdf' is dated after election night."
+  }
+ },
+ "rationale": "Only the runoff is determined: an election-night county-totals cumulative report (printed 9:39 PM, uploaded the same night) with precinct results only on May 29 (LATER). 2024 has no file and the primary has only post-election-night files. One determined election, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+ "sources": [
+  {
+   "url": "https://www.co.gaines.tx.us/page/gaines.elections.current",
+   "content_hash": "0459e47331d25dba216a6bbd1f12e263cd69c7e8dc4709cd50c21a3064cc3d45",
+   "what_i_checked": "2026 results lists (cached copy from 2026-10-02)"
+  },
+  {
+   "url": "https://www.co.gaines.tx.us/page/gaines.Elections.Archive",
+   "content_hash": "bb1f0a0e6e8cc85ebb1be5f1ac3f80e0716c6f8dfd848613752bbbc82f0d882b",
+   "what_i_checked": "no 2024 general files"
+  },
+  {
+   "url": "https://www.co.gaines.tx.us/upload/page/11725/docs/May 26th 2026/Cumulative Results-5-26-2026 09-39-16 PM ED Unofficial.pdf",
+   "content_hash": "06081ae57cae6a5368b3107225472989fc94a7726a637410ce49ba580f52680f",
+   "what_i_checked": "county totals run 9:39 PM election night"
+  },
+  {
+   "url": "https://www.co.gaines.tx.us/upload/page/11725/docs/March 3 2026/Cumulative Results-3-4-2026 11-13-48 AM Unofficial Partial.pdf",
+   "content_hash": "8c63a34529e07b80c6b43cffaca9239e3fc206d26605b218e13822683b36ea8e",
+   "what_i_checked": "run 03/04/2026 11:13 AM"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:46:34Z"
+}

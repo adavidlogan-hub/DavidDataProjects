@@ -1,0 +1,61 @@
+{
+  "county": "Matagorda",
+  "reason_selected": "low confidence (after rule 43 normalization)",
+  "verifier_tag": "UNKNOWN",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Past Elections page lists for Nov 5 2024 only 'Cumulative Results - Official' (Cumulative Results-11-15-2024 04-32-48 PM.pdf: 'Official Results ... Nov 5, 2024 Election Night ... Run Time 4:32 PM ... Run Date 11/15/2024', Last-Modified Mon 18 Nov 2024 15:12:28 GMT) and 'Precinct Report - Official'. No election-night file survives. No Clarity link. check 3 unavailable (no Matagorda folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "fact": "Elections page: 'Precinct Report - unofficial' (2026/2026 Primary - precinct report.pdf): 'Precinct Results Report ... Unofficial Results ... Election Night 3/3/26 ... Precincts Reporting 18 of 18 ... Run Time 9:03 PM ... Run Date 03/03/2026', precinct '1-A ... Jasmine Crockett 2 49 27 78' (Election Day 27); CreationDate Mar 4 2026 03:03:46 UTC, ModDate 03:52:08 UTC (9:52 PM CST). 'Cumulative Results - unofficial' printed 8:53 PM. Both files re-uploaded Fri 27 Mar 2026 (Last-Modified), so the night upload time is not visible. Precinct numbers with election-day votes printed once on election night, with all 18 precincts reporting."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Cumulative Results (unofficial)' (Cumulative Results-5-26-2026 08-21-46 PM.pdf): 'Unofficial Results ... ELECTION NIGHT MAY 26, 2026 ... Precincts Reporting 18 of 18 ... Run Time 8:19 PM', county totals, Last-Modified Wed 27 May 2026 01:31:11 GMT (8:31 PM CDT). Only other runoff results file is the hand count audit; no runoff precinct report posted. Precinct numbers not published online."
+    }
+  },
+  "rationale": "Primary END (election-night precinct report by printed run time), runoff LATER (election-night county totals only, uploaded 8:31 PM CDT), 2024 undetermined. Two different determined results give UNKNOWN.",
+  "sources": [
+    {
+      "url": "https://www.co.matagorda.tx.us/page/Elections",
+      "content_hash": "540c804708e3f1",
+      "what_i_checked": "2026 file lists (hash prefix shown)"
+    },
+    {
+      "url": "https://www.co.matagorda.tx.us/upload/page/0087/2026/2026%20Primary%20-%20precinct%20report.pdf",
+      "content_hash": "7732f069bc6575ea45ebdebfcf2de7e60df7fc3d6696c4f8ee006e1512c9162c",
+      "what_i_checked": "primary precinct report run 9:03 PM 3/3/2026 with election-day votes"
+    },
+    {
+      "url": "https://www.co.matagorda.tx.us/upload/page/0087/2026/2026%20Primary%20-%20cumulative%20un.pdf",
+      "content_hash": "3ab511acf123186cd851adeb3a8aec61514bd32372adcf0213550c6aab02d636",
+      "what_i_checked": "primary cumulative run 8:53 PM, re-uploaded Mar 27"
+    },
+    {
+      "url": "https://www.co.matagorda.tx.us/upload/page/0087/Cumulative%20Results-5-26-2026%2008-21-46%20PM.pdf",
+      "content_hash": "00766754a712fddfec87e9865c106eaa7dcb1bc09db4a7aa92cb4979e6803160",
+      "what_i_checked": "runoff county totals 8:19 PM, uploaded 01:31:11 GMT"
+    },
+    {
+      "url": "https://www.co.matagorda.tx.us/upload/page/0087/Cumulative%20Results-11-15-2024%2004-32-48%20PM.pdf",
+      "content_hash": "acf35446d8978c0914fc01fec14957c67120f86512c24b40fa83cb5ea79a5fb0",
+      "what_i_checked": "2024 official only"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:51:41Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": false,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED): only official reports run 11/15/2024.",
+    "2026_primary": "different: research UNDETERMINED, I say END (check 2). Same facts: the unofficial precinct report reads 'Election Night 3/3/26 ... Run Time 9:03 PM ... Run Date 03/03/2026' with election-day votes per precinct (ModDate 03:52 UTC = 9:52 PM CST), but its Last-Modified is Mar 27 2026 (re-upload). Research requires a night upload to prove publication; I applied the brief's check 2 reading that a printed run time on election night is evidence (as the brief allows for LATER, and as research itself accepted for Gillespie's runoff END with a creation time and no upload time). Difference in rule reading, not in facts. If the printed time is accepted, the county has END (primary) and LATER (runoff) and the tag is UNKNOWN; if not, research's single-election COUNTY_ONLY_PRECINCT_AT_CANVASS (low) stands.",
+    "2026_runoff": "same (LATER, check 2): county totals run 8:19 PM, uploaded 01:31:11 GMT (8:31 PM CDT); no runoff precinct report.",
+    "unsupported_claims": "none found; research's facts match the files."
+  },
+  "compared_at_utc": "2026-10-02T16:51:55Z"
+}

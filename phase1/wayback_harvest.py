@@ -115,8 +115,12 @@ def main(argv=None) -> int:
             continue
         assert t["url_prefixes"], f"{t['county']}: no url_prefixes"
         print(json.dumps({"county": t["county"], **harvest_county(client, t, a.cap)}), flush=True)
-    print(json.dumps({"elapsed_seconds": round(time.time() - t0, 1)}))
-    return 0
+    with client.store.connect() as con:
+        blocked = con.execute("SELECT COUNT(*) FROM fetches WHERE host_class = 'archive' AND fetched_at >= ? "
+                              "AND error = 'robots_disallowed_or_unreachable'", (t0,)).fetchone()[0]
+    print(json.dumps({"elapsed_seconds": round(time.time() - t0, 1), "robots_blocked_requests": blocked}))
+    # Loud failure: a robots.txt outage must not pass as "no captures".
+    return 2 if blocked else 0
 
 
 if __name__ == "__main__":

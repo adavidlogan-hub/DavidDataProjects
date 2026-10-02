@@ -1,0 +1,47 @@
+{
+ "county": "McMullen",
+ "reason_selected": "low confidence (after rule 43 normalization)",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No seed URL; county site is mcmullencounty.org (co.mcmullen.tx.us is robots-disallowed/unreachable). Elections page, 'Tuesday, November 5, 2024 General Election': '11/05/2024 ELECTION RESULT REPORT' (11.5.24-Results-report.pdf), scanned Electionware 'Summary Results Report TX McMullen 241105 General 6110 UNOFFICIAL RESULTS', county totals by vote type (Trump 446 total, 99 Election Day), printed 'Election Summary - 11/05/2024 6:50 PM' (before 7 PM yet containing election-day votes, so the printer clock looks off), Last-Modified Thu, 07 Nov 2024 21:36:23 GMT. Neither time establishes an election-night posting. No wayback folder (check 3 unavailable)."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "'March 3rd Unofficial Results - Republican Primary Election' (ELECTION-UNOFFICIAL-RESULT-REPORT_52502_1772600829896.pdf): 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION ... MCMULLEN County', county totals by vote type (Ken Paxton 0 / 63 / 33 = 96), no precinct rows; CreationDate 2026-03-04 05:07:09 UTC (11:07 PM CST election night; the file name's 1772600829896 ms stamp matches), Last-Modified Wed, 04 Mar 2026 16:23:05 GMT (next morning). No precinct-level file is posted for this election. Caveat: the runoff report shows 'Election Day Precincts Reporting 1 of 1', so county totals may equal the only precinct's numbers."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "'May 26, 2026 McMullen County, Primary Runoff, UNOFFICIAL RESULTS' (5.27.2026-Unofficial-Results-McMullen-County-Primary-Runoff.jpg): Electionware 'Summary Results Report ... UNOFFICIAL RESULTS', printed 'Election Summary - 05/27/2026 1:41 PM', Last-Modified Wed, 27 May 2026 19:19:53 GMT. After election night."
+  }
+ },
+ "rationale": "Only the primary is determined: an SOS county-totals unofficial report generated 11:07 PM on election night and no precinct file (LATER). 2024 has a report with an unreliable printed time uploaded two days later, and the runoff report was printed the next afternoon. One determined election, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+ "sources": [
+  {
+   "url": "https://mcmullencounty.org/elections/",
+   "content_hash": "fc3234a2166e2e9b37f70d244b270efa651adb4ae780cf3a24f7a1b263cbfdbf",
+   "what_i_checked": "results lists for all three elections"
+  },
+  {
+   "url": "https://mcmullencounty.org/wp-content/uploads/2026/03/ELECTION-UNOFFICIAL-RESULT-REPORT_52502_1772600829896.pdf",
+   "content_hash": "6d70dcaa140b892899b57bf693c281ac213b1e7b8e5934dd13ab6d0cbc3adce6",
+   "what_i_checked": "SOS county totals, created 05:07 UTC Mar 4"
+  },
+  {
+   "url": "https://mcmullencounty.org/wp-content/uploads/2024/11/11.5.24-Results-report.pdf",
+   "content_hash": "d64590a4c402eb54d73cd10816361123235734c47f0db52408c7c5990c205e8b",
+   "what_i_checked": "rendered: printed 6:50 PM, uploaded 7 Nov 2024"
+  },
+  {
+   "url": "https://mcmullencounty.org/wp-content/uploads/2026/05/5.27.2026-Unofficial-Results-McMullen-County-Primary-Runoff.jpg",
+   "content_hash": "18988eb11c2e0641594115200048b6f41fe95add1ed2074499d41c3dc8010607",
+   "what_i_checked": "printed 05/27/2026 1:41 PM"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:52:50Z"
+}

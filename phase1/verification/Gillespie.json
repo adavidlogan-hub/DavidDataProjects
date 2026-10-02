@@ -1,0 +1,57 @@
+{
+  "county": "Gillespie",
+  "reason_selected": "tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Seed gillespiecounty.org redirects to gillespiecounty.gov, which this session's egress allowlist blocks; I read the cached bodies. 'Election Results (Past & Present)' Year 2024 tab lists only consecutive DocumentCenter IDs 1143 to 1151 (re-posted set): 'November 5, 2024 General Election (Early Voting and Election Day)' (View/1146) is 'Canvass Results Report Official Results ... Run Time 4:15 PM ... Run Date 11/15/2024'; also 'Precinct Official Results Report' and reconciliations. No election-night file. CivicPlus sends no Last-Modified. No Clarity link. check 3 unavailable (no Gillespie folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'2026 Gillespie County Republican Primary Unofficial Results (PDF)' (View/2345): Excel export, county totals by Election Day / Early Voting In Person / Ballot by Mail (e.g. 'KEN PAXTON 1433 1416 54 2903'), CreationDate Fri Mar 6 2026 16:25:21 UTC, after election night; no upload time. Later files are canvass and official. No election-night file."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "fact": "'2026 Republican Primary Runoff Unofficial Results (PDF)' (View/2594): Google Sheets PDF '2026 Unofficial Results of May 26 Republican Primary Runoff' with per-precinct candidate columns ('John Cornyn 203 129 103 228 ... Totals 1828'; 'Ken Paxton 291 169 171 ... 3049'), CreationDate Wed May 27 2026 03:55:09 UTC (10:55 PM CDT May 26). Only one unofficial runoff file; next is 'Official Results by Precinct'. Precinct numbers including election day once on election night by printed creation time; no server upload time available (CivicPlus omits Last-Modified)."
+    }
+  },
+  "rationale": "Only the runoff is determined: one unofficial per-precinct results sheet created 10:55 PM CDT on election night (END). One determined election gives PRECINCT_END_OF_NIGHT, confidence low; the END rests on a PDF creation time without an upload time.",
+  "sources": [
+    {
+      "url": "https://www.gillespiecounty.gov/1319/Election-Results-Past-Present",
+      "content_hash": "",
+      "what_i_checked": "file list per election (cached body; host blocked for this session)"
+    },
+    {
+      "url": "https://www.gillespiecounty.gov/DocumentCenter/View/2594/2026-Republican-Primary-Runoff-Unofficial-Results-PDF",
+      "content_hash": "ca586abfb863bf0c2b0090474db1d1c99f98a81ff0018b55fb1ed46291aca13a",
+      "what_i_checked": "per-precinct runoff sheet, CreationDate 03:55 UTC May 27"
+    },
+    {
+      "url": "https://www.gillespiecounty.gov/DocumentCenter/View/2345/2026-Gillespie-County-Republican-Primary-Unofficial-Results-PDF",
+      "content_hash": "808cb3830fa2b0c3cc39aad5c3da604513ef461e3e47978fb6f0199155484c55",
+      "what_i_checked": "primary county totals created Mar 6"
+    },
+    {
+      "url": "https://www.gillespiecounty.gov/DocumentCenter/View/1146/November-5-2024-General-Election-Early-Voting-and-Election-Day-PDF",
+      "content_hash": "5ec13fe1f8dca21887a3f84716606d93f62367def1b08b8d687b4ef2d4140fb4",
+      "what_i_checked": "2024 canvass run 11/15/2024"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:46:50Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED): only canvass/official files (canvass run 11/15/2024).",
+    "2026_primary": "same (UNDETERMINED): unofficial county totals created Mar 6 2026 16:25 UTC.",
+    "2026_runoff": "same (END, check 2): Google Sheets per-precinct sheet, CreationDate 03:55:09 UTC May 27 (10:55 PM CDT); no upload time. Both of us rest END on the creation time only.",
+    "unsupported_claims": "none found",
+    "note": "gillespiecounty.gov is blocked by this session's egress allowlist; I read the cached bodies through txprecinct.cat."
+  },
+  "compared_at_utc": "2026-10-02T16:46:56Z"
+}

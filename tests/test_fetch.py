@@ -200,3 +200,9 @@ def test_url_with_space_fetches(server, make_client):
     server.routes = {"/robots.txt": [ROBOTS_OK], "/a%20b.pdf": [(200, {}, b"pdf")]}
     r = make_client().get(base(server) + "/a b.pdf")
     assert r.ok and r.body == b"pdf"
+
+
+def test_robots_transient_failure_is_retried(server, make_client):
+    server.routes = {"/robots.txt": [(503, {}, b"busy"), ROBOTS_OK], "/p": [(200, {}, b"ok")]}
+    r = make_client().get(base(server) + "/p")
+    assert r.ok and len(server.hits_for("/robots.txt")) == 2

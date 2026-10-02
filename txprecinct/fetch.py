@@ -214,16 +214,21 @@ class FetchClient:
                 rp = self._parser_from(row["status"], row["body"], row["error"])
                 self._robots_mem[host] = (row["checked_at"] + ttl, rp)
                 return rp.can_fetch(self.cfg.user_agent, url)
-        slot = self.limiter.acquire(parts.hostname.lower(), hc)
-        try:
-            status, body, _h, _f, err = self._raw_request(origin + "/robots.txt", {})
-        finally:
-            self.limiter.release(slot)
+        # Same retry policy as page fetches: a transient refusal must not be cached as "disallow all".
+        for attempt in range(1 + self.cfg.retries):
+            slot = self.limiter.acquire(parts.hostname.lower(), hc)
+            try:
+                status, body, _h, _f, err = self._raw_request(origin + "/robots.txt", {})
+            finally:
+                self.limiter.release(slot)
+            if err is None and status is not None and status >= 500:
+                err = f"HTTP {status}"
+            if status == 429:
+                err = "HTTP 429"
+            if err is None or attempt == self.cfg.retries:
+                break
+            time.sleep(self.cfg.retry_backoff_base_seconds * (2 ** attempt))
         text = body.decode("utf-8", errors="replace") if body else None
-        if err is None and status is not None and status >= 500:
-            err = f"HTTP {status}"
-        if status == 429:
-            err = "HTTP 429"
         self.store.put_robots(host, status, text, err)
         if err:
             rec = self._base_rec(origin + "/robots.txt", parts.hostname.lower(), hc, "robots")

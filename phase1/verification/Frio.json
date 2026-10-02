@@ -1,0 +1,61 @@
+{
+  "county": "Frio",
+  "reason_selected": "low confidence (after rule 43 normalization)",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Seed URL lands on the county home page; Elections page is /page/elect.home. Neither it nor 'ARCHIVED ELECTION RESULTS 2014 - 2024' (/page/ArchiveElection) lists any Nov 5 2024 result file (archive shows 2022 files). No Clarity link. check 3 unavailable (no Frio folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'Unofficial Primary March 3, 2026' (DOC030426.pdf) and '... Republican' (DOC030426-001.pdf): scans (TOSHIBA e-STUDIO3518A), CreationDate Mar 4 2026 13:40 UTC, Last-Modified Wed 04 Mar 2026 14:02:58 / 14:03:17 GMT (8:03 AM CST Mar 4), after election night. Later files are canvass and reconciliations. No election-night file survives."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Unofficial Democratic / Unofficial Republican / May 26, 2026' all link NewFolder/DOC052626-006.pdf: scanned Electionware 'Election Summary Results Report 2026 Primary Runoff Election ... UNOFFICIAL RESULTS Frio County', county totals only (e.g. 'Ken Paxton 198 ... Election Day 119'), 'Election Day Precincts Reporting 9 of 9'; footer 'Election Summary - 05/26/2026 5:37 PM' (tabulator clock evidently off, since it includes all election-day votes); Last-Modified Wed 27 May 2026 02:19:50 GMT (9:19 PM CDT). Only other runoff results file is the '2026 Democratic Primary Runoff Election Canvass Report' (DOC060526.pdf, June). County totals on the night, no precinct file that night."
+    }
+  },
+  "rationale": "Only the runoff is determined: LATER from an election-night upload (9:19 PM CDT) of a county-totals summary with no precinct file that night. One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low.",
+  "sources": [
+    {
+      "url": "https://www.co.frio.tx.us/page/elect.home",
+      "content_hash": "26212f50bfbdda8b70e32a531bf64d82a2233ac2ed410ee1809368bc56657321",
+      "what_i_checked": "file list per election"
+    },
+    {
+      "url": "https://www.co.frio.tx.us/upload/page/0099/NewFolder%20A/NewFolder/DOC052626-006.pdf",
+      "content_hash": "bb6f51d5e9efa92eb60e07d4e8046a687df53b0ecaceaf295b5308be436d6490",
+      "what_i_checked": "runoff county totals, uploaded 02:19:50 GMT May 27 (page images read)"
+    },
+    {
+      "url": "https://www.co.frio.tx.us/upload/page/0099/NewFolder%20A/DOC030426.pdf",
+      "content_hash": "5c865cdc77b83aee7f10f852ca35fbb1bf43b324482d06771bcbcd9d74cbf4cc",
+      "what_i_checked": "primary unofficial uploaded 8:03 AM CST Mar 4"
+    },
+    {
+      "url": "https://www.co.frio.tx.us/upload/page/0099/NewFolder%20A/DOC030426-001.pdf",
+      "content_hash": "a771483dccef509df9d80f386dac0f3c78f4791b2402b9919cc6dbd0f751bc8d",
+      "what_i_checked": "primary unofficial Republican uploaded 8:03 AM CST Mar 4"
+    },
+    {
+      "url": "https://www.co.frio.tx.us/page/ArchiveElection",
+      "content_hash": "dd555c2b60d2eb1568cde52d230950fbbe8d0569fb173e6adee41aeb19348d",
+      "what_i_checked": "no 2024 general files"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:45:18Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same result (UNDETERMINED). Research found a 2024 'UNOFFICAL RESULTS' file (SOS-format county totals, Last-Modified Nov 8 2024) that I did not find; it is after election night either way.",
+    "2026_primary": "same (UNDETERMINED): unofficial files uploaded 14:03 GMT Mar 4 (8:03 AM CST).",
+    "2026_runoff": "same (LATER, check 2): DOC052626-006.pdf county totals, Last-Modified 02:19:50 GMT May 27 (9:19 PM CDT); next file is the canvass report.",
+    "unsupported_claims": "none found"
+  },
+  "compared_at_utc": "2026-10-02T16:45:24Z"
+}

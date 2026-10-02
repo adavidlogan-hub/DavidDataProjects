@@ -1,0 +1,52 @@
+{
+ "county": "Hartley",
+ "reason_selected": "low confidence (after rule 43 normalization)",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Voter.Information page, 'GENERAL ELECTION ON NOVEMBER 5, 2024': only notices (notice of general/special election, Hartley ISD, Channing tax rate) and 'SEC of State 11.05.2024.pdf' (Last-Modified 26 Sep 2024, pre-election). No results file posted. No wayback folder (check 3 unavailable)."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Page text: 'Public Portal: Election results will be available throughout the evening on the Portal' linking to goelect.txelections.civixapps.com (SOS). County files: 'SUMMARY RESULTS REPORT REPUBLICAN PARTY' (3.3.26 Summary Results Rep.pdf) Last-Modified Thu, 12 Mar 2026 15:26:31 GMT; 'SUMMARY RESULTS REPORT BY PRECINCT REPUBLICAN PARTY' Last-Modified Mon, 16 Mar 2026 18:40:06 GMT. The county later posted its own results, so not NONE; the SOS-portal note has no time and is not a county file, and every county results file is dated after election night."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "'SUMMARY RESULTS REPORT - UNOFFICIAL' (5.26.26 Summary Results.pdf): CreationDate 2026-05-29 23:31 UTC, Last-Modified Fri, 29 May 2026 22:34:30 GMT, after election night. Other runoff files are reconciliation forms. No election-night results file survives."
+  }
+ },
+ "rationale": "No election is determined: 2024 has no results file, and the 2026 county results files were all uploaded days after election night (the primary page points election-night viewers to the SOS portal, which is not a timed county file). Tag UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://www.co.hartley.tx.us/page/Voter.Information",
+   "content_hash": "deb680d511902ae8444252d035583e6d9cf5a61d124e914886509bdafc8a0d6d",
+   "what_i_checked": "results lists for three elections"
+  },
+  {
+   "url": "https://www.co.hartley.tx.us/upload/page/0103/5.26.26%20Summary%20Results.pdf",
+   "content_hash": "fcbbb36a7d0c55785162d27a0e969a4395d9df6079a92751b16cb3b6fd6e0fb7",
+   "what_i_checked": "uploaded 29 May 2026"
+  },
+  {
+   "url": "https://www.co.hartley.tx.us/upload/page/0103/3.3.26%20Summary%20Results%20Rep.pdf",
+   "content_hash": "8ae5cc0cde18e0a711de777219b8616b14f18dd0b15e71b02844cf3be1a6010b",
+   "what_i_checked": "uploaded 12 Mar 2026"
+  },
+  {
+   "url": "https://www.co.hartley.tx.us/upload/page/0103/3.3.26%20Summary%20Results%20Report%20Rep.pdf",
+   "content_hash": "77d95f05e48865e2f5e9acad63dffef30fffd27e2b1dd8467fe9c8150134f1db",
+   "what_i_checked": "precinct report uploaded 16 Mar 2026"
+  },
+  {
+   "url": "https://www.co.hartley.tx.us/upload/page/0103/docs/SEC%20of%20State%2011.05.2024.pdf",
+   "content_hash": "28feb3306affd2927cd7039968722980bef040357657b5687d9f14e93497f86f",
+   "what_i_checked": "pre-election SOS document, Sep 2024"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:48:44Z"
+}

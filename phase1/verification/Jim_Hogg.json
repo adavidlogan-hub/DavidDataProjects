@@ -1,0 +1,57 @@
+{
+ "county": "Jim Hogg",
+ "reason_selected": "tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "END",
+   "check": "2",
+   "fact": "'Precinct Results-11-5-2024.pdf': 'Precinct Results Report Unofficial Results JIM HOGG COUNTY, TEXAS ... GENERAL ELECTION', per-precinct with Absentee/Early/Election Day columns (Precinct 1 President: Trump 12 / 65 / 92 = 169), printed 'Run Time 7:39 PM Run Date 11/05/2024' (CreationDate 2024-11-06 01:40:10 UTC, ModDate 02:01:01 UTC = 8:01 PM CST). Companion 'Election Results-11-5-2024.pdf' cumulative, same run time. Caveat: Last-Modified Wed, 06 Nov 2024 13:25:31 GMT (7:25 AM CST Nov 6), so the surviving copy was uploaded the next morning; END rests on the printed run time only. Wayback folder exists but its 2024 CDX query timed out (no captures)."
+  },
+  "2026_primary": {
+   "result": "END",
+   "check": "2",
+   "fact": "'Unofficial Precinct Results 3-3-2026' (2026/Unofficial Precinct Results-3-3-2026.pdf): 'Precinct Results Report Unofficial Results ... PRIMARY ELECTION', per-precinct with Election Day column (Precinct 1 DEM US Senator: Talarico 19 / 56 / 45 = 120), printed 'Run Time 8:47 PM Run Date 03/03/2026' (CreationDate 2026-03-04 02:48:22 UTC); Last-Modified Wed, 04 Mar 2026 06:41:37 GMT (12:41 AM CST, election night). Cumulative companion Last-Modified 06:41:12 GMT. Single election-night precinct posting. Wayback CDX for this window returned no captures."
+  },
+  "2026_runoff": {
+   "result": "END",
+   "check": "2",
+   "fact": "'Unofficial Precinct Results' (2026/Unofficial Precinct Results.pdf): 'Precinct Results Report Unofficial Results ... PRIMARY RUNOFF ELECTION', per-precinct with Election Day column, printed 'Run Time 7:16 PM Run Date 05/26/2026' (CreationDate 2026-05-27 00:16:56 UTC). Its cumulative companion (7:15 PM) equals the official canvass totals (Lt. Gov. DEM Velez 39 / 14 / 2 = 55), so it is the final unofficial count. Caveat: Last-Modified Wed, 27 May 2026 18:23:42 GMT (1:23 PM CDT May 27); END rests on the printed run time only. Wayback CDX for this window timed out."
+  }
+ },
+ "rationale": "All three elections have one unofficial precinct-by-precinct report with election-day votes and the final count, printed on election night (END); for the primary the upload time is also on election night, for 2024 and the runoff the surviving copy was uploaded the next day. Three END results, so PRECINCT_END_OF_NIGHT; med because the deciding elections rest on check 2.",
+ "sources": [
+  {
+   "url": "https://www.co.jim-hogg.tx.us/page/jim-hogg.Elections",
+   "content_hash": "6b80d1c46929f0849ba943ac29f5cf89ca969a7e240692d36f1c262bdc78c972",
+   "what_i_checked": "results lists for all three elections"
+  },
+  {
+   "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2024/Precinct Results-11-5-2024.pdf",
+   "content_hash": "31303a37c59d6119295b41536cc9dff760ddcf25b63aced15abff616a6764ebb",
+   "what_i_checked": "run 7:39 PM 11/05/2024, uploaded 13:25 GMT Nov 6"
+  },
+  {
+   "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial Precinct Results-3-3-2026.pdf",
+   "content_hash": "02e5ca26b1826aadbe716c28ec1bc5cec7e0d6128b6432383192cb876fc7b051",
+   "what_i_checked": "run 8:47 PM, uploaded 06:41:37 GMT Mar 4"
+  },
+  {
+   "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial Precinct Results.pdf",
+   "content_hash": "8c39b7e0e4873c206023722b431f84e0f09e6ee1ac0aa44e51800f4e31f43d40",
+   "what_i_checked": "run 7:16 PM 05/26/2026, uploaded 18:23 GMT May 27"
+  },
+  {
+   "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/Official Cumulative Results.pdf",
+   "content_hash": "7983626d0ce9c6cf14076d156a18d7019dd951f96765b776e099c4cc65e77acd",
+   "what_i_checked": "official runoff totals equal the 7:15 PM unofficial"
+  },
+  {
+   "url": "git show origin/wayback-data:phase1/wayback_snapshots/Jim_Hogg/index.json",
+   "content_hash": "",
+   "what_i_checked": "no captures in any window (2024 and runoff CDX timed out; primary CDX empty)"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:50:14Z"
+}

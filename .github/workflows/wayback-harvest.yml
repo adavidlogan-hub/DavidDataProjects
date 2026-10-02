@@ -33,8 +33,20 @@ jobs:
           path: var
           key: fetch-cache-${{ github.run_id }}-${{ matrix.batch }}
           restore-keys: fetch-cache-
+      - name: Clear transient robots.txt failures from the restored cache
+        run: |
+          python - <<'PY'
+          import sqlite3, os
+          p = "var/cache/index.sqlite"
+          if os.path.exists(p):
+              con = sqlite3.connect(p)
+              n = con.execute("DELETE FROM robots WHERE error IS NOT NULL").rowcount
+              con.commit()
+              print(f"cleared {n} failed robots.txt entries")
+          PY
       - name: Harvest
-        run: python -m phase1.wayback_harvest --agent wayback-harvest --cap 30 --batch ${{ matrix.batch }}/6 | tee harvest_log.jsonl
+        shell: bash
+        run: set -o pipefail; python -m phase1.wayback_harvest --agent wayback-harvest --cap 30 --batch ${{ matrix.batch }}/6 | tee harvest_log.jsonl
       - name: Save fetch cache (always)
         if: always()
         uses: actions/cache/save@v4
@@ -53,6 +65,7 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
       - name: Push snapshots to wayback-data branch
+        if: always()
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

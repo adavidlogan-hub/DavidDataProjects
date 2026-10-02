@@ -1,0 +1,52 @@
+{
+ "county": "Glasscock",
+ "reason_selected": "tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections-2025-and-Earlier: 'GLASSCOCK COUNTY TOTAL RESULTS - 11/5/24' (TALLY TOTALS for 11-5-24 General Election 1124 24.xlsx) has per-precinct sheets 'PCT TALLY 1' to '4' with Mailed/Early/Election Day columns (Precinct #1 Trump/Vance 11 / 123 / 48 = 182), workbook modified 2024-11-06T13:56:09Z, Last-Modified Wed, 06 Nov 2024 14:19:00 GMT (8:19 AM CST Nov 6), after election night. The only other 2024 file is early-voting results. No election-night file survives; no wayback folder (check 3 unavailable)."
+  },
+  "2026_primary": {
+   "result": "END",
+   "check": "2",
+   "fact": "Elections-2026: '3-3-2026 Republican Tally Totals' (2026/3-3-26 REPUBLICAN TALLY TOTALS.xlsx): 'March 3rd, 2026 - Republican Party - Primary Election PRECINCT #1' with Mailed in / Early / Election Day / Total votes per candidate (US Senator: John Cornyn 4 / 24 / 42 / 70), sheets 'PCT TALLY' to 'PCT TALLY (4)' and 'TOTAL TALLY'; workbook modified 2026-03-04T04:01:42Z (10:01 PM CST), Last-Modified Wed, 04 Mar 2026 06:37:56 GMT (12:37 AM CST, within election night). One election-night posting of precinct numbers with election-day votes; the file has no printed run time (workbook modified time used instead)."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "'5-26-26 REPUBLICAN RUNOFF TALLY TOTALS.xlsx': per-precinct tallies with Election Day votes (Precinct #1 Paxton 0 / 9 / 17 = 26), workbook modified 2026-05-27T13:07:54Z, Last-Modified Wed, 27 May 2026 15:42:10 GMT (10:42 AM CDT May 27), after election night. '5-26-26 Republican Runoff Election (PDF)' has Last-Modified 22 Apr 2026 (pre-election notice/ballot). No election-night file survives."
+  }
+ },
+ "rationale": "Only the primary is determined: a precinct tally workbook with election-day votes uploaded 12:37 AM election night (END). The 2024 and runoff precinct workbooks were uploaded the next morning and nothing from those nights survives. One determined election, so PRECINCT_END_OF_NIGHT, low.",
+ "sources": [
+  {
+   "url": "https://www.co.glasscock.tx.us/page/Elections-2026",
+   "content_hash": "fe9ebe58a31bc1b8d6642755b6477412dcc06823810f1a568a6d4364895af130",
+   "what_i_checked": "2026 results lists"
+  },
+  {
+   "url": "https://www.co.glasscock.tx.us/page/Elections-2025-and-Earlier",
+   "content_hash": "6235bbd5c1242c88dab50131b2a979131a7ef9de113ba80c6ca87f449ed9c211",
+   "what_i_checked": "2024 results list"
+  },
+  {
+   "url": "https://www.co.glasscock.tx.us/upload/page/0113/2026/3-3-26 REPUBLICAN TALLY TOTALS.xlsx",
+   "content_hash": "4e1e6d6f2ab224bdf367566e775b11b4156a9afb19cb777bc1d8daf635eb3493",
+   "what_i_checked": "precinct tallies, uploaded 06:37:56 GMT Mar 4"
+  },
+  {
+   "url": "https://www.co.glasscock.tx.us/upload/page/0114/2024/TALLY%20TOTALS%20for%2011-5-24%20General%20Election%201124%2024.xlsx",
+   "content_hash": "60b573a256faac7ceb46e0a0531042d560f19f2899b6bd7eba123807618b6bc7",
+   "what_i_checked": "precinct tallies, uploaded 14:19 GMT Nov 6"
+  },
+  {
+   "url": "https://www.co.glasscock.tx.us/upload/page/0113/5-26-26 REPUBLICAN RUNOFF TALLY TOTALS.xlsx",
+   "content_hash": "fef8013808fa8d380110a5c483ff077616546733fa8923e041c9afa11a4b010e",
+   "what_i_checked": "precinct tallies, uploaded 15:42 GMT May 27"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:47:43Z"
+}

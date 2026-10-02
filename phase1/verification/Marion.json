@@ -1,0 +1,67 @@
+{
+ "county": "Marion",
+ "reason_selected": "low confidence (after rule 43 normalization)",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Results are on the Tax Office elections site (marioncountytaxoffice.com, linked from co.marion.tx.us). The 'NOVEMBER 5, 2024 GENERAL ELECTION' page's only results link is 'OFFICIAL-RESULTS.pdf' (Last-Modified Sat, 16 Nov 2024 00:24:35 GMT); page text: 'Early Voting Results will be posted as soon as possible after our Election Day polling locations have closed. Election Day Results will be posted as soon as locations are tallied.' No election-night file survives. No wayback folder (check 3 unavailable)."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "'Unofficial Republican' (2026/03/REPUBLICAN-PARTY-UNOFFICIAL-RESULTS.pdf): 'Cumulative Results Report MARION COUNTY, TEXAS Unofficial Results PRIMARY ELECTION ... Precincts Reporting 10 of 10', county totals only (no precinct rows), printed 'Run Time 9:06 PM Run Date 03/03/2026', Last-Modified Wed, 04 Mar 2026 04:27:10 GMT (10:27 PM CST election night). The precinct file '2026-precint-results-Republican.pdf' is 'Precinct Results Report Official Results', Last-Modified Fri, 27 Mar 2026 21:32:39 GMT."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "'Unofficial Both Parties' (2026/05/unofficial-results-Cumulative-Results-5-26-2026-08-36-28-PM.pdf): 'Cumulative Results Report ... Unofficial Results PRIMARY RUNOFF ELECTION ... Precincts Reporting 10 of 10', county totals with Election Day column, printed 'Run Time 8:36 PM Run Date 05/26/2026', Last-Modified Wed, 27 May 2026 01:47:21 GMT (8:47 PM CDT election night). The page lists 'Precinct Results Republican Democrat' as plain text with no links, so runoff precinct numbers are not published online."
+  }
+ },
+ "rationale": "The primary and runoff each have an election-night county-totals unofficial report (printed and uploaded that night) and precinct numbers only weeks later or not at all (LATER). 2024 has only an official file. Two LATER results, so COUNTY_ONLY_PRECINCT_AT_CANVASS; med (check 2 with printed and upload times on election night).",
+ "sources": [
+  {
+   "url": "https://marioncountytaxoffice.com/elections/",
+   "content_hash": "9f387dbc5aace397b795e7559144553fd462750a9b15f7a2aa92cc27262618f9",
+   "what_i_checked": "election pages index"
+  },
+  {
+   "url": "https://marioncountytaxoffice.com/march-3-2026-joint-primary-election/",
+   "content_hash": "689474be1bed1c1328a1c252ab7ac0ae79381a9de7ff6bd764ca88b918672ad5",
+   "what_i_checked": "primary results links"
+  },
+  {
+   "url": "https://marioncountytaxoffice.com/may-26-2026-joint-primary-runoff-election/",
+   "content_hash": "77fc2cb39c00816f375d67c32c9966bd91896c6bdf4ec8dabc8514fe211bb5fb",
+   "what_i_checked": "runoff results links; precinct results line unlinked"
+  },
+  {
+   "url": "https://marioncountytaxoffice.com/november-5-2024-general-election/",
+   "content_hash": "3f4d9ca38a6c6592adc06dbcf1f3da6b1187ac1ec0248d45a48ed32c2bd68074",
+   "what_i_checked": "only official results linked"
+  },
+  {
+   "url": "https://marioncountytaxoffice.com/wp-content/uploads/2026/03/REPUBLICAN-PARTY-UNOFFICIAL-RESULTS.pdf",
+   "content_hash": "f17498cb8491f7afa09033f86616d54047cb42567de2a8d0e3df303c83c50b65",
+   "what_i_checked": "county totals run 9:06 PM, uploaded 04:27 GMT Mar 4"
+  },
+  {
+   "url": "https://marioncountytaxoffice.com/wp-content/uploads/2026/03/2026-precint-results-Republican.pdf",
+   "content_hash": "5ab859b42a5ec30ca32df4d7254a6703d8c65117216c47f11d2b190ff91d4aab",
+   "what_i_checked": "official precinct results uploaded 27 Mar 2026"
+  },
+  {
+   "url": "https://marioncountytaxoffice.com/wp-content/uploads/2026/05/unofficial-results-Cumulative-Results-5-26-2026-08-36-28-PM.pdf",
+   "content_hash": "dd8dddaf6533bbd441c4bbb99cc79dc35e093353e0196f0ea4d0e1b0402dbbcf",
+   "what_i_checked": "county totals run 8:36 PM, uploaded 01:47 GMT May 27"
+  },
+  {
+   "url": "https://marioncountytaxoffice.com/wp-content/uploads/2024/11/OFFICIAL-RESULTS.pdf",
+   "content_hash": "b8dd05df5a347e7505e6474867ce39d7923f22896289e60d21a0aec946c8d6ff",
+   "what_i_checked": "uploaded 16 Nov 2024"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:51:31Z"
+}
