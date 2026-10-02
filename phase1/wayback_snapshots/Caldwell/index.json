@@ -3,18 +3,288 @@
   "targets": [
     "co.caldwell.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T15:54:39Z",
+  "harvested_at_utc": "2026-10-02T16:53:32Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.caldwell.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "URLError: timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "82d3b8aa36df057c299bc8be1faa23a4d4bd365e1b09af3f1e25b7d14972eeab"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106074317",
+          "local": "2024-11-06 01:43:17 CST",
+          "original": "https://www.co.caldwell.tx.us/page/ElectionResults",
+          "mimetype": "text/html",
+          "digest": "7TCEUCECS77YZCPTPXHLWE7VPZ7PLZB3",
+          "length": "9429",
+          "replay_url": "https://web.archive.org/web/20241106074317id_/https://www.co.caldwell.tx.us/page/ElectionResults",
+          "ok": true,
+          "error": null,
+          "content_hash": "8210af7296bbf7e53de4442c3c328abe99b188cea0ae4fdc72c5d2398d7e7876",
+          "saved_as": "Caldwell/2024_general_20241106074317_8210af7296bb.html"
+        },
+        {
+          "timestamp_utc": "20241106074340",
+          "local": "2024-11-06 01:43:40 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/Unofficial%20EV%20gen%202018.pdf",
+          "mimetype": "application/pdf",
+          "digest": "3YGK3QP4WOYUF6W636GGM6K4NPEAHFU5",
+          "length": "371924",
+          "replay_url": "https://web.archive.org/web/20241106074340id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/Unofficial%20EV%20gen%202018.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "08794f81c226e3a836a9f6b980bf8b43207964deaceecd1f5aa2d925428ac5ac",
+          "saved_as": "Caldwell/2024_general_20241106074340_08794f81c226.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074341",
+          "local": "2024-11-06 01:43:41 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unoffocial%20early%20voting%2005052018.pdf",
+          "mimetype": "application/pdf",
+          "digest": "VMSBZXYG325CQ4B6TGKQR2T5VMZNUQEU",
+          "length": "11611",
+          "replay_url": "https://web.archive.org/web/20241106074341id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unoffocial%20early%20voting%2005052018.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "8ecf4e86e2d0055e7893914656ba89ad274358ddc058e8eac0ebe02bc6490b40",
+          "saved_as": "Caldwell/2024_general_20241106074341_8ecf4e86e2d0.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074342",
+          "local": "2024-11-06 01:43:42 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20gt%20gen%202018.pdf",
+          "mimetype": "application/pdf",
+          "digest": "D6EBYP2FPKJXMN5NAQGBTQ3KBKH24YY5",
+          "length": "366230",
+          "replay_url": "https://web.archive.org/web/20241106074342id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20gt%20gen%202018.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "bf94b00a34ab0b6e7f8c0022b0ae3a146fa07f87618953575dbb8e472a72071b",
+          "saved_as": "Caldwell/2024_general_20241106074342_bf94b00a34ab.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074343",
+          "local": "2024-11-06 01:43:43 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20ev-06302018172620.pdf",
+          "mimetype": "application/pdf",
+          "digest": "TYOV57SGNK3B4WFCDIKGBWGXTLTJF3BX",
+          "length": "8306",
+          "replay_url": "https://web.archive.org/web/20241106074343id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20ev-06302018172620.pdf",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106074343",
+          "local": "2024-11-06 01:43:43 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20gt-06302018202902.pdf",
+          "mimetype": "application/pdf",
+          "digest": "TABOSK4XUX5G4RBRYHUIZTQVASLV67CW",
+          "length": "8218",
+          "replay_url": "https://web.archive.org/web/20241106074343id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20gt-06302018202902.pdf",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106074351",
+          "local": "2024-11-06 01:43:51 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/grand%20total%20unofficial-11092016004051.pdf",
+          "mimetype": "application/pdf",
+          "digest": "X6VQN4D2FLQTNMJLZWFH5MQ5N4TL3ULM",
+          "length": "60288",
+          "replay_url": "https://web.archive.org/web/20241106074351id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/grand%20total%20unofficial-11092016004051.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "d8f1c123d0b0782b6792eb435fd0cd27184e527c5a963a8fb7869fd437929194",
+          "saved_as": "Caldwell/2024_general_20241106074351_d8f1c123d0b0.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074401",
+          "local": "2024-11-06 01:44:01 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/recount%20unofficial-11172016163521.pdf",
+          "mimetype": "application/pdf",
+          "digest": "BKBPB7UVJ3GYAJZT3PCKD472ZKB6L27J",
+          "length": "59297",
+          "replay_url": "https://web.archive.org/web/20241106074401id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/recount%20unofficial-11172016163521.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "dd6d2eecd89ca763ab33b610f149eb4a6f69fcdf472bb61db32c75f8800d6a0d",
+          "saved_as": "Caldwell/2024_general_20241106074401_dd6d2eecd89c.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074401",
+          "local": "2024-11-06 01:44:01 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2017/Unofficia.l%20Early%20Voting%20City%20of%20Lockhart-11072017170726.pdf",
+          "mimetype": "application/pdf",
+          "digest": "TUCCP4XKJGE7LVTI2KVYD66PQP7CERUL",
+          "length": "13802",
+          "replay_url": "https://web.archive.org/web/20241106074401id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2017/Unofficia.l%20Early%20Voting%20City%20of%20Lockhart-11072017170726.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "20b2e15993ca7ea894792ebccf4e64b15614b7ae1ea1423a5474c60c131175dc",
+          "saved_as": "Caldwell/2024_general_20241106074401_20b2e15993ca.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074402",
+          "local": "2024-11-06 01:44:02 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/election%20day%20unofficial%20ed05052018.pdf",
+          "mimetype": "application/pdf",
+          "digest": "EWEVZM4FUB2JBLYEBND6ODHGALI4BUDU",
+          "length": "11438",
+          "replay_url": "https://web.archive.org/web/20241106074402id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/election%20day%20unofficial%20ed05052018.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "1b2f251697c5daf47424b3fd18eed3042dc13c40d6ac03448fc6c39d5f3e662d",
+          "saved_as": "Caldwell/2024_general_20241106074402_1b2f251697c5.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074407",
+          "local": "2024-11-06 01:44:07 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2017/final-11072017214625.pdf",
+          "mimetype": "application/pdf",
+          "digest": "VOPU24WQHP7H27FOGT35Z2Q2SXPZEYEF",
+          "length": "22894",
+          "replay_url": "https://web.archive.org/web/20241106074407id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2017/final-11072017214625.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "ef739b1539b8344a38436cf672013d19c99ec7246d2af4fc0799f84e759df3ad",
+          "saved_as": "Caldwell/2024_general_20241106074407_ef739b1539b8.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074408",
+          "local": "2024-11-06 01:44:08 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/ev%20unofficial-11082016221507.pdf",
+          "mimetype": "application/pdf",
+          "digest": "NOZD7B7NAE4KX6VVTGCTT2Y4HHVZMDMV",
+          "length": "60683",
+          "replay_url": "https://web.archive.org/web/20241106074408id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/ev%20unofficial-11082016221507.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "ac816e6bb00ad62aa4d73f2daff6f281650e70dffb7d6f6dcd88363d3dc830f2",
+          "saved_as": "Caldwell/2024_general_20241106074408_ac816e6bb00a.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074409",
+          "local": "2024-11-06 01:44:09 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/REP%20UNOFFICIAL%20ED%20PRIMARY%202018.pdf",
+          "mimetype": "application/pdf",
+          "digest": "U3HKA6KMI4IP2HWDFB2346GGYG5LSERH",
+          "length": "19126",
+          "replay_url": "https://web.archive.org/web/20241106074409id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/REP%20UNOFFICIAL%20ED%20PRIMARY%202018.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "9794efccfccd93f1638a7c1073c4291333a8552768460541e4cbb5282aabf1ac",
+          "saved_as": "Caldwell/2024_general_20241106074409_9794efccfccd.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074410",
+          "local": "2024-11-06 01:44:10 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/ed%20unoffivial%20results-11092016004131.pdf",
+          "mimetype": "application/pdf",
+          "digest": "VNXF7G2METIGKN2LGP5QRLIR3T7IH4KH",
+          "length": "59539",
+          "replay_url": "https://web.archive.org/web/20241106074410id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/ed%20unoffivial%20results-11092016004131.pdf",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106074410",
+          "local": "2024-11-06 01:44:10 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2017/May62017UnofficalElectionResults-District2.pdf",
+          "mimetype": "application/pdf",
+          "digest": "ZDUOKKLUGIVBDG647LLFMHU6HUU3NQNC",
+          "length": "5773",
+          "replay_url": "https://web.archive.org/web/20241106074410id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2017/May62017UnofficalElectionResults-District2.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "d824cc511a0098c2dd2f0db8db2dbec2e2c67a51db477c41008f811f391565de",
+          "saved_as": "Caldwell/2024_general_20241106074410_d824cc511a00.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074411",
+          "local": "2024-11-06 01:44:11 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/DEMS%20UNOFFICAL%20ED%20RESULTS%20RO%202018.pdf",
+          "mimetype": "application/pdf",
+          "digest": "BWWGG6FY5V4SULZBF5GPFGVYMJ3ZIZGE",
+          "length": "14731",
+          "replay_url": "https://web.archive.org/web/20241106074411id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/DEMS%20UNOFFICAL%20ED%20RESULTS%20RO%202018.pdf",
+          "ok": false,
+          "error": "URLError: [Errno 111] Connection refused",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106074413",
+          "local": "2024-11-06 01:44:13 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/pct%20by%20pct-11182016145532.pdf",
+          "mimetype": "application/pdf",
+          "digest": "W64MA6OKFP5RLZ2KNBCK4N762TVRKARU",
+          "length": "1150406",
+          "replay_url": "https://web.archive.org/web/20241106074413id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2016/Nov%2008%202016%20Gen%20Election%20Results/pct%20by%20pct-11182016145532.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "3ed4b83cf6dc3d32f881227610a60b0d564c19da48979cfaac4670798b0abcd0",
+          "saved_as": "Caldwell/2024_general_20241106074413_3ed4b83cf6dc.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074414",
+          "local": "2024-11-06 01:44:14 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20ed-06302018202825.pdf",
+          "mimetype": "application/pdf",
+          "digest": "LKNA72S7AGS2ZNW6WXR6KQPOI2I6T27N",
+          "length": "8261",
+          "replay_url": "https://web.archive.org/web/20241106074414id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20ed-06302018202825.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "837c163db9e600724a45cf616960d1c9c0532274de7033893db71562ea999a3d",
+          "saved_as": "Caldwell/2024_general_20241106074414_837c163db9e6.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074421",
+          "local": "2024-11-06 01:44:21 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2017/Unofficia.l%20Early%20Voting-11072017170514.pdf",
+          "mimetype": "application/pdf",
+          "digest": "VNHBHQP64D7M42CCPQ5B7EXT5NOUMT4Z",
+          "length": "29179",
+          "replay_url": "https://web.archive.org/web/20241106074421id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2017/Unofficia.l%20Early%20Voting-11072017170514.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "54d4a536abffa0b60ac8c2cfa20cb8af620da7667b7ef1905d3b4ac6a072dfb6",
+          "saved_as": "Caldwell/2024_general_20241106074421_54d4a536abff.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074432",
+          "local": "2024-11-06 01:44:32 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2017/May62017UnofficalElectionResults-ESD4.pdf",
+          "mimetype": "application/pdf",
+          "digest": "Z3VR5BTYX5QDIJD4MWAGGCAXGEDM3DPZ",
+          "length": "6491",
+          "replay_url": "https://web.archive.org/web/20241106074432id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2017/May62017UnofficalElectionResults-ESD4.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "8d810ffb278b9417381bfa3b8e44c5ffed5b4308289067900bb9341332bb27c2",
+          "saved_as": "Caldwell/2024_general_20241106074432_8d810ffb278b.pdf"
+        },
+        {
+          "timestamp_utc": "20241106074437",
+          "local": "2024-11-06 01:44:37 CST",
+          "original": "https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20ed%20gen%202018.pdf",
+          "mimetype": "application/pdf",
+          "digest": "PY5DNGSIM4WSWC3PD2O3DTU44OWBPMKL",
+          "length": "357616",
+          "replay_url": "https://web.archive.org/web/20241106074437id_/https://www.co.caldwell.tx.us/upload/page/0119/docs/Elections/2018/unofficial%20ed%20gen%202018.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "89965fedd0f0a4a1cc784413aa92d06fe3467844b7f36a2d406f4e9369a74c55",
+          "saved_as": "Caldwell/2024_general_20241106074437_89965fedd0f0.pdf"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
@@ -39,5 +309,5 @@
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 21
 }

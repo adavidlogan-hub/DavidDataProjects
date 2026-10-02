@@ -3,7 +3,7 @@
   "targets": [
     "co.wise.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:44:17Z",
+  "harvested_at_utc": "2026-10-02T17:08:24Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -24,7 +24,7 @@
           "length": "21126",
           "replay_url": "https://web.archive.org/web/20241106045904id_/https://www.co.wise.tx.us/315/Elections?os=0slw57psddf",
           "ok": false,
-          "error": "URLError: timed out",
+          "error": "URLError: [Errno 111] Connection refused",
           "content_hash": null
         },
         {

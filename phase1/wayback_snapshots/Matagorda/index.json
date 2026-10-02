@@ -3,7 +3,7 @@
   "targets": [
     "co.matagorda.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:24:45Z",
+  "harvested_at_utc": "2026-10-02T17:01:57Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -23,9 +23,10 @@
           "digest": "UZLG5B22RKHE64VR4HGOH7DKYQ5TTQLU",
           "length": "13125",
           "replay_url": "https://web.archive.org/web/20241106021746id_/https://www.co.matagorda.tx.us/page/matagorda.elections",
-          "ok": false,
-          "error": "URLError: _ssl.c:999: The handshake operation timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "780a3c84245f1f45adaf831f0222fa68a7681a25497211e6331b7d65ad81bbd1",
+          "saved_as": "Matagorda/2024_general_20241106021746_780a3c84245f.html"
         },
         {
           "timestamp_utc": "20241106021809",
