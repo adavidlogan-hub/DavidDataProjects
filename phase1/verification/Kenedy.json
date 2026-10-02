@@ -48,5 +48,14 @@
       "content_hash": "41f459c2c65abd667eb962d0fd6da8fda74366aefc8578d5a3d65b5c6e8bcc58"
     }
   ],
-  "written_blind_at_utc": "2026-10-02T16:23:23Z"
+  "written_blind_at_utc": "2026-10-02T16:23:23Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "different: research LATER, I UNDETERMINED. The only 2024 files are scans made Nov 14 2024 (precinct report marked OFFICIAL, printed 11/14/2024 12:49 PM). Under the updated LATER rule (positive election-night evidence required) no election-night file survives, so research's LATER is not supported.",
+    "2026_primary": "same result (LATER, check 2). Research rests on scan dates (both files scanned after election night); I add the printed times: summary 'Election Summary - 03/03/2026 8:22 PM' (election night, county totals) and unofficial precinct report 'Precinct Summary - 03/05/2026 2:53 PM'.",
+    "2026_runoff": "different: I recorded UNDETERMINED blind because I read only the Results page and missed the runoff files on the Current Election page. After comparison I opened them: 05_26_26-Summary-Report.pdf footer 'Election Summary - 05/26/2026 7:53 PM' and 05_26_26-Pct-Report.pdf footer 'Precinct Summary - 05/26/2026 7:55 PM', both scans created May 27 12:59-13:00 UTC (7:59-8:00 AM CDT next morning), Last-Modified date-only 27 May 2026. The posted precinct file did not exist until the morning after, which supports research's LATER; but note the precinct report itself was printed on election night. My blind verdict is left as written.",
+    "unsupported_or_unchecked": "Research 2024 LATER lacks election-night evidence under the updated rule. Research does not quote the printed footer times. Tag unchanged either way."
+  },
+  "compared_at_utc": "2026-10-02T16:24:04Z"
 }
