@@ -125,6 +125,7 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--county", required=True)
     ap.add_argument("--agent", required=True)
+    ap.add_argument("--out-dir", default=str(OUT), help="where to write <County>.json (verifier uses its own)")
     ap.add_argument("--eid", action="append", default=[],
                     help="election=EID from a county-site link, e.g. 2026_primary=125934 (repeatable)")
     a = ap.parse_args(argv)
@@ -134,8 +135,9 @@ def main(argv=None) -> int:
         assert k in TARGETS and v.isdigit(), f"bad --eid {kv!r}"
         override[k] = v
     res = run(a.county, a.agent, override)
-    OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / f"{a.county.replace(' ', '_')}.json").write_text(json.dumps(res, indent=2))
+    out = Path(a.out_dir)
+    out.mkdir(parents=True, exist_ok=True)
+    (out / f"{a.county.replace(' ', '_')}.json").write_text(json.dumps(res, indent=2))
     summary = {"county": a.county, "result": res.get("result", "ok")}
     for k, v in res["elections"].items():
         summary[k] = ("not listed" if not v["found"] else

@@ -1,0 +1,62 @@
+{
+  "seed": 20261002,
+  "required": [
+    {
+      "county": "Dallas",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Bexar",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Travis",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Tarrant",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Hidalgo",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Ector",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Midland",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Brewster",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Wilbarger",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Comal",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Jim Hogg",
+      "reason": "low confidence"
+    }
+  ],
+  "random_sample": [
+    {
+      "county": "Hudspeth",
+      "reason": "random 10 percent sample"
+    }
+  ],
+  "not_selected": [
+    "Harris",
+    "Loving",
+    "Lubbock",
+    "Sabine",
+    "Smith"
+  ]
+}
