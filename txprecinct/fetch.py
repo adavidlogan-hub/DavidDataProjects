@@ -16,7 +16,9 @@ import os
 import ssl
 import time
 import urllib.error
+import hashlib
 import http.cookiejar
+import json
 import urllib.request
 import urllib.robotparser
 from dataclasses import dataclass, field
@@ -110,12 +112,35 @@ class FetchClient:
                 extra["If-Modified-Since"] = cached["last_modified"]
         return self._fetch_with_retries(url, host, hc, extra, cached, purpose)
 
+    def post_json(self, url: str, payload: dict, *, purpose: str = "") -> FetchResult:
+        """POST a JSON body (for read-only listing services that only answer POST, such as
+        Laserfiche public portal folder listings). Same rate limits, robots.txt, retries, and
+        raw-body storage as get(); never served from cache. Stored under a key that includes
+        a hash of the payload, so it never shadows a GET of the same URL."""
+        url = normalize_url(url)
+        parts = urlsplit(url)
+        if parts.scheme not in ("http", "https") or not parts.hostname:
+            raise ValueError(f"unsupported URL: {url!r}")
+        data = json.dumps(payload, sort_keys=True).encode()
+        key = f"{url}#post-{hashlib.sha256(data).hexdigest()[:16]}"
+        host = parts.hostname.lower()
+        hc = self.cfg.classify(host)
+        if self.cfg.respect_robots and not self._robots_allows(url, parts, hc):
+            rec = self._base_rec(key, host, hc, purpose)
+            rec.update(error="robots_disallowed_or_unreachable", attempts=0)
+            self.store.record_fetch(rec, ok=False)
+            return FetchResult(url=key, status=None, body=None, content_hash=None,
+                               fetched_at=rec["fetched_at"], error=rec["error"])
+        return self._fetch_with_retries(key, host, hc, {"Content-Type": "application/json; charset=utf-8"},
+                                        None, purpose, data=data, request_url=url)
+
     # Internals -------------------------------------------------------------
     def _base_rec(self, url: str, host: str, hc: HostClass, purpose: str) -> dict:
         return {"url": url, "host": host, "host_class": hc.name, "fetched_at": time.time(),
                 "agent": self.agent, "purpose": purpose}
 
-    def _fetch_with_retries(self, url, host, hc, extra_headers, cached, purpose) -> FetchResult:
+    def _fetch_with_retries(self, url, host, hc, extra_headers, cached, purpose,
+                            data: bytes | None = None, request_url: str | None = None) -> FetchResult:
         attempts = 1 + self.cfg.retries
         last_err = None
         last_status = None
@@ -123,7 +148,7 @@ class FetchClient:
             slot = self.limiter.acquire(host, hc)
             t0 = time.time()
             try:
-                status, body, headers, final_url, err = self._raw_request(url, extra_headers)
+                status, body, headers, final_url, err = self._raw_request(request_url or url, extra_headers, data)
             finally:
                 self.limiter.release(slot)
             elapsed_ms = int((time.time() - t0) * 1000)
@@ -178,10 +203,10 @@ class FetchClient:
         base = hc.backoff_on_429_seconds
         return base * (2 ** attempt) if hc.exponential_backoff else base
 
-    def _raw_request(self, url: str, extra_headers: dict):
+    def _raw_request(self, url: str, extra_headers: dict, data: bytes | None = None):
         """Returns (status, body, headers, final_url, error). Never raises for HTTP/network errors."""
         headers = {"User-Agent": self.cfg.user_agent, "Accept": "*/*", **extra_headers}
-        req = urllib.request.Request(url, headers=headers, method="GET")
+        req = urllib.request.Request(url, headers=headers, data=data, method="POST" if data is not None else "GET")
         try:
             with self._opener.open(req, timeout=self.cfg.timeout_seconds) as resp:
                 body = resp.read()

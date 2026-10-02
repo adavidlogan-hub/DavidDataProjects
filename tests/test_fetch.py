@@ -206,3 +206,19 @@ def test_robots_transient_failure_is_retried(server, make_client):
     server.routes = {"/robots.txt": [(503, {}, b"busy"), ROBOTS_OK], "/p": [(200, {}, b"ok")]}
     r = make_client().get(base(server) + "/p")
     assert r.ok and len(server.hits_for("/robots.txt")) == 2
+
+
+def test_post_json_is_stored_under_its_own_key(make_client, monkeypatch):
+    import json as _json
+    client = make_client()
+    sent = {}
+
+    def fake_raw(url, extra, data=None):
+        sent.update(url=url, data=data, ctype=extra.get("Content-Type"))
+        return 200, b'{"ok": true}', {}, url, None
+    monkeypatch.setattr(client, "_raw_request", fake_raw)
+    monkeypatch.setattr(client, "_robots_allows", lambda *a: True)
+    r = client.post_json("https://portal.example.org/svc/List", {"folderId": 333})
+    assert r.ok and r.url.startswith("https://portal.example.org/svc/List#post-")
+    assert _json.loads(sent["data"]) == {"folderId": 333} and sent["ctype"].startswith("application/json")
+    assert client.store.latest_ok("https://portal.example.org/svc/List") is None
