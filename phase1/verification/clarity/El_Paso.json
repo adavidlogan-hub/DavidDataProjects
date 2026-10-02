@@ -1,0 +1,505 @@
+{
+  "county": "El Paso",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122595",
+          "name": "NOVEMBER 2024 GENERAL ELECTION",
+          "updates": [
+            {
+              "version": "346155",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/346155/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346156",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/346156/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346157",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/346157/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346158",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/346158/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346159",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/346159/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346956",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/346956/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347358",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/347358/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347437",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/347437/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/17/2024 4:00:46 PM MDT",
+              "precincts_with_votes": 98,
+              "nonzero_precinct_vote_cells": 5052,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347457",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/347457/reports/detailxml.zip",
+              "content_hash": "362a63c99ed6f1dee87ce6d0df240c062b278231a944f18f195dfab86086d8a9",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/17/2024 4:03:33 PM MDT",
+              "precincts_with_votes": 98,
+              "nonzero_precinct_vote_cells": 5052,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347458",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/347458/reports/detailxml.zip",
+              "content_hash": "45fa133f82d5b5c007bc5930ef34ea7963c71b22d00a44833ae671fd51e72414",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/17/2024 4:08:30 PM MDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347459",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/347459/reports/detailxml.zip",
+              "content_hash": "422bf2d4b1e6a761b4f2ae2113f8dd49c7e72e302e9ae98720e1350eff3291fc",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 6:48:43 PM MST",
+              "precincts_with_votes": 216,
+              "nonzero_precinct_vote_cells": 35650,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "351092",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/351092/reports/detailxml.zip",
+              "content_hash": "e9ee07b5bc11bb88cf23f83e9e2ae3e8a6419da5819af160bbe40225b2e7af60",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 8:52:10 PM MST",
+              "precincts_with_votes": 216,
+              "nonzero_precinct_vote_cells": 50782,
+              "precincts_with_election_day_votes": 205,
+              "election_day_precinct_vote_sum": 137366,
+              "version": "352195",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/352195/reports/detailxml.zip",
+              "content_hash": "b32e94064ea604cf35d3341288037fdd57c5ce87983132c985ff0dbb83650d76",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:41:13 PM MST",
+              "precincts_with_votes": 216,
+              "nonzero_precinct_vote_cells": 53951,
+              "precincts_with_election_day_votes": 213,
+              "election_day_precinct_vote_sum": 1166269,
+              "version": "352673",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/352673/reports/detailxml.zip",
+              "content_hash": "174605e1f53b6b4f30212e1898cd6e1306961835b59cfc387478495998b8e471",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:22:21 PM MST",
+              "precincts_with_votes": 216,
+              "nonzero_precinct_vote_cells": 54175,
+              "precincts_with_election_day_votes": 214,
+              "election_day_precinct_vote_sum": 1835483,
+              "version": "352848",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/352848/reports/detailxml.zip",
+              "content_hash": "894c2d6f4b9ec68ab1e23bd1cbb2a0bdab1a6c84a0e4af45ad89ed4d1b618e54",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:11:46 PM MST",
+              "precincts_with_votes": 216,
+              "nonzero_precinct_vote_cells": 54351,
+              "precincts_with_election_day_votes": 215,
+              "election_day_precinct_vote_sum": 2323864,
+              "version": "353000",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/353000/reports/detailxml.zip",
+              "content_hash": "072f5dfb6f707538d01b40b74af172d48b9b288bbaea06d9598e314b2afcbdca",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:00:24 AM MST",
+              "precincts_with_votes": 216,
+              "nonzero_precinct_vote_cells": 54442,
+              "precincts_with_election_day_votes": 215,
+              "election_day_precinct_vote_sum": 2432715,
+              "version": "353115",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/353115/reports/detailxml.zip",
+              "content_hash": "cc69b753e1fde4e7771424cbe2f3ee7da3ca3dcdb01862741c9520cb68fbf088",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:29:44 AM MST",
+              "precincts_with_votes": 216,
+              "nonzero_precinct_vote_cells": 54445,
+              "precincts_with_election_day_votes": 215,
+              "election_day_precinct_vote_sum": 2478974,
+              "version": "353145",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/353145/reports/detailxml.zip",
+              "content_hash": "ef667f8f9105afad63b5a32fce7e42ca030d8a389c5524e9a3f40011a426f26b",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/20/2024 1:01:04 PM MST",
+              "precincts_with_votes": 216,
+              "nonzero_precinct_vote_cells": 54489,
+              "precincts_with_election_day_votes": 215,
+              "election_day_precinct_vote_sum": 2483448,
+              "version": "355580",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/355580/reports/detailxml.zip",
+              "content_hash": "36e5ff3a1147eb1c4832ef59f02fa4c061f280e940fb7889803fb760e1460fa7",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 6,
+          "election_night_updates_with_precinct_votes": 6,
+          "first_update_with_precinct_votes": {
+            "timestamp": "10/17/2024 4:00:46 PM MDT",
+            "version": "347457",
+            "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/347457/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 6,
+          "election_night_distinct_election_day_precinct_releases": 6,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 8:52:10 PM MST",
+            "version": "352195",
+            "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/352195/reports/detailxml.zip"
+          },
+          "unreadable_versions": 8
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "125933",
+          "name": "MARCH 2026 PRIMARY ELECTION",
+          "updates": [
+            {
+              "version": "367844",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/367844/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367854",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/367854/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367856",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/367856/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367857",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/367857/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367863",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/367863/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/20/2026 4:49:25 PM MST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368165",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368165/reports/detailxml.zip",
+              "content_hash": "c38a3cf196784f43a3454836106eaa60e306d78ccf684ba20fad25b2dce6fe52",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:47:08 PM MST",
+              "precincts_with_votes": 225,
+              "nonzero_precinct_vote_cells": 65743,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368441",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368441/reports/detailxml.zip",
+              "content_hash": "2ecc6e6295e35d944e2ccee05dec732a299b177f896a650fa6b7df2025eed76b",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:15:55 PM MST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 89932,
+              "precincts_with_election_day_votes": 212,
+              "election_day_precinct_vote_sum": 152287,
+              "version": "368518",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368518/reports/detailxml.zip",
+              "content_hash": "f46fb6d07ecba0877da65aac120d434d4984c8c5d67870c99fc2e530aedefd9e",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:53:42 PM MST",
+              "precincts_with_votes": 228,
+              "nonzero_precinct_vote_cells": 98425,
+              "precincts_with_election_day_votes": 224,
+              "election_day_precinct_vote_sum": 420604,
+              "version": "368536",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368536/reports/detailxml.zip",
+              "content_hash": "42cd3993af1aaad7051935f0646cece52a22455a6b61c7318afffaac9f6847fb",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:41:02 PM MST",
+              "precincts_with_votes": 229,
+              "nonzero_precinct_vote_cells": 104833,
+              "precincts_with_election_day_votes": 228,
+              "election_day_precinct_vote_sum": 1314656,
+              "version": "368550",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368550/reports/detailxml.zip",
+              "content_hash": "b67dcfb16b6699c526ce04a725553e837b7e91332db9bb5e0ca54fd43d3432ef",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:47:21 PM MST",
+              "precincts_with_votes": 230,
+              "nonzero_precinct_vote_cells": 105540,
+              "precincts_with_election_day_votes": 229,
+              "election_day_precinct_vote_sum": 1626412,
+              "version": "368566",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368566/reports/detailxml.zip",
+              "content_hash": "1447df708de365a0436ea7d865d220a3fd292a8607e546ff8f43e7f4615c42b1",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 1:04:18 AM MST",
+              "precincts_with_votes": 230,
+              "nonzero_precinct_vote_cells": 105656,
+              "precincts_with_election_day_votes": 229,
+              "election_day_precinct_vote_sum": 1677575,
+              "version": "368578",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368578/reports/detailxml.zip",
+              "content_hash": "3f1e77db261c182c0ee4f5c0db2098df7a6380abe0cb894485c09666de61a7b8",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/6/2026 10:13:06 AM MST",
+              "precincts_with_votes": 230,
+              "nonzero_precinct_vote_cells": 105656,
+              "precincts_with_election_day_votes": 229,
+              "election_day_precinct_vote_sum": 1677575,
+              "version": "368637",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368637/reports/detailxml.zip",
+              "content_hash": "3fc0988b69d11d255d1b05ce2de0a2f3afefc7183e76973d0110ff6973bd0ebc",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/16/2026 1:39:38 PM MDT",
+              "precincts_with_votes": 230,
+              "nonzero_precinct_vote_cells": 106275,
+              "precincts_with_election_day_votes": 229,
+              "election_day_precinct_vote_sum": 1699358,
+              "version": "368846",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368846/reports/detailxml.zip",
+              "content_hash": "4726989648022d46a7e1b7c92877f8e699d051f13ef13f11a58cac3e796861e0",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/17/2026 10:58:48 AM MDT",
+              "precincts_with_votes": 230,
+              "nonzero_precinct_vote_cells": 106275,
+              "precincts_with_election_day_votes": 229,
+              "election_day_precinct_vote_sum": 1699358,
+              "version": "368861",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368861/reports/detailxml.zip",
+              "content_hash": "ab6e7dfea7a4d26c9e6fbb26bd1a71ec39f810c5d3dfbfcfc9ba38d6b130ec82",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/17/2026 6:24:10 PM MDT",
+              "precincts_with_votes": 230,
+              "nonzero_precinct_vote_cells": 106275,
+              "precincts_with_election_day_votes": 229,
+              "election_day_precinct_vote_sum": 1699358,
+              "version": "368882",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368882/reports/detailxml.zip",
+              "content_hash": "bc4c063c55906b4856ab2e1a2a0512ab0867fd6a016070cfdbbc86b68faa7f94",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 6,
+          "election_night_updates_with_precinct_votes": 6,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:47:08 PM MST",
+            "version": "368441",
+            "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368441/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 5,
+          "election_night_distinct_election_day_precinct_releases": 5,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 9:15:55 PM MST",
+            "version": "368518",
+            "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368518/reports/detailxml.zip"
+          },
+          "unreadable_versions": 5
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126385",
+          "name": "MAY 2026 PRIMARY RUNOFF",
+          "updates": [
+            {
+              "version": "371952",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/371952/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372355",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/372355/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/20/2026 12:30:21 PM MDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372360",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/372360/reports/detailxml.zip",
+              "content_hash": "fca316007c02094af7dc5bbc8191826354362d3c5d58befa2ce801d3357e9c37",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/20/2026 1:04:33 PM MDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372366",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/372366/reports/detailxml.zip",
+              "content_hash": "55a3153474a04b03d2be818f8f4b63e124f672a1c781b9ced5e0370b660b14bd",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 6:49:53 PM MDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372945",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/372945/reports/detailxml.zip",
+              "content_hash": "4e5adb119c37b330ca6deaba4849f67f49d64b63c2cc6eb51d6f9be4c1b5f277",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 8:34:53 PM MDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373022",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373022/reports/detailxml.zip",
+              "content_hash": "c1f5ecefce995456362c82277ccbdb293f41aee7c24e337df8dd8b163ee37c70",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:11:32 PM MDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373038",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373038/reports/detailxml.zip",
+              "content_hash": "f4dbac62a9abfc62827d36a6a92685e954d99d1c193dd997b1e39d7f3390fc33",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 10:20:47 PM MDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373054",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373054/reports/detailxml.zip",
+              "content_hash": "2cb207d73fcef42d0dd8fa4c3c52eb65d8e152afbd6730244fe1ff763f70094f",
+              "election_night": true
+            },
+            {
+              "version": "373133",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373133/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/27/2026 11:19:51 AM MDT",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 11387,
+              "precincts_with_election_day_votes": 223,
+              "election_day_precinct_vote_sum": 57178,
+              "version": "373134",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373134/reports/detailxml.zip",
+              "content_hash": "8e8d48e43e4b7fb0eb85c7fe5550e8df479a1f985f68c7f67637961e8a6dd8d4",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/15/2026 11:08:20 AM MDT",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 11408,
+              "precincts_with_election_day_votes": 223,
+              "election_day_precinct_vote_sum": 57269,
+              "version": "375717",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/375717/reports/detailxml.zip",
+              "content_hash": "174ea55406968f975be93cd72452042a981e5722aab1e6d015f49be23d315104",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/15/2026 11:10:48 AM MDT",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 11408,
+              "precincts_with_election_day_votes": 223,
+              "election_day_precinct_vote_sum": 57269,
+              "version": "375718",
+              "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/375718/reports/detailxml.zip",
+              "content_hash": "98633e3ac74a6ad885d86f6fa50a6c552aaa1c0a072dd411c567533990c6d682",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 0,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/27/2026 11:19:51 AM MDT",
+            "version": "373134",
+            "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373134/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 0,
+          "election_night_distinct_election_day_precinct_releases": 0,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/27/2026 11:19:51 AM MDT",
+            "version": "373134",
+            "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373134/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    }
+  }
+}

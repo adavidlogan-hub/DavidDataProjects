@@ -31,6 +31,10 @@ def main(out: str, counties_file: str) -> None:
         rec = json.loads(ev_path.read_text())
         validate_v2(rec, str(ev_path))
         rec["confidence"] = compute_confidence(rec)  # one rule for every county (DECISIONS 40)
+        clarity_urls = [rec["results_url"], rec["host"]] + [x.get("evidence_url", "") for x in rec["elections"].values()]
+        if rec["platform"] != "clarity_style" and any("clarityelections.com" in u for u in clarity_urls):
+            log.append(f"- {county}: platform {rec['platform']} normalized to clarity_style (Clarity results URL in record).")
+            rec["platform"] = "clarity_style"  # DECISIONS 41
         sd = seed[county]
         if not rec["elections_office_phone"] and not rec["elections_office_email"]:
             rec["elections_office_phone"], rec["elections_office_email"] = sd["phone"], sd["email"]

@@ -1,0 +1,26 @@
+# Verification log
+
+- Bastrop: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Bell: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Bexar: DISAGREE. research=LIVE_PRECINCT (high); verifier=COUNTY_ONLY_PRECINCT_AT_CANVASS. Final tag set to UNKNOWN.
+  - research rationale: The 2026 primary and 2026 runoff were both LIVE by check 1 (Clarity update log), so two elections share LIVE and the tag is LIVE_PRECINCT with high confidence.
+  - verifier rationale: Only 2024_general is determined (LATER, check 2), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence. The two 2026 elections, on the new Clarity system, could not be checked because no county-site link to their EIDs was found and check 3 data is not yet available.
+- Clay: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Comal: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Dallas: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Denton: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- El Paso: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Fort Bend: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Galveston: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Gregg: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Hidalgo: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Hidalgo: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Midland: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Midland: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Montague: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Parker: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Tarrant: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Travis: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Travis: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Victoria: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Wood: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
