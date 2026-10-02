@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# runtime state; cache index and blobs are committed for phase1 evidence only via phase1/evidence
+var/
