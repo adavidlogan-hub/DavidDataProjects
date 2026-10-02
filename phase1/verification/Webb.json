@@ -1,0 +1,65 @@
+{
+  "county": "Webb",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "No Clarity site (elections.json 404). Seed URL /ElectionsAdministration/ is 404; site read at /291/Elections. Archived Election Results lists '11-05-24 Joint General Elections (PDF)' (scan CreationDate 6/10/2025). CivicPlus returns request time as Last-Modified. No election-night 2024 file."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Unofficial Results 2026 'Combined (PDF)' (View/2697): scanned Election Summary Results Report, county totals, footer 'Election Summary - 03/03/2026 9:51 PM', scan CreationDate 3/4/2026 03:56 UTC. Precinct By Precinct page 'Combined' and 'Election Day' (View/2687, 2689): PCT by PCT, UNOFFICIAL RESULTS, dated March 10, 2026, CreationDate 3/10/2026 15:26 UTC. County totals on the night, precinct numbers a week later."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No May 26 2026 result file on the Unofficial, Official or Precinct By Precinct pages. check 3 pending (no folder on wayback-data)."
+    }
+  },
+  "rationale": "LATER in 2024_general and 2026_primary (check 2), runoff UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; no upload evidence (CivicPlus), so low.",
+  "sources": [
+    {
+      "url": "https://www.webbcountytx.gov/291/Elections",
+      "content_hash": "6446e43d9b2b5e51b817452f8d63da05910c997607e6bce5700928e8d1193738",
+      "what_i_checked": "elections hub"
+    },
+    {
+      "url": "https://www.webbcountytx.gov/698/Unofficial-Results-2026",
+      "content_hash": "34b37d03b630476d368f9f2fd2f064e8a72ef1830b56d9c7d975bbd770c0a4ee",
+      "what_i_checked": "primary unofficial files"
+    },
+    {
+      "url": "https://www.webbcountytx.gov/425/Precinct-By-Precinct-Results",
+      "content_hash": "7b824a19dad1b2e8d3a1e9fe1a22ff3aa4459291cd551dee17b20a6eb323c0a4",
+      "what_i_checked": "primary precinct files"
+    },
+    {
+      "url": "https://www.webbcountytx.gov/DocumentCenter/View/2697/Combined-PDF",
+      "content_hash": "dd7e800b68fe6a130286c16e63086cbc4734120d9fbb91f3d6f6d66a76e871fe",
+      "what_i_checked": "night summary 9:51 PM"
+    },
+    {
+      "url": "https://www.webbcountytx.gov/DocumentCenter/View/2687/Combined-PDF",
+      "content_hash": "c1d52d836ff08f395500bd9889127cda89c5024c2f6355eb68afdaff547349ac",
+      "what_i_checked": "PCT by PCT dated March 10"
+    },
+    {
+      "url": "https://www.webbcountytx.gov/DocumentCenter/View/2303/11-05-24-Joint-General-Elections-PDF",
+      "content_hash": "48b636421d11961cd652d847a4dd3b611cee5887a986a00ab078266ef9ad16aa",
+      "what_i_checked": "2024 file scanned Jun 2025"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "different: research UNDETERMINED, I said LATER (only a 2025 scan in the archive). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts.",
+    "2026_primary": "same (LATER, check 2): night summary 9:51 PM, PCT by PCT dated March 10.",
+    "2026_runoff": "same (UNDETERMINED)."
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z"
+}

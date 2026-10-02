@@ -1,0 +1,55 @@
+{
+  "county": "Bailey",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No Clarity site (elections.json 404). Elections page links 'Unofficial Results'/'Election Day Totals' (newtools.cira.state.tx.us/.../UNOFFICIAL ELECTION DAY TOTALS.pdf) and the canvass report: both HTTP 404. Only readable 2024 result is 'Bailey County Official Results Nov 5 2024' (scanned, CreationDate 11/19/2024 17:29 UTC, Last-Modified 11/19/2024 17:30 GMT). check 3 pending (no folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'2026 Republican Primary Election.pdf' and 'Election Unofficial Results Report Democrat.pdf' return HTTP 404; no other primary result file readable. check 3 pending (no folder on wayback-data)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Election Unofficial Results Report 2026 Republican Primary Runoff Election' (SOS-format report, ELECTION-UNOFFICIAL-RESULT-REPORT_94084_1779848092532.pdf): county totals only, e.g. U. S. SENATOR JOHN CORNYN Election Day Count 58, Total 118; PDF CreationDate 5/27/2026 02:14:52 UTC (9:14 PM CDT 5/26). Its Last-Modified is 7/20/2026 (folder 'Restore Files Missing'), so no upload evidence for the night. Precinct numbers only in 'Precinct Summary Results Report ... Official Results Republican' (scan CreationDate 6/23/2026, Last-Modified 7/13/2026). Election-night output was county totals; precinct numbers after canvass."
+    }
+  },
+  "rationale": "Only 2026_runoff is determined (LATER, check 2: night report is county totals, precinct report dated June); 2024 and primary night files are dead links. Exactly one determined, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+  "sources": [
+    {
+      "url": "https://www.co.bailey.tx.us/page/bailey.Elections",
+      "content_hash": "942586dd932cbd221512a5024103e7425c7722387685251077d7fdc0b391a465",
+      "what_i_checked": "list of result files for all three elections"
+    },
+    {
+      "url": "https://www.co.bailey.tx.us/upload/page/8143/Restore Files Missing/ELECTION-UNOFFICIAL-RESULT-REPORT_94084_1779848092532.pdf",
+      "content_hash": "f8d3f5e6b20260c47b29c2c0787ca021ce05be8c31775b3ae936fc1351fba426",
+      "what_i_checked": "runoff night county-totals report, CreationDate 9:14 PM CDT, Last-Modified Jul 2026"
+    },
+    {
+      "url": "https://www.co.bailey.tx.us/upload/page/8143/2026 Primary Runoff Election/Precinct Summary Results Report Official Results Republican.pdf",
+      "content_hash": "9c62b6717c62ffe72c6989fb9e8fa18b60669cda224f61055d6bdd549b7c04ed",
+      "what_i_checked": "runoff precinct report scanned Jun 23 2026"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/8143/2024/Bailey%20County%20Official%20Results%20Nov%205%202024.pdf",
+      "content_hash": "30005ebb4caddd4dde9f0664af010fcc82281db4df2ec73fb95793cbc4843061",
+      "what_i_checked": "2024 official results, Nov 19 2024"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED): night 'Election Day Totals' link 404.",
+    "2026_primary": "same (UNDETERMINED): unofficial links 404.",
+    "2026_runoff": "same (LATER, check 2): SOS county-totals report CreationDate 5/27/2026 02:14:52 UTC; both note Last-Modified is a later re-upload."
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z"
+}

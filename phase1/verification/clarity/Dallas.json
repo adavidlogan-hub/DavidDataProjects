@@ -7,15 +7,461 @@
       "note": "election not listed on this county's Clarity site"
     },
     "2026_primary": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "126006",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368124",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368124/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368126",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368126/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368130",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368130/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/20/2026 11:00:54 AM CST",
+              "precincts_with_votes": 791,
+              "nonzero_precinct_vote_cells": 88420,
+              "precincts_with_election_day_votes": 791,
+              "election_day_precinct_vote_sum": 84280,
+              "version": "368152",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368152/reports/detailxml.zip",
+              "content_hash": "07692c9bcd1463b273a8f6802d057bf54710e536229f0a54a096a05e6bc8838c",
+              "election_night": false
+            },
+            {
+              "version": "368153",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368153/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368154",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368154/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368155",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368155/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368156",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368156/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368162",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368162/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368168",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368168/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368210",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368210/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/25/2026 7:41:48 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368211",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368211/reports/detailxml.zip",
+              "content_hash": "10eccd376c2565c19bfdae4f679663666e3d7ad733c37176df96710834eb97aa",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/25/2026 12:46:11 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368233",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368233/reports/detailxml.zip",
+              "content_hash": "b0ddf7b21810054b64c15c6dd19e5a3be178216bb48560c4b848e953ed9ed600",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/25/2026 2:32:20 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368240",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368240/reports/detailxml.zip",
+              "content_hash": "3d17840e7057906f64071d72ff1bfedb8da8ee87587d30973c1c0608af2015e8",
+              "election_night": false
+            },
+            {
+              "version": "368244",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368244/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368245",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368245/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/25/2026 4:47:39 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368246",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368246/reports/detailxml.zip",
+              "content_hash": "ce631f410dba55fb22b50d34b393f397d4c5502902ceff2c1fd2d50c06a5f072",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 8:53:29 PM CST",
+              "precincts_with_votes": 728,
+              "nonzero_precinct_vote_cells": 198582,
+              "precincts_with_election_day_votes": 642,
+              "election_day_precinct_vote_sum": 445179,
+              "version": "368455",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368455/reports/detailxml.zip",
+              "content_hash": "75fda589bec80f24448b2396a327f0e74641eccdf033a13a117eecbaaae13f46",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:52:10 PM CST",
+              "precincts_with_votes": 728,
+              "nonzero_precinct_vote_cells": 198582,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368553",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368553/reports/detailxml.zip",
+              "content_hash": "267e1bad2f690258d7cdefdb46291051c35ad57475a0158593c324afffd8621b",
+              "election_night": true
+            },
+            {
+              "version": "368561",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368561/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/4/2026 12:40:13 AM CST",
+              "precincts_with_votes": 728,
+              "nonzero_precinct_vote_cells": 218079,
+              "precincts_with_election_day_votes": 118,
+              "election_day_precinct_vote_sum": 988809,
+              "version": "368563",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368563/reports/detailxml.zip",
+              "content_hash": "44dda0db1c97ee743f54f82ae7871c4b521281d7a24e4aa3c04c173e7975f535",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 1:00:22 AM CST",
+              "precincts_with_votes": 728,
+              "nonzero_precinct_vote_cells": 218079,
+              "precincts_with_election_day_votes": 118,
+              "election_day_precinct_vote_sum": 988809,
+              "version": "368571",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368571/reports/detailxml.zip",
+              "content_hash": "1e9a48279c9757da69ebda52175afa8a60b498f333b53978938d7423e6c887e8",
+              "election_night": true
+            },
+            {
+              "version": "368580",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368580/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/4/2026 2:05:26 AM CST",
+              "precincts_with_votes": 728,
+              "nonzero_precinct_vote_cells": 242346,
+              "precincts_with_election_day_votes": 271,
+              "election_day_precinct_vote_sum": 2514265,
+              "version": "368581",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368581/reports/detailxml.zip",
+              "content_hash": "c07ec4217ae1eb5787b1675c2284589c2322c921ca0cf41bea321786d4f4baeb",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 11:26:33 AM CST",
+              "precincts_with_votes": 729,
+              "nonzero_precinct_vote_cells": 314519,
+              "precincts_with_election_day_votes": 726,
+              "election_day_precinct_vote_sum": 7373564,
+              "version": "368593",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368593/reports/detailxml.zip",
+              "content_hash": "94d4dfa944106f7778f3a52666915a452cb35eaac0b22e0668537ed606eca222",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/12/2026 11:00:59 AM CDT",
+              "precincts_with_votes": 730,
+              "nonzero_precinct_vote_cells": 315749,
+              "precincts_with_election_day_votes": 727,
+              "election_day_precinct_vote_sum": 7386313,
+              "version": "368801",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368801/reports/detailxml.zip",
+              "content_hash": "2451995c76ba533eff595c1dc00179906deb949ad3b3ba3bbdeb26485659879e",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "2/20/2026 11:00:54 AM CST",
+            "version": "368152",
+            "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368152/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 4,
+          "election_night_distinct_election_day_precinct_releases": 3,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "2/20/2026 11:00:54 AM CST",
+            "version": "368152",
+            "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368152/reports/detailxml.zip"
+          },
+          "unreadable_versions": 14
+        },
+        {
+          "eid": "126007",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368127",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368127/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368128",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368128/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368131",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368131/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368132",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368132/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368133",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368133/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368157",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368157/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368158",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368158/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368159",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368159/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368160",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368160/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368161",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368161/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/22/2026 10:21:03 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368169",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368169/reports/detailxml.zip",
+              "content_hash": "9adfe6c17fa06a96f43dcc5783159c41b6d6463f57e9f4417e170e2cf4493462",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/25/2026 12:52:22 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368236",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368236/reports/detailxml.zip",
+              "content_hash": "7dcd58b60d823666e14079a1012eb37cec1a142dfaf96f5349f627b01c5cfa73",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/25/2026 5:03:01 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368247",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368247/reports/detailxml.zip",
+              "content_hash": "b0f011dd351c3b8418550d62878d295f569a84bee4e94c863f4cd32a705c3bac",
+              "election_night": false
+            },
+            {
+              "version": "368376",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368376/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 6:42:11 PM CST",
+              "precincts_with_votes": 712,
+              "nonzero_precinct_vote_cells": 78374,
+              "precincts_with_election_day_votes": 470,
+              "election_day_precinct_vote_sum": 87784,
+              "version": "368380",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368380/reports/detailxml.zip",
+              "content_hash": "7fc69546902830d60563c3481d3d3b7e8490215a125c423926e8570cdb3dacd9",
+              "election_night": false
+            },
+            {
+              "version": "368528",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368528/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 10:48:56 PM CST",
+              "precincts_with_votes": 717,
+              "nonzero_precinct_vote_cells": 88889,
+              "precincts_with_election_day_votes": 474,
+              "election_day_precinct_vote_sum": 89754,
+              "version": "368531",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368531/reports/detailxml.zip",
+              "content_hash": "62c8c4d8928eb9ed1b4c72fcccd443a0cbfa918794ac7a8f547216df443eaa67",
+              "election_night": true
+            },
+            {
+              "version": "368541",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368541/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368547",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368547/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 11:53:25 PM CST",
+              "precincts_with_votes": 717,
+              "nonzero_precinct_vote_cells": 88889,
+              "precincts_with_election_day_votes": 150,
+              "election_day_precinct_vote_sum": 197935,
+              "version": "368554",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368554/reports/detailxml.zip",
+              "content_hash": "b822056e5624dcf48900366904caadcd4130f44dd7d5b290277173e1f677a531",
+              "election_night": true
+            },
+            {
+              "version": "368556",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368556/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/4/2026 12:05:31 AM CST",
+              "precincts_with_votes": 719,
+              "nonzero_precinct_vote_cells": 102315,
+              "precincts_with_election_day_votes": 325,
+              "election_day_precinct_vote_sum": 581193,
+              "version": "368559",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368559/reports/detailxml.zip",
+              "content_hash": "77f50a592a0907bc1ca41d1e4a0d3cb831352df28a63e2b5e4e16e26de2854d5",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 12:56:13 AM CST",
+              "precincts_with_votes": 719,
+              "nonzero_precinct_vote_cells": 113437,
+              "precincts_with_election_day_votes": 477,
+              "election_day_precinct_vote_sum": 854257,
+              "version": "368568",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368568/reports/detailxml.zip",
+              "content_hash": "711f24105357691de00d612d63abd175dd5ad5df336b9c05fd58de098f14ce84",
+              "election_night": true
+            },
+            {
+              "version": "368569",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368569/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/4/2026 12:58:56 AM CST",
+              "precincts_with_votes": 719,
+              "nonzero_precinct_vote_cells": 113437,
+              "precincts_with_election_day_votes": 477,
+              "election_day_precinct_vote_sum": 854257,
+              "version": "368570",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368570/reports/detailxml.zip",
+              "content_hash": "3125b98f324c5c232ca17b2ffe9bce051d6acf0c97edb027f90ef6a2dec0c0f9",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 6:23:50 AM CST",
+              "precincts_with_votes": 720,
+              "nonzero_precinct_vote_cells": 130189,
+              "precincts_with_election_day_votes": 704,
+              "election_day_precinct_vote_sum": 1278781,
+              "version": "368588",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368588/reports/detailxml.zip",
+              "content_hash": "045215edfa36b60f7376b5b515cd482cd8a56fc3bdc60f8cad16cd9418d49c18",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/10/2026 3:24:46 PM CDT",
+              "precincts_with_votes": 720,
+              "nonzero_precinct_vote_cells": 130924,
+              "precincts_with_election_day_votes": 704,
+              "election_day_precinct_vote_sum": 1278781,
+              "version": "368732",
+              "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368732/reports/detailxml.zip",
+              "content_hash": "b57a1784278c176f6b576e0ff0b17b4432602b79902e0f80a36fb291cbd913e2",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 6:42:11 PM CST",
+            "version": "368380",
+            "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368380/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 5,
+          "election_night_distinct_election_day_precinct_releases": 4,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 6:42:11 PM CST",
+            "version": "368380",
+            "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368380/reports/detailxml.zip"
+          },
+          "unreadable_versions": 16
+        }
+      ]
     },
     "2026_runoff": {
       "found": true,
       "listings": [
         {
           "eid": "126270",
-          "name": "2026 Republican Primary Runoff",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
           "updates": [
             {
               "timestamp": "4/20/2026 2:27:03 PM CDT",
@@ -183,5 +629,9 @@
         }
       ]
     }
+  },
+  "eid_overrides": {
+    "2026_primary": "126006,126007",
+    "2026_runoff": "126270"
   }
 }

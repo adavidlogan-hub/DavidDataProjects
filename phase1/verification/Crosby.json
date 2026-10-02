@@ -1,0 +1,50 @@
+{
+  "county": "Crosby",
+  "reason_selected": "random 10 percent sample",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No Clarity site (elections.json 404). Elections page lists no November 2024 result file (latest general listed is Nov 8 2022). check 3 pending (no folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Only '2026 PRIMARY CUMULATIVE' (scanned Cumulative Results Report, 'Official Results', Run Date 03/12/2026 9:29 AM, county totals by vote type, e.g. John Cornyn Election Day 163, Total 293), scan CreationDate 5/28/2026, Last-Modified 5/29/2026. No election-night file and no precinct numbers online."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Only '2026 RUNOFF CUMULATIVE' (Cumulative Results Report, Official Results, Run Time 1:55 PM, Run Date 06/03/2026, county totals), scan CreationDate 6/4/2026, Last-Modified 6/5/2026. No precinct numbers online."
+    }
+  },
+  "rationale": "Primary and runoff LATER (check 2: only post-canvass county totals, precinct numbers never online); 2024 UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; no election-night evidence at all, so low.",
+  "sources": [
+    {
+      "url": "https://www.co.crosby.tx.us/page/crosby.Elections",
+      "content_hash": "956e75d73da729feb7b4498e27d8671dc3c42f912895f46794c43bd5bf4759cd",
+      "what_i_checked": "result file list"
+    },
+    {
+      "url": "https://www.co.crosby.tx.us/upload/page/8077/2026PRIMARYCUMULATIVE.pdf",
+      "content_hash": "1bc387d8d2dbc52ffd655f576df8c7083ffc6a9e11a41a665a3cc62455f81ee1",
+      "what_i_checked": "official cumulative, run 3/12/2026"
+    },
+    {
+      "url": "https://www.co.crosby.tx.us/upload/page/8077/2026/2026Runoffcumulative.pdf",
+      "content_hash": "877ea8cbbd26bd5593bebf771355ec6aee8cffebbb4a865b8b3c9078a770f22c",
+      "what_i_checked": "official cumulative, run 6/3/2026"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "UNKNOWN",
+  "agree": false,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "different: research UNDETERMINED, I said LATER (only an official cumulative, run 3/12/2026, posted 5/29/2026; precinct numbers never online). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts.",
+    "2026_runoff": "different: research says 'The Elections page has no May 26, 2026 runoff files of any kind'. The Elections page I read (content_hash 956e75d7...) links '2026 RUNOFF CUMULATIVE' (2026/2026Runoffcumulative.pdf: Official Results, Run Date 06/03/2026, Last-Modified 6/5/2026), so that claim is not supported. I said LATER, research UNDETERMINED."
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z"
+}

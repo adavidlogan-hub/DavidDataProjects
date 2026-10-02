@@ -58,5 +58,14 @@
       "content_hash": "7a7d64e5630da19699adc5ed13c48395e4b67bf764f6c7008d2d3fa190119ead"
     }
   ],
-  "written_blind_at_utc": "2026-10-02T16:06:22Z"
+  "written_blind_at_utc": "2026-10-02T16:06:22Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED). Both found only official summary and precinct files, no election-night file.",
+    "2026_primary": "same (LATER, check 2). Both read the 'ED Results 3 3 26.pdf' summary printed 10:16 PM, Last-Modified 05:06:55 GMT, county totals only.",
+    "2026_runoff": "different result, same tag effect: research UNDETERMINED (no election-night file); I recorded LATER because the only runoff files, including the precinct reports, were uploaded Jun 1 2026 (Last-Modified). My LATER rests on upload times only and is weak; both readings yield the same tag at low confidence.",
+    "unsupported_or_unchecked": "None found."
+  },
+  "compared_at_utc": "2026-10-02T16:08:31Z"
 }

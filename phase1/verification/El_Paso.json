@@ -1,0 +1,65 @@
+{
+  "county": "El Paso",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 122595 (El_Paso elections.json). Opened v352195 (Timestamp 11/5/2024 8:52:10 PM MST, first night update, Region El Paso, ElectionDate 11/5/2024): EPC Water CID #4 Board of Directors, Ana Mayte Sanchez, VoteType Election Day votes=1, <Precinct name=\"172\" votes=\"1\" />; 205 precincts with ED votes. Earlier v351092 (6:48 PM MST) early-only. 6 of 6 night updates with ED precinct votes (8:52 PM to 12:29 AM MST), ED sums 137366 to 2478974."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 125933. Opened v368441 (Timestamp 3/3/2026 7:47:08 PM MST): precinct votes under Early Voting only (no ED). Opened v368518 (9:15:55 PM MST): (R) US Senator, Gulrez 'Gus' Khan, VoteType Election Day votes=39, <Precinct name=\"002\" votes=\"1\" />. 5 of 6 night updates with ED precinct votes (9:15 PM to 1:04 AM MST)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "1",
+      "fact": "EID 126385. Opened v373022 (Timestamp 5/26/2026 8:34:53 PM MDT, first night update): 16184 precinct values are votes=\"protected\", no nonzero precinct value; 3 night updates (8:34, 9:11, 10:20 PM MDT) all 0 precincts with votes. Opened v373134 (5/27/2026 11:19:51 AM MDT): (R) US Senator, Ken Paxton, Election Day votes=3783, <Precinct name=\"001\" votes=\"12\" />. Precinct numbers first published the next morning."
+    }
+  },
+  "rationale": "LIVE in 2024_general and 2026_primary, LATER in 2026_runoff (precinct values protected on election night), all from check 1. Two share LIVE, so LIVE_PRECINCT; high.",
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/352195/reports/detailxml.zip",
+      "content_hash": "b32e94064ea604cf35d3341288037fdd57c5ce87983132c985ff0dbb83650d76",
+      "what_i_checked": "first night update 8:52 PM MST, ED precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368441/reports/detailxml.zip",
+      "content_hash": "2ecc6e6295e35d944e2ccee05dec732a299b177f896a650fa6b7df2025eed76b",
+      "what_i_checked": "primary 7:47 PM early-only"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368518/reports/detailxml.zip",
+      "content_hash": "f46fb6d07ecba0877da65aac120d434d4984c8c5d67870c99fc2e530aedefd9e",
+      "what_i_checked": "primary 9:15 PM ED precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373022/reports/detailxml.zip",
+      "content_hash": "c1f5ecefce995456362c82277ccbdb293f41aee7c24e337df8dd8b163ee37c70",
+      "what_i_checked": "runoff night update, precinct values protected"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373134/reports/detailxml.zip",
+      "content_hash": "8e8d48e43e4b7fb0eb85c7fe5550e8df479a1f985f68c7f67637961e8a6dd8d4",
+      "what_i_checked": "runoff 5/27 11:19 AM first precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/El_Paso/elections.json",
+      "content_hash": "975d448ca496ab873a6c0e65886a6be086f2379ef0c71df7f4e96dd0b767389a",
+      "what_i_checked": "lists all three target elections"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:18:41Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LIVE, check 1).",
+    "2026_primary": "same (LIVE, check 1). Research counts 7:47 PM (225 precincts) as a precinct update, but in v368441 those are early votes only. Election Day precinct votes start at 9:15 PM, so the result is unchanged.",
+    "2026_runoff": "same (LATER, check 1): night values protected, precinct votes 5/27 11:19 AM MDT."
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z"
+}

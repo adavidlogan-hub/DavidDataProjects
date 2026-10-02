@@ -1,0 +1,57 @@
+{
+ "county": "Comal",
+ "reason_selected": "tag LIVE_PRECINCT",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 122856 (\"November 5, 2024: General Election Results\" on comalcounty.gov/973/Past-Election-Results; also in elections.json). v351144 \"7:55:34 PM CST\" no election-day precinct votes; v352165 \"9:36:10 PM CST\" Election votes in 42 precincts; v352705 \"10:52:35 PM CST\" 44 precincts, larger sum; v353090 \"12:49:14 AM CST\" unchanged. Two distinct releases."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Results moved to Enhanced Voting (app.enhancedvoting.com/results/public/comal-county-tx/elections/ComalCountyPrimary, linked from comalcounty.gov/973). It is a script-rendered app; its code shows endpoints for current results, stats and turnout but no dated update history. Wayback folder for Comal has zero election-night captures for comalcounty.gov."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Enhanced Voting page ComalCountyPrimaryRunoff26; same limits as the primary; no wayback captures."
+  }
+ },
+ "rationale": "Only 2024 general is determined (LIVE, check 1), so LIVE_PRECINCT with low confidence under the one-election rule.",
+ "sources": [
+  {
+   "url": "https://www.comalcounty.gov/973/Past-Election-Results",
+   "content_hash": "9136046747c87b54c353ada6c273d639448f9c8d648b4b451a03027d2fcb114b",
+   "what_i_checked": "links: Clarity 122856 for 2024; Enhanced Voting for 2026 primary and runoff"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Comal/122856/351144/reports/detailxml.zip",
+   "content_hash": "da05b66839c432a7dfe7aa25cbbb766539e56f91845b11c285e1a4962a051419",
+   "what_i_checked": "opened: 7:55:34 PM CST"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Comal/122856/352165/reports/detailxml.zip",
+   "content_hash": "7ad0792408ac930b63e41a0a00787bc909461e97f9b9719d7c029c2c4ffded15",
+   "what_i_checked": "opened: 9:36:10 PM CST, 42 precincts"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Comal/122856/352705/reports/detailxml.zip",
+   "content_hash": "f5b3704d9cfd8b206b633b1e02a5f3514fddf5deddb5228cc479fae4ec08dce1",
+   "what_i_checked": "opened: 10:52:35 PM CST"
+  },
+  {
+   "url": "https://app.enhancedvoting.com/results/public/comal-county-tx/elections/ComalCountyPrimary",
+   "content_hash": "d9d44c1c86d62e067465fc3872841cea7c1e06fe1f3cac4f144b63b2cd8a248f",
+   "what_i_checked": "script-rendered app shell"
+  },
+  {
+   "url": "wayback-data:phase1/wayback_snapshots/Comal/index.json",
+   "content_hash": "",
+   "what_i_checked": "zero captures in all three windows"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:22:42Z"
+}

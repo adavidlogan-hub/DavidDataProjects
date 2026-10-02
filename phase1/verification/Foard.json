@@ -1,0 +1,56 @@
+{
+  "county": "Foard",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections page lists no November 2024 results. No Clarity. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Cumulative Results Report Unofficial Results' (scan, read page 1 as image): 'Cumulative Results Report FOARD COUNTY, TEXAS ... PRIMARY ELECTION ... Unofficial Results ... Precincts Reporting 4 of 4 = 100.00% ... Run Time 1:34 PM Run Date 03/04/2026', county totals by vote type only. Last-Modified Wed, 04 Mar 2026 20:45:29 GMT (2:45 PM CST next day). Official cumulative also county totals. No per-precinct results posted."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Official Results for Primary Party Run-Off Election' (scan, page 1 read as image): 'Cumulative Results Report ... PRIMARY RUNOFF ELECTION ... Official Results ... Precincts Reporting 4 of 4 ... Run Time 11:24 AM Run Date 05/27/2026', county totals only; Last-Modified 01 Jun 2026 19:21 GMT. The link titled 'Unofficial Results Primary Run-Off Election.' opens a February 2026 notice file (Notice of Delivery of Balloting Materials, Last-Modified 10 Feb 2026). No per-precinct results posted."
+    }
+  },
+  "rationale": "Primary and runoff LATER (county totals only, posted after election night; no per-precinct results ever posted), 2024 undetermined, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+  "sources": [
+    {
+      "url": "https://www.foardcounty.texas.gov/page/Elections",
+      "what_i_checked": "result file list (seed has no website; host from a cached search result)",
+      "content_hash": "52230011323c8dbb660ba71606605282bd8b9f6163af29705d5a7655171b1789"
+    },
+    {
+      "url": "https://www.foardcounty.texas.gov/upload/page/0086/2026/Cumulative Results Report Unofficial Results.pdf",
+      "what_i_checked": "primary unofficial cumulative run 1:34 PM Mar 4, uploaded Mar 4 20:45 GMT",
+      "content_hash": "4671dcc0b76f64c281d3789eb99092f7b80fd36045b1a757a284dd14c209b7c2"
+    },
+    {
+      "url": "https://www.foardcounty.texas.gov/upload/page/0086/2026/Official Results for Primary Party Run-Off Election.pdf",
+      "what_i_checked": "runoff official cumulative, run May 27, uploaded Jun 1",
+      "content_hash": "6d289535ae5f3eeb39eea5546a3620c983fecb724a7a1a0eed7251cba257e4ef"
+    },
+    {
+      "url": "https://www.foardcounty.texas.gov/upload/page/0086/2026/Notice of Delivery of Balloting Materials to Signature Verification Committee.pdf",
+      "what_i_checked": "target of the 'Unofficial Results Primary Run-Off' link is a February notice",
+      "content_hash": "e91263bf411da08e7bf115d416d20ace58cf389f8960460e360494f93523cd1e"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:16:51Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED). Neither found November 2024 results.",
+    "2026_primary": "same (LATER, check 2). Both: unofficial cumulative run 1:34 PM Mar 4, Last-Modified 20:45:29 GMT Mar 4, county totals, no precinct results.",
+    "2026_runoff": "different result, same tag effect: research UNDETERMINED (did not open the official file); I opened 'Official Results for Primary Party Run-Off Election' (county totals only, run 05/27/2026, uploaded Jun 1) and found no per-precinct results posted, so LATER ('never published online'). Both saw the mislinked 'Unofficial Results' entry.",
+    "unsupported_or_unchecked": "None found."
+  },
+  "compared_at_utc": "2026-10-02T16:16:57Z"
+}

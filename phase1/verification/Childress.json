@@ -1,0 +1,55 @@
+{
+  "county": "Childress",
+  "reason_selected": "random 10 percent sample",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Seed has no website; county site found at www.childresstx.us (from an existing search-log entry). No November 2024 results page on the site. check 3 pending (no folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "No Clarity site (elections.json 404). 'Republican Primary 2026 results' page links one file: SOS-format 'Election Unofficial Results Report', county totals only (KEN PAXTON Election Day Count 132, Total 301), CreationDate 3/4/2026 06:09 UTC (12:09 AM CST), Last-Modified 3/4/2026 18:43 GMT (12:43 PM CST). No precinct numbers anywhere on the site."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "May 2026 Republican Runoff page lists notices only (runoff notice, precinct consolidation); no result file. check 3 pending (no folder on wayback-data)."
+    }
+  },
+  "rationale": "Only 2026_primary determined (LATER, check 2: county totals only, no precinct numbers online). One determined, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+  "sources": [
+    {
+      "url": "https://www.childresstx.us/",
+      "content_hash": "80e666562b38c1b5a817f4cae338808a0e0c545e4bd9276f4b8e63a9cfd3c877",
+      "what_i_checked": "election page list"
+    },
+    {
+      "url": "https://www.childresstx.us/pages/republican-primary-2026-results",
+      "content_hash": "2650489b933b6e7a9a12fbca03c6361eae37e250c4c16761c5e7040927f67962",
+      "what_i_checked": "one county-totals file"
+    },
+    {
+      "url": "https://www.childresstx.us/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ2tEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7e3aca8540832354e7d0af251b88a0dd998556bb/republican%20results%20primary%2002026.pdf",
+      "content_hash": "03457eada48b088f6494c74609933e508229ec3f1efe32ce31c484705d5c6177",
+      "what_i_checked": "county totals, created 12:09 AM, uploaded 12:43 PM Mar 4"
+    },
+    {
+      "url": "https://www.childresstx.us/pages/may-2026-republican-runoff-election",
+      "content_hash": "1d255f0e48d011eaea72e163a8e14b6fa6a0b4ba985eba7c34314ce342ffc55b",
+      "what_i_checked": "notices only"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "UNKNOWN",
+  "agree": false,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "same (LATER, check 2): SOS county-totals report, CreationDate 3/4 06:09 UTC, Last-Modified 3/4 18:43 GMT. Research also found 'Precinct by Precinct Results of March Primaries' (CreationDate 4/2/2026, Last-Modified 4/14/2026), which I missed; my fact line 'no precinct numbers anywhere on the site' is wrong. The result does not change.",
+    "2026_runoff": "different: research NONE (no results file on either runoff page); I said UNDETERMINED because a missing file does not show that results were only on the SOS site, and I did not open the Democratic runoff page. Tag differs as a result: research UNKNOWN (LATER plus NONE), mine COUNTY_ONLY_PRECINCT_AT_CANVASS low."
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z"
+}

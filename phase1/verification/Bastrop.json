@@ -1,0 +1,62 @@
+{
+ "county": "Bastrop",
+ "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "END",
+   "check": "1",
+   "fact": "Clarity EID 122753 (listed in Bastrop elections.json as \"General and Special Elections\" 11/5/2024). Election-night versions: v351384 Timestamp \"11/5/2024 8:18:59 PM CST\" has precinct votes only under VoteType \"Early Voting\"/\"Absentee\" (opened: <Precinct name=\"Precinct 1001\" votes=\"157\"> under Early Voting); v352888 \"11/5/2024 11:35:09 PM CST\" is the first with election-day candidate precinct votes (opened: President, \"REP Donald J. Trump/JD Vance\", VoteType \"Election Day\", <Precinct name=\"Precinct 1001\" votes=\"39\">; 26 precincts). One election-night release with election-day precinct numbers. Caveat: version 352384 (between them) returns HTTP 404 and could not be read."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 126012. v368435 \"3/3/2026 8:28:11 PM CST\" no election-day precinct votes; v368507 \"9:58:29 PM CST\" REP US Senator, VoteType \"Election Day\", <Precinct name=\"Precinct 1002\" votes=\"1\">, 26 precincts, candidate election-day sum 213255; v368540 \"11:03:08 PM CST\" same precincts, sum 236570. Two distinct election-night releases."
+  },
+  "2026_runoff": {
+   "result": "END",
+   "check": "1",
+   "fact": "EID 126363. v372936 \"5/26/2026 7:16:18 PM CDT\" no election-day precinct votes; v373011 \"9:12:08 PM CDT\" REP US Senator \"John Cornyn\", VoteType \"Election Day\", <Precinct name=\"Poll 1\" votes=\"185\">. One release. Caveat: the runoff reporting units are four combined polling places (\"Poll 1\" to \"Poll 4\"), not individual precincts."
+  }
+ },
+ "rationale": "Two of three elections are END from check 1 (2024 general and runoff); the primary is LIVE. Rule gives PRECINCT_END_OF_NIGHT. Caveats: an unreadable 2024 election-night version (352384, HTTP 404) could hide a second release, and runoff units are combined polling places.",
+ "sources": [
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bastrop/elections.json",
+   "content_hash": "e762d5e3a27110691b86df7b06da41f1031e8ae0cdca5db51c2d996b7b247c02",
+   "what_i_checked": "EIDs 122753, 126012, 126363 for the three dates"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/351384/reports/detailxml.zip",
+   "content_hash": "f49cfc68854fd994214313ff5bb5da9b24f4df2fba879c668f0b943ed4503f04",
+   "what_i_checked": "opened: 8:18:59 PM CST, early and absentee precinct votes only"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/352888/reports/detailxml.zip",
+   "content_hash": "c20af0fb302adafcf11e2f1fb30e3bf97a9c59c86bdedd6f1f8e24262bd692d6",
+   "what_i_checked": "opened: 11:35:09 PM CST, Election Day precinct votes, 26 precincts"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368507/reports/detailxml.zip",
+   "content_hash": "7ff595c46fa0f7b7c175f171c76f00afe2ca2703f78c268df02e6a5ef6b3d5de",
+   "what_i_checked": "opened: 9:58:29 PM CST, Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368540/reports/detailxml.zip",
+   "content_hash": "51ea18d93ce2bd1d82457239b36e56614beea6c814550f1b4766292d788e2fd5",
+   "what_i_checked": "opened: 11:03:08 PM CST, larger Election Day sum"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/373011/reports/detailxml.zip",
+   "content_hash": "458e58221410d4831e28f1fc8c2730f150d1802e14396f0ac64f751188196f98",
+   "what_i_checked": "opened: 9:12:08 PM CDT, Election Day votes by Poll 1-4"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/352384/json/en/electionsettings.json",
+   "content_hash": "",
+   "what_i_checked": "HTTP 404, the missing 2024 version could not be read"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:22:42Z"
+}

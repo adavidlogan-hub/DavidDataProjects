@@ -1,0 +1,62 @@
+{
+ "county": "Parker",
+ "reason_selected": "random 10 percent sample",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No Clarity link for the November 5, 2024 election on parkercountytx.gov/441/Past-Election-Results (one logged web search found none either); elections.json is empty. County-posted precinct report for 2024 (DocumentCenter/View/11593, redirect name \"Precinct-Results-11-13-2024-02-52-09-PM\") is \"Precinct Results Report ... Official Results\", PDF CreationDate 13 Nov 2024 20:52 UTC; no Last-Modified header. Election-night outlet not found. Check 3 pending."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 126014 linked as \"Joint Primary March 3, 2026 ... Official Results\" on parkercountytx.gov/441; Region Parker, ElectionDate 3/3/2026. v368400 \"7:22:30 PM CST\" none; v368458 \"8:57:48 PM CST\" 47 precincts with Election votes (<Precinct name=\"105\" votes=\"1\">); then 9:48:08, 10:02:08, 10:29:14 PM. Four distinct releases."
+  },
+  "2026_runoff": {
+   "result": "END",
+   "check": "1",
+   "fact": "EID 126279 linked under \"May 26, 2026 Primary Runoff Election\" (\"OFFICIAL RESULTS\"); Region Parker, ElectionDate 5/26/2026. v372934 \"7:07:29 PM CDT\" none; v373012 \"9:13:01 PM CDT\" 47 precincts with Election votes, election-day sum 24310, identical in the 6/2/2026 version. One release with the final count."
+  }
+ },
+ "rationale": "Primary LIVE and runoff END (both check 1); 2024 undetermined. No result shared by two elections, so UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://parkercountytx.gov/441/Past-Election-Results",
+   "content_hash": "84a369dc93dab7512e20ec2e0583233e02b31beaf9cc8795eea37fda566b59e2",
+   "what_i_checked": "Clarity links 126014 (primary) and 126279 (runoff); no 2024 Clarity link"
+  },
+  {
+   "url": "https://parkercountytx.gov/DocumentCenter/View/11593",
+   "content_hash": "94228b800b05ec812a93fef8e7372d095d69e12ffe2adef9b1abecd4abaa495f",
+   "what_i_checked": "2024 official precinct report, CreationDate 13 Nov 2024"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368400/reports/detailxml.zip",
+   "content_hash": "f3cef7e1c6a81bf9c083dcbf8dc9d2b1f4c6958dd1a68971b5c73104150fdb69",
+   "what_i_checked": "opened: 7:22:30 PM CST, none"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368458/reports/detailxml.zip",
+   "content_hash": "5443b520af3c3ad0f47ea5edf0d8e21dd6cda3323b612deaf33817da628b3643",
+   "what_i_checked": "opened: 8:57:48 PM CST, 47 precincts"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368499/reports/detailxml.zip",
+   "content_hash": "2f34da56deee646f768506b2d3f39148fc8406a1bb13112c40cabba59cdeabc9",
+   "what_i_checked": "opened: 9:48:08 PM CST"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Parker/126279/373012/reports/detailxml.zip",
+   "content_hash": "8aed3b785bb27d48a558d8b25458f9b91b1d59bdbb988d4e9311cc19f3ca9de5",
+   "what_i_checked": "opened: 9:13:01 PM CDT, single release"
+  },
+  {
+   "url": "https://www.parkercountytx.com/index.aspx?NID=118",
+   "content_hash": "",
+   "what_i_checked": "seed URL returns HTTP 403"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:22:42Z"
+}

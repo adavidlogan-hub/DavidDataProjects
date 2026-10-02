@@ -1,0 +1,66 @@
+{
+  "county": "Jones",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only 'Results - Grand Total' and 'Results - Precinct by Precinct - November 5_ 2024' scans are listed, both Last-Modified Wed, 13 Nov 2024 15:50-15:51 GMT (scan CreationDate Nov 13). No election-night file remains, so what was posted that night cannot be read. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only official files: '3.3.2026 Grand Total Results.pdf' ('OFFICIAL RESULTS ... Election Summary - 03/06/2026 2:00 PM', Last-Modified 13 Mar 2026) and '3.3.2026 Pct By Pct Results.pdf' ('OFFICIAL RESULTS ... Precinct Summary - 03/06/2026 2:00 PM', Last-Modified 13 Mar 2026). No election-night file listed. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Home page link 'ELECTION RESULTS - Unofficial Election Results from the May 26, 2026 Primary Runoff Election' (5.26.2026 Unoffical Election Results.pdf): 'Grand Total UNOFFICIAL RESULTS Joint Primary Runoff Election Jones County', county totals (Ballots Cast 1,944, Election Day 1,136; Cornyn 649, Paxton 1,136), footer 'Election Summary - 05/26/2026 7:59 PM'; Last-Modified Wed, 27 May 2026 01:26:38 GMT = 8:26 PM CDT. Precinct report is 'Precinct by Precinct OFFICIAL RESULTS ... Precinct Summary - 05/28/2026 5:14 PM', Last-Modified Thu, 04 Jun 2026 18:01 GMT."
+    }
+  },
+  "rationale": "Only the runoff is determined (LATER: election-night county totals, precinct report official and uploaded Jun 4), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "sources": [
+    {
+      "url": "https://www.co.jones.tx.us/page/jones.Elections",
+      "what_i_checked": "results file list",
+      "content_hash": "b9ddf4f579a2929004eb0270ebf8f43ab4bafa2a9dbe2cac4778673cb4a5ed51"
+    },
+    {
+      "url": "https://www.co.jones.tx.us/default.aspx?Jones_County/Home",
+      "what_i_checked": "home page link to runoff unofficial results",
+      "content_hash": "2c1704e2cffefcd690b1e1213d2b0585eabe401a297df135c6b4b06da8f6959b"
+    },
+    {
+      "url": "https://www.co.jones.tx.us/upload/page/1299/5.26.2026 Unoffical Election Results.pdf",
+      "what_i_checked": "runoff election-night grand total printed 7:59 PM, Last-Modified 01:26 GMT May 27",
+      "content_hash": "9dcc53ebea93ba97e2301eea7fcde7ffc7ad92f8ec688f8acaf9bedda8643131"
+    },
+    {
+      "url": "https://www.co.jones.tx.us/upload/page/1293/2026/Results - Pct by Pct - May 26 2026 Primary Runoff Election.pdf",
+      "what_i_checked": "runoff precinct report official, printed May 28, uploaded Jun 4",
+      "content_hash": "7cebd3870bf24435d2c35a623244b582a90ab4c154763409f18d5da5b76b8d80"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1293/2026/3.3.2026%20Pct%20By%20Pct%20Results.pdf",
+      "what_i_checked": "primary precinct report official only",
+      "content_hash": "5226d7c039b33c865808e89db02ea1722e3cec5c6e0cc8292f79c69e99134611"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1293/2024/Results%20-%20Precinct%20by%20Precinct%20-%20November%205_%202024%20General%20Election.pdf",
+      "what_i_checked": "2024 precinct report uploaded Nov 13",
+      "content_hash": "bc1d845028b12940b8a62e364859eff84dfa1e78147dd078348357b38ae5a4ce"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:21:46Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED). Both: only Nov 13 2024 scans.",
+    "2026_primary": "same (UNDETERMINED). Both: only official files printed Mar 6, uploaded Mar 13.",
+    "2026_runoff": "same (LATER, check 2). Both: home page unofficial grand total printed 7:59 PM, Last-Modified 01:26:38 GMT; precinct numbers only in the official report printed May 28, uploaded Jun 4.",
+    "unsupported_or_unchecked": "None found."
+  },
+  "compared_at_utc": "2026-10-02T16:21:52Z"
+}

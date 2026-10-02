@@ -1,0 +1,90 @@
+{
+  "county": "Denton",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 122426 (Denton elections.json). Opened v351775 (Timestamp 11/5/2024 8:57:31 PM CST, first election-night update, Region Denton, ElectionDate 11/5/2024): President/Vice President, Donald J. Trump / JD Vance, VoteType Election votes=4020, <Precinct name=\"1001\" votes=\"139\" />. Opened v352309 (9:50:32 PM CST): same contest Election votes=11768. Earlier v350688 (6:47 PM) had only early/mail precinct votes per script. Script: 7 of 7 night updates with Election Day precinct votes (6 distinct releases), precincts with ED votes 28 to 224."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Two listings. REP EID 126053: opened v368479 (Timestamp 3/3/2026 9:24:08 PM CST): United States Senator, Gulrez ''Gus'' Khan, VoteType Election votes=36, <Precinct name=\"1061\" votes=\"4\" />; opened v368493 (9:42:10 PM): Election votes=63. 6 of 6 night updates with ED precinct votes. DEM EID 126054: opened v368478 (9:23:14 PM): Jasmine Crockett Election votes=262, <Precinct name=\"1000\" votes=\"14\" />; opened v368492 (9:41:09 PM) Election votes=1367. 7 of 7 night updates with ED precinct votes."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "REP EID 126377: opened v372988 (Timestamp 5/26/2026 8:44:31 PM CDT): United States Senator, John Cornyn, VoteType Election votes=1153, <Precinct name=\"1007\" votes=\"33\" />; opened v373020 (9:31:27 PM) Election votes=2942. DEM EID 126378: opened v372990 (8:46:04 PM): Lieutenant Governor, Marcos Isaias Velez Election votes=106, <Precinct name=\"1058\" votes=\"2\" />; opened v373021 (9:32:55 PM) Election votes=426. Each listing 5 of 5 night updates with ED precinct votes (4 distinct releases)."
+    }
+  },
+  "rationale": "LIVE in all three elections from check 1 (Election Day precinct votes in several election-night updates). Three share LIVE, so LIVE_PRECINCT; settled by check 1, so high.",
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/122426/351775/reports/detailxml.zip",
+      "content_hash": "45d94f1cfac1879b35affb1394a74be11a9471999457894523969a34299dacca",
+      "what_i_checked": "first night update 8:57 PM, ED precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/122426/352309/reports/detailxml.zip",
+      "content_hash": "85db35ad158e868ddbd0304a4f08f137d8f3b64dca37590512bd67b0c0ea99f0",
+      "what_i_checked": "second night update 9:50 PM"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368479/reports/detailxml.zip",
+      "content_hash": "1b65704433c637f35f0856c77494204ac578ee58df5b09d348bf7ca43f04dba7",
+      "what_i_checked": "REP primary 9:24 PM ED precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368493/reports/detailxml.zip",
+      "content_hash": "92c3d6e944d02478bf11a23f6d254359748b406431a0b698f02c00a57ca56570",
+      "what_i_checked": "REP primary 9:42 PM"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/126054/368478/reports/detailxml.zip",
+      "content_hash": "55a6df8dfe6efd40e43d1949c489c44767f852608dd3299b80e828399ae5edf5",
+      "what_i_checked": "DEM primary 9:23 PM"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/126054/368492/reports/detailxml.zip",
+      "content_hash": "68cd4aa4f407e6e16b8306e80966f9c90c5c27410e5c4db8c9fd4a3ce8a7cece",
+      "what_i_checked": "DEM primary 9:41 PM"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372988/reports/detailxml.zip",
+      "content_hash": "ddf6b361b872e4e431a5ac29b98b13d4298d91930208bbb1f64600846c89ebfe",
+      "what_i_checked": "REP runoff 8:44 PM"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/126377/373020/reports/detailxml.zip",
+      "content_hash": "22b9c29199f2ecb191e610b9241f7561008a442d3308ea6f0418ba82a5009e6c",
+      "what_i_checked": "REP runoff 9:31 PM"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/126378/372990/reports/detailxml.zip",
+      "content_hash": "78d10f434e964950d88a79d8b69da567d6f4de888c0e88926ebfbd1d2f7e72fd",
+      "what_i_checked": "DEM runoff 8:46 PM"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/126378/373021/reports/detailxml.zip",
+      "content_hash": "29e5cdbf1968f4e17caf483b3092952149c85cd7228803157ca04b8fc0daa06e",
+      "what_i_checked": "DEM runoff 9:32 PM"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Denton/elections.json",
+      "content_hash": "249a4cff00691b8f820eaf69ffb6cd970a051fe118ca425d8372140751f229ec",
+      "what_i_checked": "lists all three target elections"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:18:41Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LIVE, check 1): 6:47 PM early-only update, then 7 night updates with Election Day precinct votes from 8:57 PM.",
+    "2026_primary": "same (LIVE, check 1), both listings.",
+    "2026_runoff": "same (LIVE, check 1), both listings, 8:44 PM to 10:47 PM."
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z"
+}

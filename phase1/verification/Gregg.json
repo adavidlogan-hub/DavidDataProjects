@@ -1,0 +1,60 @@
+{
+  "county": "Gregg",
+  "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "high",
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "1",
+      "fact": "Clarity EID 122313 (Gregg elections.json). Only two night updates: v352631 (Timestamp 11/5/2024 10:34:05 PM CST, Region Gregg) and v352675 (10:41:00 PM CST). Opened both: PRESIDENT/VICE-PRESIDENT, DONALD J. TRUMP/JD VANCE, VoteType Election votes=5394, <Precinct name=\"01\" votes=\"124\" /> in each; script ED sum 132220 in both, so one release of precinct numbers, then canvass update 11/20/2024. No earlier election-night update with precinct votes."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "1",
+      "fact": "EID 125930. One night update, v368487 (Timestamp 3/3/2026 9:34:33 PM CST): U.S. SENATOR, JAMES TALARICO, VoteType Election votes=655, <Precinct name=\"01\" votes=\"24\" />; 21 precincts. Earlier updates (1:13 PM, 6:37 PM) had 0 precincts with votes; next update 3/12/2026."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "1",
+      "fact": "EID 126274. One night update, v372981 (Timestamp 5/26/2026 8:35:28 PM CDT): U.S. SENATOR, JOHN CORNYN, VoteType Election votes=1135, <Precinct name=\"01\" votes=\"42\" />; 21 precincts. Next update 6/2/2026 with the same ED sum (11866)."
+    }
+  },
+  "rationale": "Each election has a single election-night release of precinct numbers with Election Day votes (2024 has two updates with identical numbers), so END in all three from check 1. PRECINCT_END_OF_NIGHT, high.",
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/352631/reports/detailxml.zip",
+      "content_hash": "d3480147f936230320004b3c1e11bf56c03d23c4b2138ff91753519f8a526f36",
+      "what_i_checked": "2024 first night update 10:34 PM, ED precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/352675/reports/detailxml.zip",
+      "content_hash": "6e23f97c2bbcf5d08ee9b510b1aff18042a7fa889d58d645ccf7ec0c7a05ed73",
+      "what_i_checked": "2024 10:41 PM, identical numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368487/reports/detailxml.zip",
+      "content_hash": "4adeeafef748622d3ca13e45d7deb6d31066503f56ba486486f9e4089606b95f",
+      "what_i_checked": "primary only night update 9:34 PM"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/372981/reports/detailxml.zip",
+      "content_hash": "8beccaf606ccc9c0632dcd5652c80688777be0e715fea584677ca72746088370",
+      "what_i_checked": "runoff only night update 8:35 PM"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Gregg/elections.json",
+      "content_hash": "3542466d96f11e14d995a7acd01ee2cfd5466e088c02777af7080a551a9a156c",
+      "what_i_checked": "lists all three target elections"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:18:41Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (END, check 1): two night updates with identical numbers.",
+    "2026_primary": "same (END, check 1): single night update 9:34 PM.",
+    "2026_runoff": "same (END, check 1): single night update 8:35 PM."
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z"
+}

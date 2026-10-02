@@ -1,0 +1,55 @@
+{
+  "county": "Upshur",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "No Clarity site (elections.json 404). 'November 5 2024 Precinct Report' (Precinct Report, Official Results, Run Time 10:16 AM Run Date 11/22/2024). The /page/open/ host sends no Last-Modified. Other 2024 result file is Cumulative Official. No election-night file listed."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Only party Cumulative Official reports (Republican: Run Time 4:38 PM Run Date 03/11/2026, county totals). No precinct report and no night file."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'May 26 2026 Republican Primary Runoff Unofficial': Republican Party Cumulative, Unofficial Results, Run Time 8:23 PM 05/26/2026, county totals only (KEN PAXTON Election Day 1,189, Total 2,368); no upload time available. No runoff precinct report listed."
+    }
+  },
+  "rationale": "LATER in all three (check 2). COUNTY_ONLY_PRECINCT_AT_CANVASS; no upload times from this host, so low.",
+  "sources": [
+    {
+      "url": "https://www.countyofupshur.com/page/elections",
+      "content_hash": "45b47880a58744480878bdf65115b2b62c86bb529afa647b597760df16a991cd",
+      "what_i_checked": "result file list"
+    },
+    {
+      "url": "https://www.countyofupshur.com/page/open/1355/0/November%205%202024%20Precinct%20Report.pdf",
+      "content_hash": "b8d27d8582bcb830948a30a58d73a6440a234a55a6d28863af8484e3ac80a2dd",
+      "what_i_checked": "2024 precinct report run 11/22/2024"
+    },
+    {
+      "url": "https://www.countyofupshur.com/page/open/1413/0/March%203%202026%20Republican%20Party%20Cumulative%20Official.pdf",
+      "content_hash": "576bee0ac6b39bfdf1175741763d7f3ada9c9eed8408bf78d9458bec358d5837",
+      "what_i_checked": "primary official cumulative"
+    },
+    {
+      "url": "https://www.countyofupshur.com/page/open/1413/0/May%2026%202026%20Republican%20Primary%20Runoff%20Unofficial.pdf",
+      "content_hash": "ea36c0679014af0e795ee997e00aaa6b7ea87eb184439efea1d2d24a42c7cf1f",
+      "what_i_checked": "runoff night county totals 8:23 PM"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "different: research UNDETERMINED, I said LATER (only official precinct report, Run Date 11/22/2024). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts.",
+    "2026_primary": "different: research UNDETERMINED, I said LATER (official cumulative only). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts.",
+    "2026_runoff": "same (LATER, check 2): unofficial county cumulative Run Time 8:23 PM, no precinct report."
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z"
+}

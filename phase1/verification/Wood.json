@@ -1,0 +1,47 @@
+{
+ "county": "Wood",
+ "reason_selected": "tag LIVE_PRECINCT",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 122311. v351031 \"11/5/2024 7:38:43 PM CST\" no election-day precinct votes (absentee only, e.g. <Precinct name=\"11\" votes=\"90\">); v351602 \"8:37:38 PM CST\" Election Day votes in precinct 31; 8:55:01 PM 2 precincts; 10:02:16 PM 8; 10:59:19 PM all 15. Four distinct election-night releases."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 125922. v368477 \"3/3/2026 9:22:41 PM CST\" Election Day votes in 12 precincts, rising through v368542 \"11:07:20 PM CST\" (14 precincts); 8 distinct election-night releases."
+  },
+  "2026_runoff": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 126370. v372978 \"5/26/2026 8:29:33 PM CDT\" Election Day votes in 7 precincts (opened), rising through v373056 \"11:21:24 PM CDT\" (14 precincts); 7 distinct releases."
+  }
+ },
+ "rationale": "All three elections LIVE from check 1, so LIVE_PRECINCT, high. Wood county site returns empty 202; Clarity elections.json lists all three EIDs.",
+ "sources": [
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Wood/elections.json",
+   "content_hash": "b9a03405928a86ec7ed3ec4f427f1e1b853a0532a98ffb0e75e51ebfb540f387",
+   "what_i_checked": "EIDs 122311, 125922, 126370"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351031/reports/detailxml.zip",
+   "content_hash": "fab7989af1d4071e294a68458f3c754925700f9ca00ff07e40cb66e5aab0885a",
+   "what_i_checked": "opened: 7:38:43 PM CST, no election-day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351602/reports/detailxml.zip",
+   "content_hash": "93a7a8814a7e7e4bd969764794c8a5e9c71f3e5324a630adfda1155586732fbb",
+   "what_i_checked": "opened: 8:37:38 PM CST, election-day votes in precinct 31"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Wood/126370/372978/reports/detailxml.zip",
+   "content_hash": "73635d65474ea2b0b72a56d0c797ef822eafde21ae67ce680852b2236213d4d9",
+   "what_i_checked": "opened: 8:29:33 PM CDT, election-day votes in 7 precincts"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:22:42Z"
+}

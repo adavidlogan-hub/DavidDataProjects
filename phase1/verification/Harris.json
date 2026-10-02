@@ -1,0 +1,56 @@
+{
+  "county": "Harris",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Wayback: www.harrisvotes.com/Election-Results/Live-Results captured 2024-11-05 20:39 CST embeds '<iframe src=\"https://app.harrisvotes.com/electionresults/electionday\">', but the app page capture (20:39:21 CST) failed to download ('URLError: timed out'), so its precinct view code was not saved; the saved resultsbyballot.json (dt 2024-11-06T01:10:00Z) holds county contest totals only. Not settled by check 3. No Clarity; county report files not checked within budget."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "3",
+      "fact": "Wayback capture of app.harrisvotes.com/ElectionResults/RepublicanPrimary at 2026-03-03 20:01:30 CST: each contest has a tab '<a href=\"#precinctVoting-{{ contest.i }}\" ...title=\"Precinct Reporting\">' whose GetPrecinctVotesData calls \"$http.get('https://appfiles.harrisvotes.com/harrisvotes/prd/Data/' + electionCode + '/rep-pv-' + contestId + '.json?nocache=' + cacheTime)\", the same feed and cache-busting time ('var cacheTime = (new Date(new Date().setSeconds(0, 0))).getTime();') as the county totals ('/rep-resultsbyballot.json?nocache=' + cacheTime). RenderPrecinctVoting builds a table with a 'Precinct' column and one column per candidate (contest[0].ca) filled from vm.pv.v[key]: per-precinct candidate votes. Live precinct view rule applies; confidence capped at med."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "3",
+      "fact": "Wayback capture of app.harrisvotes.com/ElectionResults/DemocraticPrimary at 2026-05-26 20:47:41 CDT: same 'Precinct Reporting' tabs, \"'/dem-pv-' + contestId + '.json?nocache=' + cacheTime\" alongside \"'/dem-resultsbyballot.json?nocache=' + cacheTime\", and the RenderPrecinctVoting per-candidate precinct table (angular.forEach(vm.pv.v[key] ...)). Live precinct view rule applies."
+    }
+  },
+  "rationale": "Primary and runoff LIVE by check 3 (archived election-night live results app has a per-precinct candidate votes view fed by the same refreshing data feed as the totals); 2024 undetermined. LIVE_PRECINCT, confidence capped at med by the live precinct view rule.",
+  "sources": [
+    {
+      "url": "git:origin/wayback-data:phase1/wayback_snapshots/Harris/2026_primary_20260304020130_ad3eb5a4577a.html",
+      "content_hash": "ad3eb5a4577a (file name)",
+      "what_i_checked": "Precinct Reporting tab, rep-pv-<contest>.json?nocache=cacheTime, RenderPrecinctVoting candidate columns"
+    },
+    {
+      "url": "git:origin/wayback-data:phase1/wayback_snapshots/Harris/2026_runoff_20260527014741_a597a71f666b.html",
+      "content_hash": "a597a71f666b (file name)",
+      "what_i_checked": "same code for dem runoff app"
+    },
+    {
+      "url": "git:origin/wayback-data:phase1/wayback_snapshots/Harris/2024_general_20241106023920_24d4ff9e88d4.html",
+      "content_hash": "24d4ff9e88d4 (file name)",
+      "what_i_checked": "2024 Live-Results page iframes the app; app capture failed per index.json"
+    },
+    {
+      "url": "git:origin/wayback-data:phase1/wayback_snapshots/Harris/index.json",
+      "content_hash": "n/a",
+      "what_i_checked": "capture list and the failed 2024 app download"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:18:56Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED). Both: the Live-Results page only iframes the app and the app capture timed out; the saved resultsbyballot.json is county totals.",
+    "2026_primary": "same (LIVE, check 3, live precinct view rule). Both quote the Precinct Reporting tab, rep-pv-<contestId>.json?nocache=cacheTime, and RenderPrecinctVoting candidate columns from the 20:01:30 CST capture.",
+    "2026_runoff": "same (LIVE, check 3, live precinct view rule). Both quote the dem-pv-<contestId>.json code in the 20:47:41 CDT capture.",
+    "unsupported_or_unchecked": "None found. I did not check the research's current-file Last-Modified observations for appfiles.harrisvotes.com (not needed for the verdict)."
+  },
+  "compared_at_utc": "2026-10-02T16:19:02Z"
+}

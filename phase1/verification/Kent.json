@@ -1,0 +1,45 @@
+{
+  "county": "Kent",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No Clarity site (elections.json 404). Seed has no website; www.co.kent.tx.us Elections page lists only March 3 2026 certified results. check 3 pending (no folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'March 3, 2026 Republican Party Primary Certified Election Results': county totals by Early Voting / Election Day (John Cornyn 33, 40, 73), CreationDate 3/24/2026 18:11 UTC, Last-Modified 3/24/2026 18:21 GMT. No precinct numbers and no election-night file."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No runoff result file listed. check 3 pending (no folder on wayback-data)."
+    }
+  },
+  "rationale": "Only 2026_primary determined (LATER, check 2). One determined, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+  "sources": [
+    {
+      "url": "https://www.co.kent.tx.us/page/kent.Elections",
+      "content_hash": "4479c851731493df214ee06892b209b04dc37f8bf1c204c025ba16d99abad97a",
+      "what_i_checked": "only certified primary results listed"
+    },
+    {
+      "url": "https://www.co.kent.tx.us/upload/page/11626/REPUBLICAN PARTY PRIMARY CERTIFIED ELECTION RESULTS.pdf",
+      "content_hash": "65b9eb20ecdef3c80f2d543d46b9a18d55511ae32b54c8db477c9d7732eee6f6",
+      "what_i_checked": "county totals Mar 24"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "same (LATER, check 2): certified county totals, Last-Modified 3/24/2026.",
+    "2026_runoff": "same (UNDETERMINED)."
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z"
+}

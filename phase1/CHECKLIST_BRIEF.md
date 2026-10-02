@@ -37,6 +37,8 @@ Election night = 7:00 PM election day to 3:00 AM the next morning, county local 
 - `LIVE`: precinct numbers that include election-day votes appear in two or more updates during election night (updates with only early, mail, or absentee precinct numbers do not count). For Clarity, use the script's election_night_updates_with_election_day_precinct_votes.
 - `END`: precinct numbers that include election-day votes appear on election night, once, with the final unofficial count.
 - `LATER`: on election night the county publishes county totals only (or early-vote-only precinct numbers); precinct numbers with election-day votes come after election night, or are never published online. Say which in the note.
+  LATER needs positive election-night evidence: a county-totals file (or update) whose printed run time or upload time falls on election night, and no precinct numbers with election-day votes that night. Put that election-night time in county_totals_first_seen. If no file from election night survives (only files dated after election night, such as official or canvass reports), the election is UNDETERMINED, not LATER: we cannot see what was posted that night.
+- `NONE` likewise needs positive evidence (for example the county's own page linking that election's results only to the SOS site); missing files alone are UNDETERMINED.
 - `NONE`: the county publishes no results of its own for that election (results only via the SOS).
 - `UNDETERMINED`: the checks cannot decide.
 
