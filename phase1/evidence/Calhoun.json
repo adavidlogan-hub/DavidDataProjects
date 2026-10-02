@@ -1,0 +1,86 @@
+{
+  "county": "Calhoun",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.calhouncotx.org/calhoun-county-elections/",
+  "platform": "county_pdfs",
+  "host": "www.calhouncotx.org",
+  "evidence_url": "https://www.calhouncotx.org/wp-content/uploads/2024/11/11-05-24-General-Election-Pct-by-Pct-Report-Pct-by-Pct.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works. No Clarity site (elections.json 404). The county posts per-election information pages. 2024 general: election-night file is a scanned Electionware county Summary (printed 10:20 PM, uploaded 10:56 PM CST); the unofficial precinct report ('General Election Summary by Precinct') was printed 1:26 PM and uploaded 1:35 PM CST on Nov 6. The '2026 primary' page (titled 'March 5, 2026 Primary Election Information') lists only a Notice of Canvass, no results. The May 26, 2026 runoff page lists only official results files. Check 3 pending for the 2026 primary and runoff (wayback-data branch not found on origin).",
+  "tag_rationale": "Only the 2024 general is determined (LATER: county totals on election night, precinct numbers posted the next afternoon), so by rule the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 22:56 CT (server upload; printed 22:20)",
+      "precinct_first_seen": "2024-11-06 13:35 CT (server upload; printed 13:26)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.calhouncotx.org/wp-content/uploads/2024/11/11-05-24-General-Election-Pct-by-Pct-Report-Pct-by-Pct.pdf",
+      "fact": "Night file '2024 Calhoun County Unofficial Final Nov 5th General Election Results' = scanned 'Summary Results Report Calhoun County General Election November 5, 2024 UNOFFICIAL RESULTS' (county totals), footer 'Election Summary - 11/05/2024 10:20 PM', Last-Modified Wed, 06 Nov 2024 04:56:17 GMT. 'General Election Summary by Precinct' = 'Summary Results Report UNOFFICIAL RESULTS County General Election ... PCT.1 ... Absentee Early Voting Election Day', footer 'Precinct Summary - 11/06/2024 1:26 PM', Last-Modified Wed, 06 Nov 2024 19:35:40 GMT."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The primary election page lists only a 'Notice of Canvass'; no results files. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The runoff page lists only 'OFFICIAL RESULTS' files (early voting, election day, ballot by mail, Democratic) and official totals; no election-night file. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.calhouncotx.org/november-5-2024-election-information/",
+      "via": "fetch_module",
+      "quote": "2024 Calhoun County Unofficial Final Nov 5th General Election Results; General Election Summary by Precinct; Official Results Precinct by Precinct Report",
+      "supports": "2024 report list",
+      "content_hash": "8841f01f69c10762db838b520a48f7ed241d8de6a30a065b3e20e15d8c6572c9"
+    },
+    {
+      "url": "https://www.calhouncotx.org/wp-content/uploads/2024/11/2024UnOffFinal.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report Calhoun County General Election November 5, 2024 UNOFFICIAL RESULTS ... Election Summary - 11/05/2024 10:20 PM",
+      "supports": "Election-night county totals",
+      "content_hash": "bb681dc4886ab7c3313df088e8e810b224a21e0d85d0ea8d4ab973e1583b0578"
+    },
+    {
+      "url": "https://www.calhouncotx.org/wp-content/uploads/2024/11/11-05-24-General-Election-Pct-by-Pct-Report-Pct-by-Pct.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS County General Election ... PCT.1 ... Precinct Summary - 11/06/2024 1:26 PM",
+      "supports": "Precinct numbers posted Nov 6 afternoon",
+      "content_hash": "88461a7f45131093a80421dddd2118189c422a32603db0009fb51388675bca70"
+    },
+    {
+      "url": "https://www.calhouncotx.org/may-26-2026-primary-runoff-election-information/",
+      "via": "fetch_module",
+      "quote": "OFFICIAL RESULTS - 2026 CALHOUN COUNTY REPUBLICAN PRIMARY RUNOFF ELECTION DAY; 2026 Primary Runoff Election Official Totals",
+      "supports": "Runoff only official files",
+      "content_hash": "12151d3dc723c64da73924d885cb66027ccaeefec2c7d1988aff778b7710bd9e"
+    },
+    {
+      "url": "https://www.calhouncotx.org/march-5-2026-primary-election-information/",
+      "via": "fetch_module",
+      "quote": "Notice of Canvass",
+      "supports": "Primary page has no results",
+      "content_hash": "a64286dd3a25b2f8f1ad330202fc1964d085160b61f1787878c384afd43450b7"
+    }
+  ]
+}
