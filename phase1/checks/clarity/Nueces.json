@@ -3,16 +3,728 @@
   "check": "clarity_update_log",
   "elections": {
     "2024_general": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "122486",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "345839",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345839/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345840",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345840/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345841",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345841/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345903",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345903/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345904",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345904/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345922",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345922/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345923",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345923/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345924",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345924/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345925",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345925/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345926",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345926/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345927",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/345927/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348856",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348856/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348857",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348857/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348858",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348858/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348861",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348861/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348863",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348863/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348868",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348868/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348872",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348872/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348873",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348873/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348874",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348874/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348875",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348875/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348876",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348876/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348879",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348879/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348893",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348893/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348980",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/348980/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349080",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/349080/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350412",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/350412/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350455",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/350455/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 4:03:15 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350457",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/350457/reports/detailxml.zip",
+              "content_hash": "9b2df56e9173cedc0ba4b1a3dc6ef88b206c8418c8d719a35c594fbbaf95493f",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:17:16 PM CST",
+              "precincts_with_votes": 187,
+              "nonzero_precinct_vote_cells": 20087,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350889",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/350889/reports/detailxml.zip",
+              "content_hash": "3c2af29e806cb6657cc59d1a80bf15234a61c5f963fced76d68c50cf728d49e9",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 7:54:06 PM CST",
+              "precincts_with_votes": 187,
+              "nonzero_precinct_vote_cells": 20126,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "351138",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/351138/reports/detailxml.zip",
+              "content_hash": "a9654d76011e98d365a8fd3ecc87abae8e1d5d9295ad7e5e7afe43d050539251",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:22:40 PM CST",
+              "precincts_with_votes": 187,
+              "nonzero_precinct_vote_cells": 27482,
+              "precincts_with_election_day_votes": 120,
+              "election_day_precinct_vote_sum": 40469,
+              "version": "351432",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/351432/reports/detailxml.zip",
+              "content_hash": "bdfd499a885d0015960c3d917d961acf3fbbb9359cd4112a47948d5465b014d8",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:32:52 PM CST",
+              "precincts_with_votes": 188,
+              "nonzero_precinct_vote_cells": 39328,
+              "precincts_with_election_day_votes": 160,
+              "election_day_precinct_vote_sum": 124081,
+              "version": "351547",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/351547/reports/detailxml.zip",
+              "content_hash": "62ca5dac846d3b3a059f8114e5119de720f7f4b96df5d7a5ea863e1a0a6bc389",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:46:16 PM CST",
+              "precincts_with_votes": 188,
+              "nonzero_precinct_vote_cells": 39328,
+              "precincts_with_election_day_votes": 160,
+              "election_day_precinct_vote_sum": 124081,
+              "version": "351666",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/351666/reports/detailxml.zip",
+              "content_hash": "0342bd1fb36b85e75f04ae72b2decc417c8c1d95c1df7616d7fec767ff0827f3",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:55:32 PM CST",
+              "precincts_with_votes": 188,
+              "nonzero_precinct_vote_cells": 43280,
+              "precincts_with_election_day_votes": 168,
+              "election_day_precinct_vote_sum": 249459,
+              "version": "351749",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/351749/reports/detailxml.zip",
+              "content_hash": "feaac487dfe0e48f7e8c51c0c78e2a3ed5c552ab175e64f11da447d027964657",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:12:41 PM CST",
+              "precincts_with_votes": 188,
+              "nonzero_precinct_vote_cells": 44921,
+              "precincts_with_election_day_votes": 175,
+              "election_day_precinct_vote_sum": 416768,
+              "version": "351933",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/351933/reports/detailxml.zip",
+              "content_hash": "d9f57c33d2e6090aef93e5c92310a29b9e7880f22eee53bd8f2f9fd8f01e77cb",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:28:30 PM CST",
+              "precincts_with_votes": 189,
+              "nonzero_precinct_vote_cells": 45074,
+              "precincts_with_election_day_votes": 176,
+              "election_day_precinct_vote_sum": 497874,
+              "version": "352088",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/352088/reports/detailxml.zip",
+              "content_hash": "1c6b15f2ee33cca39e9e405692f0c6548e516a59c6b0083f75910a73f8521c0e",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:45:25 PM CST",
+              "precincts_with_votes": 189,
+              "nonzero_precinct_vote_cells": 45475,
+              "precincts_with_election_day_votes": 177,
+              "election_day_precinct_vote_sum": 648221,
+              "version": "352262",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/352262/reports/detailxml.zip",
+              "content_hash": "b91fedf7a89447aaa4239f55c74599cdcf5731845e1ca9b22cb2a1b17dfab53b",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:52:18 PM CST",
+              "precincts_with_votes": 189,
+              "nonzero_precinct_vote_cells": 45475,
+              "precincts_with_election_day_votes": 177,
+              "election_day_precinct_vote_sum": 648221,
+              "version": "352324",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/352324/reports/detailxml.zip",
+              "content_hash": "439c7f786a731a0732e0997bc39ebfaed636e149b330769581bac5b46011ea5e",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:58:11 PM CST",
+              "precincts_with_votes": 189,
+              "nonzero_precinct_vote_cells": 45648,
+              "precincts_with_election_day_votes": 177,
+              "election_day_precinct_vote_sum": 796864,
+              "version": "352376",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/352376/reports/detailxml.zip",
+              "content_hash": "6ed7bdbdea87e398634de4fde5cfa2526ee7153e9a44210a08bc661e230c7c83",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:25:16 PM CST",
+              "precincts_with_votes": 189,
+              "nonzero_precinct_vote_cells": 45690,
+              "precincts_with_election_day_votes": 177,
+              "election_day_precinct_vote_sum": 814262,
+              "version": "352582",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/352582/reports/detailxml.zip",
+              "content_hash": "a02a9423f923054aed7b63d0328d4b22a964011742f10ba26ee95e92b4496143",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 12,
+          "election_night_updates_with_precinct_votes": 12,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:17:16 PM CST",
+            "version": "350889",
+            "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/350889/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 10,
+          "election_night_distinct_election_day_precinct_releases": 8,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 8:22:40 PM CST",
+            "version": "351432",
+            "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/351432/reports/detailxml.zip"
+          },
+          "unreadable_versions": 28
+        }
+      ]
     },
     "2026_primary": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "125938",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "367924",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/367924/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367925",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/367925/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368279",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368279/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368300",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368300/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368301",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368301/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368302",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368302/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368304",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368304/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368306",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368306/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368310",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368310/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368311",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368311/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368312",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368312/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368313",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368313/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/2/2026 10:36:54 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368314",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368314/reports/detailxml.zip",
+              "content_hash": "4229483368db3b0140961fe219bd29302d047e3f0db8c50f425275fcb5888bb2",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 6:59:14 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368384",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368384/reports/detailxml.zip",
+              "content_hash": "fe042d6f8985b616bcba3a7884515772403bf6702ea8a3eddc76ab8d2f00c894",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:17:52 PM CST",
+              "precincts_with_votes": 130,
+              "nonzero_precinct_vote_cells": 43038,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368398",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368398/reports/detailxml.zip",
+              "content_hash": "4bbfa7e4534044c23b42836888cf768d154a6f5543e1d1aba59819e558c1b5b8",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:04:10 PM CST",
+              "precincts_with_votes": 130,
+              "nonzero_precinct_vote_cells": 50870,
+              "precincts_with_election_day_votes": 83,
+              "election_day_precinct_vote_sum": 12564,
+              "version": "368417",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368417/reports/detailxml.zip",
+              "content_hash": "268709a4400aac44a9f4dc8fddaed37a4f332c80f6010289b61c0062368d236b",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:22:55 PM CST",
+              "precincts_with_votes": 130,
+              "nonzero_precinct_vote_cells": 56352,
+              "precincts_with_election_day_votes": 118,
+              "election_day_precinct_vote_sum": 54218,
+              "version": "368430",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368430/reports/detailxml.zip",
+              "content_hash": "82a506d20acc49c8630f20d1302c8cd063e9ed30f61b31e1075e049c99255794",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:41:09 PM CST",
+              "precincts_with_votes": 130,
+              "nonzero_precinct_vote_cells": 62635,
+              "precincts_with_election_day_votes": 130,
+              "election_day_precinct_vote_sum": 150148,
+              "version": "368445",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368445/reports/detailxml.zip",
+              "content_hash": "b4b3d4d3aa0ad1b7ad75af99dfdf99f114234f3de056a0ea25b0c7dd7ff30ba1",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:55:07 PM CST",
+              "precincts_with_votes": 130,
+              "nonzero_precinct_vote_cells": 64221,
+              "precincts_with_election_day_votes": 130,
+              "election_day_precinct_vote_sum": 216365,
+              "version": "368457",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368457/reports/detailxml.zip",
+              "content_hash": "5a4cd4c3d7cbe7549dbfdecd2c6313d88880b9d3d6280561b1cc3e7cbc3a26d5",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:13:33 PM CST",
+              "precincts_with_votes": 130,
+              "nonzero_precinct_vote_cells": 65194,
+              "precincts_with_election_day_votes": 130,
+              "election_day_precinct_vote_sum": 304107,
+              "version": "368469",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368469/reports/detailxml.zip",
+              "content_hash": "d1bb47a298f7293b9962ada7641edfbf0a5163f859cdb328a1652932c1311017",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:40:22 PM CST",
+              "precincts_with_votes": 130,
+              "nonzero_precinct_vote_cells": 66188,
+              "precincts_with_election_day_votes": 130,
+              "election_day_precinct_vote_sum": 383689,
+              "version": "368491",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368491/reports/detailxml.zip",
+              "content_hash": "1aa4ebccec6e41f6845ae11fa1c4811ba0890e7a43db33b9df6767f2c99127d4",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:07:36 PM CST",
+              "precincts_with_votes": 131,
+              "nonzero_precinct_vote_cells": 66722,
+              "precincts_with_election_day_votes": 131,
+              "election_day_precinct_vote_sum": 489452,
+              "version": "368514",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368514/reports/detailxml.zip",
+              "content_hash": "231b100fa3432297f4da0ce4101699d88cc5b2349b1221d1a8e84f80d81d82fc",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:52:00 PM CST",
+              "precincts_with_votes": 131,
+              "nonzero_precinct_vote_cells": 67235,
+              "precincts_with_election_day_votes": 131,
+              "election_day_precinct_vote_sum": 565992,
+              "version": "368534",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368534/reports/detailxml.zip",
+              "content_hash": "ff4955f2a215df9ee1d8bcad9c4b1c00cbcc962e4a5a6f8c9e8dd8f0e17cd8d0",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:14:55 PM CST",
+              "precincts_with_votes": 131,
+              "nonzero_precinct_vote_cells": 67374,
+              "precincts_with_election_day_votes": 131,
+              "election_day_precinct_vote_sum": 635210,
+              "version": "368544",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368544/reports/detailxml.zip",
+              "content_hash": "8aadb33a59f60b187034b8a07258059b1115729efa4410d089c686f132ea534c",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 10,
+          "election_night_updates_with_precinct_votes": 10,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:17:52 PM CST",
+            "version": "368398",
+            "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368398/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 9,
+          "election_night_distinct_election_day_precinct_releases": 9,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 8:04:10 PM CST",
+            "version": "368417",
+            "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368417/reports/detailxml.zip"
+          },
+          "unreadable_versions": 12
+        }
+      ]
     },
     "2026_runoff": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "126381",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "371846",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/371846/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371847",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/371847/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371861",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/371861/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371862",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/371862/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371863",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/371863/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372041",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372041/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372457",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372457/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372458",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372458/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372459",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372459/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372582",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372582/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372596",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372596/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372597",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372597/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372598",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372598/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372599",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372599/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/22/2026 11:48:43 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372601",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372601/reports/detailxml.zip",
+              "content_hash": "b6336ab64d1fda56aee9e7485cc2787931a72f3f25aff5220b94773ac7ea78fb",
+              "election_night": false
+            },
+            {
+              "version": "372602",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372602/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 4:05:08 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372891",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372891/reports/detailxml.zip",
+              "content_hash": "d34c03d5bb13efbfca917ac5d0bddf8ef297825037169b38b2645e08dfc3b3cf",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:02:54 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372929",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372929/reports/detailxml.zip",
+              "content_hash": "0ebb3cc70d9f77f4324646182109259abf6d2a699a168e5c430fabf5b96b9896",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 7:54:18 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372950",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372950/reports/detailxml.zip",
+              "content_hash": "57c648bc0bd80ab249eb40a6cdea5687309c3c5893e7a0a022a83820e734b385",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:13:52 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372963",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372963/reports/detailxml.zip",
+              "content_hash": "20d84c2eb720dc5fe8e431c45d8948b597280bf3a163a61815a572ddc229780c",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:24:31 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372973",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372973/reports/detailxml.zip",
+              "content_hash": "51acb50449ef0365b6cf2d244d4ac62a165b86ce08f65e7055401c96c5a86fa0",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:38:12 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372985",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372985/reports/detailxml.zip",
+              "content_hash": "bddd5622d2c6bd8b150420b14e7d3df2559f6002274a71bccac3815a8cd2dcd0",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:01:54 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373003",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/373003/reports/detailxml.zip",
+              "content_hash": "a78fa3b37e33cbf1a9f5162e1aaf1da3f4303fe7882a3676c572b2b0f5b14ffc",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:19:13 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373015",
+              "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/373015/reports/detailxml.zip",
+              "content_hash": "05193d9011c63ebd5f6bf554591a5a5b0aee76359648b259c88092ad23865516",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 7,
+          "election_night_updates_with_precinct_votes": 0,
+          "first_update_with_precinct_votes": null,
+          "election_night_updates_with_election_day_precinct_votes": 0,
+          "election_night_distinct_election_day_precinct_releases": 0,
+          "first_update_with_election_day_precinct_votes": null,
+          "unreadable_versions": 15
+        }
+      ]
     }
+  },
+  "eid_overrides": {
+    "2024_general": "122486",
+    "2026_primary": "125938",
+    "2026_runoff": "126381"
   }
 }

@@ -1,20 +1,20 @@
 {
   "county": "Montgomery",
-  "tag": "UNKNOWN",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://elections.mctx.org/ElectionResults.asp",
   "platform": "county_pdfs",
   "host": "elections.mctx.org",
-  "evidence_url": "https://elections.mctx.org/ElectionResults.asp",
+  "evidence_url": "https://elections.mctx.org/pdf/PRI030326/Republican%20Cumulative%20Results-3-4-2026%2002-08-24%20AM.pdf?ts=92203",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The county results archive (ElectionResults.asp) lists, per election, Cumulative, Canvass, Precinct, Reconciliation, Provisional and audit reports. The Precinct Reports opened are all 'Official Results' produced at canvass: 2024 general Run Date 11/18/2024 8:44 AM (Last-Modified Tue, 18 Mar 2025 21:02:58 GMT), 2026 Republican primary Run Date 03/10/2026 3:03 PM (Last-Modified Fri, 27 Mar 2026 22:01:15 GMT), 2026 Republican runoff Run Date 06/02/2026 11:23 AM (Last-Modified Fri, 26 Jun 2026 13:57:04 GMT). The election-night versions of these files (same URLs or otherwise) are not available now, so check 2 cannot tell what was posted on election night. No election-night results site or link was found on the home or results pages. HTML pages send no Last-Modified header. Check 3 pending: origin/wayback-data not present.",
-  "tag_rationale": "No election could be determined (only official canvass reports remain; check 3 pending), so the rule gives UNKNOWN.",
+  "notes": "No Clarity site (elections.json 404). The county results archive (ElectionResults.asp) lists, per election, Cumulative, Canvass, Precinct, Reconciliation, Provisional and audit reports. The Precinct Reports opened are all 'Official Results' produced at canvass: 2024 general Run Date 11/18/2024 8:44 AM (Last-Modified Tue, 18 Mar 2025 21:02:58 GMT), 2026 Republican primary Run Date 03/10/2026 3:03 PM (Last-Modified Fri, 27 Mar 2026 22:01:15 GMT), 2026 Republican runoff Run Date 06/02/2026 11:23 AM (Last-Modified Fri, 26 Jun 2026 13:57:04 GMT). The election-night versions of these files (same URLs or otherwise) are not available now, so check 2 cannot tell what was posted on election night. No election-night results site or link was found on the home or results pages. HTML pages send no Last-Modified header. Targeted pass 2026-10-02 (targeted-Montgomery): 2026_primary changed UNDETERMINED to LATER (check 2) from the county's own election-night file elections.mctx.org/pdf/PRI030326/Republican Cumulative Results-3-4-2026 02-08-24 AM.pdf (found via a Community Impact link; Unofficial, run 2:08 AM 03/04/2026, Last-Modified 2:15 AM CST, countywide totals only); tag UNKNOWN to COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. Caveat: the county's election-night results page electioninfo/eResultsMain.aspx (named in Community Impact articles) returned a proxy 502 (CONNECT to election.mctx.org rejected, likely a redirect) and its listing could not be read; pdf/PRI030326/ directory listing is 403. Check 3: Wayback harvest for elections.mctx.org failed (robots_disallowed_or_unreachable, no captures); phase1/targeted/archives and phase1/targeted/wayback for Montgomery not on the wayback-data branch at finish. Check 4: Community Impact, Click2Houston, Houston Chronicle and Houston Public Media election-night pages show county totals only, no per-precinct candidate numbers; The Courier (yourconroenews.com) could not be searched (blocked to the search tool). 2024 general: Community Impact quoted county totals at 10:45 p.m. Nov. 5 (81 of 113 precincts) but no county file; 2026 runoff: no election-night file or article found.",
+  "tag_rationale": "Only the 2026 primary is determined: LATER (county-totals Unofficial cumulative report printed 2:08 AM and uploaded 2:15 AM on election night, precinct report only at canvass), so the single-election rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
@@ -25,16 +25,16 @@
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "",
-      "fact": "'November 5, 2024 Joint Election Precinct Report' is 'Precinct Results Report ... Official Results', Run Date 11/18/2024. No election-night version available. Check 3 pending."
+      "fact": "'November 5, 2024 Joint Election Precinct Report' is 'Precinct Results Report ... Official Results', Run Date 11/18/2024. No election-night version available. Check 3: Wayback harvest failed for elections.mctx.org (robots_disallowed_or_unreachable, no captures); targeted archives not yet on the branch. Targeted pass: Community Impact reported county totals on election night ('Updated 10:45 p.m. Nov. 5 ... 81 Election Day precincts reporting out of 113 ... according to unofficial voting results from Montgomery County') but linked no county file; no election-night county file found, so still UNDETERMINED."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 02:08 CT",
       "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "'March 3, 2026 Republican Primary Election Precinct Report' is 'Official Results', Run Date 03/10/2026, Last-Modified Mar 27 2026. No election-night version available. Check 3 pending."
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://elections.mctx.org/pdf/PRI030326/Republican%20Cumulative%20Results-3-4-2026%2002-08-24%20AM.pdf?ts=92203",
+      "fact": "County election-night file 'Republican Cumulative Results-3-4-2026 02-08-24 AM.pdf' (linked by Community Impact) is 'Cumulative Results Report ... Unofficial Results ... Precincts Reporting 121 of 121 = 100.00% ... Run Time 2:08 AM Run Date 03/04/2026' with countywide totals only (Early Voting, Absentee, Election Day columns per contest); server Last-Modified Wed, 04 Mar 2026 08:15:33 GMT (2:15 AM CST); PDF CreationDate 2026-03-04 08:08:40 UTC. The only precinct report found for this election is the canvass 'Official Results' report, Run Date 03/10/2026. No election-night precinct report was found; the county's election-night results page (electioninfo/eResultsMain.aspx) could not be loaded (proxy 502) and has no archived copy, so a precinct file posted that night is not seen but cannot be fully excluded."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",
@@ -43,7 +43,7 @@
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "",
-      "fact": "'May 26, 2026 Republican Primary Runoff Election Precinct Report' is 'Official Results', Run Date 06/02/2026, Last-Modified Jun 26 2026. No election-night version available. Check 3 pending."
+      "fact": "'May 26, 2026 Republican Primary Runoff Election Precinct Report' is 'Official Results', Run Date 06/02/2026, Last-Modified Jun 26 2026. No election-night version available. Check 3: Wayback harvest failed for elections.mctx.org (robots_disallowed_or_unreachable, no captures); targeted archives not yet on the branch. Targeted pass: no election-night county file or news link found; still UNDETERMINED."
     }
   },
   "sources": [
@@ -74,6 +74,34 @@
       "quote": "Official Results ... Run Time 11:23 AM Run Date 06/02/2026",
       "supports": "runoff precinct report is canvass-time",
       "content_hash": "3241ad2553d191d97697c3ce440dcbe8dc090bb123588c05a80a35d1a6ad60c9"
+    },
+    {
+      "url": "https://elections.mctx.org/pdf/PRI030326/Republican%20Cumulative%20Results-3-4-2026%2002-08-24%20AM.pdf?ts=92203",
+      "via": "fetch_module",
+      "content_hash": "19cbbd618acce840232f709bec6d3c5a6332e4933430f3657c7cddbf32402640",
+      "quote": "Cumulative Results Report Montgomery County, Texas Unofficial Results ... Precincts Reporting 121 of 121 = 100.00% Run Time 2:08 AM Run Date 03/04/2026 (Last-Modified: Wed, 04 Mar 2026 08:15:33 GMT)",
+      "supports": "2026 primary county totals posted on election night (printed run time and upload time both on election night)"
+    },
+    {
+      "url": "https://communityimpact.com/the-woodlands/government/just-in-unofficial-winners-called-for-montgomery-countys-justice-of-the-peace-republican-primary-races/",
+      "via": "fetch_module",
+      "content_hash": "90b7f2ead7216f824286a7ee720319edda786a4c44f68d0d4de463b3f6b12c17",
+      "quote": "Posted 7:37 a.m. March 4 According to the Montgomery County elections website, unofficial voting totals are in (links elections.mctx.org/pdf/PRI030326/Republican Cumulative Results-3-4-2026 02-08-24 AM.pdf)",
+      "supports": "page where the election-night cumulative file link was found"
+    },
+    {
+      "url": "https://communityimpact.com/conroe-montgomery/election/keough-wins-montgomery-county-judge-race-by-1519-votes-per-unofficial-voting-results/",
+      "via": "fetch_module",
+      "content_hash": "b05ebed1ba331cc8fa5e83cdec8265a2cb96c07cddb67c3c53dce7697e99f0bb",
+      "quote": "Updated 11:25 p.m. ... with 89 of 121 election day precincts reporting, according to unofficial voting results from Montgomery County Elections. (links elections.mctx.org/electioninfo/eResultsMain.aspx and the 02-08-24 AM cumulative PDF)",
+      "supports": "county posted cumulative totals during 2026 primary night; names the county election-night results page eResultsMain.aspx (lead, page not loadable)"
+    },
+    {
+      "url": "https://communityimpact.com/conroe-montgomery/election/slate-of-4-candidates-win-conroe-isd-board-races/",
+      "via": "fetch_module",
+      "content_hash": "7aea1688aa8ff39f94405761e34b67d8acadabc777c599234746a8c85439727a",
+      "quote": "Updated 10:45 p.m. Nov. 5 ... with 81 Election Day precincts reporting out of 113 in Montgomery County ... according to unofficial voting results from Montgomery County",
+      "supports": "lead only for 2024 general: county totals updates existed on election night; no county file or link found"
     }
   ]
 }

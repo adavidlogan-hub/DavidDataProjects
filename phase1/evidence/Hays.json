@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Check 1: no Clarity election list for Hays (elections.json 404). The county Elections page (hayscountytx.gov/172/Elections, CivicPlus) links only an 'Election Results Archive' (Archive.aspx?AMID=53), whose entries (for example 'May 26, 2026 Primary Runoff', 'March 3, 2026 Primaries', 'November 5, 2024 General (ZIP)') hold only official files: 'Official Canvass Results', 'Official Cumulative Results', 'Official Results Reports (ZIP)', CVR export, certification and reconciliation. This server stamps every page with the request time as Last-Modified, so it gives no upload evidence. One web search listed an egovlink.com-hosted 'Cumulative Results - Democratic Party - unofficial' PDF for the 2026 primary, but that URL now returns 404, and a livevoterturnout.com/HaysTX election-night site that only covers November 2020 (Last-Modified 2022). No election-night file for the three target elections could be read. Check 3 pending (wayback-data branch not on origin).",
+  "notes": "Check 1: no Clarity election list for Hays (elections.json 404). The county Elections page (hayscountytx.gov/172/Elections, CivicPlus) links only an 'Election Results Archive' (Archive.aspx?AMID=53), whose entries (for example 'May 26, 2026 Primary Runoff', 'March 3, 2026 Primaries', 'November 5, 2024 General (ZIP)') hold only official files: 'Official Canvass Results', 'Official Cumulative Results', 'Official Results Reports (ZIP)', CVR export, certification and reconciliation. This server stamps every page with the request time as Last-Modified, so it gives no upload evidence. One web search listed an egovlink.com-hosted 'Cumulative Results - Democratic Party - unofficial' PDF for the 2026 primary, but that URL now returns 404, and a livevoterturnout.com/HaysTX election-night site that only covers November 2020 (Last-Modified 2022). No election-night file for the three target elections could be read. Check 3 pending (wayback-data branch not on origin). Targeted pass 2026-10-02 (targeted-Hays): no election changed. Tried: (1) livevoterturnout.com/HaysTX/LiveResults/en/Index_5.html source: static page, data embedded inline (precinctData = per-precinct check-ins/turnout, not candidate votes), electionIdVar 5, updated 11/4/2020; directory URLs return 403; no data files for 2024-2026 elections, so this vendor site is not where Hays posted the target elections. (2) Wayback harvest branch: one election-night capture, hayscountytx.gov/elections/20260303 at 2026-03-03 20:35 CST (the county used a Duda site at /elections/YYYYMMDD then; it now 404s after a move to CivicPlus): 'All EV locations reporting / ED locations reporting: 0 / 35' with only 'Cumulative Reporting' links to egovlink unofficial cumulative PDFs (now 404). This shows county totals posted on election night, but the capture predates any election-day results, so it cannot show whether precinct numbers came later that night; 2026_primary stays UNDETERMINED (lead toward LATER). No 2024 general capture (CDX connection refused; in 2024 the county site was hayscountytx.com, which the harvest did not target and which the fetch module reports unreachable) and no runoff capture. (3) phase1/targeted/archives/Hays and phase1/targeted/wayback/Hays: not on the wayback-data branch at start or at finish (checked three times). Wayback CDX from here is refused by the fetch module. (4) Check 4: Hays Free Press 2026 primary (updated 23:14 election night) and University Star 2024 live updates give county totals only; KUT runoff page gives county totals only; Fox7 2024 page had no precinct numbers; Wimberley View, Dripping Springs News and Hays Free Press 2024 pages return 404. No third-party per-precinct numbers found. Leads: web search listed egovlink 'Cumulative Results - 20260526 Dem unofficial.pdf' (runoff) and, for the Nov 2025 election (not a target), 'Canvass Results Unofficial.pdf', which suggests Hays sometimes posts unofficial precinct canvass reports; all such egovlink files now 404. Later Wayback captures of hayscountytx.gov/elections/20260303 and /20260526, hayscountytx.com election pages (Nov 2024), and egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/results/ would decide these elections.",
   "tag_rationale": "All three elections are UNDETERMINED (no Clarity log, only official files on the county site, check 3 pending), so by rule the tag is UNKNOWN.",
   "agent": "research-4",
   "method_version": "v2",
@@ -45,6 +45,27 @@
       "content_hash": "dc66ae8f84a647e4cfc591620b0392923448dd681b90c18693dbdf080327cf06",
       "quote": "Cumulative Results - Democratic Party March 3, 2026 Joint Primary Election (egovlink.com)",
       "supports": "Lead to unofficial file, which now returns 404"
+    },
+    {
+      "url": "https://web.archive.org/web/20260304023515id_/https://www.hayscountytx.gov/elections/20260303",
+      "via": "wayback_branch",
+      "content_hash": "309af3a5e1f3212105521f0ee4ede554d28914a6f796fbc4b154ee8ad2845641",
+      "quote": "All EV locations reporting / ED locations reporting: 0 / 35 / Cumulative Reporting - Democratic Party / Cumulative Reporting - Republican Party (links to egovlink .../results/2026/0303 Primaries/Cumulative Results - Democratic Party - unofficial.pdf) (en dash in source replaced with hyphen)",
+      "supports": "Election-night (2026-03-03 20:35 CST) county page for the 2026 primary links only unofficial cumulative (county-total) reports, before any election-day locations reported; lead, not decisive"
+    },
+    {
+      "url": "https://www.haysfreepress.com/article/26142,2026-march-primary-election-results",
+      "via": "fetch_module",
+      "content_hash": "61053f48a104d397cc37df118e21f0301972e13fa1bc27eda2f1a31194fb4f07",
+      "quote": "These are the unofficial election results as of 10:50 p.m. March 3, with 35 of 35 election day locations reporting. ... According to the Hays County elections website, 33,926 out of 192,945, or 17.58%, Democratic voters cast a ballot.",
+      "supports": "Check 4 attempt: news page (dateModified 2026-03-03T23:14:24-06:00) gives county totals only, no per-precinct candidate votes"
+    },
+    {
+      "url": "https://www.livevoterturnout.com/HaysTX/LiveResults/en/Index_5.html",
+      "via": "fetch_module",
+      "content_hash": "7454ba493f3d32bc66f450f6df6454b0207fe5b8e76e8e0848606e70eedf815e",
+      "quote": "var electionIdVar = 5 ... var precinctData = '{\"122 - B\":{\"ElectionID\":\"5\",...\"RegularCheckIns\":\"116\",...\"StatusValue\":\"Reported\"}' ... updated-at 11/4/2020 08:50:13 AM",
+      "supports": "Vendor page is static HTML with embedded per-precinct turnout data for election 5 (Nov 2020) only; it loads no external JSON/XML/CSV feed and is not used for the three target elections"
     }
   ],
   "elections": {
