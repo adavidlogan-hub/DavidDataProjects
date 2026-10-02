@@ -3,7 +3,7 @@
   "targets": [
     "co.la-salle.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T17:39:48Z",
+  "harvested_at_utc": "2026-10-02T22:07:59Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -86,9 +86,10 @@
           "digest": "JBQO62TKAZSGPYSHEQCECGLSNWQUP5G3",
           "length": "86243",
           "replay_url": "https://web.archive.org/web/20260304063218id_/https://co.la-salle.tx.us/images/pdfs/2026_Elections/Primary/Rosters/EVR_D_022126.pdf",
-          "ok": false,
-          "error": "URLError: timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "d560a916dd29d0b5cbdbbb382b8f2f5c11dec9b9c83b850dd8fe0d7000477b33",
+          "saved_as": "La_Salle/2026_primary_20260304063218_d560a916dd29.pdf"
         },
         {
           "timestamp_utc": "20260304064406",
@@ -98,9 +99,10 @@
           "digest": "CFGHWOXAAA7XO5VUCTWUJXL2PG2AISPD",
           "length": "16177",
           "replay_url": "https://web.archive.org/web/20260304064406id_/https://co.la-salle.tx.us/index.php/444-2026-primary-elections-local-results",
-          "ok": false,
-          "error": "URLError: _ssl.c:999: The handshake operation timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "d5d4cfb5fac5713902e08ae4f3a37e0e6273ee91e3076e0246edadc1efcd96f9",
+          "saved_as": "La_Salle/2026_primary_20260304064406_d5d4cfb5fac5.html"
         },
         {
           "timestamp_utc": "20260304083707",
