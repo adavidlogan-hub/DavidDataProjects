@@ -1,0 +1,76 @@
+{
+ "county": "Nueces",
+ "reason_selected": "tag changed to LIVE_PRECINCT in targeted pass",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 122486 (ElectionName 'November 5, 2024 General Election'). Opened v350889: Timestamp 11/5/2024 7:17:16 PM CST, Region Nueces, ElectionDate 11/5/2024; precinct cells nonzero only for non-Election-Day vote types (e.g. Undervotes precinct '1 - 02' votes=2), no nonzero Election Day precinct cell. Opened v351432: Timestamp 11/5/2024 8:22:40 PM CST; President/Vice-President, Donald J. Trump/JD Vance, VoteType 'Election' votes=608, <Precinct name=\"1 - 02\" votes=\"14\" />. Script: 10 of 12 election-night updates carry Election Day precinct votes, 8 distinct releases, Election Day precinct sums rising 40469 (8:22 PM) to 814262 (10:25 PM). 28 versions unreadable (404)."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 125938 ('March 3, 2026 Joint Primary Election'). Opened v368398: Timestamp 3/3/2026 7:17:52 PM CST, Region Nueces, ElectionDate 3/3/2026; no nonzero Election Day precinct cell (early only). Opened v368417: Timestamp 3/3/2026 8:04:10 PM CST; U.S. SENATOR, JOHN CORNYN, VoteType 'Election' votes=49, <Precinct name=\"2\" votes=\"1\" />. Script: 9 of 10 night updates carry Election Day precinct votes, 9 distinct releases, sums 12564 (8:04 PM) to 635210 (11:14 PM)."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "1",
+   "fact": "Clarity EID 126381 ('May 26, 2026 Primary Runoff Election'). Opened v372929 (Timestamp 5/26/2026 7:02:54 PM CDT, Region Nueces, ElectionDate 5/26/2026) and v373015 (Timestamp 5/26/2026 9:19:13 PM CDT, the current version per current_ver.txt): every Precinct and Choice value is votes=\"protected\" (7536 'protected' strings in 7585 Precinct elements), e.g. <Precinct name=\"1\" votes=\"protected\" />. County totals were public on election night: json/en/summary.json of v373015 shows U.S. SENATOR, PR 121 of TP 129, V [3950, 8031] for Cornyn/Paxton. 7 night updates, 0 with precinct votes; no later version exists, so precinct numbers were never published on Clarity. County totals first seen 2026-05-26 19:02 CT (v372929)."
+  }
+ },
+ "rationale": "Per-election results: 2024_general LIVE (check 1), 2026_primary LIVE (check 1), 2026_runoff LATER (check 1). Fixed rule gives LIVE_PRECINCT, confidence high.",
+ "sources": [
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/350889/reports/detailxml.zip",
+   "content_hash": "3c2af29e806cb6657cc59d1a80bf15234a61c5f963fced76d68c50cf728d49e9",
+   "what_i_checked": "Timestamp 7:17 PM, Region/ElectionDate, no Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Nueces/122486/351432/reports/detailxml.zip",
+   "content_hash": "bdfd499a885d0015960c3d917d961acf3fbbb9359cd4112a47948d5465b014d8",
+   "what_i_checked": "Timestamp 8:22 PM, Election Day precinct votes nonzero"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368398/reports/detailxml.zip",
+   "content_hash": "4bbfa7e4534044c23b42836888cf768d154a6f5543e1d1aba59819e558c1b5b8",
+   "what_i_checked": "Timestamp 7:17 PM, early-only precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368417/reports/detailxml.zip",
+   "content_hash": "268709a4400aac44a9f4dc8fddaed37a4f332c80f6010289b61c0062368d236b",
+   "what_i_checked": "Timestamp 8:04 PM, Election Day precinct votes nonzero"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372929/reports/detailxml.zip",
+   "content_hash": "0ebb3cc70d9f77f4324646182109259abf6d2a699a168e5c430fabf5b96b9896",
+   "what_i_checked": "Timestamp 7:02 PM CDT, all precinct values protected"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/373015/reports/detailxml.zip",
+   "content_hash": "05193d9011c63ebd5f6bf554591a5a5b0aee76359648b259c88092ad23865516",
+   "what_i_checked": "Timestamp 9:19 PM CDT (current version), all precinct values protected"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Nueces/126381/373015/json/en/summary.json",
+   "content_hash": "b357dada7eb024a3afb422ce15b9f934b1c902f87abc6c8f0bdc7a90190b80df",
+   "what_i_checked": "county totals present on election night (PR 121 of 129)"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Nueces/",
+   "content_hash": "",
+   "what_i_checked": "Election IDs found by verifier-7 with the bounded ID search (python3 -m phase1.clarity_eid_probe --county Nueces --agent verifier-7); each accepted hit's detail.xml showed Region Nueces and the target ElectionDate, and I reconfirmed Region/ElectionDate/Timestamp in every file I opened. Check 1 script output: phase1/verification/clarity/Nueces.json."
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T20:51:12Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE, check 1, EID 122486): first Election Day precinct votes 8:22:40 PM CST (v351432), 8 distinct releases in 12 night updates; research facts match the files I opened.",
+  "2026_primary": "same (LIVE, check 1, EID 125938): first Election Day precinct votes 8:04:10 PM CST (v368417), 9 distinct releases in 10 night updates.",
+  "2026_runoff": "same (LATER, check 1, EID 126381): all precinct values 'protected' in every version through the current one (v373015, 9:19 PM CDT); county totals first seen 19:02 CT (v372929) in both records. I additionally confirmed county totals were public that night via summary.json of v373015 (PR 121 of 129).",
+  "unsupported_claims": "none found in the election facts. Notes mention KRIS 6, City of Corpus Christi and other leads that I did not re-check; they do not decide any election."
+ },
+ "compared_at_utc": "2026-10-02T20:52:12Z"
+}

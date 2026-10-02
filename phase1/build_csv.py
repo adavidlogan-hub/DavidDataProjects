@@ -45,7 +45,13 @@ def main(out: str, counties_file: str) -> None:
         if ver_path.exists():
             ver = json.loads(ver_path.read_text())
             assert ver["county"] == county
-            if ver["verifier_tag"] != rec["tag"]:
+            # For an owner override, the verifier checks the evidence, so compare with the rule's tag (DECISIONS 52).
+            ov = rec.get("owner_override")
+            compare_tag = ov["rule_tag"] if ov else rec["tag"]
+            if ov and ver["verifier_tag"] == compare_tag:
+                log.append(f"- {county}: AGREE on the evidence (rule tag {compare_tag}); owner override "
+                           f"{ov['tag']} kept.")
+            elif ver["verifier_tag"] != compare_tag:
                 log.append(f"- {county}: DISAGREE. research={rec['tag']} ({rec['confidence']}); "
                            f"verifier={ver['verifier_tag']}. Final tag set to UNKNOWN.")
                 log.append(f"  - research rationale: {rec.get('tag_rationale', '')}")

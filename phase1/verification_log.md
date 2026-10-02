@@ -82,6 +82,7 @@
 - Jackson: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
 - Jasper: AGREE on UNKNOWN (reason checked: low confidence).
 - Jeff Davis: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Jefferson: AGREE on LIVE_PRECINCT (reason checked: tag changed to LIVE_PRECINCT in targeted pass).
 - Jim Hogg: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)).
 - Jones: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
 - Karnes: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
@@ -100,6 +101,7 @@
 - Liberty: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
 - Lipscomb: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
 - Live Oak: AGREE on UNKNOWN (reason checked: random 10 percent sample).
+- Lubbock: AGREE on the evidence (rule tag UNKNOWN); owner override LIVE_PRECINCT kept.
 - Lynn: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
 - Madison: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
 - Marion: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
@@ -111,10 +113,11 @@
 - Mitchell: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
 - Montague: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
 - Montague: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Montgomery: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed to COUNTY_ONLY_PRECINCT_AT_CANVASS (low) in targeted pass).
 - Navarro: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Nueces: AGREE on LIVE_PRECINCT (reason checked: tag changed to LIVE_PRECINCT in targeted pass).
 - Ochiltree: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
-- Parker: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
-- Parker: AGREE on UNKNOWN (reason checked: random 10 percent sample).
+- Parker: AGREE on LIVE_PRECINCT (reason checked: tag changed to LIVE_PRECINCT in targeted pass (new 2024 evidence)).
 - Presidio: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
 - Rains: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
 - Reagan: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).

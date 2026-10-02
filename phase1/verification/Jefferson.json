@@ -1,0 +1,76 @@
+{
+ "county": "Jefferson",
+ "reason_selected": "tag changed to LIVE_PRECINCT in targeted pass",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 122828 ('2024 Nov General'). Opened v350846: Timestamp 11/5/2024 7:11:52 PM CST, Region Jefferson, ElectionDate 11/5/2024; no nonzero Election Day precinct cell. Opened v351551: Timestamp 11/5/2024 8:33:08 PM CST; President/Vice-President, REP Donald J. Trump/JD Vance, VoteType 'Election Day' votes=673, <Precinct name=\"1\" votes=\"1\" />. Script: 5 of 6 night updates carry Election Day precinct votes, 4 distinct releases, sums 29091 (8:33 PM) to 227589 (10:35 PM)."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 126017 ('2026 Mar Primary'). Opened v368407: Timestamp 3/3/2026 7:39:40 PM CST, Region Jefferson, ElectionDate 3/3/2026; no nonzero Election Day precinct cell. Opened v368433: Timestamp 3/3/2026 8:26:05 PM CST; REP United States Senator, John Cornyn, VoteType 'Election Day' votes=350, <Precinct name=\"5\" votes=\"4\" />. Script: 4 of 5 night updates carry Election Day precinct votes, 4 distinct releases, sums 54427 (8:26 PM) to 376673 (10:44 PM)."
+  },
+  "2026_runoff": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 126276 ('2026 May Primary Runoff'). Opened v372924: Timestamp 5/26/2026 6:53:27 PM CDT (before 7 PM), Region Jefferson, ElectionDate 5/26/2026; no Election Day precinct votes. Opened v372960: Timestamp 5/26/2026 8:07:17 PM CDT; REP United States Senator, John Cornyn, VoteType 'Election Day' votes=128, <Precinct name=\"2\" votes=\"1\" />. Opened v372966: Timestamp 8:19:51 PM CDT, same cell Election Day votes=413. Script: 3 of 3 night updates carry Election Day precinct votes, 3 distinct releases, sums 3652, 11004, 23271 (9:13 PM)."
+  }
+ },
+ "rationale": "Per-election results: 2024_general LIVE (check 1), 2026_primary LIVE (check 1), 2026_runoff LIVE (check 1). Fixed rule gives LIVE_PRECINCT, confidence high.",
+ "sources": [
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/350846/reports/detailxml.zip",
+   "content_hash": "1a95d01efa029342ea1cca74c0d5dee89876889c86a998ad21c6e0c749d6f49d",
+   "what_i_checked": "Timestamp 7:11 PM, Region/ElectionDate, no Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/351551/reports/detailxml.zip",
+   "content_hash": "76d5b01d23951ce8b1f18103a3f96e4676e06ef78f870264776d6945b00cec59",
+   "what_i_checked": "Timestamp 8:33 PM, Election Day precinct votes nonzero"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368407/reports/detailxml.zip",
+   "content_hash": "394a9e92631bdc85658d931b4fa40e99861453abda0e931a4affd8db0d76399d",
+   "what_i_checked": "Timestamp 7:39 PM, early-only precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368433/reports/detailxml.zip",
+   "content_hash": "a429c64a30e64d29301663f2a34d381e925c9a1f067b56a7c2128fd6d0129067",
+   "what_i_checked": "Timestamp 8:26 PM, Election Day precinct votes nonzero"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/372924/reports/detailxml.zip",
+   "content_hash": "84db83a60133a81d633d916982b760be7dfe286edc5833017148aacc59bb7d92",
+   "what_i_checked": "Timestamp 6:53 PM CDT, no Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/372960/reports/detailxml.zip",
+   "content_hash": "707514b4f6931bd46624b786e0e5bad074e85c879b3f5ddcad4b9099c9a2ac35",
+   "what_i_checked": "Timestamp 8:07 PM CDT, Election Day precinct votes nonzero"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/372966/reports/detailxml.zip",
+   "content_hash": "e8767cdd40c5a66db0c547f51267a70f31e44a3c6cd19c4b27e5c45ab2764b8f",
+   "what_i_checked": "Timestamp 8:19 PM CDT, Election Day precinct votes grew"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Jefferson/",
+   "content_hash": "",
+   "what_i_checked": "Election IDs found by verifier-7 with the bounded ID search (python3 -m phase1.clarity_eid_probe --county Jefferson --agent verifier-7); each accepted hit's detail.xml showed Region Jefferson and the target ElectionDate, and I reconfirmed Region/ElectionDate/Timestamp in every file I opened. Check 1 script output: phase1/verification/clarity/Jefferson.json."
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T20:51:12Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE, check 1, EID 122828): first Election Day precinct votes 8:33:08 PM CST, 4 distinct releases in 6 night updates.",
+  "2026_primary": "same (LIVE, check 1, EID 126017): first 8:26:05 PM CST, 4 distinct releases in 5 night updates.",
+  "2026_runoff": "same (LIVE, check 1, EID 126276): first 8:07:17 PM CDT, 3 distinct releases in 3 night updates (v372924 at 6:53 PM is before the window).",
+  "unsupported_claims": "none found. The notes' earlier statements (county sites return HTTP 202, IDs not found) predate the targeted pass and were not re-checked; they do not affect any result."
+ },
+ "compared_at_utc": "2026-10-02T20:52:12Z"
+}

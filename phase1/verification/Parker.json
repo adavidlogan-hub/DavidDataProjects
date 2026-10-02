@@ -1,69 +1,81 @@
 {
  "county": "Parker",
- "reason_selected": "random 10 percent sample",
- "verifier_tag": "UNKNOWN",
- "verifier_confidence": "low",
+ "reason_selected": "tag changed to LIVE_PRECINCT in targeted pass (new 2024 evidence)",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
  "elections": {
   "2024_general": {
-   "result": "UNDETERMINED",
-   "check": "none",
-   "fact": "No Clarity link for the November 5, 2024 election on parkercountytx.gov/441/Past-Election-Results (one logged web search found none either); elections.json is empty. County-posted precinct report for 2024 (DocumentCenter/View/11593, redirect name \"Precinct-Results-11-13-2024-02-52-09-PM\") is \"Precinct Results Report ... Official Results\", PDF CreationDate 13 Nov 2024 20:52 UTC; no Last-Modified header. Election-night outlet not found. Check 3 pending."
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 122585 ('2024 General'). Opened v350968: Timestamp 11/5/2024 7:29:45 PM CST, Region Parker, ElectionDate 11/5/2024; no nonzero Election Day precinct cell. Opened v351694: Timestamp 11/5/2024 8:49:32 PM CST; President and Vice President, Donald J. Trump/JD Vance, VoteType 'Election' votes=3873, <Precinct name=\"100\" votes=\"22\" />. Opened v352328: Timestamp 11/5/2024 9:52:35 PM CST; same cell VoteType 'Election' votes=12412, <Precinct name=\"100\" votes=\"418\" />. Script: 2 of 3 night updates carry Election Day precinct votes, 2 distinct releases (sums 118190 then 379071); 11 versions unreadable (404)."
   },
   "2026_primary": {
    "result": "LIVE",
    "check": "1",
-   "fact": "EID 126014 linked as \"Joint Primary March 3, 2026 ... Official Results\" on parkercountytx.gov/441; Region Parker, ElectionDate 3/3/2026. v368400 \"7:22:30 PM CST\" none; v368458 \"8:57:48 PM CST\" 47 precincts with Election votes (<Precinct name=\"105\" votes=\"1\">); then 9:48:08, 10:02:08, 10:29:14 PM. Four distinct releases."
+   "fact": "Clarity EID 126014 ('2026 Primary Election'). Opened v368400: Timestamp 3/3/2026 7:22:30 PM CST, Region Parker, ElectionDate 3/3/2026; no nonzero Election Day precinct cell. Opened v368458: Timestamp 3/3/2026 8:57:48 PM CST; United States Senator, James Talarico, VoteType 'Election' votes=302, <Precinct name=\"100\" votes=\"1\" />. Script: 4 of 5 night updates carry Election Day precinct votes, 4 distinct releases, sums 103447 (8:57 PM) to 441675 (10:29 PM)."
   },
   "2026_runoff": {
    "result": "END",
    "check": "1",
-   "fact": "EID 126279 linked under \"May 26, 2026 Primary Runoff Election\" (\"OFFICIAL RESULTS\"); Region Parker, ElectionDate 5/26/2026. v372934 \"7:07:29 PM CDT\" none; v373012 \"9:13:01 PM CDT\" 47 precincts with Election votes, election-day sum 24310, identical in the 6/2/2026 version. One release with the final count."
+   "fact": "Clarity EID 126279 ('May 26 2026 Primary Runoff'). Opened v372934: Timestamp 5/26/2026 7:07:29 PM CDT, Region Parker, ElectionDate 5/26/2026; no Election Day precinct votes. Opened v373012: Timestamp 5/26/2026 9:13:01 PM CDT; Lieutenant Governor, Marcos Isaias Velez, VoteType 'Election' votes=61, <Precinct name=\"100\" votes=\"3\" />. Opened v373419 (6/2/2026 11:39:02 AM CDT): same cell unchanged. Script: 1 of 2 night updates carries Election Day precinct votes (sum 24310), and the canvass version 6/2/2026 has the same sum, so the single night release was the final unofficial count."
   }
  },
- "rationale": "Primary LIVE and runoff END (both check 1); 2024 undetermined. No result shared by two elections, so UNKNOWN.",
+ "rationale": "Per-election results: 2024_general LIVE (check 1), 2026_primary LIVE (check 1), 2026_runoff END (check 1). Fixed rule gives LIVE_PRECINCT, confidence high.",
  "sources": [
   {
-   "url": "https://parkercountytx.gov/441/Past-Election-Results",
-   "content_hash": "84a369dc93dab7512e20ec2e0583233e02b31beaf9cc8795eea37fda566b59e2",
-   "what_i_checked": "Clarity links 126014 (primary) and 126279 (runoff); no 2024 Clarity link"
+   "url": "https://results.enr.clarityelections.com/TX/Parker/122585/350968/reports/detailxml.zip",
+   "content_hash": "3071ac786b0919c3b78fa376e6c727dbb8a4f7574208926a8c8aeded65dfec7d",
+   "what_i_checked": "Timestamp 7:29 PM, Region/ElectionDate, no Election Day precinct votes"
   },
   {
-   "url": "https://parkercountytx.gov/DocumentCenter/View/11593",
-   "content_hash": "94228b800b05ec812a93fef8e7372d095d69e12ffe2adef9b1abecd4abaa495f",
-   "what_i_checked": "2024 official precinct report, CreationDate 13 Nov 2024"
+   "url": "https://results.enr.clarityelections.com/TX/Parker/122585/351694/reports/detailxml.zip",
+   "content_hash": "e93d6204ebb8288054e9763b39c37688b66e8adbddf110d27bb01d362e5d6d06",
+   "what_i_checked": "Timestamp 8:49 PM, Election Day precinct votes nonzero"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Parker/122585/352328/reports/detailxml.zip",
+   "content_hash": "8183d179bf2f7fcc90a679a22d712c49213c1264cf4ac191a677523128081b29",
+   "what_i_checked": "Timestamp 9:52 PM, second release with higher Election Day precinct votes"
   },
   {
    "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368400/reports/detailxml.zip",
    "content_hash": "f3cef7e1c6a81bf9c083dcbf8dc9d2b1f4c6958dd1a68971b5c73104150fdb69",
-   "what_i_checked": "opened: 7:22:30 PM CST, none"
+   "what_i_checked": "Timestamp 7:22 PM, early-only precinct votes"
   },
   {
    "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368458/reports/detailxml.zip",
    "content_hash": "5443b520af3c3ad0f47ea5edf0d8e21dd6cda3323b612deaf33817da628b3643",
-   "what_i_checked": "opened: 8:57:48 PM CST, 47 precincts"
+   "what_i_checked": "Timestamp 8:57 PM, Election Day precinct votes nonzero"
   },
   {
-   "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368499/reports/detailxml.zip",
-   "content_hash": "2f34da56deee646f768506b2d3f39148fc8406a1bb13112c40cabba59cdeabc9",
-   "what_i_checked": "opened: 9:48:08 PM CST"
+   "url": "https://results.enr.clarityelections.com/TX/Parker/126279/372934/reports/detailxml.zip",
+   "content_hash": "f74097adde44e1e2a8ba2446eca8de906e73f0105ab59c0d100af12129358746",
+   "what_i_checked": "Timestamp 7:07 PM CDT, no Election Day precinct votes"
   },
   {
    "url": "https://results.enr.clarityelections.com/TX/Parker/126279/373012/reports/detailxml.zip",
    "content_hash": "8aed3b785bb27d48a558d8b25458f9b91b1d59bdbb988d4e9311cc19f3ca9de5",
-   "what_i_checked": "opened: 9:13:01 PM CDT, single release"
+   "what_i_checked": "Timestamp 9:13 PM CDT, Election Day precinct votes nonzero (only night release)"
   },
   {
-   "url": "https://www.parkercountytx.com/index.aspx?NID=118",
+   "url": "https://results.enr.clarityelections.com/TX/Parker/126279/373419/reports/detailxml.zip",
+   "content_hash": "086d101f509482a2fa29e563a5f7ae98f37508701c26c063d6fc2153729d60ae",
+   "what_i_checked": "6/2/2026 canvass version, same Election Day precinct sum"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Parker/",
    "content_hash": "",
-   "what_i_checked": "seed URL returns HTTP 403"
+   "what_i_checked": "Election IDs found by verifier-7 with the bounded ID search (python3 -m phase1.clarity_eid_probe --county Parker --agent verifier-7); each accepted hit's detail.xml showed Region Parker and the target ElectionDate, and I reconfirmed Region/ElectionDate/Timestamp in every file I opened. Check 1 script output: phase1/verification/clarity/Parker.json."
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:22:42Z",
- "research_tag": "UNKNOWN",
+ "written_blind_at_utc": "2026-10-02T20:51:12Z",
+ "research_tag": "LIVE_PRECINCT",
  "agree": true,
  "comparison_notes": {
-  "2024_general": "same (UNDETERMINED).",
-  "2026_primary": "same (LIVE).",
-  "2026_runoff": "same (END)."
- }
+  "2024_general": "same (LIVE, check 1, EID 122585): Election Day precinct votes at 8:49:32 PM and 9:52:35 PM CST (2 distinct releases); I opened both.",
+  "2026_primary": "same (LIVE, check 1, EID 126014): first 8:57:48 PM CST, 4 distinct releases.",
+  "2026_runoff": "same (END, check 1, EID 126279): one Election Day precinct release at 9:13:01 PM CDT, equal to the 6/2/2026 canvass sum.",
+  "unsupported_claims": "none found. Research says the county page parkercountytx.gov/441/Past-Election-Results links EIDs 126014 and 126279; I did not open that page (I found the IDs with the bounded probe), so that link claim is not independently checked but the IDs match mine."
+ },
+ "compared_at_utc": "2026-10-02T20:52:12Z"
 }

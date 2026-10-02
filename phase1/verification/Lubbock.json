@@ -1,0 +1,94 @@
+{
+ "county": "Lubbock",
+ "reason_selected": "owner override to LIVE_PRECINCT; verify the per-election results only",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 122846 ('2024 General and Special Election'). Opened v351579: Timestamp 11/5/2024 8:36:01 PM CST, Region Lubbock, ElectionDate 11/5/2024; no nonzero Election Day precinct cell. Opened v352924: Timestamp 11/5/2024 11:46:14 PM CST; President/Vice President, Donald J. Trump/JD Vance, VoteType 'Election' votes=12738, <Precinct name=\"1\" votes=\"153\" />. Opened v353201: Timestamp 11/6/2024 1:54:56 AM CST, Election Day precinct cells present. Script: 3 of 4 night updates carry Election Day precinct votes, 2 distinct releases (sum 397337 at 11:46 PM and 11:50 PM, 397346 at 1:54 AM). Meets the two-or-more-updates rule, though the second release adds only 9 votes."
+  },
+  "2026_primary": {
+   "result": "END",
+   "check": "1",
+   "fact": "Separate Clarity sites per party. Republican EID 126020: opened v368413 (Timestamp 3/3/2026 7:54:47 PM CST, Region Lubbock, ElectionDate 3/3/2026; no Election Day precinct cell) and v368539 (Timestamp 3/3/2026 10:58:21 PM CST; United States Senator, VoteType 'Election' votes=86, <Precinct name=\"2\" votes=\"2\" />). Democratic EID 126021: opened v368538 (Timestamp 3/3/2026 10:55:57 PM CST; United States Senator, VoteType 'Election' votes=48, <Precinct name=\"1\" votes=\"2\" />). On each site only 1 of 2 night updates carries Election Day precinct votes (R sum 379379, D 148633); the next versions are 3/10/2026 canvass. One release with the final unofficial count."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "1",
+   "fact": "Republican EID 126290: opened v372942 (Timestamp 5/26/2026 7:23:36 PM CDT, Region Lubbock, ElectionDate 5/26/2026) and v373070 (Timestamp 5/27/2026 12:52:14 AM CDT): every Precinct and Choice value is votes=\"protected\" (4640 of 4659). County totals public on election night: summary.json of v373070 shows United States Senator PR 96 of TP 99, V [13243, 8443] for Paxton/Cornyn. Opened v373129: Timestamp 5/27/2026 11:48:18 AM CDT, values unprotected, United States Senator, Ken Paxton, VoteType 'Election' votes=3754, <Precinct name=\"1\" votes=\"16\" />. Democratic EID 126277: script shows the same pattern (0 of 3 night updates with precinct votes; first precinct votes 5/27/2026 11:51:23 AM CDT). Precinct numbers came the morning after election night. County totals first seen 2026-05-26 19:23 CT."
+  }
+ },
+ "rationale": "Per-election results: 2024_general LIVE (check 1), 2026_primary END (check 1), 2026_runoff LATER (check 1). Fixed rule gives UNKNOWN (no result shared by two elections). The owner has overridden Lubbock's tag to LIVE_PRECINCT; this verifier_tag is the rule-based tag from my own per-election results only.",
+ "sources": [
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/351579/reports/detailxml.zip",
+   "content_hash": "64678f0867accb3ee587a4d1f6a72aef5c0b477f8f08d105119739ace21fd9e8",
+   "what_i_checked": "Timestamp 8:36 PM, Region/ElectionDate, no Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/352924/reports/detailxml.zip",
+   "content_hash": "6d135970166aad381e6708cd2d6bdd3e43df1800edf4475eaeb3409247f73f03",
+   "what_i_checked": "Timestamp 11:46 PM, Election Day precinct votes nonzero"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/353201/reports/detailxml.zip",
+   "content_hash": "51fc54a44bac121128ec93e379e66af4331a30a2c6645f4d383411315b723dd3",
+   "what_i_checked": "Timestamp 1:54 AM, second Election Day precinct release"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368413/reports/detailxml.zip",
+   "content_hash": "fe8d113c6a44544020118c5c5a389d17271e896e9213f832b4e164ef0ea1ed95",
+   "what_i_checked": "R primary Timestamp 7:54 PM, early-only precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368539/reports/detailxml.zip",
+   "content_hash": "456a4b40cef64d2178ea65e9310a5eb72b3457a5dacbd4a1eb3a494f7ba49393",
+   "what_i_checked": "R primary Timestamp 10:58 PM, Election Day precinct votes nonzero"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368538/reports/detailxml.zip",
+   "content_hash": "db2e41178293cbe69f13487a47a93c399a7309e462f4d6d501e8dd707f3ea206",
+   "what_i_checked": "D primary Timestamp 10:55 PM, Election Day precinct votes nonzero"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/372942/reports/detailxml.zip",
+   "content_hash": "82d0534d45dd55e233287a61f75e38216407502867a423027e987907cc24e9b1",
+   "what_i_checked": "R runoff Timestamp 7:23 PM CDT, precinct values protected"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/373070/reports/detailxml.zip",
+   "content_hash": "eaca3bc62432cf8357bb2c77e40c386279b1e48a5d680fbc4a6180df40b81973",
+   "what_i_checked": "R runoff Timestamp 12:52 AM CDT, precinct values protected"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/373129/reports/detailxml.zip",
+   "content_hash": "c2c7f67b661f8d3361dccd6e671856bb1ea74b6cbff1358fc67f4518d8854b0e",
+   "what_i_checked": "R runoff Timestamp 5/27 11:48 AM CDT, precinct values unprotected"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/373070/json/en/summary.json",
+   "content_hash": "99a6b1924e05e1939eb04f1300a71f7f0e882d10678f8ce5ad05f48766358fbe",
+   "what_i_checked": "county totals present on election night (PR 96 of 99)"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lubbock/",
+   "content_hash": "",
+   "what_i_checked": "Election IDs found by verifier-7 with the bounded ID search (python3 -m phase1.clarity_eid_probe --county Lubbock --agent verifier-7); each accepted hit's detail.xml showed Region Lubbock and the target ElectionDate, and I reconfirmed Region/ElectionDate/Timestamp in every file I opened. Check 1 script output: phase1/verification/clarity/Lubbock.json."
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T20:51:12Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "research_rule_tag": "UNKNOWN",
+ "agree_scope": "per-election results and rule-based tag; research final tag is an owner override",
+ "comparison_notes": {
+  "2024_general": "same (LIVE, check 1, EID 122846): Election Day precinct votes first 11:46:14 PM CST, again 11:50 PM (same sum) and 1:54:56 AM (sum +9 votes), 2 distinct releases. The LIVE result rests on a second release that adds only 9 votes.",
+  "2026_primary": "same (END, check 1, EIDs 126020 R and 126021 D): one Election Day precinct release per party (10:58:21 PM and 10:55:57 PM CST).",
+  "2026_runoff": "same (LATER, check 1, EIDs 126290 R and 126277 D): night values all 'protected'; precinct numbers first 5/27/2026 11:48 AM (R) and 11:51 AM CDT (D). county_totals_first_seen differs trivially: research 7:24:54 PM CDT (D v372943), mine 7:23:36 PM CDT (R v372942). I confirmed county totals were public on election night via summary.json (v373070, PR 96 of 99).",
+  "tag": "Per-election results all match, and my rule-based tag UNKNOWN equals the research record's owner_override.rule_tag UNKNOWN. The research final tag LIVE_PRECINCT (confidence med) is an owner override (decided 2026-10-02T20:08:31Z, based on Nov 2024 and the owner's statement about November 2026), which I was told not to verify. agree=true refers to the per-election results and rule tag. NOTE: build_csv.py compares verifier_tag to the research tag directly and would set Lubbock to UNKNOWN unless the build honors owner_override.",
+  "unsupported_claims": "none found in election facts. The Avalanche-Journal/Yahoo lead ('posted around 11 p.m.') was not re-checked; it is corroboration only."
+ },
+ "compared_at_utc": "2026-10-02T20:52:12Z"
+}
