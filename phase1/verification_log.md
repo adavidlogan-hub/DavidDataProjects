@@ -26,6 +26,7 @@
 - Childress: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
 - Clay: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
 - Cochran: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Collin: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag changed in targeted pass 2 (UNKNOWN to PRECINCT_END_OF_NIGHT)).
 - Comal: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
 - Comal: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
 - Cooke: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
