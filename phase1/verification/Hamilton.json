@@ -1,0 +1,47 @@
+{
+ "county": "Hamilton",
+ "reason_selected": "low confidence",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No Clarity site (elections.json 404). Seed host hamiltoncountytx.org refused by the fetch module (robots or unreachable); site read at hamiltoncountytx.gov. No 2024 general results on the elections page. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Only official files: \"Joint Primary Official Results Precinct Summary\" (Official Results.pdf) Last-Modified 16 Mar 2026; no election-night file. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "\"Unofficial Primary Runoff Results Report\" is a Texas SOS county-level report (county totals), Last-Modified 29 May 2026 14:32 GMT (after election night); official precinct summary Last-Modified 29 Jun 2026. No election-night file, so not LATER under the clarified rule. Check 3 unavailable: no wayback-data folder for this county."
+  }
+ },
+ "rationale": "No election-night file survives for any election; all UNDETERMINED, so UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://www.hamiltoncountytx.gov/page/hamilton.elections",
+   "content_hash": "a0088532506867483fa1710a20df14bc8807aeba378ae6c230c19c60423a71a7",
+   "what_i_checked": "file list"
+  },
+  {
+   "url": "https://www.hamiltoncountytx.gov/upload/page/8825/Unofficial%20Primary%20Runoff%20Results%20Report.pdf",
+   "content_hash": "11c88cbe922a41490ba7f0de0c4d39f57b75a6322bd6b86c1b57a5b22110e54f",
+   "what_i_checked": "runoff unofficial SOS county report uploaded May 29"
+  },
+  {
+   "url": "https://www.hamiltoncountytx.gov/upload/page/8825/March%2026%202026%20Primary%20Runoff%20Official%20Results%20Precinct%20Summary.pdf",
+   "content_hash": "0c75a476743d34ab23ddb5b43936dc821412dd642915f2a6720d0a55724ba20d",
+   "what_i_checked": "runoff official precinct summary uploaded Jun 29"
+  },
+  {
+   "url": "https://www.hamiltoncountytx.gov/upload/page/8825/Official%20Results.pdf",
+   "content_hash": "8a36b361b100b5816db3d40e6719ae7d735190b0159c77371d4f04ed7eef7168",
+   "what_i_checked": "primary official precinct summary uploaded Mar 16"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z"
+}

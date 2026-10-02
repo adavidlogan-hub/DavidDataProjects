@@ -1,0 +1,47 @@
+{
+ "county": "Andrews",
+ "reason_selected": "low confidence",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No Clarity site (elections.json 404). Results page lists only \"11.05.24 Official Results\" (DocumentCenter 1841): Electionware county summary, footer \"Election Summary - 11/20/2024 10:32 AM\", scanned Nov 20 2024; no election-night file survives. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Only \"03.03.26 Official results\" (DocumentCenter 2770): county summary, footer \"Election Summary - 03/17/2026 12:24 PM\", scanned Mar 17 2026. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"05.26.26 unofficial results\" (DocumentCenter 2851): one-page \"Summary Results Report ... UNOFFICIAL RESULTS\" with county totals by Absentee/Early/Election Day, footer \"Election Summary - 05/26/2026 7:43 PM\"; EPSON scan CreationDate 2026-05-27 01:51 UTC (8:51 PM CDT). No precinct numbers; no precinct report posted. CivicPlus DocumentCenter gives no Last-Modified (no upload evidence)."
+  }
+ },
+ "rationale": "Only the runoff is determined (LATER: an election-night county-totals summary, no precinct report ever posted). Exactly one determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS at low confidence.",
+ "sources": [
+  {
+   "url": "https://www.co.andrews.tx.us/193/Election-Results",
+   "content_hash": "8b8c62341f0fb9415e29cf12729b73b1bc2fc11a10a6607923faef557250fab7",
+   "what_i_checked": "list of result files"
+  },
+  {
+   "url": "https://www.co.andrews.tx.us/DocumentCenter/View/2851/052626-unofficial-results",
+   "content_hash": "a21baa6dd62b72787e44ece2d1fccd2db59c7f4438a9a820133d8a51cac79a4b",
+   "what_i_checked": "runoff unofficial summary: title, printed time 7:43 PM, scan time; no Last-Modified"
+  },
+  {
+   "url": "https://www.co.andrews.tx.us/DocumentCenter/View/2770/030326-Official-results",
+   "content_hash": "6279354e970a6086868da9a37424d4f12ad58251c5da503e47d38a0590c321a8",
+   "what_i_checked": "primary official summary, printed 03/17/2026"
+  },
+  {
+   "url": "https://www.co.andrews.tx.us/DocumentCenter/View/1841/110524-Official-Results",
+   "content_hash": "75e8a1905910895200d14ee192ab8328875b249f6e9c81557a298b6646e0ee48",
+   "what_i_checked": "2024 official summary, printed 11/20/2024"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z"
+}

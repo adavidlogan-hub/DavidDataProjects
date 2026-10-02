@@ -58,5 +58,12 @@
    "what_i_checked": "opened: 5/27/2026 11:35:42 AM CDT, first precinct values"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:22:42Z"
+ "written_blind_at_utc": "2026-10-02T16:22:42Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE).",
+  "2026_primary": "same (LIVE; both treat the 7:11 PM version as mislabeled or test data).",
+  "2026_runoff": "same (LATER: precinct values hidden on election night, first shown 5/27 11:35:42 AM CDT). Research says the values were \"N/A\"; the files I opened show votes=\"protected\"."
+ }
 }

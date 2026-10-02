@@ -15,12 +15,12 @@
       "fact": "'ED Results 3 3 26.pdf' (scanned Electionware report): 'Summary Results Report ... UNOFFICIAL RESULTS Election Day', footer 'Election Summary - 03/03/2026 10:16 PM', 'Election Day Precincts Reporting 10 of 10'; 19 pages of county-level contest totals only (pages 1 and 19 read). Last-Modified Wed 04 Mar 2026 05:06:55 GMT = 11:06 PM CST election night. Precinct files 'Republican Pct by Pct 3 26.pdf' CreationDate Mar 10 2026, Last-Modified 20 Mar 2026. So county totals only on election night, precinct numbers after."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
-      "fact": "May 26 2026 section lists no election-night file. 'Combined Summary Report.pdf' Last-Modified Mon 01 Jun 2026 22:20 GMT; 'Offiucial Results Republican by Pct.pdf' Last-Modified 01 Jun 2026 22:17 GMT (CreationDate Jun 1). Precinct numbers posted only after election night. Weaker than the primary: rests on upload times only."
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "May 26 2026 section lists no election-night file. 'Combined Summary Report.pdf' Last-Modified Mon 01 Jun 2026 22:20 GMT; 'Offiucial Results Republican by Pct.pdf' Last-Modified 01 Jun 2026 22:17 GMT (CreationDate Jun 1). Only post-election files survive, so under the updated rule this is UNDETERMINED. Check 3 pending."
     }
   },
-  "rationale": "Primary and runoff LATER (election-night summary only in the primary; precinct reports uploaded days later), 2024 undetermined. Two LATER give COUNTY_ONLY_PRECINCT_AT_CANVASS; low because the runoff rests on upload times only with no election-night file.",
+  "rationale": "Only the 2026 primary is determined (LATER: election-night county-total summary printed 10:16 PM and uploaded 11:06 PM CST; precinct reports printed Mar 10, uploaded Mar 20), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
   "sources": [
     {
       "url": "https://www.austincounty.com/page/austin.Elections",
@@ -64,8 +64,10 @@
   "comparison_notes": {
     "2024_general": "same (UNDETERMINED). Both found only official summary and precinct files, no election-night file.",
     "2026_primary": "same (LATER, check 2). Both read the 'ED Results 3 3 26.pdf' summary printed 10:16 PM, Last-Modified 05:06:55 GMT, county totals only.",
-    "2026_runoff": "different result, same tag effect: research UNDETERMINED (no election-night file); I recorded LATER because the only runoff files, including the precinct reports, were uploaded Jun 1 2026 (Last-Modified). My LATER rests on upload times only and is weak; both readings yield the same tag at low confidence.",
+    "2026_runoff": "same after revision (UNDETERMINED). My first blind verdict was LATER from June upload times only; the updated rule makes it UNDETERMINED, matching research.",
     "unsupported_or_unchecked": "None found."
   },
-  "compared_at_utc": "2026-10-02T16:08:31Z"
+  "compared_at_utc": "2026-10-02T16:08:31Z",
+  "revision_note": "Revised after the orchestrator's LATER rule clarification (CHECKLIST_BRIEF updated mid-run): LATER needs a county-totals file printed or uploaded on election night; elections with only post-election files are UNDETERMINED. Revision made from my own evidence after the research file had been opened; no new facts taken from it. Changed: 2026_runoff LATER to UNDETERMINED. Tag unchanged.",
+  "revised_at_utc": "2026-10-02T16:24:55Z"
 }

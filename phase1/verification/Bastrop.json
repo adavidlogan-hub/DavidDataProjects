@@ -58,5 +58,12 @@
    "what_i_checked": "HTTP 404, the missing 2024 version could not be read"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:22:42Z"
+ "written_blind_at_utc": "2026-10-02T16:22:42Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (END, check 1, 11:35:09 PM CST release). Research does not mention that version 352384 between the two night versions returns HTTP 404.",
+  "2026_primary": "same (LIVE, 9:58:29 and 11:03:08 PM).",
+  "2026_runoff": "same (END; both note the units are Poll 1 to Poll 4)."
+ }
 }

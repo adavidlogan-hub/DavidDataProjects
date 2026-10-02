@@ -1,0 +1,49 @@
+{
+ "county": "Floyd",
+ "reason_selected": "low confidence",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "co.floyd.tx.us/page/floyd.Elections, under \"ELECTION NIGHT RESULTS 11-05-2024 UNOFFICIAL\", links \"State Unofficial Results.pdf\" (newtools.cira.state.tx.us): \"Texas Secretary of State Election Unofficial Results Report ... FLOYD County\", county totals by vote type; CreationDate 6 Nov 2024 03:07 UTC, Last-Modified Wed 06 Nov 2024 03:18:24 GMT = 9:18 PM CST. No precinct results file for this election anywhere on the page."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Unofficial Election Night Results.pdf\" (scanned) is a \"Cumulative Results Report ... Unofficial Results ... PRIMARY ELECTION 3/3/2026\" with county totals by vote type only; CreationDate 4 Mar 2026 01:58 UTC (7:58 PM CST), Last-Modified Wed 04 Mar 2026 02:40:15 GMT = 8:40 PM CST. No precinct results posted."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Runoff section lists only a Notice of L&A Testing; no results file. co.floyd.tx.us over https fails certificate check; www.co.floyd.tx.us works. No wayback folder for this county, check 3 pending."
+  }
+ },
+ "rationale": "Two elections LATER from check 2 (county totals posted on election night with printed and upload times that night; precinct numbers never posted), so COUNTY_ONLY_PRECINCT_AT_CANVASS, med.",
+ "sources": [
+  {
+   "url": "https://www.co.floyd.tx.us/page/floyd.Elections",
+   "content_hash": "4e4be1caf0bdfb20ade1876e03200f72f64a2516546371e9d627e11c1dc6b027",
+   "what_i_checked": "results list"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/1798/State Unofficial Results.pdf",
+   "content_hash": "08347a30a84a20b496ab81b95219960295c1c406fcead96bd9a47091c750216e",
+   "what_i_checked": "2024 county totals, uploaded 9:18 PM CST"
+  },
+  {
+   "url": "https://www.co.floyd.tx.us/upload/page/1798/Unofficial Election Night Results.pdf",
+   "content_hash": "bbe017708233c455ef292db92c992eb684393e7cd308510a427c962e185dcd17",
+   "what_i_checked": "2026 primary cumulative, uploaded 8:40 PM CST"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "different: research UNDETERMINED (\"no results posted\"), mine LATER. The Elections page has a section \"ELECTION NIGHT RESULTS 11-05-2024 UNOFFICIAL\" linking newtools.cira.state.tx.us/upload/page/1798/State Unofficial Results.pdf: SOS-format county totals, CreationDate 6 Nov 2024 03:07 UTC, Last-Modified 03:18:24 GMT (9:18 PM CST). The research claim of no 2024 results is not supported by the page.",
+  "2026_primary": "same (LATER: county-totals cumulative uploaded 8:40 PM CST).",
+  "2026_runoff": "same (UNDETERMINED)."
+ }
+}

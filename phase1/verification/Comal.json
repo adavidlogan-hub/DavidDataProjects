@@ -53,5 +53,12 @@
    "what_i_checked": "zero captures in all three windows"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:22:42Z"
+ "written_blind_at_utc": "2026-10-02T16:22:42Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE, 9:36:10 and 10:52:35 PM CST). Research says the first night update had 44 precincts with votes and \"75\" at 12:49 AM; I did not check those counts.",
+  "2026_primary": "same (UNDETERMINED; Enhanced Voting has no update history). Research read the EV API (lastUpdated 2026-03-13); I read only the app code.",
+  "2026_runoff": "same."
+ }
 }

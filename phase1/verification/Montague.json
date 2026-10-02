@@ -1,0 +1,71 @@
+{
+  "county": "Montague",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 122664 (linked 'November 5, 2024' on the county Election Results page). Opened v351035 (Timestamp 11/5/2024 7:39:02 PM CST, ElectionName 'November 5, 2024 General Election', Region Montague; XML ElectionDate reads 10/11/2024): President/Vice President, REP Donald J. Trump/JD Vance, VoteType Election Day votes=144, <Precinct name=\"2\" votes=\"11\">. Opened v351132 (7:53:36 PM CST): same choice Election Day votes=409. Script: 5 of 5 night updates with election-day precinct votes (7:39 to 8:52 PM)."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 126015 (linked 'March 3, 2026'). Opened v368406 (Timestamp 3/3/2026 7:38:53 PM CST, ElectionDate 3/3/2026, Region Montague): REP US Senator, Wesley Hunt, Election Day votes=19, <Precinct name=\"3\" votes=\"4\">. Opened v368411 (7:50:39 PM CST): Election Day votes=24. Script: 5 of 5 night updates with election-day precinct votes (7:38 to 8:48 PM); 4:15 PM update had early-only precinct votes."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 126366 (linked 'May 26, 2026'). Opened v372937 (Timestamp 5/26/2026 7:16:44 PM CDT, ElectionName 'May 26, 2026 Primary Runoff', Region Montague; XML ElectionDate reads 5/12/2026): REP US Senator, Ken Paxton, Election Day votes=106, <Precinct name=\"2\" votes=\"6\">. Opened v372957 (8:06:23 PM CDT): Election Day votes=305. Script: 4 of 4 night updates with election-day precinct votes (7:16 to 8:52 PM)."
+    }
+  },
+  "rationale": "All three elections LIVE by check 1 (election-day precinct votes in two or more election-night Clarity updates), so LIVE_PRECINCT, high.",
+  "sources": [
+    {
+      "url": "https://www.co.montague.tx.us/page/montague.ElectionResults",
+      "what_i_checked": "county links to Clarity EIDs 122664, 126015, 126366",
+      "content_hash": "a83097be7d3e6375ba15b30ac9159c5c6de3e05f048125e265ad6378d02bfec3"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351035/reports/detailxml.zip",
+      "what_i_checked": "first 2024 night update, ED precinct votes",
+      "content_hash": "be44881ce6222913ed55b522779865897593ce0b49e08b238adae55bb5f1fbb4"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351132/reports/detailxml.zip",
+      "what_i_checked": "second 2024 night update",
+      "content_hash": "4feef7a01aa149a1669deb43a57b18dfa3aded6b346e2196f1b692a9ab486f58"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368406/reports/detailxml.zip",
+      "what_i_checked": "first primary night update, ED precinct votes",
+      "content_hash": "b4319d6652c7275514234cb48e2367dfa448ee26021197ac08ac6eeda0e7a3ed"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368411/reports/detailxml.zip",
+      "what_i_checked": "second primary night update",
+      "content_hash": "0bd4cd949c0c514e0051cba44670ed9c86ec7ba03b9d717fa72acb7b50f1e831"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372937/reports/detailxml.zip",
+      "what_i_checked": "first runoff night update, ED precinct votes",
+      "content_hash": "74f6bbb97b584be3fd460894821b4508ade696edb93557abb13c5793d6b1c26d"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372957/reports/detailxml.zip",
+      "what_i_checked": "second runoff night update",
+      "content_hash": "453becdcedf37a835d9e02d676f398d4ea76fa5144f66be366a4b56400658b5f"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:27:50Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LIVE, check 1, EID 122664, 5 of 5 night updates from 7:39 PM).",
+    "2026_primary": "same (LIVE, check 1, EID 126015, 5 of 5 night updates from 7:38 PM).",
+    "2026_runoff": "same (LIVE, check 1, EID 126366, 4 of 4 night updates from 7:16 PM).",
+    "unsupported_or_unchecked": "None found. Research facts cite total nonzero precinct cells rather than election-day precinct votes; my script run confirms election-day precinct votes in every night update (e.g. 2024: 14 then 15 precincts, ED sums 3530 to 47086). The 2024 and runoff detail.xml ElectionDate fields read 10/11/2024 and 5/12/2026 (not the election date); the EIDs come from the county's own links and ElectionName matches, so this does not affect the result."
+  },
+  "compared_at_utc": "2026-10-02T16:27:56Z"
+}

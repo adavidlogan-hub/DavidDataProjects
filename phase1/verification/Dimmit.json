@@ -1,0 +1,44 @@
+{
+ "county": "Dimmit",
+ "reason_selected": "low confidence",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "dimmitcounty.org/government/departments/elections/index.php lists no results file for this election. No wayback folder for this county, check 3 pending."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Only \"Post-Election Hand County Audit Results (Dem & Rep)\" (upload stamp t=20260323) and a Notice of Canvass; no results file. No wayback folder for this county, check 3 pending."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"CANVASSED ELECTION RESULTS - DEM & REP COMBINED\" (May 26 Final Canvassed Results Dem & Rep.pdf, served from cms9files.revize.com): \"Summary Results Report ... Combined Election Results ... Dimmit County\", county totals only; CreationDate 25 Aug 2026 14:47 UTC, Last-Modified Tue 25 Aug 2026 19:49:21 GMT. No precinct numbers posted. Check 3 pending (no wayback folder)."
+  }
+ },
+ "rationale": "No election is determined. The only runoff file is a canvassed county-totals report uploaded 25 Aug 2026; nothing from election night survives. Tag UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://dimmitcounty.org/government/departments/elections/index.php",
+   "content_hash": "b53aa71755498f391f9170dad8107a57edd73747fe9ccc4153fb9f7bc0b9584f",
+   "what_i_checked": "results list"
+  },
+  {
+   "url": "https://dimmitcounty.org/May%2026%20Final%20Canvassed%20Results%20Dem%20%26%20Rep.pdf?t=202608251547420",
+   "content_hash": "250939a5fc58113d7fb908fdc449b33bfcf72a325eb5fd1fa7c3a036de02f423",
+   "what_i_checked": "combined county totals, uploaded 25 Aug 2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "NO_SITE_OR_SOS_ONLY",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "different: research NONE (check 2), mine UNDETERMINED. Research rests NONE on the absence of any results file and itself says \"a removed file cannot be ruled out\"; under the clarified rule missing files alone are UNDETERMINED, and the page does not point this election to the SOS only. Not supported.",
+  "2026_runoff": "same result (UNDETERMINED), but research says the canvassed-results PDF returned 404 and was not read; I read it (served from cms9files.revize.com, HTTP 200): combined county totals, Last-Modified 25 Aug 2026 19:49:21 GMT."
+ }
+}

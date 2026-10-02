@@ -1,0 +1,49 @@
+{
+ "county": "Hardin",
+ "reason_selected": "low confidence",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: www.co.hardin.tx.us redirects to hardincountytx.gov. The elections page sends election-night viewers to the SOS (\"ELECTION RESULTS VIA TEXAS ELECTION NIGHT REPORTS\", results.texas-election.com/races). County-posted file: \"OFFICIAL Cumulative Results-11-18-2024\", Cumulative Results Report, Official Results, Run Time 11:04 AM Run Date 11/18/2024, Last-Modified Mon 18 Nov 2024 17:23:50 GMT, county totals only. No precinct report posted. Check 3 pending (no wayback folder)."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: Only \"Republican/Democratic Cumulative Results-3-12-2026\" official cumulative files (PDF and TXT) and official reconciliation listed (read from file names and link titles). No precinct report. Check 3 pending (no wayback folder)."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"OFFICIAL_REP_Cumulative Results-6-4-2026\": Run Time 8:05 AM, Run Date 06/04/2026, Last-Modified Thu 04 Jun 2026 16:39:20 GMT, county totals. No precinct report. Check 3 pending (no wayback folder)."
+  }
+ },
+ "rationale": "No election is determined. The elections page sends election-night viewers to the SOS site, and the county later posts official county totals of its own (so not NONE). No county election-night file survives, so each election is UNDETERMINED under the clarified rule. Tag UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://www.hardincountytx.gov/page/ElectionsDepartment",
+   "content_hash": "e4cd246816bf69cdecd29a8ac14f38cfb30827a736c94a48b2c57388b9e89572",
+   "what_i_checked": "results list and SOS election-night link"
+  },
+  {
+   "url": "https://www.hardincountytx.gov/upload/page/0117/docs/Past Elections/11-5-24/OFFICIAL Cumulative Results-11-18-2024 11-04-51 AM.pdf",
+   "content_hash": "fbd9946d33d67a4e1bdd264e2e6ddcdb25786b14a17115f1eb9b0c65510665b8",
+   "what_i_checked": "official county totals"
+  },
+  {
+   "url": "https://www.hardincountytx.gov/upload/page/0117/docs/5-26-26/OFFICIAL_REP_Cumulative Results-6-4-2026 08-05-49 AM.pdf",
+   "content_hash": "b06b586c9138598e5e058099de74c10efc1bf213bfe4d611a13f4627931321b0",
+   "what_i_checked": "official county totals"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "different: research LATER, mine UNDETERMINED. My blind pass missed this file (it is linked on the cached copy of the page I read; my link filter dropped it). I opened the research-cited file from cache: hcelectioncenter.hardincountytx.gov/media/pdf/2026_may_runoff.pdf is \"Cumulative Results Report HARDIN COUNTY, TEXAS ... Unofficial Results ... Run Time 8:41 PM\", CreationDate 27 May 2026 01:41:37 UTC, Last-Modified 02:15:57 GMT (9:15 PM CDT), county totals. The research claim is supported; with it the tag would be COUNTY_ONLY_PRECINCT_AT_CANVASS low, matching research."
+ }
+}

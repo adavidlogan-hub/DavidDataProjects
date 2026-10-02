@@ -1,0 +1,57 @@
+{
+ "county": "Wilbarger",
+ "reason_selected": "random 10 percent sample",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "No Clarity site (elections.json 404). \"Unofficial Results\" 0109/2024/unofficial_results_1152024.pdf: Cumulative Results Report (county totals), \"Run Time 8:39 PM Run Date 11/05/2024\"; Last-Modified 07 Nov 2024 16:49 GMT (two days later). No precinct report posted. Wayback folder exists but has no election-night captures."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Primary Party Election - Unofficial Results\" (title uses an en dash in the source; replaced by a hyphen): Cumulative Results Report, county totals, \"Run Time 8:56 PM Run Date 03/03/2026\"; CreationDate 2026-03-04 03:09 UTC (9:09 PM CST); Last-Modified 04 Mar 2026 13:41 GMT (next morning)."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Unofficial Results for Primary Party Runoff Election\": Cumulative Results Report, county totals, \"Run Time 7:29 PM Run Date 05/26/2026\"; CreationDate 2026-05-27 14:42 UTC; Last-Modified 02 Jun 2026 and 16 Jun 2026 for the two copies. No precinct report."
+  }
+ },
+ "rationale": "All three elections show only county-total cumulative reports printed on election night (uploaded later) and no precinct report: LATER x3 gives COUNTY_ONLY_PRECINCT_AT_CANVASS; printed times only, so low.",
+ "sources": [
+  {
+   "url": "https://www.co.wilbarger.tx.us/page/Elections.2026",
+   "content_hash": "c2e5972529595dafc19d57a4ac0b0248fe5475229122fe9ca17dffd4e192aa42",
+   "what_i_checked": "2026 file list"
+  },
+  {
+   "url": "https://www.co.wilbarger.tx.us/page/Elections.Past",
+   "content_hash": "611135a38659555b573adcd70afce8a9b2b8662f03f975e668dd256a00acb021",
+   "what_i_checked": "2024 file list"
+  },
+  {
+   "url": "https://www.co.wilbarger.tx.us/upload/page/0109/2024/unofficial_results_1152024.pdf",
+   "content_hash": "450272eeeaae1abbf74cb6c77fd939eb7ac96e45b493dd09f6491b0845a77f82",
+   "what_i_checked": "2024 cumulative run 8:39 PM"
+  },
+  {
+   "url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/Primary%20Party%20Election%20%E2%80%93%20Unofficial%20Results.pdf",
+   "content_hash": "6791960b733531210e12f9a78ca233b999d4dd0247a58a7b3344be0025f2b57c",
+   "what_i_checked": "primary cumulative run 8:56 PM"
+  },
+  {
+   "url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/2026%20Runoff/unofficial_results_for_primary_party_runoff_election.pdf",
+   "content_hash": "a7899c5a5cabc69075153b91545ef2e87b221e9b6942d7ec5f257117444b0646",
+   "what_i_checked": "runoff cumulative run 7:29 PM"
+  },
+  {
+   "url": "wayback-data:phase1/wayback_snapshots/Wilbarger/index.json",
+   "content_hash": "b245aa337331c1a8cb72fad7b761394d37fbdd9698dc3f024f6becb62ccfa3cf",
+   "what_i_checked": "no captures in any window (primary CDX query failed)"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z"
+}

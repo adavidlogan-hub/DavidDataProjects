@@ -1,0 +1,67 @@
+{
+ "county": "Cameron",
+ "reason_selected": "low confidence",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "No Clarity site (elections.json 404). \"Election Night Results\" GN24-Election-Night-Results-Summary.pdf: Summary Results Report, UNOFFICIAL RESULTS, County Wide; footer \"Election Summary - 11/05/2024 11:53PM\" (the Xerox scan CreationDate 2024-11-06 05:22 UTC, 11:22 PM CST, contradicts the printed time; scanner clock likely off); Last-Modified Wed, 06 Nov 2024 05:59:08 GMT (11:59 PM CST). Precinct by Precinct report (GENERAL-ELECTION-PCT-BY-PCT-NOV-5TH-2024.pdf) Last-Modified 19 Nov 2024."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Unofficial ENR summary P26-Democrat-ENR-corrected.pdf printed \"03/04/2026 04:38PM\", Last-Modified 04 Mar 2026 22:45 GMT (after election night); unofficial precinct report Democrat-Party-Precinct-Result-031126.pdf Last-Modified 12 Mar 2026. No file dated on election night. Live results host livevoterturnout.com/CameronTX shows a 2022 page only. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "PR26-REP-Final-Unofficial-Reconciled-Results.pdf: Republican Summary Results Report, UNOFFICIAL, county totals; CreationDate 2026-05-27 05:01 UTC, Last-Modified 27 May 2026 05:10:53 GMT (12:10 AM CDT). Precinct by precinct reports uploaded June 2026 (Republican-sigined-precinct-by-precinct-report001.pdf Last-Modified 08 Jun 2026)."
+  }
+ },
+ "rationale": "County totals posted on election night (printed and uploaded) with precinct reports only weeks later in 2024 and the runoff: LATER twice gives COUNTY_ONLY_PRECINCT_AT_CANVASS; settled by check 2 with printed and upload times on election night, so med.",
+ "sources": [
+  {
+   "url": "https://cameroncountytx.gov/elections/results/",
+   "content_hash": "1cb79c92b28bbac21f66cc85b10c47fe062ab3a0cc1bfa1948de2193a978004a",
+   "what_i_checked": "report list per election"
+  },
+  {
+   "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2024/11/GN24-Election-Night-Results-Summary.pdf",
+   "content_hash": "789a65dd33436f16c2725efcdcb0e161332d998a1fd367ae49d23e7b7abedc13",
+   "what_i_checked": "2024 election-night county summary, printed and uploaded on night"
+  },
+  {
+   "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2024/11/GENERAL-ELECTION-PCT-BY-PCT-NOV-5TH-2024.pdf",
+   "content_hash": "d0835baa3c441012fd38d69ee199cf33d187640bf454e85f51191bbf0610226c",
+   "what_i_checked": "2024 precinct report uploaded Nov 19"
+  },
+  {
+   "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/03/P26-Democrat-ENR-corrected.pdf",
+   "content_hash": "bf376d0f0c34a4edca9bbf19b67ac952bb6e1aeeb656a0ef260309dd7f5750ec",
+   "what_i_checked": "primary ENR summary printed Mar 4 4:38 PM"
+  },
+  {
+   "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/03/Democrat-Party-Precinct-Result-031126.pdf",
+   "content_hash": "fc16d5c3bef9970e8b67a375f7657b541bbc60e7867ea3dbc1d4667e16d76b74",
+   "what_i_checked": "primary precinct report uploaded Mar 12"
+  },
+  {
+   "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/PR26-REP-Final-Unofficial-Reconciled-Results.pdf",
+   "content_hash": "aadcd26861f8b11077652c834b214807dc121c8dc8cf4f3c3284b52f6f71aa50",
+   "what_i_checked": "runoff county summary uploaded 12:10 AM May 27"
+  },
+  {
+   "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/06/Republican-sigined-precinct-by-precinct-report001.pdf",
+   "content_hash": "ce738827e78dad817169fcf326ad9680973891b0a73b66faca68454cd0bd9de8",
+   "what_i_checked": "runoff precinct report uploaded Jun 8"
+  },
+  {
+   "url": "https://www.livevoterturnout.com/CameronTX/LiveResults/en/Index_9.html",
+   "content_hash": "deae31c408f180ec98a433096021763e22808e3924055cf776c7e914542c2180",
+   "what_i_checked": "live results page (old 2022 content)"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z"
+}

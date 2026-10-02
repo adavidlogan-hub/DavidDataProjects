@@ -58,5 +58,12 @@
    "what_i_checked": "empty HTTP 202, unreadable"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:22:42Z"
+ "written_blind_at_utc": "2026-10-02T16:22:42Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE).",
+  "2026_primary": "same (LIVE).",
+  "2026_runoff": "different: research LATER, mine UNDETERMINED. Both read the same Clarity fact (precinct values \"protected\" on election night and still in the 6/2/2026 version). I left it UNDETERMINED because galvestonvotes.org is unreadable (empty 202), so a county-posted precinct report cannot be excluded; research reads it as LATER (never published on Clarity). Tag unaffected."
+ }
 }

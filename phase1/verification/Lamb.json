@@ -1,0 +1,54 @@
+{
+ "county": "Lamb",
+ "reason_selected": "low confidence",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "co.lamb.tx.us/page/ElectionsHome lists only 2026 runoff results. No wayback folder for this county, check 3 pending."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No primary results listed. No wayback folder for this county, check 3 pending."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Primary Runoff Election Unofficial Results 5.26.26\" is a \"Summary Results Report ... ELECTION UNOFFICIAL SUMMARY ... Lamb County\", printed \"Election Summary - 05/26/2026 9:04 PM\", county totals; Last-Modified Wed 27 May 2026 18:56:34 GMT (1:56 PM CDT next day). \"OFFICIAL RESULTS 5.26.26\" is also a summary (Last-Modified 4 Jun 2026). The \"REP/DEM PCT n 5.26.26\" links are sample ballots (Official Ballot), not results. Precinct numbers never posted."
+  }
+ },
+ "rationale": "Only the runoff is determined (LATER, county totals only), so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+ "sources": [
+  {
+   "url": "https://www.co.lamb.tx.us/page/ElectionsHome",
+   "content_hash": "e68404061c0b6962a9d095d5fdaf9f84927ca24219321ab1a061f03112aed83d",
+   "what_i_checked": "results list"
+  },
+  {
+   "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/Primary Runoff Results 5.26.26.pdf",
+   "content_hash": "ed7ce8ff688728964354e66d4519580fdcd823b99f46c7f56a1b3933c8f46dde",
+   "what_i_checked": "unofficial summary printed 9:04 PM, uploaded next day"
+  },
+  {
+   "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/REP PCT 1 5.26.26.pdf",
+   "content_hash": "f4bed380ad2a2680c2c0acd1029322784ca5aee21799596eb1aa41ed1ce57197",
+   "what_i_checked": "sample ballot, not results"
+  },
+  {
+   "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/OFFICIAL RESULTS 5.26.26.pdf",
+   "content_hash": "abe0d508c9818f0dd30b1631819c6225e2158f7f344e48d7346573d5108a6a74",
+   "what_i_checked": "official summary"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same.",
+  "2026_primary": "same.",
+  "2026_runoff": "same result (LATER) on different grounds. Research says the scanned unofficial file cannot be read and was created and uploaded on May 27, \"nothing listed was posted on election night\", which under the clarified rule would be UNDETERMINED. I read page 1 visually: \"Summary Results Report ... ELECTION UNOFFICIAL SUMMARY\", county totals, printed footer \"Election Summary - 05/26/2026 9:04 PM\", which is the election-night printed time the rule needs."
+ }
+}

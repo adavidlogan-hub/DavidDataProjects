@@ -1,0 +1,64 @@
+{
+ "county": "Hemphill",
+ "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "END",
+   "check": "2",
+   "fact": "\"SUMMARY REPORT UNOFFICIAL RESULTS BY PRECINCT.pdf\" under \"November 5, 2024, General Election Results\": \"Summary Results Report UNOFFICIAL RESULTS ... Precinct 101\", with Election Day column (Trump 65). CreationDate 6 Nov 2024 02:55 UTC (8:55 PM CST); Last-Modified Wed 06 Nov 2024 03:01:51 GMT = 9:01 PM CST. One unofficial precinct release; I did not compare it with the official precinct report."
+  },
+  "2026_primary": {
+   "result": "END",
+   "check": "2",
+   "fact": "\"March 2026 Unofficial Election Day Results by Precinct.pdf\": \"ELECTION DAY UNOFFICIAL RESULTS BY PRECINCT\", Precinct 101 with Election Day column; CreationDate 4 Mar 2026 03:44 UTC (9:44 PM CST); Last-Modified Wed 04 Mar 2026 04:02:52 GMT = 10:02 PM CST. One release."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "The link titled \"PRECINCT BY PRECINCT UNOFFICIAL RESULTS\" points to \"5-26-26 SUMMARY UNOFFICIAL RESULTS.pdf\", which is county totals (UNOFFICIAL SUMMARY RESULTS; Last-Modified 27 May 2026 02:02:58 GMT = 9:02 PM CDT). \"5-26-2026 PRECINCT BY PRECINCT EV UNOFFICIAL RESULTS.pdf\" is early voting only (uploaded 7:39 PM CDT). Precinct numbers with election-day votes first in \"052626 Primary Runoff Official Results by Precinct.pdf\", CreationDate 5 Jun 2026, Last-Modified Fri 05 Jun 2026 17:34:05 GMT."
+  }
+ },
+ "rationale": "Two elections END from check 2, each with printed and upload times on election night, so PRECINCT_END_OF_NIGHT, med. The runoff was LATER (election-night precinct link pointed to a totals file).",
+ "sources": [
+  {
+   "url": "https://www.co.hemphill.tx.us/page/hemphill.ElectionInformation",
+   "content_hash": "1da1a01e4ad71a6ed94b972a04a5bdb8326838c87df8498c70240467d375eddf",
+   "what_i_checked": "results list and link titles"
+  },
+  {
+   "url": "https://www.co.hemphill.tx.us/upload/page/7666/SUMMARY REPORT UNOFFICIAL RESULTS BY PRECINCT.pdf",
+   "content_hash": "cee718f406c1d0ff4389f7dc9df11fd8e8ee0a47120c72df5c957a5cc6c63d73",
+   "what_i_checked": "2024 unofficial by precinct, uploaded 9:01 PM CST"
+  },
+  {
+   "url": "https://www.co.hemphill.tx.us/upload/page/7666/March 2026 Unofficial Election Day Results by Precinct.pdf",
+   "content_hash": "98498a3c5d1c70dd3ffb72ad49865567eef64db8530afe20b81917b0ab055ff1",
+   "what_i_checked": "primary by precinct, uploaded 10:02 PM CST"
+  },
+  {
+   "url": "https://www.co.hemphill.tx.us/upload/page/7666/5-26-26 SUMMARY UNOFFICIAL RESULTS.pdf",
+   "content_hash": "4ae64191f724f89bdd81ba273661e49e835d2d7f82d79e77dc87f38c674077a0",
+   "what_i_checked": "runoff summary only"
+  },
+  {
+   "url": "https://www.co.hemphill.tx.us/upload/page/7666/5-26-2026 PRECINCT BY PRECINCT EV UNOFFICIAL RESULTS.pdf",
+   "content_hash": "e8d176a7e5fc83f9916ebff1e36b1fe61b29bc026bcefdb21dd19d42767b1be9",
+   "what_i_checked": "runoff early voting only"
+  },
+  {
+   "url": "https://www.co.hemphill.tx.us/upload/page/7666/052626 Primary Runoff Official Results by Precinct.pdf",
+   "content_hash": "7c5609d397f1cb2bc1c6dc6847b2d9d8f727efa9dd85f789f9bea15365ae4545",
+   "what_i_checked": "official by precinct, 5 Jun 2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (END; research footer \"Precinct Summary - 11/05/2024 8:47 PM\", I used CreationDate 8:55 PM CST; same 9:01 PM upload).",
+  "2026_primary": "same (END, uploaded 10:02 PM CST).",
+  "2026_runoff": "same (LATER: the precinct link opens the summary; precinct numbers first in the 5 Jun 2026 official file)."
+ }
+}

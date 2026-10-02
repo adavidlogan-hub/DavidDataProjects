@@ -1,0 +1,54 @@
+{
+ "county": "Carson",
+ "reason_selected": "low confidence",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: co.carson.tx.us/page/carson.Elections lists only \"Grandtotal110524.pdf\" for this election: \"Summary Results Report OFFICIAL RESULTS ... Official Results Grand Total\", printed \"Election Summary - 11/13/2024 5:37 PM\", Last-Modified Mon 18 Nov 2024 19:01:34 GMT. County totals only; no precinct numbers published online. Check 3 pending (no wayback folder)."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"030326 Official Grand Total.pdf\": \"Grand Total ... Official Results\", printed \"Election Summary - 03/12/2026 2:09 PM\", Last-Modified Thu 12 Mar 2026 21:39:35 GMT. County totals only (21 pages, every page \"Grand Total\"). Check 3 pending (no wayback folder)."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"Carson Co Official Results 05262026.pdf\" Grand Total printed 06/04/2026 12:12 PM, Last-Modified Thu 04 Jun 2026 19:08:06 GMT; Rep/Dem Canvass are SOS canvass county-vote reports. No precinct numbers. Check 3 pending (no wayback folder)."
+  }
+ },
+ "rationale": "No election is determined. Carson posts only official grand totals, printed and uploaded after canvass, and no precinct numbers; with no election-night file surviving, each election is UNDETERMINED under the clarified rule. Tag UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://www.co.carson.tx.us/page/carson.Elections",
+   "content_hash": "d9b8953603f70f5277f6685dc3dfe3e0b7e2abfabe6eeadcc5a270f5b24d3f7e",
+   "what_i_checked": "results list"
+  },
+  {
+   "url": "https://www.co.carson.tx.us/upload/page/1423/2024/november 5, 2024/Grandtotal110524.pdf",
+   "content_hash": "41f2ced00ed5b1248fe1e78a06303ded82477dfd3dc765c0d01810f1124fbbc8",
+   "what_i_checked": "official grand total, printed 11/13/2024"
+  },
+  {
+   "url": "https://www.co.carson.tx.us/upload/page/1423/2026/030326 Official Grand Total.pdf",
+   "content_hash": "8c04a9cde2ba5691bc615c28ebe621bde3264c03a21967295212b543faa1674a",
+   "what_i_checked": "official grand total, printed 03/12/2026"
+  },
+  {
+   "url": "https://www.co.carson.tx.us/upload/page/1423/2026/2026 May 26/Carson Co Official Results 05262026.pdf",
+   "content_hash": "e7ab68fd2664920f2de45da53c2a794e09610fe1789bcaea4f1dce6f6b137437",
+   "what_i_checked": "official grand total, printed 06/04/2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "different: research LATER, mine UNDETERMINED. My blind pass missed this file (it is linked on the cached copy of the page I read; my link filter dropped it). I opened the research-cited file from cache: ELECTION-UNOFFICIAL-RESULT-REPORT_94037_1779847152460.pdf is the SOS \"Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION ... CARSON County\" (county totals), CreationDate 27 May 2026 01:59:12 UTC, Last-Modified 27 May 2026 02:05:48 GMT (9:05 PM CDT). The research claim is supported; with it the runoff would be LATER and the tag COUNTY_ONLY_PRECINCT_AT_CANVASS low, matching research."
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "county": "Dickens",
+ "reason_selected": "random 10 percent sample",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "No Clarity site (elections.json 404). Unofficial Results image4095.pdf: Cumulative Results Report, county totals, \"Run Time 8:11 PM Run Date 11/05/2024\"; scan uploaded Last-Modified 06 Nov 2024 15:26 GMT (next morning). No 2024 precinct report on the page."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Unofficial Results image3029.pdf: Cumulative Results Report printed \"3:18 PM 03/05/2026\", Last-Modified 06 Mar 2026; official precinct results image3262.pdf Last-Modified 19 Mar 2026. Nothing dated election night. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "The only night file (image3863.pdf, Last-Modified 27 May 2026 01:40:59 GMT = 8:40 PM CDT; linked as both \"Unofficial Results\" and \"Preliminary Election Reconciliation\") is a ballot-count reconciliation form, not candidate totals. Precinct Results Report image3884.pdf uploaded 03 Jun 2026. Check 3 unavailable: no wayback-data folder for this county."
+  }
+ },
+ "rationale": "Only 2024 is determined (election-night printed county totals, no precinct report). One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS at low confidence.",
+ "sources": [
+  {
+   "url": "https://www.co.dickens.tx.us/page/dickens.Elections",
+   "content_hash": "ca5c026d112bbc726fc30c1f24a2e0526d595e5ac4e1924e68bdfecd46bcbc1f",
+   "what_i_checked": "file list"
+  },
+  {
+   "url": "https://www.co.dickens.tx.us/upload/page/1679/image4095.pdf",
+   "content_hash": "5ebb0da0d303a4c64439b8f5d1e451c624663d0c0a6243ea064950a14f16a6cf",
+   "what_i_checked": "2024 unofficial cumulative, run time 8:11 PM 11/05/2024"
+  },
+  {
+   "url": "https://www.co.dickens.tx.us/upload/page/1679/image3029.pdf",
+   "content_hash": "fea8bee2930dfbdb426e288c40ab29d57ac4881377424b412c577753c5499f1f",
+   "what_i_checked": "primary unofficial cumulative run 03/05/2026"
+  },
+  {
+   "url": "https://www.co.dickens.tx.us/upload/page/1679/image3863.pdf",
+   "content_hash": "16883930a0453d4bdb4c3d40ad9aad72f38d4a00cdab77cec8aa28b9efa57039",
+   "what_i_checked": "runoff night upload is reconciliation form"
+  },
+  {
+   "url": "https://www.co.dickens.tx.us/upload/page/1679/image3884.pdf",
+   "content_hash": "5d9c1f5947d17f75aa4c0de1c8950fbb3148892b65c09d785ed855b994278964",
+   "what_i_checked": "runoff precinct report uploaded Jun 3"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z"
+}

@@ -1,0 +1,47 @@
+{
+ "county": "Upton",
+ "reason_selected": "random 10 percent sample",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "No Clarity site (elections.json 404). \"Unofficial Election Results November 5, 2024 General Election\": county totals by Absentee/Early/Election Day, footer \"Election Summary - 11/05/2024 8:11 PM\"; Last-Modified 06 Nov 2024 02:19:31 GMT (8:19 PM CST). No precinct report posted."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Unofficial Election Results\" March 3rd Joint Primary.pdf: UPTON COUNTY JOINT PRIMARY ELECTION UNOFFICIAL RESULTS, county totals, footer \"Election Summary - 03/03/2026 8:08 PM\"; Last-Modified 04 Mar 2026 02:37:44 GMT (8:37 PM CST). No precinct report (only partial manual count files)."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"UNOFFICIAL RESULTS May 26 2026.pdf\": Summary Results Report UNOFFICIAL RESULTS, county totals, footer \"Election Summary - 05/26/2026 7:02 PM\"; Last-Modified 27 May 2026 00:57:11 GMT (7:57 PM CDT). No precinct report."
+  }
+ },
+ "rationale": "All three elections: county totals printed and uploaded on election night, no precinct numbers posted; LATER x3 gives COUNTY_ONLY_PRECINCT_AT_CANVASS, med.",
+ "sources": [
+  {
+   "url": "https://www.co.upton.tx.us/page/upton.elections",
+   "content_hash": "ba834d8e5a8ccacc2a513fa1630128fb6d807c774d364738d93ce63ed101fddb",
+   "what_i_checked": "file list"
+  },
+  {
+   "url": "https://www.co.upton.tx.us/upload/page/6648/Unoffical%20Results%20November%202024.pdf",
+   "content_hash": "1bbcfaf867ad24a8a9b67e35416984065ff84f9bedad8410183e98292ade3adb",
+   "what_i_checked": "2024 county summary printed 8:11 PM, uploaded 8:19 PM"
+  },
+  {
+   "url": "https://www.co.upton.tx.us/upload/page/6648/March%203rd%20Joint%20Primary.pdf",
+   "content_hash": "14a99fcc41d097ed28e621942cc186fb7f6c3ab7916f010c9c8b8280f35cded9",
+   "what_i_checked": "primary county summary printed 8:08 PM, uploaded 8:37 PM"
+  },
+  {
+   "url": "https://www.co.upton.tx.us/upload/page/6648/UNOFFICIAL%20RESULTS%20May%2026%202026.pdf",
+   "content_hash": "77b47b3b439dabb11023891c31289cb31b907b1325a0cafcf9e1e30c9ceb7288",
+   "what_i_checked": "runoff county summary printed 7:02 PM, uploaded 7:57 PM"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z"
+}

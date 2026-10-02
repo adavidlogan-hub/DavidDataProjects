@@ -1,0 +1,54 @@
+{
+ "county": "Brewster",
+ "reason_selected": "low confidence",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "brewstercounty.gov/page/Elections.Results lists only 2026 runoff files; nothing for this election. Wayback folder exists but has zero captures for this window."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Only PEHCA certifications for the 2026 primary on the results page; no results file. Wayback folder has zero captures."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Primary Runoff SoS Unofficial Results 52626\" is a scanned SOS-format county-totals report (title \"Xerox Scan 20260526 222425\", CreationDate 27 May 2026 03:24 UTC = 10:24 PM CDT election night). The precinct reports \"REP/DEM 2026 Primary Runoff Precinct Summary\" (Summary Results Report, UNOFFICIAL RESULTS, by precinct) are scans titled \"Xerox Scan 20260603 100557\", CreationDate 3 Jun 2026 15:06 UTC. /page/open/ files carry no Last-Modified, so no upload time. Precinct numbers could not have been posted before June 3."
+  }
+ },
+ "rationale": "Only the runoff is determined (LATER, check 2 from scan dates), so COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+ "sources": [
+  {
+   "url": "https://www.brewstercounty.gov/page/Elections.Results",
+   "content_hash": "e1a2bfb91d21bc9be8d5e596e38d9e4923893cebc32b3026ee4c23bae2fbece0",
+   "what_i_checked": "only 2026 runoff results listed"
+  },
+  {
+   "url": "https://www.brewstercounty.gov/page/open/2199/0/Primary%20Runoff%20SoS%20Unofficial%20Results%2052626.pdf",
+   "content_hash": "27e75f32d2541b16b00550d93275e47ea3a4a318a891706706db87a6a7ad613c",
+   "what_i_checked": "county totals, scanned 10:24 PM CDT 5/26"
+  },
+  {
+   "url": "https://www.brewstercounty.gov/page/open/2199/0/REP%202026%20Primary%20Runoff%20Precinct%20Summary.pdf",
+   "content_hash": "1c5d233e25d4a93eb2813f4ca25a7dd4a36001c770044fb7a5944dc7bbdef523",
+   "what_i_checked": "precinct summary scanned June 3 2026"
+  },
+  {
+   "url": "wayback-data:phase1/wayback_snapshots/Brewster/index.json",
+   "content_hash": "",
+   "what_i_checked": "zero captures in all three windows"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same.",
+  "2026_primary": "same.",
+  "2026_runoff": "same (LATER: SOS-format totals scanned 10:24 PM CDT; precinct summaries scanned June 3). Research notes says \"wayback-data branch not found on origin\"; it now exists with a Brewster folder of zero captures, which does not change the result."
+ }
+}
