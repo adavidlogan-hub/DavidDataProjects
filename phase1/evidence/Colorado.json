@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.colorado.tx.us/default.aspx?Colorado_County/County.Clerk replaced by https://www.co.colorado.tx.us/page/colorado.Elections. No Clarity or vendor site; page links the SOS 'Texas Election Night Reporting/Results'. Electionware PDFs (some scanned, OCR text) posted on the county site; Last-Modified values differ per file and sit minutes after PDF ModDate, consistent with real upload times. Method differed between the primary (county summary on election night, precinct file next morning) and the runoff (precinct pages in the election-night file). 2024 general undetermined (check 3 pending; wayback-data branch not on origin).",
-  "tag_rationale": "The 2026 primary is LATER and the 2026 runoff is END (both check 2); no two elections share a result, so by the rule the tag is UNKNOWN.",
+  "notes": "Seed http://www.co.colorado.tx.us/default.aspx?Colorado_County/County.Clerk replaced by https://www.co.colorado.tx.us/page/colorado.Elections. No Clarity or vendor site; page links the SOS 'Texas Election Night Reporting/Results'. Electionware PDFs (some scanned, OCR text) posted on the county site; Last-Modified values differ per file and sit minutes after PDF ModDate, consistent with real upload times. Method differed between the primary (county summary on election night, precinct file next morning) and the runoff (precinct pages in the election-night file). 2024 general undetermined (check 3 pending; wayback-data branch not on origin). Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "The 2026 primary is LATER and the 2026 runoff is END (both check 2); no two elections share a result, so by the rule the tag is UNKNOWN. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
@@ -43,7 +43,7 @@
       "precinct_first_seen": "2026-05-26 21:02 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.colorado.tx.us/upload/page/6210/26-05-26/Unofficial%20Results.pdf",
-      "fact": "'Unofficial Results JOINT Primary Runoff Election(s)' is one 37-page PDF: the preliminary reconciliation form, an Electionware 'Summary Results Report UNOFFICIAL RESULTS', and per-precinct 'Precinct Summary Results Report UNOFFICIAL RESULTS Joint Primary Runoff May 26, 2026 ... 302 - Frelsburg/Brushy' pages with Absentee, Early Voting and Election Day columns (e.g. Ken Paxton 181: 8 / 85 / 88). Report footers print '05/26/2026 08:41 PM'. PDF ModDate 2026-05-27 02:00:39 UTC; Last-Modified Wed, 27 May 2026 02:02:19 GMT (9:02 PM CDT). It is the only unofficial runoff file listed."
+      "fact": "'Unofficial Results JOINT Primary Runoff Election(s)' is one 37-page PDF: the preliminary reconciliation form, an Electionware 'Summary Results Report UNOFFICIAL RESULTS', and per-precinct 'Precinct Summary Results Report UNOFFICIAL RESULTS Joint Primary Runoff May 26, 2026 ... 302 - Frelsburg/Brushy' pages with Absentee, Early Voting and Election Day columns (e.g. Ken Paxton 181: 8 / 85 / 88). Report footers print '05/26/2026 08:41 PM'. PDF ModDate 2026-05-27 02:00:39 UTC; Last-Modified Wed, 27 May 2026 02:02:19 GMT (9:02 PM CDT). It is the only unofficial runoff file listed. Rule 47: publication shown by upload time 2026-05-26 21:02 CT in Unofficial Results.pdf."
     }
   },
   "sources": [

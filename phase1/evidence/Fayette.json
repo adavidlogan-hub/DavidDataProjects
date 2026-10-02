@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL (http default.aspx) was not used; https://www.co.fayette.tx.us/page/fayette.Elections loads and links 'Past Election Information' (/page/fayette.Elections.PastResults), which lists results PDFs (many links point to the same paths on newtools.cira.state.tx.us; files were fetched from www.co.fayette.tx.us). No Clarity site (elections.json 404). 2024 general: 'Fayette County Election Night Reporting - Unofficial Results - Precinct Report' (20241105_Pct_Report_Final.pdf) is a 48-page ES&S Precinct Summary with Absentee/Early/Election Day columns per precinct, PDF CreationDate 6 Nov 2024 06:38:49 UTC (12:38 AM CST), Last-Modified Wed, 06 Nov 2024 06:47:03 GMT (12:47 AM CST). 2026 runoff: 'Unofficial Election Night Results - Precinct Summary' CreationDate 27 May 2026 03:21:31 UTC, Last-Modified Wed, 27 May 2026 03:29:32 GMT (10:29 PM CDT). 2026 primary: only 'Official Election Summary Report' and 'Official Precinct Report' (dated 20260310) are listed; no election-night report remains. Last-Modified values differ per file, so they are real upload times. The page also links cast vote record image archives on Dropbox for 2024 elections. Check 3 pending for the primary (origin/wayback-data not present).",
-  "tag_rationale": "2024 general and 2026 runoff are both END by check 2 (one unofficial precinct report uploaded on election night), so the tag is PRECINCT_END_OF_NIGHT; both have a printed creation time and a server upload time on election night, so confidence is med.",
+  "notes": "Seed URL (http default.aspx) was not used; https://www.co.fayette.tx.us/page/fayette.Elections loads and links 'Past Election Information' (/page/fayette.Elections.PastResults), which lists results PDFs (many links point to the same paths on newtools.cira.state.tx.us; files were fetched from www.co.fayette.tx.us). No Clarity site (elections.json 404). 2024 general: 'Fayette County Election Night Reporting - Unofficial Results - Precinct Report' (20241105_Pct_Report_Final.pdf) is a 48-page ES&S Precinct Summary with Absentee/Early/Election Day columns per precinct, PDF CreationDate 6 Nov 2024 06:38:49 UTC (12:38 AM CST), Last-Modified Wed, 06 Nov 2024 06:47:03 GMT (12:47 AM CST). 2026 runoff: 'Unofficial Election Night Results - Precinct Summary' CreationDate 27 May 2026 03:21:31 UTC, Last-Modified Wed, 27 May 2026 03:29:32 GMT (10:29 PM CDT). 2026 primary: only 'Official Election Summary Report' and 'Official Precinct Report' (dated 20260310) are listed; no election-night report remains. Last-Modified values differ per file, so they are real upload times. The page also links cast vote record image archives on Dropbox for 2024 elections. Check 3 pending for the primary (origin/wayback-data not present). Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "2024 general and 2026 runoff are both END by check 2 (one unofficial precinct report uploaded on election night), so the tag is PRECINCT_END_OF_NIGHT; both have a printed creation time and a server upload time on election night, so confidence is med. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
@@ -24,7 +24,7 @@
       "precinct_first_seen": "2024-11-06 00:47 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.fayette.tx.us/upload/page/1737/2024%20Elections/20241105_Pct_Report_Final.pdf",
-      "fact": "'Fayette County Election Night Reporting - Unofficial Results - Precinct Report': 'Summary Results Report UNOFFICIAL RESULTS Fayette County General Election November 5, 2024 ... 101N La Grange ... Ballots Cast - Total 1,387 61 1,050 276' (Total, Absentee, Early Voting, Election Day); PDF CreationDate 6 Nov 2024 06:38:49 UTC; Last-Modified Wed, 06 Nov 2024 06:47:03 GMT.",
+      "fact": "'Fayette County Election Night Reporting - Unofficial Results - Precinct Report': 'Summary Results Report UNOFFICIAL RESULTS Fayette County General Election November 5, 2024 ... 101N La Grange ... Ballots Cast - Total 1,387 61 1,050 276' (Total, Absentee, Early Voting, Election Day); PDF CreationDate 6 Nov 2024 06:38:49 UTC; Last-Modified Wed, 06 Nov 2024 06:47:03 GMT. Rule 47: publication shown by upload time 2024-11-06 00:47 CT in 20241105_Pct_Report_Final.pdf.",
       "county_totals_first_seen": ""
     },
     "2026_primary": {
@@ -42,7 +42,7 @@
       "precinct_first_seen": "2026-05-26 22:29 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.fayette.tx.us/upload/page/1737/2026/Unofficial_PctSummary_20260526.pdf",
-      "fact": "'Unofficial Election Night Results - Precinct Summary': 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Fayette County, Texas Precinct 101 North ... Ken Paxton 244 51.48% 7 141 96' (Total, Absentee, Early, Election Day); PDF CreationDate 27 May 2026 03:21:31 UTC; Last-Modified Wed, 27 May 2026 03:29:32 GMT.",
+      "fact": "'Unofficial Election Night Results - Precinct Summary': 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Fayette County, Texas Precinct 101 North ... Ken Paxton 244 51.48% 7 141 96' (Total, Absentee, Early, Election Day); PDF CreationDate 27 May 2026 03:21:31 UTC; Last-Modified Wed, 27 May 2026 03:29:32 GMT. Rule 47: publication shown by upload time 2026-05-26 22:29 CT in Unofficial_PctSummary_20260526.pdf.",
       "county_totals_first_seen": ""
     }
   },

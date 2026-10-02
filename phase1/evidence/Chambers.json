@@ -1,7 +1,7 @@
 {
   "county": "Chambers",
   "tag": "PRECINCT_END_OF_NIGHT",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://chamberscountytx.gov/503/Current-Elections",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://co.chambers.tx.us/default.aspx?name=elections gives 404 and www.co.chambers.tx.us gives 403. One web search found the county site chamberscountytx.gov (CivicPlus). The www.chamberscountytx.gov host was refused by the fetch module (its robots.txt fetch was reset, which counts as disallow); the bare host chamberscountytx.gov served normally. No Clarity or vendor site found. Reports are Hart-style PDFs in EV and ED sets (Canvass, Cumulative, Precinct). DocumentCenter sends no Last-Modified, so there is no server upload time; times used are printed run times and PDF CreationDate. 2026 primary undetermined (check 3 pending; wayback-data branch not on origin).",
-  "tag_rationale": "The 2024 general and 2026 runoff are both END (check 2: one election-day precinct report printed on election night), so the tag is PRECINCT_END_OF_NIGHT. Confidence low because there is no server upload time to pair with the printed run times.",
+  "notes": "Seed http://co.chambers.tx.us/default.aspx?name=elections gives 404 and www.co.chambers.tx.us gives 403. One web search found the county site chamberscountytx.gov (CivicPlus). The www.chamberscountytx.gov host was refused by the fetch module (its robots.txt fetch was reset, which counts as disallow); the bare host chamberscountytx.gov served normally. No Clarity or vendor site found. Reports are Hart-style PDFs in EV and ED sets (Canvass, Cumulative, Precinct). DocumentCenter sends no Last-Modified, so there is no server upload time; times used are printed run times and PDF CreationDate. 2026 primary undetermined (check 3 pending; wayback-data branch not on origin). Rule 47 applied 2026-10-02 (normalize-47): confidence low to med by compute_confidence (no result changed).",
+  "tag_rationale": "After Rule 47: 2024_general END, 2026_primary UNDETERMINED, 2026_runoff END. Two or more elections share the result that maps to PRECINCT_END_OF_NIGHT; confidence med is computed by compute_confidence.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
@@ -25,7 +25,7 @@
       "precinct_first_seen": "2024-11-05 22:01 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://chamberscountytx.gov/DocumentCenter/View/4902/2024-11-05-Election-Day-Canvass-Results-PDF",
-      "fact": "'2024-11-05 Election Day Canvass Results' is a 69-page 'Canvass Results Report Unofficial Results CHAMBERS COUNTY, TEXAS ... GENERAL ELECTION ... Run Time 10:01 PM Run Date 11/05/2024' with rows per precinct (e.g. '1 413 64 0 4 ...') for each contest, Registered Voters '25034 of 37131 = 67.42%'. PDF CreationDate 2024-11-06 04:01:16 UTC, ModDate 04:29:04 UTC. Server sends no Last-Modified. Only one election-day file was found (via the county site search listing); 'Past Elections' document index is script-driven and was not listed."
+      "fact": "'2024-11-05 Election Day Canvass Results' is a 69-page 'Canvass Results Report Unofficial Results CHAMBERS COUNTY, TEXAS ... GENERAL ELECTION ... Run Time 10:01 PM Run Date 11/05/2024' with rows per precinct (e.g. '1 413 64 0 4 ...') for each contest, Registered Voters '25034 of 37131 = 67.42%'. PDF CreationDate 2024-11-06 04:01:16 UTC, ModDate 04:29:04 UTC. Server sends no Last-Modified. Only one election-day file was found (via the county site search listing); 'Past Elections' document index is script-driven and was not listed. Rule 47: publication shown by printed time 2024-11-05 22:01 CT (run time) with no upload time (no Last-Modified header) in 2024-11-05-Election-Day-Canvass-Results-PDF."
     },
     "2026_primary": {
       "result": "UNDETERMINED",
@@ -43,7 +43,7 @@
       "precinct_first_seen": "2026-05-26 20:31 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://chamberscountytx.gov/DocumentCenter/View/7136/ED-Precinct-Results-with-Aliases-5-26-2026---Unofficial-WM-PDF",
-      "fact": "'ED Precinct Results with Aliases-5-26-2026 - Unofficial-WM' is a 54-page 'Precinct Results Unofficial Results CHAMBERS COUNTY, TEXAS Election Day PRIMARY RUNOFF ELECTION ... Run Time 8:31 PM Run Date 05/26/2026' with per-precinct candidate numbers including Election Day Voting (e.g. 'Precinct 1 87 of 694 registered voters'). 'ED Cumulative Results' printed 'Run Time 8:30 PM'. PDF CreationDate 2026-05-27 01:32:10 UTC. It is the only election-day precinct file listed; earlier 'EV Precinct Results' are early vote only. Server sends no Last-Modified."
+      "fact": "'ED Precinct Results with Aliases-5-26-2026 - Unofficial-WM' is a 54-page 'Precinct Results Unofficial Results CHAMBERS COUNTY, TEXAS Election Day PRIMARY RUNOFF ELECTION ... Run Time 8:31 PM Run Date 05/26/2026' with per-precinct candidate numbers including Election Day Voting (e.g. 'Precinct 1 87 of 694 registered voters'). 'ED Cumulative Results' printed 'Run Time 8:30 PM'. PDF CreationDate 2026-05-27 01:32:10 UTC. It is the only election-day precinct file listed; earlier 'EV Precinct Results' are early vote only. Server sends no Last-Modified. Rule 47: publication shown by printed time 2026-05-26 20:31 CT (run time) with no upload time (no Last-Modified header) in ED-Precinct-Results-with-Aliases-5-26-2026---Unofficial-WM-PDF."
     }
   },
   "sources": [

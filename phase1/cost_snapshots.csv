@@ -1,3 +1,4 @@
 utc,cost_usd,input_tokens,output_tokens,cache_read_tokens,cache_write_tokens,note
 2026-10-02T15:06:52Z,46.7890282,1038789,592737,126153781,1468713,after research v2; verifier round 1 running; harvest run 3 running
 2026-10-02T15:13:57Z,48.587886,1063760,610997,131859425,1512830,before full Phase 1 launch (verifier round 1 running since 15:05; only +1.80 since last reading suggests cost_usd may cover the main thread only)
+2026-10-02T17:01:03Z,269.2057832,2187211,2674931,843978536,8403508,after full Phase 1 (research 8 batches + vendor + 6 verifiers + 5 normalization passes); cost_usd does include subagents (earlier small delta was reporting lag); rate limit type now five_hour

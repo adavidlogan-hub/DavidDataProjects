@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL loads; Elections page links per-election pages (archive pages for past elections, liberty.elections.2026-05-26 for the runoff). Clarity elections.json returned 403 (no Clarity link found on the county site). Reports are text PDFs from Microsoft Reporting Services with printed Run Time; Last-Modified differs per file (meaningful). In 2026 the county posted one unofficial precinct-by-precinct report on election night (primary 10:51 PM, runoff 9:32 PM); in 2024 only county cumulative totals were posted that night, and precinct results came with the official canvass on 14 Nov 2024. Precincts Reporting reads '0 of 22' on the 2026 reports although votes are present.",
-  "tag_rationale": "2026 primary and runoff are END by check 2 (2024 general LATER), so the tag is PRECINCT_END_OF_NIGHT; both have printed run times and upload times on election night, so confidence is med.",
+  "notes": "Seed URL loads; Elections page links per-election pages (archive pages for past elections, liberty.elections.2026-05-26 for the runoff). Clarity elections.json returned 403 (no Clarity link found on the county site). Reports are text PDFs from Microsoft Reporting Services with printed Run Time; Last-Modified differs per file (meaningful). In 2026 the county posted one unofficial precinct-by-precinct report on election night (primary 10:51 PM, runoff 9:32 PM); in 2024 only county cumulative totals were posted that night, and precinct results came with the official canvass on 14 Nov 2024. Precincts Reporting reads '0 of 22' on the 2026 reports although votes are present. Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "2026 primary and runoff are END by check 2 (2024 general LATER), so the tag is PRECINCT_END_OF_NIGHT; both have printed run times and upload times on election night, so confidence is med. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
@@ -34,7 +34,7 @@
       "precinct_first_seen": "2026-03-03 22:51 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.liberty.tx.us/upload/page/12453/Precinct%20Results-3-3-2026%2010-24-03%20PM.pdf",
-      "fact": "'Precinct Results' (Precinct Results-3-3-2026 10-24-03 PM.pdf, 667 pages): 'Precinct Results Report LIBERTY COUNTY, TEXAS Unofficial Results ... March 3, 2026 Primary Election ... Run Time 10:23 PM Run Date 03/03/2026'; per precinct with 'Absentee Voting Early Voting Election Day Voting' columns (e.g. precinct 1, US Senator DEM: James Talarico 12 early, 13 election day). Last-Modified Wed, 04 Mar 2026 04:51:41 GMT (10:51 PM CST). Only one unofficial precinct report listed; later reports are official/canvass (3-11-2026)."
+      "fact": "'Precinct Results' (Precinct Results-3-3-2026 10-24-03 PM.pdf, 667 pages): 'Precinct Results Report LIBERTY COUNTY, TEXAS Unofficial Results ... March 3, 2026 Primary Election ... Run Time 10:23 PM Run Date 03/03/2026'; per precinct with 'Absentee Voting Early Voting Election Day Voting' columns (e.g. precinct 1, US Senator DEM: James Talarico 12 early, 13 election day). Last-Modified Wed, 04 Mar 2026 04:51:41 GMT (10:51 PM CST). Only one unofficial precinct report listed; later reports are official/canvass (3-11-2026). Rule 47: publication shown by upload time 2026-03-03 22:51 CT in Precinct Results-3-3-2026 10-24-03 PM.pdf."
     },
     "2026_runoff": {
       "result": "END",
@@ -43,7 +43,7 @@
       "precinct_first_seen": "2026-05-26 21:32 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.liberty.tx.us/upload/page/12641/Precinct%20Results-5-26-2026%2009-24-10%20PM.pdf",
-      "fact": "'Precinct Results' (Precinct Results-5-26-2026 09-24-10 PM.pdf, 88 pages): 'Precinct Results Report LIBERTY COUNTY, TEXAS Unofficial Results May 26, 2026 Primary Runoff ... Run Time 9:24 PM Run Date 05/26/2026'; per precinct with Election Day Voting column (e.g. 10 - BS0001 Lt Governor DEM: Vikki Goodwin 9 election day). Last-Modified Wed, 27 May 2026 02:32:07 GMT (9:32 PM CDT). Listed with 'Cumulative Results-Early Voting and Absentee' (8:04 PM) and 'Cumulative Results-Final' (9:22 PM); official reports dated 5-28-2026."
+      "fact": "'Precinct Results' (Precinct Results-5-26-2026 09-24-10 PM.pdf, 88 pages): 'Precinct Results Report LIBERTY COUNTY, TEXAS Unofficial Results May 26, 2026 Primary Runoff ... Run Time 9:24 PM Run Date 05/26/2026'; per precinct with Election Day Voting column (e.g. 10 - BS0001 Lt Governor DEM: Vikki Goodwin 9 election day). Last-Modified Wed, 27 May 2026 02:32:07 GMT (9:32 PM CDT). Listed with 'Cumulative Results-Early Voting and Absentee' (8:04 PM) and 'Cumulative Results-Final' (9:22 PM); official reports dated 5-28-2026. Rule 47: publication shown by upload time 2026-05-26 21:32 CT in Precinct Results-5-26-2026 09-24-10 PM.pdf."
     }
   },
   "sources": [

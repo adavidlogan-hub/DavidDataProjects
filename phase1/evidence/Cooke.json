@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.cooke.tx.us/page/cooke.elections works over https; files are hosted on newtools.cira.state.tx.us (CIRA) and www.co.cooke.tx.us. No Clarity or vendor site; page links SOS results. Last-Modified values differ per file and look like real upload times. Each 2026 election has an Early Voting unofficial file, one election-night precinct-by-precinct unofficial file, and later official files. 2024 general undetermined (check 3 pending; wayback-data branch not on origin).",
-  "tag_rationale": "The 2026 primary and 2026 runoff are both END (check 2: one election-night precinct report with election-day votes), so the tag is PRECINCT_END_OF_NIGHT. Confidence med because each has a printed run time and a server upload time on election night.",
+  "notes": "Seed http://www.co.cooke.tx.us/page/cooke.elections works over https; files are hosted on newtools.cira.state.tx.us (CIRA) and www.co.cooke.tx.us. No Clarity or vendor site; page links SOS results. Last-Modified values differ per file and look like real upload times. Each 2026 election has an Early Voting unofficial file, one election-night precinct-by-precinct unofficial file, and later official files. 2024 general undetermined (check 3 pending; wayback-data branch not on origin). Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "The 2026 primary and 2026 runoff are both END (check 2: one election-night precinct report with election-day votes), so the tag is PRECINCT_END_OF_NIGHT. Confidence med because each has a printed run time and a server upload time on election night. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
@@ -34,7 +34,7 @@
       "precinct_first_seen": "2026-03-03 21:37 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/March3/2026PrimaryPctbyPctResultsUnofficial.pdf",
-      "fact": "'Final Unofficial Results Precinct by Precinct' is a 187-page Electionware 'Pct. by Pct. Results UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Cooke County, Texas Pct. 1 ...' with Absentee, Early Voting and Election Day columns; footers print '03/03/2026 10:12 PM'. Last-Modified Wed, 04 Mar 2026 03:37:31 GMT (9:37 PM CST), PDF CreationDate 04:13:31 UTC; the 35-minute gap between printed and upload times suggests a clock offset, but both fall on election night. The precinct 'Ballots Cast - Total' values sum to 8,055, equal to the 'Final Unofficial Results' summary (printed 03/04/2026 10:15 AM), so this was the final unofficial count. Only one precinct file is listed."
+      "fact": "'Final Unofficial Results Precinct by Precinct' is a 187-page Electionware 'Pct. by Pct. Results UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Cooke County, Texas Pct. 1 ...' with Absentee, Early Voting and Election Day columns; footers print '03/03/2026 10:12 PM'. Last-Modified Wed, 04 Mar 2026 03:37:31 GMT (9:37 PM CST), PDF CreationDate 04:13:31 UTC; the 35-minute gap between printed and upload times suggests a clock offset, but both fall on election night. The precinct 'Ballots Cast - Total' values sum to 8,055, equal to the 'Final Unofficial Results' summary (printed 03/04/2026 10:15 AM), so this was the final unofficial count. Only one precinct file is listed. Rule 47: publication shown by upload time 2026-03-03 21:37 CT in 2026PrimaryPctbyPctResultsUnofficial.pdf."
     },
     "2026_runoff": {
       "result": "END",
@@ -43,7 +43,7 @@
       "precinct_first_seen": "2026-05-26 22:46 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/May26/2026MayCookePrimaryRunoffUnofficialResultsPctbyPct.pdf",
-      "fact": "'2026MayCookePrimaryRunoffUnofficialResultsPctbyPct.pdf' is a 34-page Electionware 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Cooke County, Texas Pct. 1 ...' per-precinct report, footers '05/26/2026 8:48 PM', PDF CreationDate 2026-05-27 01:49:29 UTC, Last-Modified Wed, 27 May 2026 03:46:37 GMT (10:46 PM CDT). Only one precinct file is listed; it was not cross-checked against the final summary."
+      "fact": "'2026MayCookePrimaryRunoffUnofficialResultsPctbyPct.pdf' is a 34-page Electionware 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Cooke County, Texas Pct. 1 ...' per-precinct report, footers '05/26/2026 8:48 PM', PDF CreationDate 2026-05-27 01:49:29 UTC, Last-Modified Wed, 27 May 2026 03:46:37 GMT (10:46 PM CDT). Only one precinct file is listed; it was not cross-checked against the final summary. Rule 47: publication shown by upload time 2026-05-26 22:46 CT in 2026MayCookePrimaryRunoffUnofficialResultsPctbyPct.pdf."
     }
   },
   "sources": [

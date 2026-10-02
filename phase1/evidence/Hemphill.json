@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity link; the county Election Information page posts Electionware/Hart-style PDF reports per election, many duplicated on newtools.cira.state.tx.us. 2024 general: 'SUMMARY UNOFFICIAL RESULTS REPORT BY PRECINCT' (24 pages, 'Precinct Summary - 11/05/2024 8:47 PM', Last-Modified Wed, 06 Nov 2024 03:01:51 GMT = 9:01 PM CST). 2026 primary: 'Unofficial Summary Early Voting Results by Precinct' plus 'Unofficial Summary Election Day Voting Results by Precinct' (77 pages, 'Precinct Summary - 03/03/2026 9:43 PM', Last-Modified Wed, 04 Mar 2026 04:02:52 GMT = 10:02 PM CST). 2026 runoff: on election night 'PRECINCT BY PRECINCT EARLY VOTING UNOFFICIAL RESULTS' (early votes only, Last-Modified Wed, 27 May 2026 00:39:13 GMT = 7:39 PM CDT) and 'SUMMARY UNOFFICIAL RESULTS' (county totals, 'Election Summary - 05/26/2026 7:27 PM', Last-Modified 02:02:58 GMT = 9:02 PM CDT); the page's 'PRECINCT BY PRECINCT UNOFFICIAL RESULTS' link points to the same county summary file; precinct numbers with election-day votes first appear in 'PRECINCT BY PRECINCT OFFICIAL RESULTS' (Last-Modified Fri, 05 Jun 2026 17:34:05 GMT). Check 3 pending (wayback-data branch not on origin); it could confirm whether any other runoff precinct file existed on election night.",
-  "tag_rationale": "The 2024 general and 2026 primary are both END (one election-night precinct report with election-day votes), so the tag is PRECINCT_END_OF_NIGHT; confidence med because both were settled by check 2 with printed run times and Last-Modified times on election night.",
+  "notes": "No Clarity link; the county Election Information page posts Electionware/Hart-style PDF reports per election, many duplicated on newtools.cira.state.tx.us. 2024 general: 'SUMMARY UNOFFICIAL RESULTS REPORT BY PRECINCT' (24 pages, 'Precinct Summary - 11/05/2024 8:47 PM', Last-Modified Wed, 06 Nov 2024 03:01:51 GMT = 9:01 PM CST). 2026 primary: 'Unofficial Summary Early Voting Results by Precinct' plus 'Unofficial Summary Election Day Voting Results by Precinct' (77 pages, 'Precinct Summary - 03/03/2026 9:43 PM', Last-Modified Wed, 04 Mar 2026 04:02:52 GMT = 10:02 PM CST). 2026 runoff: on election night 'PRECINCT BY PRECINCT EARLY VOTING UNOFFICIAL RESULTS' (early votes only, Last-Modified Wed, 27 May 2026 00:39:13 GMT = 7:39 PM CDT) and 'SUMMARY UNOFFICIAL RESULTS' (county totals, 'Election Summary - 05/26/2026 7:27 PM', Last-Modified 02:02:58 GMT = 9:02 PM CDT); the page's 'PRECINCT BY PRECINCT UNOFFICIAL RESULTS' link points to the same county summary file; precinct numbers with election-day votes first appear in 'PRECINCT BY PRECINCT OFFICIAL RESULTS' (Last-Modified Fri, 05 Jun 2026 17:34:05 GMT). Check 3 pending (wayback-data branch not on origin); it could confirm whether any other runoff precinct file existed on election night. Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "The 2024 general and 2026 primary are both END (one election-night precinct report with election-day votes), so the tag is PRECINCT_END_OF_NIGHT; confidence med because both were settled by check 2 with printed run times and Last-Modified times on election night. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-4",
   "method_version": "v2",
   "sources": [
@@ -69,7 +69,7 @@
       "precinct_first_seen": "2024-11-05 21:01 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.hemphill.tx.us/upload/page/7666/SUMMARY%20REPORT%20UNOFFICIAL%20RESULTS%20BY%20PRECINCT.pdf",
-      "fact": "'Summary Results Report UNOFFICIAL RESULTS TX Hemphill 241105 General 6110 November 5, 2024 ... Precinct 101 ... REP Donald J. Trump/JD Vance 289 9 215 65' (Absentee, Early Voting, Election Day per precinct); footer 'Precinct Summary - 11/05/2024 8:47 PM'; Last-Modified Wed, 06 Nov 2024 03:01:51 GMT (9:01 PM CST)."
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS TX Hemphill 241105 General 6110 November 5, 2024 ... Precinct 101 ... REP Donald J. Trump/JD Vance 289 9 215 65' (Absentee, Early Voting, Election Day per precinct); footer 'Precinct Summary - 11/05/2024 8:47 PM'; Last-Modified Wed, 06 Nov 2024 03:01:51 GMT (9:01 PM CST). Rule 47: publication shown by upload time 2024-11-05 21:01 CT in SUMMARY REPORT UNOFFICIAL RESULTS BY PRECINCT.pdf."
     },
     "2026_primary": {
       "result": "END",
@@ -78,7 +78,7 @@
       "precinct_first_seen": "2026-03-03 22:02 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.hemphill.tx.us/upload/page/7666/March%202026%20Unofficial%20Election%20Day%20Results%20by%20Precinct.pdf",
-      "fact": "'Summary Results Report ELECTION DAY UNOFFICIAL RESULTS BY PRECINCT TX Hemphill County 260303 Primary 6110 ... Precinct 101 ... Ballots Cast - Total 178 3 106 69'; footer 'Precinct Summary - 03/03/2026 9:43 PM'; Last-Modified Wed, 04 Mar 2026 04:02:52 GMT (10:02 PM CST). An earlier early-voting-only precinct file was also posted."
+      "fact": "'Summary Results Report ELECTION DAY UNOFFICIAL RESULTS BY PRECINCT TX Hemphill County 260303 Primary 6110 ... Precinct 101 ... Ballots Cast - Total 178 3 106 69'; footer 'Precinct Summary - 03/03/2026 9:43 PM'; Last-Modified Wed, 04 Mar 2026 04:02:52 GMT (10:02 PM CST). An earlier early-voting-only precinct file was also posted. Rule 47: publication shown by upload time 2026-03-03 22:02 CT in March 2026 Unofficial Election Day Results by Precinct.pdf."
     },
     "2026_runoff": {
       "result": "LATER",

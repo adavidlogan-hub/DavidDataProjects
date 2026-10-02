@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL (http gillespiecounty.org default.aspx) and https://www.gillespiecounty.org/ returned HTTP 403; the county's current domain www.gillespiecounty.gov loads and has 'Election Results (Past & Present)'. No Clarity site (elections.json 404). Document Center files here are served with no Last-Modified header, so there is no upload evidence; only PDF creation times. 2026 runoff: '2026 Republican Primary Runoff Unofficial Results' is a Google Sheets printout '2026 Unofficial Results of May 26 Republican Primary Runoff' with candidate votes for Pct 1 through Pct 15 and Totals, PDF CreationDate 27 May 2026 03:55:09 UTC (10:55 PM CDT election night); when it was posted is not shown. 2026 primary: '2026 Gillespie County Republican Primary Unofficial Results' is a county-total sheet (Election Day, Early Voting In Person, Ballot by Mail, Grand Total), CreationDate 6 Mar 2026 16:25 UTC; precinct numbers appear in the Canvass Results Report. 2024 general: only canvass-stage reports remain ('General Election (Early Voting and Election Day)' is a Canvass Results Report run 4:15 PM 11/15/2024; 'Precinct Official Results Report'); no election-night report is listed. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary LATER to UNDETERMINED.",
-  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff END. Exactly one election is determined, so the tag is PRECINCT_END_OF_NIGHT with low confidence.",
+  "notes": "Seed URL (http gillespiecounty.org default.aspx) and https://www.gillespiecounty.org/ returned HTTP 403; the county's current domain www.gillespiecounty.gov loads and has 'Election Results (Past & Present)'. No Clarity site (elections.json 404). Document Center files here are served with no Last-Modified header, so there is no upload evidence; only PDF creation times. 2026 runoff: '2026 Republican Primary Runoff Unofficial Results' is a Google Sheets printout '2026 Unofficial Results of May 26 Republican Primary Runoff' with candidate votes for Pct 1 through Pct 15 and Totals, PDF CreationDate 27 May 2026 03:55:09 UTC (10:55 PM CDT election night); when it was posted is not shown. 2026 primary: '2026 Gillespie County Republican Primary Unofficial Results' is a county-total sheet (Election Day, Early Voting In Person, Ballot by Mail, Grand Total), CreationDate 6 Mar 2026 16:25 UTC; precinct numbers appear in the Canvass Results Report. 2024 general: only canvass-stage reports remain ('General Election (Early Voting and Election Day)' is a Canvass Results Report run 4:15 PM 11/15/2024; 'Precinct Official Results Report'); no election-night report is listed. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-1): 2026_primary LATER to UNDETERMINED. Rule 47 applied 2026-10-02 (normalize-47): 2026_runoff kept END; precinct_first_seen filled (2026-05-26 22:55 CT (printed, PDF CreationDate; no upload time)).",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff END. Exactly one election is determined, so the tag is PRECINCT_END_OF_NIGHT with low confidence. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
@@ -39,10 +39,10 @@
     "2026_runoff": {
       "result": "END",
       "check": "2",
-      "precinct_first_seen": "",
+      "precinct_first_seen": "2026-05-26 22:55 CT (printed, PDF CreationDate; no upload time)",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.gillespiecounty.gov/DocumentCenter/View/2594/2026-Republican-Primary-Runoff-Unofficial-Results-PDF",
-      "fact": "'2026 Republican Primary Runoff Unofficial Results': '2026 Unofficial Results of May 26 Republican Primary Runoff ... Position Candidate Pct 1 Pct 2 ... Pct 15 Totals ... John Cornyn 203 129 103 228 ... 1828 ... Ken Paxton 291 169 171 333 ... 3049'; PDF CreationDate 27 May 2026 03:55:09 UTC (10:55 PM CDT). No server upload time available.",
+      "fact": "'2026 Republican Primary Runoff Unofficial Results': '2026 Unofficial Results of May 26 Republican Primary Runoff ... Position Candidate Pct 1 Pct 2 ... Pct 15 Totals ... John Cornyn 203 129 103 228 ... 1828 ... Ken Paxton 291 169 171 333 ... 3049'; PDF CreationDate 27 May 2026 03:55:09 UTC (10:55 PM CDT). No server upload time available. Rule 47: publication shown by printed time 2026-05-26 22:55 CT (PDF CreationDate) with no upload time (no Last-Modified header) in 2026-Republican-Primary-Runoff-Unofficial-Results-PDF.",
       "county_totals_first_seen": ""
     }
   },

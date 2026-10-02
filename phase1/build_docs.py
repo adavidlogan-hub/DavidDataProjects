@@ -50,6 +50,7 @@ DEFINITIONS = [
     ("Upload time", "When a file was placed on the county's web server, taken from the server's Last-Modified response header. Some servers report the time of the request instead; those give no upload time."),
     ("Check 1, check 2, check 3", "The three ways this study determines timing, applied in order: (1) the vendor update log; (2) county-posted reports with printed run times and upload times; (3) Wayback Machine election-night captures."),
     ("Per-election result", "For each of the three elections studied: LIVE (precinct numbers with election-day votes in two or more distinct election-night releases), END (exactly one such release on election night), LATER (county totals only on election night; precinct numbers after election night or never online), NONE (no county-published results), or UNDETERMINED (the checks cannot decide)."),
+    ("Evidence rules for LATER and END", "LATER needs a county-totals file with a printed run time or upload time on election night and no election-day precinct numbers that night; if only files dated after election night survive, the election is UNDETERMINED. END or LIVE from county-posted reports needs the precinct report's upload time on election night, or no upload time at all and a printed run time on election night; a known later upload (for example a re-upload) cannot show election-night publication."),
     ("Tag", "One label per county, computed from its three per-election results by a fixed rule: the result shared by at least two elections; a single determined election gives a low-confidence tag; otherwise UNKNOWN. Tags: " + "; ".join(f"{t}: {m}" for t, m in TAG_MEANING.items())),
     ("Confidence", "Computed, not judged: low when the tag is UNKNOWN or rests on one election; high when two or more deciding elections were settled by check 1 or check 3 content; med when two or more deciding elections include check 2 evidence or rely on the live precinct view rule."),
     ("Live precinct view rule", "An archived election-night copy of a county's own live results app that contains a precinct-by-precinct candidate results view fed by the same live data as the county totals counts as LIVE for that election, with confidence capped at med."),
@@ -160,12 +161,16 @@ def method_section(d, num, short: bool):
         "The county tag and its confidence are computed from the three per-election results by fixed rules, and a "
         "validator rejects any record whose tag does not follow the rule. Phone and email come from the SOS county "
         "election officials list for every county.",
+        "Three rules were tightened during the run and applied to every county by dedicated passes, so results do not "
+        "depend on which agent handled a county: precinct numbers count only if they include election-day votes and "
+        "repeated identical numbers are one release; LATER needs positive election-night evidence; and END from "
+        "county-posted reports needs an election-night upload time when one is known.",
         "Selected counties were re-checked by independent verifier agents working blind: every LIVE_PRECINCT and "
         "PRECINCT_END_OF_NIGHT, every low-confidence tag, and a seeded random 10 percent of the rest. Disagreement "
         "sets the tag to UNKNOWN.",
     ]
     if short:
-        paras = paras[:2] + [paras[3]]
+        paras = paras[:2] + paras[3:5]
     for p in paras:
         d.add_paragraph(p)
 

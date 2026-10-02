@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.dawson.tx.us/ works over https; results are on page/dawson.Election.Information. No Clarity or vendor link. Files are scanned Hart reports named by scanner timestamp; Last-Modified values differ per file and look like real upload times (the 2024 'UNOFFICIAL TOTALS' Last-Modified is the next afternoon, later than its scan time, possibly a re-upload). The county posted only county totals for the 2024 general but per-precinct unofficial reports on runoff night. 2026 primary undetermined (check 3 pending; wayback-data branch not on origin).",
-  "tag_rationale": "The 2024 general is LATER and the 2026 runoff is END (both check 2); no two elections share a result, so by the rule the tag is UNKNOWN.",
+  "notes": "Seed http://www.co.dawson.tx.us/ works over https; results are on page/dawson.Election.Information. No Clarity or vendor link. Files are scanned Hart reports named by scanner timestamp; Last-Modified values differ per file and look like real upload times (the 2024 'UNOFFICIAL TOTALS' Last-Modified is the next afternoon, later than its scan time, possibly a re-upload). The county posted only county totals for the 2024 general but per-precinct unofficial reports on runoff night. 2026 primary undetermined (check 3 pending; wayback-data branch not on origin). Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "The 2024 general is LATER and the 2026 runoff is END (both check 2); no two elections share a result, so by the rule the tag is UNKNOWN. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
@@ -43,7 +43,7 @@
       "precinct_first_seen": "2026-05-26 21:54 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.dawson.tx.us/upload/page/1590/2026/20260526215018.pdf",
-      "fact": "'REPUBLICAN UNOFFICIAL PRECINCT RESULTS' is a scanned Hart 'PRECINCT RESULTS REPORT DAWSON COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Unofficial Results ... Run Time 9:35 PM Run Date 05/26/2026' with per-precinct candidate votes including Election Day Voting (precinct 1: Ken Paxton 53 = 1 absentee, 27 early, 25 election day). PDF CreationDate 2026-05-27 02:50:18 UTC; Last-Modified Wed, 27 May 2026 02:54:14 GMT (9:54 PM CDT). A matching 'DEMOCRATIC UNOFFICIAL PRECINCT RESULTS' (20260526214924.pdf) and cumulative files are listed; official files followed on 6-4-2026."
+      "fact": "'REPUBLICAN UNOFFICIAL PRECINCT RESULTS' is a scanned Hart 'PRECINCT RESULTS REPORT DAWSON COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Unofficial Results ... Run Time 9:35 PM Run Date 05/26/2026' with per-precinct candidate votes including Election Day Voting (precinct 1: Ken Paxton 53 = 1 absentee, 27 early, 25 election day). PDF CreationDate 2026-05-27 02:50:18 UTC; Last-Modified Wed, 27 May 2026 02:54:14 GMT (9:54 PM CDT). A matching 'DEMOCRATIC UNOFFICIAL PRECINCT RESULTS' (20260526214924.pdf) and cumulative files are listed; official files followed on 6-4-2026. Rule 47: publication shown by upload time 2026-05-26 21:54 CT in 20260526215018.pdf."
     }
   },
   "sources": [

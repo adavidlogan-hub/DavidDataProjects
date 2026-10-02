@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed https://www.co.live-oak.tx.us/ loads; results are on the Results and Election History pages (scanned Electionware-style reports; read visually). No Clarity site (elections.json 404). Last-Modified differs per file. Scanner PDF CreationDate values for the 2024 precinct files are later than their uploads (scanner clock wrong), so printed run times and Last-Modified are used. 2024: per-precinct unofficial reports uploaded one by one on election night (only 2 of 14 files fetched, at 9:36 and 10:37 PM). 2026 runoff: county cumulative only on election night. 2026 primary: no results found on the site; check 3 pending.",
-  "tag_rationale": "2024 general is LIVE (check 2) and 2026 runoff is LATER (check 2), with the primary undetermined; no two elections share a result, so the rule gives UNKNOWN.",
+  "notes": "Seed https://www.co.live-oak.tx.us/ loads; results are on the Results and Election History pages (scanned Electionware-style reports; read visually). No Clarity site (elections.json 404). Last-Modified differs per file. Scanner PDF CreationDate values for the 2024 precinct files are later than their uploads (scanner clock wrong), so printed run times and Last-Modified are used. 2024: per-precinct unofficial reports uploaded one by one on election night (only 2 of 14 files fetched, at 9:36 and 10:37 PM). 2026 runoff: county cumulative only on election night. 2026 primary: no results found on the site; check 3 pending. Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "2024 general is LIVE (check 2) and 2026 runoff is LATER (check 2), with the primary undetermined; no two elections share a result, so the rule gives UNKNOWN. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
@@ -25,7 +25,7 @@
       "precinct_first_seen": "2024-11-05 21:36 CT",
       "night_updates_with_precinct_numbers": "2",
       "evidence_url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/SIMMONS.pdf",
-      "fact": "Results page lists one 'Unofficial Pct. N ... Results' PDF per precinct (14) plus 'Unofficial Cumulative Results'. Two precinct files read (scanned, read visually): Pct 11 Simmons 'Unofficial Results Pct 11 ... GENERAL ELECTION 11/5/2024 ... Run Time 9:20 PM' with Election Day Voting column (Trump 31 election day), Last-Modified Wed, 06 Nov 2024 03:36:24 GMT (9:36 PM CST); Pct 2 Lagarto 'Unofficial Results Pct 2 ... Run Time 10:32 PM' (Trump 274 election day), Last-Modified Wed, 06 Nov 2024 04:37:48 GMT (10:37 PM CST). Cumulative Last-Modified 04:45:31 GMT (10:45 PM CST). Precinct numbers were posted precinct by precinct in separate uploads at different times on election night."
+      "fact": "Results page lists one 'Unofficial Pct. N ... Results' PDF per precinct (14) plus 'Unofficial Cumulative Results'. Two precinct files read (scanned, read visually): Pct 11 Simmons 'Unofficial Results Pct 11 ... GENERAL ELECTION 11/5/2024 ... Run Time 9:20 PM' with Election Day Voting column (Trump 31 election day), Last-Modified Wed, 06 Nov 2024 03:36:24 GMT (9:36 PM CST); Pct 2 Lagarto 'Unofficial Results Pct 2 ... Run Time 10:32 PM' (Trump 274 election day), Last-Modified Wed, 06 Nov 2024 04:37:48 GMT (10:37 PM CST). Cumulative Last-Modified 04:45:31 GMT (10:45 PM CST). Precinct numbers were posted precinct by precinct in separate uploads at different times on election night. Rule 47: publication shown by upload time 2024-11-05 21:36 CT in SIMMONS.pdf and upload time 2024-11-05 22:37 CT in LAGARTO.pdf."
     },
     "2026_primary": {
       "result": "UNDETERMINED",

@@ -86,3 +86,36 @@ Failures are mostly Clarity update versions that the vendor has purged (HTTP 404
 | Wayback harvest | 15 to 20 hours | in progress: 6 sequential batches, about 14 hours expected |
 
 Phases 2 and 3 have not started; they wait for the owner's review of the Phase 1 county results.
+
+## Addendum: full Phase 1 run (all 254 counties), final as of 2026-10-02 17:01 UTC
+
+Final tags (counties.csv):
+
+| Tag | Counties |
+|---|---|
+| LIVE_PRECINCT | 21 (18 high, 1 med, 2 low) |
+| PRECINCT_END_OF_NIGHT | 21 (2 high, 9 med, 10 low) |
+| COUNTY_ONLY_PRECINCT_AT_CANVASS | 105 (1 high, 57 med, 47 low) |
+| NO_SITE_OR_SOS_ONLY | 1 |
+| UNKNOWN | 106 |
+
+LIVE_PRECINCT: Bell, Bexar, Comal, Dallas, Denton, El Paso, Fort Bend, Galveston, Harris, Hidalgo, Hunt, Kaufman, Kendall, Midland, Montague, Rockwall, Rusk, Tarrant, Travis, Victoria, Wood.
+
+Verification: 119 counties re-checked blind by six verifier instances; 109 agree (92 percent). The 10 disagreements are UNKNOWN by rule: Cherokee, Haskell, Hutchinson, Lamar, Lamb, Robertson, Scurry, Throckmorton, Tyler, Zapata. In five of them (Haskell, Lamb, Scurry, Tyler, Zapata) the verifier found election-night files the research missed; a targeted follow-up could resolve them.
+
+Rules tightened during the run (DECISIONS 36 to 47) were applied to every county by dedicated passes: election-day precinct votes only; distinct releases; time zone conversion; LATER needs election-night evidence (rule 43, 177 elections re-checked); END needs an election-night upload when one is known (rule 47, 40 elections re-checked).
+
+Effort for the full run (15:14 to 17:01 UTC, about 1 hour 47 minutes):
+
+| Work | Agent tokens |
+|---|---|
+| 8 research agents (237 counties) | 3,264,218 |
+| Vendor agent | 255,822 |
+| 6 verifier instances (119 counties) | 1,987,554 |
+| 5 normalization passes (rules 43 and 47) | 842,883 |
+| Check 3 pilot pass (Harris, Dallas) | 98,452 |
+| Total | 6,448,929 |
+
+Session usage reading (API list price equivalent, includes all agents): 48.59 USD before the full run, 269.21 USD after, so about 221 USD for the full run. On the owner's subscription plan this counts toward usage limits rather than being billed.
+
+Still open: the Wayback harvest for 200 of 240 counties was re-run after a robots.txt fix (DECISIONS 46); check 3 for undetermined elections follows when it lands.

@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed https://www.co.lynn.tx.us/ loads; Elections page lists scanned results PDFs named by scanner timestamp (http links return 403; https works). No Clarity site (elections.json 404). Reports read visually (no text layer). Last-Modified differs per file. In both 2026 elections a single unofficial precinct-by-precinct report was posted on election night, minutes after scanning. No 2024 general results are listed; check 3 pending.",
-  "tag_rationale": "2026 primary and runoff are END by check 2, so the tag is PRECINCT_END_OF_NIGHT; both have a creation time (counted as printed run time) and an upload time on election night, so confidence is med.",
+  "notes": "Seed https://www.co.lynn.tx.us/ loads; Elections page lists scanned results PDFs named by scanner timestamp (http links return 403; https works). No Clarity site (elections.json 404). Reports read visually (no text layer). Last-Modified differs per file. In both 2026 elections a single unofficial precinct-by-precinct report was posted on election night, minutes after scanning. No 2024 general results are listed; check 3 pending. Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "2026 primary and runoff are END by check 2, so the tag is PRECINCT_END_OF_NIGHT; both have a creation time (counted as printed run time) and an upload time on election night, so confidence is med. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
@@ -34,7 +34,7 @@
       "precinct_first_seen": "2026-03-03 21:41 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.lynn.tx.us/upload/page/0086/20260303223813.pdf",
-      "fact": "'Unofficial Precinct by Precinct Report' (20260303223813.pdf, scanned, 150 pages, read visually): 'PRIMARY ELECTION March 3, 2026 UNOFFICIAL RESULTS PRECINCT BY PRECINCT LYNN COUNTY PRECICNT 1 ... Absentee Early Voting Election Day' (e.g. REP Governor Greg Abbott 26 election day). PDF CreationDate Wed Mar 4 03:38:13 2026 UTC (9:38 PM CST); Last-Modified Wed, 04 Mar 2026 03:41:48 GMT (9:41 PM CST). Listed with an 'Unofficial Summary Report' (20260303223715.pdf)."
+      "fact": "'Unofficial Precinct by Precinct Report' (20260303223813.pdf, scanned, 150 pages, read visually): 'PRIMARY ELECTION March 3, 2026 UNOFFICIAL RESULTS PRECINCT BY PRECINCT LYNN COUNTY PRECICNT 1 ... Absentee Early Voting Election Day' (e.g. REP Governor Greg Abbott 26 election day). PDF CreationDate Wed Mar 4 03:38:13 2026 UTC (9:38 PM CST); Last-Modified Wed, 04 Mar 2026 03:41:48 GMT (9:41 PM CST). Listed with an 'Unofficial Summary Report' (20260303223715.pdf). Rule 47: publication shown by upload time 2026-03-03 21:41 CT in 20260303223813.pdf."
     },
     "2026_runoff": {
       "result": "END",
@@ -43,7 +43,7 @@
       "precinct_first_seen": "2026-05-26 20:13 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.lynn.tx.us/upload/page/0086/20260526201006.pdf",
-      "fact": "'Unoffical Precinct by Precinct Results' (20260526201006.pdf, scanned, 16 pages, read visually): 'Precinct by Precinct Results Report May 26, 2026 UNOFFICIAL RESULTS Lynn County PRECICNT 1 ... Absentee Early Voting Election Day' (e.g. REP US Senator Ken Paxton 20 election day). PDF CreationDate Wed May 27 01:10:06 2026 UTC (8:10 PM CDT); Last-Modified Wed, 27 May 2026 01:13:14 GMT (8:13 PM CDT). Listed with 'Unofficial Summary Results' (20260526200948.pdf)."
+      "fact": "'Unoffical Precinct by Precinct Results' (20260526201006.pdf, scanned, 16 pages, read visually): 'Precinct by Precinct Results Report May 26, 2026 UNOFFICIAL RESULTS Lynn County PRECICNT 1 ... Absentee Early Voting Election Day' (e.g. REP US Senator Ken Paxton 20 election day). PDF CreationDate Wed May 27 01:10:06 2026 UTC (8:10 PM CDT); Last-Modified Wed, 27 May 2026 01:13:14 GMT (8:13 PM CDT). Listed with 'Unofficial Summary Results' (20260526200948.pdf). Rule 47: publication shown by upload time 2026-05-26 20:13 CT in 20260526201006.pdf."
     }
   },
   "sources": [

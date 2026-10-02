@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.cochran.tx.us/default.aspx?Cochran_County/Elections replaced by https://www.co.cochran.tx.us/page/cochran.Elections; older files on newtools.cira.state.tx.us. No Clarity or vendor site. Results are tally sheets by voting box (BOX 101, 202, 303, 306, 404; EV and BBM are county-level columns), scanned. Last-Modified values differ per file and look like real upload times. The 2026 files are scanner PDFs with no CreationDate and no printed run time, so only server upload times are available; confidence low under the rule. Only the Republican files were read; Democratic files are listed alongside. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED.",
-  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary END, 2026_runoff END. Two or more elections share the result that maps to PRECINCT_END_OF_NIGHT, so that is the tag.",
+  "notes": "Seed http://www.co.cochran.tx.us/default.aspx?Cochran_County/Elections replaced by https://www.co.cochran.tx.us/page/cochran.Elections; older files on newtools.cira.state.tx.us. No Clarity or vendor site. Results are tally sheets by voting box (BOX 101, 202, 303, 306, 404; EV and BBM are county-level columns), scanned. Last-Modified values differ per file and look like real upload times. The 2026 files are scanner PDFs with no CreationDate and no printed run time, so only server upload times are available; confidence low under the rule. Only the Republican files were read; Democratic files are listed alongside. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED. Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary END, 2026_runoff END. Two or more elections share the result that maps to PRECINCT_END_OF_NIGHT, so that is the tag. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
@@ -34,7 +34,7 @@
       "precinct_first_seen": "2026-03-04 00:27 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://newtools.cira.state.tx.us/upload/page/1499/2026/2026%20MARCH%203RD%20REPUBLICAN%20PRIMARY%20UNOFFICIAL%20RESULTS.pdf",
-      "fact": "'REPUBLICAN PRIMARY UNOFFICIAL RESULTS' is a scanned 'MARCH 3, 2026 REPUBLICAN PRIMARY ELECTION - ELECTION DAY ... TOTAL NUMBER OF VOTERS IN COUNTY: 1473 - 35%' sheet with candidate votes per 'BOX 101, BOX 202, BOX 303, BOX 306, BOX 404' plus EV and BBM columns. Last-Modified Wed, 04 Mar 2026 06:27:40 GMT (12:27 AM CST Mar 4), within election night. No printed run time (scanner PDF, no CreationDate)."
+      "fact": "'REPUBLICAN PRIMARY UNOFFICIAL RESULTS' is a scanned 'MARCH 3, 2026 REPUBLICAN PRIMARY ELECTION - ELECTION DAY ... TOTAL NUMBER OF VOTERS IN COUNTY: 1473 - 35%' sheet with candidate votes per 'BOX 101, BOX 202, BOX 303, BOX 306, BOX 404' plus EV and BBM columns. Last-Modified Wed, 04 Mar 2026 06:27:40 GMT (12:27 AM CST Mar 4), within election night. No printed run time (scanner PDF, no CreationDate). Rule 47: publication shown by upload time 2026-03-04 00:27 CT in 2026 MARCH 3RD REPUBLICAN PRIMARY UNOFFICIAL RESULTS.pdf."
     },
     "2026_runoff": {
       "result": "END",
@@ -43,7 +43,7 @@
       "precinct_first_seen": "2026-05-26 21:52 CT",
       "night_updates_with_precinct_numbers": "1",
       "evidence_url": "https://www.co.cochran.tx.us/upload/page/1499/2026%20MAY%2026TH%20REPUBLICAN%20PRIMARY%20RUNOFF%20ELECITON%20-%20UNOFFICIAL%20RESULTS.pdf",
-      "fact": "'REPUBLICAN PRIMARY RUNOFF UNOFFICIAL RESULTS' is a scanned 'MAY 26, 2026 REPUBLICAN PRIMARY RUNOFF ELECTION ELECTION DAY UNOFFICIAL RESULTS TOTAL NUMBER OF VOTERS IN COUNTY: 1481' sheet with candidate votes per 'BOX 101 ... BOX 404' plus EV and BBM columns (e.g. U.S. Senator, Ken Paxton: EV 103, BBM 9, BOX 101 11, BOX 202 25 ... TOTAL 171). Last-Modified Wed, 27 May 2026 02:52:14 GMT (9:52 PM CDT), within election night. No printed run time."
+      "fact": "'REPUBLICAN PRIMARY RUNOFF UNOFFICIAL RESULTS' is a scanned 'MAY 26, 2026 REPUBLICAN PRIMARY RUNOFF ELECTION ELECTION DAY UNOFFICIAL RESULTS TOTAL NUMBER OF VOTERS IN COUNTY: 1481' sheet with candidate votes per 'BOX 101 ... BOX 404' plus EV and BBM columns (e.g. U.S. Senator, Ken Paxton: EV 103, BBM 9, BOX 101 11, BOX 202 25 ... TOTAL 171). Last-Modified Wed, 27 May 2026 02:52:14 GMT (9:52 PM CDT), within election night. No printed run time. Rule 47: publication shown by upload time 2026-05-26 21:52 CT in 2026 MAY 26TH REPUBLICAN PRIMARY RUNOFF ELECITON - UNOFFICIAL RESULTS.pdf."
     }
   },
   "sources": [
