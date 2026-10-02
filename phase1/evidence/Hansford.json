@@ -1,0 +1,58 @@
+{
+  "county": "Hansford",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.hansford.tx.us/page/Elections",
+  "platform": "unknown",
+  "host": "www.co.hansford.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL (default.aspx path) replaced by https://www.co.hansford.tx.us/; its Elections page lists the November 3, 2026 general election notices, the 2024 primary notice and 2024 daily voter check-in rosters, and no results documents of any kind for the 2024 general, 2026 primary or 2026 runoff. No Clarity link. Current page content does not show what was posted on election night. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (no vendor log, no county results files, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.co.hansford.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "96ef9d58f802a26c58552b47f4b7e36755cb749a0f170211214a3e3837411526",
+      "quote": "November 3, 2026 General Election ... March 5, 2024 Primary Elections ... 2024 Primary Election Notice (PDF)",
+      "supports": "County Elections page has no results files"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results on the county Elections page. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 primary results on the county Elections page. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 runoff results on the county Elections page. Check 3 pending."
+    }
+  }
+}

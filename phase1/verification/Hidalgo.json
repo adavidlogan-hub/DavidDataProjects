@@ -1,0 +1,81 @@
+{
+  "county": "Hidalgo",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 122498 from link on hidalgocounty.us/3318 (\"2024 General & Local Entities Elections - Results\"). Opened v351082 (Timestamp 11/5/2024 7:47:17 PM CST): no nonzero precinct votes. Opened v352838 (Timestamp 11/5/2024 11:19:47 PM CST): VoteType Election 14940 nonzero precinct cells. Early precinct votes from 9:21 PM; Election Day precinct votes in 4 night updates (11:19 PM, 12:29 AM, 2:52 AM, 2:55 AM)."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 125934 from links on hidalgocounty.us/3456 (Republican and Democratic Primary - Results). Opened v368465 (Timestamp 3/3/2026 9:05:03 PM CST): United States Senator, James Talarico, Early votes=29362, <Precinct name=\"001\" votes=\"34\" /> (early only). Opened v368480 (Timestamp 3/3/2026 9:29:34 PM CST): same choice, VoteType Election votes=1936, <Precinct name=\"002\" votes=\"5\" />. Election Day precinct votes in 4 night updates (9:29, 9:50, 11:36, 11:40 PM)."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 126201 from links on hidalgocounty.us/3477. Opened v372952 (Timestamp 5/26/2026 8:03:39 PM CDT): Absentee and Early precinct votes only. Opened v372977 (Timestamp 5/26/2026 8:28:13 PM CDT): Election precinct votes 1736 nonzero cells. Election Day precinct votes in 2 night updates (8:28 PM, 9:40 PM)."
+    }
+  },
+  "rationale": "All three elections LIVE by check 1, so LIVE_PRECINCT, high. Clarity elections.json for Hidalgo stops at 2020; EIDs were taken from the county's own election pages.",
+  "sources": [
+    {
+      "url": "https://www.hidalgocounty.us/3318/44406/2024-General-Election?activeLiveTab=widgets",
+      "content_hash": "6c981c4d92b79d7a1a8247f210d5e3e44c826735104648eb8eb8fc95952e8e75",
+      "what_i_checked": "link to Clarity EID 122498; also lists TEXT cumulative and PCT by PCT DocumentCenter files (server Last-Modified is request time, no upload evidence)"
+    },
+    {
+      "url": "https://www.hidalgocounty.us/3456/49276/2026-Joint-Primary-Election",
+      "content_hash": "38b95fe3b77db251ea28036d24cf05547c03c8a36e4ec20616e6d0591a877578",
+      "what_i_checked": "link to Clarity EID 125934"
+    },
+    {
+      "url": "https://www.hidalgocounty.us/3477/May-26-2026-Primary-Runoff-Election",
+      "content_hash": "fc904504128ca488413635a4f6084d68a8aacbb35b2ad172c466edb18457c759",
+      "what_i_checked": "link to Clarity EID 126201"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/122498/351082/reports/detailxml.zip",
+      "content_hash": "3f24ea47fe5f29de16963b35eb65f3bb7d2b461caac95da85c7477226407ce2b",
+      "what_i_checked": "first night update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/122498/352838/reports/detailxml.zip",
+      "content_hash": "50a7081db628fdb419b3dffb2309c0ca8e65996c01cc0355e999a3177cab64ba",
+      "what_i_checked": "first Election Day precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/125934/368465/reports/detailxml.zip",
+      "content_hash": "bf3e2ab68f53da19ac6b802e9431743d4010856a605773456b65dd8cd64a3ed7",
+      "what_i_checked": "early-only precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/125934/368480/reports/detailxml.zip",
+      "content_hash": "800d04c22a293ba6ced45e2c533cd3b125dbe94939518f507daf1f602ea01b3f",
+      "what_i_checked": "Election Day precinct line"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/126201/372952/reports/detailxml.zip",
+      "content_hash": "7ac93eb2219dee6ec6f472adfdb91e74b36bcd0aa16f4f7b348d9e79682cfeb5",
+      "what_i_checked": "first runoff night update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Hidalgo/126201/372977/reports/detailxml.zip",
+      "content_hash": "24b7885aaa736a7fdcddfaac84e1e7ba79837e6f42cbb88dae6ea5c536a28b4a",
+      "what_i_checked": "first runoff Election Day precinct votes"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T15:18:13Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LIVE, check 1, EID 122498 from hidalgocounty.us/3318). Both: early and absentee only at 9:21 and 9:45 PM, election-day precinct votes in 4 night updates from 11:19 PM.",
+    "2026_primary": "same (LIVE, check 1, EID 125934). Both: 9:05 PM early only, election-day precinct votes in 4 updates from 9:29 PM.",
+    "2026_runoff": "same (LIVE, check 1, EID 126201). Both: 8:03 PM early and absentee only, election-day precinct votes at 8:28 and 9:40 PM.",
+    "unsupported_or_unchecked": "None found. Research ran the check 1 functions from a scratch runner rather than the script with --eid; my script run with --eid gave the same update list."
+  },
+  "compared_at_utc": "2026-10-02T15:18:52Z"
+}

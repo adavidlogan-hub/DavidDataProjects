@@ -1,0 +1,79 @@
+{
+  "county": "Donley",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.donley.tx.us/page/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.donley.tx.us",
+  "evidence_url": "https://www.co.donley.tx.us/upload/page/0087/docs/MarchPrimary20260001.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-03 23:19 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL (http default.aspx) and https /page/donley.Elections returned HTTP 403; the home page links /page/Elections and /page/Elections.Archive, which load. No Clarity site (elections.json 404). Results are scanned PDFs on the county site. 2026 primary: '03032026 Primary unofficial' is a 20-page Electionware Custom Table Report with per-precinct candidate votes for Precincts 1, 2, 3, 303, 4, marked 'FINAL' by hand, printed 03/03/2026 08:45PM, Last-Modified Wed, 04 Mar 2026 05:19:06 GMT (11:19 PM CST election night). The page also says '03032026 DemocraticElection Night Not Yet Available'. 2024 general: the archive's only results file is an SOS-format 'Election Unofficial Results Report' with county totals by early/election day, scanned 6 Nov 2024 21:37 UTC and Last-Modified Wed, 06 Nov 2024 21:38:49 GMT (3:38 PM CST next day); no precinct report is listed. 2026 runoff: the Elections page lists only sample ballots and voting hours for May 26, 2026; no runoff results are posted, so whether anything was posted on election night cannot be told. Server Last-Modified values differ per file, so they are real upload times (a later replacement would hide an earlier upload). Check 3 pending (origin/wayback-data not present).",
+  "tag_rationale": "2024 general is LATER (check 2) and 2026 primary is END (check 2); the runoff is UNDETERMINED, so no result appears twice and the rule gives UNKNOWN.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 15:38 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.donley.tx.us/upload/page/0109/Unofficial%20Results.pdf",
+      "fact": "Archive link 'November 5th 2024 Unofficial General Election Day Results' is a scanned 'Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION DONLEY County' with county totals (Early Voting By Mail, In Person, Election Day, Total Votes); PDF CreationDate 6 Nov 2024 21:37 UTC; Last-Modified Wed, 06 Nov 2024 21:38:49 GMT. No precinct-level 2024 general report is listed online."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 23:19 CT",
+      "precinct_first_seen": "2026-03-03 23:19 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.donley.tx.us/upload/page/0087/docs/MarchPrimary20260001.pdf",
+      "fact": "'03032026 Primary unofficial': 'Custom Table Report TX DONLEY 260303 Primary 6110 March 3, 2026 ... UNOFFICIAL RESULTS', handwritten 'FINAL', rows Precinct 1, 2, 3, 303, 4 with candidate votes (REP US Senator Ken Paxton 92/89/43/34/56); footer 'Custom Table Report - 03/03/2026 08:45PM'; PDF CreationDate 4 Mar 2026 05:16:48 UTC; Last-Modified Wed, 04 Mar 2026 05:19:06 GMT (11:19 PM CST)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections page section 'MAY 26, 2026 DEMOCRATIC & REPUBLICAN SAMPLE BALLOTS' lists sample ballots and hours only; no runoff results posted. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.donley.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "23be2e0705df6c879e552c482eaa37e2226da8556dd06c3e46440da80e144669",
+      "quote": "03032026 Primary unofficial 03032026 DemocraticElection Night Not Yet Available",
+      "supports": "2026 report list; no runoff results listed"
+    },
+    {
+      "url": "https://www.co.donley.tx.us/upload/page/0087/docs/MarchPrimary20260001.pdf",
+      "via": "fetch_module",
+      "content_hash": "d643144dc8ff0d037a4bbe6f384923e63e1b64a23830868c929e6820f5eb64de",
+      "quote": "Custom Table Report TX DONLEY 260303 Primary 6110 ... UNOFFICIAL RESULTS ... FINAL ... Custom Table Report - 03/03/2026 08:45PM",
+      "supports": "2026_primary precinct numbers uploaded 11:19 PM CST election night"
+    },
+    {
+      "url": "https://www.co.donley.tx.us/page/Elections.Archive",
+      "via": "fetch_module",
+      "content_hash": "d19935763b6b0d62d6e837df46ce8c1bca01f6d4055855bfd196e0cce73f3441",
+      "quote": "November 5th 2024 Unofficial General Election Day Results",
+      "supports": "2024 report list"
+    },
+    {
+      "url": "https://www.co.donley.tx.us/upload/page/0109/Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "05b02a2ed093cccdf0e2f9553f5d9282e84fc7e80a66f626330ee50904f6a777",
+      "quote": "Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05,2024 DONLEY County",
+      "supports": "2024_general county totals only, uploaded 6 Nov 2024"
+    }
+  ]
+}

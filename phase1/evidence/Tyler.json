@@ -1,0 +1,65 @@
+{
+  "county": "Tyler",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.tyler.tx.us/page/tyler.ElectionInformation",
+  "platform": "county_pdfs",
+  "host": "www.co.tyler.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The County Clerk's Election Information page has an 'UNOFFICIAL RESULTS' link for the March 3, 2026 primaries to /upload/page/3316/RESULTS/2026 UNOFFICIAL RESULTS.pdf, a 22-page scanned image PDF with no text layer and no creation metadata; its Last-Modified is Wed, 04 Mar 2026 18:40:46 GMT (12:40 PM CST on Mar 4), after election night; its contents (precinct or county totals) could not be read without OCR. The 2026 runoff section lists notices only and no county results file. The 2024 general section lists 'Unofficial Election Precinct Summary' (link points to a Nov 7 2023 file), 'Official Election Summary Results' and 'Official Election Precinct Summary Results' (Election Precicnt Summary.pdf returned HTTP 404). An 'OFFICIAL RESULTS' link points to the SOS site goelect.txelections.civixapps.com. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined by checks 1 and 2 (the only 2026 unofficial file was uploaded the next day and is an unreadable scan; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Page lists 'Unofficial Election Precinct Summary' (link to a Nov 7 2023 file), 'Official Election Precinct Summary Results' (HTTP 404). No readable election-night report. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'UNOFFICIAL RESULTS' PDF (scanned, 22 pages, no text) Last-Modified Wed, 04 Mar 2026 18:40:46 GMT, i.e. after election night; 'OFFICIAL RESULTS ( tba )'. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Runoff section lists notices (runoff, early voting, tests, canvass) and no results file. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.tyler.tx.us/page/tyler.ElectionInformation",
+      "via": "fetch_module",
+      "content_hash": "a753072580e96b20483601ec32bad82060a9e9961d719c7f894a123b9dbb3381",
+      "quote": "MARCH 3, 2026 REPUBLICAN AND DEMOCRATIC PRIMARIES Election Data and Turnout UNOFFICIAL RESULTS OFFICIAL RESULTS ( tba ) PARTIAL MANUAL AUDIT",
+      "supports": "report list"
+    },
+    {
+      "url": "https://www.co.tyler.tx.us/upload/page/3316/RESULTS/2026%20UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "46056854de0ed36806b4586966550f64b97662ea85d39285a90826c683bc2d80",
+      "quote": "Last-Modified: Wed, 04 Mar 2026 18:40:46 GMT (scanned PDF, no text layer)",
+      "supports": "2026 primary unofficial file uploaded after election night"
+    }
+  ]
+}

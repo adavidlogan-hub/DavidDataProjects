@@ -1,0 +1,79 @@
+{
+  "county": "Andrews",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.andrews.tx.us/193/Election-Results",
+  "platform": "county_pdfs",
+  "host": "www.co.andrews.tx.us",
+  "evidence_url": "https://www.co.andrews.tx.us/DocumentCenter/View/2851/052626-unofficial-results",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The Election Results page posts one scanned PDF per election (EPSON Scan, image only; read visually). The CivicPlus DocumentCenter sends no Last-Modified header, so there is no server upload time. Current links: '05.26.26 unofficial results', '03.03.26 Official results' (scanned 2026-03-17), '11.05.24 Official Results' (scanned 2024-11-20). No precinct-level file is listed for any of the three elections. 2024 general and 2026 primary only have official files now, so election-night publication cannot be decided; check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER: an election-night county-totals summary and no precinct numbers online), so by rule the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only '11.05.24 Official Results' (scanned PDF, CreationDate 2024-11-20 16:47 UTC) is posted; no election-night file survives. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only '03.03.26 Official results' (scanned PDF, CreationDate 2026-03-17 21:40 UTC) is posted; no election-night file survives. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 19:43 CT (printed run time; scan created 20:51 CT)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.andrews.tx.us/DocumentCenter/View/2851/052626-unofficial-results",
+      "fact": "'05.26.26 unofficial results' = scanned 1-page 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Andrews County, Texas', county totals by Absentee/Early Voting/Election Day (e.g. 'Ken Paxton 523 5 292 226'), footer 'Election Summary - 05/26/2026 7:43 PM'; PDF CreationDate Wed May 27 01:51:49 2026 UTC; no Last-Modified. No precinct results for the runoff are posted online."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.andrews.tx.us/193/Election-Results",
+      "via": "fetch_module",
+      "quote": "05.26.26 unofficial results; 03.03.26 Official results; Unofficial Results 11.04.25; 11.05.24 Official Results",
+      "supports": "County results postings",
+      "content_hash": "8b8c62341f0fb9415e29cf12729b73b1bc2fc11a10a6607923faef557250fab7"
+    },
+    {
+      "url": "https://www.co.andrews.tx.us/DocumentCenter/View/2851/052626-unofficial-results",
+      "via": "fetch_module",
+      "quote": "Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Andrews County, Texas ... Election Summary - 05/26/2026 7:43 PM",
+      "supports": "Runoff election-night county totals only (read from scanned image)",
+      "content_hash": "a21baa6dd62b72787e44ece2d1fccd2db59c7f4438a9a820133d8a51cac79a4b"
+    },
+    {
+      "url": "https://www.co.andrews.tx.us/DocumentCenter/View/2770/030326-Official-results",
+      "via": "fetch_module",
+      "quote": "(scanned image PDF, CreationDate Tue Mar 17 21:40:22 2026 UTC)",
+      "supports": "Primary has only an official file",
+      "content_hash": "6279354e970a6086868da9a37424d4f12ad58251c5da503e47d38a0590c321a8"
+    },
+    {
+      "url": "https://www.co.andrews.tx.us/DocumentCenter/View/1841/110524-Official-Results",
+      "via": "fetch_module",
+      "quote": "(scanned image PDF, CreationDate Wed Nov 20 16:47:02 2024 UTC)",
+      "supports": "2024 general has only an official file",
+      "content_hash": "75e8a1905910895200d14ee192ab8328875b249f6e9c81557a298b6646e0ee48"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "county": "Castro",
+  "tag": "NO_SITE_OR_SOS_ONLY",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.castro.tx.us/page/castro.Elections",
+  "platform": "sos_feed_only",
+  "host": "www.co.castro.tx.us",
+  "evidence_url": "https://www.co.castro.tx.us/page/castro.Elections",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.castro.tx.us/ moved to https; site has 'Elections' and 'Elections Administrator' pages (the latter has no files). No Clarity or other vendor link found. The NONE results rest on the absence of any results file on a page that does keep other files from the same 2026 elections (rosters, hand count audits); it is possible results were posted and later removed, so confidence is low. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "The 2026 primary and runoff are both NONE (check 2: no results files posted by the county), so the tag is NO_SITE_OR_SOS_ONLY. Confidence low because it rests on absence of files with no upload times.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The current Elections page has no 2024 general election files of any kind, so what was posted in 2024 cannot be judged. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "NONE",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.castro.tx.us/page/castro.Elections",
+      "fact": "The Elections page lists for the March 3, 2026 primary only 'Notice of Election and Sample Ballots - March 3, 2026', 'ELECTION DAY IN PERSON ROSTER 3-3-26 (XLSX)', '2026 Republican Primary Hand Count Results (PDF)' and '2026 Democratic Primary Hand Count Results (PDF)' (post-election hand count audit, Last-Modified 2026-04-01). No unofficial, cumulative, precinct, or official results file is posted."
+    },
+    "2026_runoff": {
+      "result": "NONE",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.castro.tx.us/page/castro.Elections",
+      "fact": "The Elections page lists for the May 26 runoff only 'Election Hand Count Summary & Certification May 26 Runoff (PDF)', the two PEHCA worksheets (XLSX) and 'Election Day Roster 5-26-2026 & Mail in Ballots (XLSX)'. No unofficial, cumulative, precinct, or official results file is posted."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.castro.tx.us/page/castro.Elections",
+      "via": "fetch_module",
+      "content_hash": "9b4e518213b51e4d61792626bce40d2dc68b6cd511f81ce64c395dc192cb6d73",
+      "quote": "Election Hand Count Summary & Certification May 26 Runoff (PDF); Election Day Roster 5-26-2026 & Mail in Ballots (XLSX); 2026 Republican Primary Hand Count Results (PDF); ELECTION DAY IN PERSON ROSTER 3-3-26 (XLSX)",
+      "supports": "Elections page lists 2026 election files but no results reports"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/12125/2026_republican_hand_count_results.pdf",
+      "via": "fetch_module",
+      "content_hash": "7d8ed6bc06d1c067ca0a7bdb67e4787e1cbc93f98af3c3142a9588025ea3c01b",
+      "quote": "(scanned, 4 pages) PDF CreationDate 2026-03-31; Last-Modified Wed, 01 Apr 2026 15:21:29 GMT",
+      "supports": "The 'Hand Count Results' file is a post-election audit posted weeks later, not a results report"
+    },
+    {
+      "url": "https://www.co.castro.tx.us/",
+      "via": "fetch_module",
+      "content_hash": "830d307a64f767ea8bb3a267db605f02f1d8cd4a6bbb08d9e4996f45010aef14",
+      "quote": "Elections Administrator; Elections",
+      "supports": "County home page; no other results link"
+    }
+  ]
+}

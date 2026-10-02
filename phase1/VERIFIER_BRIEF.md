@@ -7,6 +7,9 @@ Read phase1/CHECKLIST_BRIEF.md. The same three checks, per-election results, and
 ## Which counties
 phase1/verification_selection.json lists them (keys required and random_sample): every LIVE_PRECINCT and PRECINCT_END_OF_NIGHT, every low-confidence non-UNKNOWN tag, and a seeded random 10 percent of the rest.
 
+## Clarity election IDs
+Find IDs yourself (county pages first; any public page is acceptable if the detail.xml you open shows <Region> equal to the county and <ElectionDate> equal to the election date). You may not copy IDs from research files or phase1/checks/clarity/, but if your own searching finds the same ID that is fine. Always run the check 1 script with `--out-dir phase1/verification/clarity`.
+
 ## Work blind, then compare
 For each selected county:
 1. WITHOUT opening phase1/evidence/<County>.json, determine each election's result yourself with the three checks. Do not rely on another agent's summaries:

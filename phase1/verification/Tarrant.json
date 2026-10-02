@@ -1,0 +1,101 @@
+{
+  "county": "Tarrant",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 122489 from link on tarrantcountytx.gov November 5 2024 results page. Opened v350796 (Timestamp 11/5/2024 7:04:56 PM CST): Absentee and Early precinct votes only. Opened v351910 (Timestamp 11/5/2024 9:10:34 PM CST): VoteType Election 28402 nonzero precinct cells. Election Day precinct votes in 9 night updates (9:10 PM to 12:46 AM)."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 125924 from links on tarrantcountytx.gov March 3 2026 page. Opened v368462 (Timestamp 3/3/2026 8:59:09 PM CST): United States Senator, John O. Adefope, VoteType Election votes=4, <Precinct name=\"1107\" votes=\"2\" />. Opened v368503 (Timestamp 3/3/2026 9:55:22 PM CST): same choice, Election votes=50, <Precinct name=\"1019\" votes=\"1\" />. Election Day precinct votes in 7 night updates (8:59 PM to 2:57 AM)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "1",
+      "fact": "EID 126079 from links on tarrantcountytx.gov May 26 2026 page. 7 night updates (8:54 PM to 11:34 PM). Opened v373057 (Timestamp 5/26/2026 11:34:13 PM CDT): 78968 values votes=\"protected\", 0 nonzero precinct values; summary.json for that version shows county totals (United States Senator V [38382, 57707], PR 663 of 2121). Opened v373430 (Timestamp 6/2/2026 1:31:21 PM CDT): United States Senator, John Cornyn, Election votes=12574, <Precinct name=\"1006\" votes=\"3\" />. Check 2 agrees: cumulative_dem_PR26_05272026_12am.pdf is a Cumulative Results Report, Unofficial, Run Time 11:19 PM 05/26/2026, Last-Modified Wed 27 May 2026 04:29:30 GMT (11:29 PM CDT), county totals only; precinct_dem.pdf and precinct_rep.pdf are Precinct Results Report, Official Results, Run Date 06/16/2026, Last-Modified 16 Jun 2026. Precinct numbers published after election night."
+    }
+  },
+  "rationale": "LIVE in 2024_general and 2026_primary by check 1; 2026_runoff LATER (precinct values protected on election night). Two elections share LIVE, so LIVE_PRECINCT, high.",
+  "sources": [
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2024-archives/november-5--2024--general-election-results.html",
+      "content_hash": "a568e1fd63b295d33172fab7d00b05f43dd379db9a5b02a3247bed871ca0be8b",
+      "what_i_checked": "link to Clarity EID 122489; hourly cumulative PDFs and precinct.pdf listed (server Last-Modified on HTML page is request time)"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2026-archives/march-3--2026--primary-elections-results.html",
+      "content_hash": "e9824bab7c1ff055e5a90052251352c831e83d8557ded669dc95b6d087c8e652",
+      "what_i_checked": "link to Clarity EID 125924"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2026-archives/may-26--2026--primary-run-off-election-results.html",
+      "content_hash": "d8418562d90192eb2488bd5044d93e9f32c833d03a487e9cc3c49027b1172f9c",
+      "what_i_checked": "link to Clarity EID 126079; report list"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/350796/reports/detailxml.zip",
+      "content_hash": "ab135459c6efbfa50c919999a7a6e2c5fe907aaba53723667b56f5f7971e70fb",
+      "what_i_checked": "first night update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Tarrant/122489/351910/reports/detailxml.zip",
+      "content_hash": "a56e2613fe6161ae21f9914bc90336dec99cd8c8371e53a38ad3d41f2b48ecef",
+      "what_i_checked": "first Election Day precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368462/reports/detailxml.zip",
+      "content_hash": "5cabae2c7c3cc5ec618195247ec3cd66b4bf5fd6ff83c6ba311545051f316295",
+      "what_i_checked": "Election Day precinct line"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Tarrant/125924/368503/reports/detailxml.zip",
+      "content_hash": "d0bbbab992dc4c98e45636b070667e606164708d4713bf6ebdddffde6f13e8d0",
+      "what_i_checked": "Election Day precinct line"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373057/reports/detailxml.zip",
+      "content_hash": "7af0f38b0679f667cc50fb529fca60b2cea12a989145fcdf0b82533a9ed9183f",
+      "what_i_checked": "runoff last night update, protected"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373057/json/en/summary.json",
+      "content_hash": "d27dc53dadec3283e0f48cab3a098664239f0c3700299fc6f8d7dc64fa233444",
+      "what_i_checked": "county totals on runoff night"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Tarrant/126079/373430/reports/detailxml.zip",
+      "content_hash": "0b4776649e50d08aec939d12a6ec84266cb45f96b9594d432d9c94e9b887704d",
+      "what_i_checked": "first runoff precinct votes 6/2/2026"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/pr26/reports/cumulative_dem_PR26_05272026_12am.pdf",
+      "content_hash": "71068c81d27c04f3d74be5be7b0276332b52fa1f432bbf7fcb2e04f5f60650af",
+      "what_i_checked": "title, run time, Last-Modified"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/pr26/reports/precinct_dem.pdf",
+      "content_hash": "a6ac3727003ebb34cd6fc6c0e9278b9e1a35f137b265e5fbc7a59fc356038569",
+      "what_i_checked": "Official precinct report, Run Date 06/16/2026"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/pr26/reports/precinct_rep.pdf",
+      "content_hash": "ea467494b623f85c59c2567275750270d6a0a07c01a652e8a5dcb7c0b5cfed8c",
+      "what_i_checked": "Official precinct report, Run Date 06/16/2026"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T15:18:13Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LIVE, check 1, EID 122489 linked from the county's Nov 5 2024 page). Both: election-day precinct votes from 9:10:34 PM CST in 9 night updates.",
+    "2026_primary": "same (LIVE, check 1, EID 125924). Both: election-day precinct votes from 8:59:09 PM CST; I count 7 night updates with election-day precinct votes (8:59 PM to 2:57 AM), research says 8 of 9. The 7:44 PM update in my reading has Absentee and Early Voting precinct votes only (no 'Election' vote type nonzero), so research's '8 with election-day votes' looks off by one; does not change the result.",
+    "2026_runoff": "same (LATER, check 1). Both: night precinct values protected, summary.json county totals (Cornyn 38382, Paxton 57707), first precinct numbers 6/2/2026 1:31:21 PM CDT; official precinct PDFs Run Date 06/16/2026. Research county_totals_first_seen 21:57 CT not checked by me (first night Clarity update is 8:54 PM CDT).",
+    "unsupported_or_unchecked": "Research cites www.tarrantcounty.com URLs (the seed http URL returned 403 to me; I read the same pages on www.tarrantcountytx.gov). Research quote 'No Later Than 11:45 p.m. - Results Report' not checked. Research quotes cumulative_rep 12am 'Run Time 11:18 PM'; I read cumulative_dem 12am 'Run Time 11:19 PM' (different party file, consistent)."
+  },
+  "compared_at_utc": "2026-10-02T15:18:52Z"
+}

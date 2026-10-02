@@ -1,0 +1,72 @@
+{
+  "county": "Real",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.real.tx.us/page/real.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.real.tx.us",
+  "evidence_url": "https://www.co.real.tx.us/upload/page/0250/docs/2024/2024_november_05_election_results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL over http returns 403; https works. No Clarity site (elections.json 404). Results are scanned or Electionware PDFs on the county Elections page (page/real.Elections). The server returns distinct per-file Last-Modified values (the 2024 summary Nov 6 2024, the canvass Nov 15 2024), so upload times are usable, though a file replaced later would hide an earlier upload. 2024 unofficial summary PDF CreationDate Wed Nov 6 03:46:48 2024 UTC (9:46 PM CST Nov 5) but the server upload is Nov 6 12:25 PM CST. The canvass PDF is image-only (no text layer); page 2 was read visually and is the SOS canvass report with county totals. No 2026 primary or runoff results are posted on the page. Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "Only the 2024 general is determined (LATER by check 2: county-total unofficial summary, no precinct numbers ever posted); the 2026 elections are UNDETERMINED, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 12:25 CT (upload of report printed 2024-11-05 21:52)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.real.tx.us/upload/page/0250/docs/2024/2024_november_05_election_results.pdf",
+      "fact": "'November 5th, 2024 Election Results' PDF = Electionware 'Summary Results Report UNOFFICIAL RESULTS 2024 General Election ... REAL COUNTY', county totals by Absentee/Early/Election Day only, footer '2024 GENERAL ELECTION SUMMARY REPORT -11/05/2024 9:52 PM'; Last-Modified Wed, 06 Nov 2024 18:25:43 GMT (12:25 PM CST Nov 6). The only other results file is the 'Canvass report' (SOS Canvass Report, county totals, signed 11/13/24, Last-Modified Fri, 15 Nov 2024 13:48:38 GMT). No precinct-by-precinct numbers are posted."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The 2026 Primary Election Information section lists only the notice of election, record of posting, training notice, writ and sample ballots; no results files. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The 2026 Primary Runoff Election Information section lists only a post-election hand count audit certification, the notice and sample ballots; no results files. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.real.tx.us/page/real.Elections",
+      "via": "fetch_module",
+      "content_hash": "a65a9db06d3a097e8e061ec7fb6041253da3c3eea99134d052a4cf10c351346a",
+      "quote": "November 2024 General Election Information ... November 5th, 2024 Election Results - Click here to see them. Canvass report",
+      "supports": "Results postings per election on the county Elections page"
+    },
+    {
+      "url": "https://www.co.real.tx.us/upload/page/0250/docs/2024/2024_november_05_election_results.pdf",
+      "via": "fetch_module",
+      "content_hash": "9f3e66af72e0f01edea0c493d0201a7b70169dbfb50b425a437a5c926755bd57",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS 2024 General Election November 5, 2024 REAL COUNTY ... 2024 GENERAL ELECTION SUMMARY REPORT -11/05/2024 9:52 PM",
+      "supports": "2024 unofficial results are county totals only, uploaded Nov 6"
+    },
+    {
+      "url": "https://www.co.real.tx.us/upload/page/0250/docs/2024/2024_november_election_canvass_report.pdf",
+      "via": "fetch_module",
+      "content_hash": "85f8ad9d9e4e9ffbd53f5290508886d5a5a14ec136ba3a90231a192555e5c5ef",
+      "quote": "Texas Secretary of State Canvass Report 2024 NOVEMBER 5TH GENERAL ELECTION ... REAL Total # of Voters Voted: 1969 (scanned image, read visually from page 2)",
+      "supports": "Canvass posted Nov 15 is county totals, no precincts"
+    }
+  ]
+}

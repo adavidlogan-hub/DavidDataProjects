@@ -1,0 +1,79 @@
+{
+  "county": "Upshur",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.countyofupshur.com/page/elections",
+  "platform": "county_pdfs",
+  "host": "www.countyofupshur.com",
+  "evidence_url": "https://www.countyofupshur.com/page/open/1413/0/May%2026%202026%20Republican%20Primary%20Runoff%20Unofficial.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The Elections page posts PDFs. 2026 runoff: only 'May 26 2026 Republican Primary Runoff Unofficial.pdf' and 'May 26 2026 Democratic Primary Runoff Unofficial.pdf' are posted; the Republican one is a 1-page 'Republican Party Cumulative ... Unofficial Results' report, 'Run Time 8:23 PM' 'Run Date 05/26/2026', 'Precincts Reporting 19 of 19', CreationDate 2026-05-27 01:26 UTC (8:26 PM CDT), with county totals by Absentee, Early and Election Day voting and no precinct breakdown; no runoff precinct report is posted. The /page/open/ file server sends no Last-Modified header, so there is no upload time. 2026 primary: only 'Cumulative Official' reports (Run Date 03/11/2026) remain; election-night files are gone. 2024 general: 'November 5 2024 Cumulative Official' and 'November 5 2024 Precinct Report' (Official Results, Run Date 11/22/2024). Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER: election-night report is county totals only and no precinct report was ever posted), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Page lists 'November 5 2024 Cumulative Official.pdf' and 'November 5 2024 Precinct Report.pdf' ('Official Results', 'Run Date 11/22/2024'). No election-night report remains. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Page lists 'March 3 2026 Republican Party Cumulative Official.pdf' ('Official Results', 'Run Date 03/11/2026') and the Democratic equivalent; no precinct report and no election-night report remain. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:23 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.countyofupshur.com/page/open/1413/0/May%2026%202026%20Republican%20Primary%20Runoff%20Unofficial.pdf",
+      "fact": "'Republican Party Cumulative ... Unofficial Results ... Precincts Reporting 19 of 19 = 100.00% Run Time 8:23 PM Run Date 05/26/2026': county totals with Election Day Voting column, no precinct rows; no runoff precinct report is posted on the page (precinct numbers never published online). No Last-Modified header."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.countyofupshur.com/page/elections",
+      "via": "fetch_module",
+      "content_hash": "45b47880a58744480878bdf65115b2b62c86bb529afa647b597760df16a991cd",
+      "quote": "May 26 2026 Republican Primary Runoff Unofficial.pdf ; May 26 2026 Democratic Primary Runoff Unofficial.pdf ; March 3 2026 Republican Party Cumulative Official.pdf ; November 5 2024 Precinct Report.pdf",
+      "supports": "report list"
+    },
+    {
+      "url": "https://www.countyofupshur.com/page/open/1413/0/May%2026%202026%20Republican%20Primary%20Runoff%20Unofficial.pdf",
+      "via": "fetch_module",
+      "content_hash": "ea36c0679014af0e795ee997e00aaa6b7ea87eb184439efea1d2d24a42c7cf1f",
+      "quote": "Republican Party Cumulative Upshur County Unofficial Results ... Precincts Reporting 19 of 19 = 100.00% Run Time 8:23 PM Run Date 05/26/2026",
+      "supports": "2026_runoff LATER (county totals only on election night)"
+    },
+    {
+      "url": "https://www.countyofupshur.com/page/open/1355/0/November%205%202024%20Precinct%20Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "b8d27d8582bcb830948a30a58d73a6440a234a55a6d28863af8484e3ac80a2dd",
+      "quote": "Precinct Report Official Results ... Run Date 11/22/2024",
+      "supports": "2024 precinct report is canvass-time"
+    },
+    {
+      "url": "https://www.countyofupshur.com/page/open/1413/0/March%203%202026%20Republican%20Party%20Cumulative%20Official.pdf",
+      "via": "fetch_module",
+      "content_hash": "576bee0ac6b39bfdf1175741763d7f3ada9c9eed8408bf78d9458bec358d5837",
+      "quote": "Republican Party Cumulative ... Official Results ... Run Date 03/11/2026",
+      "supports": "2026 primary only official cumulative remains"
+    }
+  ]
+}

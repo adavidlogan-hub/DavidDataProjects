@@ -1,0 +1,72 @@
+{
+  "county": "Trinity",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.trinity.tx.us/page/trinity.Elections2",
+  "platform": "county_pdfs",
+  "host": "www.co.trinity.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL over http returned HTTP 403; https works. No Clarity site (elections.json 404). The Elections Administrator page lists, for the May 26, 2026 runoff only, 'Post Election Hand-Count Audit' (scanned PDF, Last-Modified Wed, 24 Jun 2026 18:44:21 GMT) and 'May 26, 2026 Democratic and Republican RunOff Canvass Report' (.xls, Republican file Last-Modified Wed, 24 Jun 2026 14:12:49 GMT). The 'Archived Election Results' page lists only 2016, 2018 and March 2022 canvass files. No 2024 general or 2026 primary results are posted now, and no election-night report remains for any target election, so check 2 cannot decide what was posted on election night. Check 3 pending (origin/wayback-data branch not found).",
+  "tag_rationale": "No election could be determined by checks 1 and 2 (only post-election canvass files remain; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results listed on the Elections Administrator page or the Archived Election Results page. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 primary results listed on the Elections Administrator page or the Archived Election Results page. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Page lists 'May 26, 2026 Democratic and Republican RunOff Canvass Report Demo Rep' (.xls, Last-Modified 24 Jun 2026) and a Post Election Hand-Count Audit; no election-night report listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.trinity.tx.us/page/trinity.Elections2",
+      "via": "fetch_module",
+      "content_hash": "462575830ad34eba76d08c044523ff55346ecc20662ff1b66fda69ad38720430",
+      "quote": "May 26, 2026 Democratic and Republican RunOff Canvass Report Demo Rep",
+      "supports": "only canvass files posted"
+    },
+    {
+      "url": "https://www.co.trinity.tx.us/page/trinity.archived.elections",
+      "via": "fetch_module",
+      "content_hash": "95c7da6efacba545cdf37b6e84198c2b4ca7a98f155b7e3d995c91e954ede804",
+      "quote": "Canvass Tally November 2016 Canvass Tally November 2018 March 1, 2022 Republican Primary March 1, 2022 Democrat Primary",
+      "supports": "no 2024 or 2026 archive entries"
+    },
+    {
+      "url": "https://www.co.trinity.tx.us/upload/page/3818/May%2026%202026%20Republican%20Canvass.xls",
+      "via": "fetch_module",
+      "content_hash": "199dbdb9ffb8bd27c80530f75e993746ccec0c86a932b34d25e2936fd0b6773a",
+      "quote": "Last-Modified: Wed, 24 Jun 2026 14:12:49 GMT",
+      "supports": "runoff canvass upload time"
+    }
+  ]
+}

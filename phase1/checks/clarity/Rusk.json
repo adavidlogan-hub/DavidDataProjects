@@ -1,0 +1,271 @@
+{
+  "county": "Rusk",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122760",
+          "name": "2024 GENERAL ELECTION",
+          "updates": [
+            {
+              "version": "347386",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/347386/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347387",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/347387/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347389",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/347389/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347392",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/347392/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347394",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/347394/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347396",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/347396/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347397",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/347397/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/17/2024 12:12:32 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "347398",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/347398/reports/detailxml.zip",
+              "content_hash": "de0a3dba52dd85ca5bb838ca1e49659c23a604bdb392a510eb4c73656ad919d1",
+              "election_night": false
+            },
+            {
+              "version": "351237",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/351237/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "351282",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/351282/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 8:14:07 PM CST",
+              "precincts_with_votes": 22,
+              "nonzero_precinct_vote_cells": 939,
+              "version": "351335",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/351335/reports/detailxml.zip",
+              "content_hash": "5d573742b773538f45ec2b6f9565a0421a5833ac0e9fc7a61760e1cc7cb1f870",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:31:52 PM CST",
+              "precincts_with_votes": 22,
+              "nonzero_precinct_vote_cells": 1824,
+              "version": "351536",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/351536/reports/detailxml.zip",
+              "content_hash": "3a9eaa496f0af00465e5b2bd3207b8dbc69d23b7fe9cba34708990fc09a490c6",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:28:41 PM CST",
+              "precincts_with_votes": 22,
+              "nonzero_precinct_vote_cells": 2606,
+              "version": "352092",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/352092/reports/detailxml.zip",
+              "content_hash": "64b1c85f298c994fab1cb89790312d1f7d7ee51625dd199946c01fd8f8d2e4f3",
+              "election_night": true
+            },
+            {
+              "version": "355916",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/355916/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "355917",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/355917/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "12/12/2024 1:24:53 PM CST",
+              "precincts_with_votes": 22,
+              "nonzero_precinct_vote_cells": 2607,
+              "version": "355999",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/355999/reports/detailxml.zip",
+              "content_hash": "dd385c6b6478bec8e4328a753fcf7664f70a457102ea9f304e12f8d9bc41b818",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 3,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 8:14:07 PM CST",
+            "version": "351335",
+            "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/351335/reports/detailxml.zip"
+          },
+          "unreadable_versions": 11
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126016",
+          "name": "2026 PRIMARY",
+          "updates": [
+            {
+              "version": "368185",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368185/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368186",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368186/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368187",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368187/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368189",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368189/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368190",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368190/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368191",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368191/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/24/2026 11:26:07 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368192",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368192/reports/detailxml.zip",
+              "content_hash": "5de669efb011e1382d55ab5c8ad2447826ac9559c626ab2d4f01a706141dd5ca",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 5:36:10 PM CST",
+              "precincts_with_votes": 22,
+              "nonzero_precinct_vote_cells": 5531,
+              "version": "368370",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368370/reports/detailxml.zip",
+              "content_hash": "ba0841956b8971f444f027e749fa0543fac0b4e7ff8cf2f9deb9136970b57f07",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 8:42:45 PM CST",
+              "precincts_with_votes": 22,
+              "nonzero_precinct_vote_cells": 8791,
+              "version": "368444",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368444/reports/detailxml.zip",
+              "content_hash": "6ba63a5ad36dd7b9d825f5efc901cf55d24f2763ae6237c2247ecfd2ba883729",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:04:28 PM CST",
+              "precincts_with_votes": 22,
+              "nonzero_precinct_vote_cells": 8811,
+              "version": "368510",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368510/reports/detailxml.zip",
+              "content_hash": "28858600941a98eeb2ea2c4caef2dbc98b0871b165e440266998eb0bebf7502d",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 2,
+          "election_night_updates_with_precinct_votes": 2,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 5:36:10 PM CST",
+            "version": "368370",
+            "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368370/reports/detailxml.zip"
+          },
+          "unreadable_versions": 6
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126475",
+          "name": "2026 Primary Runoff",
+          "updates": [
+            {
+              "version": "372446",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126475/372446/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372449",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126475/372449/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372450",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126475/372450/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/21/2026 9:12:45 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372451",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126475/372451/reports/detailxml.zip",
+              "content_hash": "5be341543caa0511828c5eb12e9909bcb88fafb49da5e8313e685592e35df1e3",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 2:59:34 PM CDT",
+              "precincts_with_votes": 22,
+              "nonzero_precinct_vote_cells": 529,
+              "version": "372820",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126475/372820/reports/detailxml.zip",
+              "content_hash": "ca305fb7a0b58a1f39fa5b96c3c27ff940e14cbaa75aa9ce741d1dfa59aba998",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 8:19:46 PM CDT",
+              "precincts_with_votes": 22,
+              "nonzero_precinct_vote_cells": 804,
+              "version": "372965",
+              "url": "https://results.enr.clarityelections.com/TX/Rusk/126475/372965/reports/detailxml.zip",
+              "content_hash": "09c0772fbd62d082d58e83aebd711e08dac4657e14102ad29ec3f07fab34e3f4",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 1,
+          "election_night_updates_with_precinct_votes": 1,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 2:59:34 PM CDT",
+            "version": "372820",
+            "url": "https://results.enr.clarityelections.com/TX/Rusk/126475/372820/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "county": "Bexar",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Before 2025 Bexar posted Electionware HTML, not Clarity (media release of April 25, 2025 announces a \"New Election Night Reporting System\"). home.bexar.org/el45a.html (linked as \"Election Results\" from home.bexar.org) is \"Summary Results Report ... November 5, 2024 UNOFFICIAL RESULTS Vote Center 302 of 302 Bexar County\", printed \"Election Summary - 11/06/2024 1:10 AM\", Last-Modified Wed 06 Nov 2024 07:11:00 GMT (1:11 AM CST): county totals only. The only precinct report listed for this election on elections.bexar.gov/35/Historical is \"November 5, 2024 Official Precinct Report\" (PDF printed \"Precinct Summary - 11/19/2024 11:18 AM\", OFFICIAL RESULTS; CSV also). No election-night precinct report is listed. Precinct numbers came at canvass. DocumentCenter files carry no Last-Modified header."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Results were on Clarity from 2025, but Bexar's Clarity elections.json is empty and the county site now links only EID 127291 (the November 3, 2026 election). No link to the March 3, 2026 EID was found on elections.bexar.gov, www.bexar.org or home.bexar.org (election, historical, media and news pages checked; two logged web searches). County-posted reports for this election are official or reconciliation totals only (March 3, 2026 Primary Results PDF printed 04/06/2026 7:43 AM OFFICIAL; Preliminary Reconciliation is a scan, CreationDate 4 Mar 2026 07:44 UTC). Check 3 pending (wayback-data branch not present)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Same as primary: no county-site link to the runoff Clarity EID found. Posted reports: Joint Primary Runoff Official Results PDF printed 06/02/2026 1:28 PM; Precinct Official Results Report printed \"Precinct Summary - 06/02/2026 1:39 PM\"; Preliminary Reconciliation scan CreationDate 27 May 2026 05:50 UTC (totals). Check 3 pending."
+    }
+  },
+  "rationale": "Only 2024_general is determined (LATER, check 2), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence. The two 2026 elections, on the new Clarity system, could not be checked because no county-site link to their EIDs was found and check 3 data is not yet available.",
+  "sources": [
+    {
+      "url": "https://home.bexar.org/el45a.html",
+      "content_hash": "f995cf0a165e5e90a7bc65104df1b382579dc92bebf8dff86fa8339579e8cfd3",
+      "what_i_checked": "2024 election night summary report: title, printed time 11/06/2024 1:10 AM, Last-Modified 07:11 GMT"
+    },
+    {
+      "url": "https://elections.bexar.gov/35/Historical",
+      "content_hash": "50fa10a083a3120d2662316d1a30c60b49671ae8e142552af4d8a4becbb25141",
+      "what_i_checked": "report list per election; only official precinct reports, no Clarity links"
+    },
+    {
+      "url": "https://elections.bexar.gov/DocumentCenter/View/1231/November-5-2024-Official-Precinct-Report-PDF",
+      "content_hash": "9fef1ce4a02e0eed78e31a1d1ce81bf916bcbbd52108d22383851c42e6a704e8",
+      "what_i_checked": "printed Precinct Summary - 11/19/2024 11:18 AM, OFFICIAL RESULTS"
+    },
+    {
+      "url": "https://elections.bexar.gov/DocumentCenter/View/1196/March-3-2026-Primary-Results-PDF",
+      "content_hash": "e0e1eecdf1d66e9d7e5ff6f7f1189d76bc154f539929c0670e792be449ef7027",
+      "what_i_checked": "OFFICIAL RESULTS, Election Summary - 04/06/2026 7:43 AM"
+    },
+    {
+      "url": "https://elections.bexar.gov/DocumentCenter/View/1214/May-26-2026-Joint-Primary-Runoff-Election-Precinct-Official-Results-Report-PDF",
+      "content_hash": "74d28cc26881667122dacfc0d18a7e700709033e25bd005c33c619f0439a595b",
+      "what_i_checked": "Precinct Summary - 06/02/2026 1:39 PM, OFFICIAL"
+    },
+    {
+      "url": "https://elections.bexar.gov/DocumentCenter/View/1677/Elections-Dept-Media-Release---New-Election-Night-Reporting-PDF",
+      "content_hash": "a08522e7a239c37fb0a9d0efe31b17d97a5e7c37f4cfeb6a6f48951e64bf43be",
+      "what_i_checked": "April 25, 2025 release: new election night reporting system with downloadable reports (does not mention precinct results specifically)"
+    },
+    {
+      "url": "https://elections.bexar.gov/",
+      "content_hash": "da8fd1c6a6b7c15e292a2e1da9429d21aa9cd7b09b4cc884dafd0294f39548fb",
+      "what_i_checked": "Election Night Returns link points only to Clarity EID 127291"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Bexar/elections.json",
+      "content_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "what_i_checked": "empty list"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/en/electionsettings.json",
+      "content_hash": "711c03f1571f51b3cb24b3fc9ee77e0ffab806a9d80b9ffe318a523a732e5667",
+      "what_i_checked": "EID 127291 is a future election with no precincts reporting, not a target election"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T15:18:13Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": false,
+  "comparison_notes": {
+    "2024_general": "same result (LATER, check 2). Both read home.bexar.org/el45a.html: Summary Results Report, UNOFFICIAL, Election Summary - 11/06/2024 1:10 AM, Last-Modified 07:11 GMT. Research says the Official Precinct Report PDF returned 404; I fetched it from elections.bexar.gov/DocumentCenter/View/1231 (HTTP 200) and it prints 'Precinct Summary - 11/19/2024 11:18 AM', OFFICIAL RESULTS, which supports LATER.",
+    "2026_primary": "different: research LIVE (check 1, EID 125927), verifier UNDETERMINED. I found no link to a March 2026 Clarity EID on the county's own sites (elections.bexar.gov, www.bexar.org, home.bexar.org); the county links only EID 127291 (Nov 2026). Research took EIDs 125927 and 126369 from Wikipedia and San Antonio Report pages, not from a county page; the brief and pilot note require EIDs from links on the county's own results or election pages. Per my instructions I did not test the research EIDs, so I cannot confirm or refute the LIVE reading.",
+    "2026_runoff": "different: research LIVE (check 1, EID 126369 from Wikipedia), verifier UNDETERMINED for the same reason as the primary.",
+    "unsupported_or_unchecked": "EIDs sourced from third-party pages (Wikipedia, San Antonio Report), not from the county site, so research's check 1 for 2026 rests on an out-of-method source. Research claim that the 2024 Official Precinct Report PDF returned 404 is not reproduced (it loads from elections.bexar.gov). Research lists https://www.bexar.org/elections/index.html as fetched; the seed http URL returned 403 to me, the same 'Election Night Returns' link (EID 127291) is on https://www.bexar.org/elections. stated_change_2026 'n' in research: the county's April 25, 2025 media release announces a new election night reporting system but does not mention precinct reporting, so 'n' is defensible."
+  },
+  "compared_at_utc": "2026-10-02T15:18:52Z"
+}

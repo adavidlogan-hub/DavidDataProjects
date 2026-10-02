@@ -1,0 +1,79 @@
+{
+  "county": "Angelina",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://election.angelinacounty.net/",
+  "platform": "homegrown",
+  "host": "election.angelinacounty.net",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL is the tax office page; the Elections page is https://www.angelinacounty.net/elections/. Its 'Election Results' section links only 2024 primary runoff and constable files and a 'Partial Manual Count 11.05.24'; nothing for the 2024 general, 2026 primary or 2026 runoff. One web search found 'Angelina County Election Results' at election.angelinacounty.net, a county-built live results app ('Live election results for Angelina County, Texas'). Its public API api/results.php returns only the active election (id 6, 'November 3 2026 General', all zero votes); the data model has per-candidate county 'votes' plus 'precincts_counted'/'precincts_total' and no per-precinct vote fields, which suggests county totals only, but which past elections it carried is not shown, so it cannot decide any target election (earlier election IDs were not probed). No Clarity site (elections.json 404). Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "All three elections are UNDETERMINED (no surviving election-night files and no update history for the live app), so by rule the tag is UNKNOWN.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County Elections page lists no 2024 general results (only 'View Partial Manual Count' for 11.05.24). Live app shows only the Nov 3 2026 election. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 primary results on the county Elections page; the live app API returns only the active Nov 3 2026 election. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 runoff results on the county Elections page; the live app API returns only the active Nov 3 2026 election. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.angelinacounty.net/elections/",
+      "via": "fetch_module",
+      "quote": "Election Results View Angelina County Joint Primary Results View Angelina County Election Results for Constable Precinct 1 & 4 View Partial Manual Count",
+      "supports": "County results links stop at 2024 primary runoff",
+      "content_hash": "107de7ee46cb6ea7424793f6a325f032511a34a6b94e874b4ee4e27118511091"
+    },
+    {
+      "url": "https://election.angelinacounty.net/",
+      "via": "fetch_module",
+      "quote": "<title>Angelina County Election Results</title> <meta name=\"description\" content=\"Live election results for Angelina County, Texas\">",
+      "supports": "County live results app",
+      "content_hash": "5a8eaf83b84326834ce8d95649589b9d49d0824e114557c93bc9ff81c7cf5978"
+    },
+    {
+      "url": "https://election.angelinacounty.net/api/results.php",
+      "via": "fetch_module",
+      "quote": "{\"id\":6,\"name\":\"November 3 2026  General\",\"type\":\"general\",\"election_date\":\"2026-11-03\",\"is_active\":1,\"precincts_counted\":0,\"precincts_total\":0,\"is_live\":0",
+      "supports": "App API exposes only the active election, with county-level candidate votes",
+      "content_hash": "fb07e3eea3944c143dca361cc14b37fac7d1f0b950999a590bfc9a543d7dd086"
+    },
+    {
+      "url": "https://election.angelinacounty.net/",
+      "via": "websearch",
+      "content_hash": "2fdc272589560fc1913e5a220384815749abd119f264c00ee3cb5a0fa9d192e9",
+      "quote": "Angelina County Election Results https://election.angelinacounty.net/",
+      "supports": "Located the live results app (search text is not evidence)"
+    }
+  ]
+}
