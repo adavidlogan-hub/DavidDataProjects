@@ -1,0 +1,66 @@
+{
+  "county": "Scurry",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Election Information and Previous Elections pages list no November 2024 results. No Clarity. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Summary Report with Group Details' (Unofficial Sumamry Report 332026.pdf, scan): footer 'Election Summary - 03/03/2026 8:06 PM' (election night), county totals. The unofficial precinct files ('Pcts 5 6 7 Unofficial Pct Report.pdf' etc.) are footer 'Precinct Summary - 08/24/2026 12:01 PM'. All these files were scanned and uploaded Aug 24 2026 (Last-Modified Mon, 24 Aug 2026 22:53-23:00 GMT), so the site's election-night state is not visible; the only election-night print is a county-totals report. Weak LATER."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'Unofficial Summary Results Report 5262026.pdf' footer 'Election Summary - 06/02/2026 2:08 PM' ('Election Day Precincts Reporting 11 of 11') and '2Unofficial Summary Results by PCT 5262026.pdf' footer 'Precinct Summary - 06/02/2026 2:10 PM', scanned Jun 11 2026. No election-night printed or upload time. Check 3 pending."
+    }
+  },
+  "rationale": "Only the primary is determined (LATER: county-total summary printed 8:06 PM election night, precinct reports printed Aug 24), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low; all files were re-uploaded in August 2026.",
+  "sources": [
+    {
+      "url": "https://www.co.scurry.tx.us/page/elections.information",
+      "what_i_checked": "2026 results file list",
+      "content_hash": "118e0df8357f1d73b48957d6c8cc02a7822fe97ce56c31b11b0cffde701ad225"
+    },
+    {
+      "url": "https://www.co.scurry.tx.us/page/elections.previous.elections",
+      "what_i_checked": "older results; no November 2024",
+      "content_hash": "31a964e0685351d38f060871652e7666f6194ac25a81465e54623a562cfe50b3"
+    },
+    {
+      "url": "https://www.co.scurry.tx.us/upload/page/0163/Unofficial Sumamry Report 332026.pdf",
+      "what_i_checked": "primary summary printed 03/03/2026 8:06 PM, uploaded Aug 24",
+      "content_hash": "f7944d1bb31436a386368725f03034b470acab290e84f612a989060b808598a2"
+    },
+    {
+      "url": "https://www.co.scurry.tx.us/upload/page/0163/Pcts 5 6 7 Unofficial Pct Report.pdf",
+      "what_i_checked": "primary unofficial precinct report printed 08/24/2026",
+      "content_hash": "baeca3f5323f40b1e995712c884a071fc29900e059afb17ec841ae21c1b35492"
+    },
+    {
+      "url": "https://www.co.scurry.tx.us/upload/page/0163/Unofficial Summary Results Report 5262026.pdf",
+      "what_i_checked": "runoff summary printed 06/02/2026",
+      "content_hash": "d16640745c8d4d2190df165a92ddafcb2b7e2ac9d53e651dbed9abe75a2505be"
+    },
+    {
+      "url": "https://www.co.scurry.tx.us/upload/page/0163/2Unofficial Summary Results by PCT 5262026.pdf",
+      "what_i_checked": "runoff precinct report printed 06/02/2026",
+      "content_hash": "ab7b671c90060f4ae8448979b0e3ae2b5395fa37af9c0da70493cf76bd8e4e06"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:31:26Z",
+  "research_tag": "UNKNOWN",
+  "agree": false,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "different: research UNDETERMINED saying 'No 2026 primary results on the county election pages'. Not supported: page/elections.information links 'Unofficial Sumamry Report 332026.pdf' (footer 'Election Summary - 03/03/2026 8:06 PM'), 'Official Primary 332026 Summary/Precinct' reports, and 'Pcts 5 6 7 / 8 9 10 / 11 12 13 / 14 15 Unofficial Pct Report.pdf' (footer 'Precinct Summary - 08/24/2026 12:01 PM'). I recorded a weak LATER from the election-night county-total print; all files were uploaded Aug 24 2026, so the site's election-night state is not visible and UNDETERMINED is also defensible.",
+    "2026_runoff": "same (UNDETERMINED). Both: runoff reports printed 06/02/2026, scanned Jun 11.",
+    "unsupported_or_unchecked": "Research claim that no 2026 primary results are posted is contradicted by the Election Information page. Tags differ (research UNKNOWN, verifier COUNTY_ONLY_PRECINCT_AT_CANVASS low, resting on one weak LATER)."
+  },
+  "compared_at_utc": "2026-10-02T16:31:35Z"
+}
