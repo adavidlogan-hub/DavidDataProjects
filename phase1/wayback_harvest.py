@@ -44,14 +44,22 @@ def cdx_url(prefix: str, frm: str, to: str, match_type: str, original_regex: str
             f"&filter=statuscode:200{filters}&collapse=digest&limit=5000")
 
 
-def harvest_county(client: FetchClient, target: dict, cap: int) -> dict:
+EXTENDED_WINDOWS = {  # 7 PM election day to 9 AM next day, Central, as UTC
+    "2024_general": ("20241106010000", "20241106150000", -6),
+    "2026_primary": ("20260304010000", "20260304150000", -6),
+    "2026_runoff": ("20260527000000", "20260527140000", -5),
+}
+
+
+def harvest_county(client: FetchClient, target: dict, cap: int, snap_dir: Path = SNAP_DIR,
+                   windows: dict = WINDOWS) -> dict:
     county = target["county"]
-    out_dir = SNAP_DIR / county.replace(" ", "_")
+    out_dir = snap_dir / county.replace(" ", "_")
     out_dir.mkdir(parents=True, exist_ok=True)
     index = {"county": county, "targets": target["url_prefixes"], "harvested_at_utc":
              time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "windows": {}}
     fetched = 0
-    for wname, (frm, to, off) in WINDOWS.items():
+    for wname, (frm, to, off) in windows.items():
         win_fetched = 0
         win = {"cdx": [], "captures": []}
         seen_digest = set()
@@ -101,8 +109,14 @@ def main(argv=None) -> int:
     ap.add_argument("--only", default="")
     ap.add_argument("--cap", type=int, default=60, help="max replays per county per window")
     ap.add_argument("--batch", default="", help="i/n: harvest every n-th target starting at i (0-based)")
+    ap.add_argument("--targets-file", default=str(TARGETS))
+    ap.add_argument("--snap-dir", default=str(SNAP_DIR))
+    ap.add_argument("--extended", action="store_true", help="7 PM to 9 AM windows instead of 7 PM to 3 AM")
     a = ap.parse_args(argv)
-    targets = json.loads(TARGETS.read_text())
+    targets = json.loads(Path(a.targets_file).read_text())
+    if isinstance(targets, dict):  # targeted format: {county: {"wayback_prefixes": [...]}}
+        targets = [{"county": c, "url_prefixes": v["wayback_prefixes"], "match_type": "prefix"}
+                   for c, v in targets.items()]
     if a.batch:
         i, n = (int(x) for x in a.batch.split("/"))
         assert 0 <= i < n, f"bad --batch {a.batch}"
@@ -114,7 +128,8 @@ def main(argv=None) -> int:
         if only and t["county"] not in only:
             continue
         assert t["url_prefixes"], f"{t['county']}: no url_prefixes"
-        print(json.dumps({"county": t["county"], **harvest_county(client, t, a.cap)}), flush=True)
+        print(json.dumps({"county": t["county"], **harvest_county(
+            client, t, a.cap, Path(a.snap_dir), EXTENDED_WINDOWS if a.extended else WINDOWS)}), flush=True)
     with client.store.connect() as con:
         blocked = con.execute("SELECT COUNT(*) FROM fetches WHERE host_class = 'archive' AND fetched_at >= ? "
                               "AND error = 'robots_disallowed_or_unreachable'", (t0,)).fetchone()[0]

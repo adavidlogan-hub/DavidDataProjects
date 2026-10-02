@@ -64,7 +64,7 @@ def validate_v2(rec: dict, path: str = "") -> None:
     for e in ELECTIONS:
         x = el[e]
         assert x.get("result") in ELECTION_RESULTS, f"{where}: {e} result {x.get('result')!r}"
-        assert x.get("check") in ("1", "2", "3", "none"), f"{where}: {e} check {x.get('check')!r}"
+        assert x.get("check") in ("1", "2", "3", "4", "none"), f"{where}: {e} check {x.get('check')!r}"
         if x["result"] != "UNDETERMINED":
             assert x["check"] != "none" and x.get("evidence_url") and x.get("fact"), \
                 f"{where}: {e} is determined, so it needs check, evidence_url, and fact"
@@ -93,7 +93,7 @@ def compute_confidence(rec: dict) -> str:
                 if rec["elections"][e]["result"] != "UNDETERMINED"
                 and RESULT_TO_TAG.get(rec["elections"][e]["result"]) == tag]
     assert len(deciding) >= 2, f"{rec['county']}: rule gave {tag} without two deciding elections"
-    if any(e.get("rule") == "live_precinct_view" for e in deciding):
+    if any(e.get("rule") in ("live_precinct_view", "check4") or e["check"] == "4" for e in deciding):
         return "med"
     if all(e["check"] in ("1", "3") for e in deciding):
         return "high"

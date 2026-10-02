@@ -37,3 +37,9 @@ def test_compute_confidence():
     assert compute_confidence(rec({"result": "END", "check": "2"}, U, U)) == "low"
     assert compute_confidence(rec(U, U, U)) == "low"
     assert compute_confidence(rec({"result": "LIVE", "check": "1"}, {"result": "LATER", "check": "2"}, U)) == "low"
+
+
+def test_check4_caps_confidence_at_med():
+    from phase1.schema import compute_confidence
+    U = {"result": "UNDETERMINED", "check": "none"}
+    assert compute_confidence(rec({"result": "LIVE", "check": "4"}, {"result": "LIVE", "check": "1"}, U)) == "med"

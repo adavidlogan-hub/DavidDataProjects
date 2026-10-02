@@ -1,0 +1,18 @@
+{
+ "Collin": {"urls": ["https://www.collincountytx.gov/elections/election-results", "https://www.collincountytx.gov/elections/election-results-archive", "https://www.collincountytx.gov/Elections/Pages/default.aspx", "https://www.collincountytx.gov/elections/election_results/Pages/default.aspx"],
+            "wayback_prefixes": ["collincountytx.gov/elections", "collincountytx.gov/Elections"]},
+ "Montgomery": {"urls": ["https://elections.mctx.org/ElectionResults.asp", "https://elections.mctx.org/", "https://www.mctx.org/departments/departments_d_-_f/elections/index.php"],
+                "wayback_prefixes": ["elections.mctx.org"]},
+ "Williamson": {"urls": ["https://www.wilcotx.gov/292/Results-Archive", "https://www.livevoterturnout.com/ENR/williamsontxenr/3/en/Index_3.html", "https://www.livevoterturnout.com/ENR/williamsontxenr/11/en/Index_11.html", "https://www.livevoterturnout.com/ENR/williamsontxenr/14/en/Index_14.html", "https://www.wilco.org/Departments/Elections"],
+                "wayback_prefixes": ["livevoterturnout.com/ENR/williamsontxenr", "wilcotx.gov/292", "wilco.org/Departments/Elections"]},
+ "Brazoria": {"urls": ["https://www.brazoriacountyclerktx.gov/departments/elections/election-results", "https://www.brazoriacountytx.gov/departments/elections"],
+              "wayback_prefixes": ["brazoriacountyclerktx.gov/departments/elections", "brazoriacountytx.gov/departments/elections"]},
+ "Nueces": {"urls": ["https://www.nuecescountytx.gov/", "https://www.nuecesco.com/", "https://www.co.nueces.tx.us/elections/"],
+            "wayback_prefixes": ["nuecescountytx.gov", "nuecesco.com", "co.nueces.tx.us/elections"]},
+ "Lubbock": {"urls": ["https://votelubbock.gov/", "https://www.votelubbock.org/elections-office/", "https://votelubbock.gov/election-information/historical-election-results/"],
+             "wayback_prefixes": ["votelubbock.gov", "votelubbock.org"]},
+ "Hays": {"urls": ["https://www.hayscountytx.gov/257/Election-Results-Archive", "https://www.hayscountytx.gov/172/Elections", "https://www.livevoterturnout.com/HaysTX/LiveResults/en/Index_5.html"],
+          "wayback_prefixes": ["livevoterturnout.com/HaysTX", "hayscountytx.gov/172", "hayscountytx.gov/257"]},
+ "Smith": {"urls": ["https://www.smith-county.com/236/Current-Election-Results", "https://www.smith-county.com/213/Elections"],
+           "wayback_prefixes": ["smith-county.com/236", "smith-county.com/DocumentCenter"]}
+}
