@@ -1,0 +1,61 @@
+{
+  "county": "Hutchinson",
+  "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "2",
+      "fact": "2024 General section: 'Precint By Precinct Unofficial Results' (scan read as image): 'Summary Results Report TX Hutchinson County November 5, 2024 ... 2024 GENERAL UNOFFICIAL RESULTS ... Precinct 11', President Trump/Vance Election Day 237, footer 'Precinct Summary - 11/05/2024 9:55 PM'; scan CreationDate Nov 6 04:01 UTC (10:01 PM CST). One unofficial precinct file. Last-Modified is Wed, 12 Aug 2026 (site media re-save), so no election-night upload time."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "fact": "'Unofficial Results Precinct by Precinct Republican': 'Summary Results Report ELECTION DAY UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Hutchinson County Precinct 11', Ken Paxton 150 (Absentee 3, Early 91, Election Day 56); footer 'PRECINCT BY PRECINCT REPULICAN - 03/03/2026 10:08 PM'; PDF CreationDate Mar 4 04:11 UTC (10:11 PM CST). Unofficial summary printed 10:13 PM, 'Election Day Precincts Reporting 8 of 8'. One unofficial precinct file per party. Last-Modified Mon, 10 Aug 2026 (no election-night upload time)."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "fact": "'Precinct by Precinct Results Republican' (scan read as image): 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL REPUBLICAN RESULTS ... Precinct 11', REP US Senator Ken Paxton Election Day 50, John Cornyn 32; footer 'UNOFFICIAL REPUBLICAN RESULTS - 05/26/2026 9:31 PM'; scan CreationDate May 27 02:47 UTC (9:47 PM CDT). One unofficial precinct file per party. Last-Modified Mon, 10 Aug 2026."
+    }
+  },
+  "rationale": "All three elections END by check 2 (one unofficial precinct-by-precinct report with election-day votes, printed and scanned on election night), so PRECINCT_END_OF_NIGHT. Low because the server's Last-Modified dates are August 2026 re-saves, so there is no election-night upload time.",
+  "sources": [
+    {
+      "url": "https://www.co.hutchinson.tx.us/county-information/election-information/election-information-and-results/",
+      "what_i_checked": "per-election result sections",
+      "content_hash": "bbc6d2a9000b3270aade00464356735bd635c98f2d905851fbc2c28d6e4d1f5f"
+    },
+    {
+      "url": "https://www.co.hutchinson.tx.us/media/q2zdxmw0/2024-general-precint-by-precinct-unofficial-results.pdf",
+      "what_i_checked": "2024 unofficial precinct report printed 9:55 PM",
+      "content_hash": "2b0536772704d26b0a996b9e4737b868df43ebedd73da4e35fbbff64a50d0205"
+    },
+    {
+      "url": "https://www.co.hutchinson.tx.us/media/uk0je5o1/precinct-by-precinct-republican.pdf",
+      "what_i_checked": "primary unofficial precinct report printed 10:08 PM with Election Day column",
+      "content_hash": "4c698052d8bfc53968e195c0d59cef4f10d369a1b520c4dec20f6e61755f3992"
+    },
+    {
+      "url": "https://www.co.hutchinson.tx.us/media/twsjt1tb/unofficial-summary-republican.pdf",
+      "what_i_checked": "primary unofficial summary printed 10:13 PM, 8 of 8",
+      "content_hash": "2a7ed0b4cf139671de9005e0cfd3d317cf55ce90a97a44a31a732804cf5cd375"
+    },
+    {
+      "url": "https://www.co.hutchinson.tx.us/media/1p3coyq3/precinct-by-precinct-republican.pdf",
+      "what_i_checked": "runoff unofficial precinct report printed 9:31 PM",
+      "content_hash": "3a7ca88674949afbce40818486f3468eedf913d5e4351090231ba28b2c279612"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:52Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (END, check 2). Both: unofficial precinct report printed 9:55 PM, scan 04:01 UTC Nov 6, Last-Modified Aug 2026.",
+    "2026_primary": "same (END, check 2). Both: precinct report printed 10:08 PM with Election Day column, CreationDate 04:11 UTC.",
+    "2026_runoff": "same (END, check 2). Both: unofficial precinct report printed 9:31 PM, scan 02:47 UTC May 27.",
+    "unsupported_or_unchecked": "None found. Both rest on printed times only (no election-night upload evidence), so whether these files were posted on election night rather than later is not shown."
+  },
+  "compared_at_utc": "2026-10-02T16:20:58Z"
+}
