@@ -1,6 +1,6 @@
 {
   "county": "Brazoria",
-  "generated_utc": "2026-10-02T20:07:06Z",
+  "generated_utc": "2026-10-02T21:28:36Z",
   "lookups": [
     {
       "url": "https://www.brazoriacountyclerktx.gov/departments/elections/election-results",
@@ -14,9 +14,9 @@
         },
         "archive_today": {
           "timemap": "https://archive.ph/timemap/https://www.brazoriacountyclerktx.gov/departments/elections/election-results",
-          "ok": false,
-          "error": "URLError: [Errno 101] Network is unreachable",
-          "content_hash": null,
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
           "mementos": []
         }
       }
@@ -33,9 +33,9 @@
         },
         "archive_today": {
           "timemap": "https://archive.ph/timemap/https://www.brazoriacountytx.gov/departments/elections",
-          "ok": false,
-          "error": "URLError: [Errno 101] Network is unreachable",
-          "content_hash": null,
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
           "mementos": []
         }
       }

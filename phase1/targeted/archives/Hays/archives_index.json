@@ -1,6 +1,6 @@
 {
   "county": "Hays",
-  "generated_utc": "2026-10-02T20:17:09Z",
+  "generated_utc": "2026-10-02T21:29:03Z",
   "lookups": [
     {
       "url": "https://www.hayscountytx.gov/257/Election-Results-Archive",
@@ -14,9 +14,9 @@
         },
         "archive_today": {
           "timemap": "https://archive.ph/timemap/https://www.hayscountytx.gov/257/Election-Results-Archive",
-          "ok": false,
-          "error": "URLError: [Errno 101] Network is unreachable",
-          "content_hash": null,
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
           "mementos": []
         }
       }
@@ -33,9 +33,9 @@
         },
         "archive_today": {
           "timemap": "https://archive.ph/timemap/https://www.hayscountytx.gov/172/Elections",
-          "ok": false,
-          "error": "URLError: [Errno 101] Network is unreachable",
-          "content_hash": null,
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
           "mementos": []
         }
       }
@@ -52,9 +52,9 @@
         },
         "archive_today": {
           "timemap": "https://archive.ph/timemap/https://www.livevoterturnout.com/HaysTX/LiveResults/en/Index_5.html",
-          "ok": false,
-          "error": "URLError: [Errno 101] Network is unreachable",
-          "content_hash": null,
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
           "mementos": []
         }
       }

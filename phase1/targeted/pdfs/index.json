@@ -1,0 +1,201 @@
+[
+ {
+  "url": "https://www.collincountytx.gov/docs/default-source/elections/election-results/may-26-2026---primary-runoff-election---",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.collincountytx.gov%2Fdocs%2Fdefault-source%2Felections%2Felection-results%2Fmay-26-2026---primary-runoff-election---&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=50",
+  "cdx_error": null,
+  "captures": [
+   [
+    "20260527121539",
+    "https://www.collincountytx.gov/docs/default-source/elections/election-results/may-26-2026---primary-runoff-election---election-night-summary-report---unofficial-final.pdf?sfvrsn=348e0d26_4"
+   ]
+  ],
+  "replays": [
+   {
+    "original": "https://www.collincountytx.gov/docs/default-source/elections/election-results/may-26-2026---primary-runoff-election---election-night-summary-report---unofficial-final.pdf?sfvrsn=348e0d26_4",
+    "capture_utc": "20260527121539",
+    "replay_error": null,
+    "bytes": 620647,
+    "sha256": "2fcb52dffaeb7e20d804407bc9662ad15eef917eef8d5cf10bf0f6c7bf7b8aef",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 27 May 2026 12:15:40 GMT",
+    "ModDate": "D:20260526225944-05'00'",
+    "Creator": "JasperReports \\(/Election Summary\\",
+    "CreationDate": "D:20260526225944-05'00'",
+    "Producer": "iText 2.1.7 by 1T3XT",
+    "printed_datetimes_first_streams": [
+     "05/26/2026     10:58 PM"
+    ],
+    "precinct_word_count_first_streams": 0,
+    "saved_file": "20260527121539_6cfa22749528.pdf"
+   }
+  ]
+ },
+ {
+  "url": "https://www.collincountytx.gov/docs/default-source/elections/election-results/march-3-2026---primary-election---",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.collincountytx.gov%2Fdocs%2Fdefault-source%2Felections%2Felection-results%2Fmarch-3-2026---primary-election---&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=50",
+  "cdx_error": null,
+  "captures": [],
+  "replays": []
+ },
+ {
+  "url": "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.collincountytx.gov%2FElections%2FElectionResults%2FNovember%25205%2C%25202024&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=50",
+  "cdx_error": null,
+  "captures": [
+   [
+    "20241212164453",
+    "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20-%20Certified%20Write-In%20Candidates%20Vote%20Summary%20-%20Official%20Final.pdf"
+   ],
+   [
+    "20241212165959",
+    "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20-%20Combined%20Accumulated%20Totals%20-%20Official%20Final.pdf"
+   ],
+   [
+    "20241212181654",
+    "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20-%20Statement%20of%20Votes%20Cast%20-%20Official%20Final.pdf"
+   ],
+   [
+    "20241212170428",
+    "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20Certified%20Write-In%20Candidates%20Vote%20Summary.pdf"
+   ],
+   [
+    "20241106223208",
+    "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20Combined%20Election%20Day%20and%20Early%20Ballots--Accumulated%20Totals-Unofficial%20Final.pdf"
+   ],
+   [
+    "20241212165143",
+    "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20General%20%26%20Special%20Election%20Early%20Ballots--Accumulated%20Totals.pdf"
+   ],
+   [
+    "20241106132230",
+    "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20Statement%20of%20Votes%20Cast--Unofficial%20Final.pdf"
+   ]
+  ],
+  "replays": [
+   {
+    "original": "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20-%20Certified%20Write-In%20Candidates%20Vote%20Summary%20-%20Official%20Final.pdf",
+    "capture_utc": "20241212164453",
+    "replay_error": "URLError: [Errno 111] Connection refused",
+    "bytes": 0,
+    "sha256": null,
+    "orig_last_modified": null,
+    "orig_date": null
+   },
+   {
+    "original": "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20-%20Combined%20Accumulated%20Totals%20-%20Official%20Final.pdf",
+    "capture_utc": "20241212165959",
+    "replay_error": "URLError: [Errno 111] Connection refused",
+    "bytes": 0,
+    "sha256": null,
+    "orig_last_modified": null,
+    "orig_date": null
+   },
+   {
+    "original": "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20-%20Statement%20of%20Votes%20Cast%20-%20Official%20Final.pdf",
+    "capture_utc": "20241212181654",
+    "replay_error": null,
+    "bytes": 1048576,
+    "sha256": "e6df3e6c25c5263608057d353f28fe5332498f25e9e5c474f2472b78ce081562",
+    "orig_last_modified": "Thu, 14 Nov 2024 18:05:27 GMT",
+    "orig_date": "Thu, 12 Dec 2024 18:16:53 GMT",
+    "printed_datetimes_first_streams": [
+     "11/14/2024     10:49 AM"
+    ],
+    "precinct_word_count_first_streams": 0,
+    "saved_file": "20241212181654_b296785ab5f7.pdf"
+   },
+   {
+    "original": "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20Certified%20Write-In%20Candidates%20Vote%20Summary.pdf",
+    "capture_utc": "20241212170428",
+    "replay_error": null,
+    "bytes": 276544,
+    "sha256": "50be57975de4247e41e6ec4e7ac355af7e37f76c3fa28810f41319227a2b9d50",
+    "orig_last_modified": "Wed, 06 Nov 2024 01:00:31 GMT",
+    "orig_date": "Thu, 12 Dec 2024 17:04:28 GMT",
+    "printed_datetimes_first_streams": [],
+    "precinct_word_count_first_streams": 0,
+    "saved_file": "20241212170428_f78b2e604493.pdf"
+   },
+   {
+    "original": "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20Combined%20Election%20Day%20and%20Early%20Ballots--Accumulated%20Totals-Unofficial%20Final.pdf",
+    "capture_utc": "20241106223208",
+    "replay_error": null,
+    "bytes": 5078178,
+    "sha256": "10f61882bdb103c24815689c43d382b5b9eec4ab753455e03186641208080a79",
+    "orig_last_modified": "Wed, 06 Nov 2024 06:40:17 GMT",
+    "orig_date": "Wed, 06 Nov 2024 22:32:07 GMT",
+    "ModDate": "D:20241106002708-06'00'",
+    "Creator": "JasperReports \\(/Election Summary\\",
+    "CreationDate": "D:20241106002708-06'00'",
+    "Producer": "iText 2.1.7 by 1T3XT",
+    "printed_datetimes_first_streams": [
+     "11/06/2024     12:24 AM"
+    ],
+    "precinct_word_count_first_streams": 0,
+    "saved_file": "20241106223208_8828ee08c6d4.pdf"
+   },
+   {
+    "original": "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20General%20%26%20Special%20Election%20Early%20Ballots--Accumulated%20Totals.pdf",
+    "capture_utc": "20241212165143",
+    "replay_error": null,
+    "bytes": 1048576,
+    "sha256": "543c1d41b4cbab4252032f2e4629b1f2886fccce77c0c0bb074f00c4ad7ed310",
+    "orig_last_modified": "Wed, 06 Nov 2024 01:00:27 GMT",
+    "orig_date": "Thu, 12 Dec 2024 16:51:42 GMT",
+    "ModDate": "D:20241105184530-06'00'",
+    "Creator": "JasperReports \\(/Election Summary\\",
+    "CreationDate": "D:20241105184530-06'00'",
+    "Producer": "iText 2.1.7 by 1T3XT",
+    "printed_datetimes_first_streams": [
+     "11/05/2024     6:45 PM"
+    ],
+    "precinct_word_count_first_streams": 0,
+    "saved_file": "20241212165143_fb57cff97ed3.pdf"
+   }
+  ]
+ },
+ {
+  "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=4030&repo=r-927d42fb",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=portal.laserfiche.com%2FPortal%2FDocView.aspx%3Fid%3D4030%26repo%3Dr-927d42fb&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=50",
+  "cdx_error": null,
+  "captures": [
+   [
+    "20260305033902",
+    "https://portal.laserfiche.com/Portal/DocView.aspx?id=4030&repo=r-927d42fb"
+   ]
+  ],
+  "replays": [
+   {
+    "original": "https://portal.laserfiche.com/Portal/DocView.aspx?id=4030&repo=r-927d42fb",
+    "capture_utc": "20260305033902",
+    "replay_error": null,
+    "bytes": 3862,
+    "sha256": "9f97c07f8c20c861dc6537cc9292060326fbcaa44ebf45acc2eb143b2041facd",
+    "orig_last_modified": null,
+    "orig_date": "Thu, 05 Mar 2026 03:39:02 GMT"
+   }
+  ]
+ },
+ {
+  "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=4031&repo=r-927d42fb",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=portal.laserfiche.com%2FPortal%2FDocView.aspx%3Fid%3D4031%26repo%3Dr-927d42fb&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=50",
+  "cdx_error": null,
+  "captures": [
+   [
+    "20260305033849",
+    "https://portal.laserfiche.com/Portal/DocView.aspx?id=4031&repo=r-927d42fb"
+   ]
+  ],
+  "replays": [
+   {
+    "original": "https://portal.laserfiche.com/Portal/DocView.aspx?id=4031&repo=r-927d42fb",
+    "capture_utc": "20260305033849",
+    "replay_error": null,
+    "bytes": 3862,
+    "sha256": "4c12b113a78e62957d58cb08fa065b1bb2793b22b4f4abeb936a4a94400f60e7",
+    "orig_last_modified": null,
+    "orig_date": "Thu, 05 Mar 2026 03:38:49 GMT"
+   }
+  ]
+ }
+]

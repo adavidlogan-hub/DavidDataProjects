@@ -1,6 +1,6 @@
 {
   "county": "Williamson",
-  "generated_utc": "2026-10-02T20:04:54Z",
+  "generated_utc": "2026-10-02T21:28:30Z",
   "lookups": [
     {
       "url": "https://www.wilcotx.gov/292/Results-Archive",
@@ -14,9 +14,9 @@
         },
         "archive_today": {
           "timemap": "https://archive.ph/timemap/https://www.wilcotx.gov/292/Results-Archive",
-          "ok": false,
-          "error": "URLError: [Errno 101] Network is unreachable",
-          "content_hash": null,
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
           "mementos": []
         }
       }
@@ -33,9 +33,9 @@
         },
         "archive_today": {
           "timemap": "https://archive.ph/timemap/https://www.livevoterturnout.com/ENR/williamsontxenr/3/en/Index_3.html",
-          "ok": false,
-          "error": "URLError: [Errno 101] Network is unreachable",
-          "content_hash": null,
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
           "mementos": []
         }
       }
@@ -71,9 +71,9 @@
         },
         "archive_today": {
           "timemap": "https://archive.ph/timemap/https://www.livevoterturnout.com/ENR/williamsontxenr/14/en/Index_14.html",
-          "ok": false,
-          "error": "URLError: [Errno 101] Network is unreachable",
-          "content_hash": null,
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
           "mementos": []
         }
       }
@@ -90,9 +90,9 @@
         },
         "archive_today": {
           "timemap": "https://archive.ph/timemap/https://www.wilco.org/Departments/Elections",
-          "ok": false,
-          "error": "URLError: [Errno 101] Network is unreachable",
-          "content_hash": null,
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
           "mementos": []
         }
       }
