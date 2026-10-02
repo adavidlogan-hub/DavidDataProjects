@@ -1,48 +1,55 @@
 {
   "county": "Loving",
-  "tag": "UNKNOWN",
+  "tag": "NO_SITE_OR_SOS_ONLY",
   "confidence": "low",
-  "elections_office_phone": "",
-  "elections_office_email": "",
+  "elections_office_phone": "(432) 309-9500 Ext. 6",
+  "elections_office_email": "Elections@lovingcounty.org",
   "results_url": "",
-  "platform": "unknown",
+  "platform": "sos_feed_only",
   "host": "",
-  "evidence_url": "",
+  "evidence_url": "https://lovingcountyanddistrictclerk.com/elections-1",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Elections are run by the County and District Clerk (Mozelle Carr per search summary). A clerk site exists with an elections page (lovingcountyanddistrictclerk.com/elections-1, title 'loving county elections') and county pages at co.loving.tx.us/page/loving.County.Clerk, but no source shows whether election results are posted there, so results_url, host and platform are left empty/unknown. NO_SITE_OR_SOS_ONLY is not supported: no source states that results are available only through the SOS, and a county elections page exists. Results seen are third-party aggregations (Ballotpedia, RightDataUSA, Wikipedia) with no timing. Phone 432-309-9500 (Ext. 6) and emails Elections@lovingcounty.org / cclerk@co.loving.tx.us appeared only in a search summary, not attributed verbatim to a county or SOS page, so left empty. No 2025/2026 statement about precinct-level reporting found. Loving County has a single-digit number of precincts and about 100 registered voters, which does not by itself establish any reporting practice. No usage notice seen. Fetch module: 1 direct attempt on the clerk elections page plus wayback_probe (3 CDX windows) on lovingcountyanddistrictclerk.com/, all robots_disallowed_or_unreachable. WebFetch not attempted (all prior attempts EGRESS_BLOCKED).",
-  "tag_rationale": "No county results site was confirmed and no source describes election-night or precinct-level posting; there is also no source establishing SOS-only reporting. Tag UNKNOWN.",
+  "notes": "Upgraded after the network opened at about 14:07 UTC using direct fetches. Elections are run by the District & County Clerk, Mozelle Carr. The clerk's elections page (lovingcountyanddistrictclerk.com/elections-1, fetch_module hash 073fc290...) lists election notices, order of election, sample ballots, precinct maps, poll worker and EVBB notices and campaign finance reports, and refers voters to the Texas Secretary of State, but posts no election results documents of any kind (no unofficial, cumulative, precinct or canvass reports). The county site page co.loving.tx.us/page/loving.County.Clerk (hash 01b22317...) also has no results link and points to the clerk website. results.enr.clarityelections.com/TX/Loving/elections.json returns 404 (no Clarity site). Why low confidence: this is evidence of absence as of 2026-10-02; results could have been shared another way on election night (e.g. posted at the courthouse or removed later), and no source states explicitly that results are available only through the SOS. platform set to sos_feed_only to match the tag; no county results host exists to record. Contact: clerk elections page reads 'Phone: (432) 309-9500 Ext. #6 Fax: 432-789-2194 Election Main Email: Elections@lovingcounty.org'; the SOS Election Duties list (hash 065e1ebd...) gives LOVING COUNTY District & County Clerk Mary Mozelle Carr, (432) 309-9500 ext. 6, County Email Address mailto:lovingea@co.loving.tx.us (alternate email). Usage notice: none. Stated change: none found. Wayback: wayback_probe (3 CDX windows) failed robots_disallowed_or_unreachable; no availability queries run for Loving. Work paused by the orchestrator before any further checks.",
+  "tag_rationale": "The county clerk's elections page, fetched directly, carries no election results documents for any election, and no vendor results site exists, so results appear to be available only through the SOS; this rests on absence of evidence, hence low confidence.",
   "sources": [
     {
       "url": "https://lovingcountyanddistrictclerk.com/elections-1",
-      "via": "websearch",
-      "query": "Loving County Texas elections county clerk phone email",
-      "quote": "loving county elections",
-      "supports": "results_url"
-    },
-    {
-      "url": "https://www.co.loving.tx.us/page/loving.County.Clerk",
-      "via": "websearch",
-      "query": "lovingcountyanddistrictclerk.com elections results",
-      "quote": "County Clerk Mozelle Carr",
+      "via": "fetch_module",
+      "query": "content_hash 073fc29027885f0ca369f15dde3f91bac5f8872d69e12162595f55dbf0b22745",
+      "quote": "Phone: (432) 309-9500 Ext. #6 Fax: 432-789-2194 Election Main Email: Elections@lovingcounty.org WEBSITE: www.lovingcountyanddistrictclerk.com",
       "supports": "contact"
     },
     {
       "url": "https://lovingcountyanddistrictclerk.com/elections-1",
       "via": "fetch_module",
-      "query": "",
-      "quote": "attempt failed: robots_disallowed_or_unreachable (no content)",
-      "supports": "results_url"
+      "query": "content_hash 073fc29027885f0ca369f15dde3f91bac5f8872d69e12162595f55dbf0b22745",
+      "quote": "Election Information Polling Place, Precincts 1, 2, 3, & 4 ... Texas Secretary of State",
+      "supports": "tag"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Loving/elections.json",
+      "via": "fetch_module",
+      "query": "HTTP 404",
+      "quote": "HTTP 404 (no Clarity results site for Loving)",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "content_hash 065e1ebd63c50fea13f2f32b01686cde6df41adf1b1714128bc15f3c8189ad0e",
+      "quote": "LOVING COUNTY District & County Clerk Mary Mozelle Carr Courthouse, 100 Bell St., Mentone, Texas 79754 P.O. Box 194, Mentone 79754 County Email Address [mailto:lovingea@co.loving.tx.us] (432) 309-9500 ext. 6",
+      "supports": "contact"
     }
   ],
   "searches_run": 4,
   "cached_search_hits": 0,
-  "fetch_module_attempts": 4,
+  "fetch_module_attempts": 8,
   "webfetch_attempts": 0,
   "started_at_utc": "2026-10-02T14:03:36Z",
   "agent": "research-B",
-  "finished_at_utc": "2026-10-02T14:24:47Z"
+  "finished_at_utc": "2026-10-02T14:29:34Z"
 }
