@@ -186,3 +186,17 @@ def test_searchlog_roundtrip(tmp_path, make_client):
                inp=b"result text").returncode == 0
     out = run("check", "Harris  County results")
     assert out.returncode == 0 and out.stdout.endswith(b"result text")
+
+
+def test_normalize_url():
+    from txprecinct.fetch import normalize_url
+    assert normalize_url("https://x.gov/upload/DEM-Ballots by mail 3-5-24.pdf") == \
+        "https://x.gov/upload/DEM-Ballots%20by%20mail%203-5-24.pdf"
+    assert normalize_url("https://x.gov/a%20b?q=1 2&r=x#frag") == "https://x.gov/a%20b?q=1%202&r=x"
+    assert normalize_url("HTTPS://x.gov/ok/path?a=1") == "https://x.gov/ok/path?a=1"
+
+
+def test_url_with_space_fetches(server, make_client):
+    server.routes = {"/robots.txt": [ROBOTS_OK], "/a%20b.pdf": [(200, {}, b"pdf")]}
+    r = make_client().get(base(server) + "/a b.pdf")
+    assert r.ok and r.body == b"pdf"

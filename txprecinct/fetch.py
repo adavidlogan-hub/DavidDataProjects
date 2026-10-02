@@ -19,13 +19,23 @@ import urllib.error
 import urllib.request
 import urllib.robotparser
 from dataclasses import dataclass, field
-from urllib.parse import urlsplit
+from urllib.parse import quote, urlsplit, urlunsplit
 
 from .config import FetchConfig, HostClass, load_config
 from .ratelimit import HostLimiter
 from .store import Store
 
 RETRYABLE_STATUS = {408, 429, 500, 502, 503, 504}
+_PATH_SAFE = "/%:@!$&'()*+,;=-._~"
+_QUERY_SAFE = "/%:@!$&'()*+,;=-._~?"
+
+
+def normalize_url(url: str) -> str:
+    """Percent-encode characters that cannot appear in a request line (spaces, control
+    characters, non-ASCII) without touching existing escapes. Drops the fragment."""
+    p = urlsplit(url.strip())
+    return urlunsplit((p.scheme.lower(), p.netloc, quote(p.path, safe=_PATH_SAFE),
+                       quote(p.query, safe=_QUERY_SAFE), ""))
 
 
 @dataclass
@@ -71,6 +81,7 @@ class FetchClient:
     def get(self, url: str, *, use_cache: bool = True, max_age: float | None = None,
             conditional: bool = True, purpose: str = "") -> FetchResult:
         """Fetch url. Returns the cached copy when use_cache and fresh enough."""
+        url = normalize_url(url)
         parts = urlsplit(url)
         if parts.scheme not in ("http", "https") or not parts.hostname:
             raise ValueError(f"unsupported URL: {url!r}")
