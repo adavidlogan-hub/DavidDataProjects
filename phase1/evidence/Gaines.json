@@ -1,7 +1,7 @@
 {
   "county": "Gaines",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "med",
+  "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.gaines.tx.us/page/gaines.elections.current",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The 'Current Election' page lists Microsoft Reporting Services Cumulative/Precinct Results Reports for 2026. 2026 primary: 'Unofficial' = 'Cumulative Results-3-4-2026 11-13-48 AM Unofficial Partial' (county totals, CreationDate 4 Mar 2026 17:14 UTC, Last-Modified Wed, 04 Mar 2026 17:17:09 GMT = 11:17 AM CST next day); 'Precinct' = 'Precinct Results-3-6-2026 09-28-05 AM Final Official' (Official Results, Last-Modified Fri, 06 Mar 2026 16:21:04 GMT). 2026 runoff: 'Unofficial' = 'Cumulative Results-5-26-2026 09-39-16 PM ED Unofficial' (county totals, CreationDate 27 May 2026 02:39 UTC = 9:39 PM CDT; its Last-Modified Wed, 27 May 2026 01:49:57 GMT is earlier than its creation time, so this server's upload time is not consistent for that file); 'Precinct' = 'Precinct Results-5-29-2026 04-49-26 PM' (Official Results, Last-Modified Tue, 02 Jun 2026 13:10:09 GMT). The Elections Archive page lists only 2025 elections; no 2024 general results were found. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-1): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 21:39 CT.",
-  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
+  "notes": "No Clarity site (elections.json 404). The 'Current Election' page lists Microsoft Reporting Services Cumulative/Precinct Results Reports for 2026. 2026 primary: 'Unofficial' = 'Cumulative Results-3-4-2026 11-13-48 AM Unofficial Partial' (county totals, CreationDate 4 Mar 2026 17:14 UTC, Last-Modified Wed, 04 Mar 2026 17:17:09 GMT = 11:17 AM CST next day); 'Precinct' = 'Precinct Results-3-6-2026 09-28-05 AM Final Official' (Official Results, Last-Modified Fri, 06 Mar 2026 16:21:04 GMT). 2026 runoff: 'Unofficial' = 'Cumulative Results-5-26-2026 09-39-16 PM ED Unofficial' (county totals, CreationDate 27 May 2026 02:39 UTC = 9:39 PM CDT; its Last-Modified Wed, 27 May 2026 01:49:57 GMT is earlier than its creation time, so this server's upload time is not consistent for that file); 'Precinct' = 'Precinct Results-5-29-2026 04-49-26 PM' (Official Results, Last-Modified Tue, 02 Jun 2026 13:10:09 GMT). The Elections Archive page lists only 2025 elections; no 2024 general results were found. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-1): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 21:39 CT. Rule 43 applied 2026-10-02 (normalize-3): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
@@ -28,12 +28,12 @@
       "evidence_url": ""
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-03-04 11:17 CT",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.gaines.tx.us/upload/page/11725/docs/March%203%202026/Precinct%20Results-3-6-2026%2009-28-05%20AM%20Final%20Official.pdf",
-      "fact": "'Precinct': 'Precinct Results Report Official Results ... PRIMARY ELECTION' (file 'Precinct Results-3-6-2026 09-28-05 AM Final Official', CreationDate 6 Mar 2026 15:28 UTC, Last-Modified Fri, 06 Mar 2026 16:21:04 GMT). 'Unofficial': 'Cumulative Results Report GAINES COUNTY, TEXAS Unofficial Results PRIMARY ELECTION' (file '3-4-2026 11-13-48 AM Unofficial Partial'), Last-Modified Wed, 04 Mar 2026 17:17:09 GMT.",
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-03-04 11:17 CT). Previous: 'Precinct': 'Precinct Results Report Official Results ... PRIMARY ELECTION' (file 'Precinct Results-3-6-2026 09-28-05 AM Final Official', CreationDate 6 Mar 2026 15:28 UTC, Last-Modified Fri, 06 Mar 2026 16:21:04 GMT). 'Unofficial': 'Cumulative Results Report GAINES COUNTY, TEXAS Unofficial Results PRIMARY ELECTION' (file '3-4-2026 11-13-48 AM Unofficial Partial'), Last-Modified Wed, 04 Mar 2026 17:17:09 GMT.",
       "precinct_first_seen": ""
     },
     "2026_runoff": {

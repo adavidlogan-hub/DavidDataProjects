@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL http://www.co.fisher.tx.us/ returned HTTP 403 and its https version fails certificate verification (hostname mismatch); the county's email domain www.fishercounty.org loads and has an 'Election Page'. No Clarity site (elections.json 404). Results are scanned Electionware 'Summary Results Report' PDFs (county totals only). 2024 general: 'Summary Results for General Election November 5, 2024' ('Totals for Website', 'Election Summary - 11/05/2024 8:31 PM'), Last-Modified Wed, 06 Nov 2024 03:27:56 GMT (9:27 PM CST election night); other 2024 files are 'OFFICIAL RESULTS' and reconciliation forms; no precinct report. 2026 primary: 'Unofficial Results' (19 pages, Summary Results Report) scanned 6 Mar 2026, Last-Modified Fri, 06 Mar 2026 16:08:40 GMT. 2026 runoff: 'Unofficial Results' Summary Results Report 'TX Fisher 260526 Primary Runoff 6110', footer 'Election Summary - 06/05/2026 10:31 AM', Last-Modified Fri, 05 Jun 2026 15:44:12 GMT; plus Official Republican/Democratic Results. No precinct-by-precinct results are posted for any of the three elections. Last-Modified values differ per file, so they are real upload times. Check 3 pending (origin/wayback-data not present).",
-  "tag_rationale": "All three elections are LATER by check 2 (county totals only, precinct numbers never published online), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; only the 2024 report has an election-night upload time, so confidence is low.",
+  "notes": "Seed URL http://www.co.fisher.tx.us/ returned HTTP 403 and its https version fails certificate verification (hostname mismatch); the county's email domain www.fishercounty.org loads and has an 'Election Page'. No Clarity site (elections.json 404). Results are scanned Electionware 'Summary Results Report' PDFs (county totals only). 2024 general: 'Summary Results for General Election November 5, 2024' ('Totals for Website', 'Election Summary - 11/05/2024 8:31 PM'), Last-Modified Wed, 06 Nov 2024 03:27:56 GMT (9:27 PM CST election night); other 2024 files are 'OFFICIAL RESULTS' and reconciliation forms; no precinct report. 2026 primary: 'Unofficial Results' (19 pages, Summary Results Report) scanned 6 Mar 2026, Last-Modified Fri, 06 Mar 2026 16:08:40 GMT. 2026 runoff: 'Unofficial Results' Summary Results Report 'TX Fisher 260526 Primary Runoff 6110', footer 'Election Summary - 06/05/2026 10:31 AM', Last-Modified Fri, 05 Jun 2026 15:44:12 GMT; plus Official Republican/Democratic Results. No precinct-by-precinct results are posted for any of the three elections. Last-Modified values differ per file, so they are real upload times. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-3): 2026_primary LATER to UNDETERMINED; 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
@@ -28,21 +28,21 @@
       "precinct_first_seen": ""
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-03-06 10:08 CT",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.fishercounty.org/upload/page/7798/docs/CountyClerk/Elections/2026/March%203/unofficial%20results.pdf",
-      "fact": "'Unofficial Results' (March 3): 19-page 'Summary Results Report Unofficial Results' (county totals), scanned 6 Mar 2026 16:05 UTC, Last-Modified Fri, 06 Mar 2026 16:08:40 GMT. No precinct report posted.",
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-03-06 10:08 CT). Previous: 'Unofficial Results' (March 3): 19-page 'Summary Results Report Unofficial Results' (county totals), scanned 6 Mar 2026 16:05 UTC, Last-Modified Fri, 06 Mar 2026 16:08:40 GMT. No precinct report posted.",
       "precinct_first_seen": ""
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-06-05 10:44 CT",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.fishercounty.org/upload/page/7798/docs/CountyClerk/Elections/2026/May%202nd,%202026/May%2026%20Runoff/unofficial%20results%20.pdf",
-      "fact": "'Unofficial Results' (May 26 Runoff): 'Summary Results Report TX Fisher 260526 Primary Runoff 6110 May 26, 2026 UNOFFICIAL RESULTS Fisher County', footer 'Election Summary - 06/05/2026 10:31 AM'; Last-Modified Fri, 05 Jun 2026 15:44:12 GMT. No precinct report posted.",
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-06-05 10:44 CT). Previous: 'Unofficial Results' (May 26 Runoff): 'Summary Results Report TX Fisher 260526 Primary Runoff 6110 May 26, 2026 UNOFFICIAL RESULTS Fisher County', footer 'Election Summary - 06/05/2026 10:31 AM'; Last-Modified Fri, 05 Jun 2026 15:44:12 GMT. No precinct report posted.",
       "precinct_first_seen": ""
     }
   },

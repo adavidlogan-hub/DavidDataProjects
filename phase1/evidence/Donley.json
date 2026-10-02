@@ -1,6 +1,6 @@
 {
   "county": "Donley",
-  "tag": "UNKNOWN",
+  "tag": "PRECINCT_END_OF_NIGHT",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL (http default.aspx) and https /page/donley.Elections returned HTTP 403; the home page links /page/Elections and /page/Elections.Archive, which load. No Clarity site (elections.json 404). Results are scanned PDFs on the county site. 2026 primary: '03032026 Primary unofficial' is a 20-page Electionware Custom Table Report with per-precinct candidate votes for Precincts 1, 2, 3, 303, 4, marked 'FINAL' by hand, printed 03/03/2026 08:45PM, Last-Modified Wed, 04 Mar 2026 05:19:06 GMT (11:19 PM CST election night). The page also says '03032026 DemocraticElection Night Not Yet Available'. 2024 general: the archive's only results file is an SOS-format 'Election Unofficial Results Report' with county totals by early/election day, scanned 6 Nov 2024 21:37 UTC and Last-Modified Wed, 06 Nov 2024 21:38:49 GMT (3:38 PM CST next day); no precinct report is listed. 2026 runoff: the Elections page lists only sample ballots and voting hours for May 26, 2026; no runoff results are posted, so whether anything was posted on election night cannot be told. Server Last-Modified values differ per file, so they are real upload times (a later replacement would hide an earlier upload). Check 3 pending (origin/wayback-data not present).",
-  "tag_rationale": "2024 general is LATER (check 2) and 2026 primary is END (check 2); the runoff is UNDETERMINED, so no result appears twice and the rule gives UNKNOWN.",
+  "notes": "Seed URL (http default.aspx) and https /page/donley.Elections returned HTTP 403; the home page links /page/Elections and /page/Elections.Archive, which load. No Clarity site (elections.json 404). Results are scanned PDFs on the county site. 2026 primary: '03032026 Primary unofficial' is a 20-page Electionware Custom Table Report with per-precinct candidate votes for Precincts 1, 2, 3, 303, 4, marked 'FINAL' by hand, printed 03/03/2026 08:45PM, Last-Modified Wed, 04 Mar 2026 05:19:06 GMT (11:19 PM CST election night). The page also says '03032026 DemocraticElection Night Not Yet Available'. 2024 general: the archive's only results file is an SOS-format 'Election Unofficial Results Report' with county totals by early/election day, scanned 6 Nov 2024 21:37 UTC and Last-Modified Wed, 06 Nov 2024 21:38:49 GMT (3:38 PM CST next day); no precinct report is listed. 2026 runoff: the Elections page lists only sample ballots and voting hours for May 26, 2026; no runoff results are posted, so whether anything was posted on election night cannot be told. Server Last-Modified values differ per file, so they are real upload times (a later replacement would hide an earlier upload). Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-3): 2024_general LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary END, 2026_runoff UNDETERMINED. Exactly one election is determined, so the tag is PRECINCT_END_OF_NIGHT with low confidence.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2024-11-06 15:38 CT",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.donley.tx.us/upload/page/0109/Unofficial%20Results.pdf",
-      "fact": "Archive link 'November 5th 2024 Unofficial General Election Day Results' is a scanned 'Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION DONLEY County' with county totals (Early Voting By Mail, In Person, Election Day, Total Votes); PDF CreationDate 6 Nov 2024 21:37 UTC; Last-Modified Wed, 06 Nov 2024 21:38:49 GMT. No precinct-level 2024 general report is listed online."
+      "fact": "Rule 43: no election-night file survives (earliest time 2024-11-06 15:38 CT). Previous: Archive link 'November 5th 2024 Unofficial General Election Day Results' is a scanned 'Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION DONLEY County' with county totals (Early Voting By Mail, In Person, Election Day, Total Votes); PDF CreationDate 6 Nov 2024 21:37 UTC; Last-Modified Wed, 06 Nov 2024 21:38:49 GMT. No precinct-level 2024 general report is listed online."
     },
     "2026_primary": {
       "result": "END",

@@ -1,7 +1,7 @@
 {
   "county": "Edwards",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.edwards.tx.us/page/Elections.Home",
@@ -13,18 +13,18 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL /page/edwards.electionsnew returned HTTP 403; the home page links /page/Elections.Home and /page/Elections.Past, which load. No Clarity site (elections.json 404). Results are scanned PDFs. 2024 general: the only results file is 'Unofficial Election Results General Election November 5 2024', an ES&S 'Summary Results Report ... UNOFFICIAL RESULTS' with county totals by Absentee/Early Voting/Election Day, footer 'Election Summary - 11/05/2024 09:44PM', scanned 6 Nov 2024 16:39 UTC and Last-Modified Wed, 06 Nov 2024 16:49:16 GMT (10:49 AM CST next day); the 2024 'Precinct 1 ... Precinct 4' links are sample ballots. 2026 primary: the Elections page lists notices, sample ballots, daily early-voting totals and post-election hand count audit results for March 3, 2026, but no primary results report. 2026 runoff: 'General Primary Runoff Election Results May 26, 2026 - Republican / Democratic' are SOS-format county-total reports (fax header '10:16:50 p.m. 05-26-2026'), scanned 28 May 2026 19:36 UTC, Last-Modified Thu, 28 May 2026 19:42:47 GMT; 'Summary Results Report by Precinct Primary Runoff Election' Last-Modified Mon, 08 Jun 2026 19:44:51 GMT. Last-Modified values differ per file, so they are real upload times. Check 3 pending (origin/wayback-data not present).",
-  "tag_rationale": "2024 general and 2026 runoff are both LATER by check 2 (county totals only, precinct report posted after canvass or not at all), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; no election-night upload was shown, so confidence is low.",
+  "notes": "Seed URL /page/edwards.electionsnew returned HTTP 403; the home page links /page/Elections.Home and /page/Elections.Past, which load. No Clarity site (elections.json 404). Results are scanned PDFs. 2024 general: the only results file is 'Unofficial Election Results General Election November 5 2024', an ES&S 'Summary Results Report ... UNOFFICIAL RESULTS' with county totals by Absentee/Early Voting/Election Day, footer 'Election Summary - 11/05/2024 09:44PM', scanned 6 Nov 2024 16:39 UTC and Last-Modified Wed, 06 Nov 2024 16:49:16 GMT (10:49 AM CST next day); the 2024 'Precinct 1 ... Precinct 4' links are sample ballots. 2026 primary: the Elections page lists notices, sample ballots, daily early-voting totals and post-election hand count audit results for March 3, 2026, but no primary results report. 2026 runoff: 'General Primary Runoff Election Results May 26, 2026 - Republican / Democratic' are SOS-format county-total reports (fax header '10:16:50 p.m. 05-26-2026'), scanned 28 May 2026 19:36 UTC, Last-Modified Thu, 28 May 2026 19:42:47 GMT; 'Summary Results Report by Precinct Primary Runoff Election' Last-Modified Mon, 08 Jun 2026 19:44:51 GMT. Last-Modified values differ per file, so they are real upload times. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-3): 2024_general LATER kept, county_totals_first_seen 2024-11-05 21:44 CT; 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 22:16 CT.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2024-11-06 10:49 CT",
+      "county_totals_first_seen": "2024-11-05 21:44 CT",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.edwards.tx.us/upload/page/0104/Unofficial%20Results%20of%20General%20Election%202025.pdf",
-      "fact": "'Summary Results Report 11/05/24 Edwards General Election Day November 5, 2024 UNOFFICIAL RESULTS Edwards, TX Election Day EV & Edwards' with TOTAL, Absentee, Early Voting, Election Day columns (county totals, 'Precincts Reporting 4 of 4'); footer 'Election Summary - 11/05/2024 09:44PM'; Last-Modified Wed, 06 Nov 2024 16:49:16 GMT. No 2024 general precinct results report is listed online.",
+      "fact": "'Summary Results Report 11/05/24 Edwards General Election Day November 5, 2024 UNOFFICIAL RESULTS Edwards, TX Election Day EV & Edwards' with TOTAL, Absentee, Early Voting, Election Day columns (county totals, 'Precincts Reporting 4 of 4'); footer 'Election Summary - 11/05/2024 09:44PM'; Last-Modified Wed, 06 Nov 2024 16:49:16 GMT. No 2024 general precinct results report is listed online. Rule 43: county totals first seen 2024-11-05 21:44 CT in Unofficial Results of General Election 2025.pdf (printed footer 'Election Summary - 11/05/2024 09:44PM'; county totals, 'Precincts Reporting 4 of 4').",
       "precinct_first_seen": ""
     },
     "2026_primary": {
@@ -39,10 +39,10 @@
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2026-05-28 14:42 CT",
+      "county_totals_first_seen": "2026-05-26 22:16 CT",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.edwards.tx.us/upload/page/0085/Precinct%20Summay%20Report%202026.pdf",
-      "fact": "'General Primary Runoff Election Results May 26, 2026 Republican': 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 EDWARDS County' county totals, Last-Modified Thu, 28 May 2026 19:42:47 GMT. 'Summary Results Report by Precinct Primary Runoff Election' (8 pages, scanned) Last-Modified Mon, 08 Jun 2026 19:44:51 GMT.",
+      "fact": "'General Primary Runoff Election Results May 26, 2026 Republican': 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 EDWARDS County' county totals, Last-Modified Thu, 28 May 2026 19:42:47 GMT. 'Summary Results Report by Precinct Primary Runoff Election' (8 pages, scanned) Last-Modified Mon, 08 Jun 2026 19:44:51 GMT. Rule 43: county totals first seen 2026-05-26 22:16 CT in 2026 Republican Primary Runoff Election Results 052626.pdf (printed fax header '10:16:50 p.m. 05-26-2026' in the page margin of the scanned SOS-format county-totals report).",
       "precinct_first_seen": ""
     }
   },

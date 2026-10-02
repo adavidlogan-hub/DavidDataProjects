@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL http://www.co.goliad.tx.us/ (https used) links /page/goliad.Elections, which lists results PDFs per election; goliadcountytx.gov was refused by the fetch module. No Clarity site (elections.json 404). Election-night postings are county totals only: 2024 general 'Unofficial ENR' is a Texas Secretary of State 'Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION GOLIAD County' (PDF CreationDate 6 Nov 2024 05:05 UTC, Last-Modified Wed, 06 Nov 2024 05:26:31 GMT = 11:26 PM CST election night); 2026 runoff 'CUMULATIVE UNOFFICIAL RESULTS REPORT' is an Electionware 'Summary Results Report 2026 Primary Runoff Election ... UNOFFICIAL RESULTS', footer 'Unofficial results - 05/26/2026 8:21 PM', Last-Modified Wed, 27 May 2026 02:03:51 GMT (9:03 PM CDT election night); 2026 primary 'CUMULATIVE UNOFFICIAL RESULTS REPORT' is a Summary Results Report with footer '03/04/2026 8:52 AM', Last-Modified Wed, 04 Mar 2026 18:39:04 GMT (next day). The other unofficial files are SOS-format party reports (county totals). Precinct-level numbers appear only in the official canvass reports posted after canvass. Last-Modified values differ per file, so they are real upload times. Check 3 not needed for the deciding elections.",
-  "tag_rationale": "All three elections are LATER by check 2 (county totals only on election night, precinct numbers at canvass), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; the 2024 general and 2026 runoff reports both have a printed time and a server upload time on election night, so confidence is med.",
+  "notes": "Seed URL http://www.co.goliad.tx.us/ (https used) links /page/goliad.Elections, which lists results PDFs per election; goliadcountytx.gov was refused by the fetch module. No Clarity site (elections.json 404). Election-night postings are county totals only: 2024 general 'Unofficial ENR' is a Texas Secretary of State 'Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION GOLIAD County' (PDF CreationDate 6 Nov 2024 05:05 UTC, Last-Modified Wed, 06 Nov 2024 05:26:31 GMT = 11:26 PM CST election night); 2026 runoff 'CUMULATIVE UNOFFICIAL RESULTS REPORT' is an Electionware 'Summary Results Report 2026 Primary Runoff Election ... UNOFFICIAL RESULTS', footer 'Unofficial results - 05/26/2026 8:21 PM', Last-Modified Wed, 27 May 2026 02:03:51 GMT (9:03 PM CDT election night); 2026 primary 'CUMULATIVE UNOFFICIAL RESULTS REPORT' is a Summary Results Report with footer '03/04/2026 8:52 AM', Last-Modified Wed, 04 Mar 2026 18:39:04 GMT (next day). The other unofficial files are SOS-format party reports (county totals). Precinct-level numbers appear only in the official canvass reports posted after canvass. Last-Modified values differ per file, so they are real upload times. Check 3 not needed for the deciding elections. Rule 43 applied 2026-10-02 (normalize-3): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
@@ -28,12 +28,12 @@
       "precinct_first_seen": ""
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-03-04 12:39 CT",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.goliad.tx.us/upload/page/2545/2026/Mar032026/Results/Cumulative%20Results%20Report%20Mar032026.pdf",
-      "fact": "'CUMULATIVE UNOFFICIAL RESULTS REPORT': 'Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Unofficial Results Mar032026 ... Election Day Precincts Reporting 9 of 9', county totals; footer 'Unofficial Results Mar032026 - 03/04/2026 8:52 AM'; Last-Modified Wed, 04 Mar 2026 18:39:04 GMT. Precinct numbers only in the Primary Election Canvass Reports (03/12/2026).",
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-03-04 12:39 CT). Previous: 'CUMULATIVE UNOFFICIAL RESULTS REPORT': 'Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Unofficial Results Mar032026 ... Election Day Precincts Reporting 9 of 9', county totals; footer 'Unofficial Results Mar032026 - 03/04/2026 8:52 AM'; Last-Modified Wed, 04 Mar 2026 18:39:04 GMT. Precinct numbers only in the Primary Election Canvass Reports (03/12/2026).",
       "precinct_first_seen": ""
     },
     "2026_runoff": {

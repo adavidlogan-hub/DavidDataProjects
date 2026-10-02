@@ -1,6 +1,6 @@
 {
   "county": "Foard",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "The seed list has no website for Foard; www.co.foard.tx.us and www.foardcounty.gov were refused by the fetch module (robots disallowed or unreachable). One web search found www.foardcounty.texas.gov, whose Elections and Past Elections pages load. No Clarity site (elections.json 404). 2026 primary: 'Cumulative Results Report Unofficial Results' is an 18-page scanned report headed 'ELECTION NIGHT', 'Run Time 1:34 PM Run Date 03/04/2026', 'Precincts Reporting 4 of 4', county totals by Absentee/Early/Election Day only; Last-Modified Wed, 04 Mar 2026 20:45:29 GMT (2:45 PM CST next day); the only other primary result is 'March Primary Cumulative Results- Official'. 2026 runoff: the link 'Unofficial Results Primary Run-Off Election.' points to a 'Notice of Delivery of Balloting Materials to Signature Verification Committee' file, so no runoff unofficial results are readable; 'Official Results for Primary Party Run-Off Election' is also listed. 2024 general: neither page lists 2024 general results. Check 3 pending (origin/wayback-data not present).",
-  "tag_rationale": "Only the 2026 primary is determined (LATER by check 2, county totals only, no precinct results posted), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "notes": "The seed list has no website for Foard; www.co.foard.tx.us and www.foardcounty.gov were refused by the fetch module (robots disallowed or unreachable). One web search found www.foardcounty.texas.gov, whose Elections and Past Elections pages load. No Clarity site (elections.json 404). 2026 primary: 'Cumulative Results Report Unofficial Results' is an 18-page scanned report headed 'ELECTION NIGHT', 'Run Time 1:34 PM Run Date 03/04/2026', 'Precincts Reporting 4 of 4', county totals by Absentee/Early/Election Day only; Last-Modified Wed, 04 Mar 2026 20:45:29 GMT (2:45 PM CST next day); the only other primary result is 'March Primary Cumulative Results- Official'. 2026 runoff: the link 'Unofficial Results Primary Run-Off Election.' points to a 'Notice of Delivery of Balloting Materials to Signature Verification Committee' file, so no runoff unofficial results are readable; 'Official Results for Primary Party Run-Off Election' is also listed. 2024 general: neither page lists 2024 general results. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-3): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the tag is UNKNOWN.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
@@ -28,12 +28,12 @@
       "evidence_url": ""
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-03-04 14:45 CT",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.foardcounty.texas.gov/upload/page/0086/2026/Cumulative%20Results%20Report%20Unofficial%20Results.pdf",
-      "fact": "'Cumulative Results Report Unofficial Results': 'Cumulative Results Report FOARD COUNTY, TEXAS PRIMARY ELECTION ELECTION NIGHT ... Run Time 1:34 PM Run Date 03/04/2026 ... Precincts Reporting 4 of 4 = 100.00%', county totals; Last-Modified Wed, 04 Mar 2026 20:45:29 GMT. No precinct results posted (never published online).",
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-03-04 14:45 CT). Previous: 'Cumulative Results Report Unofficial Results': 'Cumulative Results Report FOARD COUNTY, TEXAS PRIMARY ELECTION ELECTION NIGHT ... Run Time 1:34 PM Run Date 03/04/2026 ... Precincts Reporting 4 of 4 = 100.00%', county totals; Last-Modified Wed, 04 Mar 2026 20:45:29 GMT. No precinct results posted (never published online).",
       "precinct_first_seen": ""
     },
     "2026_runoff": {

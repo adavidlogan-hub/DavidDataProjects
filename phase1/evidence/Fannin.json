@@ -1,7 +1,7 @@
 {
   "county": "Fannin",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.fannin.tx.us/page/fannin.Elections",
@@ -13,18 +13,18 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL (http default.aspx) was not used; https://www.co.fannin.tx.us/page/fannin.Elections loads and lists all results PDFs (Microsoft Reporting Services Cumulative/Precinct Results Reports). No Clarity site (elections.json 404). 2024 general: 'UNOFFICIAL ELECTION RESULTS' is a Cumulative Results Report run 10:07 PM 11/05/2024, Last-Modified Wed, 06 Nov 2024 22:13:02 GMT (next afternoon); then 'OFFICIAL ELECTION RESULTS' (cumulative, 11-13-2024) and 'OFFICIAL CANVASS REPORT'; no unofficial precinct report. 2026 primary: 'Unofficial Election Day Results' (Republican) and 'Unofficial Election Night Results' (Democratic) are Cumulative Results Reports (Republican run 9:43 PM 03/03/2026, Last-Modified Wed, 04 Mar 2026 05:03:09 GMT = 11:03 PM CST); no precinct report is listed for the primary. 2026 runoff: 'Unofficial Precinct Results' (file 'Precinct ResultsFinalUnofficial-5-26-2026 09-34-04 PM') run 9:33 PM 05/26/2026, 'Polling Places Reporting 13 of 13', with Absentee/Early/Election Day columns per precinct, Last-Modified Wed, 27 May 2026 03:25:18 GMT (10:25 PM CDT), posted together with 'Unofficial Cumulative Results'. Last-Modified values differ per file, so they are real upload times. The runoff shows a change from earlier elections, but the site does not state any change in precinct reporting, so stated_change_2026 is n. Check 3 pending (origin/wayback-data not present).",
-  "tag_rationale": "2024 general and 2026 primary are both LATER by check 2 (county totals only on election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS even though the 2026 runoff is END; the 2024 report was uploaded the next day, so confidence is low.",
+  "notes": "Seed URL (http default.aspx) was not used; https://www.co.fannin.tx.us/page/fannin.Elections loads and lists all results PDFs (Microsoft Reporting Services Cumulative/Precinct Results Reports). No Clarity site (elections.json 404). 2024 general: 'UNOFFICIAL ELECTION RESULTS' is a Cumulative Results Report run 10:07 PM 11/05/2024, Last-Modified Wed, 06 Nov 2024 22:13:02 GMT (next afternoon); then 'OFFICIAL ELECTION RESULTS' (cumulative, 11-13-2024) and 'OFFICIAL CANVASS REPORT'; no unofficial precinct report. 2026 primary: 'Unofficial Election Day Results' (Republican) and 'Unofficial Election Night Results' (Democratic) are Cumulative Results Reports (Republican run 9:43 PM 03/03/2026, Last-Modified Wed, 04 Mar 2026 05:03:09 GMT = 11:03 PM CST); no precinct report is listed for the primary. 2026 runoff: 'Unofficial Precinct Results' (file 'Precinct ResultsFinalUnofficial-5-26-2026 09-34-04 PM') run 9:33 PM 05/26/2026, 'Polling Places Reporting 13 of 13', with Absentee/Early/Election Day columns per precinct, Last-Modified Wed, 27 May 2026 03:25:18 GMT (10:25 PM CDT), posted together with 'Unofficial Cumulative Results'. Last-Modified values differ per file, so they are real upload times. The runoff shows a change from earlier elections, but the site does not state any change in precinct reporting, so stated_change_2026 is n. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-3): 2024_general LATER kept, county_totals_first_seen 2024-11-05 22:07 CT.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary LATER, 2026_runoff END. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2024-11-06 16:13 CT",
+      "county_totals_first_seen": "2024-11-05 22:07 CT",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.fannin.tx.us/upload/page/7064/Unofficial%20Election%20Results%2011-24.pdf",
-      "fact": "'UNOFFICIAL ELECTION RESULTS': 'Cumulative Results Report FANNIN COUNTY, TEXAS Unofficial Results GENERAL ELECTION ... Precincts Reporting 17 of 17 ... Run Time 10:07 PM Run Date 11/05/2024'; Last-Modified Wed, 06 Nov 2024 22:13:02 GMT. Other 2024 results: OFFICIAL ELECTION RESULTS (cumulative), OFFICIAL CANVASS REPORT. No unofficial precinct report.",
+      "fact": "'UNOFFICIAL ELECTION RESULTS': 'Cumulative Results Report FANNIN COUNTY, TEXAS Unofficial Results GENERAL ELECTION ... Precincts Reporting 17 of 17 ... Run Time 10:07 PM Run Date 11/05/2024'; Last-Modified Wed, 06 Nov 2024 22:13:02 GMT. Other 2024 results: OFFICIAL ELECTION RESULTS (cumulative), OFFICIAL CANVASS REPORT. No unofficial precinct report. Rule 43: county totals first seen 2024-11-05 22:07 CT in Unofficial Election Results 11-24.pdf (printed 'Run Time 10:07 PM Run Date 11/05/2024'; county totals).",
       "precinct_first_seen": ""
     },
     "2026_primary": {

@@ -1,7 +1,7 @@
 {
   "county": "Dickens",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "med",
+  "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.dickens.tx.us/page/dickens.Elections",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.dickens.tx.us/ works over https. No Clarity or vendor link. Files are scanned Hart reports named imageNNNN.pdf; Last-Modified values differ per file and follow PDF creation times. For the runoff, both the 'Unofficial Results' and 'Preliminary Election Reconciliation' links point to the same reconciliation form. 2024 general undetermined (check 3 pending; wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 20:40 CT.",
-  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
+  "notes": "Seed http://www.co.dickens.tx.us/ works over https. No Clarity or vendor link. Files are scanned Hart reports named imageNNNN.pdf; Last-Modified values differ per file and follow PDF creation times. For the runoff, both the 'Unofficial Results' and 'Preliminary Election Reconciliation' links point to the same reconciliation form. 2024 general undetermined (check 3 pending; wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 20:40 CT. Rule 43 applied 2026-10-02 (normalize-3): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-2",
   "method_version": "v2",
   "elections": {
@@ -28,13 +28,13 @@
       "fact": "The Elections page groups files without election labels for older entries; no file clearly tied to the Nov 5, 2024 general election was identified within budget. Check 3 pending."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-03-06 16:22 CT",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.dickens.tx.us/upload/page/1679/image3029.pdf",
-      "fact": "'Unofficial Results' for the primary (image3029.pdf) is a scanned Hart 'Cumulative Results Report DICKENS COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Unofficial Results' (county totals), 'Run Time 3:18 PM Run Date 03/05/2026', Last-Modified Fri, 06 Mar 2026 22:22:17 GMT. Precinct numbers appear only in the later 'Official Republican Precinct Results' and 'Official Democratic Precinct Results' files. Nothing with precinct numbers dates from election night."
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-03-06 16:22 CT). Previous: 'Unofficial Results' for the primary (image3029.pdf) is a scanned Hart 'Cumulative Results Report DICKENS COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Unofficial Results' (county totals), 'Run Time 3:18 PM Run Date 03/05/2026', Last-Modified Fri, 06 Mar 2026 22:22:17 GMT. Precinct numbers appear only in the later 'Official Republican Precinct Results' and 'Official Democratic Precinct Results' files. Nothing with precinct numbers dates from election night."
     },
     "2026_runoff": {
       "result": "LATER",

@@ -13,18 +13,18 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL (http default.aspx) was not used; https://www.co.freestone.tx.us/page/freestone.Elections loads and lists results PDFs in sections per election. No Clarity site (elections.json 404). 2024 general: 'Unofficial Results' is a scanned Electionware 'Summary Results Report TX Freestone 241105 General 6110 ... UNOFFICIAL RESULTS' (county totals by Absentee/Early/Election Day/Provisional, 'Election Day Precincts Reporting 20 of 20'), footer 'Election Summary - 11/05/2024 10:18 PM', scanned 6 Nov 2024 18:42 UTC, Last-Modified Wed, 06 Nov 2024 19:00:12 GMT (1:00 PM CST next day); precinct numbers appear only in 'OFFICIAL PRECINCT BY PRECINCT TOTALS - PART 1/2' (canvass). 2026 primary: the section lists only 'OFFICIAL RESULTS' files (Democratic/Republican state, props, county) and voter lists; no unofficial report remains. 2026 runoff: the section's 'UNOFFICIAL RESULTS' link (/upload/page/1902/EV ED BBM ELECTION TOTAL ALL0001.pdf) returned HTTP 404; 'PRECINCT BY PRECINCT' appears as text without a link. Last-Modified values differ per file, so they are real upload times. Check 3 pending (origin/wayback-data not present).",
-  "tag_rationale": "Only the 2024 general is determined (LATER by check 2, county totals only, precinct numbers at canvass), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "notes": "Seed URL (http default.aspx) was not used; https://www.co.freestone.tx.us/page/freestone.Elections loads and lists results PDFs in sections per election. No Clarity site (elections.json 404). 2024 general: 'Unofficial Results' is a scanned Electionware 'Summary Results Report TX Freestone 241105 General 6110 ... UNOFFICIAL RESULTS' (county totals by Absentee/Early/Election Day/Provisional, 'Election Day Precincts Reporting 20 of 20'), footer 'Election Summary - 11/05/2024 10:18 PM', scanned 6 Nov 2024 18:42 UTC, Last-Modified Wed, 06 Nov 2024 19:00:12 GMT (1:00 PM CST next day); precinct numbers appear only in 'OFFICIAL PRECINCT BY PRECINCT TOTALS - PART 1/2' (canvass). 2026 primary: the section lists only 'OFFICIAL RESULTS' files (Democratic/Republican state, props, county) and voter lists; no unofficial report remains. 2026 runoff: the section's 'UNOFFICIAL RESULTS' link (/upload/page/1902/EV ED BBM ELECTION TOTAL ALL0001.pdf) returned HTTP 404; 'PRECINCT BY PRECINCT' appears as text without a link. Last-Modified values differ per file, so they are real upload times. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-3): 2024_general LATER kept, county_totals_first_seen 2024-11-05 22:18 CT.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-3",
   "method_version": "v2",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2024-11-06 13:00 CT",
+      "county_totals_first_seen": "2024-11-05 22:18 CT",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.freestone.tx.us/upload/page/1902/2024/unofficial_official_results_1152024.pdf",
-      "fact": "'Unofficial Results': 'Summary Results Report TX Freestone 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS ... Election Day Precincts Reporting 20 of 20 ... Ballots Cast - Total 9,036 215 6,715 2,106', footer 'Election Summary - 11/05/2024 10:18 PM'; Last-Modified Wed, 06 Nov 2024 19:00:12 GMT. Precinct numbers only in 'OFFICIAL PRECINCT BY PRECINCT TOTALS' (after canvass).",
+      "fact": "'Unofficial Results': 'Summary Results Report TX Freestone 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS ... Election Day Precincts Reporting 20 of 20 ... Ballots Cast - Total 9,036 215 6,715 2,106', footer 'Election Summary - 11/05/2024 10:18 PM'; Last-Modified Wed, 06 Nov 2024 19:00:12 GMT. Precinct numbers only in 'OFFICIAL PRECINCT BY PRECINCT TOTALS' (after canvass). Rule 43: county totals first seen 2024-11-05 22:18 CT in unofficial_official_results_1152024.pdf (printed footer 'Election Summary - 11/05/2024 10:18 PM'; county totals, 'Election Day Precincts Reporting 20 of 20').",
       "precinct_first_seen": ""
     },
     "2026_primary": {

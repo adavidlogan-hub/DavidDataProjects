@@ -1,7 +1,7 @@
 {
   "county": "Anderson",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.andersoncountytx.gov/page/Elections.2026",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL over http returns 403; https redirects to the current domain www.andersoncountytx.gov. No Clarity site (elections.json 404). The 2026 Elections page lists per election an 'Unofficial Election Results' file (Summary Results Report, county totals only) and 'Final Official' files; the runoff precinct report is titled 'Final Official Pct x Pct Results'. The Elections Information page and the 2026 page show no 2024 general results. Primary unofficial PDF CreationDate is 11:34 PM CST election night but its server upload (Last-Modified) is 9:07 AM CST Mar 4; runoff unofficial file was created and uploaded the morning of May 27. Check 3 pending (wayback-data branch not found on origin) for the 2024 general.",
-  "tag_rationale": "2026 primary and 2026 runoff are both LATER (county-total unofficial summaries only, precinct numbers only in official reports), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because check 2 lacked an election-night upload time.",
+  "notes": "Seed URL over http returns 403; https redirects to the current domain www.andersoncountytx.gov. No Clarity site (elections.json 404). The 2026 Elections page lists per election an 'Unofficial Election Results' file (Summary Results Report, county totals only) and 'Final Official' files; the runoff precinct report is titled 'Final Official Pct x Pct Results'. The Elections Information page and the 2026 page show no 2024 general results. Primary unofficial PDF CreationDate is 11:34 PM CST election night but its server upload (Last-Modified) is 9:07 AM CST Mar 4; runoff unofficial file was created and uploaded the morning of May 27. Check 3 pending (wayback-data branch not found on origin) for the 2024 general. Rule 43 applied 2026-10-02 (normalize-3): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 21:16 CT.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-1",
   "method_version": "v2",
   "elections": {
@@ -39,11 +39,11 @@
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "2026-05-27 08:36 CT (server upload)",
+      "county_totals_first_seen": "2026-05-26 21:16 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.andersoncountytx.gov/upload/page/0131/docs/Elections%202026/2026%20Runoff%20Unofficial%20Grand.pdf",
-      "fact": "'2026 Primary Runoff Election Unofficial Election Results' = 'Summary Results Report UNOFFICIAL RESULTS TX Anderson County 260526 Primary Runoff 6110 GRAND SUMMARY ... Election Day Precincts Reporting 14 of 14' (county totals); PDF CreationDate Wed May 27 13:33:38 2026 UTC; Last-Modified Wed, 27 May 2026 13:36:33 GMT. Precinct numbers appear only in '2026 Primary Runoff Election Final Official Pct x Pct Results'."
+      "fact": "'2026 Primary Runoff Election Unofficial Election Results' = 'Summary Results Report UNOFFICIAL RESULTS TX Anderson County 260526 Primary Runoff 6110 GRAND SUMMARY ... Election Day Precincts Reporting 14 of 14' (county totals); PDF CreationDate Wed May 27 13:33:38 2026 UTC; Last-Modified Wed, 27 May 2026 13:36:33 GMT. Precinct numbers appear only in '2026 Primary Runoff Election Final Official Pct x Pct Results'. Rule 43: county totals first seen 2026-05-26 21:16 CT in 2026 Runoff Unofficial Grand.pdf (printed footer 'Election Summary - 05/26/2026 9:16 PM' on all 3 pages; Electionware GRAND SUMMARY county totals, 'Election Day Precincts Reporting 14 of 14')."
     }
   },
   "sources": [

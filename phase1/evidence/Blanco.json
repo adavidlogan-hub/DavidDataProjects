@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed www.co.blanco.tx.us redirects to www.blancocountytexas.gov. No Clarity site (elections.json 404). For each target election the county posts one unofficial file (SOS 'Election Unofficial Results Report' or Electionware 'Summary Results Report', county totals) and later official canvass, summary and 'Official Precinct by Precinct' reports; no unofficial precinct report. 2024 general and 2026 primary unofficial files have creation/printed and server upload times on election night; the 2026 runoff unofficial file was scanned May 27 and uploaded May 28. Scanned files read visually.",
-  "tag_rationale": "All three elections are LATER (county totals only on or after election night; precinct numbers only in official reports), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the 2024 general and 2026 primary were settled by check 2 with printed and upload times on election night.",
+  "notes": "Seed www.co.blanco.tx.us redirects to www.blancocountytexas.gov. No Clarity site (elections.json 404). For each target election the county posts one unofficial file (SOS 'Election Unofficial Results Report' or Electionware 'Summary Results Report', county totals) and later official canvass, summary and 'Official Precinct by Precinct' reports; no unofficial precinct report. 2024 general and 2026 primary unofficial files have creation/printed and server upload times on election night; the 2026 runoff unofficial file was scanned May 27 and uploaded May 28. Scanned files read visually. Rule 43 applied 2026-10-02 (normalize-3): 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary LATER, 2026_runoff UNDETERMINED. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-1",
   "method_version": "v2",
   "elections": {
@@ -37,13 +37,13 @@
       "fact": "'UNOFFICIAL RESULTS FOR THE MARCH 3, 2026 PRIMARY ELECTION' = scanned 'Summary Results Report TX Blanco County 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS Blanco County' (county totals), footer 'Election Summary - 03/03/2026 8:41 PM'; Last-Modified Wed, 04 Mar 2026 03:59:15 GMT. Other primary results are 'Official Election Results' canvass files dated 3.12.26."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2026-05-28 09:37 CT (server upload; scanned 2026-05-27 10:29)",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.blancocountytexas.gov/upload/page/0117/Primary Runoff/Rep ENR SOS 05.26.26.pdf",
-      "fact": "'Republican Primary Runoff Unofficial Results for May 26, 2026' = scanned 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 BLANCO County' (county totals); PDF CreationDate Wed May 27 15:29:34 2026 UTC; Last-Modified Thu, 28 May 2026 14:37:27 GMT. Precinct numbers only in 'Official Precinct by Precinct Report for May 26, 2026 Republican/Democratic Primary Runoff Election'."
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-05-28 09:37 CT (server upload; scanned 2026-05-27 10:29)). Previous: 'Republican Primary Runoff Unofficial Results for May 26, 2026' = scanned 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 BLANCO County' (county totals); PDF CreationDate Wed May 27 15:29:34 2026 UTC; Last-Modified Thu, 28 May 2026 14:37:27 GMT. Precinct numbers only in 'Official Precinct by Precinct Report for May 26, 2026 Republican/Democratic Primary Runoff Election'."
     }
   },
   "sources": [

@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed www.brazosvotes.org redirects to elections.brazoscountytx.gov. No Clarity site (elections.json 404). The Results page posts Hart-style Cumulative Results Reports (county totals) as 'Unofficial' and 'Official'. Files for elections before May 2026 were re-uploaded in April 2026 as ADA 'accessible' versions (wp-content/uploads/2026/04), so they carry no election-night upload time. 2026 primary: besides the unofficial cumulative (Run Time 9:28 PM 3/3/2026), per-location 'Precinct Report 3-3-26' files are posted, but only as April 2026 re-uploads, so whether precinct numbers appeared on election night cannot be decided; check 3 pending. 2024 general: the only unofficial file is a cumulative report run 10:15 AM Nov 6 and no precinct-level report is posted. 2026 runoff: unofficial cumulative county totals run 9:09 PM and uploaded 10:15 PM CDT; no precinct report posted.",
-  "tag_rationale": "2024 general and 2026 runoff are both LATER (county totals only, no precinct numbers posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because the 2024 evidence has no election-night upload time.",
+  "notes": "Seed www.brazosvotes.org redirects to elections.brazoscountytx.gov. No Clarity site (elections.json 404). The Results page posts Hart-style Cumulative Results Reports (county totals) as 'Unofficial' and 'Official'. Files for elections before May 2026 were re-uploaded in April 2026 as ADA 'accessible' versions (wp-content/uploads/2026/04), so they carry no election-night upload time. 2026 primary: besides the unofficial cumulative (Run Time 9:28 PM 3/3/2026), per-location 'Precinct Report 3-3-26' files are posted, but only as April 2026 re-uploads, so whether precinct numbers appeared on election night cannot be decided; check 3 pending. 2024 general: the only unofficial file is a cumulative report run 10:15 AM Nov 6 and no precinct-level report is posted. 2026 runoff: unofficial cumulative county totals run 9:09 PM and uploaded 10:15 PM CDT; no precinct report posted. Rule 43 applied 2026-10-02 (normalize-3): 2024_general LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-1",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2024-11-06 10:15 CT (printed run time)",
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-11-6-2024-10-15-52-AM-accessible.pdf",
-      "fact": "'Nov. 5, 2024 General and Special Elections - Cumulative Results Report (Unofficial)' = 'Cumulative Results Report Brazos County Unofficial Results 2024 November 5th General and Special Elections ... Precincts Reporting 125 of 125 = 100.00% Run Time 10:15 AM' (county totals); re-uploaded Tue, 07 Apr 2026. Other 2024 general files are Official Cumulative and reconciliations; no precinct-level report is posted."
+      "fact": "Rule 43: no election-night file survives (earliest time 2024-11-06 10:15 CT (printed run time)). Previous: 'Nov. 5, 2024 General and Special Elections - Cumulative Results Report (Unofficial)' = 'Cumulative Results Report Brazos County Unofficial Results 2024 November 5th General and Special Elections ... Precincts Reporting 125 of 125 = 100.00% Run Time 10:15 AM' (county totals); re-uploaded Tue, 07 Apr 2026. Other 2024 general files are Official Cumulative and reconciliations; no precinct-level report is posted."
     },
     "2026_primary": {
       "result": "UNDETERMINED",
