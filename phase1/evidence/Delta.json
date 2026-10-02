@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed https://www.deltacountytx.com/ returns HTTP 403 (bot protection); one web search found the results page https://www.deltacountytx.com/elections/page/election-results, which also returns 403. Not worked around, per brief. No vendor site found. Check 3 pending (wayback-data branch not on origin).",
+  "notes": "Seed https://www.deltacountytx.com/ returns HTTP 403 (bot protection); one web search found the results page https://www.deltacountytx.com/elections/page/election-results, which also returns 403. Not worked around, per brief. No vendor site found. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-E): no change. www.deltacountytx.com Election Results page still returns HTTP 403 (bot protection, not worked around). One web search for third-party precinct results found only Delta County, Colorado and old KETR stories. Wayback harvest of deltacountytx.com found no election-night captures. Sweep: no folder. All three stay UNDETERMINED.",
   "tag_rationale": "No election could be determined because the county site refused access, so the tag is UNKNOWN.",
   "agent": "research-2",
   "method_version": "v2",

@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL (default.aspx path) replaced by https://www.co.hansford.tx.us/; its Elections page lists the November 3, 2026 general election notices, the 2024 primary notice and 2024 daily voter check-in rosters, and no results documents of any kind for the 2024 general, 2026 primary or 2026 runoff. No Clarity link. Current page content does not show what was posted on election night. Check 3 pending (wayback-data branch not on origin).",
+  "notes": "Seed URL (default.aspx path) replaced by https://www.co.hansford.tx.us/; its Elections page lists the November 3, 2026 general election notices, the 2024 primary notice and 2024 daily voter check-in rosters, and no results documents of any kind for the 2024 general, 2026 primary or 2026 runoff. No Clarity link. Current page content does not show what was posted on election night. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-E): no change. Re-fetched the Elections page (same content hash 96ef9d58...): still no results files for any of the three elections. Wayback harvest of co.hansford.tx.us found no election-night captures (runoff CDX query failed: connection refused). Sweep: no folder. All three stay UNDETERMINED.",
   "tag_rationale": "All three elections are UNDETERMINED (no vendor log, no county results files, check 3 pending), so by rule the tag is UNKNOWN.",
   "agent": "research-4",
   "method_version": "v2",
