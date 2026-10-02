@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from phase1.schema import validate_v2 as validate  # noqa: E402
+from phase1.schema import compute_confidence, validate_v2 as validate  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent
 
@@ -22,6 +22,7 @@ def select(counties: list[str], seed: int) -> dict:
     for c in counties:
         rec = json.loads((ROOT / "evidence" / f"{c.replace(' ', '_')}.json").read_text())
         validate(rec)
+        rec["confidence"] = compute_confidence(rec)
         if rec["tag"] in ("LIVE_PRECINCT", "PRECINCT_END_OF_NIGHT"):
             required.append({"county": c, "reason": f"tag {rec['tag']}"})
         elif rec["tag"] != "UNKNOWN" and rec["confidence"] == "low":

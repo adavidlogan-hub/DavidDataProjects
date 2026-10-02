@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import csv as _csv  # noqa: E402
-from phase1.schema import CSV_COLUMNS, validate_v2  # noqa: E402
+from phase1.schema import CSV_COLUMNS, compute_confidence, validate_v2  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent
 
@@ -30,6 +30,7 @@ def main(out: str, counties_file: str) -> None:
         assert ev_path.exists(), f"missing evidence file for {county}: {ev_path}"
         rec = json.loads(ev_path.read_text())
         validate_v2(rec, str(ev_path))
+        rec["confidence"] = compute_confidence(rec)  # one rule for every county (DECISIONS 40)
         sd = seed[county]
         if not rec["elections_office_phone"] and not rec["elections_office_email"]:
             rec["elections_office_phone"], rec["elections_office_email"] = sd["phone"], sd["email"]

@@ -76,3 +76,25 @@ def validate_v2(rec: dict, path: str = "") -> None:
         for kk, vv in v.items():
             if isinstance(vv, str):
                 assert not BANNED_RE.search(vv), f"{where}: elections.{k}.{kk} has a banned character"
+
+
+def compute_confidence(rec: dict) -> str:
+    """Deterministic confidence from the per-election records (DECISIONS 40).
+
+    low  : tag UNKNOWN, or only one election decides the tag
+    high : two or more deciding elections, all settled by check 1 or check 3 content
+    med  : two or more deciding elections, at least one settled by check 2,
+           or any deciding election settled under the live precinct view rule
+    """
+    tag, single = compute_tag(rec["elections"])
+    if tag == "UNKNOWN" or single:
+        return "low"
+    deciding = [rec["elections"][e] for e in ELECTIONS
+                if rec["elections"][e]["result"] != "UNDETERMINED"
+                and RESULT_TO_TAG.get(rec["elections"][e]["result"]) == tag]
+    assert len(deciding) >= 2, f"{rec['county']}: rule gave {tag} without two deciding elections"
+    if any(e.get("rule") == "live_precinct_view" for e in deciding):
+        return "med"
+    if all(e["check"] in ("1", "3") for e in deciding):
+        return "high"
+    return "med"
