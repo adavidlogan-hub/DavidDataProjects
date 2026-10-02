@@ -1,72 +1,100 @@
 {
-  "county": "Pecos",
-  "tag": "UNKNOWN",
-  "confidence": "low",
-  "elections_office_phone": "",
-  "elections_office_email": "",
-  "results_url": "https://www.co.pecos.tx.us/election-information-past-elections/",
-  "platform": "county_pdfs",
-  "host": "www.co.pecos.tx.us",
-  "evidence_url": "https://www.co.pecos.tx.us/election-information-past-elections/",
-  "evidence_snapshot_timestamp": "",
-  "precinct_first_seen_local_time": "",
-  "stated_change_2026": "n",
-  "stated_change_source": "",
-  "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The 'Past Elections' page lists only official result files for the target elections: 2024 general 'Official-Results-20241105.pdf' (Last-Modified Wed, 13 Nov 2024 01:51:57 GMT) and an official reconciliation; 2026 primary '20260303-Official-Results.pdf' (Last-Modified Tue, 10 Mar 2026 00:15:11 GMT) and 'Official Results - Precinct by Precinct' files uploaded in April 2026; 2026 runoff 'Official Results' and 'Official ... Precinct by Precinct Results' files uploaded in June 2026. No unofficial or election-night file is listed (the page text has no 'unofficial' mention), so whether anything was posted on election night cannot be told. The 'Election Information' page has no results section. Check 3 pending: origin/wayback-data not present.",
-  "tag_rationale": "No election could be determined (only post-election official files are listed; check 3 pending), so the rule gives UNKNOWN.",
-  "agent": "research-6",
-  "method_version": "v2",
-  "elections": {
-    "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "Only 'Official-Results-20241105.pdf' (Last-Modified Nov 13 2024) and an official reconciliation listed. Check 3 pending."
-    },
-    "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "Only '20260303-Official-Results.pdf' (Last-Modified Mar 10 2026) and Official Precinct by Precinct files (uploads/2026/04) listed. Check 3 pending."
-    },
-    "2026_runoff": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "Only Official Results and Official Precinct by Precinct Results files (uploads/2026/06) listed. Check 3 pending."
-    }
+ "county": "Pecos",
+ "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "confidence": "med",
+ "elections_office_phone": "",
+ "elections_office_email": "",
+ "results_url": "https://www.co.pecos.tx.us/election-information-past-elections/",
+ "platform": "county_pdfs",
+ "host": "www.co.pecos.tx.us",
+ "evidence_url": "https://www.co.pecos.tx.us/wp-content/uploads/2026/03/20260303-Unofficial-Results-to-include-Election-Day.pdf",
+ "evidence_snapshot_timestamp": "",
+ "precinct_first_seen_local_time": "",
+ "stated_change_2026": "n",
+ "stated_change_source": "",
+ "usage_notice_text": "",
+ "notes": "No Clarity site (elections.json 404). The 'Past Elections' page lists only official result files for the target elections: 2024 general 'Official-Results-20241105.pdf' (Last-Modified Wed, 13 Nov 2024 01:51:57 GMT) and an official reconciliation; 2026 primary '20260303-Official-Results.pdf' (Last-Modified Tue, 10 Mar 2026 00:15:11 GMT) and 'Official Results - Precinct by Precinct' files uploaded in April 2026; 2026 runoff 'Official Results' and 'Official ... Precinct by Precinct Results' files uploaded in June 2026. No unofficial or election-night file is listed (the page text has no 'unofficial' mention), so whether anything was posted on election night cannot be told. The 'Election Information' page has no results section. Check 3 pending: origin/wayback-data not present. Targeted pass 3 2026-10-02 (orchestrator): the county site is WordPress; its public media list (/wp-json/wp/v2/media) gives the upload time of every file, matching the files' Last-Modified headers. Primary and runoff settled LATER from it (DECISIONS 63). Scanned PDFs read from page images.",
+ "tag_rationale": "The 2026 primary and runoff are both LATER (county-totals reports uploaded on election night, no precinct report uploaded that night per the site's media list), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS.",
+ "agent": "research-6",
+ "method_version": "v2",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "Only 'Official-Results-20241105.pdf' (Last-Modified Nov 13 2024) and an official reconciliation listed. Targeted pass 3: the WordPress media list for Nov 5 noon to Nov 7 shows one unrelated upload ('appointment-fees-2024-10.pdf'); no election-night results file, so no county totals time exists and the election stays UNDETERMINED."
   },
-  "sources": [
-    {
-      "url": "https://www.co.pecos.tx.us/election-information-past-elections/",
-      "via": "fetch_module",
-      "quote": "Official Republican Precinct by Precinct Results; Official Results - Precinct by Precinct - Republican Party; Official Results",
-      "supports": "only official files listed",
-      "content_hash": "3074739cd2b8398bc560bf52c9f47e425d08b581e1b9453a767b11c29cf39866"
-    },
-    {
-      "url": "https://www.co.pecos.tx.us/wp-content/uploads/2024/11/Official-Results-20241105.pdf",
-      "via": "fetch_module",
-      "quote": "Last-Modified Wed, 13 Nov 2024 01:51:57 GMT",
-      "supports": "2024 file posted after election night",
-      "content_hash": "56b55b732232dae0448b5fe358fa1df3ed594d748cab535a5b5d58b500b24684"
-    },
-    {
-      "url": "https://www.co.pecos.tx.us/wp-content/uploads/2026/03/20260303-Official-Results.pdf",
-      "via": "fetch_module",
-      "quote": "Last-Modified Tue, 10 Mar 2026 00:15:11 GMT",
-      "supports": "2026 primary file posted after election night",
-      "content_hash": "8030ee5ec9a31fee73d5c8115d548523c71c4fa9dedb68c26b8c8628d4738f70"
-    }
-  ]
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2026-03-03 22:13 CT",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "0",
+   "evidence_url": "https://www.co.pecos.tx.us/wp-content/uploads/2026/03/20260303-Unofficial-Results-to-include-Election-Day.pdf",
+   "fact": "'20260303-Unofficial-Results-to-include-Election-Day.pdf' is a scanned 'Summary Results Report 2026 Primary Election March 3, 2026 ... UNOFFICIAL RESULTS to include Election Day Pecos County, Texas' with county totals only (TOTAL and VOTE % columns), footer 'Election Summary - 03/03/2026 9:49 PM ... Page 2 of 28' (read from the page image; no text layer). Upload: WordPress media list date 2026-03-03T22:13:46 and server Last-Modified 'Wed, 04 Mar 2026 04:13:46 GMT' (10:13 PM CST). The site's media list for Mar 3 noon to Mar 5 lists only three files: '20260303-Unofficial-Results-EV-Totals.pdf' (6:56 PM), this file (10:13 PM), and '20260303-Preliminary-Election-Reconciliation-Unofficial-totals.pdf' (8:11 AM Mar 4). No precinct report was uploaded on election night; the precinct-by-precinct files are the official ones uploaded in April 2026."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2026-05-26 22:59 CT",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "0",
+   "evidence_url": "https://www.co.pecos.tx.us/wp-content/uploads/2026/05/20260526-Unofficial-Results-including-Election-Day.pdf",
+   "fact": "'20260526-Unofficial-Results-including-Election-Day.pdf' is a scanned 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Pecos County, Texas' with county statistics ('Election Day Precincts Reporting 9 of 9'; Ballots Cast - Total 1,727 with Absentee, Early Voting, Election Day columns), footer 'Election Summary - 05/26/2026 10:01 PM ... Page 1 of 4' (read from the page image). Upload: WordPress media date 2026-05-26T22:59:17 and server Last-Modified 'Wed, 27 May 2026 03:59:17 GMT' (10:59 PM CDT). The media list for May 26 noon to May 28 lists only '20260526-Unofficial-Results.pdf' (6:55 PM), this file (10:59 PM), and a preliminary reconciliation and hand count audit notice (9:16 PM May 27). No precinct report was uploaded on election night; the precinct-by-precinct results are the official files uploaded in June 2026."
+  }
+ },
+ "sources": [
+  {
+   "url": "https://www.co.pecos.tx.us/election-information-past-elections/",
+   "via": "fetch_module",
+   "quote": "Official Republican Precinct by Precinct Results; Official Results - Precinct by Precinct - Republican Party; Official Results",
+   "supports": "only official files listed",
+   "content_hash": "3074739cd2b8398bc560bf52c9f47e425d08b581e1b9453a767b11c29cf39866"
+  },
+  {
+   "url": "https://www.co.pecos.tx.us/wp-content/uploads/2024/11/Official-Results-20241105.pdf",
+   "via": "fetch_module",
+   "quote": "Last-Modified Wed, 13 Nov 2024 01:51:57 GMT",
+   "supports": "2024 file posted after election night",
+   "content_hash": "56b55b732232dae0448b5fe358fa1df3ed594d748cab535a5b5d58b500b24684"
+  },
+  {
+   "url": "https://www.co.pecos.tx.us/wp-content/uploads/2026/03/20260303-Official-Results.pdf",
+   "via": "fetch_module",
+   "quote": "Last-Modified Tue, 10 Mar 2026 00:15:11 GMT",
+   "supports": "2026 primary file posted after election night",
+   "content_hash": "8030ee5ec9a31fee73d5c8115d548523c71c4fa9dedb68c26b8c8628d4738f70"
+  },
+  {
+   "url": "https://www.co.pecos.tx.us/wp-content/uploads/2026/03/20260303-Unofficial-Results-to-include-Election-Day.pdf",
+   "via": "fetch_module",
+   "content_hash": "8be59354ac08295beb31df7afaeaf9d30218844fccb4363945cd0becb6d3c34d",
+   "quote": "UNOFFICIAL RESULTS to include Election Day ... Election Summary - 03/03/2026 9:49 PM; Last-Modified Wed, 04 Mar 2026 04:13:46 GMT",
+   "supports": "2026_primary county totals on election night"
+  },
+  {
+   "url": "https://www.co.pecos.tx.us/wp-json/wp/v2/media?after=2026-03-03T12:00:00&before=2026-03-05T00:00:00&per_page=100",
+   "via": "fetch_module",
+   "content_hash": "fa16823def08b0b9e7d4ebd13813f60e0bc323bddc595b19605beddec04ac8d2",
+   "quote": "2026-03-03T18:56:49 EV-Totals; 2026-03-03T22:13:46 Unofficial-Results-to-include-Election-Day; 2026-03-04T08:11:24 Preliminary-Election-Reconciliation",
+   "supports": "2026_primary complete upload log for election night: no precinct report"
+  },
+  {
+   "url": "https://www.co.pecos.tx.us/wp-content/uploads/2026/05/20260526-Unofficial-Results-including-Election-Day.pdf",
+   "via": "fetch_module",
+   "content_hash": "9f499a93afb69275091a00c0937ae8f92dc311929fedf433173a351027e58f23",
+   "quote": "UNOFFICIAL RESULTS ... Election Day Precincts Reporting 9 of 9 ... Election Summary - 05/26/2026 10:01 PM; Last-Modified Wed, 27 May 2026 03:59:17 GMT",
+   "supports": "2026_runoff county totals on election night"
+  },
+  {
+   "url": "https://www.co.pecos.tx.us/wp-json/wp/v2/media?after=2026-05-26T12:00:00&before=2026-05-28T00:00:00&per_page=100",
+   "via": "fetch_module",
+   "content_hash": "65c5bfaaaae6baea4196154d6b4d8c6b22af0210483b7c83b1433ed46f7abca7",
+   "quote": "2026-05-26T18:55:08 Unofficial-Results; 2026-05-26T22:59:17 Unofficial-Results-including-Election-Day; 2026-05-27T21:16:53 Preliminary-Election-Reconciliation, Notice-of-Post-Election-Hand-Count-Audit",
+   "supports": "2026_runoff complete upload log for election night: no precinct report"
+  }
+ ]
 }
