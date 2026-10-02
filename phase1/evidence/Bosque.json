@@ -1,49 +1,49 @@
 {
   "county": "Bosque",
-  "tag": "UNKNOWN",
-  "confidence": "low",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
-  "results_url": "",
-  "platform": "unknown",
+  "results_url": "https://www.bosquecounty.gov/198/Recent-Elections",
+  "platform": "county_pdfs",
   "host": "www.bosquecounty.gov",
-  "evidence_url": "",
+  "evidence_url": "https://www.bosquecounty.gov/DocumentCenter/View/2515",
   "evidence_snapshot_timestamp": "",
-  "precinct_first_seen_local_time": "",
+  "precinct_first_seen_local_time": "2024-11-05 20:53 CT",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL www.bosquecounty.us (http and https) returns HTTP 403 whose body is the session egress proxy message 'Host not in allowlist: www.bosquecounty.gov. Add this host to your network egress settings to allow access.' (the county site redirects to www.bosquecounty.gov). This is an environment network limit, not county bot protection; the county's results page was not read. No Clarity site (elections.json 404). Check 3 pending (wayback-data branch not found on origin).",
-  "tag_rationale": "All three elections are UNDETERMINED (county site unreachable from this environment, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
+  "notes": "Seed URL www.bosquecounty.us (http and https) returns HTTP 403 whose body is the session egress proxy message 'Host not in allowlist: www.bosquecounty.gov. Add this host to your network egress settings to allow access.' (the county site redirects to www.bosquecounty.gov). This is an environment network limit, not county bot protection; the county's results page was not read. No Clarity site (elections.json 404). Check 3 pending (wayback-data branch not found on origin). Targeted pass 3 2026-10-02 (targeted3-K): The county moved to a CivicPlus site at www.bosquecounty.gov, now reachable (the earlier proxy block is gone). Its election pages list unofficial per-precinct reports for all three elections. 2024_general, 2026_primary, 2026_runoff UNDETERMINED to END (check 2, printed run times 2024-11-05 20:53, 2026-03-03 21:32, 2026-05-26 20:34 CT; DocumentCenter sends no Last-Modified, so no upload time contradicts). The Wayback harvest's two election-night captures of the old WordPress page (23:25 and 02:16 CST) already link the per-precinct files 'Pct 1 Iredell' to 'Pct 11 Cayote'. The DocumentCenter copies are migrated files; it was not possible to compare them with the archived WordPress originals because web.archive.org was unreachable (robots check connection reset). END rather than LIVE: per-precinct files may have been posted one by one, but no upload times show separate election-night releases. Old WP REST endpoint returns 404. No sweep file for this county.",
+  "tag_rationale": "All three elections are END from check 2: unofficial per-precinct reports with election-day votes whose printed run times fall on election night, and DocumentCenter gives no upload time (rule 47); 2024 also corroborated by an election-night Wayback copy. Three END results give PRECINCT_END_OF_NIGHT.",
   "agent": "research-1",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
+      "result": "END",
+      "check": "2",
       "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "County site could not be reached (seed bosquecounty.us redirects to www.bosquecounty.gov, which the session's egress proxy blocks: 'Host not in allowlist'); check 2 not possible. No Clarity site. Check 3 pending."
+      "precinct_first_seen": "2024-11-05 20:53 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.bosquecounty.gov/DocumentCenter/View/587/Pct-1-Iredell-PDF",
+      "fact": "County page '2024 November 5 General Election' lists 'Pct 1 Iredell (PDF)' ... 'Pct 11 Cayote (PDF)', 'Unofficial Grand Totals (PDF)' and, separately, '... Official Results 11.05.24'. 'Pct 1 Iredell' (page image): 'Summary Results Report 2024 General Election November 5, 2024 ... UNOFFICIAL RESULTS PCT 1 IREDELL Bosque County', columns 'TOTAL VOTE % Absentee Early Voting Election Day', 'REP Donald J. Trump/JD Vance 534 90.36% 10 305 219', footer 'Precinct Summary - 11/05/2024 8:53 PM'; scan CreationDate 2024-11-06 03:13:41 UTC (9:13 PM CST). CivicPlus DocumentCenter sends no Last-Modified, so no upload time; the printed run time is on election night (rule 47). Corroborated by check 3: the archived election-night copy of the county's old elections page (Wayback 20241106052529 = 2024-11-05 23:25:29 CST, and again 02:16:09 CST) already links 'Unofficial Reconciliation 11.5.24', 'Unofficial Grand Totals', 'Pct 1 Iredell' ... 'Pct 11 Cayote', 'Early Voting and Ballot by Mail' (wp-content/uploads/2024/11/Pct-1-Iredell.pdf etc.). One election-night release seen, so END."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
+      "result": "END",
+      "check": "2",
       "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "County site could not be reached (seed bosquecounty.us redirects to www.bosquecounty.gov, which the session's egress proxy blocks: 'Host not in allowlist'); check 2 not possible. No Clarity site. Check 3 pending."
+      "precinct_first_seen": "2026-03-03 21:32 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.bosquecounty.gov/DocumentCenter/View/2235",
+      "fact": "County page '2026 March 3rd Primary Election', tab 'UNOFFICIAL RESULTS', lists 'Grand Totals Unofficial Results', 'Early Voting Unofficial Results 03.03.2026' and 'Pct. 1 Iredell Unofficial Results' ... 'Pct. 11 Cayote Unofficial Results'. 'Pct. 1 Iredell Unofficial Results' (page image): 'Precinct Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS IREDELL PCT 1 Bosque County, Texas', 'Ken Paxton 117 48.75% 2 48 67' (Absentee, Early Voting, Election Day), footer 'Precinct Summary - 03/03/2026 9:32 PM'; scan CreationDate 2026-03-04 03:44:05 UTC (9:44 PM CST). DocumentCenter gives no Last-Modified, so the printed run time on election night decides (rule 47)."
     },
     "2026_runoff": {
-      "result": "UNDETERMINED",
-      "check": "none",
+      "result": "END",
+      "check": "2",
       "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "County site could not be reached (seed bosquecounty.us redirects to www.bosquecounty.gov, which the session's egress proxy blocks: 'Host not in allowlist'); check 2 not possible. No Clarity site. Check 3 pending."
+      "precinct_first_seen": "2026-05-26 20:34 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.bosquecounty.gov/DocumentCenter/View/2515",
+      "fact": "County page '2026 May 26th Primary Runoff' lists 'Unofficial Grand Totals 05.26.26', 'Early Voting Unofficial Results 05.26.26', 'Unofficial Precinct Totals 05.26.26', 'Preliminary Election Reconciliation - Unofficial Totals 05.26.26'. 'Unofficial Precinct Totals 05.26.26' (page image): 'Precinct Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS PRECINCT 1 - MERIDIAN (3) Bosque County, Texas', 'Ken Paxton 282 67.63% 10 129 143' (Absentee, Early Voting, Election Day), footer 'Precinct Summary - 05/26/2026 8:34 PM'; scan CreationDate 2026-05-27 02:11:38 UTC (9:11 PM CDT). No Last-Modified from DocumentCenter; printed run time on election night (rule 47)."
     }
   },
   "sources": [
@@ -53,6 +53,69 @@
       "content_hash": "90dd19539ae8952dd33096705c99701c91cd3a530daa42002be98494eaa0f4c9",
       "quote": "Host not in allowlist: www.bosquecounty.gov. Add this host to your network egress settings to allow access.",
       "supports": "County site blocked by environment egress allowlist"
+    },
+    {
+      "url": "https://www.bosquecounty.gov/199/2024-November-5-General-Election",
+      "via": "fetch_module",
+      "content_hash": "55b53b54987d767e77debefa80f098976178947e10598635b4cb79e3364f65b8",
+      "quote": "Pct 1 Iredell (PDF) ... PCT 9 Clifton (PDF); Unofficial Grand Totals (PDF); Unofficial Reconciliation 11.5.24 (PDF); Pct 1 Iredell Official Results 11.05.24 (PDF)",
+      "supports": "2024_general file list"
+    },
+    {
+      "url": "https://www.bosquecounty.gov/DocumentCenter/View/587/Pct-1-Iredell-PDF",
+      "via": "fetch_module",
+      "content_hash": "837957ed3c03375b61f98249ab33da582ae3509d5f267b07b851dfe04f3290e5",
+      "quote": "(page image) Summary Results Report 2024 General Election November 5, 2024 UNOFFICIAL RESULTS PCT 1 IREDELL ... REP Donald J. Trump/JD Vance 534 90.36% 10 305 219 ... Precinct Summary - 11/05/2024 8:53 PM [no Last-Modified header]",
+      "supports": "2024_general precinct numbers printed on election night"
+    },
+    {
+      "url": "https://www.bosquecounty.gov/DocumentCenter/View/589/Unofficial-Grand-Totals-PDF",
+      "via": "fetch_module",
+      "content_hash": "a684c6f9448614dd4557e8c34c0780b33d9cbe7d244545df2cb290a52159fb68",
+      "quote": "[scan, CreationDate 2024-11-06 03:49:07 UTC]",
+      "supports": "2024_general unofficial county totals"
+    },
+    {
+      "url": "phase1/wayback_snapshots/Bosque/2024_general_20241106052529_5ddaaf66ae2e.html",
+      "via": "wayback_branch",
+      "content_hash": "5ddaaf66ae2ebb016b742ac38a9f462c692bf9f1bee0d7c81025a54ba30266d7",
+      "quote": "Unofficial Reconciliation 11.5.24 / Unofficial Grand Totals / Pct 1 Iredell / Pct 2 Walnut Springs / PCT 3 Meridian / ... / Pct 11 Cayote / Early Voting and Ballot by Mail (href .../bosquewebsite/wp-content/uploads/2024/11/Pct-1-Iredell.pdf)",
+      "supports": "archived election-night page (2024-11-05 23:25:29 CST) already links per-precinct unofficial files"
+    },
+    {
+      "url": "phase1/wayback_snapshots/Bosque/2024_general_20241106081609_f4348cd22bd7.html",
+      "via": "wayback_branch",
+      "content_hash": "f4348cd22bd76f22eac9ad21bc090ce82139083797cf4d84d2410c18552896ce",
+      "quote": "Unofficial Reconciliation 11.5.24 / Unofficial Grand Totals / Pct 1 Iredell ... Pct 11 Cayote",
+      "supports": "same list at 2024-11-06 02:16:09 CST"
+    },
+    {
+      "url": "https://www.bosquecounty.gov/286/2026-March-3rd-Primary-Election",
+      "via": "fetch_module",
+      "content_hash": "ed0fd50a87ff6f1ab40eb3ea6543f4138eddc0bf633c347d5860d7adafd7346b",
+      "quote": "UNOFFICIAL RESULTS: Unofficial Reconciliation Totals; Grand Totals Unofficial Results; Early Voting Unofficial Results 03.03.2026; Pct. 1 Iredell Unofficial Results ... Pct. 11 Cayote Unofficial Results",
+      "supports": "2026_primary file list"
+    },
+    {
+      "url": "https://www.bosquecounty.gov/DocumentCenter/View/2235",
+      "via": "fetch_module",
+      "content_hash": "6aefb57856687df1074eeadce1075e06bc6a168a53ee7e3d7214fae0ed995224",
+      "quote": "(page image) Precinct Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS IREDELL PCT 1 ... Ken Paxton 117 48.75% 2 48 67 ... Precinct Summary - 03/03/2026 9:32 PM",
+      "supports": "2026_primary precinct numbers printed on election night"
+    },
+    {
+      "url": "https://www.bosquecounty.gov/290/2026-May-26th-Primary-Runoff",
+      "via": "fetch_module",
+      "content_hash": "6af05a879bb3570d515a30dbaa4ef11773b78ca93be5933df67785fc6fcfac18",
+      "quote": "Unofficial Grand Totals 05.26.26; Early Voting Unofficial Results 05.26.26; Unofficial Precinct Totals 05.26.26; Official Pct. by Pct. Totals 05.26.26",
+      "supports": "2026_runoff file list"
+    },
+    {
+      "url": "https://www.bosquecounty.gov/DocumentCenter/View/2515",
+      "via": "fetch_module",
+      "content_hash": "c1933d7670b8b5a6e420ad12486ab6de36539128dc3a00331da4cf4acb195221",
+      "quote": "(page image) Precinct Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS PRECINCT 1 - MERIDIAN (3) ... Ken Paxton 282 67.63% 10 129 143 ... Precinct Summary - 05/26/2026 8:34 PM",
+      "supports": "2026_runoff precinct numbers printed on election night"
     }
   ]
 }

@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed page (clerk/voteelectinfo.php) and the current elections page found by one web search (electionadmin/voteelectinfo.php) both return HTTP 200 with only an Incapsula bot-protection script ('/_Incapsula_Resource?...', robots noindex), so county-posted reports cannot be read; not circumvented. No Clarity site (elections.json 404) and no other vendor results site found. Check 3 pending (wayback-data branch not found on origin).",
+  "notes": "Seed page (clerk/voteelectinfo.php) and the current elections page found by one web search (electionadmin/voteelectinfo.php) both return HTTP 200 with only an Incapsula bot-protection script ('/_Incapsula_Resource?...', robots noindex), so county-posted reports cannot be read; not circumvented. No Clarity site (elections.json 404) and no other vendor results site found. Check 3 pending (wayback-data branch not found on origin). Targeted pass 3 2026-10-02 (targeted3-K): Tried: Wayback harvest (no election-night captures for aransascountytx.gov in any window); one web search (located only sample ballots in /electionadmin/e-docs/ and a news link that returns 404); /electionadmin/e-docs/ also returns the Incapsula challenge page, not circumvented. No sweep file. Nothing changed.",
   "tag_rationale": "All three elections are UNDETERMINED (bot-protected county site, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
   "agent": "research-1",
   "method_version": "v2",

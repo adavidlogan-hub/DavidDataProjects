@@ -1,93 +1,93 @@
 {
-  "county": "Howard",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
-  "elections_office_phone": "",
-  "elections_office_email": "",
-  "results_url": "https://www.co.howard.tx.us/1263/Election-Results",
-  "platform": "county_pdfs",
-  "host": "www.co.howard.tx.us",
-  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/0454/2024%20November/ENR%20w%20WI.pdf",
-  "evidence_snapshot_timestamp": "",
-  "precinct_first_seen_local_time": "",
-  "stated_change_2026": "n",
-  "stated_change_source": "",
-  "usage_notice_text": "",
-  "notes": "Seed default.aspx URL replaced by https://www.co.howard.tx.us/ (CivicPlus). Check 1: no Clarity election list (elections.json 404). The Election Results page says 'Find posted election results and related reports' and links 'View Howard County Election Results' to DocumentCenter/Index/79 and 'View Texas Election Results' to the state portal; the Document Center folder contents are loaded by JavaScript (docCenterFrontendAndRelatedBidAndJobsApp.react.js) and are not in the fetched HTML, so no results files could be listed or read. Check 2 therefore failed for all three elections. This server also stamps pages with the request time as Last-Modified. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-G): a web search located Howard County's legacy CIRA-hosted elections pages (newtools.cira.state.tx.us/page/howard.Election.Information), still updated through May 2026, with per-file Last-Modified. 2024_general UNDETERMINED to LATER (check 2). 2026_primary stays UNDETERMINED (canvass files only). 2026_runoff stays UNDETERMINED: its 'Election Night Voting Results' county-totals report is printed 8:32 PM on election night but this copy was uploaded 8:56 AM the next morning (rule 47 analogue); lead for re-review if a printed election-night time alone is accepted for LATER. CivicPlus Document Center: folder API is POST-only under /Admin and /Search is robots-disallowed, so still unreadable. Wayback harvest: co.howard.tx.us CDX robots_disallowed_or_unreachable for all three windows; web.archive.org is unreachable through the fetch module here. Sweep: no sweep file for this county.",
-  "tag_rationale": "Only the 2024 general is determined (LATER, check 2: election-night county totals uploaded 9:31 PM CST and no precinct report listed), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
-  "agent": "research-4",
-  "method_version": "v2",
-  "sources": [
-    {
-      "url": "https://www.co.howard.tx.us/1263/Election-Results",
-      "via": "fetch_module",
-      "content_hash": "0fdaa159702164a142e477128a5e51730b556b20f77995f3657904e89816b7d8",
-      "quote": "Howard County Results and Reports | Open the results folder to browse available reports by election.",
-      "supports": "County results live in the Document Center"
-    },
-    {
-      "url": "https://www.co.howard.tx.us/DocumentCenter/Index/79",
-      "via": "fetch_module",
-      "content_hash": "8b671602d26b65598418a6b209b83b03ea426a3b46b43cccd409d36669f8efe0",
-      "quote": "folderId = \"79\"; (contents rendered by docCenterFrontendAndRelatedBidAndJobsApp.react.js)",
-      "supports": "Folder listing not present in static HTML"
-    },
-    {
-      "url": "https://newtools.cira.state.tx.us/page/howard.Election.Information",
-      "via": "fetch_module",
-      "content_hash": "96bf39d8bd3b85b26b438eae7fab803eee6d418a64ba146b851e524a62e89d66",
-      "quote": "November 5, 2024 ... Early Voting and BBM Results with write ins Election Night UNOFFICIAL Results - ENR w WI.pdf ... Election Results - Unofficial until canvass ... 2026 Primary Election 2026 Dem Canvass Summary.pdf | 2026 Dem Canvass Table.pdf | 2026 Rep Canvass Summary.pdf | 2026 Rep Canvass Table.pdf",
-      "supports": "Howard County's own (legacy CIRA-hosted) elections page listing results files for each election"
-    },
-    {
-      "url": "https://newtools.cira.state.tx.us/upload/page/0454/2024%20November/ENR%20w%20WI.pdf",
-      "via": "fetch_module",
-      "content_hash": "39b1cd47cb19437b6365209896c7e022f9a78b46718f9f4cfea0545e9faf1e4a",
-      "quote": "Summary Results Report UNOFFICIAL RESULTS 2024 November General and Special Election ELECTION NIGHT ... Election Night Results - 11/05/2024 9:22 PM (Last-Modified Wed, 06 Nov 2024 03:31:53 GMT)",
-      "supports": "2024 general: county totals uploaded on election night, no precinct numbers; LATER"
-    },
-    {
-      "url": "https://newtools.cira.state.tx.us/upload/page/0454/2026%20Primary/Runoff/ENR.pdf",
-      "via": "fetch_module",
-      "content_hash": "cc575ae58a3b3738cd9fb63f0f24354bc7683f7536cafba1b3c526ebeadb1d5c",
-      "quote": "2026 Joint Primary Election Runoff Election Night Voting Results ... Unofficial Results ... Election Summary - 05/26/2026 8:32 PM (Last-Modified Wed, 27 May 2026 13:56:10 GMT)",
-      "supports": "2026 runoff: county totals printed on election night but this copy uploaded next morning; UNDETERMINED"
-    },
-    {
-      "url": "websearch:?q=howard%20county%20texas%20unofficial%20election%20results%20precinct%20big%20spring%20march%203%202026",
-      "via": "websearch",
-      "content_hash": "2b29456a43f28908a3887fa63755e2478d0c2515c1fa8ebead26866b18527d58",
-      "quote": "newtools.cira.state.tx.us https://newtools.cira.state.tx.us/page/howard.Elections | https://newtools.cira.state.tx.us/upload/page/0454/2026 Primary/Runoff/ENR.pdf",
-      "supports": "Located the CIRA-hosted county elections pages (search text is not evidence)"
-    }
-  ],
-  "elections": {
-    "2024_general": {
-      "result": "LATER",
-      "check": "2",
-      "county_totals_first_seen": "2024-11-05 21:31 CT",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "0",
-      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/0454/2024%20November/ENR%20w%20WI.pdf",
-      "fact": "Howard County's CIRA-hosted Election Information page lists for November 5, 2024 only 'Early Voting and BBM Results with write ins' (EV Results w WI.pdf), 'Election Night UNOFFICIAL Results' (ENR w WI.pdf), a consolidated voted list, and preliminary and official reconciliation forms; no precinct results file. ENR w WI.pdf: 'Summary Results Report UNOFFICIAL RESULTS 2024 November General and Special Election ELECTION NIGHT November 5, 2024 Howard County ... Election Day Precincts Reporting 12 of 12 ... Precincts Partially Reported 12 of 12', footer 'Election Night Results - 11/05/2024 9:22 PM', single TOTAL column (county totals only); Last-Modified Wed, 06 Nov 2024 03:31:53 GMT (9:31 PM CST). Precinct numbers were never published on this page; the CivicPlus Document Center folder (DocumentCenter/Index/79) cannot be read, so whether a canvass precinct report was posted there later is not known."
-    },
-    "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "Rule 43: no election-night file found. The CIRA-hosted Election Information page lists for the 2026 Primary Election only canvass files ('2026 Dem Canvass Summary', '2026 Dem Canvass Table', '2026 Rep Canvass Summary', '2026 Rep Canvass Table', hand count letter and audit certifications); no unofficial or election-night report. The CivicPlus Document Center folder cannot be read (JavaScript; its folder API is POST-only under /Admin). Wayback harvest could not query co.howard.tx.us."
-    },
-    "2026_runoff": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "Rule 47/43: the only unofficial report, 'ENR.pdf' ('2026 Joint Primary Election Runoff Election Night Voting Results ... Unofficial Results May 26, 2026 Howard County ... Election Day Precincts Reporting 7 of 7 ... Precincts Partially Reported 7 of 7', footer 'Election Summary - 05/26/2026 8:32 PM', county totals), has Last-Modified Wed, 27 May 2026 13:56:10 GMT (8:56 AM CDT May 27) and PDF ModDate 2026-05-27 13:50:15 UTC, so this copy was saved and uploaded the morning after; what was posted on election night cannot be seen. Other runoff files are early voting, reconciliation, hand count and 'Canvass Table_poll_5_26_2026.pdf'."
-    }
+ "county": "Howard",
+ "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "confidence": "med",
+ "elections_office_phone": "",
+ "elections_office_email": "",
+ "results_url": "https://www.co.howard.tx.us/1263/Election-Results",
+ "platform": "county_pdfs",
+ "host": "www.co.howard.tx.us",
+ "evidence_url": "https://newtools.cira.state.tx.us/upload/page/0454/2024%20November/ENR%20w%20WI.pdf",
+ "evidence_snapshot_timestamp": "",
+ "precinct_first_seen_local_time": "",
+ "stated_change_2026": "n",
+ "stated_change_source": "",
+ "usage_notice_text": "",
+ "notes": "Seed default.aspx URL replaced by https://www.co.howard.tx.us/ (CivicPlus). Check 1: no Clarity election list (elections.json 404). The Election Results page says 'Find posted election results and related reports' and links 'View Howard County Election Results' to DocumentCenter/Index/79 and 'View Texas Election Results' to the state portal; the Document Center folder contents are loaded by JavaScript (docCenterFrontendAndRelatedBidAndJobsApp.react.js) and are not in the fetched HTML, so no results files could be listed or read. Check 2 therefore failed for all three elections. This server also stamps pages with the request time as Last-Modified. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-G): a web search located Howard County's legacy CIRA-hosted elections pages (newtools.cira.state.tx.us/page/howard.Election.Information), still updated through May 2026, with per-file Last-Modified. 2024_general UNDETERMINED to LATER (check 2). 2026_primary stays UNDETERMINED (canvass files only). 2026_runoff stays UNDETERMINED: its 'Election Night Voting Results' county-totals report is printed 8:32 PM on election night but this copy was uploaded 8:56 AM the next morning (rule 47 analogue); lead for re-review if a printed election-night time alone is accepted for LATER. CivicPlus Document Center: folder API is POST-only under /Admin and /Search is robots-disallowed, so still unreadable. Wayback harvest: co.howard.tx.us CDX robots_disallowed_or_unreachable for all three windows; web.archive.org is unreachable through the fetch module here. Sweep: no sweep file for this county. Orchestrator ruling 2026-10-02: 2026_runoff set to LATER under DECISIONS 67.",
+ "tag_rationale": "Per-election results: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff LATER; the fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS.",
+ "agent": "research-4",
+ "method_version": "v2",
+ "sources": [
+  {
+   "url": "https://www.co.howard.tx.us/1263/Election-Results",
+   "via": "fetch_module",
+   "content_hash": "0fdaa159702164a142e477128a5e51730b556b20f77995f3657904e89816b7d8",
+   "quote": "Howard County Results and Reports | Open the results folder to browse available reports by election.",
+   "supports": "County results live in the Document Center"
+  },
+  {
+   "url": "https://www.co.howard.tx.us/DocumentCenter/Index/79",
+   "via": "fetch_module",
+   "content_hash": "8b671602d26b65598418a6b209b83b03ea426a3b46b43cccd409d36669f8efe0",
+   "quote": "folderId = \"79\"; (contents rendered by docCenterFrontendAndRelatedBidAndJobsApp.react.js)",
+   "supports": "Folder listing not present in static HTML"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/page/howard.Election.Information",
+   "via": "fetch_module",
+   "content_hash": "96bf39d8bd3b85b26b438eae7fab803eee6d418a64ba146b851e524a62e89d66",
+   "quote": "November 5, 2024 ... Early Voting and BBM Results with write ins Election Night UNOFFICIAL Results - ENR w WI.pdf ... Election Results - Unofficial until canvass ... 2026 Primary Election 2026 Dem Canvass Summary.pdf | 2026 Dem Canvass Table.pdf | 2026 Rep Canvass Summary.pdf | 2026 Rep Canvass Table.pdf",
+   "supports": "Howard County's own (legacy CIRA-hosted) elections page listing results files for each election"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/0454/2024%20November/ENR%20w%20WI.pdf",
+   "via": "fetch_module",
+   "content_hash": "39b1cd47cb19437b6365209896c7e022f9a78b46718f9f4cfea0545e9faf1e4a",
+   "quote": "Summary Results Report UNOFFICIAL RESULTS 2024 November General and Special Election ELECTION NIGHT ... Election Night Results - 11/05/2024 9:22 PM (Last-Modified Wed, 06 Nov 2024 03:31:53 GMT)",
+   "supports": "2024 general: county totals uploaded on election night, no precinct numbers; LATER"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/0454/2026%20Primary/Runoff/ENR.pdf",
+   "via": "fetch_module",
+   "content_hash": "cc575ae58a3b3738cd9fb63f0f24354bc7683f7536cafba1b3c526ebeadb1d5c",
+   "quote": "2026 Joint Primary Election Runoff Election Night Voting Results ... Unofficial Results ... Election Summary - 05/26/2026 8:32 PM (Last-Modified Wed, 27 May 2026 13:56:10 GMT)",
+   "supports": "2026 runoff: county totals printed on election night but this copy uploaded next morning; UNDETERMINED"
+  },
+  {
+   "url": "websearch:?q=howard%20county%20texas%20unofficial%20election%20results%20precinct%20big%20spring%20march%203%202026",
+   "via": "websearch",
+   "content_hash": "2b29456a43f28908a3887fa63755e2478d0c2515c1fa8ebead26866b18527d58",
+   "quote": "newtools.cira.state.tx.us https://newtools.cira.state.tx.us/page/howard.Elections | https://newtools.cira.state.tx.us/upload/page/0454/2026 Primary/Runoff/ENR.pdf",
+   "supports": "Located the CIRA-hosted county elections pages (search text is not evidence)"
   }
+ ],
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2024-11-05 21:31 CT",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "0",
+   "evidence_url": "https://newtools.cira.state.tx.us/upload/page/0454/2024%20November/ENR%20w%20WI.pdf",
+   "fact": "Howard County's CIRA-hosted Election Information page lists for November 5, 2024 only 'Early Voting and BBM Results with write ins' (EV Results w WI.pdf), 'Election Night UNOFFICIAL Results' (ENR w WI.pdf), a consolidated voted list, and preliminary and official reconciliation forms; no precinct results file. ENR w WI.pdf: 'Summary Results Report UNOFFICIAL RESULTS 2024 November General and Special Election ELECTION NIGHT November 5, 2024 Howard County ... Election Day Precincts Reporting 12 of 12 ... Precincts Partially Reported 12 of 12', footer 'Election Night Results - 11/05/2024 9:22 PM', single TOTAL column (county totals only); Last-Modified Wed, 06 Nov 2024 03:31:53 GMT (9:31 PM CST). Precinct numbers were never published on this page; the CivicPlus Document Center folder (DocumentCenter/Index/79) cannot be read, so whether a canvass precinct report was posted there later is not known."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "Rule 43: no election-night file found. The CIRA-hosted Election Information page lists for the 2026 Primary Election only canvass files ('2026 Dem Canvass Summary', '2026 Dem Canvass Table', '2026 Rep Canvass Summary', '2026 Rep Canvass Table', hand count letter and audit certifications); no unofficial or election-night report. The CivicPlus Document Center folder cannot be read (JavaScript; its folder API is POST-only under /Admin). Wayback harvest could not query co.howard.tx.us."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2026-05-26 20:32 CT",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "0",
+   "evidence_url": "https://newtools.cira.state.tx.us/upload/page/0454/2026%20Primary/Runoff/ENR.pdf",
+   "fact": "Ruled LATER under DECISIONS 67: 'ENR.pdf' county totals printed 8:32 PM on election night; no unofficial precinct report was posted for the runoff (only canvass files); the online copy was uploaded 8:56 AM May 27. Rule 47/43: the only unofficial report, 'ENR.pdf' ('2026 Joint Primary Election Runoff Election Night Voting Results ... Unofficial Results May 26, 2026 Howard County ... Election Day Precincts Reporting 7 of 7 ... Precincts Partially Reported 7 of 7', footer 'Election Summary - 05/26/2026 8:32 PM', county totals), has Last-Modified Wed, 27 May 2026 13:56:10 GMT (8:56 AM CDT May 27) and PDF ModDate 2026-05-27 13:50:15 UTC, so this copy was saved and uploaded the morning after; what was posted on election night cannot be seen. Other runoff files are early voting, reconciliation, hand count and 'Canvass Table_poll_5_26_2026.pdf'."
+  }
+ }
 }

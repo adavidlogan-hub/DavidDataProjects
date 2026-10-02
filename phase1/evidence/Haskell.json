@@ -1,20 +1,20 @@
 {
   "county": "Haskell",
-  "tag": "UNKNOWN",
-  "confidence": "low",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.haskellcountytx.gov/page/haskell.Elections",
-  "platform": "unknown",
+  "platform": "county_pdfs",
   "host": "www.haskellcountytx.gov",
-  "evidence_url": "",
+  "evidence_url": "https://www.haskellcountytx.gov/upload/page/7706/REPUBLICAN%20UNOFFICIAL%20RESULTS%205.26.26.pdf",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Check 2 failed: the seed host www.co.haskell.tx.us returns a TLS hostname mismatch over https and 403 over http, and the current county host located by one web search (www.haskellcountytx.gov, also haskellcountytx.gov) is unreachable through the fetch module (robots check: connection reset by peer), so no county page or file could be read. The search listing names SOS 'Election Unofficial Results Report' PDFs for the 2026 primaries on that host, but search text is not evidence and the files could not be fetched. No Clarity link found. Check 3 pending (wayback-data branch not on origin).",
-  "tag_rationale": "All three elections are UNDETERMINED (county host unreachable, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
+  "notes": "Check 2 failed: the seed host www.co.haskell.tx.us returns a TLS hostname mismatch over https and 403 over http, and the current county host located by one web search (www.haskellcountytx.gov, also haskellcountytx.gov) is unreachable through the fetch module (robots check: connection reset by peer), so no county page or file could be read. The search listing names SOS 'Election Unofficial Results Report' PDFs for the 2026 primaries on that host, but search text is not evidence and the files could not be fetched. No Clarity link found. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-K): Settled the verifier disagreement (TARGETED3_BRIEF 2c) from files opened in this pass: the county host www.haskellcountytx.gov now loads through the fetch module. 2026_primary UNDETERMINED to LATER (check 2; Democratic county-totals report uploaded 2026-03-03 23:16 CT, precinct-by-precinct files uploaded 2026-04-01). 2026_runoff UNDETERMINED to LATER (check 2; county totals uploaded 19:58 and 20:33 CT, precinct file uploaded 2026-06-29). 2024_general stays UNDETERMINED (only a July 2025 scan). Agrees with the verifier. Wayback harvest had no captures (it targeted the old host co.haskell.tx.us); web.archive.org was unreachable from this session (robots check connection reset). No sweep file (sweep pending/not covering this county).",
+  "tag_rationale": "2026_primary and 2026_runoff are LATER (check 2: SOS-format county totals uploaded on election night, precinct files uploaded weeks later); 2024_general UNDETERMINED. Two LATER results give COUNTY_ONLY_PRECINCT_AT_CANVASS.",
   "agent": "research-4",
   "method_version": "v2",
   "sources": [
@@ -24,6 +24,69 @@
       "content_hash": "34c26cacd474ea3bde2fb1e198bb2b639e8cfd5ba2bbe14fc298c83601f16c83",
       "quote": "Haskell County, Texas https://www.haskellcountytx.gov/page/haskell.Elections",
       "supports": "Located the current county elections page (not fetchable)"
+    },
+    {
+      "url": "https://www.haskellcountytx.gov/page/haskell.Elections",
+      "via": "fetch_module",
+      "content_hash": "95eed95d697e9bada393bb55f132a88de5dc67d3afd5581893e2cbcc4c535ce4",
+      "quote": "MARCH 3, 2026 REPUBLICAN UNOFFICIAL RESULTS; MARCH 3, 2026 DEMOCRATIC UNOFFICIAL RESULTS; REPBUBLICAN PRECINCT BY PRECINCT 3.3.26; MAY 26, 2026 REPUBLICAN UNOFFICIAL RESULTS; MAY 26, 2026 DEMOCRATIC UNOFFICIAL RESULTS; PRIMARY RUNOFF RESULTS FOR PRECINCT BY PRECINCT/ REP AND DEM; NOVEMBER 5TH 2024 PRECINCT BY PRECINCT ELECTION RESULTS",
+      "supports": "list of result files per election"
+    },
+    {
+      "url": "https://www.haskellcountytx.gov/upload/page/7706/ELECTION-UNOFFICIAL-RESULT-REPORT%20DEMOCRATIC%203.3.26.pdf",
+      "via": "fetch_module",
+      "content_hash": "6137815f96bbb9fb31a85b9cc9ea0ae3383d12303ad1dadfc119a20162ee25f8",
+      "quote": "Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY ELECTION March 03, 2026 HASKELL County ... Election Day Count ... JAMES TALARICO 3 33 17 36 53 [Last-Modified Wed, 04 Mar 2026 05:16:53 GMT; CreationDate 2026-03-04 05:00:07 UTC]",
+      "supports": "2026_primary county totals uploaded on election night"
+    },
+    {
+      "url": "https://www.haskellcountytx.gov/upload/page/7706/ELECTION-UNOFFICIAL-RESULT-REPORT_52585_1772604388995.pdf",
+      "via": "fetch_module",
+      "content_hash": "1b826c4588d34c5fa58ad3199c7d1964fa5ff4e63ff73b5fe0ada788fd277ee7",
+      "quote": "Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION ... JOHN CORNYN 11 202 215 213 428 [CreationDate 2026-03-04 06:06:29 UTC; Last-Modified Wed, 04 Mar 2026 13:54:56 GMT]",
+      "supports": "2026_primary Republican county totals printed on election night"
+    },
+    {
+      "url": "https://www.haskellcountytx.gov/upload/page/7706/REPUBLICAN%20PRECINCT%20BY%20PRECINCT%203.3.26.pdf",
+      "via": "fetch_module",
+      "content_hash": "597033042e2238362a7cfcff8467bc78852b9e46277ac473ce0f465842c0b4e1",
+      "quote": "[scan, Last-Modified Wed, 01 Apr 2026 20:44:30 GMT]",
+      "supports": "2026_primary precinct numbers posted Apr 1"
+    },
+    {
+      "url": "https://www.haskellcountytx.gov/upload/page/7706/DEMOCRATIC%20PRECINCT%20BY%20PRECINCT%203.3.26.pdf",
+      "via": "fetch_module",
+      "content_hash": "376fab3a38162f3b05a9271ca46b20600858d15f6e3c413dc7d9a88ee5cd1d9a",
+      "quote": "[scan, Last-Modified Wed, 01 Apr 2026 20:43:36 GMT]",
+      "supports": "2026_primary precinct numbers posted Apr 1"
+    },
+    {
+      "url": "https://www.haskellcountytx.gov/upload/page/7706/REPUBLICAN%20UNOFFICIAL%20RESULTS%205.26.26.pdf",
+      "via": "fetch_module",
+      "content_hash": "627f863178a89c8dd44a3f21d4230282cdf5d6750ce3fbc40b723ac7512d0e6d",
+      "quote": "(from page image) Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 HASKELL County ... KEN PAXTON 15 125 133 140 273 [Last-Modified Wed, 27 May 2026 01:33:23 GMT]",
+      "supports": "2026_runoff county totals uploaded on election night"
+    },
+    {
+      "url": "https://www.haskellcountytx.gov/upload/page/7706/UNOFFICIAL%20DEMOCRATIC%20RUNOFF%20RESULTS%205.26.26.pdf",
+      "via": "fetch_module",
+      "content_hash": "2301e9483e5dd7d040508e40a438b63d94b36e686923f16030ca0ed16a92a703",
+      "quote": "(from page image) Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY RUNOFF ELECTION ... VIKKI GOODWIN 0 12 2 12 14 [Last-Modified Wed, 27 May 2026 00:58:27 GMT]",
+      "supports": "2026_runoff county totals uploaded 7:58 PM CDT"
+    },
+    {
+      "url": "https://www.haskellcountytx.gov/upload/page/7706/PRIMARY%20RUNOFF%20PCT%20BY%20PCT.pdf",
+      "via": "fetch_module",
+      "content_hash": "d95c42410e8482c6f3caec70f977c92ec177dc9685dab4af16b3b5ae363fc230",
+      "quote": "[scan, Last-Modified Mon, 29 Jun 2026 15:04:45 GMT]",
+      "supports": "2026_runoff precinct numbers posted Jun 29"
+    },
+    {
+      "url": "https://www.haskellcountytx.gov/upload/page/7706/precinct%20by%20precinct%20for%20nov%202024%20election.pdf",
+      "via": "fetch_module",
+      "content_hash": "f2f55f63755248b3ef0f4e4a8892366f0b751b4d2d0c1365a47fb05f04ab5743",
+      "quote": "[scan, CreationDate 2025-07-08, Last-Modified Thu, 05 Feb 2026 14:43:37 GMT]",
+      "supports": "2024_general only post-election file"
     }
   ],
   "elections": {
@@ -34,25 +97,25 @@
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "",
-      "fact": "County site unreachable through the fetch module; nothing read. Check 3 pending."
+      "fact": "Only 2024 general results file on the county page is 'NOVEMBER 5TH 2024 PRECINCT BY PRECINCT ELECTION RESULTS' (scan, PDF CreationDate 2025-07-08 15:49:54 UTC, Last-Modified Thu, 05 Feb 2026 14:43:37 GMT); no election-night file survives. Wayback harvest (target co.haskell.tx.us) found no election-night captures; web.archive.org unreachable from this session for the current host. Rule 43: UNDETERMINED."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "County site unreachable through the fetch module; nothing read. Check 3 pending."
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 23:16 CT",
+      "precinct_first_seen": "2026-04-01 15:44 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.haskellcountytx.gov/upload/page/7706/ELECTION-UNOFFICIAL-RESULT-REPORT%20DEMOCRATIC%203.3.26.pdf",
+      "fact": "County page links 'MARCH 3, 2026 DEMOCRATIC UNOFFICIAL RESULTS' (SOS-format 'Texas Secretary of State Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY ELECTION March 03, 2026 HASKELL County', county totals with columns 'Early Voting by Mail / Early Voting In Person / Election Day Count / Early Voting Count / Total Voters', e.g. 'JAMES TALARICO 3 33 17 36 53'), PDF CreationDate 2026-03-04 05:00:07 UTC, Last-Modified Wed, 04 Mar 2026 05:16:53 GMT (11:16 PM CST election night); and 'MARCH 3, 2026 REPUBLICAN UNOFFICIAL RESULTS' (same format, 'JOHN CORNYN 11 202 215 213 428'), CreationDate 2026-03-04 06:06:29 UTC (12:06 AM CST), Last-Modified Wed, 04 Mar 2026 13:54:56 GMT. The only primary precinct files, 'REPBUBLICAN PRECINCT BY PRECINCT 3.3.26' and 'DEOMOCRATIC PRECINCT BY PRECINCT 3.3.26', are scans with Last-Modified Wed, 01 Apr 2026 20:44:30 GMT and 20:43:36 GMT. County totals on election night; precinct numbers four weeks later."
     },
     "2026_runoff": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "County site unreachable through the fetch module; nothing read. Check 3 pending."
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 19:58 CT",
+      "precinct_first_seen": "2026-06-29 10:04 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.haskellcountytx.gov/upload/page/7706/REPUBLICAN%20UNOFFICIAL%20RESULTS%205.26.26.pdf",
+      "fact": "County page links 'MAY 26, 2026 DEMOCRATIC UNOFFICIAL RESULTS' (scan, Last-Modified Wed, 27 May 2026 00:58:27 GMT = 7:58 PM CDT) and 'MAY 26, 2026 REPUBLICAN UNOFFICIAL RESULTS' (scan, Last-Modified Wed, 27 May 2026 01:33:23 GMT = 8:33 PM CDT). Read from the page images: 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 HASKELL County', county totals only, e.g. 'KEN PAXTON 15 125 133 140 273' (Election Day Count 133). 'PRIMARY RUNOFF RESULTS FOR PRECINCT BY PRECINCT/ REP AND DEM' is a scan with Last-Modified Mon, 29 Jun 2026 15:04:45 GMT. County totals on election night; precinct numbers a month later."
     }
   }
 }
