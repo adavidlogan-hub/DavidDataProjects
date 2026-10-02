@@ -1,0 +1,56 @@
+{
+  "county": "Ward",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only '2024 General Election Cumulative Totals Report' (scan CreationDate Nov 7 2024 14:26 UTC, Last-Modified Thu, 07 Nov 2024 14:39:28 GMT) and reconciliation forms. No election-night file survives. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "2026 primary section lists notices, early voter check-in, notice of canvass and hand count certificates; no results file. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'2026 RUN-OFF RESULTS' (scan, page 1 read as image): 'Cumulative Results Report WARD COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Unofficial Results', county totals (US Senator Ken Paxton Election Day Voting 121, Total 279). Scan CreationDate May 27 01:19 UTC; Last-Modified Wed, 27 May 2026 01:23:23 GMT = 8:23 PM CDT election night. Precinct numbers only in 'REPUBLICAN CANVASS MAY 26, 2026' ('Canvass Results Report ... OFFICIAL', Run Date 06/01/2026), Last-Modified Thu, 04 Jun 2026 21:27:54 GMT."
+    }
+  },
+  "rationale": "Only the runoff is determined (LATER: county-total cumulative uploaded 8:23 PM CDT election night, precinct canvass uploaded Jun 4), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "sources": [
+    {
+      "url": "https://www.co.ward.tx.us/page/ward.Elections.Results",
+      "what_i_checked": "results file list",
+      "content_hash": "68b03c544b448bb30d985db98d68b38b764e4b4ace196300b104d66cf9756e66"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/7228/2026%20RUN%20OFF%20RESULTS.pdf",
+      "what_i_checked": "runoff unofficial cumulative, uploaded 01:23:23 GMT May 27",
+      "content_hash": "cdc05676b54da969f07db20832664be389a01022fc8876cdbbdb475efe104d35"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/7228/reP%20PRIM%20RUNOFF%20CANVASS.pdf",
+      "what_i_checked": "runoff precinct canvass official, uploaded Jun 4",
+      "content_hash": "4f76621edded5c047ef5bfd1df2305ae93d9fedcc7ec9aef2d7816f11d871be6"
+    },
+    {
+      "url": "https://www.co.ward.tx.us/upload/page/7228/docs/2024 Elections/2024 General Election/2024 General Election Total Count.pdf",
+      "what_i_checked": "2024 cumulative uploaded Nov 7",
+      "content_hash": "d754009790a2e47e8d078b22012d3557ec74a70d0105b1d7a18b92ba18fe0d46"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:33:30Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED). Both: cumulative report uploaded Nov 7.",
+    "2026_primary": "same (UNDETERMINED). No results file listed.",
+    "2026_runoff": "same (LATER, check 2). Both: county-total cumulative uploaded 01:23 GMT May 27 (8:23 PM CDT); precinct numbers only in the canvass files (I saw Run Date 06/01/2026, uploaded Jun 4).",
+    "unsupported_or_unchecked": "None found."
+  },
+  "compared_at_utc": "2026-10-02T16:33:36Z"
+}
