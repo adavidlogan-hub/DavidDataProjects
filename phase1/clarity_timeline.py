@@ -118,8 +118,10 @@ def run(county: str, agent: str, eid_override: dict | None = None) -> dict:
     elections = json.loads(body(lst)) if lst.ok else []
     for key, date in TARGETS.items():
         if key in eid_override:
-            # Election ID taken from a link on the county's own site (the Clarity list can be incomplete).
-            match = [{"EID": eid_override[key], "ElectionName": "(EID supplied from county site link)"}]
+            # Election IDs taken from a link (the Clarity list can be incomplete). Several IDs can share
+            # one election, e.g. separate party primaries: "2026_primary=126006,126007".
+            match = [{"EID": x, "ElectionName": "(EID supplied from a link; check Region and ElectionDate)"}
+                     for x in eid_override[key].split(",")]
             res.setdefault("eid_overrides", {})[key] = eid_override[key]
         else:
             match = [e for e in elections if e.get("Date", "").startswith(date + " ")]
@@ -176,7 +178,7 @@ def main(argv=None) -> int:
     override = {}
     for kv in a.eid:
         k, _, v = kv.partition("=")
-        assert k in TARGETS and v.isdigit(), f"bad --eid {kv!r}"
+        assert k in TARGETS and all(x.isdigit() for x in v.split(",")), f"bad --eid {kv!r}"
         override[k] = v
     res = run(a.county, a.agent, override)
     out = Path(a.out_dir)

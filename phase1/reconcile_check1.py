@@ -71,7 +71,10 @@ def main(argv=None) -> int:
         slugs = {s for s, _ in targets.values()}
         assert len(slugs) == 1, f"{p.name}: several Clarity slugs {slugs}"
         res = clarity_run(slugs.pop(), "reconcile", {e: eid for e, (_, eid) in targets.items()})
-        (ROOT / "checks" / "clarity" / p.name).write_text(json.dumps(res, indent=2))
+        if not a.dry_run:
+            out_dir = ROOT / "checks" / "clarity_reconciled"  # agents' original check 1 files stay untouched
+            out_dir.mkdir(parents=True, exist_ok=True)
+            (out_dir / p.name).write_text(json.dumps(res, indent=2))
         changes = []
         for e in targets:
             new, fact = derive(res["elections"][e].get("listings", []))
