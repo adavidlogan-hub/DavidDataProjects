@@ -3,25 +3,38 @@
   "targets": [
     "co.waller.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:50:43Z",
+  "harvested_at_utc": "2026-10-02T18:05:43Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "8f332c8cd88f631f1576c83e8046b9edd69a5f368d66c63c3e769f0008d808f8"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106011020",
+          "local": "2024-11-05 19:10:20 CST",
+          "original": "https://www.co.waller.tx.us/page/Elections.Maps?os=wtmbTQtAJk9s&ref=app",
+          "mimetype": "text/html",
+          "digest": "NBA3ZHEIWTED7YXD2LSTRXA3LGZ4PWD3",
+          "length": "15583",
+          "replay_url": "https://web.archive.org/web/20241106011020id_/https://www.co.waller.tx.us/page/Elections.Maps?os=wtmbTQtAJk9s&ref=app",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
           "ok": false,
-          "error": "robots_disallowed_or_unreachable",
+          "error": "URLError: _ssl.c:999: The handshake operation timed out",
           "content_hash": null
         }
       ],
@@ -31,13 +44,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 1
 }

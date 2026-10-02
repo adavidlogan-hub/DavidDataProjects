@@ -3,14 +3,14 @@
   "targets": [
     "fortbendcountytx.gov"
   ],
-  "harvested_at_utc": "2026-10-02T16:50:42Z",
+  "harvested_at_utc": "2026-10-02T17:19:37Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=fortbendcountytx.gov&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
           "ok": false,
-          "error": "robots_disallowed_or_unreachable",
+          "error": "URLError: timed out",
           "content_hash": null
         }
       ],
@@ -21,7 +21,7 @@
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=fortbendcountytx.gov&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
           "ok": false,
-          "error": "robots_disallowed_or_unreachable",
+          "error": "URLError: timed out",
           "content_hash": null
         }
       ],
@@ -31,13 +31,79 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=fortbendcountytx.gov&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "12a9f8e5b10c799141c1620e2421aa7e0ad0ac759b6baa734c1df95f382ddcc2"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20260527020710",
+          "local": "2026-05-26 21:07:10 CDT",
+          "original": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration/2026-election-results",
+          "mimetype": "text/html",
+          "digest": "WCPU6M35JWUZKO5C2TDQQOQ7V2C67SNX",
+          "length": "37300",
+          "replay_url": "https://web.archive.org/web/20260527020710id_/https://www.fortbendcountytx.gov/government/departments/elections-voter-registration/2026-election-results",
+          "ok": true,
+          "error": null,
+          "content_hash": "511291665434e70884efdb1ccf90dacf903f79996e0d7e95cadc667bdb213e24",
+          "saved_as": "Fort_Bend/2026_runoff_20260527020710_511291665434.html"
+        },
+        {
+          "timestamp_utc": "20260527020729",
+          "local": "2026-05-26 21:07:29 CDT",
+          "original": "https://www.fortbendcountytx.gov/government/departments/commissioners-court/commissioner-precinct-4/about-commissioner-precinct-4/meet-commissioner-mccoy",
+          "mimetype": "text/html",
+          "digest": "GHQLVDMNWA4AFJOHCFYKTNG4X5JH7LA7",
+          "length": "37949",
+          "replay_url": "https://web.archive.org/web/20260527020729id_/https://www.fortbendcountytx.gov/government/departments/commissioners-court/commissioner-precinct-4/about-commissioner-precinct-4/meet-commissioner-mccoy",
+          "ok": true,
+          "error": null,
+          "content_hash": "59229010de952af9dfffa1d76d636a05f34c3ded06d66b67361c5533588cc8df",
+          "saved_as": "Fort_Bend/2026_runoff_20260527020729_59229010de95.html"
+        },
+        {
+          "timestamp_utc": "20260527020735",
+          "local": "2026-05-26 21:07:35 CDT",
+          "original": "https://www.fortbendcountytx.gov/government/departments/commissioners-court/commissioner-precinct-4",
+          "mimetype": "text/html",
+          "digest": "E5YROLVPNF4YNXBEY2BD5Z7NAY3MYVWE",
+          "length": "346128",
+          "replay_url": "https://web.archive.org/web/20260527020735id_/https://www.fortbendcountytx.gov/government/departments/commissioners-court/commissioner-precinct-4",
+          "ok": true,
+          "error": null,
+          "content_hash": "51c2fcb414568e33bb40271c721fff28523f4b962c8b701b89550037d1b4995c",
+          "saved_as": "Fort_Bend/2026_runoff_20260527020735_51c2fcb41456.html"
+        },
+        {
+          "timestamp_utc": "20260527020735",
+          "local": "2026-05-26 21:07:35 CDT",
+          "original": "https://www.fortbendcountytx.gov/government/departments/commissioners-court/commissioner-precinct-4/about-commissioner-precinct-4",
+          "mimetype": "text/html",
+          "digest": "XXMPZVYAI3G6WHTXKVWLXX52NDGCFYWS",
+          "length": "36956",
+          "replay_url": "https://web.archive.org/web/20260527020735id_/https://www.fortbendcountytx.gov/government/departments/commissioners-court/commissioner-precinct-4/about-commissioner-precinct-4",
+          "ok": true,
+          "error": null,
+          "content_hash": "3e49f9a48fb755e0fb417f22d9b306cb0ddd862137b2f8462c6e729e0ce3e288",
+          "saved_as": "Fort_Bend/2026_runoff_20260527020735_3e49f9a48fb7.html"
+        },
+        {
+          "timestamp_utc": "20260527024924",
+          "local": "2026-05-26 21:49:24 CDT",
+          "original": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration/election-day-voting-schedulepolling-locations-may-26",
+          "mimetype": "text/html",
+          "digest": "NFKDMX6JRDFAQ5MYVJW7IG23BHY7GFCW",
+          "length": "36409",
+          "replay_url": "https://web.archive.org/web/20260527024924id_/https://www.fortbendcountytx.gov/government/departments/elections-voter-registration/election-day-voting-schedulepolling-locations-may-26",
+          "ok": true,
+          "error": null,
+          "content_hash": "c6e24671e9ff5c88db7d621513dc721a2b7bfb525f2c424da12a5d29e7b25428",
+          "saved_as": "Fort_Bend/2026_runoff_20260527024924_c6e24671e9ff.html"
+        }
+      ]
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 5
 }

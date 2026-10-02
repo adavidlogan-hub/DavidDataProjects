@@ -3,15 +3,15 @@
   "targets": [
     "co.la-salle.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:50:42Z",
+  "harvested_at_utc": "2026-10-02T17:39:48Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.la-salle.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -20,24 +20,114 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.la-salle.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "82eb2971e8cf6a2dbc84a00fcd34d2027b98241ff5ee864eea06121611bf2a6c"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20260304011241",
+          "local": "2026-03-03 19:12:41 CST",
+          "original": "https://co.la-salle.tx.us/images/pdfs/2026_Elections/Primary/Ballots/Sample_P1D.pdf",
+          "mimetype": "application/pdf",
+          "digest": "KYJNU4SXMZRSJU4HFRD5TN5SNC4T4CQG",
+          "length": "265283",
+          "replay_url": "https://web.archive.org/web/20260304011241id_/https://co.la-salle.tx.us/images/pdfs/2026_Elections/Primary/Ballots/Sample_P1D.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "0494b0c416a8c7b8d99d5cdca2d54333caceae640a6d49676dc8918c044bb12a",
+          "saved_as": "La_Salle/2026_primary_20260304011241_0494b0c416a8.pdf"
+        },
+        {
+          "timestamp_utc": "20260304041218",
+          "local": "2026-03-03 22:12:18 CST",
+          "original": "https://co.la-salle.tx.us/images/pdfs/2026_Elections/City/Record_Posting_Notice.pdf",
+          "mimetype": "application/pdf",
+          "digest": "PLZTRFWRTH6AB3KX4P6K25SSV2S3UOV3",
+          "length": "164182",
+          "replay_url": "https://web.archive.org/web/20260304041218id_/https://co.la-salle.tx.us/images/pdfs/2026_Elections/City/Record_Posting_Notice.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "38ebcbc89e17de22c5d604c8fe90305270dd60d8ec0f2ede7d82592351bbc0ba",
+          "saved_as": "La_Salle/2026_primary_20260304041218_38ebcbc89e17.pdf"
+        },
+        {
+          "timestamp_utc": "20260304045710",
+          "local": "2026-03-03 22:57:10 CST",
+          "original": "https://co.la-salle.tx.us/images/pdfs/2026_Elections/Primary/Rosters/EVR_D_022526.pdf",
+          "mimetype": "application/pdf",
+          "digest": "AHX23B2QTAMTVGFWY64WCXRCXI5YMDXY",
+          "length": "43083",
+          "replay_url": "https://web.archive.org/web/20260304045710id_/https://co.la-salle.tx.us/images/pdfs/2026_Elections/Primary/Rosters/EVR_D_022526.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "299fd05257c0cf4464efa78c8a07f30ff23f12c0833ea37f3c1075f04de0c741",
+          "saved_as": "La_Salle/2026_primary_20260304045710_299fd05257c0.pdf"
+        },
+        {
+          "timestamp_utc": "20260304055459",
+          "local": "2026-03-03 23:54:59 CST",
+          "original": "https://co.la-salle.tx.us/index.php/offices/election-board",
+          "mimetype": "text/html",
+          "digest": "XCECFDV7PFIPJT43GWQEWSAXJDWUGV54",
+          "length": "14189",
+          "replay_url": "https://web.archive.org/web/20260304055459id_/https://co.la-salle.tx.us/index.php/offices/election-board",
+          "ok": true,
+          "error": null,
+          "content_hash": "28a55da8c5a6729510c96ea67aac0c0bac7c62d778f68a6de4a334aaf8cc65ab",
+          "saved_as": "La_Salle/2026_primary_20260304055459_28a55da8c5a6.html"
+        },
+        {
+          "timestamp_utc": "20260304063218",
+          "local": "2026-03-04 00:32:18 CST",
+          "original": "https://co.la-salle.tx.us/images/pdfs/2026_Elections/Primary/Rosters/EVR_D_022126.pdf",
+          "mimetype": "application/pdf",
+          "digest": "JBQO62TKAZSGPYSHEQCECGLSNWQUP5G3",
+          "length": "86243",
+          "replay_url": "https://web.archive.org/web/20260304063218id_/https://co.la-salle.tx.us/images/pdfs/2026_Elections/Primary/Rosters/EVR_D_022126.pdf",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20260304064406",
+          "local": "2026-03-04 00:44:06 CST",
+          "original": "https://co.la-salle.tx.us/index.php/444-2026-primary-elections-local-results",
+          "mimetype": "text/html",
+          "digest": "CFGHWOXAAA7XO5VUCTWUJXL2PG2AISPD",
+          "length": "16177",
+          "replay_url": "https://web.archive.org/web/20260304064406id_/https://co.la-salle.tx.us/index.php/444-2026-primary-elections-local-results",
+          "ok": false,
+          "error": "URLError: _ssl.c:999: The handshake operation timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20260304083707",
+          "local": "2026-03-04 02:37:07 CST",
+          "original": "https://co.la-salle.tx.us/index.php/offices/election-board?view=article&id=296:election-board-information&catid=78:government",
+          "mimetype": "text/html",
+          "digest": "PQM56OGSNUYJ3IHMB4DD7O6NUYC2LCVC",
+          "length": "11815",
+          "replay_url": "https://web.archive.org/web/20260304083707id_/https://co.la-salle.tx.us/index.php/offices/election-board?view=article&id=296:election-board-information&catid=78:government",
+          "ok": true,
+          "error": null,
+          "content_hash": "45117546a1bcb1d32785dbeadd96e1d2fe16ac7956b37b3a6f1848ff9b41dac2",
+          "saved_as": "La_Salle/2026_primary_20260304083707_45117546a1bc.html"
+        }
+      ]
     },
     "2026_runoff": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.la-salle.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 7
 }
