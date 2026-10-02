@@ -1,0 +1,90 @@
+{
+  "county": "Jim Hogg",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "low",
+  "elections_office_phone": "(361) 527-4031",
+  "elections_office_email": "zonia.morales@co.jim-hogg.tx.us",
+  "results_url": "https://www.co.jim-hogg.tx.us/page/jim-hogg.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.jim-hogg.tx.us",
+  "evidence_url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Precinct%20Results-3-3-2026.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-03 20:47 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Network opened about 14:07 UTC; the county Elections page, Past Elections page, result PDFs and the SOS list were then fetched directly with the fetch module (web search alone had found only the page URLs). The Elections page posts, for each election, one 'Unofficial Precinct Results' PDF and one 'Unofficial Cumulative Results' PDF, then official precinct, cumulative and canvass PDFs. The unofficial PDFs are text PDFs from the tabulation report server (Creator: Microsoft Reporting Services) titled 'Precinct Results Report ... Unofficial Results' with per-precinct sections (5 precincts) and a printed Run Time and Run Date. Nov 5 2024 'Precinct Results-11-5-2024.pdf': Run Time 7:39 PM, Run Date 11/05/2024; PDF CreationDate 2024-11-06 01:40:10 UTC (7:40 PM CST), ModDate 02:01:01 UTC (8:01 PM CST); its companion cumulative report (same run time) shows President total 1,584 cast votes vs 1,585 in the Official Results run 11/07/2024, so it carried essentially the complete count. Mar 3 2026 'Unofficial Precinct Results 3-3-2026': Run Time 8:47 PM, Run Date 03/03/2026, PDF CreationDate 2026-03-04 02:48:22 UTC (8:48 PM CST); companion cumulative report (Run Time 8:46 PM) shows US Senator Democratic totals 380 / 590 / 38, identical to the Official Cumulative Results run 03/09/2026. May 26 2026 'Unofficial Precinct Results': Run Time 7:16 PM, Run Date 05/26/2026, PDF CreationDate 2026-05-27 00:16:56 UTC (7:16 PM CDT); companion cumulative (7:15 PM) Lt. Governor Democratic 55 / 28 equals the Official Cumulative Results run 06/03/2026. Interpretation: on each target election night the county generated a precinct-by-precinct unofficial report at the same minute as the cumulative report, and that report already held the final unofficial count; only one unofficial precinct report per election is posted. That fits PRECINCT_END_OF_NIGHT (precinct detail with the final unofficial count) better than LIVE_PRECINCT (no evidence of multiple precinct updates through the night) or COUNTY_ONLY_PRECINCT_AT_CANVASS (precinct detail existed as an unofficial report before canvass). Why confidence is low: the printed Run Time and PDF creation time date the report's generation, not its upload to the website; earlier versions could have been replaced; 'Precincts Reporting 0 of 5' is printed on all unofficial reports, so that field is uninformative. precinct_first_seen_local_time is the printed Run Time of the Mar 3 2026 unofficial precinct report, not an observed posting time (Nov 5 2024: 2024-11-05 19:39 CT; May 26 2026: 2026-05-26 19:16 CT). Wayback: wayback_probe (3 CDX windows) on co.jim-hogg.tx.us/upload/page/9530/ failed robots_disallowed_or_unreachable (web.archive.org TLS reset); archive.org/wayback/available queried at 12 points for www.co.jim-hogg.tx.us/page/jim-hogg.Elections found no snapshot inside any window (nearest: 20241130170838, 20260303233918 which is 5:39 PM CST before polls closed, 20260526203837 which is 3:38 PM CDT before polls closed). Contact: county Elections page lists 'Zonia G. Morales Elections Clerk 102 E. Tilley/P.O. Box 878 Hebbronville, TX 78361 Office: (361) 527-4031 Fax: (361) 232-5875 zonia.morales@co.jim-hogg.tx.us'; the SOS Election Duties list matches (District & County Clerk Zonia G. Morales, (361) 527-4031, mailto:zonia.morales@co.jim-hogg.tx.us). Usage notice: none on the Elections page, so usage_notice_text is empty. Stated change: no 2025/2026 statement found; the county already posted unofficial precinct reports in 2020 to 2023 (Past Elections page, e.g. 'Election Results Unofficial - Pct by Pct' for Nov 7 2023), so no change is indicated.",
+  "tag_rationale": "County-posted 'Unofficial Precinct Results' PDFs for all three target elections carry election-night Run Times (7:39 PM, 8:47 PM, 7:16 PM) and PDF creation times matching, and their companion cumulative totals equal the later official totals, so precinct detail came with the final unofficial count; posting time itself is not independently confirmed, hence low confidence.",
+  "sources": [
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Precinct%20Results-3-3-2026.pdf",
+      "via": "fetch_module",
+      "query": "content_hash 02e5ca26b1826aadbe716c28ec1bc5cec7e0d6128b6432383192cb876fc7b051",
+      "quote": "Precinct Results Report Unofficial Results JIM HOGG COUNTY, TEXAS ... PRIMARY ELECTION ... Run Time 8:47 PM 3/3/2026 Run Date 03/03/2026 Page 1 ... 1 323 of 858 registered voters = 37.65%",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2024/Precinct%20Results-11-5-2024.pdf",
+      "via": "fetch_module",
+      "query": "content_hash 31303a37c59d6119295b41536cc9dff760ddcf25b63aced15abff616a6764ebb",
+      "quote": "Precinct Results Report Unofficial Results JIM HOGG COUNTY, TEXAS ... ELECTION RESULTS 11-5-2024 GENERAL ELECTION ... Run Time 7:39 PM 11/5/2024 Run Date 11/05/2024 Page 1 ... 1 379 of 887 registered voters = 42.73%",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Precinct%20Results.pdf",
+      "via": "fetch_module",
+      "query": "content_hash 8c39b7e0e4873c206023722b431f84e0f09e6ee1ac0aa44e51800f4e31f43d40",
+      "quote": "Precinct Results Report Unofficial Results JIM HOGG COUNTY, TEXAS ... Primary Run-Off 5-26-26 PRIMARY RUNOFF ELECTION ... Run Time 7:16 PM 5/26/2026 Run Date 05/26/2026 Page 1",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Cumulative%20Results-3-3-2026.pdf",
+      "via": "fetch_module",
+      "query": "content_hash 7bfbeeec18605518792223ecf263636a92ced1d707030987733b160904c37be4",
+      "quote": "Cumulative Results Report ... Unofficial Results ... Run Time 8:46 PM 3/3/2026 Run Date 03/03/2026 ... Jasmine Crockett ... 380 37.70% James Talarico ... 590 58.53% Ahmad R. Hassan ... 38 3.77%",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Official%20Cumulative%20Results-3-9-2026.pdf",
+      "via": "fetch_module",
+      "query": "content_hash 696a2fa1f269e4aaa211054643693b098f887e360850ec94885a256bad62233a",
+      "quote": "Cumulative Results Report ... Official Results ... Precincts Reporting 5 of 5 = 100.00% Run Time 4:11 PM 3/3/2026 Run Date 03/09/2026 ... Jasmine Crockett ... 380 37.70% James Talarico ... 590 58.53%",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/page/jim-hogg.Elections",
+      "via": "fetch_module",
+      "query": "content_hash 6b80d1c46929f0849ba943ac29f5cf89ca969a7e240692d36f1c262bdc78c972",
+      "quote": "Zonia G. Morales Elections Clerk 102 E. Tilley/P.O. Box 878 Hebbronville, TX 78361 Office: (361) 527-4031 Fax: (361) 232-5875 zonia.morales@co.jim-hogg.tx.us",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/page/jim-hogg.Elections",
+      "via": "fetch_module",
+      "query": "content_hash 6b80d1c46929f0849ba943ac29f5cf89ca969a7e240692d36f1c262bdc78c972",
+      "quote": "March 3, 2026 Primary Election ... Unofficial Precinct Results 3-3-2026 Unofficial Cumulative Results 3-3-2026",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "content_hash 065e1ebd63c50fea13f2f32b01686cde6df41adf1b1714128bc15f3c8189ad0e",
+      "quote": "JIM HOGG COUNTY District & County Clerk Zonia G. Morales 102 E. Tilley, Hebbronville, TX 78361 P.O. Box 878, Hebbronville 78361 County Email Address [mailto:zonia.morales@co.jim-hogg.tx.us] (361) 527-4031",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/page/jim-hogg.Elections",
+      "via": "websearch",
+      "query": "Jim Hogg County Texas election results",
+      "quote": "Elections - Jim Hogg County, Texas",
+      "supports": "results_url"
+    }
+  ],
+  "searches_run": 3,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 26,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T14:13:00Z",
+  "agent": "research-B",
+  "finished_at_utc": "2026-10-02T14:20:19Z"
+}

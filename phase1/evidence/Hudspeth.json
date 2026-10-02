@@ -1,0 +1,104 @@
+{
+  "county": "Hudspeth",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "(915) 369-2301",
+  "elections_office_email": "bsanchez.depclk1@gmail.com",
+  "results_url": "https://www.co.hudspeth.tx.us/page/Elections%202025-2026",
+  "platform": "county_pdfs",
+  "host": "www.co.hudspeth.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-03 19:33 MT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "FLAG FOR REVIEW: strong primary evidence, but the pattern (unofficial precinct-level results with election-day votes posted the afternoon after election day, well before canvass) does not match any defined tag; closest is COUNTY_ONLY_PRECINCT_AT_CANVASS, but its definition says 'at or after canvass', so I left UNKNOWN rather than force a tag. Network to county sites and the SOS opened about 14:07 UTC; this evidence came through the fetch module after that. The page /page/hudspeth.Elections returned HTTP 403 ('This type of page is not served'), and the search-found PDF upload/page/10211/2026/Cumulative rep Results-3-3-2026 07-46-53 PM.pdf returned 404, but the home page links to /page/Elections 2025-2026 and /page/Elections Results 2020-2025, which both loaded. All results are county-hosted PDFs (Hart InterCivic report format). File-name and report run times below are Mountain Time (Hudspeth County is on MT) and stamp report generation, not posting. Mar 3 2026 primary: 'Republican Absentee and Early Voting Unofficial Results' is a Precinct Results Report run 03/03/2026 7:27 PM MT (early and mail votes by precinct, 'Precincts Reporting 0 of 8'); county-wide 'Cumulative Election Day Unofficial Results' run 03/03/2026 11:01 PM MT; full 'Democratic & Republican Unofficial Precinct Results' with Election Day Voting run 03/04/2026 4:08 PM MT. May 26 2026 runoff: 'Republican Unofficial Precinct Results-5-27-2026' run 05/27/2026 3:44 PM MT (8 of 8 precincts reporting), then 'Republican Official Precinct Results' 6-11-2026; no election-night results file is listed for the runoff. Nov 5 2024 (on the 2025-and-earlier page): only county-wide 'Unofficial General Election Results' (report_10_sos_enr_november_5_2024.pdf) and 'Cumulative Results Report' (general_election_november_2024_hart_intercivic.pdf); no precinct report listed. Nov 4 2025 (out of scope) shows the same next-day pattern: 'precinct_results1152025_030920_pm.pdf'. So on election night precinct-level detail was at most early-voting-only (Mar 2026), with full precinct results the next afternoon. Caveat: an earlier precinct file could have been posted and replaced. Contact from the TX SOS county election officials list (Hudspeth County, District and County Clerk Brenda Sanchez, '(915) 369-2301', County Email Address mailto bsanchez.depclk1@gmail.com; the SOS lists a gmail address). Wayback probe for co.hudspeth.tx.us/upload/page/0118/ failed (robots_disallowed_or_unreachable). No WebFetch attempted. No stated change found. Usage notice: the site has a generic 'Disclaimer' page link (/page/web-disclaimer), not fetched and not results-specific; left empty. Server Last-Modified headers (recorded by the fetch module) give upload times: early-voting-only precinct report 'Wed, 04 Mar 2026 02:33:04 GMT' (2026-03-03 19:33 MT, election night); county-wide Election Day cumulative 'Wed, 04 Mar 2026 06:13:25 GMT' (2026-03-03 23:13 MT); full unofficial precinct results with Election Day votes 'Wed, 04 Mar 2026 23:39:28 GMT' (2026-03-04 16:39 MT); runoff unofficial precinct results 'Thu, 28 May 2026 15:03:59 GMT' (2026-05-28 09:03 MT, two days after the runoff). precinct_first_seen_local_time records the earliest precinct-level file (early-voting votes only), Mountain Time, from the Last-Modified header, not a direct observation.",
+  "tag_rationale": "County PDFs show only county-wide unofficial totals on election night (plus an early-voting-only precinct report at 7:27 PM MT in Mar 2026) and full unofficial precinct results the next afternoon for both 2026 elections; this next-day pattern fits no defined tag exactly, so UNKNOWN is recorded with a review flag.",
+  "sources": [
+    {
+      "url": "https://www.co.hudspeth.tx.us/upload/page/0118/2026/Precinct%20Results-3-3-2026%2007-28-24%20PM.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Precinct Results Report Unofficial Results HUDSPETH COUNTY, TEXAS ... Precincts Reporting 0 of 8 = 0.00% Run Time 7:27 PM ... Run Date 03/03/2026 ... Absentee Voting Early Voting Total (content_hash 4c903c50d57c)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.hudspeth.tx.us/upload/page/0118/2026/Cumulative%20Results-3-3-2026%2011-03-10%20PM%20Republican.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Cumulative Results Report HUDSPETH COUNTY, TEXAS Unofficial Results ... Run Time 11:01 PM ... Run Date 03/03/2026 (content_hash 05ea26a750eb)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.hudspeth.tx.us/upload/page/0118/2026/Dem%20and%20Rep%20Precinct%20Results-3-4-2026%2004-09-28%20PM.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Precinct Results Report Unofficial Results ... March 3, 2026 Primary Election ... Run Time 4:08 PM ... Run Date 03/04/2026 ... Election Day Voting (content_hash 5c1921863fc6)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.hudspeth.tx.us/upload/page/0118/Republican%20Unofficial%20Precinct%20Results-5-27-2026%2003-45-48%20PM.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Precinct Results Report Unofficial Results ... Primary Runoff May 26, 2026 ... Precincts Reporting 8 of 8 = 100.00% Run Time 3:44 PM ... Run Date 05/27/2026 (content_hash 08b8e6e8cbd2)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.hudspeth.tx.us/page/Elections%202025-2026",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Democratic & Republican Unofficial Precinct Results ... Democratic Cumulative Election Day Unofficial Results ... Republican Absentee and Early Voting Unofficial Results (content_hash a0095b342976)",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.co.hudspeth.tx.us/page/Elections%20Results%202020-2025",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "report_10_sos_enr_november_5_2024.pdf | Unofficial General Election Results ... general_election_november_2024_hart_intercivic.pdf | Cumulative Results Report (content_hash baca86e32b42)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "HUDSPETH COUNTY District & County Clerk Brenda Sanchez ... County Email Address (915) 369-2301 (mailto:bsanchez.depclk1@gmail.com) (content_hash 065e1ebd63c5)",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.co.hudspeth.tx.us/upload/page/10211/2026/Cumulative%20rep%20Results-3-3-2026%2007-46-53%20PM.pdf",
+      "via": "websearch",
+      "query": "Hudspeth County Texas election results",
+      "quote": "Cumulative Results Report March 3, 2026 Primary Election Run Time Run Date",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.co.hudspeth.tx.us/upload/page/0118/2026/Precinct%20Results-3-3-2026%2007-28-24%20PM.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "HTTP Last-Modified: Wed, 04 Mar 2026 02:33:04 GMT",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.hudspeth.tx.us/upload/page/0118/2026/Dem%20and%20Rep%20Precinct%20Results-3-4-2026%2004-09-28%20PM.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "HTTP Last-Modified: Wed, 04 Mar 2026 23:39:28 GMT",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.hudspeth.tx.us/upload/page/0118/Republican%20Unofficial%20Precinct%20Results-5-27-2026%2003-45-48%20PM.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "HTTP Last-Modified: Thu, 28 May 2026 15:03:59 GMT",
+      "supports": "tag"
+    }
+  ],
+  "agent": "research-A",
+  "searches_run": 2,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 12,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T14:16:06Z",
+  "finished_at_utc": "2026-10-02T14:21:54Z"
+}

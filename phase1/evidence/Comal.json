@@ -1,0 +1,62 @@
+{
+  "county": "Comal",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "(830) 221-1352",
+  "elections_office_email": "elections@co.comal.tx.us",
+  "results_url": "https://www.comalcounty.gov/973/Past-Election-Results",
+  "platform": "vendor_hosted",
+  "host": "app.enhancedvoting.com",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Network to county sites and the SOS opened about 14:07 UTC; Comal evidence was gathered after that through the fetch module. The county Past Election Results page (comalcounty.gov/973) links 2026 elections to Enhanced Voting (app.enhancedvoting.com/results/public/comal-county-tx/elections/ComalCountyPrimary for Mar 3 2026, .../ComalCountyPrimaryRunoff26 for May 26 2026) and 2024 and earlier elections to Clarity ENR (results.enr.clarityelections.com/TX/Comal/122856/web.345435/#/summary for Nov 5 2024). So the platform changed from clarity_style (through May 2025) to a vendor-hosted Enhanced Voting site in 2026; platform/host record the current 2026 platform. The Elections and Voter Registration page Quick Links still has 'Election Results' pointing to results.enr.clarityelections.com/TX/Comal/. Both vendor pages are JavaScript single-page apps; the Enhanced Voting page HTML has no result data or notice text, and Clarity current_ver.txt for election 122856 returned '355369' (a version number only), so neither shows when precinct-level results first appeared on election night. A search summary said the Enhanced Voting site provided 'Real-time results' for the Mar 3 2026 primary (lead only, attributed loosely to herald-zeitung.com; it says nothing about precinct-level timing). The platform switch is observed from links, not a stated change about precinct-level reporting, so stated_change_2026 is n. Contact: phone '830-221-1352' and 'Email Elections & Voter Registration' (Cloudflare-obfuscated, decoded to elections@co.comal.tx.us) are on the county Elections & Voter Registration page; the TX SOS list gives Comal County Clerk Bobbie Koepp, (830) 221-1352, County Email Address mailto cjaqua@comalcounty.gov (elections coordinator). Wayback probes for both vendor prefixes failed (robots_disallowed_or_unreachable). No WebFetch attempted. Usage notice: none visible in fetched HTML (SPA), left empty.",
+  "tag_rationale": "Results are on vendor-hosted sites (Clarity for 2024, Enhanced Voting for 2026), but no source shows when precinct-level results were posted on election night.",
+  "sources": [
+    {
+      "url": "https://www.comalcounty.gov/973/Past-Election-Results",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "March 3, 2026: Primary Election Results (app.enhancedvoting.com/results/public/comal-county-tx/elections/ComalCountyPrimary) ... May 26, 2026: Primary Runoff Election Results ... November 5, 2024: General Election Results (results.enr.clarityelections.com/TX/Comal/122856/web.345435/#/summary) (content_hash 9136046747c8)",
+      "supports": "platform"
+    },
+    {
+      "url": "https://app.enhancedvoting.com/results/public/comal-county-tx/elections/ComalCountyPrimary",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "<title>Election Results</title> (single-page app shell, content_hash d9d44c1c86d6)",
+      "supports": "platform"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Comal/122856/current_ver.txt",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "355369 (content_hash ee9d59e9c04d)",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.comalcounty.gov/193/Elections-Voter-Registration",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "tel:8302211352 830-221-1352 ... Email Elections & Voter Registration ... https://results.enr.clarityelections.com/TX/Comal/ Election Results (content_hash a4c7666e1bfd)",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "COMAL COUNTY County Clerk Bobbie Koepp ... County Email Address (830) 221-1352 (mailto:cjaqua@comalcounty.gov) (content_hash 065e1ebd63c5)",
+      "supports": "contact"
+    }
+  ],
+  "agent": "research-A",
+  "searches_run": 3,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 7,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T14:14:25Z",
+  "finished_at_utc": "2026-10-02T14:16:06Z"
+}

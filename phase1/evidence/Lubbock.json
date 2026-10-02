@@ -1,0 +1,69 @@
+{
+  "county": "Lubbock",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "(806) 775-1776",
+  "elections_office_email": "votelubbock@lubbockcounty.gov",
+  "results_url": "https://votelubbock.gov/election-information/historical-election-results/",
+  "platform": "unknown",
+  "host": "votelubbock.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Network to county sites and the SOS opened about 14:07 UTC; Lubbock work was done after that. Results archive found by search: votelubbock.gov/election-information/historical-election-results/ (title 'Lubbock County, TX Elections'). The fetch module reached votelubbock.gov but every request (historical results page twice, including --refresh, the home page, and the Central Counting Station Plan PDF) returned HTTP 202 with an empty body (content_hash e3b0c44298fc..., the empty-content hash), which looks like a bot-challenge interstitial, so no page text could be read. Search summaries say the archive holds precinct-by-precinct and cumulative reports for 2024 and 2026 elections, but no file names, run times, or posting times were visible, so platform is left unknown and timing is not evidenced. A search summary mentioned a night when the Lubbock County Elections office said results were delayed because of a ballot printer issue (lead only, election not identified). Search result titles show leadership change in 2026 ('Lubbock County names new elections administrator', fox34.com 2026-07-02; 'New Lubbock County Elections Administrator calls role a calling', kcbd.com 2026-09-04); no source ties that to precinct-level reporting, so stated_change_2026 is n. Contact from the TX SOS county election officials list fetched via the fetch module (Lubbock County, Elections Administrator Troy Havard, '(806) 775-1776', County Email Address mailto votelubbock@lubbockcounty.gov). A search summary also gave (806) 775-1339 (lead only, not used). Wayback probe for the archive path failed (robots_disallowed_or_unreachable). WebFetch to everythinglubbock.com was EGRESS_BLOCKED. Usage notice: page could not be read, left empty.",
+  "tag_rationale": "The county results archive could not be read (bot challenge) and no news or county source states when precinct-level results appeared on election night.",
+  "sources": [
+    {
+      "url": "https://votelubbock.gov/election-information/historical-election-results/",
+      "via": "websearch",
+      "query": "Lubbock County election results precinct votelubbock",
+      "quote": "Lubbock County, TX Elections",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://votelubbock.gov/election-information/historical-election-results/",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "HTTP 202, empty body (content_hash e3b0c44298fc)",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://votelubbock.gov/wp-content/uploads/Lubbock-County-Central-Counting-Station-Plan.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "HTTP 202, empty body; search title: LUBBOCK COUNTY ELECTIONS DEPARTMENT CENTTRAL COUNTING STATION PLAN",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "LUBBOCK COUNTY Elections Administrator Troy Havard ... County Email Address (806) 775-1776 (mailto:votelubbock@lubbockcounty.gov) (content_hash 065e1ebd63c5)",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.fox34.com/2026/07/02/lubbock-county-names-new-elections-administrator/",
+      "via": "websearch",
+      "query": "Lubbock County election results precinct-by-precinct posted election night Havard",
+      "quote": "Lubbock County names new elections administrator",
+      "supports": "stated_change"
+    },
+    {
+      "url": "https://www.everythinglubbock.com/election/your-local-election/election-results-for-lubbock-and-the-south-plains-on-november-5-2024/",
+      "via": "webfetch",
+      "query": "",
+      "quote": "",
+      "supports": "tag"
+    }
+  ],
+  "agent": "research-A",
+  "searches_run": 4,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 6,
+  "webfetch_attempts": 1,
+  "started_at_utc": "2026-10-02T14:12:40Z",
+  "finished_at_utc": "2026-10-02T14:14:25Z"
+}

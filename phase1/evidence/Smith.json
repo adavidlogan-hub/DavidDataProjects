@@ -1,0 +1,76 @@
+{
+  "county": "Smith",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "903-590-4777",
+  "elections_office_email": "scelections@smith-county.com",
+  "results_url": "https://www.smith-county.com/236/Current-Election-Results",
+  "platform": "county_pdfs",
+  "host": "www.smith-county.com",
+  "evidence_url": "https://www.smith-county.com/236/Current-Election-Results",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Smith County, Texas (Tyler), not Deaf Smith County. Network opened about 14:07 UTC; county pages, the SOS list and Tyler Morning Telegraph articles were then fetched directly with the fetch module. The results page (fetch_module, hash 2df161f0...) states verbatim: 'Early Voting and Absentee results will be posted here on Election Night at 7 pm. After all locations deliver their Election Day ballots, those results will be tabulated, and the resulting report(s) will replace the previous document posted. The final results will be posted after Canvassing (this usually takes about 2 weeks after an election). If you have any questions, please contact our office at 903-590-4777.' Election-night documents are replaced, and the page now lists only post-canvass documents for 2026 (e.g. '2026-03 Official Precinct Report (PDF)', '2026-05 Official Precinct Report (PDF)' for the May 26 runoff, plus canvass, summary and polling place reports). This shows precinct reports exist after canvass but does not say whether the election-night report(s) included precinct detail, so no timing tag is supported. Result PDFs are hosted in a Laserfiche portal (portal.laserfiche.com/Portal/DocView.aspx?...&repo=r-927d42fb) linked from the county page; platform recorded as county_pdfs (county-posted static PDF reports) with that caveat; the Laserfiche archive browse page returned HTTP 302 to the fetch module. News timing of final unofficial reports (none mention precinct-level detail): Nov 5 2024 tylerpaper 'As of 10 p.m., 38 of 38 polling places reported results'; Mar 3 2026 tylerpaper 'The following results are as reported in Smith County’s final report Tuesday night, which was published just before 10:30 p.m.'; May 26 2026 tylerpaper 'The following results reported by Smith County at 9:40 p.m. Tuesday include all early voting totals, absentee ballots and Election Day ballots. These results are complete for the night but considered unofficial until they are canvassed.' Contact: phone from the county results page (quoted above) and SOS Election Duties list (SMITH COUNTY, Elections Administrator Michelle Allcon, 302 E Ferguson St, Tyler 75702, County Email Address mailto:scelections@smith-county.com, (903) 590-4777). Usage notice: the results page has no distribution or usage notice; only the generic site footer link 'Copyright Notices', so usage_notice_text is empty. Stated change: no 2025/2026 statement about precinct-level results reporting found. Wayback: wayback_probe (3 CDX windows) failed robots_disallowed_or_unreachable; archive.org/wayback/available queried at 12 points for www.smith-county.com/236/Current-Election-Results found no snapshot inside any window; nearest candidate is 20260304090704 (Mar 4 2026 03:07 CST), just after the primary window, which cannot be opened here.",
+  "tag_rationale": "The county says election-night reports replace each other and final results are posted after canvass, and official precinct reports now exist, but no source says whether precinct-level detail was posted on election night. Tag UNKNOWN.",
+  "sources": [
+    {
+      "url": "https://www.smith-county.com/236/Current-Election-Results",
+      "via": "fetch_module",
+      "query": "content_hash 2df161f0ce03c9f950c0ad4f9e619db93e2b9444fc4658905c495b559fa5b728",
+      "quote": "Early Voting and Absentee results will be posted here on Election Night at 7 pm. After all locations deliver their Election Day ballots, those results will be tabulated, and the resulting report(s) will replace the previous document posted. The final results will be posted after Canvassing (this usually takes about 2 weeks after an election). If you have any questions, please contact our office at 903-590-4777.",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=4258&repo=r-927d42fb",
+      "via": "fetch_module",
+      "query": "link text on content_hash 2df161f0ce03c9f950c0ad4f9e619db93e2b9444fc4658905c495b559fa5b728 (link not fetched)",
+      "quote": "2026-03 Official Precinct Report (PDF)",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "content_hash 065e1ebd63c50fea13f2f32b01686cde6df41adf1b1714128bc15f3c8189ad0e",
+      "quote": "SMITH COUNTY Elections Administrator Michelle Allcon 302 E Ferguson St, Tyler 75702 County Email Address [mailto:scelections@smith-county.com] (903) 590-4777",
+      "supports": "contact"
+    },
+    {
+      "url": "https://tylerpaper.com/2026/03/04/live-election-results-republican-and-democratic-primaries-in-smith-county/",
+      "via": "fetch_module",
+      "query": "content_hash 7a0296e2866a98e0b2ff97f7f58417f2132b95c9529a22280192bf02ebfba016",
+      "quote": "The following results are as reported in Smith County’s final report Tuesday night, which was published just before 10:30 p.m.",
+      "supports": "tag"
+    },
+    {
+      "url": "https://tylerpaper.com/2026/05/26/live-smith-county-polls-are-closed-local-results-of-republican-democratic-primary-runoff-races/",
+      "via": "fetch_module",
+      "query": "content_hash 2cc456e81099e8784cb3e8b5eca76b2f1f6415ab85748ac061d85db4e977e68e",
+      "quote": "The following results reported by Smith County at 9:40 p.m. Tuesday include all early voting totals, absentee ballots and Election Day ballots. These results are complete for the night but considered unofficial until they are canvassed.",
+      "supports": "tag"
+    },
+    {
+      "url": "https://tylerpaper.com/2024/11/05/nov-5-election-results-in-smith-county/",
+      "via": "fetch_module",
+      "query": "content_hash f572fd7253e07e756f837eb1fc2f2143b5d0e1dea4b6e0ac83ab7620c4184869",
+      "quote": "As of 10 p.m., 38 of 38 polling places reported results",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.smith-county.com/236/Current-Election-Results",
+      "via": "websearch",
+      "query": "Smith County Texas elections election results Tyler",
+      "quote": "Current Election Results",
+      "supports": "results_url"
+    }
+  ],
+  "searches_run": 4,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 21,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T14:09:30Z",
+  "agent": "research-B",
+  "finished_at_utc": "2026-10-02T14:19:34Z"
+}
