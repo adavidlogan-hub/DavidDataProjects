@@ -1,0 +1,58 @@
+{
+  "county": "Hale",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.halecounty.org/county_offices/hale_county_primary_runoff.php",
+  "platform": "county_pdfs",
+  "host": "www.halecounty.org",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "The county site www.halecounty.org publishes a robots.txt that allows only named crawlers and ends 'User-agent: * Disallow: /', so the fetch module refused every request (seed URL and https home page); www.co.hale.tx.us fails certificate verification. This was accepted, not bypassed. No Clarity site (elections.json 404). One web search located a county page 'may 26, 2026-hale county primary runoff' on www.halecounty.org, but it could not be fetched, and search text is not evidence. Check 3 pending for all three elections (origin/wayback-data not present).",
+  "tag_rationale": "No election could be determined (county site disallowed by robots.txt, check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "County site disallowed by robots.txt. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "County site disallowed by robots.txt. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "County site disallowed by robots.txt. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "websearch:?q=hale%20county%20texas%20election%20results%202026",
+      "via": "websearch",
+      "content_hash": "65b45c67d2384b35beab11e31f81c3c067124dfeb578c639d2e670c9931d022e",
+      "quote": "may 26, 2026-hale county primary runoff | https://www.halecounty.org/county_offices/hale_county_primary_runoff.php",
+      "supports": "locating the results page only"
+    }
+  ]
+}

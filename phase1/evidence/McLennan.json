@@ -1,0 +1,72 @@
+{
+  "county": "McLennan",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.mclennan.gov/546/Current-Election-Results",
+  "platform": "county_pdfs",
+  "host": "www.mclennan.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL redirects to www.mclennan.gov (CivicPlus; documents on tx-mclennancounty.civicplus.com). No Clarity site (elections.json 404). The 'Current Election Results' page now says 'Please click on Past Election Results for reports from the March 3, 2026 Joint Primary Election, May 2, 2026 ...', so election-night results were evidently shown there and later moved to the Archive Center (Archive.aspx AMID=66). The archive entries list Cumulative, Canvass and Precinct PDFs per election; the runoff ones are dated 6-2-2026 (canvass). The Elections page's Last-Modified equals the request time (dynamic page, no upload evidence). Election-night content cannot be determined from the current site; check 3 (Wayback captures of /546/Current-Election-Results) should settle all three elections.",
+  "tag_rationale": "No election was determined (all UNDETERMINED), so the rule gives UNKNOWN.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the archive entry for Nov 5 2024 lists cumulative, canvass and precinct reports without dates on the page; election-night posting (on the Current Election Results page) is not visible now"
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; results moved to the Past Elections archive; election-night posting not visible now"
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the archive entry lists Democratic and Republican 'Cumulative', 'Canvass' and 'Precinct' reports whose file names carry run times of 6-2-2026 (e.g. Republican-Party-Precinct-Report-6-2-2026-09-47-38-AM), i.e. canvass-time reports; what the Current Election Results page showed on election night is not visible now"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.mclennan.gov/546/Current-Election-Results",
+      "via": "fetch_module",
+      "content_hash": "a31cc4adc411cd05e17605eaacfd78f117f27d545d1bd6dbb7c8f6676dbebf38",
+      "quote": "Current Election Results Please click on Past Election Results for reports from the March 3, 2026 Joint Primary Election, May 2, 2026",
+      "supports": "election-night results page now empty"
+    },
+    {
+      "url": "https://www.mclennan.gov/Archive.aspx?ADID=3389",
+      "via": "fetch_module",
+      "content_hash": "d9dff16ead8c9f86f5020947f31d6f5dea8c36c83b9014295b8721cda7d81eea",
+      "quote": "May 26, 2026 Joint Primary Runoff Election Democratic Primary Runoff Reports Cumulative (.pdf) Canvass (.pdf) Precinct (.pdf) ... Republican-Party-Precinct-Report-6-2-2026-09-47-38-AM",
+      "supports": "runoff archive holds canvass-time reports"
+    },
+    {
+      "url": "https://www.mclennan.gov/Archive.aspx?ADID=3208",
+      "via": "fetch_module",
+      "content_hash": "823d1d44a6f08191ae56c98db1d0a83ba879fc0becde72453a0066237e06121a",
+      "quote": "November 5, 2024 Joint General Election All reports are in .pdf format. McLennan County Reports Cumulative Canvass Precinct",
+      "supports": "2024 archive entry"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "county": "Guadalupe",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.guadalupetx.gov/page/elections.history",
+  "platform": "county_pdfs",
+  "host": "www.guadalupetx.gov",
+  "evidence_url": "https://www.guadalupetx.gov/page/elections.history",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL https://www.guadalupetx.gov/ links /page/elections.home and 'Elections Results History'. Guadalupe's Clarity elections.json exists but its newest listing is 2014 and the county pages carry no Clarity link, so check 1 has nothing to read. The Elections Results History page lists only official, post-canvass PDFs for the target elections: 'Guadalupe County General Election - Official Results' and '...pct by pct - Official Results' (2024), 'Republican/Democratic Primary Official Results' (2026 primary), 'Joint Primary Runoff Election-Election Summary Report-Official Results' (2026 runoff); the May 26, 2026 runoff election page lists notices, rosters and ballot logs but no results. No election-night report remains, so check 2 cannot show what was public on election night. One web search found no county election-night results page (only news coverage, which is not evidence). Check 3 pending for all three elections (origin/wayback-data not present).",
+  "tag_rationale": "No election could be determined (only official canvass reports remain online and check 3 is pending), so the rule gives UNKNOWN.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only '11.5.24-GC_General-Official_Results.pdf' and '11-5-24-GC_General-PrctbyPrct.pdf' (official) listed. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only '3-3-26_Rep_Primary-Official_Results.pdf', '3-3-26_Dem_Primary-Official_Results.pdf' and reconciliation listed. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only 'Official_Result-052626.pdf' (Joint Primary Runoff Election-Election Summary Report-Official Results) listed; the runoff election page has no results. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.guadalupetx.gov/page/elections.history",
+      "via": "fetch_module",
+      "content_hash": "29dcfb249b3a05060dc1371b0078e6d100fb530ae3aa52a4e8cce8685fb46c34",
+      "quote": "Joint Primary Runoff Election-Election Summary Report-Official Results ... Republican Primary Official Results (pdf) ... Guadalupe County General Election-pct by pct - Official Results (pdf)",
+      "supports": "only official reports remain"
+    },
+    {
+      "url": "https://www.guadalupetx.gov/page/elections.election2",
+      "via": "fetch_module",
+      "content_hash": "b38a048ba5bded4f73a0c20cb3836733bc9b3a735da0e01b3db2d63d8211a58a",
+      "quote": "Notices of Election - May 26, 2026 Primary Runoff Elections ... Returned Ballot log",
+      "supports": "runoff page has no results"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Guadalupe/elections.json",
+      "via": "clarity_script",
+      "content_hash": "a42ca815a304e7e0275a241045ef5ef9e5ec94370aea6e2515d58aaa4258360a",
+      "quote": "newest listing 51510 5/10/2014 May 10, 2014 Elections",
+      "supports": "Clarity not used for target elections"
+    }
+  ]
+}

@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "County pages 'Elections: 2026' and 'Past Election Results' link each election to Clarity: 2024 general EID 122429, 2026 primary EID 125942, 2026 runoff EID 126349. Clarity's elections.json does not list them, so check 1 was run with these EIDs. Candidate-only precinct sums were computed from the cached detail.xml files, because the check 1 script also counts contest-level undervotes. 2026 primary: the 7:11 PM update shows 303723 votes under the 'Election' vote type and 0 under 'Early', and the 1:07 AM update moves them to 'Early', so the first update looks like early votes with a wrong label; election-day precinct votes then rise across later night updates. 2026 runoff: every night update has candidate precinct values 'N/A' (870 cells). The county's 'Night Reporting' runoff precinct PDFs ('PRECINCT RESULTS - REPUBLICAN PARTY' and '- DEMOCRATIC PARTY') were created June 2, 2026 (Run Time 9:28 AM and 9:24 AM; Last-Modified Tue, 07 Jul 2026).",
+  "notes": "County pages 'Elections: 2026' and 'Past Election Results' link each election to Clarity: 2024 general EID 122429, 2026 primary EID 125942, 2026 runoff EID 126349. Clarity's elections.json does not list them, so check 1 was run with these EIDs. Candidate-only precinct sums were computed from the cached detail.xml files, because the check 1 script also counts contest-level undervotes. 2026 primary: the 7:11 PM update shows 303723 votes under the 'Election' vote type and 0 under 'Early', and the 1:07 AM update moves them to 'Early', so the first update looks like early votes with a wrong label; election-day precinct votes then rise across later night updates. 2026 runoff: every night update has candidate precinct values 'N/A' (870 cells). The county's 'Night Reporting' runoff precinct PDFs ('PRECINCT RESULTS - REPUBLICAN PARTY' and '- DEMOCRATIC PARTY') were created June 2, 2026 (Run Time 9:28 AM and 9:24 AM; Last-Modified Tue, 07 Jul 2026). Re-run with the updated check 1 script (election-day precinct votes counted separately): 2024 general 5/6 night updates with election-day precinct votes, 2026 primary 9/10, 2026 runoff 0/5.",
   "tag_rationale": "The 2024 general and 2026 primary are both LIVE (precinct numbers with election-day votes in several night updates), so the tag is LIVE_PRECINCT; confidence high because both were settled by check 1.",
   "agent": "research-4",
   "method_version": "v2",
@@ -75,10 +75,10 @@
       "result": "LIVE",
       "check": "1",
       "county_totals_first_seen": "",
-      "precinct_first_seen": "2026-03-03 20:33 CT",
-      "night_updates_with_precinct_numbers": "7",
+      "precinct_first_seen": "2026-03-03 19:11 CT",
+      "night_updates_with_precinct_numbers": "9",
       "evidence_url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368525/reports/detailxml.zip",
-      "fact": "Clarity EID 125942 night updates with candidate precinct votes in 39 precincts at 8:33:45, 8:51:13, 9:11:46, 9:32:08, 10:18:58, 10:40:03 PM and 1:07:28 AM CST; election-day precinct sums rise 12938, 47901, 97111, 186466, 272618, 295915, 295969."
+      "fact": "Clarity EID 125942: check 1 script reports election_night_updates_with_election_day_precinct_votes = 9 of 10 night updates (first 3/3/2026 7:11:45 PM CST), 39 precincts. Candidate election-day precinct sums rise across 8:33:45, 8:51:13, 9:11:46, 9:32:08, 10:18:58, 10:40:03 PM and 1:07:28 AM CST (12938, 47901, 97111, 186466, 272618, 295915, 295969); the 7:11 PM update's 303723 'Election' votes look like early votes under the wrong label (moved to 'Early' at 1:07 AM)."
     },
     "2026_runoff": {
       "result": "LATER",
