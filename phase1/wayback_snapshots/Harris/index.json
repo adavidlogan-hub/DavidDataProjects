@@ -1,0 +1,326 @@
+{
+  "county": "Harris",
+  "targets": [
+    "harrisvotes.com"
+  ],
+  "harvested_at_utc": "2026-10-02T14:49:33Z",
+  "windows": {
+    "2024_general": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=harrisvotes.com&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28result%7Celect%7Cprecinct%7Ccanvass%7Ccumulative%7Cdata%2F%29.%2A&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "8a684c1c6802f695d879ff6859df27069a122194655a6ffe1852c93b4513707a"
+        }
+      ],
+      "captures": [
+        {
+          "timestamp_utc": "20241106023920",
+          "local": "2024-11-05 20:39:20 CST",
+          "original": "https://www.harrisvotes.com/Election-Results/Live-Results",
+          "mimetype": "text/html",
+          "digest": "GVY243MCQ5UWRCSZHAQRHYS33YDBW2KO",
+          "length": "10005",
+          "replay_url": "https://web.archive.org/web/20241106023920id_/https://www.harrisvotes.com/Election-Results/Live-Results",
+          "ok": true,
+          "error": null,
+          "content_hash": "24d4ff9e88d4568f36a0ff875dc06048ddc8840f76f0eb7708881e96fdc742a5",
+          "saved_as": "Harris/2024_general_20241106023920_24d4ff9e88d4.html"
+        },
+        {
+          "timestamp_utc": "20241106023921",
+          "local": "2024-11-05 20:39:21 CST",
+          "original": "https://app.harrisvotes.com/electionresults/electionday",
+          "mimetype": "text/html",
+          "digest": "5CDCKAOARBYMLV7L6V2W46PQXXV6QPFW",
+          "length": "10558",
+          "replay_url": "https://web.archive.org/web/20241106023921id_/https://app.harrisvotes.com/electionresults/electionday",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106023922",
+          "local": "2024-11-05 20:39:22 CST",
+          "original": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/pr.json?nocache=1730860740000",
+          "mimetype": "application/json",
+          "digest": "ROPPSPAU2OR7RR5QNP3CS2UEVYJXCTAQ",
+          "length": "3876",
+          "replay_url": "https://web.archive.org/web/20241106023922id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/pr.json?nocache=1730860740000",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106023922",
+          "local": "2024-11-05 20:39:22 CST",
+          "original": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/resultsbyballot.json?nocache=1730860740000",
+          "mimetype": "application/json",
+          "digest": "KVDLRMINI3ZDBWNFECUC4E7DA5XK2QFG",
+          "length": "20624",
+          "replay_url": "https://web.archive.org/web/20241106023922id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/resultsbyballot.json?nocache=1730860740000",
+          "ok": true,
+          "error": null,
+          "content_hash": "d0366eb3a7ab2e20f89a273722f62bc1056f16094dc22ea16090c00fca41bd0a",
+          "saved_as": "Harris/2024_general_20241106023922_d0366eb3a7ab.json"
+        },
+        {
+          "timestamp_utc": "20241106055007",
+          "local": "2024-11-05 23:50:07 CST",
+          "original": "https://www.harrisvotes.com/Election-Results/Live-Results?os&ref=app",
+          "mimetype": "text/html",
+          "digest": "JFK52GPGKQUITAW7QBXRNTU6CEY7LDZ3",
+          "length": "8180",
+          "replay_url": "https://web.archive.org/web/20241106055007id_/https://www.harrisvotes.com/Election-Results/Live-Results?os&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "5b381fbb0358a5c516e9aab10f4ee54600dce53712b389ef53c389a4c31767e3",
+          "saved_as": "Harris/2024_general_20241106055007_5b381fbb0358.html"
+        },
+        {
+          "timestamp_utc": "20241106055018",
+          "local": "2024-11-05 23:50:18 CST",
+          "original": "https://www.harrisvotes.com/Election-Results/Live-Results?os",
+          "mimetype": "text/html",
+          "digest": "HL36TRRM6UV2NS4UAF3U3U7FEY42T56Z",
+          "length": "8129",
+          "replay_url": "https://web.archive.org/web/20241106055018id_/https://www.harrisvotes.com/Election-Results/Live-Results?os",
+          "ok": true,
+          "error": null,
+          "content_hash": "15ad128d3af91904439062efbf818afc505f5a118e43758e72fbbc61ac5d375b",
+          "saved_as": "Harris/2024_general_20241106055018_15ad128d3af9.html"
+        }
+      ]
+    },
+    "2026_primary": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=harrisvotes.com&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28result%7Celect%7Cprecinct%7Ccanvass%7Ccumulative%7Cdata%2F%29.%2A&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "67bc97990bbd8aeaacf3d6bd0957020dce63caf3be3011fa963525080a15bdfd"
+        }
+      ],
+      "captures": [
+        {
+          "timestamp_utc": "20260304020128",
+          "local": "2026-03-03 20:01:28 CST",
+          "original": "https://www.harrisvotes.com/Election-Results/Republican-Primary-Election",
+          "mimetype": "text/html",
+          "digest": "DFX3DHHUYQI46ZN7BXEB5SJ4A7R4M4N3",
+          "length": "9921",
+          "replay_url": "https://web.archive.org/web/20260304020128id_/https://www.harrisvotes.com/Election-Results/Republican-Primary-Election",
+          "ok": true,
+          "error": null,
+          "content_hash": "a55b5f26e16ad25c7aa0a4117b0c4c01cea11eb681f773eeb40fc32157fbc8e3",
+          "saved_as": "Harris/2026_primary_20260304020128_a55b5f26e16a.html"
+        },
+        {
+          "timestamp_utc": "20260304020130",
+          "local": "2026-03-03 20:01:30 CST",
+          "original": "https://app.harrisvotes.com/ElectionResults/RepublicanPrimary",
+          "mimetype": "text/html",
+          "digest": "QONYPKG2DG5NZ3IKCEPXGQJXT6DJIKR4",
+          "length": "10654",
+          "replay_url": "https://web.archive.org/web/20260304020130id_/https://app.harrisvotes.com/ElectionResults/RepublicanPrimary",
+          "ok": true,
+          "error": null,
+          "content_hash": "ad3eb5a4577a95079f59e6890fd2f89a40fcfc0188b57af0d76cd744b02d10f1",
+          "saved_as": "Harris/2026_primary_20260304020130_ad3eb5a4577a.html"
+        },
+        {
+          "timestamp_utc": "20260304020132",
+          "local": "2026-03-03 20:01:32 CST",
+          "original": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/rep-resultsbyballot.json?nocache=1772589660000",
+          "mimetype": "application/json",
+          "digest": "PSI2HXLIE7ZRNDQLSG2555W2PZKICF7R",
+          "length": "14060",
+          "replay_url": "https://web.archive.org/web/20260304020132id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/rep-resultsbyballot.json?nocache=1772589660000",
+          "ok": true,
+          "error": null,
+          "content_hash": "0b443e42ec676c78e8d4049902e05f450f221451f39f2b5e66c0955f0223aef8",
+          "saved_as": "Harris/2026_primary_20260304020132_0b443e42ec67.json"
+        },
+        {
+          "timestamp_utc": "20260304020133",
+          "local": "2026-03-03 20:01:33 CST",
+          "original": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/rep-pr.json?nocache=1772589660000",
+          "mimetype": "application/json",
+          "digest": "WWMQ6WMWIT5UV7RHOKCNBYYTPKG7XPQE",
+          "length": "3377",
+          "replay_url": "https://web.archive.org/web/20260304020133id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/rep-pr.json?nocache=1772589660000",
+          "ok": true,
+          "error": null,
+          "content_hash": "97fa7b7ace63c44ffca6fb0fc8276c254fae8289d1686e6595ec035406980c18",
+          "saved_as": "Harris/2026_primary_20260304020133_97fa7b7ace63.json"
+        },
+        {
+          "timestamp_utc": "20260304042043",
+          "local": "2026-03-03 22:20:43 CST",
+          "original": "https://www.harrisvotes.com/login-page?returnurl=%2FElection-Results%2FLive-Results",
+          "mimetype": "text/html",
+          "digest": "HRYQFRN26W2OD4T2CKTECH6PORJISE7A",
+          "length": "6885",
+          "replay_url": "https://web.archive.org/web/20260304042043id_/https://www.harrisvotes.com/login-page?returnurl=%2FElection-Results%2FLive-Results",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        }
+      ]
+    },
+    "2026_runoff": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=harrisvotes.com&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28result%7Celect%7Cprecinct%7Ccanvass%7Ccumulative%7Cdata%2F%29.%2A&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "b7b589fcf0fdd16c55de09c863b05fea15d477f139a95b55771cebd1ae37ca79"
+        }
+      ],
+      "captures": [
+        {
+          "timestamp_utc": "20260527014738",
+          "local": "2026-05-26 20:47:38 CDT",
+          "original": "https://www.harrisvotes.com/Election-Results/Democratic-Primary-Election",
+          "mimetype": "text/html",
+          "digest": "SU6QW665H3Y3TQ7BHDEAF33BA5UWT6TQ",
+          "length": "9954",
+          "replay_url": "https://web.archive.org/web/20260527014738id_/https://www.harrisvotes.com/Election-Results/Democratic-Primary-Election",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20260527014741",
+          "local": "2026-05-26 20:47:41 CDT",
+          "original": "https://app.harrisvotes.com/ElectionResults/DemocraticPrimary",
+          "mimetype": "text/html",
+          "digest": "M7Q7DA7PJPKMY7JNQ6FATCMTKADW26DP",
+          "length": "10728",
+          "replay_url": "https://web.archive.org/web/20260527014741id_/https://app.harrisvotes.com/ElectionResults/DemocraticPrimary",
+          "ok": true,
+          "error": null,
+          "content_hash": "a597a71f666b44f51d64ac49ae5ebc3909d0503b5d43b4643236d412eb9a3bbf",
+          "saved_as": "Harris/2026_runoff_20260527014741_a597a71f666b.html"
+        },
+        {
+          "timestamp_utc": "20260527014742",
+          "local": "2026-05-26 20:47:42 CDT",
+          "original": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0526/dem-pr.json?nocache=1779846420000",
+          "mimetype": "application/json",
+          "digest": "G6DOMPR7ZZBKYVZ52WY3SZ5REWDUORDF",
+          "length": "3471",
+          "replay_url": "https://web.archive.org/web/20260527014742id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0526/dem-pr.json?nocache=1779846420000",
+          "ok": true,
+          "error": null,
+          "content_hash": "13dd8ae4ac090e908a9ece31076d105f3e80d8cb220cde212708f87629ef329d",
+          "saved_as": "Harris/2026_runoff_20260527014742_13dd8ae4ac09.json"
+        },
+        {
+          "timestamp_utc": "20260527014743",
+          "local": "2026-05-26 20:47:43 CDT",
+          "original": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0526/dem-resultsbyballot.json?nocache=1779846420000",
+          "mimetype": "application/json",
+          "digest": "4I26E2HHVN3DAMNBVBTRWG5SRITEJIPR",
+          "length": "2600",
+          "replay_url": "https://web.archive.org/web/20260527014743id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0526/dem-resultsbyballot.json?nocache=1779846420000",
+          "ok": true,
+          "error": null,
+          "content_hash": "4e86f6339ffa7b8b35a562234a6f84a49c90e6003809d9f3ed3b07f77f7c82a7",
+          "saved_as": "Harris/2026_runoff_20260527014743_4e86f6339ffa.json"
+        },
+        {
+          "timestamp_utc": "20260527014754",
+          "local": "2026-05-26 20:47:54 CDT",
+          "original": "https://www.harrisvotes.com/Election-Results/Archives",
+          "mimetype": "text/html",
+          "digest": "XXYQEGS44CPXZXGIAYXXFPUCB4SWMXWE",
+          "length": "16108",
+          "replay_url": "https://web.archive.org/web/20260527014754id_/https://www.harrisvotes.com/Election-Results/Archives",
+          "ok": true,
+          "error": null,
+          "content_hash": "f1128d82c1c8354d175a72003adc6786ba67e8ec3e830a345f055a5053eba9b5",
+          "saved_as": "Harris/2026_runoff_20260527014754_f1128d82c1c8.html"
+        },
+        {
+          "timestamp_utc": "20260527014754",
+          "local": "2026-05-26 20:47:54 CDT",
+          "original": "https://www.harrisvotes.com/Election-Results/Republican-Primary-Election",
+          "mimetype": "text/html",
+          "digest": "OBYHNHNNUGBRN54KGQVARWANTKL2YBRX",
+          "length": "10188",
+          "replay_url": "https://web.archive.org/web/20260527014754id_/https://www.harrisvotes.com/Election-Results/Republican-Primary-Election",
+          "ok": true,
+          "error": null,
+          "content_hash": "29071a656406a20b4fd95f8e928a435244295c71d6bbb10e91ef1d50eb07ee9b",
+          "saved_as": "Harris/2026_runoff_20260527014754_29071a656406.html"
+        },
+        {
+          "timestamp_utc": "20260527014754",
+          "local": "2026-05-26 20:47:54 CDT",
+          "original": "https://www.harrisvotes.com/Election-Workers/Student-Election-Workers",
+          "mimetype": "text/html",
+          "digest": "5ERD46XD2FAK6TILIAJWVYDYV6IBI3LI",
+          "length": "13887",
+          "replay_url": "https://web.archive.org/web/20260527014754id_/https://www.harrisvotes.com/Election-Workers/Student-Election-Workers",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20260527014754",
+          "local": "2026-05-26 20:47:54 CDT",
+          "original": "https://www.harrisvotes.com/es-us/Election-Results/Democratic-Primary-Election",
+          "mimetype": "text/html",
+          "digest": "7C6OQJYR3Z2DHRK7A43O2XP3QUQ3TY7I",
+          "length": "11470",
+          "replay_url": "https://web.archive.org/web/20260527014754id_/https://www.harrisvotes.com/es-us/Election-Results/Democratic-Primary-Election",
+          "ok": true,
+          "error": null,
+          "content_hash": "c1a52a1f8b0b46ae3064d714b38ff196a3938aefbd048b08e7b5c4aa5f40294a",
+          "saved_as": "Harris/2026_runoff_20260527014754_c1a52a1f8b0b.html"
+        },
+        {
+          "timestamp_utc": "20260527014754",
+          "local": "2026-05-26 20:47:54 CDT",
+          "original": "https://www.harrisvotes.com/vi-vn/Election-Results/Democratic-Primary-Election",
+          "mimetype": "text/html",
+          "digest": "4MP5NSQEFQZVEALIRNVKP543BTUVD2IP",
+          "length": "11706",
+          "replay_url": "https://web.archive.org/web/20260527014754id_/https://www.harrisvotes.com/vi-vn/Election-Results/Democratic-Primary-Election",
+          "ok": true,
+          "error": null,
+          "content_hash": "1872fbe94a640f9ebf6736bb583f179a677eb1a5fa0552bfed515744b6e118b3",
+          "saved_as": "Harris/2026_runoff_20260527014754_1872fbe94a64.html"
+        },
+        {
+          "timestamp_utc": "20260527014754",
+          "local": "2026-05-26 20:47:54 CDT",
+          "original": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0526/dem-cumulative.pdf",
+          "mimetype": "application/pdf",
+          "digest": "VQVTLXZDDUMDTBQ6MKWX5T66TMLVEBX7",
+          "length": "209297",
+          "replay_url": "https://web.archive.org/web/20260527014754id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0526/dem-cumulative.pdf",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20260527020722",
+          "local": "2026-05-26 21:07:22 CDT",
+          "original": "https://www.harrisvotes.com/Election-Results",
+          "mimetype": "text/html",
+          "digest": "NIK3AHKDKTF7N4B6WTRR477TL2CRP56Z",
+          "length": "12390",
+          "replay_url": "https://web.archive.org/web/20260527020722id_/https://www.harrisvotes.com/Election-Results",
+          "ok": true,
+          "error": null,
+          "content_hash": "43c1086d53cda7656322227da7ecf3dd1a81c4b0e3283e5a141b3d5edb24973f",
+          "saved_as": "Harris/2026_runoff_20260527020722_43c1086d53cd.html"
+        }
+      ]
+    }
+  },
+  "replays_fetched": 22
+}
