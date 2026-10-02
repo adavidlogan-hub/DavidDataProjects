@@ -1,0 +1,48 @@
+{
+  "county": "Loving",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "",
+  "platform": "unknown",
+  "host": "",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Elections are run by the County and District Clerk (Mozelle Carr per search summary). A clerk site exists with an elections page (lovingcountyanddistrictclerk.com/elections-1, title 'loving county elections') and county pages at co.loving.tx.us/page/loving.County.Clerk, but no source shows whether election results are posted there, so results_url, host and platform are left empty/unknown. NO_SITE_OR_SOS_ONLY is not supported: no source states that results are available only through the SOS, and a county elections page exists. Results seen are third-party aggregations (Ballotpedia, RightDataUSA, Wikipedia) with no timing. Phone 432-309-9500 (Ext. 6) and emails Elections@lovingcounty.org / cclerk@co.loving.tx.us appeared only in a search summary, not attributed verbatim to a county or SOS page, so left empty. No 2025/2026 statement about precinct-level reporting found. Loving County has a single-digit number of precincts and about 100 registered voters, which does not by itself establish any reporting practice. No usage notice seen. Fetch module: 1 direct attempt on the clerk elections page plus wayback_probe (3 CDX windows) on lovingcountyanddistrictclerk.com/, all robots_disallowed_or_unreachable. WebFetch not attempted (all prior attempts EGRESS_BLOCKED).",
+  "tag_rationale": "No county results site was confirmed and no source describes election-night or precinct-level posting; there is also no source establishing SOS-only reporting. Tag UNKNOWN.",
+  "sources": [
+    {
+      "url": "https://lovingcountyanddistrictclerk.com/elections-1",
+      "via": "websearch",
+      "query": "Loving County Texas elections county clerk phone email",
+      "quote": "loving county elections",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.co.loving.tx.us/page/loving.County.Clerk",
+      "via": "websearch",
+      "query": "lovingcountyanddistrictclerk.com elections results",
+      "quote": "County Clerk Mozelle Carr",
+      "supports": "contact"
+    },
+    {
+      "url": "https://lovingcountyanddistrictclerk.com/elections-1",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "attempt failed: robots_disallowed_or_unreachable (no content)",
+      "supports": "results_url"
+    }
+  ],
+  "searches_run": 4,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 4,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T14:03:36Z",
+  "agent": "research-B",
+  "finished_at_utc": "2026-10-02T14:04:35Z"
+}
