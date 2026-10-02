@@ -119,3 +119,23 @@ Effort for the full run (15:14 to 17:01 UTC, about 1 hour 47 minutes):
 Session usage reading (API list price equivalent, includes all agents): 48.59 USD before the full run, 269.21 USD after, so about 221 USD for the full run. On the owner's subscription plan this counts toward usage limits rather than being billed.
 
 Still open: the Wayback harvest for 200 of 240 counties was re-run after a robots.txt fix (DECISIONS 46); check 3 for undetermined elections follows when it lands.
+
+## Addendum: targeted pass, as of 2026-10-02 22:10 UTC
+
+Tags after the targeted pass on the largest UNKNOWN counties (counties.csv):
+
+| Tag | Counties |
+|---|---|
+| LIVE_PRECINCT | 25 (21 high, 2 med, 2 low) |
+| PRECINCT_END_OF_NIGHT | 22 (2 high, 9 med, 11 low) |
+| COUNTY_ONLY_PRECINCT_AT_CANVASS | 106 (1 high, 57 med, 48 low) |
+| NO_SITE_OR_SOS_ONLY | 1 |
+| UNKNOWN | 100 |
+
+Changes: Nueces, Jefferson, Parker to LIVE_PRECINCT (Clarity elections found by the bounded election ID search, DECISIONS 51, 53); Lubbock to LIVE_PRECINCT by owner override (DECISIONS 52); Montgomery to COUNTY_ONLY_PRECINCT_AT_CANVASS (low); Collin to PRECINCT_END_OF_NIGHT (low) from an archived Nov 2024 precinct report whose original upload time was 1:18 AM CST on election night (DECISIONS 59). All six were confirmed by blind verifiers (verifier-7, verifier-8).
+
+Share of the 18,623,931 registered voters (Nov 2024) living in counties tagged LIVE_PRECINCT: 63.1 percent; LIVE_PRECINCT or PRECINCT_END_OF_NIGHT: 69.8 percent.
+
+Dead ends: Smith's "Final Report of the Night" (Laserfiche) was replaced and no longer exists; Collin's 2026 runoff precinct report was never archived; Williamson's only election-night capture shows zero ballots counted; Hays and Lubbock have no election-night captures; the Memento aggregator disallows crawlers and archive.today has nothing in the windows.
+
+Still running: the main Wayback harvest (batches 4 and 5, plus Young and Williamson) on GitHub Actions; check 3 for the remaining undetermined elections follows when it lands.
