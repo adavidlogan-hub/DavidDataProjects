@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.concho.tx.us/default.aspx?Concho_County/Elections replaced by https://www.co.concho.tx.us/page/concho.Elections. No Clarity or vendor link, and no results files for 2024 or 2026 on the Elections or County Clerk pages. Because the page holds only current-cycle items, NONE cannot be inferred. Check 3 pending (wayback-data branch not on origin).",
+  "notes": "Seed http://www.co.concho.tx.us/default.aspx?Concho_County/Elections replaced by https://www.co.concho.tx.us/page/concho.Elections. No Clarity or vendor link, and no results files for 2024 or 2026 on the Elections or County Clerk pages. Because the page holds only current-cycle items, NONE cannot be inferred. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-L): No change. The Elections page holds only November 3, 2026 items; the wayback harvest for co.concho.tx.us recorded robots_disallowed_or_unreachable with no captures for all three windows. Wayback (web.archive.org) was unreachable from the fetch module throughout this pass (robots.txt request reset: 'Connection reset by peer'), so no new archive lookups were possible; sweep not expected for this county.",
   "tag_rationale": "No election could be determined from checks 1 and 2, so the tag is UNKNOWN.",
   "agent": "research-2",
   "method_version": "v2",

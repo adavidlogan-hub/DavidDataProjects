@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No website in the SOS seed list. One web search found no King County, Texas site; the conventional domain www.co.king.tx.us was unreachable at first (robots.txt connection reset) and loaded on a later retry. Its home page lists election files. 'Republican Election Totals' (Last-Modified Wed, 18 Mar 2026 15:29:07 GMT, scanned, read visually) is actually a '2020 King County General Election Results-- NOV 3' table with per-precinct EV and ED columns, not 2026 results. '28 May 2026 Canvas Runoff Election' (Last-Modified 27 May 2026) is a notice of the canvass meeting ('CANVASS OF MAY 26, 2026 ... Thursday, May 28, 2026, at 10:00 a.m.'), not results. 'Election Results' (King Co Elecetion Results.pdf) has Last-Modified 10 Jul 2024, before the 2024 general. No results for the three target elections were found. No Clarity site (elections.json 404). Check 3 pending.",
+  "notes": "No website in the SOS seed list. One web search found no King County, Texas site; the conventional domain www.co.king.tx.us was unreachable at first (robots.txt connection reset) and loaded on a later retry. Its home page lists election files. 'Republican Election Totals' (Last-Modified Wed, 18 Mar 2026 15:29:07 GMT, scanned, read visually) is actually a '2020 King County General Election Results-- NOV 3' table with per-precinct EV and ED columns, not 2026 results. '28 May 2026 Canvas Runoff Election' (Last-Modified 27 May 2026) is a notice of the canvass meeting ('CANVASS OF MAY 26, 2026 ... Thursday, May 28, 2026, at 10:00 a.m.'), not results. 'Election Results' (King Co Elecetion Results.pdf) has Last-Modified 10 Jul 2024, before the 2024 general. No results for the three target elections were found. No Clarity site (elections.json 404). Check 3 pending. Targeted pass 3 2026-10-02 (targeted3-G): read 'Democratic Election Totals' (2026 Democratic primary county totals, uploaded 18 Mar 2026); no election-night file for any target election. No wayback_snapshots folder for King on the wayback-data branch; no sweep file. No change.",
   "tag_rationale": "No election was determined (all UNDETERMINED), so the rule gives UNKNOWN.",
   "agent": "research-5",
   "method_version": "v2",
@@ -34,7 +34,7 @@
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "",
-      "fact": "check 3 pending; no results for this election found on the county site"
+      "fact": "Rule 43: no election-night file. 'Democratic Election Totals' is a scanned table '2026-DEM PRIMARY ELECTION MARCH 3, 2026' with one 'Tot Votes' column (county totals; read from the page image), scan CreationDate 2026-03-18 16:28:32 UTC, Last-Modified Wed, 18 Mar 2026 15:28:37 GMT. The 'Republican Election Totals' file is 2020 general results. No precinct results posted. No wayback folder for this county."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",
@@ -67,6 +67,13 @@
       "content_hash": "13295fcb351f4351a03b3d149a816892abe70d8332d892abc8291f42bac7618a",
       "quote": "CANVASS OF MAY 26, 2026 REPUBLICAN & DEMOCRAT PRIMARY RUNOFF ELECTIONS Thursday, May 28, 2026, at 10:00 a.m.",
       "supports": "runoff file is a canvass notice"
+    },
+    {
+      "url": "https://www.co.king.tx.us/upload/page/9611/Democratic%20Election%20Totals.pdf",
+      "via": "fetch_module",
+      "content_hash": "a54f95042ab2f8ebe3ddffe9112598174556e0c0d473eba1bcecd5e0a0374de0",
+      "quote": "2026-DEM PRIMARY ELECTION MARCH 3, 2026 | Candidate | Office | Tot Votes (scan, read from page image; Last-Modified Wed, 18 Mar 2026 15:28:37 GMT)",
+      "supports": "2026 primary: Democratic county totals only, uploaded 18 Mar 2026, after election night; UNDETERMINED"
     }
   ]
 }

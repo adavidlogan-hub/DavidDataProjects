@@ -1,31 +1,31 @@
 {
   "county": "Zapata",
-  "tag": "UNKNOWN",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.zapata.tx.us/",
   "platform": "county_pdfs",
   "host": "www.co.zapata.tx.us",
-  "evidence_url": "",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/6427/docs/Results/November%205%202024%20General%20and%20ZCISD%20-%20unofficial%20results.pdf",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). Results are posted on the county home page (the Elections page holds notices only). 2026 primary: 'ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - REP/DEM' scanned PDFs (Republican: CreationDate 2026-03-04 21:08 UTC, Last-Modified Wed, 04 Mar 2026 20:42:37 GMT, the day after), then official versions. 2026 runoff (labelled 'March 26, 2026 - Primary Runoff Election' on the page): 'UNOFFICIAL ... CUMULATIVE RESULTS' scan, Last-Modified Thu, 28 May 2026 17:38:38 GMT (two days after), then official cumulative and canvass reports. 2024 general: no results listed. No unofficial file was uploaded on election night per the server times, but whether something else was posted that night and replaced cannot be told. Check 3 pending (origin/wayback-data branch not found).",
-  "tag_rationale": "No election could be determined by checks 1 and 2 (unofficial files uploaded after election night; 2024 not listed; check 3 pending), so the rule gives UNKNOWN.",
+  "notes": "No Clarity site (elections.json 404). Results are posted on the county home page (the Elections page holds notices only). 2026 primary: 'ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - REP/DEM' scanned PDFs (Republican: CreationDate 2026-03-04 21:08 UTC, Last-Modified Wed, 04 Mar 2026 20:42:37 GMT, the day after), then official versions. 2026 runoff (labelled 'March 26, 2026 - Primary Runoff Election' on the page): 'UNOFFICIAL ... CUMULATIVE RESULTS' scan, Last-Modified Thu, 28 May 2026 17:38:38 GMT (two days after), then official cumulative and canvass reports. 2024 general: no results listed. No unofficial file was uploaded on election night per the server times, but whether something else was posted that night and replaced cannot be told. Check 3 pending (origin/wayback-data branch not found). Targeted pass 3 2026-10-02 (targeted3-L): Settled the verifier disagreement on 2024_general. The research missed the Elections page link the verifier found; opened it myself: county-totals cumulative report (Run Time 10:55 PM) uploaded 2024-11-05 23:25 CST, and no 2024 precinct file listed, so 2024_general UNDETERMINED to LATER (check 2, rule 43). 2026_primary and 2026_runoff stay UNDETERMINED (only files uploaded after election night; agrees with the verifier after its rule 43 re-application). Wayback harvest for co.zapata.tx.us could not run and Wayback was unreachable during this pass. Tag UNKNOWN to COUNTY_ONLY_PRECINCT_AT_CANVASS (low).",
+  "tag_rationale": "Only 2024_general is determined (LATER, check 2), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
   "agent": "research-8",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 23:25 CT",
       "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "No 2024 general results listed on the county site. Check 3 pending."
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/6427/docs/Results/November%205%202024%20General%20and%20ZCISD%20-%20unofficial%20results.pdf",
+      "fact": "The Elections page (page/zapata.Elections) lists 'November 5, 2024 General & ZCISD Election (unofficial)', a 7-page scanned Hart report read from the page images: 'Cumulative Results Report ... ZAPATA COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Unofficial Results ... Run Time 10:55 PM Run Date 11/05/2024', county totals only ('Donald J. Trump JD Vance REP 31 ... 2,064 ... 870 ... 2,965', with an Election Day Voting column), ending '*** End of report ***'. Last-Modified Wed, 06 Nov 2024 05:25:18 GMT (2024-11-05 23:25 CST); PDF CreationDate Tue Nov 5 23:06:25 2024. No 2024 general precinct-level file is listed on the page. County totals on election night, no precinct numbers."
     },
     "2026_primary": {
       "result": "UNDETERMINED",
@@ -67,6 +67,20 @@
       "content_hash": "2427c154cadf86ef4a02c464ed75fd3391828ffdf3f169abbea32257e8fc36e9",
       "quote": "Last-Modified: Wed, 04 Mar 2026 20:42:37 GMT (RICOH scan)",
       "supports": "primary unofficial uploaded after election night"
+    },
+    {
+      "url": "https://www.co.zapata.tx.us/page/zapata.Elections",
+      "via": "fetch_module",
+      "content_hash": "8ffedcabcaca330a5916071a2cf6e320640b4d1789ee1bf683ecf12af585d3ab",
+      "quote": "November 5, 2024 General & ZCISD Election (unofficial) | https://newtools.cira.state.tx.us/upload/page/6427/docs/Results/November%205%202024%20General%20and%20ZCISD%20-%20unofficial%20results.pdf",
+      "supports": "the only 2024 general results file listed"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/6427/docs/Results/November%205%202024%20General%20and%20ZCISD%20-%20unofficial%20results.pdf",
+      "via": "fetch_module",
+      "content_hash": "19a05c0b7276b6895edd1f9e28834248cc2f275a7516574d2185b1afa7216bd5",
+      "quote": "Cumulative Results Report ... GENERAL ELECTION 11/5/2024 ... Unofficial Results ... Run Time 10:55 PM (page image); Last-Modified: Wed, 06 Nov 2024 05:25:18 GMT",
+      "supports": "2024 general LATER: election-night county totals upload"
     }
   ]
 }

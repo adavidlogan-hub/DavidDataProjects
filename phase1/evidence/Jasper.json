@@ -1,20 +1,20 @@
 {
   "county": "Jasper",
-  "tag": "UNKNOWN",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.jasper.tx.us/page/Elections",
   "platform": "county_pdfs",
   "host": "www.co.jasper.tx.us",
-  "evidence_url": "https://www.co.jasper.tx.us/upload/page/0095/3326%20Unofficial%20Summary%20Totals.pdf",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/1130/UNOFFICIAL%20SUMMARY%20RESULTS.pdf",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "County Elections page (co.jasper.tx.us) links 'Election Results/Voting History' to the SOS historical site and posts PDFs for 2026 only. 2026 primary: 'Unofficial Totals' = Electionware Summary Results Report, county totals (scan CreationDate 2026-03-04 18:29 UTC, Last-Modified Thu, 05 Mar 2026 21:41:18 GMT); 'Official PCT by PCT Results' (CreationDate 2026-03-10, Last-Modified Fri, 20 Mar 2026 19:00:51 GMT) is the only precinct file. 2026 runoff: only 'Official Summary Results', 'Official Pct by Pct Results', canvass notice and audit certification; no unofficial or election-night file. 2024 general: no results on the page. No Clarity link. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_primary LATER to UNDETERMINED.",
-  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
+  "notes": "County Elections page (co.jasper.tx.us) links 'Election Results/Voting History' to the SOS historical site and posts PDFs for 2026 only. 2026 primary: 'Unofficial Totals' = Electionware Summary Results Report, county totals (scan CreationDate 2026-03-04 18:29 UTC, Last-Modified Thu, 05 Mar 2026 21:41:18 GMT); 'Official PCT by PCT Results' (CreationDate 2026-03-10, Last-Modified Fri, 20 Mar 2026 19:00:51 GMT) is the only precinct file. 2026 runoff: only 'Official Summary Results', 'Official Pct by Pct Results', canvass notice and audit certification; no unofficial or election-night file. 2024 general: no results on the page. No Clarity link. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_primary LATER to UNDETERMINED. Targeted pass 3 2026-10-02 (targeted3-I): 2024_general UNDETERMINED to LATER (check 2). The county's CIRA upload folder (page 1130, found by web search; files no longer linked) still holds 'UNOFFICIAL SUMMARY RESULTS.pdf' (county totals, printed 11/06/2024 12:26 AM, uploaded 08:07 AM Nov 6) and '11-5-24 Unofficial Pct by Pct Results.pdf' (printed 12:32 AM, uploaded 10:28 AM Nov 7). 2026 primary and runoff: no new files (summary printed 03/04/2026 8:31 AM; runoff only official files). Wayback harvest for co.jasper.tx.us was robots-blocked or unreachable; no sweep file; KJAS search found nothing for check 4.",
+  "tag_rationale": "Only the 2024 general is determined (LATER, check 2: county totals printed 12:26 AM on election night, precinct report uploaded Nov 7); the 2026 primary and runoff stay UNDETERMINED. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-4",
   "method_version": "v2",
   "sources": [
@@ -38,17 +38,59 @@
       "content_hash": "ded276b4a371cacfb123535e633966c2c23db00653b65ce7735cd5089e890b5d",
       "quote": "Summary Results Report OFFICIAL RESULTS 2026 Primary Election ... Pct # 1 Three Corners",
       "supports": "Primary precinct numbers posted at the official stage"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/page/jasper.Elections",
+      "via": "fetch_module",
+      "content_hash": "e057414290ff83c68e96b982b42db6b15d4724882dd7655336a5d4d574e69124",
+      "quote": "Unofficial Totals; Official PCT by PCT Results; Official Summary Results (no 2024 general results linked)",
+      "supports": "The CIRA copy of the Elections page lists the same 2026 files as www.co.jasper.tx.us; 2024 files are no longer linked"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1130/UNOFFICIAL%20SUMMARY%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "73db33256f3c3d1661b910e50824182ccd016646e02911d8088bfde66a3d05dc",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS JASPER COUNTY GENERAL ELECTION November 5, 2024 ... Election Day Precincts Reporting 23 of 23 ... Election Summary - 11/06/2024 12:26 AM",
+      "supports": "2024_general county totals printed on election night; Last-Modified Wed, 06 Nov 2024 14:07:14 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1130/11-5-24%20Unofficial%20Pct%20by%20Pct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "6479e86404bb7f7348e7e12242c3e46051bf6e394dae3bfc26042648c8a2861b",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS General Election November 5, 2024 Jasper County Pct # 1 Three Corners ... Precinct Summary - 11/06/2024 12:32 AM",
+      "supports": "2024_general precinct report uploaded Thu, 07 Nov 2024 16:28:15 GMT, after election night (rule 47)"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1130/11-5-24%20Preliminary%20Reconciliation.pdf",
+      "via": "fetch_module",
+      "content_hash": "51d7d34ba470bc7f2016405feb401aeed4c143002ec090d0693a310d72e7e748",
+      "quote": "(preliminary reconciliation form, not opened for content)",
+      "supports": "Last-Modified Wed, 06 Nov 2024 19:09:06 GMT; also after election night"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1130/11-5-24%20Official%20Pct%20by%20Pct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "d148c3f0685c4f76d5470daf51e7435122ead787101e1dbe450002c5341df5c1",
+      "quote": "Pct By Pct Results Report General Election November 5, 2024 Pct # 1 Three Corners ... OFFICIAL RESULTS Jasper County",
+      "supports": "Official 2024 precinct report, Last-Modified Mon, 18 Nov 2024 17:15:48 GMT"
+    },
+    {
+      "url": "websearch:?q=newtools.cira.state.tx.us upload page 1130 unofficial results jasper county 2024 general election",
+      "via": "websearch",
+      "content_hash": "57a5eb3b0f60a8d879db3dfd7ab1349d768bf5321666cfa70fa9bf1e106753fc",
+      "quote": "11 5 24 Unofficial Pct by Pct Results; UNOFFICIAL SUMMARY RESULTS (links only)",
+      "supports": "Located the unlinked 2024 files (search used for locating only)"
     }
   ],
   "elections": {
     "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "No 2024 general results on the county Elections page (it links the SOS historical results site). Check 3 pending."
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 00:26 CT (printed run time; server upload 2024-11-06 08:07 CT)",
+      "precinct_first_seen": "2024-11-07 10:28 CT (server upload of the unofficial precinct report; printed 2024-11-06 00:32)",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/1130/UNOFFICIAL%20SUMMARY%20RESULTS.pdf",
+      "fact": "Files on the county's CIRA upload folder (page 1130, the folder behind newtools.cira.state.tx.us/page/jasper.Elections; no longer linked from the page, located by web search): 'UNOFFICIAL SUMMARY RESULTS.pdf' = scanned Electionware 'Summary Results Report UNOFFICIAL RESULTS JASPER COUNTY GENERAL ELECTION November 5, 2024 ... Election Day Precincts Reporting 23 of 23 ... Ballots Cast - Total 20,134', county totals only, footer 'Election Summary - 11/06/2024 12:26 AM' (election night), Last-Modified Wed, 06 Nov 2024 14:07:14 GMT (08:07 AM CST Nov 6). '11-5-24 Unofficial Pct by Pct Results.pdf' = 'Summary Results Report UNOFFICIAL RESULTS General Election November 5, 2024 Jasper County Pct # 1 Three Corners ... REP Donald J. Trump/JD Vance 42 3 6 33' (per precinct with Election Day column), footer 'Precinct Summary - 11/06/2024 12:32 AM', Last-Modified Thu, 07 Nov 2024 16:28:15 GMT (10:28 AM CST Nov 7), after election night, so under rule 47 it cannot show election-night publication. Rule 43: county-totals file with an election-night printed run time and no precinct numbers shown published that night gives LATER. Caveat: the summary itself was uploaded the next morning; LATER rests on its printed run time as rule 43 allows."
     },
     "2026_primary": {
       "result": "UNDETERMINED",

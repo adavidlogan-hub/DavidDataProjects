@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Elections Administrator page posts Hart-style Cumulative and Precinct Results Reports for each election. 2024 general: the precinct-by-precinct file is a 35-page scan (header shading makes the run time illegible; header reads 'Unofficial Results' and 'OFFICAL ELECTION RESULTS') scanned and uploaded the morning of Nov 6. 2026 primary: unofficial Precinct Results Report with Election Day columns, Run Time 9:33 PM, uploaded 9:40 PM CST on election night. 2026 runoff: on election night only the cumulative county totals (Run Time 8:25 PM, uploaded 8:36 PM CDT); the precinct report was run 12:24 PM May 28 and uploaded 3:58 PM CDT May 28. Both runoff reports show 'Precincts Reporting 0 of 5' although they include Election Day votes (as printed). Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED. Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Elections Administrator page posts Hart-style Cumulative and Precinct Results Reports for each election. 2024 general: the precinct-by-precinct file is a 35-page scan (header shading makes the run time illegible; header reads 'Unofficial Results' and 'OFFICAL ELECTION RESULTS') scanned and uploaded the morning of Nov 6. 2026 primary: unofficial Precinct Results Report with Election Day columns, Run Time 9:33 PM, uploaded 9:40 PM CST on election night. 2026 runoff: on election night only the cumulative county totals (Run Time 8:25 PM, uploaded 8:36 PM CDT); the precinct report was run 12:24 PM May 28 and uploaded 3:58 PM CDT May 28. Both runoff reports show 'Precincts Reporting 0 of 5' although they include Election Day votes (as printed). Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED. Rule 47 applied 2026-10-02 (normalize-47): none. Targeted pass 3 2026-10-02 (targeted3-I): 2024_general stays UNDETERMINED: 'November General Cumulative Results 11052024.pdf' is a scan created 09:10 AM CST Nov 6 and uploaded 09:43 AM CST Nov 6; the preliminary reconciliation was uploaded Nov 14. No file for 2024 has an election-night printed or upload time. Wayback harvest had no captures in any window; no sweep file; no check 4 source found.",
   "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary END, 2026_runoff LATER. No result is shared by two elections and the number of determined elections is not exactly one, so by the rule the tag is UNKNOWN. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-1",
   "method_version": "v2",
@@ -81,6 +81,20 @@
       "quote": "Precinct Results Report BROOKS COUNTY, TEXAS GENERAL ELECTION 11/5/2024 Unofficial Results (scan)",
       "supports": "2024 precinct numbers uploaded morning of Nov 6",
       "content_hash": "46ad70227c190fcb8b7887ada27d8d4206ffd1dccb13056367f82643eb0eb85b"
+    },
+    {
+      "url": "https://www.co.brooks.tx.us/upload/page/5156/November%20General%20Cumulative%20Results%2011052024.pdf",
+      "via": "fetch_module",
+      "content_hash": "78064e29525d6470c9e4746badd875b87b98f126c7db35001fc5a59412f0ee40",
+      "quote": "(8-page RICOH scan; CreationDate Wed Nov 6 15:10:49 2024 UTC)",
+      "supports": "2024 county totals file uploaded Wed, 06 Nov 2024 15:43:14 GMT, after election night; no election-night time"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/5156/Preliminary%20Election%20Reconciliation-%20Unofficial%20Totals%2011052024.pdf",
+      "via": "fetch_module",
+      "content_hash": "4586a0ed528e933cd5d30723144a6e3421bfe84ce9d645e89149b17cbda75f7b",
+      "quote": "Preliminary Election Reconciliation- Unofficial Totals 11052024.pdf (link title)",
+      "supports": "Last-Modified Thu, 14 Nov 2024 22:33:36 GMT; not election night"
     }
   ]
 }
