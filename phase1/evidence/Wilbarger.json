@@ -1,0 +1,100 @@
+{
+  "county": "Wilbarger",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.wilbarger.tx.us/page/Elections.2026",
+  "platform": "county_pdfs",
+  "host": "www.co.wilbarger.tx.us",
+  "evidence_url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/Primary%20Party%20Election%20%E2%80%93%20Unofficial%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL (http, default.aspx) returned HTTP 403; https version and /page/wilbarger.Elections load. No Clarity site (elections.json 404). Results are posted as scanned PDFs on the county's Elections 2026 and Elections Past pages. Every results report found (unofficial and official, all three elections) is a 'Cumulative Results Report' with county totals split by Absentee, Early and Election Day voting; no precinct-by-precinct report is listed for any of the three elections. Printed run times are on election night (2024: 8:39 PM 11/05/2024; 2026 primary: 8:56 PM 03/03/2026; 2026 runoff: 7:29 PM 05/26/2026), but the server Last-Modified times are after election night: 2024 unofficial Thu, 07 Nov 2024 16:49:02 GMT; 2026 primary unofficial Wed, 04 Mar 2026 13:41:55 GMT (7:41 AM CST next morning); 2026 runoff unofficial Tue, 02 Jun 2026 22:42:11 GMT (PDF ModDate 27 May 2026 13:54 UTC; a second copy at /upload/page/0113/2026/ has Last-Modified 16 Jun 2026). The server returns distinct Last-Modified values per file, so upload times are meaningful, but a file replaced later would hide an earlier upload. The elections page also links the SOS results site (results.texas-election.com). Check 3 pending (origin/wayback-data not present), so whether anything was posted on election night itself is not shown. En dashes in quoted document titles were replaced with hyphens.",
+  "tag_rationale": "All three elections are LATER by check 2 (county-total cumulative reports only, no precinct reports published online), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; check 2 upload times are not on election night, so confidence is low.",
+  "agent": "research-A",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-07 10:49 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.wilbarger.tx.us/upload/page/0109/2024/unofficial_results_1152024.pdf",
+      "fact": "'Unofficial Results' PDF: 'Cumulative Results Report ... 2024 NOVEMBER 5TH GENERAL ELECTION ... Run Time 8:39 PM Run Date 11/05/2024 ... Precincts Reporting 10 of 10'; county totals by Absentee/Early/Election Day only; Last-Modified Thu, 07 Nov 2024 16:49:02 GMT. 'Official Results' (Last-Modified 19 Nov 2024) is also county totals. No precinct report listed."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 07:41 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/Primary%20Party%20Election%20%E2%80%93%20Unofficial%20Results.pdf",
+      "fact": "'Primary Party Election - Unofficial Results' PDF (16 pages): 'Cumulative Results Report ... Run Time 8:56 PM Run Date 03/03/2026'; county totals only; Last-Modified Wed, 04 Mar 2026 13:41:55 GMT. 'Republican and Democratic 2026 Primary - Official Results' (Last-Modified 13 Mar 2026) also cumulative county totals. No precinct report listed."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-27 08:54 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/2026%20Runoff/unofficial_results_for_primary_party_runoff_election.pdf",
+      "fact": "'Unofficial Results for Primary Party Runoff Election' PDF (2 pages): 'Cumulative Results Report ... Election Day ... Run Time 7:29 PM Run Date 05/26/2026'; county totals only; PDF ModDate 27 May 2026 13:54 UTC; Last-Modified Tue, 02 Jun 2026 22:42:11 GMT. Official runoff results also posted 2 Jun 2026. No precinct report listed."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0109/2024/unofficial_results_1152024.pdf",
+      "via": "fetch_module",
+      "content_hash": "450272eeeaae1abbf74cb6c77fd939eb7ac96e45b493dd09f6491b0845a77f82",
+      "quote": "Cumulative Results Report ... Run Time 8:39 PM Run Date 11/05/2024 ... Unofficial Results",
+      "supports": "2024_general county totals only, uploaded 7 Nov 2024"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0109/2024/doc019_11.19.pdf",
+      "via": "fetch_module",
+      "content_hash": "908561290cfe1d808f73c3eb59b41f5b6db296e80ee9046aa3591305253f7789",
+      "quote": "Official Results (6 pages)",
+      "supports": "2024 canvass report"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/Primary%20Party%20Election%20%E2%80%93%20Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "6791960b733531210e12f9a78ca233b999d4dd0247a58a7b3344be0025f2b57c",
+      "quote": "Cumulative Results Report ... Primary Party Election ... Run Time 8:56 PM Run Date 03/03/2026 ... Precincts Reporting 0 of 4",
+      "supports": "2026_primary county totals only, uploaded 4 Mar 2026 13:41 GMT"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/Republican%20and%20Democratic%202026%20Primary%20%E2%80%93%20Official%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "68b89b781dc028a659873d063ea9d7111fb72bf36ec5ac4a5a9e174faa8068fd",
+      "quote": "Cumulative Results Report ... Official Results",
+      "supports": "2026_primary canvass report county totals"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/2026%20Runoff/unofficial_results_for_primary_party_runoff_election.pdf",
+      "via": "fetch_module",
+      "content_hash": "a7899c5a5cabc69075153b91545ef2e87b221e9b6942d7ec5f257117444b0646",
+      "quote": "Cumulative Results Report ... Primary Party Runoff Election ... Run Time 7:29 PM Run Date 05/26/2026",
+      "supports": "2026_runoff county totals only"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/2026%20Runoff/official_results_for_primary_party_runoff_election.pdf",
+      "via": "fetch_module",
+      "content_hash": "086b3d72fed48d5fc06dfd4a8b19a12fbfe39f7be6afee178876f7b42e0f39ae",
+      "quote": "Official Results for Primary Party Run-off Election",
+      "supports": "2026_runoff canvass report"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/page/Elections.Past",
+      "via": "fetch_module",
+      "content_hash": "611135a38659555b573adcd70afce8a9b2b8662f03f975e668dd256a00acb021",
+      "quote": "November 5, 2024 Elections: Official Results, Unofficial Results",
+      "supports": "2024 report list"
+    }
+  ]
+}

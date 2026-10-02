@@ -70,17 +70,23 @@ def on_election_night(ts: str, election_date: str) -> bool:
     return d + timedelta(hours=19) <= t <= d + timedelta(hours=27)
 
 
-def run(county: str, agent: str) -> dict:
+def run(county: str, agent: str, eid_override: dict | None = None) -> dict:
     c = FetchClient(agent=agent)
     slug = county.replace(" ", "_")
     res = {"county": county, "check": "clarity_update_log", "elections": {}}
+    eid_override = eid_override or {}
     lst = c.get(f"{BASE}/{slug}/elections.json", purpose=f"check1:{county}")
-    if not lst.ok:
+    if not lst.ok and not eid_override:
         res["result"] = f"no Clarity election list ({lst.status or lst.error})"
         return res
-    elections = json.loads(body(lst))
+    elections = json.loads(body(lst)) if lst.ok else []
     for key, date in TARGETS.items():
-        match = [e for e in elections if e.get("Date", "").startswith(date + " ")]
+        if key in eid_override:
+            # Election ID taken from a link on the county's own site (the Clarity list can be incomplete).
+            match = [{"EID": eid_override[key], "ElectionName": "(EID supplied from county site link)"}]
+            res.setdefault("eid_overrides", {})[key] = eid_override[key]
+        else:
+            match = [e for e in elections if e.get("Date", "").startswith(date + " ")]
         if not match:
             res["elections"][key] = {"found": False, "note": "election not listed on this county's Clarity site"}
             continue
@@ -119,8 +125,15 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--county", required=True)
     ap.add_argument("--agent", required=True)
+    ap.add_argument("--eid", action="append", default=[],
+                    help="election=EID from a county-site link, e.g. 2026_primary=125934 (repeatable)")
     a = ap.parse_args(argv)
-    res = run(a.county, a.agent)
+    override = {}
+    for kv in a.eid:
+        k, _, v = kv.partition("=")
+        assert k in TARGETS and v.isdigit(), f"bad --eid {kv!r}"
+        override[k] = v
+    res = run(a.county, a.agent, override)
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / f"{a.county.replace(' ', '_')}.json").write_text(json.dumps(res, indent=2))
     summary = {"county": a.county, "result": res.get("result", "ok")}
