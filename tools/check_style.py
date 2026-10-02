@@ -7,7 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from phase1.schema import BANNED_RE  # noqa: E402
 
 # Raw archived source files are preserved byte for byte and are not deliverables.
-RAW_DIRS = ("phase1/targeted/wayback/", "phase1/targeted/archives/", "phase1/targeted/pdfs/", "phase1/wayback_snapshots/")
+RAW_DIRS = ("phase1/targeted/wayback/", "phase1/targeted/archives/", "phase1/targeted/pdfs/", "phase1/targeted/sweep/", "phase1/wayback_snapshots/")
 TEXT_EXT = {".md", ".csv", ".py", ".js", ".html", ".toml", ".json", ".txt", ".ps1", ".bat", ".cmd", ".yml", ".yaml"}
 
 

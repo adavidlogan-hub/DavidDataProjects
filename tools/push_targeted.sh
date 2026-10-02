@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# Push phase1/targeted/{archives,wayback,pdfs} to the wayback-data branch. Used by targeted-archives.yml and pdf-probe.yml.
+# Push phase1/targeted/{archives,wayback,pdfs,sweep} to the wayback-data branch. Used by targeted-archives.yml pdf-probe.yml, and archive-file-sweep.yml.
 # Requires TOKEN, REPO, RUN_ID, JOB in the environment.
 set -u
 REMOTE="https://x-access-token:${TOKEN}@github.com/${REPO}.git"
 WD=$(mktemp -d)
 git clone -q --depth 1 --branch wayback-data "$REMOTE" "$WD"
 mkdir -p "$WD/phase1/targeted"
-for d in archives wayback pdfs; do
+for d in archives wayback pdfs sweep; do
   if [ -d "phase1/targeted/$d" ]; then cp -r "phase1/targeted/$d" "$WD/phase1/targeted/"; fi
 done
 cd "$WD"
