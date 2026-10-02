@@ -130,12 +130,32 @@ def main(argv=None) -> int:
         assert t["url_prefixes"], f"{t['county']}: no url_prefixes"
         print(json.dumps({"county": t["county"], **harvest_county(
             client, t, a.cap, Path(a.snap_dir), EXTENDED_WINDOWS if a.extended else WINDOWS)}), flush=True)
-    with client.store.connect() as con:
-        blocked = con.execute("SELECT COUNT(*) FROM fetches WHERE host_class = 'archive' AND fetched_at >= ? "
-                              "AND error = 'robots_disallowed_or_unreachable'", (t0,)).fetchone()[0]
-    print(json.dumps({"elapsed_seconds": round(time.time() - t0, 1), "robots_blocked_requests": blocked}))
+    blocked_counties = _blocked_counties(client, t0)
+    if blocked_counties:
+        # archive.org sometimes refuses connections for a few minutes; wait, forget the cached
+        # robots.txt failure, and retry only the affected counties once.
+        print(json.dumps({"retrying_after_robots_outage": sorted(blocked_counties)}), flush=True)
+        time.sleep(120)
+        with client.store.connect() as con:
+            con.execute("DELETE FROM robots WHERE error IS NOT NULL")
+        client._robots_mem.clear()
+        t1 = time.time()
+        for t in targets:
+            if t["county"] in blocked_counties:
+                print(json.dumps({"county": t["county"], "retry": True, **harvest_county(
+                    client, t, a.cap, Path(a.snap_dir), EXTENDED_WINDOWS if a.extended else WINDOWS)}), flush=True)
+        blocked_counties = _blocked_counties(client, t1)
+    print(json.dumps({"elapsed_seconds": round(time.time() - t0, 1),
+                      "still_robots_blocked_counties": sorted(blocked_counties)}))
     # Loud failure: a robots.txt outage must not pass as "no captures".
-    return 2 if blocked else 0
+    return 2 if blocked_counties else 0
+
+
+def _blocked_counties(client: FetchClient, since: float) -> set[str]:
+    with client.store.connect() as con:
+        rows = con.execute("SELECT purpose FROM fetches WHERE host_class = 'archive' AND fetched_at >= ? "
+                           "AND error = 'robots_disallowed_or_unreachable'", (since,)).fetchall()
+    return {r["purpose"].split(":")[1] for r in rows if r["purpose"] and r["purpose"].count(":") >= 2}
 
 
 if __name__ == "__main__":
