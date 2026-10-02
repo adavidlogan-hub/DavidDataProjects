@@ -82,5 +82,16 @@
     }
   ],
   "written_blind_at_utc": "2026-10-02T22:34:53Z",
-  "agent": "verifier-11"
+  "agent": "verifier-11",
+  "previous_verification": null,
+  "previous_verification_note": "No earlier phase1/verification/Pecos.json existed when verifier-11 wrote this file.",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same (UNDETERMINED, check none). Research and verifier both find no election-night upload in the WordPress media log; first results file Official-Results-20241105.pdf uploaded Nov 12 2024 7:51 PM local (Last-Modified 13 Nov 2024 01:51:57 GMT).",
+    "2026_primary": "Same (LATER, check 2, county_totals_first_seen 2026-03-03 22:13 CT). Same deciding file and upload log; the research quotes of the page images match what I read (Summary Results Report, TOTAL and VOTE % columns only, footer 'Election Summary - 03/03/2026 9:49 PM').",
+    "2026_runoff": "Same (LATER, check 2, county_totals_first_seen 2026-05-26 22:59 CT). Same deciding file (printed 05/26/2026 10:01 PM, uploaded 10:59 PM CDT) and upload log; I additionally note page 5 is a 'PRECINCT BASED VOTING' office-to-precinct lookup table with no votes.",
+    "unsupported_or_stale_claims": "Research notes still say 'Check 3 pending: origin/wayback-data not present'; the branch now has phase1/wayback_snapshots/Pecos/index.json with zero election-night captures for all three elections, which changes nothing. All other research claims I checked are supported by the cited sources (DECISIONS item 63 not consulted)."
+  },
+  "compared_at_utc": "2026-10-02T22:37:17Z"
 }

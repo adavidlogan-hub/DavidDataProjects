@@ -1,6 +1,6 @@
 {
   "county": "Lamb",
-  "tag": "UNKNOWN",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed https://www.co.lamb.tx.us/ loads; the Elections & Voting page lists only the 2026 primary runoff results files (no archive of 2024 or the March 2026 primary). No Clarity site (elections.json 404). The runoff 'Unofficial Results' PDF is a scanned image with no text, so whether it is a precinct or summary report cannot be read; either way it was scanned and uploaded on May 27, after election night, so no precinct numbers were posted on election night as far as the current listing shows. 2024 general and 2026 primary: check 3 pending. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED.",
-  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
+  "notes": "Seed https://www.co.lamb.tx.us/ loads; the Elections & Voting page lists only the 2026 primary runoff results files (no archive of 2024 or the March 2026 primary). No Clarity site (elections.json 404). The runoff 'Unofficial Results' PDF is a scanned image with no text, so whether it is a precinct or summary report cannot be read; either way it was scanned and uploaded on May 27, after election night, so no precinct numbers were posted on election night as far as the current listing shows. 2024 general and 2026 primary: Wayback harvest found no election-night captures (some CDX queries failed with connection refused). Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED. Targeted pass 3 2026-10-02 (targeted3-E): read the scanned runoff unofficial results as page images (the research had called it unreadable): county-total Election Summary printed 05/26/2026 9:04 PM, so 2026_runoff UNDETERMINED to LATER (check 2), matching the verifier. One web search for primary results found nothing for Lamb. 2024_general and 2026_primary stay UNDETERMINED (no files on the current page). Sweep: no folder.",
+  "tag_rationale": "Only 2026_runoff is determined (LATER: a county-totals summary printed on election night, no precinct results posted), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
@@ -37,13 +37,13 @@
       "fact": "check 3 pending; no 2026 primary results listed on the current Elections page"
     },
     "2026_runoff": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:04 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.lamb.tx.us/upload/page/0112/docs/Primary%20Runoff%20Results%205.26.26.pdf",
-      "fact": "Rule 43: no election-night file survives. Previous: Elections page lists 'Primary Runoff Election Unofficial Results 5.26.26' (scanned PDF, Creator Canon iR-ADV C3530, CreationDate Wed May 27 18:53:38 2026 UTC = 1:53 PM CDT May 27; Last-Modified Wed, 27 May 2026 18:56:34 GMT), then reconciliation, 'Official Results' and hand-count audit. The only unofficial results file was created and uploaded the afternoon after election night; nothing listed was posted on election night."
+      "fact": "'Primary Runoff Election Unofficial Results 5.26.26' (scanned, 2 pages, read from page images): 'Summary Results Report TX Lamb County 260526 Primary Runoff Election ... May 26, 2026 ... ELECTION UNOFFICIAL SUMMARY Lamb County ... Election Day Precincts Reporting 11 of 11 ... Ballots Cast - Total 1,024 84 349 591', county totals per contest (for example 'John Cornyn 419 42 134 243 Ken Paxton 537 25 194 318'); footer 'Election Summary - 05/26/2026 9:04 PM'. Printed run time on election night (rule 43/47 LATER basis). Scan CreationDate Wed May 27 2026 18:53:38 UTC; Last-Modified Wed, 27 May 2026 18:56:34 GMT (1:56 PM CDT May 27). No precinct results file is listed for the runoff (the 'REP/DEM PCT n 5.26.26' links are sample ballots per the verifier); 'Official Results' is also a summary. Agrees with verifier (phase1/verification/Lamb.json)."
     }
   },
   "sources": [
@@ -60,6 +60,20 @@
       "content_hash": "ed7ce8ff688728964354e66d4519580fdcd823b99f46c7f56a1b3933c8f46dde",
       "quote": "scanned PDF, 2 pages, CreationDate Wed May 27 18:53:38 2026 UTC; Last-Modified Wed, 27 May 2026 18:56:34 GMT",
       "supports": "2026_runoff unofficial results posted after election night"
+    },
+    {
+      "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/Primary%20Runoff%20Results%205.26.26.pdf",
+      "via": "fetch_module",
+      "content_hash": "ed7ce8ff688728964354e66d4519580fdcd823b99f46c7f56a1b3933c8f46dde",
+      "quote": "Summary Results Report TX Lamb County 260526 Primary Runoff Election ... ELECTION UNOFFICIAL SUMMARY ... Election Summary - 05/26/2026 9:04 PM (read from page images)",
+      "supports": "2026_runoff LATER: county totals printed on election night"
+    },
+    {
+      "url": "websearch:?q=Lamb%20County%20Texas%20March%203%202026%20primary%20unofficial%20results%20Littlefield",
+      "via": "websearch",
+      "content_hash": "f652b45cdf07e1d665765d3abd75fb165dd415861775e02d93c818fee89a52c2",
+      "quote": "no Lamb County results page found",
+      "supports": "locating only"
     }
   ]
 }
