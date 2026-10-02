@@ -1,0 +1,6 @@
+# Blockers
+
+1. **Network egress is blocked for every target host (2026-10-02).** From this build container, HTTPS CONNECT to www.sos.state.tx.us, www.harrisvotes.com, www.dallascountyvotes.org, results.enr.clarityelections.com, web.archive.org, archive.org, and general sites is rejected by the environment's network policy (proxy returns 403 "connect_rejected"). The hosted page-fetch tool is blocked for the same hosts (EGRESS_BLOCKED). Only the hosted web search tool works.
+   - Impact: Phase 1 step 3 (Wayback CDX election-night timing) cannot be done at all; county results pages, usage notices, and the SOS county official list cannot be read directly. Tags rest on search-indexed text only, so most counties will be UNKNOWN or low/med confidence.
+   - Fix (owner action): in the Claude Code cloud environment settings (environment menu in the session title bar, then Edit), set Network access to a broader level or add these to the allowed domains: web.archive.org, archive.org, sos.state.tx.us, www.sos.state.tx.us, sos.texas.gov, results.texas-election.com, clarityelections.com, and the county election domains (a full list will be in counties.csv results_url/host). Docs: https://code.claude.com/docs/en/claude-code-on-the-web
+   - Not affected: the poller and dry run are designed to run on the Windows laptop, which has normal internet access.
