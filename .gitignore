@@ -3,3 +3,7 @@ __pycache__/
 .pytest_cache/
 # runtime state; cache index and blobs are committed for phase1 evidence only via phase1/evidence
 var/
+# Raw page copies saved by agents can embed third-party keys (for example vendor map tokens);
+# the raw bodies are kept in the content-addressed fetch cache (var/), which sources cite by hash.
+phase1/scratch/**/*.html
+phase1/scratch/**/*.htm
