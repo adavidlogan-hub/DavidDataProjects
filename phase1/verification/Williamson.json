@@ -1,0 +1,58 @@
+{
+ "county": "Williamson",
+ "reason_selected": "tag changed in targeted pass 3",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "County results archive (wilcotx.gov/292/Results-Archive) links the Nov 5, 2024 results only to the livevoterturnout ENR site Index_3.html; no county report files for that election are listed. Today's Index_3.html shows 'Website Updated: 11/20/2024 3:15:26 PM' (Last-Modified Wed, 20 Nov 2024 21:15:28 GMT), the canvass state, not election night. Wayback: phase1/targeted/wayback/Williamson/index.json has zero captures for livevoterturnout.com/ENR/williamsontxenr, wilcotx.gov/292, and wilco.org/Departments/Elections from 7 PM to 9 AM; Memento and archive.today lookups found no mementos. No Clarity site. Sweep pending."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "3",
+   "rule": "live_precinct_view",
+   "fact": "Wayback capture 20260304022512 (2026-03-03 20:25:12 CST, election night) of the county's linked results page https://www.livevoterturnout.com/ENR/williamsontxenr/11/en/Index_11.html (saved at phase1/targeted/wayback/Williamson/2026_primary_20260304022512_9b39a3cd35db.html). Page title 'Election Night Results', 'Unofficial Election Results', 'March 3, 2026 Primary Elecition', 'Website Updated: 3/3/2026 7:29:36 PM', hidden field hdnAutoRefresh value=\"600\" with an Auto-Refresh option, hdnPrecinctLevelResults value=\"1\". Each contest has a 'VIEW RESULTS BY PRECINCT' link (onclick=\"PrecinctTabClick(); SetPrecinctResults('race', '10')\") and the same page carries a 'Precinct Results' view with 178 precinct blocks, each holding per-precinct candidate rows, e.g. aria-label=\"Precinct: 116 - Contest: REP United States Senator\" with candidate 'Sara Canady' and a vote cell <td dv=\"true\" class=\"pcd\">0</td>. The precinct view is generated in the same refreshing page as the county totals, so it is the live precinct view of the live precinct view rule (DECISIONS 39): LIVE from check 3, confidence capped at med. Caveat: at 7:29 PM every number is 0 ('Precincts Reported: 0 of 178', all 178 precincts 'Not Reported'), so the capture proves the view existed on election night, not how many releases carried numbers. Today's copy shows 'Website Updated: 3/12/2026 4:29:55 PM' (Last-Modified Thu, 12 Mar 2026 21:29:57 GMT), canvass state only, all 178 precincts 'Reporting'."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Results archive links the May 26, 2026 runoff to ENR Index_14.html plus reconciliation, hand count audit, and polling-location vote-count PDFs (no precinct candidate report). Today's Index_14.html: 'Website Updated: 6/2/2026 11:19:37 AM' (Last-Modified Tue, 02 Jun 2026 16:19:37 GMT), canvass state, with 177 precinct blocks. No election-night capture in the targeted Wayback search of the ENR host for May 26-27 2026 (zero captures); the general harvest of wilco.org was robots-blocked for this window. Sweep pending."
+  }
+ },
+ "rationale": "Only the 2026 primary is decided (LIVE, check 3 under the live precinct view rule); the other two elections have no election-night evidence. One determined election gives LIVE_PRECINCT with low confidence. Disclosure: before starting, a routine `git log --oneline` showed the latest commit subjects, which name research's pass 3 tags for Williamson, Polk, and Harrison; no evidence file, DECISIONS item 60 to 62, counties.csv, or targeted3 scratch file was opened before this file was written, and every result here rests on sources I opened myself.",
+ "sources": [
+  {
+   "url": "https://web.archive.org/web/20260304022512id_/https://www.livevoterturnout.com/ENR/williamsontxenr/11/en/Index_11.html",
+   "content_hash": "9b39a3cd35db067b7a7fd745f5bc6f78a85160b0e019f835d9f87f06c6a2ad85 (index; saved file sha256 459a313f73c1c266767a822d24db0a6361eb431bd865c255d4996720d83dca79)",
+   "what_i_checked": "Saved copy in phase1/targeted/wayback/Williamson/: Website Updated 3/3/2026 7:29:36 PM, hdnAutoRefresh 600, VIEW RESULTS BY PRECINCT links, 178 per-precinct candidate result blocks, all vote counts 0."
+  },
+  {
+   "url": "https://www.livevoterturnout.com/ENR/williamsontxenr/11/en/Index_11.html",
+   "content_hash": "1af77bcb1766f6abacc751270fd1e47e1b1cbaaa0ef9aae5728190f99b924d34",
+   "what_i_checked": "Today's copy (from shared cache): Website Updated 3/12/2026 4:29:55 PM, Last-Modified 12 Mar 2026; canvass state only; no data files or update history beyond shared scripts."
+  },
+  {
+   "url": "https://www.livevoterturnout.com/ENR/williamsontxenr/14/en/Index_14.html",
+   "content_hash": "6f75257a42efb51f82ba60383dafb76c3806282c8c45a4a125f786d5f20d0691",
+   "what_i_checked": "Website Updated 6/2/2026 11:19:37 AM, Last-Modified 02 Jun 2026; post-election only."
+  },
+  {
+   "url": "https://www.livevoterturnout.com/ENR/williamsontxenr/3/en/Index_3.html",
+   "content_hash": "3cc47e0b06923b2e3ab88021d2edc217d7c7d1fbd7ea166480b5bfc391891758",
+   "what_i_checked": "Website Updated 11/20/2024 3:15:26 PM, Last-Modified 20 Nov 2024; post-election only."
+  },
+  {
+   "url": "https://www.wilcotx.gov/292/Results-Archive",
+   "content_hash": "bee22327041243fe5a3cd3fa1ee62577f291e835f1e42e4dc8f9b4317fc4c0f0",
+   "what_i_checked": "County page linking each election to the livevoterturnout ENR pages (Index_3, Index_11, Index_14) and listing reconciliation and audit PDFs."
+  },
+  {
+   "url": "phase1/targeted/wayback/Williamson/index.json and phase1/targeted/archives/Williamson/archives_index.json",
+   "content_hash": "",
+   "what_i_checked": "Captures per window: 2024 general 0, 2026 primary 1 (above), 2026 runoff 0; no Memento or archive.today mementos. phase1/wayback_snapshots/Williamson/index.json: 2024 0 captures, 2026 windows robots-blocked."
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T22:34:01Z"
+}

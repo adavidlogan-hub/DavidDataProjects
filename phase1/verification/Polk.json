@@ -1,0 +1,70 @@
+{
+ "county": "Polk",
+ "reason_selected": "tag changed in targeted pass 3",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2024-11-05 21:40 CT",
+   "fact": "Polk's Election Results page (polktx.gov/389/Election-Results) lists for the November 2024 election only 'Unofficial Results (PDF)' (DocumentCenter/View/301): 'Cumulative Results Report POLK COUNTY, TEXAS Unofficial Results GENERAL ELECTION', 'Precincts Reporting 42 of 42 = 100.00%', 'Run Time 9:40 PM', 'Run Date 11/05/2024', CreationDate Wed Nov 6 03:41:07 2024 UTC (9:41 PM CST). County totals only, by vote type. No precinct report for Nov 2024 is posted, while the same page posts both 'Cumulative Results' and 'Precinct Results' for March 5, 2024, and the Elections page posts both for March and May 2026. The older Election Results Portal (polkcountyapps.net/easydocs/election/) lists years only through 2022 (2024 and 2026 year pages return HTTP 500). The server (CivicPlus DocumentCenter) stamps Last-Modified with the request time, so there is no upload time; the printed run time is used. Precinct numbers with election-day votes were never published online for this election as far as the county's pages show."
+  },
+  "2026_primary": {
+   "result": "END",
+   "check": "2",
+   "precinct_first_seen": "2026-03-03 21:53 CT",
+   "fact": "polktx.gov/313/Elections links 'Precinct Results-3-3-2026' (DocumentCenter/View/1105): 'Precinct Results Report ... Unofficial Results POLK COUNTY, TEXAS PRIMARY ELECTION', 'Precincts Reporting 22 of 22 = 100.00%', 'Run Time 9:53 PM', 'Run Date 03/03/2026', CreationDate Wed Mar 4 03:53:24 2026 UTC (9:53 PM CST), 464 pages; precinct '1' block shows 'Jasmine Crockett 0 ... 4 ... 3 ... 7' under 'Absentee Voting / Early Voting / Election Day Voting / Total'. Companion 'Cumulative Results-3-3-2026' (View/1104) printed 9:52 PM. Last-Modified is the request time (CivicPlus), so no upload time; under rule 47 the election-night printed run time decides. One precinct report, at the final unofficial count: END."
+  },
+  "2026_runoff": {
+   "result": "END",
+   "check": "2",
+   "precinct_first_seen": "2026-05-26 21:28 CT",
+   "fact": "polktx.gov/313/Elections links 'Precinct Results-5-26-2026' (DocumentCenter/View/1298): 'Precinct Results Report Unofficial Results POLK COUNTY, TEXAS PRIMARY RUNOFF ELECTION', 'Precincts Reporting 22 of 22 = 100.00%', 'Run Time 9:28 PM', 'Run Date 05/26/2026', CreationDate Wed May 27 02:28:25 2026 UTC (9:28 PM CDT), 44 pages; precinct '1': 'Vikki Goodwin 0 ... 1 ... 1 ... 2' with an Election Day Voting column. Companion 'Cumulative Results- 5-26-2026' (View/1297) printed 9:25 PM. No upload time (request-time Last-Modified); printed run time on election night decides under rule 47. One report: END."
+  }
+ },
+ "rationale": "2026 primary and runoff are both END from check 2 (election-night printed precinct reports, no upload time available); 2024 is LATER. Two END results give PRECINCT_END_OF_NIGHT, med confidence because check 2 decides. Disclosure: before starting, a routine `git log --oneline` showed the latest commit subjects, which name research's pass 3 tags for Williamson, Polk, and Harrison; no evidence file, DECISIONS item 60 to 62, counties.csv, or targeted3 scratch file was opened before this file was written, and every result here rests on sources I opened myself.",
+ "sources": [
+  {
+   "url": "https://www.polktx.gov/313/Elections",
+   "content_hash": "5e5188004a3668141fa1dbf69d1101bca6157a65b9f755ab8e1c5f2eba28eed6",
+   "what_i_checked": "Links to Cumulative and Precinct Results for 3-3-2026 and 5-26-2026."
+  },
+  {
+   "url": "https://www.polktx.gov/389/Election-Results",
+   "content_hash": "33b0214a83cfe11ddb7948e90d19caa755876dda1ec2df7e615b626aca79c469",
+   "what_i_checked": "'November 7, 2024 Election Unofficial Results (PDF)' only; March 5, 2024 Cumulative and Precinct Results."
+  },
+  {
+   "url": "https://www.polktx.gov/DocumentCenter/View/301",
+   "content_hash": "5dff0904333ca520e51d668f83c09ef17a9b4061b797a4e2f35c8b4dfc19de51",
+   "what_i_checked": "Nov 2024 Cumulative Results Report, Run Time 9:40 PM 11/05/2024, 42 of 42 precincts, county totals only."
+  },
+  {
+   "url": "https://www.polktx.gov/DocumentCenter/View/1105",
+   "content_hash": "d2e8af9186c00a3ffed32f64b71816a64c21b71f366b2b54f4bd898d918e67f4",
+   "what_i_checked": "Primary precinct report, Run Time 9:53 PM 03/03/2026, CreationDate 03:53:24 UTC Mar 4, per-precinct election day votes; Last-Modified equals request time."
+  },
+  {
+   "url": "https://www.polktx.gov/DocumentCenter/View/1104",
+   "content_hash": "d829e07b79ff05b4fe08e838db4c838c892508d970de7746dd9ee2c9c07b0d32",
+   "what_i_checked": "Primary cumulative report, Run Time 9:52 PM."
+  },
+  {
+   "url": "https://www.polktx.gov/DocumentCenter/View/1298",
+   "content_hash": "c110460d6a3c3c0ffc05375ea1495271d58e055172bf531cad9ea889fd2f013d",
+   "what_i_checked": "Runoff precinct report, Run Time 9:28 PM 05/26/2026, CreationDate 02:28:25 UTC May 27, per-precinct election day votes."
+  },
+  {
+   "url": "https://www.polktx.gov/DocumentCenter/View/1297",
+   "content_hash": "525d58de9dbf743c7554e11c4987d6388c7bbc67b72bdc1bfe318ace61c47364",
+   "what_i_checked": "Runoff cumulative report, Run Time 9:25 PM; Last-Modified equals my request time (22:27:49 GMT Oct 2 2026), confirming no upload time."
+  },
+  {
+   "url": "http://polkcountyapps.net/easydocs/election/",
+   "content_hash": "602588407805a8976ea893787657ba253126ff1aced258c651f1cf9859b315e0",
+   "what_i_checked": "Old portal lists years through 2022 only; year=2024 and year=2026 return HTTP 500."
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T22:34:01Z"
+}
