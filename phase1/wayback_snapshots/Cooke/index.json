@@ -1,0 +1,200 @@
+{
+  "county": "Cooke",
+  "targets": [
+    "co.cooke.tx.us"
+  ],
+  "harvested_at_utc": "2026-10-02T15:58:31Z",
+  "windows": {
+    "2024_general": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=co.cooke.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "c9dcb13b0a3af4b2adccd230e84ce0cc48c3eb69b25814f6e89cdc380aa1f07c"
+        }
+      ],
+      "captures": [
+        {
+          "timestamp_utc": "20241106010134",
+          "local": "2024-11-05 19:01:34 CST",
+          "original": "https://www.co.cooke.tx.us/page/cooke.elections?os=bingquiz.com%2Fbing-disney-quiz&ref=app",
+          "mimetype": "text/html",
+          "digest": "HVC7JVEEEDFWBRBANDYFICZA4W5Q6HAU",
+          "length": "32490",
+          "replay_url": "https://web.archive.org/web/20241106010134id_/https://www.co.cooke.tx.us/page/cooke.elections?os=bingquiz.com%2Fbing-disney-quiz&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "969ee836fb2e0ca12f67ed6d5be984f5bedcf05c71d0a41a95b6d138ab25ea46",
+          "saved_as": "Cooke/2024_general_20241106010134_969ee836fb2e.html"
+        },
+        {
+          "timestamp_utc": "20241106030616",
+          "local": "2024-11-05 21:06:16 CST",
+          "original": "https://www.co.cooke.tx.us/page/cooke.elections?os=rokufno_journeysdtruerefappamp1jdy0pyav",
+          "mimetype": "text/html",
+          "digest": "3SUJIETRLSQEVWUFBLDWT26YFRCQUCTO",
+          "length": "32561",
+          "replay_url": "https://web.archive.org/web/20241106030616id_/https://www.co.cooke.tx.us/page/cooke.elections?os=rokufno_journeysdtruerefappamp1jdy0pyav",
+          "ok": true,
+          "error": null,
+          "content_hash": "d503ac6f302bb7098b136181eee8a7496615931d84fbe14122e41dd0c70525d7",
+          "saved_as": "Cooke/2024_general_20241106030616_d503ac6f302b.html"
+        },
+        {
+          "timestamp_utc": "20241106030746",
+          "local": "2024-11-05 21:07:46 CST",
+          "original": "https://www.co.cooke.tx.us/upload/page/3107/docs/2024/November5/2024NovCookeCountyEarlyVoterResultsUnofficial.pdf",
+          "mimetype": "application/pdf",
+          "digest": "QNJH36YGOD4LKZZFBB3ZC2OQPXIZZFC5",
+          "length": "43247",
+          "replay_url": "https://web.archive.org/web/20241106030746id_/https://www.co.cooke.tx.us/upload/page/3107/docs/2024/November5/2024NovCookeCountyEarlyVoterResultsUnofficial.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "743a54ad6f1294a9cc8bb6f7a1ca72c9fc0eb29f3436702b50be1c416f0ce464",
+          "saved_as": "Cooke/2024_general_20241106030746_743a54ad6f12.pdf"
+        },
+        {
+          "timestamp_utc": "20241106045910",
+          "local": "2024-11-05 22:59:10 CST",
+          "original": "https://www.co.cooke.tx.us/page/cooke.elections?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "EJ6R673W366TOQWPHHBJ3X5ZVHUHJXF2",
+          "length": "32631",
+          "replay_url": "https://web.archive.org/web/20241106045910id_/https://www.co.cooke.tx.us/page/cooke.elections?os=0slw57psddf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "0d999dbcd069ca75f5503abb3e3425a989dbf09d4405bb4015edaad884d317fa",
+          "saved_as": "Cooke/2024_general_20241106045910_0d999dbcd069.html"
+        },
+        {
+          "timestamp_utc": "20241106045948",
+          "local": "2024-11-05 22:59:48 CST",
+          "original": "https://www.co.cooke.tx.us/upload/page/3107/docs/2024/November5/2024CookeCountyFinalSummaryResultsUnofficialGeneral11-5-2024.pdf",
+          "mimetype": "application/pdf",
+          "digest": "TCAXVMBHD6MLCIVHFIWUBOODRUEOLQTT",
+          "length": "47608",
+          "replay_url": "https://web.archive.org/web/20241106045948id_/https://www.co.cooke.tx.us/upload/page/3107/docs/2024/November5/2024CookeCountyFinalSummaryResultsUnofficialGeneral11-5-2024.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "ca8a1f8e0573da1e26f922c770821c1248cd43392f10d38f7c8cf23e5dc2d7c1",
+          "saved_as": "Cooke/2024_general_20241106045948_ca8a1f8e0573.pdf"
+        },
+        {
+          "timestamp_utc": "20241106053113",
+          "local": "2024-11-05 23:31:13 CST",
+          "original": "https://www.co.cooke.tx.us/page/cooke.elections?os=fno_journeystruefno_journeysdtrue",
+          "mimetype": "text/html",
+          "digest": "LACUAYKYMQIG2IUNQJJXWXSSN25UELYL",
+          "length": "32634",
+          "replay_url": "https://web.archive.org/web/20241106053113id_/https://www.co.cooke.tx.us/page/cooke.elections?os=fno_journeystruefno_journeysdtrue",
+          "ok": true,
+          "error": null,
+          "content_hash": "32f45ff6cebcfde2c5b1a8ea04c93182a1b938b630c8a2f7d6ae2c00aafbe79d",
+          "saved_as": "Cooke/2024_general_20241106053113_32f45ff6cebc.html"
+        },
+        {
+          "timestamp_utc": "20241106064924",
+          "local": "2024-11-06 00:49:24 CST",
+          "original": "https://www.co.cooke.tx.us/page/cooke.elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "RE3V7KUJ65L5BUNPU2GU5CRAJNNRGTQL",
+          "length": "32642",
+          "replay_url": "https://web.archive.org/web/20241106064924id_/https://www.co.cooke.tx.us/page/cooke.elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "de13b57e9eb272e300125f3f6842784ed7e8067ca054e89f0b609c78824033fa",
+          "saved_as": "Cooke/2024_general_20241106064924_de13b57e9eb2.html"
+        },
+        {
+          "timestamp_utc": "20241106064959",
+          "local": "2024-11-06 00:49:59 CST",
+          "original": "https://www.co.cooke.tx.us/page/cooke.elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "J36RVS7ZXQWFEF5PE66EPTSRBQ56JBLI",
+          "length": "32653",
+          "replay_url": "https://web.archive.org/web/20241106064959id_/https://www.co.cooke.tx.us/page/cooke.elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "f22f11e61f91153f199497892dc6d81784be025ccb478da42f213fa66c785f7e",
+          "saved_as": "Cooke/2024_general_20241106064959_f22f11e61f91.html"
+        },
+        {
+          "timestamp_utc": "20241106080414",
+          "local": "2024-11-06 02:04:14 CST",
+          "original": "https://www.co.cooke.tx.us/page/cooke.elections?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "4ON3P4FIYM6LU4PHRDSLWEPQIAV7AWMU",
+          "length": "32619",
+          "replay_url": "https://web.archive.org/web/20241106080414id_/https://www.co.cooke.tx.us/page/cooke.elections?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "b84d13eaadd00ce35ca88eb67a49a7ecad047735dd9490491dce4f3485b5032e",
+          "saved_as": "Cooke/2024_general_20241106080414_b84d13eaadd0.html"
+        },
+        {
+          "timestamp_utc": "20241106080425",
+          "local": "2024-11-06 02:04:25 CST",
+          "original": "https://www.co.cooke.tx.us/page/cooke.elections?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "ZYFWO5DHHE47IKY2IS2NNSIVZ2O3JL66",
+          "length": "32586",
+          "replay_url": "https://web.archive.org/web/20241106080425id_/https://www.co.cooke.tx.us/page/cooke.elections?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "4fd1275e8dadba256bd0306408972a3fe6a6f8d1eae10d6c2f1cc08f73179068",
+          "saved_as": "Cooke/2024_general_20241106080425_4fd1275e8dad.html"
+        },
+        {
+          "timestamp_utc": "20241106081500",
+          "local": "2024-11-06 02:15:00 CST",
+          "original": "https://www.co.cooke.tx.us/page/cooke.elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "R6R6EWCRU6UTKHLW5ACEN6BZV7K6PDHL",
+          "length": "32644",
+          "replay_url": "https://web.archive.org/web/20241106081500id_/https://www.co.cooke.tx.us/page/cooke.elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "d950d227d0f09ff3d292b1c77c3722ba7f6292b5e9557db58c35ab40b542292b",
+          "saved_as": "Cooke/2024_general_20241106081500_d950d227d0f0.html"
+        },
+        {
+          "timestamp_utc": "20241106081546",
+          "local": "2024-11-06 02:15:46 CST",
+          "original": "https://www.co.cooke.tx.us/page/cooke.elections?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "LSEU3P52CKF5TD54XI4TI2C26KQNVEHG",
+          "length": "32588",
+          "replay_url": "https://web.archive.org/web/20241106081546id_/https://www.co.cooke.tx.us/page/cooke.elections?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "c911463a8f6fcb9f54f5c0a2ae521f66b997ebd476a3564e966d1dd30c3b979c",
+          "saved_as": "Cooke/2024_general_20241106081546_c911463a8f6f.html"
+        }
+      ]
+    },
+    "2026_primary": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=co.cooke.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        }
+      ],
+      "captures": []
+    },
+    "2026_runoff": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=co.cooke.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        }
+      ],
+      "captures": []
+    }
+  },
+  "replays_fetched": 12
+}

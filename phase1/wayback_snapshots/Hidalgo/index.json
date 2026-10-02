@@ -3,18 +3,32 @@
   "targets": [
     "hidalgocounty.us"
   ],
-  "harvested_at_utc": "2026-10-02T15:24:07Z",
+  "harvested_at_utc": "2026-10-02T15:49:40Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=hidalgocounty.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "URLError: timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "45c81983c6f34c66057f78b5cb06ae8b3b1b67edacd338dda3221dd8245c4fc8"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106022900",
+          "local": "2024-11-05 20:29:00 CST",
+          "original": "https://www.hidalgocounty.us/3125/Hidalgo-County-Elections-Ballot-Hallway",
+          "mimetype": "text/html",
+          "digest": "OGIS536QV32HK27LKSNQNL3RQAZA25OO",
+          "length": "18046",
+          "replay_url": "https://web.archive.org/web/20241106022900id_/https://www.hidalgocounty.us/3125/Hidalgo-County-Elections-Ballot-Hallway",
+          "ok": true,
+          "error": null,
+          "content_hash": "6c60f217a7fabbc0e3ceca5b21aaa2f5c068ddd2058daab9a32cb322a3c92e38",
+          "saved_as": "Hidalgo/2024_general_20241106022900_6c60f217a7fa.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
@@ -53,5 +67,5 @@
       "captures": []
     }
   },
-  "replays_fetched": 1
+  "replays_fetched": 2
 }

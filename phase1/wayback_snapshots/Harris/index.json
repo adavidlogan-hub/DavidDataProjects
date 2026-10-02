@@ -3,7 +3,7 @@
   "targets": [
     "harrisvotes.com"
   ],
-  "harvested_at_utc": "2026-10-02T14:49:33Z",
+  "harvested_at_utc": "2026-10-02T15:49:24Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -36,9 +36,10 @@
           "digest": "5CDCKAOARBYMLV7L6V2W46PQXXV6QPFW",
           "length": "10558",
           "replay_url": "https://web.archive.org/web/20241106023921id_/https://app.harrisvotes.com/electionresults/electionday",
-          "ok": false,
-          "error": "URLError: timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "0feb0bbd7de6eb329d437d9d43d04fa5bfdd568edf7cdd6ebacac366a9a167d0",
+          "saved_as": "Harris/2024_general_20241106023921_0feb0bbd7de6.html"
         },
         {
           "timestamp_utc": "20241106023922",
@@ -48,9 +49,10 @@
           "digest": "ROPPSPAU2OR7RR5QNP3CS2UEVYJXCTAQ",
           "length": "3876",
           "replay_url": "https://web.archive.org/web/20241106023922id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/pr.json?nocache=1730860740000",
-          "ok": false,
-          "error": "URLError: timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "134e347d9f8871da26c1e14ebca6751f8aefad958419ea5c85d55aed3d98cbaa",
+          "saved_as": "Harris/2024_general_20241106023922_134e347d9f88.json"
         },
         {
           "timestamp_utc": "20241106023922",
@@ -163,9 +165,10 @@
           "digest": "HRYQFRN26W2OD4T2CKTECH6PORJISE7A",
           "length": "6885",
           "replay_url": "https://web.archive.org/web/20260304042043id_/https://www.harrisvotes.com/login-page?returnurl=%2FElection-Results%2FLive-Results",
-          "ok": false,
-          "error": "URLError: timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "6886d6e29143c3d7ebda50ef25b8602653abfaa8ecfc708193c8730f55a27501",
+          "saved_as": "Harris/2026_primary_20260304042043_6886d6e29143.html"
         }
       ]
     },
@@ -187,9 +190,10 @@
           "digest": "SU6QW665H3Y3TQ7BHDEAF33BA5UWT6TQ",
           "length": "9954",
           "replay_url": "https://web.archive.org/web/20260527014738id_/https://www.harrisvotes.com/Election-Results/Democratic-Primary-Election",
-          "ok": false,
-          "error": "URLError: timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "02b9392ecc92d58eea3d9168ed4b71026cbfafa9e686548a1170d9b0efe6aabf",
+          "saved_as": "Harris/2026_runoff_20260527014738_02b9392ecc92.html"
         },
         {
           "timestamp_utc": "20260527014741",
@@ -264,9 +268,10 @@
           "digest": "5ERD46XD2FAK6TILIAJWVYDYV6IBI3LI",
           "length": "13887",
           "replay_url": "https://web.archive.org/web/20260527014754id_/https://www.harrisvotes.com/Election-Workers/Student-Election-Workers",
-          "ok": false,
-          "error": "URLError: timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "53dbd457fa1bc6b09ec94f2dc4ecd8774a31b825025202e07ffbff4ab708e55a",
+          "saved_as": "Harris/2026_runoff_20260527014754_53dbd457fa1b.html"
         },
         {
           "timestamp_utc": "20260527014754",
@@ -302,9 +307,10 @@
           "digest": "VQVTLXZDDUMDTBQ6MKWX5T66TMLVEBX7",
           "length": "209297",
           "replay_url": "https://web.archive.org/web/20260527014754id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0526/dem-cumulative.pdf",
-          "ok": false,
-          "error": "URLError: timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "325c4191929ce130192fff38c0d2ddb5ae06ee41f8a0b1df9930420c76554ab8",
+          "saved_as": "Harris/2026_runoff_20260527014754_325c4191929c.pdf"
         },
         {
           "timestamp_utc": "20260527020722",

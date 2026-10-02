@@ -1,0 +1,251 @@
+{
+  "county": "Matagorda",
+  "targets": [
+    "co.matagorda.tx.us"
+  ],
+  "harvested_at_utc": "2026-10-02T16:24:45Z",
+  "windows": {
+    "2024_general": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=co.matagorda.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "1c41f918e15634f8bbd3282f2e3f11cdb43a4d6eb76b7890f388631f41091e0d"
+        }
+      ],
+      "captures": [
+        {
+          "timestamp_utc": "20241106021746",
+          "local": "2024-11-05 20:17:46 CST",
+          "original": "https://www.co.matagorda.tx.us/page/matagorda.elections",
+          "mimetype": "text/html",
+          "digest": "UZLG5B22RKHE64VR4HGOH7DKYQ5TTQLU",
+          "length": "13125",
+          "replay_url": "https://web.archive.org/web/20241106021746id_/https://www.co.matagorda.tx.us/page/matagorda.elections",
+          "ok": false,
+          "error": "URLError: _ssl.c:999: The handshake operation timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106021809",
+          "local": "2024-11-05 20:18:09 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/Caney%20Creek%20MUD%20-%20Notice%20of%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "D7MMLOPB6ZMYT7PVQ23HG42CMUOLG3KM",
+          "length": "19554",
+          "replay_url": "https://web.archive.org/web/20241106021809id_/https://www.co.matagorda.tx.us/upload/page/5686/Caney%20Creek%20MUD%20-%20Notice%20of%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "b68c3fd55c18bb00441f0fc8d41bdc9c431501b03311d92d43208534117730e2",
+          "saved_as": "Matagorda/2024_general_20241106021809_b68c3fd55c18.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021827",
+          "local": "2024-11-05 20:18:27 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/2024%20Polling%20Locations%20-%20General%20Election%20UPDATED.pdf",
+          "mimetype": "application/pdf",
+          "digest": "WQIDDX6MC7V7YCYBX2RGGMI6KV7UHSVO",
+          "length": "77528",
+          "replay_url": "https://web.archive.org/web/20241106021827id_/https://www.co.matagorda.tx.us/upload/page/5686/2024%20Polling%20Locations%20-%20General%20Election%20UPDATED.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "793dae26b8ee4fbade1950e116d47292820cd5bc5a41b3b85948eb9baeff3a18",
+          "saved_as": "Matagorda/2024_general_20241106021827_793dae26b8ee.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021829",
+          "local": "2024-11-05 20:18:29 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/Order%20of%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "PC5CYI2NETKTB3AQCK7QBMW6ZNVILVIT",
+          "length": "73519",
+          "replay_url": "https://web.archive.org/web/20241106021829id_/https://www.co.matagorda.tx.us/upload/page/5686/Order%20of%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "3817f30f268d345a37c5fb63e567eaf4dd062472cf259364dc0e0dee4777e5ac",
+          "saved_as": "Matagorda/2024_general_20241106021829_3817f30f268d.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021835",
+          "local": "2024-11-05 20:18:35 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/2024%20Polling%20Locations%20-%20Uniform%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "OSKZZBG523DDLITEK5FREIPOJIRLF4EV",
+          "length": "72403",
+          "replay_url": "https://web.archive.org/web/20241106021835id_/https://www.co.matagorda.tx.us/upload/page/5686/2024%20Polling%20Locations%20-%20Uniform%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "2a43bb7170489f3094003257fe43a2dcc0e81317db324cf04dd35b8de8800e37",
+          "saved_as": "Matagorda/2024_general_20241106021835_2a43bb717048.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021847",
+          "local": "2024-11-05 20:18:47 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/Notice%20of%20General%20Election%20-%20City%20of%20Palacios.pdf",
+          "mimetype": "application/pdf",
+          "digest": "F22JRANU3SVTJ4IV5ID6FIDLYYGI2FQB",
+          "length": "198279",
+          "replay_url": "https://web.archive.org/web/20241106021847id_/https://www.co.matagorda.tx.us/upload/page/5686/Notice%20of%20General%20Election%20-%20City%20of%20Palacios.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "da65def775fc811ba8fbd91e4bb7cb8db51d3c7d4237d278ed25d02353237b96",
+          "saved_as": "Matagorda/2024_general_20241106021847_da65def775fc.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021849",
+          "local": "2024-11-05 20:18:49 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/Boling%20ISD%20-%20May%202024%20Bond%20Election%20-%20Notice%20of%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "C42OSR4WYIYB44PQNDDEINW56BBQISO5",
+          "length": "292860",
+          "replay_url": "https://web.archive.org/web/20241106021849id_/https://www.co.matagorda.tx.us/upload/page/5686/Boling%20ISD%20-%20May%202024%20Bond%20Election%20-%20Notice%20of%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "8626332141b4d7d23d6da250ebcb2ba67915c5292bfc5afe3147b778076762ef",
+          "saved_as": "Matagorda/2024_general_20241106021849_8626332141b4.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021912",
+          "local": "2024-11-05 20:19:12 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/Cumulative%20-%20Primary%202024%20-Unofficial.pdf",
+          "mimetype": "application/pdf",
+          "digest": "SZR5L7PO7TJAKH4GHURPRJKSLLN45EMY",
+          "length": "1146933",
+          "replay_url": "https://web.archive.org/web/20241106021912id_/https://www.co.matagorda.tx.us/upload/page/5686/Cumulative%20-%20Primary%202024%20-Unofficial.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "0748221f6f83b1bd53ead02bfd6994ad29207b8b8fdec774efcdf89c1deb9355",
+          "saved_as": "Matagorda/2024_general_20241106021912_0748221f6f83.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021913",
+          "local": "2024-11-05 20:19:13 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/2024%20Polling%20Locations%20-%20Primary%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "NUDMCWU3N7KGISFXL67JZPKYTBL3FM5A",
+          "length": "76295",
+          "replay_url": "https://web.archive.org/web/20241106021913id_/https://www.co.matagorda.tx.us/upload/page/5686/2024%20Polling%20Locations%20-%20Primary%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "6d4497fce84914a6a29efc989b4434c8e10f7e434331491a0d8d89a7201d1cd7",
+          "saved_as": "Matagorda/2024_general_20241106021913_6d4497fce849.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021936",
+          "local": "2024-11-05 20:19:36 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/Precinct%20Results-3-5-2024%2009-12-25%20PM.pdf",
+          "mimetype": "application/pdf",
+          "digest": "7JQALPW23FJPRNQNUSTN4M67RE2B3AHJ",
+          "length": "1249710",
+          "replay_url": "https://web.archive.org/web/20241106021936id_/https://www.co.matagorda.tx.us/upload/page/5686/Precinct%20Results-3-5-2024%2009-12-25%20PM.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "0d383ca0af320d45895399dc8037854f12e06362bb52dd896cb886797ab51ae1",
+          "saved_as": "Matagorda/2024_general_20241106021936_0d383ca0af32.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021942",
+          "local": "2024-11-05 20:19:42 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/2024%20Notice%20of%20Joint%20Primary%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "JSXIWH2T7KLZOSG44QHUK5MH4QMKPJFL",
+          "length": "93142",
+          "replay_url": "https://web.archive.org/web/20241106021942id_/https://www.co.matagorda.tx.us/upload/page/5686/2024%20Notice%20of%20Joint%20Primary%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "29371599035b750653feb78757bd0b80a70de4040bd0debf9435af8ddf2cf807",
+          "saved_as": "Matagorda/2024_general_20241106021942_29371599035b.pdf"
+        },
+        {
+          "timestamp_utc": "20241106022003",
+          "local": "2024-11-05 20:20:03 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/Notice%20of%20General%20Election%202024%20-%20BCISD.pdf",
+          "mimetype": "application/pdf",
+          "digest": "ZIMNFBG3YPP2KHZL45YHFPPQZ7G37B7P",
+          "length": "52631",
+          "replay_url": "https://web.archive.org/web/20241106022003id_/https://www.co.matagorda.tx.us/upload/page/5686/Notice%20of%20General%20Election%202024%20-%20BCISD.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "7c1d479472e9df00e81f9345d4ad48c6f615c98d2338507a5d4d08d0aa3099b6",
+          "saved_as": "Matagorda/2024_general_20241106022003_7c1d479472e9.pdf"
+        },
+        {
+          "timestamp_utc": "20241106022017",
+          "local": "2024-11-05 20:20:17 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/2024%20Polling%20Locations%20-%20Primary%20Run-off%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "TA4WZFJ4SMYKYJKYE23MHTFJDSLL2AAP",
+          "length": "69872",
+          "replay_url": "https://web.archive.org/web/20241106022017id_/https://www.co.matagorda.tx.us/upload/page/5686/2024%20Polling%20Locations%20-%20Primary%20Run-off%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "6dc9483b420a748fcf5ffa46b6357708841ae7ad59c7cc0277ed662e1c79eb1c",
+          "saved_as": "Matagorda/2024_general_20241106022017_6dc9483b420a.pdf"
+        },
+        {
+          "timestamp_utc": "20241106022018",
+          "local": "2024-11-05 20:20:18 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/Notice%20of%20Election%20November%205%202024%20General%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "D4DSE7UR4OTOI6X4DTDSLBPF4UG33E7A",
+          "length": "660177",
+          "replay_url": "https://web.archive.org/web/20241106022018id_/https://www.co.matagorda.tx.us/upload/page/5686/Notice%20of%20Election%20November%205%202024%20General%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "c75e641912b35d4e9ccd6115da7add6250e3d129b6b761c6f6b10c247c10dca8",
+          "saved_as": "Matagorda/2024_general_20241106022018_c75e641912b3.pdf"
+        },
+        {
+          "timestamp_utc": "20241106022058",
+          "local": "2024-11-05 20:20:58 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/Cumulative%20Results-11-5-2024%2007-04-55%20PM.pdf",
+          "mimetype": "application/pdf",
+          "digest": "MVMVKAXIJKCKOHBBDGET5ORYLOERVEBA",
+          "length": "231386",
+          "replay_url": "https://web.archive.org/web/20241106022058id_/https://www.co.matagorda.tx.us/upload/page/5686/Cumulative%20Results-11-5-2024%2007-04-55%20PM.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "a2c89fd0c3c287d5788ab16034fc7fa7c062bdc9fbf492f0fd672172ca802950",
+          "saved_as": "Matagorda/2024_general_20241106022058_a2c89fd0c3c2.pdf"
+        },
+        {
+          "timestamp_utc": "20241106022227",
+          "local": "2024-11-05 20:22:27 CST",
+          "original": "https://www.co.matagorda.tx.us/upload/page/5686/Cumulative%20Results.pdf",
+          "mimetype": "application/pdf",
+          "digest": "ZS5FDI6R4FNBPWRA6FG5JH33H7WEDFIP",
+          "length": "197217",
+          "replay_url": "https://web.archive.org/web/20241106022227id_/https://www.co.matagorda.tx.us/upload/page/5686/Cumulative%20Results.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "8110ce7375a108c1c05f9bb34a2dc89014942af83e01a2e2b042737e71f816db",
+          "saved_as": "Matagorda/2024_general_20241106022227_8110ce7375a1.pdf"
+        }
+      ]
+    },
+    "2026_primary": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=co.matagorda.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        }
+      ],
+      "captures": []
+    },
+    "2026_runoff": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=co.matagorda.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        }
+      ],
+      "captures": []
+    }
+  },
+  "replays_fetched": 16
+}
