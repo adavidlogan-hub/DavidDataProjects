@@ -3,7 +3,7 @@
   "targets": [
     "tarrantcountytx.gov"
   ],
-  "harvested_at_utc": "2026-10-02T15:08:17Z",
+  "harvested_at_utc": "2026-10-02T16:51:44Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -258,7 +258,7 @@
           "length": "21735",
           "replay_url": "https://web.archive.org/web/20241106064906id_/https://www.tarrantcountytx.gov/en/elections.html?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
           "ok": false,
-          "error": "URLError: timed out",
+          "error": "robots_disallowed_or_unreachable",
           "content_hash": null
         },
         {
@@ -309,7 +309,7 @@
           "length": "21717",
           "replay_url": "https://web.archive.org/web/20241106073248id_/https://www.tarrantcountytx.gov/en/elections.html?os=httpadfdfwww.google",
           "ok": false,
-          "error": "URLError: _ssl.c:999: The handshake operation timed out",
+          "error": "robots_disallowed_or_unreachable",
           "content_hash": null
         },
         {
@@ -410,11 +410,7 @@
           "mimetype": "text/html",
           "digest": "5XK3FDQZRX43N22Q2O6BWE6BXAHDEFJ5",
           "length": "21729",
-          "replay_url": "https://web.archive.org/web/20241106081512id_/https://www.tarrantcountytx.gov/en/elections.html?os=wtmb5utkcxk5refappahtvjlve",
-          "ok": true,
-          "error": null,
-          "content_hash": "c130f99b862bd6e8eb48c099e19d6cc28ce1fb5ed17f0df25ab40e1983e4823a",
-          "saved_as": "Tarrant/2024_general_20241106081512_c130f99b862b.html"
+          "skipped": "per-window cap reached"
         },
         {
           "timestamp_utc": "20241106081604",
@@ -423,11 +419,7 @@
           "mimetype": "text/html",
           "digest": "XJIDIR6TV45L7OXF2PY5WFROKXNP6GWC",
           "length": "21713",
-          "replay_url": "https://web.archive.org/web/20241106081604id_/https://www.tarrantcountytx.gov/en/elections.html?os=wtmb5utkcxk5refappahtvjlve",
-          "ok": true,
-          "error": null,
-          "content_hash": "c983360e5e67013c973772e6826908346963d11cfc1041954f743186508c9f3f",
-          "saved_as": "Tarrant/2024_general_20241106081604_c983360e5e67.html"
+          "skipped": "per-window cap reached"
         },
         {
           "timestamp_utc": "20241106083725",
@@ -436,11 +428,7 @@
           "mimetype": "text/html",
           "digest": "DI7SLYPSLOXNZVD7J55EY6AR5HZFAFIG",
           "length": "21520",
-          "replay_url": "https://web.archive.org/web/20241106083725id_/https://www.tarrantcountytx.gov/en/elections/voting-by-mail.html?os=qtfT_1no_journeystrue",
-          "ok": true,
-          "error": null,
-          "content_hash": "44dffa7a54ddbc8611313a3f080964fcdbf2cdb9eb882ec39fafa8be02697071",
-          "saved_as": "Tarrant/2024_general_20241106083725_44dffa7a54dd.html"
+          "skipped": "per-window cap reached"
         }
       ]
     },
@@ -521,5 +509,5 @@
       ]
     }
   },
-  "replays_fetched": 37
+  "replays_fetched": 34
 }
