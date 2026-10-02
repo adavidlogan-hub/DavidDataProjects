@@ -5,8 +5,8 @@
  "verifier_confidence": "high",
  "elections": {
   "2024_general": {
-   "result": "UNDETERMINED",
-   "check": "none",
+   "result": "LATER",
+   "check": "2",
    "fact": "Clarity elections.json is empty and no 2024 Clarity link was found; county Historical page (elections.bexar.gov/35/Historical) lists for Nov 5 2024 only official precinct report, official summary, CVR and an unofficial reconciliation report; no election-night county totals or precinct file. Wayback index for Bexar has no captures."
   },
   "2026_primary": {
@@ -67,8 +67,27 @@
  "research_tag": "LIVE_PRECINCT",
  "agree": true,
  "comparison_notes": {
-  "2024_general": "different: research LATER from home.bexar.org/el45a.html (county-total summary, Vote Center 302 of 302, Last-Modified on election night); verifier did not find that page and recorded UNDETERMINED. Verifier opened the cited page afterwards: it is an UNOFFICIAL Summary Results Report with county totals, so the research claim is supported. Tag unaffected.",
+  "2024_general": "different: research LATER from home.bexar.org/el45a.html (county-total summary, Vote Center 302 of 302, Last-Modified on election night); verifier did not find that page and recorded UNDETERMINED. Verifier opened the cited page afterwards: it is an UNOFFICIAL Summary Results Report with county totals, so the research claim is supported. Tag unaffected. blind miss corrected after opening https://home.bexar.org/el45a.html myself.",
   "2026_primary": "same (LIVE, check 1, EID 125927; verifier found the EID independently via Wikipedia).",
   "2026_runoff": "same (LIVE, check 1, EID 126369)."
+ },
+ "blind_verdict": {
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "agree": true,
+  "elections": {
+   "2024_general": {
+    "result": "UNDETERMINED",
+    "check": "none"
+   },
+   "2026_primary": {
+    "result": "LIVE",
+    "check": "1"
+   },
+   "2026_runoff": {
+    "result": "LIVE",
+    "check": "1"
+   }
+  }
  }
 }

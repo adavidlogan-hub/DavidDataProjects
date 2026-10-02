@@ -5,8 +5,8 @@
  "verifier_confidence": "med",
  "elections": {
   "2024_general": {
-   "result": "UNDETERMINED",
-   "check": "none",
+   "result": "END",
+   "check": "2",
    "fact": "No Clarity site (elections.json 404). Elections page shows 2026 elections only; no 2024 general results found. Check 3 unavailable: no wayback-data folder for this county."
   },
   "2026_primary": {
@@ -42,8 +42,27 @@
  "research_tag": "PRECINCT_END_OF_NIGHT",
  "agree": true,
  "comparison_notes": {
-  "2024_general": "different: research END from 2024 Nov/UnOfficial PCT x PCT 11-5-24.pdf; verifier missed this file in its blind pass and recorded UNDETERMINED. Verifier opened the cited file afterwards: UNOFFICIAL RESULTS per precinct with Election Day column, footer \"Precinct Summary - 11/05/2024 10:13 PM\", Last-Modified 06 Nov 2024 05:12:31 GMT (11:12 PM CST): research claim supported. Tag unaffected.",
+  "2024_general": "different: research END from 2024 Nov/UnOfficial PCT x PCT 11-5-24.pdf; verifier missed this file in its blind pass and recorded UNDETERMINED. Verifier opened the cited file afterwards: UNOFFICIAL RESULTS per precinct with Election Day column, footer \"Precinct Summary - 11/05/2024 10:13 PM\", Last-Modified 06 Nov 2024 05:12:31 GMT (11:12 PM CST): research claim supported. Tag unaffected. blind miss corrected after opening https://www.co.houston.tx.us/upload/page/2956/2024%20Nov/UnOfficial%20PCT%20x%20PCT%2011-5-24.pdf myself.",
   "2026_primary": "same (END, printed 10:43 PM, uploaded 11:59 PM).",
   "2026_runoff": "same (END, printed 8:21 PM, uploaded 10:12 PM)."
+ },
+ "blind_verdict": {
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "med",
+  "agree": true,
+  "elections": {
+   "2024_general": {
+    "result": "UNDETERMINED",
+    "check": "none"
+   },
+   "2026_primary": {
+    "result": "END",
+    "check": "2"
+   },
+   "2026_runoff": {
+    "result": "END",
+    "check": "2"
+   }
+  }
  }
 }
