@@ -1,0 +1,93 @@
+{
+  "county": "Titus",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.titus.tx.us/page/elections.Elections%202026",
+  "platform": "county_pdfs",
+  "host": "www.co.titus.tx.us",
+  "evidence_url": "https://www.co.titus.tx.us/upload/page/0097/Unofficial Final Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https (already in the shared cache); results are on page/elections.home (2024) and page/elections.Elections 2026. No Clarity site (elections.json 404). Server Last-Modified values differ by file, so upload times are usable. Titus posts Hart cumulative county-total scans on election night (two postings for the 2026 primary: early voting at 8:51 PM and final at 10:27 PM CST) but no precinct-level results for any target election. The home page also links the SOS early-voting site. Run times were read from low-resolution renders where noted.",
+  "tag_rationale": "All three elections are LATER by check 2 (county totals only, precinct numbers never posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the 2026 primary and runoff night reports carry printed run times and election-night upload times.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 10:20 CT (upload)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.titus.tx.us/upload/page/0098/Results/Elections_20241106_103205.pdf",
+      "fact": "'November 5, 2024 Unofficial Results' = 14-page scan of Hart 'Cumulative Results Report Titus County 2024 November 5th General Election 11/5/2024 ... Unofficial Results ... Precincts Reporting 34 of 34' (county totals by Absentee/Early/Election Day; run time about 11:53 PM 11/05/2024, low-resolution read); Last-Modified Wed, 06 Nov 2024 16:20:29 GMT (10:20 AM CST Nov 6). The only other 2024 results file is the 'Canvass Report'. No precinct-by-precinct results are posted (never published online as far as the site shows)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 20:51 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.titus.tx.us/upload/page/0097/Unofficial Final Results.pdf",
+      "fact": "'March 3, 2026 Primary Early Voting Unofficial Results' (scan, Last-Modified Wed, 04 Mar 2026 02:51:35 GMT = 8:51 PM CST) and 'March 3, 2026 Primary Final Unofficial Results' = scanned Hart 'Cumulative Results Report Titus County 2026 Primary Election 3/3/2026 ... Unofficial Results ... Precincts Reporting 19 of 19', county totals by Absentee/Early/Election Day, run time about 9:18 PM 03/03/2026; Last-Modified Wed, 04 Mar 2026 04:27:11 GMT (10:27 PM CST). No precinct-level primary results are posted."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:02 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.titus.tx.us/upload/page/0141/Results 1.jpg",
+      "fact": "'Unofficial Final Results Page 1/Page 2' (JPEG scans) = Hart 'Cumulative Results Report Titus County 2026 Primary Runoff 5/26/2026 Unofficial Results ... Precincts Reporting 19 of 19 ... Run Time 8:14 PM Run Date 05/26/2026', county totals by Absentee/Early/Election Day; Results 1.jpg Last-Modified Wed, 27 May 2026 02:02:00 GMT (9:02 PM CDT May 26). No precinct-level runoff results are posted."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.titus.tx.us/page/elections.home",
+      "via": "fetch_module",
+      "content_hash": "f9d6676d9dd9021ab2d39acf8f96784634b10abcd53047884096d1c69c06310b",
+      "quote": "November 5, 2024 Unofficial Results; November 5, 2024 Canvass Report; Daily Current Election Results",
+      "supports": "2024 postings"
+    },
+    {
+      "url": "https://www.co.titus.tx.us/page/elections.Elections%202026",
+      "via": "fetch_module",
+      "content_hash": "5a533a787e862c5320e82598e407b274d1c9f90fbbd377373cec6e662c49a75d",
+      "quote": "May 26th, Primary Runoff Election ... Unofficial Final Results Page 1 Unofficial Final Results Page 2; March 3, 2026 Primary Early Voting Unofficial Results; March 3, 2026 Primary Final Unofficial Results",
+      "supports": "2026 postings"
+    },
+    {
+      "url": "https://www.co.titus.tx.us/upload/page/0098/Results/Elections_20241106_103205.pdf",
+      "via": "fetch_module",
+      "content_hash": "88989f5b89dea8aa6e7aaae7c479f88be07091565972998a694dfc9b3683dca5",
+      "quote": "Cumulative Results Report Titus County 2024 November 5th General Election Unofficial Results (scanned, read visually)",
+      "supports": "2024 county totals uploaded Nov 6"
+    },
+    {
+      "url": "https://www.co.titus.tx.us/upload/page/0097/Unofficial Early Voting Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "be6393efdc82057a27ab51148c8e6da25fee39b86cbbf8021649c03a5db0c184",
+      "quote": "(20-page scan, early voting unofficial results)",
+      "supports": "Primary early-vote county totals uploaded 8:51 PM"
+    },
+    {
+      "url": "https://www.co.titus.tx.us/upload/page/0097/Unofficial Final Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "d8dcc6c5df04f236ab3ee25e13d2d321e67fcaf78594d661d217753600dcf8b7",
+      "quote": "Cumulative Results Report Titus County 2026 Primary Election 3/3/2026 Unofficial Results Precincts Reporting 19 of 19 (scanned, read visually)",
+      "supports": "Primary final county totals uploaded 10:27 PM"
+    },
+    {
+      "url": "https://www.co.titus.tx.us/upload/page/0141/Results 1.jpg",
+      "via": "fetch_module",
+      "content_hash": "e25d0329ac48a3ce812a4b373485c8d528398cf6266ea1e323583f7a9c5fb258",
+      "quote": "Cumulative Results Report Titus County 2026 Primary Runoff 5/26/2026 Unofficial Results Run Time 8:14 PM Run Date 05/26/2026 (image, read visually)",
+      "supports": "Runoff county totals uploaded 9:02 PM"
+    }
+  ]
+}
