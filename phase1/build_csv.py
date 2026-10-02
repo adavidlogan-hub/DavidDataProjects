@@ -11,19 +11,30 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from phase1.schema import CSV_COLUMNS, validate  # noqa: E402
+import csv as _csv  # noqa: E402
+from phase1.schema import CSV_COLUMNS, validate_v2  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent
 
 
+SEED = Path(__file__).resolve().parent.parent / "data" / "seed_counties.csv"
+
+
 def main(out: str, counties_file: str) -> None:
+    seed = {r["county"]: r for r in _csv.DictReader(open(SEED, encoding="utf-8"))}
+    assert len(seed) == 254, "seed must have 254 counties"
     counties = [c.strip() for c in Path(counties_file).read_text().splitlines() if c.strip()]
     rows, log = [], ["# Verification log", ""]
     for county in counties:
         ev_path = ROOT / "evidence" / f"{county.replace(' ', '_')}.json"
         assert ev_path.exists(), f"missing evidence file for {county}: {ev_path}"
         rec = json.loads(ev_path.read_text())
-        validate(rec, str(ev_path))
+        validate_v2(rec, str(ev_path))
+        sd = seed[county]
+        if not rec["elections_office_phone"] and not rec["elections_office_email"]:
+            rec["elections_office_phone"], rec["elections_office_email"] = sd["phone"], sd["email"]
+            rec["notes"] = (rec["notes"] + " Contact from TX SOS county election officials list "
+                            f"(page sha256 {sd['sos_officials_hash'][:12]}).").strip()
         assert rec["county"] == county, f"{ev_path}: county field {rec['county']!r} != {county!r}"
         ver_path = ROOT / "verification" / f"{county.replace(' ', '_')}.json"
         if ver_path.exists():

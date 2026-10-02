@@ -34,3 +34,45 @@ def validate(rec: dict, path: str = "") -> None:
     for k, v in rec.items():
         if isinstance(v, str):
             assert not BANNED_RE.search(v), f"{where}: field {k} contains a banned dash or emoji character"
+
+
+# ---- v2 (three-check method, see phase1/CHECKLIST_BRIEF.md) ----
+ELECTIONS = ("2024_general", "2026_primary", "2026_runoff")
+ELECTION_RESULTS = ("LIVE", "END", "LATER", "NONE", "UNDETERMINED")
+RESULT_TO_TAG = {"LIVE": "LIVE_PRECINCT", "END": "PRECINCT_END_OF_NIGHT",
+                 "LATER": "COUNTY_ONLY_PRECINCT_AT_CANVASS", "NONE": "NO_SITE_OR_SOS_ONLY"}
+
+
+def compute_tag(elections: dict) -> tuple[str, bool]:
+    """Apply the fixed county rule. Returns (tag, single_election) where single_election
+    means only one election was determined, which forces confidence low."""
+    determined = [elections[e]["result"] for e in ELECTIONS if elections[e]["result"] != "UNDETERMINED"]
+    for r in RESULT_TO_TAG:
+        if determined.count(r) >= 2:
+            return RESULT_TO_TAG[r], False
+    if len(determined) == 1:
+        return RESULT_TO_TAG[determined[0]], True
+    return "UNKNOWN", False
+
+
+def validate_v2(rec: dict, path: str = "") -> None:
+    where = path or rec.get("county", "?")
+    assert rec.get("method_version") == "v2", f"{where}: method_version must be v2"
+    validate(rec, path)
+    el = rec.get("elections")
+    assert isinstance(el, dict) and set(el) == set(ELECTIONS), f"{where}: elections must have exactly {ELECTIONS}"
+    for e in ELECTIONS:
+        x = el[e]
+        assert x.get("result") in ELECTION_RESULTS, f"{where}: {e} result {x.get('result')!r}"
+        assert x.get("check") in ("1", "2", "3", "none"), f"{where}: {e} check {x.get('check')!r}"
+        if x["result"] != "UNDETERMINED":
+            assert x["check"] != "none" and x.get("evidence_url") and x.get("fact"), \
+                f"{where}: {e} is determined, so it needs check, evidence_url, and fact"
+    tag, single = compute_tag(el)
+    assert rec["tag"] == tag, f"{where}: tag {rec['tag']} does not follow the rule; rule gives {tag}"
+    if single:
+        assert rec["confidence"] == "low", f"{where}: only one election determined, confidence must be low"
+    for k, v in el.items():
+        for kk, vv in v.items():
+            if isinstance(vv, str):
+                assert not BANNED_RE.search(vv), f"{where}: elections.{k}.{kk} has a banned character"
