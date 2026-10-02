@@ -3,7 +3,7 @@
 For each evidence file, every election whose check is "1" is re-read with the
 check 1 script (served from cache), using the Clarity slug and election ID in
 that election's own evidence_url. The result is then:
-  LIVE   two or more election-night updates with election-day precinct votes
+  LIVE   two or more distinct election-night releases of election-day precinct votes
   END    exactly one
   LATER  none on election night, but the county published updates that night
   (unchanged) otherwise, with a note
@@ -32,12 +32,13 @@ URL_RE = re.compile(r"results\.enr\.clarityelections\.com/TX/([^/]+)/(\d+)")
 def derive(listings: list[dict]) -> tuple[str | None, str]:
     if not listings:
         return None, "no Clarity listing read"
-    n = max(l["election_night_updates_with_election_day_precinct_votes"] for l in listings)
+    n = max(l["election_night_distinct_election_day_precinct_releases"] for l in listings)
     night = max(l["election_night_updates"] for l in listings)
     first = next((l["first_update_with_election_day_precinct_votes"] for l in listings
                   if l["first_update_with_election_day_precinct_votes"]), None)
-    fact = (f"Clarity update log: {n} of {night} election-night updates carry precinct numbers with election-day "
-            f"votes; first such update {first['timestamp'] if first else 'none'}.")
+    fact = (f"Clarity update log: {n} distinct election-day precinct releases across {night} election-night updates "
+            f"(county local time, 7 PM to 3 AM); first update with election-day precinct votes "
+            f"{first['timestamp'] if first else 'none'}.")
     if n >= 2:
         return "LIVE", fact
     if n == 1:

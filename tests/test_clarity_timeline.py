@@ -22,7 +22,7 @@ def zipped(x):
 def test_read_detail_counts_only_contest_precinct_votes():
     d = read_detail(zipped(XML))
     assert d == {"timestamp": "3/3/2026 9:01:03 PM CST", "precincts_with_votes": 2, "nonzero_precinct_vote_cells": 3,
-                 "precincts_with_election_day_votes": 1}
+                 "precincts_with_election_day_votes": 1, "election_day_precinct_vote_sum": 12}
 
 
 def test_election_day_votetype_names():
@@ -41,3 +41,19 @@ def test_election_night_window():
     assert not on_election_night("3/4/2026 3:01:00 AM CST", "3/3/2026")
     assert not on_election_night("3/3/2026 6:59:00 PM CST", "3/3/2026")
     assert not on_election_night("3/16/2026 1:45:49 PM CDT", "3/3/2026")
+
+
+def test_election_night_converts_time_zone_labels():
+    # Kaufman prints Eastern time: 8:00 PM EST is 7:00 PM CST, inside the window.
+    assert on_election_night("11/5/2024 8:00:00 PM EST", "11/5/2024", "Kaufman")
+    # 3:30 AM EST is 2:30 AM CST: still inside.
+    assert on_election_night("11/6/2024 3:30:00 AM EST", "11/5/2024", "Kaufman")
+    # 4:30 AM EST is 3:30 AM CST: outside.
+    assert not on_election_night("11/6/2024 4:30:00 AM EST", "11/5/2024", "Kaufman")
+    # May runoff is daylight time: 7:30 PM CDT inside; 8:30 PM EDT is 7:30 PM CDT inside.
+    assert on_election_night("5/26/2026 8:30:00 PM EDT", "5/26/2026", "Kaufman")
+    # Mountain counties: 7:30 PM MST is inside for El Paso; 6:30 PM MST is not.
+    assert on_election_night("3/3/2026 7:30:00 PM MST", "3/3/2026", "El_Paso")
+    assert not on_election_night("3/3/2026 6:30:00 PM MST", "3/3/2026", "El_Paso")
+    # A Central label for a Mountain county converts: 8:15 PM CST is 7:15 PM MST, inside.
+    assert on_election_night("3/3/2026 8:15:00 PM CST", "3/3/2026", "Hudspeth")

@@ -45,6 +45,7 @@ def read_detail(zbytes: bytes) -> dict:
     assert names, "detailxml.zip has no xml"
     ts, precincts_with_votes, cells = None, set(), 0
     ed_precincts = set()
+    ed_vote_sum = 0
     in_contest = 0
     votetype = None
     with z.open(names[0]) as fh:
@@ -64,21 +65,45 @@ def read_detail(zbytes: bytes) -> dict:
                         precincts_with_votes.add(el.attrib.get("name"))
                         if votetype and ED_VOTETYPE_RE.match(votetype):
                             ed_precincts.add(el.attrib.get("name"))
+                            ed_vote_sum += int(v)
                 elif tag == "Contest":
                     in_contest -= 1
                 el.clear()
     assert ts, "no Timestamp in detail.xml"
     return {"timestamp": ts, "precincts_with_votes": len(precincts_with_votes), "nonzero_precinct_vote_cells": cells,
-            "precincts_with_election_day_votes": len(ed_precincts)}
+            "precincts_with_election_day_votes": len(ed_precincts),
+            "election_day_precinct_vote_sum": ed_vote_sum}
 
 
-def on_election_night(ts: str, election_date: str) -> bool:
-    """True if the local timestamp is between 7:00 PM election day and 3:00 AM the next day."""
+TZ_OFFSET = {"EST": -5, "EDT": -4, "CST": -6, "CDT": -5, "MST": -7, "MDT": -6, "PST": -8, "PDT": -7}
+MOUNTAIN_COUNTIES = {"El Paso", "El_Paso", "Hudspeth"}
+# Daylight time on each target election day (US rules: second Sunday of March to first Sunday of November).
+DAYLIGHT_ON_ELECTION_DAY = {"11/5/2024": False, "3/3/2026": False, "5/26/2026": True}
+
+
+def on_election_night(ts: str, election_date: str, county: str = "") -> bool:
+    """True if the update falls between 7:00 PM election day and 3:00 AM the next day, county local time.
+
+    Clarity prints each timestamp with a zone label that is not always the county's own
+    (Kaufman's are Eastern), so the time is converted to UTC by its label and compared with
+    the county's window (Central, or Mountain for El Paso and Hudspeth) on that date.
+    """
     m = TS_RE.search(ts)
     assert m, f"unparseable timestamp {ts!r}"
     t = datetime.strptime(m.group(1), "%m/%d/%Y %I:%M:%S %p")
+    label = m.group(2)
     d = datetime.strptime(election_date, "%m/%d/%Y")
-    return d + timedelta(hours=19) <= t <= d + timedelta(hours=27)
+    county_std = -7 if county in MOUNTAIN_COUNTIES else -6
+    assert election_date in DAYLIGHT_ON_ELECTION_DAY, f"no daylight-time entry for {election_date}"
+    dst = DAYLIGHT_ON_ELECTION_DAY[election_date]
+    county_off = county_std + (1 if dst else 0)
+    if label is None:
+        offset = county_off  # no label: assume county local
+    else:
+        assert label in TZ_OFFSET, f"unknown time zone label {label!r} in {ts!r}"
+        offset = TZ_OFFSET[label]
+    t_county = t + timedelta(hours=county_off - offset)
+    return d + timedelta(hours=19) <= t_county <= d + timedelta(hours=27)
 
 
 def run(county: str, agent: str, eid_override: dict | None = None) -> dict:
@@ -118,11 +143,13 @@ def run(county: str, agent: str, eid_override: dict | None = None) -> dict:
                     continue
                 d = read_detail(body(r))
                 d.update(version=v, url=url, content_hash=r.content_hash,
-                         election_night=on_election_night(d["timestamp"], date))
+                         election_night=on_election_night(d["timestamp"], date, county))
                 updates.append(d)
             night = [u for u in updates if u.get("election_night")]
             night_with = [u for u in night if u["precincts_with_votes"] > 0]
             night_with_ed = [u for u in night if u.get("precincts_with_election_day_votes", 0) > 0]
+            # Repeated identical precinct numbers are one release, not an update.
+            night_distinct_ed = len({u["election_day_precinct_vote_sum"] for u in night_with_ed})
             first = next((u for u in updates if u.get("precincts_with_votes", 0) > 0), None)
             first_ed = next((u for u in updates if u.get("precincts_with_election_day_votes", 0) > 0), None)
             per.append({"eid": eid, "name": e.get("ElectionName"), "updates": updates,
@@ -130,6 +157,7 @@ def run(county: str, agent: str, eid_override: dict | None = None) -> dict:
                         "election_night_updates_with_precinct_votes": len(night_with),
                         "first_update_with_precinct_votes": first and {k: first[k] for k in ("timestamp", "version", "url")},
                         "election_night_updates_with_election_day_precinct_votes": len(night_with_ed),
+                        "election_night_distinct_election_day_precinct_releases": night_distinct_ed,
                         "first_update_with_election_day_precinct_votes":
                             first_ed and {k: first_ed[k] for k in ("timestamp", "version", "url")},
                         "unreadable_versions": sum(1 for u in updates if "error" in u)})
