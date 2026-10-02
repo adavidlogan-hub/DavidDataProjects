@@ -102,5 +102,14 @@
       "unsupported_or_unchecked": "None unsupported; research did not read the scan's printed time. Tags differ (research UNKNOWN, verifier COUNTY_ONLY_PRECINCT_AT_CANVASS low)."
     },
     "compared_at_utc": "2026-10-02T16:32:43Z"
-  }
+  },
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same (UNDETERMINED). Both found the 2024 links dead (HTTP 404) and no election-night file; Wayback harvest has no captures (the index records robots_disallowed_or_unreachable for every query, which research words as 'no election-night captures').",
+    "2026_primary": "Same (LATER, check 2, county_totals_first_seen 2026-03-03 22:07 CT). Same file, same reading: county contest totals only, footer 10:07 PM, Last-Modified 04 Mar 2026 18:40:46 GMT, no precinct report. Research's DEM-page footer '10:12 PM' is correct; my blind fact said '10:13 PM', and a higher-resolution render of pages 14, 16 and 22 shows 10:12 PM.",
+    "2026_runoff": "Same (UNDETERMINED). The runoff 'UNOFFICIAL RESULTS' label has no link; 'OFFICIAL RESULTS' goes to the SOS turnout site.",
+    "unsupported_claims": "None that affect results. Research notes still contain the stale sentence that the primary scan 'could not be read without OCR' and 'Check 3 pending (origin/wayback-data branch not found)', both superseded later in the same notes."
+  },
+  "compared_at_utc": "2026-10-02T22:56:31Z"
 }

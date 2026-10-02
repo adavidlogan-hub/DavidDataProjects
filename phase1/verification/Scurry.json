@@ -127,5 +127,14 @@
       "unsupported_or_unchecked": "Research claim that no 2026 primary results are posted is contradicted by the Election Information page. Tags differ (research UNKNOWN, verifier COUNTY_ONLY_PRECINCT_AT_CANVASS low, resting on one weak LATER)."
     },
     "compared_at_utc": "2026-10-02T16:31:35Z"
-  }
+  },
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same result (UNDETERMINED), different fact. Research says there are no 2024 general results on the Election Information or Previous Elections pages ('which ends with the March 5, 2024 primary'). The Previous Elections page I fetched (hash 31a964e0...) has a 'NOVEMBER 5, 2024 GENERAL ELECTION' section linking 'Official Election Summary Results' (/upload/page/0166/Scan_20250617.pdf) and 'Official Precinct Summary Results' (/upload/page/0166/widgets/Scan_20250616.pdf). These are official files, so the result is still UNDETERMINED.",
+    "2026_primary": "Same (LATER, check 2, county_totals_first_seen 2026-03-03 20:06 CT). Same files and times: county totals footer 03/03/2026 8:06 PM; four precinct reports footer 08/24/2026 12:01 PM, Last-Modified 24 Aug 2026.",
+    "2026_runoff": "Same (UNDETERMINED). Both read summary and precinct reports printed 06/02/2026 and uploaded Jun 11 and Aug 24 2026.",
+    "unsupported_claims": "Research 2024 fact and notes ('No results for the 2024 general ... are posted'; Previous Elections page 'ends with the March 5, 2024 primary') are not supported: the Previous Elections page lists official Nov 2024 summary and precinct scans. No effect on the result."
+  },
+  "compared_at_utc": "2026-10-02T22:56:31Z"
 }

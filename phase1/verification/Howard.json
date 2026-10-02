@@ -56,5 +56,14 @@
       "what_i_checked": "Wayback branch index.json for this county: harvest recorded every CDX query as robots_disallowed_or_unreachable, no captures; check 3 unavailable"
     }
   ],
-  "written_blind_at_utc": "2026-10-02T22:55:15Z"
+  "written_blind_at_utc": "2026-10-02T22:55:15Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same (LATER, check 2, county_totals_first_seen 2024-11-05 21:31 CT). Same file ENR w WI.pdf, footer 9:22 PM, Last-Modified 03:31:53 GMT; no precinct file listed for 2024.",
+    "2026_primary": "Same (UNDETERMINED). Only canvass files.",
+    "2026_runoff": "Same (LATER, check 2, county_totals_first_seen 2026-05-26 20:32 CT). ENR.pdf county totals printed 8:32 PM; uploaded 8:56 AM May 27; no unofficial precinct report, only the June 3 canvass table. I confirmed research's PDF ModDate 2026-05-27 13:50:15 UTC.",
+    "unsupported_claims": "None on facts. The research notes are internally stale: the targeted pass 3 sentence says '2026_runoff stays UNDETERMINED', while the election record (updated under DECISIONS 67) is LATER; the record, not the note, matches the evidence."
+  },
+  "compared_at_utc": "2026-10-02T22:56:31Z"
 }

@@ -1,14 +1,14 @@
 {
   "county": "Jasper",
   "reason_selected": "tag changed in targeted pass 3",
-  "verifier_tag": "UNKNOWN",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "verifier_confidence": "low",
   "elections": {
     "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "fact": "The Elections page (co.jasper.tx.us/page/Elections) has no Nov 2024 results section; its 'Election Results/Voting History' link points to the SOS historical page, which is a general link and not specific to an election. No county file or time. Check 3 unavailable (harvest error).",
-      "county_totals_first_seen": ""
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 00:26 CT",
+      "fact": "Corrected after the blind pass (DECISIONS 44); my blind pass did not find these files, which are in the county's CIRA upload folder page 1130 and not linked from the current Elections page. 'UNOFFICIAL SUMMARY RESULTS.pdf' (newtools.cira.state.tx.us/upload/page/1130/, sha256 73db3325...): scanned 'Summary Results Report UNOFFICIAL RESULTS JASPER COUNTY GENERAL ELECTION November 5, 2024', county totals ('Election Day Precincts Reporting 23 of 23', 'Ballots Cast - Total 20,134'), footer 'Election Summary - 11/06/2024 12:26 AM' on all 5 pages (election night), Last-Modified Wed, 06 Nov 2024 14:07:14 GMT (8:07 AM CST). '11-5-24 Unofficial Pct by Pct Results.pdf' (sha256 6479e864...): per-precinct candidate votes with an Election Day column ('Pct # 1 Three Corners ... REP Donald J. Trump/JD Vance 42 3 6 33'), footer 'Precinct Summary - 11/06/2024 12:32 AM', Last-Modified Thu, 07 Nov 2024 16:28:15 GMT (10:28 AM CST Nov 7). County totals printed on election night; the only precinct report's known upload time is after election night: LATER under the rule 43 reading (DECISIONS 67)."
     },
     "2026_primary": {
       "result": "UNDETERMINED",
@@ -23,7 +23,7 @@
       "county_totals_first_seen": ""
     }
   },
-  "rationale": "Not on Clarity (elections.json 404). No election-night file survives for any election (primary unofficial totals printed 8:31 AM the next morning; runoff official only; no 2024 files), and check 3 has no captures. No election is determined: UNKNOWN.",
+  "rationale": "After the DECISIONS 44 correction only the 2024 general is determined (LATER, check 2: county totals printed 12:26 AM on election night, the unofficial precinct report printed 12:32 AM but uploaded 10:28 AM Nov 7). The 2026 primary (unofficial totals printed 8:31 AM Mar 4) and runoff (official files only) stay UNDETERMINED. One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS, low. Blind verdict (UNKNOWN) kept in blind_verdict.",
   "sources": [
     {
       "url": "https://www.co.jasper.tx.us/page/Elections",
@@ -49,9 +49,53 @@
       "url": "git:origin/wayback-data:phase1/wayback_snapshots/Jasper/index.json",
       "content_hash": "",
       "what_i_checked": "Wayback branch index.json for this county: harvest recorded every CDX query as robots_disallowed_or_unreachable, no captures; check 3 unavailable"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1130/UNOFFICIAL%20SUMMARY%20RESULTS.pdf",
+      "content_hash": "73db33256f3c3d1661b910e50824182ccd016646e02911d8088bfde66a3d05dc",
+      "what_i_checked": "Opened after the blind pass (cited by research): county totals, footer 11/06/2024 12:26 AM, Last-Modified 06 Nov 2024 14:07:14 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1130/11-5-24%20Unofficial%20Pct%20by%20Pct%20Results.pdf",
+      "content_hash": "6479e86404bb7f7348e7e12242c3e46051bf6e394dae3bfc26042648c8a2861b",
+      "what_i_checked": "Opened after the blind pass (cited by research): per-precinct report, footer 11/06/2024 12:32 AM, Last-Modified 07 Nov 2024 16:28:15 GMT"
     }
   ],
   "written_blind_at_utc": "2026-10-02T22:55:15Z",
+  "blind_verdict": {
+    "verifier_tag": "UNKNOWN",
+    "verifier_confidence": "low",
+    "elections": {
+      "2024_general": {
+        "result": "UNDETERMINED",
+        "check": "none",
+        "fact": "The Elections page (co.jasper.tx.us/page/Elections) has no Nov 2024 results section; its 'Election Results/Voting History' link points to the SOS historical page, which is a general link and not specific to an election. No county file or time. Check 3 unavailable (harvest error).",
+        "county_totals_first_seen": ""
+      },
+      "2026_primary": {
+        "result": "UNDETERMINED",
+        "check": "none",
+        "fact": "'Unofficial Totals (PDF)' = 3326 Unofficial Summary Totals.pdf, scanned county totals printed 'Election Summary - 03/04/2026 8:31 AM' (after the 3 AM cutoff), Last-Modified Thu, 05 Mar 2026 21:41:18 GMT. Official precinct report printed 03/10/2026, Last-Modified 20 Mar 2026. No file from election night.",
+        "county_totals_first_seen": ""
+      },
+      "2026_runoff": {
+        "result": "UNDETERMINED",
+        "check": "none",
+        "fact": "Only official files: 'Official Summary Results' printed 05/28/2026 11:58 AM and 'Official Pct by Pct Results' printed 05/28/2026 12:02 PM, both Last-Modified 29 May 2026. No election-night file.",
+        "county_totals_first_seen": ""
+      }
+    },
+    "rationale": "Not on Clarity (elections.json 404). No election-night file survives for any election (primary unofficial totals printed 8:31 AM the next morning; runoff official only; no 2024 files), and check 3 has no captures. No election is determined: UNKNOWN."
+  },
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Different in the blind pass (UNDETERMINED: the current Elections page has no 2024 files), same after correction. I opened the two page-1130 files research cites and they match its quotes and times exactly; corrected to LATER per DECISIONS 44.",
+    "2026_primary": "Same (UNDETERMINED). Unofficial totals printed 03/04/2026 8:31 AM, uploaded 05 Mar 2026; official precinct report printed 03/10/2026.",
+    "2026_runoff": "Same (UNDETERMINED). Only official runoff files (printed 05/28/2026).",
+    "unsupported_claims": "None found. Note: research 2024 precinct_first_seen ('2024-11-07 10:28 CT ...') names the next-day upload time, which is after election night, not an election-night precinct time; this does not affect the LATER result."
+  },
+  "compared_at_utc": "2026-10-02T22:56:31Z",
   "previous_verification": {
     "county": "Jasper",
     "reason_selected": "low confidence",

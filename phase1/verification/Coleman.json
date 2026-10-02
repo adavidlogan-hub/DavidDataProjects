@@ -61,5 +61,14 @@
       "what_i_checked": "Capture 2024-11-06 01:42:52 CST; identical to live county-totals file"
     }
   ],
-  "written_blind_at_utc": "2026-10-02T22:55:15Z"
+  "written_blind_at_utc": "2026-10-02T22:55:15Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same result (LATER), different check label. I settled it by check 2: the live CIRA copy of 'UNOFFICIAL ALL PRECINCTS coleman county.pdf' (same sha256 9ae01f73... as the Wayback capture) has server Last-Modified 06 Nov 2024 02:41:05 GMT (8:41 PM CST) and footer 11/05/2024 8:00 PM; research used check 3 (the 1:42 AM CST capture of the same file) with county_totals_first_seen 20:00 CT (printed time). Both show county totals only and the only precinct file is the official report printed 11/12/2024, uploaded 15 Nov 2024. Either label gives the same tag and med confidence (the runoff is check 2).",
+    "2026_primary": "Same (UNDETERMINED). Unofficial files printed 03/05 and 03/10/2026, uploaded 21 Apr 2026.",
+    "2026_runoff": "Same (LATER, check 2). Same file and times (footer 8:02 PM, Last-Modified 00:39:30 GMT = 7:39 PM CDT; both noted the clock inconsistency). Research county_totals_first_seen 20:02 CT (printed), mine 19:39 CT (upload); both on election night.",
+    "unsupported_claims": "None found. The research quote of the 2024 file and the runoff file matched what I read."
+  },
+  "compared_at_utc": "2026-10-02T22:56:31Z"
 }

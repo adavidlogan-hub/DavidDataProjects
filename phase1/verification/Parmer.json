@@ -1,0 +1,102 @@
+{
+ "county": "Parmer",
+ "reason_selected": "tag changed in targeted pass 3",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "Elections page (parmercounty.texas.gov/?page_id=334) links \"Election Night Results\" to results.texas-election.com and the county's \"Nov 5, 2024 General Election\" official results. WordPress media list (index.php?rest_route=/wp/v2/media, after/before around election night) shows \"Unofficial Results General Election Nov. 5, 2024\" uploaded 2024-11-06T03:43:44 GMT (9:43 PM CST, Last-Modified the same) and \"Unofficial Election Reconciliation Nov. 5, 2024\" at 03:48:10 GMT. The results file (scanned, read visually) is county totals only: \"Summary Results Report ... UNOFFICIAL RESULTS Total Ballots 11-5-2024\", \"Precincts Reporting 7 of 7\", footer \"Election Summary - 11/05/2024 9:27 PM\". No other unofficial file in the media list for Nov 5 to 7. Precinct numbers first appear in \"11524-General-Election-Official-Results.pdf\" (35 pages, \"Precinct Summary - 11/13/2024 10:02 AM\"), uploaded 2025-01-29. County totals on election night, precinct numbers only after (rule 43)."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "Media list: \"Unoffical 3-3-2026 Primary\" (wp-content/uploads/2026/03/Unoffical-3-3-2026-Primary.pdf) uploaded 2026-03-04T03:58:19 GMT (9:58 PM CST, Last-Modified the same); 21 pages: preliminary reconciliation plus a 20-page \"Summary Results Report ... Primary 2026 UNOFFICIAL RESULTS\", county totals with Absentee, Early Voting, Election Day columns, footer \"Election Summary - 03/03/2026 9:13 PM\" on every page, no precinct pages. Next morning an SOS-format Democratic unofficial report (county totals) at 15:52 GMT Mar 4. No precinct report in the media list for Mar 3 to Mar 31; precinct numbers only with the official results uploaded 2026-03-19. County totals on election night, no election-night precinct report (rule 43)."
+  },
+  "2026_runoff": {
+   "result": "END",
+   "check": "2",
+   "fact": "Media list: \"Unoffical Results Runoff 5-26-26\" uploaded 2026-05-27T02:08:35 GMT (9:08 PM CDT, Last-Modified the same), then identical copies (-1, -2, -3, same content hash 4b1771b9...) at 02:18, 02:51 GMT and 12:26 GMT next morning. The 25-page file (scanned, read visually) contains the reconciliation, two Election Summary reports (printed 7:47 PM and 7:57 PM, 7 of 7 Election Day precincts) and a 16-page \"UNOFFICIAL PRECINCT RESULTS 2026 RUNOFF\" Precinct Summary, precinct 101: Ballots Cast 133, 108 Election Day; Paxton 73 (59 Election Day), footer \"Precinct Summary - 05/26/2026 7:53 PM\". Upload time on election night (rule 47); same content in every copy, so one set of precinct numbers: END."
+  }
+ },
+ "rationale": "2024 general and 2026 primary: county-totals unofficial files uploaded on election night (9:43 PM, 9:58 PM per WordPress upload dates and Last-Modified), no precinct report that night, precinct numbers only in official results weeks later: LATER. 2026 runoff: precinct summary uploaded 9:08 PM election night: END. Two LATER give COUNTY_ONLY_PRECINCT_AT_CANVASS; both deciding elections are check 2, so med.",
+ "sources": [
+  {
+   "url": "https://parmercounty.texas.gov/?page_id=334",
+   "content_hash": "3e65f211de17901b6af8c24ca0ab1893f63eb749d622fc0865a2a4c0b7a73333",
+   "what_i_checked": "elections page: Election Night Results link to SOS; official results links per election"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/index.php?rest_route=/wp/v2/media&after=2024-11-05T12:00:00&before=2024-11-07T12:00:00&per_page=100",
+   "content_hash": "5a4fd879c8fba8369e4747cdecb4af90506f071076a950a0c67cba63532d0908",
+   "what_i_checked": "media upload dates around Nov 5 2024 election night"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/wp-content/uploads/2024/11/Unofficial-Results-General-Election-Nov.-5-2024.pdf",
+   "content_hash": "92ec90c0256740458be31b72f13aec6477de09ac3d2e98a1b3fe273f8bfb14d6",
+   "what_i_checked": "county totals only, printed 11/05/2024 9:27 PM, Last-Modified 06 Nov 2024 03:43:44 GMT"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/wp-content/uploads/2024/11/Unofficial-Election-Reconciliation-Nov.-5-2024.pdf",
+   "content_hash": "3e353db44e3fac08832e1eee8614449da6eaf8ff71b2306ffc0bc1b6805a43db",
+   "what_i_checked": "reconciliation, uploaded 03:48 GMT Nov 6"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/index.php?rest_route=/wp/v2/media&after=2024-11-07T12:00:00&before=2025-01-31T00:00:00&per_page=100",
+   "content_hash": "43260ba06ea6c821268411ea99dda7168373501a64b94b0066d4b785dff9af3b",
+   "what_i_checked": "only result file after election night is the official results on 2025-01-29"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/wp-content/uploads/2025/01/11524-General-Election-Official-Results.pdf",
+   "content_hash": "4a1fe4e81ffa642021b472fe10f2e7c0ba5ddadb9e32bf68d59a33d2e0811c3e",
+   "what_i_checked": "35 pages, Precinct Summary printed 11/13/2024 10:02 AM"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/index.php?rest_route=/wp/v2/media&after=2026-03-03T12:00:00&before=2026-03-05T12:00:00&per_page=100",
+   "content_hash": "893f97a79771017f15a3d1945043e14783c2a4f905eb6bc81bbb2c2d67400ddf",
+   "what_i_checked": "media upload dates around Mar 3 2026 election night"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/wp-content/uploads/2026/03/Unoffical-3-3-2026-Primary.pdf",
+   "content_hash": "ee162b0ff5cfad92e18130b3d0d7db7778a098082e109ca7918a2439a2e42304",
+   "what_i_checked": "21 pages, county totals Election Summary printed 03/03/2026 9:13 PM, Last-Modified 04 Mar 2026 03:58:19 GMT"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/wp-content/uploads/2026/03/ELECTION-UNOFFICIAL-RESULT-REPORT_Democrat-2.pdf",
+   "content_hash": "f06d2e5a625c2ba18523c7167e7b2bd57c669f275058afc0aa7d679e8f256391",
+   "what_i_checked": "SOS-format Democratic county totals, uploaded 15:52 GMT Mar 4"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/index.php?rest_route=/wp/v2/media&after=2026-03-05T12:00:00&before=2026-04-01T00:00:00&per_page=100",
+   "content_hash": "6dc147e6fc052c8df3475ff75a10f3aeb200acb89611c781b13f01d28659f14a",
+   "what_i_checked": "no unofficial precinct report; official results 2026-03-19"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/index.php?rest_route=/wp/v2/media&after=2026-05-26T12:00:00&before=2026-05-28T12:00:00&per_page=100",
+   "content_hash": "357e6989953fb3f5fa2a80931742691f17d0cca323d09fd419922b521ee4f763",
+   "what_i_checked": "media upload dates around May 26 2026 election night"
+  },
+  {
+   "url": "https://parmercounty.texas.gov/wp-content/uploads/2026/05/Unoffical-Results-Runoff-5-26-26.pdf",
+   "content_hash": "4b1771b961054e2dfd36ebcccd36f16d6e3b548b26213d0bfabe387d0e0c5be7",
+   "what_i_checked": "25 pages incl. 16-page unofficial precinct summary printed 05/26/2026 7:53 PM with Election Day column; Last-Modified 27 May 2026 02:08:35 GMT"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Parmer/elections.json",
+   "content_hash": "",
+   "what_i_checked": "check 1 script: no Clarity election list (404) (HTTP 404, no body hash)"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T22:56:14Z",
+ "verifier_agent": "verifier-15",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LATER, check 2). WordPress media list via index.php?rest_route=/wp/v2/media shows only the county-totals 'Unofficial Results General Election Nov. 5, 2024' (9:43 PM CST, Last-Modified matching; printed 9:27 PM, 7 of 7 precincts) and the reconciliation on election night; precinct pages only in the official file uploaded 2025-01-29 (CreationDate 2025-01-27, 'Pct.101'). Research county_totals_first_seen 2024-11-05 21:43 CT supported.",
+  "2026_primary": "same (LATER, check 2). 'Unoffical 3-3-2026 Primary' uploaded 9:58 PM CST, 20-page county-totals Election Summary printed 9:13 PM, no precinct pages; research claim that precinct numbers were never published online is supported: the only later primary files (Official-Results-Primary-2026-2.pdf and -2-1.pdf, same content, uploaded Mar 19) are a 20-page county-totals Election Summary printed 03/18/2026 12:11 PM.",
+  "2026_runoff": "same (END, check 2). File uploaded 9:08 PM CDT with byte-identical re-uploads (verified same content hash for all four URLs); 16-page 'UNOFFICIAL PRECINCT RESULTS 2026 RUNOFF' printed 7:53 PM with Election Day column for precincts 101, 201, 202, 301, 303, 401, 402.",
+  "unsupported_or_stale": "Notes keep a stale sentence from the earlier pass ('hence confidence low'); confidence is now med by rule. 'Complete WordPress upload logs' is slightly strong: the media API lists attachments still in the library, so a file deleted from the library would not appear. Otherwise all claims supported."
+ },
+ "compared_at_utc": "2026-10-02T22:57:06Z"
+}
