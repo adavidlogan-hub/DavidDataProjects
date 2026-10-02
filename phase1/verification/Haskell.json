@@ -5,8 +5,8 @@
   "verifier_confidence": "low",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "fact": "No Clarity site (elections.json 404). Seed host www.co.haskell.tx.us fails TLS (hostname mismatch); site read at www.haskellcountytx.gov. Only 2024 file: 'NOVEMBER 5TH 2024 PRECINCT BY PRECINCT ELECTION RESULTS' (scan, CreationDate 7/8/2025, Last-Modified 2/5/2026). Precinct numbers posted long after the election; no election-night file."
     },
     "2026_primary": {
@@ -20,7 +20,7 @@
       "fact": "'MAY 26, 2026 REPUBLICAN UNOFFICIAL RESULTS': scanned SOS-format report, county totals only (KEN PAXTON Election Day Count 133, Total 273), Last-Modified 5/27/2026 01:33:23 GMT (8:33 PM CDT). 'PRIMARY RUNOFF RESULTS FOR PRECINCT BY PRECINCT': scan CreationDate 6/29/2026, Last-Modified 6/29/2026. County totals on the night, precinct numbers a month later."
     }
   },
-  "rationale": "LATER in all three (check 2): county totals on the night or nothing, precinct numbers months later. COUNTY_ONLY_PRECINCT_AT_CANVASS; only the runoff has an election-night upload time, so low.",
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'UNDETERMINED', '2026_primary': 'LATER', '2026_runoff': 'LATER'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in all three (check 2): county totals on the night or nothing, precinct numbers months later. COUNTY_ONLY_PRECINCT_AT_CANVASS; only the runoff has an election-night upload time, so low.)",
   "sources": [
     {
       "url": "https://www.haskellcountytx.gov/page/haskell.Elections",
@@ -52,9 +52,11 @@
   "research_tag": "UNKNOWN",
   "agree": false,
   "comparison_notes": {
-    "2024_general": "different: research could not reach the county host (fetch module robots check, connection reset), so all UNDETERMINED. I fetched www.haskellcountytx.gov/page/haskell.Elections through the fetch module (fresh, status 200). Its only 2024 file is a precinct report scanned 7/8/2025, so I said LATER.",
+    "2024_general": "different: research could not reach the county host (fetch module robots check, connection reset), so all UNDETERMINED. I fetched www.haskellcountytx.gov/page/haskell.Elections through the fetch module (fresh, status 200). Its only 2024 file is a precinct report scanned 7/8/2025, so I said LATER. Rule 43 re-applied: LATER changed to UNDETERMINED (only a precinct report scanned 7/8/2025; no election-night file); check 3 pending.",
     "2026_primary": "different: I said LATER (SOS county-totals report CreationDate 3/4 06:06 UTC, Last-Modified 3/4 13:54 GMT; no precinct report). Research UNDETERMINED (host unreachable).",
-    "2026_runoff": "different: I said LATER (county-totals report uploaded 5/27 01:33 GMT = 8:33 PM CDT; precinct report scanned 6/29/2026). Research UNDETERMINED (host unreachable)."
+    "2026_runoff": "different: I said LATER (county-totals report uploaded 5/27 01:33 GMT = 8:33 PM CDT; precinct report scanned 6/29/2026). Research UNDETERMINED (host unreachable).",
+    "rule_43": "rule 43 re-applied"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }

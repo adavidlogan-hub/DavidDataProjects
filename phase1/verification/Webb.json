@@ -5,8 +5,8 @@
   "verifier_confidence": "low",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "fact": "No Clarity site (elections.json 404). Seed URL /ElectionsAdministration/ is 404; site read at /291/Elections. Archived Election Results lists '11-05-24 Joint General Elections (PDF)' (scan CreationDate 6/10/2025). CivicPlus returns request time as Last-Modified. No election-night 2024 file."
     },
     "2026_primary": {
@@ -20,7 +20,7 @@
       "fact": "No May 26 2026 result file on the Unofficial, Official or Precinct By Precinct pages. check 3 pending (no folder on wayback-data)."
     }
   },
-  "rationale": "LATER in 2024_general and 2026_primary (check 2), runoff UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; no upload evidence (CivicPlus), so low.",
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'UNDETERMINED', '2026_primary': 'LATER', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in 2024_general and 2026_primary (check 2), runoff UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; no upload evidence (CivicPlus), so low.)",
   "sources": [
     {
       "url": "https://www.webbcountytx.gov/291/Elections",
@@ -57,9 +57,11 @@
   "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "agree": true,
   "comparison_notes": {
-    "2024_general": "different: research UNDETERMINED, I said LATER (only a 2025 scan in the archive). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts.",
+    "2024_general": "different: research UNDETERMINED, I said LATER (only a 2025 scan in the archive). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only a scan created 6/10/2025); check 3 pending.",
     "2026_primary": "same (LATER, check 2): night summary 9:51 PM, PCT by PCT dated March 10.",
-    "2026_runoff": "same (UNDETERMINED)."
+    "2026_runoff": "same (UNDETERMINED).",
+    "rule_43": "rule 43 re-applied"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }

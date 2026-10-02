@@ -44,7 +44,9 @@
   "comparison_notes": {
     "2024_general": "same (LIVE, check 1): 8:36 PM early only, Election Day precinct sums 127744 to 656353 from 9:15 PM.",
     "2026_primary": "same (UNDETERMINED): not in elections.json, county site robots-blocked.",
-    "2026_runoff": "same (UNDETERMINED)."
+    "2026_runoff": "same (UNDETERMINED).",
+    "rule_43": "rule 43 re-applied: no per-election result changed"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }

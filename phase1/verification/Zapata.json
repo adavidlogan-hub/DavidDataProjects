@@ -15,12 +15,12 @@
       "fact": "No March 3 2026 result file listed (only notices of canvass and hand count certifications). check 3 pending (no folder on wayback-data)."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "fact": "Homepage: '2026 Primary Runoff Election - unofficial' (scan CreationDate 5/28/2026 17:52 UTC, Last-Modified 5/28/2026), then official cumulative and canvass report. Nothing posted on election night."
     }
   },
-  "rationale": "LATER in 2024_general and 2026_runoff (check 2), primary UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; runoff rests on absence of night files, so low.",
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'LATER', '2026_primary': 'UNDETERMINED', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in 2024_general and 2026_runoff (check 2), primary UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; runoff rests on absence of night files, so low.)",
   "sources": [
     {
       "url": "https://www.co.zapata.tx.us/page/zapata.Elections",
@@ -49,7 +49,9 @@
   "comparison_notes": {
     "2024_general": "different: research says 'No 2024 general results listed on the county site'. Not supported: the Elections page links 'November 5, 2024 General & ZCISD Election (unofficial)' (newtools.cira.state.tx.us/upload/page/6427/docs/Results/November 5 2024 General and ZCISD - unofficial results.pdf: Cumulative Results Report, county totals, Last-Modified 11/6/2024 05:25:18 GMT = 11:25 PM CST). I said LATER.",
     "2026_primary": "same (UNDETERMINED). Research found a 'ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - REP' scan on the home page (Last-Modified 3/4/2026 20:42 GMT), which I missed.",
-    "2026_runoff": "different: research UNDETERMINED, I said LATER (unofficial posted 5/28/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts."
+    "2026_runoff": "different: research UNDETERMINED, I said LATER (unofficial posted 5/28/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only files posted 5/28/2026 and later); check 3 pending.",
+    "rule_43": "rule 43 re-applied"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }

@@ -1,7 +1,7 @@
 {
   "county": "Kent",
   "reason_selected": "low confidence",
-  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_tag": "UNKNOWN",
   "verifier_confidence": "low",
   "elections": {
     "2024_general": {
@@ -10,8 +10,8 @@
       "fact": "No Clarity site (elections.json 404). Seed has no website; www.co.kent.tx.us Elections page lists only March 3 2026 certified results. check 3 pending (no folder on wayback-data)."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "fact": "'March 3, 2026 Republican Party Primary Certified Election Results': county totals by Early Voting / Election Day (John Cornyn 33, 40, 73), CreationDate 3/24/2026 18:11 UTC, Last-Modified 3/24/2026 18:21 GMT. No precinct numbers and no election-night file."
     },
     "2026_runoff": {
@@ -20,7 +20,7 @@
       "fact": "No runoff result file listed. check 3 pending (no folder on wayback-data)."
     }
   },
-  "rationale": "Only 2026_primary determined (LATER, check 2). One determined, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'UNDETERMINED', '2026_primary': 'UNDETERMINED', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives UNKNOWN, confidence low. (Original blind rationale: Only 2026_primary determined (LATER, check 2). One determined, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.)",
   "sources": [
     {
       "url": "https://www.co.kent.tx.us/page/kent.Elections",
@@ -35,11 +35,13 @@
   ],
   "written_blind_at_utc": "2026-10-02T16:20:21Z",
   "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "agree": true,
+  "agree": false,
   "comparison_notes": {
     "2024_general": "same (UNDETERMINED).",
-    "2026_primary": "same (LATER, check 2): certified county totals, Last-Modified 3/24/2026.",
-    "2026_runoff": "same (UNDETERMINED)."
+    "2026_primary": "same (LATER, check 2): certified county totals, Last-Modified 3/24/2026. Rule 43 re-applied: LATER changed to UNDETERMINED (only certified results dated 3/24/2026; no election-night file); check 3 pending.",
+    "2026_runoff": "same (UNDETERMINED).",
+    "rule_43": "rule 43 re-applied"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }

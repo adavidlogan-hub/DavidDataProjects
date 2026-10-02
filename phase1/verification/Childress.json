@@ -49,7 +49,9 @@
   "comparison_notes": {
     "2024_general": "same (UNDETERMINED).",
     "2026_primary": "same (LATER, check 2): SOS county-totals report, CreationDate 3/4 06:09 UTC, Last-Modified 3/4 18:43 GMT. Research also found 'Precinct by Precinct Results of March Primaries' (CreationDate 4/2/2026, Last-Modified 4/14/2026), which I missed; my fact line 'no precinct numbers anywhere on the site' is wrong. The result does not change.",
-    "2026_runoff": "different: research NONE (no results file on either runoff page); I said UNDETERMINED because a missing file does not show that results were only on the SOS site, and I did not open the Democratic runoff page. Tag differs as a result: research UNKNOWN (LATER plus NONE), mine COUNTY_ONLY_PRECINCT_AT_CANVASS low."
+    "2026_runoff": "different: research NONE (no results file on either runoff page); I said UNDETERMINED because a missing file does not show that results were only on the SOS site, and I did not open the Democratic runoff page. Tag differs as a result: research UNKNOWN (LATER plus NONE), mine COUNTY_ONLY_PRECINCT_AT_CANVASS low.",
+    "rule_43": "rule 43 re-applied: no per-election result changed"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }

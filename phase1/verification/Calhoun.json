@@ -15,12 +15,12 @@
       "fact": "March 3 2026 primary page lists only 'Notice of Canvass'; no result file. check 3 pending (no folder on wayback-data)."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "fact": "Runoff page lists only official files: precinct-level 'OFFICAL RESULTS - 2026 CALHOUN COUNTY REPUBLICAN PRIMARY RUNOFF ELECTION DAY' (PCT 1 to PCT 11 columns, e.g. JOHN CORNYN PCT 1 10), CreationDate 6/4/2026 19:40 UTC, Last-Modified 6/4/2026 20:11 GMT; no election-night file listed. Precinct numbers after election night (low certainty: night postings could have been removed)."
     }
   },
-  "rationale": "LATER in 2024_general and 2026_runoff (check 2), primary UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; runoff rests on absence of night files, so low.",
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'LATER', '2026_primary': 'UNDETERMINED', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in 2024_general and 2026_runoff (check 2), primary UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; runoff rests on absence of night files, so low.)",
   "sources": [
     {
       "url": "https://www.calhouncotx.org/november-5-2024-election-information/",
@@ -59,7 +59,9 @@
   "comparison_notes": {
     "2024_general": "same (LATER, check 2): night county summary 10:20 PM uploaded 04:56 GMT; precinct summary uploaded 11/6 19:35 GMT.",
     "2026_primary": "same (UNDETERMINED): only Notice of Canvass.",
-    "2026_runoff": "different: I said LATER (only official precinct files dated 6/4/2026), research UNDETERMINED (no night file survives). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts."
+    "2026_runoff": "different: I said LATER (only official precinct files dated 6/4/2026), research UNDETERMINED (no night file survives). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only official files dated 6/4/2026 survive; no election-night file, so UNDETERMINED (check 3 pending)); check 3 pending.",
+    "rule_43": "rule 43 re-applied"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }

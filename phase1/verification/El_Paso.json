@@ -59,7 +59,9 @@
   "comparison_notes": {
     "2024_general": "same (LIVE, check 1).",
     "2026_primary": "same (LIVE, check 1). Research counts 7:47 PM (225 precincts) as a precinct update, but in v368441 those are early votes only. Election Day precinct votes start at 9:15 PM, so the result is unchanged.",
-    "2026_runoff": "same (LATER, check 1): night values protected, precinct votes 5/27 11:19 AM MDT."
+    "2026_runoff": "same (LATER, check 1): night values protected, precinct votes 5/27 11:19 AM MDT.",
+    "rule_43": "rule 43 re-applied: no per-election result changed"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }

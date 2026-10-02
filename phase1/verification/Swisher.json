@@ -1,7 +1,7 @@
 {
   "county": "Swisher",
   "reason_selected": "low confidence",
-  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_tag": "NO_SITE_OR_SOS_ONLY",
   "verifier_confidence": "low",
   "elections": {
     "2024_general": {
@@ -10,17 +10,17 @@
       "fact": "No Clarity site (elections.json 404). Elections page entry 'November 5, 2024 - General Election (5 de noviembre de 2024 - Elecciones General)' links to https://results.texas-election.com/races (SOS results site); no county file for this election."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "fact": "Only 'March 3 2026 Joint Primary Election Official Results' (Summary Results Report, county totals by vote type), CreationDate 3/19/2026, Last-Modified 3/20/2026. No election-night file, no precinct numbers."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "fact": "Only 'Official Results Post 05.26.2026' (Summary Results Report, OFFICIAL RESULTS, county totals), CreationDate 6/8/2026, Last-Modified 6/8/2026. No precinct numbers."
     }
   },
-  "rationale": "LATER in both 2026 elections (official county totals only), NONE in 2024 (SOS link only). Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; no night evidence, so low.",
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'NONE', '2026_primary': 'UNDETERMINED', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives NO_SITE_OR_SOS_ONLY, confidence low. (Original blind rationale: LATER in both 2026 elections (official county totals only), NONE in 2024 (SOS link only). Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; no night evidence, so low.)",
   "sources": [
     {
       "url": "https://www.co.swisher.tx.us/page/swisher.Elections",
@@ -40,11 +40,13 @@
   ],
   "written_blind_at_utc": "2026-10-02T16:20:21Z",
   "research_tag": "NO_SITE_OR_SOS_ONLY",
-  "agree": false,
+  "agree": true,
   "comparison_notes": {
     "2024_general": "same (NONE, check 2): the entry links to results.texas-election.com.",
-    "2026_primary": "different: research UNDETERMINED, I said LATER (official county summary only, Last-Modified 3/20/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts.",
-    "2026_runoff": "different: research UNDETERMINED, I said LATER. Research notes the official runoff file has per-precinct pages (footer 'Precinct Summary - 06/08/2026'). I read only page 1, so my 'no precinct numbers' is incomplete; either way the file is after election night. Tags differ: research NO_SITE_OR_SOS_ONLY low (one election), mine COUNTY_ONLY_PRECINCT_AT_CANVASS low."
+    "2026_primary": "different: research UNDETERMINED, I said LATER (official county summary only, Last-Modified 3/20/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only official county summary dated 3/19/2026); check 3 pending.",
+    "2026_runoff": "different: research UNDETERMINED, I said LATER. Research notes the official runoff file has per-precinct pages (footer 'Precinct Summary - 06/08/2026'). I read only page 1, so my 'no precinct numbers' is incomplete; either way the file is after election night. Tags differ: research NO_SITE_OR_SOS_ONLY low (one election), mine COUNTY_ONLY_PRECINCT_AT_CANVASS low. Rule 43 re-applied: LATER changed to UNDETERMINED (only official results dated 6/8/2026); check 3 pending.",
+    "rule_43": "rule 43 re-applied"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }

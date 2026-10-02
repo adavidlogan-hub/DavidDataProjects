@@ -1,7 +1,7 @@
 {
   "county": "Hopkins",
   "reason_selected": "tag PRECINCT_END_OF_NIGHT",
-  "verifier_tag": "UNKNOWN",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
   "verifier_confidence": "low",
   "elections": {
     "2024_general": {
@@ -10,8 +10,8 @@
       "fact": "No Clarity site (elections.json 404). No November 5 2024 result file on the Elections page or the Archived Elections page. check 3 pending (no folder on wayback-data)."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "fact": "Only county-total reports listed: 'Unofficial March 3, 2026 Election Results' (FINAL-Cumulative Results-3-6-2026 04-08-24 PM.pdf, Cumulative Results Report, Run Time 4:08 PM Run Date 03/06/2026, Last-Modified 3/6/2026 21:42 GMT) and Official Cumulative. No primary precinct report online."
     },
     "2026_runoff": {
@@ -20,7 +20,7 @@
       "fact": "'Precinct by Precinct Unofficial Results' (Precinct Results-5-26-2026 Unofficial.pdf): Precinct Results Report, Unofficial Results, Run Time 7:56 PM Run Date 05/26/2026, includes Election Day Voting by precinct (precinct 1, Vikki Goodwin Election Day 8); CreationDate 5/27/2026 00:56:38 UTC, Last-Modified 5/27/2026 01:12:05 GMT (8:12 PM CDT). Matching 'Cumulative Unofficial Results' file name says 'Final Unofficial', run 7:56 PM, uploaded 8:11 PM. One election-night precinct release with the final unofficial count."
     }
   },
-  "rationale": "2026_runoff END (check 2, printed 7:56 PM and uploaded 8:12 PM), 2026_primary LATER (only county totals, no precinct report), 2024 UNDETERMINED. Two determined elections disagree, so UNKNOWN.",
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'UNDETERMINED', '2026_primary': 'UNDETERMINED', '2026_runoff': 'END'}. Fixed rule gives PRECINCT_END_OF_NIGHT, confidence low. (Original blind rationale: 2026_runoff END (check 2, printed 7:56 PM and uploaded 8:12 PM), 2026_primary LATER (only county totals, no precinct report), 2024 UNDETERMINED. Two determined elections disagree, so UNKNOWN.)",
   "sources": [
     {
       "url": "https://www.hopkinscountytx.org/page/hopkins.Elections",
@@ -50,11 +50,13 @@
   ],
   "written_blind_at_utc": "2026-10-02T16:20:21Z",
   "research_tag": "PRECINCT_END_OF_NIGHT",
-  "agree": false,
+  "agree": true,
   "comparison_notes": {
     "2024_general": "same (UNDETERMINED).",
-    "2026_primary": "different: research UNDETERMINED, I said LATER (only county totals: unofficial cumulative run 3/6/2026 and official cumulative; no precinct report). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. This alone moves my tag to UNKNOWN (END plus LATER), while research has PRECINCT_END_OF_NIGHT low from the runoff alone.",
-    "2026_runoff": "same (END, check 2): precinct report Run Time 7:56 PM, Last-Modified 5/27 01:12:05 GMT."
+    "2026_primary": "different: research UNDETERMINED, I said LATER (only county totals: unofficial cumulative run 3/6/2026 and official cumulative; no precinct report). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. This alone moves my tag to UNKNOWN (END plus LATER), while research has PRECINCT_END_OF_NIGHT low from the runoff alone. Rule 43 re-applied: LATER changed to UNDETERMINED (only county totals run 3/6/2026 and official cumulative; no election-night file); check 3 pending.",
+    "2026_runoff": "same (END, check 2): precinct report Run Time 7:56 PM, Last-Modified 5/27 01:12:05 GMT.",
+    "rule_43": "rule 43 re-applied"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }

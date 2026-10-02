@@ -10,17 +10,17 @@
       "fact": "No Clarity site (elections.json 404). 'Unofficial Election Results' (Summary Results Report, county totals, CreationDate 11/6/2024 04:23 UTC = 10:23 PM CST) has Last-Modified 11/6/2024 14:52 GMT (8:52 AM CST next day). 'Official Election Results' is also a county summary (CreationDate 11/15/2024). No precinct numbers on the night."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "fact": "Only official files: '3-3-26 OFFICIAL RESULTS By Precinct' (Precinct Summary Results Report, CreationDate 3/9/2026, Last-Modified 3/16/2026) and official summary. No election-night file listed."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "fact": "Only official files: '5-26-26 Official Results by precinct' (CreationDate 6/3/2026, Last-Modified 6/17/2026). No election-night file listed."
     }
   },
-  "rationale": "LATER in all three (check 2; precinct numbers only in official reports). COUNTY_ONLY_PRECINCT_AT_CANVASS; no election-night upload evidence, so low.",
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'LATER', '2026_primary': 'UNDETERMINED', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in all three (check 2; precinct numbers only in official reports). COUNTY_ONLY_PRECINCT_AT_CANVASS; no election-night upload evidence, so low.)",
   "sources": [
     {
       "url": "https://www.co.navarro.tx.us/page/Elections.2026",
@@ -53,8 +53,10 @@
   "agree": true,
   "comparison_notes": {
     "2024_general": "same (LATER, check 2): unofficial county summary, Last-Modified 11/6 14:52 GMT. Research quotes footer '11/05/2024 22:22 PM'; I read CreationDate 04:23 UTC (10:23 PM CST), consistent.",
-    "2026_primary": "different: research UNDETERMINED, I said LATER (only official precinct report, CreationDate 3/9/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts.",
-    "2026_runoff": "different: research UNDETERMINED, I said LATER (only official precinct report, CreationDate 6/3/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts."
+    "2026_primary": "different: research UNDETERMINED, I said LATER (only official precinct report, CreationDate 3/9/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only official files (CreationDate 3/9/2026)); check 3 pending.",
+    "2026_runoff": "different: research UNDETERMINED, I said LATER (only official precinct report, CreationDate 6/3/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only official files (CreationDate 6/3/2026)); check 3 pending.",
+    "rule_43": "rule 43 re-applied"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z"
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
 }
