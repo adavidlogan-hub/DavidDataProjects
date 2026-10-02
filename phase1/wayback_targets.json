@@ -1,0 +1,20 @@
+[
+  {"county": "Harris", "url_prefixes": ["harrisvotes.com"], "match_type": "domain",
+   "original_regex": "(?i).*(result|elect|precinct|canvass|cumulative|data/).*"},
+  {"county": "Dallas", "url_prefixes": ["dallascountyvotes.org"], "match_type": "domain",
+   "original_regex": "(?i).*(result|enr|precinct|canvass|cumulative).*"},
+  {"county": "Bexar", "url_prefixes": ["elections.bexar.gov"], "match_type": "domain",
+   "original_regex": "(?i).*(result|precinct|canvass|cumulative|enr).*"},
+  {"county": "Travis", "url_prefixes": ["votetravis.gov"], "match_type": "domain",
+   "original_regex": "(?i).*(result|precinct|canvass|cumulative|enr).*"},
+  {"county": "Midland", "url_prefixes": ["votemidlandtx.gov"], "match_type": "domain",
+   "original_regex": "(?i).*(result|precinct|canvass|cumulative).*"},
+  {"county": "Tarrant", "url_prefixes": ["tarrantcountytx.gov"], "match_type": "domain",
+   "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"},
+  {"county": "Hidalgo", "url_prefixes": ["hidalgocounty.us"], "match_type": "domain",
+   "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"},
+  {"county": "Ector", "url_prefixes": ["ectorcountytx.gov"], "match_type": "domain",
+   "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"},
+  {"county": "Wilbarger", "url_prefixes": ["co.wilbarger.tx.us"], "match_type": "domain",
+   "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"}
+]

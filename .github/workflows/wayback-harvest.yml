@@ -1,0 +1,48 @@
+name: wayback-harvest
+# Runs the Wayback harvest on a GitHub-hosted runner, where web.archive.org is
+# reachable, and pushes the raw snapshots to the wayback-data branch.
+on:
+  push:
+    branches: [claude/tx-precinct-pipeline]
+    paths: [phase1/wayback_targets.json, .github/workflows/wayback-harvest.yml]
+  workflow_dispatch:
+concurrency:
+  group: wayback-harvest   # one harvest at a time keeps the archive.org rate limit global
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Restore fetch cache
+        uses: actions/cache@v4
+        with:
+          path: var
+          key: fetch-cache-${{ github.run_id }}
+          restore-keys: fetch-cache-
+      - name: Harvest
+        run: python -m phase1.wayback_harvest --agent wayback-harvest --cap 60 | tee harvest_log.jsonl
+      - name: Push snapshots to wayback-data branch
+        run: |
+          git config user.name "wayback-harvest"
+          git config user.email "wayback-harvest@users.noreply.github.com"
+          mkdir -p /tmp/out && cp -r phase1/wayback_snapshots /tmp/out/ && cp harvest_log.jsonl /tmp/out/
+          cp var/logs/fetch_failures.jsonl /tmp/out/ 2>/dev/null || true
+          git fetch origin wayback-data || true
+          if git rev-parse --verify origin/wayback-data >/dev/null 2>&1; then
+            git checkout -B wayback-data origin/wayback-data
+          else
+            git checkout --orphan wayback-data && git rm -rf -q . && git clean -fdq -e var
+          fi
+          mkdir -p phase1 && cp -r /tmp/out/wayback_snapshots phase1/
+          mkdir -p harvest_logs && cp /tmp/out/harvest_log.jsonl harvest_logs/run_${{ github.run_id }}.jsonl
+          cp /tmp/out/fetch_failures.jsonl harvest_logs/failures_${{ github.run_id }}.jsonl 2>/dev/null || true
+          git add phase1 harvest_logs
+          git commit -q -m "Wayback harvest run ${{ github.run_id }}" || echo "nothing new"
+          git push origin wayback-data
