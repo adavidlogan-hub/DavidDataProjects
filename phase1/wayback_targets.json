@@ -134,5 +134,1789 @@
   ],
   "match_type": "domain",
   "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Anderson",
+  "url_prefixes": [
+   "co.anderson.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Andrews",
+  "url_prefixes": [
+   "co.andrews.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Angelina",
+  "url_prefixes": [
+   "angelinacounty.net"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Aransas",
+  "url_prefixes": [
+   "aransascountytx.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Archer",
+  "url_prefixes": [
+   "co.archer.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Armstrong",
+  "url_prefixes": [
+   "co.armstrong.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Atascosa",
+  "url_prefixes": [
+   "atascosacounty.texas.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Austin",
+  "url_prefixes": [
+   "austincounty.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Bailey",
+  "url_prefixes": [
+   "co.bailey.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Bandera",
+  "url_prefixes": [
+   "banderacounty.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Bastrop",
+  "url_prefixes": [
+   "bastropvotes.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Baylor",
+  "url_prefixes": [
+   "co.baylor.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Bee",
+  "url_prefixes": [
+   "co.bee.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Bell",
+  "url_prefixes": [
+   "bellcountytx.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Blanco",
+  "url_prefixes": [
+   "co.blanco.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Borden",
+  "url_prefixes": [
+   "co.borden.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Bosque",
+  "url_prefixes": [
+   "bosquecounty.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Bowie",
+  "url_prefixes": [
+   "co.bowie.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Brazoria",
+  "url_prefixes": [
+   "brazoriacountyclerktx.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Brazos",
+  "url_prefixes": [
+   "brazosvotes.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Briscoe",
+  "url_prefixes": [
+   "co.briscoe.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Brooks",
+  "url_prefixes": [
+   "co.brooks.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Brown",
+  "url_prefixes": [
+   "browncountytx.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Burleson",
+  "url_prefixes": [
+   "co.burleson.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Burnet",
+  "url_prefixes": [
+   "burnetcountytexas.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Caldwell",
+  "url_prefixes": [
+   "co.caldwell.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Calhoun",
+  "url_prefixes": [
+   "calhouncotx.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Callahan",
+  "url_prefixes": [
+   "co.callahan.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Cameron",
+  "url_prefixes": [
+   "cameroncountytx.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Camp",
+  "url_prefixes": [
+   "co.camp.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Carson",
+  "url_prefixes": [
+   "co.carson.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Cass",
+  "url_prefixes": [
+   "co.cass.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Castro",
+  "url_prefixes": [
+   "co.castro.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Chambers",
+  "url_prefixes": [
+   "co.chambers.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Cherokee",
+  "url_prefixes": [
+   "co.cherokee.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Clay",
+  "url_prefixes": [
+   "claycountytx.net"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Cochran",
+  "url_prefixes": [
+   "co.cochran.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Coke",
+  "url_prefixes": [
+   "co.coke.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Coleman",
+  "url_prefixes": [
+   "co.coleman.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Collin",
+  "url_prefixes": [
+   "collincountytx.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Collingsworth",
+  "url_prefixes": [
+   "co.collingsworth.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Colorado",
+  "url_prefixes": [
+   "co.colorado.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Concho",
+  "url_prefixes": [
+   "co.concho.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Cooke",
+  "url_prefixes": [
+   "co.cooke.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Coryell",
+  "url_prefixes": [
+   "coryellcountytax.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Cottle",
+  "url_prefixes": [
+   "co.cottle.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Crane",
+  "url_prefixes": [
+   "co.crane.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Crosby",
+  "url_prefixes": [
+   "co.crosby.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Culberson",
+  "url_prefixes": [
+   "co.culberson.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Dallam",
+  "url_prefixes": [
+   "dallam.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Dawson",
+  "url_prefixes": [
+   "co.dawson.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "DeWitt",
+  "url_prefixes": [
+   "co.dewitt.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Deaf Smith",
+  "url_prefixes": [
+   "co.deaf-smith.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Delta",
+  "url_prefixes": [
+   "deltacountytx.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Denton",
+  "url_prefixes": [
+   "dentoncounty.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Dickens",
+  "url_prefixes": [
+   "co.dickens.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Dimmit",
+  "url_prefixes": [
+   "dimmitcounty.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Donley",
+  "url_prefixes": [
+   "co.donley.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Duval",
+  "url_prefixes": [
+   "co.duval.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Eastland",
+  "url_prefixes": [
+   "eastlandcountytexas.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Edwards",
+  "url_prefixes": [
+   "co.edwards.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "El Paso",
+  "url_prefixes": [
+   "epcountyvotes.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Ellis",
+  "url_prefixes": [
+   "co.ellis.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Erath",
+  "url_prefixes": [
+   "co.erath.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Fannin",
+  "url_prefixes": [
+   "co.fannin.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Fayette",
+  "url_prefixes": [
+   "co.fayette.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Fisher",
+  "url_prefixes": [
+   "co.fisher.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Floyd",
+  "url_prefixes": [
+   "co.floyd.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Fort Bend",
+  "url_prefixes": [
+   "fortbendcountytx.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Franklin",
+  "url_prefixes": [
+   "co.franklin.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Freestone",
+  "url_prefixes": [
+   "co.freestone.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Frio",
+  "url_prefixes": [
+   "co.frio.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Gaines",
+  "url_prefixes": [
+   "co.gaines.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Galveston",
+  "url_prefixes": [
+   "galvestonvotes.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Garza",
+  "url_prefixes": [
+   "garzacounty.net"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Gillespie",
+  "url_prefixes": [
+   "gillespiecounty.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Glasscock",
+  "url_prefixes": [
+   "co.glasscock.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Goliad",
+  "url_prefixes": [
+   "co.goliad.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Gonzales",
+  "url_prefixes": [
+   "co.gonzales.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Gray",
+  "url_prefixes": [
+   "co.gray.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Grayson",
+  "url_prefixes": [
+   "co.grayson.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Gregg",
+  "url_prefixes": [
+   "co.gregg.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Grimes",
+  "url_prefixes": [
+   "grimescountytexas.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Guadalupe",
+  "url_prefixes": [
+   "guadalupetx.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hale",
+  "url_prefixes": [
+   "halecounty.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hall",
+  "url_prefixes": [
+   "co.hall.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hamilton",
+  "url_prefixes": [
+   "hamiltoncountytx.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hansford",
+  "url_prefixes": [
+   "co.hansford.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hardeman",
+  "url_prefixes": [
+   "co.hardeman.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hardin",
+  "url_prefixes": [
+   "co.hardin.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Harrison",
+  "url_prefixes": [
+   "harrisoncountytexas.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hartley",
+  "url_prefixes": [
+   "co.hartley.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Haskell",
+  "url_prefixes": [
+   "co.haskell.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hays",
+  "url_prefixes": [
+   "hayscountytx.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hemphill",
+  "url_prefixes": [
+   "co.hemphill.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Henderson",
+  "url_prefixes": [
+   "henderson-county.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hill",
+  "url_prefixes": [
+   "co.hill.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hockley",
+  "url_prefixes": [
+   "co.hockley.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hood",
+  "url_prefixes": [
+   "co.hood.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hopkins",
+  "url_prefixes": [
+   "hopkinscountytx.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Houston",
+  "url_prefixes": [
+   "co.houston.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Howard",
+  "url_prefixes": [
+   "co.howard.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hunt",
+  "url_prefixes": [
+   "huntcounty.net"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Hutchinson",
+  "url_prefixes": [
+   "co.hutchinson.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Irion",
+  "url_prefixes": [
+   "co.irion.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Jack",
+  "url_prefixes": [
+   "jackcounty.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Jackson",
+  "url_prefixes": [
+   "co.jackson.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Jasper",
+  "url_prefixes": [
+   "co.jasper.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Jeff Davis",
+  "url_prefixes": [
+   "jeffdaviscounty.texas.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Jefferson",
+  "url_prefixes": [
+   "jefferson-tx.connect4.clarityelections.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Jim Wells",
+  "url_prefixes": [
+   "co.jim-wells.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Johnson",
+  "url_prefixes": [
+   "johnsoncountytx.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Jones",
+  "url_prefixes": [
+   "co.jones.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Karnes",
+  "url_prefixes": [
+   "co.karnes.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Kaufman",
+  "url_prefixes": [
+   "kaufmancounty.net"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Kendall",
+  "url_prefixes": [
+   "kendallcountytx.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Kenedy",
+  "url_prefixes": [
+   "co.kenedy.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Kerr",
+  "url_prefixes": [
+   "co.kerr.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Kimble",
+  "url_prefixes": [
+   "co.kimble.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Kinney",
+  "url_prefixes": [
+   "co.kinney.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Kleberg",
+  "url_prefixes": [
+   "co.kleberg.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Knox",
+  "url_prefixes": [
+   "knoxcountytexas.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "La Salle",
+  "url_prefixes": [
+   "co.la-salle.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Lamar",
+  "url_prefixes": [
+   "co.lamar.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Lamb",
+  "url_prefixes": [
+   "co.lamb.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Lampasas",
+  "url_prefixes": [
+   "co.lampasas.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Lavaca",
+  "url_prefixes": [
+   "co.lavaca.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Lee",
+  "url_prefixes": [
+   "co.lee.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Leon",
+  "url_prefixes": [
+   "co.leon.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Liberty",
+  "url_prefixes": [
+   "co.liberty.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Limestone",
+  "url_prefixes": [
+   "co.limestone.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Lipscomb",
+  "url_prefixes": [
+   "co.lipscomb.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Live Oak",
+  "url_prefixes": [
+   "co.live-oak.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Llano",
+  "url_prefixes": [
+   "co.llano.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Lynn",
+  "url_prefixes": [
+   "co.lynn.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Madison",
+  "url_prefixes": [
+   "co.madison.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Marion",
+  "url_prefixes": [
+   "co.marion.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Martin",
+  "url_prefixes": [
+   "co.martin.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Mason",
+  "url_prefixes": [
+   "co.mason.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Matagorda",
+  "url_prefixes": [
+   "co.matagorda.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Maverick",
+  "url_prefixes": [
+   "co.maverick.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "McCulloch",
+  "url_prefixes": [
+   "co.mcculloch.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "McLennan",
+  "url_prefixes": [
+   "co.mclennan.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Medina",
+  "url_prefixes": [
+   "medinacountytexas.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Menard",
+  "url_prefixes": [
+   "co.menard.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Milam",
+  "url_prefixes": [
+   "milamcounty.net"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Mills",
+  "url_prefixes": [
+   "co.mills.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Mitchell",
+  "url_prefixes": [
+   "co.mitchell.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Montague",
+  "url_prefixes": [
+   "co.montague.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Montgomery",
+  "url_prefixes": [
+   "elections.mctx.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Moore",
+  "url_prefixes": [
+   "co.moore.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Morris",
+  "url_prefixes": [
+   "co.morris.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Nacogdoches",
+  "url_prefixes": [
+   "co.nacogdoches.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Navarro",
+  "url_prefixes": [
+   "co.navarro.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Newton",
+  "url_prefixes": [
+   "co.newton.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Nolan",
+  "url_prefixes": [
+   "co.nolan.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Nueces",
+  "url_prefixes": [
+   "co.nueces.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Ochiltree",
+  "url_prefixes": [
+   "co.ochiltree.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Oldham",
+  "url_prefixes": [
+   "co.oldham.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Orange",
+  "url_prefixes": [
+   "co.orange.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Palo Pinto",
+  "url_prefixes": [
+   "co.palo-pinto.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Panola",
+  "url_prefixes": [
+   "co.panola.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Parker",
+  "url_prefixes": [
+   "parkercountytx.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Parmer",
+  "url_prefixes": [
+   "parmercounty.texas.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Pecos",
+  "url_prefixes": [
+   "co.pecos.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Polk",
+  "url_prefixes": [
+   "co.polk.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Potter",
+  "url_prefixes": [
+   "co.potter.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Presidio",
+  "url_prefixes": [
+   "co.presidio.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Rains",
+  "url_prefixes": [
+   "co.rains.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Randall",
+  "url_prefixes": [
+   "randallcounty.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Real",
+  "url_prefixes": [
+   "co.real.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Red River",
+  "url_prefixes": [
+   "co.red-river.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Reeves",
+  "url_prefixes": [
+   "reevescounty.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Refugio",
+  "url_prefixes": [
+   "co.refugio.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Robertson",
+  "url_prefixes": [
+   "co.robertson.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Rockwall",
+  "url_prefixes": [
+   "rockwallcountytexas.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Runnels",
+  "url_prefixes": [
+   "co.runnels.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Rusk",
+  "url_prefixes": [
+   "ruskcountytx.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "San Augustine",
+  "url_prefixes": [
+   "co.san-augustine.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "San Jacinto",
+  "url_prefixes": [
+   "co.san-jacinto.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "San Patricio",
+  "url_prefixes": [
+   "co.san-patricio.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "San Saba",
+  "url_prefixes": [
+   "co.san-saba.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Scurry",
+  "url_prefixes": [
+   "co.scurry.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Shelby",
+  "url_prefixes": [
+   "co.shelby.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Sherman",
+  "url_prefixes": [
+   "co.sherman.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Somervell",
+  "url_prefixes": [
+   "somervell.co"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Starr",
+  "url_prefixes": [
+   "co.starr.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Stephens",
+  "url_prefixes": [
+   "co.stephens.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Sterling",
+  "url_prefixes": [
+   "co.sterling.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Stonewall",
+  "url_prefixes": [
+   "stonewallcounty.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Sutton",
+  "url_prefixes": [
+   "co.sutton.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Swisher",
+  "url_prefixes": [
+   "co.swisher.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Taylor",
+  "url_prefixes": [
+   "taylorcounty.texas.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Terrell",
+  "url_prefixes": [
+   "co.terrell.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Terry",
+  "url_prefixes": [
+   "co.terry.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Titus",
+  "url_prefixes": [
+   "co.titus.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Tom Green",
+  "url_prefixes": [
+   "co.tom-green.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Trinity",
+  "url_prefixes": [
+   "co.trinity.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Tyler",
+  "url_prefixes": [
+   "co.tyler.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Upshur",
+  "url_prefixes": [
+   "countyofupshur.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Upton",
+  "url_prefixes": [
+   "co.upton.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Uvalde",
+  "url_prefixes": [
+   "uvaldecounty.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Val Verde",
+  "url_prefixes": [
+   "valverdecounty.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Van Zandt",
+  "url_prefixes": [
+   "vanzandtcounty.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Victoria",
+  "url_prefixes": [
+   "vctxelections.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Walker",
+  "url_prefixes": [
+   "co.walker.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Waller",
+  "url_prefixes": [
+   "co.waller.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Ward",
+  "url_prefixes": [
+   "co.ward.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Washington",
+  "url_prefixes": [
+   "co.washington.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Webb",
+  "url_prefixes": [
+   "webbcountytx.gov"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Wharton",
+  "url_prefixes": [
+   "co.wharton.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Wheeler",
+  "url_prefixes": [
+   "co.wheeler.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Wichita",
+  "url_prefixes": [
+   "wichitacountytx.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Willacy",
+  "url_prefixes": [
+   "co.willacy.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Williamson",
+  "url_prefixes": [
+   "wilco.org"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Wilson",
+  "url_prefixes": [
+   "co.wilson.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Winkler",
+  "url_prefixes": [
+   "co.winkler.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Wise",
+  "url_prefixes": [
+   "co.wise.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Wood",
+  "url_prefixes": [
+   "elections.mywoodcounty.com"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Yoakum",
+  "url_prefixes": [
+   "co.yoakum.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Young",
+  "url_prefixes": [
+   "co.young.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Zapata",
+  "url_prefixes": [
+   "co.zapata.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
+ },
+ {
+  "county": "Zavala",
+  "url_prefixes": [
+   "co.zavala.tx.us"
+  ],
+  "match_type": "domain",
+  "original_regex": "(?i).*(election|result|precinct|canvass|cumulative).*"
  }
 ]

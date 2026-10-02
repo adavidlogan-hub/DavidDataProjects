@@ -100,8 +100,13 @@ def main(argv=None) -> int:
     ap.add_argument("--agent", default="wayback-harvest")
     ap.add_argument("--only", default="")
     ap.add_argument("--cap", type=int, default=60, help="max replays per county per window")
+    ap.add_argument("--batch", default="", help="i/n: harvest every n-th target starting at i (0-based)")
     a = ap.parse_args(argv)
     targets = json.loads(TARGETS.read_text())
+    if a.batch:
+        i, n = (int(x) for x in a.batch.split("/"))
+        assert 0 <= i < n, f"bad --batch {a.batch}"
+        targets = targets[i::n]
     only = {c.strip() for c in a.only.split(",") if c.strip()}
     client = FetchClient(agent=a.agent)
     t0 = time.time()

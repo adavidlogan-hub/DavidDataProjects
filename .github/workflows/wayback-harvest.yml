@@ -17,6 +17,11 @@ jobs:
   harvest:
     runs-on: ubuntu-latest
     timeout-minutes: 340
+    strategy:
+      max-parallel: 1        # batches run one after another so the archive.org limit stays global
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,21 +31,21 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: var
-          key: fetch-cache-${{ github.run_id }}
+          key: fetch-cache-${{ github.run_id }}-${{ matrix.batch }}
           restore-keys: fetch-cache-
       - name: Harvest
-        run: python -m phase1.wayback_harvest --agent wayback-harvest --cap 60 | tee harvest_log.jsonl
+        run: python -m phase1.wayback_harvest --agent wayback-harvest --cap 30 --batch ${{ matrix.batch }}/6 | tee harvest_log.jsonl
       - name: Save fetch cache (always)
         if: always()
         uses: actions/cache/save@v4
         with:
           path: var
-          key: fetch-cache-${{ github.run_id }}
+          key: fetch-cache-${{ github.run_id }}-${{ matrix.batch }}
       - name: Upload snapshots as artifact (always)
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: wayback-snapshots-${{ github.run_id }}
+          name: wayback-snapshots-${{ github.run_id }}-${{ matrix.batch }}
           path: |
             phase1/wayback_snapshots
             harvest_log.jsonl
@@ -61,13 +66,13 @@ jobs:
           fi
           mkdir -p "$WD/phase1" "$WD/harvest_logs"
           cp -r phase1/wayback_snapshots "$WD/phase1/"
-          cp harvest_log.jsonl "$WD/harvest_logs/run_${{ github.run_id }}.jsonl"
-          cp var/logs/fetch_failures.jsonl "$WD/harvest_logs/failures_${{ github.run_id }}.jsonl" 2>/dev/null || true
+          cp harvest_log.jsonl "$WD/harvest_logs/run_${{ github.run_id }}_${{ matrix.batch }}.jsonl"
+          cp var/logs/fetch_failures.jsonl "$WD/harvest_logs/failures_${{ github.run_id }}_${{ matrix.batch }}.jsonl" 2>/dev/null || true
           cd "$WD"
           git config user.name "wayback-harvest"
           git config user.email "wayback-harvest@users.noreply.github.com"
           git add phase1 harvest_logs
-          git commit -q -m "Wayback harvest run ${{ github.run_id }}" || echo "nothing new"
+          git commit -q -m "Wayback harvest run ${{ github.run_id }} batch ${{ matrix.batch }}" || echo "nothing new"
           for delay in 0 2 4 8 16; do
             sleep $delay
             if git push -q origin wayback-data; then echo "pushed"; exit 0; fi

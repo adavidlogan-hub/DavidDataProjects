@@ -21,6 +21,17 @@ Election night = 7:00 PM election day to 3:00 AM the next morning, county local 
 2. **County-posted reports.** On the county's results page, list the reports for each election: title (for example "Unofficial Precinct Results", "Cumulative", "Canvass", "Official"), printed run time or date, and the server upload time (the Last-Modified header, which the fetch module records; view it with `python3 -c "import sys; sys.path.insert(0,'.'); from txprecinct.config import load_config; from txprecinct.store import Store; from txprecinct.fetch import normalize_url; r=Store(load_config().state_dir).latest_ok(normalize_url(sys.argv[1])); print(dict(r))" "<url>"`). A server that stamps every file with the request time gives no upload evidence; say so.
 3. **Wayback Machine.** `git fetch origin wayback-data`, then read `git show origin/wayback-data:phase1/wayback_snapshots/<County_with_underscores>/index.json`. It lists archived election-night captures of the county's election pages with their local times and saved files. Open saved files with `git show origin/wayback-data:phase1/wayback_snapshots/<County>/<file>` and look for per-precinct candidate numbers. If the county folder is not there yet, write "check 3 pending" for that election.
 
+## Common situations (learned in the pilot)
+- Clarity's elections.json can be empty or incomplete (Hidalgo stops at 2020; Bexar's is empty). If the script says "not listed", look on the county's own results or election pages for links to results.enr.clarityelections.com/TX/<County>/<EID>/ and pass the IDs: `--eid 2024_general=<id> --eid 2026_primary=<id> --eid 2026_runoff=<id>`. Never probe ranges of IDs.
+- For multi-word counties, use the Clarity slug exactly as it appears in the county's own link to Clarity; the script takes `--county` as that slug (spaces become underscores).
+- On some Clarity updates the precinct values are marked "protected" on election night (Travis and Tarrant runoffs). The script counts these as zero precincts with votes; that election is then LATER if precinct numbers appear after election night.
+- Seed website URLs are sometimes dead (403 over http, 404) or redirect. Try https and the county's current domain; one web search to locate the site is fine.
+- Some county sites return an empty HTTP 202 or 403 to every request (bot protection). Do not try to get around it. Use the vendor site the county links to if you can find it; otherwise that check fails for that county.
+- If robots.txt disallows a host, the fetch module refuses; accept it and note it.
+- PDF creation metadata (CreationDate) counts as a printed run time, not as an upload time.
+- Budget about 3 minutes and 8 fetches of effort per county beyond check 1. UNDETERMINED is a normal outcome; check 3 will be run later for undetermined elections.
+- If check 3 data is not yet on the wayback-data branch, set check "none" and result UNDETERMINED for elections not settled by checks 1 or 2, and add "check 3 pending" in notes.
+
 ## Result per election (pick exactly one)
 - `LIVE`: precinct numbers appear in two or more updates during election night.
 - `END`: precinct numbers that include election-day votes appear on election night, once, with the final unofficial count.
