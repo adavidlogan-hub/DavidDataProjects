@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The 'Elections Information' page lists for the 2026 primary two SOS 'Election Unofficial Results Report' PDFs (county totals; REP CreationDate Mar 4 06:49 UTC = 12:49 AM CST, Last-Modified Wed, 04 Mar 2026 15:58:54 GMT = 9:58 AM CST Mar 4) and two Excel-made 'Unofficial Election Results by Precinct' PDFs (REP: columns PCT 1 to PCT 7 with election-day votes, CreationDate and Last-Modified Wed, 11 Mar 2026 16:5x GMT). No results are listed for the 2026 runoff or the 2024 general (older results listed: 2024 March primary, 2020 and 2016 generals). Check 3 pending for 2024 general and 2026 runoff: origin/wayback-data not present.",
-  "tag_rationale": "Only the 2026 primary is determined (LATER by check 2: county totals posted the next morning, precinct breakdown posted Mar 11), so the single determined result gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "notes": "No Clarity site (elections.json 404). The 'Elections Information' page lists for the 2026 primary two SOS 'Election Unofficial Results Report' PDFs (county totals; REP CreationDate Mar 4 06:49 UTC = 12:49 AM CST, Last-Modified Wed, 04 Mar 2026 15:58:54 GMT = 9:58 AM CST Mar 4) and two Excel-made 'Unofficial Election Results by Precinct' PDFs (REP: columns PCT 1 to PCT 7 with election-day votes, CreationDate and Last-Modified Wed, 11 Mar 2026 16:5x GMT). No results are listed for the 2026 runoff or the 2024 general (older results listed: 2024 March primary, 2020 and 2016 generals). Check 3 pending for 2024 general and 2026 runoff: origin/wayback-data not present. Rule 43 applied 2026-10-02 (normalize-2): 2026_primary LATER kept, county_totals_first_seen 2026-03-04 00:49 CT.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff UNDETERMINED. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
@@ -30,11 +30,11 @@
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-03-04 00:49 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.presidio.tx.us/upload/page/4732/2026/2026 REPUBLICAN PRIMARY ELECTION.pdf",
-      "fact": "'Unofficial Election Results by Precinct 2026 Republican Party' ('ELECTION DAY REPUBLICAN PRIMARY ELECTION MARCH 3, 2026 ... PCT 1 PCT 2 ... PCT 7') Last-Modified Wed, 11 Mar 2026 16:51:54 GMT; the SOS county-total 'Election Unofficial Results Report' Last-Modified Wed, 04 Mar 2026 15:58:54 GMT. Precinct numbers came after election night."
+      "fact": "'Unofficial Election Results by Precinct 2026 Republican Party' ('ELECTION DAY REPUBLICAN PRIMARY ELECTION MARCH 3, 2026 ... PCT 1 PCT 2 ... PCT 7') Last-Modified Wed, 11 Mar 2026 16:51:54 GMT; the SOS county-total 'Election Unofficial Results Report' Last-Modified Wed, 04 Mar 2026 15:58:54 GMT. Precinct numbers came after election night. Rule 43: election-night county-totals file is ELECTION-UNOFFICIAL-RESULT-REPORT_52712_1772606992256.pdf (SOS Election Unofficial Results Report, county totals), PDF CreationDate Wed Mar 4 06:49:52 2026 UTC (12:49 AM CST Mar 4, before 3 AM)."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",

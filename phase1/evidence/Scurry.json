@@ -1,6 +1,6 @@
 {
   "county": "Scurry",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL (default.aspx?Scurry_County/Elections) loads over https; results are on page/elections.information (current) and page/elections.previous.elections (archive). No Clarity site (elections.json 404). Server Last-Modified values differ per file, so upload times are usable. Both 2026 runoff result files are scans made June 11, 2026; the precinct report's printed time is 06/02/2026 2:10 PM. No results for the 2024 general or 2026 primary are posted. Check 3 pending (wayback-data branch not found on origin).",
-  "tag_rationale": "Only the 2026 runoff is determined (LATER by check 2: the only precinct report was printed June 2 and posted in June), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "notes": "Seed URL (default.aspx?Scurry_County/Elections) loads over https; results are on page/elections.information (current) and page/elections.previous.elections (archive). No Clarity site (elections.json 404). Server Last-Modified values differ per file, so upload times are usable. Both 2026 runoff result files are scans made June 11, 2026; the precinct report's printed time is 06/02/2026 2:10 PM. No results for the 2024 general or 2026 primary are posted. Check 3 pending (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
@@ -37,13 +37,13 @@
       "fact": "No 2026 primary results on the county election pages. Check 3 pending."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.scurry.tx.us/upload/page/0163/2Unofficial Summary Results by PCT 5262026.pdf",
-      "fact": "'Precinct Report with Group Details' (2Unofficial Summary Results by PCT 5262026.pdf) = scanned Electionware 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Scurry County PRECINCT 5 ...', footer 'Precinct Summary - 06/02/2026 2:10 PM'; PDF CreationDate Thu Jun 11 14:17:28 2026 UTC; Last-Modified Mon, 24 Aug 2026 13:06:12 GMT. 'Summary Report with Group Details' (county totals) CreationDate Jun 11 2026, Last-Modified Thu, 11 Jun 2026 13:15:20 GMT. The only precinct numbers were printed June 2, after election night."
+      "fact": "Rule 43: no election-night file survives. Previous: 'Precinct Report with Group Details' (2Unofficial Summary Results by PCT 5262026.pdf) = scanned Electionware 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Scurry County PRECINCT 5 ...', footer 'Precinct Summary - 06/02/2026 2:10 PM'; PDF CreationDate Thu Jun 11 14:17:28 2026 UTC; Last-Modified Mon, 24 Aug 2026 13:06:12 GMT. 'Summary Report with Group Details' (county totals) CreationDate Jun 11 2026, Last-Modified Thu, 11 Jun 2026 13:15:20 GMT. The only precinct numbers were printed June 2, after election night."
     }
   },
   "sources": [

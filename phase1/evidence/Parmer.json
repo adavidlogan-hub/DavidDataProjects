@@ -1,6 +1,6 @@
 {
   "county": "Parmer",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,37 +13,37 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The county Elections page has an 'ELECTION NIGHT RESULTS' heading whose only link is 'Election Night Results' -> https://results.texas-election.com/landing-page (the SOS results site), followed by a results list with one official file per election: 'Nov 5, 2024 General Election' (Official Results, precinct-by-precinct 'Pct.101' etc., created Jan 27 2025, Last-Modified Wed, 29 Jan 2025 16:27:00 GMT), 'March 3rd 2026 Primary Election' (Summary Results Report OFFICIAL RESULTS, county totals, created and Last-Modified Thu, 19 Mar 2026 19:27:22 GMT), 'May 26th 2026 Primary Runoff Election' (OFFICIAL RESULTS with precinct '101' page, created Jun 15 2026, Last-Modified Mon, 15 Jun 2026 21:36:53 GMT). So on election night the county points voters to the SOS site for results, and its own precinct numbers (where posted) come weeks later. The county does post its own official results, so NONE does not fit; LATER is used. It cannot be fully excluded that an election-night file was posted and later replaced, hence confidence low. The HTML page's Last-Modified (Thu, 01 Oct 2026 21:03:45 GMT, cached by another agent) is not used.",
-  "tag_rationale": "All three elections are LATER by check 2 (election-night results only via the SOS link; county precinct numbers posted weeks later or not at all), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "notes": "No Clarity site (elections.json 404). The county Elections page has an 'ELECTION NIGHT RESULTS' heading whose only link is 'Election Night Results' -> https://results.texas-election.com/landing-page (the SOS results site), followed by a results list with one official file per election: 'Nov 5, 2024 General Election' (Official Results, precinct-by-precinct 'Pct.101' etc., created Jan 27 2025, Last-Modified Wed, 29 Jan 2025 16:27:00 GMT), 'March 3rd 2026 Primary Election' (Summary Results Report OFFICIAL RESULTS, county totals, created and Last-Modified Thu, 19 Mar 2026 19:27:22 GMT), 'May 26th 2026 Primary Runoff Election' (OFFICIAL RESULTS with precinct '101' page, created Jun 15 2026, Last-Modified Mon, 15 Jun 2026 21:36:53 GMT). So on election night the county points voters to the SOS site for results, and its own precinct numbers (where posted) come weeks later. The county does post its own official results, so NONE does not fit; LATER is used. It cannot be fully excluded that an election-night file was posted and later replaced, hence confidence low. The HTML page's Last-Modified (Thu, 01 Oct 2026 21:03:45 GMT, cached by another agent) is not used. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED; 2026_primary LATER to UNDETERMINED; 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://parmercounty.texas.gov/wp-content/uploads/2025/01/11524-General-Election-Official-Results.pdf",
-      "fact": "Only file: 'Summary Results Report OFFICIAL RESULTS TX Parmer County 241105 General 6110 ... Pct.X Pct.' with precinct pages ('Pct.101'); CreationDate Jan 27 2025; Last-Modified Wed, 29 Jan 2025 16:27:00 GMT. Election night results linked to the SOS site."
+      "fact": "Rule 43: no election-night file survives. Previous: Only file: 'Summary Results Report OFFICIAL RESULTS TX Parmer County 241105 General 6110 ... Pct.X Pct.' with precinct pages ('Pct.101'); CreationDate Jan 27 2025; Last-Modified Wed, 29 Jan 2025 16:27:00 GMT. Election night results linked to the SOS site."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://parmercounty.texas.gov/wp-content/uploads/2026/03/Official-Results-Primary-2026-2-1.pdf",
-      "fact": "Only file: 'Summary Results Report Primary 2026 OFFICIAL RESULTS TX PARMER 260303 Primary 6110', county totals; Last-Modified Thu, 19 Mar 2026 19:27:22 GMT. Precinct numbers never published online by the county; election night results linked to the SOS site."
+      "fact": "Rule 43: no election-night file survives. Previous: Only file: 'Summary Results Report Primary 2026 OFFICIAL RESULTS TX PARMER 260303 Primary 6110', county totals; Last-Modified Thu, 19 Mar 2026 19:27:22 GMT. Precinct numbers never published online by the county; election night results linked to the SOS site."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://parmercounty.texas.gov/wp-content/uploads/2026/06/Officail-Results-5-26-26.pdf",
-      "fact": "Only file: 'Summary Results Report OFFICIAL RESULTS TX Parmer 260526 Primary Runoff 6110' with a precinct '101' page; CreationDate Jun 15 2026; Last-Modified Mon, 15 Jun 2026 21:36:53 GMT. Election night results linked to the SOS site."
+      "fact": "Rule 43: no election-night file survives. Previous: Only file: 'Summary Results Report OFFICIAL RESULTS TX Parmer 260526 Primary Runoff 6110' with a precinct '101' page; CreationDate Jun 15 2026; Last-Modified Mon, 15 Jun 2026 21:36:53 GMT. Election night results linked to the SOS site."
     }
   },
   "sources": [

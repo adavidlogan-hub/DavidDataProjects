@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL loads; Elections pages per year (lee.elections2026, lee.Elections2024). Some files are served from newtools.cira.state.tx.us (the CIRA host behind the county site). No Clarity site (elections.json 404). Reports are scanned Electionware printouts; the runoff page was read visually (PDF CreationDate 00:48 UTC differs from printed 8:28 PM; scanner clock). Last-Modified differs per file (meaningful). The county links SOS results (results.texas-election.com). 2026 primary: no results report listed; check 3 pending.",
-  "tag_rationale": "2024 general and 2026 runoff are LATER by check 2, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; 2024 has no election-night printed time or upload, so confidence is low.",
+  "notes": "Seed URL loads; Elections pages per year (lee.elections2026, lee.Elections2024). Some files are served from newtools.cira.state.tx.us (the CIRA host behind the county site). No Clarity site (elections.json 404). Reports are scanned Electionware printouts; the runoff page was read visually (PDF CreationDate 00:48 UTC differs from printed 8:28 PM; scanner clock). Last-Modified differs per file (meaningful). The county links SOS results (results.texas-election.com). 2026 primary: no results report listed; check 3 pending. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.lee.tx.us/upload/page/11450/updated%20pct%20by%20pct%20110524.pdf",
-      "fact": "2024 Election Information page lists for the November 5, 2024 election only 'precinct summary-unofficial results' (updated pct by pct 110524.pdf, scanned RICOH, 75 pages, CreationDate Mon Nov 25 15:18:15 2024 UTC, Last-Modified Mon, 25 Nov 2024 16:19:24 GMT) and 'election reconciliation-unofficial totals'. Precinct numbers appear 25 Nov 2024; no election-night results file is listed for this election."
+      "fact": "Rule 43: no election-night file survives. Previous: 2024 Election Information page lists for the November 5, 2024 election only 'precinct summary-unofficial results' (updated pct by pct 110524.pdf, scanned RICOH, 75 pages, CreationDate Mon Nov 25 15:18:15 2024 UTC, Last-Modified Mon, 25 Nov 2024 16:19:24 GMT) and 'election reconciliation-unofficial totals'. Precinct numbers appear 25 Nov 2024; no election-night results file is listed for this election."
     },
     "2026_primary": {
       "result": "UNDETERMINED",

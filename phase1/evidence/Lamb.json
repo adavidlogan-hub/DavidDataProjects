@@ -1,6 +1,6 @@
 {
   "county": "Lamb",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed https://www.co.lamb.tx.us/ loads; the Elections & Voting page lists only the 2026 primary runoff results files (no archive of 2024 or the March 2026 primary). No Clarity site (elections.json 404). The runoff 'Unofficial Results' PDF is a scanned image with no text, so whether it is a precinct or summary report cannot be read; either way it was scanned and uploaded on May 27, after election night, so no precinct numbers were posted on election night as far as the current listing shows. 2024 general and 2026 primary: check 3 pending.",
-  "tag_rationale": "Only the 2026 runoff is determined (LATER by check 2), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "notes": "Seed https://www.co.lamb.tx.us/ loads; the Elections & Voting page lists only the 2026 primary runoff results files (no archive of 2024 or the March 2026 primary). No Clarity site (elections.json 404). The runoff 'Unofficial Results' PDF is a scanned image with no text, so whether it is a precinct or summary report cannot be read; either way it was scanned and uploaded on May 27, after election night, so no precinct numbers were posted on election night as far as the current listing shows. 2024 general and 2026 primary: check 3 pending. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
@@ -37,13 +37,13 @@
       "fact": "check 3 pending; no 2026 primary results listed on the current Elections page"
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.lamb.tx.us/upload/page/0112/docs/Primary%20Runoff%20Results%205.26.26.pdf",
-      "fact": "Elections page lists 'Primary Runoff Election Unofficial Results 5.26.26' (scanned PDF, Creator Canon iR-ADV C3530, CreationDate Wed May 27 18:53:38 2026 UTC = 1:53 PM CDT May 27; Last-Modified Wed, 27 May 2026 18:56:34 GMT), then reconciliation, 'Official Results' and hand-count audit. The only unofficial results file was created and uploaded the afternoon after election night; nothing listed was posted on election night."
+      "fact": "Rule 43: no election-night file survives. Previous: Elections page lists 'Primary Runoff Election Unofficial Results 5.26.26' (scanned PDF, Creator Canon iR-ADV C3530, CreationDate Wed May 27 18:53:38 2026 UTC = 1:53 PM CDT May 27; Last-Modified Wed, 27 May 2026 18:56:34 GMT), then reconciliation, 'Official Results' and hand-count audit. The only unofficial results file was created and uploaded the afternoon after election night; nothing listed was posted on election night."
     }
   },
   "sources": [

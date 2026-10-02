@@ -1,7 +1,7 @@
 {
   "county": "Rains",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.rains.tx.us/page/rains.Elections",
@@ -13,28 +13,28 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The Elections Department page lists unofficial and official files per election (some on newtools.cira.state.tx.us, the same CMS file host). 2024 general: 'UNOFFICIAL RESULTS 11-5-24 GENERAL ELECTION-RAINS CO' is a scanned Cumulative Results Report (county totals, 'Polling Places Reporting 10 of 11', run time read as about 9:13 PM 11/5/2024), scan created 9:38 PM CST, Last-Modified Wed, 06 Nov 2024 17:00:25 GMT (11:00 AM CST Nov 6); then 'Rains County Official Results November 5 2024' (not opened). 2026 primary: 'UNOFFICIAL 2026 PRIMARY ELECTION RESULTS' is a scanned cumulative report (county totals, 37 pages), Last-Modified Wed, 04 Mar 2026 14:13:35 GMT (8:13 AM CST Mar 4); 'UNOFFICIAL PRECINCT BY PRECINCT RESULTS' is a Precinct Results Report 'Unofficial Results', Run Time 8:19 PM Run Date 03/04/2026 ('Polling Places Reporting 10 of 11'), Last-Modified Mon, 06 Apr 2026 13:45:08 GMT. 2026 runoff: 'UNOFFICIAL RESULTS PRIMARY RUN-OFF 5-26-26' is a scanned Cumulative Results Report (county totals), scan created 9:05 PM CDT, Last-Modified Wed, 27 May 2026 02:09:01 GMT (9:09 PM CDT May 26); no unofficial precinct report is listed for the runoff, only 'Official Cumulative Results-6-2-2026'. Confidence low: only the runoff has both printed and upload times on election night.",
-  "tag_rationale": "All three elections are LATER by check 2 (county-total cumulative reports; precinct numbers only the day after or later), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS.",
+  "notes": "No Clarity site (elections.json 404). The Elections Department page lists unofficial and official files per election (some on newtools.cira.state.tx.us, the same CMS file host). 2024 general: 'UNOFFICIAL RESULTS 11-5-24 GENERAL ELECTION-RAINS CO' is a scanned Cumulative Results Report (county totals, 'Polling Places Reporting 10 of 11', run time read as about 9:13 PM 11/5/2024), scan created 9:38 PM CST, Last-Modified Wed, 06 Nov 2024 17:00:25 GMT (11:00 AM CST Nov 6); then 'Rains County Official Results November 5 2024' (not opened). 2026 primary: 'UNOFFICIAL 2026 PRIMARY ELECTION RESULTS' is a scanned cumulative report (county totals, 37 pages), Last-Modified Wed, 04 Mar 2026 14:13:35 GMT (8:13 AM CST Mar 4); 'UNOFFICIAL PRECINCT BY PRECINCT RESULTS' is a Precinct Results Report 'Unofficial Results', Run Time 8:19 PM Run Date 03/04/2026 ('Polling Places Reporting 10 of 11'), Last-Modified Mon, 06 Apr 2026 13:45:08 GMT. 2026 runoff: 'UNOFFICIAL RESULTS PRIMARY RUN-OFF 5-26-26' is a scanned Cumulative Results Report (county totals), scan created 9:05 PM CDT, Last-Modified Wed, 27 May 2026 02:09:01 GMT (9:09 PM CDT May 26); no unofficial precinct report is listed for the runoff, only 'Official Cumulative Results-6-2-2026'. Confidence low: only the runoff has both printed and upload times on election night. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER kept, county_totals_first_seen 2024-11-05 21:38 CT; 2026_primary LATER to UNDETERMINED. 2026_primary: the county-totals file was scanned Mar 4 13:48 UTC (7:48 AM CST) and its OCR text shows no run time.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2024-11-05 21:38 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.rains.tx.us/upload/page/2858/November 5, 2024 Presidential Election/UNOFFICIAL RESULTS 11-5-24 GENERAL ELECTION-RAINS CO.pdf",
-      "fact": "'Cumulative Results Report RAINS COUNTY, TEXAS GENERAL ELECTION 11/5/2024 Unofficial Results', county totals; CreationDate Nov 6 2024 03:38 UTC; Last-Modified Wed, 06 Nov 2024 17:00:25 GMT. No unofficial precinct report listed; only official results later."
+      "fact": "'Cumulative Results Report RAINS COUNTY, TEXAS GENERAL ELECTION 11/5/2024 Unofficial Results', county totals; CreationDate Nov 6 2024 03:38 UTC; Last-Modified Wed, 06 Nov 2024 17:00:25 GMT. No unofficial precinct report listed; only official results later. Rule 43: election-night county-totals file is UNOFFICIAL RESULTS 11-5-24 GENERAL ELECTION-RAINS CO.pdf, scan CreationDate Wed Nov 6 03:38:58 2024 UTC (9:38 PM CST Nov 5); printed run time read as about 9:13 PM 11/5/2024."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.rains.tx.us/upload/page/2858/2026 PRIMARY/Unofficial Precinct by Precinct Results-3-4-2026 08-19-31 PM.pdf",
-      "fact": "County totals file Last-Modified Wed, 04 Mar 2026 14:13:35 GMT; 'Precinct Results Report Unofficial Results ... Run Time 8:19 PM Run Date 03/04/2026', Last-Modified Mon, 06 Apr 2026 13:45:08 GMT. Precinct numbers came after election night."
+      "fact": "Rule 43: no election-night file survives. Previous: County totals file Last-Modified Wed, 04 Mar 2026 14:13:35 GMT; 'Precinct Results Report Unofficial Results ... Run Time 8:19 PM Run Date 03/04/2026', Last-Modified Mon, 06 Apr 2026 13:45:08 GMT. Precinct numbers came after election night."
     },
     "2026_runoff": {
       "result": "LATER",

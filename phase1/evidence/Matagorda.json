@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL redirects to www.matagordatx.gov (files also served there). No Clarity site (elections.json 404). Reports are Microsoft Reporting Services text PDFs with printed Run Time. The county produced an election-night unofficial precinct report for the 2026 primary, but the copy online was uploaded 27 Mar 2026, so the primary is left UNDETERMINED for check 3. Runoff: county cumulative only on election night. 2024 general: only official reports (15 Nov 2024) are listed.",
-  "tag_rationale": "2024 general and 2026 runoff are LATER by check 2, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; 2024 has no election-night times, so confidence is low.",
+  "notes": "Seed URL redirects to www.matagordatx.gov (files also served there). No Clarity site (elections.json 404). Reports are Microsoft Reporting Services text PDFs with printed Run Time. The county produced an election-night unofficial precinct report for the 2026 primary, but the copy online was uploaded 27 Mar 2026, so the primary is left UNDETERMINED for check 3. Runoff: county cumulative only on election night. 2024 general: only official reports (15 Nov 2024) are listed. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.matagorda.tx.us/upload/page/0087/Precinct%20Results-11-15-2024%2004-33-31%20PM.pdf",
-      "fact": "Past Elections page lists for the 2024 general 'Cumulative Results -' (Cumulative Results-11-15-2024 04-32-48 PM.pdf) and 'Precinct Report - Official' (Precinct Results-11-15-2024 04-33-31 PM.pdf), both run 15 Nov 2024. The adjacent 'Cumulative Results - Unofficial' (Cumulative Results.pdf) is the May 4, 2024 election ('Election Night 05-04-2024 ... Run Time 8:09 PM', Last-Modified Sun, 05 May 2024 01:24:02 GMT), not the general. No election-night 2024 general file is listed; precinct numbers appear online with the official report."
+      "fact": "Rule 43: no election-night file survives. Previous: Past Elections page lists for the 2024 general 'Cumulative Results -' (Cumulative Results-11-15-2024 04-32-48 PM.pdf) and 'Precinct Report - Official' (Precinct Results-11-15-2024 04-33-31 PM.pdf), both run 15 Nov 2024. The adjacent 'Cumulative Results - Unofficial' (Cumulative Results.pdf) is the May 4, 2024 election ('Election Night 05-04-2024 ... Run Time 8:09 PM', Last-Modified Sun, 05 May 2024 01:24:02 GMT), not the general. No election-night 2024 general file is listed; precinct numbers appear online with the official report."
     },
     "2026_primary": {
       "result": "UNDETERMINED",

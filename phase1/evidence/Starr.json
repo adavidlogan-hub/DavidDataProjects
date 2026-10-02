@@ -1,7 +1,7 @@
 {
   "county": "Starr",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.starr.tx.us/page/Elections.2026",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https; results are on page/Elections.2026 and page/Elections.Archive. No Clarity site (elections.json 404). Server Last-Modified values differ by file and follow the PDF creation times, so upload times are usable; a file replaced later would hide an earlier upload (the runoff SOS file was re-uploaded June 24, 2026). Following the pilot practice (Jim Hogg), a precinct report printed on election night but uploaded the next morning counts as LATER. Check 3 (Wayback) pending: origin/wayback-data not present, so earlier election-night uploads that were later replaced cannot be ruled out.",
-  "tag_rationale": "All three elections are LATER by check 2 (precinct numbers uploaded only the morning after or only in official reports), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because no upload is on election night.",
+  "notes": "Seed URL works over https; results are on page/Elections.2026 and page/Elections.Archive. No Clarity site (elections.json 404). Server Last-Modified values differ by file and follow the PDF creation times, so upload times are usable; a file replaced later would hide an earlier upload (the runoff SOS file was re-uploaded June 24, 2026). Following the pilot practice (Jim Hogg), a precinct report printed on election night but uploaded the next morning counts as LATER. Check 3 (Wayback) pending: origin/wayback-data not present, so earlier election-night uploads that were later replaced cannot be ruled out. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 21:21 CT.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
@@ -39,11 +39,11 @@
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-05-26 21:21 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.starr.tx.us/upload/page/0119/2026/ELECTION-UNOFFICIAL-RESULT-REPORT_Rep.pdf",
-      "fact": "'Unofficial Election Results Republican/Democratic' = SOS 'Election Unofficial Results Report' (county totals); Republican PDF CreationDate Wed May 27 02:21:37 2026 UTC (9:21 PM CDT May 26), Last-Modified Wed, 24 Jun 2026 00:18:00 GMT. The only precinct report listed for the runoff is 'Official Pct Summary Report Democratic' (official, after canvass); no unofficial precinct report is posted."
+      "fact": "'Unofficial Election Results Republican/Democratic' = SOS 'Election Unofficial Results Report' (county totals); Republican PDF CreationDate Wed May 27 02:21:37 2026 UTC (9:21 PM CDT May 26), Last-Modified Wed, 24 Jun 2026 00:18:00 GMT. The only precinct report listed for the runoff is 'Official Pct Summary Report Democratic' (official, after canvass); no unofficial precinct report is posted. Rule 43: election-night county-totals file is ELECTION-UNOFFICIAL-RESULT-REPORT_Rep.pdf (SOS Election Unofficial Results Report, county totals), PDF CreationDate Wed May 27 02:21:37 2026 UTC (9:21 PM CDT May 26)."
     }
   },
   "sources": [

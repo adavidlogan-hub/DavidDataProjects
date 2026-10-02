@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The Election Results page lists, per election, an 'UNOFFICIAL (FINAL) RESULTS' and an 'OFFICIAL RESULTS' PDF plus audit forms. Each unofficial file is an Electionware Summary Results Report with county totals only (Absentee / Early Voting / Election Day columns; the only 'Precinct' lines are precinct-chair contest names): 2024 general 'Final Unofficial General 11.05.24.pdf' CreationDate Nov 6 02:38 UTC (8:38 PM CST), Last-Modified Wed, 06 Nov 2024 03:03:59 GMT (9:03 PM CST); 2026 primary 'FINAL UNOFFICIAL RESULTS.pdf' CreationDate Mar 4 03:16 UTC (9:16 PM CST), Last-Modified Wed, 04 Mar 2026 04:38:34 GMT (10:38 PM CST); 2026 runoff 'unofficial-results.pdf' footer 'Election Summary - 05/26/2026 8:11 PM', Last-Modified Wed, 27 May 2026 16:16:22 GMT (11:16 AM CDT May 27, so its upload time is after election night). No unofficial precinct-level report is listed for any target election; Official Results files (not opened) follow after canvass. Confidence med: 2024 general and 2026 primary each have printed and upload times on election night.",
-  "tag_rationale": "All three elections are LATER by check 2 (county-total unofficial summaries only; no precinct report on election night), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS.",
+  "notes": "No Clarity site (elections.json 404). The Election Results page lists, per election, an 'UNOFFICIAL (FINAL) RESULTS' and an 'OFFICIAL RESULTS' PDF plus audit forms. Each unofficial file is an Electionware Summary Results Report with county totals only (Absentee / Early Voting / Election Day columns; the only 'Precinct' lines are precinct-chair contest names): 2024 general 'Final Unofficial General 11.05.24.pdf' CreationDate Nov 6 02:38 UTC (8:38 PM CST), Last-Modified Wed, 06 Nov 2024 03:03:59 GMT (9:03 PM CST); 2026 primary 'FINAL UNOFFICIAL RESULTS.pdf' CreationDate Mar 4 03:16 UTC (9:16 PM CST), Last-Modified Wed, 04 Mar 2026 04:38:34 GMT (10:38 PM CST); 2026 runoff 'unofficial-results.pdf' footer 'Election Summary - 05/26/2026 8:11 PM', Last-Modified Wed, 27 May 2026 16:16:22 GMT (11:16 AM CDT May 27, so its upload time is after election night). No unofficial precinct-level report is listed for any target election; Official Results files (not opened) follow after canvass. Confidence med: 2024 general and 2026 primary each have printed and upload times on election night. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 20:11 CT.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
@@ -39,11 +39,11 @@
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-05-26 20:11 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.orange.tx.us/media/Elections/2026/Primary Runoff Election May 26 2026/results/unofficial-results.pdf",
-      "fact": "'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election Unofficial Results May 26, 2026 Orange County, Texas', county totals, footer 'Election Summary - 05/26/2026 8:11 PM'; Last-Modified Wed, 27 May 2026 16:16:22 GMT. No precinct report listed until 'final-official-results'."
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election Unofficial Results May 26, 2026 Orange County, Texas', county totals, footer 'Election Summary - 05/26/2026 8:11 PM'; Last-Modified Wed, 27 May 2026 16:16:22 GMT. No precinct report listed until 'final-official-results'. Rule 43: election-night county-totals file is unofficial-results.pdf, printed footer 'Election Summary - 05/26/2026 8:11 PM' and PDF CreationDate Wed May 27 01:11:29 2026 UTC (8:11 PM CDT May 26); upload was the next morning."
     }
   },
   "sources": [

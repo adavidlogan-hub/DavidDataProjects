@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https (already in the shared cache); results are listed on page/swisher.Elections. No Clarity site (elections.json 404). The results list gives one link per election: county PDFs of official results for 2024-2026 elections except the November 5, 2024 general, whose link goes to the SOS results site, so the 2024 general is NONE by check 2 (the current page is the evidence; an earlier county posting later replaced by the SOS link cannot be ruled out without check 3). For the 2026 primary and runoff only post-canvass official files exist. Check 3 pending for the 2026 elections (wayback-data branch not found on origin).",
-  "tag_rationale": "Only the 2024 general is determined (NONE by check 2: the county's results link for it is the SOS site), so the tag is NO_SITE_OR_SOS_ONLY with low confidence.",
+  "notes": "Seed URL works over https (already in the shared cache); results are listed on page/swisher.Elections. No Clarity site (elections.json 404). The results list gives one link per election: county PDFs of official results for 2024-2026 elections except the November 5, 2024 general, whose link goes to the SOS results site, so the 2024 general is NONE by check 2 (the current page is the evidence; an earlier county posting later replaced by the SOS link cannot be ruled out without check 3). For the 2026 primary and runoff only post-canvass official files exist. Check 3 pending for the 2026 elections (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-2): 2024_general NONE kept. 2024_general NONE kept: the county results list links that election only to results.texas-election.com.",
+  "tag_rationale": "Results: 2024_general NONE, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. Exactly one election is determined, so the rule gives NO_SITE_OR_SOS_ONLY with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {

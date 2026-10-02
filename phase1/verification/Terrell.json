@@ -43,5 +43,12 @@
    "what_i_checked": "primary canvass spreadsheet uploaded Mar 13"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:27:15Z"
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED; file 404).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "different: research LATER from the SOS Summary of Precinct Returns dated May 29 and uploaded Jun 8; nothing is dated election night, so under the clarified rule verifier UNDETERMINED (research LATER not supported by an election-night file). This changes the tag: research COUNTY_ONLY_PRECINCT_AT_CANVASS low, verifier UNKNOWN."
+ }
 }

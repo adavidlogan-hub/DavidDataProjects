@@ -48,5 +48,12 @@
    "what_i_checked": "county elections page: links Clarity; runoff section has notices, sample ballots, PEHCA files, no results"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:25:05Z"
+ "written_blind_at_utc": "2026-10-02T16:25:05Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "same (END, single Election Day precinct release 8:38 PM CST).",
+  "2026_primary": "same (LIVE, releases 7:49 PM and 8:23 PM CST).",
+  "2026_runoff": "different: research END because the 7:15 PM CDT update has \"5 precincts with votes\"; verifier read the unit names in v372935: \"Lamar County\", \"County and Commissioner Pct 2\", \"County and Commissioner Pct 4\" and two sub-units, i.e. ballot-group units, not voting precincts, so no individual precinct numbers were published (LATER). This changes the tag: research END x2 gives PRECINCT_END_OF_NIGHT; verifier END, LIVE, LATER gives UNKNOWN."
+ }
 }

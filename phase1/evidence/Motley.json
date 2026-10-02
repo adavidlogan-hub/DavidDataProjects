@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No county website in the seed list; one web search located https://www.co.motley.tx.us/page/motley.Elections. No Clarity site (elections.json 404). The Elections page links scanned PDFs (some on newtools.cira.state.tx.us, the same CMS file host). 2024 general: 'Unofficial Results 11.05.2024' is a Cumulative Results Report with county totals (Absentee / Early / Election Day), scan created Nov 6 02:49 UTC (8:49 PM CST Nov 5), Last-Modified Wed, 06 Nov 2024 02:55:32 GMT (8:55 PM CST); precinct numbers only in 'Precinct Results-11-14-2024.pdf' (canvass, not opened). 2026 primary: 'Unofficial Republican Results' (Cumulative county totals, scan created 9:23 PM CST Mar 3, Last-Modified Wed, 04 Mar 2026 03:24:13 GMT = 9:24 PM CST) and 'Unofficial Democratic Results'; no precinct report listed, only '3.12.26 Official Democrat and Republican Results'. 2026 runoff: 'Unofficial Results' is a Cumulative Results Report run 11:07 AM 05/27/2026, Last-Modified Wed, 27 May 2026 16:23:06 GMT (11:23 AM CDT May 27), county totals; then 'Official Results'. Confidence med: 2024 general and 2026 primary each have a printed time (scan CreationDate) and an upload time on election night; the runoff file was posted the next morning.",
-  "tag_rationale": "All three elections are LATER by check 2 (county-total cumulative reports only on or after election night; precinct numbers at canvass or not online), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS.",
+  "notes": "No county website in the seed list; one web search located https://www.co.motley.tx.us/page/motley.Elections. No Clarity site (elections.json 404). The Elections page links scanned PDFs (some on newtools.cira.state.tx.us, the same CMS file host). 2024 general: 'Unofficial Results 11.05.2024' is a Cumulative Results Report with county totals (Absentee / Early / Election Day), scan created Nov 6 02:49 UTC (8:49 PM CST Nov 5), Last-Modified Wed, 06 Nov 2024 02:55:32 GMT (8:55 PM CST); precinct numbers only in 'Precinct Results-11-14-2024.pdf' (canvass, not opened). 2026 primary: 'Unofficial Republican Results' (Cumulative county totals, scan created 9:23 PM CST Mar 3, Last-Modified Wed, 04 Mar 2026 03:24:13 GMT = 9:24 PM CST) and 'Unofficial Democratic Results'; no precinct report listed, only '3.12.26 Official Democrat and Republican Results'. 2026 runoff: 'Unofficial Results' is a Cumulative Results Report run 11:07 AM 05/27/2026, Last-Modified Wed, 27 May 2026 16:23:06 GMT (11:23 AM CDT May 27), county totals; then 'Official Results'. Confidence med: 2024 general and 2026 primary each have a printed time (scan CreationDate) and an upload time on election night; the runoff file was posted the next morning. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary LATER, 2026_runoff UNDETERMINED. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
@@ -37,13 +37,13 @@
       "fact": "'Unofficial Republican Results': 'MOTLEY COUNTY, TEXAS ... 3/3/2026', county totals by Absentee Voting / Early Voting / Election Day Voting, no precinct rows; CreationDate Mar 4 2026 03:23 UTC; Last-Modified Wed, 04 Mar 2026 03:24:13 GMT. No precinct report listed; precinct numbers never published online (only '3.12.26 Official Democrat and Republican Results')."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.motley.tx.us/upload/page/9607/Unofficial Results 3.26.260001.pdf",
-      "fact": "'Cumulative Results Report MOTLEY COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026', Run Time 11:07 AM Run Date 05/27/2026, county totals; Last-Modified Wed, 27 May 2026 16:23:06 GMT. Nothing posted on election night; no precinct report listed."
+      "fact": "Rule 43: no election-night file survives. Previous: 'Cumulative Results Report MOTLEY COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026', Run Time 11:07 AM Run Date 05/27/2026, county totals; Last-Modified Wed, 27 May 2026 16:23:06 GMT. Nothing posted on election night; no precinct report listed."
     }
   },
   "sources": [

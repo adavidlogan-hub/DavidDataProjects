@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https; Elections page /page/Elections lists results files. No Clarity site (elections.json 404). Results are scanned Electionware reports (PDF or JPG); runoff page 1 was read visually. Last-Modified values differ per file (meaningful). 2026 runoff: county summary posted on election night, no precinct report online. 2026 primary: only official and a 6 Mar 2026 precinct-by-precinct report listed. 2024 general: election-night posting not identifiable (the 'Unofficial Results' link is a Nov 2023 file); check 3 pending. An 'Archived Election Info 2022-2024' page exists but was not needed for the 2024 listing, which is on the main page.",
-  "tag_rationale": "2026 primary and runoff are LATER by check 2, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; the primary has no election-night printed time or upload, so confidence is low.",
+  "notes": "Seed URL works over https; Elections page /page/Elections lists results files. No Clarity site (elections.json 404). Results are scanned Electionware reports (PDF or JPG); runoff page 1 was read visually. Last-Modified values differ per file (meaningful). 2026 runoff: county summary posted on election night, no precinct report online. 2026 primary: only official and a 6 Mar 2026 precinct-by-precinct report listed. 2024 general: election-night posting not identifiable (the 'Unofficial Results' link is a Nov 2023 file); check 3 pending. An 'Archived Election Info 2022-2024' page exists but was not needed for the 2024 listing, which is on the main page. Rule 43 applied 2026-10-02 (normalize-2): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
@@ -28,13 +28,13 @@
       "fact": "check 3 pending. The 2024 'Unofficial Results' link (Unofficial Results 11 2024.pdf) is a file created Wed Nov 8 2023 03:05 UTC with Last-Modified Wed, 08 Nov 2023 14:07:30 GMT, i.e. not the 2024 election-night report; 'Official Precinct Results' (11052024OFFICIAL PRECINCT RESULTS.pdf) was created Mon Feb 24 2025 and uploaded Tue, 25 Feb 2025 02:48:50 GMT. What was posted on 2024 election night cannot be identified."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.lavaca.tx.us/upload/page/0134/docs/Elections/2026/March%203rd%20PRIMARY/MARCH%203RD%202026_Primary%20Election_UNOFFICIAL_FINAL_PCTbyPCT_03062026.pdf",
-      "fact": "Elections page lists for March 3rd 2026 only 'RESULTS_REPUBLICAN_OFFICIAL', 'RESULTS DEMOCRATIC_OFFICIAL', 'PRECINCT BY PRECINCT_RESULTS_OFFICIAL' (file MARCH 3RD 2026_Primary Election_UNOFFICIAL_FINAL_PCTbyPCT_03062026.pdf, scanned, 154 pages, CreationDate Fri Mar 6 22:08:20 2026 UTC, Last-Modified Fri, 06 Mar 2026 22:58:03 GMT) and hand count audits. Precinct numbers first appear 6 Mar 2026; no election-night report is listed."
+      "fact": "Rule 43: no election-night file survives. Previous: Elections page lists for March 3rd 2026 only 'RESULTS_REPUBLICAN_OFFICIAL', 'RESULTS DEMOCRATIC_OFFICIAL', 'PRECINCT BY PRECINCT_RESULTS_OFFICIAL' (file MARCH 3RD 2026_Primary Election_UNOFFICIAL_FINAL_PCTbyPCT_03062026.pdf, scanned, 154 pages, CreationDate Fri Mar 6 22:08:20 2026 UTC, Last-Modified Fri, 06 Mar 2026 22:58:03 GMT) and hand count audits. Precinct numbers first appear 6 Mar 2026; no election-night report is listed."
     },
     "2026_runoff": {
       "result": "LATER",

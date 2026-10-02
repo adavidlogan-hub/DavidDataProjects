@@ -13,37 +13,37 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No county website in the seed list; one web search located https://mcmullencounty.org/elections/. No Clarity site (elections.json 404). The Elections page lists result files for each election as WordPress uploads: 2024 general '11/05/2024 ELECTION RESULT REPORT' (scanned Electionware 'Summary Results Report', county totals by Absentee/Early Voting/Election Day, footer 'Election Summary - 11/05/2024 6:50 PM', PDF created and uploaded Nov 7 2024); 2026 primary two SOS 'Election Unofficial Results Report' PDFs (county totals, created 11:07 PM CST Mar 3, Last-Modified 10:23 AM CST Mar 4); 2026 runoff a JPG 'Summary Results Report' (county totals, footer 'Election Summary - 05/27/2026 1:41 PM', Last-Modified 2:19 PM CDT May 27). No precinct-level report is listed for any of the three elections, and every file was uploaded after election night. The page keeps files back to 2020, so nothing appears to have been removed, but an election-night posting that was later removed cannot be ruled out. The Democratic primary PDF (same SOS report type) was not opened. En dashes in quoted link titles were replaced with hyphens. Runoff summary shows 'Election Day Precincts Reporting 1 of 1'. Check 3 pending: origin/wayback-data not present.",
-  "tag_rationale": "All three elections are LATER by check 2 (county totals only, posted the day after or later; no precinct report online), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because no check 2 document has both a printed and an upload time on election night.",
+  "notes": "No county website in the seed list; one web search located https://mcmullencounty.org/elections/. No Clarity site (elections.json 404). The Elections page lists result files for each election as WordPress uploads: 2024 general '11/05/2024 ELECTION RESULT REPORT' (scanned Electionware 'Summary Results Report', county totals by Absentee/Early Voting/Election Day, footer 'Election Summary - 11/05/2024 6:50 PM', PDF created and uploaded Nov 7 2024); 2026 primary two SOS 'Election Unofficial Results Report' PDFs (county totals, created 11:07 PM CST Mar 3, Last-Modified 10:23 AM CST Mar 4); 2026 runoff a JPG 'Summary Results Report' (county totals, footer 'Election Summary - 05/27/2026 1:41 PM', Last-Modified 2:19 PM CDT May 27). No precinct-level report is listed for any of the three elections, and every file was uploaded after election night. The page keeps files back to 2020, so nothing appears to have been removed, but an election-night posting that was later removed cannot be ruled out. The Democratic primary PDF (same SOS report type) was not opened. En dashes in quoted link titles were replaced with hyphens. Runoff summary shows 'Election Day Precincts Reporting 1 of 1'. Check 3 pending: origin/wayback-data not present. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED; 2026_primary LATER kept, county_totals_first_seen 2026-03-03 23:07 CT; 2026_runoff LATER to UNDETERMINED. 2024_general: the only file's printed footer is 'Election Summary - 11/05/2024 6:50 PM', before the 7 PM window, and it was created and uploaded Nov 7, so it is not an election-night county-totals file.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff UNDETERMINED. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://mcmullencounty.org/wp-content/uploads/2024/11/11.5.24-Results-report.pdf",
-      "fact": "Only result file listed is '11/05/2024 ELECTION RESULT REPORT': scanned 'Summary Results Report TX McMullen 241105 General 6110, UNOFFICIAL RESULTS' with county totals (TOTAL, Absentee, Early Voting, Election Day), no precinct breakdown; footer 'Election Summary - 11/05/2024 6:50 PM'; PDF CreationDate Nov 7 2024 21:13 UTC; Last-Modified Thu, 07 Nov 2024 21:36:23 GMT. No precinct report published online."
+      "fact": "Rule 43: no election-night file survives. Previous: Only result file listed is '11/05/2024 ELECTION RESULT REPORT': scanned 'Summary Results Report TX McMullen 241105 General 6110, UNOFFICIAL RESULTS' with county totals (TOTAL, Absentee, Early Voting, Election Day), no precinct breakdown; footer 'Election Summary - 11/05/2024 6:50 PM'; PDF CreationDate Nov 7 2024 21:13 UTC; Last-Modified Thu, 07 Nov 2024 21:36:23 GMT. No precinct report published online."
     },
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-03-03 23:07 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://mcmullencounty.org/wp-content/uploads/2026/03/ELECTION-UNOFFICIAL-RESULT-REPORT_52502_1772600829896.pdf",
-      "fact": "'March 3rd Unofficial Results - Republican Primary Election' is the SOS 'Election Unofficial Results Report, 2026 REPUBLICAN PRIMARY ELECTION, MCMULLEN County' with county totals by Early Voting by Mail / Early Voting In Person / Election Day; CreationDate Mar 4 2026 05:07 UTC (11:07 PM CST Mar 3); Last-Modified Wed, 04 Mar 2026 16:23:05 GMT (10:23 AM CST Mar 4). No precinct report listed."
+      "fact": "'March 3rd Unofficial Results - Republican Primary Election' is the SOS 'Election Unofficial Results Report, 2026 REPUBLICAN PRIMARY ELECTION, MCMULLEN County' with county totals by Early Voting by Mail / Early Voting In Person / Election Day; CreationDate Mar 4 2026 05:07 UTC (11:07 PM CST Mar 3); Last-Modified Wed, 04 Mar 2026 16:23:05 GMT (10:23 AM CST Mar 4). No precinct report listed. Rule 43: election-night county-totals file is ELECTION-UNOFFICIAL-RESULT-REPORT_52502_1772600829896.pdf (SOS Election Unofficial Results Report, county totals), PDF CreationDate Wed Mar 4 05:07:09 2026 UTC (11:07 PM CST Mar 3)."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://mcmullencounty.org/wp-content/uploads/2026/05/5.27.2026-Unofficial-Results-McMullen-County-Primary-Runoff.jpg",
-      "fact": "Only result file is a JPG 'Summary Results Report, TX McMullen County Primary Runoff, May 26, 2026, UNOFFICIAL RESULTS' with county totals; footer 'Election Summary - 05/27/2026 1:41 PM'; Last-Modified Wed, 27 May 2026 19:19:53 GMT (2:19 PM CDT May 27). Nothing posted on election night; no precinct report listed."
+      "fact": "Rule 43: no election-night file survives. Previous: Only result file is a JPG 'Summary Results Report, TX McMullen County Primary Runoff, May 26, 2026, UNOFFICIAL RESULTS' with county totals; footer 'Election Summary - 05/27/2026 1:41 PM'; Last-Modified Wed, 27 May 2026 19:19:53 GMT (2:19 PM CDT May 27). Nothing posted on election night; no precinct report listed."
     }
   },
   "sources": [

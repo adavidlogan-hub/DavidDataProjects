@@ -38,5 +38,12 @@
    "what_i_checked": "runoff unofficial precinct report printed 8:21 PM, uploaded 10:12 PM"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:27:15Z"
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "different: research END from 2024 Nov/UnOfficial PCT x PCT 11-5-24.pdf; verifier missed this file in its blind pass and recorded UNDETERMINED. Verifier opened the cited file afterwards: UNOFFICIAL RESULTS per precinct with Election Day column, footer \"Precinct Summary - 11/05/2024 10:13 PM\", Last-Modified 06 Nov 2024 05:12:31 GMT (11:12 PM CST): research claim supported. Tag unaffected.",
+  "2026_primary": "same (END, printed 10:43 PM, uploaded 11:59 PM).",
+  "2026_runoff": "same (END, printed 8:21 PM, uploaded 10:12 PM)."
+ }
 }

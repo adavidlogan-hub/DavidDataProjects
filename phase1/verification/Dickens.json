@@ -48,5 +48,12 @@
    "what_i_checked": "runoff precinct report uploaded Jun 3"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:27:15Z"
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "different: research UNDETERMINED (file not identified); verifier LATER from image4095.pdf, an Unofficial Cumulative Results Report printed 8:11 PM 11/05/2024 (uploaded next morning).",
+  "2026_primary": "different: research LATER from a cumulative report printed 03/05/2026 3:18 PM and uploaded Mar 6; under the clarified rule that is not election-night evidence, so verifier UNDETERMINED (research LATER not supported).",
+  "2026_runoff": "different: research LATER; the only night file is a ballot-count reconciliation form (research says so too), not candidate totals, so verifier UNDETERMINED under the clarified rule."
+ }
 }

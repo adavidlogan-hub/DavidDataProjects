@@ -38,5 +38,12 @@
    "what_i_checked": "HTTP 404"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:27:15Z"
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "different: verifier could not read any Freestone result file in its blind pass (all links tried returned 404) and recorded UNDETERMINED; research read 2024/unofficial_official_results_1152024.pdf. Verifier opened the cited file afterwards: Summary Results Report, UNOFFICIAL RESULTS, county totals, footer \"Election Summary - 11/05/2024 10:18 PM\", Last-Modified 06 Nov 2024 19:00 GMT (next day). The research LATER is supported (printed on election night); with it the research tag COUNTY_ONLY_PRECINCT_AT_CANVASS low follows the fixed rule. The disagreement comes from the verifier missing this file, not from a research error.",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (UNDETERMINED; unofficial link 404)."
+ }
 }

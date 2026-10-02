@@ -1,6 +1,6 @@
 {
   "county": "Terrell",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https; results are on page/terrell.Elections, some files on newtools.cira.state.tx.us. No Clarity site (elections.json 404). Server Last-Modified values differ by file. The 2024 general results link is dead (HTTP 404 on both hosts). The 2026 primary has only canvass-stage spreadsheets; the runoff precinct returns form is signed May 29 and was uploaded June 8. Check 3 pending for the 2024 general and 2026 primary (wayback-data branch not found on origin).",
-  "tag_rationale": "Only the 2026 runoff is determined (LATER by check 2: precinct returns dated May 29 and uploaded June 8), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "notes": "Seed URL works over https; results are on page/terrell.Elections, some files on newtools.cira.state.tx.us. No Clarity site (elections.json 404). Server Last-Modified values differ by file. The 2024 general results link is dead (HTTP 404 on both hosts). The 2026 primary has only canvass-stage spreadsheets; the runoff precinct returns form is signed May 29 and was uploaded June 8. Check 3 pending for the 2024 general and 2026 primary (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
@@ -37,13 +37,13 @@
       "fact": "Only post-canvass files are posted for the primary: 'CANVASS RESULTS-REPUBLICAN 2026.xlsx' (Last-Modified Fri, 13 Mar 2026 21:04:51 GMT), a Democratic canvass xlsx, reconciliation and hand-count audit files; no election-night file. Check 3 pending."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.terrell.tx.us/upload/page/6296/REPUBLICAN MAY 26 2026 SUMMARY PRECINCT RETURNS.pdf",
-      "fact": "'REPUBLICAN MAY 26 2026 SUMMARY PRECINCT RETURNS.pdf' = scanned SOS form 'SUMMARY OF PRECINCT RETURNS ... JOINT PRIAMRY RUNOFF Election, held on the 26TH day of MAY 2026, TERRELL County ... DATED, this 29 day of MAY, 2026' (handwritten per-precinct totals, 'Republican Precinct 1'); PDF CreationDate Mon Jun 8 14:18:35 2026 UTC, Last-Modified Mon, 08 Jun 2026 19:59:59 GMT. 'REPUBLICAN 2026 RUNOFF SOS UNOFFICIAL REPORT.pdf' (county totals) was uploaded at the same time (Last-Modified Mon, 08 Jun 2026 19:59:58 GMT). Precinct numbers appeared after election night."
+      "fact": "Rule 43: no election-night file survives. Previous: 'REPUBLICAN MAY 26 2026 SUMMARY PRECINCT RETURNS.pdf' = scanned SOS form 'SUMMARY OF PRECINCT RETURNS ... JOINT PRIAMRY RUNOFF Election, held on the 26TH day of MAY 2026, TERRELL County ... DATED, this 29 day of MAY, 2026' (handwritten per-precinct totals, 'Republican Precinct 1'); PDF CreationDate Mon Jun 8 14:18:35 2026 UTC, Last-Modified Mon, 08 Jun 2026 19:59:59 GMT. 'REPUBLICAN 2026 RUNOFF SOS UNOFFICIAL REPORT.pdf' (county totals) was uploaded at the same time (Last-Modified Mon, 08 Jun 2026 19:59:58 GMT). Precinct numbers appeared after election night."
     }
   },
   "sources": [

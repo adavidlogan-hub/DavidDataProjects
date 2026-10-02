@@ -1,7 +1,7 @@
 {
   "county": "Stephens",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.stephens.tx.us/page/stephens.Elections",
@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https; results are on page/stephens.Elections, with several files served from newtools.cira.state.tx.us. No Clarity site (elections.json 404). Server Last-Modified values differ by file and follow PDF creation times, so upload times are usable. 2026 files are scanned Electionware summary reports (county totals); no precinct reports are posted for 2026. The 2024 precinct report is image-only and was not read page by page; its title and dates show it came weeks after the election. Check 3 pending for confirming nothing was posted on election night (wayback-data branch not found on origin).",
-  "tag_rationale": "All three elections are LATER by check 2 (county-total summaries uploaded the next day, precinct numbers only weeks later or never), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because no upload is on election night.",
+  "notes": "Seed URL works over https; results are on page/stephens.Elections, with several files served from newtools.cira.state.tx.us. No Clarity site (elections.json 404). Server Last-Modified values differ by file and follow PDF creation times, so upload times are usable. 2026 files are scanned Electionware summary reports (county totals); no precinct reports are posted for 2026. The 2024 precinct report is image-only and was not read page by page; its title and dates show it came weeks after the election. Check 3 pending for confirming nothing was posted on election night (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.stephens.tx.us/upload/page/2592/2024/Precinct Report 11-5-2024 General.pdf",
-      "fact": "Only 2024 results file: 'Precinct Report 11-5-2024 General.pdf' (40-page image PDF), PDF CreationDate Thu Nov 21 10:20:03 2024 UTC, Last-Modified Wed, 11 Dec 2024 19:27:11 GMT; plus 'Preliminary Election Reconciliation - Unofficial Totals'. Precinct numbers appeared weeks after election night; no 2024 election-night results file survives."
+      "fact": "Rule 43: no election-night file survives. Previous: Only 2024 results file: 'Precinct Report 11-5-2024 General.pdf' (40-page image PDF), PDF CreationDate Thu Nov 21 10:20:03 2024 UTC, Last-Modified Wed, 11 Dec 2024 19:27:11 GMT; plus 'Preliminary Election Reconciliation - Unofficial Totals'. Precinct numbers appeared weeks after election night; no 2024 election-night results file survives."
     },
     "2026_primary": {
       "result": "LATER",

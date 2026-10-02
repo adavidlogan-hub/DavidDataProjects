@@ -63,5 +63,12 @@
    "what_i_checked": "live results page (old 2022 content)"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:27:15Z"
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "different: research UNDETERMINED (ENR link gone); verifier LATER from the posted GN24-Election-Night-Results-Summary.pdf (county-wide summary, footer 11/05/2024 11:53PM, Last-Modified 06 Nov 2024 05:59 GMT = 11:59 PM CST) with the precinct report uploaded Nov 19.",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (LATER); research used the livevoterturnout ENR page (vote centers, updated 10:02:55 PM), verifier used the county summary PDF uploaded 12:10 AM; both show county totals on the night and precinct reports in June. Confidence differs: verifier med (2024 and runoff settled with printed and upload times on the night), research low."
+ }
 }

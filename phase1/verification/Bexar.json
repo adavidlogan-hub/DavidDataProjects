@@ -63,5 +63,12 @@
    "what_i_checked": "search used to locate Clarity links"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:25:05Z"
+ "written_blind_at_utc": "2026-10-02T16:25:05Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "different: research LATER from home.bexar.org/el45a.html (county-total summary, Vote Center 302 of 302, Last-Modified on election night); verifier did not find that page and recorded UNDETERMINED. Verifier opened the cited page afterwards: it is an UNOFFICIAL Summary Results Report with county totals, so the research claim is supported. Tag unaffected.",
+  "2026_primary": "same (LIVE, check 1, EID 125927; verifier found the EID independently via Wikipedia).",
+  "2026_runoff": "same (LIVE, check 1, EID 126369)."
+ }
 }

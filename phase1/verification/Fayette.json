@@ -38,5 +38,12 @@
    "what_i_checked": "runoff unofficial precinct report, created and uploaded on night"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:27:15Z"
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (END, precinct report created 12:38 AM, uploaded 12:47 AM CST).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (END, created 10:21 PM, uploaded 10:29 PM CDT)."
+ }
 }

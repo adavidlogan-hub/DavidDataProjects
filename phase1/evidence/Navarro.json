@@ -13,19 +13,19 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). Results are PDFs on 'Elections 2026' and 'Elections 2025 and Earlier'. 2024 general: 'Unofficial Election Results' is an Electionware Summary Results Report 'COMBINED UNOFFICIAL' with county totals only ('Election Day Precincts Reporting 30 of 33'), footer 'Election Summary - 11/05/2024 22:22 PM', CreationDate Nov 6 04:23 UTC (10:23 PM CST), Last-Modified Wed, 06 Nov 2024 14:52:05 GMT (8:52 AM CST Nov 6); the page also lists 'Official Election Results' and the canvass (not opened). 2026 primary: only 'OFFICIAL Election Results - By Precinct' and '- Overall' remain. 2026 runoff: only 'Official Primary Runoff Results' and '- by Precinct' remain. So the election-night postings for 2026 are no longer listed and check 2 cannot decide them. Check 3 pending for 2026 primary and runoff: origin/wayback-data not present.",
-  "tag_rationale": "Only the 2024 general is determined (LATER by check 2: a county-total unofficial summary, no precinct numbers until the official results), so the single determined result gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "notes": "No Clarity site (elections.json 404). Results are PDFs on 'Elections 2026' and 'Elections 2025 and Earlier'. 2024 general: 'Unofficial Election Results' is an Electionware Summary Results Report 'COMBINED UNOFFICIAL' with county totals only ('Election Day Precincts Reporting 30 of 33'), footer 'Election Summary - 11/05/2024 22:22 PM', CreationDate Nov 6 04:23 UTC (10:23 PM CST), Last-Modified Wed, 06 Nov 2024 14:52:05 GMT (8:52 AM CST Nov 6); the page also lists 'Official Election Results' and the canvass (not opened). 2026 primary: only 'OFFICIAL Election Results - By Precinct' and '- Overall' remain. 2026 runoff: only 'Official Primary Runoff Results' and '- by Precinct' remain. So the election-night postings for 2026 are no longer listed and check 2 cannot decide them. Check 3 pending for 2026 primary and runoff: origin/wayback-data not present. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER kept, county_totals_first_seen 2024-11-05 22:22 CT.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2024-11-05 22:22 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.navarro.tx.us/upload/page/0129/docs/Elections/2024/Nov 5 2024/UNOFFICIAL ELECTION RESULTS.pdf",
-      "fact": "'Summary Results Report UNOFFICIAL RESULTS 2024 General Election COMBINED UNOFFICIAL November 5, 2024 Navarro County', county totals by Absentee / Early Voting / Election Day, 'Election Day Precincts Reporting 30 of 33', footer 'Election Summary - 11/05/2024 22:22 PM', Last-Modified Wed, 06 Nov 2024 14:52:05 GMT. No unofficial precinct report listed; precinct numbers only with the official results after canvass."
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS 2024 General Election COMBINED UNOFFICIAL November 5, 2024 Navarro County', county totals by Absentee / Early Voting / Election Day, 'Election Day Precincts Reporting 30 of 33', footer 'Election Summary - 11/05/2024 22:22 PM', Last-Modified Wed, 06 Nov 2024 14:52:05 GMT. No unofficial precinct report listed; precinct numbers only with the official results after canvass. Rule 43: election-night county-totals file is UNOFFICIAL ELECTION RESULTS.pdf, printed footer 'Election Summary - 11/05/2024 22:22 PM' and PDF CreationDate Wed Nov 6 04:23:24 2024 UTC (10:23 PM CST Nov 5)."
     },
     "2026_primary": {
       "result": "UNDETERMINED",

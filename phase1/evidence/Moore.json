@@ -1,7 +1,7 @@
 {
   "county": "Moore",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.moore.tx.us/page/moore.Elections",
@@ -13,37 +13,37 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The county Elections page posts scanned Konica Minolta PDFs. Every unofficial result file opened was uploaded the morning after election day: 2024 general 'Unofficial General Election Results' (Electionware Summary Results Report, county totals, footer read as 'Election Summary - 11/05/2024 11:48 PM', scanned Nov 6 15:07 UTC, Last-Modified Wed, 06 Nov 2024 15:28:58 GMT); 2026 primary 'Unofficial Results' (scanned Mar 4 15:36 UTC, Last-Modified Wed, 04 Mar 2026 15:27:00 GMT) with 'Republican Precinct Results' scanned Apr 6 2026 (Last-Modified Mon, 06 Apr 2026 15:41:29 GMT); 2026 runoff 'Unofficial Results' and 'Unofficial Results Precinct' (scanned 9:41 and 9:42 PM CDT May 26, Last-Modified Wed, 27 May 2026 15:26:46 and 15:27:20 GMT = 10:26 to 10:27 AM CDT May 27). The 2024 general precinct file listed is 'Official Results by Precinct' (not opened). So no result file, county-level or precinct-level, was online during election night for any target election, and precinct numbers came after election night. HTML pages send no Last-Modified header; PDF Last-Modified values differ per file and match scan dates, so they are taken as upload times. The 2026 primary unofficial PDF was not checked page by page for a precinct breakdown, but it was uploaded after election night either way. Check 3 not needed.",
-  "tag_rationale": "All three elections are LATER by check 2 (nothing online on election night; precinct numbers uploaded the next morning or at canvass), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because no upload time falls on election night.",
+  "notes": "No Clarity site (elections.json 404). The county Elections page posts scanned Konica Minolta PDFs. Every unofficial result file opened was uploaded the morning after election day: 2024 general 'Unofficial General Election Results' (Electionware Summary Results Report, county totals, footer read as 'Election Summary - 11/05/2024 11:48 PM', scanned Nov 6 15:07 UTC, Last-Modified Wed, 06 Nov 2024 15:28:58 GMT); 2026 primary 'Unofficial Results' (scanned Mar 4 15:36 UTC, Last-Modified Wed, 04 Mar 2026 15:27:00 GMT) with 'Republican Precinct Results' scanned Apr 6 2026 (Last-Modified Mon, 06 Apr 2026 15:41:29 GMT); 2026 runoff 'Unofficial Results' and 'Unofficial Results Precinct' (scanned 9:41 and 9:42 PM CDT May 26, Last-Modified Wed, 27 May 2026 15:26:46 and 15:27:20 GMT = 10:26 to 10:27 AM CDT May 27). The 2024 general precinct file listed is 'Official Results by Precinct' (not opened). So no result file, county-level or precinct-level, was online during election night for any target election, and precinct numbers came after election night. HTML pages send no Last-Modified header; PDF Last-Modified values differ per file and match scan dates, so they are taken as upload times. The 2026 primary unofficial PDF was not checked page by page for a precinct breakdown, but it was uploaded after election night either way. Check 3 not needed. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER kept, county_totals_first_seen 2024-11-05 23:40 CT; 2026_primary LATER kept, county_totals_first_seen 2026-03-03 21:24 CT; 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 20:18 CT. Footer times re-read from the cached copies at 200 dpi.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2024-11-05 23:40 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.moore.tx.us/upload/page/4507/2024/unofficial_results_november_5_2024.pdf",
-      "fact": "'Unofficial General Election Results': 'Summary Results Report TOTALS SUMMRAY NOVEMBER 5, 2024 ... UNOFFICIAL RESULTS GENERAL MOORE COUNTY', county totals only, Last-Modified Wed, 06 Nov 2024 15:28:58 GMT (9:28 AM CST Nov 6). Precinct numbers only in 'Official Results by Precinct' (canvass)."
+      "fact": "'Unofficial General Election Results': 'Summary Results Report TOTALS SUMMRAY NOVEMBER 5, 2024 ... UNOFFICIAL RESULTS GENERAL MOORE COUNTY', county totals only, Last-Modified Wed, 06 Nov 2024 15:28:58 GMT (9:28 AM CST Nov 6). Precinct numbers only in 'Official Results by Precinct' (canvass). Rule 43: election-night county-totals file is unofficial_results_november_5_2024.pdf, printed footer 'Election Summary - 11/05/2024 11:40 PM' (re-read at 200 dpi from the cached copy; earlier read as 11:48 PM); scanned and uploaded Nov 6."
     },
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-03-03 21:24 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.moore.tx.us/upload/page/4507/2026/republican_primary_march_3_2026_precinct_results.pdf",
-      "fact": "'Unofficial Results' scanned Mar 4 2026 15:36 UTC, Last-Modified Wed, 04 Mar 2026 15:27:00 GMT (after election night). 'Republican Precinct Results' scanned Apr 6 2026, Last-Modified Mon, 06 Apr 2026 15:41:29 GMT. Precinct numbers came after election night."
+      "fact": "'Unofficial Results' scanned Mar 4 2026 15:36 UTC, Last-Modified Wed, 04 Mar 2026 15:27:00 GMT (after election night). 'Republican Precinct Results' scanned Apr 6 2026, Last-Modified Mon, 06 Apr 2026 15:41:29 GMT. Precinct numbers came after election night. Rule 43: election-night county-totals file is unofficial_results_march_3_2026.pdf ('PRIMARY MOORE COUNTY MARCH 3, 2026', county totals by Absentee / Early Voting / Election Day, 'Election Day Precincts Reporting 7 of 7'), printed footer 'Election Summary - 03/03/2026 9:24 PM' (read from the cached copy); scanned and uploaded Mar 4."
     },
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-05-26 20:18 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.moore.tx.us/upload/page/4507/2026/unofficial_election_results_precinct_may_26_2026.pdf",
-      "fact": "'Unofficial Results Precinct' scan CreationDate May 27 2026 02:42 UTC (9:42 PM CDT May 26), Last-Modified Wed, 27 May 2026 15:27:20 GMT (10:27 AM CDT May 27); 'Unofficial Results' Last-Modified 15:26:46 GMT. Precinct numbers were printed on election night but posted online the next morning."
+      "fact": "'Unofficial Results Precinct' scan CreationDate May 27 2026 02:42 UTC (9:42 PM CDT May 26), Last-Modified Wed, 27 May 2026 15:27:20 GMT (10:27 AM CDT May 27); 'Unofficial Results' Last-Modified 15:26:46 GMT. Precinct numbers were printed on election night but posted online the next morning. Rule 43: election-night county-totals file is unofficial_election_results_may_26_2026.pdf, printed footer 'Election Summary - 05/26/2026 8:18 PM' (read from the cached copy), scan CreationDate Wed May 27 02:41:50 2026 UTC (9:41 PM CDT May 26). The precinct file was scanned 17 seconds later; both were uploaded the next morning, so precinct numbers came online after election night (pilot practice: printed on the night, posted next morning counts as LATER)."
     }
   },
   "sources": [

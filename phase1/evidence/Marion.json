@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed county site (www.co.marion.tx.us) links 'Elections' to the Tax Assessor-Collector site marioncountytaxoffice.com (WordPress), which has one page per election. No Clarity site (elections.json 404). Results are Microsoft Reporting Services cumulative (county total) reports; no precinct reports are listed for any target election. 2024 general page lists no results; check 3 pending. Last-Modified differs per file. The Elections page also links SOS historical results.",
-  "tag_rationale": "2026 primary and runoff are LATER by check 2 (county cumulative reports only), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; the primary has no election-night upload, so confidence is low.",
+  "notes": "Seed county site (www.co.marion.tx.us) links 'Elections' to the Tax Assessor-Collector site marioncountytaxoffice.com (WordPress), which has one page per election. No Clarity site (elections.json 404). Results are Microsoft Reporting Services cumulative (county total) reports; no precinct reports are listed for any target election. 2024 general page lists no results; check 3 pending. Last-Modified differs per file. The Elections page also links SOS historical results. Rule 43 applied 2026-10-02 (normalize-2): 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
@@ -28,13 +28,13 @@
       "fact": "check 3 pending; the Nov 5 2024 election page lists only reconciliation forms and sample ballots, no results"
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://marioncountytaxoffice.com/wp-content/uploads/2026/03/OFFICIAL-RESULTS-REPUBLICAN-PARTY.pdf",
-      "fact": "March 3, 2026 election page lists as results only 'DEMOCRATIC OFFICIAL RESULTS' and 'REPUBLICAN OFFICIAL RESULTS'. The Republican file: 'Cumulative Results Report MARION COUNTY, TEXAS Official Results PRIMARY ELECTION'; county totals; PDF CreationDate Wed Mar 11 2026, Last-Modified Fri, 27 Mar 2026 21:27:17 GMT. No unofficial or precinct report listed; precinct numbers not published online."
+      "fact": "Rule 43: no election-night file survives. Previous: March 3, 2026 election page lists as results only 'DEMOCRATIC OFFICIAL RESULTS' and 'REPUBLICAN OFFICIAL RESULTS'. The Republican file: 'Cumulative Results Report MARION COUNTY, TEXAS Official Results PRIMARY ELECTION'; county totals; PDF CreationDate Wed Mar 11 2026, Last-Modified Fri, 27 Mar 2026 21:27:17 GMT. No unofficial or precinct report listed; precinct numbers not published online."
     },
     "2026_runoff": {
       "result": "LATER",

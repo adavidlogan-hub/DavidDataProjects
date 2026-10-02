@@ -30,3 +30,8 @@ Issues reported by agents during the full run, kept for the final report.
 - Dead links: Bailey 2024 and primary unofficial files; Briscoe 2024 unofficial file.
 - Cameron and Angelina live results apps show only the current state (vote centers, no history).
 - Two scanner clocks contradict printed times (Armstrong 2024, Brown 2024); noted in the records.
+
+## Verification findings
+- Clarity reporting units are not always voting precincts: Lamar's 2026 runoff units are ballot groups ("Lamar County", "County and Commissioner Pct 2/4"); Bastrop's runoff uses combined polling places ("Poll 1" to "Poll 4"). verifier-1 judged Lamar's runoff LATER on this basis; the disagreement sets Lamar to UNKNOWN. Check 1 counts any <Precinct> element; a future refinement would compare unit names with the county's precinct list.
+- Verifier blind misses (verifier found the research-cited file only on comparison): Carson, Hardin, Live Oak (verifier-2); Freestone, Houston, Bexar 2024 (verifier-1). Corrected under DECISIONS 44 with blind verdicts kept.
+- Research claims a verifier found unsupported: Crosby (runoff file exists), Zapata (2024 file exists), Floyd 2024 (state unofficial results file exists), Dimmit runoff (canvass PDF loads), Roberts primary (scan creation time is on election night).

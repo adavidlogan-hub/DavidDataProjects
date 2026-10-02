@@ -1,7 +1,7 @@
 {
   "county": "Morris",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.morris.tx.us/page/morris.COUNTY Election Information",
@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL over http returned HTTP 403; https works. No Clarity site (elections.json 404). The 'COUNTY Election Information' page lists 'MARCH 3, 2026 PRIMARY ELECTION UNOFFICIAL RESULTS' (scanned Electionware 'Summary Results Report ... UNOFFICIAL RESULTS ALL PRECINCTS', county totals, footer 'Election Summary - 03/03/2026 8:11 PM', scan created 9:17 PM CST, Last-Modified Wed, 04 Mar 2026 14:11:13 GMT = 8:11 AM CST Mar 4), 'MAY 2026 PRIMARY RUN OFF UNOFFICIAL RESULTS' (same report type, county totals, footer 'Election Summary - 05/26/2026 7:46 PM', scan created 8:17 PM CDT, Last-Modified Wed, 27 May 2026 13:22:13 GMT = 8:22 AM CDT May 27) and 'MAY 26 2026 PRIMARY RUNOFF OFFICIAL ELECTION RESULTS' (not opened), plus audit forms. No precinct-level report is listed for either 2026 election. The 2024 general is not listed (page starts at Nov 2025). Footer times read from 45 dpi renders. Check 3 pending for 2024 general: origin/wayback-data not present.",
-  "tag_rationale": "2026 primary and 2026 runoff are both LATER by check 2 (county-total summaries only, posted the next morning; no precinct report), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS; 2024 general is UNDETERMINED.",
+  "notes": "Seed URL over http returned HTTP 403; https works. No Clarity site (elections.json 404). The 'COUNTY Election Information' page lists 'MARCH 3, 2026 PRIMARY ELECTION UNOFFICIAL RESULTS' (scanned Electionware 'Summary Results Report ... UNOFFICIAL RESULTS ALL PRECINCTS', county totals, footer 'Election Summary - 03/03/2026 8:11 PM', scan created 9:17 PM CST, Last-Modified Wed, 04 Mar 2026 14:11:13 GMT = 8:11 AM CST Mar 4), 'MAY 2026 PRIMARY RUN OFF UNOFFICIAL RESULTS' (same report type, county totals, footer 'Election Summary - 05/26/2026 7:46 PM', scan created 8:17 PM CDT, Last-Modified Wed, 27 May 2026 13:22:13 GMT = 8:22 AM CDT May 27) and 'MAY 26 2026 PRIMARY RUNOFF OFFICIAL ELECTION RESULTS' (not opened), plus audit forms. No precinct-level report is listed for either 2026 election. The 2024 general is not listed (page starts at Nov 2025). Footer times read from 45 dpi renders. Check 3 pending for 2024 general: origin/wayback-data not present. Rule 43 applied 2026-10-02 (normalize-2): 2026_primary LATER kept, county_totals_first_seen 2026-03-03 20:11 CT; 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:46 CT.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
@@ -30,20 +30,20 @@
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-03-03 20:11 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.morris.tx.us/upload/page/11264/March 3 2026 Primary Election Unofficial Results0001.pdf",
-      "fact": "'Summary Results Report TX Morris County 260303 Primary 6110 ... UNOFFICIAL RESULTS ALL PRECINCTS', county totals by Absentee / Early Voting / Election Day, 11 pages; Last-Modified Wed, 04 Mar 2026 14:11:13 GMT. No precinct report listed; precinct numbers never published online."
+      "fact": "'Summary Results Report TX Morris County 260303 Primary 6110 ... UNOFFICIAL RESULTS ALL PRECINCTS', county totals by Absentee / Early Voting / Election Day, 11 pages; Last-Modified Wed, 04 Mar 2026 14:11:13 GMT. No precinct report listed; precinct numbers never published online. Rule 43: election-night county-totals file is March 3 2026 Primary Election Unofficial Results0001.pdf, printed footer 'Election Summary - 03/03/2026 8:11 PM' (re-read at 200 dpi) and scan CreationDate Wed Mar 4 03:17:09 2026 UTC (9:17 PM CST Mar 3)."
     },
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-05-26 19:46 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.morris.tx.us/upload/page/11264/May 26 2026 Primary Runoff Unofficial Results0001.pdf",
-      "fact": "'Election Summary Results Report 2026 Primary Runoff Election May 26, 2026 ... UNOFFICIAL RESULTS ALL PRECINCTS', county totals, 3 pages; Last-Modified Wed, 27 May 2026 13:22:13 GMT. No unofficial precinct report listed; only an Official Election Results file after canvass."
+      "fact": "'Election Summary Results Report 2026 Primary Runoff Election May 26, 2026 ... UNOFFICIAL RESULTS ALL PRECINCTS', county totals, 3 pages; Last-Modified Wed, 27 May 2026 13:22:13 GMT. No unofficial precinct report listed; only an Official Election Results file after canvass. Rule 43: election-night county-totals file is May 26 2026 Primary Runoff Unofficial Results0001.pdf, printed footer 'Election Summary - 05/26/2026 7:46 PM' (re-read at 200 dpi) and scan CreationDate Wed May 27 01:17:33 2026 UTC (8:17 PM CDT May 26)."
     }
   },
   "sources": [

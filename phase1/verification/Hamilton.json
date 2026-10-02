@@ -43,5 +43,12 @@
    "what_i_checked": "primary official precinct summary uploaded Mar 16"
   }
  ],
- "written_blind_at_utc": "2026-10-02T16:27:15Z"
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "different: research LATER from the SOS county-total report uploaded May 29 (after election night); under the clarified rule that is not election-night evidence, so verifier UNDETERMINED (research LATER not supported by an election-night file)."
+ }
 }

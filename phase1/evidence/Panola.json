@@ -1,7 +1,7 @@
 {
   "county": "Panola",
   "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "confidence": "low",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.panola.tx.us/1201/Elections",
@@ -13,37 +13,37 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The CivicPlus Elections page has an 'Election Results' tab ('We will have links here when we have the information to post.') listing per election unofficial totals, early totals, reconciliation forms and canvass files. Each unofficial file opened is a scanned Electionware 'Summary Results Report ... UNOFFICIAL RESULTS' with county totals only: 2024 general (DocumentCenter 389, 'TX Panola County 241105 General 6110', 'Election Day Precincts Reporting 19 of 19', footer read as 'Election Summary - 11/05/2024 9:1x PM', scan created Nov 6 03:10 UTC = 9:10 PM CST); 2026 primary ('March 3rd Unofficial Totals', DocumentCenter 1288, footer 'Election Summary - 03/03/2026 9:13 PM', scan created 9:21 PM CST); 2026 runoff ('Unofficial Results', DocumentCenter 1753, footer read as 'Election Summary - 05/26/2026 8:01 PM', scan created 8:37 PM CDT). No precinct-level report is listed for any of them apart from the canvass files ('Rep Canvass', 'Dem Canvass', not opened). The server stamps every response, PDFs included, with the request time as Last-Modified (e.g. Fri, 02 Oct 2026 15:39:29 GMT), so there is no upload-time evidence; confidence is therefore low. DocumentCenter 388 and 390 are May 2024 and March 2024 results (not target elections). Footer times read from 45 dpi renders.",
-  "tag_rationale": "All three elections are LATER by check 2 (election-night printed county-total summaries; no precinct report before the canvass), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because the server gives no upload times.",
+  "notes": "No Clarity site (elections.json 404). The CivicPlus Elections page has an 'Election Results' tab ('We will have links here when we have the information to post.') listing per election unofficial totals, early totals, reconciliation forms and canvass files. Each unofficial file opened is a scanned Electionware 'Summary Results Report ... UNOFFICIAL RESULTS' with county totals only: 2024 general (DocumentCenter 389, 'TX Panola County 241105 General 6110', 'Election Day Precincts Reporting 19 of 19', footer read as 'Election Summary - 11/05/2024 9:1x PM', scan created Nov 6 03:10 UTC = 9:10 PM CST); 2026 primary ('March 3rd Unofficial Totals', DocumentCenter 1288, footer 'Election Summary - 03/03/2026 9:13 PM', scan created 9:21 PM CST); 2026 runoff ('Unofficial Results', DocumentCenter 1753, footer read as 'Election Summary - 05/26/2026 8:01 PM', scan created 8:37 PM CDT). No precinct-level report is listed for any of them apart from the canvass files ('Rep Canvass', 'Dem Canvass', not opened). The server stamps every response, PDFs included, with the request time as Last-Modified (e.g. Fri, 02 Oct 2026 15:39:29 GMT), so there is no upload-time evidence; confidence is therefore low. DocumentCenter 388 and 390 are May 2024 and March 2024 results (not target elections). Footer times read from 45 dpi renders. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER kept, county_totals_first_seen 2024-11-05 21:10 CT; 2026_primary LATER kept, county_totals_first_seen 2026-03-03 21:13 CT; 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 20:37 CT.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-6",
   "method_version": "v2",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2024-11-05 21:10 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.panola.tx.us/DocumentCenter/View/389/Unofficial-Results-PDF",
-      "fact": "'Summary Results Report TX Panola County 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS Panola County', county totals, 'Election Day Precincts Reporting 19 of 19'; scan CreationDate Nov 6 2024 03:10 UTC. No unofficial precinct report listed."
+      "fact": "'Summary Results Report TX Panola County 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS Panola County', county totals, 'Election Day Precincts Reporting 19 of 19'; scan CreationDate Nov 6 2024 03:10 UTC. No unofficial precinct report listed. Rule 43: election-night county-totals file is DocumentCenter/View/389, scan CreationDate Wed Nov 6 03:10:23 2024 UTC (9:10 PM CST Nov 5); printed footer re-read at 200 dpi as 'Election Summary - 11/05/2024 9:19 PM' (tabulator clock ahead of scanner)."
     },
     "2026_primary": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-03-03 21:13 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.panola.tx.us/DocumentCenter/View/1288",
-      "fact": "'March 3rd Unofficial Totals': 'Summary Results Report TX Panola County 260303 Primary 6110 ... UNOFFICIAL RESULTS', county totals, 'Election Day Precincts Reporting 19 of 19', footer 'Election Summary - 03/03/2026 9:13 PM'; scan CreationDate Mar 4 2026 03:21 UTC. Only Rep/Dem Canvas files besides."
+      "fact": "'March 3rd Unofficial Totals': 'Summary Results Report TX Panola County 260303 Primary 6110 ... UNOFFICIAL RESULTS', county totals, 'Election Day Precincts Reporting 19 of 19', footer 'Election Summary - 03/03/2026 9:13 PM'; scan CreationDate Mar 4 2026 03:21 UTC. Only Rep/Dem Canvas files besides. Rule 43: election-night county-totals file is DocumentCenter/View/1288, printed footer 'Election Summary - 03/03/2026 9:13 PM' (re-read at 200 dpi) and scan CreationDate Wed Mar 4 03:21:41 2026 UTC (9:21 PM CST Mar 3)."
     },
     "2026_runoff": {
       "result": "LATER",
       "check": "2",
-      "county_totals_first_seen": "",
+      "county_totals_first_seen": "2026-05-26 20:37 CT",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.panola.tx.us/DocumentCenter/View/1753",
-      "fact": "'Unofficial Results': 'Summary Results Report TX Panola County 260526 Primary Runoff 6110 ... UNOFFICIAL RESULTS', county totals, 'Election Day Precincts Reporting 18 of 19'; scan CreationDate May 27 2026 01:37 UTC. Only Rep/Dem Canvass files besides."
+      "fact": "'Unofficial Results': 'Summary Results Report TX Panola County 260526 Primary Runoff 6110 ... UNOFFICIAL RESULTS', county totals, 'Election Day Precincts Reporting 18 of 19'; scan CreationDate May 27 2026 01:37 UTC. Only Rep/Dem Canvass files besides. Rule 43: election-night county-totals file is DocumentCenter/View/1753, scan CreationDate Wed May 27 01:37:52 2026 UTC (8:37 PM CDT May 26); printed footer re-read at 200 dpi as 'Election Summary - 05/26/2026 9:01 PM' (earlier read as 8:01 PM; tabulator clock ahead of scanner)."
     }
   },
   "sources": [

@@ -1,6 +1,6 @@
 {
   "county": "Limestone",
-  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "tag": "UNKNOWN",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
@@ -13,28 +13,28 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL loads; Elections page lists results PDFs (some on newtools.cira.state.tx.us) and an 'ARCHIVED ELECTION RESULTS' SharePoint folder (colimestone.sharepoint.com, not read). No Clarity site (elections.json 404). For 2024 and the 2026 primary only post-election (canvass-period) summary and precinct reports are listed; for the 2026 runoff no results report is listed. In earlier elections (March and May 2024) the county posted 'Final Unofficial' files, so election-night files may have existed and been replaced; the current listing cannot show that, so check 3 should confirm. Last-Modified differs per file.",
-  "tag_rationale": "2024 general and 2026 primary are LATER by check 2 (only post-canvass precinct reports online), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; there is no election-night printed time or upload, so confidence is low.",
+  "notes": "Seed URL loads; Elections page lists results PDFs (some on newtools.cira.state.tx.us) and an 'ARCHIVED ELECTION RESULTS' SharePoint folder (colimestone.sharepoint.com, not read). No Clarity site (elections.json 404). For 2024 and the 2026 primary only post-election (canvass-period) summary and precinct reports are listed; for the 2026 runoff no results report is listed. In earlier elections (March and May 2024) the county posted 'Final Unofficial' files, so election-night files may have existed and been replaced; the current listing cannot show that, so check 3 should confirm. Last-Modified differs per file. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED; 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-5",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://newtools.cira.state.tx.us/upload/page/5631/241105%20Precinct.pdf",
-      "fact": "Elections page lists for Nov 5 2024 only 'Precinct Results' (241105 Precinct.pdf, 42 pages, CreationDate Tue Nov 12 10:24:23 2024 UTC, ModDate Nov 13) and 'Summary' (241105 Summary.pdf, CreationDate Nov 12 2024); both Last-Modified Fri, 15 Nov 2024 14:33:50 GMT. No election-night file listed; precinct numbers appear online only after the canvass period."
+      "fact": "Rule 43: no election-night file survives. Previous: Elections page lists for Nov 5 2024 only 'Precinct Results' (241105 Precinct.pdf, 42 pages, CreationDate Tue Nov 12 10:24:23 2024 UTC, ModDate Nov 13) and 'Summary' (241105 Summary.pdf, CreationDate Nov 12 2024); both Last-Modified Fri, 15 Nov 2024 14:33:50 GMT. No election-night file listed; precinct numbers appear online only after the canvass period."
     },
     "2026_primary": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "0",
       "evidence_url": "https://www.co.limestone.tx.us/upload/page/5631/2025%20-%20CURRENT/CANVASS%20-%20REP%20PRECINCT%20260303.pdf",
-      "fact": "Elections page lists for March 3, 2026 only canvass reports: 'Final Results (summary)', 'Final Results (precinct)' (CANVASS - REP PRECINCT 260303.pdf: 'PRECINCT RESULTS REPORT OFFICIAL RESULTS - CANVASS REPUBLICAN PRIMARY ELECTION March 3, 2026 ... Precinct 101'; CreationDate Tue Mar 10 16:53:21 2026 UTC; Last-Modified Tue, 17 Mar 2026 16:45:50 GMT), box-by-box reports and reconciliation. No unofficial or election-night results listed."
+      "fact": "Rule 43: no election-night file survives. Previous: Elections page lists for March 3, 2026 only canvass reports: 'Final Results (summary)', 'Final Results (precinct)' (CANVASS - REP PRECINCT 260303.pdf: 'PRECINCT RESULTS REPORT OFFICIAL RESULTS - CANVASS REPUBLICAN PRIMARY ELECTION March 3, 2026 ... Precinct 101'; CreationDate Tue Mar 10 16:53:21 2026 UTC; Last-Modified Tue, 17 Mar 2026 16:45:50 GMT), box-by-box reports and reconciliation. No unofficial or election-night results listed."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",

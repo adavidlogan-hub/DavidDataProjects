@@ -13,8 +13,8 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https; all results are on page/shelby.Elections. No Clarity site (elections.json 404). Server Last-Modified values differ by file and generally follow PDF creation times, so upload times are usable. The Electionware footer clock appears to run ahead of the server clock (the primary summary footer says 11:00 PM but the file was on the server at 10:36 PM CST; the precinct report footer says 6:29 PM Mar 4 but Last-Modified is 4:11 PM CST Mar 4); either way the primary precinct report is from Mar 4. Confidence med follows the pilot practice (Hudspeth) where at least one deciding election has both a printed run time and an election-night upload (the 2026 primary); the 2024 and runoff uploads are next-day.",
-  "tag_rationale": "All three elections are LATER by check 2 (county totals only on or after election night, precinct reports the next day or never), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the 2026 primary night report has a printed run time and an election-night upload time.",
+  "notes": "Seed URL works over https; all results are on page/shelby.Elections. No Clarity site (elections.json 404). Server Last-Modified values differ by file and generally follow PDF creation times, so upload times are usable. The Electionware footer clock appears to run ahead of the server clock (the primary summary footer says 11:00 PM but the file was on the server at 10:36 PM CST; the precinct report footer says 6:29 PM Mar 4 but Last-Modified is 4:11 PM CST Mar 4); either way the primary precinct report is from Mar 4. Confidence med follows the pilot practice (Hudspeth) where at least one deciding election has both a printed run time and an election-night upload (the 2026 primary); the 2024 and runoff uploads are next-day. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary LATER, 2026_runoff UNDETERMINED. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
@@ -37,13 +37,13 @@
       "fact": "'Unofficial Results of the March 3, 2026 Primary' = scanned Electionware 'Election Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Shelby County' (county totals; 'Election Day Precincts Reporting 14 of 14'), footer 'Election Summary - 03/03/2026 11:00 PM'; Last-Modified Wed, 04 Mar 2026 04:36:52 GMT (10:36 PM CST Mar 3). Precinct numbers: 'March 2026 Primary Precinct by Precinct Report - Unofficial Results' = 'Precinct Summary Results Report UNOFFICIAL RESULTS ... PCT 1N ...', footer 'Precinct Summary - 03/04/2026 6:29 PM', Last-Modified Wed, 04 Mar 2026 22:11:44 GMT (4:11 PM CST Mar 4), after election night."
     },
     "2026_runoff": {
-      "result": "LATER",
-      "check": "2",
+      "result": "UNDETERMINED",
+      "check": "none",
       "county_totals_first_seen": "",
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.shelby.tx.us/upload/page/2753/2026NewFolder/Pct by Pct Unofficial Results.pdf",
-      "fact": "'May 2026 Primary Runoff Precinct by Precinct Report - Unofficial' = scanned 28-page file, PDF CreationDate Wed May 27 17:16:32 2026 UTC, Last-Modified Thu, 28 May 2026 16:12:17 GMT (11:12 AM CDT May 28). No other runoff results file is posted; precinct numbers appeared after election night. What, if anything, was posted on election night itself is not shown."
+      "fact": "Rule 43: no election-night file survives. Previous: 'May 2026 Primary Runoff Precinct by Precinct Report - Unofficial' = scanned 28-page file, PDF CreationDate Wed May 27 17:16:32 2026 UTC, Last-Modified Thu, 28 May 2026 16:12:17 GMT (11:12 AM CDT May 28). No other runoff results file is posted; precinct numbers appeared after election night. What, if anything, was posted on election night itself is not shown."
     }
   },
   "sources": [
