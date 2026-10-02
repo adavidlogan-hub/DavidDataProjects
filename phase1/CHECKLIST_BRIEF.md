@@ -48,7 +48,7 @@ Map LIVE to LIVE_PRECINCT, END to PRECINCT_END_OF_NIGHT, LATER to COUNTY_ONLY_PR
 - If two or three elections share the same result (ignoring UNDETERMINED), that is the tag.
 - If exactly one election is determined, use it, confidence low.
 - Otherwise UNKNOWN.
-Confidence: high when the deciding elections were settled by check 1 or by check 3 snapshot content; med when settled by check 2 with both a printed run time and a server upload time on election night; low otherwise.
+Confidence is computed by phase1.schema.compute_confidence (DECISIONS 40), never chosen: low when the tag is UNKNOWN or only one election decides it; high when two or more deciding elections were all settled by check 1 or by check 3 content; med when they include a check 2 result, a check 4 result, or the live precinct view rule.
 
 ## Output: phase1/evidence/<County_with_underscores>.json
 All of these keys (strings; empty string when not applicable):

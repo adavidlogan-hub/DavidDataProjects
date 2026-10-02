@@ -1,20 +1,20 @@
 {
   "county": "Taylor",
-  "tag": "UNKNOWN",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.taylorcounty.texas.gov/214/Current-Election",
-  "platform": "unknown",
+  "platform": "county_pdfs",
   "host": "www.taylorcounty.texas.gov",
-  "evidence_url": "",
+  "evidence_url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5017",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The seed site https://www.taylorcounty.texas.gov/ and the results pages found by one web search (214/Current-Election, 549/Archived-Election-Results, CivicPlus) were refused by the fetch module as robots_disallowed_or_unreachable; the cached robots.txt check shows 'URLError: [Errno 104] Connection reset by peer'. Per the brief this was accepted and not worked around, so no county-posted reports could be read. Check 3 pending (wayback-data branch not found on origin).",
-  "tag_rationale": "All three elections are UNDETERMINED (no vendor log and the county site was unreachable, check 3 pending), so by rule the tag is UNKNOWN.",
+  "notes": "No Clarity site (elections.json 404). The seed site https://www.taylorcounty.texas.gov/ and the results pages found by one web search (214/Current-Election, 549/Archived-Election-Results, CivicPlus) were refused by the fetch module as robots_disallowed_or_unreachable; the cached robots.txt check shows 'URLError: [Errno 104] Connection reset by peer'. Per the brief this was accepted and not worked around, so no county-posted reports could be read. Check 3 pending (wayback-data branch not found on origin). Targeted pass 3 2026-10-02 (targeted3-C): the county site now loads through the fetch module (earlier robots.txt resets are gone). 2026_primary changed UNDETERMINED to LATER (check 2). The Current Election page (CivicPlus) lists, for 'JOINT PRIMARY ELECTION March 3, 2026', every release: 'Early Voting Results' (DocumentCenter/View/5012 Dem, 5013 Rep), '1st Release Election Day Results' (5015, 5014), 'Final Unofficial Results' (5016, 5017), 'OFFICIAL Results' (5038, 5039) and 'OFFICIAL Precinct Report' (5042, 5043). The unofficial files are scanned printouts (Xerox AltaLink) of the county-level 'Republican Party - Cumulative Report' / 'Democratic Party - Cumulative Report' with printed Run Time 7:14 PM, 9:02 PM and 10:35 PM on 03/03/2026 (scan CreationDate 2026-03-04 01:25, 03:10 and 04:47 UTC, that is 7:25 PM, 9:10 PM and 10:47 PM CST); they carry no per-precinct numbers. The only precinct-level report is 'OFFICIAL Precinct Report', printed Run Date 03/11/2026 3:47 PM (PDF CreationDate 2026-03-11 20:48 UTC), after canvass. DocumentCenter sends no Last-Modified header, so there is no upload time; the printed run times decide under rule 43. Caveat: the page today could omit an election-night precinct file that was later removed, but it keeps every early and unofficial release, which supports the reading. 2024_general: no file for the Nov 5 2024 general is listed on the Current or Archived Election Results pages (archive skips from 'March 5, 2024' primaries to 2025; a web search for a 2024 general results document found only DocumentCenter/View/4451, which is the March 5, 2024 Republican primary official cumulative report). 2026_runoff: no May 26 2026 runoff results are listed on any Taylor elections page; one web search found none. Both stay UNDETERMINED. Wayback harvest for taylorcounty.texas.gov failed (robots_disallowed_or_unreachable); no targeted archive or sweep files for Taylor on the wayback-data branch (sweep pending). Platform set to county_pdfs (CivicPlus DocumentCenter PDFs).",
+  "tag_rationale": "Only one election is determined: 2026_primary is LATER (check 2: county-totals unofficial reports printed 7:14 PM to 10:35 PM on election night, precinct report only official on 03/11/2026), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
@@ -28,13 +28,13 @@
       "fact": "County site unreachable from the fetch module (robots.txt request reset by peer), so check 2 could not be done; no Clarity site. Check 3 pending."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 19:14 CT",
       "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "County site unreachable from the fetch module (robots.txt request reset by peer), so check 2 could not be done; no Clarity site. Check 3 pending."
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5017",
+      "fact": "Current Election page lists for the March 3, 2026 primary 'Early Voting Results', '1st Release Election Day Results' and 'Final Unofficial Results' (county-level 'Republican Party - Cumulative Report', printed Run Time 7:14 PM, 9:02 PM and 10:35 PM, Run Date 03/03/2026, 'Precincts Reporting 68 of 68 = 100.00%' on the final), with no per-precinct numbers; the only precinct report is 'OFFICIAL Precinct Report', Run Date 03/11/2026 3:47 PM. No Last-Modified header (no upload time); printed run times decide (rule 43)."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",
@@ -53,6 +53,62 @@
       "content_hash": "30f6a40a6a745380177b0eb1e306860b58eba0c301200dccc0d48703b8372b80",
       "quote": "Current Election https://www.taylorcounty.texas.gov/214/Current-Election; Archived Election Results https://www.taylorcounty.texas.gov/549/Archived-Election-Results",
       "supports": "Locates the county results pages (search text is not evidence)"
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/214/Current-Election",
+      "via": "fetch_module",
+      "content_hash": "934f46afbd01df475e8a3b3ed126b926dc746ddea23712aa4427a2e46f636044",
+      "quote": "JOINT PRIMARY ELECTION March 3, 2026 Early Voting Results - Resultados de la Votacion Anticipada [5012] Democratic Primary Election [5013] Republican Primary Election 1st Release Election Day Results [5015] Democratic Primary Election [5014] Republican Primary Election Final Unofficial Results - Resultados Finales no Oficiales [5016] Democratic Primary Election [5017] Republican Primary Election OFFICIAL Results [5038] [5039] OFFICIAL Precinct Report - Resultados OFICIALES por Precinto [5042] Democratic Primary Election [5043] Republican Primary Election (accents removed)",
+      "supports": "2026_primary release list: early, first election-day release and final unofficial are separate files; the only precinct report is labeled OFFICIAL"
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5013",
+      "via": "fetch_module",
+      "content_hash": "5dd3021daf93038a577eecd80731ad3df8b17727d3904ddb6b3b28c1e31c3b7e",
+      "quote": "Republican Party - Cumulative Report / 2026 Joint Primary Election / Run Time 7:14 PM / Run Date 03/03/2026 (scanned image, read visually; PDF CreationDate Wed Mar 4 01:25:10 2026 UTC; no Last-Modified header)",
+      "supports": "2026_primary early-vote county totals printed on election night"
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5014",
+      "via": "fetch_module",
+      "content_hash": "f6c61e9dbc846e486669a5b5135fa7e665005b29e04a54c6e9e39ed6c9bd92fa",
+      "quote": "handwritten '1st Release'; Republican Party - Cumulative Report / Run Time 9:02 PM / Run Date 03/03/2026; columns Absentee Voting, Early Voting, Election Day Voting, Total; county totals only (PDF CreationDate Wed Mar 4 03:10:21 2026 UTC)",
+      "supports": "2026_primary county totals including election-day votes, printed 9:02 PM election night, no precinct rows"
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5017",
+      "via": "fetch_module",
+      "content_hash": "72040fc58f26d29b12dbb576ee5353562fef693bf2a4e691b76c75a1f553f735",
+      "quote": "handwritten 'Final'; Republican Party - Cumulative Report / Taylor County / 2026 Joint Primary Election / Run Time 10:35 PM / Run Date 03/03/2026 / Unofficial Results / Precincts Reporting 68 of 68 = 100.00%; county totals only (PDF CreationDate Wed Mar 4 04:47:27 2026 UTC)",
+      "supports": "2026_primary final unofficial county totals printed 10:35 PM election night"
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5016",
+      "via": "fetch_module",
+      "content_hash": "e8887dfb46d4af97b9ff4f85fda92d2e6348aa6e855635b4606eec046a3bc82d",
+      "quote": "handwritten 'Final'; Democratic Party - Cumulative Report / 2026 Joint Primary Election / Unofficial Results / Run Date 03/03/2026; county totals only (PDF CreationDate Wed Mar 4 04:47:07 2026 UTC)",
+      "supports": "2026_primary Democratic final unofficial is also county totals only"
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5043",
+      "via": "fetch_module",
+      "content_hash": "abd8deb0feadd62ab76d0558f0583c36c1a2213ce2bbcf0aaf908cab6e0b7efe",
+      "quote": "Republican Part Precinct Report ... Official Results ... Run Time 3:47 PM ... Run Date 03/11/2026 ... 101 - 0 ... 590 of 3,724 registered voters (PDF CreationDate Wed Mar 11 20:48:14 2026 UTC)",
+      "supports": "2026_primary precinct-level numbers appear only in the official report printed after canvass"
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/549/Archived-Election-Results",
+      "via": "fetch_module",
+      "content_hash": "446ce906d80b7bde9097745cc6aced4e5349cfbf32afaa15fa94c655b692e894",
+      "quote": "OFFICIAL RESULTS - PAST ELECTIONS 2025 ... 2024 [/DocumentCenter/View/4451] March 5, 2024 - Republican Primary [/DocumentCenter/View/4452] March 5, 2024 - Democratic Primary ... 2023",
+      "supports": "no Nov 5 2024 general and no May 26 2026 runoff results are listed (2024_general and 2026_runoff stay UNDETERMINED)"
+    },
+    {
+      "url": "websearch:?q=taylor%20county%20texas%20november%205%202024%20general%20election%20unofficial%20results%20cumulative%20report%20taylorcounty.texas.gov%20documentcenter",
+      "via": "websearch",
+      "content_hash": "755ba8f9f71c371bae3fade589acd90dd2523edd9d8f12117fe82aa5f5455b3f",
+      "quote": "taylorcounty.texas.gov/DocumentCenter/View/4451; DocumentCenter/View/4877",
+      "supports": "locating only; 4451 turned out to be the March 2024 primary"
     }
   ]
 }
