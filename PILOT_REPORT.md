@@ -139,3 +139,21 @@ Share of the 18,623,931 registered voters (Nov 2024) living in counties tagged L
 Dead ends: Smith's "Final Report of the Night" (Laserfiche) was replaced and no longer exists; Collin's 2026 runoff precinct report was never archived; Williamson's only election-night capture shows zero ballots counted; Hays and Lubbock have no election-night captures; the Memento aggregator disallows crawlers and archive.today has nothing in the windows.
 
 Still running: the main Wayback harvest (batches 4 and 5, plus Young and Williamson) on GitHub Actions; check 3 for the remaining undetermined elections follows when it lands.
+
+## Addendum: targeted pass 3, as of 2026-10-03
+
+Eleven research agents covered the 28 largest UNKNOWN counties and the 68 smaller ones; five verifier instances re-checked every changed county blind (all agree; DECISIONS 60 to 68).
+
+| Tag | Counties |
+|---|---|
+| LIVE_PRECINCT | 26 |
+| PRECINCT_END_OF_NIGHT | 27 |
+| COUNTY_ONLY_PRECINCT_AT_CANVASS | 126 |
+| NO_SITE_OR_SOS_ONLY | 1 |
+| UNKNOWN | 74 |
+
+Share of registered voters: LIVE_PRECINCT 65.5 percent; LIVE_PRECINCT or PRECINCT_END_OF_NIGHT 72.8 percent; UNKNOWN 12.6 percent.
+
+New sources that worked: the state-hosted copies of small county sites (newtools.cira.state.tx.us), which keep original upload times; WordPress media lists (/wp-json/wp/v2/media or /index.php?rest_route=/wp/v2/media), which are complete upload logs; scanned reports read from rendered page images; Wayback records of original Last-Modified headers (Collin).
+
+Rule clarified: DECISIONS 67 (one reading of rule 43 for all counties). Still running: the archived-file sweep for the 28 largest counties and the main Wayback harvest (re-queued after the sweep).

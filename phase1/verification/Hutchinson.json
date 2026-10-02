@@ -1,61 +1,177 @@
 {
   "county": "Hutchinson",
-  "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+  "reason_selected": "tag changed in targeted pass 3",
   "verifier_tag": "PRECINCT_END_OF_NIGHT",
-  "verifier_confidence": "low",
+  "verifier_confidence": "med",
   "elections": {
     "2024_general": {
       "result": "END",
       "check": "2",
-      "fact": "2024 General section: 'Precint By Precinct Unofficial Results' (scan read as image): 'Summary Results Report TX Hutchinson County November 5, 2024 ... 2024 GENERAL UNOFFICIAL RESULTS ... Precinct 11', President Trump/Vance Election Day 237, footer 'Precinct Summary - 11/05/2024 9:55 PM'; scan CreationDate Nov 6 04:01 UTC (10:01 PM CST). One unofficial precinct file. Last-Modified is Wed, 12 Aug 2026 (site media re-save), so no election-night upload time."
+      "fact": "Election Information and Results page, 2024 General: 'Precint By Precinct Unofficial Results' (48 pages, 'Summary Results Report ... 2024 GENERAL UNOFFICIAL RESULTS', 'Precinct 11', per-precinct candidate votes with Election Day column, footer 'Precinct Summary - 11/05/2024 9:55 PM', scan CreationDate 2024-11-05T22:01:17-06:00) and 'General Unofficial Results' (footer 'Election Summary - 11/05/2024 9:53 PM', Election Day Precincts Reporting 8 of 8). Server Last-Modified on every file of this Umbraco site is an August 2026 bulk re-upload (2024 general files 12 Aug 2026 15:38:27-28 GMT, 2026 primary files 10 Aug 2026 19:06:15 GMT, March 2024 official files 12 Aug 2026 16:37:56 GMT, precinct map 4 Aug 2026), so it carries no information about original posting; treated as no upload time available (verifier judgment, flagged). Rule 47: no upload time, printed run time on election night: END (one precinct report)."
     },
     "2026_primary": {
-      "result": "END",
+      "result": "LATER",
       "check": "2",
-      "fact": "'Unofficial Results Precinct by Precinct Republican': 'Summary Results Report ELECTION DAY UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Hutchinson County Precinct 11', Ken Paxton 150 (Absentee 3, Early 91, Election Day 56); footer 'PRECINCT BY PRECINCT REPULICAN - 03/03/2026 10:08 PM'; PDF CreationDate Mar 4 04:11 UTC (10:11 PM CST). Unofficial summary printed 10:13 PM, 'Election Day Precincts Reporting 8 of 8'. One unofficial precinct file per party. Last-Modified Mon, 10 Aug 2026 (no election-night upload time)."
+      "fact": "Corrected after the blind pass (DECISIONS 44) from the file research cites: county's earlier CIRA election page newtools.cira.state.tx.us/page/hutchinson.ElectionInformation; 'Voter Turnout/Precinct by Precinct Republican.pdf' (byte-identical to the current copy, hash 4c698052, printed 10:08 PM) has Last-Modified Wed, 04 Mar 2026 15:10:14 GMT (9:10 AM CST Mar 4) and the Democratic one 15:10:20 GMT; 'Unofficial Summary Republican' (hash 2a7ed0b4, county totals printed 10:13 PM) has Last-Modified Wed, 04 Mar 2026 04:29:33 GMT (10:29 PM CST Mar 3). County totals on election night, the only precinct reports uploaded the next morning: LATER (DECISIONS 67)."
     },
     "2026_runoff": {
       "result": "END",
       "check": "2",
-      "fact": "'Precinct by Precinct Results Republican' (scan read as image): 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL REPUBLICAN RESULTS ... Precinct 11', REP US Senator Ken Paxton Election Day 50, John Cornyn 32; footer 'UNOFFICIAL REPUBLICAN RESULTS - 05/26/2026 9:31 PM'; scan CreationDate May 27 02:47 UTC (9:47 PM CDT). One unofficial precinct file per party. Last-Modified Mon, 10 Aug 2026."
+      "fact": "'Precinct by Precinct Results Republican' (scan, 'UNOFFICIAL REPUBLICAN RESULTS', Precinct 11 Election Day votes, footer 'UNOFFICIAL REPUBLICAN RESULTS - 05/26/2026 9:31 PM', scan CreationDate 2026-05-26T20:47:22-06:00 = 9:47 PM CDT); Democratic version scanned 20:46:35-06:00. The posted unofficial summary is a later update (footer 'Election Summary - 06/02/2026 8:34 AM'). Server Last-Modified on every file of this Umbraco site is an August 2026 bulk re-upload (2024 general files 12 Aug 2026 15:38:27-28 GMT, 2026 primary files 10 Aug 2026 19:06:15 GMT, March 2024 official files 12 Aug 2026 16:37:56 GMT, precinct map 4 Aug 2026), so it carries no information about original posting; treated as no upload time available (verifier judgment, flagged). END by rule 47."
     }
   },
-  "rationale": "All three elections END by check 2 (one unofficial precinct-by-precinct report with election-day votes, printed and scanned on election night), so PRECINCT_END_OF_NIGHT. Low because the server's Last-Modified dates are August 2026 re-saves, so there is no election-night upload time.",
+  "rationale": "Corrected per DECISIONS 44 after opening the CIRA copies research cites (original upload times): 2024 general END (precinct report uploaded 10:27 PM CST), 2026 runoff END (uploaded 9:48 PM CDT), 2026 primary LATER (summary uploaded 10:29 PM CST, precinct reports 9:10 AM next day). Two END elections: PRECINCT_END_OF_NIGHT, med. Blind verdict (END x3 on printed times) kept in blind_verdict.",
   "sources": [
     {
       "url": "https://www.co.hutchinson.tx.us/county-information/election-information/election-information-and-results/",
-      "what_i_checked": "per-election result sections",
-      "content_hash": "bbc6d2a9000b3270aade00464356735bd635c98f2d905851fbc2c28d6e4d1f5f"
+      "content_hash": "bbc6d2a9000b3270aade00464356735bd635c98f2d905851fbc2c28d6e4d1f5f",
+      "what_i_checked": "Lists unofficial summary and precinct-by-precinct reports for all three elections"
+    },
+    {
+      "url": "https://www.co.hutchinson.tx.us/county-information/election-information/previous-election-results/",
+      "content_hash": "28c03353c053cfec976ae5cbb989ba2b71e5cab3bf30e18efbedc1b4e04b9204",
+      "what_i_checked": "Older files; their Last-Modified also Aug 2026 (migration)"
     },
     {
       "url": "https://www.co.hutchinson.tx.us/media/q2zdxmw0/2024-general-precint-by-precinct-unofficial-results.pdf",
-      "what_i_checked": "2024 unofficial precinct report printed 9:55 PM",
-      "content_hash": "2b0536772704d26b0a996b9e4737b868df43ebedd73da4e35fbbff64a50d0205"
+      "content_hash": "2b0536772704d26b0a996b9e4737b868df43ebedd73da4e35fbbff64a50d0205",
+      "what_i_checked": "Precinct Summary 11/05/2024 9:55 PM; CreationDate 2024-11-05T22:01:17-06:00; LM 2026-08-12"
+    },
+    {
+      "url": "https://www.co.hutchinson.tx.us/media/ston3ymd/2024-general-unofficial-results.pdf",
+      "content_hash": "cec198ca0a3a81f3fc15bb58144f3a30376c6354f5cf8f32e51a06018cfa9a7f",
+      "what_i_checked": "Election Summary 11/05/2024 9:53 PM"
     },
     {
       "url": "https://www.co.hutchinson.tx.us/media/uk0je5o1/precinct-by-precinct-republican.pdf",
-      "what_i_checked": "primary unofficial precinct report printed 10:08 PM with Election Day column",
-      "content_hash": "4c698052d8bfc53968e195c0d59cef4f10d369a1b520c4dec20f6e61755f3992"
+      "content_hash": "4c698052d8bfc53968e195c0d59cef4f10d369a1b520c4dec20f6e61755f3992",
+      "what_i_checked": "Primary precinct report 03/03/2026 10:08 PM; LM 2026-08-10"
+    },
+    {
+      "url": "https://www.co.hutchinson.tx.us/media/uvxa0mxp/precinct-by-precinct-democrat.pdf",
+      "content_hash": "b41a85342c056d71ae4a1c6999d301ccd77d3bea89fdf58ba9a9f79b38a26986",
+      "what_i_checked": "Primary precinct report 03/03/2026 10:11 PM"
     },
     {
       "url": "https://www.co.hutchinson.tx.us/media/twsjt1tb/unofficial-summary-republican.pdf",
-      "what_i_checked": "primary unofficial summary printed 10:13 PM, 8 of 8",
-      "content_hash": "2a7ed0b4cf139671de9005e0cfd3d317cf55ce90a97a44a31a732804cf5cd375"
+      "content_hash": "2a7ed0b4cf139671de9005e0cfd3d317cf55ce90a97a44a31a732804cf5cd375",
+      "what_i_checked": "Primary summary 10:13 PM"
     },
     {
       "url": "https://www.co.hutchinson.tx.us/media/1p3coyq3/precinct-by-precinct-republican.pdf",
-      "what_i_checked": "runoff unofficial precinct report printed 9:31 PM",
-      "content_hash": "3a7ca88674949afbce40818486f3468eedf913d5e4351090231ba28b2c279612"
+      "content_hash": "3a7ca88674949afbce40818486f3468eedf913d5e4351090231ba28b2c279612",
+      "what_i_checked": "Runoff precinct report 05/26/2026 9:31 PM; scan 20:47:22-06:00"
+    },
+    {
+      "url": "https://www.co.hutchinson.tx.us/media/h4eaghqa/unofficial-results-republican.pdf",
+      "content_hash": "d04a387cac37841c913c8dbb366101bda9b48c3151380e81c1f2eb5fd31d866a",
+      "what_i_checked": "Runoff summary dated 06/02/2026 8:34 AM"
+    },
+    {
+      "url": "https://www.co.hutchinson.tx.us/media/kjwnc4zv/2024-march-republican-official-results.pdf",
+      "content_hash": "6c509fae0c0c3a2684ebde67e04b4aafd8acfa3ce49c0c0debd405a2e9bd3f69",
+      "what_i_checked": "March 2024 file with LM 12 Aug 2026 (shows migration)"
     }
   ],
-  "written_blind_at_utc": "2026-10-02T16:20:52Z",
+  "written_blind_at_utc": "2026-10-02T22:58:45Z",
+  "previous_verification": {
+    "county": "Hutchinson",
+    "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+    "verifier_tag": "PRECINCT_END_OF_NIGHT",
+    "verifier_confidence": "low",
+    "elections": {
+      "2024_general": {
+        "result": "END",
+        "check": "2",
+        "fact": "2024 General section: 'Precint By Precinct Unofficial Results' (scan read as image): 'Summary Results Report TX Hutchinson County November 5, 2024 ... 2024 GENERAL UNOFFICIAL RESULTS ... Precinct 11', President Trump/Vance Election Day 237, footer 'Precinct Summary - 11/05/2024 9:55 PM'; scan CreationDate Nov 6 04:01 UTC (10:01 PM CST). One unofficial precinct file. Last-Modified is Wed, 12 Aug 2026 (site media re-save), so no election-night upload time."
+      },
+      "2026_primary": {
+        "result": "END",
+        "check": "2",
+        "fact": "'Unofficial Results Precinct by Precinct Republican': 'Summary Results Report ELECTION DAY UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Hutchinson County Precinct 11', Ken Paxton 150 (Absentee 3, Early 91, Election Day 56); footer 'PRECINCT BY PRECINCT REPULICAN - 03/03/2026 10:08 PM'; PDF CreationDate Mar 4 04:11 UTC (10:11 PM CST). Unofficial summary printed 10:13 PM, 'Election Day Precincts Reporting 8 of 8'. One unofficial precinct file per party. Last-Modified Mon, 10 Aug 2026 (no election-night upload time)."
+      },
+      "2026_runoff": {
+        "result": "END",
+        "check": "2",
+        "fact": "'Precinct by Precinct Results Republican' (scan read as image): 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL REPUBLICAN RESULTS ... Precinct 11', REP US Senator Ken Paxton Election Day 50, John Cornyn 32; footer 'UNOFFICIAL REPUBLICAN RESULTS - 05/26/2026 9:31 PM'; scan CreationDate May 27 02:47 UTC (9:47 PM CDT). One unofficial precinct file per party. Last-Modified Mon, 10 Aug 2026."
+      }
+    },
+    "rationale": "All three elections END by check 2 (one unofficial precinct-by-precinct report with election-day votes, printed and scanned on election night), so PRECINCT_END_OF_NIGHT. Low because the server's Last-Modified dates are August 2026 re-saves, so there is no election-night upload time.",
+    "sources": [
+      {
+        "url": "https://www.co.hutchinson.tx.us/county-information/election-information/election-information-and-results/",
+        "what_i_checked": "per-election result sections",
+        "content_hash": "bbc6d2a9000b3270aade00464356735bd635c98f2d905851fbc2c28d6e4d1f5f"
+      },
+      {
+        "url": "https://www.co.hutchinson.tx.us/media/q2zdxmw0/2024-general-precint-by-precinct-unofficial-results.pdf",
+        "what_i_checked": "2024 unofficial precinct report printed 9:55 PM",
+        "content_hash": "2b0536772704d26b0a996b9e4737b868df43ebedd73da4e35fbbff64a50d0205"
+      },
+      {
+        "url": "https://www.co.hutchinson.tx.us/media/uk0je5o1/precinct-by-precinct-republican.pdf",
+        "what_i_checked": "primary unofficial precinct report printed 10:08 PM with Election Day column",
+        "content_hash": "4c698052d8bfc53968e195c0d59cef4f10d369a1b520c4dec20f6e61755f3992"
+      },
+      {
+        "url": "https://www.co.hutchinson.tx.us/media/twsjt1tb/unofficial-summary-republican.pdf",
+        "what_i_checked": "primary unofficial summary printed 10:13 PM, 8 of 8",
+        "content_hash": "2a7ed0b4cf139671de9005e0cfd3d317cf55ce90a97a44a31a732804cf5cd375"
+      },
+      {
+        "url": "https://www.co.hutchinson.tx.us/media/1p3coyq3/precinct-by-precinct-republican.pdf",
+        "what_i_checked": "runoff unofficial precinct report printed 9:31 PM",
+        "content_hash": "3a7ca88674949afbce40818486f3468eedf913d5e4351090231ba28b2c279612"
+      }
+    ],
+    "written_blind_at_utc": "2026-10-02T16:20:52Z",
+    "research_tag": "PRECINCT_END_OF_NIGHT",
+    "agree": true,
+    "comparison_notes": {
+      "2024_general": "same (END, check 2). Both: unofficial precinct report printed 9:55 PM, scan 04:01 UTC Nov 6, Last-Modified Aug 2026.",
+      "2026_primary": "same (END, check 2). Both: precinct report printed 10:08 PM with Election Day column, CreationDate 04:11 UTC.",
+      "2026_runoff": "same (END, check 2). Both: unofficial precinct report printed 9:31 PM, scan 02:47 UTC May 27.",
+      "unsupported_or_unchecked": "None found. Both rest on printed times only (no election-night upload evidence), so whether these files were posted on election night rather than later is not shown."
+    },
+    "compared_at_utc": "2026-10-02T16:20:58Z"
+  },
+  "blind_verdict": {
+    "verifier_tag": "PRECINCT_END_OF_NIGHT",
+    "verifier_confidence": "med",
+    "elections": {
+      "2024_general": {
+        "result": "END",
+        "check": "2",
+        "fact": "Election Information and Results page, 2024 General: 'Precint By Precinct Unofficial Results' (48 pages, 'Summary Results Report ... 2024 GENERAL UNOFFICIAL RESULTS', 'Precinct 11', per-precinct candidate votes with Election Day column, footer 'Precinct Summary - 11/05/2024 9:55 PM', scan CreationDate 2024-11-05T22:01:17-06:00) and 'General Unofficial Results' (footer 'Election Summary - 11/05/2024 9:53 PM', Election Day Precincts Reporting 8 of 8). Server Last-Modified on every file of this Umbraco site is an August 2026 bulk re-upload (2024 general files 12 Aug 2026 15:38:27-28 GMT, 2026 primary files 10 Aug 2026 19:06:15 GMT, March 2024 official files 12 Aug 2026 16:37:56 GMT, precinct map 4 Aug 2026), so it carries no information about original posting; treated as no upload time available (verifier judgment, flagged). Rule 47: no upload time, printed run time on election night: END (one precinct report)."
+      },
+      "2026_primary": {
+        "result": "END",
+        "check": "2",
+        "fact": "'Unofficial Results Precinct by Precinct Republican' (80 pages, 'ELECTION DAY UNOFFICIAL RESULTS', Precinct 11 Election Day votes e.g. Cornyn 68, footer 'PRECINCT BY PRECINCT REPULICAN - 03/03/2026 10:08 PM', PDF CreationDate 2026-03-04 04:11:47 UTC = 10:11 PM CST) and Democratic version (10:11 PM); 'Unofficial Summary Republican' footer 10:13 PM with Election Day Precincts Reporting 8 of 8. Server Last-Modified on every file of this Umbraco site is an August 2026 bulk re-upload (2024 general files 12 Aug 2026 15:38:27-28 GMT, 2026 primary files 10 Aug 2026 19:06:15 GMT, March 2024 official files 12 Aug 2026 16:37:56 GMT, precinct map 4 Aug 2026), so it carries no information about original posting; treated as no upload time available (verifier judgment, flagged). END by rule 47 (printed time on election night, one precinct report per party)."
+      },
+      "2026_runoff": {
+        "result": "END",
+        "check": "2",
+        "fact": "'Precinct by Precinct Results Republican' (scan, 'UNOFFICIAL REPUBLICAN RESULTS', Precinct 11 Election Day votes, footer 'UNOFFICIAL REPUBLICAN RESULTS - 05/26/2026 9:31 PM', scan CreationDate 2026-05-26T20:47:22-06:00 = 9:47 PM CDT); Democratic version scanned 20:46:35-06:00. The posted unofficial summary is a later update (footer 'Election Summary - 06/02/2026 8:34 AM'). Server Last-Modified on every file of this Umbraco site is an August 2026 bulk re-upload (2024 general files 12 Aug 2026 15:38:27-28 GMT, 2026 primary files 10 Aug 2026 19:06:15 GMT, March 2024 official files 12 Aug 2026 16:37:56 GMT, precinct map 4 Aug 2026), so it carries no information about original posting; treated as no upload time available (verifier judgment, flagged). END by rule 47."
+      }
+    },
+    "rationale": "Not on Clarity: the county's results pages link no results.enr.clarityelections.com election, so check 1 does not apply. Check 3: wayback-data index for this county has no election-night captures in any window. All three elections have an unofficial precinct-by-precinct report printed on election night; the site's Last-Modified is a site-wide August 2026 re-upload, read as no upload time. Rule gives PRECINCT_END_OF_NIGHT, med (check 2). If the August 2026 Last-Modified were instead read as a known later upload (rule 47 example), all three would fall to LATER under the rule 43 reading (county-totals summaries printed on election night for 2024 and the primary; runoff would be UNDETERMINED since its posted summary is dated 06/02), giving COUNTY_ONLY_PRECINCT_AT_CANVASS."
+  },
+  "corrected_after_blind_at_utc": "2026-10-02T23:00:20Z",
+  "correction_files": [
+    "https://newtools.cira.state.tx.us/page/hutchinson.ElectionInformation",
+    "https://newtools.cira.state.tx.us/upload/page/10714/docs/Voter%20Turnout/Precinct%20by%20Precinct%20Republican.pdf",
+    "https://newtools.cira.state.tx.us/upload/page/10714/docs/Voter%20Turnout/Precinct%20by%20Precinct%20Democrat.pdf",
+    "https://newtools.cira.state.tx.us/upload/page/10714/docs/Voter%20Turnout/Unofficial%20Summary%20Republican.pdf",
+    "https://newtools.cira.state.tx.us/upload/page/10714/docs/2024/2024%20General%20Precint%20by%20Precinct%20Unofficial%20Results.pdf",
+    "https://newtools.cira.state.tx.us/upload/page/10714/docs/2026%20Runoff/Precinct%20by%20Precinct%20Republican.pdf"
+  ],
   "research_tag": "PRECINCT_END_OF_NIGHT",
   "agree": true,
   "comparison_notes": {
-    "2024_general": "same (END, check 2). Both: unofficial precinct report printed 9:55 PM, scan 04:01 UTC Nov 6, Last-Modified Aug 2026.",
-    "2026_primary": "same (END, check 2). Both: precinct report printed 10:08 PM with Election Day column, CreationDate 04:11 UTC.",
-    "2026_runoff": "same (END, check 2). Both: unofficial precinct report printed 9:31 PM, scan 02:47 UTC May 27.",
-    "unsupported_or_unchecked": "None found. Both rest on printed times only (no election-night upload evidence), so whether these files were posted on election night rather than later is not shown."
-  },
-  "compared_at_utc": "2026-10-02T16:20:58Z"
+    "2024_general": "Same: END by check 2. Blind I used the printed time (no usable upload time on the Umbraco site); research's CIRA copy (byte-identical, hash 2b053677) has original Last-Modified 06 Nov 2024 04:27:09 GMT (10:27 PM CST), which I confirmed, so END now rests on an election-night upload time.",
+    "2026_primary": "Different blind, corrected after checking (DECISIONS 44). Blind I had END from the printed 10:08 PM precinct report, treating the August 2026 Umbraco Last-Modified as no upload time. Research cites the county's earlier CIRA page (newtools.cira.state.tx.us/page/hutchinson.ElectionInformation), which I opened: 'Voter Turnout/Precinct by Precinct Republican.pdf' (same hash 4c698052) has Last-Modified Wed, 04 Mar 2026 15:10:14 GMT (re-confirmed with a conditional request, HTTP 304) and the Democratic one 15:10:20 GMT, i.e. 9:10 AM CST Mar 4, while 'Unofficial Summary Republican' (hash 2a7ed0b4, printed 10:13 PM) has 04:29:33 GMT (10:29 PM CST Mar 3). Under the DECISIONS 67 reading this is LATER. Corrected to LATER; blind result kept in blind_verdict.",
+    "2026_runoff": "Same: END by check 2. CIRA copy 2026 Runoff/Precinct by Precinct Republican.pdf (hash 3a7ca886) Last-Modified 27 May 2026 02:48:23 GMT (9:48 PM CDT), consistent with my blind scan time 9:47 PM CDT.",
+    "unsupported_claims": "None. All CIRA Last-Modified values research quotes match the fetch records I read."
+  }
 }

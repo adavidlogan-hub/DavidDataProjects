@@ -1,57 +1,122 @@
 {
   "county": "Zapata",
-  "reason_selected": "random 10 percent sample",
+  "reason_selected": "tag changed in targeted pass 3",
   "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
-  "verifier_confidence": "low",
+  "verifier_confidence": "med",
   "elections": {
     "2024_general": {
       "result": "LATER",
       "check": "2",
-      "fact": "No Clarity site (elections.json 404). 'November 5, 2024 General & ZCISD Election (unofficial)' (scan): Cumulative Results Report, Unofficial Results, county totals (Trump Election Day 870, Total 2,965), run time on page about 10:50 PM 11/05/2024 (blurry), Last-Modified 11/6/2024 05:25:18 GMT (11:25 PM CST). No 2024 precinct file listed."
+      "fact": "zapata.Elections 'Elections Results Archive' lists only 'November 5, 2024 General & ZCISD Election (unofficial)' for Nov 2024 (newtools.cira.state.tx.us copy): a 7-page 'Cumulative Results Report' county totals, Run Time 10:55 PM, Run Date 11/05/2024, with Election Day Voting column; Last-Modified Wed, 06 Nov 2024 05:25:18 GMT (11:25 PM CST, election night). No precinct report for Nov 2024 is listed. LATER (county_totals_first_seen 2024-11-05 22:55 CT)."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "fact": "No March 3 2026 result file listed (only notices of canvass and hand count certifications). check 3 pending (no folder on wayback-data)."
+      "result": "LATER",
+      "check": "2",
+      "fact": "Home page 'UNOFFICIAL' links 'ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - DEM/REP': 'Cumulative Results Report MARCH 3,2026 PRIMARY ELECTION', county totals, Run Time 10:15 PM, Run Date 03/03/2026 (both parties); Last-Modified Wed, 04 Mar 2026 20:42:37-38 GMT (2:42 PM CST Mar 4). No unofficial precinct report listed. LATER on the printed run time (county_totals_first_seen 2026-03-03 22:15 CT)."
     },
     "2026_runoff": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "fact": "Homepage: '2026 Primary Runoff Election - unofficial' (scan CreationDate 5/28/2026 17:52 UTC, Last-Modified 5/28/2026), then official cumulative and canvass report. Nothing posted on election night."
+      "result": "LATER",
+      "check": "2",
+      "fact": "Home page 'UNOFFICIAL' '2026 Primary Runoff Election - unofficial': 'Cumulative Results Report MAY 26, 2026 PRIMARY RUNOFF', county totals, Run Time 11:10:25 PM, Run Date 05/26/2026, Precincts Reporting 7 of 7; Last-Modified Thu, 28 May 2026 17:38:38 GMT. No unofficial precinct report listed (official cumulative and canvass report posted June 3). LATER on the printed run time (county_totals_first_seen 2026-05-26 23:10 CT)."
     }
   },
-  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'LATER', '2026_primary': 'UNDETERMINED', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in 2024_general and 2026_runoff (check 2), primary UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; runoff rests on absence of night files, so low.)",
+  "rationale": "Not on Clarity: the county's results pages link no results.enr.clarityelections.com election, so check 1 does not apply. Check 3: wayback-data CDX lookups for co.zapata.tx.us failed (robots_disallowed_or_unreachable), no captures. All three elections show county totals printed (2024 also uploaded) on election night and no unofficial precinct report: COUNTY_ONLY_PRECINCT_AT_CANVASS, med (check 2).",
   "sources": [
+    {
+      "url": "http://www.co.zapata.tx.us/",
+      "content_hash": "51322b6212f32ed74c19fb5334cdf64dce0ba623ed909d3e193a07a9656c8e74",
+      "what_i_checked": "Home page links unofficial and official 2026 primary and runoff results"
+    },
     {
       "url": "https://www.co.zapata.tx.us/page/zapata.Elections",
       "content_hash": "8ffedcabcaca330a5916071a2cf6e320640b4d1789ee1bf683ecf12af585d3ab",
-      "what_i_checked": "result file list"
-    },
-    {
-      "url": "https://www.co.zapata.tx.us/",
-      "content_hash": "51322b6212f32ed74c19fb5334cdf64dce0ba623ed909d3e193a07a9656c8e74",
-      "what_i_checked": "runoff files on homepage"
+      "what_i_checked": "Elections Results Archive lists Nov 2024 unofficial results only"
     },
     {
       "url": "https://newtools.cira.state.tx.us/upload/page/6427/docs/Results/November%205%202024%20General%20and%20ZCISD%20-%20unofficial%20results.pdf",
       "content_hash": "19a05c0b7276b6895edd1f9e28834248cc2f275a7516574d2185b1afa7216bd5",
-      "what_i_checked": "2024 night county totals, uploaded 11:25 PM"
+      "what_i_checked": "Cumulative county totals run 10:55 PM 11/05/2024; LM 2024-11-06 05:25:18 GMT"
+    },
+    {
+      "url": "https://www.co.zapata.tx.us/upload/page/6434/docs/ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - DEM.pdf",
+      "content_hash": "5302a1e2805ddc0a11f519df049fc2ea9243012f97df61a6b8308e5be024d65a",
+      "what_i_checked": "Cumulative county totals run 10:15 PM 03/03/2026; LM 2026-03-04 20:42:38 GMT"
+    },
+    {
+      "url": "https://www.co.zapata.tx.us/upload/page/6434/docs/ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - REP.pdf",
+      "content_hash": "2427c154cadf86ef4a02c464ed75fd3391828ffdf3f169abbea32257e8fc36e9",
+      "what_i_checked": "Cumulative county totals run 10:15 PM 03/03/2026"
     },
     {
       "url": "https://www.co.zapata.tx.us/upload/page/6434/docs/2026 Primary Runoff Election - unofficial.pdf",
       "content_hash": "24e540201e2688484665d851abfa3cdce8761572da77a8a6fdd623911758cbbe",
-      "what_i_checked": "runoff unofficial posted May 28"
+      "what_i_checked": "Cumulative county totals run 11:10:25 PM 05/26/2026; LM 2026-05-28 17:38:38 GMT"
     }
   ],
-  "written_blind_at_utc": "2026-10-02T16:20:21Z",
-  "research_tag": "UNKNOWN",
-  "agree": false,
-  "comparison_notes": {
-    "2024_general": "different: research says 'No 2024 general results listed on the county site'. Not supported: the Elections page links 'November 5, 2024 General & ZCISD Election (unofficial)' (newtools.cira.state.tx.us/upload/page/6427/docs/Results/November 5 2024 General and ZCISD - unofficial results.pdf: Cumulative Results Report, county totals, Last-Modified 11/6/2024 05:25:18 GMT = 11:25 PM CST). I said LATER.",
-    "2026_primary": "same (UNDETERMINED). Research found a 'ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - REP' scan on the home page (Last-Modified 3/4/2026 20:42 GMT), which I missed.",
-    "2026_runoff": "different: research UNDETERMINED, I said LATER (unofficial posted 5/28/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only files posted 5/28/2026 and later); check 3 pending.",
-    "rule_43": "rule 43 re-applied"
+  "written_blind_at_utc": "2026-10-02T22:58:45Z",
+  "previous_verification": {
+    "county": "Zapata",
+    "reason_selected": "random 10 percent sample",
+    "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+    "verifier_confidence": "low",
+    "elections": {
+      "2024_general": {
+        "result": "LATER",
+        "check": "2",
+        "fact": "No Clarity site (elections.json 404). 'November 5, 2024 General & ZCISD Election (unofficial)' (scan): Cumulative Results Report, Unofficial Results, county totals (Trump Election Day 870, Total 2,965), run time on page about 10:50 PM 11/05/2024 (blurry), Last-Modified 11/6/2024 05:25:18 GMT (11:25 PM CST). No 2024 precinct file listed."
+      },
+      "2026_primary": {
+        "result": "UNDETERMINED",
+        "check": "none",
+        "fact": "No March 3 2026 result file listed (only notices of canvass and hand count certifications). check 3 pending (no folder on wayback-data)."
+      },
+      "2026_runoff": {
+        "result": "UNDETERMINED",
+        "check": "none",
+        "fact": "Homepage: '2026 Primary Runoff Election - unofficial' (scan CreationDate 5/28/2026 17:52 UTC, Last-Modified 5/28/2026), then official cumulative and canvass report. Nothing posted on election night."
+      }
+    },
+    "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'LATER', '2026_primary': 'UNDETERMINED', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in 2024_general and 2026_runoff (check 2), primary UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; runoff rests on absence of night files, so low.)",
+    "sources": [
+      {
+        "url": "https://www.co.zapata.tx.us/page/zapata.Elections",
+        "content_hash": "8ffedcabcaca330a5916071a2cf6e320640b4d1789ee1bf683ecf12af585d3ab",
+        "what_i_checked": "result file list"
+      },
+      {
+        "url": "https://www.co.zapata.tx.us/",
+        "content_hash": "51322b6212f32ed74c19fb5334cdf64dce0ba623ed909d3e193a07a9656c8e74",
+        "what_i_checked": "runoff files on homepage"
+      },
+      {
+        "url": "https://newtools.cira.state.tx.us/upload/page/6427/docs/Results/November%205%202024%20General%20and%20ZCISD%20-%20unofficial%20results.pdf",
+        "content_hash": "19a05c0b7276b6895edd1f9e28834248cc2f275a7516574d2185b1afa7216bd5",
+        "what_i_checked": "2024 night county totals, uploaded 11:25 PM"
+      },
+      {
+        "url": "https://www.co.zapata.tx.us/upload/page/6434/docs/2026 Primary Runoff Election - unofficial.pdf",
+        "content_hash": "24e540201e2688484665d851abfa3cdce8761572da77a8a6fdd623911758cbbe",
+        "what_i_checked": "runoff unofficial posted May 28"
+      }
+    ],
+    "written_blind_at_utc": "2026-10-02T16:20:21Z",
+    "research_tag": "UNKNOWN",
+    "agree": false,
+    "comparison_notes": {
+      "2024_general": "different: research says 'No 2024 general results listed on the county site'. Not supported: the Elections page links 'November 5, 2024 General & ZCISD Election (unofficial)' (newtools.cira.state.tx.us/upload/page/6427/docs/Results/November 5 2024 General and ZCISD - unofficial results.pdf: Cumulative Results Report, county totals, Last-Modified 11/6/2024 05:25:18 GMT = 11:25 PM CST). I said LATER.",
+      "2026_primary": "same (UNDETERMINED). Research found a 'ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - REP' scan on the home page (Last-Modified 3/4/2026 20:42 GMT), which I missed.",
+      "2026_runoff": "different: research UNDETERMINED, I said LATER (unofficial posted 5/28/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only files posted 5/28/2026 and later); check 3 pending.",
+      "rule_43": "rule 43 re-applied"
+    },
+    "compared_at_utc": "2026-10-02T16:21:43Z",
+    "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
   },
-  "compared_at_utc": "2026-10-02T16:21:43Z",
-  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same: LATER by check 2 (cumulative county totals run 10:55 PM, uploaded 11:25 PM CST; no 2024 precinct file).",
+    "2026_primary": "Different: research UNDETERMINED, verifier LATER. The 'ZAPATA COUNTY UNOFFICIAL - MARCH 2026 - DEM/REP' files are county-totals 'Cumulative Results Report' scans with printed 'Run Time 10:15 PM Run Date 03/03/2026' (zoomed render), and no unofficial precinct report was ever posted. DECISIONS 67 (i) accepts a printed run time on election night on a county-totals file, so LATER even though the upload was Mar 4 2:42 PM CST. Research's fact mentions only the upload time.",
+    "2026_runoff": "Different: research UNDETERMINED, verifier LATER. '2026 Primary Runoff Election - unofficial' is a county-totals 'Cumulative Results Report' with printed 'Run Time 11:10:25 PM Run Date 05/26/2026', 7 of 7 precincts; no unofficial precinct report posted. LATER on the printed run time under DECISIONS 67, despite the May 28 upload.",
+    "unsupported_claims": "None false. Research's primary and runoff facts omit the printed election-night run times that decide these elections under DECISIONS 67. The page label 'March 26, 2026 - Primary Runoff Election' quoted by research is confirmed on the home page. Tag agrees (COUNTY_ONLY_PRECINCT_AT_CANVASS) but with three LATER elections confidence computes to med, not research's low."
+  }
 }
