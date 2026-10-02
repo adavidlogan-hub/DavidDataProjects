@@ -1,20 +1,20 @@
 {
   "county": "Scurry",
-  "tag": "UNKNOWN",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.scurry.tx.us/page/elections.information",
   "platform": "county_pdfs",
   "host": "www.co.scurry.tx.us",
-  "evidence_url": "https://www.co.scurry.tx.us/upload/page/0163/2Unofficial Summary Results by PCT 5262026.pdf",
+  "evidence_url": "https://www.co.scurry.tx.us/upload/page/0163/Unofficial%20Sumamry%20Report%20332026.pdf",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL (default.aspx?Scurry_County/Elections) loads over https; results are on page/elections.information (current) and page/elections.previous.elections (archive). No Clarity site (elections.json 404). Server Last-Modified values differ per file, so upload times are usable. Both 2026 runoff result files are scans made June 11, 2026; the precinct report's printed time is 06/02/2026 2:10 PM. No results for the 2024 general or 2026 primary are posted. Check 3 pending (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED.",
-  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
+  "notes": "Seed URL (default.aspx?Scurry_County/Elections) loads over https; results are on page/elections.information (current) and page/elections.previous.elections (archive). No Clarity site (elections.json 404). Server Last-Modified values differ per file, so upload times are usable. Both 2026 runoff result files are scans made June 11, 2026; the precinct report's printed time is 06/02/2026 2:10 PM. No results for the 2024 general or 2026 primary are posted. Check 3 pending (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED. Targeted pass 3 2026-10-02 (targeted3-H): 2026_primary UNDETERMINED to LATER (check 2), settling the verifier disagreement in the verifier's favor: the earlier claim that no 2026 primary results are posted was wrong; the page lists 'Unofficial Sumamry Report 332026.pdf' (footer 'Election Summary - 03/03/2026 8:06 PM') and precinct reports printed 08/24/2026. 2024_general and 2026_runoff stay UNDETERMINED; check 3 done (no Wayback election-night captures); no sweep folder (not in the 28 largest).",
+  "tag_rationale": "Only the 2026 primary is determined (LATER: county-total summary printed 8:06 PM on election night; unofficial precinct reports printed Aug 24 2026), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
   "agent": "research-7",
   "method_version": "v2",
   "elections": {
@@ -25,16 +25,16 @@
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "",
-      "fact": "No 2024 general results on the Election Information page or the Previous Elections page (which ends with the March 5, 2024 primary). Check 3 pending."
+      "fact": "No 2024 general results on the Election Information page or the Previous Elections page (which ends with the March 5, 2024 primary). Check 3 pending. Check 3: the Wayback harvest (phase1/wayback_snapshots/Scurry/index.json on wayback-data) found no election-night captures for this election; no targeted archive or sweep folder exists for this county."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 20:06 CT",
       "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "No 2026 primary results on the county election pages. Check 3 pending."
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.scurry.tx.us/upload/page/0163/Unofficial%20Sumamry%20Report%20332026.pdf",
+      "fact": "Election Information page, March 3 primary 'Unofficial Resutls': 'Summary Report with Group Details' (Unofficial Sumamry Report 332026.pdf, 19-page scan, read from the page 1 image): 'Summary Results Report TX Scurry County 260303 Primary 6110 March 03, 2026 UNOFFICIAL RESULTS Scurry County', 'Election Day Precincts Reporting 11 of 11', 'Ballots Cast - Total 2,385 38 1,233 1,114', footer 'Election Summary - 03/03/2026 8:06 PM' (election night). The unofficial precinct reports ('Precincts 5,6 & 7' etc., e.g. Pcts 5 6 7 Unofficial Pct Report.pdf: 'PRECINCT 5 ... John Cornyn 16 0 8 8') carry footer 'Precinct Summary - 08/24/2026 12:01 PM'. All files are scans uploaded Aug 24 2026 (Last-Modified Mon, 24 Aug 2026 22:53-23:00 GMT). The only election-night print is a county-totals report; the precinct reports were produced in August, so LATER (rule 43, printed run time). Weak: the site's election-night state is not visible."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",
@@ -43,7 +43,7 @@
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "https://www.co.scurry.tx.us/upload/page/0163/2Unofficial Summary Results by PCT 5262026.pdf",
-      "fact": "Rule 43: no election-night file survives. Previous: 'Precinct Report with Group Details' (2Unofficial Summary Results by PCT 5262026.pdf) = scanned Electionware 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Scurry County PRECINCT 5 ...', footer 'Precinct Summary - 06/02/2026 2:10 PM'; PDF CreationDate Thu Jun 11 14:17:28 2026 UTC; Last-Modified Mon, 24 Aug 2026 13:06:12 GMT. 'Summary Report with Group Details' (county totals) CreationDate Jun 11 2026, Last-Modified Thu, 11 Jun 2026 13:15:20 GMT. The only precinct numbers were printed June 2, after election night."
+      "fact": "Rule 43: no election-night file survives. Previous: 'Precinct Report with Group Details' (2Unofficial Summary Results by PCT 5262026.pdf) = scanned Electionware 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Scurry County PRECINCT 5 ...', footer 'Precinct Summary - 06/02/2026 2:10 PM'; PDF CreationDate Thu Jun 11 14:17:28 2026 UTC; Last-Modified Mon, 24 Aug 2026 13:06:12 GMT. 'Summary Report with Group Details' (county totals) CreationDate Jun 11 2026, Last-Modified Thu, 11 Jun 2026 13:15:20 GMT. The only precinct numbers were printed June 2, after election night. Check 3: the Wayback harvest (phase1/wayback_snapshots/Scurry/index.json on wayback-data) found no election-night captures for this election; no targeted archive or sweep folder exists for this county. Targeted pass 3: the second runoff precinct file 'Unofficial Summary Results by PCT 5262026.pdf' is also footer 'Precinct Summary - 06/02/2026 2:10 PM', scanned Jun 11 2026 (Last-Modified Thu, 11 Jun 2026 13:17:40 GMT)."
     }
   },
   "sources": [
@@ -74,6 +74,27 @@
       "content_hash": "d16640745c8d4d2190df165a92ddafcb2b7e2ac9d53e651dbed9abe75a2505be",
       "quote": "(scanned 3-page county summary, CreationDate 2026-06-11)",
       "supports": "Runoff county summary posted June 11"
+    },
+    {
+      "url": "https://www.co.scurry.tx.us/upload/page/0163/Unofficial%20Sumamry%20Report%20332026.pdf",
+      "via": "fetch_module",
+      "content_hash": "f7944d1bb31436a386368725f03034b470acab290e84f612a989060b808598a2",
+      "quote": "(page 1 image) Summary Results Report TX Scurry County 260303 Primary 6110 March 03, 2026 UNOFFICIAL RESULTS ... Election Day Precincts Reporting 11 of 11 ... Election Summary - 03/03/2026 8:06 PM 1 of 19; Last-Modified: Mon, 24 Aug 2026 23:00:13 GMT",
+      "supports": "2026_primary LATER: county totals printed on election night"
+    },
+    {
+      "url": "https://www.co.scurry.tx.us/upload/page/0163/Pcts%205%206%207%20Unofficial%20Pct%20Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "baeca3f5323f40b1e995712c884a071fc29900e059afb17ec841ae21c1b35492",
+      "quote": "(page 1 image) Summary Results Report TX Scurry County 260303 Primary 6110 ... PRECINCT 5 ... Precinct Summary - 08/24/2026 12:01 PM 1 of 198; Last-Modified: Mon, 24 Aug 2026 22:53:30 GMT",
+      "supports": "2026_primary: unofficial precinct reports printed Aug 24 2026"
+    },
+    {
+      "url": "https://www.co.scurry.tx.us/upload/page/0163/Unofficial%20Summary%20Results%20by%20PCT%205262026.pdf",
+      "via": "fetch_module",
+      "content_hash": "ab7b671c90060f4ae8448979b0e3ae2b5395fa37af9c0da70493cf76bd8e4e06",
+      "quote": "(page 1 image) Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Scurry County PRECINCT 5 ... Precinct Summary - 06/02/2026 2:10 PM 1 of 22",
+      "supports": "2026_runoff stays UNDETERMINED"
     }
   ]
 }

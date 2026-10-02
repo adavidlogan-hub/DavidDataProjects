@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No seed website; the county site is www.shackelfordcounty.org (domain of the SOS-listed email), Elections page page/shackelford.Elections. No Clarity site (elections.json 404). The page lists November 2026 notices, a runoff PEHCA certification and the March primary 'Election Reconciliation Official Totals', but no results reports for the 2024 general, 2026 primary or 2026 runoff. Check 3 pending (wayback-data branch not found on origin).",
+  "notes": "No seed website; the county site is www.shackelfordcounty.org (domain of the SOS-listed email), Elections page page/shackelford.Elections. No Clarity site (elections.json 404). The page lists November 2026 notices, a runoff PEHCA certification and the March primary 'Election Reconciliation Official Totals', but no results reports for the 2024 general, 2026 primary or 2026 runoff. Check 3 pending (wayback-data branch not found on origin). Targeted pass 3 2026-10-02 (targeted3-H): No change. Refetched the Elections page: still no results reports for any target election (only Nov 2026 notices, a runoff PEHCA certification, an unlabeled scan 20260324131419.pdf under the runoff heading, and the primary 'Election Reconciliation Official Totals'). No Wayback harvest folder exists for this county on wayback-data; no sweep folder.",
   "tag_rationale": "All three elections are UNDETERMINED (no vendor log and no results posted on the county site, check 3 pending), so by rule the tag is UNKNOWN.",
   "agent": "research-7",
   "method_version": "v2",

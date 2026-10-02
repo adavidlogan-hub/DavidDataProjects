@@ -7,34 +7,34 @@
   "results_url": "https://www.co.washington.tx.us/page/washington.elections.information",
   "platform": "county_pdfs",
   "host": "www.co.washington.tx.us",
-  "evidence_url": "",
+  "evidence_url": "https://www.co.washington.tx.us/upload/page/10698/000111222x.pdf",
   "evidence_snapshot_timestamp": "",
-  "precinct_first_seen_local_time": "",
+  "precinct_first_seen_local_time": "2024-11-05 23:31 CT",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed default.aspx URL loads the county home page; election pages are /page/washington.elections.information and /page/washington.Past Elections. No Clarity site (elections.json 404). 2026 runoff: 'Precinct Summary Election Day.pdf' is a 16-page Electionware 'Summary Results Report UNOFFICIAL RESULTS ELECTION DAY' broken out by precinct (Precinct 101 etc., with Election Day column), CreationDate 2026-05-27 02:38:41 UTC (9:38 PM CDT May 26, election night) but Last-Modified Wed, 27 May 2026 16:17:03 GMT (11:17 AM CDT May 27, after election night). 'Republican Runoff Preliminary Results' is a scan created 2026-05-27 17:23 UTC; 'Precinct by Precinct Final Report' created 2026-06-02. The printed time and the server time disagree about whether precinct numbers were online on election night, so the runoff is left UNDETERMINED for check 3. 2026 primary: 'Republican Preliminary Results Report' is a 13-page scan, Last-Modified Wed, 04 Mar 2026 18:50:56 GMT; 'Precinct-by-precinct Report' (UNOFFICIAL RESULTS, 380 pages) CreationDate 2026-03-06 14:24 UTC, Last-Modified Fri, 06 Mar 2026 15:22:50 GMT; nothing shows an election-night upload. 2024 general: Past Elections lists only 'Certificate of Canvass' and 'Final Canvass' for November 5, 2024. The page also links the SOS site results.texas-election.com as 'TEXAS ELECTION RESULTS - OFFICIAL'. Check 3 pending (origin/wayback-data branch not found).",
-  "tag_rationale": "No election could be determined by checks 1 and 2 (runoff precinct report printed on election night but uploaded next morning per Last-Modified; primary files uploaded after election night; 2024 only canvass; check 3 pending), so the rule gives UNKNOWN.",
+  "notes": "Seed default.aspx URL loads the county home page; election pages are /page/washington.elections.information and /page/washington.Past Elections. No Clarity site (elections.json 404). 2026 runoff: 'Precinct Summary Election Day.pdf' is a 16-page Electionware 'Summary Results Report UNOFFICIAL RESULTS ELECTION DAY' broken out by precinct (Precinct 101 etc., with Election Day column), CreationDate 2026-05-27 02:38:41 UTC (9:38 PM CDT May 26, election night) but Last-Modified Wed, 27 May 2026 16:17:03 GMT (11:17 AM CDT May 27, after election night). 'Republican Runoff Preliminary Results' is a scan created 2026-05-27 17:23 UTC; 'Precinct by Precinct Final Report' created 2026-06-02. The printed time and the server time disagree about whether precinct numbers were online on election night, so the runoff is left UNDETERMINED for check 3. 2026 primary: 'Republican Preliminary Results Report' is a 13-page scan, Last-Modified Wed, 04 Mar 2026 18:50:56 GMT; 'Precinct-by-precinct Report' (UNOFFICIAL RESULTS, 380 pages) CreationDate 2026-03-06 14:24 UTC, Last-Modified Fri, 06 Mar 2026 15:22:50 GMT; nothing shows an election-night upload. 2024 general: Past Elections lists only 'Certificate of Canvass' and 'Final Canvass' for November 5, 2024. The page also links the SOS site results.texas-election.com as 'TEXAS ELECTION RESULTS - OFFICIAL'. Check 3 pending (origin/wayback-data branch not found). Targeted pass 3 2026-10-02 (targeted3-H): 2024_general UNDETERMINED to END (check 2: 'Unofficial Election Results' 000111222x.pdf is a precinct report printed 10:39 PM, Last-Modified 11:31 PM CST Nov 5; the earlier pass read only the Past Elections page and missed the 2024 section on the Elections Information page); 2026_primary UNDETERMINED to LATER (check 2: county-total reports printed 10:14 PM and 10:17 PM on election night, precinct report printed Mar 6 08:22 AM). 2026_runoff stays UNDETERMINED (precinct report printed 9:37 PM but uploaded 11:17 AM May 27; preliminary files are reconciliation forms). Check 3 done: no Wayback election-night captures of co.washington.tx.us; no sweep folder (not in the 28 largest). Tag stays UNKNOWN because the two determined elections differ.",
+  "tag_rationale": "2024 general is END (election-night precinct report, check 2) and 2026 primary is LATER (election-night county totals, precinct report printed and posted Mar 6, check 2); the runoff is undetermined, so no result occurs twice and the rule gives UNKNOWN.",
   "agent": "research-8",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "Past Elections lists only 'Certificate of Canvass' and 'Final Canvass' for November 5, 2024. Check 3 pending."
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 23:32 CT",
+      "precinct_first_seen": "2024-11-05 23:31 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.washington.tx.us/upload/page/10698/000111222x.pdf",
+      "fact": "Elections Information page, 'NOVEMBER 5, 2024 GENERAL ELECTION RESULTS': 'Unofficial Election Results' links 000111222x.pdf, a 152-page Electionware precinct report: 'Summary Results Report UNOFFICIAL RESULTS - GENERAL- ABSENTEE/EARLY/DAY OF ... PRECINCT 101 ... REP Donald J. Trump/JD Vance 637 14 445 178' (columns TOTAL, Absentee, Early Voting, Election Day), footer 'Precinct Summary - 11/05/2024 10:39 PM'; server Last-Modified Wed, 06 Nov 2024 05:31:27 GMT = 11:31 PM CST Nov 5 (election night). The companion county summary 0001112222024.pdf ('Election Summary - 11/05/2024 10:36 PM', 'Election Day Precincts Reporting 19 of 19') has Last-Modified Wed, 06 Nov 2024 05:32:11 GMT. One election-night precinct report with election-day votes, so END (rule 47: upload time on election night)."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 22:14 CT",
       "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "'Republican Preliminary Results Report' scan Last-Modified 04 Mar 2026 18:50 GMT; 'Precinct-by-precinct Report' 'UNOFFICIAL RESULTS' CreationDate 2026-03-06 14:24 UTC, Last-Modified 06 Mar 2026. No election-night upload visible. Check 3 pending."
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.washington.tx.us/upload/page/10698/rep%20unofficial%20final%20results.pdf",
+      "fact": "'Republican Preliminary Results Report' (rep unofficial final results.pdf, 13-page scan, read from the page 1 image): 'Summary Results Report TX Washington County 260303 Primary 6300 March 3, 2026 UNOFFICIAL RESULTS - REP', county contest totals with Absentee/Early Voting/Election Day columns ('John Cornyn 3,101 ... 937', 'Precincts Reporting 19 of 19'), footer 'Election Summary - 03/03/2026 10:14PM' (election night); Last-Modified Wed, 04 Mar 2026 18:50:56 GMT. 'Democratic Preliminary Results Report' footer 'Election Summary - 03/03/2026 10:17PM', Last-Modified Wed, 04 Mar 2026 18:54:45 GMT. The only unofficial precinct report ('Precinct-by-precinct Report', precinct by precinct all.pdf) is footer 'Precinct Summary - 03/06/2026 08:22AM', CreationDate 2026-03-06 14:24 UTC, Last-Modified Fri, 06 Mar 2026 15:22:50 GMT: precinct numbers were produced and posted after election night. County totals printed on election night, precinct numbers later, so LATER (rule 43, printed run time)."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",
@@ -43,7 +43,7 @@
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "",
-      "fact": "'Summary Results Report UNOFFICIAL RESULTS ELECTION DAY ... Precinct 101' CreationDate 2026-05-27 02:38:41 UTC (election night) but Last-Modified Wed, 27 May 2026 16:17:03 GMT (next morning). Check 3 pending."
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS ELECTION DAY ... Precinct 101' CreationDate 2026-05-27 02:38:41 UTC (election night) but Last-Modified Wed, 27 May 2026 16:17:03 GMT (next morning). Check 3 pending. Targeted pass 3: the runoff 'Preliminary Results' files (repreconciliationreports.pdf, demreconciliation2026.pdf) are scanned 'Preliminary Election Reconciliation - Unofficial Totals' forms (voter and ballot counts, no candidate votes), CreationDate 2026-05-27 17:23 UTC, Last-Modified Wed, 27 May 2026 21:23-21:24 GMT; 'REP PBP COUNTS.pdf' is a reconciliation of votes cast per polling location (Last-Modified 03 Jun 2026). No county-totals file with an election-night time, and the precinct report's upload is after election night, so neither END nor LATER is shown. Check 3: the Wayback harvest (phase1/wayback_snapshots/Washington/index.json on wayback-data) found no election-night captures for this election; no targeted archive or sweep folder exists for this county."
     }
   },
   "sources": [
@@ -81,6 +81,55 @@
       "content_hash": "bb68e43b0a30efcca956c40009debf73d4b0c22b1b56f3f528051e284353d6ae",
       "quote": "Canvass Date: November 5, 2024 General Election ... Certificate of Canvass ... Final Canvass",
       "supports": "2024 only canvass files"
+    },
+    {
+      "url": "https://www.co.washington.tx.us/upload/page/10698/000111222x.pdf",
+      "via": "fetch_module",
+      "content_hash": "92c85faa5c382afe76972f1ec21f4aafd047cffc19fc965d2f351cac857506d6",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS - GENERAL- ABSENTEE/EARLY/DAY OF TX Washington County 241105 General 6110 ... PRECINCT 101 ... REP Donald J. Trump/JD Vance 637 14 445 178 ... Precinct Summary - 11/05/2024 10:39 PM 1 of 152; Last-Modified: Wed, 06 Nov 2024 05:31:27 GMT",
+      "supports": "2024_general END: precinct report with election-day votes uploaded 11:31 PM CST on election night"
+    },
+    {
+      "url": "https://www.co.washington.tx.us/upload/page/10698/0001112222024.pdf",
+      "via": "fetch_module",
+      "content_hash": "d326701fc36d857d30a85d52938e17bd62f5917603c2f5d0bdf367800125f480",
+      "quote": "UNOFFICIAL RESULTS - GENERAL ABSENTEE/EARLY/DAY OF ... Election Day Precincts Reporting 19 of 19 ... Election Summary - 11/05/2024 10:36 PM; Last-Modified: Wed, 06 Nov 2024 05:32:11 GMT",
+      "supports": "2024_general: county summary posted at the same time"
+    },
+    {
+      "url": "https://www.co.washington.tx.us/upload/page/10698/rep%20unofficial%20final%20results.pdf",
+      "via": "fetch_module",
+      "content_hash": "4a219d97f08ceb86ba49fe0b65e505db30180cf7d31133ae1ff68f2b8824bf59",
+      "quote": "(page 1 image) Summary Results Report TX Washington County 260303 Primary 6300 March 3, 2026 UNOFFICIAL RESULTS - REP ... Precincts Reporting 19 of 19 ... Election Summary - 03/03/2026 10:14PM Page 1 of 13; Last-Modified: Wed, 04 Mar 2026 18:50:56 GMT",
+      "supports": "2026_primary LATER: county totals printed on election night"
+    },
+    {
+      "url": "https://www.co.washington.tx.us/upload/page/10698/dem%20results%20final%20unofficial%20results.pdf",
+      "via": "fetch_module",
+      "content_hash": "85cce7d6fdcdd45958133b12d2afc168af79ba33960c5968a5c4f4b9fc7f068d",
+      "quote": "(page 1 image) Summary Results Report TX Washington County 260303 Primary 6300 March 3, 2026 UNOFFICIAL RESULTS - DEM ... Election Summary - 03/03/2026 10:17PM Page 1 of 10; Last-Modified: Wed, 04 Mar 2026 18:54:45 GMT",
+      "supports": "2026_primary LATER: Democratic county totals printed on election night"
+    },
+    {
+      "url": "https://www.co.washington.tx.us/upload/page/10698/precinct%20by%20precinct%20all.pdf",
+      "via": "fetch_module",
+      "content_hash": "2a2ce9c6d90ede05ac50c3e69f0bcd1da4cd5cd35ca3aa7424499dfb76ebc3dc",
+      "quote": "Precinct Summary - 03/06/2026 08:22AM (CreationDate 2026-03-06 14:24:24 UTC)",
+      "supports": "2026_primary: unofficial precinct report produced after election night"
+    },
+    {
+      "url": "https://www.co.washington.tx.us/upload/page/10698/demreconciliation2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "4be706d875e77501046153cedf36e893c2f61d5c0cff2df2f29ab908db089c6b",
+      "quote": "Preliminary Election Reconciliation - Unofficial Totals (scan, CreationDate 2026-05-27 17:23:37 UTC); Last-Modified: Wed, 27 May 2026 21:24:50 GMT",
+      "supports": "2026_runoff: preliminary file is a reconciliation form, not results"
+    },
+    {
+      "url": "https://www.co.washington.tx.us/upload/page/10698/REP%20PBP%20COUNTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "650a03f3d3c71e74cff3f2decfb1af3d67ccfc3d71b54287d9e6e06cba9dca2c",
+      "quote": "RECONCILIATION OF TOTAL VOTES CAST AT EACH POLLING LOCATION Republican Primary Runoff; Last-Modified: Wed, 03 Jun 2026 23:20:02 GMT",
+      "supports": "2026_runoff: polling-location reconciliation, no candidate votes"
     }
   ]
 }

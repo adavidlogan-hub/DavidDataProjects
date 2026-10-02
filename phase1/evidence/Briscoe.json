@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Elections page lists, for the 2026 runoff and 2026 primary, only 'Official Results' and 'Official Results By Precinct' files (plus reconciliations and hand count audits); the 2024 general 'Unofficial Results' link (11.05.2024.pdf) returns 404, and a 2024 CVR spreadsheet is posted. No election-night file survives for any target election, so checks 1 and 2 cannot decide. Check 3 pending (wayback-data branch not found on origin).",
+  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Elections page lists, for the 2026 runoff and 2026 primary, only 'Official Results' and 'Official Results By Precinct' files (plus reconciliations and hand count audits); the 2024 general 'Unofficial Results' link (11.05.2024.pdf) returns 404, and a 2024 CVR spreadsheet is posted. No election-night file survives for any target election, so checks 1 and 2 cannot decide. Check 3 pending (wayback-data branch not found on origin). Targeted pass 3 2026-10-02 (targeted3-H): No change. Refetched the Elections page: 2026 primary and runoff list only official results and reconciliations; the 2024 'Unofficial Results' (11.05.2024.pdf), the 2024 CVR spreadsheet, and an unlabeled 'Unofficial Preliminary.pdf' link on newtools.cira.state.tx.us all return HTTP 404. Wayback harvest of co.briscoe.tx.us found no election-night captures; no sweep folder.",
   "tag_rationale": "All three elections are UNDETERMINED (no surviving election-night files, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
   "agent": "research-1",
   "method_version": "v2",
