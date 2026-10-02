@@ -43,3 +43,21 @@ def test_check4_caps_confidence_at_med():
     from phase1.schema import compute_confidence
     U = {"result": "UNDETERMINED", "check": "none"}
     assert compute_confidence(rec({"result": "LIVE", "check": "4"}, {"result": "LIVE", "check": "1"}, U)) == "med"
+
+
+def test_owner_override_validates_only_when_recorded():
+    import pytest
+    from phase1.schema import compute_confidence, validate_v2
+    base = {"county": "X", "tag": "LIVE_PRECINCT", "confidence": "med", "elections_office_phone": "", "elections_office_email": "",
+            "results_url": "", "platform": "clarity_style", "host": "", "evidence_url": "u", "evidence_snapshot_timestamp": "",
+            "precinct_first_seen_local_time": "", "stated_change_2026": "n", "stated_change_source": "", "usage_notice_text": "",
+            "notes": "", "method_version": "v2", "sources": [{"url": "u", "via": "clarity_script"}],
+            "elections": {"2024_general": {"result": "LIVE", "check": "1", "evidence_url": "u", "fact": "f"},
+                          "2026_primary": {"result": "END", "check": "1", "evidence_url": "u", "fact": "f"},
+                          "2026_runoff": {"result": "LATER", "check": "1", "evidence_url": "u", "fact": "f"}}}
+    with pytest.raises(AssertionError):
+        validate_v2(dict(base))  # rule gives UNKNOWN
+    rec = dict(base, owner_override={"tag": "LIVE_PRECINCT", "confidence": "med", "reason": "owner", "decided_utc": "t",
+                                     "rule_tag": "UNKNOWN"})
+    validate_v2(rec)
+    assert compute_confidence(rec) == "med"

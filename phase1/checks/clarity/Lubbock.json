@@ -3,16 +3,637 @@
   "check": "clarity_update_log",
   "elections": {
     "2024_general": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "122846",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "348966",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/348966/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348967",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/348967/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348968",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/348968/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349090",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/349090/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349141",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/349141/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/31/2024 2:49:09 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "349171",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/349171/reports/detailxml.zip",
+              "content_hash": "5af15f07de53b2655ec33fcba0a60501e392d8e4458589a18d01bb37cc51d3e7",
+              "election_night": false
+            },
+            {
+              "version": "351255",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/351255/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "351319",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/351319/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 8:36:01 PM CST",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 10134,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "351579",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/351579/reports/detailxml.zip",
+              "content_hash": "64678f0867accb3ee587a4d1f6a72aef5c0b477f8f08d105119739ace21fd9e8",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:46:14 PM CST",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 14502,
+              "precincts_with_election_day_votes": 99,
+              "election_day_precinct_vote_sum": 397337,
+              "version": "352924",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/352924/reports/detailxml.zip",
+              "content_hash": "6d135970166aad381e6708cd2d6bdd3e43df1800edf4475eaeb3409247f73f03",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:50:47 PM CST",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 14502,
+              "precincts_with_election_day_votes": 99,
+              "election_day_precinct_vote_sum": 397337,
+              "version": "352945",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/352945/reports/detailxml.zip",
+              "content_hash": "f0a36dc6e9091cbf700906731b6173cc4472287884883f1242a40109c7494bf5",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 1:54:56 AM CST",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 14508,
+              "precincts_with_election_day_votes": 99,
+              "election_day_precinct_vote_sum": 397346,
+              "version": "353201",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/353201/reports/detailxml.zip",
+              "content_hash": "51fc54a44bac121128ec93e379e66af4331a30a2c6645f4d383411315b723dd3",
+              "election_night": true
+            },
+            {
+              "version": "355281",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/355281/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/18/2024 11:02:25 AM CST",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 14515,
+              "precincts_with_election_day_votes": 99,
+              "election_day_precinct_vote_sum": 399831,
+              "version": "355282",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/355282/reports/detailxml.zip",
+              "content_hash": "5dd38379fb736e25e33e17b26785f972cf7ef46c99a754fc3817908435d8832f",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 8:36:01 PM CST",
+            "version": "351579",
+            "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/351579/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 3,
+          "election_night_distinct_election_day_precinct_releases": 2,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 11:46:14 PM CST",
+            "version": "352924",
+            "url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/352924/reports/detailxml.zip"
+          },
+          "unreadable_versions": 8
+        }
+      ]
     },
     "2026_primary": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "126020",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368225",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368225/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368226",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368226/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368230",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368230/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368241",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368241/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368242",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368242/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/1/2026 10:29:35 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368292",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368292/reports/detailxml.zip",
+              "content_hash": "8f15f1fc2d601a9eb2e53ed119c41516728383955cef40570bd83db956ea4d7d",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/1/2026 10:50:08 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368293",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368293/reports/detailxml.zip",
+              "content_hash": "46540c53efa8cd1e2d40c72da3916582ef6f53d78172c91d05c231189bca33a6",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:54:47 PM CST",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 18440,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368413",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368413/reports/detailxml.zip",
+              "content_hash": "fe8d113c6a44544020118c5c5a389d17271e896e9213f832b4e164ef0ea1ed95",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:58:21 PM CST",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 28155,
+              "precincts_with_election_day_votes": 98,
+              "election_day_precinct_vote_sum": 379379,
+              "version": "368539",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368539/reports/detailxml.zip",
+              "content_hash": "456a4b40cef64d2178ea65e9310a5eb72b3457a5dacbd4a1eb3a494f7ba49393",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/10/2026 11:44:53 AM CDT",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 28199,
+              "precincts_with_election_day_votes": 98,
+              "election_day_precinct_vote_sum": 379711,
+              "version": "368722",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368722/reports/detailxml.zip",
+              "content_hash": "5140e3a8c343f037bccd93aafa4d0bdd5ead7a634f58476671e610df6a360d01",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 2,
+          "election_night_updates_with_precinct_votes": 2,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:54:47 PM CST",
+            "version": "368413",
+            "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368413/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 1,
+          "election_night_distinct_election_day_precinct_releases": 1,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 10:58:21 PM CST",
+            "version": "368539",
+            "url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368539/reports/detailxml.zip"
+          },
+          "unreadable_versions": 5
+        },
+        {
+          "eid": "126021",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368224",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368224/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368227",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368227/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368229",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368229/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368243",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368243/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368290",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368290/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/1/2026 10:28:46 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368291",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368291/reports/detailxml.zip",
+              "content_hash": "0e820b71dda032ad77903ffc9543a89f7819da23a2a283553f202da2a6c72a08",
+              "election_night": false
+            },
+            {
+              "version": "368294",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368294/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/1/2026 10:54:30 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368295",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368295/reports/detailxml.zip",
+              "content_hash": "becf010ffd39fcb0c8265fbb2729700a8ce828fa9a815d89726b21f50cd92e89",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:55:49 PM CST",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 13043,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368414",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368414/reports/detailxml.zip",
+              "content_hash": "c8662877cdcc06df47247e6efc29cd7e626eae95d746d433c6b6f12a0d1a9b30",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:55:57 PM CST",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 20221,
+              "precincts_with_election_day_votes": 99,
+              "election_day_precinct_vote_sum": 148633,
+              "version": "368538",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368538/reports/detailxml.zip",
+              "content_hash": "db2e41178293cbe69f13487a47a93c399a7309e462f4d6d501e8dd707f3ea206",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/10/2026 11:47:26 AM CDT",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 20238,
+              "precincts_with_election_day_votes": 99,
+              "election_day_precinct_vote_sum": 149143,
+              "version": "368723",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368723/reports/detailxml.zip",
+              "content_hash": "65fa9ff0b60f2001266cc1fcb14fa267a131f57b8dc888a2075e9497c12d0cb5",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 2,
+          "election_night_updates_with_precinct_votes": 2,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:55:49 PM CST",
+            "version": "368414",
+            "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368414/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 1,
+          "election_night_distinct_election_day_precinct_releases": 1,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 10:55:57 PM CST",
+            "version": "368538",
+            "url": "https://results.enr.clarityelections.com/TX/Lubbock/126021/368538/reports/detailxml.zip"
+          },
+          "unreadable_versions": 6
+        }
+      ]
     },
     "2026_runoff": {
-      "found": false,
-      "note": "election not listed on this county's Clarity site"
+      "found": true,
+      "listings": [
+        {
+          "eid": "126277",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "369704",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/369704/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/13/2026 11:48:59 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "371620",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/371620/reports/detailxml.zip",
+              "content_hash": "b60ac4c62b54eca0c06c2b56fb7effe90d2df77865a6c4c479aced206cbfb028",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:24:54 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372943",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/372943/reports/detailxml.zip",
+              "content_hash": "b2e32d52ee6d7e4b9976e4349992cf9528feb8de783466662151f96f61c4cd2e",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:38:03 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373025",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373025/reports/detailxml.zip",
+              "content_hash": "373edb4cd352f444e8bead9f3d95a8ad1173d89766d024437d65e9b23b1c953a",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/27/2026 1:10:50 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373071",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373071/reports/detailxml.zip",
+              "content_hash": "7c5fd940f7deacb7a3ee7a73011ddde84ce968ee62e88b151563906a26e77667",
+              "election_night": true
+            },
+            {
+              "version": "373082",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373082/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "373083",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373083/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "373086",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373086/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "373087",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373087/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "373095",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373095/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/27/2026 9:21:48 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373096",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373096/reports/detailxml.zip",
+              "content_hash": "d07302348097b5746b707aaf6317e489220dd8152e373a1b4de0d4bff13cf92e",
+              "election_night": false
+            },
+            {
+              "version": "373130",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373130/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/27/2026 11:51:23 AM CDT",
+              "precincts_with_votes": 95,
+              "nonzero_precinct_vote_cells": 963,
+              "precincts_with_election_day_votes": 86,
+              "election_day_precinct_vote_sum": 1094,
+              "version": "373131",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373131/reports/detailxml.zip",
+              "content_hash": "afae87d655219cb0304d84a55bc3c78c2c5dec4c51f2b4f64f5fd4c5bcf9c7b6",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/9/2026 8:57:01 AM CDT",
+              "precincts_with_votes": 95,
+              "nonzero_precinct_vote_cells": 963,
+              "precincts_with_election_day_votes": 86,
+              "election_day_precinct_vote_sum": 1094,
+              "version": "374715",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/374715/reports/detailxml.zip",
+              "content_hash": "c2aaba0511273100e6923798bed2944fadbb8e23eb632f6f79961321fb58ad53",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/9/2026 12:17:14 PM CDT",
+              "precincts_with_votes": 95,
+              "nonzero_precinct_vote_cells": 963,
+              "precincts_with_election_day_votes": 86,
+              "election_day_precinct_vote_sum": 1094,
+              "version": "374811",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/374811/reports/detailxml.zip",
+              "content_hash": "86b9ddbec854bb7feb698460468b7dfda625c00e43e8410ccd6aec4cbb3356e7",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 0,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/27/2026 11:51:23 AM CDT",
+            "version": "373131",
+            "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373131/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 0,
+          "election_night_distinct_election_day_precinct_releases": 0,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/27/2026 11:51:23 AM CDT",
+            "version": "373131",
+            "url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373131/reports/detailxml.zip"
+          },
+          "unreadable_versions": 7
+        },
+        {
+          "eid": "126290",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "369819",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/369819/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369820",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/369820/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/13/2026 11:49:47 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "371621",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/371621/reports/detailxml.zip",
+              "content_hash": "117b89f0bf73263a3542724439fdafd46afbc8d66339cfbba8ff84a2285bef0f",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:23:36 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372942",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/372942/reports/detailxml.zip",
+              "content_hash": "82d0534d45dd55e233287a61f75e38216407502867a423027e987907cc24e9b1",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:40:38 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373027",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/373027/reports/detailxml.zip",
+              "content_hash": "74c7e0d398663b71241f3c40fe0587e192c31aeae4465ae7ab26261a816ebe93",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/27/2026 12:52:14 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373070",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/373070/reports/detailxml.zip",
+              "content_hash": "eaca3bc62432cf8357bb2c77e40c386279b1e48a5d680fbc4a6180df40b81973",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/27/2026 9:27:32 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "373102",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/373102/reports/detailxml.zip",
+              "content_hash": "82077e01bb6f2f74718b3ffb88d97a33ad48f317b7814b81fd56c60011da44a5",
+              "election_night": false
+            },
+            {
+              "version": "373128",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/373128/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/27/2026 11:48:18 AM CDT",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 3507,
+              "precincts_with_election_day_votes": 96,
+              "election_day_precinct_vote_sum": 30862,
+              "version": "373129",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/373129/reports/detailxml.zip",
+              "content_hash": "c2c7f67b661f8d3361dccd6e671856bb1ea74b6cbff1358fc67f4518d8854b0e",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/9/2026 9:03:41 AM CDT",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 3508,
+              "precincts_with_election_day_votes": 96,
+              "election_day_precinct_vote_sum": 30910,
+              "version": "374716",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/374716/reports/detailxml.zip",
+              "content_hash": "c08bed0926cbdaf28f294e7d60796276f07fe578af1313376d5a4a5031aae46b",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/9/2026 12:14:51 PM CDT",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 3508,
+              "precincts_with_election_day_votes": 96,
+              "election_day_precinct_vote_sum": 30910,
+              "version": "374807",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/374807/reports/detailxml.zip",
+              "content_hash": "5077d4d0016f94126c1361caeafa1e1d7240ce2032ce218c80c15ed54da7689a",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/13/2026 3:05:52 PM CDT",
+              "precincts_with_votes": 99,
+              "nonzero_precinct_vote_cells": 3508,
+              "precincts_with_election_day_votes": 96,
+              "election_day_precinct_vote_sum": 30910,
+              "version": "375605",
+              "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/375605/reports/detailxml.zip",
+              "content_hash": "0b05532b2d625bf5a29abf24a7fd2221002f01abf3201b92dddb1f71d2b94392",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 0,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/27/2026 11:48:18 AM CDT",
+            "version": "373129",
+            "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/373129/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 0,
+          "election_night_distinct_election_day_precinct_releases": 0,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/27/2026 11:48:18 AM CDT",
+            "version": "373129",
+            "url": "https://results.enr.clarityelections.com/TX/Lubbock/126290/373129/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
     }
+  },
+  "eid_overrides": {
+    "2024_general": "122846",
+    "2026_primary": "126020,126021",
+    "2026_runoff": "126277,126290"
   }
 }

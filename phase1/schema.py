@@ -69,7 +69,17 @@ def validate_v2(rec: dict, path: str = "") -> None:
             assert x["check"] != "none" and x.get("evidence_url") and x.get("fact"), \
                 f"{where}: {e} is determined, so it needs check, evidence_url, and fact"
     tag, single = compute_tag(el)
-    assert rec["tag"] == tag, f"{where}: tag {rec['tag']} does not follow the rule; rule gives {tag}"
+    ov = rec.get("owner_override")
+    if ov:
+        # The owner may set a tag the rule does not give; the record must say so (DECISIONS 52).
+        for k in ("tag", "confidence", "reason", "decided_utc", "rule_tag"):
+            assert ov.get(k), f"{where}: owner_override needs {k}"
+        assert ov["tag"] in TAGS and ov["confidence"] in CONFIDENCE, f"{where}: bad owner_override values"
+        assert ov["rule_tag"] == tag, f"{where}: owner_override.rule_tag {ov['rule_tag']} but rule gives {tag}"
+        assert rec["tag"] == ov["tag"] and rec["confidence"] == ov["confidence"], f"{where}: tag must equal override"
+        single = False
+    else:
+        assert rec["tag"] == tag, f"{where}: tag {rec['tag']} does not follow the rule; rule gives {tag}"
     if single:
         assert rec["confidence"] == "low", f"{where}: only one election determined, confidence must be low"
     for k, v in el.items():
@@ -86,6 +96,8 @@ def compute_confidence(rec: dict) -> str:
     med  : two or more deciding elections, at least one settled by check 2,
            or any deciding election settled under the live precinct view rule
     """
+    if rec.get("owner_override"):
+        return rec["owner_override"]["confidence"]
     tag, single = compute_tag(rec["elections"])
     if tag == "UNKNOWN" or single:
         return "low"

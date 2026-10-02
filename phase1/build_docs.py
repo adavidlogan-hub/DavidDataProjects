@@ -89,6 +89,8 @@ def stats(rows, ev, ver):
     s["disagree"] = sorted(c for c, v in ver.items() if v.get("agree") is False)
     s["notices"] = [r["county"] for r in rows if r["usage_notice_text"]]
     s["stated_change"] = [r["county"] for r in rows if r["stated_change_2026"] == "y"]
+    s["overrides"] = [f"{c} ({e['owner_override']['tag']}; rule gives {e['owner_override']['rule_tag']})"
+                      for c, e in sorted(ev.items()) if e.get("owner_override")]
     return s
 
 
@@ -189,6 +191,8 @@ def caveats_section(d, s, num):
         "dated after election night cannot rule out an election-night file that was later removed.",
         "Some counties hide precinct values in a particular election (Clarity marks them protected), so the same county "
         "can be LIVE in one election and LATER in another. The two-of-three rule decides the tag.",
+        "Owner overrides (tag set by the project owner where the fixed rule gives another tag; both are recorded): "
+        f"{', '.join(s['overrides']) or 'none'}.",
         "Results sites that carry a distribution or usage notice are marked internal use only: "
         f"{', '.join(s['notices']) or 'none'}.",
     ]

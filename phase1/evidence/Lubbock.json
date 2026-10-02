@@ -1,49 +1,49 @@
 {
   "county": "Lubbock",
-  "tag": "UNKNOWN",
-  "confidence": "low",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "med",
   "elections_office_phone": "",
   "elections_office_email": "",
-  "results_url": "https://votelubbock.gov/",
-  "platform": "unknown",
-  "host": "votelubbock.gov",
-  "evidence_url": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/352924/reports/detailxml.zip",
   "evidence_snapshot_timestamp": "",
-  "precinct_first_seen_local_time": "",
+  "precinct_first_seen_local_time": "2024-11-05 23:46 CT",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL www.votelubbock.org/elections-office/ returns HTTP 403 over http and HTTP 202 with an empty body over https; votelubbock.gov (named in a web search as the county elections site) also returns HTTP 202 with an empty body, including on a refreshed fetch, so the county's results page could not be read. lubbockcounty.gov home page has no election results link. Clarity: results.enr.clarityelections.com/TX/Lubbock/elections.json exists but is an empty list, so the check 1 script found no elections; no 2024 or 2026 Lubbock EIDs could be located (three web searches and the linked news pages gave none; Wikipedia only cites old EIDs 60299, 74828, 105035). EIDs were not probed by guessing. The Clarity Connect site lubbock-tx.connect.clarityelections.com is robots-disallowed for the fetch module. Check 3 pending (wayback-data branch not found on origin).",
-  "tag_rationale": "All three elections are UNDETERMINED because the county results site was unreachable and no Clarity EIDs were found, so by rule the tag is UNKNOWN.",
+  "notes": "Seed URL www.votelubbock.org/elections-office/ returns HTTP 403 over http and HTTP 202 with an empty body over https; votelubbock.gov (named in a web search as the county elections site) also returns HTTP 202 with an empty body, including on a refreshed fetch, so the county's results page could not be read. lubbockcounty.gov home page has no election results link. Clarity: results.enr.clarityelections.com/TX/Lubbock/elections.json exists but is an empty list, so the check 1 script found no elections; no 2024 or 2026 Lubbock EIDs could be located (three web searches and the linked news pages gave none; Wikipedia only cites old EIDs 60299, 74828, 105035). EIDs were not probed by guessing. The Clarity Connect site lubbock-tx.connect.clarityelections.com is robots-disallowed for the fetch module. Check 3 pending (wayback-data branch not found on origin). Targeted pass 2026-10-02 (orchestrator + targeted-Lubbock): Clarity IDs found by bounded search; owner override to LIVE_PRECINCT (DECISIONS 52). targeted-Lubbock found news with county totals only.",
+  "tag_rationale": "Clarity update logs: Nov 2024 LIVE, Mar 2026 primary END, May 2026 runoff LATER, so the fixed rule gives UNKNOWN; the owner set LIVE_PRECINCT from the Nov 2024 general (owner_override).",
   "agent": "research-B",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
+      "result": "LIVE",
+      "check": "1",
       "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "County results site returned empty HTTP 202; no Clarity EID found. Check 3 pending."
+      "precinct_first_seen": "2024-11-05 23:46 CT",
+      "night_updates_with_precinct_numbers": "2 distinct releases in 4 election-night updates",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Lubbock/122846/352924/reports/detailxml.zip",
+      "fact": "Clarity EID 122846 (2024 General and Special Election; detail.xml Region Lubbock, ElectionDate 11/5/2024): election-day precinct numbers first at 11:46 PM CST and released again with changed numbers later that night (2 distinct releases)."
     },
     "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
+      "result": "END",
+      "check": "1",
       "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "County results site returned empty HTTP 202; no Clarity EID found. Check 3 pending."
+      "precinct_first_seen": "2026-03-03 22:55 CT",
+      "night_updates_with_precinct_numbers": "1 release per party (EIDs 126020 Republican, 126021 Democratic)",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Lubbock/126020/368539/reports/detailxml.zip",
+      "fact": "Clarity EIDs 126020 (2026 Republican Primary) and 126021 (2026 Democratic Primary), Region Lubbock, ElectionDate 3/3/2026: election-day precinct numbers appear once on election night (10:58 PM and 10:55 PM CST). Corroborating lead: Avalanche-Journal live blog (Yahoo copy, modified 11:28 PM CST) says election-day results were posted around 11 p.m."
     },
     "2026_runoff": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "1",
+      "county_totals_first_seen": "5/26/2026 7:24:54 PM CDT",
       "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "County results site returned empty HTTP 202; no Clarity EID found. Check 3 pending."
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Lubbock/126277/373131/reports/detailxml.zip",
+      "fact": "Clarity EIDs 126277 (Democratic) and 126290 (Republican Primary Runoff), Region Lubbock, ElectionDate 5/26/2026: 3 election-night updates each with no election-day precinct numbers; election-day precinct numbers first at 11:48 AM and 11:51 AM CDT on May 27."
     }
   },
   "sources": [
@@ -60,6 +60,27 @@
       "content_hash": "96e7fd998538ec7001ebc0f39a5794d0e9ace929ddaff8ac67b5200db35904e7",
       "quote": "clarityelections.com/TX/Lubbock/60299 ; /74828 ; /105035",
       "supports": "Only older Lubbock Clarity EIDs located"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Lubbock/",
+      "via": "clarity_script",
+      "content_hash": "",
+      "quote": "Election IDs found by bounded ID search (phase1/checks/clarity_eid_probe/Lubbock.json, DECISIONS 51), confirmed by Region and ElectionDate; update logs in phase1/checks/clarity/Lubbock.json",
+      "supports": "all three elections"
+    },
+    {
+      "url": "https://www.yahoo.com/news/articles/live-updates-lubbock-texas-party-124519526.html",
+      "via": "fetch_module",
+      "content_hash": "",
+      "quote": "Unofficial results from election day ballots were posted around 11 p.m.",
+      "supports": "2026_primary corroboration (lead)"
     }
-  ]
+  ],
+  "owner_override": {
+    "tag": "LIVE_PRECINCT",
+    "confidence": "med",
+    "rule_tag": "UNKNOWN",
+    "decided_utc": "2026-10-02T20:08:31Z",
+    "reason": "Owner instruction 2026-10-02: Lubbock will report precinct results for the November election; tag set from the comparable Nov 2024 general, which Clarity shows as LIVE. The fixed rule gives UNKNOWN because the three elections differ (LIVE, END, LATER)."
+  }
 }
