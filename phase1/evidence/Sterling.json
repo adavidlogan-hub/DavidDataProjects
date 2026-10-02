@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed URL works over https; its menu lists 'Elections 2026' and 'Elections 2019-2025' (ezTask Titanium site). Both URLs returned HTTP 200 with the homepage body (burn ban notice, tax abatement and community center links) and no election documents, the same behavior seen on Sherman County's site, so check 2 could not be done. No Clarity site (elections.json 404). Check 3 pending (wayback-data branch not found on origin).",
+  "notes": "Seed URL works over https; its menu lists 'Elections 2026' and 'Elections 2019-2025' (ezTask Titanium site). Both URLs returned HTTP 200 with the homepage body (burn ban notice, tax abatement and community center links) and no election documents, the same behavior seen on Sherman County's site, so check 2 could not be done. No Clarity site (elections.json 404). Check 3 pending (wayback-data branch not found on origin). Targeted pass 3 2026-10-02 (targeted3-J): No change. Wayback harvest has no captures (2024 CDX timed out; primary and runoff empty); no targeted archives, targeted wayback or sweep file. Re-fetched 'Elections 2026' with --refresh, plus /page/sitemap and /page/County.Clerk: all return the identical homepage body (content hash 4c57d87e...), 'Elections 2019-2025' reset the connection; the site serves no election documents to the fetch module.",
   "tag_rationale": "All three elections are UNDETERMINED (no vendor log and the county election pages could not be read, check 3 pending), so by rule the tag is UNKNOWN.",
   "agent": "research-7",
   "method_version": "v2",
