@@ -2,7 +2,31 @@
   "seed": 20261002,
   "required": [
     {
-      "county": "Dallas",
+      "county": "Andrews",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Austin",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Bailey",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Bandera",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Bastrop",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Bee",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Bell",
       "reason": "tag LIVE_PRECINCT"
     },
     {
@@ -10,19 +34,195 @@
       "reason": "tag LIVE_PRECINCT"
     },
     {
-      "county": "Travis",
+      "county": "Brewster",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Burnet",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Calhoun",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Cameron",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Carson",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Chambers",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Cochran",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Comal",
       "reason": "tag LIVE_PRECINCT"
     },
     {
-      "county": "Tarrant",
+      "county": "Cooke",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Dallas",
       "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "DeWitt",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Deaf Smith",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Denton",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Dimmit",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Ector",
+      "reason": "low confidence"
+    },
+    {
+      "county": "El Paso",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Fayette",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Floyd",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Foard",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Fort Bend",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Freestone",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Galveston",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Garza",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Gregg",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Hamilton",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Hardin",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Harris",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Hemphill",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
     },
     {
       "county": "Hidalgo",
       "reason": "tag LIVE_PRECINCT"
     },
     {
-      "county": "Ector",
+      "county": "Hockley",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Hopkins",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Houston",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Hunt",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Hutchinson",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Irion",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Jackson",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Jasper",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Jones",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Karnes",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Kaufman",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Kendall",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Kent",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Lamar",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Lamb",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Liberty",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Lipscomb",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Lynn",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Madison",
       "reason": "low confidence"
     },
     {
@@ -30,33 +230,325 @@
       "reason": "tag LIVE_PRECINCT"
     },
     {
-      "county": "Brewster",
+      "county": "Mitchell",
       "reason": "low confidence"
     },
     {
-      "county": "Wilbarger",
-      "reason": "low confidence"
-    },
-    {
-      "county": "Comal",
+      "county": "Montague",
       "reason": "tag LIVE_PRECINCT"
     },
     {
-      "county": "Jim Hogg",
+      "county": "Navarro",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Ochiltree",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Presidio",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Real",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Roberts",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Robertson",
+      "reason": "tag PRECINCT_END_OF_NIGHT"
+    },
+    {
+      "county": "Rockwall",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Rusk",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Scurry",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Swisher",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Tarrant",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Terrell",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Throckmorton",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Travis",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Upshur",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Victoria",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Ward",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Webb",
+      "reason": "low confidence"
+    },
+    {
+      "county": "Wood",
+      "reason": "tag LIVE_PRECINCT"
+    },
+    {
+      "county": "Zavala",
       "reason": "low confidence"
     }
   ],
   "random_sample": [
     {
-      "county": "Hudspeth",
+      "county": "Archer",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Childress",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Crosby",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Dickens",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Haskell",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Hays",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Kenedy",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Lavaca",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Live Oak",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "McCulloch",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Parker",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Rains",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "San Saba",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Tyler",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Upton",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Wilbarger",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Young",
+      "reason": "random 10 percent sample"
+    },
+    {
+      "county": "Zapata",
       "reason": "random 10 percent sample"
     }
   ],
   "not_selected": [
-    "Harris",
+    "Anderson",
+    "Angelina",
+    "Aransas",
+    "Armstrong",
+    "Atascosa",
+    "Baylor",
+    "Blanco",
+    "Borden",
+    "Bosque",
+    "Bowie",
+    "Brazoria",
+    "Brazos",
+    "Briscoe",
+    "Brooks",
+    "Brown",
+    "Burleson",
+    "Caldwell",
+    "Callahan",
+    "Camp",
+    "Cass",
+    "Castro",
+    "Cherokee",
+    "Clay",
+    "Coke",
+    "Coleman",
+    "Collin",
+    "Collingsworth",
+    "Colorado",
+    "Comanche",
+    "Concho",
+    "Coryell",
+    "Cottle",
+    "Crane",
+    "Crockett",
+    "Culberson",
+    "Dallam",
+    "Dawson",
+    "Delta",
+    "Donley",
+    "Duval",
+    "Eastland",
+    "Edwards",
+    "Ellis",
+    "Erath",
+    "Falls",
+    "Fannin",
+    "Fisher",
+    "Franklin",
+    "Frio",
+    "Gaines",
+    "Gillespie",
+    "Glasscock",
+    "Goliad",
+    "Gonzales",
+    "Gray",
+    "Grayson",
+    "Grimes",
+    "Guadalupe",
+    "Hale",
+    "Hall",
+    "Hansford",
+    "Hardeman",
+    "Harrison",
+    "Hartley",
+    "Henderson",
+    "Hill",
+    "Hood",
+    "Howard",
+    "Hudspeth",
+    "Jack",
+    "Jeff Davis",
+    "Jefferson",
+    "Jim Hogg",
+    "Jim Wells",
+    "Johnson",
+    "Kerr",
+    "Kimble",
+    "King",
+    "Kinney",
+    "Kleberg",
+    "Knox",
+    "La Salle",
+    "Lampasas",
+    "Lee",
+    "Leon",
+    "Limestone",
+    "Llano",
     "Loving",
     "Lubbock",
+    "Marion",
+    "Martin",
+    "Mason",
+    "Matagorda",
+    "Maverick",
+    "McLennan",
+    "McMullen",
+    "Medina",
+    "Menard",
+    "Milam",
+    "Mills",
+    "Montgomery",
+    "Moore",
+    "Morris",
+    "Motley",
+    "Nacogdoches",
+    "Newton",
+    "Nolan",
+    "Nueces",
+    "Oldham",
+    "Orange",
+    "Palo Pinto",
+    "Panola",
+    "Parmer",
+    "Pecos",
+    "Polk",
+    "Potter",
+    "Randall",
+    "Reagan",
+    "Red River",
+    "Reeves",
+    "Refugio",
+    "Runnels",
     "Sabine",
-    "Smith"
+    "San Augustine",
+    "San Jacinto",
+    "San Patricio",
+    "Schleicher",
+    "Shackelford",
+    "Shelby",
+    "Sherman",
+    "Smith",
+    "Somervell",
+    "Starr",
+    "Stephens",
+    "Sterling",
+    "Stonewall",
+    "Sutton",
+    "Taylor",
+    "Terry",
+    "Titus",
+    "Tom Green",
+    "Trinity",
+    "Uvalde",
+    "Val Verde",
+    "Van Zandt",
+    "Walker",
+    "Waller",
+    "Washington",
+    "Wharton",
+    "Wheeler",
+    "Wichita",
+    "Willacy",
+    "Williamson",
+    "Wilson",
+    "Winkler",
+    "Wise",
+    "Yoakum"
   ]
 }
