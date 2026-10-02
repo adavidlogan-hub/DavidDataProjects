@@ -33,7 +33,7 @@ Election night = 7:00 PM election day to 3:00 AM the next morning, county local 
 - If check 3 data is not yet on the wayback-data branch, set check "none" and result UNDETERMINED for elections not settled by checks 1 or 2, and add "check 3 pending" in notes.
 
 ## Result per election (pick exactly one)
-- `LIVE`: precinct numbers appear in two or more updates during election night.
+- `LIVE`: precinct numbers that include election-day votes appear in two or more updates during election night (updates with only early, mail, or absentee precinct numbers do not count). For Clarity, use the script's election_night_updates_with_election_day_precinct_votes.
 - `END`: precinct numbers that include election-day votes appear on election night, once, with the final unofficial count.
 - `LATER`: on election night the county publishes county totals only (or early-vote-only precinct numbers); precinct numbers with election-day votes come after election night, or are never published online. Say which in the note.
 - `NONE`: the county publishes no results of its own for that election (results only via the SOS).

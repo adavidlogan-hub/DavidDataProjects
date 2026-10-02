@@ -27,6 +27,10 @@ from txprecinct.fetch import FetchClient  # noqa: E402
 BASE = "https://results.enr.clarityelections.com/TX"
 TARGETS = {"2024_general": "11/5/2024", "2026_primary": "3/3/2026", "2026_runoff": "5/26/2026"}
 OUT = Path(__file__).resolve().parent / "checks" / "clarity"
+# Election-day vote types as Clarity names them across Texas counties ("Election Day", "Election",
+# "ELECTION DAY", "ED Provisional", "Election Day In-Person", "Election Day Provisionals").
+# Early, mail, absentee, provisional-only, over/undervote, and registration types do not match.
+ED_VOTETYPE_RE = re.compile(r"(?i)^(election\b|ed\b)")
 TS_RE = re.compile(r"(\d+/\d+/\d{4} \d+:\d{2}:\d{2} [AP]M)\s*([A-Z]{2,4})?")
 
 
@@ -40,12 +44,16 @@ def read_detail(zbytes: bytes) -> dict:
     names = [n for n in z.namelist() if n.lower().endswith(".xml")]
     assert names, "detailxml.zip has no xml"
     ts, precincts_with_votes, cells = None, set(), 0
+    ed_precincts = set()
     in_contest = 0
+    votetype = None
     with z.open(names[0]) as fh:
         for ev, el in ET.iterparse(fh, events=("start", "end")):
             tag = el.tag
             if ev == "start" and tag == "Contest":
                 in_contest += 1
+            elif ev == "start" and tag == "VoteType":
+                votetype = el.attrib.get("name", "")
             elif ev == "end":
                 if tag == "Timestamp" and ts is None:
                     ts = (el.text or "").strip()
@@ -54,11 +62,14 @@ def read_detail(zbytes: bytes) -> dict:
                     if v.isdigit() and int(v) > 0:
                         cells += 1
                         precincts_with_votes.add(el.attrib.get("name"))
+                        if votetype and ED_VOTETYPE_RE.match(votetype):
+                            ed_precincts.add(el.attrib.get("name"))
                 elif tag == "Contest":
                     in_contest -= 1
                 el.clear()
     assert ts, "no Timestamp in detail.xml"
-    return {"timestamp": ts, "precincts_with_votes": len(precincts_with_votes), "nonzero_precinct_vote_cells": cells}
+    return {"timestamp": ts, "precincts_with_votes": len(precincts_with_votes), "nonzero_precinct_vote_cells": cells,
+            "precincts_with_election_day_votes": len(ed_precincts)}
 
 
 def on_election_night(ts: str, election_date: str) -> bool:
@@ -111,11 +122,16 @@ def run(county: str, agent: str, eid_override: dict | None = None) -> dict:
                 updates.append(d)
             night = [u for u in updates if u.get("election_night")]
             night_with = [u for u in night if u["precincts_with_votes"] > 0]
+            night_with_ed = [u for u in night if u.get("precincts_with_election_day_votes", 0) > 0]
             first = next((u for u in updates if u.get("precincts_with_votes", 0) > 0), None)
+            first_ed = next((u for u in updates if u.get("precincts_with_election_day_votes", 0) > 0), None)
             per.append({"eid": eid, "name": e.get("ElectionName"), "updates": updates,
                         "election_night_updates": len(night),
                         "election_night_updates_with_precinct_votes": len(night_with),
                         "first_update_with_precinct_votes": first and {k: first[k] for k in ("timestamp", "version", "url")},
+                        "election_night_updates_with_election_day_precinct_votes": len(night_with_ed),
+                        "first_update_with_election_day_precinct_votes":
+                            first_ed and {k: first_ed[k] for k in ("timestamp", "version", "url")},
                         "unreadable_versions": sum(1 for u in updates if "error" in u)})
         res["elections"][key] = {"found": True, "listings": per}
     return res
@@ -141,8 +157,9 @@ def main(argv=None) -> int:
     summary = {"county": a.county, "result": res.get("result", "ok")}
     for k, v in res["elections"].items():
         summary[k] = ("not listed" if not v["found"] else
-                      [f"{l['election_night_updates_with_precinct_votes']}/{l['election_night_updates']} night updates with "
-                       f"precinct votes; first {(l['first_update_with_precinct_votes'] or {}).get('timestamp')}"
+                      [f"{l['election_night_updates_with_election_day_precinct_votes']}/{l['election_night_updates']} night "
+                       f"updates with election-day precinct votes; first "
+                       f"{(l['first_update_with_election_day_precinct_votes'] or {}).get('timestamp')}"
                        for l in v["listings"]])
     print(json.dumps(summary, indent=1))
     return 0

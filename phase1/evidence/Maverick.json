@@ -1,0 +1,65 @@
+{
+  "county": "Maverick",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://co.maverick.tx.us/elections",
+  "platform": "county_pdfs",
+  "host": "co.maverick.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed https://co.maverick.tx.us/ loads; the Elections page (files served from a Cloudflare R2 bucket, pub-3ec9fd02caf74c549229cabadbf2564d.r2.dev) lists November 2026 materials, polling places, 2026 campaign finance reports, and as the only results 'Official Results - May 26, 2026' plus hand count audits. No 2024 general or March 2026 primary results and no election-night files are listed; the site appears to hold only recent material, so absence is not evidence of what was posted at the time. No Clarity site (elections.json 404). Check 3 pending for all three elections.",
+  "tag_rationale": "No election was determined (all UNDETERMINED), so the rule gives UNKNOWN.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; no 2024 results on the current Elections page"
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; no March 2026 primary results on the current Elections page"
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the only runoff results file is 'Official Results - May 26, 2026' (PDF CreationDate Tue Jun 16 2026, Last-Modified Wed, 17 Jun 2026 19:11:51 GMT), posted after the canvass; what was posted on election night is not shown"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://co.maverick.tx.us/elections",
+      "via": "fetch_module",
+      "content_hash": "e07def7fafae665d6f8b8fa862345a7795caaca69c1337c4c00418a7b505207f",
+      "quote": "Official Results - May 26, 2026 (Main document) 472 KB | Democratic Party - Hand Count Audit | Republican Party - Hand Count Audit",
+      "supports": "only official runoff results listed"
+    },
+    {
+      "url": "https://pub-3ec9fd02caf74c549229cabadbf2564d.r2.dev/elections/results/2026/May_26_2026_Official_Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "233df2d5bce67c003ccaf9bc0349d578a757fe2d55731e20b383b0866e398e2e",
+      "quote": "CreationDate Tue Jun 16 15:29:49 2026 UTC; Last-Modified Wed, 17 Jun 2026 19:11:51 GMT",
+      "supports": "runoff official results posted June 2026"
+    }
+  ]
+}

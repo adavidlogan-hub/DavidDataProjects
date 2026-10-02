@@ -1,0 +1,86 @@
+{
+  "county": "Gregg",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Gregg/",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368487/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 22:34 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.co.gregg.tx.us returned HTTP 403; https redirects to greggcounty.texas.gov, whose 'Elections' link goes to www.greggcountyvotes.com, which answered with an empty HTTP 202 (bot protection, not bypassed). Gregg's Clarity elections.json lists all three elections (EIDs 122313, 125930, 126274; detail.xml Region 'Gregg' with matching ElectionDate). Check 1: pre-election versions with precinct votes (9/24/2024, 10/15/2024, 2/20/2026, 4/22/2026) are pre-election test data, not results. 2024 general: two election-night updates, 10:34:05 PM and 10:41:00 PM CST, each with 21 precincts with votes and identical summed precinct votes (833,833), so the precinct numbers were in fact released once; a version just before (352612) has no detail file (HTTP 404). 2026 primary: one election-night update, 9:34:33 PM CST, 21 precincts (the prior readable update at 6:37 PM had 0; version 368483 just before 9:34 PM has no detail file). 2026 runoff: one election-night update, 8:35:28 PM CDT, 21 precincts (prior readable update 5/20/2026 had 0). Next updates are post-canvass (11/20/2024, 3/12/2026, 6/2/2026). Check 3 not needed.",
+  "tag_rationale": "2026 primary and 2026 runoff are both END by check 1 (precinct numbers in a single election-night Clarity update with the final unofficial count), so the tag is PRECINCT_END_OF_NIGHT with high confidence; the 2024 general counts as LIVE under the two-update rule although both updates carry identical numbers.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 22:34 CT",
+      "precinct_first_seen": "2024-11-05 22:34 CT",
+      "night_updates_with_precinct_numbers": "2",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Gregg/122313/352631/reports/detailxml.zip",
+      "fact": "Clarity EID 122313 '2024 General Election': election-night updates 11/5/2024 10:34:05 PM CST and 10:41:00 PM CST, each with 21 precincts with nonzero votes; summed precinct votes 833,833 in both. Next update 11/20/2024."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 21:34 CT",
+      "precinct_first_seen": "2026-03-03 21:34 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368487/reports/detailxml.zip",
+      "fact": "Clarity EID 125930 '2026 Joint Primary': updates 3/3/2026 6:37:56 PM CST (0 precincts with votes), 9:34:33 PM CST (21 precincts, summed precinct votes 792,230), next 3/12/2026 2:13:39 PM CDT. Version 368483 (between them) has no detail file."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 20:35 CT",
+      "precinct_first_seen": "2026-05-26 20:35 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Gregg/126274/372981/reports/detailxml.zip",
+      "fact": "Clarity EID 126274 '2026 Joint Primary Runoff': updates 5/20/2026 4:56:00 PM CDT (0 precincts with votes), 5/26/2026 8:35:28 PM CDT (21 precincts, summed precinct votes 33,942), next 6/2/2026 1:46:10 PM CDT."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.gregg.tx.us/",
+      "via": "fetch_module",
+      "content_hash": "754eb6e08896c878043eec3fde8a95b34720a9fb3ee3bd2c76524fbd16118979",
+      "quote": "Elections (https://www.greggcountyvotes.com/)",
+      "supports": "county site links its elections site"
+    },
+    {
+      "url": "https://www.greggcountyvotes.com/",
+      "via": "fetch_module",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote": "HTTP 202 with empty body",
+      "supports": "county elections site blocked"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/352631/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "d3480147f936230320004b3c1e11bf56c03d23c4b2138ff91753519f8a526f36",
+      "quote": "Timestamp 11/5/2024 10:34:05 PM CST; 21 precincts with votes",
+      "supports": "2024_general first night update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368487/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "4adeeafef748622d3ca13e45d7deb6d31066503f56ba486486f9e4089606b95f",
+      "quote": "Timestamp 3/3/2026 9:34:33 PM CST; 21 precincts with votes",
+      "supports": "2026_primary single night update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/372981/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "8beccaf606ccc9c0632dcd5652c80688777be0e715fea584677ca72746088370",
+      "quote": "Timestamp 5/26/2026 8:35:28 PM CDT; 21 precincts with votes",
+      "supports": "2026_runoff single night update"
+    }
+  ]
+}

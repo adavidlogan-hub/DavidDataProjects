@@ -21,7 +21,18 @@ def zipped(x):
 
 def test_read_detail_counts_only_contest_precinct_votes():
     d = read_detail(zipped(XML))
-    assert d == {"timestamp": "3/3/2026 9:01:03 PM CST", "precincts_with_votes": 2, "nonzero_precinct_vote_cells": 3}
+    assert d == {"timestamp": "3/3/2026 9:01:03 PM CST", "precincts_with_votes": 2, "nonzero_precinct_vote_cells": 3,
+                 "precincts_with_election_day_votes": 1}
+
+
+def test_election_day_votetype_names():
+    from phase1.clarity_timeline import ED_VOTETYPE_RE as R
+    for n in ("Election Day", "Election", "ELECTION DAY", "ED Provisional", "Election Day In-Person",
+              "Election Day Provisionals"):
+        assert R.match(n), n
+    for n in ("Early", "Early Voting", "EV In-person", "EV Mail", "Absentee", "Ballot by Mail", "Overvotes",
+              "Undervotes", "Provisional", "regVotersCounty", "Limited", "Vote by Mail", "Absentee/Mail"):
+        assert not R.match(n), n
 
 
 def test_election_night_window():
