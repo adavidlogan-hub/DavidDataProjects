@@ -48,3 +48,11 @@ def test_county_names():
 def test_links_decode_entities():
     page = '<a name="County"></a><td><a href="http://x.gov/?a=1&amp;b=2">Red  River County</a></td>'
     assert parse_links(page) == {"Red River": "http://x.gov/?a=1&b=2"}
+
+
+def test_dash_normalized_and_flagged():
+    from phase1.seed_sos import normalize_entry
+    en, em = chr(0x2013), chr(0x2014)
+    e = normalize_entry({"county": "Menard", "office_title": f"Tax Assessor {en} Collector", "address": [f"a {em} b"]})
+    assert e["office_title"] == "Tax Assessor - Collector" and e["address"] == ["a - b"] and e["dash_normalized"]
+    assert not normalize_entry({"county": "X", "office_title": "Clerk"})["dash_normalized"]

@@ -5,7 +5,7 @@
 
 Values are copied as shown on the SOS pages (whitespace collapsed, HTML entities
 decoded); nothing is inferred. Output: data/seed_counties.csv and
-data/sos_officials_raw.json (every office entry, including counties with more
+data/sos_officials_parsed.json (every office entry, including counties with more
 than one listed office).
 
     python -m phase1.seed_sos
@@ -28,6 +28,35 @@ LINKS_URL = "https://www.sos.state.tx.us/elections/voter/links.shtml"
 DATA = Path(__file__).resolve().parent.parent / "data"
 PHONE_RE = re.compile(r"^\(?\d{3}\)?[\s.-]*\d{3}[\s.-]*\d{4}")
 EXPECTED_COUNTIES = 254
+
+
+DASHES = {chr(0x2013): "-", chr(0x2014): "-"}
+
+
+def deliverable_text(value: str) -> tuple[str, bool]:
+    """Deliverables may not contain en or em dashes. Replace with a plain hyphen and report
+    whether anything changed; the exact source bytes stay in the cache under the page hash."""
+    out = value
+    for k, v in DASHES.items():
+        out = out.replace(k, v)
+    return out, out != value
+
+
+def normalize_entry(e: dict) -> dict:
+    changed = False
+    out = {}
+    for k, v in e.items():
+        if isinstance(v, str):
+            v, c = deliverable_text(v)
+        elif isinstance(v, list):
+            pairs = [deliverable_text(x) for x in v]
+            v, c = [x for x, _ in pairs], any(c for _, c in pairs)
+        else:
+            c = False
+        out[k] = v
+        changed = changed or c
+    out["dash_normalized"] = changed
+    return out
 
 
 def clean(s: str) -> str:
@@ -94,7 +123,7 @@ def main() -> int:
     off = client.get(OFFICIALS_URL, purpose="seed: officials")
     lnk = client.get(LINKS_URL, purpose="seed: county websites")
     assert off.ok and lnk.ok, f"seed fetch failed: {off.error} {lnk.error}"
-    entries = parse_officials(off.text())
+    entries = [normalize_entry(e) for e in parse_officials(off.text())]
     links = parse_links(lnk.text())
     counties = sorted({e["county"] for e in entries})
     assert len(counties) == EXPECTED_COUNTIES, f"expected {EXPECTED_COUNTIES} counties, parsed {len(counties)}"
@@ -102,11 +131,11 @@ def main() -> int:
     assert not unknown_links, f"links page names counties not in officials list: {unknown_links}"
     DATA.mkdir(exist_ok=True)
     fetched = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(off.fetched_at))
-    (DATA / "sos_officials_raw.json").write_text(json.dumps(
+    (DATA / "sos_officials_parsed.json").write_text(json.dumps(
         {"source": OFFICIALS_URL, "content_hash": off.content_hash, "fetched_at_utc": fetched,
          "entries": entries}, indent=2))
     cols = ["county", "office_title", "official", "phone", "email", "abbm_email", "fax", "address",
-            "offices_listed", "county_website_sos", "sos_officials_hash", "sos_links_hash"]
+            "offices_listed", "county_website_sos", "dash_normalized", "sos_officials_hash", "sos_links_hash"]
     with open(DATA / "seed_counties.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=cols)
         w.writeheader()
@@ -115,7 +144,7 @@ def main() -> int:
             first = es[0]
             w.writerow({"county": c, "office_title": first["office_title"], "official": first["official"],
                         "phone": first["phone"], "email": first["email"], "abbm_email": first["abbm_email"],
-                        "fax": first["fax"], "address": " | ".join(first["address"]), "offices_listed": len(es),
+                        "fax": first["fax"], "address": " | ".join(first["address"]), "offices_listed": len(es), "dash_normalized": "y" if first["dash_normalized"] else "n",
                         "county_website_sos": links.get(c, ""), "sos_officials_hash": off.content_hash,
                         "sos_links_hash": lnk.content_hash})
     (DATA / "all_counties.txt").write_text("\n".join(counties) + "\n")
