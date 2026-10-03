@@ -31,3 +31,11 @@ def test_pdf_info_reads_text_and_dates():
     info = pdf_info(b"%PDF-1.4 << /CreationDate (D:20241106003918-06'00') >> stream\n" + s + b"\nendstream")
     assert info["CreationDate"].startswith("D:2024")
     assert info["printed_datetimes_first_streams"] == ["11/06/2024 12:37 AM"]
+
+
+def test_cdx_chunk_windows_cover_the_election_window():
+    from phase1.archive_file_sweep import FILE_MIME, cdx_url
+    u0 = cdx_url("example.gov", "2024_general", FILE_MIME, 0, 3)
+    u1 = cdx_url("example.gov", "2024_general", FILE_MIME, 3, 3)
+    assert "from=20241105060000" in u0 and "to=20241108060000" in u0
+    assert "from=20241108060000" in u1 and "to=20241111060000" in u1

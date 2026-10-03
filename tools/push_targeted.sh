@@ -6,7 +6,7 @@ REMOTE="https://x-access-token:${TOKEN}@github.com/${REPO}.git"
 WD=$(mktemp -d)
 git clone -q --depth 1 --branch wayback-data "$REMOTE" "$WD"
 mkdir -p "$WD/phase1/targeted"
-for d in archives wayback pdfs sweep; do
+for d in archives wayback pdfs sweep sweep2; do
   if [ -d "phase1/targeted/$d" ]; then cp -r "phase1/targeted/$d" "$WD/phase1/targeted/"; fi
 done
 cd "$WD"

@@ -1,0 +1,44 @@
+name: sweep-rerun
+# Reruns the archived results-file sweep for counties whose first run had CDX query timeouts
+# (phase1/targeted/sweep_rerun.txt), with 3-day query windows. Output: phase1/targeted/sweep2.
+# Shares the wayback-harvest concurrency group (one archive.org client at a time).
+on:
+  push:
+    branches: [claude/tx-precinct-pipeline]
+    paths: [phase1/targeted/sweep_rerun.txt, .github/workflows/sweep-rerun.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sweep2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    concurrency:
+      group: wayback-harvest
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Rerun sweep with 3-day query windows
+        shell: bash
+        run: |
+          set -o pipefail
+          ONLY=$(grep -v '^#' phase1/targeted/sweep_rerun.txt | tr -d '\n')
+          python -m phase1.archive_file_sweep --targets phase1/targeted/sweep_targets.json --out phase1/targeted/sweep2 --chunk-days 3 --only "$ONLY" | tee sweep2_log.jsonl
+      - name: Upload artifact (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sweep-rerun-${{ github.run_id }}
+          path: phase1/targeted/sweep2
+          retention-days: 30
+      - name: Push to wayback-data branch
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+          JOB: sweep-rerun
+        run: bash tools/push_targeted.sh

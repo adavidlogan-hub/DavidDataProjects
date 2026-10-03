@@ -84,10 +84,10 @@ def score(url: str) -> int:
     return sum(w for rx, w in SCORE if re.search(rx, url))
 
 
-def cdx_url(prefix: str, election: str, mime: str) -> str:
+def cdx_url(prefix: str, election: str, mime: str, first_day: int = 0, days: int = WINDOW_DAYS) -> str:
     day, off = ELECTIONS[election]
-    start = datetime.strptime(day, "%Y-%m-%d") - timedelta(hours=off)  # local midnight in UTC
-    end = start + timedelta(days=WINDOW_DAYS)
+    start = datetime.strptime(day, "%Y-%m-%d") - timedelta(hours=off) + timedelta(days=first_day)  # local midnight in UTC
+    end = start + timedelta(days=days)
     return ("https://web.archive.org/cdx/search/cdx?url=" + quote(prefix, safe="") + "&matchType=prefix&output=json"
             f"&from={start:%Y%m%d%H%M%S}&to={end:%Y%m%d%H%M%S}"
             "&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200"
@@ -99,6 +99,8 @@ def main(argv=None) -> int:
     ap.add_argument("--targets", required=True)
     ap.add_argument("--out", required=True)
     ap.add_argument("--only", help="comma-separated counties")
+    ap.add_argument("--chunk-days", type=int, default=WINDOW_DAYS,
+                    help="split each CDX query into windows of this many days (smaller queries finish within the fetch timeout)")
     a = ap.parse_args(argv)
     from txprecinct.fetch import FetchClient
     c = FetchClient(agent="archive-file-sweep")
@@ -117,17 +119,22 @@ def main(argv=None) -> int:
         for election in ELECTIONS:
             n0, n1, off = night_bounds(election)
             rows, cdx_log = [], []
+            chunks = [(d, min(a.chunk_days, WINDOW_DAYS - d)) for d in range(0, WINDOW_DAYS, a.chunk_days)]
             for prefix in spec.get("file_prefixes", []):
-                u = cdx_url(prefix, election, FILE_MIME)
-                r = c.get(u, purpose=f"sweep:cdx:{county}")
-                got = json.loads(r.text() or "[]")[1:] if r.ok else []
-                cdx_log.append({"cdx_url": u, "error": r.error, "rows": len(got)})
-                rows += [("file", *g) for g in got]
+                for d0, nd in chunks:
+                    u = cdx_url(prefix, election, FILE_MIME, d0, nd)
+                    r = c.get(u, purpose=f"sweep:cdx:{county}")
+                    got = json.loads(r.text() or "[]")[1:] if r.ok else []
+                    cdx_log.append({"cdx_url": u, "error": r.error, "rows": len(got)})
+                    rows += [("file", *g) for g in got]
             for prefix in spec.get("page_prefixes", []):
-                u = cdx_url(prefix, election, HTML_MIME)
-                r = c.get(u, purpose=f"sweep:cdx:{county}")
-                got = json.loads(r.text() or "[]")[1:] if r.ok else []
-                cdx_log.append({"cdx_url": u, "error": r.error, "rows": len(got)})
+                got = []
+                for d0, nd in chunks[:max(1, -(-2 // a.chunk_days))]:  # pages: first 2 days only
+                    u = cdx_url(prefix, election, HTML_MIME, d0, nd)
+                    r = c.get(u, purpose=f"sweep:cdx:{county}")
+                    part = json.loads(r.text() or "[]")[1:] if r.ok else []
+                    cdx_log.append({"cdx_url": u, "error": r.error, "rows": len(part)})
+                    got += part
                 # Results pages change often; keep only captures within 2 days of election day.
                 cutoff = (n0 - timedelta(hours=19) + timedelta(days=2) - timedelta(hours=off)).strftime("%Y%m%d%H%M%S")
                 rows += [("page", *g) for g in got if g[0] <= cutoff]
