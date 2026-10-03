@@ -42,7 +42,7 @@ david@jonrosenthaltx.com
 To: votelubbock@lubbockcounty.gov
 Subject: Question about election night precinct results for November 3, 2026
 
-Dear Mr. Havard and the Lubbock County Elections staff,
+Dear Troy Havard and the Lubbock County Elections staff,
 
 My name is David Logan, and I am the Data Director for the Jon Rosenthal for Railroad Commission campaign. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Lubbock County.
 
@@ -65,7 +65,7 @@ david@jonrosenthaltx.com
 To: Bridgette.Escobedo@wilco.org
 Subject: Question about election night precinct results for November 3, 2026
 
-Dear Ms. Escobedo,
+Dear Bridgette Escobedo,
 
 My name is David Logan, and I am the Data Director for the Jon Rosenthal for Railroad Commission campaign. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Williamson County.
 
@@ -88,7 +88,7 @@ david@jonrosenthaltx.com
 To: elections@co.ellis.tx.us
 Subject: Question about election night precinct results for November 3, 2026
 
-Dear Ms. Onyon and the Ellis County Elections staff,
+Dear Jana Onyon and the Ellis County Elections staff,
 
 My name is David Logan, and I am the Data Director for the Jon Rosenthal for Railroad Commission campaign. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Ellis County.
 
@@ -111,7 +111,7 @@ david@jonrosenthaltx.com
 To: Desi.Roberts@bellcounty.texas.gov
 Subject: Question about election night precinct results for November 3, 2026
 
-Dear Ms. Roberts,
+Dear Desi Roberts,
 
 My name is David Logan, and I am the Data Director for the Jon Rosenthal for Railroad Commission campaign. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Bell County.
 
