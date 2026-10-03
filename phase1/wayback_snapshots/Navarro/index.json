@@ -3,7 +3,7 @@
   "targets": [
     "co.navarro.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T18:47:41Z",
+  "harvested_at_utc": "2026-10-03T09:16:38Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -75,9 +75,10 @@
           "digest": "ADAMQYSCW57CWMQDW6HUIL5M3RMQBZDW",
           "length": "16483",
           "replay_url": "https://web.archive.org/web/20241106064948id_/https://www.co.navarro.tx.us/page/navarro.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "495f088feee5e1732780bea43cc1768851dabfa638c0dd77f77ad76417bcfd83",
+          "saved_as": "Navarro/2024_general_20241106064948_495f088feee5.html"
         },
         {
           "timestamp_utc": "20241106072850",

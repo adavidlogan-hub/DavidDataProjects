@@ -3,7 +3,7 @@
   "targets": [
     "collincountytx.gov"
   ],
-  "harvested_at_utc": "2026-10-02T18:14:00Z",
+  "harvested_at_utc": "2026-10-03T09:06:15Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -140,7 +140,7 @@
           "length": "13100",
           "replay_url": "https://web.archive.org/web/20241106064855id_/https://www.collincountytx.gov/Elections/absentee-and-by-mail-voting?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
           "ok": false,
-          "error": "URLError: _ssl.c:999: The handshake operation timed out",
+          "error": "URLError: [Errno 111] Connection refused",
           "content_hash": null
         },
         {
@@ -151,9 +151,10 @@
           "digest": "ZCYBU5OKQYMCTIIXBGRWDELSHOM2KH33",
           "length": "17067",
           "replay_url": "https://web.archive.org/web/20241106064855id_/https://www.collincountytx.gov/elections/Pages/default.aspx?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "6ef1aa7ee4861a3f054e19bc536ac11c3293d0a257eaf26776b983ea0b471ad4",
+          "saved_as": "Collin/2024_general_20241106064855_6ef1aa7ee486.html"
         },
         {
           "timestamp_utc": "20241106064906",

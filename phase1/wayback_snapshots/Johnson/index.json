@@ -3,7 +3,7 @@
   "targets": [
     "johnsoncountytx.org"
   ],
-  "harvested_at_utc": "2026-10-02T18:32:35Z",
+  "harvested_at_utc": "2026-10-03T09:11:22Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -36,9 +36,10 @@
           "digest": "5R6I4RYEYP752CLZUXATTSXOYV5GGIBN",
           "length": "25406",
           "replay_url": "https://web.archive.org/web/20241106040051id_/https://www.johnsoncountytx.org/departments/elections-office?os=wtmb5utkcxk5ref",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "5ca66361634442b88a3b646755942bd91784236f41e4bc85c635f90aa3b6b60f",
+          "saved_as": "Johnson/2024_general_20241106040051_5ca663616344.html"
         },
         {
           "timestamp_utc": "20241106045915",
@@ -48,9 +49,10 @@
           "digest": "6D2GWFV4G4ZPL7TJ4QCM66XIMSYU2XY3",
           "length": "25381",
           "replay_url": "https://web.archive.org/web/20241106045915id_/https://www.johnsoncountytx.org/departments/elections-office?os=0slw57psddf&ref=app",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "6d18b3674220978f4960db3bfd623e6812cea4f97282fb7fa9c1b39c6510cfb9",
+          "saved_as": "Johnson/2024_general_20241106045915_6d18b3674220.html"
         },
         {
           "timestamp_utc": "20241106045922",

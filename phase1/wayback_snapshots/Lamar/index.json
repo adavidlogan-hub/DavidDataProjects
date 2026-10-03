@@ -3,7 +3,7 @@
   "targets": [
     "co.lamar.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T18:37:34Z",
+  "harvested_at_utc": "2026-10-03T09:12:42Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -35,9 +35,10 @@
           "digest": "BZLJ76QVBP2T5NLINNYHBZPVRU3M5YHG",
           "length": "10506",
           "replay_url": "https://web.archive.org/web/20241106045922id_/https://www.co.lamar.tx.us/page/lamar.Elections?os=0slw57psddf&ref=app",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "f9407e46fa0d78b593bd5ca36392f38adedf726761e1dc2db529a722be99b3a8",
+          "saved_as": "Lamar/2024_general_20241106045922_f9407e46fa0d.html"
         },
         {
           "timestamp_utc": "20241106050052",
