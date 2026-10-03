@@ -1,0 +1,68 @@
+{
+  "county": "Bee",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections History lists one file, 'November 5, 2024 General Election (PDF)' (DocumentCenter 411): Official Results, county totals only (scan CreationDate Nov 18 2024). No election-night file survives. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'Official Cumulative Reports with Reconciliation (PDF)' (DocumentCenter 3104): Official Results, Run Date 03/12/2026, county totals only; 'March 3, 2026 Preliminary Election Reconciliation' is a totals form scanned Mar 4. No election-night results file survives. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Unofficial Cumulative Report w Preliminary Reconciliation (PDF)' (DocumentCenter 3269): 'Cumulative Results Report ... Unofficial Results ... Polling Places Reporting 6 of 6 ... Run Time 9:11 PM ... Run Date 05/26/2026', county totals by vote type only (PDF CreationDate May 27 02:23 UTC = 9:23 PM CDT). Official cumulative (3286, run 06/03/2026) also county totals only. No precinct numbers published online."
+    }
+  },
+  "rationale": "Only the 2026 runoff is determined (LATER: unofficial cumulative county totals printed 9:11 PM election night, no precinct results), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low (DocumentCenter gives no upload time).",
+  "sources": [
+    {
+      "url": "https://www.beecounty.gov/277/2026-Elections",
+      "what_i_checked": "2026 result file list (old co.bee.tx.us and beecounty.texas.gov hosts refused or 403; current host found by one web search)",
+      "content_hash": "e7aa696586fba80449aa7200c4f7e2d63ae433430884546f6ef858b01236bc48"
+    },
+    {
+      "url": "https://www.beecounty.gov/216/Elections-History",
+      "what_i_checked": "2024 and 2026 result file list",
+      "content_hash": "3dcaa00ce4c863464cdb054a63affae419a07b4b1166d1f87322d69990ef2afe"
+    },
+    {
+      "url": "https://www.beecounty.gov/DocumentCenter/View/3269/Unofficial-Cumulative-Report-w-Preliminary-Reconciliation-PDF",
+      "what_i_checked": "runoff election-night cumulative report, run 9:11 PM, totals only; no Last-Modified",
+      "content_hash": "c2570b4dfabf5c852cd78550929d32793f23dd350089adbf65a9785e9e4d6239"
+    },
+    {
+      "url": "https://www.beecounty.gov/DocumentCenter/View/3286/Primary-Runoff-Official-Results-with-Election-Reconciliation-PDF",
+      "what_i_checked": "runoff official cumulative, totals only",
+      "content_hash": "ba9751ff2672fb84688082e4b71ea290f1d9c46615e21b99f2ef55f5587be8f0"
+    },
+    {
+      "url": "https://www.beecounty.gov/DocumentCenter/View/3104/Official-Cumulative-Reports-with-Reconciliation-PDF",
+      "what_i_checked": "primary official cumulative, totals only",
+      "content_hash": "4ac897dff557472115159633fefa51ab21028571aa9e67163a645fc2a4fa9e7f"
+    },
+    {
+      "url": "https://www.beecounty.gov/DocumentCenter/View/411/November-5-2024-General-Election-PDF",
+      "what_i_checked": "2024 official results, totals only",
+      "content_hash": "2d1288946e6ef105911846dd2b3dc5e0b388c9c77396fd5ef7fc26e9cb8ec998"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:08:13Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same after revision (UNDETERMINED).",
+    "2026_primary": "same result after revision (UNDETERMINED). Research says the page lists 'only' the Preliminary Election Reconciliation and a hand count certification with 'no results file'; not accurate: the page also lists 'Official Cumulative Reports with Reconciliation (PDF)' (DocumentCenter 3104), run 03/12/2026, county totals only.",
+    "2026_runoff": "same (LATER, check 2). Both read the unofficial cumulative report run 9:11 PM, county totals, CreationDate 02:23 UTC, no Last-Modified.",
+    "unsupported_or_unchecked": "Research claim of no 2026 primary results file is contradicted by the listed DocumentCenter 3104 file. Tag the same either way."
+  },
+  "compared_at_utc": "2026-10-02T16:08:32Z",
+  "revision_note": "Revised after the orchestrator's LATER rule clarification (CHECKLIST_BRIEF updated mid-run): LATER needs a county-totals file printed or uploaded on election night; elections with only post-election files are UNDETERMINED. Revision made from my own evidence after the research file had been opened; no new facts taken from it. Changed: 2024_general and 2026_primary LATER to UNDETERMINED. Tag unchanged.",
+  "revised_at_utc": "2026-10-02T16:24:55Z"
+}

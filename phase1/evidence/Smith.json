@@ -1,0 +1,65 @@
+{
+ "county": "Smith",
+ "tag": "UNKNOWN",
+ "confidence": "low",
+ "elections_office_phone": "",
+ "elections_office_email": "",
+ "results_url": "https://www.smith-county.com/236/Current-Election-Results",
+ "platform": "county_pdfs",
+ "host": "www.smith-county.com",
+ "evidence_url": "https://www.smith-county.com/236/Current-Election-Results",
+ "evidence_snapshot_timestamp": "",
+ "precinct_first_seen_local_time": "",
+ "stated_change_2026": "n",
+ "stated_change_source": "",
+ "usage_notice_text": "",
+ "notes": "Seed URL /government/departments/elections returned HTTP 404; the county elections pages are /213/Elections and /236/Current-Election-Results. No Clarity site (elections.json 404). The results page states: 'Early Voting and Absentee results will be posted here on Election Night at 7 pm. After all locations deliver their Election Day ballots, those results will be tabulated, and the resulting report(s) will replace the previous document posted. The final results will be posted after Canvassing (this usually takes about 2 weeks after an election).' The page now lists, for the 2026 primary and runoff, only Official Canvass, Official Precinct, Official Summary, Polling Place and Reconciliation reports (links to portal.laserfiche.com); the election-night unofficial result reports have been replaced, so check 2 cannot show whether they had precinct numbers. 2024 general is not on the current page; the 'Election Archive' (portal.laserfiche.com Browse id=333) and DocView/ElectronicFile links answered the fetch module with HTTP 302 (not followed to content), so no archived report or upload time could be read. The CivicPlus page's Last-Modified equals the request time (Fri, 02 Oct 2026 14:10:04 GMT), so it gives no upload evidence. Election precinct boundary change documents are linked from /213/Elections; they concern precinct lines, not precinct reporting, so stated_change_2026 is n. Check 3 pending: origin/wayback-data not present. Targeted pass 2026-10-02 (targeted-Smith): no election changed. Tried: (1) origin/wayback-data at 4c92687: phase1/wayback_snapshots/Smith/index.json has zero captures in all three windows; phase1/targeted/archives/Smith and phase1/targeted/wayback/Smith not yet published (checked at start and again at end). (2) Direct Wayback CDX, Memento TimeTravel and archive.ph timemaps through the fetch module: robots_disallowed_or_unreachable (web.archive.org connection reset from this environment). archive.org/wayback/available (cached by research-B) shows a Wayback capture of www.smith-county.com/236/Current-Election-Results at 20260304090704 UTC (2026-03-04 03:07 CST), just outside the harvest's 01:00-09:00 UTC CDX window but inside the targeted 7 PM-9 AM window; its content (which election-night report was linked) is unread - lead for the targeted Wayback job. No capture near Nov 5-6 2024 (closest 20260115215652) or May 26-27 2026 (closest 20260304090704). (3) Laserfiche portal (portal.laserfiche.com Browse id=333, DocView, ElectronicFile): each answers 302 'Object moved' to the same URL (session-cookie redirect loop); the fetch module keeps no cookies, so not reachable without a browser session; not worked around. (4) Check 4 news: cbs19.tv articles returned HTTP 403; KETK primary turnout story (2026-03-05) and KLTV 2025-10-09 story have no precinct numbers. Tyler Morning Telegraph 'UNOFFICIAL ELECTION RESULTS: Republican and Democratic Primaries in Smith County' (published 1:22 am Mar 4 2026) gives county-wide percentages only and says results are 'as reported in Smith County's final report Tuesday night, which was published just before 10:30 p.m.'; Tyler Paper runoff story (published 7:32 am May 27 2026) gives county totals 'reported by Smith County at 9:40 p.m. Tuesday'. These are leads on when the county's final election-night report was posted, not evidence of whether it had precinct numbers; no third-party per-precinct tables found for any election. Targeted pass 3 2026-10-02 (targeted3-D): no election changed. Tried: (1) wayback-data phase1/targeted/wayback/Smith: the one capture in the targeted window (www.smith-county.com/236/Current-Election-Results, 2026-03-04 03:07 CST) shows under 'March 3, 2026 Joint Primary Elections' only '2026-03 Final Report of the Night' (Laserfiche DocView id=4030) and '2026-03 Unofficial Reconciliation Report' (id=4031), so the night report existed but its content is not in the capture; no captures for 2024 general or the runoff; archives_index has no mementos (Memento aggregator unreachable, archive.today empty). (2) archive.org/wayback/available for DocView id=4030 and ElectronicFile docid=4030: no archived snapshots. (3) Laserfiche repository r-927d42fb with the cookie-keeping client: Browse.aspx?id=333 (Election Archive) now answers 200 but is an Angular shell ('Loading...'); &cr=1 gives the same shell; the folder listing comes only from POST page methods (FolderListingService.aspx/GetFolderListing2 in app/dist/browse/main.js), which the GET-only fetch module cannot call, so archive entries could not be listed; adjacent document IDs were not probed. (4) Tyler Paper stories (cached) give county-wide figures only; the 2024 story says results are 'as of the final unofficial report of the night released by the county elections office, with 38 of 38 polling places reporting' (lead). Sweep pending. Targeted pass 4 2026-10-02 (orchestrator): the Laserfiche public repository r-927d42fb was listed with the new POST listing support (FolderListingService.aspx/GetFolderListing2, after a warmup page load for the session cookie). Election Results > 2024 holds only '2024-11 Official ...' files and a '2024-11 Unofficial Reconciliation Report' (created 2/9/2026); 2026 > Primary (3/3/2026) holds only official reports and '2026-03 Unofficial Reconciliation Report' (modified 3/4/2026 7:05 PM); 2026 > Primary Runoff (5/26/2026) is empty. The election-night 'Final Report of the Night' documents (ids 4030, 4031) are deleted. No election-night file survives, so all three elections stay UNDETERMINED. Targeted pass 6 2026-10-03 (targeted6-C): no election changed; tag and confidence unchanged. Tried: (1) wayback-data re-read: phase1/targeted/sweep/Smith has 0 versions for all three elections (CDX queries timed out or returned 0 rows); no new archive data. (2) County party sites: 4 web searches found no Smith County Republican or Democratic party website (only a Facebook directory listing), so no party upload log to read. (3) Tyler Morning Telegraph (tylerpaper.com, WordPress) media upload log via /wp-json/wp/v2/media for Nov 5-6 2024, Mar 3-4 2026 and May 26-27 2026: no PDF or document uploads; the 2024 items are image attachments re-dated in a May 2025 migration ('www.smith-county.com - 1' at 6:00 PM is attached to a turnout story); the four primary-night 'Screenshot' PNGs (uploaded 8:16 PM, 9:55 PM, 11:42 PM, 12:25 AM) were opened and are candidate photos, not results; runoff-night screenshots are titled with candidate names. (4) KETK (ketk.com, WordPress) media log for the three nights: images only, no PDF; the primary live post 'East Texas Primary Election Results 2026: Live Updates and Winners' (REST API, published 2026-03-03T18:39:46, modified 2026-03-04T21:26:19) holds only election-hub widgets (wp-json/election-hub/v1/widget/...) with race totals; the article HTML answered HTTP 403 (not worked around). (5) digital-release.ketk.com/?p=1193093 is a 2022 candidate list. (6) Searches for GitHub scrapers and tylerpaper/KLTV precinct copies found nothing for Smith. No third-party per-precinct election-night copy found for any election.",
+ "tag_rationale": "No election could be determined (unofficial election-night reports replaced, archive unreachable, check 3 pending), so the rule gives UNKNOWN.",
+ "agent": "research-A",
+ "method_version": "v2",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "Not listed on the current results page; Laserfiche election archive returned HTTP 302 to the fetch module. Check 3 pending."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "Results page lists '2026-03 Official Precinct Report (PDF)', '2026-03 Official Canvass Report (PDF)', '2026-03 Official Summary Report (PDF)' and an Unofficial Reconciliation Report; the election-night unofficial results were replaced per the page's own statement. Laserfiche documents returned HTTP 302. Check 3 pending."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "Results page lists '2026-05 Official Precinct Report (PDF)', '2026-05 Official Precinct Split Report (PDF)', Official Canvass and Summary reports and an Unofficial Reconciliation Report; election-night unofficial results replaced. Check 3 pending."
+  }
+ },
+ "sources": [
+  {
+   "url": "https://www.smith-county.com/236/Current-Election-Results",
+   "via": "fetch_module",
+   "content_hash": "2df161f0ce03c9f950c0ad4f9e619db93e2b9444fc4658905c495b559fa5b728",
+   "quote": "Early Voting and Absentee results will be posted here on Election Night at 7 pm. After all locations deliver their Election Day ballots, those results will be tabulated, and the resulting report(s) will replace the previous document posted.",
+   "supports": "county posting process; election-night reports replaced"
+  },
+  {
+   "url": "https://www.smith-county.com/213/Elections",
+   "via": "fetch_module",
+   "content_hash": "e482201cdce22b1c968a0b7e890f4d9939b723bc8fe577aae4a1e2fa9461d781",
+   "quote": "Election Archive (portal.laserfiche.com Browse id=333)",
+   "supports": "archive location (unreachable)"
+  }
+ ]
+}

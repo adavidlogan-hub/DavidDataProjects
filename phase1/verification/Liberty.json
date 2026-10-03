@@ -1,0 +1,72 @@
+{
+  "county": "Liberty",
+  "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Clarity elections.json 403. 2024 archive page: 'CUMULATIVE RESULTS WITH WRITE-INS' (Cumulative Results-11-5-2024 11-52-02 PM.pdf, Unofficial, Run Time 11:51 PM 11/05/2024, county totals), Last-Modified 11/6/2024 06:15:51 GMT (12:15 AM CST). Precinct numbers only in 'OFFICIAL PRECINCT BY PRECINCT RESULTS' (Precinct Results-11-14-2024 08-18-41 AM.pdf). No election-night precinct file listed."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "fact": "'Precinct Results' (Precinct Results-3-3-2026 10-24-03 PM.pdf): Precinct Results Report, Unofficial Results, Run Time 10:23 PM Run Date 03/03/2026, precinct 1 James Talarico Election Day 13; CreationDate 3/4/2026 04:24:14 UTC, Last-Modified 3/4/2026 04:51:41 GMT (10:51 PM CST). Cumulative run 10:21 PM uploaded 10:51 PM. One election-night precinct file."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "fact": "'Precinct Results' (Precinct Results-5-26-2026 09-24-10 PM.pdf): Unofficial, Run Time 9:24 PM 05/26/2026, precinct 10 Vikki Goodwin Election Day 9; Last-Modified 5/27/2026 02:32:07 GMT (9:32 PM CDT). 'Cumulative Results-Final' run 9:22 PM uploaded 9:31 PM. One election-night precinct file with the final count."
+    }
+  },
+  "rationale": "END in both 2026 elections (check 2, printed run time and upload time on election night), LATER in 2024. Two share END, so PRECINCT_END_OF_NIGHT, med.",
+  "sources": [
+    {
+      "url": "https://www.co.liberty.tx.us/page/liberty.elections.archive.2024-11-05",
+      "content_hash": "dad172281e59075a085c1e9bba12534f9b26a064f1d39f38d4dd10bf2e5a49fc",
+      "what_i_checked": "2024 file list"
+    },
+    {
+      "url": "https://www.co.liberty.tx.us/upload/page/11966/Cumulative Results-11-5-2024 11-52-02 PM.pdf",
+      "content_hash": "46f38af0eb782ee3ce560ca485b4d10847ac00081182f8274273236750fadfc0",
+      "what_i_checked": "2024 night county totals"
+    },
+    {
+      "url": "https://www.co.liberty.tx.us/page/liberty.elections.archive.2026-03-03",
+      "content_hash": "41f8288cfbeb33268ee3c4e144ea8a2a9a487d368e32a661e6176b3c63bca1cc",
+      "what_i_checked": "primary file list"
+    },
+    {
+      "url": "https://www.co.liberty.tx.us/upload/page/12453/Precinct Results-3-3-2026 10-24-03 PM.pdf",
+      "content_hash": "9d0678b7b26c624e93f25fa82dc5fe894a942aebefa8fa92b26563f9f4cdba36",
+      "what_i_checked": "primary precinct report 10:23 PM, uploaded 10:51 PM"
+    },
+    {
+      "url": "https://www.co.liberty.tx.us/page/liberty.elections.2026-05-26",
+      "content_hash": "9b1a0cc225c7d311cb64ebd065eb4a82c7477f3dc4409206d81ae5d22f99f546",
+      "what_i_checked": "runoff file list"
+    },
+    {
+      "url": "https://www.co.liberty.tx.us/upload/page/12641/Precinct Results-5-26-2026 09-24-10 PM.pdf",
+      "content_hash": "0791cad21d304927a4a691cd0100777f04f673f8a2d4ec2099fcb76875b6ed84",
+      "what_i_checked": "runoff precinct report 9:24 PM, uploaded 9:32 PM"
+    },
+    {
+      "url": "https://www.co.liberty.tx.us/upload/page/12641/Cumulative Results-5-26-2026 09-22-58 PM.pdf",
+      "content_hash": "82ca4382c34ff4c197b6547c7723c6eae65843a48829f05fd3c83d3846e9f5cc",
+      "what_i_checked": "runoff final cumulative"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LATER, check 2): night county totals 11:51 PM, uploaded 06:15:51 GMT; precinct only in 11/14 official.",
+    "2026_primary": "same (END, check 2): precinct report 10:23 PM, uploaded 04:51:41 GMT.",
+    "2026_runoff": "same (END, check 2): precinct report 9:24 PM, uploaded 02:32:07 GMT.",
+    "rule_43": "rule 43 re-applied: no per-election result changed"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+}

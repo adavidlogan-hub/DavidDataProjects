@@ -1,0 +1,76 @@
+{
+  "county": "Parker",
+  "ranges": {
+    "2024_general": [
+      122450,
+      122900,
+      "11/5/2024"
+    ],
+    "2026_primary": [
+      125900,
+      126070,
+      "3/3/2026"
+    ],
+    "2026_runoff": [
+      126070,
+      126400,
+      "5/26/2026"
+    ]
+  },
+  "hits": [
+    {
+      "election": "2024_general",
+      "eid": 122585,
+      "current_version": "355993",
+      "Region": "Parker",
+      "ElectionName": "2024 General",
+      "ElectionDate": "11/5/2024",
+      "accepted": true
+    },
+    {
+      "election": "2026_primary",
+      "eid": 126014,
+      "current_version": "368728",
+      "Region": "Parker",
+      "ElectionName": "2026 Primary Election",
+      "ElectionDate": "3/3/2026",
+      "accepted": true
+    },
+    {
+      "election": "2026_primary",
+      "eid": 126070,
+      "current_version": "369244",
+      "Region": "Parker",
+      "ElectionName": "2026 City of Aledo Special Election",
+      "ElectionDate": "3/31/2026",
+      "accepted": false
+    },
+    {
+      "election": "2026_runoff",
+      "eid": 126070,
+      "current_version": "369244",
+      "Region": "Parker",
+      "ElectionName": "2026 City of Aledo Special Election",
+      "ElectionDate": "3/31/2026",
+      "accepted": false
+    },
+    {
+      "election": "2026_runoff",
+      "eid": 126272,
+      "current_version": "372475",
+      "Region": "Parker",
+      "ElectionName": "May 2026 General and Special Election",
+      "ElectionDate": "5/2/2026",
+      "accepted": false
+    },
+    {
+      "election": "2026_runoff",
+      "eid": 126279,
+      "current_version": "373419",
+      "Region": "Parker",
+      "ElectionName": "May 26 2026 Primary Runoff",
+      "ElectionDate": "5/26/2026",
+      "accepted": true
+    }
+  ]
+}

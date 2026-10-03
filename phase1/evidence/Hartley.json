@@ -1,0 +1,107 @@
+{
+ "county": "Hartley",
+ "tag": "UNKNOWN",
+ "confidence": "low",
+ "elections_office_phone": "",
+ "elections_office_email": "",
+ "results_url": "https://www.co.hartley.tx.us/page/Voter.Information",
+ "platform": "county_pdfs",
+ "host": "www.co.hartley.tx.us",
+ "evidence_url": "https://www.co.hartley.tx.us/upload/page/0103/Unofficial%20Results.pdf",
+ "evidence_snapshot_timestamp": "",
+ "precinct_first_seen_local_time": "",
+ "stated_change_2026": "n",
+ "stated_change_source": "",
+ "usage_notice_text": "",
+ "notes": "Seed default.aspx URL replaced by https://www.co.hartley.tx.us/page/Voter.Information; the page links its PDFs over http, which returned 403 at first (this sandbox's egress block (body 'Host not in allowlist: www.co.hartley.tx.us. Add this host to your network egress settings to allow access.'), not a county response; on 2026-10-03 the http links load), so they were fetched over https. Results are scanned Electionware PDFs (no text layer; read visually). The printed report times look like the tabulator clock is off (2024 general footer 'Election Summary - 11/05/2024 7:22 PM' already includes 458 Election Day ballots; runoff footer 'Election Summary - 05/26/2026 6:02 PM' includes 203 Election Day ballots before polls closed), so printed times are not used. 2024 general: 'SUMMARY RESULTS REPORT - UNOFFICIAL RESULTS' (county totals) Last-Modified Wed, 06 Nov 2024 14:19:00 GMT; no 2024 general precinct report is listed. 2026 primary: 'SUMMARY RESULTS REPORT REPUBLICAN PARTY' (Last-Modified Thu, 12 Mar 2026 15:26:31 GMT) and 'SUMMARY RESULTS REPORT BY PRECINCT REPUBLICAN PARTY' (36 pages, Last-Modified Mon, 16 Mar 2026 18:40:06 GMT); no election-night file. 2026 runoff: 'SUMMARY RESULTS REPORT - UNOFFICIAL' (county totals) Last-Modified Fri, 29 May 2026 22:34:30 GMT; no runoff precinct report listed. No Clarity link. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-4): 2024_general LATER kept, county_totals_first_seen 2024-11-05 19:22 CT; 2026_runoff LATER to UNDETERMINED. Targeted pass 4 2026-10-03 (targeted4-K): no election changed. The three http links as written on Voter.Information (earlier HTTP 403 for research-4 and verifier-5 was this sandbox's egress block (body 'Host not in allowlist: www.co.hartley.tx.us. Add this host to your network egress settings to allow access.'), not a county response) now load and are byte-identical to the https copies already recorded: '5.26.26 Summary Results.pdf' (hash fcbbb36a..., Last-Modified Fri, 29 May 2026 22:34:30 GMT, scan CreationDate 2026-05-29 23:31 UTC), '3.3.26 Summary Results Rep.pdf' (hash 8ae5cc0c..., Last-Modified Thu, 12 Mar 2026 15:26:31 GMT, CreationDate 2026-03-12 16:21 UTC), '3.3.26 Summary Results Report Rep.pdf' (hash 77d95f05..., 36 pages by precinct, Last-Modified Mon, 16 Mar 2026 18:40:06 GMT, CreationDate 2026-03-16 19:36 UTC). All after election night, so 2026_primary and 2026_runoff stay UNDETERMINED. 3 fetches (cache). Orchestrator 2026-10-03: 2024_general reverted to UNDETERMINED (DECISIONS 72), flagged by targeted4-K.",
+ "tag_rationale": "No election is determined (the 2024 county-totals report has no usable election-night time), so the tag is UNKNOWN.",
+ "agent": "research-4",
+ "method_version": "v2",
+ "sources": [
+  {
+   "url": "https://www.co.hartley.tx.us/page/Voter.Information",
+   "via": "fetch_module",
+   "content_hash": "deb680d511902ae8444252d035583e6d9cf5a61d124e914886509bdafc8a0d6d",
+   "quote": "SUMMARY RESULTS REPORT - UNOFFICIAL; SUMMARY RESULTS REPORT BY PRECINCT REPUBLICAN PARTY; *SUMMARY RESULTS REPORT - UNOFFICIAL RESULTS*",
+   "supports": "Results files listed per election"
+  },
+  {
+   "url": "https://www.co.hartley.tx.us/upload/page/0103/Unofficial%20Results.pdf",
+   "via": "fetch_module",
+   "content_hash": "518ce06c82ff7c2f40949c736cae5daabf2fe869fecc44a32bfa0b9bf20b5010",
+   "quote": "Summary Results Report TX Hartley 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS",
+   "supports": "2024 general county totals"
+  },
+  {
+   "url": "https://www.co.hartley.tx.us/upload/page/0103/5.26.26%20Summary%20Results.pdf",
+   "via": "fetch_module",
+   "content_hash": "fcbbb36a7d0c55785162d27a0e969a4395d9df6079a92751b16cb3b6fd6e0fb7",
+   "quote": "Summary Results Report TX Hartley 260526 Primary Runoff 6110 May 26, 2026 UNOFFICIAL RESULTS",
+   "supports": "2026 runoff county totals"
+  },
+  {
+   "url": "https://www.co.hartley.tx.us/upload/page/0103/3.3.26%20Summary%20Results%20Rep.pdf",
+   "via": "fetch_module",
+   "content_hash": "8ae5cc0cde18e0a711de777219b8616b14f18dd0b15e71b02844cf3be1a6010b",
+   "quote": "Last-Modified Thu, 12 Mar 2026 15:26:31 GMT",
+   "supports": "2026 primary summary posted after canvass"
+  },
+  {
+   "url": "https://www.co.hartley.tx.us/upload/page/0103/3.3.26%20Summary%20Results%20Report%20Rep.pdf",
+   "via": "fetch_module",
+   "content_hash": "77d95f05e48865e2f5e9acad63dffef30fffd27e2b1dd8467fe9c8150134f1db",
+   "quote": "Last-Modified Mon, 16 Mar 2026 18:40:06 GMT (36 pages, by precinct)",
+   "supports": "2026 primary precinct report posted Mar 16"
+  },
+  {
+   "url": "http://www.co.hartley.tx.us/upload/page/0103/5.26.26%20Summary%20Results.pdf",
+   "via": "fetch_module",
+   "content_hash": "fcbbb36a7d0c55785162d27a0e969a4395d9df6079a92751b16cb3b6fd6e0fb7",
+   "quote": "HTTP 200 over http as linked, Last-Modified Fri, 29 May 2026 22:34:30 GMT; byte-identical to the https copy",
+   "supports": "runoff county-totals scan uploaded May 29 (after election night); 2026_runoff stays UNDETERMINED; earlier http 403s (research-4, verifier-5) were the sandbox block"
+  },
+  {
+   "url": "http://www.co.hartley.tx.us/upload/page/0103/3.3.26%20Summary%20Results%20Rep.pdf",
+   "via": "fetch_module",
+   "content_hash": "8ae5cc0cde18e0a711de777219b8616b14f18dd0b15e71b02844cf3be1a6010b",
+   "quote": "HTTP 200 over http as linked, Last-Modified Thu, 12 Mar 2026 15:26:31 GMT; byte-identical to the https copy",
+   "supports": "primary summary uploaded Mar 12 (after election night); 2026_primary stays UNDETERMINED; earlier http 403s (research-4, verifier-5) were the sandbox block"
+  },
+  {
+   "url": "http://www.co.hartley.tx.us/upload/page/0103/3.3.26%20Summary%20Results%20Report%20Rep.pdf",
+   "via": "fetch_module",
+   "content_hash": "77d95f05e48865e2f5e9acad63dffef30fffd27e2b1dd8467fe9c8150134f1db",
+   "quote": "HTTP 200 over http as linked, Last-Modified Mon, 16 Mar 2026 18:40:06 GMT; byte-identical to the https copy",
+   "supports": "primary precinct report uploaded Mar 16 (after election night); 2026_primary stays UNDETERMINED; earlier http 403s (research-4, verifier-5) were the sandbox block"
+  }
+ ],
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "https://www.co.hartley.tx.us/upload/page/0103/Unofficial%20Results.pdf",
+   "fact": "Orchestrator correction 2026-10-03 (DECISIONS 72): reverted from LATER to UNDETERMINED. The county-totals report's printed footer ('Election Summary - 11/05/2024 7:22 PM') cannot be used because Hartley's tabulator clock is shown to be wrong (the runoff report footer reads 6:02 PM yet already counts Election Day ballots), as these notes already state; its upload time is 8:19 AM CST Nov 6, after election night. With no usable election-night time, rule 43 condition (i) is not met. Earlier fact: 'Summary Results Report TX Hartley 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS Hartley County' (county totals by Absentee, Early Voting, Election Day; 'Ballots Cast - Total 2,028 94 1,476 458'), Last-Modified Wed, 06 Nov 2024 14:19:00 GMT. No precinct results report is posted for this election (never published online). Rule 43: county totals first seen 2024-11-05 19:22 CT in Unofficial Results.pdf (printed footer 'Election Summary - 11/05/2024 7:22 PM'; no precinct report for this election)."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "'SUMMARY RESULTS REPORT REPUBLICAN PARTY' Last-Modified Thu, 12 Mar 2026 15:26:31 GMT and 'SUMMARY RESULTS REPORT BY PRECINCT REPUBLICAN PARTY' Last-Modified Mon, 16 Mar 2026 18:40:06 GMT; nothing shows what was posted on election night. Check 3 pending."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "https://www.co.hartley.tx.us/upload/page/0103/5.26.26%20Summary%20Results.pdf",
+   "fact": "Rule 43: no election-night file survives (earliest time 2026-05-29 17:34 CT (upload); printed footer 'Election Summary - 05/26/2026 6:02 PM' is before polls closed although the report shows 6 of 6 election-day precincts, so the report clock is not a usable election-night time; scan created 2026-05-29 23:31 UTC). Previous: 'Summary Results Report TX Hartley 260526 Primary Runoff 6110 May 26, 2026 UNOFFICIAL RESULTS Hartley' (county totals; 'Ballots Cast - Total 389 28 158 203'), Last-Modified Fri, 29 May 2026 22:34:30 GMT. No precinct results report is posted for the runoff (never published online)."
+  }
+ }
+}

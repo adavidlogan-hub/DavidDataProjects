@@ -1,0 +1,65 @@
+{
+  "county": "Hockley",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.hockley.tx.us/page/ElectionsHome",
+  "platform": "county_pdfs",
+  "host": "www.co.hockley.tx.us",
+  "evidence_url": "https://www.co.hockley.tx.us/upload/page/0119/20260303_233658.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed default.aspx URL replaced by https://www.co.hockley.tx.us/page/ElectionsHome. No Clarity link. 2026 primary: 'FINAL Results 2026 Republican Primary (As of Election Night)' and '... Democratic ...' are scanned Electionware Summary Results (county totals, footer 'Election Summary - 03/03/2026 10:21PM'; Republican file Last-Modified Wed, 04 Mar 2026 05:00:27 GMT = 11:00 PM CST); scanned, no text layer, read visually. 2026 runoff: only post-election hand count audit results (filenames dated 2026-06-12) are posted, no results report. 2024 general: no results on the page. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "Only the 2026 primary is determined (LATER: county totals on election night, no precinct report), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low as the rule requires for one determined election.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.co.hockley.tx.us/page/ElectionsHome",
+      "via": "fetch_module",
+      "content_hash": "3144f7272bed1478531936a38ca995658307c2eaa9e204a2e4266319feda597a",
+      "quote": "2026 Joint Primary Runoff Election | Democratic Party-Post Election Hand Count Audit Results | ... | FINAL Results 2026 Republican Primary (As of Election Night) | FINAL Results 2026 Democratic Primary (As of Election Night)",
+      "supports": "Results files listed per election"
+    },
+    {
+      "url": "https://www.co.hockley.tx.us/upload/page/0119/20260303_233658.pdf",
+      "via": "fetch_module",
+      "content_hash": "a5560b858b5bd51c3319c782504a3bad4b30ff64fa318e6e64794d8b783cabdb",
+      "quote": "2026 Primary Election--Hockley County March 3, 2026 UNOFFICIAL RESULTS ... Election Summary - 03/03/2026 10:21PM",
+      "supports": "Primary county totals on election night"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results on the county Elections page. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 23:00 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.hockley.tx.us/upload/page/0119/20260303_233658.pdf",
+      "fact": "'2026 Joint Primary Election 2026 Primary Election--Hockley County March 3, 2026 UNOFFICIAL RESULTS EV ABSENTEE ED Hockley County, Texas' (county totals with Absentee, Early Voting, Election Day; 'Ken Paxton 1,285 ... 544'); footer 'Election Summary - 03/03/2026 10:21PM'; Last-Modified Wed, 04 Mar 2026 05:00:27 GMT. No precinct report posted (never published online)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Democratic Party-Post Election Hand Count Audit Results' and 'Republican Party Post Election Handcout Audit Results' (files 20260612_*) are posted for the runoff; no results report. Check 3 pending."
+    }
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "county": "Jefferson",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122828",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "348049",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/348049/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348051",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/348051/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348055",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/348055/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348056",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/348056/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348058",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/348058/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348060",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/348060/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/23/2024 3:28:41 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "348065",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/348065/reports/detailxml.zip",
+              "content_hash": "6aa116a995138e7df8f9ffbac73092619374c9acdcfd9aa832052b016a895378",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:11:52 PM CST",
+              "precincts_with_votes": 106,
+              "nonzero_precinct_vote_cells": 7234,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350846",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/350846/reports/detailxml.zip",
+              "content_hash": "1a95d01efa029342ea1cca74c0d5dee89876889c86a998ad21c6e0c749d6f49d",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:33:08 PM CST",
+              "precincts_with_votes": 106,
+              "nonzero_precinct_vote_cells": 10403,
+              "precincts_with_election_day_votes": 100,
+              "election_day_precinct_vote_sum": 29091,
+              "version": "351551",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/351551/reports/detailxml.zip",
+              "content_hash": "76d5b01d23951ce8b1f18103a3f96e4676e06ef78f870264776d6945b00cec59",
+              "election_night": true
+            },
+            {
+              "version": "351682",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/351682/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 9:10:38 PM CST",
+              "precincts_with_votes": 106,
+              "nonzero_precinct_vote_cells": 10730,
+              "precincts_with_election_day_votes": 102,
+              "election_day_precinct_vote_sum": 58812,
+              "version": "351916",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/351916/reports/detailxml.zip",
+              "content_hash": "ab7696b5e07af22fc3fef93c0f82e6bd400ce181ecc4146bdfdb7e088539bb16",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:24:03 PM CST",
+              "precincts_with_votes": 106,
+              "nonzero_precinct_vote_cells": 11003,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 144049,
+              "version": "352044",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/352044/reports/detailxml.zip",
+              "content_hash": "fa9a768d67eb1983704ede349b8bfd455e4d353c6a09137e4a9d6904cd82763c",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:35:14 PM CST",
+              "precincts_with_votes": 106,
+              "nonzero_precinct_vote_cells": 11133,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 227589,
+              "version": "352638",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/352638/reports/detailxml.zip",
+              "content_hash": "bd1a713e35e6ad5e6d9edb582d5bd8e9ef3b341eaa56dc06ac6eebb804caf3b6",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:06:00 PM CST",
+              "precincts_with_votes": 106,
+              "nonzero_precinct_vote_cells": 11146,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 227589,
+              "version": "352791",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/352791/reports/detailxml.zip",
+              "content_hash": "c87b437ca9eb73312f0fbf7166318f73787284f103f91e65be2ec85520f3eaf3",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/15/2024 8:43:24 AM CST",
+              "precincts_with_votes": 106,
+              "nonzero_precinct_vote_cells": 11156,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 228527,
+              "version": "355059",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/355059/reports/detailxml.zip",
+              "content_hash": "3707715165181cd5866786114586ec9edad2642189d29b0078656f3f27d835e0",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/19/2024 12:11:02 PM CST",
+              "precincts_with_votes": 106,
+              "nonzero_precinct_vote_cells": 11156,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 228527,
+              "version": "355360",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/355360/reports/detailxml.zip",
+              "content_hash": "1a89cdf450157004ae9ba114807c22a3cdb96962e915faf9b95594c18b48806f",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 6,
+          "election_night_updates_with_precinct_votes": 6,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:11:52 PM CST",
+            "version": "350846",
+            "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/350846/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 5,
+          "election_night_distinct_election_day_precinct_releases": 4,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 8:33:08 PM CST",
+            "version": "351551",
+            "url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/351551/reports/detailxml.zip"
+          },
+          "unreadable_versions": 7
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126017",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368197",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368197/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368198",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368198/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/24/2026 3:30:25 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368199",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368199/reports/detailxml.zip",
+              "content_hash": "d918045b589d462fc2630ab71bae7037889e1b2bf81ee52ca4253c1d88549ff3",
+              "election_night": false
+            },
+            {
+              "version": "368232",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368232/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/25/2026 12:48:23 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368235",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368235/reports/detailxml.zip",
+              "content_hash": "b25b0e419d2a8558cd616f67bed4053fa609b3ac8796b8eed7d519b8363a12db",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 6:01:08 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368372",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368372/reports/detailxml.zip",
+              "content_hash": "c9fa36c805f404fa578f20dc8ed806ab0231bd2f333e442e63dec9d2333442e5",
+              "election_night": false
+            },
+            {
+              "version": "368403",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368403/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 7:39:40 PM CST",
+              "precincts_with_votes": 105,
+              "nonzero_precinct_vote_cells": 23968,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368407",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368407/reports/detailxml.zip",
+              "content_hash": "394a9e92631bdc85658d931b4fa40e99861453abda0e931a4affd8db0d76399d",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:26:05 PM CST",
+              "precincts_with_votes": 105,
+              "nonzero_precinct_vote_cells": 32248,
+              "precincts_with_election_day_votes": 94,
+              "election_day_precinct_vote_sum": 54427,
+              "version": "368433",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368433/reports/detailxml.zip",
+              "content_hash": "a429c64a30e64d29301663f2a34d381e925c9a1f067b56a7c2128fd6d0129067",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:48:54 PM CST",
+              "precincts_with_votes": 105,
+              "nonzero_precinct_vote_cells": 35960,
+              "precincts_with_election_day_votes": 101,
+              "election_day_precinct_vote_sum": 141183,
+              "version": "368450",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368450/reports/detailxml.zip",
+              "content_hash": "99b80965979f5841a9bb59168702c0c51b97c867cc881c2d70d5cf75ce9ee55f",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:39:40 PM CST",
+              "precincts_with_votes": 105,
+              "nonzero_precinct_vote_cells": 38573,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 376643,
+              "version": "368489",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368489/reports/detailxml.zip",
+              "content_hash": "8a21c5385e434c48ae7b131f54d913f872744bc7bacd45fb1e9761f4d7a34cf1",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:44:26 PM CST",
+              "precincts_with_votes": 105,
+              "nonzero_precinct_vote_cells": 38719,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 376673,
+              "version": "368530",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368530/reports/detailxml.zip",
+              "content_hash": "80877fbdea4c435039ceb691c86d71a7f0696a43222b8d1911750cdce205ba8d",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/11/2026 9:31:48 AM CDT",
+              "precincts_with_votes": 105,
+              "nonzero_precinct_vote_cells": 38990,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 377831,
+              "version": "368773",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368773/reports/detailxml.zip",
+              "content_hash": "1e9d8c92fea5769facf977ee075913a7ae07675dadb4a0ac7a49eac8fe4d0646",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/13/2026 9:33:45 AM CDT",
+              "precincts_with_votes": 105,
+              "nonzero_precinct_vote_cells": 38990,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 377831,
+              "version": "368824",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368824/reports/detailxml.zip",
+              "content_hash": "922c9cdd0650b5eabb5644ad05369213b70bfb091be905ae6407891d54d89f60",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:39:40 PM CST",
+            "version": "368407",
+            "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368407/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 4,
+          "election_night_distinct_election_day_precinct_releases": 4,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 8:26:05 PM CST",
+            "version": "368433",
+            "url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368433/reports/detailxml.zip"
+          },
+          "unreadable_versions": 4
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126276",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "369700",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/369700/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369703",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/369703/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369893",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/369893/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/18/2026 3:27:40 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "371947",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/371947/reports/detailxml.zip",
+              "content_hash": "578247f041d17b3ec7e4b46b5a813f680bb9998f83e017cbea3cd283d568b385",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 6:53:27 PM CDT",
+              "precincts_with_votes": 103,
+              "nonzero_precinct_vote_cells": 2301,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372924",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/372924/reports/detailxml.zip",
+              "content_hash": "84db83a60133a81d633d916982b760be7dfe286edc5833017148aacc59bb7d92",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 8:07:17 PM CDT",
+              "precincts_with_votes": 103,
+              "nonzero_precinct_vote_cells": 3093,
+              "precincts_with_election_day_votes": 82,
+              "election_day_precinct_vote_sum": 3652,
+              "version": "372960",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/372960/reports/detailxml.zip",
+              "content_hash": "707514b4f6931bd46624b786e0e5bad074e85c879b3f5ddcad4b9099c9a2ac35",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:19:51 PM CDT",
+              "precincts_with_votes": 104,
+              "nonzero_precinct_vote_cells": 3462,
+              "precincts_with_election_day_votes": 100,
+              "election_day_precinct_vote_sum": 11004,
+              "version": "372966",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/372966/reports/detailxml.zip",
+              "content_hash": "e8767cdd40c5a66db0c547f51267a70f31e44a3c6cd19c4b27e5c45ab2764b8f",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:13:14 PM CDT",
+              "precincts_with_votes": 105,
+              "nonzero_precinct_vote_cells": 3661,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 23271,
+              "version": "373013",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/373013/reports/detailxml.zip",
+              "content_hash": "eb69a844857979834b8689dd90ec42a4a6d936d4231ff8fb173eeb3668c2e91f",
+              "election_night": true
+            },
+            {
+              "timestamp": "6/2/2026 5:10:22 PM CDT",
+              "precincts_with_votes": 105,
+              "nonzero_precinct_vote_cells": 3670,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 23349,
+              "version": "373452",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/373452/reports/detailxml.zip",
+              "content_hash": "1167476acc1385c8d40b8098eb84081830b2efdba8a592d9a426432376e277aa",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/3/2026 10:41:28 AM CDT",
+              "precincts_with_votes": 105,
+              "nonzero_precinct_vote_cells": 3670,
+              "precincts_with_election_day_votes": 103,
+              "election_day_precinct_vote_sum": 23349,
+              "version": "374111",
+              "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/374111/reports/detailxml.zip",
+              "content_hash": "a0887066907e4617acd7b78676e04481d5516a86cab9b0148f9950a51032ff97",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 3,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 6:53:27 PM CDT",
+            "version": "372924",
+            "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/372924/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 3,
+          "election_night_distinct_election_day_precinct_releases": 3,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/26/2026 8:07:17 PM CDT",
+            "version": "372960",
+            "url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/372960/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122828",
+    "2026_primary": "126017",
+    "2026_runoff": "126276"
+  }
+}

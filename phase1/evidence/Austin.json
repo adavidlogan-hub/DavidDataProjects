@@ -1,0 +1,72 @@
+{
+  "county": "Austin",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.austincounty.com/page/austin.Elections",
+  "platform": "county_pdfs",
+  "host": "www.austincounty.com",
+  "evidence_url": "https://www.austincounty.com/upload/page/0096/March 2026 Primary/ED Results 3 3 26.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL over http returns 403; https works. No Clarity site (elections.json 404). March 2026 primary: an unlabeled link to 'ED Results 3 3 26.pdf' (scanned, signed Electionware Summary Results Report, county totals) plus 'Official Results Precinct by Precinct' files. May 2026 runoff: only official files ('Officila Results Democrat by Pct', 'Offiucial Results Republican by Pct', 'Combined Summary Report'). 2024 general: Past Election Results page lists only '1152024 Official Summary Results' and '1152024 Official Pct by Pct Results'. The primary scan's PDF CreationDate (05:54 UTC) is later than its Last-Modified (05:06 GMT), so the scanner clock is unreliable; the printed footer and server time are used. Check 3 pending for 2024 general and runoff (wayback-data branch not found on origin).",
+  "tag_rationale": "Only the 2026 primary is determined (LATER: election-night county totals, precinct numbers only in official reports), so by rule the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Past Election Results lists only 'November 5, 2024 General Election Results' (1152024 Official Summary Results.pdf) and 'Precinct by Precinct' (1152024 Official Pct by Pct Results.pdf); no election-night file. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 23:06 CT (server upload; printed 22:16)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.austincounty.com/upload/page/0096/March 2026 Primary/ED Results 3 3 26.pdf",
+      "fact": "'ED Results 3 3 26.pdf' = scanned 'Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Election Day Austin County, Texas ... Election Day Precincts Reporting 10 of 10', county totals only, footer 'Election Summary - 03/03/2026 10:16 PM'; Last-Modified Wed, 04 Mar 2026 05:06:55 GMT. Precinct numbers only in 'Official Results Precinct by Precinct - Democrat/Republican'."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only official files are posted (results by precinct per party and 'Election Results Summary' Combined Summary Report); no election-night file. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.austincounty.com/page/austin.Elections",
+      "via": "fetch_module",
+      "quote": "Official Results Precinct by Precinct - Democrat; Official Results Precinct by Precinct - Republican; (Republican) Offiucial Results Republican by Pct.pdf; Election Results Summary",
+      "supports": "County-posted report list for 2026",
+      "content_hash": "ff648afdc038fec68f150971107fd996b00779d2f1dbd3dfef780100d3e7dd7c"
+    },
+    {
+      "url": "https://www.austincounty.com/upload/page/0096/March 2026 Primary/ED Results 3 3 26.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Election Day Austin County, Texas ... Election Summary - 03/03/2026 10:16 PM",
+      "supports": "Primary election-night results were county totals, uploaded 11:06 PM CST",
+      "content_hash": "2d56f4a98d307c4d3e7ff90e6e9c1196b86c2394a94e66c49c2a0b66c35c46b9"
+    },
+    {
+      "url": "https://www.austincounty.com/page/austin.ArchivedElectionResults",
+      "via": "fetch_module",
+      "quote": "November 5, 2024 General Election Results -> 1152024 Official Summary Results.pdf; Precinct by Precinct -> 1152024 Official Pct by Pct Results.pdf",
+      "supports": "2024 general only official files",
+      "content_hash": "63b4ed921f7b47a1b65e05910c09d8800c4723cadb5b4b356d6011925f0a26f4"
+    }
+  ]
+}

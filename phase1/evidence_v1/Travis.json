@@ -1,0 +1,97 @@
+{
+  "county": "Travis",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "(512) 854-4996",
+  "elections_office_email": "elections@traviscountytx.gov",
+  "results_url": "https://results.enr.clarityelections.com/TX/Travis/",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Travis/125931/368463/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-03 21:02 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Upgraded after the network opened at about 14:07 UTC; all evidence below was fetched directly through the fetch module (earlier web-search-only pass had tagged UNKNOWN). The county results page votetravis.gov 'Election Results and Reconciliation Forms' (hash f7ef58c2...) links 'Election Results November 2022 - Present' and 'CLICK HERE FOR May 26, 2026 Primary Runoff ELECTION NIGHT RESULTS' to https://results.enr.clarityelections.com/TX/Travis/, so platform is clarity_style. Method: Clarity keeps every published version of an election. elections.json lists EIDs 122432 (2024 November Joint General and Special Elections), 125931 (2026 March Joint Primary Elections), 126357 (2026 May Joint Primary Runoff Elections). Each version's json/en/electionsettings.json gives 'websiteupdatedat' and the 'versions' list, and each version's reports/detailxml.zip is the downloadable detail report whose Precinct elements hold per-precinct votes for every choice. Findings. Nov 5 2024 (EID 122432): election-night versions published 7:19:10 PM, 7:33:02 PM, 9:53:48 PM, 10:54:24 PM, 11:32:08 PM CST, 12:35:53 AM and 2:25:11 AM CST Nov 6; detail XML for each (Timestamp 7:19:02 PM through 2:25:02 AM) has 287 precincts with numeric choice-level precinct votes (nonzero cells 53,061 at 7:19 PM rising to 73,456 at 9:51 PM and 75,267 at 2:25 AM; precinct 100 ballotsCast 1655 then 1944 then 2067). Mar 3 2026 (EID 125931): first results version published 9:02:17 PM CST (detail XML Timestamp 9:01:03 PM CST), then 10:20:35 PM, 11:20:44 PM, 12:27:38 AM; 308 precincts with numeric precinct votes in every version (nonzero cells 93,453 at 9:01 PM, 138,635 at 10:19 PM, 143,993 at 11:19 PM, 144,768 at 12:21 AM; precinct 100 ballotsCast 316 then 539). Earlier version ids 367974 to 368327 return 404 and 368330 is a 6:55 AM pre-results version, so 9:02 PM is the first results version still retrievable. May 26 2026 runoff (EID 126357): EXCEPTION. Election-night versions 7:50:07 PM, 7:53:48 PM, 9:39:41 PM, 9:41:17 PM CDT and 12:12:01 AM May 27 publish precinct-level turnout, but every choice-level precinct vote cell in the detail XML reads votes=\"protected\" (24,350 cells protected at 7:51 PM, 9:40 PM and 12:04 AM). Numeric precinct votes first appear in version 373136 published 5/27/2026 12:35:34 PM CDT (detail XML Timestamp 12:32:52 PM), before the official version of 6/3/2026. So for the runoff, precinct vote detail was withheld on election night and posted the next day, before canvass. The tag reflects the Nov 2024 general and Mar 2026 primary; reviewers should note the runoff exception (no source found explaining the 'protected' setting; electionsettings privacyfilter fields are null). Contact: SOS Election Duties list (hash 065e1ebd...) 'TRAVIS COUNTY County Clerk Dyana Limon-Mercado 5501 Airport Boulevard, Austin, TX 78751-1410 ... County Email Address [mailto:elections@traviscountytx.gov] (512) 854-4996'. Usage notice: none on the votetravis.gov results page; the Clarity pages were read only as JSON/XML, so no notice text is recorded. Stated change: the Mar 2026 early-vote counting change reported by KVUE concerns tabulation timing, not precinct reporting, so n. Wayback: wayback_probe failed (blocked); archive.org/wayback/available at 12 points for the votetravis results page found no in-window snapshot. Counts: fetch_module_attempts covers county pages, Clarity JSON/XML (about 90 version requests) and wayback queries.",
+  "tag_rationale": "Clarity version history (primary, vendor-hosted county results) shows precinct-level choice votes published in every election-night update for Nov 5 2024 (from 7:19 PM) and Mar 3 2026 (from 9:02 PM), rising through the night. The May 26 2026 runoff is an exception: precinct vote cells were 'protected' on election night and released at 12:35 PM May 27.",
+  "sources": [
+    {
+      "url": "https://votetravis.gov/current-election-information/election-results-and-reconciliation-forms/",
+      "via": "fetch_module",
+      "query": "content_hash f7ef58c2a5ee5a9f0e3bb0d10a968ba3511453bc01b239da0484b4adeaa82726",
+      "quote": "Election Results November 2022 - Present ... CLICK HERE FOR May 26, 2026 Primary Runoff ELECTION NIGHT RESULTS CLICK HERE FOR historic ElectioN Results (2022 - 2026)",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/elections.json",
+      "via": "fetch_module",
+      "query": "content_hash adcd6d81430564425383b57798d25344fedf4e1431f8f453a510a63953bde8a4",
+      "quote": "\"EID\": \"125931\", \"ElectionName\": \"2026 March Joint Primary Elections\", \"Date\": \"3/3/2026 12:00:00 AM\"",
+      "supports": "platform"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368463/json/en/electionsettings.json",
+      "via": "fetch_module",
+      "query": "content_hash d0714ac80e41ed062db578a37a68bf92e9f10acef5eae01b46f15a562c0c9585",
+      "quote": "\"websiteupdatedat\": \"3/3/2026 9:02:17 PM CST\" ... \"detailxmlfilesize\": \"714.3 KB\"",
+      "supports": "tag"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368463/reports/detailxml.zip",
+      "via": "fetch_module",
+      "query": "content_hash bdddcb1391d02edeff2959cfa240f0ad1ed6ff82ab1e51ff6f2376f9201322a3",
+      "quote": "<Timestamp>3/3/2026 9:01:03 PM CST</Timestamp> <ElectionName>2026 March Joint Primary Elections</ElectionName> ... <Precinct name=\"100\" totalVoters=\"3484\" ballotsCast=\"316\" voterTurnout=\"9.07\" percentReporting=\"2\" />",
+      "supports": "tag"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368560/reports/detailxml.zip",
+      "via": "fetch_module",
+      "query": "content_hash e3926e184d1c57a66cea78141397baf5dc9faabe08e335abd9c52725728cb35e",
+      "quote": "<Timestamp>3/4/2026 12:21:49 AM CST</Timestamp> ... <Precinct name=\"100\" totalVoters=\"3484\" ballotsCast=\"539\" voterTurnout=\"15.47\" percentReporting=\"2\" />",
+      "supports": "tag"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/122432/350897/reports/detailxml.zip",
+      "via": "fetch_module",
+      "query": "content_hash 03f71569b21ff6c17fc05519419ff1b878fe0289061a9d20fec42a21f03b2545",
+      "quote": "<Timestamp>11/5/2024 7:19:02 PM CST</Timestamp> ... <Precinct name=\"100\" totalVoters=\"3605\" ballotsCast=\"1655\" voterTurnout=\"45.91\" percentReporting=\"2\" />",
+      "supports": "tag"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/122432/352313/reports/detailxml.zip",
+      "via": "fetch_module",
+      "query": "content_hash e2e59f4373f9d537607dd93ac5ceff9e560c76e9fc780bd0a78f2f8edfc6875d",
+      "quote": "<Timestamp>11/5/2024 9:51:06 PM CST</Timestamp> ... <Precinct name=\"100\" totalVoters=\"3605\" ballotsCast=\"1944\" voterTurnout=\"53.93\" percentReporting=\"2\" />",
+      "supports": "tag"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373026/reports/detailxml.zip",
+      "via": "fetch_module",
+      "query": "content_hash dd0dacfc268e49abeaf11727c0e3a1b0c4a78bb8b3c0449675eb568ba80a0299",
+      "quote": "<Contest key=\"0011\" text=\"DEM Lieutenant Governor\" voteFor=\"1\" isQuestion=\"false\" precinctsReporting=\"308\" precinctsReported=\"0\"> <VoteType name=\"regVotersCounty\" votes=\"protected\"> <Precinct name=\"100\" votes=\"protected\" />",
+      "supports": "tag"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373136/json/en/electionsettings.json",
+      "via": "fetch_module",
+      "query": "content_hash 0d4216b52e82bf3a3ebe0ccb3877e0a5a9df3c7db38ad79dc55f9b9a8ed03100",
+      "quote": "\"websiteupdatedat\": \"5/27/2026 12:35:34 PM CDT\"",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "content_hash 065e1ebd63c50fea13f2f32b01686cde6df41adf1b1714128bc15f3c8189ad0e",
+      "quote": "TRAVIS COUNTY County Clerk Dyana Limon-Mercado 5501 Airport Boulevard, Austin, TX 78751-1410 P.O. Box 149325, Austin 78714-9325 County Email Address [mailto:elections@traviscountytx.gov] (512) 854-4996",
+      "supports": "contact"
+    }
+  ],
+  "searches_run": 6,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 101,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T13:59:16Z",
+  "agent": "research-B",
+  "finished_at_utc": "2026-10-02T14:24:47Z"
+}

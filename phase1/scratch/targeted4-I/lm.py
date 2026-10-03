@@ -1,0 +1,6 @@
+import sys; sys.path.insert(0,'.')
+from txprecinct.config import load_config; from txprecinct.store import Store; from txprecinct.fetch import normalize_url
+s=Store(load_config().state_dir)
+for u in sys.argv[1:]:
+    r=s.latest_ok(normalize_url(u))
+    print(u, '->', (r['status'], r['last_modified'], r['content_hash'][:16], r['content_type']) if r else None)

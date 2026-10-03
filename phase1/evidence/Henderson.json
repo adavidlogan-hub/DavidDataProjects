@@ -1,0 +1,93 @@
+{
+  "county": "Henderson",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.henderson-county.com/225/Election-Results",
+  "platform": "county_pdfs",
+  "host": "www.henderson-county.com",
+  "evidence_url": "https://www.henderson-county.com/DocumentCenter/View/293/Precinct-by-Precinct-Results-PDF",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL path returns 404; the county Election Results page is https://www.henderson-county.com/225/Election-Results (CivicPlus). The Elections page links 'Election Night Returns Public Portal' to results.texas-election.com; no Clarity link. This server stamps every DocumentCenter file with the request time as Last-Modified (e.g. Fri, 02 Oct 2026 15:28:57 GMT), so it gives no upload evidence; PDF CreationDate is used as the printed run time. Per election the page lists Early Voting, First/Second Cumulative and 'Final Unofficial' county-total reports, plus a precinct report created at canvass: 2024 general 'Precinct by Precinct Results' CreationDate 2024-11-13 21:56 UTC; 2026 primary 'Precinct by Precinct Results' ('Results for Canvassing Authority') CreationDate 2026-03-10 17:18 UTC; 2026 runoff has no precinct report. 'Final Unofficial' CreationDates: 2024-11-06 02:59 UTC, 2026-03-04 03:18 UTC, 2026-05-27 02:34 UTC (election night). Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "All three elections are LATER (county-total reports created on election night, precinct reports created at canvass or never posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because the server gives no upload times.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.henderson-county.com/225/Election-Results",
+      "via": "fetch_module",
+      "content_hash": "3f5f224ad52c1976bc0dc37dd8300b81cd4110e66c67c727aa74a089a54100a9",
+      "quote": "May 26, 2026 Primary Runoff Election Results | Early Voting and Absentee (PDF) | ... | Final Unofficial (PDF) | ... March 3, 2026 Primary Election Results | ... | First Cumulative (PDF) | Precinct by Precinct Results (PDF) | ... | Second Cumulative (PDF)",
+      "supports": "Reports listed per election"
+    },
+    {
+      "url": "https://www.henderson-county.com/DocumentCenter/View/312/Precinct-by-Precinct-Results-PDF",
+      "via": "fetch_module",
+      "content_hash": "54503d0c4805c75be7f4141cdcf46c4e367d3fb08501d1330da23043f9ce3d93",
+      "quote": "Precinct by Precinct Report Henderson County, TExas General Election November 5, 2024 (CreationDate 2024-11-13)",
+      "supports": "2024 precinct numbers created at canvass"
+    },
+    {
+      "url": "https://www.henderson-county.com/DocumentCenter/View/310/Final-Unofficial-PDF",
+      "via": "fetch_module",
+      "content_hash": "1074b41a69a5c6605532e7fc8b2995a347af45ac6a2b94df26d89298570b5cc9",
+      "quote": "FINAL UNOFFICIAL RESULTS TX Henderson November 5, 2024 ... Election Day Precincts Reporting 31 of 31",
+      "supports": "2024 county totals on election night"
+    },
+    {
+      "url": "https://www.henderson-county.com/DocumentCenter/View/293/Precinct-by-Precinct-Results-PDF",
+      "via": "fetch_module",
+      "content_hash": "f009ef6941209fb6e94f6fa94bf281d11c4d647dbda9568e52dac801e5fc94d5",
+      "quote": "Precinct by Precinct Report 2026 Primary Election Results for Canvassing Authority (CreationDate 2026-03-10)",
+      "supports": "2026 primary precinct numbers created at canvass"
+    },
+    {
+      "url": "https://www.henderson-county.com/DocumentCenter/View/296/Final-Unofficial-PDF",
+      "via": "fetch_module",
+      "content_hash": "bb5e78a3e275e4c4b150b6d0b60af615e185b4a0a591833b81262b84de142ad4",
+      "quote": "Final Unofficial Result 2026 Primary Election ... Election Day Precincts Reporting 30 of 30",
+      "supports": "2026 primary county totals on election night"
+    },
+    {
+      "url": "https://www.henderson-county.com/DocumentCenter/View/251/Final-Unofficial-PDF",
+      "via": "fetch_module",
+      "content_hash": "d8e2a619a6c159feba7c507c8b4ad163696460e8f6e8467a46005a68e7a86bf9",
+      "quote": "FINAL UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Henderson County, Texas",
+      "supports": "2026 runoff county totals on election night"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 20:59 CT (Final Unofficial CreationDate)",
+      "precinct_first_seen": "2024-11-13 15:56 CT (CreationDate)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.henderson-county.com/DocumentCenter/View/312/Precinct-by-Precinct-Results-PDF",
+      "fact": "'Summary Results Report FINAL UNOFFICIAL RESULTS TX Henderson November 5, 2024 ... Election Day Precincts Reporting 31 of 31' (county totals) CreationDate 2024-11-06 02:59:27 UTC; the only precinct file 'Summary Results Report Precinct by Precinct Report ... General Election November 5, 2024' has CreationDate 2024-11-13 21:56:45 UTC, after election night."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:18 CT (Final Unofficial CreationDate)",
+      "precinct_first_seen": "2026-03-10 12:18 CT (CreationDate)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.henderson-county.com/DocumentCenter/View/293/Precinct-by-Precinct-Results-PDF",
+      "fact": "'Summary Results Report Final Unofficial Result 2026 Primary Election ... Election Day Precincts Reporting 30 of 30' (county totals) CreationDate 2026-03-04 03:18:19 UTC; the precinct file 'Precinct by Precinct Report 2026 Primary Election ... Results for Canvassing Authority' has CreationDate 2026-03-10 17:18:20 UTC."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:34 CT (Final Unofficial CreationDate)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.henderson-county.com/DocumentCenter/View/251/Final-Unofficial-PDF",
+      "fact": "Runoff section lists Early Voting and Absentee, Final Unofficial ('Summary Results Report FINAL UNOFFICIAL RESULTS 2026 Primary Runoff Election ... Election Day Precincts Reporting 30 of 30', county totals, CreationDate 2026-05-27 02:34:15 UTC), Final Results for Canvassing Authority, reconciliations and audit; no precinct report posted (never published online)."
+    }
+  }
+}

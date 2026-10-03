@@ -1,0 +1,245 @@
+{
+  "county": "Clay",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122307",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "346415",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/346415/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/11/2024 11:37:28 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "346418",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/346418/reports/detailxml.zip",
+              "content_hash": "9a44c9cba54175b5d141556db5a31762c167ab2d6d1ac1dfe1725b7a17bf4540",
+              "election_night": false
+            },
+            {
+              "version": "348644",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/348644/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348645",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/348645/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 7:08:05 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1123,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350821",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/350821/reports/detailxml.zip",
+              "content_hash": "2f0153d96ae1990b28def873890528bf21d2f24456fa328d53754bb7ee79ca7b",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:07:19 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1164,
+              "precincts_with_election_day_votes": 1,
+              "election_day_precinct_vote_sum": 2943,
+              "version": "351261",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351261/reports/detailxml.zip",
+              "content_hash": "41e4888790f0b52bdaebc8236f6378858641c2e3affe135f2b6db7f56e940a0a",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:10:36 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1204,
+              "precincts_with_election_day_votes": 2,
+              "election_day_precinct_vote_sum": 5736,
+              "version": "351300",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351300/reports/detailxml.zip",
+              "content_hash": "5762345548ba98369ab8b50e8818c8132aa468285384cf4552940b3cbff5f1e1",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:13:27 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1354,
+              "precincts_with_election_day_votes": 6,
+              "election_day_precinct_vote_sum": 12078,
+              "version": "351331",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351331/reports/detailxml.zip",
+              "content_hash": "4f7788277acc85ad01fd903958c1803a6effb32565c61f47684471f058f3c2e5",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:16:32 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1394,
+              "precincts_with_election_day_votes": 7,
+              "election_day_precinct_vote_sum": 15555,
+              "version": "351356",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351356/reports/detailxml.zip",
+              "content_hash": "b30dacb8a9d1cc9f6fdf8295ead05ad7d2b45e1e41bfb550d49ccff68a3f3304",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:23:18 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1433,
+              "precincts_with_election_day_votes": 8,
+              "election_day_precinct_vote_sum": 16944,
+              "version": "351443",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351443/reports/detailxml.zip",
+              "content_hash": "4a7a8cc9110d247bedacc092c68254fa861bc92201fe1e606b587bfe0459fdb0",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:26:14 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1472,
+              "precincts_with_election_day_votes": 9,
+              "election_day_precinct_vote_sum": 20593,
+              "version": "351481",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351481/reports/detailxml.zip",
+              "content_hash": "af20e9e2d9fcce33b5837bbc910294cf71dbc5c11a5cc026b0802d79f93ede53",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:30:37 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1513,
+              "precincts_with_election_day_votes": 10,
+              "election_day_precinct_vote_sum": 23152,
+              "version": "351522",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351522/reports/detailxml.zip",
+              "content_hash": "f913941f42b123c25f909b6c2f5e082fad6d3c7283c7bcd61c0e64a7bc2dbb4d",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:33:07 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1548,
+              "precincts_with_election_day_votes": 11,
+              "election_day_precinct_vote_sum": 24382,
+              "version": "351552",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351552/reports/detailxml.zip",
+              "content_hash": "4bc758c430f166a7f485819898cd57a0589a86c6591a747b5a7c8a748ae0e967",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:36:40 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1586,
+              "precincts_with_election_day_votes": 12,
+              "election_day_precinct_vote_sum": 30487,
+              "version": "351590",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351590/reports/detailxml.zip",
+              "content_hash": "831f9ed6dfe3d96fe8a4d80069f9bedcf0ecb1ac1f57727ad1e621ec90db17ff",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:40:34 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1630,
+              "precincts_with_election_day_votes": 13,
+              "election_day_precinct_vote_sum": 32951,
+              "version": "351621",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351621/reports/detailxml.zip",
+              "content_hash": "65f9b4b6f699f83dcb3e5bdce813490ad96b238b4339248688abd66322a141b2",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:43:07 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1668,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 35688,
+              "version": "351643",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351643/reports/detailxml.zip",
+              "content_hash": "110b2548b346559450473668753dd24eb31651faecdfe4120ece64075ac334a9",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:45:36 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1707,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 42414,
+              "version": "351659",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351659/reports/detailxml.zip",
+              "content_hash": "cfa4c9cd803557d1b8a49f590e2e54587a94309a803fb0f515499ea1e55d41e7",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:14:04 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1742,
+              "precincts_with_election_day_votes": 16,
+              "election_day_precinct_vote_sum": 44123,
+              "version": "351952",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351952/reports/detailxml.zip",
+              "content_hash": "079ee80bcffffe3b804c8bcb794137fefde459689334fd1b6c249c5abd0da809",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:18:46 PM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1742,
+              "precincts_with_election_day_votes": 16,
+              "election_day_precinct_vote_sum": 44123,
+              "version": "351984",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351984/reports/detailxml.zip",
+              "content_hash": "29590f8a1b9e18619feb68bc5194c1134a53443f160093a742143aea5b0edc2b",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/8/2024 9:30:30 AM CST",
+              "precincts_with_votes": 16,
+              "nonzero_precinct_vote_cells": 1742,
+              "precincts_with_election_day_votes": 16,
+              "election_day_precinct_vote_sum": 44146,
+              "version": "353790",
+              "url": "https://results.enr.clarityelections.com/TX/Clay/122307/353790/reports/detailxml.zip",
+              "content_hash": "8852ab554f4add2cd049d8b75b07012448ac21a3ba1fdcb5accefe0fe89bfd50",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 15,
+          "election_night_updates_with_precinct_votes": 15,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:08:05 PM CST",
+            "version": "350821",
+            "url": "https://results.enr.clarityelections.com/TX/Clay/122307/350821/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 14,
+          "election_night_distinct_election_day_precinct_releases": 13,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 8:07:19 PM CST",
+            "version": "351261",
+            "url": "https://results.enr.clarityelections.com/TX/Clay/122307/351261/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": false,
+      "note": "election not listed on this county's Clarity site"
+    },
+    "2026_runoff": {
+      "found": false,
+      "note": "election not listed on this county's Clarity site"
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122307"
+  }
+}

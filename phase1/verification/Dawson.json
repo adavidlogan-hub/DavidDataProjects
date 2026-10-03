@@ -1,0 +1,80 @@
+{
+  "county": "Dawson",
+  "reason_selected": "tag changed in targeted pass 3",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "dawson.Election.Information, NOVEMBER 5, 2024: unlabeled 20241105202939.pdf = 'Cumulative Results Report' county totals, Run Time 7:09 PM 11/05/2024 (early and absentee only), Last-Modified Wed, 06 Nov 2024 01:25:56 GMT (7:25 PM CST, election night); 'UNOFFICIAL TOTALS' 20241105220214.pdf = cumulative county totals Run Time 8:32 PM with Election Day votes, Last-Modified 06 Nov 2024 19:38:25 GMT. The only precinct file is 'PRECINCT OFFICIAL TOTALS' (official); no unofficial precinct report posted. LATER (county_totals_first_seen 2024-11-05 19:25 CT upload)."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "fact": "MARCH 3, 2026: 'DEMOCRATIC UNOFFICIAL PRECINCT RESULTS' (PRECINCT RESULTS, Unofficial Results, Run Time 9:33 PM 03/03/2026, per-precinct candidate votes with Election Day Voting column) Last-Modified Wed, 04 Mar 2026 05:59:37 GMT (11:59 PM CST); 'REPUBLICAN UNOFFICIAL PRECINCT RESULTS' (Run Time 10:56 PM) Last-Modified 06:02:36 GMT (12:02 AM CST Mar 4). Matching cumulative reports run 9:38 PM and 10:57 PM, uploaded 11:58 PM and 12:00 AM. Final precinct numbers posted once per party in one posting session at midnight: END."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "fact": "MAY 26, 2026: 'REPUBLICAN UNOFFICIAL PRECINCT RESULTS' (20260526215018.pdf, scan of 'PRECINCT RESULTS REPORT', Unofficial Results, Run Time 9:35 PM 05/26/2026, precinct 1 Election Day votes e.g. Paxton 25) Last-Modified Wed, 27 May 2026 02:54:14 GMT (9:54 PM CDT); 'DEMOCRATIC UNOFFICIAL PRECINCT RESULTS' (20260526214924.pdf) Last-Modified 02:51:37 GMT (9:51 PM CDT). Cumulative county totals run 9:39 PM uploaded 9:49 PM. END."
+    }
+  },
+  "rationale": "Not on Clarity: the county's results pages link no results.enr.clarityelections.com election, so check 1 does not apply. Check 3: wayback-data index for this county has no election-night captures in any window. Primary and runoff are END by check 2 (unofficial precinct reports uploaded on election night); 2024 general is LATER. Rule gives PRECINCT_END_OF_NIGHT, med.",
+  "sources": [
+    {
+      "url": "https://www.co.dawson.tx.us/page/dawson.Election.Information",
+      "content_hash": "67062e4586b6f21b6091894af15d4390c58a4cbf114b4a890d3c642ff06c9a2b",
+      "what_i_checked": "Results lists for all three elections"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2024/20241105202939.pdf",
+      "content_hash": "b6a1d7ecb1e06a8707c534badd10863521e30ab5a5bb6c47f133df570c4427cd",
+      "what_i_checked": "Cumulative county totals run 7:09 PM; LM 2024-11-06 01:25:56 GMT"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2024/20241105220214.pdf",
+      "content_hash": "d3e78ee5b639f14eb708d2650be19e50dc10d27c0440d550cf0cbf0c96a24f1e",
+      "what_i_checked": "Unofficial totals run 8:32 PM; LM 2024-11-06 19:38:25 GMT"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2026/DEMOCRATIC PRECINCT UNOFFICIAL.pdf",
+      "content_hash": "cd6a9f30d28cef7b26cd9c210ece7468162745666b99e2d514e9b00067fa219b",
+      "what_i_checked": "Precinct report run 9:33 PM; LM 2026-03-04 05:59:37 GMT"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2026/REPUBLICAN PRECINCT UNOFFICIAL.pdf",
+      "content_hash": "d7a93ddf3c15a4378b74c55dbe4e2daf7e52fa7211d7261a819c351e507a4a3e",
+      "what_i_checked": "Precinct report run 10:56 PM; LM 2026-03-04 06:02:36 GMT"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2026/DEMOCRATIC CUMULATIVE UNOFFICIAL.pdf",
+      "content_hash": "30957a947abcf26828c7314cd725cca8c81552673c94f0edfd1619047c9d8f8f",
+      "what_i_checked": "Cumulative run 9:38 PM; LM 2026-03-04 05:58:37 GMT"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2026/20260526215018.pdf",
+      "content_hash": "f2ef88aa233fbad5fbd2ba4d669b97e162b1fa5be136086ab4eed482fa7652af",
+      "what_i_checked": "Runoff Rep precinct report run 9:35 PM; LM 2026-05-27 02:54:14 GMT"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2026/20260526214924.pdf",
+      "content_hash": "409ab52da5aeb75c04b5820e0345bb4d4bad59fce534d6bab5d009a89582257a",
+      "what_i_checked": "Runoff Dem precinct report; LM 2026-05-27 02:51:37 GMT"
+    },
+    {
+      "url": "https://www.co.dawson.tx.us/upload/page/1590/2026/20260526215149.pdf",
+      "content_hash": "fe1e2a610c0afb5a9edcdf805fbafdfa56330ba30fd8257b04ed6b9fe12fa32b",
+      "what_i_checked": "Runoff cumulative run 9:39 PM; LM 2026-05-27 02:49:45 GMT"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T22:58:45Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same: LATER by check 2 (7:09 PM county totals uploaded 7:25 PM CST; no unofficial precinct report).",
+    "2026_primary": "Same: END by check 2 (Dem precinct report uploaded 11:59 PM CST, Rep 12:02 AM CST, each once with the final count).",
+    "2026_runoff": "Same: END by check 2 (Rep precinct report run 9:35 PM uploaded 9:54 PM CDT; Dem uploaded 9:51 PM CDT).",
+    "unsupported_claims": "None. All quoted times and Last-Modified values match my reads."
+  }
+}

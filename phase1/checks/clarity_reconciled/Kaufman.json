@@ -1,0 +1,667 @@
+{
+  "county": "Kaufman",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122824",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "347944",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/347944/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347954",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/347954/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347955",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/347955/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347960",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/347960/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347965",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/347965/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347972",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/347972/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347975",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/347975/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347976",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/347976/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347995",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/347995/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349260",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/349260/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349261",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/349261/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349268",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/349268/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349270",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/349270/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/1/2024 12:51:45 PM EDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "349275",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/349275/reports/detailxml.zip",
+              "content_hash": "3c798137820e9b43ca8306fb48b9a313777f96ce3a9df18255f4b2a3e31be713",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/4/2024 10:38:15 AM EST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350044",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/350044/reports/detailxml.zip",
+              "content_hash": "ae849c7a0ed988902a7676bffca70e8f77f4a5fbdb88999282c47618376c6266",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 8:00:20 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 1985,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350762",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/350762/reports/detailxml.zip",
+              "content_hash": "edf3bdbe8b01c611ac08fd5498896a5fcbf952d0af7ce7696c33e65ec0e142cb",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:39:41 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 3532,
+              "precincts_with_election_day_votes": 34,
+              "election_day_precinct_vote_sum": 50803,
+              "version": "351615",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/351615/reports/detailxml.zip",
+              "content_hash": "2229e967892d6e1808b96a2c414f727c5f1bb5cbeee6504c8ad54ef174319ced",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:58:30 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 3761,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 105483,
+              "version": "351788",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/351788/reports/detailxml.zip",
+              "content_hash": "1e39357e944bb870adc119ce63951489a7a91ed99828f3bfadaaa07efae8ebd7",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:29:33 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 3882,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 175429,
+              "version": "352096",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/352096/reports/detailxml.zip",
+              "content_hash": "4e93b7c2429cadd454ce19b83c0eeb6f7f3190e51e748a872edea0cc6a545f71",
+              "election_night": true
+            },
+            {
+              "version": "352507",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/352507/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "352511",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/352511/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "352520",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/352520/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "352580",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/352580/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 11:34:34 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 3923,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 313867,
+              "version": "352633",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/352633/reports/detailxml.zip",
+              "content_hash": "44466db2dc9a4aca71d867db7a2ffc0d7491fa4fcb549c9c16cd8e8a73d260e2",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:27:26 AM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 5655,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 338576,
+              "version": "352860",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/352860/reports/detailxml.zip",
+              "content_hash": "f25f2caee26db6dc2bf10d9e431393d3ecea3ac18e5051a6f1861b012547f1ff",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 1:18:45 AM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 3927,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 338576,
+              "version": "353024",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/353024/reports/detailxml.zip",
+              "content_hash": "5284b2b6fe70812cd60f5b1be65cf0bad2c3fa5097900393df4a82da98dcb94b",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 2:32:11 AM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 5653,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 338576,
+              "version": "353163",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/353163/reports/detailxml.zip",
+              "content_hash": "a130ca77dd98af686345e12c317ed8c8cd834eb075bdbfe3b35d7bf999fdd32f",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/19/2024 4:15:05 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 6412,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 338710,
+              "version": "355375",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/355375/reports/detailxml.zip",
+              "content_hash": "10a0d576b5f614b1053744dcad165ea99eee4a9f581676d79be26a616bd69e23",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 8,
+          "election_night_updates_with_precinct_votes": 8,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 8:00:20 PM EST",
+            "version": "350762",
+            "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/350762/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 7,
+          "election_night_distinct_election_day_precinct_releases": 5,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 9:39:41 PM EST",
+            "version": "351615",
+            "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/351615/reports/detailxml.zip"
+          },
+          "unreadable_versions": 17
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "125939",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "367943",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/367943/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367944",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/367944/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367945",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/367945/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/10/2026 10:32:30 AM EST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "367946",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/367946/reports/detailxml.zip",
+              "content_hash": "c1aabf221c369ce1fdc56b2f9e0db3a64f2bdabcea2e388b54f3d807553e0642",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/10/2026 10:33:57 AM EST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "367947",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/367947/reports/detailxml.zip",
+              "content_hash": "919a465ba92c0ba10523f9ea9b4bbb525db88108b9220ed736f994d3bbf10ea3",
+              "election_night": false
+            },
+            {
+              "version": "368377",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368377/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368382",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368382/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368386",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368386/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 8:00:09 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 9959,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368388",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368388/reports/detailxml.zip",
+              "content_hash": "02e2ce7c5d2fadff08bd8c91e8f272bd1f8dda57c47152fae7383fb17362a908",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:37:57 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 12738,
+              "precincts_with_election_day_votes": 31,
+              "election_day_precinct_vote_sum": 34359,
+              "version": "368443",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368443/reports/detailxml.zip",
+              "content_hash": "7a0019093e01df67075cba0086f8988884376bc774d5903645d27f81b4605433",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:50:52 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 14360,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 63426,
+              "version": "368453",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368453/reports/detailxml.zip",
+              "content_hash": "3a3690e9ccdec6f35c21cf60c330cb03c8b07af60173b5e2f8e7a0312b99774f",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:05:17 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 14903,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 108810,
+              "version": "368466",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368466/reports/detailxml.zip",
+              "content_hash": "5dfa34bfd9ca32fc2551247fd090b3d76a883b61459636b4d805210adf769edb",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:21:51 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 15013,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 129518,
+              "version": "368476",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368476/reports/detailxml.zip",
+              "content_hash": "bed5f8dee2cb9202825742edbd1df909ee17ee4c41e6375d886e0baecbd3abdf",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:33:10 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 15494,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 167571,
+              "version": "368484",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368484/reports/detailxml.zip",
+              "content_hash": "9d66c1eecbb97ce1bbf4d34c6cbb8659fb76b48b0d2ad614395ea96960a52c3e",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:44:25 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 15655,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 212763,
+              "version": "368496",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368496/reports/detailxml.zip",
+              "content_hash": "b853a2e2a9c52072f7fc9ee06356bfe6f049d31bc71ed4fbb06b1ea5b0d50368",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:56:23 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 15680,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 229592,
+              "version": "368505",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368505/reports/detailxml.zip",
+              "content_hash": "43ff2d923d4898e7d0f35ae47e1af21df85449607fd3f3b324177181395e3e03",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:04:50 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 15759,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 270792,
+              "version": "368511",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368511/reports/detailxml.zip",
+              "content_hash": "3c723cf1c81f65e0c68ea5fc87601c0c0a570a49946f1cb1c2620fc56e438df7",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:14:49 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 15825,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 306486,
+              "version": "368517",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368517/reports/detailxml.zip",
+              "content_hash": "5e121e2064456c23e8648f95e67c3526bd4b94125dbb42c57004cd18d2fab68f",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:19:47 PM EST",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 15892,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 351051,
+              "version": "368521",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368521/reports/detailxml.zip",
+              "content_hash": "187d8b1fb1e2cc1a7dd7a7186d34cd6bffb688785de33942cae0338437ae3adf",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/10/2026 8:22:32 PM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 15951,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 351701,
+              "version": "368754",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368754/reports/detailxml.zip",
+              "content_hash": "4f12d07206b24cd7612fdfd5648196375cef48dfb6c9debb390cb2386256a170",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/17/2026 11:31:40 AM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 15951,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 351701,
+              "version": "368859",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368859/reports/detailxml.zip",
+              "content_hash": "6b7f38112e8ba4e2b4dd9d3c8204bb45267bf4bac8c645b711b144a67e75531f",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 11,
+          "election_night_updates_with_precinct_votes": 11,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 8:00:09 PM EST",
+            "version": "368388",
+            "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368388/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 10,
+          "election_night_distinct_election_day_precinct_releases": 10,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 9:37:57 PM EST",
+            "version": "368443",
+            "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368443/reports/detailxml.zip"
+          },
+          "unreadable_versions": 6
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126350",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "timestamp": "5/6/2026 2:14:33 PM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 522,
+              "precincts_with_election_day_votes": 34,
+              "election_day_precinct_vote_sum": 471,
+              "version": "370587",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/370587/reports/detailxml.zip",
+              "content_hash": "37183dff7f35e26b3af016b53832a279971b2c28551270f1d39cd0295b8140f6",
+              "election_night": false
+            },
+            {
+              "version": "371228",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/371228/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/14/2026 10:20:37 AM EDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "371668",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/371668/reports/detailxml.zip",
+              "content_hash": "304e17055efe8ad746ff32afc7890f2ccfe240ad0e84eb7978fc3e7949c4bc84",
+              "election_night": false
+            },
+            {
+              "version": "371673",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/371673/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/14/2026 10:59:11 AM EDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "371675",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/371675/reports/detailxml.zip",
+              "content_hash": "9dc291691e1d9e6d597a98ba8e9b98f3c4aee4fcfe67cdec80993db12ee986aa",
+              "election_night": false
+            },
+            {
+              "version": "371699",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/371699/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/14/2026 1:34:05 PM EDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "371701",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/371701/reports/detailxml.zip",
+              "content_hash": "eed917439b5a2ad0595cae336037825cb2348d700534af187b17b4b720fe79b7",
+              "election_night": false
+            },
+            {
+              "version": "372917",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/372917/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 8:00:07 PM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 933,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372927",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/372927/reports/detailxml.zip",
+              "content_hash": "72d2f0d30357f30052911d84aff3bd9ef5b473eff512083a478cae2761853926",
+              "election_night": true
+            },
+            {
+              "version": "372972",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/372972/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 9:27:59 PM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 1181,
+              "precincts_with_election_day_votes": 29,
+              "election_day_precinct_vote_sum": 3156,
+              "version": "372976",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/372976/reports/detailxml.zip",
+              "content_hash": "fbfbfa555c2a89dbcd2ff55e769a5a365fed3dcc0e3c12e4c4fd9d7337c008dc",
+              "election_night": true
+            },
+            {
+              "version": "372983",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/372983/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372986",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/372986/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 9:40:43 PM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 1333,
+              "precincts_with_election_day_votes": 36,
+              "election_day_precinct_vote_sum": 5649,
+              "version": "372987",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/372987/reports/detailxml.zip",
+              "content_hash": "e39c970f1a5635ac9b7b75da15daa7b4e8dbafdc6c717d97b1cc5cb114ce9b91",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:56:00 PM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 1400,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 10372,
+              "version": "372999",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/372999/reports/detailxml.zip",
+              "content_hash": "ff56cb419150a990870acf07741b0ca8fbd2dcd3d80bb0690d613c3555af74d5",
+              "election_night": true
+            },
+            {
+              "version": "373001",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/373001/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 10:01:13 PM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 1400,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 10372,
+              "version": "373002",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/373002/reports/detailxml.zip",
+              "content_hash": "d5fd069508725b2d60de05b9bfb712ad51fecd5eb2d732faea9bf6ae0d1b3e3a",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 10:03:31 PM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 1400,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 10372,
+              "version": "373004",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/373004/reports/detailxml.zip",
+              "content_hash": "f39af2c17acef0f2f87047b855a7a1472f1cc92189cba2d98a8b2b40b261dfb4",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 10:11:56 PM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 1442,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 14475,
+              "version": "373010",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/373010/reports/detailxml.zip",
+              "content_hash": "a816f3cbf8eadfee832b1b5cfc5e61def517149069b30474bb09be8590ca59c2",
+              "election_night": true
+            },
+            {
+              "version": "374881",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/374881/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "6/9/2026 4:10:14 PM EDT",
+              "precincts_with_votes": 37,
+              "nonzero_precinct_vote_cells": 1442,
+              "precincts_with_election_day_votes": 37,
+              "election_day_precinct_vote_sum": 14508,
+              "version": "374882",
+              "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/374882/reports/detailxml.zip",
+              "content_hash": "97aca994b1875d7b715895840b27536d2675063e9d3ed8a8dea521b734840d46",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 7,
+          "election_night_updates_with_precinct_votes": 7,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/6/2026 2:14:33 PM EDT",
+            "version": "370587",
+            "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/370587/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 6,
+          "election_night_distinct_election_day_precinct_releases": 4,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/6/2026 2:14:33 PM EDT",
+            "version": "370587",
+            "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/370587/reports/detailxml.zip"
+          },
+          "unreadable_versions": 9
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122824",
+    "2026_primary": "125939",
+    "2026_runoff": "126350"
+  }
+}

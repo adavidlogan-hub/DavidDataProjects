@@ -1,0 +1,79 @@
+{
+  "county": "Brewster",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.brewstercounty.gov/page/Elections.Results",
+  "platform": "county_pdfs",
+  "host": "www.brewstercounty.gov",
+  "evidence_url": "https://www.brewstercounty.gov/page/open/2199/0/Primary%20Runoff%20SoS%20Unofficial%20Results%2052626.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Brewster's Elections Results page (ezTask document list) currently holds only May 26, 2026 runoff files; no files for the 2024 general or the 2026 primary are posted, so those two are UNDETERMINED (check 3 pending; wayback-data branch not found on origin). No Clarity or other vendor site found. The server sends no Last-Modified header, so there is no upload-time evidence; the times used are the PDFs' embedded CreationDate metadata (not a printed run time), which is weaker evidence. Runoff: 'Primary Runoff SoS Unofficial Results 52626' is the SOS 'Election Unofficial Results Report' for Brewster (county totals only), CreationDate Wed May 27 03:24:55 2026 UTC = 10:24 PM CDT May 26. The DEM and REP 'Precinct Summary' PDFs ('Summary Results Report UNOFFICIAL RESULTS ... Precinct 1 ...') have CreationDate Wed Jun 3 2026 (15:06 and 15:08 UTC), after election night.",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER, check 2 using PDF metadata times); the 2024 general and 2026 primary are UNDETERMINED. With exactly one election determined the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-B",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general files on the county results page; no vendor site found. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only PEHCA (hand count audit) certifications for the 2026 primary are on the results page; no results files. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 22:24 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.brewstercounty.gov/page/open/2199/0/Primary%20Runoff%20SoS%20Unofficial%20Results%2052626.pdf",
+      "fact": "'Texas Secretary of State Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY RUNOFF ELECTION May 26, 2026 BREWSTER county' (county totals by vote method), PDF CreationDate 2026-05-27 03:24:55 UTC (10:24 PM CDT). Per-precinct 'Summary Results Report UNOFFICIAL RESULTS TX Brewster 260526 Primary Runoff ... Precinct 1' PDFs have CreationDate 2026-06-03, after election night. No server upload times available."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.brewstercounty.gov/page/Elections.Results",
+      "via": "fetch_module",
+      "content_hash": "e1a2bfb91d21bc9be8d5e596e38d9e4923893cebc32b3026ee4c23bae2fbece0",
+      "quote": "Results: DEM 2026 Primary Runoff Precinct Summary; REP 2026 Primary Runoff Precinct Summary; PEHCA Certification ...; Primary Runoff SoS Unofficial Results 52626",
+      "supports": "County results page file list"
+    },
+    {
+      "url": "https://www.brewstercounty.gov/page/open/2199/0/Primary%20Runoff%20SoS%20Unofficial%20Results%2052626.pdf",
+      "via": "fetch_module",
+      "content_hash": "27e75f32d2541b16b00550d93275e47ea3a4a318a891706706db87a6a7ad613c",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY RUNOFF ELECTION May 26, 2026 BREWSTER county",
+      "supports": "Runoff election-night county totals (CreationDate 2026-05-27 03:24:55 UTC)"
+    },
+    {
+      "url": "https://www.brewstercounty.gov/page/open/2199/0/DEM%202026%20Primary%20Runoff%20Precinct%20Summary.pdf",
+      "via": "fetch_module",
+      "content_hash": "6ebbffa572c10468052709af2b40723ab7a8157706d782ddcb6ae7c4712c7669",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Brewster 260526 Primary Runoff May 26, 2026 Brewster Precinct 1",
+      "supports": "Runoff precinct numbers; CreationDate 2026-06-03 15:08 UTC"
+    },
+    {
+      "url": "https://www.brewstercounty.gov/page/open/2199/0/REP%202026%20Primary%20Runoff%20Precinct%20Summary.pdf",
+      "via": "fetch_module",
+      "content_hash": "1c5d233e25d4a93eb2813f4ca25a7dd4a36001c770044fb7a5944dc7bbdef523",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Brewster 260526 Primary Runoff ... Precinct 1 ... REP US Senator",
+      "supports": "Runoff precinct numbers; CreationDate 2026-06-03 15:06 UTC"
+    }
+  ]
+}

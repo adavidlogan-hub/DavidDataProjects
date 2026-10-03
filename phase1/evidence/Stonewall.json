@@ -1,0 +1,72 @@
+{
+  "county": "Stonewall",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.stonewallcounty.org/page/stonewall.Elections",
+  "platform": "county_pdfs",
+  "host": "www.stonewallcounty.org",
+  "evidence_url": "https://www.stonewallcounty.org/upload/page/9667/2026/skm_c300i26030411110.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "The seed URL https://www.stonewallcounty.org/page/stonewall.Elections works (the page was already in the shared cache). No Clarity site (elections.json 404). Results are scanned or SOS PDFs; server Last-Modified values differ by file, so upload times are usable. Scan file names (skm_c300iYYMMDDHHMM) give the scan date. No runoff results are posted. Check 3 pending for the runoff (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-4): 2024_general LATER kept, county_totals_first_seen 2024-11-05 20:05 CT; 2026_primary LATER kept, county_totals_first_seen 2026-03-03 21:28 CT.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary LATER, 2026_runoff UNDETERMINED. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 20:05 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.stonewallcounty.org/upload/page/9667/2024/report__20241105t200546.318.pdf",
+      "fact": "'Unofficial General Election Results' = SOS 'Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 STONEWALL County' (county totals by vote method); PDF CreationDate Wed Nov 6 02:05:46 2024 UTC (8:05 PM CST), Last-Modified Wed, 06 Nov 2024 17:26:35 GMT (11:26 AM CST Nov 6). The only other 2024 results file is 'November 5th Election Official Results' (scan dated 2024-11-12 by file name). No unofficial precinct numbers were posted. Rule 43: county totals first seen 2024-11-05 20:05 CT in report__20241105t200546.318.pdf (SOS report, PDF CreationDate Wed Nov 6 02:05:46 2024 UTC = 8:05 PM CST Nov 5, matching the file name; no unofficial precinct numbers posted)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:28 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.stonewallcounty.org/upload/page/9667/2026/skm_c300i26030411110.pdf",
+      "fact": "'Election Results' (skm_c300i26030411110.pdf, 19-page scan) = Electionware 'Summary Results Report TX Stonewall County 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS' (county totals), footer 'Election Summary - 03/03/2026 9:28 PM'; Last-Modified Wed, 04 Mar 2026 18:00:53 GMT (12:00 PM CST Mar 4). Precinct numbers only in 'Precinct by Precinct Official Results' (scan dated 2026-03-19 by file name). Rule 43: county totals first seen 2026-03-03 21:28 CT in skm_c300i26030411110.pdf (printed footer 'Election Summary - 03/03/2026 9:28 PM'; precinct numbers only in the official report)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The runoff items on the Elections page are notices, sample ballots and post-election hand count notices; no results files. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.stonewallcounty.org/page/stonewall.Elections",
+      "via": "fetch_module",
+      "content_hash": "6ffc98071fb6ca16a32f16f6fa348a1c9b8892b38ac3da33b70a2431bd72c670",
+      "quote": "Election Results; Precinct by Precinct Official Results; Statistics Official Results; Unofficial General Election Results; November 5th Election Official Results",
+      "supports": "Results postings per election"
+    },
+    {
+      "url": "https://www.stonewallcounty.org/upload/page/9667/2024/report__20241105t200546.318.pdf",
+      "via": "fetch_module",
+      "content_hash": "7b94ce916b40cd88d8d292f2290bcd254675ab6d5ed4a148967655b77f234a40",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 STONEWALL County",
+      "supports": "2024 county totals uploaded Nov 6"
+    },
+    {
+      "url": "https://www.stonewallcounty.org/upload/page/9667/2026/skm_c300i26030411110.pdf",
+      "via": "fetch_module",
+      "content_hash": "d88a776fdc6bd34ebda57fc005f82acaf95784670cb2a485d187cb86b99b59dd",
+      "quote": "Summary Results Report TX Stonewall County 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS ... Election Summary - 03/03/2026 9:28 PM (scanned, read visually)",
+      "supports": "Primary county totals uploaded Mar 4"
+    }
+  ]
+}

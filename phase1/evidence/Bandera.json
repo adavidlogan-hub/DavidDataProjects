@@ -1,0 +1,79 @@
+{
+  "county": "Bandera",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.banderacounty.gov/page/elections.current.elections",
+  "platform": "county_pdfs",
+  "host": "www.banderacounty.gov",
+  "evidence_url": "https://www.banderacounty.gov/page/open/1938/0/Precinct%20Results-5-26-2026",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-05-26 21:45 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed homepage redirects to www.banderacounty.gov. No Clarity site (elections.json 404). The elections pages link 'Election Results' to the SOS results site (goelect.txelections.civixapps.com/ivis-enr-ui/races) and post the county's own Hart-style PDFs. The server sends no Last-Modified header for these files (page/open/... handler), so there are no upload times; only printed run times. 2026 runoff: 'Precinct Results-5-26-2026' is an Unofficial precinct report run 9:45 PM on election night with Election Day columns and 10 of 10 precincts reporting; treated as END on printed run time only (upload time unknown), confidence low. 2026 primary: only 'Official Canvass/Cumulative/Precinct Results March 3rd Primary'. 2024 general: precinct and cumulative files are 'Official Results' run 04/04/2025. Check 3 pending for 2024 general and 2026 primary (wayback-data branch not found on origin). Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "Only the 2026 runoff is determined (END: unofficial precinct report printed 9:45 PM election night, final 10 of 10), so by rule the tag is PRECINCT_END_OF_NIGHT with confidence low. Rule 47 checked 2026-10-02: no change.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Past Election Results lists 'November 5, 2024 General Election Precinct Results' = 'Precinct Results Report Official Results BANDERA COUNTY, TEXAS 11/5/24 Election Night GENERAL ELECTION ... Run Time 10:26 AM Run Date 04/04/2025', plus canvass and cumulative (also Official, created 2025-04-04); no election-night file. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Current Elections lists only 'Official Canvass Results', 'Official Cumulative Results' and 'Official Precinct Results March 3rd Primary'; no election-night file. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-26 21:45 CT (printed run time; no upload time available)",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.banderacounty.gov/page/open/1938/0/Precinct%20Results-5-26-2026",
+      "fact": "'Precinct Results-5-26-2026' = 'Precinct Results Report Unofficial Results BANDERA COUNTY, TEXAS Primary Run-off Election Day PRIMARY RUNOFF ELECTION Precincts Reporting 10 of 10 = 100.00% Run Time 9:45 PM Run Date 05/26/2026 ... 101 ... Choice Party Absentee Voting Early Voting Election Day Voting Total'; PDF CreationDate Wed May 27 02:45:24 2026 UTC; no Last-Modified header. Rule 47: publication shown by printed time 2026-05-26 21:45 CT (run time) with no upload time (no Last-Modified header) in Precinct Results-5-26-2026."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.banderacounty.gov/page/elections.current.elections",
+      "via": "fetch_module",
+      "quote": "Election Results -> goelect.txelections.civixapps.com/ivis-enr-ui/races; Cumulative Results-5-26-2026; Precinct Results-5-26-2026; Official Precinct Results March 3rd Primary",
+      "supports": "County-posted report list for 2026",
+      "content_hash": "3642df916e01f20fc67ab968cec9d5838e72933aded49af266f8d5507cb71b19"
+    },
+    {
+      "url": "https://www.banderacounty.gov/page/open/1938/0/Precinct%20Results-5-26-2026",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report Unofficial Results BANDERA COUNTY, TEXAS ... Precincts Reporting 10 of 10 = 100.00% Run Time 9:45 PM Run Date 05/26/2026",
+      "supports": "Runoff unofficial precinct numbers with Election Day votes printed on election night",
+      "content_hash": "ebb79bf20aaa4858b53e959a69934c19b856bc55e1985c9bb5ebff40c90073ed"
+    },
+    {
+      "url": "https://www.banderacounty.gov/page/elections.past.results",
+      "via": "fetch_module",
+      "quote": "November 5, 2024 General Election Precinct Results; November 5, 2024 General Election Canvass Results; November 5, 2024 General Election Cumulative Result",
+      "supports": "2024 general files",
+      "content_hash": "66dccb329cab55e8b32fee2d6e95570393352124290dbf3550951b0870ba81ce"
+    },
+    {
+      "url": "https://www.banderacounty.gov/page/open/1754/0/November%205,%202024%20General%20Election%20Precinct%20Results",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report Official Results ... 11/5/24 Election Night GENERAL ELECTION ... Run Time 10:26 AM Run Date 04/04/2025",
+      "supports": "2024 precinct file is a 2025 official reprint",
+      "content_hash": "0367db379eecc66fe160c81885b5947a4ea00f3c5f7fe4fd9278d3018ad8c3cb"
+    }
+  ]
+}

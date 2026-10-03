@@ -1,0 +1,64 @@
+{
+ "county": "DeWitt",
+ "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "co.dewitt.tx.us/page/Elections lists only \"November 5 2024 General Election Precinct Report.pdf\" and a cumulative report. The precinct PDF (scanned) reads \"Precinct Results Report ... Official Results\", Run Time 10:18 AM, Run Date 11/20/2024; Last-Modified Mon 06 Jan 2025 15:43:27 GMT. No election-night file is listed, but the county posts election-night precinct reports for later elections (runoff, May 2 2026), so absence of one here is not evidence. No wayback folder for this county, check 3 pending."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Only official files listed: \"Official Precinct Results-3-18-2026\" printed Run Time 11:31 AM, Run Date 03/18/2026, Last-Modified Wed 18 Mar 2026 18:21:14 GMT. No election-night file listed. No wayback folder for this county, check 3 pending."
+  },
+  "2026_runoff": {
+   "result": "END",
+   "check": "2",
+   "fact": "\"Precinct Results-5-26-2026 08-33-22 PM ED PRCT REPORT.pdf\" (linked as \"Unofficial Precinct Results\"): \"Precinct Results Report ... Unofficial Results\", Run Time 8:33 PM, Run Date 05/26/2026, includes \"Election Day Voting\" by precinct (101: Vikki Goodwin 2). Last-Modified Wed 27 May 2026 01:42:23 GMT = 8:42 PM CDT. Only one unofficial precinct report; the matching cumulative (8:32 PM) equals the official cumulative (Velez Election Day 18, total 30), so it held the final count."
+  }
+ },
+ "rationale": "Only the runoff is determined (END, check 2, printed 8:33 PM and uploaded 8:42 PM CDT). One determined election gives PRECINCT_END_OF_NIGHT with low confidence.",
+ "sources": [
+  {
+   "url": "https://www.co.dewitt.tx.us/page/Elections",
+   "content_hash": "fe55328ca0fb1340daef1b51d20179453f622d7850bf97b03c577cadcbee760b",
+   "what_i_checked": "results list"
+  },
+  {
+   "url": "https://www.co.dewitt.tx.us/upload/page/0091/May 26, 2026 Primary Runoff/Precinct Results-5-26-2026 08-33-22 PM ED PRCT REPORT.pdf",
+   "content_hash": "e5a258439163f664843e974e3f5b95394421ba38a1759b92a4f178e73ccbd596",
+   "what_i_checked": "unofficial precinct report run 8:33 PM, uploaded 8:42 PM CDT"
+  },
+  {
+   "url": "https://www.co.dewitt.tx.us/upload/page/0091/May 26, 2026 Primary Runoff/Cumulative Results-5-26-2026 08-32-49 PM ED REPORT .pdf",
+   "content_hash": "1f2c80e95c0049b141b0c886e3ea4b2de184a713ab8a849d09a09c51ce6f97e0",
+   "what_i_checked": "unofficial cumulative 8:32 PM"
+  },
+  {
+   "url": "https://www.co.dewitt.tx.us/upload/page/0091/May 26, 2026 Primary Runoff/Official Cumulative Results_052626.pdf",
+   "content_hash": "97e27dbfd3e645f630feca12caadcdbcc12e01cb72cf737019b64afabdde2acc",
+   "what_i_checked": "official cumulative, same totals"
+  },
+  {
+   "url": "https://www.co.dewitt.tx.us/upload/page/0091/November 5, 2024 General Election/November 5 2024 General Election Precinct Report.pdf",
+   "content_hash": "d4d6cec4e56577b44be614dbb24f6fe5b93caab10a556a4bb7b49e450387105a",
+   "what_i_checked": "official precinct, run 11/20/2024, uploaded 6 Jan 2025"
+  },
+  {
+   "url": "https://www.co.dewitt.tx.us/upload/page/0091/March%203%202026%20Primary/Results/Official%20Precinct%20Results-3-18-2026%2011-29-57%20AM.pdf",
+   "content_hash": "67b6ad61749c9187cb09eaf51ac0ef173b9fa7f0f89918d32a054bb0e0d1bdb6",
+   "what_i_checked": "official precinct, run 03/18/2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED; precinct report uploaded 6 Jan 2025).",
+  "2026_primary": "same.",
+  "2026_runoff": "same (END: precinct report run 8:33 PM, uploaded 8:42 PM CDT). Research quotes \"precinct 101: Vikki Goodwin 18 = 5 absentee, 11 early, 2 election day\"; the 8:33 PM report I read shows Goodwin 5 / 11 / 2 = 18 in precinct 101, consistent."
+ }
+}

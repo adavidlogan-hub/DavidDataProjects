@@ -1,0 +1,107 @@
+{
+  "county": "Wood",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Wood/",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Wood/125922/368477/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 19:38 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed county elections site elections.mywoodcounty.com returned an empty HTTP 202 (bot protection), so it was not read. Clarity elections.json for Wood lists all three target elections (EIDs 122311, 125922, 126370), and check 1 read every update. All election-night updates carry precinct-level votes for 15 (2024) or 14 (2026) precincts, and the count of nonzero precinct vote cells rises through each night (2024: 1231 to 1795; 2026 primary: 4853 to 7171; 2026 runoff: 344 to 510), showing election-day votes added by precinct during the night. Check 3 not needed.",
+  "tag_rationale": "All three elections are LIVE by check 1 (precinct numbers in 7, 11 and 8 election-night Clarity updates), so the tag is LIVE_PRECINCT with confidence high.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 19:38 CT",
+      "precinct_first_seen": "2024-11-05 19:38 CT",
+      "night_updates_with_precinct_numbers": "7 of 7",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Wood/122311/352397/reports/detailxml.zip",
+      "fact": "Clarity update log EID 122311 (2024 General Election): election-night versions at 7:38, 8:37, 8:55, 9:08, 10:02, 10:17 and 10:59 PM CST each have 15 precincts with nonzero candidate votes; nonzero precinct vote cells 1231 rising to 1795."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 19:22 CT",
+      "precinct_first_seen": "2026-03-03 19:22 CT",
+      "night_updates_with_precinct_numbers": "11 of 11",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Wood/125922/368477/reports/detailxml.zip",
+      "fact": "Clarity update log EID 125922 (2026 Primary Elections): 11 election-night versions from 7:22 PM to 11:07 PM CST each have 14 precincts with nonzero candidate votes; nonzero cells 4853 rising to 7171."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 19:06 CT",
+      "precinct_first_seen": "2026-05-26 19:06 CT",
+      "night_updates_with_precinct_numbers": "8 of 8",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Wood/126370/373006/reports/detailxml.zip",
+      "fact": "Clarity update log EID 126370 (2026 Primary Runoff Elections): 8 election-night versions from 7:06 PM to 11:21 PM CDT each have 14 precincts with nonzero candidate votes; nonzero cells 344 rising to 510."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351031/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "fab7989af1d4071e294a68458f3c754925700f9ca00ff07e40cb66e5aab0885a",
+      "quote": "Timestamp 11/5/2024 7:38:43 PM CST; 15 precincts with nonzero votes; 1231 nonzero precinct vote cells",
+      "supports": "2024_general first election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Wood/122311/352759/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "cd55a6db2cc60d81659ffb39d90ea52c73acab5945c72811ace6050984202151",
+      "quote": "Timestamp 11/5/2024 10:59:19 PM CST; 15 precincts with nonzero votes; 1795 nonzero precinct vote cells",
+      "supports": "2024_general last election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368401/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "ef2333769bde057195a4cd7c41f793cc47a17d64e2e7c9193f865b5a623c0982",
+      "quote": "Timestamp 3/3/2026 7:22:48 PM CST; 14 precincts with nonzero votes; 4853 nonzero precinct vote cells",
+      "supports": "2026_primary first election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368542/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "9a17d8fb76f5b6fd50192c7da15fd8148ca734766bdb77935c167b24dd21b746",
+      "quote": "Timestamp 3/3/2026 11:07:20 PM CST; 14 precincts with nonzero votes; 7171 nonzero precinct vote cells",
+      "supports": "2026_primary last election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Wood/126370/372933/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "fdc8cce6085d31a2b35391821c60b662ee0ab279424607d99febcbaab056716a",
+      "quote": "Timestamp 5/26/2026 7:06:03 PM CDT; 14 precincts with nonzero votes; 344 nonzero precinct vote cells",
+      "supports": "2026_runoff first election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Wood/126370/373056/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "034ef0e789d3305828f89dbbde239059d0acc4d76b39d23dfe31b82c6712b648",
+      "quote": "Timestamp 5/26/2026 11:21:24 PM CDT; 14 precincts with nonzero votes; 510 nonzero precinct vote cells",
+      "supports": "2026_runoff last election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Wood/elections.json",
+      "via": "clarity_script",
+      "content_hash": "b9a03405928a86ec7ed3ec4f427f1e1b853a0532a98ffb0e75e51ebfb540f387",
+      "quote": "122311 2024 General Election; 125922 2026 Primary Elections; 126370 2026 Primary Runoff Elections",
+      "supports": "Wood Clarity election list"
+    },
+    {
+      "url": "https://elections.mywoodcounty.com/",
+      "via": "fetch_module",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote": "(empty HTTP 202 body)",
+      "supports": "county site not readable"
+    }
+  ]
+}

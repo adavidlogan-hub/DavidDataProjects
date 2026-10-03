@@ -1,0 +1,72 @@
+{
+  "county": "Crane",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.crane.tx.us/page/crane.Election.Results",
+  "platform": "county_pdfs",
+  "host": "www.co.crane.tx.us",
+  "evidence_url": "https://www.co.crane.tx.us/upload/page/1153/2026%20MARCH%203%20UNOFFICIAL%20RESULTS.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.crane.tx.us/ works over https (first attempts were refused by the fetch module after a robots.txt connection reset during proxy relay failures; it loaded after the retry window). Results are on page/crane.Election.Results. No Clarity or vendor link. Only Electionware county-total summary reports are posted; no precinct-level results. Last-Modified values differ per file and look like real upload times; printed footer times disagree with upload times (noted per election), but all fall on election night. 2026 runoff undetermined (check 3 pending; wayback-data branch not on origin).",
+  "tag_rationale": "The 2024 general and 2026 primary are both LATER (check 2: county totals only on election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS. Confidence med because each has a printed run time and a server upload time on election night.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 20:25 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.crane.tx.us/upload/page/1153/Summary%20Results%20Report.pdf",
+      "fact": "'2024-November 5 General Election Results' is an Electionware 'Summary Results Report UNOFFICIAL RESULTS TX Crane 241105 General 6110 November 5, 2024 Crane County' (county totals; 'Election Day Precincts Reporting 4 of 4'), footer 'Election Summary - 11/05/2024 8:32 PM'. PDF CreationDate 2024-11-06 02:19:50 UTC; Last-Modified Wed, 06 Nov 2024 02:25:34 GMT (8:25 PM CST); the printed time is a few minutes later than both, suggesting a fast tabulator clock. No 2024 general precinct-level file is posted."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:21 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.crane.tx.us/upload/page/1153/2026%20MARCH%203%20UNOFFICIAL%20RESULTS.pdf",
+      "fact": "'2026 MARCH 3 UNOFFICIAL RESULTS' is a scanned 11-page Electionware 'Summary Results Report TX CRANE 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS Crane County' (county totals; 'Election Day Precincts Reporting 4 of 4'), footer 'Election Summary - 03/03/2026 10:01 PM'. PDF CreationDate 2026-03-04 03:10:03 UTC (9:10 PM CST); Last-Modified Wed, 04 Mar 2026 03:21:00 GMT (9:21 PM CST); the printed time is about an hour ahead, suggesting the tabulator clock was on daylight time. No primary precinct-level file is posted."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Election Results page has no May 26, 2026 runoff files. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.crane.tx.us/page/crane.Election.Results",
+      "via": "fetch_module",
+      "content_hash": "baa085c33db70eed2b08b9b36bdd4cda60d58dd22dda06fa4c36317e2efb40a4",
+      "quote": "2024-November 5 General Election Results; 2026 MARCH 3 UNOFFICIAL RESULTS; PRELIMINARY ELECTION RECONCILIATION- UNOFFICIAL TOTALS",
+      "supports": "Election Results page links"
+    },
+    {
+      "url": "https://www.co.crane.tx.us/upload/page/1153/2026%20MARCH%203%20UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "64d564e64a7958a3ff2c921885017767d570bafa69d40a19aa48116a372cf4a9",
+      "quote": "Summary Results Report TX CRANE 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS ... Election Summary - 03/03/2026 10:01 PM (scanned image, read visually)",
+      "supports": "Primary county totals uploaded 2026-03-04 03:21:00 GMT"
+    },
+    {
+      "url": "https://www.co.crane.tx.us/upload/page/1153/Summary%20Results%20Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "f4d34f4572614cb771b38c013f33dd49c77d8feb85a24fe6d7812a451491cfe3",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Crane 241105 General 6110 ... Election Summary - 11/05/2024 8:32 PM",
+      "supports": "2024 county totals uploaded 2024-11-06 02:25:34 GMT"
+    }
+  ]
+}

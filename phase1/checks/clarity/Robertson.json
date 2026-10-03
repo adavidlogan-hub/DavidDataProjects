@@ -1,0 +1,232 @@
+{
+  "county": "Robertson",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122830",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "348154",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/122830/348154/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/24/2024 8:27:06 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "348161",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/122830/348161/reports/detailxml.zip",
+              "content_hash": "d5b08fdab04c2d555ef329a52b18ac3c6e4b9c5c98bf2f8c6422fbd674087b5b",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:07:09 PM CST",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 842,
+              "version": "350804",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/122830/350804/reports/detailxml.zip",
+              "content_hash": "b5d7b23669f5a6fff2b95650a04dd73bda4bdee81ec574b62da0e9a171db6c05",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:06:33 PM CST",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 1294,
+              "version": "351866",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/122830/351866/reports/detailxml.zip",
+              "content_hash": "3ac597d016881a187dfd9eeb2f2a45fbf7873db9243cb2b27a451f1eb0f33557",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/15/2024 3:42:56 PM CST",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 1407,
+              "version": "355188",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/122830/355188/reports/detailxml.zip",
+              "content_hash": "94123bfdfddcbe69ea23d96ece46f4e072bc07a29b9b900a3d8a0ef08428104d",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 2,
+          "election_night_updates_with_precinct_votes": 2,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:07:09 PM CST",
+            "version": "350804",
+            "url": "https://results.enr.clarityelections.com/TX/Robertson/122830/350804/reports/detailxml.zip"
+          },
+          "unreadable_versions": 1
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126055",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "368323",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368323/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368324",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368324/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/2/2026 2:19:03 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368326",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368326/reports/detailxml.zip",
+              "content_hash": "081c318b8dd4da773cce69d0f1eea1f9b4d0a7beb0ed5da602cf99691215276a",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/2/2026 3:58:33 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368328",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368328/reports/detailxml.zip",
+              "content_hash": "45acd00e193902b0f3b61933f4e614d90b43d96ed7ff62e6c70ac7655daee832",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:03:34 PM CST",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 2459,
+              "version": "368385",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368385/reports/detailxml.zip",
+              "content_hash": "261821a8dc3dc370dc99368a644e0709b2ecdcb5741ad28cc52d9110523d307c",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:17:27 PM CST",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 2721,
+              "version": "368428",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368428/reports/detailxml.zip",
+              "content_hash": "675c41ba2dc51aa88aea0f5584eebb1e38dd0aed5eab29f0376bb0ac582fd36f",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:59:24 PM CST",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 4099,
+              "version": "368459",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368459/reports/detailxml.zip",
+              "content_hash": "9a9ca36fa7ce67039f75d121cd31a72bc37836fb87bbe66f93f87d17925888b3",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:15:56 PM CST",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 4235,
+              "version": "368471",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368471/reports/detailxml.zip",
+              "content_hash": "e9eb286c8a4fa528973eada9458ff63a4f6ac3efc3a5de54fe9baf5405315f7b",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/11/2026 12:09:51 PM CDT",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 4368,
+              "version": "368779",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368779/reports/detailxml.zip",
+              "content_hash": "3f89d684528f0672b80127563831b87d94925502ba73dc58b7228cfbce949254",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:03:34 PM CST",
+            "version": "368385",
+            "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368385/reports/detailxml.zip"
+          },
+          "unreadable_versions": 2
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126389",
+          "name": "(EID supplied from county site link)",
+          "updates": [
+            {
+              "version": "372313",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126389/372313/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/20/2026 9:25:41 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372316",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126389/372316/reports/detailxml.zip",
+              "content_hash": "ab2f80cabd0a4ebffe40f92ce5a939a64fc6577ae647c9ca7b967c3abcf76b70",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 4:23:27 PM CDT",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 255,
+              "version": "372896",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126389/372896/reports/detailxml.zip",
+              "content_hash": "f5289dd88d3c3f9700c465331da597d390466b9fc137909e9c4e81f6f4da4701",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:50:30 PM CDT",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 283,
+              "version": "372948",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126389/372948/reports/detailxml.zip",
+              "content_hash": "b73994973c1171b5450a5d2bc7708877b0d1b103760c31fec246fe6617c1f15e",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:31:08 PM CDT",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 418,
+              "version": "372979",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126389/372979/reports/detailxml.zip",
+              "content_hash": "1064aa1cfac2d5587d5d199a32d2927849947e8c3f04fd86cb124588e031bc42",
+              "election_night": true
+            },
+            {
+              "timestamp": "6/2/2026 10:42:53 AM CDT",
+              "precincts_with_votes": 13,
+              "nonzero_precinct_vote_cells": 426,
+              "version": "373411",
+              "url": "https://results.enr.clarityelections.com/TX/Robertson/126389/373411/reports/detailxml.zip",
+              "content_hash": "8b2bc3ca76bd40544fb4954029ec973ae7a60e9f9a01d85ff3c71a6f91b809e3",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 2,
+          "election_night_updates_with_precinct_votes": 2,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 4:23:27 PM CDT",
+            "version": "372896",
+            "url": "https://results.enr.clarityelections.com/TX/Robertson/126389/372896/reports/detailxml.zip"
+          },
+          "unreadable_versions": 1
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122830",
+    "2026_primary": "126055",
+    "2026_runoff": "126389"
+  }
+}

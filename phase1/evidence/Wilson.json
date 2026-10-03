@@ -1,0 +1,86 @@
+{
+  "county": "Wilson",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.wilson.tx.us/page/wilson.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.wilson.tx.us",
+  "evidence_url": "https://www.co.wilson.tx.us/upload/page/2254/docs/Elections/11.05.24%20GENERAL/unofficial%20results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed default.aspx URL loads the home page; election content is on /page/wilson.Elections. No Clarity site (elections.json 404). Per election the page lists 'Unofficial' results, 'Official' results and a 'PCT by PCT' report. 2024 general: 'Unofficial Results' is a 5-page Epson scan of an Electionware 'Summary Results Report ... UNOFFICIAL RESULTS ... Wilson County' (county totals with Absentee, Early Voting, Election Day columns; footer 'Election Summary - 11/05/2024 9:43 PM'), CreationDate 2024-11-06 03:53:27 UTC, Last-Modified Wed, 06 Nov 2024 03:55:47 GMT (9:55 PM CST); the 'PCT by PCT' report is 'OFFICIAL RESULTS' created 2024-11-13. 2026 runoff: 'Unofficial' (img20260526_21584470.pdf) is a 3-page scan of 'Summary Results Report 2026 Rep/Dem Primary Runoff May 26, 2026 UNOFFICIAL RESULTS MAIL, EV & ED' ('Election Day Precincts Reporting 13 of 13'; footer 'Election Summary - 05/26/2026 9:47 PM'), Last-Modified Wed, 27 May 2026 03:00:07 GMT (10:00 PM CDT; the scanner's CreationDate 03:58 UTC is one hour later than the upload, so the scanner clock is off); only an 'Official' summary follows and no runoff precinct report is listed. 2026 primary: the 'Unofficial Results' summary and 'Unofficial Pct by Pct Report' were both generated 2026-03-05 (CreationDate 14:52-14:53 UTC, Last-Modified Thu, 05 Mar 2026 14:56 GMT), so the election-night posting was replaced and cannot be read. Scanned pages were read by viewing the rendered first page. Check 3 pending for the 2026 primary (origin/wayback-data branch not found).",
+  "tag_rationale": "2024 general and 2026 runoff are both LATER by check 2 (election-night uploads are county-total summaries; precinct reports come at canvass or never), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because both have a printed run time and an election-night Last-Modified.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 21:55 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.wilson.tx.us/upload/page/2254/docs/Elections/11.05.24%20GENERAL/unofficial%20results.pdf",
+      "fact": "'Summary Results Report TX Wilson County 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS Wilson County' county totals (Trump 20,881; Election Day 3,728), footer 'Election Summary - 11/05/2024 9:43 PM', Last-Modified 2024-11-06 03:55:47 GMT; precinct report 'PCT by PCT' is 'OFFICIAL RESULTS' created 2024-11-13."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Unofficial Results' summary and 'Unofficial Pct by Pct Report' both created 2026-03-05 14:52-14:53 UTC and uploaded 2026-03-05 14:56 GMT; election-night posting replaced. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 22:00 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.wilson.tx.us/upload/page/2254/docs/Elections/05.26.26%20Primary%20Runoff/img20260526_21584470.pdf",
+      "fact": "'Summary Results Report 2026 Rep/Dem Primary Runoff May 26, 2026 UNOFFICIAL RESULTS MAIL, EV & ED Wilson County, Texas', 'Election Day Precincts Reporting 13 of 13', footer 'Election Summary - 05/26/2026 9:47 PM', Last-Modified 2026-05-27 03:00:07 GMT; county totals only; no runoff precinct report posted."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.wilson.tx.us/page/wilson.Elections",
+      "via": "fetch_module",
+      "content_hash": "1786ae2fbfeb50f55d22a3c001aea2494d0485140694729f0b26ed695e57a711",
+      "quote": "Results Unofficial Official ; Unofficial Results Unofficial Pct by Pct Report Official Results Official Pct by Pct Report ; Unofficial Results Official Results PCT by PCT",
+      "supports": "report list per election"
+    },
+    {
+      "url": "https://www.co.wilson.tx.us/upload/page/2254/docs/Elections/11.05.24%20GENERAL/unofficial%20results.pdf",
+      "via": "fetch_module",
+      "content_hash": "6b2a5c25f3ec5ed6848621ed7d0ad232b4ad605d249fc655093d35aecb4d3ecb",
+      "quote": "Summary Results Report TX Wilson County 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS ... Election Summary - 11/05/2024 9:43 PM",
+      "supports": "2024_general LATER (county totals on election night)"
+    },
+    {
+      "url": "https://www.co.wilson.tx.us/upload/page/2254/docs/Elections/11.05.24%20GENERAL/Precinct%20Summary.pdf",
+      "via": "fetch_module",
+      "content_hash": "e92b3288a82371bd20e072dec974195ad092adecdec4388504966bc3f121bc50",
+      "quote": "Summary Results Report OFFICIAL RESULTS TX Wilson County 241105 General 6110 ... Box 101",
+      "supports": "2024 precinct report is official (created 2024-11-13)"
+    },
+    {
+      "url": "https://www.co.wilson.tx.us/upload/page/2254/docs/Elections/05.26.26%20Primary%20Runoff/img20260526_21584470.pdf",
+      "via": "fetch_module",
+      "content_hash": "3680ef743b7332c369f593dd32f75859072dd661e0c7c06d3dd3d9f0b90f24cf",
+      "quote": "Summary Results Report 2026 Rep/Dem Primary Runoff May 26, 2026 UNOFFICIAL RESULTS MAIL, EV & ED ... Election Summary - 05/26/2026 9:47 PM",
+      "supports": "2026_runoff LATER"
+    },
+    {
+      "url": "https://www.co.wilson.tx.us/upload/page/2254/docs/Elections/03.03.26%20Primary/PCT%20BY%20PCT.pdf",
+      "via": "fetch_module",
+      "content_hash": "2d6f85622724335ccae85d3a47564962625b970d3a0ff0a7acc76e5a204a1fe1",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election MAIL, EARLY VOTE & ELECTION DAY ... Box 101 (CreationDate 2026-03-05)",
+      "supports": "2026 primary election-night files replaced"
+    }
+  ]
+}

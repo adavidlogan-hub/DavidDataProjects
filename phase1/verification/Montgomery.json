@@ -1,0 +1,67 @@
+{
+ "county": "Montgomery",
+ "reason_selected": "tag changed to COUNTY_ONLY_PRECINCT_AT_CANVASS (low) in targeted pass",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Montgomery is not on Clarity; results are county PDFs. The archive page https://elections.mctx.org/ElectionResults.asp links only post-election files: 2024_November_Precinct_Report.pdf (printed 'Official Results', Run Time 8:44 AM, Run Date 11/18/2024; Last-Modified Tue, 18 Mar 2025 21:02:58 GMT) and 2024_November_Cumulative_Report.pdf (Last-Modified Tue, 18 Mar 2025 21:04:14 GMT). No election-night file found. Wayback and targeted archive lookups for elections.mctx.org returned robots_disallowed_or_unreachable (no captures). One web search found no election-night link."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "Election-night county-totals file: https://elections.mctx.org/pdf/PRI030326/Republican%20Cumulative%20Results-3-4-2026%2002-08-24%20AM.pdf, linked from Community Impact article 'keough-wins-montgomery-county-judge-race...' (datePublished 2026-03-04T02:24:40Z; link inside the 'Updated 6:32 a.m.' paragraph). File printed 'Cumulative Results Report ... Unofficial Results ... Precincts Reporting 121 of 121 = 100.00% ... Run Time 2:08 AM Run Date 03/04/2026'; PDF CreationDate Wed Mar 4 08:08:40 2026 UTC; server Last-Modified Wed, 04 Mar 2026 08:15:33 GMT = 2:15 AM CST, inside the election-night window. The 25-page file has county totals by Early Voting / Absentee / Election Day columns only, no per-precinct rows. The only precinct report found, results/2026_March_Republican_Precinct_Report.pdf, prints 'Official Results', Run Time 3:03 PM, Run Date 03/10/2026, Last-Modified Fri, 27 Mar 2026 22:01:15 GMT. No election-night precinct file was found; the county's live results page https://elections.mctx.org/electioninfo/eResultsMain.aspx was unreachable (proxy 502) and has no archive captures, so its election-night content could not be checked. Precinct numbers appeared after election night (canvass report)."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Only post-election files on the archive page: 2026_May_Republican_Primary_Runoff_Precinct_Report.pdf ('Official Results', Run Time 11:23 AM, Run Date 06/02/2026; Last-Modified Fri, 26 Jun 2026 13:57:04 GMT) and the Cumulative Report (Run 06/02/2026 11:23 AM; Last-Modified Fri, 26 Jun 2026 13:58:45 GMT). No election-night file found; one web search found no 2026 runoff article linking an elections.mctx.org file. Archives robots-blocked."
+  }
+ },
+ "rationale": "Per-election results: 2024_general UNDETERMINED (check none), 2026_primary LATER (check 2), 2026_runoff UNDETERMINED (check none). Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS (only one election determined, confidence low).",
+ "sources": [
+  {
+   "url": "https://elections.mctx.org/ElectionResults.asp",
+   "content_hash": "a1853989d9963b47bee4c339e13bc462162923d2cdfc703f36871dd8621d6e07",
+   "what_i_checked": "list of report files for the three elections (all post-election uploads)"
+  },
+  {
+   "url": "https://communityimpact.com/conroe-montgomery/election/keough-wins-montgomery-county-judge-race-by-1519-votes-per-unofficial-voting-results/",
+   "content_hash": "b05ebed1ba331cc8fa5e83cdec8265a2cb96c07cddb67c3c53dce7697e99f0bb",
+   "what_i_checked": "link to the election-night PRI030326 cumulative PDF; datePublished 2026-03-04T02:24:40Z"
+  },
+  {
+   "url": "https://elections.mctx.org/pdf/PRI030326/Republican%20Cumulative%20Results-3-4-2026%2002-08-24%20AM.pdf",
+   "content_hash": "19cbbd618acce840232f709bec6d3c5a6332e4933430f3657c7cddbf32402640",
+   "what_i_checked": "printed Run Time 2:08 AM 03/04/2026, Last-Modified 08:15:33 GMT, county totals only"
+  },
+  {
+   "url": "https://elections.mctx.org/results/2026_March_Republican_Precinct_Report.pdf",
+   "content_hash": "a58e610dc026db59810fc16f12fa06d8f20a9aec147b0de8c39567ca4f9e12e3",
+   "what_i_checked": "Official precinct report run 03/10/2026, uploaded 2026-03-27"
+  },
+  {
+   "url": "https://elections.mctx.org/results/2024_November_Precinct_Report.pdf",
+   "content_hash": "9c89790a1e4bc58d53c9d97ff93721cf657df31b170a7b3e75844a56d9f45f9b",
+   "what_i_checked": "Official precinct report run 11/18/2024, uploaded 2025-03-18"
+  },
+  {
+   "url": "https://elections.mctx.org/results/2026_May_Republican_Primary_Runoff_Precinct_Report.pdf",
+   "content_hash": "3241ad2553d191d97697c3ce440dcbe8dc090bb123588c05a80a35d1a6ad60c9",
+   "what_i_checked": "Official precinct report run 06/02/2026, uploaded 2026-06-26"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T20:51:12Z",
+ "notes": "Searches (4, recorded in searchlog): Community Impact 2026 primary (2), 2026 runoff (1), 2024 general (1). eResultsMain.aspx unreachable through the proxy (502), so the county's live results page could not be inspected.",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED): only post-election Official reports (precinct report run 11/18/2024, uploaded 2025-03-18); archives robots-blocked. Research's Community Impact 10:45 p.m. Nov. 5 county-totals quote (slate-of-4-candidates article) was not opened by me; it links no county file and does not change the result.",
+  "2026_primary": "same (LATER, check 2): same file, printed Run Time 2:08 AM 03/04/2026, Last-Modified 08:15:33 GMT (2:15 AM CST), county totals only; precinct report only at canvass (run 03/10/2026, uploaded 2026-03-27). Same caveat in both records: eResultsMain.aspx unreachable (proxy 502), so an election-night precinct file cannot be fully excluded. Minor: research evidence_url carries ?ts=92203 while the article I read links ?ts=92216; the file without the query string is the same (Last-Modified identical). Research county_totals_first_seen 02:08 CT is the printed run time; upload time 02:15 CT.",
+  "2026_runoff": "same (UNDETERMINED): only Official reports run 06/02/2026, uploaded 2026-06-26; no election-night file found by either.",
+  "unsupported_claims": "none found. I did not open the JP-race Community Impact article research cites for the 7:37 a.m. link; the Keough article I opened links the same PDF."
+ },
+ "compared_at_utc": "2026-10-02T20:52:12Z"
+}

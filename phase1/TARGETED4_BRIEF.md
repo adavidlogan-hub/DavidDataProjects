@@ -1,0 +1,16 @@
+# Targeted pass 4 brief (largest UNKNOWN counties, deep dive)
+
+Applies on top of phase1/CHECKLIST_BRIEF.md, phase1/TARGETED_BRIEF.md, and phase1/TARGETED3_BRIEF.md; all their rules still apply (public online sources only; never contact a county; never guess; never get around bot protection, robots.txt, or logins; rules 43, 47, and the DECISIONS 67 reading of rule 43, quoted in phase1/scratch/verify_round12_rules.md; fixed tag rule; no em dashes, en dashes, or emojis). Every request goes through the fetch module. Use your agent id on every fetch.
+
+You have two counties and a deeper budget: about 30 fetches and 6 web searches per county. Read the county's evidence file and its notes from passes 1 to 3 first, and do not repeat a recorded dead end unless you have a new way in.
+
+## New tools and leads since pass 3
+1. **POST listings.** `python3 -m txprecinct.get "<service url>" --agent <id> --purpose "..." --warmup "<page url>" --post-json '<json>'` sends a read-only POST after loading a page in the same session (cookies). Laserfiche public portals list a folder with POST `/Portal/FolderListingService.aspx/GetFolderListing2` and body `{"repoName": "<repo>", "folderId": <id>, "getNewListing": true, "start": 0, "end": 500, "sortColumn": "", "sortAscending": true}`; each entry carries created and modified dates. CivicPlus DocumentCenter and Archive Center pages may also load listings by POST from the public page; use only endpoints the public page itself calls, never /Admin pages that need a login. Read the stored body from the blob_path the command prints.
+2. **State-hosted copies.** Many older county sites are also served at newtools.cira.state.tx.us, where /upload/page/<id>/... files keep their original Last-Modified times even when the county's own copy was re-uploaded. If a county's files live under /upload/page/, request the same path on newtools.cira.state.tx.us.
+3. **WordPress upload logs** at /wp-json/wp/v2/media or /index.php?rest_route=/wp/v2/media (with after= and before=).
+4. **Archived-file sweep.** `git fetch origin wayback-data`; if phase1/targeted/sweep/<County>/index.json exists, read it (see TARGETED3_BRIEF).
+5. **Vendor ENR sites** (livevoterturnout.com and others): look for any per-election data endpoints or archived copies; a capture of Ellis's Republican primary page exists in the Wayback index at 20260304054915 (11:49 PM CST election night); if the sweep or main harvest saved it, read it.
+6. **Check 4** with more searches: local newspapers and TV stations sometimes post the county's precinct-by-precinct report on election night (as a PDF, an embedded document, or a table). Only per-precinct candidate votes with an election-night time count (cap med).
+
+## Output
+As before: update phase1/evidence/<County>.json in place, change only what new evidence decides, add sources with content hashes, recompute tag and confidence with phase1.schema, append "Targeted pass 4 2026-10-02 (<agent>): ...", validate with validate_v2, run `python3 -m phase1.check_later_times`. Do not edit other files, code, or git state. Final reply: table of county, old tag, new tag, confidence, per-election changes with check and deciding source; fetch and search counts; dead ends.

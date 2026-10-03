@@ -1,0 +1,86 @@
+{
+  "county": "Ector",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.ectorcountytx.gov/271/Elections",
+  "platform": "county_pdfs",
+  "host": "www.ectorcountytx.gov",
+  "evidence_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1093/PRECINCT-BY-PRECINCT-RESULTS-PDF",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "The seed URL (co.ector.tx.us) returns 403/404; the county site is now ectorcountytx.gov, whose Elections page (271/Elections) has one tab per election with PDF reports. No Clarity site (Clarity elections.json 404). The DocumentCenter server stamps every file with the request time (Last-Modified Fri, 02 Oct 2026 14:05 to 14:53 GMT on all files fetched), so there is no upload-time evidence; only printed run times are available. 2024 general: the only unofficial report is a county-level 'Cumulative Results Report ... Unofficial Results' with Run Time 12:22 AM, Run Date 11/06/2024; the precinct report is 'Precinct Results Report ... Official Results' with Run Date 11/13/2024 (704 pages). 2026 primary and runoff tabs list only official cumulative (county-level) reports and no unofficial or precinct report, so election-night publication cannot be read from the page. Check 3 pending (wayback-data branch not found on origin).",
+  "tag_rationale": "Only the 2024 general is determined (LATER, by check 2 printed run times); the 2026 primary and runoff are UNDETERMINED. With exactly one election determined the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-B",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 00:22 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1093/PRECINCT-BY-PRECINCT-RESULTS-PDF",
+      "fact": "Nov 5, 2024 tab: 'UNOFFICIAL VOTING TOTALS (PDF)' = 'Cumulative Results Report ECTOR COUNTY, TEXAS Unofficial Results ... ENR 11.05.2024 ... Precincts Reporting 55 of 55 = 100.00% Run Time 12:22 AM ... Run Date 11/06/2024' (county totals). 'PRECINCT BY PRECINCT RESULTS (PDF)' = 'Precinct Results Report ... Official Results ... Run Time 1:00 PM ... Run Date 11/13/2024'. Precinct numbers came after election night. No server upload time (server stamps request time)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "March 3, 2026 tab lists 'Official results for the joint primary election (PDF)' = 'Cumulative Results Report ... Official Results ... Run Time 9:04 AM ... Run Date 03/10/2026' (county-level) plus reconciliation and turnout PDFs; no unofficial or precinct results report, so election-night publication is unknown. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "May 26, 2026 tab lists 'CUMULATIVE FINAL RESULTS' (Democratic: 'Official Results ... Run Time 9:40AM ... Run Date 06/02/2026'; Republican: county-level cumulative, run date not legible in text layer); no unofficial or precinct report. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.ectorcountytx.gov/271/Elections",
+      "via": "fetch_module",
+      "content_hash": "5b2b493ad85ee6731c110cd44a1155ed9d35c899ee187847fcb561589fe0802e",
+      "quote": "November 5,2024 General Election ... [OFFICIAL CUMULATIVE RESULTS (PDF)] ... [PRECINCT BY PRECINCT RESULTS (PDF)] ... [UNOFFICIAL VOTING TOTALS (PDF)]",
+      "supports": "Report list per election"
+    },
+    {
+      "url": "https://www.ectorcountytx.gov/DocumentCenter/View/1095/UNOFFICIAL-VOTING-TOTALS-PDF",
+      "via": "fetch_module",
+      "content_hash": "f3e4272ea4f0892b02e40d7898462355455f15764d5044016e5f53936b190af6",
+      "quote": "Cumulative Results Report ECTOR COUNTY, TEXAS Unofficial Results ... Run Time 12:22 AM 11/5/2024 Run Date 11/06/2024",
+      "supports": "2024 election-night county totals report"
+    },
+    {
+      "url": "https://www.ectorcountytx.gov/DocumentCenter/View/1093/PRECINCT-BY-PRECINCT-RESULTS-PDF",
+      "via": "fetch_module",
+      "content_hash": "81da899cc779d0d6ea69efdfa768e27930bf926e3aa2ca7ccee1e1c0834b0334",
+      "quote": "Precinct Results Report Official Results ECTOR COUNTY, TEXAS ... Run Time 1:00 PM 11/5/2024 Run Date 11/13/2024",
+      "supports": "2024 precinct numbers dated after election night"
+    },
+    {
+      "url": "https://www.ectorcountytx.gov/DocumentCenter/View/836/Official-results-for-the-joint-primary-election-PDF",
+      "via": "fetch_module",
+      "content_hash": "0190c55a956eda39ae5e4789ddd67d78414e37359c727fa0aa605b8ad7c7b83a",
+      "quote": "Cumulative Results Report Ector County, Texas Official Results Joint Primary Election ... Run Time 9:04 AM 3/3/2026 Run Date 03/10/2026",
+      "supports": "2026 primary only official county-level report"
+    },
+    {
+      "url": "https://www.ectorcountytx.gov/DocumentCenter/View/2379/CUMULATIVE-FINAL-RESULTS-DEMOCRATIC-PARTY-PDF",
+      "via": "fetch_module",
+      "content_hash": "2aff479b00604abbe379eb13e5378e9fb82cb747bc3fe72b99027e4ed9b3493d",
+      "quote": "Official Results Joint Primary Runoff Election ... Run Time 9:40AM 5/26/2026 Run Date 06/02/2026",
+      "supports": "2026 runoff only official county-level report"
+    }
+  ]
+}

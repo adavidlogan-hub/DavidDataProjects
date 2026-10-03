@@ -1,0 +1,72 @@
+{
+  "county": "Rockwall",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 122491 (Rockwall elections.json). Opened v350765 (Timestamp 11/5/2024 7:00:25 PM CST, Region Rockwall): precinct votes under EARLY VOTING only (e.g. precinct 1). Opened v351523 (8:30:38 PM CST): President/Vice President, REP Donald J. Trump/JD Vance, VoteType ELECTION DAY votes=679, <Precinct name=\"1\" votes=\"4\" />. 6 of 7 night updates with ED precinct votes (5 distinct releases, 8:30 PM to 11:42 PM)."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 126010. Opened v368390 (3/3/2026 7:00:55 PM CST): early-only precinct votes. Opened v368427 (8:15:05 PM CST): REP US Senator, Sara Canady, ELECTION DAY votes=6, <Precinct name=\"1C\" votes=\"1\" />. 6 of 7 night updates with ED precinct votes (8:15 PM to 9:55 PM)."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 126371. Opened v372926 (5/26/2026 7:00:04 PM CDT): early-only. Opened v372944 (7:37:55 PM CDT): REP US Senator, Ken Paxton, ELECTION DAY votes=1435, <Precinct name=\"1\" votes=\"144\" />. 3 of 4 night updates with ED precinct votes (7:37, 8:07, 8:22 PM), sums 12733, 16877, 21916."
+    }
+  },
+  "rationale": "LIVE in all three elections from check 1. LIVE_PRECINCT, high.",
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/350765/reports/detailxml.zip",
+      "content_hash": "bd82bd9bdc28277bf4de640bda4656cf9fa3d4a3d77de974f98650b6395255e7",
+      "what_i_checked": "2024 7:00 PM early-only"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/351523/reports/detailxml.zip",
+      "content_hash": "b1b91c18866d920443d5065fc77b2f96e672e67c29a029f73108e0fe86750c33",
+      "what_i_checked": "2024 8:30 PM ED precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368390/reports/detailxml.zip",
+      "content_hash": "a925ad25e7e12f21b556965f385632e20fb9d16bdf3f0f0b4f7de5e8a0c31e6c",
+      "what_i_checked": "primary 7:00 PM early-only"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368427/reports/detailxml.zip",
+      "content_hash": "a9d8c4cf44b1faad692ad4624e2af7856f722500b260abe57cadda0291cb5642",
+      "what_i_checked": "primary 8:15 PM ED precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372926/reports/detailxml.zip",
+      "content_hash": "3543f75a788be5fa2e849780c555a43e2bbfb2680ab904d6502b1d2592e93739",
+      "what_i_checked": "runoff 7:00 PM early-only"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372944/reports/detailxml.zip",
+      "content_hash": "aa74a24e751824ec7cf2994f9fa5530a03d57f7cc712a3710f362e13d389558a",
+      "what_i_checked": "runoff 7:37 PM ED precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Rockwall/elections.json",
+      "content_hash": "00821cd6daee76d48c41aee0748874f7ab442bae1428e507fb3c7fec86869505",
+      "what_i_checked": "lists all three target elections"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:18:41Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LIVE, check 1). The 7:00 PM update research counts is early-only in my reading. Result unchanged.",
+    "2026_primary": "same (LIVE, check 1).",
+    "2026_runoff": "same (LIVE, check 1).",
+    "rule_43": "rule 43 re-applied: no per-election result changed"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+}

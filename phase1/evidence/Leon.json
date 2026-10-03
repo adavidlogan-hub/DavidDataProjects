@@ -1,0 +1,79 @@
+{
+  "county": "Leon",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.leon.tx.us/page/leon.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.leon.tx.us",
+  "evidence_url": "https://www.co.leon.tx.us/upload/page/4964/docs/110524%20GENERAL/110524%20UNOFFICIAL%20PCT%20BY%20PCT.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 21:42 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL loads (CIRA page). No Clarity site (elections.json 404). Results are scanned Electionware reports; the 2024 precinct report has an OCR text layer, the 2026 primary summary was read visually. Last-Modified differs per file (meaningful). Printed footer times run later than PDF creation and upload times (2024: printed 10:06 PM vs upload 9:42 PM), so the printing machine clock is not reliable. 2024 general had an unofficial precinct-by-precinct report on election night (END); in 2026 the county posted only a county summary (primary, 4:01 AM next morning) or nothing unofficial (runoff), with precinct numbers only in official canvass reports. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED. Rule 43 applied 2026-10-02 (normalize-4): 2026_primary LATER kept, county_totals_first_seen 2026-03-04 00:15 CT. Rule 47 applied 2026-10-02 (normalize-47): none. Targeted pass 3 2026-10-02 (targeted3-E): no change. Re-listed the Elections page: for the 2026 runoff only '05/26/26 Official Precinct Report-Group Detail' (prefix 062226), '05/26/26 Canvass Totals', a 'PRELIMINARY ELECTION RECONCILIATION UNOFFICIAL TOTALS' form (ballot counts, not candidate totals, so not a county-totals results file under rule 43), voter lists and notices; no unofficial runoff results file. Wayback harvest of co.leon.tx.us found no election-night captures. Sweep: no folder. 2026_runoff stays UNDETERMINED; tag stays UNKNOWN (2024_general END, 2026_primary LATER).",
+  "tag_rationale": "Results: 2024_general END, 2026_primary LATER, 2026_runoff UNDETERMINED. No result is shared by two elections and more than one election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.) Rule 47 checked 2026-10-02: no change.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 21:06 CT",
+      "precinct_first_seen": "2024-11-05 21:42 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.leon.tx.us/upload/page/4964/docs/110524%20GENERAL/110524%20UNOFFICIAL%20PCT%20BY%20PCT.pdf",
+      "fact": "'LEON COUNTY UNOFFICIAL PRECINCT BY PRECINCT REPORT' (110524 UNOFFICIAL PCT BY PCT.pdf, 42 pages, OCR text): 'Summary Results Report UNOFFICIAL RESULTS 11/05/24 General Election w/BISD & OISD ... Pct #1 - Centerville ... TOTAL Absentee Early Voting Election Day ... Precinct Summary - 11/05/2024 10:06 PM'; per-precinct candidate votes including Election Day. PDF CreationDate Wed Nov 6 03:21:33 2024 UTC; Last-Modified Wed, 06 Nov 2024 03:42:06 GMT (9:42 PM CST Nov 5). County summary 'UNOFFICIAL FINAL ALL PRECINCTS' Last-Modified 03:06:28 GMT (9:06 PM CST). One precinct report on election night, with the final unofficial count. Rule 47: publication shown by upload time 2024-11-05 21:42 CT in 110524 UNOFFICIAL PCT BY PCT.pdf."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 00:15 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.leon.tx.us/upload/page/4964/docs/JOINT%20PRIMARY%20UNOFFICIAL%20RESULTS/030326%20JOINT%20PRIMARY%20UNOFFICIAL%20RESULTS%200001.pdf",
+      "fact": "'LEON COUNTY UNOFFICIAL TOTALS' (030326 JOINT PRIMARY UNOFFICIAL RESULTS 0001.pdf, scanned, read visually): 'Election Summary Results Report 2026 Primary Election March 3, 2026 ... UNOFFICIAL RESULTS Leon County, Texas ... Election Day Precincts Reporting 14 of 14'; county totals; footer 'Election Summary - 03/04/2026 12:15'. CreationDate Wed Mar 4 09:59:23 2026 UTC; Last-Modified Wed, 04 Mar 2026 10:01:27 GMT (4:01 AM CST Mar 4). No unofficial precinct report listed; precinct numbers only in 'Official Canvass of Election Precinct by Precinct Results'. Rule 43: county totals first seen 2026-03-04 00:15 CT in 030326 JOINT PRIMARY UNOFFICIAL RESULTS 0001.pdf (printed footer 'Election Summary - 03/04/2026 12:15 PM'; the server received the scan at 04:01 AM CST Mar 4, so the printed 12:15 on Mar 4 can only be 12:15 AM; no unofficial precinct report listed)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.leon.tx.us/upload/page/4964/docs/RUNOFF%20JPOINT%20PRIMARY%20MAY%2026th%202026/062226%20OFFICIAL%20PRECINCT%20TOTALS%20TOTALS%20FOR%20JOINT%20PRIMARY%20RUNOFF%20ELECTION0001.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: Runoff results listed are only '05/26/26 Official Precinct Report-Group Detail' (file prefix 062226), '05/26/26 Canvass Totals for Joint Primary Run-Off Election', and a preliminary reconciliation; no unofficial or election-night results file is listed. Precinct numbers appear only in the official (canvass) report."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.leon.tx.us/page/leon.Elections",
+      "via": "fetch_module",
+      "content_hash": "db4f31acabbfb918e01e1a2ed67d330b6ec8dbd115a2d1ee547ae78cce2d0dd0",
+      "quote": "LEON COUNTY UNOFFICIAL PRECINCT BY PRECINCT REPORT | 110524 UNOFFICIAL PCT BY PCT.pdf ; LEON COUNTY UNOFFICIAL TOTALS | 030326 JOINT PRIMARY UNOFFICIAL RESULTS ; 05/26/26 Official Precinct Report-Group Detail | 062226 OFFICIAL PRECINCT TOTALS",
+      "supports": "report lists for all three elections"
+    },
+    {
+      "url": "https://www.co.leon.tx.us/upload/page/4964/docs/110524%20GENERAL/110524%20UNOFFICIAL%20PCT%20BY%20PCT.pdf",
+      "via": "fetch_module",
+      "content_hash": "ddc68224ce499501567977da9c963cb89c0861f0e1582ac7317424419119af6e",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS 11/05/24 General Election ... Pct #1 - Centerville ... Precinct Summary - 11/05/2024 10:06 PM",
+      "supports": "2024 precinct numbers with election-day votes on election night (Last-Modified 06 Nov 2024 03:42:06 GMT)"
+    },
+    {
+      "url": "https://www.co.leon.tx.us/upload/page/4964/docs/110524%20GENERAL/110524%20LEON%20COUNTY%20TX%20UNOFFICIAL%20FINAL%20ALL%20PRECINCTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "b49e41d9e0255c4f2e2a30f0be52ede3da29cf74b6f8781f60cf972f1738b829",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS ... Ballots Cast - Total 9,090",
+      "supports": "2024 county summary uploaded 9:06 PM CST"
+    },
+    {
+      "url": "https://www.co.leon.tx.us/upload/page/4964/docs/JOINT%20PRIMARY%20UNOFFICIAL%20RESULTS/030326%20JOINT%20PRIMARY%20UNOFFICIAL%20RESULTS%200001.pdf",
+      "via": "fetch_module",
+      "content_hash": "b14557e3629247a520d4956795fd1fe9a0ca55a7813db388a3cc44d79f71d6b2",
+      "quote": "Election Summary Results Report 2026 Primary Election ... UNOFFICIAL RESULTS ... Election Day Precincts Reporting 14 of 14",
+      "supports": "2026_primary county totals only, uploaded 4:01 AM CST Mar 4"
+    }
+  ]
+}

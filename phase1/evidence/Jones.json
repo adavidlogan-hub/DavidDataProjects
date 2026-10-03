@@ -1,0 +1,93 @@
+{
+  "county": "Jones",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.jones.tx.us/page/jones.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.jones.tx.us",
+  "evidence_url": "https://www.co.jones.tx.us/upload/page/1299/5.26.2026%20Unoffical%20Election%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed default.aspx URL replaced by https://www.co.jones.tx.us/. No Clarity link. The county homepage still carries 'ELECTION RESULTS - Unofficial Election Results from the May 26, 2026 Primary Runoff Election' (Electionware 'Grand Total UNOFFICIAL RESULTS', county totals, footer 'Election Summary - 05/26/2026 7:59 PM', Last-Modified Wed, 27 May 2026 01:26:38 GMT = 8:26 PM CDT). The Elections page lists per election a 'Grand Total' and a 'Precinct by Precinct' file; the precinct files checked are all official and post-canvass: runoff 'Precinct by Precinct OFFICIAL RESULTS' ('Precinct Summary - 05/28/2026 5:14 PM', Last-Modified Thu, 04 Jun 2026 18:01:29 GMT); 2026 primary 'Pct by Pct Results OFFICIAL RESULTS' (CreationDate 2026-03-06, Last-Modified Fri, 13 Mar 2026 16:36:12 GMT); 2024 general precinct file is a scan dated 2024-11-13 (Last-Modified Wed, 13 Nov 2024 15:51:33 GMT). For the 2024 general and 2026 primary no election-night file survives. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER: unofficial county totals on election night, precinct numbers only in the official file), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low as the rule requires for one determined election.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.co.jones.tx.us/",
+      "via": "fetch_module",
+      "content_hash": "2043d4eecf4ddd8c5af8f542311674780bd0eac2e69201ea6ad46898f31e9926",
+      "quote": "ELECTION RESULTS - Unofficial Election Results from the May 26, 2026 Primary Runoff Electi(on)",
+      "supports": "Runoff night results posted on the county homepage"
+    },
+    {
+      "url": "https://www.co.jones.tx.us/page/jones.Elections",
+      "via": "fetch_module",
+      "content_hash": "b9ddf4f579a2929004eb0270ebf8f43ab4bafa2a9dbe2cac4778673cb4a5ed51",
+      "quote": "2026 Joint Primary Runoff Election Results - Grand Total | 2026 Joint Primary Runoff Election Results - Precinct by Precinct | 2024 General Election Results - Precinct by Precinct",
+      "supports": "Results files listed per election"
+    },
+    {
+      "url": "https://www.co.jones.tx.us/upload/page/1299/5.26.2026%20Unoffical%20Election%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "9dcc53ebea93ba97e2301eea7fcde7ffc7ad92f8ec688f8acaf9bedda8643131",
+      "quote": "Grand Total UNOFFICIAL RESULTS Joint Primary Runoff Election ... Election Summary - 05/26/2026 7:59 PM",
+      "supports": "Runoff county totals on election night"
+    },
+    {
+      "url": "https://www.co.jones.tx.us/upload/page/1293/2026/Results%20-%20Pct%20by%20Pct%20-%20May%2026%202026%20Primary%20Runoff%20Election.pdf",
+      "via": "fetch_module",
+      "content_hash": "7cebd3870bf24435d2c35a623244b582a90ab4c154763409f18d5da5b76b8d80",
+      "quote": "Precinct by Precinct OFFICIAL RESULTS 2026 Joint Primary Runoff ... Precinct Summary - 05/28/2026 5:14 PM",
+      "supports": "Runoff precinct numbers posted after canvass"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1293/2026/3.3.2026%20Pct%20By%20Pct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "5226d7c039b33c865808e89db02ea1722e3cec5c6e0cc8292f79c69e99134611",
+      "quote": "Pct by Pct Results OFFICIAL RESULTS Joint Primary Election March 3, 2026",
+      "supports": "Primary precinct file is official"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1293/2024/Results%20-%20Precinct%20by%20Precinct%20-%20November%205_%202024%20General%20Election.pdf",
+      "via": "fetch_module",
+      "content_hash": "bc1d845028b12940b8a62e364859eff84dfa1e78147dd078348357b38ae5a4ce",
+      "quote": "KM_284e-20241113095853 (scan, Last-Modified Wed, 13 Nov 2024 15:51:33 GMT)",
+      "supports": "2024 precinct file is a post-canvass scan"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only '2024 General Election Results - Grand Total' and '- Precinct by Precinct' (a scan dated 2024-11-13, Last-Modified Wed, 13 Nov 2024 15:51:33 GMT) are posted; no election-night file survives. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'2026 Joint Primary Election Results - Precinct by Precinct' is 'Pct by Pct Results OFFICIAL RESULTS' (CreationDate 2026-03-06, Last-Modified Fri, 13 Mar 2026 16:36:12 GMT); no election-night file survives. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:26 CT",
+      "precinct_first_seen": "2026-06-04 13:01 CT (official, upload)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.jones.tx.us/upload/page/1299/5.26.2026%20Unoffical%20Election%20Results.pdf",
+      "fact": "'Grand Total UNOFFICIAL RESULTS Joint Primary Runoff Election Jones County May 26, 2026 ... Ballots Cast - Total 1,944 122 686 1,136' (county totals); footer 'Election Summary - 05/26/2026 7:59 PM'; Last-Modified Wed, 27 May 2026 01:26:38 GMT. Precinct numbers appear only in 'Precinct by Precinct OFFICIAL RESULTS 2026 Joint Primary Runoff' ('Precinct Summary - 05/28/2026 5:14 PM', Last-Modified Thu, 04 Jun 2026 18:01:29 GMT)."
+    }
+  }
+}

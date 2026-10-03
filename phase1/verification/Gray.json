@@ -1,0 +1,61 @@
+{
+  "county": "Gray",
+  "reason_selected": "low confidence (after rule 43 normalization)",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Archived Election Information, 'November 5, 2024 Election Information': 'Election Results' (FINAL RESULTS.pdf) CreationDate Nov 7 2024 14:06 UTC, Last-Modified Thu 07 Nov 2024 14:08:18 GMT; 'Precinct 1 Results' ... 'Precinct 7 Results' (e.g. Precinct 1.pdf, Last-Modified Thu 21 Nov 2024 13:29:01 GMT). All after election night; no election-night file. No Clarity link (only an SOS 'Statewide Election Results' link). check 3 unavailable (no Gray folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'March 3, 2026 Primary Election Information' lists 'Republican Cumulative -3-9-2026 09-12-46 AM.pdf', 'Republican Precinct Results 3.9.26.pdf', 'Democratic Cumulative -3-9-2026 09-13-11 AM.pdf', 'Both Parties Cumulative Results-3-9-2026 09-14-23 AM.pdf' and reconciliations: all dated Mar 9 by file name. No election-night file survives."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'5.26.2026 Unofficial Final Cumulative Results-5-26-2026.pdf' ('Unofficial Cumulative Results'): Cumulative Results Report, county totals, 'Run Time 8:06 PM ... Run Date 05/26/2026', CreationDate May 27 01:06 UTC, Last-Modified Wed 27 May 2026 01:15:52 GMT (8:15 PM CDT). 'Precinct By Precinct  Results-5-26-2026.pdf': Precinct Results Report Unofficial, 'Run Time 1:56 PM ... Run Date 05/27/2026', Last-Modified Fri 29 May 2026 16:44:16 GMT. County totals on the night, precinct numbers days later."
+    }
+  },
+  "rationale": "Only the runoff is determined (LATER: county totals printed 8:06 PM and uploaded 8:15 PM CDT on election night, precinct report run 05/27 and uploaded 05/29). One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low.",
+  "sources": [
+    {
+      "url": "https://www.co.gray.tx.us/page/gray.Elections",
+      "content_hash": "1a794d8a00bd54972553fe0d8d3eb14c831172230b9cafbf37a6c3f175ceefa2",
+      "what_i_checked": "runoff and primary file lists"
+    },
+    {
+      "url": "https://www.co.gray.tx.us/upload/page/2023/5.26.2026%20Unofficial%20Final%20Cumulative%20Results-5-26-2026.pdf",
+      "content_hash": "3fdb0c80bffb37b85437ae2c77935c16115dd80c1d5649a8e2d31ed82c6507a7",
+      "what_i_checked": "runoff county totals run 8:06 PM, uploaded 01:15:52 GMT"
+    },
+    {
+      "url": "https://www.co.gray.tx.us/upload/page/2023/Precinct%20By%20Precinct%20%20Results-5-26-2026.pdf",
+      "content_hash": "8ab45e2b65c1227b72ce5189b8ff1112d3143fa6087772ce0d223c8edbd712ca",
+      "what_i_checked": "runoff precinct report run 05/27, uploaded 05/29"
+    },
+    {
+      "url": "https://www.co.gray.tx.us/page/gray.Archived.Elections",
+      "content_hash": "0d17cb062fdabd15cf475fe0fe01743e36e2c54f41dfb5a0118a08b",
+      "what_i_checked": "2024 general file list (hash prefix shown)"
+    },
+    {
+      "url": "https://www.co.gray.tx.us/upload/page/2023/FINAL%20RESULTS.pdf",
+      "content_hash": "9fcdb4eb604b6a36d445b1ace98d4fd59715d2381805cf1beb65833bc7976015",
+      "what_i_checked": "2024 results uploaded Nov 7 2024"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:48:01Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED): FINAL RESULTS.pdf uploaded Nov 7 2024 14:08 GMT; precinct files Nov 21.",
+    "2026_primary": "same (UNDETERMINED): all primary files dated Mar 9 2026.",
+    "2026_runoff": "same (LATER, check 2): county totals uploaded 01:15:52 GMT May 27 (8:15 PM CDT); precinct report run 05/27, uploaded 05/29.",
+    "unsupported_claims": "none found"
+  },
+  "compared_at_utc": "2026-10-02T16:48:06Z"
+}

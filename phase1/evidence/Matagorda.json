@@ -1,0 +1,86 @@
+{
+  "county": "Matagorda",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.matagorda.tx.us/page/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.matagorda.tx.us",
+  "evidence_url": "https://www.co.matagorda.tx.us/upload/page/0087/Cumulative%20Results-5-26-2026%2008-21-46%20PM.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL redirects to www.matagordatx.gov (files also served there). No Clarity site (elections.json 404). Reports are Microsoft Reporting Services text PDFs with printed Run Time. The county produced an election-night unofficial precinct report for the 2026 primary, but the copy online was uploaded 27 Mar 2026, so the primary is left UNDETERMINED for check 3. Runoff: county cumulative only on election night. 2024 general: only official reports (15 Nov 2024) are listed. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.matagorda.tx.us/upload/page/0087/Precinct%20Results-11-15-2024%2004-33-31%20PM.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: Past Elections page lists for the 2024 general 'Cumulative Results -' (Cumulative Results-11-15-2024 04-32-48 PM.pdf) and 'Precinct Report - Official' (Precinct Results-11-15-2024 04-33-31 PM.pdf), both run 15 Nov 2024. The adjacent 'Cumulative Results - Unofficial' (Cumulative Results.pdf) is the May 4, 2024 election ('Election Night 05-04-2024 ... Run Time 8:09 PM', Last-Modified Sun, 05 May 2024 01:24:02 GMT), not the general. No election-night 2024 general file is listed; precinct numbers appear online with the official report."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending. 'Precinct Report - unofficial' (2026 Primary - precinct report.pdf, 360 pages): 'Precinct Results Report Unofficial Results MATAGORDA COUNTY, TEXAS Election Night 3/3/26 PRIMARY ELECTION ... Precincts Reporting 18 of 18 ... Run Time 9:03 PM Run Date 03/03/2026' with Election Day Voting per precinct (PDF ModDate Wed Mar 4 03:52:08 2026 UTC = 9:52 PM CST). But its Last-Modified is Fri, 27 Mar 2026 15:34:31 GMT, so when it was first posted online is not shown; the report was produced on election night but an election-night upload is not proven."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:31 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.matagorda.tx.us/upload/page/0087/Cumulative%20Results-5-26-2026%2008-21-46%20PM.pdf",
+      "fact": "'Cumulative Results (unofficial)' (Cumulative Results-5-26-2026 08-21-46 PM.pdf): 'Cumulative Results Report MATAGORDA COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION ELECTION NIGHT MAY 26, 2026 ... Precincts Reporting 18 of 18 ... Run Time 8:19 PM'; county totals. Last-Modified Wed, 27 May 2026 01:31:11 GMT (8:31 PM CDT). Runoff files listed: this cumulative and the hand count audit; no precinct report."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.matagorda.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "540c804708e3f1406817275cba8aa665c135cb050f5b68dea5d754f826d28362",
+      "quote": "Cumulative Results (unofficial) | Cumulative Results-5-26-2026 08-21-46 PM.pdf ; Precinct Report - unofficial | 2026 Primary - precinct report.pdf",
+      "supports": "2026 report lists"
+    },
+    {
+      "url": "https://www.co.matagorda.tx.us/page/PastElections",
+      "via": "fetch_module",
+      "content_hash": "58e401e71479aa7c0e9d11a916a4293a4b65df3d9dfcfbdfdd430783b77f9f87",
+      "quote": "Cumulative Results - | Cumulative Results-11-15-2024 04-32-48 PM.pdf ; Precinct Report - Official | Precinct Results-11-15-2024 04-33-31 PM.pdf",
+      "supports": "2024 report list"
+    },
+    {
+      "url": "https://www.co.matagorda.tx.us/upload/page/0087/Cumulative%20Results-5-26-2026%2008-21-46%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "00766754a712fddfec87e9865c106eaa7dcb1bc09db4a7aa92cb4979e6803160",
+      "quote": "Cumulative Results Report ... PRIMARY RUNOFF ELECTION ELECTION NIGHT MAY 26, 2026 ... Run Time 8:19 PM",
+      "supports": "2026_runoff county totals on election night"
+    },
+    {
+      "url": "https://www.co.matagorda.tx.us/upload/page/0087/2026/2026%20Primary%20-%20precinct%20report.pdf",
+      "via": "fetch_module",
+      "content_hash": "7732f069bc6575ea45ebdebfcf2de7e60df7fc3d6696c4f8ee006e1512c9162c",
+      "quote": "Precinct Results Report Unofficial Results ... Election Night 3/3/26 ... Run Time 9:03 PM",
+      "supports": "2026_primary precinct report produced on election night; upload time not shown"
+    },
+    {
+      "url": "https://www.co.matagorda.tx.us/upload/page/0087/Cumulative%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "8110ce7375a108c1c05f9bb34a2dc89014942af83e01a2e2b042737e71f816db",
+      "quote": "Cumulative Results Report ... GENERAL ELECTION Election Night 05-04-2024",
+      "supports": "the unofficial cumulative near the 2024 general entry is the May 2024 election"
+    }
+  ]
+}

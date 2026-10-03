@@ -1,0 +1,79 @@
+{
+  "county": "Houston",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.houston.tx.us/page/houston.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.houston.tx.us",
+  "evidence_url": "https://www.co.houston.tx.us/upload/page/2956/2024%20Nov/UnOfficial%20PCT%20x%20PCT%2011-5-24.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 23:12 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed default.aspx URL replaced by https://www.co.houston.tx.us/page/houston.Elections. No Clarity link; for each election the page posts an unofficial 'Election Total' and an unofficial 'Precinct by Precinct' PDF (signed, scanned Electionware Precinct Summary reports, no text layer; read visually), then official versions. Unofficial precinct files: 2024 general 'UnOfficial PCT x PCT 11-5-24' (84 pages, 'Precinct Summary - 11/05/2024 10:13 PM', Last-Modified Wed, 06 Nov 2024 05:12:31 GMT = 11:12 PM CST); 2026 primary 'Unofficial Pct x Pct Results' (421 pages, 'Precinct Summary - 03/03/2026 10:43 PM', Last-Modified Wed, 04 Mar 2026 05:59:38 GMT = 11:59 PM CST); 2026 runoff 'Unofficial PCT x PCT' (63 pages, 'Precinct Summary - 05/26/2026 8:21 PM', Last-Modified Wed, 27 May 2026 03:12:38 GMT = 10:12 PM CDT). Only one unofficial precinct file per election is posted, so this is one night posting each. Check 3 pending (wayback-data branch not on origin). Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "All three elections are END (one election-night precinct report with election-day votes), so the tag is PRECINCT_END_OF_NIGHT; confidence med because each was settled by check 2 with a printed run time and a Last-Modified time on election night. Rule 47 checked 2026-10-02: no change.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.co.houston.tx.us/page/houston.Elections",
+      "via": "fetch_module",
+      "content_hash": "8ff1d264ebf4b1ac85a68b1381e5e14c6240d26c77bce1fd0fab979d65fa3479",
+      "quote": "Election Total | Precinct by Precinct (2026 PRIMARY/Unofficial Pct x Pct Results.pdf; 2026 P-Runoff/Unofficial PCT x PCT.pdf; 2024 Nov/UnOfficial PCT x PCT 11-5-24.pdf)",
+      "supports": "Unofficial precinct reports listed per election"
+    },
+    {
+      "url": "https://www.co.houston.tx.us/upload/page/2956/2024%20Nov/UnOfficial%20PCT%20x%20PCT%2011-5-24.pdf",
+      "via": "fetch_module",
+      "content_hash": "0dc402f401ce6dd45cecc7c51afbaa2d5729f71980c3a4a944a9edfbc16a1b25",
+      "quote": "TX Houston 241105 General 6110 ... UNOFFICIAL RESULTS ... Precinct Summary - 11/05/2024 10:13 PM",
+      "supports": "2024 general precinct numbers on election night"
+    },
+    {
+      "url": "https://www.co.houston.tx.us/upload/page/2956/2026%20PRIMARY/Unofficial%20Pct%20x%20Pct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "55c744ae84d8174c6eff1b43261c6b473fd95801242734b233de05f9816d0224",
+      "quote": "2026 Joint Primary Election ... UNOFFICIAL RESULTS PCT X PCT ... Precinct Summary - 03/03/2026 10:43 PM",
+      "supports": "2026 primary precinct numbers on election night"
+    },
+    {
+      "url": "https://www.co.houston.tx.us/upload/page/2956/2026%20P-Runoff/Unofficial%20PCT%20x%20PCT.pdf",
+      "via": "fetch_module",
+      "content_hash": "65ff4c865e34a81e67e0859a0beb2f403604faf164cdd9e9626cf0a7c135799e",
+      "quote": "TX Houston County 260526 Joint Primary Runoff ... UNOFFICIAL RESULTS PCT X PCT ... Precinct Summary - 05/26/2026 8:21 PM",
+      "supports": "2026 runoff precinct numbers on election night"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-05 23:12 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.houston.tx.us/upload/page/2956/2024%20Nov/UnOfficial%20PCT%20x%20PCT%2011-5-24.pdf",
+      "fact": "'Summary Results Report TX Houston 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS Houston ... 1 ... REP Donald J. Trump/JD Vance 460 18 373 69' (Absentee, Early Voting, Election Day per precinct); footer 'Precinct Summary - 11/05/2024 10:13 PM'; Last-Modified Wed, 06 Nov 2024 05:12:31 GMT. Rule 47: publication shown by upload time 2024-11-05 23:12 CT in UnOfficial PCT x PCT 11-5-24.pdf."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-03 23:59 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.houston.tx.us/upload/page/2956/2026%20PRIMARY/Unofficial%20Pct%20x%20Pct%20Results.pdf",
+      "fact": "'Summary Results Report 2026 Joint Primary Election March 3, 2026 UNOFFICIAL RESULTS PCT X PCT Houston County ... 1 ... Greg Abbott 189 3 135 51'; footer 'Precinct Summary - 03/03/2026 10:43 PM'; Last-Modified Wed, 04 Mar 2026 05:59:38 GMT. Rule 47: publication shown by upload time 2026-03-03 23:59 CT in Unofficial Pct x Pct Results.pdf."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-26 22:12 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.houston.tx.us/upload/page/2956/2026%20P-Runoff/Unofficial%20PCT%20x%20PCT.pdf",
+      "fact": "'Summary Results Report TX Houston County 260526 Joint Primary Runoff Election 6110 May 26, 2026 UNOFFICIAL RESULTS PCT X PCT ... Precinct 1 ... Ken Paxton 74 4 47 23'; footer 'Precinct Summary - 05/26/2026 8:21 PM'; Last-Modified Wed, 27 May 2026 03:12:38 GMT. Rule 47: publication shown by upload time 2026-05-26 22:12 CT in Unofficial PCT x PCT.pdf."
+    }
+  }
+}

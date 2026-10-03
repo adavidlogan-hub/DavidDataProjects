@@ -1,0 +1,79 @@
+{
+  "county": "McCulloch",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.mcculloch.tx.us/page/mcculloch.ElectionInfo",
+  "platform": "county_pdfs",
+  "host": "www.co.mcculloch.tx.us",
+  "evidence_url": "https://www.co.mcculloch.tx.us/upload/page/0654/2026%20Primary%20runoff/REPUBLICAN%20UNOFFICIAL%20RESULTS.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed https://www.co.mcculloch.tx.us/ loads; ELECTION INFO page lists results (some files on newtools.cira.state.tx.us). No Clarity site (elections.json 404). Only county cumulative reports are posted for the three elections, each uploaded the morning or day after election night (Last-Modified differs per file). No precinct reports for any target election (the county did post a precinct report for the March 2022 primary). Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER kept, county_totals_first_seen 2024-11-05 21:03 CT; 2026_primary LATER to UNDETERMINED; 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 20:28 CT. 2026_primary: the only primary file is 'Cumulative Results-3-4-2026 08-15-34 AM' (printed Run Time 8:15 AM, CreationDate Mar 4 14:15 UTC), after election night.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 21:03 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.mcculloch.tx.us/upload/page/0654/2024%20General%20Election/UNOFFICIAL%20CUMULATIVE%20REPORT%2011-5-24.pdf",
+      "fact": "'Cumulative Unofficial Report' (UNOFFICIAL CUMULATIVE REPORT 11-5-24.pdf, scanned, read visually): 'Cumulative Results Report McCULLOCH COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Run Time 9:03 PM ... Unofficial Results'; county totals by Absentee / Early / Election Day. Last-Modified Wed, 06 Nov 2024 19:09:25 GMT (1:09 PM CST Nov 6). No precinct report listed; precinct numbers not published online. Rule 43: election-night county-totals file is UNOFFICIAL CUMULATIVE REPORT 11-5-24.pdf, printed 'Run Time 9:03 PM Run Date 11/05/2024' (re-read on the cached copy); its scan CreationDate (Nov 6 15:14 UTC) and upload are the next day."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/0654/2026%20Primary%20Election/Cumulative%20Results-3-4-2026%2008-15-34%20AM%20REPUBLICAN.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: 'Unofficial Cumulative Results 3-4-2026 08-15-34 AM REPUBLICAN' (and DEMOCRATIC): 'Cumulative Results Report McCULLOCH COUNTY, TEXAS Unofficial Results'; county totals; PDF CreationDate Wed Mar 4 14:15:45 2026 UTC; Last-Modified Wed, 04 Mar 2026 16:00:37 GMT (10:00 AM CST Mar 4). No precinct report listed."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:28 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.mcculloch.tx.us/upload/page/0654/2026%20Primary%20runoff/REPUBLICAN%20UNOFFICIAL%20RESULTS.pdf",
+      "fact": "'Republican Unofficial Results' (scanned, read visually): 'Cumulative Results Report McCULLOCH COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Run Time 8:28 PM ... Unofficial Results'; county totals. Last-Modified Wed, 27 May 2026 13:11:12 GMT (8:11 AM CDT May 27). No precinct report listed. Rule 43: election-night county-totals file is REPUBLICAN UNOFFICIAL RESULTS.pdf, printed 'Run Time 8:28 PM Run Date 05/26/2026' (re-read on the cached copy); PDF CreationDate Wed May 27 03:08:05 2026 UTC (10:08 PM CDT May 26)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.mcculloch.tx.us/page/mcculloch.ElectionInfo",
+      "via": "fetch_module",
+      "content_hash": "00ddbb8c82d365dcff0582add7c40e021ad4fef47dc86fa2c3e783ca226831d5",
+      "quote": "Republican Unofficial Results | Democrat Unofficial Results (2026 Primary runoff) ; Unofficial Cumulative Results 3-4-2026 08-15-34 AM REPUBLICAN ; Cumulative Unofficial Report (2024 General Election)",
+      "supports": "report lists for all three elections"
+    },
+    {
+      "url": "https://www.co.mcculloch.tx.us/upload/page/0654/2024%20General%20Election/UNOFFICIAL%20CUMULATIVE%20REPORT%2011-5-24.pdf",
+      "via": "fetch_module",
+      "content_hash": "bf9a07b374cc82c19a2b169b0539ee4edd030e05b8035c3a063b00434b0602d5",
+      "quote": "Cumulative Results Report ... GENERAL ELECTION 11/5/2024 ... Run Time 9:03 PM",
+      "supports": "2024 county totals, uploaded 6 Nov"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0654/2026%20Primary%20Election/Cumulative%20Results-3-4-2026%2008-15-34%20AM%20REPUBLICAN.pdf",
+      "via": "fetch_module",
+      "content_hash": "7e791c500f19846a450810ae8a736ecc01aa4978396f817630f2f6a1ea67c29f",
+      "quote": "Cumulative Results Report McCULLOCH COUNTY, TEXAS Unofficial Results",
+      "supports": "2026_primary county totals, uploaded 4 Mar 10:00 AM"
+    },
+    {
+      "url": "https://www.co.mcculloch.tx.us/upload/page/0654/2026%20Primary%20runoff/REPUBLICAN%20UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "704e17bbec819cd35e1e4d2b35615c9ae646e0907daf9423c9d1800ac3a923aa",
+      "quote": "Cumulative Results Report ... PRIMARY RUNOFF ELECTION 5/26/2026 ... Run Time 8:28 PM",
+      "supports": "2026_runoff county totals, uploaded 27 May 8:11 AM"
+    }
+  ]
+}

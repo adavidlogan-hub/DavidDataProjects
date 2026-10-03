@@ -1,0 +1,72 @@
+{
+  "county": "Cameron",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.cameroncountytx.gov/elections/wp-content/enr/",
+  "platform": "vendor_hosted",
+  "host": "www.livevoterturnout.com",
+  "evidence_url": "https://www.livevoterturnout.com/ENR/camerontxenr/43/en/Index_43.html",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works. No Clarity site (elections.json 404). Election-night results are on a livevoterturnout.com ENR site linked from the county page wp-content/enr/ ('Unofficial Election Day results from polling locations will be updated throughout the night'); for the May 26, 2026 runoff the links are ENR IDs 43 (Republican) and 44 (Democratic). The ENR shows only the final state ('Website Updated: 5/26/2026 10:02:55 PM'), with no readable update history, and breaks results down by vote center ('precinctLabel = \"Vote Centers\"', 'Total Precincts 32' relabeled 'Total Vote Centers'), not by election precinct. Precinct-by-precinct reports are posted on the county Results page only after canvass (runoff files in wp-content/uploads/2026/06; primary 'Precinct Result 031126'). The ENR IDs for the 2026 primary and 2024 general are no longer linked and were not probed; check 3 pending for those (wayback-data branch not found on origin).",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER: election-night results by vote center and county totals, precinct-by-precinct reports only after canvass), so by rule the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Election-night ENR link for the 2024 general is no longer on the county site; Results page holds post-canvass reports. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Election-night ENR link for the primary is no longer on the county site; Results page holds Summary 'Final' and 'Precinct by Precinct' reports dated 03/11/2026 (Democrat-Party-Precinct-Result-031126.pdf). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 22:02 CT (ENR final update)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.livevoterturnout.com/ENR/camerontxenr/43/en/Index_43.html",
+      "fact": "ENR 'Cameron County, TX Elections Department May 26, 2026 Republican Primary Runoff ... Unofficial Election Results ... Vote Centers Reporting 100% ... Fully Reporting 32 Total Precincts 32', 'Website Updated: 5/26/2026 10:02:55 PM', Last-Modified Wed, 27 May 2026 03:02:55 GMT; drill-down label 'Vote Centers Results'. Precinct-by-precinct reports ('Primary-Runoff-Democratic-Precinct-052626.pdf', 'Republican-sigined-precinct-by-precinct-report001.pdf') are uploaded in June 2026."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.cameroncountytx.gov/elections/wp-content/enr/",
+      "via": "fetch_module",
+      "quote": "Republican Runoff Election - Election Night Results For the May 26, 2026 Primary Runoff Election (Unofficial Early and Absentee results will be posted after the polls close at 7:00 pm. Unofficial Election Day results from polling locations will be updated throughout the night.)",
+      "supports": "County election-night results page and ENR links",
+      "content_hash": "f628a43bbc637e973b7860298aca35dc0f31658aee5143cc266e1db9c7ffd29d"
+    },
+    {
+      "url": "https://www.livevoterturnout.com/ENR/camerontxenr/43/en/Index_43.html",
+      "via": "fetch_module",
+      "quote": "Website Updated: 5/26/2026 10:02:55 PM ... Vote Centers Reporting 100% ... precinctLabel = \"Vote Centers\"",
+      "supports": "Election-night ENR reports by vote center, final state only",
+      "content_hash": "51c6948caf1cd02e71ca7ed00613a8dfcf0672a570ddca0f548da73c4fc9305b"
+    },
+    {
+      "url": "https://cameroncountytx.gov/elections/results/",
+      "via": "fetch_module",
+      "quote": "2026 Primary Runoff Election Summary; Precinct by Precinct -> wp-content/uploads/2026/06/Primary-Runoff-Democratic-Precinct-052626.pdf",
+      "supports": "Precinct reports posted after canvass",
+      "content_hash": "1cb79c92b28bbac21f66cc85b10c47fe062ab3a0cc1bfa1948de2193a978004a"
+    }
+  ]
+}

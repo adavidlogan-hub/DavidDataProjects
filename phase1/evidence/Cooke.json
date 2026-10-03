@@ -1,0 +1,108 @@
+{
+  "county": "Cooke",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.cooke.tx.us/page/cooke.elections",
+  "platform": "county_pdfs",
+  "host": "newtools.cira.state.tx.us",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/March3/2026PrimaryPctbyPctResultsUnofficial.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-03 21:37 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.cooke.tx.us/page/cooke.elections works over https; files are hosted on newtools.cira.state.tx.us (CIRA) and www.co.cooke.tx.us. No Clarity or vendor site; page links SOS results. Last-Modified values differ per file and look like real upload times. Each 2026 election has an Early Voting unofficial file, one election-night precinct-by-precinct unofficial file, and later official files. 2024 general undetermined (check 3 pending; wayback-data branch not on origin). Rule 47 applied 2026-10-02 (normalize-47): none. Check 3 after full harvest 2026-10-03 (check3-H2): 2024_general UNDETERMINED to END (check 3). Wayback captures of the Elections page show the 'Cooke County Unofficial Precinct by Precinct Report' linked from 22:59 CST on election night (absent at 21:06 CST) and unchanged through 02:15 CST; the linked file (fetched from the same URL, Last-Modified 03:54 GMT Nov 6) is an Electionware precinct-by-precinct report with election-day columns printed 11/05/2024 10:28 PM, and its precinct totals equal the archived final unofficial summary (10:23 PM). Earlier passes had no wayback data for this county. Electionware footer copyright sign omitted from quotes.",
+  "tag_rationale": "The 2024 general (check 3), 2026 primary and 2026 runoff (check 2) are all END: one election-night precinct report with election-day votes each, so the tag is PRECINCT_END_OF_NIGHT. Confidence med because two deciding elections were settled by check 2.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "3",
+      "county_totals_first_seen": "2024-11-05 22:23 CT",
+      "precinct_first_seen": "2024-11-05 22:59 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://web.archive.org/web/20241106045910id_/https://www.co.cooke.tx.us/page/cooke.elections?os=0slw57psddf&ref=app",
+      "evidence_snapshot_timestamp": "20241106045910",
+      "fact": "Wayback captures of the county Elections page (wayback-data Cooke/2024_general_*): at 2024-11-05 21:06 CST the November 5th, 2024 General Election section links only 'Cooke County Unofficial Early Voting Results'; from 22:59:10 CST (Cooke/2024_general_20241106045910_0d999dbcd069.html) through 02:15:46 CST it links 'Cooke County Unofficial Early Voting Results', 'Cooke County Unofficial Precinct by Precinct Report' (/upload/page/3107/docs/2024/November5/2024NovCookeCountyPctbyPctReportGeneral11-5-2024.pdf) and 'Cooke County Unofficial Final Summary Results'; no second precinct report appears that night. The linked precinct file, fetched now from the same URL (Last-Modified Wed, 06 Nov 2024 03:54:00 GMT, unchanged since election night), is a 112-page Electionware 'Summary Results Report UNOFFICIAL RESULTS Cooke County Final Count Pct. by Pct. November 5, 2024 ... Pct. 1' with Absentee, Early Voting and Election Day columns per precinct (for example Pct. 1 'REP Donald J. Trump/JD Vance 278 82.99% 4 243 31'), footer 'Precinct Summary - 11/05/2024 10:28 PM', PDF CreationDate 2024-11-06 04:29:18 UTC (10:29 PM CST; the Last-Modified time is 35 minutes earlier than CreationDate, the same server clock offset seen for the 2026 primary). Its 17 precinct 'Ballots Cast - Total' rows sum to 20,516 (601 absentee, 13,945 early, 5,970 election day), equal to the archived 'Unofficial Final Summary Results' (captured 22:59:48 CST, 'Election Summary - 11/05/2024 10:23 PM', 'Ballots Cast - Total 20,516 601 13,945 5,970'). One election-night precinct release with election-day votes, with the final unofficial count: END."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-03 21:37 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/March3/2026PrimaryPctbyPctResultsUnofficial.pdf",
+      "fact": "'Final Unofficial Results Precinct by Precinct' is a 187-page Electionware 'Pct. by Pct. Results UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Cooke County, Texas Pct. 1 ...' with Absentee, Early Voting and Election Day columns; footers print '03/03/2026 10:12 PM'. Last-Modified Wed, 04 Mar 2026 03:37:31 GMT (9:37 PM CST), PDF CreationDate 04:13:31 UTC; the 35-minute gap between printed and upload times suggests a clock offset, but both fall on election night. The precinct 'Ballots Cast - Total' values sum to 8,055, equal to the 'Final Unofficial Results' summary (printed 03/04/2026 10:15 AM), so this was the final unofficial count. Only one precinct file is listed. Rule 47: publication shown by upload time 2026-03-03 21:37 CT in 2026PrimaryPctbyPctResultsUnofficial.pdf."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-26 22:46 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/May26/2026MayCookePrimaryRunoffUnofficialResultsPctbyPct.pdf",
+      "fact": "'2026MayCookePrimaryRunoffUnofficialResultsPctbyPct.pdf' is a 34-page Electionware 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Cooke County, Texas Pct. 1 ...' per-precinct report, footers '05/26/2026 8:48 PM', PDF CreationDate 2026-05-27 01:49:29 UTC, Last-Modified Wed, 27 May 2026 03:46:37 GMT (10:46 PM CDT). Only one precinct file is listed; it was not cross-checked against the final summary. Rule 47: publication shown by upload time 2026-05-26 22:46 CT in 2026MayCookePrimaryRunoffUnofficialResultsPctbyPct.pdf."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.cooke.tx.us/page/cooke.elections",
+      "via": "fetch_module",
+      "content_hash": "92bcf1f2a5ce75dedef062c8109dd36699dc21da62bab1344a89c000ab400a5d",
+      "quote": "Final Unofficial Results; Final Unofficial Results Precinct by Precinct; Early Voting Unofficial Results; Official Results precinct by precinct",
+      "supports": "Elections page result links for 2026 primary and runoff"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/March3/2026PrimaryPctbyPctResultsUnofficial.pdf",
+      "via": "fetch_module",
+      "content_hash": "66b3fba6c234c2c59a0d84cd2b330bf2029a9557e227ff83b0e4ba5123c2ca6b",
+      "quote": "Pct. by Pct. Results UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Cooke County, Texas Pct. 1 ... 03/03/2026 10:12 PM",
+      "supports": "Primary election-night precinct numbers; Last-Modified 2026-03-04 03:37:31 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/March3/2026PrimaryFinalUnofficalResults.pdf",
+      "via": "fetch_module",
+      "content_hash": "c1f778f8bc359ab2e564081beea66b9a43ca69ed8ffca8359fba6da95cc9b239",
+      "quote": "Cooke Couny Summary Results Report UNOFFICIAL RESULTS ... Ballots Cast - Total 8,055 ... 03/04/2026 10:15 AM",
+      "supports": "Final unofficial total matches the precinct file sum"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/May26/2026MayCookePrimaryRunoffUnofficialResultsPctbyPct.pdf",
+      "via": "fetch_module",
+      "content_hash": "1ff2a00708c88476bd9dfcbc3f1a1fc5411cd9084ff50fadcb57732b9d560c27",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Cooke County, Texas Pct. 1 ... 05/26/2026 8:48 PM",
+      "supports": "Runoff election-night precinct numbers; Last-Modified 2026-05-27 03:46:37 GMT"
+    },
+    {
+      "url": "https://web.archive.org/web/20241106045910id_/https://www.co.cooke.tx.us/page/cooke.elections?os=0slw57psddf&ref=app",
+      "via": "wayback_branch",
+      "content_hash": "0d999dbcd069ca75f5503abb3e3425a989dbf09d4405bb4015edaad884d317fa",
+      "quote": "Cooke County Unofficial Early Voting Results ... Cooke County Unofficial Precinct by Precinct Report ... Cooke County Unofficial Final Summary Results",
+      "supports": "2024_general: precinct report linked on the county page at 2024-11-05 22:59:10 CST (capture 20241106045910); same links in every capture through 02:15:46 CST"
+    },
+    {
+      "url": "https://web.archive.org/web/20241106030616id_/https://www.co.cooke.tx.us/page/cooke.elections?os=rokufno_journeysdtruerefappamp1jdy0pyav",
+      "via": "wayback_branch",
+      "content_hash": "d503ac6f302bb7098b136181eee8a7496615931d84fbe14122e41dd0c70525d7",
+      "quote": "Cooke County Unofficial Early Voting Results",
+      "supports": "2024_general: at 21:06:16 CST only the early voting results were linked"
+    },
+    {
+      "url": "https://www.co.cooke.tx.us/upload/page/3107/docs/2024/November5/2024NovCookeCountyPctbyPctReportGeneral11-5-2024.pdf",
+      "via": "fetch_module",
+      "content_hash": "1b70889881cad72665550df94f31ff87ed118212a65bd39fec916d6a3e063e2d",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS Cooke County Final Count Pct. by Pct. November 5, 2024 ... Pct. 1 ... REP Donald J. Trump/JD Vance 278 82.99% 4 243 31 ... Precinct Summary - 11/05/2024 10:28 PM",
+      "supports": "2024_general END: per-precinct candidate votes with election-day column, printed on election night; Last-Modified Wed, 06 Nov 2024 03:54:00 GMT"
+    },
+    {
+      "url": "https://web.archive.org/web/20241106045948id_/https://www.co.cooke.tx.us/upload/page/3107/docs/2024/November5/2024CookeCountyFinalSummaryResultsUnofficialGeneral11-5-2024.pdf",
+      "via": "wayback_branch",
+      "content_hash": "ca8a1f8e0573da1e26f922c770821c1248cd43392f10d38f7c8cf23e5dc2d7c1",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS Cooke County, Texas General Election November 5, 2024 ... Ballots Cast - Total 20,516 601 13,945 5,970 ... Election Summary - 11/05/2024 10:23 PM",
+      "supports": "2024_general: final unofficial county totals online at 22:59:48 CST; equal to the sum of the precinct report"
+    }
+  ]
+}

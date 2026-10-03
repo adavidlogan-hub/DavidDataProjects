@@ -1,0 +1,176 @@
+# Verification log
+
+- Andrews: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Angelina: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 4).
+- Archer: AGREE on UNKNOWN (reason checked: random 10 percent sample).
+- Austin: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Bailey: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Bandera: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Bastrop: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Bastrop: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Bee: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Bell: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Bell: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Bexar: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Bosque: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag changed in targeted pass 3).
+- Bowie: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)).
+- Brazos: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Brewster: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Burnet: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Caldwell: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Calhoun: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Cameron: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Carson: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Cass: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Chambers: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Cherokee: AGREE on UNKNOWN (reason checked: low confidence (after rule 43 normalization)).
+- Childress: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
+- Clay: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Cochran: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Coleman: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Collin: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag changed in targeted pass 2 (UNKNOWN to PRECINCT_END_OF_NIGHT)).
+- Comal: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Comal: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Cooke: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Coryell: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag changed in targeted pass 3).
+- Cottle: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Crockett: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Crosby: AGREE on UNKNOWN (reason checked: random 10 percent sample).
+- Dallas: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Dallas: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Dawson: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag changed in targeted pass 3).
+- DeWitt: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Deaf Smith: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Denton: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Denton: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Dickens: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
+- Dimmit: AGREE on UNKNOWN (reason checked: low confidence).
+- Donley: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)).
+- Eastland: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Ector: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- El Paso: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- El Paso: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Ellis: AGREE on LIVE_PRECINCT (reason checked: tag changed in targeted pass 5).
+- Fayette: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Fisher: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Floyd: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Foard: AGREE on UNKNOWN (reason checked: low confidence).
+- Fort Bend: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Fort Bend: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Freestone: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Frio: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Gaines: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Galveston: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Galveston: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Garza: AGREE on UNKNOWN (reason checked: low confidence).
+- Gillespie: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)).
+- Glasscock: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)).
+- Gray: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Grayson: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 4).
+- Gregg: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Gregg: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Guadalupe: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 5).
+- Hamilton: AGREE on UNKNOWN (reason checked: low confidence).
+- Hardin: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Harris: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Harrison: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Hartley: DISAGREE. research=UNKNOWN (low); verifier=COUNTY_ONLY_PRECINCT_AT_CANVASS. Final tag set to UNKNOWN.
+  - research rationale: No election is determined (the 2024 county-totals report has no usable election-night time), so the tag is UNKNOWN.
+  - verifier rationale: After comparison (DECISIONS 44): 2024 is LATER from a county-totals unofficial summary printed 7:22 PM on election night with no precinct report posted; the 2026 elections remain UNDETERMINED (county files uploaded days later). One determined election, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low. Blind verdict was UNKNOWN.
+- Haskell: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Hays: AGREE on UNKNOWN (reason checked: random 10 percent sample).
+- Hemphill: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Hidalgo: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Hidalgo: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Hockley: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Hopkins: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Houston: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Howard: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Hunt: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Hutchinson: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag changed in targeted pass 3).
+- Irion: AGREE on UNKNOWN (reason checked: low confidence).
+- Jackson: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Jasper: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Jeff Davis: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Jefferson: AGREE on LIVE_PRECINCT (reason checked: tag changed to LIVE_PRECINCT in targeted pass).
+- Jim Hogg: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)).
+- Jones: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Karnes: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Kaufman: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Kendall: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Kenedy: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
+- Kent: AGREE on UNKNOWN (reason checked: low confidence).
+- Lamar: DISAGREE. research=PRECINCT_END_OF_NIGHT (high); verifier=UNKNOWN. Final tag set to UNKNOWN.
+  - research rationale: 2024 general and 2026 runoff are END by check 1 (election-day precinct numbers in a single election-night update) and 2026 primary is LIVE; two END results give PRECINCT_END_OF_NIGHT, high confidence (check 1).
+  - verifier rationale: Check 1 gives END (2024), LIVE (primary) and LATER (runoff, ballot-group units only). No two elections share a result, so UNKNOWN by the fixed rule.
+- Lamb: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Lavaca: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
+- Lee: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Liberty: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Lipscomb: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Live Oak: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Lubbock: AGREE on the evidence (rule tag UNKNOWN); owner override LIVE_PRECINCT kept.
+- Lynn: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Madison: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Marion: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Matagorda: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- McCulloch: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
+- McMullen: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Medina: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 4).
+- Menard: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Midland: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Midland: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Mitchell: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Montague: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Montague: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Montgomery: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed to COUNTY_ONLY_PRECINCT_AT_CANVASS (low) in targeted pass).
+- Navarro: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Nueces: AGREE on LIVE_PRECINCT (reason checked: tag changed to LIVE_PRECINCT in targeted pass).
+- Ochiltree: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag PRECINCT_END_OF_NIGHT).
+- Parker: AGREE on LIVE_PRECINCT (reason checked: tag changed to LIVE_PRECINCT in targeted pass (new 2024 evidence)).
+- Parmer: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Pecos: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Polk: AGREE on PRECINCT_END_OF_NIGHT (reason checked: tag changed in targeted pass 3).
+- Presidio: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Rains: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
+- Reagan: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Real: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Roberts: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Robertson: DISAGREE. research=PRECINCT_END_OF_NIGHT (high); verifier=LIVE_PRECINCT. Final tag set to UNKNOWN.
+  - research rationale: All three elections are LIVE by check 1 (precinct numbers in two or more election-night Clarity updates), so the tag is LIVE_PRECINCT with high confidence.
+  - verifier rationale: Primary and runoff LIVE by check 1 (election-day returns, carried under the 'EV Mail' label, appear by precinct in two or more election-night Clarity updates); 2024 END. Two LIVE give LIVE_PRECINCT, high. The literal script reading (label 'Election Day') also gives LIVE for all three.
+- Rockwall: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Rusk: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- San Patricio: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 4).
+- San Saba: AGREE on UNKNOWN (reason checked: random 10 percent sample).
+- Scurry: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Starr: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Swisher: AGREE on NO_SITE_OR_SOS_ONLY (reason checked: low confidence).
+- Tarrant: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Taylor: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Terrell: AGREE on UNKNOWN (reason checked: low confidence).
+- Terry: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence (after rule 43 normalization)).
+- Throckmorton: DISAGREE. research=COUNTY_ONLY_PRECINCT_AT_CANVASS (low); verifier=UNKNOWN. Final tag set to UNKNOWN.
+  - research rationale: Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)
+  - verifier rationale: No election is determined. The runoff file linked as "ELECTION NIGHT RETURNS" is a scan created and uploaded June 1, 2026, county totals only; no election-night time. Tag UNKNOWN.
+- Tom Green: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 4).
+- Travis: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Travis: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Tyler: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Upshur: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Upton: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
+- Val Verde: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Van Zandt: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Victoria: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Victoria: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Waller: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 4).
+- Ward: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Webb: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).
+- Wilbarger: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
+- Williamson: AGREE on LIVE_PRECINCT (reason checked: tag changed in targeted pass 3).
+- Wise: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Wood: platform vendor_hosted normalized to clarity_style (Clarity results URL in record).
+- Wood: AGREE on LIVE_PRECINCT (reason checked: tag LIVE_PRECINCT).
+- Young: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: random 10 percent sample).
+- Zapata: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: tag changed in targeted pass 3).
+- Zavala: AGREE on COUNTY_ONLY_PRECINCT_AT_CANVASS (reason checked: low confidence).

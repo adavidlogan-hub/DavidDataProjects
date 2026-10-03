@@ -1,0 +1,59 @@
+{
+ "county": "Kendall",
+ "reason_selected": "tag LIVE_PRECINCT",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 122829 linked from kendallcountytx.gov/220/Election-Results-Past-Present (\"November 5, 2024 General Election\"); detail.xml Region \"Kendall\", ElectionDate \"11/5/2024\". v350932 \"11/5/2024 7:23:44 PM CST\" no election-day precinct votes; v351618 \"8:39:46 PM CST\" President, \"REP Donald J. Trump/JD Vance\", VoteType \"Election Day\", <Precinct name=\"1010\" votes=\"128\">, 17 precincts; v351989 \"9:18:18 PM CST\" larger sum. Two distinct releases. (A test version dated 10/23/2024 also carries precinct values.)"
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 126002 (\"March 3, 2026 Joint Primary Election\" link); Region Kendall, ElectionDate 3/3/2026. v368437 \"8:32:04 PM CST\" REP US Senator \"Wesley Hunt\", Election Day, <Precinct name=\"1010\" votes=\"15\">; then 9:16:05 and 9:32:11 PM. Three distinct releases."
+  },
+  "2026_runoff": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 126365 (\"May 26, 2026 Joint Primary Runoff Election\" link); Region Kendall, ElectionDate 5/26/2026. v372955 \"8:04:11 PM CDT\" Ken Paxton, Election Day, <Precinct name=\"1010\" votes=\"84\">; then 8:24:43 and 8:37:14 PM. Three distinct releases."
+  }
+ },
+ "rationale": "All three elections LIVE from check 1, so LIVE_PRECINCT, high.",
+ "sources": [
+  {
+   "url": "https://www.kendallcountytx.gov/220/Election-Results-Past-Present",
+   "content_hash": "ce1f1f5cc933edf4c320c27ee2cc41a038a6cfb831564023f49b59ff718ffe7d",
+   "what_i_checked": "links to Clarity EIDs 122829, 126002, 126365"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/350932/reports/detailxml.zip",
+   "content_hash": "6c1f8baf34f34d1c93e7b4a91afe94565e6d9f52e88f561566cfc2788a734268",
+   "what_i_checked": "opened: 7:23:44 PM CST, no election-day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/351618/reports/detailxml.zip",
+   "content_hash": "d9a6d8362bc52b7a385f8e2521731e96b5205baa2772f68a5f63be99b4390585",
+   "what_i_checked": "opened: 8:39:46 PM CST, election-day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368437/reports/detailxml.zip",
+   "content_hash": "01e26cd457b6ef3351890ff9f5e3b274a0d1dbb489f580c296c5c42d32f00861",
+   "what_i_checked": "opened: 8:32:04 PM CST"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372955/reports/detailxml.zip",
+   "content_hash": "facee2014075e2c2a9d2bbe445d06402b00e2be704d918cad89499eaf1885e58",
+   "what_i_checked": "opened: 8:04:11 PM CDT"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:22:42Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE).",
+  "2026_primary": "same (LIVE).",
+  "2026_runoff": "same (LIVE)."
+ }
+}

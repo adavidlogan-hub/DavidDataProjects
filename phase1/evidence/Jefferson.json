@@ -1,0 +1,86 @@
+{
+  "county": "Jefferson",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://jefferson-tx.connect4.clarityelections.com/",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/351551/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "11/5/2024 8:33:08 PM CST",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "The SOS seed website for Jefferson is the county's Clarity Connect elections site (jefferson-tx.connect4.clarityelections.com). That site, and the two other county election domains found by one web search (www.jeffcotxvotes.gov and www.jeffersonelections.com), return an empty HTTP 202 to every request (bot protection); this was not worked around. www.jeffersoncountytx.gov is unreachable through the fetch module (robots check failed). Check 1: Clarity's elections.json for TX/Jefferson does not list the 2024 general, 2026 primary or 2026 runoff, and no county page could be read to obtain their EIDs (IDs were not probed). Checks 1 and 2 therefore failed. Check 3 pending (wayback-data branch not on origin). Targeted pass 2026-10-02 (orchestrator): check 1 applied after bounded Clarity ID search: 2024_general: UNDETERMINED -> LIVE; 2026_primary: UNDETERMINED -> LIVE; 2026_runoff: UNDETERMINED -> LIVE.",
+  "tag_rationale": "Check 1 (Clarity update logs): 2024_general: UNDETERMINED -> LIVE; 2026_primary: UNDETERMINED -> LIVE; 2026_runoff: UNDETERMINED -> LIVE. Tag by the fixed rule.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://jefferson-tx.connect4.clarityelections.com/",
+      "via": "fetch_module",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote": "HTTP 202 with empty body",
+      "supports": "County Clarity Connect site is bot-protected"
+    },
+    {
+      "url": "https://www.jeffcotxvotes.gov/elections/election-history-maps/archived-election-results/",
+      "via": "fetch_module",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quote": "HTTP 202 with empty body",
+      "supports": "County archived results page is bot-protected"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Jefferson/",
+      "via": "clarity_script",
+      "content_hash": "",
+      "quote": "election not listed on this county's Clarity site (all three target elections)",
+      "supports": "Check 1 could not locate the target elections"
+    },
+    {
+      "url": "websearch:Jefferson County Texas election results clarityelections",
+      "via": "websearch",
+      "content_hash": "f9063b181d506e5fe8b12c4559d12eb001c7109119fe05bcf3030aef28a19c30",
+      "quote": "Archived Election Results https://www.jeffcotxvotes.gov/elections/election-history-maps/archived-election-results/",
+      "supports": "Located county election domains"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Jefferson/",
+      "via": "clarity_script",
+      "content_hash": "",
+      "supports": "check 1",
+      "quote": "phase1/checks/clarity/Jefferson.json; IDs from phase1/checks/clarity_eid_probe/Jefferson.json"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "11/5/2024 8:33:08 PM CST",
+      "night_updates_with_precinct_numbers": "4",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Jefferson/122828/351551/reports/detailxml.zip",
+      "fact": "Clarity election ID(s) 122828, found by the bounded ID search and confirmed by Region and ElectionDate in detail.xml (DECISIONS 51). Clarity update log: 4 distinct election-day precinct releases across 6 election-night updates (county local time, 7 PM to 3 AM); first update with election-day precinct votes 11/5/2024 8:33:08 PM CST."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "3/3/2026 8:26:05 PM CST",
+      "night_updates_with_precinct_numbers": "4",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Jefferson/126017/368433/reports/detailxml.zip",
+      "fact": "Clarity election ID(s) 126017, found by the bounded ID search and confirmed by Region and ElectionDate in detail.xml (DECISIONS 51). Clarity update log: 4 distinct election-day precinct releases across 5 election-night updates (county local time, 7 PM to 3 AM); first update with election-day precinct votes 3/3/2026 8:26:05 PM CST."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "5/26/2026 8:07:17 PM CDT",
+      "night_updates_with_precinct_numbers": "3",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Jefferson/126276/372960/reports/detailxml.zip",
+      "fact": "Clarity election ID(s) 126276, found by the bounded ID search and confirmed by Region and ElectionDate in detail.xml (DECISIONS 51). Clarity update log: 3 distinct election-day precinct releases across 3 election-night updates (county local time, 7 PM to 3 AM); first update with election-day precinct votes 5/26/2026 8:07:17 PM CDT."
+    }
+  }
+}

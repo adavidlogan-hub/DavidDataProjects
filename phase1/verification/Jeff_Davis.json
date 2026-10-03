@@ -1,0 +1,61 @@
+{
+  "county": "Jeff Davis",
+  "reason_selected": "low confidence (after rule 43 normalization)",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Elections page, 2024: 'Unofficial Summary Report' (2024/election_results_ev__absentee__ed_nov_4_2024 54.pdf): Electionware Summary Results Report, county totals ('REP Donald J. Trump/JD Vance 699 ... 30 514 155'), footer 'Election Summary - 11/05/2024 10:18 PM', CreationDate Nov 6 2024 04:18 UTC; Last-Modified Wed 06 Nov 2024 23:07:26 GMT (5:07 PM CST next day). 'Unofficial Election Results By Precinct EV & Absentee & ED Nov 5 2024': footer 'Precinct Summary - 11/06/2024 12:20 PM', Last-Modified Thu 07 Nov 2024 16:54:25 GMT. Election-night county totals by printed time only; precinct numbers next day. Note: by upload times nothing was posted on election night."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'UNOFFICIAL RESULTS ... SUMMARY RESULTS REPORT 3.3.2026' CreationDate Mar 5 2026 15:44 UTC, Last-Modified Thu 05 Mar 2026 22:40:48 GMT; '... Summary Results Report by Precinct' CreationDate Mar 5 15:47 UTC, Last-Modified 22:43:28 GMT. Both two days after; no election-night file."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Unofficial Results Joint Primary Runoff Election Absentee, Early Voting and Election Day Summary' (Joint Primary Runoff Election Summary All_Unofficial.pdf): county totals ('Ken Paxton 189 4 111 74'), footer 'Election Summary - 05/26/2026 8:44 PM', Last-Modified Wed 27 May 2026 02:33:59 GMT (9:33 PM CDT). Other runoff result file is 'Official Results for Joint Primary Runoff Election May 26, 2026'; no unofficial precinct file. Precinct numbers not online that night."
+    }
+  },
+  "rationale": "2024 general and runoff are LATER from county-posted reports (county totals printed on election night, runoff also uploaded that night; precinct numbers next day or only official); primary undetermined. Two LATER give COUNTY_ONLY_PRECINCT_AT_CANVASS.",
+  "sources": [
+    {
+      "url": "https://www.jeffdaviscounty.texas.gov/page/jeffdavis.Elections",
+      "content_hash": "75276d6f793ad59b5f2761b5c6ba0cdc1a3a3a210bd505d",
+      "what_i_checked": "file list per election (hash prefix shown)"
+    },
+    {
+      "url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/Joint%20Primary%20Runoff%20Election%20Summary%20All_Unofficial.pdf",
+      "content_hash": "f90e6ae80df7ff151f2d5a555fa89ede0c03a8a7f579f539defc2f7542c4716c",
+      "what_i_checked": "runoff county totals 8:44 PM, uploaded 02:33:59 GMT"
+    },
+    {
+      "url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/2024/election_results_ev__absentee__ed_nov_4_2024%2054.pdf",
+      "content_hash": "f33e9f61fcee17e9ac0007d04e0083c4983ffa5ca647f0d9c1041ce03d61926e",
+      "what_i_checked": "2024 county totals printed 10:18 PM, uploaded Nov 6 23:07 GMT"
+    },
+    {
+      "url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/2024/election_results_by_precinct_ev__absentee__ed_nov_5_2024.pdf",
+      "content_hash": "1541c77972e2ae4ec5a86d168a0c246329ca9cc2b873bfa9c29ae8074a3e49b2",
+      "what_i_checked": "2024 precinct report printed 11/06 12:20 PM"
+    },
+    {
+      "url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/UNOFFICIAL%20RESULTS%20Absentee%20Early%20Voting%20and%20Election%20Day%20Summary%20Results%20Report%20by%20Precinct.pdf",
+      "content_hash": "d8b5a779f4756bb035bbfa3506c6c57bb180d126f400eac898b7c6cd4fc6346a",
+      "what_i_checked": "primary precinct report created Mar 5"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:48:57Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "different: research UNDETERMINED ('no election-night file survives'), I say LATER (check 2). Research cites only the by-precinct report (printed 11/06/2024 12:20 PM). The page also lists 'Unofficial Summary Report' (2024/election_results_ev__absentee__ed_nov_4_2024 54.pdf), county totals with footer 'Election Summary - 11/05/2024 10:18 PM' and CreationDate 04:18 UTC Nov 6, which is an election-night printed run time under rule 43 (its upload, Last-Modified Nov 6 23:07 GMT, is the next day). Research claim that no election-night file survives is not supported. Same tag either way; with two LATER the computed confidence would be med instead of low.",
+    "2026_primary": "same (UNDETERMINED): unofficial summary and precinct reports created and uploaded Mar 5 2026.",
+    "2026_runoff": "same (LATER, check 2): footer 8:44 PM, Last-Modified 02:33:59 GMT May 27 (9:33 PM CDT); no unofficial precinct report.",
+    "unsupported_claims": "2024_general 'no election-night file survives' overlooks the 2024 Unofficial Summary Report printed 11/05/2024 10:18 PM."
+  },
+  "compared_at_utc": "2026-10-02T16:49:06Z"
+}

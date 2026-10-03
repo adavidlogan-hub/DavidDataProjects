@@ -1,0 +1,135 @@
+{
+  "county": "San Patricio",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.sanpatriciocountytx.gov/page/elections.current",
+  "platform": "county_pdfs",
+  "host": "www.sanpatriciocountytx.gov",
+  "evidence_url": "https://www.sanpatriciocountytx.gov/upload/page/0127/Results/Unofficial%20Election%20Night%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "The seed domain co.san-patricio.tx.us now serves the county homepage for the elections path; the current domain is www.sanpatriciocountytx.gov (page/elections.home, page/elections.current). No Clarity site (elections.json 404). The Elections page lists only official cumulative and canvass reports for the 2026 primary and runoff (canvass reports are precinct-level by name, dated after canvass) and nothing for the 2024 general; the archive pages stopped at 2022 when first read (see pass 4). No election-night file survives, so checks 1 and 2 cannot decide any election. Precinct-level canvass PDFs were not opened since they are post-canvass by title. Check 3 pending (wayback-data branch not found on origin). Targeted pass 3 2026-10-02 (targeted3-C): no election changed. Tried: (1) Current page result files with upload times (this server sends real Last-Modified): 2026 primary 'Official Republican Cumulative Results.pdf' printed Run Date 03/11/2026 11:41 AM, Last-Modified Thu, 12 Mar 2026 19:46 GMT; runoff 'Republican/Democratic Cumulative Results.pdf' printed 06/02/2026 2:38 PM, Last-Modified Mon, 08 Jun 2026 13:46 GMT; all post-canvass, no election-night file. (2) Lead for 2024_general: a web search found a San Patricio County 'Cumulative Results Report ... Unofficial Results ... GENERAL ELECTION ... Precincts Reporting 28 of 28 = 100.00% ... Run Time 9:11 PM ... Run Date 11/05/2024' (one page, Taft races only, county-level totals) hosted by the City of Taft at https://tafttx.gov/transparency-files/604-election-20241105-unofficial-election-results.pdf (hash f1cd091c..., Last-Modified Wed, 06 Nov 2024 03:47:38 GMT = 9:47 PM CST). It shows the county produced unofficial cumulative reports on election night, but it is a city's posting, not the county's, and says nothing about precinct numbers, so 2024_general stays UNDETERMINED. (3) archive pages still stop at 2022; Wayback harvest for co.san-patricio.tx.us failed (robots_disallowed_or_unreachable) and the current domain was not harvested. Sweep pending. Targeted pass 4 2026-10-02 (targeted4-G): 2024_general and 2026_primary changed UNDETERMINED to LATER (check 2, DECISIONS 67 reading of rule 43). A site-restricted web search located two county-hosted election-night county-totals files no longer linked from any page: /upload/page/0127/Results/Unofficial Election Night Results.pdf (2024 general, printed 9:11 PM, Last-Modified 06 Nov 2024 03:24:32 GMT = 9:24 PM CST) and /upload/page/0125/2026/Primary Election/Unofficial Democratic Cumulative Results-3-3-2026 09-29-52 PM.pdf (2026 primary, 'Election Night', printed 9:29 PM, Last-Modified 04 Mar 2026 03:56:42 GMT = 9:56 PM CST); both are county totals only. The Election Results 2016-2022 page (elections.results.archive.16) now also lists 2023 to 2025 official results; for the 2024 general its only precinct report is '2024 November Precinct Results.pdf' (Official, printed and uploaded 9 Dec 2024); for the 2026 primary the only precinct-level reports are the canvass reports uploaded 12 and 13 Mar 2026. No unofficial precinct report was found for either election. 2026_runoff stays UNDETERMINED: only official cumulative and canvass files (printed 2 Jun, uploaded 8 Jun 2026) and no election-night file found. Also tried: newtools.cira.state.tx.us copy (page/sanpatricio.elections.current returns 403; this eztask site is not served there); electionstats.sanpatriciocountytx.gov (official-source archive database, 2017 to 2025, no election-night timing); KRIS 6 primary article (county totals only, lead). Wayback branch: no captures (robots), no targeted archive, wayback, or sweep folder for San Patricio (sweep pending). Caveat: Last-Modified dates the current copy; a precinct report posted and later removed cannot be ruled out, since both election-night files were themselves later delisted.",
+  "tag_rationale": "Two elections (2024 general and 2026 primary) are LATER from check 2 under the DECISIONS 67 reading of rule 43 and the runoff is UNDETERMINED, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the deciding results come from check 2.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 21:24 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.sanpatriciocountytx.gov/upload/page/0127/Results/Unofficial%20Election%20Night%20Results.pdf",
+      "fact": "Ruled LATER under DECISIONS 67 (rule 43). County-hosted 'Unofficial Election Night Results.pdf' (folder /upload/page/0127/Results/, located by web search; not linked from today's pages): 'Cumulative Results Report ... SAN PATRICIO COUNTY, TEXAS ... Unofficial Results ... GENERAL ELECTION ... Precincts Reporting 28 of 28 = 100.00% ... Run Time 9:11 PM ... Run Date 11/05/2024', 8 pages of county totals by Absentee, Early and Election Day Voting (no per-precinct pages); CreationDate 2024-11-06 03:11:57 UTC, Last-Modified Wed, 06 Nov 2024 03:24:32 GMT (9:24 PM CST election night). The only precinct report for this election is '2024 November Precinct Results.pdf' on the Election Results archive page ('Precinct Results Report ... Official Results ... Run Time 12:22 PM Run Date 12/09/2024', Last-Modified Mon, 09 Dec 2024 18:33:57 GMT), uploaded after election night; no unofficial precinct report was found. Caveat (DECISIONS 67): an earlier copy posted and later removed cannot be ruled out."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:56 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.sanpatriciocountytx.gov/upload/page/0125/2026/Primary%20Election/Unofficial%20Democratic%20Cumulative%20Results-3-3-2026%2009-29-52%20PM.pdf",
+      "fact": "Ruled LATER under DECISIONS 67 (rule 43). County-hosted 'Unofficial Democratic Cumulative Results-3-3-2026 09-29-52 PM.pdf' (located by web search; no longer linked from the Elections page): 'Cumulative Results Report ... SAN PATRICIO COUNTY, TEXAS ... Unofficial Results ... PRIMARY ELECTION ... Election Night ... Precincts Reporting 0 of 27 = 0.00% ... Run Time 9:29 PM ... Run Date 03/03/2026', 10 pages of county totals by Absentee, Early and Election Day Voting (no per-precinct pages); CreationDate 2026-03-04 03:30:43 UTC, Last-Modified Wed, 04 Mar 2026 03:56:42 GMT (9:56 PM CST election night). The only precinct-level reports for this election are the canvass reports ('Canvass Results Report ... Official Results ... Run Time 11:48 AM Run Date 03/11/2026', Last-Modified Thu, 12 Mar 2026 19:46:04 GMT; Democratic 'Run Time 11:49 AM Run Date 03/11/2026', Last-Modified Fri, 13 Mar 2026 22:38:46 GMT), uploaded after election night; no unofficial precinct report was found. Lead (not deciding): KRIS 6, published 2026-03-03 23:39 CST: 'San Patricio County has released its unofficial results from the March 3 primary elections', county totals only. Caveat (DECISIONS 67): an earlier copy posted and later removed cannot be ruled out."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Democratic/Republican Party Official Cumulative Results' and 'Official Canvass Results' plus PEHCA certifications are posted; no election-night file found (two site-restricted web searches found no runoff unofficial file). Check 3: no capture of the current domain on the wayback-data branch."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.sanpatriciocountytx.gov/page/elections.current",
+      "via": "fetch_module",
+      "content_hash": "e7859f254b210fda242069f18ae91536c86ead13b4ef415ec01604034aa7ea4d",
+      "quote": "Official Results (Official Republican Cumulative Results.pdf); Official Canvass (Republican Canvass Results-3-11-2026 11-49-02 AM.pdf); Democratic Party Official Cumulative Results; Republican Official Canvass Results",
+      "supports": "Only official, post-canvass results are posted for 2026"
+    },
+    {
+      "url": "https://www.sanpatriciocountytx.gov/page/elections.home",
+      "via": "fetch_module",
+      "content_hash": "d87d77d6949ea51294432024302684b53af19bcb746c689ef6b599bbfbd8ebb3",
+      "quote": "Election Results 2006-2015; Election Results 2016-2022",
+      "supports": "Results archive ends at 2022"
+    },
+    {
+      "url": "https://www.sanpatriciocountytx.gov/upload/page/0127/Results/Unofficial%20Election%20Night%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "055579a91d3055200ef1b8fe8b200f89f4d4f470a9e2f45c3b28220fcb15ed12",
+      "quote": "Cumulative Results Report ... Unofficial Results ... GENERAL ELECTION ... Precincts Reporting 28 of 28 = 100.00% ... Run Time 9:11 PM ... Run Date 11/05/2024 (Last-Modified Wed, 06 Nov 2024 03:24:32 GMT)",
+      "supports": "2024_general county totals posted on election night (rule 43 part i)"
+    },
+    {
+      "url": "https://www.sanpatriciocountytx.gov/page/elections.results.archive.16",
+      "via": "fetch_module",
+      "content_hash": "08c271dee318b04eab1db1f68b398b08659637162308b5cdc9adb2734b3157b6",
+      "quote": "2024 Elections Official Results/2024 November Official Canvass Results.pdf; 2024 Novmebr Cumulative Results.pdf; 2024 November Precinct Results.pdf; Election Reconciliation -Official Totals Nov 5.pdf",
+      "supports": "Archive page now lists 2023 to 2025 official results; only official precinct report for 2024_general"
+    },
+    {
+      "url": "https://www.sanpatriciocountytx.gov/upload/page/0124/docs/2024%20Elections%20Official%20Results/2024%20November%20Precinct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "bc37c50ffd1c573a71ab272617c7a53162c4a0bc22d6a2ff0d932806a1600b2c",
+      "quote": "Precinct Results Report ... Official Results ... OFFICIAL REPORTS ... GENERAL ELECTION ... Run Time 12:22 PM ... Run Date 12/09/2024 (Last-Modified Mon, 09 Dec 2024 18:33:57 GMT)",
+      "supports": "2024_general precinct numbers posted after election night (rule 43 part ii)"
+    },
+    {
+      "url": "https://www.sanpatriciocountytx.gov/upload/page/0124/docs/2024%20Elections%20Official%20Results/2024%20Novmebr%20Cumulative%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "b13cb4dd0fe59f370e2585726c5ab943eea0cb542016ce28bff70623864f30fc",
+      "quote": "Cumulative Results Report ... Official Results ... Run Time 12:21 PM ... Run Date 12/09/2024 (Last-Modified Mon, 09 Dec 2024 18:33:57 GMT)",
+      "supports": "2024_general official totals posted Dec 9"
+    },
+    {
+      "url": "https://www.sanpatriciocountytx.gov/upload/page/0125/2026/Primary%20Election/Unofficial%20Democratic%20Cumulative%20Results-3-3-2026%2009-29-52%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "56e6c8c08dd13100eaa5e21c990f8e8e7f0cbd7ea023bae16fa7d5705c533075",
+      "quote": "Cumulative Results Report ... Unofficial Results ... PRIMARY ELECTION ... Election Night ... Precincts Reporting 0 of 27 = 0.00% ... Run Time 9:29 PM ... Run Date 03/03/2026 (Last-Modified Wed, 04 Mar 2026 03:56:42 GMT)",
+      "supports": "2026_primary county totals posted on election night (rule 43 part i)"
+    },
+    {
+      "url": "https://www.sanpatriciocountytx.gov/upload/page/0125/2026/Primary%20Election/Republican%20Canvass%20Results-3-11-2026%2011-49-02%20AM.pdf",
+      "via": "fetch_module",
+      "content_hash": "f5bfbdffe512d893ad79d272482f6d5dcd25f1294fa2b817bc05de02361860e6",
+      "quote": "Canvass Results Report ... Official Results ... Run Time 11:48 AM ... Run Date 03/11/2026 (Last-Modified Thu, 12 Mar 2026 19:46:04 GMT)",
+      "supports": "2026_primary precinct numbers posted after election night (rule 43 part ii)"
+    },
+    {
+      "url": "https://www.sanpatriciocountytx.gov/upload/page/0125/2026/Primary%20Election/Democratic%20Canvass%20Results-3-11-2026%2011-49-41%20AM.pdf",
+      "via": "fetch_module",
+      "content_hash": "c917da14492599da8decc7a7c21cf1ccff740889c68b69f6d58c904cca80fac2",
+      "quote": "Canvass Results Report ... Official Results ... Run Time 11:49 AM ... Run Date 03/11/2026 (Last-Modified Fri, 13 Mar 2026 22:38:46 GMT)",
+      "supports": "2026_primary Democratic precinct numbers posted after election night"
+    },
+    {
+      "url": "https://www.kristv.com/news/local-news/in-your-neighborhood/san-patricio-county/march-3-election-results-san-patricio-county",
+      "via": "fetch_module",
+      "content_hash": "e5429c28a1c0aa79ae6113942f93f620ae86b252f05b1463aaa5462c41ac6f3b",
+      "quote": "San Patricio County has released its unofficial results from the March 3 primary elections. Voter turnout stood at just under 14 percent countywide (datePublished 2026-03-03T23:39:48-0600)",
+      "supports": "Lead only: county totals released on primary night; no precinct numbers"
+    },
+    {
+      "url": "https://electionstats.sanpatriciocountytx.gov/",
+      "via": "fetch_module",
+      "content_hash": "437ddd7f6113f46b6a608d7cc2145cbb3c131082938221e809721b9453c50172",
+      "quote": "A searchable database of historical election information, all from official source documents.",
+      "supports": "County election archive database holds official results only; no election-night timing"
+    },
+    {
+      "url": "https://www.sanpatriciocountytx.gov/upload/page/0127/Results/Unofficial%20Election%20Night%20Results.pdf",
+      "via": "websearch",
+      "content_hash": "00a6e786be9217fbcd8949e71f4510a8ad4e7af1443b73e26bf2e80bc26ffc0b",
+      "quote": "Search 'sanpatriciocountytx.gov unofficial results 2026 primary runoff cumulative' (site sanpatriciocountytx.gov) listed: Cumulative Results Report Election Night Run Time Run Date 9:29 PM 03/03/2026; Cumulative Results Report OFFICIAL REPORTS Run Time Run Date 9:11 PM 11/05/2024",
+      "supports": "Located the two unlinked election-night files (search text is not evidence; content_hash is the search log record)"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "county": "Johnson",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.johnsoncountytx.org/departments/elections-office",
+  "platform": "unknown",
+  "host": "www.johnsoncountytx.org",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Check 1: no Clarity election list for TX/Johnson (elections.json 404). Check 2 failed: the seed elections page and the county homepage (www.johnsoncountytx.org) return HTTP 403 to every request (bot protection), which was not worked around. One web search for the county's results page returned only unrelated pages (Johnson County, Kansas) and general sources, so no vendor site was found. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-D): no election changed. Check 3 now available: wayback-data has election-night captures of www.johnsoncountytx.org/departments/elections-office for 2024 general only (21:04 to 02:15 CST); they show navigation links 'General Election Results November 5th' (/departments/elections-office/election-results/general-election-results-november-5th) and a 'Ballot Counting Room Livestream', but no results content and no capture of the results subpage; no captures for the 2026 primary or runoff. County site still HTTP 403 to the fetch module (including /home/showpublisheddocument/19901/... and /17586/... found by search); not worked around. Two web searches (Cleburne/Johnson County results) found only Kansas, Missouri and Wyoming pages. Sweep pending. Targeted pass 4 2026-10-02 (targeted4-E): no election changed. Tried: wayback-data again (only the 2024 general election-night captures of the elections-office page; their links are navigation pages and two non-results documents, no results documents, no vendor or results host; no phase1/targeted/ or sweep folder for Johnson, sweep pending); five web searches for other public hosts (county results PDFs, Cleburne Times-Review, city or party reposts, newtools.cira.state.tx.us copies) found only Kansas, Kentucky, Wyoming and other Texas counties' files, plus county-site links /home/showpublisheddocument/19591/639056427144300000, /19901/639088362442270000 and /17586/638671920971370000, which stay on the 403 host (not fetched again; their version numbers decode to 2026-02-02, 2026-03-11 and 2024-11-14, none on an election night). A newtools page-3107 'ELECTION DAY VOTES' precinct file that search tied to Johnson was fetched and is another county (30,571 registered voters, precincts 1 to 33). Check 4: Cleburne Times-Review archive search for Nov 5 to 7 2024 and Mar 3 to 5 2026 found only total-vote stories (for example 'Burleson passes liquor proposition': 'The measure saw 13,889 votes for and 6,752 against.'), no per-precinct tables. County site not retried and not worked around. About 6 fetches. Targeted pass 6 2026-10-03 (targeted6-B): no election decided; tag and results unchanged. Tried: (1) wayback-data: phase1/targeted/sweep/Johnson/index.json has now landed (swept 2026-10-02 23:10 UTC): 2024 general 43 page versions (the elections-office page with query strings), 2026 primary 0 versions, 2026 runoff 7 versions (6 pages captured 3:36 to 4:02 PM CDT on runoff day, before polls closed, and one PDF, showpublisheddocument/13427, captured 2026-06-13 whose replay timed out); no replay is flagged upload_on_election_night or printed_on_election_night. The saved copy of /departments/elections-office/current-election-results (Wayback 20260526210223 = 4:02 PM CDT runoff day, page Last-Modified 2026-05-26 21:02:20 GMT) shows only the heading 'TBA' with an empty link to https://www.johnsoncountytx.org/home/showpublisheddocument/19863/639081822593170000 (the version number decodes to 2026-03-04 00:50:59, time zone of the stamp unknown; the document is on the 403 host and its content is unknown), so it shows no runoff results; lead only. The page menu lists 'Elections Precinct by Precinct Results' (/departments/elections-office/election-results/elections-archive; its runoff-day replay timed out). (2) Party sites: the Johnson County Democratic Party site (democratsjctx.org, Wix) has no results or precinct reports; jcdems.org returns an empty HTTP 202 (bot protection, not worked around); the Texas Democratic Women of Johnson County site (johnsoncounty.tdw.org, WordPress) media log from 2024-11-05 to 2026-05-29 has 10 uploads, none results; no Johnson County Republican Party website was found by search. (3) Johnson Central Appraisal District (johnsoncad.com, WordPress, hosts some county election notices) media log: no uploads in the 2026 primary or runoff night windows; the 2024-11-05 window has only Veterans Day images and 'Property-Values-2024.pdf'. (4) Newsroom or civic GitHub repositories: one search found none. (5) Cleburne Times-Review: archive search for 2026-05-26 to 2026-05-28 found no results story; a 'precinct results' search (2024-11-05 to 2026-05-28) found 'Woolley, Monk retain seats' (published 2026-03-04 09:19 CST, after election night), whose free text gives totals only ('Woolley received 2,637 votes over challenger Jake Petty's 2,285.'); the rest is paywalled premium text that was not decoded. About 11 fetches and 8 web searches (recorded in searchlog).",
+  "tag_rationale": "All three elections are UNDETERMINED (no Clarity log, county site returns 403, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Johnson/",
+      "via": "clarity_script",
+      "content_hash": "",
+      "quote": "no Clarity election list (404)",
+      "supports": "No Clarity site for the county"
+    },
+    {
+      "url": "websearch:Johnson County Texas election results 2026 primary",
+      "via": "websearch",
+      "content_hash": "952e4776c19efe9ff9787d5eeeb3607bab3d5ab39f80bf63bf3f993b7707f476",
+      "quote": "See unofficial final results in Johnson County for 2026 primary (johnsoncountypost.com, Kansas)",
+      "supports": "Search did not locate a Texas county results page"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site returns HTTP 403; no Clarity site. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site returns HTTP 403; no Clarity site. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site returns HTTP 403; no Clarity site. Check 3 pending."
+    }
+  }
+}

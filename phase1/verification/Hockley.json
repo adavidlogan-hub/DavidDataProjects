@@ -1,0 +1,46 @@
+{
+  "county": "Hockley",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections home lists no November 2024 results. No Clarity. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'FINAL Results 2026 Republican Primary (As of Election Night)' (20260303_233658.pdf, scan read as image): '2026 Joint Primary Election ... UNOFFICIAL RESULTS EV ABSENTEE ED Hockley County, Texas', county totals by Absentee/Early/Election Day (REP US Senator Ken Paxton 1,285, Election Day 544), footer 'Election Summary - 03/03/2026 10:21PM'. Last-Modified Wed, 04 Mar 2026 05:00:27 GMT = 11:00 PM CST election night. No precinct-level results file posted for the primary (only hand count audit files)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "The 2026 Joint Primary Runoff section lists only post-election hand count audit results (files dated 20260612). No results file to read. Check 3 pending."
+    }
+  },
+  "rationale": "Only the primary is determined (LATER: election-night county-total summary, no precinct results posted), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "sources": [
+    {
+      "url": "https://www.co.hockley.tx.us/page/ElectionsHome",
+      "what_i_checked": "results file list",
+      "content_hash": "3144f7272bed1478531936a38ca995658307c2eaa9e204a2e4266319feda597a"
+    },
+    {
+      "url": "https://www.co.hockley.tx.us/upload/page/0119/20260303_233658.pdf",
+      "what_i_checked": "primary election-night summary printed 10:21 PM, Last-Modified 05:00 GMT Mar 4, county totals",
+      "content_hash": "a5560b858b5bd51c3319c782504a3bad4b30ff64fa318e6e64794d8b783cabdb"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:19:38Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "same (LATER, check 2). Both: scanned election summary printed 10:21 PM, Last-Modified 05:00:27 GMT (11:00 PM CST), county totals, no precinct report.",
+    "2026_runoff": "same (UNDETERMINED). Only hand count audit files posted.",
+    "unsupported_or_unchecked": "None found."
+  },
+  "compared_at_utc": "2026-10-02T16:19:43Z"
+}

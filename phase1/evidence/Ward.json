@@ -1,0 +1,72 @@
+{
+  "county": "Ward",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.ward.tx.us/page/ward.Elections.Results",
+  "platform": "county_pdfs",
+  "host": "www.co.ward.tx.us",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/7228/2026%20RUN%20OFF%20RESULTS.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http URL works over https. No Clarity site (elections.json 404). The Election Results page links files on www.co.ward.tx.us and newtools.cira.state.tx.us (the county site's file host). 2026 runoff: '2026 RUN-OFF RESULTS' is a 3-page scanned PDF (no text layer; read by viewing the rendered pages) headed 'Cumulative Results Report ... WARD COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Unofficial Results', with county totals by Absentee, Early, Election Day and Provisional voting and no precinct rows; CreationDate 2026-05-27 01:19:02 UTC (8:19 PM CDT) and Last-Modified Wed, 27 May 2026 01:23:23 GMT (8:23 PM CDT). Party 'CANVASS MAY 26, 2026' files are posted separately (after the night). 2024 general: '2024 General Election Cumulative Totals Report' is a scan with CreationDate 2024-11-07 14:26 UTC and Last-Modified Thu, 07 Nov 2024 14:39:28 GMT (after election night); 2026 primary: only a notice of canvass, early voter check-ins and hand count certificates are listed, no results file. Check 3 pending for 2024 general and 2026 primary (origin/wayback-data branch not found).",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER: the election-night upload is county totals only, precinct-level canvass posted later), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'2024 General Election Cumulative Totals Report' scanned PDF uploaded Thu, 07 Nov 2024 14:39:28 GMT (after election night); no election-night posting visible. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No results file listed for the March 2026 primary (notice of canvass, early voters, hand count certificates only). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:23 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/7228/2026%20RUN%20OFF%20RESULTS.pdf",
+      "fact": "'Cumulative Results Report WARD COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Unofficial Results' county totals only (Ken Paxton 279, John Cornyn 120 with Election Day Voting column); CreationDate 2026-05-27 01:19 UTC, Last-Modified 2026-05-27 01:23 UTC; precinct-level numbers only in the later party canvass files."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.ward.tx.us/page/ward.Elections.Results",
+      "via": "fetch_module",
+      "content_hash": "68b03c544b448bb30d985db98d68b38b764e4b4ace196300b104d66cf9756e66",
+      "quote": "2026 RUN-OFF RESULTS ; DEMOCRAT CANVASS MAY 26, 2026 ; REPUBLICAN CANVASS MAY 26, 2026 ; 2024 General Election Cumulative Totals Report",
+      "supports": "report list"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/7228/2026%20RUN%20OFF%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "cdc05676b54da969f07db20832664be389a01022fc8876cdbbdb475efe104d35",
+      "quote": "Cumulative Results Report WARD COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Page 1 ... Unofficial Results (scanned; Last-Modified Wed, 27 May 2026 01:23:23 GMT)",
+      "supports": "2026_runoff LATER"
+    },
+    {
+      "url": "https://www.co.ward.tx.us/upload/page/7228/docs/2024%20Elections/2024%20General%20Election/2024%20General%20Election%20Total%20Count.pdf",
+      "via": "fetch_module",
+      "content_hash": "d754009790a2e47e8d078b22012d3557ec74a70d0105b1d7a18b92ba18fe0d46",
+      "quote": "Last-Modified: Thu, 07 Nov 2024 14:39:28 GMT (scan)",
+      "supports": "2024 report posted after election night"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "county": "Kimble",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.kimble.tx.us/page/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.kimble.tx.us",
+  "evidence_url": "https://www.co.kimble.tx.us/upload/page/0089/Final%20Cumulative%20Results-3-3-2026%2009-12-51%20PM.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.kimble.tx.us/ works over https. No Clarity site (elections.json 404). Results are Microsoft Reporting Services 'Cumulative Results Report' PDFs (county totals, 7 precincts) posted on the Elections page (2026) and Elections Archive page (2024). No precinct-by-precinct report is listed for any of the three elections, so precinct numbers are never published online. Server Last-Modified values differ per file (meaningful); 2024 and 2026 primary unofficial reports were uploaded on election night; the runoff copy found was re-uploaded 30 Jun 2026. 2024 archive entry over http returned 403 (this sandbox's egress block (body 'Host not in allowlist: www.co.kimble.tx.us. Add this host to your network egress settings to allow access.'), not a county response; on 2026-10-03 the http URL loads, redirected to https); https works. Rule 43 applied 2026-10-02 (normalize-1): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:34 CT. Targeted pass 4 2026-10-03 (targeted4-K): no election changed. The retried http archive link for the 2024 general (earlier HTTP 403 for research-5 was this sandbox's egress block (body 'Host not in allowlist: www.co.kimble.tx.us. Add this host to your network egress settings to allow access.'), not a county response) redirects to the https file already recorded: same bytes (content hash ee0c40dc...), Last-Modified Wed, 06 Nov 2024 04:00:43 GMT (10:00 PM CST Nov 5), CreationDate Wed Nov 6 03:53:58 2024 UTC, Run Time 9:53 PM; county totals by Absentee / Early / Election Day only ('Precinct' appears only in 'Precincts Reporting' and 'County Commissioner, Precinct 1/3'). Confirms 2024_general LATER. 1 fetch (cache).",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 22:00 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.kimble.tx.us/upload/page/0097/Final%20Cumulative%20Results-11-5-2024%2010-23-14%20PM.pdf",
+      "fact": "Archive page 'GENERAL ELECTION RESULTS' PDF: 'Cumulative Results Report KIMBLE COUNTY, TEXAS ... Unofficial Results ... Official Election Day Tally ... Precincts Reporting 7 of 7 ... Run Time 9:53 PM Run Date 11/05/2024'; county totals only; Last-Modified Wed, 06 Nov 2024 04:00:43 GMT (10:00 PM CST Nov 5). No precinct report listed for this election; precinct numbers never published online."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:23 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.kimble.tx.us/upload/page/0089/Final%20Cumulative%20Results-3-3-2026%2009-12-51%20PM.pdf",
+      "fact": "'Unofficial Joint Primary Results 3.3.2026' PDF: 'Cumulative Results Report ... PRIMARY ELECTION ... Election Night ... Precincts Reporting 7 of 7 ... Run Time 9:12 PM Run Date 03/03/2026'; county totals only (the word Precinct appears only in 'Precincts Reporting' and office names); original copy Last-Modified Wed, 04 Mar 2026 03:23:39 GMT (9:23 PM CST Mar 3); a later copy in /2026/ has Last-Modified 30 Jun 2026. Only cumulative, reconciliation, hand-count audit and official totals reports listed; no precinct report."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 19:34 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.kimble.tx.us/upload/page/0089/2026/TOTAL%20Cumulative%20Results-5-26-2026%2007-34-52%20PM.pdf",
+      "fact": "'Unofficial Results - Cumulative Report' PDF: 'Cumulative Results Report ... PRIMARY RUNOFF ELECTION ... Precincts Reporting 7 of 7 ... Run Time 7:34 PM Run Date 05/26/2026'; county totals only; Last-Modified Tue, 30 Jun 2026 19:15:31 GMT (re-upload; no election-night upload time). 'Official Results' is also a cumulative report. No precinct report listed. Rule 43: county totals first seen 2026-05-26 19:34 CT in 'Unofficial Results - Cumulative Report' (TOTAL Cumulative Results-5-26-2026 07-34-52 PM.pdf), county totals, 'Run Time 7:34 PM Run Date 05/26/2026'."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.kimble.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "0bc217884a95a2396621b64335819690de11ca91cb67989f5f6c182eeb117d23",
+      "quote": "Official Results | Unofficial Results - Cumulative Report | Preliminary Election Reconciliation - Unofficial Totals | ... Unofficial Joint Primary Results 3.3.2026",
+      "supports": "2026 report lists, no precinct reports"
+    },
+    {
+      "url": "https://www.co.kimble.tx.us/page/Elections-Archive",
+      "via": "fetch_module",
+      "content_hash": "8d2b994d25922d9da58d40ed2aab80871a4ec19f883ee440f5550fd681eee75d",
+      "quote": "GENERAL ELECTION RESULTS | Final Cumulative Results-11-5-2024 10-23-14 PM.pdf",
+      "supports": "2024 report list"
+    },
+    {
+      "url": "https://www.co.kimble.tx.us/upload/page/0097/Final%20Cumulative%20Results-11-5-2024%2010-23-14%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "ee0c40dce67f37c9ce992f86aab5f907320e2f2fe81fa1d37b0f31a39230c1e6",
+      "quote": "Cumulative Results Report ... Run Time 9:53 PM Run Date 11/05/2024",
+      "supports": "2024 county totals on election night (Last-Modified 06 Nov 2024 04:00:43 GMT)"
+    },
+    {
+      "url": "https://www.co.kimble.tx.us/upload/page/0089/Final%20Cumulative%20Results-3-3-2026%2009-12-51%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "946bb4a99d08c8c29ec7cb728dbd6d43cf2cab6fa4cc56d13913c3122a395523",
+      "quote": "Cumulative Results Report ... PRIMARY ELECTION ... Election Night ... Run Time 9:12 PM",
+      "supports": "2026_primary county totals on election night (Last-Modified 04 Mar 2026 03:23:39 GMT)"
+    },
+    {
+      "url": "https://www.co.kimble.tx.us/upload/page/0089/2026/TOTAL%20Cumulative%20Results-5-26-2026%2007-34-52%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "2084a47a907e16907bbd729255ed8c6d5197a1f71f15c7590f93dab90e2d16dc",
+      "quote": "Cumulative Results Report ... PRIMARY RUNOFF ELECTION ... Run Time 7:34 PM Run Date 05/26/2026",
+      "supports": "2026_runoff county totals only"
+    },
+    {
+      "url": "http://www.co.kimble.tx.us/upload/page/0097/Final%20Cumulative%20Results-11-5-2024%2010-23-14%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "ee0c40dce67f37c9ce992f86aab5f907320e2f2fe81fa1d37b0f31a39230c1e6",
+      "quote": "Cumulative Results Report KIMBLE COUNTY, TEXAS ... GENERAL ELECTION ... Official Election Day Tally ... Precincts Reporting 7 of 7 ... Run Time 9:53 PM Run Date 11/05/2024 (Last-Modified Wed, 06 Nov 2024 04:00:43 GMT)",
+      "supports": "confirms 2024_general LATER: archive link as written (http) redirects to the same county-totals file, uploaded 10:00 PM CST election night; earlier http 403 was the sandbox block"
+    }
+  ]
+}

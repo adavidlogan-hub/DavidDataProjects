@@ -1,0 +1,93 @@
+{
+  "county": "Nueces",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Nueces/125938/",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368417/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 20:22 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Clarity elections.json for Nueces exists but its newest listing is 'November 3, 2020 General Election' (EID 106208); none of the three target elections is listed and no county link to a newer Clarity EID was found. County site: seed http://www.co.nueces.tx.us/ returned HTTP 403, https://www.nuecesco.com/ returned HTTP 403, and https://www.nuecescountytx.gov/ (domain from the SOS contact email) was refused by the fetch module (robots_disallowed_or_unreachable). One web search did not locate a county results page; a Yahoo re-post of a Corpus Christi Caller-Times runoff results story was fetched but contains no link to county or Clarity results. Check 1 and check 2 therefore could not be done. Check 3 pending: origin/wayback-data not present. Targeted pass 2026-10-02 (targeted-Nueces): no election decided; nothing changed except this note. Tried: (1) Clarity EID discovery via news links: KRIS 6 runoff story (published 2024-05-29 09:40 CT) links https://results.enr.clarityelections.com/TX/Nueces/121711/web.317647/ for the May 28 2024 primary runoff (not a target election), which shows Nueces still used Clarity in mid-2024 though elections.json stops at 2020; no link to a Clarity EID for Nov 5 2024, Mar 3 2026 or May 26 2026 was found on KRIS 6, KZTV, KIII, Yahoo/AOL Caller-Times re-posts, or City of Corpus Christi election pages, so check 1 with --eid could not be run. (2) County site: https://nuecesco.com/county-services/county-clerk/elections-department/election-history/-folder-126 returned HTTP 403 (bot protection, not bypassed); nuecescountytx.gov refused by robots/unreachable. (3) Wayback CDX query for results.enr.clarityelections.com/TX/Nueces/ was refused by the fetch module (robots_disallowed_or_unreachable); main harvest folder has no captures (co.nueces.tx.us CDX refused). (4) Targeted archives: phase1/targeted/archives/Nueces and phase1/targeted/wayback/Nueces not on origin/wayback-data at three checks (none of phase1/targeted exists yet). (5) Check 4 news: KRIS 6 Nov 5 2024 Pct 1 story (published 2024-11-05 22:57 CT) gives county-level percentages only; KRIS 6 2026 Election Day Blog (2026-03-03) links only to KRIS's own results page; KIII article pages returned HTTP 403; AOL re-posts returned 404 or a different article; no news page with per-precinct candidate votes found. (6) City of Corpus Christi posted Nueces County Hart reports for its own races: unofficial cumulative (Run Date 11/07/2024 3:31 PM, county totals by vote type, not election night) and official canvass precinct report (Run Date 11/14/2024); neither is election-night evidence. Leads: corpuschristitx.gov 2026 Election Results page says live results are on the county website via an 'Election Night Results' link (likely a Clarity EID); targeted archives for Nueces still pending; Ballotpedia (HTTP 202 bot wall) citations may carry the Clarity EIDs. Targeted pass 2026-10-02 (orchestrator): Clarity election IDs found by bounded ID search (DECISIONS 51); all three elections decided by check 1.",
+  "tag_rationale": "Clarity update logs show election-day precinct numbers released repeatedly on election night in the Nov 2024 general and Mar 2026 primary (LIVE, LIVE); the May 2026 runoff kept precinct values protected (LATER). Two of three elections are LIVE.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-05 20:22 CT",
+      "night_updates_with_precinct_numbers": "8",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Nueces/122486/351432/reports/detailxml.zip",
+      "fact": "Clarity EID 122486 (November 5, 2024 General Election; detail.xml Region Nueces, ElectionDate 11/5/2024). 8 distinct election-day precinct releases across 12 election-night updates: 8:22 PM CST (120 precincts), 8:32, 8:55, 9:12, 9:28, 9:45, 9:58, 10:25 PM (177 precincts)."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-03 20:04 CT",
+      "night_updates_with_precinct_numbers": "9",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Nueces/125938/368417/reports/detailxml.zip",
+      "fact": "Clarity EID 125938 (March 3, 2026 Joint Primary Election; Region Nueces, ElectionDate 3/3/2026). 9 distinct election-day precinct releases across 10 election-night updates from 8:04 PM CST (83 precincts) to 11:14 PM (131 precincts)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 19:02 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Nueces/126381/372929/reports/detailxml.zip",
+      "fact": "Clarity EID 126381 (May 26, 2026 Primary Runoff Election; Region Nueces, ElectionDate 5/26/2026). 7 election-night updates from 7:02 PM CDT carry county totals, but every precinct value is marked 'protected' in every published version; precinct numbers never appear on Clarity."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Nueces/elections.json",
+      "via": "clarity_script",
+      "quote": "EID 106208 November 3, 2020 General Election (newest listing)",
+      "supports": "target elections not on Clarity list",
+      "content_hash": "a315482c4d93a378e1e548754d61fa1e01a8ef0a68e387500144f11c1e94790c"
+    },
+    {
+      "url": "http://www.co.nueces.tx.us/",
+      "via": "fetch_module",
+      "quote": "HTTP 403",
+      "supports": "county site blocked",
+      "content_hash": "d18471587546ad6a098bb61df49a8fd7e5f347913098c7209021d2711f835e9f"
+    },
+    {
+      "url": "https://www.nuecesco.com/",
+      "via": "fetch_module",
+      "quote": "HTTP 403",
+      "supports": "county site blocked",
+      "content_hash": "f49e0d98cc90e613ffe050ef7f098c504d46ddce07ecea49f88debd174a4dbaa"
+    },
+    {
+      "url": "websearch:?q=nueces%20county%20election%20results%20march%203%202026%20primary",
+      "via": "websearch",
+      "quote": "See 2026 primary runoff election results for Nueces, area counties (yahoo.com)",
+      "supports": "locating only; no county results page found",
+      "content_hash": "3b0005948d45e22148ff100d243ffcb1c065962781bd06450ee43bd0d2bb8e1b"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Nueces/",
+      "via": "clarity_script",
+      "content_hash": "",
+      "quote": "Election IDs 122486, 125938, 126381 found by the bounded ID search (phase1/checks/clarity_eid_probe/Nueces.json, DECISIONS 51) and confirmed by Region and ElectionDate in detail.xml; update logs in phase1/checks/clarity/Nueces.json",
+      "supports": "all three elections"
+    },
+    {
+      "url": "https://www.kristv.com/",
+      "via": "websearch",
+      "content_hash": "",
+      "quote": "KRIS 6 story (2024-05-29) linking Clarity EID 121711 for the May 2024 runoff showed Nueces used Clarity (lead, found by targeted-Nueces)",
+      "supports": "lead"
+    }
+  ]
+}

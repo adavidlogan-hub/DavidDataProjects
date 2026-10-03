@@ -1,0 +1,350 @@
+{
+  "county": "Bastrop",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122753",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "346975",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/346975/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347303",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/347303/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347446",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/347446/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347448",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/347448/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347490",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/347490/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347491",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/347491/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347577",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/347577/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/19/2024 6:42:13 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347578",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/347578/reports/detailxml.zip",
+              "content_hash": "cd014a85e19a54e2852f98e652b145885919061eb8d3404a8774ba7c7c64c2e5",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 8:18:59 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 1395,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "351384",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/351384/reports/detailxml.zip",
+              "content_hash": "f49cfc68854fd994214313ff5bb5da9b24f4df2fba879c668f0b943ed4503f04",
+              "election_night": true
+            },
+            {
+              "version": "352384",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/352384/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 11:35:09 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 3966,
+              "precincts_with_election_day_votes": 26,
+              "election_day_precinct_vote_sum": 158192,
+              "version": "352888",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/352888/reports/detailxml.zip",
+              "content_hash": "c20af0fb302adafcf11e2f1fb30e3bf97a9c59c86bdedd6f1f8e24262bd692d6",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/12/2024 5:00:39 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 3968,
+              "precincts_with_election_day_votes": 26,
+              "election_day_precinct_vote_sum": 158445,
+              "version": "354476",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/354476/reports/detailxml.zip",
+              "content_hash": "43ed1c58c651e5cb31ece545a72219d3da47f45582534ffb9a1a40174e0a222e",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/15/2024 8:03:59 AM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 3968,
+              "precincts_with_election_day_votes": 26,
+              "election_day_precinct_vote_sum": 158445,
+              "version": "355048",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/355048/reports/detailxml.zip",
+              "content_hash": "daa223b68b14f4a1db7858f981861d372363b264a1091e8ae2e093a30c2d4c11",
+              "election_night": false
+            },
+            {
+              "timestamp": "12/13/2024 8:10:44 AM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 3968,
+              "precincts_with_election_day_votes": 26,
+              "election_day_precinct_vote_sum": 158445,
+              "version": "356001",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/356001/reports/detailxml.zip",
+              "content_hash": "55d211de4edbac1202b0435a88bc5e6204a0eab7e79323bf2506ec0c6dd373e6",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 2,
+          "election_night_updates_with_precinct_votes": 2,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 8:18:59 PM CST",
+            "version": "351384",
+            "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/351384/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 1,
+          "election_night_distinct_election_day_precinct_releases": 1,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 11:35:09 PM CST",
+            "version": "352888",
+            "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/352888/reports/detailxml.zip"
+          },
+          "unreadable_versions": 8
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126012",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368166",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368166/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368181",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368181/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368182",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368182/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368193",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368193/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368194",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368194/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/24/2026 11:58:37 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368195",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368195/reports/detailxml.zip",
+              "content_hash": "56913b31abd4eaa689e4fc18ba24ca5d379f585d3b7d057472cc1c2ff973b4c3",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/2/2026 9:30:54 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368303",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368303/reports/detailxml.zip",
+              "content_hash": "e05c52a99ac696c876c28a56328067a634e17b162f1cd3bec100bd3500cb701d",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 8:28:11 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 7612,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368435",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368435/reports/detailxml.zip",
+              "content_hash": "36f9bbfd648918301617ddda9e09bc037501585094dc182f7a892c04969f216b",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:58:29 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 11937,
+              "precincts_with_election_day_votes": 26,
+              "election_day_precinct_vote_sum": 219545,
+              "version": "368507",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368507/reports/detailxml.zip",
+              "content_hash": "7ff595c46fa0f7b7c175f171c76f00afe2ca2703f78c268df02e6a5ef6b3d5de",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:03:08 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 11986,
+              "precincts_with_election_day_votes": 26,
+              "election_day_precinct_vote_sum": 243544,
+              "version": "368540",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368540/reports/detailxml.zip",
+              "content_hash": "51ea18d93ce2bd1d82457239b36e56614beea6c814550f1b4766292d788e2fd5",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/10/2026 11:08:52 AM CDT",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 12009,
+              "precincts_with_election_day_votes": 26,
+              "election_day_precinct_vote_sum": 243934,
+              "version": "368721",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368721/reports/detailxml.zip",
+              "content_hash": "b0ebcbf20b214d68ba8f58807d43ea12eae09bc877d4f9c917a183b73bc78526",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 3,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 8:28:11 PM CST",
+            "version": "368435",
+            "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368435/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 2,
+          "election_night_distinct_election_day_precinct_releases": 2,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 9:58:29 PM CST",
+            "version": "368507",
+            "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368507/reports/detailxml.zip"
+          },
+          "unreadable_versions": 5
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126363",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "370987",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/370987/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "370988",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/370988/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "370989",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/370989/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "370990",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/370990/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/11/2026 11:02:46 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "370991",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/370991/reports/detailxml.zip",
+              "content_hash": "0095cb70c42a5afcdf0a1e5394bbf9131de610da9a9e6df1d5cf7448c1f15018",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:16:18 PM CDT",
+              "precincts_with_votes": 4,
+              "nonzero_precinct_vote_cells": 128,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372936",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/372936/reports/detailxml.zip",
+              "content_hash": "facf5a9423182e7d731538c4c6f1c70b1c8b0c7a9a07fc79d51c7b7d04d292c8",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:12:08 PM CDT",
+              "precincts_with_votes": 4,
+              "nonzero_precinct_vote_cells": 192,
+              "precincts_with_election_day_votes": 4,
+              "election_day_precinct_vote_sum": 12348,
+              "version": "373011",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/373011/reports/detailxml.zip",
+              "content_hash": "458e58221410d4831e28f1fc8c2730f150d1802e14396f0ac64f751188196f98",
+              "election_night": true
+            },
+            {
+              "timestamp": "6/2/2026 10:05:56 AM CDT",
+              "precincts_with_votes": 4,
+              "nonzero_precinct_vote_cells": 192,
+              "precincts_with_election_day_votes": 4,
+              "election_day_precinct_vote_sum": 12361,
+              "version": "373407",
+              "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/373407/reports/detailxml.zip",
+              "content_hash": "6d0b27af1ac2e755ff9a4d2532cf147043e53513cc0f9c1e07ed5001be677a3d",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 2,
+          "election_night_updates_with_precinct_votes": 2,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 7:16:18 PM CDT",
+            "version": "372936",
+            "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/372936/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 1,
+          "election_night_distinct_election_day_precinct_releases": 1,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/26/2026 9:12:08 PM CDT",
+            "version": "373011",
+            "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/373011/reports/detailxml.zip"
+          },
+          "unreadable_versions": 4
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122753",
+    "2026_primary": "126012",
+    "2026_runoff": "126363"
+  }
+}

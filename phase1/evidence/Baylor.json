@@ -1,0 +1,72 @@
+{
+  "county": "Baylor",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.baylor.tx.us/page/baylor.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.baylor.tx.us",
+  "evidence_url": "https://www.co.baylor.tx.us/upload/page/9603/2026/baylor_county_2026_primary_election_results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works. No Clarity site (elections.json 404). The Elections page posts scanned Electionware 'Summary Results Report ... UNOFFICIAL RESULTS' files (county totals; Baylor has 4 precincts, 'Precincts Reporting 4 of 4'); no precinct-by-precinct report is posted for any target election. 2024 general summary printed 10:11 PM election night but uploaded Wed, 06 Nov 2024 17:20:30 GMT (11:20 AM CST next day). 2026 primary summary printed 7:59 PM and uploaded 8:26 PM CST on election night. The 2026 runoff has only a post-election hand count certification, no results file; check 3 pending for the runoff (wayback-data branch not found on origin). Scanned PDFs read visually (OCR text layer partly garbled).",
+  "tag_rationale": "2024 general and 2026 primary are both LATER (county totals only, no precinct numbers posted online), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because the 2024 file was uploaded after election night.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-06 11:20 CT (server upload; printed 2024-11-05 22:11)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.baylor.tx.us/upload/page/9603/2024/nov._5_2024_general_election_summary_report_2.pdf",
+      "fact": "'Unofficial General Election Results' = scanned 'Summary Results Report UNOFFICIAL RESULTS TX Baylor County 241105 General 6110 November 5, 2024 Baylor County', county totals by Absentee/Early Voting/Election Day, footer 'Election Summary - 11/05/2024 10:11 PM' (OCR); Last-Modified Wed, 06 Nov 2024 17:20:30 GMT. No precinct-level report posted for this election."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 20:26 CT (server upload; printed 19:59)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.baylor.tx.us/upload/page/9603/2026/baylor_county_2026_primary_election_results.pdf",
+      "fact": "'Baylor County 2026 Primary Elections Results' = scanned 'Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Baylor County, Texas', county totals ('REP County Judge ... Precincts Reporting 4 of 4'), footer 'Election Summary - 03/03/2026 7:59 PM'; Last-Modified Wed, 04 Mar 2026 02:26:27 GMT. Only other primary result file is the local canvass. No precinct-level report posted."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Summary and Certification of Post-Election Hand Count Audit Results' for the May 26, 2026 runoff is posted; no results file. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.baylor.tx.us/page/baylor.Elections",
+      "via": "fetch_module",
+      "quote": "Baylor County 2026 Primary Elections Results; Unofficial General Election Results; Summary and Certification of Post-Election Hand Count Audit Results",
+      "supports": "County-posted result files",
+      "content_hash": "27e0e11e135d2ad9bb84f2caf3a613f1bc1ef7ea8882fe0fffdbb6cc343a02ea"
+    },
+    {
+      "url": "https://www.co.baylor.tx.us/upload/page/9603/2024/nov._5_2024_general_election_summary_report_2.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Baylor County 241105 General ... Election Summary - 11/05/2024 10:11 PM",
+      "supports": "2024 general county totals, uploaded next morning",
+      "content_hash": "d10ac917b8e53b0f48191a20604389648263dce6a398ba0ee22018c2c402f078"
+    },
+    {
+      "url": "https://www.co.baylor.tx.us/upload/page/9603/2026/baylor_county_2026_primary_election_results.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Baylor County, Texas ... Election Summary - 03/03/2026 7:59 PM",
+      "supports": "2026 primary county totals uploaded 8:26 PM CST",
+      "content_hash": "a038840d532166eb9ed6304dd3678e2eb7d8238895dadbdb662e02cb99343a57"
+    }
+  ]
+}

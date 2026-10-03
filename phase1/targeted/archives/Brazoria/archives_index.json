@@ -1,0 +1,44 @@
+{
+  "county": "Brazoria",
+  "generated_utc": "2026-10-02T21:28:36Z",
+  "lookups": [
+    {
+      "url": "https://www.brazoriacountyclerktx.gov/departments/elections/election-results",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.brazoriacountyclerktx.gov/departments/elections/election-results",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.brazoriacountyclerktx.gov/departments/elections/election-results",
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
+          "mementos": []
+        }
+      }
+    },
+    {
+      "url": "https://www.brazoriacountytx.gov/departments/elections",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.brazoriacountytx.gov/departments/elections",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.brazoriacountytx.gov/departments/elections",
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
+          "mementos": []
+        }
+      }
+    }
+  ]
+}

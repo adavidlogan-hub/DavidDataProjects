@@ -1,0 +1,79 @@
+{
+  "county": "Bee",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.beecounty.gov/277/2026-Elections",
+  "platform": "county_pdfs",
+  "host": "www.beecounty.gov",
+  "evidence_url": "https://www.beecounty.gov/DocumentCenter/View/3269/Unofficial-Cumulative-Report-w-Preliminary-Reconciliation-PDF",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed host www.co.bee.tx.us is unreachable (robots.txt fetch: connection reset), so the fetch module refuses it. One web search located the current site www.beecounty.gov (CivicPlus; DocumentCenter sends no Last-Modified header, so no upload times). No Clarity site (elections.json 404). 2026 runoff: 'Unofficial Cumulative Report w Preliminary Reconciliation' is a Hart-style county-total report run 9:11 PM election night; the only other runoff results file is 'Official Results with Reconciliation'. 2026 primary: Elections History lists only 'March 3, 2026 Preliminary Election Reconciliation' and a hand count certification, no results file. 2024 general: a single 'November 5, 2024 General Election (PDF)' (not opened; one file cannot show election-night timing). Check 3 pending for 2024 general and 2026 primary (wayback-data branch not found on origin).",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER: election-night county totals, no unofficial precinct report), so by rule the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Elections History lists a single 'November 5, 2024 General Election (PDF)'; no separate election-night file. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Elections History lists only 'March 3, 2026 Preliminary Election Reconciliation (PDF)' and a post-election hand count certification; no results file. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:11 CT (printed run time; PDF created 21:23 CT)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.beecounty.gov/DocumentCenter/View/3269/Unofficial-Cumulative-Report-w-Preliminary-Reconciliation-PDF",
+      "fact": "'Unofficial Cumulative Report w Preliminary Reconciliation (PDF)' = 'Cumulative Results Report BEE COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION Unofficial Reports Polling Places Reporting 6 of 6 = 100.00% Run Time 9:11 PM Run Date 05/26/2026', county totals by Absentee/Early/Election Day; PDF CreationDate Wed May 27 02:23:20 2026 UTC; no Last-Modified. Other runoff results: 'Official Results with Reconciliation' and 'Primary Runoff Official Results with Election Reconciliation'."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.beecounty.gov/277/2026-Elections",
+      "via": "fetch_module",
+      "quote": "May 26, 2026 PRIMARY RUNOFF ELECTIONS Voting Reports Official Results with Reconciliation (PDF) Reconciliation of Total Votes Cast at Each Polling Location (PDF) Unofficial Cumulative Report w Preliminary Reconciliation (PDF)",
+      "supports": "Runoff report list",
+      "content_hash": "e7aa696586fba80449aa7200c4f7e2d63ae433430884546f6ef858b01236bc48"
+    },
+    {
+      "url": "https://www.beecounty.gov/DocumentCenter/View/3269/Unofficial-Cumulative-Report-w-Preliminary-Reconciliation-PDF",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report BEE COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION ... Run Time 9:11 PM Run Date 05/26/2026",
+      "supports": "Runoff election-night results are county totals",
+      "content_hash": "c2570b4dfabf5c852cd78550929d32793f23dd350089adbf65a9785e9e4d6239"
+    },
+    {
+      "url": "https://www.beecounty.gov/216/Elections-History",
+      "via": "fetch_module",
+      "quote": "March 3, 2026 Preliminary Election Reconciliation (PDF); November 5, 2024 General Election (PDF)",
+      "supports": "Primary and 2024 general postings",
+      "content_hash": "3dcaa00ce4c863464cdb054a63affae419a07b4b1166d1f87322d69990ef2afe"
+    },
+    {
+      "url": "https://www.beecounty.gov/277/2026-Elections",
+      "via": "websearch",
+      "content_hash": "492917128524e3024f1995e5da0306eb174b1cb106b0d705e7ef54929d34933b",
+      "quote": "2026 Elections https://www.beecounty.gov/277/2026-Elections",
+      "supports": "Located current county site (search text is not evidence)"
+    }
+  ]
+}

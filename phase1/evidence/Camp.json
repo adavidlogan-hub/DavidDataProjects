@@ -1,0 +1,79 @@
+{
+  "county": "Camp",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.camp.tx.us/page/camp.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.camp.tx.us",
+  "evidence_url": "https://www.co.camp.tx.us/upload/page/3384/2026/Primary Election/RESULTS/UNOFFICAL FINAL RESULTS.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Election Information page posts one unofficial county-totals file per election (Electionware 'Summary Results Report' or the SOS 'Election Unofficial Results Report') and later official canvass reports; no unofficial precinct-level report is posted for any target election, and the 2024 general has no precinct-level file at all (the 'Official Canvass Precinct Summary' on the page belongs to the Nov 4, 2025 election). 2024 general and 2026 primary unofficial files were printed and uploaded on election night; the 2026 runoff unofficial file (printed 8:54 PM) was uploaded May 28.",
+  "tag_rationale": "All three elections are LATER (county totals only; precinct numbers only in official canvass reports or never posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the 2024 general and 2026 primary were settled by check 2 with printed and upload times on election night.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 22:24 CT (server upload; printed 22:00)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.camp.tx.us/upload/page/3384/SUBMITTED SOS.pdf",
+      "fact": "'Unofficial Election Night Results' (SUBMITTED SOS.pdf, title 'report - 2024-11-05T220001.052.pdf') = 'Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 CAMP County' (county totals); PDF CreationDate Wed Nov 6 04:01:24 2024 UTC; Last-Modified Wed, 06 Nov 2024 04:24:32 GMT. Only other 2024 general result file is 'OFFICIAL RESULTS - Election Summary'; no precinct-level results posted."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 22:28 CT (server upload; printed 22:05)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.camp.tx.us/upload/page/3384/2026/Primary Election/RESULTS/UNOFFICAL FINAL RESULTS.pdf",
+      "fact": "'UNOFFICIAL FINAL RESULTS - REPUBLICAN PRIMARY' = 'Summary Results Report UNOFFICIAL FINAL RESULTS REPUBLICAN PRIMARY March 3, 2026 Camp County ... Precincts Complete 4 of 4', county totals, footer 'Election Summary - 03/03/2026 10:05 PM'; Last-Modified Wed, 04 Mar 2026 04:28:55 GMT. Other primary results are 'CANVASS REPORT ... OFFICIAL FINAL RESULTS'."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-28 18:16 CT (server upload; printed 2026-05-26 20:54)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.camp.tx.us/upload/page/3384/2026/PRIMARY RUNOFF/REP DEM PRIMARY RUNOFF RESULTS.pdf",
+      "fact": "'Unofficial Results' = 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election REPUBLICAN & DEMOCRATIC May 26, 2026 Camp County ... Election Day Precincts Reporting 4 of 4', county totals, footer 'Election Summary - 05/26/2026 8:54 PM'; Last-Modified Thu, 28 May 2026 23:16:42 GMT. Other runoff result file is 'OFFICIAL CANVASS REPORT ELECTION SUMMARY'."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.camp.tx.us/page/camp.Elections",
+      "via": "fetch_module",
+      "quote": "Unofficial Results -> REP DEM PRIMARY RUNOFF RESULTS.pdf; UNOFFICIAL FINAL RESULTS - REPUBLICAN PRIMARY; NOVEMBER 5, 2024 GENERAL ELECTION OFFICIAL RESULTS - Election Summary ... Unofficial Election Night Results",
+      "supports": "County-posted report list",
+      "content_hash": "aad1c9f370e150a506c5625f383b291b5cb9dafd497308f8afc740dfa1a55694"
+    },
+    {
+      "url": "https://www.co.camp.tx.us/upload/page/3384/SUBMITTED SOS.pdf",
+      "via": "fetch_module",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION ... CAMP County",
+      "supports": "2024 election-night county totals uploaded 10:24 PM CST",
+      "content_hash": "08f016520917ebbe4ee8312bfc8b0efd3ff3b1e89e55b72a2412909ebdecf0cc"
+    },
+    {
+      "url": "https://www.co.camp.tx.us/upload/page/3384/2026/Primary Election/RESULTS/UNOFFICAL FINAL RESULTS.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL FINAL RESULTS REPUBLICAN PRIMARY ... Election Summary - 03/03/2026 10:05 PM",
+      "supports": "Primary election-night county totals uploaded 10:28 PM CST",
+      "content_hash": "8fd9664268fd50e6c9603ae707881e66d367be9547b85c81742229d68ce0f57a"
+    },
+    {
+      "url": "https://www.co.camp.tx.us/upload/page/3384/2026/PRIMARY RUNOFF/REP DEM PRIMARY RUNOFF RESULTS.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election ... Election Summary - 05/26/2026 8:54 PM",
+      "supports": "Runoff county totals uploaded May 28",
+      "content_hash": "ff6a5d7bffac74b2429109ca33a55de588bfc8ab977463db35aeb33a52b95bde"
+    }
+  ]
+}

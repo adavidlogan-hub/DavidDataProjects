@@ -1,0 +1,54 @@
+{
+ "county": "Mitchell",
+ "reason_selected": "low confidence",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "co.mitchell.tx.us/page/Elections.Past lists 2025 only; no 2024 results found. No wayback folder for this county, check 3 pending."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"20260303 - Primary - Unofficial Results.pdf\": \"Summary Results Report UNOFFICIAL RESULTS ... Summary ... Mitchell County\", county totals; CreationDate 4 Mar 2026 02:52 UTC (8:52 PM CST), Last-Modified Wed 04 Mar 2026 03:45:53 GMT = 9:45 PM CST. Precinct numbers first in \"332026 Pct by Pct - REP Official Results.pdf\" (\"OFFICIAL RESULTS Summary - PCT by PCT - REP\", printed \"Precinct Summary - 03/04/2026 4:38 PM\"), Last-Modified Thu 05 Mar 2026 20:28:22 GMT."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "\"5.26.2026 Summary Pct by Pct - Official Results.pdf\" returns HTTP 404; other runoff files are official summaries and reconciliations. No election-night file listed. No wayback folder for this county, check 3 pending."
+  }
+ },
+ "rationale": "Only the primary is determined (LATER, check 2), so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+ "sources": [
+  {
+   "url": "https://www.co.mitchell.tx.us/page/Elections.2026",
+   "content_hash": "105e5e76ae70eed50c89313fa36572039db0cd1af2c7f9b54763f566267e9703",
+   "what_i_checked": "results list"
+  },
+  {
+   "url": "https://www.co.mitchell.tx.us/upload/page/0094/docs/20260303/20260303 - Primary - Unofficial Results.pdf",
+   "content_hash": "6e32b2214b92b3a8d2ced2fdef54949e7c45a6c9330e131c234b92da2da4ae07",
+   "what_i_checked": "county totals, uploaded 9:45 PM CST"
+  },
+  {
+   "url": "https://www.co.mitchell.tx.us/upload/page/0094/docs/20260303/332026 Pct by Pct - REP Official Results.pdf",
+   "content_hash": "e089903e36fa4bce50ba5ca7546d80d9ac095fb189b7aa1c52d48342a0730ede",
+   "what_i_checked": "precinct, printed 3/4 4:38 PM, uploaded 3/5"
+  },
+  {
+   "url": "https://www.co.mitchell.tx.us/upload/page/0094/2026/5.26.2026 Summary Pct by Pct - Official Results.pdf",
+   "content_hash": "",
+   "what_i_checked": "HTTP 404"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same.",
+  "2026_primary": "same (LATER: totals uploaded 9:45 PM CST, precinct report uploaded 5 Mar).",
+  "2026_runoff": "same (UNDETERMINED). Research lists the runoff \"Summary PCT by PCT - Official Results\" as posted; that link returned HTTP 404 to me."
+ }
+}

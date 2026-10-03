@@ -1,0 +1,216 @@
+{
+  "county": "Bell",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122428",
+          "name": "2024 General Election",
+          "updates": [
+            {
+              "version": "345739",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/345739/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345740",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/345740/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345741",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/345741/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "9/20/2024 4:30:09 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "345742",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/345742/reports/detailxml.zip",
+              "content_hash": "ac7ae6f7943020f5b64098e350900a06b4cb88d8b2075029a5fee7a496dd61de",
+              "election_night": false
+            },
+            {
+              "version": "346091",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/346091/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346093",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/346093/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346094",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/346094/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346095",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/346095/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346098",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/346098/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346101",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/346101/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346109",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/346109/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/18/2024 7:55:44 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347462",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/347462/reports/detailxml.zip",
+              "content_hash": "e834f82687e3260414603f549d08fb35aabcd99784bf21611b89f3db16a32af9",
+              "election_night": false
+            },
+            {
+              "version": "349321",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/349321/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 8:36:42 PM CST",
+              "precincts_with_votes": 64,
+              "nonzero_precinct_vote_cells": 6859,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "351588",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/351588/reports/detailxml.zip",
+              "content_hash": "457402b4f8bb7e3232b6439bdfb6588c89dda67fe0cb2313e1803ee35ef67b2b",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:15:44 PM CST",
+              "precincts_with_votes": 64,
+              "nonzero_precinct_vote_cells": 10140,
+              "precincts_with_election_day_votes": 64,
+              "election_day_precinct_vote_sum": 127744,
+              "version": "351964",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/351964/reports/detailxml.zip",
+              "content_hash": "1c2b1594e9e6f4b1e443f1dc8361d9553cedb49eafe9c0fc41a115a00f16c331",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:46:05 PM CST",
+              "precincts_with_votes": 64,
+              "nonzero_precinct_vote_cells": 10269,
+              "precincts_with_election_day_votes": 64,
+              "election_day_precinct_vote_sum": 253757,
+              "version": "352273",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/352273/reports/detailxml.zip",
+              "content_hash": "5eac0a3228317e81932f4331cefeb19969106bbc3893d9843b78e96ea72b648b",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:20:51 PM CST",
+              "precincts_with_votes": 64,
+              "nonzero_precinct_vote_cells": 10326,
+              "precincts_with_election_day_votes": 64,
+              "election_day_precinct_vote_sum": 383100,
+              "version": "352553",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/352553/reports/detailxml.zip",
+              "content_hash": "8a489bb61d3eab1979db6080645945c87b9b1b4353f3cdb297f13c6e51b8cc91",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:52:59 PM CST",
+              "precincts_with_votes": 64,
+              "nonzero_precinct_vote_cells": 10378,
+              "precincts_with_election_day_votes": 64,
+              "election_day_precinct_vote_sum": 495195,
+              "version": "352731",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/352731/reports/detailxml.zip",
+              "content_hash": "ddef3f517aa6afcbb72975d2eb5f0fa5bc52df2e2428b3c3c964345cc08ec025",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:33:25 PM CST",
+              "precincts_with_votes": 64,
+              "nonzero_precinct_vote_cells": 10392,
+              "precincts_with_election_day_votes": 64,
+              "election_day_precinct_vote_sum": 593784,
+              "version": "352879",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/352879/reports/detailxml.zip",
+              "content_hash": "35bfc1636ebaa86dc505b9aed57aa165b5a33ef0f5662e48741df11abcf51051",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:35:15 AM CST",
+              "precincts_with_votes": 64,
+              "nonzero_precinct_vote_cells": 10397,
+              "precincts_with_election_day_votes": 64,
+              "election_day_precinct_vote_sum": 656353,
+              "version": "353050",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/353050/reports/detailxml.zip",
+              "content_hash": "b81a0ca5464b891aeb69532b65194886453825d06a247bb4d46aa9ad8d703827",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/12/2024 7:07:08 PM CST",
+              "precincts_with_votes": 64,
+              "nonzero_precinct_vote_cells": 10410,
+              "precincts_with_election_day_votes": 64,
+              "election_day_precinct_vote_sum": 658526,
+              "version": "354503",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/354503/reports/detailxml.zip",
+              "content_hash": "98993ca479b2e25961e29d5bc583e7c38fb6ab63c22e80085559d63a191e162c",
+              "election_night": false
+            },
+            {
+              "timestamp": "12/11/2024 8:35:28 AM CST",
+              "precincts_with_votes": 64,
+              "nonzero_precinct_vote_cells": 10410,
+              "precincts_with_election_day_votes": 64,
+              "election_day_precinct_vote_sum": 658526,
+              "version": "355990",
+              "url": "https://results.enr.clarityelections.com/TX/Bell/122428/355990/reports/detailxml.zip",
+              "content_hash": "b00b64745155c7a12499e0f612705ebf63fc1b532eacced494b096ede89554e4",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 7,
+          "election_night_updates_with_precinct_votes": 7,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 8:36:42 PM CST",
+            "version": "351588",
+            "url": "https://results.enr.clarityelections.com/TX/Bell/122428/351588/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 6,
+          "election_night_distinct_election_day_precinct_releases": 6,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 9:15:44 PM CST",
+            "version": "351964",
+            "url": "https://results.enr.clarityelections.com/TX/Bell/122428/351964/reports/detailxml.zip"
+          },
+          "unreadable_versions": 11
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": false,
+      "note": "election not listed on this county's Clarity site"
+    },
+    "2026_runoff": {
+      "found": false,
+      "note": "election not listed on this county's Clarity site"
+    }
+  }
+}

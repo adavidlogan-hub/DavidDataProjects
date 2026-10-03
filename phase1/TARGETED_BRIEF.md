@@ -1,0 +1,15 @@
+# Targeted pass brief (largest UNKNOWN counties)
+
+Applies on top of phase1/CHECKLIST_BRIEF.md (all of its rules, including LATER rule 43 and END rule 47, still apply). Public online sources only; never contact a county; never guess; never get around bot protection or robots.txt.
+
+## Additional sources allowed in this pass
+1. **More archives (check 3, extended).** Besides the Wayback harvest, results of a targeted search are published to the wayback-data branch under phase1/targeted/:
+   - phase1/targeted/archives/<County>/archives_index.json: mementos from the Memento aggregator (many public web archives) and archive.today for the county's results URLs, with saved copies of non-Wayback captures between 7 PM election night and 9 AM the next morning.
+   - phase1/targeted/wayback/<County>/index.json: Wayback captures of the exact results hosts from 7 PM to 9 AM, no path filter.
+   Read with `git fetch origin wayback-data` and `git show origin/wayback-data:<path>`. These may land after you start; check again before you finish. Captures after 3 AM are not election night, but a capture at, say, 7 AM showing a precinct report printed at 10 PM supports that report's existence; it does not show posting time by itself.
+2. **Check 4: third-party election-night publications.** A news or other third-party page counts only if it (a) shows per-precinct candidate votes for one of this county's races, (b) carries a published or updated time on election night, or is archived on election night, and (c) says the numbers came from the county's election-night results. Two or more distinct timestamped releases on election night give LIVE; one gives END. Record check "4". County confidence is capped at med when check 4 decides. A statement without precinct numbers (for example "precinct results will be posted") is a lead, not evidence.
+3. **Vendor data behind results pages.** Inspect the results page source for the data files it loads (JSON, XML, CSV), as Harris's app loads per-precinct files. A data file with its own timestamps or update history counts like check 1; record exactly what it shows.
+4. **Official records about the election night itself.** Commissioners court minutes, elections office post-election reports, or press releases that state when precinct-level results were posted on a specific election night are leads; they decide nothing alone but can tell you where to look.
+
+## Output
+Update phase1/evidence/<County>.json in place: change only elections your new evidence decides, set check to "1", "2", "3", or "4", add sources (via: fetch_module, wayback_branch, websearch for locating only), recompute tag with phase1.schema.compute_tag and confidence with compute_confidence (cap at med if any deciding election is check 4 or rests on the live precinct view rule; set "rule": "check4" on such elections), append the note "Targeted pass 2026-10-02 (<agent>): <what changed>", and validate with validate_v2. If nothing new is found, leave the file unchanged except the note listing what you tried.

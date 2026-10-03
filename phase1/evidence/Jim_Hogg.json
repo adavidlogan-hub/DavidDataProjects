@@ -1,0 +1,114 @@
+{
+  "county": "Jim Hogg",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.jim-hogg.tx.us/page/jim-hogg.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.jim-hogg.tx.us",
+  "evidence_url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Precinct%20Results-3-3-2026.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-04 00:41 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The county Elections page lists, per election, 'Unofficial Precinct Results' and 'Unofficial Cumulative Results' PDFs (text PDFs from the tabulation system, with Absentee, Early and Election Day columns per precinct) plus official precinct, cumulative and canvass reports. The server gives each file its own Last-Modified (not the request time), so upload times are usable; a file replaced later would hide an earlier upload. 2024 general: precinct report printed 'Run Time 7:39 PM Run Date 11/05/2024' (PDF ModDate 6 Nov 2024 02:01 UTC = 8:01 PM CST) but Last-Modified Wed, 06 Nov 2024 13:25:31 GMT = 7:25 AM CST Nov 6, after election night; the county-total report has Last-Modified 13:26:01 GMT. 2026 primary: precinct report printed 'Run Time 8:47 PM Run Date 03/03/2026', Last-Modified Wed, 04 Mar 2026 06:41:37 GMT = 12:41 AM CST, on election night; its precinct numbers equal the official precinct report (e.g. precinct 1 Jasmine Crockett 4 / 40 / 29 / 73). 2026 runoff: precinct report printed 'Run Time 7:16 PM Run Date 05/26/2026', Last-Modified Wed, 27 May 2026 18:23:42 GMT = 1:23 PM CDT May 27, after election night; numbers equal the official precinct report. Check 3 (Wayback) pending: origin/wayback-data not present, so earlier election-night uploads that were later replaced cannot be ruled out for 2024 and the runoff. Rule 43 applied 2026-10-02 (normalize-4): 2024_general LATER to UNDETERMINED; 2026_runoff LATER to UNDETERMINED. Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary END, 2026_runoff UNDETERMINED. Exactly one election is determined, so the rule gives PRECINCT_END_OF_NIGHT with confidence low. (Recomputed under Rule 43, 2026-10-02.) Rule 47 checked 2026-10-02: no change.",
+  "agent": "research-A",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-06 07:25 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2024/Precinct%20Results-11-5-2024.pdf",
+      "fact": "Rule 43: no election-night county-totals-only file survives (earliest upload 2024-11-06 07:26 CT; the county-totals report ('Election Results-11-5-2024', Run Time 7:39 PM 11/05/2024) and the precinct report ('Precinct Results-11-5-2024', Run Time 7:39 PM 11/05/2024, per-precinct Election Day Voting, e.g. precinct 1 Trump 92 / Harris 67) were run together on election night and uploaded together 2024-11-06 07:25-07:26 CT, so nothing shows county totals alone that night). Previous: 'Precinct Results-11-5-2024' PDF: 'Precinct Results Report ... Unofficial Results ... ELECTION RESULTS 11-5-2024 GENERAL ELECTION ... Run Time 7:39 PM Run Date 11/05/2024'; per-precinct Absentee, Early and Election Day votes; server Last-Modified Wed, 06 Nov 2024 13:25:31 GMT (7:25 AM CST Nov 6). Precinct numbers with election-day votes were uploaded after election night."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 00:41 CT",
+      "precinct_first_seen": "2026-03-04 00:41 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Precinct%20Results-3-3-2026.pdf",
+      "fact": "'Unofficial Precinct Results 3-3-2026' PDF: 'Precinct Results Report ... Unofficial Results ... PRIMARY ELECTION ... Run Time 8:47 PM Run Date 03/03/2026'; precinct 1 'Jasmine Crockett 4 16.67% 40 40.40% 29 37.18% 73 36.32%' (Election Day column included); Last-Modified Wed, 04 Mar 2026 06:41:37 GMT (12:41 AM CST). Same numbers as the Official Precinct Results run 03/09/2026. Rule 47: publication shown by upload time 2026-03-04 00:41 CT in Unofficial Precinct Results-3-3-2026.pdf."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-27 13:23 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Precinct%20Results.pdf",
+      "fact": "Rule 43: no election-night county-totals-only file survives (earliest upload 2026-05-27 13:23 CT; the county-totals report ('Unofficial Cumulative Results', Run Time 7:15 PM 05/26/2026) and the precinct report ('Unofficial Precinct Results', Run Time 7:16 PM 05/26/2026, per-precinct Election Day Voting, e.g. precinct 1 Goodwin 1) were run together on election night and uploaded together 2026-05-27 13:23 CT, so nothing shows county totals alone that night). Previous: 'Unofficial Precinct Results' PDF: 'Precinct Results Report ... Unofficial Results ... Primary Run-Off 5-26-26 ... Run Time 7:16 PM Run Date 05/26/2026'; Last-Modified Wed, 27 May 2026 18:23:42 GMT (1:23 PM CDT May 27); county-total report Last-Modified 18:23:19 GMT. Precinct numbers were uploaded after election night."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2024/Precinct%20Results-11-5-2024.pdf",
+      "via": "fetch_module",
+      "content_hash": "31303a37c59d6119295b41536cc9dff760ddcf25b63aced15abff616a6764ebb",
+      "quote": "Precinct Results Report ... Run Time 7:39 PM Run Date 11/05/2024 (Last-Modified Wed, 06 Nov 2024 13:25:31 GMT)",
+      "supports": "2024_general LATER"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2024/Election%20Results-11-5-2024.pdf",
+      "via": "fetch_module",
+      "content_hash": "b80d39690bd5ed394fbcc5437c82fcc3da9c5bfdd0905c5a16208b82046c8146",
+      "quote": "Cumulative Results Report ... Run Time 7:39 PM (Last-Modified Wed, 06 Nov 2024 13:26:01 GMT)",
+      "supports": "2024 county totals upload time"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Precinct%20Results-3-3-2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "02e5ca26b1826aadbe716c28ec1bc5cec7e0d6128b6432383192cb876fc7b051",
+      "quote": "Precinct Results Report ... Unofficial Results ... Run Time 8:47 PM Run Date 03/03/2026 (Last-Modified Wed, 04 Mar 2026 06:41:37 GMT)",
+      "supports": "2026_primary END"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Cumulative%20Results-3-3-2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "7bfbeeec18605518792223ecf263636a92ced1d707030987733b160904c37be4",
+      "quote": "Cumulative Results Report ... Run Time 8:46 PM (Last-Modified Wed, 04 Mar 2026 06:41:12 GMT)",
+      "supports": "2026_primary county totals"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Official%20Precinct%20Results-3-9-2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "497cb7643260091d7597ccdd8b21e602d1f3b3f9ffe58dcba26a11e9d737c910",
+      "quote": "Precinct Results Report ... Official Results ... Run Date 03/09/2026",
+      "supports": "unofficial precinct numbers equal final"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Precinct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "8c39b7e0e4873c206023722b431f84e0f09e6ee1ac0aa44e51800f4e31f43d40",
+      "quote": "Precinct Results Report ... Primary Run-Off 5-26-26 ... Run Time 7:16 PM (Last-Modified Wed, 27 May 2026 18:23:42 GMT)",
+      "supports": "2026_runoff LATER"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/2026/Unofficial%20Cumulative%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "3b934ab1b42fbcea71c36c616921b298aa2bdfa45f778acf5d286ac8ec521201",
+      "quote": "Cumulative Results Report ... Run Time 7:15 PM (Last-Modified Wed, 27 May 2026 18:23:19 GMT)",
+      "supports": "2026_runoff county totals upload time"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/upload/page/9530/Official%20Precinct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "56c56a192a057d7bea63d84d949933a6a1fb6f48f4ef5e507c630710db5accb0",
+      "quote": "Precinct Results Report ... Official Results ... Run Date 06/03/2026",
+      "supports": "runoff canvass precinct report"
+    },
+    {
+      "url": "https://www.co.jim-hogg.tx.us/page/jim-hogg.Elections",
+      "via": "fetch_module",
+      "content_hash": "6b80d1c46929f0849ba943ac29f5cf89ca969a7e240692d36f1c262bdc78c972",
+      "quote": "May 26, 2026 Joint Primary Run-Off Election ... Unofficial Precinct Results ... Unofficial Cumulative Results",
+      "supports": "report list per election"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+ "county": "Bandera",
+ "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No Clarity site (elections.json 404). Past results page posts \"November 5, 2024 General Election Precinct Results\" but the file is the official report, \"Run Date 04/04/2025\"; no election-night file survives. /page/open/ host gives no Last-Modified. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Only \"Official Precinct Results March 3rd Primary\": Precinct Results Report, Official Results, Run Date 03/09/2026 12:27 PM. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_runoff": {
+   "result": "END",
+   "check": "2",
+   "fact": "\"Precinct Results-5-26-2026\": Precinct Results Report, \"Unofficial Results\", 10 of 10 precincts, columns Absentee/Early/Election Day, \"Run Time 9:45 PM Run Date 05/26/2026\"; PDF CreationDate 2026-05-27 02:45 UTC (9:45 PM CDT). Server sends no Last-Modified, so upload time is unknown (printed time only)."
+  }
+ },
+ "rationale": "Only the runoff is determined, from a printed election-night run time on an unofficial precinct report (no upload evidence). One determined election gives PRECINCT_END_OF_NIGHT at low confidence.",
+ "sources": [
+  {
+   "url": "https://www.banderacounty.gov/page/elections.current.elections",
+   "content_hash": "3642df916e01f20fc67ab968cec9d5838e72933aded49af266f8d5507cb71b19",
+   "what_i_checked": "current election files (runoff, primary)"
+  },
+  {
+   "url": "https://www.banderacounty.gov/page/elections.past.results",
+   "content_hash": "66dccb329cab55e8b32fee2d6e95570393352124290dbf3550951b0870ba81ce",
+   "what_i_checked": "past results list (2024)"
+  },
+  {
+   "url": "https://www.banderacounty.gov/page/open/1938/0/Precinct%20Results-5-26-2026",
+   "content_hash": "ebb79bf20aaa4858b53e959a69934c19b856bc55e1985c9bb5ebff40c90073ed",
+   "what_i_checked": "runoff unofficial precinct report: title, run time 9:45 PM, no Last-Modified"
+  },
+  {
+   "url": "https://www.banderacounty.gov/page/open/1754/0/November%205,%202024%20General%20Election%20Precinct%20Results",
+   "content_hash": "0367db379eecc66fe160c81885b5947a4ea00f3c5f7fe4fd9278d3018ad8c3cb",
+   "what_i_checked": "2024 precinct report is official, run date 04/04/2025"
+  },
+  {
+   "url": "https://www.banderacounty.gov/page/open/1890/0/Official%20Precinct%20Results%20March%203rd%20Primary",
+   "content_hash": "e26806879415547313ee0da62f08825aafdd0ce98f312cd95703e9c9b6885963",
+   "what_i_checked": "primary official precinct report, run date 03/09/2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (END from printed run time 9:45 PM only; no upload time)."
+ }
+}

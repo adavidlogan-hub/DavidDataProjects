@@ -1,0 +1,65 @@
+{
+  "county": "Deaf Smith",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.deaf-smith.tx.us/page/deafsmith.County.Clerk",
+  "platform": "county_pdfs",
+  "host": "www.co.deaf-smith.tx.us",
+  "evidence_url": "https://www.co.deaf-smith.tx.us/upload/page/8035/Cumulative%20Results-3-3-2026%2007-52-39%20PM.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.deaf-smith.tx.us/default.aspx?Deaf-Smith_County/County.Clerk replaced by https://www.co.deaf-smith.tx.us/page/deafsmith.County.Clerk, where election files are posted (the 'Election Administrator' page has none). No Clarity or vendor link. Only Hart cumulative (county total) reports are posted; no precinct-level results for any listed election. Last-Modified values differ per file and look like real upload times. 2024 general and 2026 runoff undetermined (check 3 pending; wayback-data branch not on origin).",
+  "tag_rationale": "Only the 2026 primary is determined (LATER, check 2: county totals only on election night, no precinct results posted). With exactly one election determined the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The County Clerk page lists no 2024 general election results. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 20:08 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.deaf-smith.tx.us/upload/page/8035/Cumulative%20Results-3-3-2026%2007-52-39%20PM.pdf",
+      "fact": "'UNOFFICIAL CUMULATIVE RESULTS 3.3.2026 JOINT PRIMARY ELECTIONS' is a Hart 'Cumulative Results Report DEAF SMITH COUNTY, TEXAS Unofficial Results PRIMARY ELECTION ... Precincts Reporting 4 of 4 = 100.00% ... Run Time 7:51 PM Run Date 03/03/2026' (county totals incl. Election Day). PDF CreationDate 2026-03-04 01:52:43 UTC; Last-Modified Wed, 04 Mar 2026 02:08:00 GMT (8:08 PM CST). No precinct-level primary results file is posted, before or after the canvass."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "For the May 26 runoff the page lists only '5.26.2026 Primary Runoff Official Cumulative Results', reconciliation forms and the partial manual count; nothing shows what was posted on election night. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.deaf-smith.tx.us/page/deafsmith.County.Clerk",
+      "via": "fetch_module",
+      "content_hash": "267e735bf4984f5fcc93b24792ac3a30a29ff5ebb1ea7c701bb94c111c259575",
+      "quote": "UNOFFICIAL CUMULATIVE RESULTS 3.3.2026 JOINT PRIMARY ELECTIONS; 5.26.2026 Primary Runoff Official Cumulative Results",
+      "supports": "County Clerk page result links"
+    },
+    {
+      "url": "https://www.co.deaf-smith.tx.us/upload/page/8035/Cumulative%20Results-3-3-2026%2007-52-39%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "fb4ab41c674289b1b6e9d7d5a86d6a0fb4d406bfcea8841c6c181f3d8859a314",
+      "quote": "Cumulative Results Report DEAF SMITH COUNTY, TEXAS Unofficial Results ... Precincts Reporting 4 of 4 = 100.00% Run Time 7:51 PM Run Date 03/03/2026",
+      "supports": "Primary county totals uploaded 2026-03-04 02:08:00 GMT"
+    }
+  ]
+}

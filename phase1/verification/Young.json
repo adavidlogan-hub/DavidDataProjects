@@ -1,0 +1,51 @@
+{
+  "county": "Young",
+  "reason_selected": "random 10 percent sample",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'UNOFFICIAL Election Results November 5th, 2024' (unofficial_cumulative_results1152024.pdf): 'Cumulative Results Report YOUNG COUNTY, TEXAS Unofficial Results GENERAL ELECTION ... Run Time 9:21 PM ... Run Date 11/05/2024', county totals by vote type (Trump/Vance Election Day Voting 1,204, Total 7,269); PDF CreationDate Nov 6 03:21 UTC (9:21 PM CST). Last-Modified Wed, 06 Nov 2024 13:12:14 GMT (7:12 AM next day). No per-precinct results posted for this election."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections page lists no March 3, 2026 primary results. Check 3 pending (no wayback folder)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'UNOFFICAL - May 26th Runoff Results' (May 26th Unofficial.pdf): 'Cumulative Results Report YOUNG COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION ... Run Time 7:50 PM ... Run Date 05/26/2026', county totals with an Election Day Voting column; Last-Modified Wed, 27 May 2026 01:08:01 GMT = 8:08 PM CDT election night. No per-precinct results posted (only a notice of canvass)."
+    }
+  },
+  "rationale": "2024 general and 2026 runoff LATER (county-total cumulative reports printed on election night, no precinct results posted), primary undetermined, so COUNTY_ONLY_PRECINCT_AT_CANVASS. Low: the 2024 file was uploaded the next morning, so only the runoff has both times on election night.",
+  "sources": [
+    {
+      "url": "https://www.co.young.tx.us/page/young.Elections",
+      "what_i_checked": "results file list",
+      "content_hash": "45654927b608c5c24616bc65461217925ac274e7f672317558d937e9a1d6a58a"
+    },
+    {
+      "url": "https://www.co.young.tx.us/upload/page/2681/2026/May 26th Unofficial.pdf",
+      "what_i_checked": "runoff cumulative run 7:50 PM, uploaded 01:08 GMT May 27",
+      "content_hash": "c430aa1adfd25a008d75a2b4b5fcec7479380313d6f9928783686dc4d1f39433"
+    },
+    {
+      "url": "https://www.co.young.tx.us/upload/page/2681/2024/unofficial_cumulative_results1152024.pdf",
+      "what_i_checked": "2024 cumulative run 9:21 PM, uploaded 13:12 GMT Nov 6",
+      "content_hash": "eefa79d1d70e3df37592d7969aa9680b3a6f3f7d2c92bba45c90a8bb67fbea36"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:34:11Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LATER, check 2). Both: cumulative run 9:21 PM Nov 5, Last-Modified 13:12:14 GMT Nov 6, county totals, no precinct report. Research puts the upload time (07:12 CT next morning) in county_totals_first_seen; the election-night evidence is the printed run time.",
+    "2026_primary": "same (UNDETERMINED).",
+    "2026_runoff": "same (LATER, check 2). Both: cumulative run 7:50 PM, Last-Modified 01:08:01 GMT (8:08 PM CDT).",
+    "unsupported_or_unchecked": "None found."
+  },
+  "compared_at_utc": "2026-10-02T16:34:17Z"
+}

@@ -1,0 +1,93 @@
+{
+  "county": "Menard",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.menard.tx.us/page/menard.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.menard.tx.us",
+  "evidence_url": "https://www.co.menard.tx.us/upload/page/0215/Elections/2026/Runoff/20260526201711scan.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://co.menard.tx.us/ returned HTTP 403; https://co.menard.tx.us/ failed TLS (certificate not valid for that hostname). One web search located the elections page https://www.co.menard.tx.us/page/menard.Elections, but the fetch module refused every www.co.menard.tx.us URL (robots_disallowed_or_unreachable; its robots.txt request was reset by the peer), so no results page, report list, or Last-Modified header could be read. No Clarity site (elections.json 404). Check 3 pending: origin/wayback-data not present. Targeted pass 3 2026-10-02 (targeted3-E): the fetch module now reaches www.co.menard.tx.us (earlier robots.txt reset was transient). The Elections page links an 'Election Night Results' file for each election. 2026_primary UNDETERMINED to LATER (check 2): cumulative county-totals report, run 8:48 PM, uploaded 8:56 PM CST Mar 3. 2026_runoff UNDETERMINED to LATER (check 2): cumulative county-totals scan, run 7:38 PM, uploaded 8:35 PM CDT May 26. No precinct results files listed for either. 2024_general ENR file 404, stays UNDETERMINED. Sweep: no folder.",
+  "tag_rationale": "2026_primary and 2026_runoff are LATER (election-night county-totals reports uploaded that night, no precinct results posted), so COUNTY_ONLY_PRECINCT_AT_CANVASS; both from check 2, so med.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.menard.tx.us/upload/page/0215/Menard%20County%202024%20Nov%205%20ENR.pdf",
+      "fact": "Elections page lists 'Election Night Results / Resultados de la noche de las elecciones' linking to 'Menard County 2024 Nov 5 ENR.pdf', but that file returned HTTP 404 to the fetch module on 2026-10-02, so its content and times cannot be read. Wayback harvest could not query (robots_disallowed_or_unreachable at the time)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 20:48 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.menard.tx.us/upload/page/0215/Elections/2026/Primary/Cumulative%20Results-3-3-2026%2008-49-21%20PM.pdf",
+      "fact": "Elections page links 'ELECTION NIGHT RESULTS' to 'Cumulative Results-3-3-2026 08-49-21 PM.pdf' (18 pages, text layer): 'Cumulative Results Report MENARD COUNTY, TEXAS Unofficial Results ... PRIMARY ELECTION ... Run Time 8:48 PM ... Run Date 03/03/2026', county totals by 'Absentee Voting / Early Voting / Election Day Voting / Total' (for example 'James Talarico 0 0.00% 23 69.70% 13 72.22% 36 69.23%'); no per-precinct numbers. CreationDate Wed Mar 4 2026 02:49:35 UTC; Last-Modified Wed, 04 Mar 2026 02:56:15 GMT (8:56 PM CST Mar 3, election night). No other primary results file is listed (only sample ballots, notices, and hand count audit certifications)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 19:38 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.menard.tx.us/upload/page/0215/Elections/2026/Runoff/20260526201711scan.pdf",
+      "fact": "Elections page links 'Election Night Results' to '20260526201711scan.pdf' (scanned, 2 pages, read from page images): 'Cumulative Results Report MENARD COUNTY, TEXAS ... 2026 May 26 Official Joint Primary Runoff ... Run Time 7:38 PM Run Date 05/26/2026 ... Unofficial Results ... Precincts Reporting 6 of 6 = 100.00%', county totals by 'Early Voting / Election Day Voting / Total' (for example 'John Cornyn 61 43.57% 31 32.98% 92 39.32%'); page 2 Democratic, Run Time 7:40 PM. Last-Modified Wed, 27 May 2026 01:35:21 GMT (8:35 PM CDT May 26, election night). (CreationDate reads Wed May 27 02:17:34 2026 UTC, which is after the upload time; the file name stamp 20260526201711 suggests the scanner wrote local 8:17 PM with a wrong offset.) No other runoff results file is listed."
+    }
+  },
+  "sources": [
+    {
+      "url": "http://co.menard.tx.us/",
+      "via": "fetch_module",
+      "quote": "HTTP 403",
+      "supports": "seed site blocked",
+      "content_hash": "bf5f0b2a2b0e5db558936f4f60a02a4f61d739e0c947316604b329e4f532ee7c"
+    },
+    {
+      "url": "websearch:?q=menard%20county%20texas%20election%20results",
+      "via": "websearch",
+      "quote": "Menard County, Texas https://www.co.menard.tx.us/page/menard.Elections",
+      "supports": "locating only",
+      "content_hash": "dc77bd4fb080ec7a293964342a6e5a9865818531aa6c93c5927a6b309fe96e38"
+    },
+    {
+      "url": "https://www.co.menard.tx.us/page/menard.Elections",
+      "via": "fetch_module",
+      "content_hash": "cd38d3915f443376d35ccf79bae8dbbab32c8d1a15371b48f6e2c98de6b20c25",
+      "quote": "/upload/page/0215/Elections/2026/Runoff/20260526201711scan.pdf | Election Night Results ; /upload/page/0215/Elections/2026/Primary/Cumulative Results-3-3-2026 08-49-21 PM.pdf | ELECTION NIGHT RESULTS ; /upload/page/0215/Menard County 2024 Nov 5 ENR.pdf | Election Night Results / Resultados de la noche de las elecciones",
+      "supports": "the county posts one election-night results file per election"
+    },
+    {
+      "url": "https://www.co.menard.tx.us/upload/page/0215/Elections/2026/Primary/Cumulative%20Results-3-3-2026%2008-49-21%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "9d2df242e9d7b84b969026f6fed48bbcc1a9147978ac61ae9955360a1c8fe77d",
+      "quote": "Cumulative Results Report MENARD COUNTY, TEXAS Unofficial Results ... Run Time 8:48 PM ... Run Date 03/03/2026 (Last-Modified Wed, 04 Mar 2026 02:56:15 GMT)",
+      "supports": "2026_primary LATER: county totals uploaded on election night"
+    },
+    {
+      "url": "https://www.co.menard.tx.us/upload/page/0215/Elections/2026/Runoff/20260526201711scan.pdf",
+      "via": "fetch_module",
+      "content_hash": "4ab7bb8784ecbc8166a8581fd9f52bd2ed3aee236f29d606c45551cea1c54510",
+      "quote": "Cumulative Results Report MENARD COUNTY, TEXAS ... Run Time 7:38 PM Run Date 05/26/2026 ... Precincts Reporting 6 of 6 = 100.00% (read from page image; Last-Modified Wed, 27 May 2026 01:35:21 GMT)",
+      "supports": "2026_runoff LATER: county totals uploaded on election night"
+    },
+    {
+      "url": "https://www.co.menard.tx.us/upload/page/0215/Menard%20County%202024%20Nov%205%20ENR.pdf",
+      "via": "fetch_module",
+      "content_hash": "f67fc72af6821a0fd2461c9336df4c49fbb8ed1b8f5caedf85baf2648594ecdd",
+      "quote": "HTTP 404",
+      "supports": "2024_general file linked but not retrievable"
+    }
+  ]
+}

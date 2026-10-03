@@ -1,0 +1,86 @@
+{
+  "county": "Carson",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.carson.tx.us/page/carson.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.carson.tx.us",
+  "evidence_url": "https://www.co.carson.tx.us/upload/page/1423/2026/2026%20May%2026/ELECTION-UNOFFICIAL-RESULT-REPORT_94037_1779847152460.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.co.carson.tx.us/default.aspx?Carson_County/Home returned 403; https://www.co.carson.tx.us/ works and links the elections page. No Clarity or other vendor link found. Carson posts PDFs on its elections page; Last-Modified headers vary per file and look like real upload times. For the 2024 general and 2026 primary only official grand-total files remain, so election night cannot be judged (check 3 pending; wayback-data branch not on origin). The 'Preliminary Election Reconciliation' PDF (Last-Modified 2026-06-01) has no candidate numbers.",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER, check 2: county totals uploaded 9:05 PM CDT, no precinct numbers posted). With exactly one election determined the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The elections page links only 'Grandtotal110524.pdf' (Electionware 'OFFICIAL RESULTS ... Official Results Grand Total NOV 5, 2024', printed 11/13/2024 5:37 PM, Last-Modified Mon, 18 Nov 2024 19:01:34 GMT). Nothing shows what was posted on election night. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The elections page links only '030326 Official Grand Total.pdf' (Electionware 'March 3 2026 Joint Primary Official Results Grand Total', printed 03/12/2026 2:09 PM, Last-Modified Thu, 12 Mar 2026 21:39:35 GMT), county totals only. Nothing shows what was posted on election night. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:05 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.carson.tx.us/upload/page/1423/2026/2026%20May%2026/ELECTION-UNOFFICIAL-RESULT-REPORT_94037_1779847152460.pdf",
+      "fact": "Election-night upload is 'Unofficial Republican Totals' = 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 CARSON County' (county totals by vote method only), PDF CreationDate 2026-05-27 01:59:12 UTC, Last-Modified Wed, 27 May 2026 02:05:48 GMT (9:05 PM CDT). No per-precinct candidate numbers are posted at all: 'Carson Co Official Results 05262026.pdf' is an Electionware 'Grand Total' (printed 06/04/2026 12:12 PM, Last-Modified 2026-06-04 19:08 GMT) and the canvass files are SOS 'Canvass County Votes Report' county totals."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.carson.tx.us/page/carson.Elections",
+      "via": "fetch_module",
+      "content_hash": "d9b8953603f70f5277f6685dc3dfe3e0b7e2abfabe6eeadcc5a270f5b24d3f7e",
+      "quote": "May 26, 2026 Joint Primary Runoff; March 3, 2026 Joint Primary Election; November 5, 2024 General Election; Unofficial Republican Totals; Unofficial Democratic Totals; Official Results; Rep Canvass Results",
+      "supports": "County elections page listing result files"
+    },
+    {
+      "url": "https://www.co.carson.tx.us/upload/page/1423/2026/2026%20May%2026/ELECTION-UNOFFICIAL-RESULT-REPORT_94037_1779847152460.pdf",
+      "via": "fetch_module",
+      "content_hash": "2e83b1e83b7be64ff2b3d1452123af56fd130f5f43ac164ffe1b9605655f0787",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 CARSON County",
+      "supports": "Runoff election-night county totals; Last-Modified 2026-05-27 02:05:48 GMT"
+    },
+    {
+      "url": "https://www.co.carson.tx.us/upload/page/1423/2026/2026%20May%2026/Carson%20Co%20Official%20Results%2005262026.pdf",
+      "via": "fetch_module",
+      "content_hash": "e7ab68fd2664920f2de45da53c2a794e09610fe1789bcaea4f1dce6f6b137437",
+      "quote": "Summary Results Report May 26, 2026 Joint Primary Runoff Official Results ... Grand Total ... Election Summary - 06/04/2026 12:12 PM",
+      "supports": "Runoff official results are grand totals only, posted 2026-06-04"
+    },
+    {
+      "url": "https://www.co.carson.tx.us/upload/page/1423/2026/030326%20Official%20Grand%20Total.pdf",
+      "via": "fetch_module",
+      "content_hash": "8c04a9cde2ba5691bc615c28ebe621bde3264c03a21967295212b543faa1674a",
+      "quote": "March 3 2026 Joint Primary Official Results Grand Total ... Election Summary - 03/12/2026 2:09 PM",
+      "supports": "Primary file is official grand total posted 2026-03-12"
+    },
+    {
+      "url": "https://www.co.carson.tx.us/upload/page/1423/2024/november%205,%202024/Grandtotal110524.pdf",
+      "via": "fetch_module",
+      "content_hash": "41f2ced00ed5b1248fe1e78a06303ded82477dfd3dc765c0d01810f1124fbbc8",
+      "quote": "OFFICIAL RESULTS TX Carson County 241105 General 611 O Official Results Grand Total NOV 5, 2024",
+      "supports": "2024 general file is official grand total posted 2024-11-18"
+    }
+  ]
+}

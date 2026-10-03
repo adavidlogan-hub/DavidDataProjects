@@ -1,0 +1,76 @@
+{
+  "county": "Midland",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://votemidlandtx.gov/archived-election-results/",
+  "platform": "unknown",
+  "host": "votemidlandtx.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Midland County, Texas (Midland County, Michigan results on app.enhancedvoting.com and midlandcountymi.gov appeared in results and were ignored). Results page votemidlandtx.gov 'Election Results' (archived-election-results) plus 'Results Prior to 2022'; the county also posted a CivicAlerts news item 'Election Night Results: March 3, 2026 - Midland County, TX' (co.midland.tx.us/CivicAlerts.aspx?AID=485). No result-file URLs (pdf or vendor host) were visible, so platform is unknown. LEAD only (search summary, plausibly from the CivicAlerts item but not quoted verbatim): 'Early voting results were posted after 7PM once all voters had completed voting, and election day results were posted as vote center information was received and tabulated.' This describes overall results by vote center batch, not precinct-level detail, and is summary-only, so it cannot support a tag. Another summary lead says the site has archived precinct-by-precinct reports, with no posting time. Phone (432) 688-4890 and email rolgin@co.midland.tx.us appeared only in a search summary, not attributed verbatim to the county staff directory page (co.midland.tx.us/directory.aspx?did=81), so left empty. May 2026 news 'Midland county launches new election website' is a site redesign, not a stated change to precinct-level reporting, so stated_change_2026=n. No usage notice seen verbatim. Fetch module: 2 direct attempts (CivicAlerts item, results page) plus wayback_probe (3 CDX windows) on votemidlandtx.gov/, all robots_disallowed_or_unreachable. WebFetch: 1 attempt on firstalert7.com, EGRESS_BLOCKED.",
+  "tag_rationale": "No citable source states when precinct-level results appeared on election night; the only timing text is a search-summary lead about vote-center batch results. Tag UNKNOWN.",
+  "sources": [
+    {
+      "url": "https://votemidlandtx.gov/archived-election-results/",
+      "via": "websearch",
+      "query": "Midland County elections administrator election results",
+      "quote": "Election Results",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.co.midland.tx.us/CivicAlerts.aspx?AID=485",
+      "via": "websearch",
+      "query": "Midland County Texas election night precinct results",
+      "quote": "Election Night Results: March 3, 2026 - Midland County, TX",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.co.midland.tx.us/directory.aspx?did=81",
+      "via": "websearch",
+      "query": "Midland County Texas elections office phone email",
+      "quote": "Staff Directory - Elections Office - Midland County",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.firstalert7.com/2026/05/14/midland-county-launches-new-election-website/",
+      "via": "websearch",
+      "query": "votemidlandtx.gov election results precinct report election night",
+      "quote": "Midland county launches new election website",
+      "supports": "stated_change"
+    },
+    {
+      "url": "https://www.firstalert7.com/2026/05/14/midland-county-launches-new-election-website/",
+      "via": "webfetch",
+      "query": "",
+      "quote": "attempt failed: EGRESS_BLOCKED (no content)",
+      "supports": "stated_change"
+    },
+    {
+      "url": "https://www.co.midland.tx.us/CivicAlerts.aspx?AID=485",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "attempt failed: robots_disallowed_or_unreachable (no content)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://votemidlandtx.gov/archived-election-results/",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "attempt failed: robots_disallowed_or_unreachable (no content)",
+      "supports": "results_url"
+    }
+  ],
+  "searches_run": 6,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 5,
+  "webfetch_attempts": 1,
+  "started_at_utc": "2026-10-02T14:02:16Z",
+  "agent": "research-B",
+  "finished_at_utc": "2026-10-02T14:24:47Z"
+}

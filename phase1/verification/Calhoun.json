@@ -1,0 +1,67 @@
+{
+  "county": "Calhoun",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "No Clarity site (elections.json 404). '2024 Calhoun County Unofficial Final Nov 5th General Election Results' (wp-content/uploads/2024/11/2024UnOffFinal.pdf): scanned Summary Results Report, 'Election Summary - 11/05/2024 10:20 PM', county totals (Ballots Cast 7,878), CreationDate 11/6/2024 04:17 UTC, Last-Modified 11/6/2024 04:56:17 GMT (10:56 PM CST). 'General Election Summary by Precinct' (11-05-24-General-Election-Pct-by-Pct-Report-Pct-by-Pct.pdf, UNOFFICIAL RESULTS, PCT.1 Trump Election Day 104): CreationDate 11/6/2024 19:27:51 UTC, Last-Modified 11/6/2024 19:35:40 GMT (1:35 PM CST next day). County totals on the night, precinct numbers next afternoon."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "March 3 2026 primary page lists only 'Notice of Canvass'; no result file. check 3 pending (no folder on wayback-data)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Runoff page lists only official files: precinct-level 'OFFICAL RESULTS - 2026 CALHOUN COUNTY REPUBLICAN PRIMARY RUNOFF ELECTION DAY' (PCT 1 to PCT 11 columns, e.g. JOHN CORNYN PCT 1 10), CreationDate 6/4/2026 19:40 UTC, Last-Modified 6/4/2026 20:11 GMT; no election-night file listed. Precinct numbers after election night (low certainty: night postings could have been removed)."
+    }
+  },
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'LATER', '2026_primary': 'UNDETERMINED', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in 2024_general and 2026_runoff (check 2), primary UNDETERMINED. Two share LATER, so COUNTY_ONLY_PRECINCT_AT_CANVASS; runoff rests on absence of night files, so low.)",
+  "sources": [
+    {
+      "url": "https://www.calhouncotx.org/november-5-2024-election-information/",
+      "content_hash": "8841f01f69c10762db838b520a48f7ed241d8de6a30a065b3e20e15d8c6572c9",
+      "what_i_checked": "2024 result file list"
+    },
+    {
+      "url": "https://www.calhouncotx.org/wp-content/uploads/2024/11/2024UnOffFinal.pdf",
+      "content_hash": "bb681dc4886ab7c3313df088e8e810b224a21e0d85d0ea8d4ab973e1583b0578",
+      "what_i_checked": "night county summary 10:20 PM, uploaded 10:56 PM"
+    },
+    {
+      "url": "https://www.calhouncotx.org/wp-content/uploads/2024/11/11-05-24-General-Election-Pct-by-Pct-Report-Pct-by-Pct.pdf",
+      "content_hash": "88461a7f45131093a80421dddd2118189c422a32603db0009fb51388675bca70",
+      "what_i_checked": "precinct report uploaded Nov 6 1:35 PM CST"
+    },
+    {
+      "url": "https://www.calhouncotx.org/march-5-2026-primary-election-information/",
+      "content_hash": "a64286dd3a25b2f8f1ad330202fc1964d085160b61f1787878c384afd43450b7",
+      "what_i_checked": "only Notice of Canvass"
+    },
+    {
+      "url": "https://www.calhouncotx.org/may-26-2026-primary-runoff-election-information/",
+      "content_hash": "12151d3dc723c64da73924d885cb66027ccaeefec2c7d1988aff778b7710bd9e",
+      "what_i_checked": "official files only"
+    },
+    {
+      "url": "https://www.calhouncotx.org/elections/OFFICAL RESULTS - 2026 CALHOUN COUNTY REPUBLICAN PRIMARY RUNOFF ELECTION DAY.pdf",
+      "content_hash": "6196c598a20fda83c70fc99db4c23a8be6d88366555f0d2315178875659f9d90",
+      "what_i_checked": "precinct numbers, Jun 4 2026"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LATER, check 2): night county summary 10:20 PM uploaded 04:56 GMT; precinct summary uploaded 11/6 19:35 GMT.",
+    "2026_primary": "same (UNDETERMINED): only Notice of Canvass.",
+    "2026_runoff": "different: I said LATER (only official precinct files dated 6/4/2026), research UNDETERMINED (no night file survives). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only official files dated 6/4/2026 survive; no election-night file, so UNDETERMINED (check 3 pending)); check 3 pending.",
+    "rule_43": "rule 43 re-applied"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+}

@@ -1,0 +1,132 @@
+{
+  "county": "Tarrant",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "low",
+  "elections_office_phone": "817-831-8683",
+  "elections_office_email": "caludwig@tarrantcountytx.gov",
+  "results_url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2026-archives/may-26--2026--primary-run-off-election-results.html",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2026-archives/may-26--2026--primary-run-off-election-results.html",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "UPDATE after the network opened at about 14:07 UTC: tarrantcountytx.gov became reachable through the fetch module, so the earlier search-only evidence was checked directly. FLAG FOR REVIEW. Verbatim on both the Mar 3 2026 and May 26 2026 county results pages, under 'Precinct-by-Precinct Reports': 'Important Note : The Precinct-by-Precinct reports listed below will be posted only after all polling places have reported to the counting stations.' This is a primary statement that precinct reports are not updated through the night but posted once all polling places have reported. However, the precinct report files now linked are official canvass versions: May 26 2026 precinct_rep.pdf is headed 'Official Results', Run Date 06/16/2026, HTTP Last-Modified 'Tue, 16 Jun 2026 20:03:28 GMT'; Mar 3 2026 precinct_rep.pdf 'Official Results', Run Date 03/11/2026, Last-Modified 'Mon, 16 Mar 2026 14:13:27 GMT'; Nov 5 2024 precinct.pdf 'Official Results', Run Date 11/21/2024, Last-Modified 'Thu, 21 Nov 2024 13:36:14 GMT'. The Nov 5 2024 page has no such note (it lists 'Precinct Report' with footnotes '* Note Verity Relay product wasn't used for this election' and '** Generated in the weeks after the election, expected in December.', the ** marking the scanned-tape zips). So the stated policy supports precinct reports at end of count rather than live, but the files themselves cannot show whether an unofficial precinct report was actually posted on election night or only at canvass. Tag PRECINCT_END_OF_NIGHT rests on the explicit 2026 statement; confidence low because the observable files are canvass versions and 2024 lacks the statement (2024 alone would be consistent with COUNTY_ONLY_PRECINCT_AT_CANVASS). Election-night reporting: the pages list hourly county-wide cumulative PDFs ('No Later Than 7:15 p.m. - Early Voting Results Report', '... 9 p.m.', '10 p.m.', '11 p.m.', and after midnight), e.g. Nov 5 2024 cumulative_1124_110624_1am.pdf 'Unofficial Results', Run Time 12:42 AM, Run Date 11/06/2024, Last-Modified 'Wed, 06 Nov 2024 06:58:29 GMT' (12:58 AM CT), plus a 'Graphical Election Night Reporting Tool (ENR)' on Clarity (results.enr.clarityelections.com/TX/Tarrant/122489/ for Nov 2024, /125924/ for Mar 2026, /126079/ for May 2026). Platform recorded as clarity_style for the ENR; precinct reports and hourly cumulatives are county PDFs on www.tarrantcountytx.gov. Contact: county Elections page shows 'Tarrant County Elections Administration 2700 Premier St. | Fort Worth, TX 76111 Phone: 817-831-8683'; no general elections inbox is listed there (only votebymail@ and voterregistration@), so the email is from the TX SOS list (Elections Administrator Clint A. Ludwig, (817) 831-8683, County Email Address mailto caludwig@tarrantcountytx.gov). The search summary's ElectionsInfo@tarrantcountytx.gov was not confirmed. Earlier (pre-14:07 UTC) fetch attempts and the Wayback probe failed (robots_disallowed_or_unreachable). No WebFetch attempted. No 2025 or 2026 stated change to precinct-level reporting found. Usage notice: none seen on the results pages.",
+  "tag_rationale": "Tarrant's 2026 primary and runoff results pages state verbatim that precinct-by-precinct reports will be posted only after all polling places have reported to the counting stations, i.e. with the final count rather than through the night; low confidence because the precinct files now posted are official canvass versions and the 2024 page lacks the statement.",
+  "sources": [
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2026-archives/may-26--2026--primary-run-off-election-results.html",
+      "via": "websearch",
+      "query": "\"Precinct-by-precinct reports are posted after all polling places have reported\" Tarrant",
+      "quote": "Precinct-by-precinct reports are posted after all polling places have reported",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2026-archives/may-26--2026--primary-run-off-election-results.html",
+      "via": "websearch",
+      "query": "Tarrant County precinct-by-precinct reports \"counting stations\" election results",
+      "quote": "Precinct-by-Precinct reports are posted only after all polling places have reported to the counting stations. (search summary text; page title: May 26, 2026, Primary Run-Off Election Results)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2024-archives/may-28--2024--primary-run-off-election-results.html",
+      "via": "websearch",
+      "query": "\"Precinct-by-precinct reports are posted after all polling places have reported\" Tarrant",
+      "quote": "May 28, 2024, Primary Run-Off Election Results",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2024-archives/november-5--2024--general-election-results.html",
+      "via": "websearch",
+      "query": "Tarrant County November 5 2024 precinct by precinct report election night cumulative ENR",
+      "quote": "November 5, 2024, General Election Results",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/current-election-information.html",
+      "via": "websearch",
+      "query": "Tarrant County election results precinct",
+      "quote": "Current Election Information",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2024/en24/reports/cumulative.pdf",
+      "via": "websearch",
+      "query": "Tarrant County November 5 2024 precinct by precinct report election night cumulative ENR",
+      "quote": "Cumulative Report EN24 Joint Elections Run Time Run Date 12:43 PM 05/14/2024",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2026-archives/may-26--2026--primary-run-off-election-results.html",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Important Note : The Precinct-by-Precinct reports listed below will be posted only after all polling places have reported to the counting stations. (content_hash d8418562d901)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2026-archives/march-3--2026--primary-elections-results.html",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Important Note : The Precinct-by-Precinct reports listed below will be posted only after all polling places have reported to the counting stations. (content_hash e9824bab7c1f)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections/past-election-information/2024-archives/november-5--2024--general-election-results.html",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Precinct Report * Note Verity Relay product wasn't used for this election ** Generated in the weeks after the election, expected in December. (content_hash a568e1fd63b2)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/pr26/reports/precinct_rep.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Precinct Results Report Official Results Tarrant County ... PR26 Primary Runoff Election ... Run Time 8:39 AM ... Run Date 06/16/2026; HTTP Last-Modified Tue, 16 Jun 2026 20:03:28 GMT (content_hash ea467494b623)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/pm26/reports/precinct_rep.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "REP Precinct Report Official Results ... Run Date 03/11/2026; HTTP Last-Modified Mon, 16 Mar 2026 14:13:27 GMT (content_hash 56f07a055ad2)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2024/1124/reports/precinct.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Precinct Official Results Tarrant County ... Run Time 7:19 AM ... Run Date 11/21/2024; HTTP Last-Modified Thu, 21 Nov 2024 13:36:14 GMT (content_hash b06a67381004)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2024/1124/reports/cumulative_1124_110624_1am.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Cumulative Results Report Tarrant County Unofficial Results ... Run Time 12:42 AM ... Run Date 11/06/2024; HTTP Last-Modified Wed, 06 Nov 2024 06:58:29 GMT (content_hash 9f0f82fb732c)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.tarrantcountytx.gov/en/elections.html",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Tarrant County Elections Administration 2700 Premier St. | Fort Worth, TX 76111 Phone: 817-831-8683 (content_hash af539662736c)",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "TARRANT COUNTY Elections Administrator Clint A. Ludwig ... County Email Address (817) 831-8683 (mailto:caludwig@tarrantcountytx.gov) (content_hash 065e1ebd63c5)",
+      "supports": "contact"
+    }
+  ],
+  "agent": "research-A",
+  "searches_run": 7,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 11,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T14:01:41Z",
+  "finished_at_utc": "2026-10-02T14:26:23Z"
+}

@@ -1,0 +1,79 @@
+{
+  "county": "Sutton",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.sutton.tx.us/page/sutton.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.sutton.tx.us",
+  "evidence_url": "https://www.co.sutton.tx.us/upload/page/7326/2026/Unofficial Results REP.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https; all results are on page/sutton.Elections. No Clarity site (elections.json 404). Server Last-Modified values differ by file and match scan times, so upload times are usable. Each target election has one election-night unofficial county-total summary (posted quickly after the first count; Sutton has 4 precincts) and later official results; no unofficial precinct reports. The runoff PDF CreationDate (01:11 UTC) is later than its Last-Modified (00:15 UTC), so the scanner clock is not reliable; printed footers and Last-Modified agree on election night. Official result files were not opened (post-canvass by title).",
+  "tag_rationale": "All three elections are LATER by check 2 (only county totals on election night, precinct numbers only in official results if at all), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because each night report has a printed run time and an election-night upload time.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 20:46 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.sutton.tx.us/upload/page/7326/2024/Unofficial Results General 11.5.2024.pdf",
+      "fact": "'11.5.2024 Unofficial Results General' = scanned Electionware 'Summary Results Report 2024 General Election November 5, 2024 UNOFFICIAL RESULTS Sutton County' (county totals by Absentee/Early/Election Day), footer 'Election Summary - 11/05/2024 8:36 PM'; Last-Modified Wed, 06 Nov 2024 02:46:46 GMT (8:46 PM CST Nov 5). The other 2024 results file is '11.05.2024 General Official Final Results' (official). No unofficial precinct numbers were posted."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 20:11 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.sutton.tx.us/upload/page/7326/2026/Unofficial Results REP.pdf",
+      "fact": "'3.3.2026 Primary Unofficial Results Republican' = scanned 'Summary Results Report TX Sutton 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS Sutton' (county totals, 'Precincts Reporting 4 of 4'), footer 'Election Summary - 03/03/2026 8:06 PM' (read visually); PDF CreationDate Wed Mar 4 02:03:56 2026 UTC; Last-Modified Wed, 04 Mar 2026 02:11:32 GMT (8:11 PM CST Mar 3). A Democratic file is also listed. Later only '3.3.2026 Joint Primary Official Results'. No unofficial precinct numbers were posted."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 19:15 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.sutton.tx.us/upload/page/7326/2026/5.26.26 Primary Runoff/26 RUNOFF UNOFFICIAL RESULTS.pdf",
+      "fact": "'5.26.26 Primary Runoff UNOFFICIAL RESULTS' = scanned 'Summary Results Report TX Sutton 260526 Primary Runoff 6110 May 26, 2026 UNOFFICIAL RESULTS' (county totals), footer 'Election Summary - 05/26/2026 7:10 PM'; Last-Modified Wed, 27 May 2026 00:15:17 GMT (7:15 PM CDT May 26). Later only '5.26.26 Primary Runoff Official Results' (Summary Official Results). No unofficial precinct numbers were posted."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.sutton.tx.us/page/sutton.Elections",
+      "via": "fetch_module",
+      "content_hash": "191ee658af2382035c6bf091bbaff650e1519b21f9aba6da8ec9edddc5cb745e",
+      "quote": "5.26.26 Primary Runoff UNOFFICIAL RESULTS; 3.3.2026 Primary Unofficial Results Democratic/Republican; 11.5.2024 Unofficial Results General; 11.05.2024 General Official Final Results",
+      "supports": "Results postings per election"
+    },
+    {
+      "url": "https://www.co.sutton.tx.us/upload/page/7326/2024/Unofficial Results General 11.5.2024.pdf",
+      "via": "fetch_module",
+      "content_hash": "dcf934664498052073aa33475af02a2ca779b61e772ac783f8fea41f57f7ab5a",
+      "quote": "Summary Results Report 2024 General Election November 5, 2024 UNOFFICIAL RESULTS Sutton County ... Election Summary - 11/05/2024 8:36 PM (scanned, read visually)",
+      "supports": "2024 night county totals uploaded 8:46 PM"
+    },
+    {
+      "url": "https://www.co.sutton.tx.us/upload/page/7326/2026/Unofficial Results REP.pdf",
+      "via": "fetch_module",
+      "content_hash": "cebc944746560b71d9662b319464fa7589089d1c54fc6f73f6da53f1e98e6df2",
+      "quote": "Summary Results Report TX Sutton 260303 Primary 6110 March 3, 2026 UNOFFICIAL RESULTS ... Election Summary - 03/03/2026 8:06 PM (scanned, read visually)",
+      "supports": "Primary night county totals uploaded 8:11 PM"
+    },
+    {
+      "url": "https://www.co.sutton.tx.us/upload/page/7326/2026/5.26.26 Primary Runoff/26 RUNOFF UNOFFICIAL RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "bbb55d74f9592008eaa9bb2efcf215c6acc2289d0856ee0512efec39d797befc",
+      "quote": "Summary Results Report TX Sutton 260526 Primary Runoff 6110 May 26, 2026 UNOFFICIAL RESULTS ... Election Summary - 05/26/2026 7:10 PM (scanned, read visually)",
+      "supports": "Runoff night county totals uploaded 7:15 PM"
+    }
+  ]
+}

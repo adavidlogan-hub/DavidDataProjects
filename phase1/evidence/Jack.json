@@ -1,0 +1,58 @@
+{
+  "county": "Jack",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.jackcounty.org/pages/EA/Election_Results.html",
+  "platform": "unknown",
+  "host": "www.jackcounty.org",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Check 2 failed: https://www.jackcounty.org/ fails TLS verification (certificate has expired); http://www.jackcounty.org/ and the results page http://www.jackcounty.org/pages/EA/Election_Results.html return 403; https://www.jackcounty.texas.gov/ (domain of the SOS ABBM email) returns 403. TLS checks were not bypassed. One web search located the county 'Election Results' page URL but it could not be fetched. No Clarity link found. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-H): No change. www.jackcounty.org still unreachable (robots_disallowed_or_unreachable, expired TLS); one web search found the new site www.jackcounty.texas.gov (pages 'past-election-required-posting-march-3-2026' etc.), which returns HTTP 403 to the fetch module; not bypassed. Wayback harvest of jackcounty.org found no election-night captures.",
+  "tag_rationale": "All three elections are UNDETERMINED (county site unreachable, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "websearch:Jack County Texas elections results",
+      "via": "websearch",
+      "content_hash": "56cb169416aaa5ebb26b918a3c43dba5657eec482b4ac4ca53518a288d04f54f",
+      "quote": "Election Results https://www.jackcounty.org/pages/EA/Election_Results.html",
+      "supports": "Located the county results page (not fetchable)"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site unreachable (expired TLS certificate over https, 403 over http). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site unreachable (expired TLS certificate over https, 403 over http). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County site unreachable (expired TLS certificate over https, 403 over http). Check 3 pending."
+    }
+  }
+}

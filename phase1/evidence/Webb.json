@@ -1,0 +1,93 @@
+{
+  "county": "Webb",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.webbcountytx.gov/291/Elections",
+  "platform": "county_pdfs",
+  "host": "www.webbcountytx.gov",
+  "evidence_url": "https://www.webbcountytx.gov/DocumentCenter/View/2697/Combined-PDF",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL /ElectionsAdministration/ returned HTTP 404; the Elections page is /291/Elections. No Clarity site (elections.json 404). CivicPlus DocumentCenter returns Last-Modified equal to the request time (Fri, 02 Oct 2026 15:29-15:30 GMT), so it gives no upload evidence. 2026 primary: 'Unofficial Results 2026' page lists '6th Day After', 'Combined' and 'Early Voting' PDFs; 'Combined' is a 15-page scan of an Electionware 'Election Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Webb County, Texas' (county totals; 'Election Day Precincts Reporting 78 of 78'; footer 'Election Summary - 03/03/2026 9:51 PM'; scan CreationDate 2026-03-04 03:56:42 UTC = 9:56 PM CST), read by viewing the rendered first page. The separate 'Precinct By Precinct Results' page lists Combined, Early Voting and Election Day PDFs; Combined is a 'PCT by PCT UNOFFICIAL RESULTS 2026 Primary Election March 10, 2026' report, CreationDate 2026-03-10 15:26 UTC, so precinct numbers came a week after election night. 2026 runoff: no runoff results file is listed on any Elections page. 2024 general: Archived Election Results has a single '11-05-24 Joint General Elections (PDF)', a scan created 2025-06-10. Check 3 pending for the 2024 general and 2026 runoff (origin/wayback-data branch not found).",
+  "tag_rationale": "Only the 2026 primary is determined (LATER: election-night county summary, precinct report dated March 10), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Archived Election Results lists one '11-05-24 Joint General Elections (PDF)' scan with CreationDate 2025-06-10; no election-night report remains. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:51 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.webbcountytx.gov/DocumentCenter/View/2697/Combined-PDF",
+      "fact": "Unofficial 'Combined': 'Election Summary Results Report 2026 Primary Election March 3, 2026 ... UNOFFICIAL RESULTS', county totals, footer 'Election Summary - 03/03/2026 9:51 PM'; precinct report 'PCT by PCT UNOFFICIAL RESULTS 2026 Primary Election March 10, 2026' (CreationDate 2026-03-10). No upload time available (Last-Modified = request time)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 runoff results file listed on the Elections, Unofficial Results 2026, Precinct By Precinct or Official Results 2026 pages. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.webbcountytx.gov/291/Elections",
+      "via": "fetch_module",
+      "content_hash": "6446e43d9b2b5e51b817452f8d63da05910c997607e6bce5700928e8d1193738",
+      "quote": "Official Results 2026 Precinct By Precinct Results Unofficial Results 2026",
+      "supports": "results pages"
+    },
+    {
+      "url": "https://www.webbcountytx.gov/698/Unofficial-Results-2026",
+      "via": "fetch_module",
+      "content_hash": "34b37d03b630476d368f9f2fd2f064e8a72ef1830b56d9c7d975bbd770c0a4ee",
+      "quote": "Unofficial Results 2026 March 3, 2026 - Primary Election 6th Day After (PDF) Combined (PDF) Early Voting (PDF)",
+      "supports": "2026 primary unofficial reports"
+    },
+    {
+      "url": "https://www.webbcountytx.gov/DocumentCenter/View/2697/Combined-PDF",
+      "via": "fetch_module",
+      "content_hash": "dd7e800b68fe6a130286c16e63086cbc4734120d9fbb91f3d6f6d66a76e871fe",
+      "quote": "Election Summary Results Report 2026 Primary Election March 3, 2026 ... UNOFFICIAL RESULTS ... Election Summary - 03/03/2026 9:51 PM",
+      "supports": "2026_primary county totals on election night"
+    },
+    {
+      "url": "https://www.webbcountytx.gov/425/Precinct-By-Precinct-Results",
+      "via": "fetch_module",
+      "content_hash": "7b824a19dad1b2e8d3a1e9fe1a22ff3aa4459291cd551dee17b20a6eb323c0a4",
+      "quote": "Precinct By Precinct Results March 3, 2026 - Primary Election Combined (PDF) Early Voting (PDF) Election Day (PDF)",
+      "supports": "precinct reports page"
+    },
+    {
+      "url": "https://www.webbcountytx.gov/DocumentCenter/View/2687/Combined-PDF",
+      "via": "fetch_module",
+      "content_hash": "c1d52d836ff08f395500bd9889127cda89c5024c2f6355eb68afdaff547349ac",
+      "quote": "PCT by PCT UNOFFICIAL RESULTS 2026 Primary Election March 10, 2026 Webb County, Texas",
+      "supports": "2026_primary precinct numbers after election night"
+    },
+    {
+      "url": "https://www.webbcountytx.gov/415/Archived-Election-Results",
+      "via": "fetch_module",
+      "content_hash": "b8d9db5b330b7a012a26ca36533352605f5b15e24b46f917c18aaf66b1e280c5",
+      "quote": "11-05-24 Joint General Elections (PDF)",
+      "supports": "2024 archive"
+    }
+  ]
+}

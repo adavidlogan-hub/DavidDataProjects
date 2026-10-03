@@ -1,0 +1,66 @@
+{
+  "county": "Lee",
+  "reason_selected": "low confidence (after rule 43 normalization)",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections 2024 page: 'UNOFFICIAL Election Night Results ... Lee County' (local results 11524.pdf) scanned (RICOH) CreationDate Nov 25 2024 15:15 UTC, Last-Modified Mon 25 Nov 2024 16:19:07 GMT; 'precinct summary-unofficial results' (updated pct by pct 110524.pdf) Last-Modified Mon 25 Nov 2024 16:19:24 GMT. Both replaced/posted Nov 25; no election-night file survives. Night link otherwise goes to the SOS results site. check 3 unavailable (no Lee folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Elections 2026 page, '3/3 election results Republican Party' (rep election day 030326.pdf): scanned Electionware 'Summary Results Report 2026 Primary Election ... UNOFFICIAL RESULTS Lee County, Texas', county totals ('Ken Paxton 976 15 476 485'), footer 'Election Summary - 03/03/2026 9:07 PM', Last-Modified Wed 04 Mar 2026 03:37:06 GMT (9:37 PM CST). 'precinct summary-unofficial results Republican Party' (rep pct by pct.pdf): CreationDate Mar 9 2026, Last-Modified Wed 11 Mar 2026 13:34:07 GMT. County totals on the night, precinct numbers a week later."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'UNOFFICIAL Election Night Results' (election day 0152626.pdf): scanned 'Summary Results Report 2026 Primary Runoff Election ... UNOFFICIAL RESULTS Lee County', county totals ('Ken Paxton 989 14 342 633'), footer 'Election Summary - 05/26/2026 8:28 PM', Last-Modified Wed 27 May 2026 01:41:47 GMT (8:41 PM CDT). 'precinct summary-unofficial results Republican' (rep pct 052626.pdf): CreationDate May 29 14:32 UTC, Last-Modified Fri 29 May 2026 15:25:09 GMT."
+    }
+  },
+  "rationale": "Primary and runoff are both LATER from county-posted reports with printed run times and upload times on election night (county totals), precinct summaries posted days later. Two LATER give COUNTY_ONLY_PRECINCT_AT_CANVASS.",
+  "sources": [
+    {
+      "url": "https://www.co.lee.tx.us/page/lee.elections2026",
+      "content_hash": "b66a183064b6",
+      "what_i_checked": "2026 file lists (hash prefix shown)"
+    },
+    {
+      "url": "https://www.co.lee.tx.us/upload/page/12529/rep%20election%20day%20030326.pdf",
+      "content_hash": "95e9360e72b93ea82ee1c8e819c3a330465f408bf2dfba6511f7b83b1f917b6f",
+      "what_i_checked": "primary county totals 9:07 PM, uploaded 9:37 PM CST (page image read)"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/12529/rep%20pct%20by%20pct.pdf",
+      "content_hash": "13b867ff23cc12d89f8d6a598a3f109a5fa74890955a933d59a238fc04e332e3",
+      "what_i_checked": "primary precinct summary uploaded Mar 11"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/12529/election%20day%200152626.pdf",
+      "content_hash": "408c980ca5c23c944337e8bc95c0e36b2aa915e984b68e678ca0a2dc5583dd76",
+      "what_i_checked": "runoff county totals 8:28 PM, uploaded 8:41 PM CDT (page image read)"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/12529/rep%20pct%20052626.pdf",
+      "content_hash": "d5219f88147b795fd68aeb3600fbc204e65ced51cafb011c0ef1482b3fd2af44",
+      "what_i_checked": "runoff precinct summary uploaded May 29"
+    },
+    {
+      "url": "https://www.co.lee.tx.us/upload/page/11450/local%20results%2011524.pdf",
+      "content_hash": "2b430a18e61a047895d09b0046cd3ca91afb841261f7791b328274ff69926ec9",
+      "what_i_checked": "2024 totals uploaded Nov 25 2024"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:50:26Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED): 2024 files posted Nov 25 2024. I also saw 'local results 11524.pdf' (Lee County totals), likewise uploaded Nov 25 2024.",
+    "2026_primary": "different: research UNDETERMINED saying the 2026 page 'lists only reconciliation and hand-count audit files for March 3, no results report'; I say LATER (check 2). The same cached page (lee.elections2026) lists '3/3 election results: Republican Party (rep election day 030326.pdf), Democrat Party' and 'precinct summary-unofficial results'. rep election day 030326.pdf is county totals with footer 'Election Summary - 03/03/2026 9:07 PM', Last-Modified 04 Mar 2026 03:37:06 GMT (9:37 PM CST); rep pct by pct.pdf Last-Modified 11 Mar 2026. Research claim of no results report is not supported. Same tag; computed confidence would rise to med.",
+    "2026_runoff": "same (LATER, check 2): 8:28 PM printed, uploaded 01:41:47 GMT (8:41 PM CDT). Research says no runoff precinct report is listed; the page lists 'precinct summary-unofficial results' Republican (rep pct 052626.pdf, Last-Modified 29 May 2026) and Democrat. Does not change the result.",
+    "unsupported_claims": "2026_primary 'no results report' and 2026_runoff 'No runoff precinct report listed' are contradicted by the page's links."
+  },
+  "compared_at_utc": "2026-10-02T16:50:36Z"
+}

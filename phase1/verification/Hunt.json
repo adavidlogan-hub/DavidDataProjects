@@ -1,0 +1,69 @@
+{
+ "county": "Hunt",
+ "reason_selected": "tag LIVE_PRECINCT",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 122429 linked from huntcounty.net/page/election.archive (\"2024/11/05 - General Election\"); Region Hunt, ElectionDate 11/5/2024. v351078 \"7:46:13 PM CST\" absentee/early only; v351396 \"8:19:52 PM CST\" Election votes in 10 precincts (<Precinct name=\"110 - TMT SBL\" votes=\"47\">), then 8:55:30 (33), 10:08:12 (52), 11:27:44 PM (55). Four distinct releases."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 125942 (\"2026/03/03 - Primary Election\"). v368440 \"8:33:45 PM CST\" Election votes in 3 precincts (<Precinct name=\"214B\" votes=\"44\">), rising through v368525 \"10:40:03 PM CST\" (39). A 7:11:45 PM version with full values followed by a 7:34 PM version with none looks like test data; the later releases alone give 7 distinct election-night releases."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "1",
+   "fact": "EID 126349 (\"May 26, 2026 - Runoff Election\"). Election-night versions 7:17 PM to v373058 \"11:24:57 PM CDT\" have precinct values \"protected\" (1160 of 1179); first unprotected version v373127 \"5/27/2026 11:35:42 AM CDT\" (Election votes in 19 combined units, e.g. <Precinct name=\"104 105\" votes=\"73\">). Precinct numbers came the next day."
+  }
+ },
+ "rationale": "Two elections LIVE from check 1, so LIVE_PRECINCT, high. The runoff was LATER (precinct values protected on election night, released next morning).",
+ "sources": [
+  {
+   "url": "https://www.huntcounty.net/page/election.archive",
+   "content_hash": "036781241b1701bc0eebd2a96d257263f40e366c24695d7adfe7bc623ceb3e01",
+   "what_i_checked": "links to EIDs 122429 and 125942"
+  },
+  {
+   "url": "https://www.huntcounty.net/page/election.2026",
+   "content_hash": "b60b36dd6d0e6b1aee0284e4d8bcdd63e6917677fa1c29ec33c96c62c7faf63a",
+   "what_i_checked": "link to EID 126349 (runoff)"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/351078/reports/detailxml.zip",
+   "content_hash": "a529d12c18935fdaa5e24c813f348ab0cbca238833ee0f38dd78ee88439d5f31",
+   "what_i_checked": "opened: 7:46:13 PM CST, no election-day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Hunt/122429/351396/reports/detailxml.zip",
+   "content_hash": "d718bef255e5d79cd19c1d4af8972b884187a9cc3ef4d0e9b5e178f18560c380",
+   "what_i_checked": "opened: 8:19:52 PM CST, election-day votes in 10 precincts"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Hunt/125942/368440/reports/detailxml.zip",
+   "content_hash": "95ce59a639a12aef5da3bb5861e7978df7f6b59bbfc77465fd10c87deecdcd0c",
+   "what_i_checked": "opened: 8:33:45 PM CST"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373058/reports/detailxml.zip",
+   "content_hash": "e2264b250bd8ed406f9bed8650fea5627b82ade0c2c575c6290d48d17598270e",
+   "what_i_checked": "opened: 11:24:57 PM CDT, protected"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Hunt/126349/373127/reports/detailxml.zip",
+   "content_hash": "781e49643ef6cc33cfd48f60d66b49d23304580667771b830ed6cf07f32706a2",
+   "what_i_checked": "opened: 5/27/2026 11:35:42 AM CDT, first precinct values"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:22:42Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE).",
+  "2026_primary": "same (LIVE; both treat the 7:11 PM version as mislabeled or test data).",
+  "2026_runoff": "same (LATER: precinct values hidden on election night, first shown 5/27 11:35:42 AM CDT). Research says the values were \"N/A\"; the files I opened show votes=\"protected\"."
+ }
+}

@@ -1,0 +1,62 @@
+{
+  "county": "Sabine",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "(409) 787-3786",
+  "elections_office_email": "sabine.elections@co.sabine.tx.us",
+  "results_url": "https://www.co.sabine.tx.us/page/sabine.Election%20Results",
+  "platform": "county_pdfs",
+  "host": "www.co.sabine.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Network to county sites and the SOS opened about 14:07 UTC; Sabine evidence was gathered after that through the fetch module. The county 'Election Results & Required Postings' page lists precinct-by-precinct PDFs only for 2002 through 2021 plus 2022 official results, and links 'PRECINCT BY PRECINCT ELECTION RESULTS' to http://sabine.easydocs.us/election/, which returned HTTP 403. The Elections page lists, for the May 26 2026 runoff, only 'MAY 26, 2026 PRIMARY RUNOFF OFFICIAL RESULTS' (Official runoff.pdf), a county-wide Cumulative Results Report marked Official Results with Run Date 06/02/2026 (scanned, OCR text). No Nov 5 2024 or Mar 3 2026 result files and no election-night (unofficial) files are listed on either county page today, so nothing shows when, or whether, precinct-level results were posted on election night. Not tagged NO_SITE_OR_SOS_ONLY because the county does post results files on its own site (at least official ones). Contact: TX SOS county election officials list gives Sabine County, County Clerk Jamie Clark, '(409) 787-3786', County Email Address mailto sabine.elections@co.sabine.tx.us; the county Elections page shows 'Phone: 409-787-3786' and 'countyclerk@co.sabine.tx.us' (clerk general email). Wayback probe for the Elections page failed (robots_disallowed_or_unreachable). No WebFetch attempted. No stated change found. Usage notice: none seen, left empty.",
+  "tag_rationale": "The county site shows only an official county-wide runoff report (run 06/02/2026) and pre-2022 precinct reports; no source shows election-night precinct posting for the three target elections.",
+  "sources": [
+    {
+      "url": "https://www.co.sabine.tx.us/page/sabine.Election%20Results",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "PRECINCT BY PRECINCT ELECTION RESULTS ... 2002 ... 2021 ... ELECTION REQUIRED POSTINGS & RESULTS - 2022 (content_hash 00fe670be9a1)",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.co.sabine.tx.us/page/sabine.Elections",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "MAY 26, 2026 PRIMARY RUNOFF OFFICIAL RESULTS ... Phone: 409-787-3786 ... countyclerk@co.sabine.tx.us (content_hash 8c16f564491b)",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.co.sabine.tx.us/upload/page/3469/Official%20runoff.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Cumulative Results Report SABINE COUNTY, TEXAS Official Results ... PRIMARY RUNOFF ELECTION ... 5/26/2026 Run Date 06/02/2026 (OCR text, content_hash 9ac0e860d6d8)",
+      "supports": "platform"
+    },
+    {
+      "url": "http://sabine.easydocs.us/election/",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "HTTP 403",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "SABINE COUNTY County Clerk Jamie Clark ... County Email Address (409) 787-3786 (mailto:sabine.elections@co.sabine.tx.us) (content_hash 065e1ebd63c5)",
+      "supports": "contact"
+    }
+  ],
+  "agent": "research-A",
+  "searches_run": 3,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 5,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T14:18:17Z",
+  "finished_at_utc": "2026-10-02T14:19:44Z"
+}

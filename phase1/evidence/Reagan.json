@@ -1,0 +1,93 @@
+{
+  "county": "Reagan",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.reagan.tx.us/page/reagan.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.reagan.tx.us",
+  "evidence_url": "https://www.co.reagan.tx.us/upload/page/9496/precinct_results5262026.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No county website in the seed list; one web search located https://www.co.reagan.tx.us/page/reagan.Elections. No Clarity site (elections.json 404). The page (files on www.co.reagan.tx.us and newtools.cira.state.tx.us) lists per election unofficial/official results, precinct results and reconciliation forms. Every result file opened was uploaded after election night: 2024 general 'general_election_results_for_1152024.pdf' Last-Modified Wed, 20 Nov 2024 21:56:36 GMT and 'precinct_results11182024_075528_am.pdf' (precinct report run Nov 18 2024 by its file name, not opened); 2026 primary 'Unofficial Results' (332026_results.pdf) Last-Modified Wed, 04 Mar 2026 15:34:14 GMT (9:34 AM CST Mar 4) and 'PRECINCT BY PRECINCT RESULTS' (Precinct Results Report, Run Date 03/09/2026 10:54 AM, Last-Modified Tue, 07 Apr 2026 21:56:38 GMT); 2026 runoff 'Precinct Results 5/26/2026' (Precinct Results Report 'Unofficial Results', Run Time 7:47 PM Run Date 05/26/2026, but PDF CreationDate May 27 17:03 UTC and Last-Modified Wed, 27 May 2026 17:22:58 GMT = 12:22 PM CDT May 27). So precinct numbers were posted only after election night in all three elections. The 2026 primary unofficial file is image-only and was not inspected page by page; it was uploaded after election night either way. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED; 2026_primary LATER kept, county_totals_first_seen 2026-03-03 20:39 CT; 2026_runoff LATER to UNDETERMINED. 2026_runoff: the only election-night printed file is a precinct report (Run Time 7:47 PM Run Date 05/26/2026, election-day votes per precinct) uploaded at 12:22 PM May 27; no election-night county-totals file is listed, so LATER cannot be shown. 2024_general file was scanned Nov 20 2024.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff UNDETERMINED. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.reagan.tx.us/upload/page/9496/2024/general_election_results_for_1152024.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: 'general_election_results_for_1152024.pdf' Last-Modified Wed, 20 Nov 2024 21:56:36 GMT; precinct file named 'precinct_results11182024_075528_am.pdf'. Nothing listed was posted on election night; precinct numbers came at canvass."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 20:39 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/9496/2026/precinct_results392026_105447_am.pdf",
+      "fact": "'Unofficial Results' Last-Modified Wed, 04 Mar 2026 15:34:14 GMT; 'PRECINCT BY PRECINCT RESULTS': 'Precinct Results Report ... PRIMARY ELECTION ... Run Time 10:54 AM Run Date 03/09/2026', Last-Modified Tue, 07 Apr 2026 21:56:38 GMT. Precinct numbers came after election night. Rule 43: election-night county-totals file is 332026_results.pdf ('Unofficial Results'), a scanned Cumulative Results Report (REAGAN COUNTY, TEXAS PRIMARY ELECTION 3/3/2026, county totals by Absentee / Early Voting / Election Day, 18 pages ending '*** End of report ***', Run Date 03/03/2026; read from the cached copy), scan CreationDate Wed Mar 4 02:39:50 2026 UTC (8:39 PM CST Mar 3); uploaded 9:34 AM Mar 4."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.reagan.tx.us/upload/page/9496/precinct_results5262026.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: 'Precinct Results Report Unofficial Results REAGAN COUNTY, TEXAS ... PRIMARY RUNOFF ELECTION ... Run Time 7:47 PM Run Date 05/26/2026'; CreationDate May 27 2026 17:03 UTC; Last-Modified Wed, 27 May 2026 17:22:58 GMT. Printed on election night but posted online the next day."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.reagan.tx.us/page/reagan.Elections",
+      "via": "fetch_module",
+      "quote": "Precinct Results 5/26/2026; Official Results 5/26/2026; PRECINCT BY PRECINCT RESULTS; Unofficial Results",
+      "supports": "report list",
+      "content_hash": "f18b22a2a610b57f9f83fc01f9f14a6c9043328073e6ebf6cbf00fe3db1a80c9"
+    },
+    {
+      "url": "https://www.co.reagan.tx.us/upload/page/9496/2024/general_election_results_for_1152024.pdf",
+      "via": "fetch_module",
+      "quote": "Last-Modified Wed, 20 Nov 2024 21:56:36 GMT",
+      "supports": "2024_general posted after canvass",
+      "content_hash": "56f2d384bcff306df88b2c81f0490c1e8fb8c8303088af502ef357ebba36b8dc"
+    },
+    {
+      "url": "https://www.co.reagan.tx.us/upload/page/9496/2026/332026_results.pdf",
+      "via": "fetch_module",
+      "quote": "Last-Modified Wed, 04 Mar 2026 15:34:14 GMT",
+      "supports": "2026_primary unofficial results posted next morning",
+      "content_hash": "2d4308240a4ed6741fe275ad03b3198dd84bbaf9b21a54e7b6a53fe40340a4c0"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/9496/2026/precinct_results392026_105447_am.pdf",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report ... Run Time 10:54 AM Run Date 03/09/2026",
+      "supports": "2026_primary precinct numbers after election night",
+      "content_hash": "d45acdc46f2684c4bbe99437ca5ffb66bb2e300f6d06e25c31ec1782a5ed94ba"
+    },
+    {
+      "url": "https://www.co.reagan.tx.us/upload/page/9496/precinct_results5262026.pdf",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report Unofficial Results ... Run Time 7:47 PM Run Date 05/26/2026; Last-Modified Wed, 27 May 2026 17:22:58 GMT",
+      "supports": "2026_runoff precinct numbers posted next day",
+      "content_hash": "5027058435ea87e39228d3ac04c3068f281d8df7093db9954f11f52d41fe9930"
+    },
+    {
+      "url": "websearch:?q=reagan%20county%20texas%20elections%20results",
+      "via": "websearch",
+      "quote": "Election Notices - Reagan County, Texas https://www.co.reagan.tx.us/page/reagan.Elections",
+      "supports": "locating only",
+      "content_hash": "09443756e4ffab8933e2bdd3b72737c7458c202bfcbfd1c8fa02c7ad00a8ccd5"
+    }
+  ]
+}

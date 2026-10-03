@@ -1,0 +1,72 @@
+{
+  "county": "Crosby",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.crosby.tx.us/page/crosby.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.crosby.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.crosby.tx.us/ works over https. No Clarity or vendor link. The only 2026 results file is an official county-total cumulative report posted May 29, 2026; no precinct results and no runoff or 2024 general results are posted. Nothing shows what was posted on election night, so all three are undetermined. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-I): No result change. Corrected the 2026_runoff fact per verifier: the page links '2026 RUNOFF CUMULATIVE' (official, run 06/03/2026, uploaded Jun 5). Primary cumulative re-checked: Last-Modified Fri, 29 May 2026 17:39:04 GMT for the 2026PRIMARYCUMULATIVE.pdf copy at the folder root. Wayback harvest: no captures (runoff CDX timed out); no sweep file.",
+  "tag_rationale": "No election could be determined from checks 1 and 2, so the tag is UNKNOWN.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Elections page lists for Nov 2024 only 'Order of Election' (2024/ordernovember24.pdf); no 2024 general results are posted. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The only primary results file is 'Primary Culminative Results' (2026PRIMARYCUMULATIVE.pdf), a scanned Hart 'Cumulative Results Report CROSBY COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Official Results' (county totals), PDF CreationDate 2026-05-28, Last-Modified Fri, 29 May 2026 14:45:55 GMT. Nothing shows what, if anything, was posted on election night. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Correction: the Elections page does list runoff results. '2026 RUNOFF CUMULATIVE' (2026/2026Runoffcumulative.pdf) is a scanned Hart 'Cumulative Results Report ... CROSBY COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Official Results ... Run Time 1:55 PM Run Date 06/03/2026' (county totals by vote type, e.g. 'Ken Paxton 16 102 146 264'; read from the page image), CreationDate 2026-06-04, Last-Modified Fri, 05 Jun 2026 15:12:03 GMT. No election-night file and no precinct numbers online, so UNDETERMINED under rule 43."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.crosby.tx.us/page/crosby.Elections",
+      "via": "fetch_module",
+      "content_hash": "956e75d73da729feb7b4498e27d8671dc3c42f912895f46794c43bd5bf4759cd",
+      "quote": "Dem Post Election Hand Count; Primary Culminative Results; Reconciliation Votes 2026 Primary; Notice of Canvass; Order of Election",
+      "supports": "Elections page file list"
+    },
+    {
+      "url": "https://www.co.crosby.tx.us/upload/page/8077/2026/2026PRIMARYCUMULATIVE.pdf",
+      "via": "fetch_module",
+      "content_hash": "1bc387d8d2dbc52ffd655f576df8c7083ffc6a9e11a41a665a3cc62455f81ee1",
+      "quote": "Cumulative Results Report CROSBY COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Official Results (scanned image, read visually)",
+      "supports": "Primary official county totals posted 2026-05-29"
+    },
+    {
+      "url": "https://www.co.crosby.tx.us/upload/page/8077/2026/2026Runoffcumulative.pdf",
+      "via": "fetch_module",
+      "content_hash": "877ea8cbbd26bd5593bebf771355ec6aee8cffebbb4a865b8b3c9078a770f22c",
+      "quote": "Cumulative Results Report ... CROSBY COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Official Results ... Run Time 1:55 PM Run Date 06/03/2026 (page image)",
+      "supports": "Only runoff file is official county totals, uploaded Fri, 05 Jun 2026 15:12:03 GMT"
+    }
+  ]
+}

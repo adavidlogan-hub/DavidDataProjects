@@ -1,0 +1,62 @@
+# Shared fetch configuration. Every agent, script, and the poller loads this file.
+# All per-host limits live here and nowhere else.
+
+[client]
+user_agent = "TXPrecinctTimingResearch/0.1 (+internal research; contact adavidlogan@gmail.com)"
+timeout_seconds = 20
+retries = 2                 # retries after the first attempt, so 3 attempts total
+retry_backoff_base_seconds = 2.0
+respect_robots = true
+robots_cache_seconds = 3600
+robots_failure_cache_seconds = 600
+global_max_concurrency = 20
+# Optional CA bundle; empty means system default. Env SSL_CERT_FILE also honored.
+ca_bundle = ""
+
+[paths]
+# Relative paths resolve against the repo root. Override with TXP_STATE_DIR env var.
+state_dir = "var"
+
+# Host classes. A host is matched against each class's suffix list in the order
+# archive, vendor, sos; anything unmatched is treated as county-run.
+[host_classes.county]
+min_interval_seconds = 3.0
+max_concurrency = 1
+backoff_on_429_seconds = 30
+
+[host_classes.vendor]
+min_interval_seconds = 0.0
+max_concurrency = 4
+backoff_on_429_seconds = 15
+exponential_backoff = true
+suffixes = [
+  "clarityelections.com",
+  "enr.clarityelections.com",
+  "electionstats.com",
+  "hartintercivic.com",
+  "votingworks.app",
+  "ess.com",
+  "electionsonline.us",
+  "civicplus.com",
+  "civicengage.com",
+  "revize.com",
+  "amazonaws.com",
+  "cloudfront.net",
+  "azurewebsites.net",
+  "blob.core.windows.net",
+  "googleapis.com",
+]
+
+[host_classes.archive]
+min_interval_seconds = 2.0
+max_concurrency = 1
+backoff_on_429_seconds = 60
+exponential_backoff = true
+suffixes = ["archive.org", "web.archive.org"]
+
+[host_classes.sos]
+# Texas Secretary of State hosts are state-run; treat like county-run (polite).
+min_interval_seconds = 3.0
+max_concurrency = 1
+backoff_on_429_seconds = 30
+suffixes = ["sos.state.tx.us", "sos.texas.gov", "results.texas-election.com"]

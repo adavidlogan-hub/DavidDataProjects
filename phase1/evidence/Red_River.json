@@ -1,0 +1,100 @@
+{
+  "county": "Red River",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.red-river.tx.us/page/redriver.ElectionsCountyClerk",
+  "platform": "county_pdfs",
+  "host": "www.co.red-river.tx.us",
+  "evidence_url": "https://www.co.red-river.tx.us/upload/page/10703/Unofficial Runoff Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.co.red-river.tx.us/ works over https; results are PDFs on the County Clerk Elections page (page/redriver.ElectionsCountyClerk). No Clarity site (elections.json 404). The server returns distinct per-file Last-Modified values that match the PDF creation times, so upload times are usable. The 2024 general and 2026 runoff unofficial files are scanned images (read visually); the 2026 primary unofficial files are SOS-generated county reports with no printed run time, so their PDF CreationDate serves as run time. The page also links results.texas-election.com. Check 3 not needed (wayback-data branch not found on origin anyway).",
+  "tag_rationale": "All three elections are LATER by check 2 (only county totals posted on election night; precinct reports only after canvass or never), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the night reports have printed run times (or PDF creation times) and server upload times on election night.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 22:05 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.red-river.tx.us/upload/page/10703/UNOFFICIAL results for November 2024 General Election.pdf",
+      "fact": "'UNOFFICIAL results for November 2024 General Election' = scanned 'Cumulative Results Report RED RIVER COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Unofficial Results ... Run Time 10:03 PM Run Date 11/05/2024', county totals by Absentee/Early/Election Day; Last-Modified Wed, 06 Nov 2024 04:05:04 GMT (10:05 PM CST Nov 5). The later 'Official Results for November 2024 General Election' (Run Date 11/19/2024, Last-Modified 19 Nov 2024) and the canvass report are also listed; the official file is again a county-total Cumulative Results Report. No precinct report for 2024 is posted (precinct numbers never published online as far as the site shows)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 00:07 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.red-river.tx.us/upload/page/10703/Republican Unofficial Results Report.pdf",
+      "fact": "'Democratic Unofficial Results Report' and 'Republican Unofficial Results Report' are the SOS 'Election Unofficial Results Report 2026 ... PRIMARY ELECTION March 03, 2026 RED RIVER County' (county totals by Early Voting by Mail / In Person / Election Day); PDF CreationDate Wed Mar 4 05:19:12 and 06:04:01 2026 UTC; Last-Modified Wed, 04 Mar 2026 06:07:19 and 06:07:52 GMT (12:07 AM CST Mar 4). Precinct numbers appear only in 'Official Precinct Results Report for the March 3 2026 Primary' (titled official, after canvass)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:36 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.red-river.tx.us/upload/page/10703/Unofficial Runoff Results.pdf",
+      "fact": "'Unofficial Runoff Results for both Parties' = scanned 'Cumulative Results Report RED RIVER COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Unofficial Results ... Run Time 8:46 PM Run Date 05/26/2026', county totals; Last-Modified Wed, 27 May 2026 02:36:07 GMT (9:36 PM CDT May 26). Precinct numbers: 'Precinct Results for Primary Runoff' = 'Precinct Results Report Official Results ... Run Time 11:37 AM Run Date 06/10/2026', Last-Modified Wed, 10 Jun 2026 17:43:50 GMT."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.red-river.tx.us/page/redriver.ElectionsCountyClerk",
+      "via": "fetch_module",
+      "content_hash": "241de6dd0e36f233b4549486dd8915ef08610de4c82600b03c17aebd05694815",
+      "quote": "UNOFFICIAL results for November 2024 General Election; Democratic Unofficial Results Report; Republican Unofficial Results Report; Official Precinct Results Report for the March 3 2026 Primary; Unofficial Runoff Results for both Parties; Precinct Results for Primary Runoff",
+      "supports": "List of results reports per election"
+    },
+    {
+      "url": "https://www.co.red-river.tx.us/upload/page/10703/UNOFFICIAL results for November 2024 General Election.pdf",
+      "via": "fetch_module",
+      "content_hash": "bfb36ed96aa3e3183f6b06e0ae68747964da69802592d781fa090c34d3005ab5",
+      "quote": "Cumulative Results Report RED RIVER COUNTY, TEXAS GENERAL ELECTION 11/5/2024 Unofficial Results Run Time 10:03 PM Run Date 11/05/2024 (scanned, read visually)",
+      "supports": "2024 election-night report is county totals"
+    },
+    {
+      "url": "https://www.co.red-river.tx.us/upload/page/10703/Official Results for November 2024 General Election.pdf",
+      "via": "fetch_module",
+      "content_hash": "af5ba62a64761935da0069abc4cfb060186a1f7f4495104dbe245954840f41ce",
+      "quote": "Cumulative Results Report ... Official Results ... 11/5/2024 (scanned, read visually)",
+      "supports": "2024 official report also county totals"
+    },
+    {
+      "url": "https://www.co.red-river.tx.us/upload/page/10703/Democrat Unofficial Results Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "cfcb1c73447cfd87a6b7ed7656140ac19fccd31464f0b7119b735df08d4e722d",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY ELECTION March 03, 2026 RED RIVER County",
+      "supports": "2026 primary Democratic night report is county totals"
+    },
+    {
+      "url": "https://www.co.red-river.tx.us/upload/page/10703/Republican Unofficial Results Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "d723ac3862fd090d798c278804509d210854eeeb11339add37159185662b3e42",
+      "quote": "Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 RED RIVER County Office Name Candidate Name Early Voting by Mail Early Voting In Person Election Day Count",
+      "supports": "2026 primary Republican night report is county totals"
+    },
+    {
+      "url": "https://www.co.red-river.tx.us/upload/page/10703/Unofficial Runoff Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "4c180561a6ddf09ace9d935b92cfd99bc842e6a52b546ba74cd83d43632e1763",
+      "quote": "Cumulative Results Report RED RIVER COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Unofficial Results Run Time 8:46 PM (scanned, read visually)",
+      "supports": "Runoff election-night report is county totals"
+    },
+    {
+      "url": "https://www.co.red-river.tx.us/upload/page/10703/Precinct Results-6-10-2026 11-40-09 AM.pdf",
+      "via": "fetch_module",
+      "content_hash": "f04f9582d47a4f203f1f356824bfacaef63314c2b353df0f242867cc49436c1e",
+      "quote": "Precinct Results Report Official Results RED RIVER COUNTY, TEXAS ... Run Time 11:37 AM Run Date 06/10/2026",
+      "supports": "Runoff precinct numbers posted June 10"
+    }
+  ]
+}

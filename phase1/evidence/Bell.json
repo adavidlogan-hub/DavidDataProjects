@@ -1,0 +1,79 @@
+{
+ "county": "Bell",
+ "tag": "LIVE_PRECINCT",
+ "confidence": "low",
+ "elections_office_phone": "",
+ "elections_office_email": "",
+ "results_url": "https://results.enr.clarityelections.com/TX/Bell/",
+ "platform": "vendor_hosted",
+ "host": "results.enr.clarityelections.com",
+ "evidence_url": "https://results.enr.clarityelections.com/TX/Bell/122428/351964/reports/detailxml.zip",
+ "evidence_snapshot_timestamp": "",
+ "precinct_first_seen_local_time": "2024-11-05 21:15 CT",
+ "stated_change_2026": "n",
+ "stated_change_source": "",
+ "usage_notice_text": "",
+ "notes": "Bell's Clarity elections.json lists the 2024 general (EID 122428) but not the 2026 primary or runoff. The county site www.bellcountytx.com has a robots.txt that disallows all agents except named search bots ('User-agent: * Disallow: /'), so the fetch module refuses it and the county's links to 2026 Clarity EIDs or posted reports could not be read; one web search found only the county Notices and Election Results Archive pages (same blocked host), no Clarity EID. Vote types read from cached detail.xml: the 8:36 PM update has early and absentee precinct numbers only; election-day precinct numbers first appear at 9:15 PM. Check 3 pending for 2026 primary and runoff (wayback-data branch not found on origin).",
+ "tag_rationale": "Only the 2024 general is determined (LIVE: election-day precinct numbers in six election-night Clarity updates), so by rule the tag is LIVE_PRECINCT with confidence low.",
+ "agent": "research-1",
+ "method_version": "v2",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "county_totals_first_seen": "2024-11-05 20:36 CT",
+   "precinct_first_seen": "2024-11-05 21:15 CT",
+   "night_updates_with_precinct_numbers": "6",
+   "evidence_url": "https://results.enr.clarityelections.com/TX/Bell/122428/351964/reports/detailxml.zip",
+   "fact": "Clarity EID 122428 '2024 General Election' night versions with 64 precincts with votes: 8:36:42 PM CST (Early and Absentee only), then Election Day precinct sums 127744 (9:15:44 PM), 253757 (9:46:05 PM), 383100 (10:20:51 PM), 495195 (10:52:59 PM), 593784 (11:33:25 PM), 656353 (11/6/2024 12:35:15 AM CST), each in 64 precincts."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "Not listed on Bell's Clarity elections.json; county site blocked by robots.txt so no EID or county report could be read. Check 3 pending."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "Not listed on Bell's Clarity elections.json; county site blocked by robots.txt so no EID or county report could be read. Check 3 pending. Check after full harvest 2026-10-03 (check3-H2): the 7:51 PM CDT capture of Bell's elections page links 'Election Results' to Clarity EID 126390; its detail.xml (Region Bell, ElectionDate 5/26/2026) has election-night versions at 7:04, 8:53, 9:58 and 10:22 PM CDT, but every vote value, precinct and county alike, is 'protected' in every version through 6/2/2026, so no election-night evidence either way; stays UNDETERMINED."
+  }
+ },
+ "sources": [
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bell/122428/351964/reports/detailxml.zip",
+   "via": "clarity_script",
+   "quote": "Timestamp 11/5/2024 9:15:44 PM CST; Election Day precinct votes in 64 precincts",
+   "supports": "First election-night update with election-day precinct numbers",
+   "content_hash": "1c2b1594e9e6f4b1e443f1dc8361d9553cedb49eafe9c0fc41a115a00f16c331"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bell/122428/353050/reports/detailxml.zip",
+   "via": "clarity_script",
+   "quote": "Timestamp 11/6/2024 12:35:15 AM CST; Election Day precinct sum 656353",
+   "supports": "Later election-night update with precinct numbers",
+   "content_hash": "b81a0ca5464b891aeb69532b65194886453825d06a247bb4d46aa9ad8d703827"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bell/elections.json",
+   "via": "clarity_script",
+   "quote": "lists 2024 General Election (EID 122428); no 3/3/2026 or 5/26/2026 entries",
+   "supports": "2026 elections not on the Clarity list",
+   "content_hash": "326e861b2dba977b17183ed5c38aed616cd5fd02cb37abc3c95b1dd6e9708822"
+  },
+  {
+   "url": "https://www.bellcountytx.com/departments/elections/elections_archive.php",
+   "via": "websearch",
+   "content_hash": "21870fc4cf2f33e421ca6aebceed0b531489c50d251a6b9adb94f22b21b92099",
+   "quote": "Election Results Archive",
+   "supports": "County results page located; host disallowed by robots.txt (search text is not evidence)"
+  }
+ ]
+}

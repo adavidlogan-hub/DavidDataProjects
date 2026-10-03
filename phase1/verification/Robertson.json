@@ -1,0 +1,86 @@
+{
+  "county": "Robertson",
+  "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "1",
+      "fact": "Clarity EID 122830 (county Elections page, NOVEMBER 5, 2024 'COUNTY-WIDE'; ElectionName '2024 General'). Vote-type labels are shifted: the 'Election Day' type is already complete at 7:07 PM and never changes (sum of all candidate cells 100,778 in every version through 11/15/2024), so it holds early in-person votes; the 'EV Mail' type fills in during the night and holds the election-day returns. Opened v350804 (Timestamp 11/5/2024 7:07:09 PM CST): President, REP Trump/Vance 'Election Day' 4885 (<Precinct Calvert 1 votes=457>), 'EV Mail' 0 in all precincts. Opened v351866 (9:06:33 PM CST): 'EV Mail' 1189 for Trump/Vance, 13 precincts nonzero (Calvert 1 votes=100), contest-wide EV Mail sum 27,640. Only one night update (9:06 PM) carries the election-day-type numbers; next version is 11/15. Script literal reading (label 'Election Day'): 2 of 2 night updates, 1 distinct release."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 126055 ('2026 Primary Election'). 'Election Day' label constant at sum 69,120 from 7:03 PM through 3/11 (early votes). 'EV Mail' (election-day returns) sums: v368385 7:03:34 PM CST 0; v368428 8:17:27 PM 6,329 in 2 precincts; v368459 8:59:24 PM 50,433 in 12 precincts; v368471 9:15:56 PM, 13 precincts (REP US Senator John Cornyn EV Mail 496, Calvert 1 votes=46). Election-day precinct numbers in 3 night updates. Script literal reading: 4 of 4 night updates with 'Election Day' precinct votes, 1 distinct release."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 126389 ('2026 Primary Runoff'). v372896 at 5/26/2026 4:23:27 PM CDT (before polls closed) already has 'Election Day' 3,741 (sum) in 13 precincts, unchanged afterward, confirming that label holds early votes. 'EV Mail' (election-day returns): v372948 7:50:30 PM CDT 864 in 2 precincts (Wheelock 3, Benchley 11; Cornyn 28 and 32); v372979 8:31:08 PM CDT 3,666 in 13 precincts. Election-day precinct numbers in 2 night updates. Script literal reading: 2 of 2."
+    }
+  },
+  "rationale": "Primary and runoff LIVE by check 1 (election-day returns, carried under the 'EV Mail' label, appear by precinct in two or more election-night Clarity updates); 2024 END. Two LIVE give LIVE_PRECINCT, high. The literal script reading (label 'Election Day') also gives LIVE for all three.",
+  "sources": [
+    {
+      "url": "https://www.co.robertson.tx.us/page/robertson.Elections",
+      "what_i_checked": "county links: 122830 (Nov 5 2024), 126055 (Mar 3 2026), 126389 (May 26 2026)",
+      "content_hash": "ab9243604c0e6a6c427df317913d33e5cce1a5073f1450ea2a2d30c309019a2b"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Robertson/122830/350804/reports/detailxml.zip",
+      "what_i_checked": "7:07 PM: Election Day label full, EV Mail empty",
+      "content_hash": "b5d7b23669f5a6fff2b95650a04dd73bda4bdee81ec574b62da0e9a171db6c05"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Robertson/122830/351866/reports/detailxml.zip",
+      "what_i_checked": "9:06 PM: EV Mail filled in 13 precincts",
+      "content_hash": "3ac597d016881a187dfd9eeb2f2a45fbf7873db9243cb2b27a451f1eb0f33557"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368385/reports/detailxml.zip",
+      "what_i_checked": "7:03 PM first night update",
+      "content_hash": "261821a8dc3dc370dc99368a644e0709b2ecdcb5741ad28cc52d9110523d307c"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368428/reports/detailxml.zip",
+      "what_i_checked": "8:17 PM EV Mail in 2 precincts",
+      "content_hash": "675c41ba2dc51aa88aea0f5584eebb1e38dd0aed5eab29f0376bb0ac582fd36f"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368459/reports/detailxml.zip",
+      "what_i_checked": "8:59 PM EV Mail in 12 precincts",
+      "content_hash": "9a9ca36fa7ce67039f75d121cd31a72bc37836fb87bbe66f93f87d17925888b3"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Robertson/126055/368471/reports/detailxml.zip",
+      "what_i_checked": "9:15 PM EV Mail in 13 precincts",
+      "content_hash": "e9eb286c8a4fa528973eada9458ff63a4f6ac3efc3a5de54fe9baf5405315f7b"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Robertson/126389/372896/reports/detailxml.zip",
+      "what_i_checked": "4:23 PM pre-close update with Election Day label filled",
+      "content_hash": "f5289dd88d3c3f9700c465331da597d390466b9fc137909e9c4e81f6f4da4701"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Robertson/126389/372948/reports/detailxml.zip",
+      "what_i_checked": "7:50 PM EV Mail in 2 precincts",
+      "content_hash": "b73994973c1171b5450a5d2bc7708877b0d1b103760c31fec246fe6617c1f15e"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Robertson/126389/372979/reports/detailxml.zip",
+      "what_i_checked": "8:31 PM EV Mail in 13 precincts",
+      "content_hash": "1064aa1cfac2d5587d5d199a32d2927849947e8c3f04fd86cb124588e031bc42"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:29:48Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": false,
+  "comparison_notes": {
+    "2024_general": "same result (END, check 1), different reasoning. Research (reconciled LIVE to END) counts 1 distinct release of the 'Election Day'-labelled precinct votes. I find that label holds early votes (complete at 7:07 PM, unchanged through 11/15); the election-day returns are under 'EV Mail', which appear in only one night update (9:06 PM). Either way END.",
+    "2026_primary": "different: research END (1 distinct release of the 'Election Day' label across 4 night updates); I LIVE. The 'Election Day' label is constant (sum 69,120) from 7:03 PM to the 3/11 final, so it is not the election-day count. The 'EV Mail' type grows through the night: 0 at 7:03 PM, 6,329 in 2 precincts at 8:17 PM, 50,433 in 12 precincts at 8:59 PM, 13 precincts at 9:15 PM. That is election-day precinct returns in 3 night updates.",
+    "2026_runoff": "different: research END; I LIVE. The 4:23 PM CDT update (before polls closed) already holds the full 'Election Day'-labelled numbers (research itself notes 'likely early votes'), so the label is early voting. 'EV Mail' appears at 7:50 PM in 2 precincts (864) and at 8:31 PM in 13 precincts (3,666): 2 night updates with election-day precinct returns.",
+    "unsupported_or_unchecked": "Research reconciliation applied the distinct-release measure to the mislabelled vote type. Research tag_rationale is stale: it still says all three elections are LIVE and the tag is LIVE_PRECINCT, while the tag field is PRECINCT_END_OF_NIGHT. Research fact for the runoff also says 'first update with election-day precinct votes 5/26/2026 4:23:27 PM CDT', which is before polls closed and shows the label problem. Tags disagree: build rule sets the final tag to UNKNOWN unless the label reading is resolved."
+  },
+  "compared_at_utc": "2026-10-02T16:30:01Z"
+}

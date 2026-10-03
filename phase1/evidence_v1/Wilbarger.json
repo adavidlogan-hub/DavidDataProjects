@@ -1,0 +1,97 @@
+{
+  "county": "Wilbarger",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "940-552-5486",
+  "elections_office_email": "jkennon@co.wilbarger.tx.us",
+  "results_url": "https://www.co.wilbarger.tx.us/page/Elections.2026",
+  "platform": "county_pdfs",
+  "host": "www.co.wilbarger.tx.us",
+  "evidence_url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/Primary%20Party%20Election%20%E2%80%93%20Unofficial%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Network opened about 14:07 UTC; county pages and PDFs below were fetched directly through the fetch module (the first Elections.2026 fetch succeeded at about 14:05 UTC). Elections are run by the County Clerk/Elections Administrator Jana Kennon. Contact: county Elections home page (fetch_module, hash ad3e8af5...) reads 'Jana Kennon County Clerk/Elections Administrator 1700 Wilbarger Street, Room 15 Vernon, TX 76384 Phone: 940-552-5486' with an Email link mailto:jkennon@co.wilbarger.tx.us; the SOS Election Duties page (fetch_module, hash 065e1ebd...) lists WILBARGER COUNTY, County Clerk Jana Kennon, (940) 552-5486, County Email Address mailto:jkennon@co.wilbarger.tx.us. Results are scanned PDFs (Creator: Xerox AltaLink C8155) posted on the county Elections 2026 and Past Elections pages. What the PDFs show (read from the page images): every posted unofficial (election-night) report for the three target elections is a county-level 'Cumulative Results Report' with only Absentee / Early Voting / Election Day / Total columns, no precinct breakdown. Nov 5 2024 'Unofficial Results' (unofficial_results_1152024.pdf): Run Time 8:39 PM, Run Date 11/05/2024, Precincts Reporting 10 of 10; PDF scan CreationDate 2024-11-07, so it was posted no earlier than Nov 7. Mar 3 2026 'Primary Party Election - Unofficial Results': Run Time 8:56 PM, Run Date 03/03/2026, Precincts Reporting 0 of 4; PDF CreateDate 2026-03-03T21:09:21-06:00, ModDate 2026-03-04T07:40:20-06:00. May 26 2026 'Unofficial Results for Primary Party Runoff Election': Run Time 7:29 PM, Run Date 05/26/2026, Precincts Reporting 0 of 4; PDF CreateDate 2026-05-27T08:42:18-06:00. The official (post-canvass) reports for Nov 2024 (doc019_11.19.pdf, Run Date 11/13/2024) and Mar 2026 (Run Date 03/04/2026 per header, PDF created 2026-03-13) are also county-level Cumulative Results Reports with no precinct breakdown. No precinct-by-precinct results report was found on either page. Why UNKNOWN: precinct-level results never appear in anything posted, so LIVE_PRECINCT and PRECINCT_END_OF_NIGHT are contradicted, but COUNTY_ONLY_PRECINCT_AT_CANVASS also needs precinct detail later and none was found; NO_SITE_OR_SOS_ONLY does not fit because the county posts results itself. Reviewer flag: observed pattern is county totals only, no precinct detail published at any point found. The Elections home page also links to the SOS results site results.texas-election.com under 'Election Results & Turnout Data'. Usage notice: the fetched Elections.2026 and Elections home pages contain no distribution or usage notice text, so usage_notice_text is empty. Stated change: no 2025/2026 statement about precinct-level reporting found; 2026 runoff notices of consolidated precincts (19-1, 21-20) concern polling, not results reporting. Wayback: wayback_probe (3 CDX windows) failed robots_disallowed_or_unreachable before the network change; after it, archive.org/wayback/available was queried at 12 points (4 per window) for co.wilbarger.tx.us/page/Elections.2026 and every closest snapshot was 20260618012301, outside all windows. Counts: fetch_module_attempts includes the SOS list fetch (shared with other counties, counted here once), 9 county page/PDF fetches, 3 CDX probe attempts and 12 availability queries.",
+  "tag_rationale": "Primary-source PDFs show only county-level cumulative reports on election night and also at canvass, with no precinct-level report found at any stage, so no timing tag is supported and none of the tag definitions fits. Tag UNKNOWN.",
+  "sources": [
+    {
+      "url": "https://www.co.wilbarger.tx.us/page/Elections.2026",
+      "via": "fetch_module",
+      "query": "content_hash c2e5972529595dafc19d57a4ac0b0248fe5475229122fe9ca17dffd4e192aa42",
+      "quote": "2026 Primary Run-off ... Preliminary Election Reconciliation - Unofficial Totals Unofficial Results for Primary Party Runoff Election ... March 3, 2026 Election ... Primary Party Election - Unofficial Results",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/Primary%20Party%20Election%20%E2%80%93%20Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "query": "content_hash 6791960b733531210e12f9a78ca233b999d4dd0247a58a7b3344be0025f2b57c",
+      "quote": "Cumulative Results Report ... Wilbarger County Primary Party Election 3/3/2026 ... Run Time 8:56 PM Run Date 03/03/2026 ... Unofficial Results ... Precincts Reporting 0 of 4",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/2026%20Runoff/unofficial_results_for_primary_party_runoff_election.pdf",
+      "via": "fetch_module",
+      "query": "content_hash a7899c5a5cabc69075153b91545ef2e87b221e9b6942d7ec5f257117444b0646",
+      "quote": "Cumulative Results Report ... Primary Party Runoff Election 5/26/2026 ... Run Time 7:29 PM Run Date 05/26/2026 ... Unofficial Results",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0109/2024/unofficial_results_1152024.pdf",
+      "via": "fetch_module",
+      "query": "content_hash 450272eeeaae1abbf74cb6c77fd939eb7ac96e45b493dd09f6491b0845a77f82",
+      "quote": "Cumulative Results Report WILBARGER COUNTY 2024 NOVEMBER 5TH GENERAL ELECTION ... Run Time 8:39 PM Run Date 11/05/2024 ... Unofficial Results ... Precincts Reporting 10 of 10 = 100.00%",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0113/2026/Republican%20and%20Democratic%202026%20Primary%20%E2%80%93%20Official%20Results.pdf",
+      "via": "fetch_module",
+      "query": "content_hash 68b89b781dc028a659873d063ea9d7111fb72bf36ec5ac4a5a9e174faa8068fd",
+      "quote": "Cumulative Results Report ... Primary Party Election 3/3/2026 ... Official Results ... Precincts Reporting 4 of 4 = 100.00%",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/upload/page/0109/2024/doc019_11.19.pdf",
+      "via": "fetch_module",
+      "query": "content_hash 908561290cfe1d808f73c3eb59b41f5b6db296e80ee9046aa3591305253f7789",
+      "quote": "Cumulative Results Report ... 2024 NOVEMBER 5TH GENERAL ELECTION ... Run Date 11/13/2024 ... Official Results",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/page/Elections",
+      "via": "fetch_module",
+      "query": "content_hash ad3e8af5b663644703332c70d4fa7dd55086654dc838986146b341528123ccd4",
+      "quote": "Jana Kennon County Clerk/Elections Administrator 1700 Wilbarger Street, Room 15 Vernon, TX 76384 Phone: 940-552-5486 Fax: 940-553-1202 Email [mailto:jkennon@co.wilbarger.tx.us]",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "content_hash 065e1ebd63c50fea13f2f32b01686cde6df41adf1b1714128bc15f3c8189ad0e",
+      "quote": "WILBARGER COUNTY County Clerk Jana Kennon 1700 Wilbarger St., Rm. 15, Vernon 76384 County Email Address [mailto:jkennon@co.wilbarger.tx.us] (940) 552-5486",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/page/Elections.Past",
+      "via": "fetch_module",
+      "query": "content_hash 611135a38659555b573adcd70afce8a9b2b8662f03f975e668dd256a00acb021",
+      "quote": "November 5, 2024 Elections Official Results Unofficial Results",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.co.wilbarger.tx.us/page/Elections.2026",
+      "via": "websearch",
+      "query": "Wilbarger County Texas election results",
+      "quote": "Elections 2026 - Wilbarger County, Texas",
+      "supports": "results_url"
+    }
+  ],
+  "searches_run": 4,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 25,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T14:04:35Z",
+  "agent": "research-B",
+  "finished_at_utc": "2026-10-02T14:24:47Z"
+}

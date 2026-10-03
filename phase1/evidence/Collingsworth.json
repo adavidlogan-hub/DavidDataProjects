@@ -1,0 +1,86 @@
+{
+  "county": "Collingsworth",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.collingsworth.tx.us/page/collingsworth.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.collingsworth.tx.us",
+  "evidence_url": "https://www.co.collingsworth.tx.us/upload/page/8109/Republican%20Primary%20Runoff%20Unofficial%20Results%20Report%20May%2026%202026.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.collingsworth.tx.us/ was first refused by the fetch module (robots.txt fetch reset during a proxy relay problem); after the 10-minute robots retry window the https elections page loaded normally. No Clarity or vendor link. The county posts scanned SOS 'Election Unofficial Results Report' PDFs (county totals by vote method) and no precinct-level results for these elections. Last-Modified values differ per file and look like real upload times. 2026 primary undetermined (check 3 pending; wayback-data branch not on origin).",
+  "tag_rationale": "The 2024 general and 2026 runoff are both LATER (check 2: county totals only, uploaded on election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS. Confidence med because each has PDF creation time and server upload time on election night.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 23:17 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.collingsworth.tx.us/upload/page/8109/election%2011-5-2024.pdf",
+      "fact": "'November 5, 2024 election results for Collingsworth County' is a scanned 'Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 COLLINGSWORTH County' (county totals by vote method only). PDF CreationDate 2024-11-06 04:59:55 UTC; Last-Modified Wed, 06 Nov 2024 05:17:34 GMT (11:17 PM CST). No precinct-level 2024 general file is posted."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The only primary files are '2026 Republican Primary Election Results' and the Democratic equivalent: scanned SOS 'Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 COLLINGSWORTH County' county totals, Last-Modified Wed, 04 Mar 2026 16:19:28 GMT (10:19 AM CST Mar 4). Nothing shows what was posted on election night itself. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:15 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.collingsworth.tx.us/upload/page/8109/Republican%20Primary%20Runoff%20Unofficial%20Results%20Report%20May%2026%202026.pdf",
+      "fact": "'Election Unofficial Results Report 2026 Republican Primary Runoff Election' is a scanned 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 COLLINGSWORTH County' with county totals only (e.g. KEN PAXTON 148). Last-Modified Wed, 27 May 2026 01:15:40 GMT (8:15 PM CDT); PDF CreationDate 02:14:38 UTC (an hour later, so one of the two clocks is off). No precinct-level runoff file is posted."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.collingsworth.tx.us/page/collingsworth.Elections",
+      "via": "fetch_module",
+      "content_hash": "a367c2fad77ad3c4c123b92e26c9f8807a4dee1bf39460a69bcccdc1d627868d",
+      "quote": "Election Unofficial Results Report 2026 Republican Primary Runoff Election; 2026 Republican Primary Election Results; November 5, 2024 election results for Collingsworth County",
+      "supports": "Elections page result links"
+    },
+    {
+      "url": "https://www.co.collingsworth.tx.us/upload/page/8109/Republican%20Primary%20Runoff%20Unofficial%20Results%20Report%20May%2026%202026.pdf",
+      "via": "fetch_module",
+      "content_hash": "785a424f6db58de5001f8d16449a47eac7a078a0ed133be01f29b047b15a039f",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 COLLINGSWORTH County (scanned image, read visually)",
+      "supports": "Runoff county totals uploaded 2026-05-27 01:15:40 GMT"
+    },
+    {
+      "url": "https://www.co.collingsworth.tx.us/upload/page/8109/2026%20REPUBLICAN%20PRIMARY%20%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "b416b9156bdaf8485e763fe01decb2a1324e60179b6ab57f00655b0a137e0c9c",
+      "quote": "Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 COLLINGSWORTH County (scanned image, read visually)",
+      "supports": "Primary county totals uploaded 2026-03-04 16:19:28 GMT"
+    },
+    {
+      "url": "https://www.co.collingsworth.tx.us/upload/page/8109/election%2011-5-2024.pdf",
+      "via": "fetch_module",
+      "content_hash": "809cdfa82f536c54662ec83a4e2ef1f9392a15a160797c11510be1c449ac07fe",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 COLLINGSWORTH County (scanned image, read visually)",
+      "supports": "2024 county totals uploaded 2024-11-06 05:17:34 GMT"
+    },
+    {
+      "url": "websearch:?q=collingsworth%20county%20texas%20election%20results",
+      "via": "websearch",
+      "content_hash": "74bf22becd4a4f3688aadf790cb6288e6236de073b569972ca45fcbf40b89828",
+      "quote": "Elections - Collingsworth County, Texas | https://www.co.collingsworth.tx.us/page/collingsworth.Elections",
+      "supports": "Confirmed elections page URL"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "county": "Falls",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.falls.tx.us/page/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.falls.tx.us",
+  "evidence_url": "https://www.co.falls.tx.us/upload/page/0108/images/Primary%20Runoff%20Unofficial%20Results%205.26.26.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "The seed list has no website for Falls; https://www.co.falls.tx.us/ (the usual county domain pattern) loads and links /page/Elections and /page/Elections.Archive. No Clarity site (elections.json 404). Results are scanned 'Cumulative Results Report' PDFs (county totals by Absentee/Early/Election Day). 2026 runoff: 'Primary Runoff Unofficial Results 5.26.26' run 9:14 PM 05/26/2026, Last-Modified Wed, 27 May 2026 02:29:48 GMT (9:29 PM CDT election night), county totals only; the only other runoff results file is 'Cumulative Results 06.02.2026' (canvass); the precinct-labeled .xlsx files are voting history (voter lists), not results. 2024 general: 'Unofficial General Election Results' is a Cumulative Results Report run 11:43 PM 11/05/2024, scanned and Last-Modified Wed, 06 Nov 2024 14:53:48 GMT (8:53 AM CST next day), county totals only; no 2024 precinct results report is listed. 2026 primary: the only primary results link, labeled 'Cumulative Results-3-13-2026', points to a Bremond ISD notice of election file, so no primary results are readable. Last-Modified values differ per file, so they are real upload times. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-3): 2024_general LATER kept, county_totals_first_seen 2024-11-05 23:43 CT.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 23:43 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.falls.tx.us/upload/page/0107/2024%20Election/Results.pdf",
+      "fact": "'Unofficial General Election Results': 'Cumulative Results Report FALLS COUNTY, TEXAS GENERAL ELECTION Unofficial Results ... Polling Places Reporting 15 of 15 ... Run Time 11:43 PM Run Date 11/05/2024', county totals by Absentee/Early/Election Day; Last-Modified Wed, 06 Nov 2024 14:53:48 GMT. No 2024 general precinct results report listed (precinct numbers never published online). Rule 43: county totals first seen 2024-11-05 23:43 CT in Results.pdf (printed 'Run Time 11:43 PM Run Date 11/05/2024'; county totals, 'Polling Places Reporting 15 of 15').",
+      "precinct_first_seen": ""
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections page link 'Cumulative Results-3-13-2026' points to '/upload/page/0108/Bremond ISD - Notice of Election.pdf 5.3.25.pdf'; no 2026 primary results file is reachable. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:29 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.falls.tx.us/upload/page/0108/images/Primary%20Runoff%20Unofficial%20Results%205.26.26.pdf",
+      "fact": "'Primary Runoff Unofficial Results 5.26.26': 'Cumulative Results Report FALLS COUNTY, TEXAS PRIMARY RUNOFF ELECTION Unofficial Results ... Precincts Reporting 4 of 4 = 100.00% ... Run Time 9:14 PM Run Date 05/26/2026', county totals only; Last-Modified Wed, 27 May 2026 02:29:48 GMT. Other runoff results: 'Cumulative Results 06.02.2026'. No precinct results report listed.",
+      "precinct_first_seen": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.falls.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "469a5eab33c3b8800fa287c35ccc370d6cc5a3541c02b7e0737e38f5e8f4cf20",
+      "quote": "Primary Runoff Unofficial Results 5.26.26.pdf ... Cumulative Results 06.02.2026 ... Cumulative Results-3-13-2026 (links to Bremond ISD - Notice of Election.pdf)",
+      "supports": "2026 report lists"
+    },
+    {
+      "url": "https://www.co.falls.tx.us/page/Elections.Archive",
+      "via": "fetch_module",
+      "content_hash": "2d422be5db686d6d388dc35592d78f0b3b6efdc1b858153ff7b6d6498e0cf851",
+      "quote": "Unofficial General Election Results",
+      "supports": "2024 report list"
+    },
+    {
+      "url": "https://www.co.falls.tx.us/upload/page/0108/images/Primary%20Runoff%20Unofficial%20Results%205.26.26.pdf",
+      "via": "fetch_module",
+      "content_hash": "198888ccb1f88b453d20a2b98dd7f4c6c57fdc3b77798c637c9310d43309048a",
+      "quote": "Cumulative Results Report FALLS COUNTY, TEXAS PRIMARY RUNOFF ELECTION Unofficial Results Run Time 9:14 PM Run Date 05/26/2026",
+      "supports": "2026_runoff county totals uploaded 9:29 PM CDT"
+    },
+    {
+      "url": "https://www.co.falls.tx.us/upload/page/0107/2024%20Election/Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "1fce71f56d17476308c9df947dc90e5baecc2aaaac441473ce474af841df7f02",
+      "quote": "Cumulative Results Report FALLS COUNTY, TEXAS GENERAL ELECTION Unofficial Results Run Time 11:43 PM Run Date 11/05/2024",
+      "supports": "2024_general county totals uploaded next morning"
+    }
+  ]
+}

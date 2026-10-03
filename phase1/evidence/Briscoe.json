@@ -1,0 +1,58 @@
+{
+  "county": "Briscoe",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.briscoe.tx.us/page/briscoe.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.briscoe.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https. No Clarity site (elections.json 404). The Elections page lists, for the 2026 runoff and 2026 primary, only 'Official Results' and 'Official Results By Precinct' files (plus reconciliations and hand count audits); the 2024 general 'Unofficial Results' link (11.05.2024.pdf) returns 404, and a 2024 CVR spreadsheet is posted. No election-night file survives for any target election, so checks 1 and 2 cannot decide. Check 3 pending (wayback-data branch not found on origin). Targeted pass 3 2026-10-02 (targeted3-H): No change. Refetched the Elections page: 2026 primary and runoff list only official results and reconciliations; the 2024 'Unofficial Results' (11.05.2024.pdf), the 2024 CVR spreadsheet, and an unlabeled 'Unofficial Preliminary.pdf' link on newtools.cira.state.tx.us all return HTTP 404. Wayback harvest of co.briscoe.tx.us found no election-night captures; no sweep folder.",
+  "tag_rationale": "All three elections are UNDETERMINED (no surviving election-night files, no vendor log, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Unofficial Results' link https://www.co.briscoe.tx.us/upload/page/5196/11.05.2024.pdf returns HTTP 404; only a CVR spreadsheet and preliminary reconciliation remain. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'March 3, 2026 Official Election Results' and 'Official Election Results by precinct' are listed. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'May 26, 2026 Official Results' and 'May 26, 2026 Official Results By Precinct' are listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.briscoe.tx.us/page/briscoe.Elections",
+      "via": "fetch_module",
+      "quote": "May 26, 2026 Official Results; May 26, 2026 Official Results By Precinct; March 3, 2026 Official Election Results by precinct; Unofficial Results -> 11.05.2024.pdf",
+      "supports": "Only official files for 2026; 2024 unofficial link dead",
+      "content_hash": "2ebf17faf67206d9b865f0ced4056f092e038237ab49882a573283d9e7efe007"
+    }
+  ]
+}

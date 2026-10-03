@@ -1,0 +1,58 @@
+{
+  "county": "Jefferson",
+  "ranges": {
+    "2024_general": [
+      122450,
+      122900,
+      "11/5/2024"
+    ],
+    "2026_primary": [
+      125900,
+      126070,
+      "3/3/2026"
+    ],
+    "2026_runoff": [
+      126070,
+      126400,
+      "5/26/2026"
+    ]
+  },
+  "hits": [
+    {
+      "election": "2024_general",
+      "eid": 122828,
+      "current_version": "355360",
+      "Region": "Jefferson",
+      "ElectionName": "2024 Nov General",
+      "ElectionDate": "11/5/2024",
+      "accepted": true
+    },
+    {
+      "election": "2026_primary",
+      "eid": 126017,
+      "current_version": "368824",
+      "Region": "Jefferson",
+      "ElectionName": "2026 Mar Primary",
+      "ElectionDate": "3/3/2026",
+      "accepted": true
+    },
+    {
+      "election": "2026_runoff",
+      "eid": 126275,
+      "current_version": "371601",
+      "Region": "Jefferson",
+      "ElectionName": "2026 May 2nd Special",
+      "ElectionDate": "5/2/2026",
+      "accepted": false
+    },
+    {
+      "election": "2026_runoff",
+      "eid": 126276,
+      "current_version": "374111",
+      "Region": "Jefferson",
+      "ElectionName": "2026 May Primary Runoff",
+      "ElectionDate": "5/26/2026",
+      "accepted": true
+    }
+  ]
+}

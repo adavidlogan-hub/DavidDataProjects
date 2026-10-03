@@ -1,0 +1,79 @@
+{
+  "county": "Atascosa",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://co.atascosa.tx.us/elections-administration/",
+  "platform": "county_pdfs",
+  "host": "co.atascosa.tx.us",
+  "evidence_url": "https://co.atascosa.tx.us/wp-content/uploads/2026/03/260303-ED.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed page (atascosacounty.texas.gov/page/atascosa.Elections) returns 404; the domain redirects to co.atascosa.tx.us, whose Elections Administration page lists results under 'Past Elections'. No Clarity site (elections.json 404). For every target election the unofficial files are scanned Electionware 'Summary Results Report' county totals ('Unofficial Results - Election Day' and '- Early Voting'); precinct numbers appear only in official files (e.g. March 3, 2026 'Official Results - Precinct Detail'). The 2024 general files were re-uploaded in January 2026 (wp-content/uploads/2026/01), so they carry no election-night upload time. Primary and runoff files have printed run times and server upload times on election night. Dashes in link titles replaced with hyphens.",
+  "tag_rationale": "All three elections are LATER (county totals only on election night; precinct detail only in official reports), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the primary and runoff were settled by check 2 with printed and upload times on election night.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 21:12 CT (printed; scan created 21:44 CT)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://co.atascosa.tx.us/wp-content/uploads/2026/01/img11052024_0001.pdf",
+      "fact": "'Election Day Results - Unofficial' = scanned 'Summary Results Report UNOFFICIAL RESULTS 2024 General Election Day Totals November 5, 2024 Atascosa County ... ElectionDayPrecinctsReporting 20 of 20', county totals, footer 'Election Summary - 11/05/2024 9:12 PM'; PDF CreationDate Wed Nov 6 03:44:58 2024 UTC; file re-uploaded (Last-Modified Tue, 13 Jan 2026 15:40:24 GMT). Precinct numbers only in 'Election Results - Official' and 'Canvass of General Election'."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:08 CT (server upload; printed 19:46)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://co.atascosa.tx.us/wp-content/uploads/2026/03/260303-ED.pdf",
+      "fact": "'Unofficial Results - Election Day' = 'Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election Election Day March 3, 2026 Atascosa County, Texas ... Election Day Precincts Reporting 20 of 20', county totals, footer 'Election Summary - 03/03/2026 7:46 PM'; PDF CreationDate Wed Mar 4 02:57:51 2026 UTC; Last-Modified Wed, 04 Mar 2026 03:08:06 GMT. Precinct numbers only in 'Official Results - Precinct Detail' (Official_Results_PCT-by-PCT-03032026.pdf)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:28 CT (server upload; printed 19:15)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://co.atascosa.tx.us/wp-content/uploads/2026/05/260526-ED.pdf",
+      "fact": "'Unofficial Results - Election Day' = 'Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Atascosa County, Texas ... Election Day Precincts Reporting 20 of 20 ... Ballots Cast - Total 2,733', county totals, footer 'Election Summary -05/26/2026 7:15 PM'; Last-Modified Wed, 27 May 2026 01:28:43 GMT. Other runoff result file is 'Official Results' (posted June 2026); no unofficial precinct report."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://co.atascosa.tx.us/elections-administration/",
+      "via": "fetch_module",
+      "quote": "March 3, 2026 Official Results - Summary Official Results - Precinct Detail Election Reconciliation Post Election Hand Count Audit Unofficial Results - Election Day Unofficial Results - Early Voting & Absentee",
+      "supports": "County-posted report list (dashes normalized)",
+      "content_hash": "7cc184d0c8824c8ce1ba935c458ecec969a3aba1aba72402697417dafefc52d0"
+    },
+    {
+      "url": "https://co.atascosa.tx.us/wp-content/uploads/2026/01/img11052024_0001.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS 2024 General Election Day Totals November 5, 2024 Atascosa County ... Election Summary - 11/05/2024 9:12 PM",
+      "supports": "2024 election-night results were county totals",
+      "content_hash": "5c5e14830013c6ffc571d002152410bbbb4fcf8d75e3375a5ef86f7edffed89f"
+    },
+    {
+      "url": "https://co.atascosa.tx.us/wp-content/uploads/2026/03/260303-ED.pdf",
+      "via": "fetch_module",
+      "quote": "Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election Election Day March 3, 2026 Atascosa County, Texas",
+      "supports": "Primary election-night results were county totals, uploaded 9:08 PM CST",
+      "content_hash": "1a0fb05d31774f80666cdc3dbeef993c95c3ead3cb8f19addedba119abaf08a6"
+    },
+    {
+      "url": "https://co.atascosa.tx.us/wp-content/uploads/2026/05/260526-ED.pdf",
+      "via": "fetch_module",
+      "quote": "Election Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election May 26, 2026 Atascosa County, Texas",
+      "supports": "Runoff election-night results were county totals, uploaded 8:28 PM CDT",
+      "content_hash": "99c32279e39c043f317b1fb51de207e744d1106ef1b8122109c1e7916099a40f"
+    }
+  ]
+}

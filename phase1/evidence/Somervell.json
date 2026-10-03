@@ -1,0 +1,79 @@
+{
+  "county": "Somervell",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.somervell.co/161/Past-Election-Results",
+  "platform": "county_pdfs",
+  "host": "www.somervell.co",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.somervell.co/additional-offices/elections/ returns 404 (site moved to CivicPlus); the sitemap gives Elections (160/Elections) and Past Election Results (161/Past-Election-Results). No Clarity site (elections.json 404). The archive lists only official results through November 2022; nothing for the 2024 general, 2026 primary or 2026 runoff. The CivicPlus server stamps HTML pages with the request time as Last-Modified, so page dates give no upload evidence. Check 3 pending (wayback-data branch not found on origin). Targeted pass 3 2026-10-02 (targeted3-I): No change. The Elections page (DocumentCenter items 1137 to 1203) holds only Nov 2026 notices; Past Election Results ends with Nov 2022; CivicAlerts and Archive Center have no results. Wayback harvest was robots-blocked or unreachable for somervell.co; no sweep file; web search found no third-party precinct results.",
+  "tag_rationale": "All three elections are UNDETERMINED (no vendor log, no 2024 or 2026 results posted, check 3 pending), so by rule the tag is UNKNOWN.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No results for this election on the county Elections page or the Past Election Results page (which ends with November 2022). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No results for this election on the county Elections page or the Past Election Results page (which ends with November 2022). Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No results for this election on the county Elections page or the Past Election Results page (which ends with November 2022). Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.somervell.co/160/Elections",
+      "via": "fetch_module",
+      "content_hash": "cd0cac922c5c4dd708a51b24805b17c32650fc4e876b65f3e9664d2769ed8d40",
+      "quote": "NOVEMBER 3, 2026 GENERAL ELECTION INFORMATION ... Past Election Results For more details Visit Past Election Results",
+      "supports": "Elections page posts no 2024 or 2026 results"
+    },
+    {
+      "url": "https://www.somervell.co/161/Past-Election-Results",
+      "via": "fetch_module",
+      "content_hash": "c6a39f0efd28ddc07f2f0a343a982f2a04e388f40986aad478a09b652aff17d7",
+      "quote": "November 8, 2022, General Election Official Results (PDF) ... November 7, 2022 General Election Official Results (PDF)",
+      "supports": "Past results archive ends at 2022"
+    },
+    {
+      "url": "https://www.somervell.co/CivicAlerts.aspx",
+      "via": "fetch_module",
+      "content_hash": "6365c55014f9e8132edc7558734f56e6ad0aaf911ab0a829b65b0e17a7a6619b",
+      "quote": "(no election results items)",
+      "supports": "No results posted as News Flash items"
+    },
+    {
+      "url": "https://www.somervell.co/Archive.aspx",
+      "via": "fetch_module",
+      "content_hash": "80cb780b316e581ddb9c4eaf3212d7b71fab7ca6b45af91b6393f4d06fd1f307",
+      "quote": "(no election results items)",
+      "supports": "No results in the CivicPlus Archive Center"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "county": "Brazos",
+  "reason_selected": "low confidence (after rule 43 normalization)",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No Clarity link on the results page. Only 2024 general files are re-uploaded 'accessible' copies (wp-content/uploads/2026/04). The unofficial 'Cumulative-Results-11-6-2024-10-15-52-AM-accessible.pdf' is county totals, 'Run Time 10:15 AM ... Run Date 11/06/2024', CreationDate Nov 6 2024 16:16 UTC: after election night. No 2024 precinct report listed. No election-night file survives; check 3 unavailable (no Brazos folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'March 3, 2026 Primary Election - Cumulative Results (Unofficial)' (Cumulative-Results-3-3-2026-accessible.pdf): county totals with Absentee/Early/Election Day columns, 'Run Time 9:28 PM ... Run Date 03/03/2026', CreationDate Mar 4 2026 03:32 UTC (9:32 PM CST); server Last-Modified Apr 6 2026 (re-upload). Precinct reports (e.g. Arena-Hall-ED-Precinct-Report-3-3-26-accessible.pdf) are 'Official Results', 'Run Date 04/10/2026', Last-Modified Apr 15 2026. Election-night county totals by printed run time; precinct numbers only after the canvass."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'May 26, 2026 Primary Runoff Election - Cumulative Results (Unofficial)' (uploads/2026/05/Unofficial-Cumulative-Results-05262026.pdf): county totals, 'Run Time 9:09 PM ... Run Date 05/26/2026', CreationDate May 27 02:11 UTC, Last-Modified Wed 27 May 2026 03:15:57 GMT (10:15 PM CDT). No runoff precinct candidate report listed; only official cumulative, reconciliation (turnout by location) and hand count audit files dated June 2026. Precinct candidate numbers not published online."
+    }
+  },
+  "rationale": "Primary and runoff both LATER from county-posted reports (election-night county totals, no precinct candidate numbers that night); 2024 has no surviving election-night file. Two LATER give COUNTY_ONLY_PRECINCT_AT_CANVASS.",
+  "sources": [
+    {
+      "url": "https://elections.brazoscountytx.gov/results/",
+      "content_hash": "9142ea0ec67647df2c5da1528f070f7522dbc0d6670aa38e024586d4a5f4bc95",
+      "what_i_checked": "list of report titles per election, no Clarity link"
+    },
+    {
+      "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/05/Unofficial-Cumulative-Results-05262026.pdf",
+      "content_hash": "97aedc0514ad60cbb233adff393b323a33928b5281064a6898a44161da1d04a1",
+      "what_i_checked": "runoff county totals, run 9:09 PM, uploaded 10:15 PM CDT"
+    },
+    {
+      "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-3-2026-accessible.pdf",
+      "content_hash": "56f4f8bfde9c1cb930a58f2755ec86ed25cf41119124e03cab5be457d662e4f3",
+      "what_i_checked": "primary county totals, run 9:28 PM 3/3/2026"
+    },
+    {
+      "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Arena-Hall-ED-Precinct-Report-3-3-26-accessible.pdf",
+      "content_hash": "589bb90397e9e8ac8fba84bcffb6dd2fe6aa142ef968a3eba2c54b251e35227d",
+      "what_i_checked": "primary precinct report is Official, run 04/10/2026"
+    },
+    {
+      "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-11-6-2024-10-15-52-AM-accessible.pdf",
+      "content_hash": "4fc6827896516f1631feb4d19d115dbf99ef2f509ffba21a0a25df1714426a0c",
+      "what_i_checked": "2024 unofficial totals run 11/06/2024 10:15 AM, not election night"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:40:23Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED): only the 11/06/2024 10:15 AM unofficial totals and official files survive, all re-uploaded April 2026.",
+    "2026_primary": "different: research UNDETERMINED, I said LATER (check 2). Both see the unofficial county totals printed 9:28 PM 3/3/2026 (CreationDate 03:32 UTC Mar 4). Research held that the per-location precinct reports might have been posted on election night before the April 2026 re-upload; I opened Arena-Hall-ED-Precinct-Report-3-3-26-accessible.pdf and it reads 'Official Results', 'Run Date 04/10/2026', so the surviving precinct reports are post-canvass. Difference in reading the rule, not in facts; does not change the tag.",
+    "2026_runoff": "same (LATER, check 2): run 9:09 PM, Last-Modified 03:15:57 GMT May 27 (10:15 PM CDT), no runoff precinct candidate report.",
+    "unsupported_claims": "none found"
+  },
+  "compared_at_utc": "2026-10-02T16:40:40Z"
+}

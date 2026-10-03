@@ -1,0 +1,94 @@
+name: wayback-harvest
+# Runs the Wayback harvest on a GitHub-hosted runner, where web.archive.org is
+# reachable, and pushes the raw snapshots to the wayback-data branch.
+# Output is never lost: the fetch cache is saved even when a later step fails,
+# and the snapshots are always uploaded as a run artifact.
+on:
+  push:
+    branches: [claude/tx-precinct-pipeline]
+    paths: [phase1/wayback_targets.json, .github/workflows/wayback-harvest.yml]
+  workflow_dispatch:
+concurrency:
+  group: wayback-harvest   # one harvest at a time keeps the archive.org rate limit global
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      max-parallel: 1        # batches run one after another so the archive.org limit stays global
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Restore fetch cache
+        uses: actions/cache/restore@v4
+        with:
+          path: var
+          key: fetch-cache-${{ github.run_id }}-${{ matrix.batch }}
+          restore-keys: fetch-cache-
+      - name: Clear transient robots.txt failures from the restored cache
+        run: |
+          python - <<'PY'
+          import sqlite3, os
+          p = "var/cache/index.sqlite"
+          if os.path.exists(p):
+              con = sqlite3.connect(p)
+              n = con.execute("DELETE FROM robots WHERE error IS NOT NULL").rowcount
+              con.commit()
+              print(f"cleared {n} failed robots.txt entries")
+          PY
+      - name: Harvest
+        shell: bash
+        run: set -o pipefail; python -m phase1.wayback_harvest --agent wayback-harvest --cap 30 --batch ${{ matrix.batch }}/6 | tee harvest_log.jsonl
+      - name: Save fetch cache (always)
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: var
+          key: fetch-cache-${{ github.run_id }}-${{ matrix.batch }}
+      - name: Upload snapshots as artifact (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wayback-snapshots-${{ github.run_id }}-${{ matrix.batch }}
+          path: |
+            phase1/wayback_snapshots
+            harvest_log.jsonl
+            var/logs/fetch_failures.jsonl
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Push snapshots to wayback-data branch
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -u
+          REMOTE="https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git"
+          WD=$(mktemp -d)
+          if git ls-remote --exit-code --heads "$REMOTE" wayback-data >/dev/null 2>&1; then
+            git clone -q --depth 1 --branch wayback-data "$REMOTE" "$WD"
+          else
+            git init -q "$WD" && git -C "$WD" checkout -q -b wayback-data && git -C "$WD" remote add origin "$REMOTE"
+          fi
+          mkdir -p "$WD/phase1" "$WD/harvest_logs"
+          cp -r phase1/wayback_snapshots "$WD/phase1/"
+          cp harvest_log.jsonl "$WD/harvest_logs/run_${{ github.run_id }}_${{ matrix.batch }}.jsonl"
+          cp var/logs/fetch_failures.jsonl "$WD/harvest_logs/failures_${{ github.run_id }}_${{ matrix.batch }}.jsonl" 2>/dev/null || true
+          cd "$WD"
+          git config user.name "wayback-harvest"
+          git config user.email "wayback-harvest@users.noreply.github.com"
+          git add phase1 harvest_logs
+          git commit -q -m "Wayback harvest run ${{ github.run_id }} batch ${{ matrix.batch }}" || echo "nothing new"
+          for delay in 0 2 4 8 16; do
+            sleep $delay
+            if git push -q origin wayback-data; then echo "pushed"; exit 0; fi
+            echo "push failed, retrying"
+          done
+          echo "push failed after retries; snapshots are in the run artifact"; exit 1

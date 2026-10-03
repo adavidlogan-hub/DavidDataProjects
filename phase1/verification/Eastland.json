@@ -1,0 +1,66 @@
+{
+  "county": "Eastland",
+  "reason_selected": "low confidence (after rule 43 normalization)",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Seed eastlandcountytexas.com page 404 (https) / 403 (http); site moved to eastlandcounty.gov (CivicPlus). '2024 November 5th General Election' page has one result file, 'Unofficial Cumulative Results Report (PDF)' (DocumentCenter/View/1272): scanned county totals, printed 'Run Time 12:30 PM, Run Date 11/06/2024', 'Polling Places Reporting 9 of 9', CreationDate Nov 6 2024 17:40 UTC. After election night; no election-night file survives. CivicPlus Last-Modified equals request time (no upload evidence). No Clarity link. check 3 unavailable (no Eastland folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'2026 March Primary' page lists only notices, sample ballots ('Precinct 1 (PDF)' ... are sample ballots) and daily voting rosters; no results file and no SOS-only statement."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Elections page, '2026 May 26th Primary Run-Off' tab: 'Unofficial Results (PDF)' (View/710) is a Cumulative Results Report, county totals, 'Run Time 9:02 PM ... Run Date 05/26/2026', CreationDate May 27 2026 02:03 UTC (9:03 PM CDT). 'Republican-Precinct by Precinct Report' (View/708): Precinct Results Report Unofficial, 'Run Time 12:56 PM ... Run Date 05/27/2026', CreationDate May 27 17:57 UTC, e.g. 'PCT 1 ... Ken Paxton ... 116' election day. County totals on the night (printed run time), precinct numbers next afternoon. Last-Modified headers are request time (no upload evidence)."
+    }
+  },
+  "rationale": "Only the runoff is determined (LATER from printed run times: county totals 9:02 PM on the night, precinct report run 05/27 12:56 PM). One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low.",
+  "sources": [
+    {
+      "url": "https://www.eastlandcounty.gov/1196/Eastland-County-Elections",
+      "content_hash": "11a5c1a38ee1448f7d242f7bc5434ce58a8c75458153440c",
+      "what_i_checked": "runoff result links (hash prefix shown)"
+    },
+    {
+      "url": "https://www.eastlandcounty.gov/DocumentCenter/View/710/Unofficial-Results-PDF",
+      "content_hash": "dbd6aa97c9b660e413c943655a44e1e6b86c96346daede3f177f2dcd2aa3ddd3",
+      "what_i_checked": "runoff county totals run 9:02 PM 5/26/2026"
+    },
+    {
+      "url": "https://www.eastlandcounty.gov/DocumentCenter/View/708/Republican-Precinct-by-Precinct-Report-PDF",
+      "content_hash": "c8e0ab60d1c8a85acca17b13a393a270ff245713cf74e7d8c62855f836544d80",
+      "what_i_checked": "runoff precinct report run 05/27/2026 12:56 PM"
+    },
+    {
+      "url": "https://www.eastlandcounty.gov/1314/2026-March-Primary",
+      "content_hash": "",
+      "what_i_checked": "no results files"
+    },
+    {
+      "url": "https://www.eastlandcounty.gov/1313/2024-November-5th-General-Election",
+      "content_hash": "",
+      "what_i_checked": "one unofficial cumulative file"
+    },
+    {
+      "url": "https://www.eastlandcounty.gov/DocumentCenter/View/1272/Unofficial-Cumulative-Results-Report-PDF",
+      "content_hash": "5d8b45d170e5290a6368d6bb728d437745ffd7242e61fb18f089c6e6de951fd8",
+      "what_i_checked": "scanned; printed run 12:30 PM 11/06/2024 (read from page image)"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:43:57Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED): unofficial cumulative printed 12:30 PM 11/06/2024. Research also cites a 2024 precinct-by-precinct PDF created Feb 2025 that I did not open (my link list was cut short); it does not change the result.",
+    "2026_primary": "same result (UNDETERMINED), different path: I found no results on the '2026 March Primary' page; research found SOS-format unofficial county totals (CreationDate Mar 5 2026 02:02 UTC, the day after) elsewhere on the site. Either way no election-night file.",
+    "2026_runoff": "same (LATER, check 2): county totals run 9:02 PM 5/26/2026, precinct report run 12:56 PM 05/27/2026; Last-Modified is request time.",
+    "unsupported_claims": "none found"
+  },
+  "compared_at_utc": "2026-10-02T16:44:04Z"
+}

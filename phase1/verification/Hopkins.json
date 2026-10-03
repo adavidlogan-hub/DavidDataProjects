@@ -1,0 +1,62 @@
+{
+  "county": "Hopkins",
+  "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No Clarity site (elections.json 404). No November 5 2024 result file on the Elections page or the Archived Elections page. check 3 pending (no folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only county-total reports listed: 'Unofficial March 3, 2026 Election Results' (FINAL-Cumulative Results-3-6-2026 04-08-24 PM.pdf, Cumulative Results Report, Run Time 4:08 PM Run Date 03/06/2026, Last-Modified 3/6/2026 21:42 GMT) and Official Cumulative. No primary precinct report online."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "fact": "'Precinct by Precinct Unofficial Results' (Precinct Results-5-26-2026 Unofficial.pdf): Precinct Results Report, Unofficial Results, Run Time 7:56 PM Run Date 05/26/2026, includes Election Day Voting by precinct (precinct 1, Vikki Goodwin Election Day 8); CreationDate 5/27/2026 00:56:38 UTC, Last-Modified 5/27/2026 01:12:05 GMT (8:12 PM CDT). Matching 'Cumulative Unofficial Results' file name says 'Final Unofficial', run 7:56 PM, uploaded 8:11 PM. One election-night precinct release with the final unofficial count."
+    }
+  },
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'UNDETERMINED', '2026_primary': 'UNDETERMINED', '2026_runoff': 'END'}. Fixed rule gives PRECINCT_END_OF_NIGHT, confidence low. (Original blind rationale: 2026_runoff END (check 2, printed 7:56 PM and uploaded 8:12 PM), 2026_primary LATER (only county totals, no precinct report), 2024 UNDETERMINED. Two determined elections disagree, so UNKNOWN.)",
+  "sources": [
+    {
+      "url": "https://www.hopkinscountytx.org/page/hopkins.Elections",
+      "content_hash": "3557c7e6354095111d1a25be5bd534fae189654a97f681fe82aff195056c5dc0",
+      "what_i_checked": "result file list"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/page/hopkins.ArchivedElections",
+      "content_hash": "d9504899d96f457cc2460e47957fdce21716f99f08d0bba177af78f07f481da8",
+      "what_i_checked": "no 2024 general results"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3034/3.3.26/FINAL-Cumulative%20Results-3-6-2026%2004-08-24%20PM.pdf",
+      "content_hash": "690e46be0c4292e0c4b7a43de8a3c59b8e9e940ec5aabbd394895c8e4e8b7a95",
+      "what_i_checked": "primary county totals run 3/6"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3034/5.26.2026/Precinct%20Results-5-26-2026%20Unofficial.pdf",
+      "content_hash": "0a3aa855b3bada731c01a683ff766cfbb0e704c1313c1efc41e38c557fd99ef2",
+      "what_i_checked": "runoff precinct report 7:56 PM, uploaded 8:12 PM"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3034/5.26.2026/Cumulative%20Results-5-26-2026%20Final%20Unofficial.pdf",
+      "content_hash": "47587d390274fbfc9df1fd3e1c39eddccedcdde3a9a2b28c0c217c2d960aa95c",
+      "what_i_checked": "runoff final unofficial cumulative"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "different: research UNDETERMINED, I said LATER (only county totals: unofficial cumulative run 3/6/2026 and official cumulative; no precinct report). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. This alone moves my tag to UNKNOWN (END plus LATER), while research has PRECINCT_END_OF_NIGHT low from the runoff alone. Rule 43 re-applied: LATER changed to UNDETERMINED (only county totals run 3/6/2026 and official cumulative; no election-night file); check 3 pending.",
+    "2026_runoff": "same (END, check 2): precinct report Run Time 7:56 PM, Last-Modified 5/27 01:12:05 GMT.",
+    "rule_43": "rule 43 re-applied"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+}

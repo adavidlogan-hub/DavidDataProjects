@@ -1,0 +1,159 @@
+{
+ "county": "Haskell",
+ "reason_selected": "tag changed in targeted pass 3",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections page (haskellcountytx.gov/page/haskell.Elections, also newtools.cira.state.tx.us, original Last-Modified kept) lists for Nov 2024 only \"NOVEMBER 5TH 2024 PRECINCT BY PRECINCT ELECTION RESULTS\" (precinct by precinct for nov 2024 election.pdf, scanned 2025-07-08, Last-Modified 05 Feb 2026). No unofficial or election-night file for 2024 survives; County Clerk page has none. Wayback: CDX ok, no captures. Not on Clarity (404)."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"MARCH 3, 2026 DEMOCRATIC UNOFFICIAL RESULTS\" (ELECTION-UNOFFICIAL-RESULT-REPORT DEMOCRATIC 3.3.26.pdf): \"Texas Secretary of State Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY ELECTION ... HASKELL County\", county totals with Election Day Count column; CreationDate 2026-03-04 05:00:07 UTC, Last-Modified Wed, 04 Mar 2026 05:16:53 GMT (11:16 PM CST, election night). Republican unofficial report (county totals, created 06:06 UTC = 12:06 AM CST) Last-Modified 13:54:56 GMT Mar 4 (7:54 AM, after election night). Precinct reports \"REPBUBLICAN PRECINCT BY PRECINCT 3.3.26\" and \"DEOMOCRATIC PRECINCT BY PRECINCT 3.3.26\" Last-Modified 01 Apr 2026 (scanned Apr 1). County totals on election night, precinct numbers only after (rule 43)."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"MAY 26, 2026 REPUBLICAN UNOFFICIAL RESULTS\" (SOS Election Unofficial Results Report, county totals with Election Day Count, scanned) Last-Modified Wed, 27 May 2026 01:33:23 GMT (8:33 PM CDT); \"MAY 26, 2026 DEMOCRATIC UNOFFICIAL RESULTS\" Last-Modified 00:58:27 GMT (7:58 PM CDT). \"PRIMARY RUNOFF RESULTS FOR PRECINCT BY PRECINCT/ REP AND DEM\" (PCT 1 to PCT 10 by EV, ED, BBM) Last-Modified 29 Jun 2026 15:04:45 GMT, scanned Jun 29. Canvass report Last-Modified 10 Jun 2026. County totals on election night, precinct numbers only after (rule 43). Scanner CreationDates run about 48 minutes after the uploads (scanner clock offset), so Last-Modified is used."
+  }
+ },
+ "rationale": "Primary and runoff: SOS-format county-totals unofficial reports uploaded on election night (11:16 PM Mar 3; 7:58 and 8:33 PM May 26) on the CIRA host that keeps original Last-Modified times; precinct-by-precinct reports uploaded Apr 1 and Jun 29. 2024 has no surviving election-night file (UNDETERMINED). Two LATER give COUNTY_ONLY_PRECINCT_AT_CANVASS, med (check 2).",
+ "sources": [
+  {
+   "url": "https://newtools.cira.state.tx.us/page/haskell.Elections",
+   "content_hash": "95eed95d697e9bada393bb55f132a88de5dc67d3afd5581893e2cbcc4c535ce4",
+   "what_i_checked": "elections page (same content hash as haskellcountytx.gov): result file list"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/7706/precinct%20by%20precinct%20for%20nov%202024%20election.pdf",
+   "content_hash": "f2f55f63755248b3ef0f4e4a8892366f0b751b4d2d0c1365a47fb05f04ab5743",
+   "what_i_checked": "Nov 2024 precinct by precinct, Last-Modified 05 Feb 2026, CreationDate 2025-07-08"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/7706/ELECTION-UNOFFICIAL-RESULT-REPORT%20DEMOCRATIC%203.3.26.pdf",
+   "content_hash": "6137815f96bbb9fb31a85b9cc9ea0ae3383d12303ad1dadfc119a20162ee25f8",
+   "what_i_checked": "SOS county totals, Last-Modified 04 Mar 2026 05:16:53 GMT"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/7706/ELECTION-UNOFFICIAL-RESULT-REPORT_52585_1772604388995.pdf",
+   "content_hash": "1b826c4588d34c5fa58ad3199c7d1964fa5ff4e63ff73b5fe0ada788fd277ee7",
+   "what_i_checked": "SOS Republican county totals, created 06:06 UTC, Last-Modified 04 Mar 2026 13:54:56 GMT"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/7706/REPUBLICAN%20PRECINCT%20BY%20PRECINCT%203.3.26.pdf",
+   "content_hash": "597033042e2238362a7cfcff8467bc78852b9e46277ac473ce0f465842c0b4e1",
+   "what_i_checked": "Last-Modified 01 Apr 2026 20:44:30 GMT"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/7706/DEMOCRATIC%20PRECINCT%20BY%20PRECINCT%203.3.26.pdf",
+   "content_hash": "376fab3a38162f3b05a9271ca46b20600858d15f6e3c413dc7d9a88ee5cd1d9a",
+   "what_i_checked": "Last-Modified 01 Apr 2026 20:43:36 GMT"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/7706/REPUBLICAN%20UNOFFICIAL%20RESULTS%205.26.26.pdf",
+   "content_hash": "627f863178a89c8dd44a3f21d4230282cdf5d6750ce3fbc40b723ac7512d0e6d",
+   "what_i_checked": "rendered: SOS county totals; Last-Modified 27 May 2026 01:33:23 GMT"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/7706/UNOFFICIAL%20DEMOCRATIC%20RUNOFF%20RESULTS%205.26.26.pdf",
+   "content_hash": "2301e9483e5dd7d040508e40a438b63d94b36e686923f16030ca0ed16a92a703",
+   "what_i_checked": "rendered: SOS county totals; Last-Modified 27 May 2026 00:58:27 GMT"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/7706/PRIMARY%20RUNOFF%20PCT%20BY%20PCT.pdf",
+   "content_hash": "d95c42410e8482c6f3caec70f977c92ec177dc9685dab4af16b3b5ae363fc230",
+   "what_i_checked": "rendered page 1: PCT 1 to PCT 10 by EV, ED, BBM; Last-Modified 29 Jun 2026 15:04:45 GMT"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/7706/CANVASS%20REPORT%20FOR%205.26.2026%20PRIMARY%20RUNOFF%20ELECTION.pdf",
+   "content_hash": "6d0617bba466d9f4c62bed241aae9975afcdf244c725f08af05ff1634c2df772",
+   "what_i_checked": "Last-Modified 10 Jun 2026"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/page/haskell.County.Clerk",
+   "content_hash": "6bb7bd6ec3cef768eef51c5ef7595ae5620b7b58760e3f948bd00b2dd3a49909",
+   "what_i_checked": "no election results"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Haskell/elections.json",
+   "content_hash": "",
+   "what_i_checked": "check 1 script: no Clarity election list (404) (HTTP 404, no body hash)"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T22:56:14Z",
+ "verifier_agent": "verifier-15",
+ "previous_verification": {
+  "county": "Haskell",
+  "reason_selected": "random 10 percent sample",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+   "2024_general": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "No Clarity site (elections.json 404). Seed host www.co.haskell.tx.us fails TLS (hostname mismatch); site read at www.haskellcountytx.gov. Only 2024 file: 'NOVEMBER 5TH 2024 PRECINCT BY PRECINCT ELECTION RESULTS' (scan, CreationDate 7/8/2025, Last-Modified 2/5/2026). Precinct numbers posted long after the election; no election-night file."
+   },
+   "2026_primary": {
+    "result": "LATER",
+    "check": "2",
+    "fact": "'MARCH 3, 2026 REPUBLICAN UNOFFICIAL RESULTS': SOS-format Election Unofficial Results Report, county totals only (JOHN CORNYN Election Day Count 215, Total 428), CreationDate 3/4/2026 06:06 UTC (12:06 AM CST), Last-Modified 3/4/2026 13:54 GMT. No primary precinct report listed."
+   },
+   "2026_runoff": {
+    "result": "LATER",
+    "check": "2",
+    "fact": "'MAY 26, 2026 REPUBLICAN UNOFFICIAL RESULTS': scanned SOS-format report, county totals only (KEN PAXTON Election Day Count 133, Total 273), Last-Modified 5/27/2026 01:33:23 GMT (8:33 PM CDT). 'PRIMARY RUNOFF RESULTS FOR PRECINCT BY PRECINCT': scan CreationDate 6/29/2026, Last-Modified 6/29/2026. County totals on the night, precinct numbers a month later."
+   }
+  },
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'UNDETERMINED', '2026_primary': 'LATER', '2026_runoff': 'LATER'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in all three (check 2): county totals on the night or nothing, precinct numbers months later. COUNTY_ONLY_PRECINCT_AT_CANVASS; only the runoff has an election-night upload time, so low.)",
+  "sources": [
+   {
+    "url": "https://www.haskellcountytx.gov/page/haskell.Elections",
+    "content_hash": "95eed95d697e9bada393bb55f132a88de5dc67d3afd5581893e2cbcc4c535ce4",
+    "what_i_checked": "result file list"
+   },
+   {
+    "url": "https://www.haskellcountytx.gov/upload/page/7706/precinct by precinct for nov 2024 election.pdf",
+    "content_hash": "f2f55f63755248b3ef0f4e4a8892366f0b751b4d2d0c1365a47fb05f04ab5743",
+    "what_i_checked": "2024 precinct results scanned Jul 2025"
+   },
+   {
+    "url": "https://www.haskellcountytx.gov/upload/page/7706/ELECTION-UNOFFICIAL-RESULT-REPORT_52585_1772604388995.pdf",
+    "content_hash": "1b826c4588d34c5fa58ad3199c7d1964fa5ff4e63ff73b5fe0ada788fd277ee7",
+    "what_i_checked": "primary county totals"
+   },
+   {
+    "url": "https://www.haskellcountytx.gov/upload/page/7706/REPUBLICAN UNOFFICIAL RESULTS 5.26.26.pdf",
+    "content_hash": "627f863178a89c8dd44a3f21d4230282cdf5d6750ce3fbc40b723ac7512d0e6d",
+    "what_i_checked": "runoff county totals uploaded 8:33 PM"
+   },
+   {
+    "url": "https://www.haskellcountytx.gov/upload/page/7706/PRIMARY RUNOFF PCT BY PCT.pdf",
+    "content_hash": "d95c42410e8482c6f3caec70f977c92ec177dc9685dab4af16b3b5ae363fc230",
+    "what_i_checked": "runoff precinct numbers Jun 29"
+   }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "UNKNOWN",
+  "agree": false,
+  "comparison_notes": {
+   "2024_general": "different: research could not reach the county host (fetch module robots check, connection reset), so all UNDETERMINED. I fetched www.haskellcountytx.gov/page/haskell.Elections through the fetch module (fresh, status 200). Its only 2024 file is a precinct report scanned 7/8/2025, so I said LATER. Rule 43 re-applied: LATER changed to UNDETERMINED (only a precinct report scanned 7/8/2025; no election-night file); check 3 pending.",
+   "2026_primary": "different: I said LATER (SOS county-totals report CreationDate 3/4 06:06 UTC, Last-Modified 3/4 13:54 GMT; no precinct report). Research UNDETERMINED (host unreachable).",
+   "2026_runoff": "different: I said LATER (county-totals report uploaded 5/27 01:33 GMT = 8:33 PM CDT; precinct report scanned 6/29/2026). Research UNDETERMINED (host unreachable).",
+   "rule_43": "rule 43 re-applied"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+ },
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED). Only the Nov 2024 precinct-by-precinct scan (CreationDate 2025-07-08, Last-Modified 05 Feb 2026); no election-night file; Wayback no captures.",
+  "2026_primary": "same (LATER, check 2). Democratic SOS-format county totals Last-Modified 04 Mar 2026 05:16:53 GMT (11:16 PM CST); precinct-by-precinct files Last-Modified 01 Apr 2026. Research quotes match.",
+  "2026_runoff": "same (LATER, check 2). Democratic and Republican SOS-format county totals Last-Modified 7:58 PM and 8:33 PM CDT; precinct-by-precinct file Last-Modified 29 Jun 2026 (rendered page 1 shows PCT 1 to PCT 10 by EV, ED, BBM). Research quote 'KEN PAXTON 15 125 133 140 273' matches.",
+  "unsupported_or_stale": "Notes keep the stale opening that check 2 failed and the host was unreachable (superseded by the targeted-pass note in the same field; the host and newtools.cira.state.tx.us both load now). The first source is a web search record, which is not evidence but is not used for any result. No per-election claim is unsupported."
+ },
+ "compared_at_utc": "2026-10-02T22:57:06Z"
+}

@@ -1,0 +1,32 @@
+{
+  "county": "Dallas",
+  "probes": [
+    {
+      "url_prefix": "dallascountyvotes.org/election-results/",
+      "probed_at_utc": "2026-10-02T13:57:34Z",
+      "windows": {
+        "2024_general": {
+          "cdx_url": "https://web.archive.org/cdx/search/cdx?url=dallascountyvotes.org%2Felection-results%2F&matchType=prefix&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest&limit=5000",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "captures": []
+        },
+        "2026_primary": {
+          "cdx_url": "https://web.archive.org/cdx/search/cdx?url=dallascountyvotes.org%2Felection-results%2F&matchType=prefix&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest&limit=5000",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "captures": []
+        },
+        "2026_runoff": {
+          "cdx_url": "https://web.archive.org/cdx/search/cdx?url=dallascountyvotes.org%2Felection-results%2F&matchType=prefix&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest&limit=5000",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "captures": []
+        }
+      }
+    }
+  ]
+}

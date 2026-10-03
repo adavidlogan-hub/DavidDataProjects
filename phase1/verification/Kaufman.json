@@ -1,0 +1,59 @@
+{
+ "county": "Kaufman",
+ "reason_selected": "tag LIVE_PRECINCT",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 122824: 7 of 8 election-night updates have Election Day precinct votes, 5 distinct releases. Opened v350762 (Timestamp 11/5/2024 8:00:20 PM EST, no nonzero Election Day precinct cell) and v351615 (9:39:41 PM EST = 8:39 PM CST; President/Vice President, VoteType Election Day, <Precinct name=\"1\" votes=\"277\" />)."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 125939: 10 of 11 election-night updates with Election Day precinct votes, 10 distinct releases from 9:37:57 PM EST (8:37 PM CST) to 11:19:47 PM EST."
+  },
+  "2026_runoff": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 126350: 6 of 7 election-night updates with Election Day precinct votes, 4 distinct releases. Opened v372976 (5/26/2026 9:27:59 PM EDT = 8:27 PM CDT; REP US Senator, Election Day, <Precinct name=\"1\" votes=\"55\" />). A pre-election version v370587 dated 5/6/2026 2:14:33 PM EDT also carries small nonzero Election Day cells (likely test data; not on election night, not counted)."
+  }
+ },
+ "rationale": "All three elections settled by check 1 (Clarity update log): Election Day precinct numbers appear in several distinct updates on each election night, so LIVE x3 gives LIVE_PRECINCT. Clarity labels Kaufman timestamps Eastern; converted to Central.",
+ "sources": [
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/350762/reports/detailxml.zip",
+   "content_hash": "edf3bdbe8b01c611ac08fd5498896a5fcbf952d0af7ce7696c33e65ec0e142cb",
+   "what_i_checked": "first 2024 election-night update: Timestamp, no Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/351615/reports/detailxml.zip",
+   "content_hash": "2229e967892d6e1808b96a2c414f727c5f1bb5cbeee6504c8ad54ef174319ced",
+   "what_i_checked": "first 2024 update with Election Day precinct votes (Timestamp and Precinct cell read)"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/372976/reports/detailxml.zip",
+   "content_hash": "fbfbfa555c2a89dbcd2ff55e769a5a365fed3dcc0e3c12e4c4fd9d7337c008dc",
+   "what_i_checked": "first runoff update with Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/370587/reports/detailxml.zip",
+   "content_hash": "37183dff7f35e26b3af016b53832a279971b2c28551270f1d39cd0295b8140f6",
+   "what_i_checked": "pre-election runoff version dated 5/6/2026 with small nonzero cells"
+  },
+  {
+   "url": "phase1/verification/clarity/Kaufman.json",
+   "content_hash": "69af08da04d37648f45ae192e431cbd04f81ae12cf44acee41c38f338e209754",
+   "what_i_checked": "check 1 script output (per-update timestamps and precinct counts)"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:05Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE, check 1).",
+  "2026_primary": "same (LIVE, check 1).",
+  "2026_runoff": "same (LIVE, check 1)."
+ }
+}

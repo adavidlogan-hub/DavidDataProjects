@@ -1,0 +1,93 @@
+{
+  "county": "Colorado",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.colorado.tx.us/page/colorado.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.colorado.tx.us",
+  "evidence_url": "https://www.co.colorado.tx.us/upload/page/6210/26-05-26/Unofficial%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-05-26 21:02 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.colorado.tx.us/default.aspx?Colorado_County/County.Clerk replaced by https://www.co.colorado.tx.us/page/colorado.Elections. No Clarity or vendor site; page links the SOS 'Texas Election Night Reporting/Results'. Electionware PDFs (some scanned, OCR text) posted on the county site; Last-Modified values differ per file and sit minutes after PDF ModDate, consistent with real upload times. Method differed between the primary (county summary on election night, precinct file next morning) and the runoff (precinct pages in the election-night file). 2024 general undetermined (check 3 pending; wayback-data branch not on origin). Rule 47 applied 2026-10-02 (normalize-47): none. Targeted pass 3 2026-10-02 (targeted3-I): 2024_general stays UNDETERMINED. Found unlinked 11-05-24/Unofficial Results.pdf (summary printed 10:09 PM and precinct pages printed 10:10 PM on Nov 5, 2024) but its Last-Modified is 07:11 AM CST Nov 6, after election night, and it holds precinct pages, so neither END (rule 47) nor LATER applies. Wayback 2024 window had no captures; 2026 primary CDX timed out in the harvest; runoff capture is only the Notice of Election. Web search for Colorado County Citizen precinct results found nothing. No sweep file.",
+  "tag_rationale": "The 2026 primary is LATER and the 2026 runoff is END (both check 2); no two elections share a result, so by the rule the tag is UNKNOWN. Rule 47 checked 2026-10-02: no change.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Page lists only 'Official Results (PDF)' (11-05-24/Official Results.pdf: Election Reconciliation - Official Totals and results, CreationDate 2024-11-18, Last-Modified Nov 19 2024). An unlinked file at the same folder, 11-05-24/Unofficial Results.pdf (requested by the site's own naming pattern used for 26-03-03 and 11-4-25), is an 87-page scan with 'Summary Results Report UNOFFICIAL RESULTS ... Election Summary - 11/05/2024 10:09 PM' and per-precinct pages 'Precinct Summary - 11/05/2024 10:10 PM' with Absentee, Early Voting and Election Day columns; XMP CreateDate 2024-11-05T21:32-06:00, but Last-Modified Wed, 06 Nov 2024 13:11:16 GMT (07:11 AM CST Nov 6), after election night. Rule 47: the known upload time is after election night, so END cannot be shown; county totals and precinct pages are in the same file, so LATER does not apply either. UNDETERMINED. Wayback harvest found no election-night captures for 2024."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 23:38 CT",
+      "precinct_first_seen": "2026-03-04 10:55 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.colorado.tx.us/upload/page/6210/26-03-03/Unofficial%20Pct%20by%20Pct%20Results.pdf",
+      "fact": "'Unofficial Results' (26-03-03/Unofficial Results.pdf) is a 23-page Electionware summary (county totals; 'Election Day Precincts Reporting 11 of 11') with the preliminary reconciliation form, Last-Modified Wed, 04 Mar 2026 05:38:28 GMT (11:38 PM CST). 'Unofficial Precinct by Precinct Results' ('Joint Precinct Summary ... March 3, 2026 ... 1 - Columbus/Glidden'), 209 pages, printed '03/04/2026 09:13AM', Last-Modified Wed, 04 Mar 2026 16:55:22 GMT (10:55 AM CST Mar 4), after election night."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:02 CT",
+      "precinct_first_seen": "2026-05-26 21:02 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.colorado.tx.us/upload/page/6210/26-05-26/Unofficial%20Results.pdf",
+      "fact": "'Unofficial Results JOINT Primary Runoff Election(s)' is one 37-page PDF: the preliminary reconciliation form, an Electionware 'Summary Results Report UNOFFICIAL RESULTS', and per-precinct 'Precinct Summary Results Report UNOFFICIAL RESULTS Joint Primary Runoff May 26, 2026 ... 302 - Frelsburg/Brushy' pages with Absentee, Early Voting and Election Day columns (e.g. Ken Paxton 181: 8 / 85 / 88). Report footers print '05/26/2026 08:41 PM'. PDF ModDate 2026-05-27 02:00:39 UTC; Last-Modified Wed, 27 May 2026 02:02:19 GMT (9:02 PM CDT). It is the only unofficial runoff file listed. Rule 47: publication shown by upload time 2026-05-26 21:02 CT in Unofficial Results.pdf."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.colorado.tx.us/page/colorado.Elections",
+      "via": "fetch_module",
+      "content_hash": "310c3c751234357956484aa41672cabcf64628bcddbc674bbf10a772b25e3492",
+      "quote": "Unofficial Results JOINT Primary Runoff Election(s); Official Results JOINT Primary Runoff Election(s; Unofficial Results; Unofficial Precinct by Precinct Results; Official Results (PDF) [11-05-24]",
+      "supports": "Elections page result links"
+    },
+    {
+      "url": "https://www.co.colorado.tx.us/upload/page/6210/26-05-26/Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "c22116836af28da5c5484325269ae4a6ca857dd4762b3a56bcbd6eb9ee376b13",
+      "quote": "Precinct Summary Results Report UNOFFICIAL RESULTS Joint Primary Runoff May 26, 2026 Colorado County 302 - Frelsburg/Brushy ... 05/26/2026 08:41 PM",
+      "supports": "Runoff precinct numbers printed 8:41 PM, uploaded 2026-05-27 02:02:19 GMT"
+    },
+    {
+      "url": "https://www.co.colorado.tx.us/upload/page/6210/26-03-03/Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "3a7b02daaca33de245c13c58f3e6cae6c130cf504b26913ffcb8d7be299b57b3",
+      "quote": "Preliminary Election Reconciliation - Unofficial Totals ... Joint Primary Election March 03, 2026; Election Day Precincts Reporting 11 of 11",
+      "supports": "Primary county totals uploaded 2026-03-04 05:38:28 GMT"
+    },
+    {
+      "url": "https://www.co.colorado.tx.us/upload/page/6210/26-03-03/Unofficial%20Pct%20by%20Pct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "6c64fd109f27feaaf5cd6d2e0de7600ab565d921a92974c652aeb1c8d1cb4d46",
+      "quote": "Joint Precinct Summary ... March 3, 2026 ... Colorado County 1- Columbus/Glidden ... 03/04/2026 09:13AM",
+      "supports": "Primary precinct numbers printed and uploaded Mar 4 morning"
+    },
+    {
+      "url": "https://www.co.colorado.tx.us/upload/page/6210/11-05-24/Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "042539cad41e235221e1feb6ec3ca5f425e1e8f6ec42a25054b47d7d349b3e34",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Colorado County 241105 General 6110 November 5, 2024 ... Precinct Summary - 11/05/2024 10:10 PM",
+      "supports": "2024 unofficial file with precinct pages printed on election night but uploaded Wed, 06 Nov 2024 13:11:16 GMT (rule 47: UNDETERMINED)"
+    },
+    {
+      "url": "https://www.co.colorado.tx.us/upload/page/6210/11-05-24/Official%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "542c310b8acc1169427cae61f346a438edd54d3754424a1ddb10137dfc33bc68",
+      "quote": "Election Reconciliation - Official Totals ... Election Date November 05, 2024",
+      "supports": "Only linked 2024 file is official, created 2024-11-18"
+    }
+  ]
+}

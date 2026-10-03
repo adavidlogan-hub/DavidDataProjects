@@ -1,0 +1,59 @@
+{
+ "county": "Lamar",
+ "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "END",
+   "check": "1",
+   "fact": "Clarity EID 122497: Election Day precinct votes appear once on election night, v351606 (11/5/2024 8:38:14 PM CST, 26 precincts, President/Vice President, Election Day, <Precinct name=\"1A3B\" votes=\"322\" />). Earlier night updates v350862 (7:14 PM) and v350953 (7:26 PM) have early/absentee precinct numbers only; v351606 is the last listed version."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 126018: v368410 (3/3/2026 7:49:38 PM CST; 7 precincts with Election Day votes, REP US Senator Election Day <Precinct name=\"1A3B\" votes=\"9\" />), repeated unchanged in v368424 (8:11 PM), then v368431 (8:23:24 PM CST) with all 26 precincts: two distinct election-night releases. v368392 (7:10:40 PM) opened: no Election Day precinct cell."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "1",
+   "fact": "Clarity EID 126354: the only election-night update v372935 (5/26/2026 7:15:22 PM CDT) reports by ballot-group units, not voting precincts: \"Lamar County\", \"County and Commissioner Pct 2\", \"County and Commissioner Pct 4\" and two sub-units (e.g. <Precinct name=\"Lamar County\" votes=\"421\" /> under Election Day). No individual precinct numbers in any listed version, and the county elections page (co.lamar.tx.us/page/Elections) posts no runoff results file; precinct numbers not published online."
+  }
+ },
+ "rationale": "Check 1 gives END (2024), LIVE (primary) and LATER (runoff, ballot-group units only). No two elections share a result, so UNKNOWN by the fixed rule.",
+ "sources": [
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/351606/reports/detailxml.zip",
+   "content_hash": "9bf8368e962a03887c8ce684461feec47c622bc95a326a09399a300615448872",
+   "what_i_checked": "2024 single Election Day precinct release"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368392/reports/detailxml.zip",
+   "content_hash": "7f4a8e06814e378c5294a3ff115f9a24e283b3682408af733f888218abaf9e05",
+   "what_i_checked": "first primary night update (no Election Day precinct votes)"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368410/reports/detailxml.zip",
+   "content_hash": "956bbbb2a28d0758606a665830c51bc6ec674751abb7d7e83bf7ac7a6a05eb59",
+   "what_i_checked": "first primary update with Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372935/reports/detailxml.zip",
+   "content_hash": "8796df0521af82783f1e735badc023a1dae66225be391d4f6cfa3efc99f78a35",
+   "what_i_checked": "runoff night update; reporting unit names read"
+  },
+  {
+   "url": "https://www.co.lamar.tx.us/page/Elections",
+   "content_hash": "582497ff43d9d5bc3846a33dfc33bf017b7dbed2216d22661ce8b6e353590f6f",
+   "what_i_checked": "county elections page: links Clarity; runoff section has notices, sample ballots, PEHCA files, no results"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:05Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "same (END, single Election Day precinct release 8:38 PM CST).",
+  "2026_primary": "same (LIVE, releases 7:49 PM and 8:23 PM CST).",
+  "2026_runoff": "different: research END because the 7:15 PM CDT update has \"5 precincts with votes\"; verifier read the unit names in v372935: \"Lamar County\", \"County and Commissioner Pct 2\", \"County and Commissioner Pct 4\" and two sub-units, i.e. ballot-group units, not voting precincts, so no individual precinct numbers were published (LATER). This changes the tag: research END x2 gives PRECINCT_END_OF_NIGHT; verifier END, LIVE, LATER gives UNKNOWN."
+ }
+}

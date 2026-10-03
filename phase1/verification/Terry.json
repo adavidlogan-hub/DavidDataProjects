@@ -1,0 +1,61 @@
+{
+  "county": "Terry",
+  "reason_selected": "low confidence (after rule 43 normalization)",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Seed URL lands on the county home page; Elections page lists only the Nov 3 2026 election, and 'Previous Elections' (elections.PREVIOUSELECTIONS) is headed '2025-2026 Elections' with no 2024 files. No Clarity link. check 3 unavailable (no Terry folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'MARCH 3, 2026 PRIMARY' section lists notices, audit files, 'UNCONTESTED LOCAL RESULTS' and 'CONTESTED LOCAL RESULTS' (ELECTIONNIGHTTOTALS1.png: graphic 'March 3, 2026 Primary Election Terry County Clerk ... Nancy Gonzales 18 475 493 240 733', county totals), Last-Modified Fri 27 Mar 2026 14:06:56 GMT. The 'UNOFFICIAL RESULTS' link above the heading (unofficialresults.pdf) is the May 2, 2026 local election. No election-night file for the primary."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'UNOFFICIAL RESULTS' (RESULTS5262026.pdf): scanned Electionware 'Summary Results Report UNOFFICIAL RESULTS COMBINED ... 260526 Primary Runoff Election', county totals ('Election Day Precincts Reporting 6 of 6', 'Ballots Cast - Total 940'), footer 'Election Summary - 05/26/2026 08:20PM', scan CreationDate May 27 01:38 UTC (8:38 PM CDT); Last-Modified Mon 01 Jun 2026 18:05:18 GMT. 'OFFICIAL RESULTS' (PBP.pdf) CreationDate Jun 2 2026, Last-Modified 08 Jun 2026. County totals printed on election night; precinct numbers only with the official results. No night upload time."
+    }
+  },
+  "rationale": "Only the runoff is determined (LATER by printed run time of the county-totals report; official results June). One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low.",
+  "sources": [
+    {
+      "url": "https://www.co.terry.tx.us/page/elections.PREVIOUSELECTIONS",
+      "content_hash": "",
+      "what_i_checked": "2025-2026 file list"
+    },
+    {
+      "url": "https://www.co.terry.tx.us/upload/page/0145/RESULTS5262026.pdf",
+      "content_hash": "702e33ed3c9ac55a1bd84e01bd652c9c3b19b214c5a819027a701c2a2cda1bc7",
+      "what_i_checked": "runoff county totals printed 08:20 PM 5/26/2026"
+    },
+    {
+      "url": "https://www.co.terry.tx.us/upload/page/0145/PBP.pdf",
+      "content_hash": "82e388ae86f8f8d023ce945d7823d3e7c3b5104eacd204fff882f88c21a3d672",
+      "what_i_checked": "official results June 2026"
+    },
+    {
+      "url": "https://www.co.terry.tx.us/upload/page/0145/ELECTIONNIGHTTOTALS1.png",
+      "content_hash": "32996a173ec6d4eaf531b882cc1483402b6d76b7515bfd3028253b87452a3523",
+      "what_i_checked": "primary county clerk race totals graphic, uploaded Mar 27"
+    },
+    {
+      "url": "https://www.co.terry.tx.us/upload/page/0145/unofficialresults.pdf",
+      "content_hash": "3ee2406b13eb89bd1439ab1819f14e0f7baa43859db50f2cd7e696dd53b99e2e",
+      "what_i_checked": "is the May 2 2026 local election, not the primary"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:55:44Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED): no 2024 results posted on the 2025-2026 page.",
+    "2026_primary": "same (UNDETERMINED): county clerk race graphic uploaded Mar 27 2026, no time on it.",
+    "2026_runoff": "same (LATER, check 2): county totals printed 08:20 PM 5/26/2026, CreationDate 01:38 UTC, uploaded Jun 1; precinct numbers only in official results (June). Research's county_totals_first_seen field holds the Jun 1 upload with the printed 20:20 noted; the election-night time is the printed 20:20.",
+    "unsupported_claims": "none found"
+  },
+  "compared_at_utc": "2026-10-02T16:55:52Z"
+}

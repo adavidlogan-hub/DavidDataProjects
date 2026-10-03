@@ -1,0 +1,700 @@
+{
+  "county": "Midland",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122496",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "345908",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345908/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345909",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345909/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345910",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345910/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345911",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345911/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345912",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345912/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345913",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345913/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345914",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345914/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345915",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345915/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345916",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345916/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345917",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345917/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345918",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345918/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345919",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345919/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "9/30/2024 3:43:11 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "345920",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345920/reports/detailxml.zip",
+              "content_hash": "96720bf71c6e422274105901ebf8eb146f8ef9cce0430690df6a8d1677b24544",
+              "election_night": false
+            },
+            {
+              "timestamp": "9/30/2024 3:46:24 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "345921",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/345921/reports/detailxml.zip",
+              "content_hash": "7b3a994e9271d0a44cf0ea19c5604d8e7217028b2ea5916eec588db0d0a73647",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/22/2024 7:33:49 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347775",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/347775/reports/detailxml.zip",
+              "content_hash": "a223c80ea4c1df542c586560b67b773e3d0bebe653ea543271e3f6aeec5999a4",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/22/2024 9:58:51 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347842",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/347842/reports/detailxml.zip",
+              "content_hash": "681e6aab07f8169fcfe8427a0026e977d95d3559deb21ae9e6c9261ad0d02561",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/22/2024 10:04:17 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347856",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/347856/reports/detailxml.zip",
+              "content_hash": "878d9be1161f9bc644c8d853442c4b660a454647ad1981fac2c81989acb0458c",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/22/2024 10:05:42 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347858",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/347858/reports/detailxml.zip",
+              "content_hash": "e95c0fc689f55fa39638fe0cfd70a77fc0451495be92c39b5036b4a1a3536726",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/23/2024 7:33:17 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347923",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/347923/reports/detailxml.zip",
+              "content_hash": "f4eb4d7feae7ddcc1cd6393919737fad078e051f10de7b1431a69db825651b6e",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/24/2024 10:20:38 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "348208",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/348208/reports/detailxml.zip",
+              "content_hash": "75a6301ca780d03f732c77b141298d1806a07358139f01d94c9f9e7ee9a5484b",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 8:11:46 PM CST",
+              "precincts_with_votes": 44,
+              "nonzero_precinct_vote_cells": 2019,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "351318",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/351318/reports/detailxml.zip",
+              "content_hash": "7a578772ebf692461b0f17f064eef91e7047b6b19be51117f3298126d7e77656",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:36:37 PM CST",
+              "precincts_with_votes": 44,
+              "nonzero_precinct_vote_cells": 3905,
+              "precincts_with_election_day_votes": 44,
+              "election_day_precinct_vote_sum": 86634,
+              "version": "351587",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/351587/reports/detailxml.zip",
+              "content_hash": "5c1e5c6e7d88c66a8d1fcf959ea46d2de2d335c20af7b9805dbc3ff89145abcf",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:56:21 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 4015,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 200628,
+              "version": "351763",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/351763/reports/detailxml.zip",
+              "content_hash": "c2e017175b04d5dad3a0e7eef764e7358fcb8b19e5766012b6d8b6ee9be25369",
+              "election_night": true
+            },
+            {
+              "version": "351981",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/351981/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 9:23:45 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 4029,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 239707,
+              "version": "352043",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/352043/reports/detailxml.zip",
+              "content_hash": "c12748f378880e95f13bee096a20576ac367315df2c208ed7959ac9ec6e49072",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 5:09:24 AM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 5605,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 239707,
+              "version": "353325",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/353325/reports/detailxml.zip",
+              "content_hash": "944d138c211e7dbdeb21a669cb1798990e3b4aafe391a172932a837728465332",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/20/2024 1:57:52 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 5613,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 239967,
+              "version": "355579",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/122496/355579/reports/detailxml.zip",
+              "content_hash": "c4c24274a8e7bc6d84a4c9c9aba01a096694e0f86600f6cf6aae10b1ddda8ba5",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 8:11:46 PM CST",
+            "version": "351318",
+            "url": "https://results.enr.clarityelections.com/TX/Midland/122496/351318/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 3,
+          "election_night_distinct_election_day_precinct_releases": 3,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 8:36:37 PM CST",
+            "version": "351587",
+            "url": "https://results.enr.clarityelections.com/TX/Midland/122496/351587/reports/detailxml.zip"
+          },
+          "unreadable_versions": 13
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "125929",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "367804",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367804/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367819",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367819/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367820",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367820/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367821",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367821/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367822",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367822/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367823",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367823/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367826",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367826/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367827",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367827/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367828",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367828/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367829",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367829/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367830",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/367830/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368090",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368090/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/17/2026 12:49:40 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368097",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368097/reports/detailxml.zip",
+              "content_hash": "8303cd260021bc3ac3432dc7b4e7b3eedde17d551e0572c5119914f443d06fb1",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/17/2026 12:56:51 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368098",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368098/reports/detailxml.zip",
+              "content_hash": "f92e66b5da7e717888e736e10d7c73678aa4bc37a8a7675cdfdef9acccd44e7a",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/2/2026 8:08:35 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368299",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368299/reports/detailxml.zip",
+              "content_hash": "7a0952faae030b0133d41768125a15e4cc3329cd1fb9945a68e4400cc08d936b",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 11:40:17 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368341",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368341/reports/detailxml.zip",
+              "content_hash": "5790a0c894818798bc32ac4bdfda1668ee44d71709bfb861fd6b12b0622d9a9d",
+              "election_night": false
+            },
+            {
+              "version": "368412",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368412/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 7:56:12 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 12967,
+              "precincts_with_election_day_votes": 38,
+              "election_day_precinct_vote_sum": 16458,
+              "version": "368415",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368415/reports/detailxml.zip",
+              "content_hash": "57179f8ab6ed067e7baa3fd5b8cd5199fc2f149b5ca550b47063b2bbc38c7be4",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:09:51 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 15120,
+              "precincts_with_election_day_votes": 44,
+              "election_day_precinct_vote_sum": 83155,
+              "version": "368423",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368423/reports/detailxml.zip",
+              "content_hash": "04509cd18049664a884dda1523a9f2fd75c4c7fa8c23aae63029f519412a6aa8",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:33:32 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 15943,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 188829,
+              "version": "368439",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368439/reports/detailxml.zip",
+              "content_hash": "2bdc08fdaaf6711dc031ba1b631748f3ab3c969a51d8502be6b4635102272c23",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:49:22 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 16195,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 260327,
+              "version": "368452",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368452/reports/detailxml.zip",
+              "content_hash": "fef1d9ca9a475ce88922d83f31ab12c0095f396fc9a91c1e6726016a7e8adde6",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:54:18 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 16195,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 260327,
+              "version": "368456",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368456/reports/detailxml.zip",
+              "content_hash": "74a9b7441351fb1cac1f28ca878ea7d176ad610e2cb6a78011ce6f7c16e24cc8",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/11/2026 1:21:15 PM CDT",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 16273,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 260800,
+              "version": "368784",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368784/reports/detailxml.zip",
+              "content_hash": "27af2995140fa5277c7ab64dd03783bf20f862e194b74e146d65efa3a842873b",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:56:12 PM CST",
+            "version": "368415",
+            "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368415/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 5,
+          "election_night_distinct_election_day_precinct_releases": 4,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 7:56:12 PM CST",
+            "version": "368415",
+            "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368415/reports/detailxml.zip"
+          },
+          "unreadable_versions": 13
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126291",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "369849",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/369849/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369852",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/369852/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369853",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/369853/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369854",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/369854/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369855",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/369855/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369856",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/369856/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371247",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/371247/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371249",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/371249/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371827",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/371827/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371828",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/371828/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371833",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/371833/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371880",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/371880/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372670",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372670/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372671",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372671/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372672",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372672/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372673",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372673/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372674",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372674/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372675",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372675/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372676",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372676/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372677",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372677/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372678",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372678/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372679",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372679/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372680",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372680/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372681",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372681/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372682",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372682/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372683",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372683/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/23/2026 9:40:33 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372684",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372684/reports/detailxml.zip",
+              "content_hash": "e1f16c7c00fc39bba159f2138d2aeb67d241371a4dd9be7c522d2e211dd3a541",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/23/2026 9:51:54 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372685",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372685/reports/detailxml.zip",
+              "content_hash": "598f1d1a5d7269c1dd34252fc2c0eeb6d21d57734f9374bf9263f5fb818dfd27",
+              "election_night": false
+            },
+            {
+              "version": "372951",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372951/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372954",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372954/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 8:06:32 PM CDT",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 1050,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372958",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372958/reports/detailxml.zip",
+              "content_hash": "70bcb57c7eca9a6e2d646de263254959c639e1ef0894c3881d5c98f3b8151522",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:59:11 PM CDT",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 1572,
+              "precincts_with_election_day_votes": 43,
+              "election_day_precinct_vote_sum": 5847,
+              "version": "373000",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/373000/reports/detailxml.zip",
+              "content_hash": "913aee0b6a658d63771d9df437c79b201c9659032e6ffad4da33043110002886",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:10:37 PM CDT",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 1621,
+              "precincts_with_election_day_votes": 44,
+              "election_day_precinct_vote_sum": 14984,
+              "version": "373009",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/373009/reports/detailxml.zip",
+              "content_hash": "c9f0a69d04cc7941274d6d1837fa3acbe83a9c5392423491f90eab8b111e2706",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:51:23 PM CDT",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 1641,
+              "precincts_with_election_day_votes": 44,
+              "election_day_precinct_vote_sum": 18099,
+              "version": "373032",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/373032/reports/detailxml.zip",
+              "content_hash": "d1904c11769ce6c1a30adbfde69327069034b78b0e99b8b80b7a14fa07411828",
+              "election_night": true
+            },
+            {
+              "timestamp": "6/3/2026 7:07:37 AM CDT",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 1657,
+              "precincts_with_election_day_votes": 44,
+              "election_day_precinct_vote_sum": 18115,
+              "version": "374095",
+              "url": "https://results.enr.clarityelections.com/TX/Midland/126291/374095/reports/detailxml.zip",
+              "content_hash": "139fdc7ef3f19658cf05cbe99fb3d2409d3c1f93e2024fb7814326c69b305752",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 8:06:32 PM CDT",
+            "version": "372958",
+            "url": "https://results.enr.clarityelections.com/TX/Midland/126291/372958/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 3,
+          "election_night_distinct_election_day_precinct_releases": 3,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/26/2026 8:59:11 PM CDT",
+            "version": "373000",
+            "url": "https://results.enr.clarityelections.com/TX/Midland/126291/373000/reports/detailxml.zip"
+          },
+          "unreadable_versions": 28
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122496",
+    "2026_primary": "125929",
+    "2026_runoff": "126291"
+  }
+}

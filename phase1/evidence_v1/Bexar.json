@@ -1,0 +1,90 @@
+{
+  "county": "Bexar",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "210-335-8683",
+  "elections_office_email": "bexarcountyelections@bexar.gov",
+  "results_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "UPDATE after the network opened at about 14:07 UTC: elections.bexar.gov became reachable through the fetch module. The county elections home page links 'Election Night Returns' to https://results.enr.clarityelections.com/TX/Bexar/127291/, so the election-night platform is Clarity ENR (clarity_style); this confirms the earlier search-summary lead. The Historical page (elections.bexar.gov/35/Historical) archives county PDFs and CSVs: for Nov 5 2024 'Official Precinct Report (PDF)' and '(CSV)', 'Official Summary Report', 'Unofficial Reconciliation Report' and a CVR zip; for Mar 3 2026 'Democratic - Official Precinct Report', 'Republican - Official Precinct Report' and 'March 3, 2026 Primary Results'; for May 26 2026 'Joint Primary Runoff Election-Precinct Official Results Report'. All archived precinct reports are labeled Official (post-canvass). Clarity ENR sites can carry precinct-level detail, but nothing fetched shows whether precinct-level data was on the Clarity site during election night for the three target elections, so the tag stays UNKNOWN. Contact from the county elections home page: 'Phone: 210-335-VOTE (8683)', fax 210-335-0850, mailto bexarcountyelections@bexar.gov, 1103 S. Frio; the TX SOS list gives Elections Administrator Michele Carew, (210) 335-8683, County Email Address mailto BexarCountyElections@bexar.org. Earlier (pre-14:07 UTC) attempts: fetch module to elections.bexar.gov and elections.bexar.org/1840/Contact-Us failed (robots_disallowed_or_unreachable, proxy 403); Wayback probe for home.bexar.org/el45a.html failed for all windows; WebFetch to sanantonioreport.org was EGRESS_BLOCKED. Stated change: a San Antonio Report article (sanantonioreport.org/bexar-county-election-modernization-2026-midterm-election/) was summarized as saying the county 'overhauled its website to deliver results'; not shown to concern precinct-level reporting, so stated_change_2026 is n. Usage notice: Clarity pages are JavaScript apps and no notice text was fetched; left empty.",
+  "tag_rationale": "Bexar uses Clarity ENR on election night and archives only official (post-canvass) precinct reports; no source shows when precinct-level results appeared on election night.",
+  "sources": [
+    {
+      "url": "https://elections.bexar.gov/",
+      "via": "websearch",
+      "query": "Bexar County Elections Department phone email",
+      "quote": "Bexar County Elections, TX",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://elections.bexar.gov/35/Historical",
+      "via": "websearch",
+      "query": "Bexar County precinct-by-precinct results election night 2024",
+      "quote": "Historical",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://home.bexar.org/el45a.html",
+      "via": "websearch",
+      "query": "Bexar County election results precinct",
+      "quote": "Election Results",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.bexar.org/DocumentCenter/View/44008/November-5-2024-Official-Summary-Report",
+      "via": "websearch",
+      "query": "Bexar County election results precinct",
+      "quote": "Summary Results Report Joint General, Special, Charter and Bond Election",
+      "supports": "platform"
+    },
+    {
+      "url": "https://sanantonioreport.org/bexar-county-election-modernization-2026-midterm-election/",
+      "via": "websearch",
+      "query": "Bexar County elections administrator precinct results 2026 change",
+      "quote": "Bexar County stuck with system that 'destroyed the voter confidence'",
+      "supports": "stated_change"
+    },
+    {
+      "url": "https://sanantonioreport.org/bexar-county-election-modernization-2026-midterm-election/",
+      "via": "webfetch",
+      "query": "",
+      "quote": "",
+      "supports": "stated_change"
+    },
+    {
+      "url": "https://elections.bexar.gov/",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "https://results.enr.clarityelections.com/TX/Bexar/127291/ | Election Night Returns ... Phone: 210-335-VOTE (8683) ... mailto:bexarcountyelections@bexar.gov (content_hash da8fd1c6a6b7)",
+      "supports": "platform"
+    },
+    {
+      "url": "https://elections.bexar.gov/35/Historical",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "November 5, 2024 Official Precinct Report (PDF) ... March 3, 2026 Republican - Official Precinct Report (PDF) ... May 26, 2026 Joint Primary Runoff Election-Precinct Official Results Report (PDF) (content_hash 50fa10a083a3)",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "BEXAR COUNTY Elections Administrator Michele Carew 1103 S. Frio, Ste. 100, San Antonio, 78207 County Email Address (210) 335-8683 (mailto:BexarCountyElections@bexar.org) (content_hash 065e1ebd63c5)",
+      "supports": "contact"
+    }
+  ],
+  "agent": "research-A",
+  "searches_run": 9,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 5,
+  "webfetch_attempts": 1,
+  "started_at_utc": "2026-10-02T13:59:43Z",
+  "finished_at_utc": "2026-10-02T14:26:23Z"
+}

@@ -1,0 +1,52 @@
+{
+  "county": "Madison",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No Clarity site (elections.json 404). Only 'nov 5 2024 official reconcilliation report' listed for 2024; no result file. check 3 pending (no folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'unofficial results March 3 2026.pdf': scanned Cumulative Results Report, Unofficial Results, county totals (Jasmine Crockett Election Day 130, Total 280), scan CreationDate 3/4/2026 03:48 UTC, Last-Modified 3/4/2026 03:49:25 GMT (9:49 PM CST). Other primary files are official (CreationDate 3/9 and 3/10/2026). County totals on the night; no election-night precinct numbers."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No May 26 2026 result file listed. check 3 pending (no folder on wayback-data)."
+    }
+  },
+  "rationale": "Only 2026_primary determined (LATER, check 2). One determined, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+  "sources": [
+    {
+      "url": "https://www.co.madison.tx.us/page/madison.Elections",
+      "content_hash": "8e4edaed99c3c7482af017c7bc925e70d1090c3506ee36dc7bb454f10e7f5bf5",
+      "what_i_checked": "result file list"
+    },
+    {
+      "url": "https://www.co.madison.tx.us/upload/page/0407/unofficial results March 3 2026.pdf",
+      "content_hash": "efde2cdafcb11a44d158f7956dfde17526c36c66c4b9b892124b2337ea511432",
+      "what_i_checked": "night county totals uploaded 9:49 PM"
+    },
+    {
+      "url": "https://www.co.madison.tx.us/upload/page/0407/March 3 2026 official Cumulative.pdf",
+      "content_hash": "5d7fba6448d2d72cbefbb1ce9ea8e36d6e5d92042b0aef129429754449da2054",
+      "what_i_checked": "official, Mar 10"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "same (LATER, check 2): night county totals scan uploaded 03:49 GMT.",
+    "2026_runoff": "same (UNDETERMINED).",
+    "rule_43": "rule 43 re-applied: no per-election result changed"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+}

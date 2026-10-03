@@ -1,0 +1,52 @@
+{
+  "county": "Bell",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 122428 (listed in results.enr.clarityelections.com/TX/Bell/elections.json). Opened v351588 (Timestamp 11/5/2024 8:36:42 PM CST, Region Bell, ElectionDate 11/5/2024): precinct votes only under Early Votes (e.g. precinct 101), no Election Day precinct votes. Opened v351964 (Timestamp 11/5/2024 9:15:44 PM CST): President/Vice President, REP Donald J. Trump/JD Vance, VoteType Election Day votes=4018, <Precinct name=\"101\" votes=\"20\" />. Script: 6 of 7 night updates carry Election Day precinct votes (9:15 PM to 12:35 AM), 64 precincts, Election Day sums rising 127744 to 656353 (6 distinct releases)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Not listed in Bell elections.json (only 2024 target listed). County site www.bellcountytx.com and www.bellcounty.texas.gov refused by the fetch module (robots_disallowed_or_unreachable), so no county link to a 2026 Clarity ID could be read; two web searches found no link. IDs not probed. check 3 pending (no Bell folder on wayback-data)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Same as primary: not in elections.json, county site robots-blocked, no link found. check 3 pending."
+    }
+  },
+  "rationale": "Only 2024_general is determined (LIVE, check 1); both 2026 elections UNDETERMINED because Bell's 2026 Clarity IDs are not in elections.json and the county site is robots-blocked. Exactly one election determined, so LIVE_PRECINCT with confidence low.",
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Bell/122428/351588/reports/detailxml.zip",
+      "content_hash": "457402b4f8bb7e3232b6439bdfb6588c89dda67fe0cb2313e1803ee35ef67b2b",
+      "what_i_checked": "Timestamp 8:36 PM, Region/ElectionDate, early-only precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Bell/122428/351964/reports/detailxml.zip",
+      "content_hash": "1c2b1594e9e6f4b1e443f1dc8361d9553cedb49eafe9c0fc41a115a00f16c331",
+      "what_i_checked": "Timestamp 9:15 PM, Election Day precinct votes nonzero"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Bell/elections.json",
+      "content_hash": "326e861b2dba977b17183ed5c38aed616cd5fd02cb37abc3c95b1dd6e9708822",
+      "what_i_checked": "lists 2024 General (EID 122428); no Mar 3 or May 26 2026 entries"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:18:41Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LIVE, check 1): 8:36 PM early only, Election Day precinct sums 127744 to 656353 from 9:15 PM.",
+    "2026_primary": "same (UNDETERMINED): not in elections.json, county site robots-blocked.",
+    "2026_runoff": "same (UNDETERMINED).",
+    "rule_43": "rule 43 re-applied: no per-election result changed"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+}

@@ -1,0 +1,93 @@
+{
+  "county": "Bastrop",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Bastrop/",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/352888/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 23:35 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "County site www.bastropvotes.org returns an empty HTTP 202 to the fetch module (bot protection), so check 2 was not possible; all three elections are on Clarity and were settled by check 1. Vote types were read from the cached detail.xml files: the first election-night update of each election has Early Voting/Absentee precinct numbers only; election-day precinct numbers first appear at 11:35 PM (2024 general), 9:58 PM (2026 primary) and 9:12 PM (2026 runoff). Several early versions return 404 (pre-election test versions). In the 2026 runoff the Clarity reporting units are 'Poll 1' to 'Poll 4' (consolidated runoff polling precincts), not the 26 regular precincts. LIVE is applied only when two or more election-night updates carry election-day precinct numbers.",
+  "tag_rationale": "The 2024 general and the 2026 runoff are both END (election-day precinct numbers in one election-night update), so the tag is PRECINCT_END_OF_NIGHT even though the 2026 primary was LIVE; confidence high because check 1 settled them.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 20:18 CT",
+      "precinct_first_seen": "2024-11-05 23:35 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/352888/reports/detailxml.zip",
+      "fact": "Clarity EID 122753 'General and Special Elections' night versions: 351384 at 11/5/2024 8:18:59 PM CST (26 precincts with votes, Early Voting only, precinct sum 647821) and 352888 at 11:35:09 PM CST (26 precincts; Election Day precinct sum 158192 in 26 precincts). Next version 11/12/2024 5:00:39 PM."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 20:28 CT",
+      "precinct_first_seen": "2026-03-03 21:58 CT",
+      "night_updates_with_precinct_numbers": "2",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368507/reports/detailxml.zip",
+      "fact": "Clarity EID 126012 'Primary Election' night versions: 368435 at 3/3/2026 8:28:11 PM CST (26 precincts, Absentee and Early Voting only), 368507 at 9:58:29 PM (Election Day precinct sum 219545, 26 precincts), 368540 at 11:03:08 PM (Election Day sum 243544, 26 precincts)."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 19:16 CT",
+      "precinct_first_seen": "2026-05-26 21:12 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/373011/reports/detailxml.zip",
+      "fact": "Clarity EID 126363 'Primary Runoff Election' night versions: 372936 at 5/26/2026 7:16:18 PM CDT (4 units 'Poll 1'-'Poll 4', Absentee and Early Voting only) and 373011 at 9:12:08 PM CDT (Election Day sum 12348 in 4 units). Next version 6/2/2026 10:05:56 AM CDT."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/352888/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 11/5/2024 11:35:09 PM CST; 26 precincts with nonzero votes; VoteType 'Election Day' present",
+      "supports": "2024 general election-day precinct numbers in one night update",
+      "content_hash": "c20af0fb302adafcf11e2f1fb30e3bf97a9c59c86bdedd6f1f8e24262bd692d6"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Bastrop/122753/351384/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 11/5/2024 8:18:59 PM CST; Early Voting only",
+      "supports": "2024 first night update early votes only",
+      "content_hash": "f49cfc68854fd994214313ff5bb5da9b24f4df2fba879c668f0b943ed4503f04"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368507/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 3/3/2026 9:58:29 PM CST; Election Day precinct votes in 26 precincts",
+      "supports": "2026 primary LIVE",
+      "content_hash": "7ff595c46fa0f7b7c175f171c76f00afe2ca2703f78c268df02e6a5ef6b3d5de"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Bastrop/126012/368540/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 3/3/2026 11:03:08 PM CST; Election Day precinct votes in 26 precincts",
+      "supports": "2026 primary LIVE",
+      "content_hash": "51ea18d93ce2bd1d82457239b36e56614beea6c814550f1b4766292d788e2fd5"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Bastrop/126363/373011/reports/detailxml.zip",
+      "via": "clarity_script",
+      "quote": "Timestamp 5/26/2026 9:12:08 PM CDT; Precinct names Poll 1 to Poll 4",
+      "supports": "2026 runoff election-day numbers in one night update",
+      "content_hash": "458e58221410d4831e28f1fc8c2730f150d1802e14396f0ac64f751188196f98"
+    },
+    {
+      "url": "https://www.bastropvotes.org/",
+      "via": "fetch_module",
+      "quote": "(empty HTTP 202 response)",
+      "supports": "County site not readable",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

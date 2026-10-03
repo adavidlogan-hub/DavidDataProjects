@@ -1,0 +1,79 @@
+{
+  "county": "Brown",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.browncountytx.gov/page/brown.Elections",
+  "platform": "county_pdfs",
+  "host": "www.browncountytx.gov",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/0815/10%20of%2010%20Unofficial%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL redirects to www.browncountytx.gov. No Clarity site (elections.json 404). For each target election the posted unofficial file is a scanned Hart-style 'Cumulative Results Report ... Unofficial Results' (county totals; read visually, no text layer). Precinct numbers appear only in official files ('PCT nnn DEM/REP 05.26.2026', 'OFFICIAL RESULTS 05.26.2026' precinct by precinct, 'PRECINCT 1-4 OFFICIAL RESULTS' for the primary); no precinct-level file is posted for the 2024 general. The 2024 unofficial file is linked under the mislabeled title '2024 Write-In Ballot Certification-'. Runoff unofficial file printed 8:14 PM and uploaded 8:38 PM CDT on election night; the primary unofficial file was printed 8:45 PM but uploaded 1:35 PM CST Mar 4; the 2024 file printed 9:42 PM Nov 5 but uploaded Nov 12 (its scan CreationDate 8:45 PM CST precedes the printed run time, so the scanner clock is unreliable).",
+  "tag_rationale": "All three elections are LATER (county totals only; precinct numbers only in official reports or never posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because only the runoff has both printed and upload times on election night.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-12 16:05 CT (server upload; printed 2024-11-05 21:42)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.browncountytx.gov/upload/page/0815/Election Day Voters  Unofficial  Result.pdf",
+      "fact": "Link titled '2024 Write-In Ballot Certification-' = scanned 'Cumulative Results Report BROWN COUNTY, TEXAS Unofficial Results 2024 November 5th General Election GENERAL ELECTION 11/5/2024 Run Time 9:42 PM Run Date 11/05/2024 Precincts Reporting 18 of 18' (county totals); Last-Modified Tue, 12 Nov 2024 22:05:59 GMT. No 2024 general precinct-level results posted."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 13:35 CT (server upload; printed 2026-03-03 20:45)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.browncountytx.gov/upload/page/0815/Election Day Unofficial Results Final.pdf",
+      "fact": "'ELECTION DAY UNOFFICIAL RESULTS 03.03.2026' = scanned 'Cumulative Results Report BROWN COUNTY, TEXAS Unofficial Results 2026 March Primary Election PRIMARY ELECTION 3/3/2026 Run Time 8:45 PM Run Date 03/03/2026' (county totals); Last-Modified Wed, 04 Mar 2026 19:35:55 GMT. Precinct numbers only in 'PRECINCT 1'-'PRECINCT 4' OFFICIAL RESULTS files."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:38 CT (server upload; printed 20:14)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/0815/10%20of%2010%20Unofficial%20Results.pdf",
+      "fact": "'UNOFFICIAL RESULTS 05.26.2026' = scanned 'Cumulative Results Report BROWN COUNTY, TEXAS Unofficial Results 2026 May 26, 2026 PRIMARY RUNOFF ELECTION 5/26/2026 Run Time 8:14 PM Run Date 05/26/2026' (county totals); Last-Modified Wed, 27 May 2026 01:38:50 GMT. Precinct numbers only in 'OFFICIAL RESULTS 05.26.2026' (Official Precinct by Precinct Reporting) and per-precinct canvass files."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.browncountytx.gov/page/brown.Elections",
+      "via": "fetch_module",
+      "quote": "UNOFFICIAL RESULTS 05.26.2026; OFFICIAL RESULTS 05.26.2026 -> Official Precinct by Precinct Reporting Dem and Rep; ELECTION DAY UNOFFICIAL RESULTS 03.03.2026; PRECINCT 1 -> PRECINCT 1 OFFICIAL RESULTS.pdf; 2024 Write-In Ballot Certification- -> Election Day Voters Unofficial Result.pdf",
+      "supports": "County-posted report list",
+      "content_hash": "86af6662942c56d3971bbb3e9d11ba764b9ce809bed1243593b8f77b6809f3c1"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0815/10%20of%2010%20Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report BROWN COUNTY, TEXAS Unofficial Results ... PRIMARY RUNOFF ELECTION ... Run Time 8:14 PM",
+      "supports": "Runoff election-night county totals uploaded 8:38 PM CDT",
+      "content_hash": "12e4ced652df8b7e830fa156cef064d1cabd26c2f88e6c24113238881cb22116"
+    },
+    {
+      "url": "https://www.browncountytx.gov/upload/page/0815/Election Day Unofficial Results Final.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report BROWN COUNTY, TEXAS Unofficial Results ... PRIMARY ELECTION ... Run Time 8:45 PM",
+      "supports": "Primary county totals uploaded next afternoon",
+      "content_hash": "5650fdef8e18f5bedce9eedbbde4382078205a1b3c10051bf770e95ea7356da8"
+    },
+    {
+      "url": "https://www.browncountytx.gov/upload/page/0815/Election Day Voters  Unofficial  Result.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report BROWN COUNTY, TEXAS Unofficial Results 2024 November 5th General Election ... Run Time 9:42 PM",
+      "supports": "2024 county totals uploaded Nov 12",
+      "content_hash": "e8b4198cbce71aae9b787ca470405631a5e1ead3df33c216b142fb107b26ccf4"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "county": "Parker",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122585",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "346237",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346237/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346238",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346238/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346262",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346262/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346263",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346263/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346273",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346273/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/10/2024 11:03:32 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "346274",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346274/reports/detailxml.zip",
+              "content_hash": "ae2294b165ac2ced67e03179ebe2d4d526583cdf2f030fa92d884f6cc84f36a0",
+              "election_night": false
+            },
+            {
+              "version": "346342",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346342/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/11/2024 8:10:51 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "346373",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346373/reports/detailxml.zip",
+              "content_hash": "8c214b2977a94499d342a05658a456e51f431c8031a4564fbf9579fbf90e0247",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/15/2024 9:25:00 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "346983",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346983/reports/detailxml.zip",
+              "content_hash": "4a6c94cc7d9ffb9803cb5ec694689c5046288b4105036bb0ad7746a11fcccde6",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/15/2024 9:30:37 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "346986",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346986/reports/detailxml.zip",
+              "content_hash": "188a9b041469263106838c549c70baf6c4e769131155d39551978d3ee13cdb8d",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/15/2024 9:52:14 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "346988",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/346988/reports/detailxml.zip",
+              "content_hash": "b13b019b6a1245bf3cf83d47211593901b0b4bee8f37ab6dedc5f6fd857832b5",
+              "election_night": false
+            },
+            {
+              "version": "347442",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/347442/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/17/2024 3:26:42 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347444",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/347444/reports/detailxml.zip",
+              "content_hash": "c97d7bbe526e6308aa36a83a07705a13069f78b7fc7c878f12a3db81dbcb1857",
+              "election_night": false
+            },
+            {
+              "version": "347788",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/347788/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347795",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/347795/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/22/2024 9:46:23 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347812",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/347812/reports/detailxml.zip",
+              "content_hash": "36850cf32bc8b738c243a89cd37dec279e5118037bf4e93901b9f8e70a28c082",
+              "election_night": false
+            },
+            {
+              "version": "349204",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/349204/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349337",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/349337/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/2/2024 12:11:06 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "349338",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/349338/reports/detailxml.zip",
+              "content_hash": "d5ede5ac4dd0c08df43cd2cfc9215e5a32a062c06a9e6383d9984ba249a46955",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:29:45 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 6528,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350968",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/350968/reports/detailxml.zip",
+              "content_hash": "3071ac786b0919c3b78fa376e6c727dbb8a4f7574208926a8c8aeded65dfec7d",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:49:32 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 8499,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 118190,
+              "version": "351694",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/351694/reports/detailxml.zip",
+              "content_hash": "e93d6204ebb8288054e9763b39c37688b66e8adbddf110d27bb01d362e5d6d06",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:52:35 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 8703,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 379071,
+              "version": "352328",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/352328/reports/detailxml.zip",
+              "content_hash": "8183d179bf2f7fcc90a679a22d712c49213c1264cf4ac191a677523128081b29",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/8/2024 8:35:38 AM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 8703,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 379071,
+              "version": "353775",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/353775/reports/detailxml.zip",
+              "content_hash": "353588a141f07f9c6d006ae0c4345ac5e275d36692209e421e9129228b714cc4",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/13/2024 2:55:58 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 9559,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 379071,
+              "version": "354675",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/354675/reports/detailxml.zip",
+              "content_hash": "2d7d5f751f9ba12d2e32f3f60bb9af81ebe9d52249702a630470c194459545a8",
+              "election_night": false
+            },
+            {
+              "timestamp": "12/11/2024 10:41:41 AM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 9559,
+              "precincts_with_election_day_votes": 45,
+              "election_day_precinct_vote_sum": 379071,
+              "version": "355993",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/122585/355993/reports/detailxml.zip",
+              "content_hash": "dc20886e283ddecbe589ec6eeb8c3ccdad6b7e29fa4927041657f31b6f91c75f",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 3,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:29:45 PM CST",
+            "version": "350968",
+            "url": "https://results.enr.clarityelections.com/TX/Parker/122585/350968/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 2,
+          "election_night_distinct_election_day_precinct_releases": 2,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 8:49:32 PM CST",
+            "version": "351694",
+            "url": "https://results.enr.clarityelections.com/TX/Parker/122585/351694/reports/detailxml.zip"
+          },
+          "unreadable_versions": 11
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126014",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368174",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368174/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368183",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368183/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/23/2026 10:18:20 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368184",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368184/reports/detailxml.zip",
+              "content_hash": "8cc005599beaa7db60411d9f88c2d273b3fa19da0c3ac38f154fc4bb0f070f3d",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:22:30 PM CST",
+              "precincts_with_votes": 47,
+              "nonzero_precinct_vote_cells": 16358,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368400",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368400/reports/detailxml.zip",
+              "content_hash": "f3cef7e1c6a81bf9c083dcbf8dc9d2b1f4c6958dd1a68971b5c73104150fdb69",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:57:48 PM CST",
+              "precincts_with_votes": 47,
+              "nonzero_precinct_vote_cells": 21399,
+              "precincts_with_election_day_votes": 47,
+              "election_day_precinct_vote_sum": 103447,
+              "version": "368458",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368458/reports/detailxml.zip",
+              "content_hash": "5443b520af3c3ad0f47ea5edf0d8e21dd6cda3323b612deaf33817da628b3643",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:48:08 PM CST",
+              "precincts_with_votes": 47,
+              "nonzero_precinct_vote_cells": 22843,
+              "precincts_with_election_day_votes": 47,
+              "election_day_precinct_vote_sum": 367151,
+              "version": "368499",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368499/reports/detailxml.zip",
+              "content_hash": "2f34da56deee646f768506b2d3f39148fc8406a1bb13112c40cabba59cdeabc9",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:02:08 PM CST",
+              "precincts_with_votes": 47,
+              "nonzero_precinct_vote_cells": 22913,
+              "precincts_with_election_day_votes": 47,
+              "election_day_precinct_vote_sum": 395356,
+              "version": "368509",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368509/reports/detailxml.zip",
+              "content_hash": "436a982b02bb526d34a03c56b38529cd3f73110f8c7dca6dfb6771456b7f89f0",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:29:14 PM CST",
+              "precincts_with_votes": 47,
+              "nonzero_precinct_vote_cells": 23051,
+              "precincts_with_election_day_votes": 47,
+              "election_day_precinct_vote_sum": 441675,
+              "version": "368522",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368522/reports/detailxml.zip",
+              "content_hash": "b988aa4a56811a1d840339afa5634cd1281ccd5c0d44ee2423037f5d05ef2f13",
+              "election_night": true
+            },
+            {
+              "version": "368726",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368726/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/10/2026 1:16:49 PM CDT",
+              "precincts_with_votes": 47,
+              "nonzero_precinct_vote_cells": 23938,
+              "precincts_with_election_day_votes": 47,
+              "election_day_precinct_vote_sum": 441675,
+              "version": "368728",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/reports/detailxml.zip",
+              "content_hash": "fc76c8d6e52ecf5a90982e57e2094ce46686f577d6b215b2910d3b3d05de60cb",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:22:30 PM CST",
+            "version": "368400",
+            "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368400/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 4,
+          "election_night_distinct_election_day_precinct_releases": 4,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 8:57:48 PM CST",
+            "version": "368458",
+            "url": "https://results.enr.clarityelections.com/TX/Parker/126014/368458/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126279",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "369722",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126279/369722/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "4/23/2026 9:14:10 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "369723",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126279/369723/reports/detailxml.zip",
+              "content_hash": "a779280171280a1e5a7d99a203ab45bd4dc5dcbff27a40e955a343d13b8ebdc8",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/18/2026 8:31:36 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "371831",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126279/371831/reports/detailxml.zip",
+              "content_hash": "f6a8e5d12b9742267f2d15f37096551ba887e38c5045a48f75575c62f1694e15",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:07:29 PM CDT",
+              "precincts_with_votes": 47,
+              "nonzero_precinct_vote_cells": 1244,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372934",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126279/372934/reports/detailxml.zip",
+              "content_hash": "f74097adde44e1e2a8ba2446eca8de906e73f0105ab59c0d100af12129358746",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:13:01 PM CDT",
+              "precincts_with_votes": 47,
+              "nonzero_precinct_vote_cells": 1778,
+              "precincts_with_election_day_votes": 47,
+              "election_day_precinct_vote_sum": 24310,
+              "version": "373012",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126279/373012/reports/detailxml.zip",
+              "content_hash": "8aed3b785bb27d48a558d8b25458f9b91b1d59bdbb988d4e9311cc19f3ca9de5",
+              "election_night": true
+            },
+            {
+              "timestamp": "6/2/2026 11:39:02 AM CDT",
+              "precincts_with_votes": 47,
+              "nonzero_precinct_vote_cells": 1876,
+              "precincts_with_election_day_votes": 47,
+              "election_day_precinct_vote_sum": 24310,
+              "version": "373419",
+              "url": "https://results.enr.clarityelections.com/TX/Parker/126279/373419/reports/detailxml.zip",
+              "content_hash": "086d101f509482a2fa29e563a5f7ae98f37508701c26c063d6fc2153729d60ae",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 2,
+          "election_night_updates_with_precinct_votes": 2,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 7:07:29 PM CDT",
+            "version": "372934",
+            "url": "https://results.enr.clarityelections.com/TX/Parker/126279/372934/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 1,
+          "election_night_distinct_election_day_precinct_releases": 1,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/26/2026 9:13:01 PM CDT",
+            "version": "373012",
+            "url": "https://results.enr.clarityelections.com/TX/Parker/126279/373012/reports/detailxml.zip"
+          },
+          "unreadable_versions": 1
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122585",
+    "2026_primary": "126014",
+    "2026_runoff": "126279"
+  }
+}

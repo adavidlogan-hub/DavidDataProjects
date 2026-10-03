@@ -1,0 +1,54 @@
+{
+ "county": "McCulloch",
+ "reason_selected": "random 10 percent sample",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "No Clarity site (elections.json 404). \"Cumulative Unofficial Report\" UNOFFICIAL CUMULATIVE REPORT 11-5-24.pdf: Cumulative Results Report (county totals), \"Run Time 9:03 PM Run Date 11/05/2024\"; scan Last-Modified 06 Nov 2024 19:09 GMT (next day). No precinct report posted for 2024."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Unofficial cumulative files are named and printed \"3-4-2026 08:15 AM\" (Run Time 8:15 AM, Run Date 03/04/2026), Last-Modified 04 Mar 2026 16:00 GMT; nothing dated election night. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Republican Unofficial Results\": Cumulative Results Report (county totals), \"Run Time 8:28 PM Run Date 05/26/2026\"; CreationDate 2026-05-27 03:08 UTC (10:08 PM CDT); Last-Modified 27 May 2026 13:11 GMT (next morning). No precinct report posted."
+  }
+ },
+ "rationale": "County totals printed on election night with no precinct report ever posted in 2024 and the runoff (LATER twice): COUNTY_ONLY_PRECINCT_AT_CANVASS. Uploads were the next day, so printed times only: low.",
+ "sources": [
+  {
+   "url": "https://www.co.mcculloch.tx.us/page/mcculloch.ElectionInfo",
+   "content_hash": "00ddbb8c82d365dcff0582add7c40e021ad4fef47dc86fa2c3e783ca226831d5",
+   "what_i_checked": "file list"
+  },
+  {
+   "url": "https://www.co.mcculloch.tx.us/upload/page/0654/2024%20General%20Election/UNOFFICIAL%20CUMULATIVE%20REPORT%2011-5-24.pdf",
+   "content_hash": "bf9a07b374cc82c19a2b169b0539ee4edd030e05b8035c3a063b00434b0602d5",
+   "what_i_checked": "2024 cumulative run 9:03 PM"
+  },
+  {
+   "url": "https://www.co.mcculloch.tx.us/upload/page/0654/2026%20Primary%20runoff/REPUBLICAN%20UNOFFICIAL%20RESULTS.pdf",
+   "content_hash": "704e17bbec819cd35e1e4d2b35615c9ae646e0907daf9423c9d1800ac3a923aa",
+   "what_i_checked": "runoff cumulative run 8:28 PM"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/0654/2026%20Primary%20Election/Cumulative%20Results-3-4-2026%2008-15-34%20AM%20REPUBLICAN.pdf",
+   "content_hash": "7e791c500f19846a450810ae8a736ecc01aa4978396f817630f2f6a1ea67c29f",
+   "what_i_checked": "primary cumulative run 03/04/2026 8:15 AM"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LATER, cumulative printed 9:03 PM).",
+  "2026_primary": "different: research LATER from cumulative reports printed and uploaded the morning of Mar 4; under the clarified rule that is not election-night evidence, so verifier UNDETERMINED. Tag unaffected (2024 and runoff LATER).",
+  "2026_runoff": "same (LATER, cumulative printed 8:28 PM)."
+ }
+}

@@ -1,0 +1,65 @@
+{
+  "county": "Burnet",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.burnetcountytexas.org/1325/Election-Results",
+  "platform": "county_pdfs",
+  "host": "www.burnetcountytexas.org",
+  "evidence_url": "https://www.burnetcountytexas.org/DocumentCenter/View/2005/2026-Primary-Runoff-Unofficial-Precinct-Report-PDF",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-05-26 21:35 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed page (default.aspx?name=elect.home) returns 404; the current CivicPlus site has an Election Results page (found via Departments). The server stamps every file with the request time as Last-Modified (Fri, 02 Oct 2026 15:41 GMT), so it gives no upload evidence; only printed run times are used. No Clarity site (elections.json 404). 2026 runoff: unofficial Precinct, Cumulative and Canvass reports are posted beside the official ones; the unofficial Precinct Results Report has Election Day columns, 18 of 18 polling places reporting, Run Time 9:35 PM on election night (PDF ModDate 10:41 PM CDT); treated as END on printed run time only. 2026 primary and 2024 general: only official reports and reconciliations are listed (the November 5, 2024 subpage holds early voting rosters), so check 3 pending for those (wayback-data branch not found on origin). Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "Only the 2026 runoff is determined (END: unofficial precinct report with Election Day votes printed 9:35 PM election night), so by rule the tag is PRECINCT_END_OF_NIGHT with confidence low. Rule 47 checked 2026-10-02: no change.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Election Results lists only November 5, 2024 Official Precinct, Cumulative, Canvas, Reconciliation and provisional/write-in reports; no unofficial file. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Election Results lists only March 3, 2026 Official Precinct, Cumulative and Canvas reports plus unofficial and official reconciliations; no unofficial results file. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-26 21:35 CT (printed run time; no upload time)",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.burnetcountytexas.org/DocumentCenter/View/2005/2026-Primary-Runoff-Unofficial-Precinct-Report-PDF",
+      "fact": "'2026 Primary Runoff Unofficial Precinct Report (PDF)' = 'Precinct Results Report Unofficial Results Burnet County, Texas May 2026 Primary Run-off Election Polling Places Reporting 18 of 18 = 100.00% Run Time 9:35 PM Run Date 05/26/2026 ... 01 ... U.S. Senator - Republican Party ... Absentee Voting Early Voting Election Day Voting Total ... John Cornyn 189 ... 67 ... 33 ... 289'; PDF CreationDate Wed May 27 02:35:15 2026 UTC, ModDate 03:41:28 UTC. Rule 47: publication shown by printed time 2026-05-26 21:35 CT (run time) with no upload time (Last-Modified Fri, 02 Oct 2026 15:41:45 GMT equals request time) in 2026-Primary-Runoff-Unofficial-Precinct-Report-PDF."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.burnetcountytexas.org/1325/Election-Results",
+      "via": "fetch_module",
+      "quote": "2026 Primary Runoff Unofficial Precinct Report (PDF); 2026 Primary Runoff Official Precinct Report (PDF); March 3, 2026 Primary Republican Official Precinct (PDF); November 5, 2024 Official Precinct (PDF)",
+      "supports": "County-posted report list",
+      "content_hash": "720542f7476348aad773e06112dc7940c00657e994ec398ed077b1de687955da"
+    },
+    {
+      "url": "https://www.burnetcountytexas.org/DocumentCenter/View/2005/2026-Primary-Runoff-Unofficial-Precinct-Report-PDF",
+      "via": "fetch_module",
+      "quote": "Precinct Results Report Unofficial Results Burnet County, Texas May 2026 Primary Run-off Election Polling Places Reporting 18 of 18 = 100.00% Run Time 9:35 PM",
+      "supports": "Runoff unofficial precinct numbers with Election Day votes printed on election night",
+      "content_hash": "7501ba221c46d75491c65478195901b51540875a4186ba4e3cce85cf506e98a1"
+    }
+  ]
+}
