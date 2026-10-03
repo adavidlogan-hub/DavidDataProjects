@@ -1,0 +1,722 @@
+{
+ "county": "Williamson",
+ "spec": {
+  "file_prefixes": [
+   "livevoterturnout.com/ENR/williamsontxenr",
+   "wilcotx.gov"
+  ],
+  "page_prefixes": [
+   "livevoterturnout.com/ENR/williamsontxenr",
+   "wilcotx.gov/292/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 02:12:35",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov%2F292%2F&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 5,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241105100016",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/9186/FINAL-Election-Day-Vote-Centers---March-2024?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "AI4XW67QG2HV6OP7O4NGXS4OCQ3G7SGR",
+     "length": "128236"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241105141252",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/9156/FINAL-Early-Voting-Locations-and-Schedule---March-2024?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "6DS5V7P7W6XUZ4XXRO7OLZR5EOIEF7O7",
+     "length": "217126"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181448",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/13115/20241101-1124-Unofficial-Early-Voting-Summary",
+     "mimetype": "application/pdf",
+     "digest": "RNXVJ725INOJ5ZCY6RRF7267ZXJ7KMEO",
+     "length": "176737"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113231708",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/12416/Election-Day-Polling-Locations-PDF?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "WGAKO5HZVK5KQOAZPVYO2O4J3FKYGBQK",
+     "length": "106729"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241116014037",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/13051/20241026-1124-Unofficial-Early-Voting-Summary",
+     "mimetype": "application/pdf",
+     "digest": "35B6RYGXXRR2QD7H4FCTFW6PDN7DL52G",
+     "length": "173064"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181448",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/13115/20241101-1124-Unofficial-Early-Voting-Summary",
+     "mimetype": "application/pdf",
+     "digest": "RNXVJ725INOJ5ZCY6RRF7267ZXJ7KMEO",
+     "length": "176737",
+     "replay_error": null,
+     "bytes": 185333,
+     "sha256": "a162abfcaf125e5ee3da2af5ae0ce0a6dd012e122d43a18c51a82d0dfe568123",
+     "orig_last_modified": "Wed, 06 Nov 2024 18:14:49 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:14:49 GMT",
+     "orig_last_modified_local": "2024-11-06 12:14:49",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | AAM 879 814 784 734 794 397 252 563 486 461 490 680 657 526 530 459 502 293 194 406 390 448 409 803 927 897 1007 992 1048 752 399 841 906 866 742 1030 BCH 58 42 40 29 34 22 10 16 19 22 24 31 | 739 613 728 774 971 383 252 576 450 496 469 922 1390 1599 1641 1675 1685 1274 698 1478 1335 1303 1232 1400 CRC 1523 1422 1387 1295 1463 778 435 917 725 673 647 1243 812 853 853 815 967 534 353 647 605 593 575 894 301 249 205 166 144 54 26 91 85 88 83 109 1518 1477 1450 1407 1374 647 389 948 758 643 618 1013 | 888 808 821 767 814 410 270 669 586 539 568 735 802 813 804 596 683 226 223 338 303 274 207 350 1723 1656 1518 1456 1516 739 523 1155 969 968 859 1522 792 842 821 822 743 466 330 621 559 450 418 626 200 132 127 117 94 74 26 71 66 54 51 62 1579 1671 1657 1379 1276 558 389 663 554 394 278 282 | HHC 1606 1373 1555 1522 1652 1273 670 1345 1275 1223 1193 1578 782 608 491 469 529 292 166 382 318 390 334 623 1446 1326 1290 1312 1394 765 413 992 882 850 775 1399 1632 1721 1649 1662 1828 1384 737 1553 1618 1423 1489 1813 2075 1900 2058 2091 2104 1643 871 1910 1571 1584 1418 1920 RBC 1878 1784 1876 1737 1904 1412 727 1510 1497 1370 | 1319 1863 729 768 695 662 761 412 309 515 448 487 413 802 989 944 974 912 959 956 463 993 975 939 1003 1044 1315 1181 1007 991 1030 420 230 714 590 495 497 863 27240 26019 25968 24841 26269 16164 9355 19914 17970 17033 16111 23607 0 4275 95 885 682 607 431 0 663 127 420 481 450 26 | 34 63 67 87 91 71 109 156 172 211 316 52 58 54 89 102 83 50 140 127 140 133 278 0 31593 26206 26970 25679 27065 16769 9476 20826 18380 17765 16936 24651 AAM GAD APL CRC HHC TCH FCH |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106181448_0862e2d880.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241116014037",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/13051/20241026-1124-Unofficial-Early-Voting-Summary",
+     "mimetype": "application/pdf",
+     "digest": "35B6RYGXXRR2QD7H4FCTFW6PDN7DL52G",
+     "length": "173064",
+     "replay_error": null,
+     "bytes": 180713,
+     "sha256": "8a22fb6c93a90dff0b598a36b64cf26bb037f9827fe1a3bf3cef905bfd8375a3",
+     "orig_last_modified": "Sat, 16 Nov 2024 01:40:38 GMT",
+     "orig_date": "Sat, 16 Nov 2024 01:40:39 GMT",
+     "orig_last_modified_local": "2024-11-15 19:40:38",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | AAM 879 814 784 734 794 397 657 526 530 459 502 293 927 897 1007 992 1048 752 BCH 58 42 40 29 34 22 739 613 | 728 774 971 383 1390 1599 1641 1675 1685 1274 CRC 1523 1422 1387 1295 1463 778 812 853 853 815 967 534 301 249 205 166 144 54 1518 1477 1450 1407 1374 647 888 808 821 767 814 410 802 813 804 596 | 683 226 1724 1656 1518 1456 1516 739 792 842 821 822 743 466 200 132 127 117 94 74 1579 1671 1657 1379 1276 558 HHC 1606 1373 1555 1522 1652 1273 782 608 491 469 529 292 1446 1326 1290 1312 1394 | 765 1632 1721 1649 1662 1828 1384 2075 1900 2058 2091 2104 1643 RBC 1878 1784 1876 1737 1904 1412 729 768 695 662 761 412 989 944 974 912 959 956 1315 1181 1007 991 1030 420 27241 26019 25968 24841 | 26269 16164 0 0 0 0 0 0 0 4275 95 885 682 607 431 26 34 63 67 87 91 52 58 54 89 102 83 0 31594 26206 26970 25679 27065 16769 0 0 0 0 0 0 AAM GAD APL | CRC HHC TCH FCH |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241116014037_4b33be460f.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241105100016",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/9186/FINAL-Election-Day-Vote-Centers---March-2024?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "AI4XW67QG2HV6OP7O4NGXS4OCQ3G7SGR",
+     "length": "128236",
+     "replay_error": null,
+     "bytes": 132490,
+     "sha256": "5edbb7dd7b00865e4408c4c6adde7a8fcf63cf48cc63f5d69edd4123858bf7cd",
+     "orig_last_modified": "Tue, 05 Nov 2024 10:00:15 GMT",
+     "orig_date": "Tue, 05 Nov 2024 10:00:16 GMT",
+     "orig_last_modified_local": "2024-11-05 04:00:15",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |     \\226       \\226         -   ,  ,   202 4     -   m   de     de   2024           |  |   u           a         \\226         & B     |           :  |   :      :  ,   ,     :  -   ,  |   :    C :            |   :    :      :  ,    ,   26   |       ,             :  8     :    |  |     :  \\226         :  ,   ,  ,         |  |  |  |  |  |     \\226       \\226         -   ,  ,   202 4     -   m   de     de   2024             u           a             :  ,                     ,   78641               :   ,   78642       :   -       :       :         R ,     W     ,                 :                     :             :       :   ,  78681     :           &   ,     E       B ,       :   ,       :  ail ,    :      W :    |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241105100016_6e3d0a59fd.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241105141252",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/9156/FINAL-Early-Voting-Locations-and-Schedule---March-2024?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "6DS5V7P7W6XUZ4XXRO7OLZR5EOIEF7O7",
+     "length": "217126",
+     "replay_error": null,
+     "bytes": 222030,
+     "sha256": "8ae1827a9449dff2f8332e2381694ee6e813c667a995e7956305d83e0e8d1de3",
+     "orig_last_modified": "Tue, 05 Nov 2024 14:12:52 GMT",
+     "orig_date": "Tue, 05 Nov 2024 14:12:52 GMT",
+     "orig_last_modified_local": "2024-11-05 08:12:52",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |     -           de   la           de         \\226     202 4   -           u ac     |     tx .               a             -         y         de     o     |     2 3   \\( V \\)   8   6   pm   S   \\( \\)   7 a 7     \\( D 5   \\)         |     \\( 26   a   1     \\)         pm         -     /         \\226     :     ,         |     -     \\226     de               |                   :  - ,     :     :  ,       |     ,       :   ,   78642     :       ,     W     ,         :   |  |                   :           &   H ,     E       B lv                   |  |  |  |  |  |  |  |  |  |  |  |  |  |     -           de   la           de         \\226     202 4   -           u ac         tx .               a             -     y       a             26       26     1   \\)       am   to     pm       -     \\226     de     :    7   :    970      :      |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241105141252_61f17994af.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113231708",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/12416/Election-Day-Polling-Locations-PDF?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "WGAKO5HZVK5KQOAZPVYO2O4J3FKYGBQK",
+     "length": "106729",
+     "replay_error": null,
+     "bytes": 243554,
+     "sha256": "5ddcdbe21e1637492b4090ef794a703185f54b0f1e11f2a86b2dd055631a2838",
+     "orig_last_modified": "Wed, 13 Nov 2024 23:17:08 GMT",
+     "orig_date": "Wed, 13 Nov 2024 23:17:09 GMT",
+     "orig_last_modified_local": "2024-11-13 17:17:08",
+     "upload_on_election_night": false,
+     "Title": "DRAFT ED Polling Locations Nov 5, 2024.pdf \\(8.5 x 14 in\\",
+     "Creator": "Canva",
+     "Producer": "Canva",
+     "CreationDate": "D:20240928164340+00'00'",
+     "ModDate": "D:20240928164339+00'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | \u0000\u0014 \u0000\u0013 \u0000\u0015 \u0000\u0014 \u0000\u0014 \u0000\u0003 \u0000: \u0000\u0003 \u00003 \u0000D \u0000U \u0000P \u0000H \u0000U \u0000\u0003 \u0000/ \u0000Q \u0000\u0003 \u0000\u0014 \u0000\u0014 \u0000\u0018 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000\\( \u0000O \u0000\u0003 \u00006 \u0000D \u0000O \u0000L \u0000G \u0000R \u0000\u0003 \u00003 \u0000N \u0000Z \u0000\\\\ \u0000\u0003 \u0000\u0014 \u0000\u0015 \u0000\u001b \u0000\u0016 \u0000\u0016 \u0000\u0003 \u00005 \u0000D \u0000Q \u0000F \u0000K \u0000\u0003 \u00005 \u0000R \u0000D \u0000G \u0000\u0003 \u0000\u0019 \u0000\u0015 \u0000\u0013 \u0000\u0003 \u00001 \u0000\u0003 \u0000\u001a \u0000\u0014 \u0000\u0013 \u0000\u0017 \u0000\u0003 \u00000 \u0000F \u00001 \u0000H \u0000L \u0000O \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0014 \u0000\u0016 \u0000\u001b \u0000\u0013 \u0000\u0014 \u0000\u0003 \u00005 \u0000D \u0000Q \u0000F \u0000K \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0019 \u0000\u0015 \u0000\u0013 \u0000\u0003 \u00001 \u0000\u0003 \u00006 \u0000W \u0000H \u0000\u0003 \u0000\u0014 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000\u0014 \u0000\u0016 \u0000\u0017 \u0000\u0014 \u0000\u0018 \u0000\u0003 \u00001 \u0000\u0003 \u0000\\) \u00000 \u0000\u0003 \u0000\u0019 \u0000\u0015 \u0000\u0013 \u0000\u0003 \u0000\u0018 \u0000\u001b \u0000\u0013 \u0000\u0013 \u0000\u0003 \u00000 \u0000F \u00001 \u0000H \u0000L \u0000O \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u001a \u0000\u0019 \u0000\u0014 \u0000\u001a \u0000\u0003 \u0000\\( \u0000O \u0000N \u0000K \u0000R \u0000U \u0000Q \u0000\u0003 \u00000 \u0000R \u0000X \u0000Q \u0000W \u0000D \u0000L \u0000Q \u0000\u0003 \u00007 \u0000U \u0000O \u0000\u0003 \u0000\u001b \u0000\u0019 \u0000\u0016 \u0000\u001a \u0000\u0003 \u00006 \u0000S \u0000L \u0000F \u0000H \u0000Z \u0000R \u0000R \u0000G \u0000\u0003 \u00006 \u0000S \u0000U \u0000L \u0000Q \u0000J \u0000V \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u001c \u0000\u0018 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u00001 \u0000H \u0000H \u0000Q \u0000D \u0000K \u0000\u0003 \u0000$ \u0000Y \u0000H \u0000\u0003 \u0000\u0014 \u0000\u0013 \u0000\u0013 \u0000\u0014 \u0000\u0013 \u0000\u0003 \u0000$ \u0000Q \u0000G \u0000H \u0000U \u0000V \u0000R \u0000Q \u0000\u0003 \u00000 \u0000L \u0000O \u0000O \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0016 \u0000\u001a \u0000\u0015 \u0000\u001c \u0000\u0003 \u00005 \u0000H \u0000V \u0000H \u0000D \u0000U \u0000F \u0000K \u0000\u0003 \u0000% \u0000O \u0000Y \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0017 \u0000\u0013 \u0000\u0003 \u0000: \u0000\u0003 \u0000& \u0000O \u0000D \u0000U \u0000N \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u0016 \u0000\u0019 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000\\( \u0000\u0003 \u0000: \u0000K \u0000L \u0000W \u0000H \u0000V \u0000W \u0000R \u0000Q \u0000H \u0000\u0003 \u0000\u0014 \u0000\u0018 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000& \u0000R \u0000W \u0000W \u0000R \u0000Q \u0000Z \u0000R \u0000R \u0000G \u0000\u0003 \u0000& \u0000U \u0000H \u0000H \u0000N \u0000\u0003 \u00007 \u0000U \u0000D \u0000L \u0000O \u0000\u0014 \u0000\u0017 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000& \u0000\\\\ \u0000S \u0000U \u0000H \u0000V \u0000V \u0000\u0003 \u0000& \u0000U \u0000H \u0000H \u0000N \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0017 \u0000\u0016 \u0000\u0018 \u0000\u0003 \u00000 \u0000D \u0000L \u0000Q \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u0014 \u0000\u0018 \u0000\u0018 \u0000\u0018 \u0000\u0003 \u0000& \u0000\\\\ \u0000S \u0000U \u0000H \u0000V \u0000V \u0000\u0003 \u0000& \u0000U \u0000H \u0000H \u0000N \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0014 \u0000\u0014 \u0000\u0013 \u0000\u0003 \u0000$ \u0000U \u0000U \u0000R \u0000Z \u0000\u0003 \u00003 \u0000R \u0000L \u0000Q \u0000W \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0014 \u0000\u001c \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000& \u0000R \u0000X \u0000J \u0000D \u0000U \u0000\u0003 \u0000& \u0000R \u0000X \u0000Q \u0000W \u0000U \u0000\\\\ \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0014 \u0000\u001a \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000\\( \u0000\u0003 \u00003 \u0000D \u0000U \u0000N \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u0014 \u0000\u0016 \u0000\u0014 \u0000\u0018 \u0000\u0003 \u0000\\( \u0000\u0003 \u00001 \u0000H \u0000Z \u0000\u0003 \u0000+ \u0000R \u0000S \u0000H \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0017 \u0000\u0013 \u0000\u001b \u0000\u0003 \u00005 \u0000L \u0000G \u0000J \u0000H \u0000Z \u0000R \u0000R \u0000G \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0014 \u0000\u001c \u0000\u0018 \u0000\u0013 \u0000\u0003 \u0000% \u0000U \u0000X \u0000V \u0000K \u0000\\\\ \u0000\u0003 \u0000& \u0000U \u0000H \u0000H \u0000N \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0013 \u0000\u001b \u0000\u0003 \u0000: \u0000D \u0000W \u0000K \u0000H \u0000Q \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u001b \u0000\u0018 \u0000\u0014 \u0000\u0003 \u0000\\) \u00000 \u0000\u0003 \u0000\u001c \u0000\u001a \u0000\u0013 \u0000\u0003 \u0000\u0019 \u0000\u0019 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000\\) \u00000 \u0000\u0003 \u0000\u001c \u0000\u001a \u0000\u0013 \u0000\u0003 \u0000\u0014 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000: \u0000L \u0000O \u0000F \u0000R \u0000\u0003 \u0000: \u0000D \u0000\\\\ \u0000\u0003 \u0000\u0014 \u0000\u0015 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000: \u0000\u0003 \u0000\u0014 \u0000\u001a \u0000W \u0000K \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u001b \u0000\u0013 \u0000\u001b \u0000\u0003 \u00000 \u0000D \u0000U \u0000W \u0000L \u0000Q \u0000\u0003 \u0000/ \u0000X \u0000W \u0000K \u0000H \u0000U \u0000\u0003 \u0000. \u0000L \u0000Q \u0000J \u0000\u0003 \u0000- \u0000U \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u0019 \u0000\u0013 \u0000\u0016 \u0000\u0003 \u0000/ \u0000D \u0000N \u0000H \u0000Z \u0000D \u0000\\\\ \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0018 \u0000\u0013 \u0000\u001a \u0000\u0003 \u0000\\( \u0000\u0003 \u00008 \u0000Q \u0000L \u0000Y \u0000H \u0000U \u0000V \u0000L \u0000W \u0000\\\\ \u0000\u0003 \u0000$ \u0000Y \u0000H \u0000\u0003 \u0000\u0018 \u0000\u001a \u0000\u0015 \u0000\u0014 \u0000\u0003 \u0000: \u0000L \u0000O \u0000O \u0000L \u0000D \u0000P \u0000V \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0016 \u0000\u0013 \u0000\u0014 \u0000\u0003 \u0000' \u0000H \u0000O \u0000\u0003 \u0000: \u0000H \u0000E \u0000E \u0000\u0003 \u0000% \u0000O \u0000Y \u0000G \u0000\u0003 \u0000\u0019 \u0000\u001a \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000: \u0000L \u0000O \u0000O \u0000L \u0000D \u0000P \u0000V \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0016 \u0000\u0014 \u0000\u0018 \u0000\u0014 \u0000\u0003 \u00006 \u0000\\( \u0000\u0003 \u0000, \u0000Q \u0000Q \u0000H \u0000U \u0000\u0003 \u0000/ \u0000R \u0000R \u0000S \u0000\u0003 \u0000\u0014 \u0000\u0016 \u0000\u0016 \u0000\u0016 \u0000\u0003 \u0000: \u0000\u0003 \u00008 \u0000Q \u0000L \u0000Y \u0000H \u0000U \u0000V \u0000L \u0000W \u0000\\\\ \u0000\u0003 \u0000$ \u0000Y \u0000H \u0000\u0003 \u0000\u0016 \u0000\u0018 \u0000\u001c \u0000\u0003 \u00009 \u0000L \u0000O \u0000O \u0000D \u0000J \u0000H \u0000\u0003 \u0000& \u0000R \u0000P \u0000P \u0000R \u0000Q \u0000V \u0000\u0003 \u0000% \u0000O \u0000Y \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0013 \u0000\u0013 \u0000\u0014 \u0000\u0003 \u00006 \u0000R \u0000X \u0000W \u0000K \u0000Z \u0000H \u0000V \u0000W \u0000H \u0000U \u0000Q \u0000\u0003 \u0000% \u0000O \u0000Y \u0000G \u0000\u0003 \u0000\u0015 \u0000\u0017 \u0000\u0013 \u0000\u0014 \u0000\u0003 \u0000: \u0000H \u0000V \u0000W \u0000L \u0000Q \u0000J \u0000K \u0000R \u0000X \u0000V \u0000H \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0019 \u0000\u0013 \u0000\u0014 \u0000\u0003 \u0000\\) \u00000 \u0000\u0003 \u0000\u001c \u0000\u001a \u0000\u0014 \u0000\u0003 \u0000\u0018 \u0000\u0013 \u0000\u0019 \u0000\u0013 \u0000\u0003 \u0000\\( \u0000\u0003 \u0000+ \u0000Z \u0000\\\\ \u0000\u0003 \u0000\u0015 \u0000\u001c \u0000\u0016 \u0000\u0013 \u0000\u0019 \u0000\u0003 \u0000: \u0000\u0003 \u0000% \u0000U \u0000R \u0000D \u0000G \u0000Z \u0000D \u0000\\\\ \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u0015 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000& \u0000R \u0000O \u0000O \u0000H \u0000J \u0000H \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u001c \u0000\u001b \u0000\u0018 \u0000\u0013 \u0000\u0003 \u0000\\) \u00000 \u0000\u0003 \u0000\u0014 \u0000\u0019 \u0000\u0019 \u0000\u0013 \u0000\u0003 \u00006 \u0000R \u0000X \u0000W \u0000K \u0000\u0003 \u0000\u0016 \u0000\u0015 \u0000\u0014 \u0000\u0003 \u0000\\( \u0000G \u0000\u0003 \u00006 \u0000F \u0000K \u0000P \u0000L \u0000G \u0000W \u0000\u0003 \u0000% \u0000O \u0000Y \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0019 \u0000\u0018 \u0000\u0014 \u0000\u0003 \u0000& \u00005 \u0000\u0003 \u0000\u0016 \u0000\u0013 \u0000\u0018 \u0000\u0003 \u0000\u0018 \u0000\u0014 \u0000\u0013 \u0000\u0003 \u00006 \u0000R \u0000Q \u0000W \u0000H \u0000U \u0000U \u0000D \u0000\u0003 \u0000% \u0000O \u0000Y \u0000G \u0000\u0003 \u0000\u0017 \u0000\u0013 \u0000\u0014 \u0000\u0003 \u0000\\) \u0000L \u0000J \u0000K \u0000W \u0000L \u0000Q \u0000J \u0000\u0003 \u00006 \u0000H \u0000D \u0000E \u0000H \u0000H \u0000V \u0000\u0003 \u00005 \u0000X \u0000Q \u0000\u0003 \u0000\u0017 \u0000\u0015 \u0000\u0017 \u0000\u0003 \u00005 \u0000X \u0000V \u0000N \u0000\u0003 \u0000% \u0000O \u0000X \u0000I \u0000I \u0000\u0003 \u0000$ \u0000Y \u0000H \u0000\u0003 \u0000\u0014 \u0000\u0015 \u0000\u001b \u0000\u0013 \u0000\u0003 \u0000/ \u0000R \u0000J \u0000D \u0000Q \u0000\u0003 \u0000' \u0000H \u0000O \u0000\u0003 \u0000: \u0000D \u0000\\\\ \u0000\u0003 \u0000\u0014 \u0000\u0013 \u0000\u0019 \u0000\u0014 \u0000\u0003 \u0000& \u0000R \u0000O \u0000O \u0000D \u0000E \u0000R \u0000U \u0000D \u0000W \u0000L \u0000Y \u0000H \u0000\u0003 \u0000: \u0000D \u0000\\\\ \u0000\u0003 \u0000\u0014 \u0000\u0013 \u0000\u0014 \u0000\u0014 \u0000\u0003 \u00006 \u0000\u0003 \u0000% \u0000D \u0000J \u0000G \u0000D \u0000G \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0015 \u0000\u0013 \u0000\u0014 \u0000\u0003 \u00001 \u0000\u0003 \u0000% \u0000U \u0000X \u0000V \u0000K \u0000\\\\ \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u0016 \u0000\u0015 \u0000\u0018 \u0000\u0013 \u0000\u0003 \u0000% \u0000D \u0000U \u0000O \u0000H \u0000\\\\ \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u001a \u0000\u001b \u0000\u0019 \u0000\u0013 \u0000\u0003 \u0000\u0014 \u0000\u001b \u0000\u0016 \u0000$ \u0000\u0003 \u0000\u0014 \u0000\u0013 \u0000\u0013 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000\\) \u00000 \u0000\u0003 \u0000\u0015 \u0000\u0015 \u0000\u0017 \u0000\u0016 \u0000\u0003 \u0000\u0014 \u0000\u001a \u0000\u0018 \u0000\u0003 \u0000\\( \u0000O \u0000L \u0000] \u0000D \u0000E \u0000H \u0000W \u0000K \u0000\u0003 \u00003 \u0000D \u0000U \u0000N \u0000\u0003 \u0000% \u0000O \u0000Y \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0019 \u0000\u0018 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000: \u0000\u0003 \u00006 \u0000+ \u0000\u0003 \u0000\u0015 \u0000\u001c \u0000\u0003 \u0000\u0016 \u0000\u0013 \u0000\u0014 \u0000\u0003 \u0000\\) \u0000R \u0000U \u0000U \u0000H \u0000V \u0000W \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u0017 \u0000\u0018 \u0000\u0013 \u0000\u0003 \u0000& \u00005 \u0000\u0003 \u0000\u0015 \u0000\u0018 \u0000\u001b \u0000\u0003 \u0000\u0014 \u0000\u0019 \u0000\u0016 \u0000\u0014 \u0000\u001b \u0000\u0003 \u0000* \u0000U \u0000H \u0000D \u0000W \u0000\u0003 \u00002 \u0000D \u0000N \u0000V \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0017 \u0000\u0013 \u0000\u0014 \u0000\u0013 \u0000\u0003 \u00006 \u0000D \u0000P \u0000\u0003 \u0000% \u0000D \u0000V \u0000V \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u001a \u0000\u0016 \u0000\u0015 \u0000\u0013 \u0000\u0003 \u0000: \u0000\\\\ \u0000R \u0000P \u0000L \u0000Q \u0000J \u0000\u0003 \u00006 \u0000S \u0000U \u0000L \u0000Q \u0000J \u0000V \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0019 \u0000\u001c \u0000\u0013 \u0000\u0014 \u0000\u0003 \u0000& \u0000R \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0014 \u0000\u0013 \u0000\u0003 \u0000\u0015 \u0000\u0017 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000& \u0000K \u0000L \u0000V \u0000K \u0000R \u0000O \u0000P \u0000\u0003 \u00007 \u0000U \u0000O \u0000\u0003 \u0000\u0015 \u0000\u001a \u0000\u0013 \u0000\u0003 \u0000% \u0000D \u0000V \u0000V \u0000\u0003 \u00003 \u0000U \u0000R \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0016 \u0000\u0018 \u0000\u0013 \u0000\u0018 \u0000\u0003 \u0000\\) \u0000R \u0000U \u0000H \u0000V \u0000W \u0000\u0003 \u0000& \u0000U \u0000H \u0000H \u0000N \u0000\u0003 \u0000' \u0000U \u0000\u0003 \u0000\u0015 \u0000\u0018 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000\\( \u0000\u0003 \u00003 \u0000D \u0000O \u0000P \u0000\u0003 \u00009 \u0000D \u0000O \u0000O \u0000H \u0000\\\\ \u0000\u0003 \u0000% \u0000O \u0000Y \u0000G \u0000\u0003 \u0000\u0014 \u0000\u001b \u0000\u0013 \u0000\u0014 \u0000\u0003 \u0000\\( \u0000\u0003 \u00002 \u0000O \u0000G \u0000\u0003 \u00006 \u0000H \u0000W \u0000W \u0000O \u0000H \u0000U \u0000V \u0000\u0003 \u0000% \u0000O \u0000Y \u0000G \u0000\u0003 \u0000\u0016 \u0000\u0013 \u0000\u0014 \u0000\u0003 \u0000: \u0000\u0003 \u0000% \u0000D \u0000J \u0000G \u0000D \u0000G \u0000\u0003 \u0000$ \u0000Y \u0000H \u0000\u0003 \u0000\u0015 \u0000\u0013 \u0000\u0018 \u0000\u0014 \u0000\u0003 \u0000* \u0000D \u0000W \u0000W \u0000L \u0000V \u0000\u0003 \u00006 \u0000F \u0000K \u0000R \u0000R \u0000O \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0015 \u0000\u0013 \u0000\u0018 \u0000\u0003 \u00005 \u0000R \u0000X \u0000Q \u0000G \u0000\u0003 \u00005 \u0000R \u0000F \u0000N \u0000\u0003 \u0000$ \u0000Y \u0000H \u0000\u0003 \u00006 \u0000W \u0000H \u0000\u0003 \u0000\u0014 \u0000\u0013 \u0000\u001c \u0000\u0014 \u0000\u0015 \u0000\u0013 \u0000\u001c \u0000\u0003 \u00001 \u0000\u0003 \u0000, \u0000+ \u0000\u0003 \u0000\u0016 \u0000\u0018 \u0000\u0003 \u0000\u0015 \u0000\u001b \u0000\u0013 \u0000\u0014 \u0000\u0003 \u0000* \u0000D \u0000W \u0000W \u0000L \u0000V \u0000\u0003 \u00006 \u0000F \u0000K \u0000R \u0000R \u0000O \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0014 \u0000\u0018 \u0000\u0018 \u0000\u0018 \u0000\u0003 \u00008 \u0000Q \u0000L \u0000Y \u0000H \u0000U \u0000V \u0000L \u0000W \u0000\\\\ \u0000\u0003 \u0000% \u0000O \u0000Y \u0000G \u0000\u0003 \u0000\u0014 \u0000\u001c \u0000\u001b \u0000\u0013 \u0000\u0003 \u00006 \u0000\u0003 \u0000, \u0000+ \u0000\u0003 \u0000\u0016 \u0000\u0018 \u0000\u0003 \u0000\u0016 \u0000\u0014 \u0000\u0013 \u0000\u0014 \u0000\u0003 \u00001 \u0000\u0003 \u00000 \u0000D \u0000L \u0000Q \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u0018 \u0000\u0016 \u0000\u0018 \u0000\u0013 \u0000\u0003 \u0000% \u0000L \u0000O \u0000O \u0000\u0003 \u00003 \u0000L \u0000F \u0000N \u0000H \u0000W \u0000\u0003 \u00007 \u0000U \u0000O \u0000\u0003 \u0000\u0017 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u00003 \u0000R \u0000U \u0000W \u0000H \u0000U \u0000\u0003 \u00006 \u0000W \u0000\u0003 \u0000\u0017 \u0000\u0013 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000\\) \u00000 \u0000\u0003 \u0000\u001c \u0000\u001a \u0000\u0015 \u0000\u0003 \u0000\u0016 \u0000\u0014 \u0000\u0018 \u0000\u0003 \u0000\\) \u00000 \u0000\u0003 \u0000\u0014 \u0000\u0014 \u0000\u0013 \u0000\u0018 \u0000\u0003 \u00006 \u0000\u0015 \u0000\u001a \u0000\t \u0000\u0003 \u0000# \u0000\t \u0000\u0014 \u0000\u001a \u0000\t \u0000\u0018 \u0000\u0003 \u0000! \u0000\b \u0000\b \u0000\u0018 \u0000\t \u0000\u0019 \u0000\u0019 \u0000\u0003 \u00002 \u0000\u0015 \u0000\u0015 \u0000\u0013 \u0000\u0003 \u0000# \u0000\u000f \u0000\u001a \u0000\u001f \u0000\u0003 \u0000: \u0000\u000f \u0000\u0016 \u0000\u0003 \u0000# \u0000\u0015 \u0000\b \u0000\t \u0000\u0003 \u0000- \u0000R \u0000L \u0000Q \u0000W \u0000\u0003 \u0000* \u0000H \u0000Q \u0000H \u0000U \u0000D \u0000O \u0000\u0003 \u0000D \u0000Q \u0000G \u0000\u0003 \u00006 \u0000S \u0000H \u0000F \u0000L \u0000D \u0000O \u0000\u0003 \u0000\\( \u0000O \u0000H \u0000F \u0000W \u0000L \u0000R \u0000Q \u0000V \u0000\u0003 \u0000R \u0000I \u0000\u0003 \u0000: \u0000L \u0000O \u0000O \u0000L \u0000D \u0000P \u0000V \u0000R \u0000Q \u0000\u0003 \u0000& \u0000R \u0000X \u0000Q \u0000W \u0000\\\\ \u0000\u000f \u0000\u0003 \u00007 \u0000; \u0000\u0003 \u0000\u0010 \u0000\u0003 \u00007 \u0000X \u0000H \u0000V \u0000G \u0000D \u0000\\\\ \u0000\u000f \u0000\u0003 \u00001 \u0000R \u0000Y \u0000H \u0000P \u0000E \u0000H \u0000U \u0000\u0003 \u0000\u0018 \u0000\u000f \u0000\u0003 \u0000\u0015 \u0000\u0013 \u0000\u0015 \u0000\u0017 \u0000\u0003 \u0000q \u0000\u0003 \u0000\u001a \u0000\u001d \u0000\u0013 \u0000\u0013 \u0000D \u0000P \u0000\u0003 \u0000W \u0000R \u0000\u0003 \u0000\u001a \u0000\u001d \u0000\u0013 \u0000\u0013 \u0000S \u0000P \u0000\u0003 \u0000\u0003 \u0000\\( \u0000O \u0000H \u0000F \u0000F \u0000L \u0000Q \u0000H \u0000V \u0000\u0003 \u0000* \u0000H \u0000Q \u0000H \u0000U \u0000D \u0000O \u0000H \u0000V \u0000\u0003 \u0000\\\\ \u0000\u0003 \u0000\\( \u0000V \u0000S \u0000H \u0000F \u0000L \u0000D \u0000O \u0000H \u0000V \u0000\u0003 \u0000& \u0000R \u0000Q \u0000M \u0000X \u0000Q \u0000W \u0000D \u0000\u0003 \u0000G \u0000H \u0000O \u0000\u0003 \u0000& \u0000R \u0000Q \u0000G \u0000D \u0000G \u0000R \u0000\u0003 \u0000G \u0000H \u0000\u0003 \u0000: \u0000L \u0000O \u0000O \u0000L \u0000D \u0000P \u0000V \u0000R \u0000Q \u0000\u000f \u0000\u0003 \u00007 \u0000; \u0000\u0003 \u0000\u0010 \u0000\u0003 \u00000 \u0000D \u0000U \u0000W \u0000H \u0000V \u0000\u000f \u0000\u0003 \u0000\u0018 \u0000\u0003 \u0000G \u0000H \u0000\u0003 \u0000Q \u0000R \u0000Y \u0000L \u0000H \u0000P \u0000E \u0000U \u0000H \u0000\u0003 \u0000G \u0000H \u0000\u0003 \u0000\u0015 \u0000\u0013 \u0000\u0015 \u0000\u0017 \u00005 \u0000H \u0000J \u0000L \u0000V \u0000W \u0000H \u0000U \u0000H \u0000G \u0000\u0003 \u0000Y \u0000R \u0000W \u0000H \u0000U \u0000V \u0000\u0003 \u0000P \u0000D \u0000\\\\ \u0000\u0003 \u0000Y \u0000R \u0000W \u0000H \u0000\u0003 \u0000D \u0000W \u0000\u0003 \u0000D \u0000Q \u0000\\\\ \u0000\u0003 \u0000O \u0000R \u0000F \u0000D \u0000W \u0000L \u0000R \u0000Q \u0000\u0003 \u0000O \u0000L \u0000V \u0000W \u0000H \u0000G \u0000\u0011 \u0000\u0003 \u0000/ \u0000R \u0000V \u0000\u0003 \u0000Y \u0000R \u0000W \u0000D \u0000Q \u0000W \u0000H \u0000V \u0000\u0003 \u0000U \u0000H \u0000J \u0000L \u0000V \u0000W \u0000U \u0000D \u0000G \u0000R \u0000V \u0000\u0003 \u0000S \u0000X \u0000H \u0000G \u0000H \u0000Q \u0000\u0003 \u0000Y \u0000R \u0000W \u0000D \u0000U \u0000\u0003 \u0000H \u0000Q \u0000\u0003 \u0000F \u0000X \u0000D \u0000O \u0000T \u0000X \u0000L \u0000H \u0000U \u0000\u0003 \u0000O \u0000X \u0000J \u0000D \u0000U \u0000\u0003 \u0000T \u0000X \u0000H \u0000\u0003 \u0000V \u0000H \u0000\u0003 \u0000L \u0000Q \u0000G \u0000L \u0000T \u0000X \u0000H \u0000\u0003 \u0000D \u0000T \u0000X \u0000\u0011 \u0000\u0003 \u0000V \u0000X \u0000M \u0000H \u0000W \u0000R \u0000\u0003 \u0000D \u0000\u0003 \u0000F \u0000D \u0000P \u0000E \u0000L \u0000R \u0000\u0003 \u0000V \u0000X \u0000E \u0000M \u0000H \u0000F \u0000W \u0000\u0003 \u0000W \u0000R \u0000\u0003 \u0000F \u0000K \u0000D \u0000Q \u0000J \u0000H \u0000\u0003 \u0000: \u0000D \u0000L \u0000W \u0000\u0003 \u0000W \u0000L \u0000P \u0000H \u0000\u0003 \u0000H \u0000V \u0000W \u0000L \u0000P \u0000D \u0000W \u0000H \u0000V \u0000\u0003 \u0000D \u0000Y \u0000D \u0000L \u0000O \u0000D \u0000E \u0000O \u0000H \u0000\u0003 \u0000D \u0000W \u0000\u0003 \u0000Z \u0000L \u0000O \u0000F \u0000R \u0000W \u0000[ \u0000\u0011 \u0000J \u0000R \u0000Y \u0000\u0012 \u0000H \u0000O \u0000H \u0000F \u0000W \u0000L \u0000R \u0000Q \u0000V \u0000\u0003 \u0000\\( \u0000",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241113231708_e03ed4bbd6.pdf"
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 9
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 4
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov%2F292%2F&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    }
+   ],
+   "versions_found": 10,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260303122042",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/18645/Notice-of-Election--Democratic",
+     "mimetype": "application/pdf",
+     "digest": "NASFB3GENIKP4KXAIL3WCZELZXVNWTH3",
+     "length": "114276"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260303122042",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/18646/Notice-of-Election---Republican?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "Q6HQHZORKLREDEQR5VCPIJ3ZYJIZL6XS",
+     "length": "108003"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260303162858",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/2216/Texas-Voter-Registration-Application-PDF",
+     "mimetype": "application/pdf",
+     "digest": "KJ7R6AI7TOGSOBGRTQ7Z4EWGHSAT67M6",
+     "length": "425234"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260304043359",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/8510/2024-2025-CPS-Attorney-List-Tex-Govt-Code-Sec-37?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "UB4BP3OJK4XNNLUFCGDWNVZTEX3ZJQN2",
+     "length": "113137"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260305165831",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/10650/List-of-Early-Voting-Check-ins-2024-06-15?bidId=",
+     "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+     "digest": "MCZGY2ZDG2PSBMDZIKKBDSD4HSK52KL5",
+     "length": "87445"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260309120148",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/18882/Preliminary-Election-Reconciliation-Form--REP-Signed-PDF",
+     "mimetype": "application/pdf",
+     "digest": "XPY5O6XX672LEA7RSMYMVF5ENVLJWAA3",
+     "length": "75298"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260309162708",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/18870/Preliminary-Election-Reconciliation-Form--DEM-Signed-PDF",
+     "mimetype": "application/pdf",
+     "digest": "EQXGMSOQFJ375IQVJHYVYBV463HAUYC2",
+     "length": "66236"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260310004447",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/18165/Ordinance_25-069-00_Election_Order_-_English_-_11062025",
+     "mimetype": "application/pdf",
+     "digest": "FZW4YTUFGACJXVMD67F74E55OYDTEZW4",
+     "length": "1872306"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260312010831",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/8509/2024-2025-CPS-Attorney-List-Tex-Govt-Code-Sec-37",
+     "mimetype": "application/pdf",
+     "digest": "VA3YJNGQ45BMGDUSUC5EHS6RZEGZ3GK5",
+     "length": "114169"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314170153",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/2594/Voter-Registration-and-Absentee-Ballot-Request-PDF?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "3FB3SEWM3DTM5BO3IPDDW3XRMAVCKJLX",
+     "length": "546391"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260304043359",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/8510/2024-2025-CPS-Attorney-List-Tex-Govt-Code-Sec-37?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "UB4BP3OJK4XNNLUFCGDWNVZTEX3ZJQN2",
+     "length": "113137",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260305165831",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/10650/List-of-Early-Voting-Check-ins-2024-06-15?bidId=",
+     "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+     "digest": "MCZGY2ZDG2PSBMDZIKKBDSD4HSK52KL5",
+     "length": "87445",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260312010831",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/8509/2024-2025-CPS-Attorney-List-Tex-Govt-Code-Sec-37",
+     "mimetype": "application/pdf",
+     "digest": "VA3YJNGQ45BMGDUSUC5EHS6RZEGZ3GK5",
+     "length": "114169",
+     "replay_error": null,
+     "bytes": 115894,
+     "sha256": "0295cb964d1d94535e32ff71110fc9941ca38f6e20809edd3c331664f3bd3a1a",
+     "orig_last_modified": "Thu, 12 Mar 2026 01:08:31 GMT",
+     "orig_date": "Thu, 12 Mar 2026 01:08:31 GMT",
+     "orig_last_modified_local": "2026-03-11 19:08:31",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20250113161500-06'00'",
+     "ModDate": "D:20250113161500-06'00'",
+     "Producer": "Microsoft: Print To PDF",
+     "Title": "2025 Attorney Appointment Master List.xlsx",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260312010831_e386ce7848.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260303122042",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/18645/Notice-of-Election--Democratic",
+     "mimetype": "application/pdf",
+     "digest": "NASFB3GENIKP4KXAIL3WCZELZXVNWTH3",
+     "length": "114276",
+     "replay_error": null,
+     "bytes": 133949,
+     "sha256": "2e726b58c54fff1ca957729535bdf4a6d41d6f3311ebe45988892c4549db77d6",
+     "orig_last_modified": "Tue, 03 Mar 2026 12:20:42 GMT",
+     "orig_date": "Tue, 03 Mar 2026 12:20:42 GMT",
+     "orig_last_modified_local": "2026-03-03 06:20:42",
+     "upload_on_election_night": false,
+     "Title": "Copy of March 3 DEMS - ED Polling Locations .pdf \\(8.5 x 14 in\\",
+     "Creator": "Canva",
+     "Producer": "Canva",
+     "CreationDate": "D:20260224223153+00'00'",
+     "ModDate": "D:20260224223153+00'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  | \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u0000\u0004 \u0002\u0007 \u00028 \u0002@ \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0000x \u0000\u0003 \u0000n \u0002\u0005 \u0002N \u0000\u0003 \u0000\\( \u0002@ \u0002N \u00028 \u0002N \u0006K \u0000\u0003 \u0000\u0003 \u00000 \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0002o \u0002u \u0006K \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0004 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u00025 \u0002o \u0002\u0012 \u0002\u0012 \u0000\u0003 \u00025 \u00028 \u0002\u0007 \u0002@ \u0000\u0003 \u0000n \u00028 \u00028 \u0002u \u0006K \u0000\u0003 \u0000\u0003 \u00025 \u0002o \u0002\u0012 \u0002\u0012 \u0000\u0003 \u00025 \u00028 \u0002\u0007 \u0002@ \u0000\u0003 \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u0000X \u0002\u0007 \u0002N \u0000\u0003 \u0000x \u0000\u0003 \u0002@ \u0002\u0012 \u00028 \u0002N \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000z \u0006K \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0007 \u00028 \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u0002N \u0002@ \u0002u \u0000\u0003 \u0002\u0012 \u0002\u0005 \u0002\u0005 \u00028 \u0000\u0003 \u00000 \u0002\u0005 \u0002\u0007 \u0002N \u00028 \u0002u \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002n \u00028 \u0002u \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0002\u0012 \u00028 \u0002N \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u00028 \u0002@ \u00028 \u0002n \u0000\u0003 \u0002N \u0000\u0003 \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0000I \u0000x \u0000\u0003 \u0006K \u0000\u0003 \u0002@ \u0002\u0007 \u0002N \u0000\u0003 \u0000n \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u0002N \u0006P \u0000\u0003 \u0002\u0007 \u0002\u0007 \u0002N \u0000\u0003 \u0000\\( \u0000\u0003 \u0002V \u0000\u0003 \u0000! \u0002N \u0002\u0012 \u0000\u0003 \u0000! \u0002V \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000z \u0002\u0007 \u0000\u0003 \u0000\u0004 \u0002n \u0006K \u0000\u0003 \u0002\u0012 \u00028 \u0002N \u0002@ \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006J \u0000\u0003 \u0000\u0004 \u0000! \u0000! \u0000\u0003 \u0000! \u0002u \u00025 \u00028 \u0002@ \u0002@ \u0000\u0003 \u0000! \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u0002u \u00025 \u00028 \u0002@ \u0002@ \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u0006K \u0000\u0003 \u0000  \u0000\u0003 \u0006K \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006J \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0000\u0003 \u00028 \u0002N \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000x \u0002\u0007 \u0000\u0003 \u0002N \u0006K \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000J \u00028 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006J \u0000\u0003 \u0000X \u0002@ \u0002\u0005 \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000  \u00028 \u0002V \u0002@ \u0002u \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u0006K \u0000\u0003 \u00000 \u0002V \u0002N \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002N \u0002n \u0002N \u0002u \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006J \u0000\u0003 \u0000n \u0002\u0007 \u0000\u0003 \u0002@ \u0000\u0003 \u0000x \u0000\\( \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000x \u0000\u0003 \u0006K \u0000\u0003 \u0000  \u0002\u0012 \u00028 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006J \u0000\u0003 \u0000\u0003 \u00025 \u00028 \u0002\u0007 \u0002@ \u0000\u0003 \u0000R \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u0002\u0012 \u0002N \u0002N \u0002\u0012 \u0002\u0007 \u0002o \u0002\u0012 \u0002\u0012 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006K \u0000\u0003 \u0000n \u0002\u0012 \u0002u \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000I \u0002\u0012 \u00028 \u0002\u0007 \u0006J \u0000\u0003 \u0000I \u0002\u0012 \u00028 \u0002\u0007 \u0000\u0003 \u0000! \u0002N \u0002u \u0000\u0003 \u0000R \u0006K \u0000\u0003 \u0000\u0003 \u0000I \u0000x \u0000\u0003 \u0006K \u0000\u0003 \u0000! \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0000! \u0002\u0005 \u00028 \u0002@ \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0000\u0003 \u0000\u0004 \u0002\u0007 \u0002\u0007 \u0002t \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0002u \u0006K \u0000\u0003 \u0000R \u0000\u0003 \u00028 \u0002\u0007 \u0002\u0007 \u0000\u0003 \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0007 \u00028 \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0000\u0003 \u0000I \u00028 \u0000\u0003 \u0002N \u0002N \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0006O \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0005 \u0002@ \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0005 \u0002\u0005 \u0002V \u0002\u0007 \u0002N \u0002u \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000R \u00028 \u0002N \u0000\u0003 \u0000  \u00025 \u0002N \u0002@ \u0002N \u0000\u0003 \u0000! \u0002V \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000I \u0000x \u0000\u0003 \u0006K \u0000\u0003 \u0000I \u0002\u0012 \u0002o \u0002@ \u00025 \u0000\u0003 \u0000R \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000z \u0002\u0012 \u00028 \u0002N \u0002@ \u0002N \u00028 \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006K \u0000\u0003 \u0000\u0003 \u0002@ \u0002N \u0002\u0007 \u0002\u0012 \u0002V \u0002@ \u0000\u0003 \u0006K \u0000\u0003 \u0000x \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000\u0003 \u0002@ \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0005 \u0002\u0005 \u0002V \u0002\u0007 \u0002N \u0002u \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0000\u0003 \u0002V \u0002\u0007 \u0000\u0003 \u0000! \u0002N \u0002u \u0006K \u0000\u0003 \u0000\u0003 \u0000\\( \u0000\u0003 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000\u0003 \u0002@ \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000R \u0002V \u0002N \u0002N \u0002\u0012 \u0006J \u0000\u0003 \u0002V \u0002@ \u00028 \u0000\u0003 \u0002N \u0000\u0003 \u0002N \u00028 \u0000\u0003 \u0002\u0007 \u0006K \u0000\u0003 \u0000\u0003 \u0002N \u00028 \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000! \u0002V \u0002\u0012 \u0002V \u0002@ \u0000R \u0002V \u0002N \u0002N \u0002\u0012 \u0006J \u0000\u0003 \u0000R \u0002V \u0002N \u0002N \u0002\u0012 \u0000\u0003 \u0000\\( \u0002@ \u0002\u0012 \u0002n \u00028 \u0002u \u0000\u0003 \u0002\u0007 \u0002N \u0000\u0003 \u0000x \u0002N \u0002\u0012 \u0002@ \u0002N \u0000\u0003 \u0000! \u0002V \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u00000 \u0000\u0003 \u0002\u0005 \u0002N \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000x \u0002N \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000h \u00028 \u00028 \u0006J \u0000\u0003 \u0002\u0012 \u0002\u0007 \u0002N \u00028 \u00028 \u0000\u0003 \u0000! \u0002V \u0002\u0012 \u0002V \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0012 \u0002\u0007 \u0002N \u00028 \u00028 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000! \u0002V \u0002\u0012 \u0002V \u0002@ \u0000\u0003 \u0000n \u0002\u0007 \u00028 \u0006J \u0000\u0003 \u0000n \u0002\u0007 \u00028 \u0000\u0003 \u0002\u0007 \u0002\u0012 \u00028 \u0000\u0003 \u0000\u0004 \u0002N \u0002n \u0002N \u0002u \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000x \u0002V \u0002\u0007 \u00025 \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u00000 \u0002N \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000n \u0002\u0007 \u00028 \u0006J \u0000\u0003 \u00028 \u0002\u0007 \u0002\u0005 \u0000\u0003 \u0000\u0004 \u0002\u0005 \u0002u \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000  \u0002n \u0000\u0003 \u0002\u0007 \u0002N \u0000\u0003 \u0006K \u0000\u0003 \u0000x \u0002\u0007 \u0000\u0003 \u0000R \u0000n \u0002\u0007 \u00028 \u0006J \u0000\u0003 \u00028 \u0000\u0003 \u0002N \u0000\u0003 \u0000! \u00028 \u0002u \u0002@ \u0002N \u0000\u0003 \u0000I \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0006K \u0000\u0003 \u0002@ \u0000\u0003 \u0000\u0003 \u0000! \u0002V \u0002\u0012 \u0002V \u0002@ \u0000n \u0002\u0007 \u00028 \u0006J \u0000\u0003 \u0002@ \u0002\u0007 \u0002N \u0000\u0003 \u0000R \u0000\u0003 \u00000 \u0002\u0005 \u0002\u0007 \u0002N \u00028 \u0002u \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0006K \u0000\u0003 \u0000\u0003 \u0000R \u0002\u0012 \u00028 \u0002\u007f \u0002\u0012 \u0002\u0007 \u0000\u0003 \u00028 \u0006K \u0000\u0003 \u0002\u0012 \u00028 \u0002N \u0000\u0003 \u0000! \u0000n \u00028 \u0002N \u0002u \u0000\u0003 \u0000R \u0006J \u0000\u0003 \u0000n \u00028 \u0002N \u0002u \u0000\u0003 \u0000R \u0000\u0003 \u0000J \u0002u \u0002\u0005 \u0000\u0003 \u0000\u0004 \u0002\u0007 \u0002\u0007 \u0002t \u0006K \u0000\u0003 \u0000\u0003 \u0000I \u0002\u0012 \u00028 \u00028 \u0002@ \u0002N \u0000\u0003 \u0002N \u0006K \u0000\u0003 \u0000\u0004 \u0002\u0007 \u0002\u0007 \u0002t \u0000\u0003 \u0000J \u0002u \u0002\u0005 \u0000n \u00028 \u0002N \u0002u \u0000\u0003 \u0000R \u0006J \u0000\u0003 \u0000x \u0002\u0012 \u0002\u0012 \u0002\u0007 \u0002@ \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000R \u0000\u0003 \u0000\u0003 \u0002N \u0006P \u0000\u0003 \u0006K \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000n \u00028 \u0002N \u0002u \u0000\u0003 \u0000R \u0006J \u0000\u0003 \u0002\u0007 \u0002N \u0000\u0003 \u0002N \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000R \u0002\u0012 \u0002V \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u00000 \u0002\u007f \u0002N \u0000\u0003 \u00028 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000J \u00028 \u0002N \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006J \u0000\u0003 \u0000\u0004 \u0002\u0007 \u0000\u0003 \u0000\u0003 \u0000  \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000  \u0000\u0003 \u0000\u0004 \u0002n \u0006K \u0000\u0003 \u0000x \u0002N \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006J \u0000\u0003 \u0000  \u0002N \u0006n \u0002V \u0006n \u0000x \u0002V \u00027 \u0002N \u0000\u0003 \u0000x \u0002\u0012 \u0002@ \u00027 \u0002V \u0006K \u0000\u0003 \u0000\u0003 \u0000\\( \u00025 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0000x \u0002\u0007 \u0000\u0003 \u0000R \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006J \u0000\u0003 \u0000  \u00028 \u0002V \u0002@ \u0002u \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u0000x \u0000\\( \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0005 \u0002\u0005 \u0002V \u0002\u0007 \u0002N \u0002u \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000J \u00028 \u0002N \u0000\u0003 \u0002@ \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0000x \u00025 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006J \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u0000\u0003 \u0000R \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0006K \u0000\u0003 \u0000\u0003 \u0000J \u0002N \u0002N \u0002@ \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0000\u0003 \u0006K \u0000\u0003 \u0000\u0004 \u0002V \u0002N \u0002\u0012 \u00028 \u0002V \u0002\u0005 \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006J \u0000\u0003 \u0000J \u0002\u0012 \u0002@ \u00025 \u0000\u0003 \u0000I \u0002\u0012 \u0002o \u0002@ \u00025 \u0000\u0003 \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006K \u0000\u0003 \u0000\u0003 \u0000J \u0002N \u0002N \u0002@ \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0000\u0003 \u0006K \u0000\u0003 \u0000x \u0002\u0007 \u0000\u0003 \u0002\u0007 \u0002N \u0002V \u00028 \u0002u \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006J \u0000\u0003 \u0000J \u00028 \u0000\u0003 \u00028 \u0002@ \u0002u \u0002N \u00028 \u0002\u0007 \u0000\u0003 \u0000! \u0002V \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000J \u0002N \u0002N \u0002@ \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0000\u0003 \u0006K \u0000\u0003 \u0002\u0007 \u0002N \u0002V \u00028 \u0002u \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006J \u0000\u0003 \u0000\u0003 \u0002\u0012 \u0002o \u0002\u0007 \u0000\u0003 \u00000 \u0002\u0005 \u0002\u0007 \u0002N \u00028 \u0002u \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u00025 \u00028 \u00028 \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000n \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006J \u0000\u0003 \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0000\u0003 \u00025 \u0002\u0012 \u00028 \u0002N \u0002@ \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u0002@ \u0002\u0012 \u0002\u0005 \u0000\u0003 \u00028 \u0006K \u0000\u0003 \u0000x \u0002V \u0002N \u0006n \u0002V \u00028 \u00025 \u0002\u0012 \u0002@ \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006J \u0000\u0003 \u00025 \u0000\u0003 \u0000X \u0002\u0007 \u0002\u0007 \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0002V \u0002N \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000X \u0000R \u0000\u0003 \u0006K \u0000\u0003 \u0000x \u0002N \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0002\u0012 \u0002V \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0006J \u0000\u0003 \u0002t \u0002@ \u0000\u0003 \u0002N ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260303122042_25c824d682.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260303122042",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/18646/Notice-of-Election---Republican?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "Q6HQHZORKLREDEQR5VCPIJ3ZYJIZL6XS",
+     "length": "108003",
+     "replay_error": null,
+     "bytes": 130158,
+     "sha256": "8c3b7bd0bb387f048bc88bea5d3641cbd29359897cd3e5dc824f3326d6fbd15c",
+     "orig_last_modified": "Tue, 03 Mar 2026 12:20:42 GMT",
+     "orig_date": "Tue, 03 Mar 2026 12:20:42 GMT",
+     "orig_last_modified_local": "2026-03-03 06:20:42",
+     "upload_on_election_night": false,
+     "Title": "March 3 REPS - ED Polling Locations .pdf \\(8.5 x 14 in\\",
+     "Creator": "Canva",
+     "Producer": "Canva",
+     "CreationDate": "D:20260302171710+00'00'",
+     "ModDate": "D:20260302171709+00'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  | \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u0000\u0004 \u0002\u0007 \u00028 \u0002@ \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0000x \u0000\u0003 \u0000n \u0002\u0005 \u0002N \u0000\u0003 \u0000\\( \u0002@ \u0002N \u00028 \u0002N \u0006K \u0000\u0003 \u0000\u0003 \u00000 \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0002o \u0002u \u0006K \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000  \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u0000k \u0002u \u0000\u0003 \u0002n \u0002@ \u0000\u0003 \u0000\u0004 \u0002N \u0002N \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0005 \u00025 \u0002t \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0003 \u00028 \u0002\u0005 \u00028 \u0000\u0003 \u0000n \u0002\u0007 \u0006K \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0007 \u00028 \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u0002\u0007 \u0002\u007f \u0000\u0003 \u0000n \u0000\u0003 \u0000! \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0002@ \u00028 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0002V \u00028 \u00025 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u0002N \u0002@ \u0002u \u0000\u0003 \u0002\u0012 \u0002\u0005 \u0002\u0005 \u00028 \u0000\u0003 \u00000 \u0002\u0005 \u0002\u0007 \u0002N \u00028 \u0002u \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002n \u00028 \u0002u \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000\u0004 \u0000\u0003 \u0002\u0012 \u00028 \u0002N \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0004 \u0002V \u0002@ \u0002N \u0002\u0007 \u0006J \u0000\u0003 \u0002u \u0002\u0005 \u0002\u0012 \u0002\u0007 \u0000\u0003 \u00000 \u0006P \u0000\u0003 \u0000R \u00028 \u0002N \u0000\u0003 \u00028 \u0002\u0012 \u00028 \u0002\u0005 \u0002\u0007 \u0000\u0003 \u0000\u0004 \u00028 \u0002N \u0002@ \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000x \u0000z \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0000n \u0002\u0012 \u0002u \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006J \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0000\u0003 \u00028 \u0002N \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000x \u0002\u0007 \u0000\u0003 \u0002N \u0006K \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000J \u00028 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006J \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0000\u0003 \u0002\u0007 \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u0002u \u00025 \u00028 \u0002@ \u0002@ \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u0006K \u0000\u0003 \u0000\\( \u0000\u0003 \u0002N \u0002\u0007 \u0000\u0003 \u0000\u0004 \u00028 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006J \u0000\u0003 \u0000\u0004 \u0000! \u0000! \u0000\u0003 \u0000! \u0002u \u00025 \u00028 \u0002@ \u0002@ \u0000\u0003 \u0000! \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u0002u \u00025 \u00028 \u0002@ \u0002@ \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u0006K \u0000\u0003 \u0000  \u0000\u0003 \u0006K \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006J \u0000\u0003 \u00028 \u0002@ \u0002V \u00028 \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0002N \u0000\u0003 \u0000R \u0002@ \u0000\u0003 \u0002\u0007 \u0002\u0012 \u00028 \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0002o \u0002\u0012 \u0002\u0012 \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0006V \u0000J \u0002\u0005 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000! \u00028 \u0000\u0003 \u00028 \u0006J \u0000\u0003 \u0000n \u0000X \u0000\\( \u0000\u0003 \u0000! \u0000\u0003 \u0000z \u0002V \u0002N \u00028 \u0002N \u0002\u0012 \u0002\u0007 \u0000\u0003 \u00028 \u0002n \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u0002\u0012 \u0002V \u00028 \u0000\u0003 \u0000! \u0002\u0012 \u0002V \u0002\u0007 \u0002N \u00028 \u0002u \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000I \u0002\u0012 \u00028 \u0002\u0007 \u0006J \u0000\u0003 \u0000\u0004 \u0002\u0007 \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0005 \u0002\u0005 \u0002V \u0002\u0007 \u0002N \u0002u \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000I \u0000x \u0000\u0003 \u0006K \u0000\u0003 \u0000x \u0002\u0007 \u0000\u0003 \u0000! \u0002@ \u0002@ \u00028 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0000\u0003 \u0000\u0004 \u0002\u0007 \u0002\u0007 \u0002t \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0002u \u0006K \u0000\u0003 \u0000R \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000! \u0002\u0005 \u00028 \u00028 \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0000R \u0002@ \u0000\u0003 \u0002@ \u0000\u0003 \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u0002\u0005 \u00028 \u00028 \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0000R \u0002@ \u0000\u0003 \u00028 \u0000\u0003 \u0002@ \u0002N \u0006K \u0000\u0003 \u0000x \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000J \u0000X \u0000\\( \u0000\u0003 \u0002\u0007 \u0002\u0012 \u0002\u0012 \u0002u \u0000\u0003 \u0000  \u0006K \u0000\u0003 \u0000\u0003 \u0000n \u0002o \u0002u \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0007 \u00028 \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0000\u0003 \u0002\u0007 \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0005 \u0002@ \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0000\\( \u0000\u0003 \u0002N \u0002\u0007 \u0000\u0003 \u0000\u0004 \u00028 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0000\u0003 \u0000I \u0002\u0005 \u0000\u0003 \u0000\u0004 \u0002u \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0002o \u0002u \u0006K \u0000\u0003 \u00028 \u0002N \u0002u \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0000\u0003 \u0000! \u0002N \u0002u \u0000\u0003 \u0000R \u0006K \u0000\u0003 \u0000\u0003 \u0000x \u00028 \u0002N \u0002\u0007 \u0000\u0003 \u0000n \u0002V \u0002N \u00028 \u0000\u0003 \u0000k \u0002\u0007 \u0000\u0003 \u0000h \u00028 \u0000\u0003 \u0002N \u0006K \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0005 \u0002\u0005 \u0002V \u0002\u0007 \u0002N \u0002u \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u00000 \u0002\u0005 \u0002\u0005 \u0002V \u0002@ \u0000\u0003 \u0000! \u0002V \u00028 \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006K \u0000\u0003 \u0000\u0003 \u00000 \u0000\u0003 \u0000R \u0000\u0003 \u0006K \u0000\u0003 \u0000\u0004 \u0002N \u00028 \u0002V \u0002\u0005 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000\u0003 \u0002@ \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0005 \u0002\u0005 \u0002V \u0002\u0007 \u0002N \u0002u \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0000\u0003 \u0002V \u0002\u0007 \u0000\u0003 \u0000! \u0002N \u0002u \u0006K \u0000\u0003 \u0000\u0003 \u0000\\( \u0000\u0003 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000x \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0006J \u0000\u0003 \u0000\u0003 \u0000\\( \u0002\u0007 \u0002u \u0000\u0003 \u0002N \u0000\u0003 \u0000J \u0002\u0012 \u00028 \u0002N \u0002\u0012 \u0002o \u0002\u0007 \u0000\u0003 \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0005 \u0002\u0005 \u0002\u0012 \u0002\u0007 \u0002@ \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000J \u00028 \u0002N \u0000\u0003 \u0000R \u0000R \u0002V \u0002N \u0002N \u0002\u0012 \u0006J \u0000\u0003 \u0002V \u0002@ \u00028 \u0000\u0003 \u0002N \u0000\u0003 \u0002N \u00028 \u0000\u0003 \u0002\u0007 \u0006K \u0000\u0003 \u0000\u0003 \u0002N \u00028 \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000! \u0002V \u0002\u0012 \u0002V \u0002@ \u0000R \u0002V \u0002N \u0002N \u0002\u0012 \u0006J \u0000\u0003 \u0000! \u00028 \u0002@ \u0002N \u0000\u0003 \u0002N \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0000n \u0002V \u0002N \u00028 \u0002\u0007 \u0000\u0003 \u0000! \u0002V \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000n \u0002\u0005 \u0002\u0005 \u00028 \u0000\u0003 \u0000n \u0002\u0012 \u0002\u0012 \u00025 \u0006K \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0007 \u00028 \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000R \u0002V \u0002N \u0002N \u0002\u0012 \u0006J \u0000\u0003 \u0000z \u0002o \u0000\u0003 \u0000R \u0002\u0012 \u00025 \u0000\u0003 \u0000! \u00028 \u0002@ \u0002N \u0002\u0007 \u0000\u0003 \u0000! \u0002V \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000I \u0000x \u0000\u0003 \u0006K \u0000\u0003 \u0002\u0007 \u0002N \u0002V \u00028 \u0002u \u0000R \u0002V \u0002N \u0002N \u0002\u0012 \u0006J \u0000\u0003 \u0000R \u0002V \u0002N \u0002N \u0002\u0012 \u0000\u0003 \u0000  \u0000\u0003 \u0000! \u0002V \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000x \u0002\u0007 \u0000\u0003 \u0000R \u00025 \u00025 \u0002\u0012 \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0000\u0004 \u0002V \u0002N \u0000\u0003 \u0000! \u0002@ \u0002@ \u00028 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000h \u00028 \u00028 \u0006J \u0000\u0003 \u0000h \u00028 \u00028 \u0000\u0003 \u0000x \u0002\u0005 \u0002\u0012 \u00028 \u0000\u0003 \u00028 \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0005 \u0002\u0005 \u0002V \u0002\u0007 \u0002N \u0002u \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u0000\u0003 \u0006K \u0000\u0003 \u0000! \u0002\u0012 \u0002\u0005 \u0002\u0005 \u0002V \u0002\u0007 \u0002N \u0002u \u0000\u0003 \u0000! \u0002\u0007 \u0002N \u00028 \u0000h \u00028 \u00028 \u0006J \u0000\u0003 \u0002\u0012 \u0002\u0007 \u0002N \u00028 \u00028 \u0000\u0003 \u0000! \u0002V \u0002\u0012 \u0002V \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0012 \u0002\u0007 \u0002N \u00028 \u00028 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000! \u0002V \u0002\u0012 \u0002V \u0002@ \u0000\u0003 \u0000n \u0002\u0007 \u00028 \u0006J \u0000\u0003 \u0000I \u00028 \u0002@ \u0002N \u0000\u0003 \u0000  \u00025 \u0002N \u0002@ \u0002N \u0000\u0003 \u0000! \u0002V \u00028 \u0000\u0003 \u0000n \u0002\u0007 \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0000I \u0000x \u0000\u0003 \u0006K \u0000\u0003 \u0000J \u0002u \u0002\u0005 \u0002\u0007 \u0002@ \u0002V \u0002\u0005 \u0000n \u0002\u0007 \u00028 \u0006J \u0000\u0003 \u0000n \u0002\u0007 \u00028 \u0000\u0003 \u0002V \u0000\u0003 \u0000n \u00028 \u00028 \u0002u \u0006K \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000  \u0000\u0003 \u0006K \u0000\u0003 \u0000\u0004 \u0002\u0007 \u0002\u0007 \u0002t \u0000\u0003 \u0000  \u0002V \u0002\u0007 \u0000n \u0002\u0007 \u00028 \u0006J \u0000\u0003 \u0000\u0004 \u00028 \u0002@ \u0002N \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000J \u00028 \u0000\u0003 \u0000x \u0002\u0012 \u0000\u0003 \u0000R \u0002\u0012 \u0002\u0005 \u0006K \u0000\u0003 \u0000\u0003 \u0002@ \u0002N \u0002\u0007 \u0000\u0003 \u0000\\( \u0002V \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0000x \u0002\u0012 \u0000\u0003 \u0000R \u0002\u0012 \u0002\u0005 \u0000n \u0002\u0007 \u00028 \u0006J \u0000\u0003 \u0000n \u0002\u0007 \u00028 \u0000\u0003 \u0002\u0007 \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0000z \u0000\u0003 \u0000n \u0002\u0007 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000\\( \u0000\u0003 \u0002N \u0002\u0007 \u0000\u0003 \u0000\u0004 \u00028 \u0000n \u0002\u0007 \u00028 \u0006J \u0000\u0003 \u0000\u0004 \u0000! \u0000! \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000J \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000J \u00028 \u0000\u0003 \u0000! \u0002\u0005 \u00025 \u0002V \u0002@ \u0000\u0003 \u0000\\( \u00028 \u0006K \u0000\u0003 \u0000x \u0002V \u0002N \u0006n \u0002V \u00028 \u00025 \u0002\u0012 \u0002@ \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000\u0003 \u0000n \u00028 \u0002N \u0002u \u0000\u0003 \u0000R \u0006J \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0000! \u0002\u0012 \u0002o \u0002\u0012 \u0002u \u0000\u0003 \u0000! \u0002V \u00028 \u0006K \u0000\u0003 \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0006K \u0000\u0003 \u0000X \u0002\u0007 \u0002\u0007 \u00028 \u0000\u0003 \u0000I \u0002\u0012 \u0002u \u00028 \u0000n \u00028 \u0002N \u0002u \u0000\u0003 \u0000R \u0006J \u0000\u0003 \u0000n \u0002\u0012 \u0002\u0007 \u0000\u0003 \u0002N \u00028 \u0000\u0003 \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u0002\u0012 \u0002V \u0002\u0007 \u0002N \u0002u \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0006K \u0000\u0003 \u0000x \u0002\u0007 \u0000\u0003 \u0000  \u00028 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000n \u00028 \u0002N \u0002u \u0000\u0003 \u0000R \u0006J \u0000\u0003 \u0002\u0007 \u0002N \u0000\u0003 \u0002N \u0000\u0003 \u0002\u0007 \u0000\u0003 \u0000R \u0002\u0012 \u0002V \u0002@ \u0006K \u0000\u0003 \u0000\u0003 \u00000 \u0002\u007f \u0002N \u0000\u0003 \u00028 \u0000\u0003 \u0000  \u0002n \u0006K \u0000\u0003 \u0000J \u00028 \u0002N \u0000\u0003 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000n \u00028 \u0002N \u0002u \u0000\u0003 \u0000R \u0006J \u0000\u0003 \u0002\u0007 \u0002N \u0000\u0003 \u0000! \u0002V \u00028 \u0000\u0003 \u0000n \u00028 \u0002N \u0002u \u0000\u0003 \u0000R \u0006K \u0000\u0003 \u0000\u0003 \u0000! \u0002\u0012 \u0002V \u0002\u0007 \u0002N \u0002u \u0000\u0003 \u0002\u0012 \u0000\u0003 \u0006K \u0000\u0003 \u00000 \u0002\u0005 \u0002\u0007 \u0002N \u00028 \u0002u \u0000\u0003 \u0000! \u0002@ \u0002@ \u00028 \u0002\u0012 \u0002\u0012 \u0002\u0005 \u0000n \u00028 \u0002N \u0002u \u0000\u0003 \u0000R \u0006J \u0000\u0003 \u0002\u0007 \u0002\u0012 \u0002",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260303122042_299ff7e147.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260303162858",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/2216/Texas-Voter-Registration-Application-PDF",
+     "mimetype": "application/pdf",
+     "digest": "KJ7R6AI7TOGSOBGRTQ7Z4EWGHSAT67M6",
+     "length": "425234",
+     "replay_error": null,
+     "bytes": 513231,
+     "sha256": "0f35ecde1ccc23606eaaddcd25da4cc7a0f8f79b779d0833c6fac270afbc8a4d",
+     "orig_last_modified": "Tue, 03 Mar 2026 16:28:58 GMT",
+     "orig_date": "Tue, 03 Mar 2026 16:28:58 GMT",
+     "orig_last_modified_local": "2026-03-03 10:28:58",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  | \\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\\r\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\\r\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\\r\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\\r\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\\r\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\\r\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\\r\\037 \\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037\\037       VR17.2025E.I3  |  |  |                            2 6 3 5   8 9 1 7 4 |                                     !   !   b 1 2 3 4 | 5 TEXAS \\225     \\225   |  /    |  |  /  \\225   \\225   OR OR | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ------------------------------------------------------------------------\\\r-----------------------------------------------------------------------   \\225 \\225   \\225 30 days   \\225 \\225 \\225 \\225 \\225 \\225     1 2 Texas Secretary  of  State  Elections Division TEXAS     ------------------------------------------------------------------------\\\r----------------------------------------------------------------------- |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260303162858_1f0a1c6fdc.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260309120148",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/18882/Preliminary-Election-Reconciliation-Form--REP-Signed-PDF",
+     "mimetype": "application/pdf",
+     "digest": "XPY5O6XX672LEA7RSMYMVF5ENVLJWAA3",
+     "length": "75298",
+     "replay_error": null,
+     "bytes": 86368,
+     "sha256": "ddeba9c32f757917f7ebb5f9f3c82184892e02e21d87b0bb3366db20e7f615bd",
+     "orig_last_modified": "Mon, 09 Mar 2026 12:01:48 GMT",
+     "orig_date": "Mon, 09 Mar 2026 12:01:48 GMT",
+     "orig_last_modified_local": "2026-03-09 06:01:48",
+     "upload_on_election_night": false,
+     "Title": "\u00fe\u00ff\u0000S\u0000K\u0000M\u0000_\u0000C\u00004\u00005\u00000\u0000i\u00002\u00006\u00000\u00003\u00000\u00004\u00001\u00003\u00002\u00000\u00000",
+     "Creator": "KM_C450i",
+     "Producer": "KONICA MINOLTA bizhub C450i",
+     "CreationDate": "D:20260304132039-06'00'",
+     "ModDate": "D:20260304132039-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260309120148_e3144fb78d.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260309162708",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/18870/Preliminary-Election-Reconciliation-Form--DEM-Signed-PDF",
+     "mimetype": "application/pdf",
+     "digest": "EQXGMSOQFJ375IQVJHYVYBV463HAUYC2",
+     "length": "66236",
+     "replay_error": null,
+     "bytes": 73941,
+     "sha256": "f685692c8fcbed3b37ce56140defe2fcf2e7644f3e105d8382cd93c995c5a11f",
+     "orig_last_modified": "Mon, 09 Mar 2026 16:27:08 GMT",
+     "orig_date": "Mon, 09 Mar 2026 16:27:08 GMT",
+     "orig_last_modified_local": "2026-03-09 10:27:08",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260304053546-06'00'",
+     "Creator": "KM_C450i",
+     "ModDate": "D:20260304045611-06'00'",
+     "Producer": "KONICA MINOLTA bizhub C450i",
+     "Title": "SKM_C450i26030405350",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260309162708_2ec17edd82.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260310004447",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/18165/Ordinance_25-069-00_Election_Order_-_English_-_11062025",
+     "mimetype": "application/pdf",
+     "digest": "FZW4YTUFGACJXVMD67F74E55OYDTEZW4",
+     "length": "1872306",
+     "replay_error": null,
+     "bytes": 2078293,
+     "sha256": "5e6e35f35a0e73e7864d10a68bcd493df95a85956dd298aefe3cf3244b217153",
+     "orig_last_modified": "Tue, 10 Mar 2026 00:44:48 GMT",
+     "orig_date": "Tue, 10 Mar 2026 00:44:48 GMT",
+     "orig_last_modified_local": "2026-03-09 18:44:48",
+     "upload_on_election_night": false,
+     "Creator": "Canon ",
+     "CreationDate": "D:20251107091211-06'00'",
+     "Producer": " ",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260310004447_2f824702af.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314170153",
+     "original": "https://www.wilcotx.gov/DocumentCenter/View/2594/Voter-Registration-and-Absentee-Ballot-Request-PDF?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "3FB3SEWM3DTM5BO3IPDDW3XRMAVCKJLX",
+     "length": "546391",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fwilliamsontxenr&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wilcotx.gov%2F292%2F&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

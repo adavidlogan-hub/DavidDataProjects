@@ -1,0 +1,386 @@
+{
+ "county": "Johnson",
+ "spec": {
+  "file_prefixes": [
+   "johnsoncountytx.org"
+  ],
+  "page_prefixes": [
+   "johnsoncountytx.org/departments/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 03:50:43",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org%2Fdepartments%2F&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org%2Fdepartments%2F&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    }
+   ],
+   "versions_found": 3,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303163919",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office/offices-and-terms-information",
+     "mimetype": "text/html",
+     "digest": "YFZQOIPJZVWDMU6XEGIV7EY6LWNJRDRF",
+     "length": "25639"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303210504",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office",
+     "mimetype": "text/html",
+     "digest": "EZICPCCG6HPFPVQUN2YYZ45TCVCJEHYK",
+     "length": "31063"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303233918",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office",
+     "mimetype": "text/html",
+     "digest": "VUFKQQJXCN5DIEIEHT4LX6YHL7H5YVE3",
+     "length": "31612"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303163919",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office/offices-and-terms-information",
+     "mimetype": "text/html",
+     "digest": "YFZQOIPJZVWDMU6XEGIV7EY6LWNJRDRF",
+     "length": "25639",
+     "replay_error": null,
+     "bytes": 148880,
+     "sha256": "62ef93a4c7a65f1d4662b3d7c459b553145184a28ee95f3f57e4dc52b8454282",
+     "orig_last_modified": "Tue, 03 Mar 2026 16:39:19 GMT",
+     "orig_date": "Tue, 03 Mar 2026 16:39:19 GMT",
+     "orig_last_modified_local": "2026-03-03 10:39:19",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Offices and Terms Information | Johnson County, TX Please enable JavaScript in your browser for a better user experience. Home Menu Job Openings Public Information Employee Time Employee E-Mail Search Go Home Government History of Johnson County County Judge TABC Permit Applications Public Information Guidelines and Criteria for Johnson County Tax Abatement Policy Commissioners Commissioner Precinct 1 Commissioner Precinct 2 Commissioner Precinct 3 Commissioner Precinct 4 County Attorney Press Charges Hot Checks Protective Orders ID Theft Online E-Discovery Download Forms County Clerk Campaign Finance (C/OH) Reports Commissioners Court Conflicts of Interest Court Section Civil Family Law Misdemeanors &amp; Traffic Appeals Probate &amp; Guardianship Registry of the Court &amp; Custodial Accounts Safekeeping of Wills OPR &amp; Real Property Recording Assumed Names/DBAs Foreclosure Sales Livestock Marks &amp; Brands Military Discharge (DD-214) Plats Real Property Records Passport Acceptance Office Applications for Children Under Age 16 Passport Renewals TABC Applications Search Online Records Vital Statistics Birth Records Death Records Marriage License Applications &amp; Marriage Records County Courts County Court at Law 1 County Court at Law 2 County Treasurer Check Registers Quarterly Investment Report Treasurer Reports Utility Reports Unclaimed Funds District Attorney Victim Assistance District Clerk Fee Information Form Library Standardized Protective Order Forms Jury Information Permanent Exemption Forms Texas Uniform Jury Handbook Local Rules Monthy Appointment &amp; Fees Report District Courts 18th District Court 249th District Court 413th District Court Law Library Justice of the Peace Justice of the Peace Precinct 1 Justice of the Peace Precinct 2 Justice of the Peace Precinct 3 Justice of the Peace Precinct 4 Tax Assessor Departments Adult Probation Contact Us FAQ Locations Online Payments Programs Victim Services Auditor Auditor Reports Debt Transparency Financial Transparency Development Services Permit Applications and Information Culvert Installation Floodplain Management Land Development and Platting Permit Fees Storm Water Major Thoroughfare Plan Transportation Bond Economic Development Elections Office Early Voting and Election Day Locations Current Election Information Current Election Sample Ballots Current Election Results Current Voter Daily Turnout Current Reconciliation Forms Current Notice of Election Public Notice Previous Election Information Previous Election Results Previous Election Daily Turnout Previous Reconciliation Forms Previous Notice of Election Elections Precinct by Precinct Results Hand Count Audit Results Register to Vote Vote by Mail Information Voting as a Student Voters with Disabilities Military/Overseas Citizens Vote by Mail Voter Resources What is My Precinct and District? Political Parties/Candidate Filing Resources Offices and Terms Information Campaign Finance Reports Campaign Signs Elections Commis",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260303163919_5e0ef4ead7.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303210504",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office",
+     "mimetype": "text/html",
+     "digest": "EZICPCCG6HPFPVQUN2YYZ45TCVCJEHYK",
+     "length": "31063",
+     "replay_error": null,
+     "bytes": 153199,
+     "sha256": "afa39c311d5bf854a848844af5e63d6548011c02ff5c3e2e7d421cbacca449d6",
+     "orig_last_modified": "Tue, 03 Mar 2026 20:00:51 GMT",
+     "orig_date": "Tue, 03 Mar 2026 21:05:04 GMT",
+     "orig_last_modified_local": "2026-03-03 14:00:51",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Elections Office | Johnson County, TX Please enable JavaScript in your browser for a better user experience. Home Menu Job Openings Public Information Employee Time Employee E-Mail Search Go Home Government History of Johnson County County Judge TABC Permit Applications Public Information Guidelines and Criteria for Johnson County Tax Abatement Policy Commissioners Commissioner Precinct 1 Commissioner Precinct 2 Commissioner Precinct 3 Commissioner Precinct 4 County Attorney Press Charges Hot Checks Protective Orders ID Theft Online E-Discovery Download Forms County Clerk Campaign Finance (C/OH) Reports Commissioners Court Conflicts of Interest Court Section Civil Family Law Misdemeanors &amp; Traffic Appeals Probate &amp; Guardianship Registry of the Court &amp; Custodial Accounts Safekeeping of Wills OPR &amp; Real Property Recording Assumed Names/DBAs Foreclosure Sales Livestock Marks &amp; Brands Military Discharge (DD-214) Plats Real Property Records Passport Acceptance Office Applications for Children Under Age 16 Passport Renewals TABC Applications Search Online Records Vital Statistics Birth Records Death Records Marriage License Applications &amp; Marriage Records County Courts County Court at Law 1 County Court at Law 2 County Treasurer Check Registers Quarterly Investment Report Treasurer Reports Utility Reports Unclaimed Funds District Attorney Victim Assistance District Clerk Fee Information Form Library Standardized Protective Order Forms Jury Information Permanent Exemption Forms Texas Uniform Jury Handbook Local Rules Monthy Appointment &amp; Fees Report District Courts 18th District Court 249th District Court 413th District Court Law Library Justice of the Peace Justice of the Peace Precinct 1 Justice of the Peace Precinct 2 Justice of the Peace Precinct 3 Justice of the Peace Precinct 4 Tax Assessor Departments Adult Probation Contact Us FAQ Locations Online Payments Programs Victim Services Auditor Auditor Reports Debt Transparency Financial Transparency Development Services Permit Applications and Information Culvert Installation Floodplain Management Land Development and Platting Permit Fees Storm Water Major Thoroughfare Plan Transportation Bond Economic Development Elections Office Early Voting and Election Day Locations Current Election Information Current Election Sample Ballots Current Election Results Current Voter Daily Turnout Current Reconciliation Forms Current Notice of Election Public Notice Previous Election Information Previous Election Results Previous Election Daily Turnout Previous Reconciliation Forms Previous Notice of Election Elections Precinct by Precinct Results Hand Count Audit Results Register to Vote Vote by Mail Information Voting as a Student Voters with Disabilities Military/Overseas Citizens Vote by Mail Voter Resources What is My Precinct and District? Political Parties/Candidate Filing Resources Offices and Terms Information Campaign Finance Reports Campaign Signs Elections Commission Agendas/",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260303210504_2030d830db.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303233918",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office",
+     "mimetype": "text/html",
+     "digest": "VUFKQQJXCN5DIEIEHT4LX6YHL7H5YVE3",
+     "length": "31612",
+     "replay_error": null,
+     "bytes": 30194,
+     "sha256": "4a3e29df97c67b8ee2f92cbda3dbdbc9b8dc066293492497ebbe72e145ffe3b6",
+     "orig_last_modified": "Tue, 03 Mar 2026 21:39:05 GMT",
+     "orig_date": "Tue, 03 Mar 2026 23:39:18 GMT",
+     "orig_last_modified_local": "2026-03-03 15:39:05",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd}\ufffdW\u06f8\ufffd\ufffd\ufffds\ufffd:\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffdY!@\ufffdB\ufffd\u0004\ufffd\ufffd3\ufffd\ufffd\ufffdJbp\ufffd\ufffdv\ufffdt\ufffd\ufffd\ufffd\ufffd-\ufffd\u000f\u0672cZ\ufffd\u03b7\ufffd\u0359SlyoI{K\ufffd\u000fiK\ufffd\ufffd\ufffd^>\ufffd;k]~ \ufffd+W\ufffd\u0007\ufffdF\ufffd\ufffdDz?\b\ufffd\u001a\ufffd \u0004\ufffd\u001b\ufffdN\u7a55 \u0019xB \u00df\ufffd%\ufffdU\ufffd\ufffd]\ufffdl{[\u053f\u001a\ufffdC@#\ufffd\u0691\ufffd[&%G]O \ufffdt\u0006\ufffdl\u00ecM\ufffd\u0018 \ufffd\ufffd\ufffd=\u001a@\u001b\u08ff;\ufffd\ufffd{o \ufffd\ufffd \ufffd\ufffd\ufffdB\u0566N/\ufffd \ufffd\ufffd[\ufffd\ufffdW*\ufffd?\ufffd\ufffd\ufffd\u001a\ufffd\ufffd\ufffd'\ufffd Tu\u04dc\ufffd\ufffd\u00e1M\ufffd\ufffd\ufffd##\ufffd,\ufffd(O\u01b7r\ufffd\u07f2\u0249\ufffd \u007f\ufffdvf\ufffd\ufffd\ufffd;@\ufffdv\ufffd\u03a2\ufffdC\ufffd \u0012 \ufffd\ufffd2\ufffd\ufffd\ufffdI\ufffd\ufffdj\ufffd\u0005{\ufffd\ufffd\ufffdm9\ufffd\ufffd\ufffd\ufffd\ufffdv\ufffd\ufffdG\ufffd\ufffd\ufffd\u000eZ =|\ufffd\ufffd\ufffd\ufffdMwG\ufffdi\ufffd=\ufffd[=\ufffd\u000f\u072b\u001a\ufffd\ufffdq\ufffd?\ufffd\ufffd\u001b]\ufffd1o\ufffd\ufffd\u0007\ufffd\u03e3\ufffd\ufffd\ub0d5\ufffd~{uo\ufffd\ufffd\ufffd}{pT\ufffd|8\\?\ufffdxq\ufffdn\ufffd^! \ufffd\ufffd+>f\ufffd\ufffd) *X \ufffd\u0016\ufffd{\u0003C\ufffd&\ufffd\ufffd\ufffdNu\u02d9X \ufffd\u001aw\u0313\ufffd`hv\ufffdnW{\ufffd\u0007\ufffd\ufffd\u0017_\ufffdt>\ufffd\ufffd\u0017-\ufffd\ufffd\u07f8\ufffd[\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffd\ufffd_\ufffd\u0012M\ufffd\ufffd~\ufffdi\u000e\ufffd\ufffd \ufffd* x,\ufffd\ufffd\u007f\b \ufffd_\u007f\u007f\ufffd:8 \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdz\u0010 u\ufffd\ufffdV\ufffd\\\ufffd^\ufffd\ubb3e\ufffdqO?\ufffd=\u007ft\ufffd(\ufffd \ufffdi\ufffd\u06d5!f\ufffd{G\ufffd\ufffdHU\ufffdsr\ufffd\ufffd\ufffd>\u05ae[ \ufffd\ufffd\ufffd\ufffdE\ufffdzt` n\ufffdo\ufffd\ufffd\ufffdz\ufffd\ufffd~\ufffd\ufffd\u0474\ufffd k\ufffd\ufffdU\u0010\ufffd\ufffd\ufffd \ufffdC\ufffd\ufffd\ufffd\ufffdh\ufffd\ufffdm 9g\u000e\ufffd\u0788J\u072e\ufffd\ufffdG\ufffd\ufffdx\ufffd\ufffdQ\ufffd~\ufffd\ufffd=om }\ufffdw\u001a\ufffd\ufffd\ufffd\ufffdY\ufffd\ufffd \u007f\ufffd\ufffd\u0397v V\u07a2 \ufffd\ufffdST\ufffd\u0018\u0019\ufffd\ufffd#} K\ufffd6\ufffd\ufffd\ufffd\ufffdW\u0017'( \u0277\u0017(\ufffd#\ufffd\u0010W\ufffd\ufffd;\ufffd\u0007\u0533!W\u0019\ufffd\ufffd\ufffd;\ufffd F\ufffd\ufffd\u0004)b\u0019:&\ufffd\ufffdA\u007fk\ufffd6\ufffdh\ufffd\ufffd3\ufffd\ufffd{\ufffd &\ufffd\ufffdn7\ufffd\ufffd\u06dd[\ufffd\ufffd\u000e\ufffd\ufffdM},\ufffd\ufffd\u001aPw\u0014luu\u06e7\ufffd\ufffd\ufffdx\ufffdZ\ufffd(\ufffd\ufffd\ufffd\ufffd\ufffdb\u0000i\ufffdn\u04e6^\ufffdK\ufffd\ufffd\ufffd\ufffd \ufffd]]\u0004\ufffd\u0000\ufffdZ\ufffd\ufffd\ufffdH\ufffd0P\ufffd\ufffd\ufffd\u0015ps\ufffd\u0003\ufffd\u001b\u0007\ufffdmRO\u0428\ufffd=s\ufffd\u0006\ufffdP\ufffd\ufffd\ufffd \u065a\ufffdj\u0539E\ufffd[\u0001=\ufffd\u06ea/\ufffd\ufffd\ufffd\ufffdz \u0014\ufffd\u001bk\ufffd\ufffd\ufffd\u000f\ufffd\u0001=\ufffd{T\ufffdO@\u001ax=\ufffd\u0018\ufffd7n\u0000\ufffd\u0005\ufffd\u05e3f\ufffd\u0015X oGN\ufffd\ufffd\ufffd\ufffd\ufffdKwxi \ufffd\ufffd\ufffd\u001bA\ufffd1\ufffd \ufffdS\ufffdv \ufffd\ufffdc\ufffd\ufffdZ\ufffd\ufffd\u0013\u0014\ufffd\ufffd\u040dAN\ufffdZ}\ufffd\ufffd\ufffdfa\ufffd\ufffdn\u0017I;2\u0001\ufffd\u0005\ufffd\ufffd\ufffd6i\u0007 \ufffdt\ufffd$\b\u00058{\ufffd\u000fm6\u0016U\ufffd\ufffd\ufffdliKk[K`$\ufffd\u0018\bH\ufffd\ufffd\ufffd9i\ufffdn\ufffd \ufffd\u0016f#\ufffdrs\ufffd\u01f6\ufffd\ufffd\u0007)\ufffd09\u0004\u06c5v\ufffd \u0010\\`\ufffd\u0003 \ufffd\u0002\ufffd\u0007\u07da\ufffd\ufffd\ufffd\u000f\ufffd\ufffd^\ufffd@\u000fT\ufffd\ufffd\ufffd\u0005Ey\b\ufffd\ufffd\ufffdT\ufffd\ufffd\u007f\ufffd \ufffdc!\u0004tS\ufffd\ufffdXZZ\ufffd\ufffd m9\ufffd\ufffd\ufffd`\ufffd\u0681\ufffd\ufffd\ufffd3\ufffd.= \ufffd\"\ufffd\ufffd(\ufffdo\ufffd0g]\u0000H\ufffd\u06c8\ufffdOal\ufffd+[+\ufffd\ufffd\ufffd\ufffd\ufffdV@$U\u00188\ufffd{\ufffd\ufffdK\ufffd\ufffd#\ufffd\ufffdz\ufffd&\ufffd\u0013\ufffd\ufffd\u0001\ufffdMU \ufffdjlx\ufffd\u03db_\ufffd\ufffdx\u04b5l\ufffd&\"\ufffdk9\ufffd\ufffd\ufffdA\ufffd\ufffde\\cO.#\ufffd\u000f\ufffdG\ufffd\u04a76\u0016h9C\ufffd\ud58e\ufffd\u0004p\ufffd\ufffd\ufffd\u0003\ufffd\ufffd?\ufffd\u0010\bt \u4420^4\ufffd\ufffd\ufffd\ufffd\u0407h\ufffd`\ufffdD\ufffd$\u0001\ufffd\ufffd\ufffd\ufffd.+J`\ufffd! \ufffdK\ufffd \ufffd2p\ufffdg^\ud9a3\udfcbgV+\ufffdt\u000f\ufffd\ufffd\ufffd^\u0004\ufffd \ufffd|\u00e7\ufffd\ufffdn\ufffd \ufffd\u0018~\ufffd:\ufffd\ufffdQ\ufffdv\ufffd\ufffdc\ufffds\ufffd \ufffd:d\ufffd\u007f\ufffd!`\ufffd$\ufffd\ufffd f\ufffd\ufffd\u0010L\ufffdq\ufffdA\u0018\u000e\ufffd\u0001&\ufffdL\ufffd\ufffd\u0019R=`\u000f\ufffdk\ufffd_\ufffdi\ufffd\u0007^C\ufffd \ufffd\u0011\ufffdF\u0003\u000e\u0002\ufffd\ufffdzx\ufffd \ufffd \ufffd\ufffd\u0015\ufffd'\ufffd \u0016\u00f3\ufffd\ufffdP+\ufffdKa\ufffd\ufffd62\u0003\ufffd{\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd(\ufffd)a\ufffd\ufffd_\ufffd \ufffd\u000fvT|\u0002\u0006A\ufffd\u0002 \ufffd\ufffd:\ufffd X \ufffd\u0015 [\u0016\ufffd\u0016\ufffd6\ufffd\u0018\ufffdJ\ufffd\ufffd\u0011]d\ufffd\ufffd\ufffd\ufffd\ufffdW\ufffd\ufffdO{h\ufffd \ufffd\ufffdh\u001a\ufffdp\ufffd[\ufffdF2\ufffd\u0014\u0004\ufffd\u0005=\ufffd\ufffd>\u0013\ufffd\u007f\ufffdr`\u0671\ufffd\ufffd2\ufffd\ufffd\ufffdT\ufffd7\ufffd\ufffd\u007f\ufffd\ufffd\ufffdO\ufffd\ufffd`o\ufffd\ufffd\ufffd?\ufffd\ufffd\u0016Y*U%\u000f \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u052c7\ufffd\ufffd\ufffd{\ufffd\ufffd\ufffd\ufffd+\ufffd+\ufffd+k\ufffd\u001b\ufffd\ufffdk\ufffd\ufffdT\u0016\u0013 \ufffd\ufffd\ufffd\ufffd;\ufffd\ufffd\u0000n\ufffd\uc274 \ufffd`se\ufffd\ufffd\\Z\ufffd\ufffd{+{KK\ufffdf T\u0002\u02bfcu\ufffd\u0018\u000fA\ufffdl\ufffdw\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd@d\ufffd\ufffd\ufffd\ufffdZo\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdR\ufffd^\ufffd\u0007\ufffdw\ufffd\ufffd\ufffd~=\ufffd\ufffd\ufffd\u0001\ufffd)\ufffdK\ufffdK+\ufffd\u00c3\ufffd\u0017\"\ufffdw5\ufffdp\u0018\u0014\"\ufffd\ufffd \ufffd/}Z6\ufffd\u0003\ufffd\ufffd\ufffd\ufffd?\u0018_\ufffd\u007f\ufffdv7\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdw\u0007\ufffd\ufffd\ufffdF\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd:k|z{pw\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdc~\u0019~\ufffd\ufffd\ufffd\ufffda\ufffd\ufffd\ufffd\ufffd>n \ufffdu\ufffd?\ufffdY\ufffd\ufffd7\u01b0\ufffdo\ufffdg\ufffd\ufffd \u000e\ufffd\u0003\ufffd\ufffdj vW?\ufffd\ufffdM\ufffd\ufffd\ufffdhW\ufffd\ufffdI\ufffd\ufffd\ufffd\ufffd\ufffd(\u0018 \ufffd^\ufffd>\ufffd\ufffdn\ufffd\ufffd\ufffdO\ufffd\ufffd \ufffd,\u0007w\ufffd\u000fG\ufffd;\ufffd\ufffd\ufffd}\ufffd\ufffd9] |\u0018\ufffd\ufffd~X\ufffd\ufffd\ufffd}\ufffd}2ZWU\ufffd\ufffd\ufffdMz\ufffdn\ufffd\ufffd\ufffd\u02ad9\ufffd\ufffd\ufffdt\ufffd\ufffd\ufffd\ufffd\ufffd\u0546\ufffd\ufffdX\ufffd\u000e\ufffdn\ufffd\ufffd\ufffd\ufffdw\ufffd\ufffd~\ufffdE\ufffd\ufffd\ufffd;\ufffd\ufffd\u07e2c\u0018\u0003\ufffd\u0005\u001a\ufffd\ufffdvZo\ufffd\ufffdo/\u0012\ufffdB\u0006K\\\ufffd\ufffd\ufffdc3T1\u0544\ufffd a>\u0015}h\ufffd\ufffdM8\ufffd\u0012\u0004C\u007f\ufffdV\u0003\ufffdy \ufffd\ufffd\ufffd\u0183CQ\ufffd\u000ej\ufffdo/\ufffd-\ufffd\ufffd\ufffdxA\ufffd\u0017\ufffd~ \ufffd/ \ufffd4\u0153c\ufffdd\ufffd\u0007\u0018\ufffd`\ufffd\ufffdz\ufffd\b\ufffd\ufffd\ufffd\u0002\ufffd\ufffd\ufffd\ufffdI\ufffd\ufffd\u0000\ufffdS\ufffdd\ufffd\u04e5\u02d5\ufffd&\ufffd\ufffd\ufffdL\ufffdu\ufffdZ\ufffd\ufffdIM\u0012\ufffd)[O\ufffd\u0007G\ufffd\ufffd\u0004 \u04f4?\ufffd.; G\ufffdd\udb7c\udd30\ufffd\ufffd\ufffdw\u0006\ufffd\ufffd\udb4e\udd7d\ufffd\ufffd\u0007\ufffd\u02f7\ufffd \ufffd\ufffd\ufffdF\u007f\ufffd\ufffd\ufffd\ufffd\ufffdovv\ufffd\ufffd\u0017\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\u073f0Wz\u001b\u05d7 \ufffdK{\ufffd\ufffd|\ufffd'\ufffd/\ufffd\ufffd\ufffd\ufffd\ufffdC3\ufffd:'\u0196\ufffdi\u0010z\ufffduq\ufffd1\ufffd \ufffd\u001b\ufffd\u000f\ufffd\ufffd+\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdK\ufffd\ufffd\ufffd*\ufffd/B\ufffd\ufffd\ufffd\u0489>\u0006\ufffd\u0011\ufffd~\ufffdI &\ufffd\ufffd \ufffd\ufffd/\u0448\ufffdB\ufffd\u0012j\u0004T \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdQ\u001b\u0002\u0002\ufffd\ufffd\ufffd\ufffd\ufffd\u0016\ufffd\u0003]\u001a\ufffdT\ufffd\u0017\ufffd\ufffdE\u07f8r\ufffd\ufffds\ufffd\ufffd\ufffdI*J\ufffd\ufffd[\ufffd\u0006\ufffd\ufffdo\ufffd9\ufffd\u001a\ufffd\ufffd\ufffd\ufffdK\ufffd\ufffd^\ufffd\ufffd\u0019\ufffd\u000e\ufffdJ9\ufffd\ufffdf\ufffd\ufffdghasG\ufffd\u0019q,F\u0012\ufffd6\ufffdQU\u0002Bu\u061c\ufffd\ufffd\ufffd\ufffd\ufffd\b+7\ufffd#\ufffd\ufffd\u066e\ufffd\ufffd-\u0016\ufffd\ufffd\u0227T(S\ufffdVR\ufffd\u0013 a\ufffds\ufffd\ufffd\ua944C&*\ufffdP\ufffd\ufffdV\ud280 \ufffd\ufffd|\u02bb\ufffdRD*\ufffd\ufffd+\ufffd\ufffdb\u0016\ufffd\ufffd\u001b\ufffd\ufffdW>.F\ufffd,\u0007\ufffd/\ufffd\ufffd\ufffdB\ufffd\u0015(\u0001Z\ufffd\u0012\ufffdP\ufffd\ufffd\ufffd\ufffd\u0239\ufffd\ufffd\u0015\ufffdh\u02a2T\ufffdY\ufffdJ\u0006\ufffd\ufffd\u0012\ufffd U\ufffd\ufffd5F\u000f,u\u0001\ufffd\ufffd0\ufffd \ufffd \ufffd\ufffdG\ufffd0\u0437+\ufffd\u07ad\ufffdh\ufffd\ufffd\ufffdO\ufffd\ufffd\ufffdF\ufffd\ufffd\ufffd}8\ufffd\ufffdfM;^\ufffd[\u07eb,\ufffdQx\u007fG\ufffd\u0003d\ufffd\u07d0\ufffd3\ufffd\ufffdn\ufffd\u0640\ufffdKXxA\ufffd\ufffd\ufffd>\ufffd\u0006\ufffd\ufffd\ufffdW\ufffd4T \ufffdJUG\ufffd \ufffdLk mn\u0015l \ufffd7\ufffd\ufffde\ufffd\ufffdJ\ufffd \ufffd~\ufffd\u0016\ufffd#\ufffd\ufffd\u00f4\u0017\ufffd\ufffd\u0016\ufffdE}\ufffdZ4\ufffd\ufffd,\ufffd\ufffd\ufffd\ufffd\ufffdW}\u01c2\ufffd\ufffdS\ufffdl\ufffd?*V\u0017 \ufffd\ufffdy%lZ\u042d\ufffd\ufffd\ufffd]\u0012}\ufffd\ufffd\"J\ufffd\ufffd\ufffdl\ufffd \ufffdib\ufffd\ufffdN1\ufffdG`o\ufffd\ufffd\ufffd\u001b\ufffd\ufffdLJ\ufffd6_G\ufffd$Z\ufffd\u0018\ufffdR\ufffd\ufffd\ufffd\ufffd\ufffd\u00180E\ufffd]\ufffd\ufffd>^3\u0002\ufffd\ufffd\ufffdy}0n8}\u0017 \ufffd\ufffdm\ufffd\ufffdNW_]Z\ufffdx\ufffd\ufffd\ufffd\u07edh~U\ufffd\ufffdA\ufffd\ufffdM\ufffd\ufffdP\ufffdU\ufffd\ufffd\ufffd\ufffdsnl\ufffda\ufffd\ufffd]\ufffdo\ufffdw`\ufffd,c\ufffd \u007f l _\ufffdO\ufffd\ufffd\u0313\ufffd\ufffd \ufffd\ufffd\ufffdK\ufffd\ufffd\u047b\ufffd\u0011E[\u0015Mp\ufffd\ufffd\ufffdN\ufffd\u0013\ufffd!\ufffd\ufffd\ufffd\u054dz}uC\ufffd\ufffd\"+\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffd>~i\ufffdV\u07f5\ufffd\ufffd\u05895x\ufffd\ufffd\ufffd\ufffd\ufffdc\ufffd8\ufffd\ufffdn\u073fz\ufffd\ufffd\ufffdt\ufffdpO__\ufffd\ufffd\ufffd\u0006_\ufffd ]\ufffd-C\ufffd\ufffdZ\ufffd\ufffddu\ufffd\ufffd\ufffd\ufffd^\ufffd\ufffd\u000fFt)h||;\ufffd\ufffd\ufffd\ufffd\ufffd\u048dq\ufffd\ufffd\ufffd\ufffd\ufffdk\ufffdo\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?Y\ufffd-J{\ufffd\ufffd}\ufffd9\ufffd 7\ufffd4\ufffd\ufffd^\ufffd -\ufffdWO\ufffd\ufffdW\u07bb\ufffd{}\ufffdn\ufffds\ufffd\ufffd\u000f\ufffd\u07ad\ufffd\ufffd\u05ef\ufffd \ufffdK\ufffd\ufffd\ufffd\ufffd9\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd o\ufffd6\ufffdj\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd^\ufffd\u001b\ufffd[\ufffd\ufffd\ufffd\u0191\ufffdj\ufffd\ufffdM\ufffda\ufffd\u0003wod |\ufffd8s\ufffd\ufffd\ufffd{\ufffd\ufffd9\ufffd\ufffdV\ufffdu[\ufffd\u001a\ufffd \ufffd\\m\ufffd:\ufffd\ufffd\u000f\u000f\ufffdn\u007f\ufffd\ufffd \ufffdn,57\u07de\ufffd\ufffdn\ufffd^\ufffdp\ufffd\ufffd\u053c:\u007f\ufffd\ufffd\ufffd\ufffd\ufffd\u0002f\u001a\ufffd\ufffd\ufffd[\ufffd 1t\u0321\ufffdw\ufffdc\ufffd\ufffd \u0003\ufffd\u001bs\ufffd*\ufffd@\u001a-\ufffd\u007f\ufffd\ufffd>2\ufffd\ufffd_\ufffd\u0001\u04de\ufffd\ufffd\ufffd\ufffd\u0016(;\ufffdn+\ufffd'\ufffd\ufffd\ufffdFM\ufffdr\ufffd\ufffdBc\ufffdyb`S\ufffd?s\ufffd \ufffd\u0002\ufffd\ufffd \ufffd\ufffd}\ufffd3aToc\u0482(\ufffdK](\ufffd\u06c5P0x\u0003\u0007\ufffdes \ufffdd\"\ufffdK \u0010\ufffd\ufffdto\ufffd\u0005U\ufffd%\ufffd\u000f=\ufffd?\ufffd!\ufffd\u0018R\ufffdP\ufffd\u0007@8\ufffd\ufffd\ufffd/\u01ad\u0018\ufffd\ufffd\ufffdH\ufffd\ufffd\ufffd\u040b\ufffd] \ufffd\ufffd@\u0003 \ufffd\ufffd\ufffdE\ufffd\ufffddIAY\ufffd) 1`S\ufffd",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260303233918_2030d830db.html"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=johnsoncountytx.org%2Fdepartments%2F&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 6
+    }
+   ],
+   "versions_found": 7,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526203659",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office",
+     "mimetype": "text/html",
+     "digest": "KL7MZXU2OKABAXFLU6UIVKGZEHF4D4AW",
+     "length": "31342"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526205532",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office",
+     "mimetype": "text/html",
+     "digest": "A2PFS3M5F6WNNYT3BS4BOJHBVE6CNURU",
+     "length": "32019"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526205603",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office/election-results/elections-archive",
+     "mimetype": "text/html",
+     "digest": "3RB2IUII3EMB7DR3WAVLVKRIGJHHGNAA",
+     "length": "31117"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526210223",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office/current-election-results",
+     "mimetype": "text/html",
+     "digest": "I3HA2SHPPWMPBJCL4VFEPAU3EJOTNI3G",
+     "length": "29614"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526210226",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office/election-results",
+     "mimetype": "text/html",
+     "digest": "KAKHU3WNWU6R3BT6A4VKBOKSCGQOQCQP",
+     "length": "30334"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526210234",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office/vote-by-mail",
+     "mimetype": "text/html",
+     "digest": "APWZUWVOLM5FBQUMMAMJZPY5Q23G3J7Z",
+     "length": "32173"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260614033229",
+     "original": "https://www.johnsoncountytx.org/home/showpublisheddocument/13427/637916001202600000",
+     "mimetype": "application/pdf",
+     "digest": "5GZE4OIFV3QUBVS5X4CDUAPM6XVO2ADI",
+     "length": "1010685"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260614033229",
+     "original": "https://www.johnsoncountytx.org/home/showpublisheddocument/13427/637916001202600000",
+     "mimetype": "application/pdf",
+     "digest": "5GZE4OIFV3QUBVS5X4CDUAPM6XVO2ADI",
+     "length": "1010685",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526205603",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office/election-results/elections-archive",
+     "mimetype": "text/html",
+     "digest": "3RB2IUII3EMB7DR3WAVLVKRIGJHHGNAA",
+     "length": "31117",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526210223",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office/current-election-results",
+     "mimetype": "text/html",
+     "digest": "I3HA2SHPPWMPBJCL4VFEPAU3EJOTNI3G",
+     "length": "29614",
+     "replay_error": null,
+     "bytes": 28034,
+     "sha256": "b54266e444d0bd00cf64b8eafa91bf39ce81cab389720c90acdc26bd536c1717",
+     "orig_last_modified": "Tue, 26 May 2026 21:02:20 GMT",
+     "orig_date": "Tue, 26 May 2026 21:02:23 GMT",
+     "orig_last_modified_local": "2026-05-26 16:02:20",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd}\ufffdv\ufffd8\ufffd\ufffd\ufffds\ufffd \u0010M\u007f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdN\ufffd>\ufffd\u0631c\ufffdK\ufffd\ufffd\ufffd\ufffd\u000f%B\u0012m\ufffdTHJ\ufffd\ufffd\u0253\ufffd\u007f\ufffd\ufffdn\u0015\u0000. \ufffd\u0149\ufffd\ufffdhzb\u0012\ufffd*\ufffd @U\u0001(\u0000\ufffd\ufffd\u01ebg{\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdI\ufffd X\ufffd\u007f\ufffd\ufffd\ufffdx\ufffdO\ufffd\ufffd\ufffd\ufffdv\ufffd\u0695&\ufffdP\ufffd \ufffd\ufffd]y\u0003\u000f\ufffdJ\ufffd\u0540\ufffd:\ufffd\ufffdu\u05e3\ufffdv\ufffd\ufffd\ufffd@\u06e8\ufffd\ufffdH\ufffd\ufffd\ufffdP\ufffd_F\ufffdx\ufffd\ufffdQ\ufffdji\ufffd\ufffd`\ufffd\ufffdf\u06e2\u0015\ufffdql\ufffd\u0680t\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u001b\ufffd\ufffdu\ufffd\ufffd\ufffd\ufffd\ufffd}F\ufffd7}\ufffdB\u05bf\ufffd\ufffd \u0004~\ufffd\u0016\ufffd\ufffd\ufffdc\ufffds\ufffd,\ufffd#\ufffd\u0211\u04f7=H\ufffduF\ufffd?Y$\ufffd Y\ufffdk\u0001&G\ufffd\ufffd\ufffd\ufffd:\ufffd9\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd#\ufffd\ufffd\ufffd_ \u007f\ufffd\ufffd\ufffdwo\u0686s\ufffd\ufffd H`d\ufffd\ufffdM[\ufffd\ufffd\ufffd_d\ufffdTj\ufffd\ufffd1\ufffd\ufffd \ufffd \ufffd\ufffdUM\ufffdA\ufffd=\ufffd\ufffdR\u0010\u007f2\ufffd\ufffd\u0015\ufffd>\ufffd\ufffd[}\ufffd\ufffd\ufffdJS\u0006.(c\ufffd3\ufffdd\ufffd\ufffd\ufffd\ufffdQ\ufffdK\ufffdmo\ufffd\ufffdW}g\bh\ufffdV;\ufffd=\u04e0\ufffd\ufffd\ufffd\u0003\ufffd$\ufffd&\u001b\ufffd6\ufffd\ufffdh\u0000\ufffdU\ufffdQ \ufffd\u0000 \ufffd\ufffd\u0265\ufffd{\u0007\ufffd\ufffd+\ufffdR* U\ufffd\ufffd=\ufffdO\ufffd\ufffd\ufffdY\ufffd\ufffdW\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd K\ufffd\ufffdc\ufffd\ufffda\ufffdW\ufffd\ufffd\u0422\ufffd\ufffdu\ufffdQ\u01ef,\ufffd,\ufffd\ufffd\ufffdr\ufffd\ufffd\ufffd\u0271\ufffd ~\ufffdzf\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdvel\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd~o\u001a~\u007f\u06e0c\ufffdC5\ufffd\ufffd-\\\"`\ufffd\ufffd \u9ef4\ufffd]\ufffd\ufffd\u046e\u000eM|\ufffd\ufffd\u0007\ufffd\ufffd \u007fb\u045d\ufffdmXt\ufffdzf\u03fe\ufffd\ufffd\ufffd \ufffdk\ufffd\ufffd \ufffd\ufffdS\u07f1\u05fe\ufffd\ufffd\ufffd\ufffd\ufffd8\ufffd\ufffdM\ufffd\u0355ye ?L\ufffdw\ufffd\ufffd\ufffd~d\ufffd|\ufffd\u007f}}\ufffd}\ufffdF\ufffd\ufffd q\ufffd\ufffd]\ufffd\u05e7\u052f`y\ufffdR\ufffd\ufffd\ufffd-t\ufffd\ufffd(\ufffdW;\ufffdM\ufffd\ufffd\u0010\ufffd9i\u001b\ufffdu\u007fh\ufffd\ufffdw\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u069fV\ufffd\ufffd]\ufffd\ufffd\u07f8\u072b\u007f\ufffd\ufffd\ufffd7\ufffd\ufffd\ufffd*D\u02e5\ufffdWk\u0019\u0003\ufffd:\ufffdG\ufffd\b\u0007.K3\ufffd |W\ufffd a\u007f\ufffd:t\ufffd\ufffd\ufffdp6\ufffd\u000f_o|\ufffd=\u001a\\\ufffd\ufffd\ufffd\ufffd\ufffd\u06fb\ufffd\ufffd\ufffd_5h\ufffd\ufffd{pgo\ufffd/S\ufffd\ufffd\ufffd8sMh\ufffda\ufffdo\ufffd\ufffd_\ufffd\ufffd\ufffd\ufffdFtr\ufffdqit{3\ufffd\u000f\u06d3\ubad5\ufffdWw7 \u06ab\u05f7\ufffd\ufffd\ufffd\ufffd\ufffd\u0014\ufffd\ufffd\u00015L}\ufffd2D\ufffd\ufffdu\ufffd\ufffd\ufffdD\u0011\ufffd\ufffdW\ufffd\ufffd\ufffd\u0013\ufffdfw\ufffd2\ufffd\ufffds\u07be\u0019 \ufffdo6\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdz\ufffd\ufffdz\ufffd\ufffd\ufffd0\ufffd i\ufffd\ufffdE\u0010\ufffd\ufffds;P\ufffd \ufffd\u227f\ufffd\u0006Z\ufffduh\ufffd\u06b4z+ \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd5\ufffd\ufffd M\u000e/\ufffd}\ufffd\ufffdr\ufffd\ufffdwg\ufffd\ufffd\ufffd\ufffd\ufffdMg \ufffd\ufffd\ufffd\ufffd>\ufffd]:-\ufffd\ufffd\ufffd\u000e\ufffd:n\ufffd@\u0004\ufffd\ufffd\b\ufffd\u0001\ufffd\ufffd\ufffd=^\ufffdV\ufffd\ufffdF\ufffd\ufffd\ufffd\ufffd\ufffd[ @\ufffd8p,\ufffd\ufffd\ufffdGu\ufffd[\ufffd\ufffd u\ufffd .\ufffd\ufffd\ufffd\ufffdE\ufffd[$\ufffd\ufffd\ufffd\u00fd\ufffd\ufffd\"(\ufffd\ufffd\ufffdc\ufffd\ud8bb\uddb4\ufffdHL\ufffd3\ufffdgz\ufffd \ufffd h\u0003\ufffdG\ufffd\ufffd\ufffd\u30fa\u06c5\ufffd\ufffdQ#\ufffd \"\ufffd\ufffdC;x\ufffd\ufffd\ufffd\ufffd\ufffd3\ufffd4\ufffd\u0796\ufffd \ufffd3r](\u0015W.\ufffd\ufffd #/\ufffd\ufffd\u000e\ufffd\ufffd\ufffd\ufffd\ufffdz \u03c4\u0000M\ufffd\u0004\u0004p \ufffd\ufffd\u0018\ufffd1\ufffd\ufffd\ufffd\ufffdguh\ufffdl\ufffd\u0001\ufffdp\ufffdZ\ufffd\u000frT\ufffd\ufffd\ufffd\ufffd\ufffd\u0696 }\ufffd8\u010f\ufffd\u0013X9xB\ufffd\u016aa\ufffd6\ufffd \ufffd,\ufffd\u012be?\ufffd\ufffd\u043c C\ufffdjht\ufffd \ufffd\ufffd\u0002\u041d\ufffd\ufffd\u0006c\ufffd\ufffd\ufffd6\u0004\ufffd\ufffd\ufffdB\u0006\ufffd\ufffd\u0000\ufffdu\u007f\ufffd\ufffd\u000f`t\ufffd\ufffd \u0014[w\ufffdQ\ufffd\u04b1 \ufffd\ufffd\ufffd['\u063f\u000f\ufffd\ufffdC\ufffd\ufffd&\ufffd\ufffd\ufffdC\u0753-\ufffdJ\u0003\ufffd\ufffd\u001b\ufffd-\ufffd\ufffdQG\ufffd\ufffd}\ufffd\ufffd\ufffdsX(\ufffd9\ufffd/\ufffdN\u0007]\ufffd\ufffd\ufffd\ufffd\u0002\ufffd\ufffdt\ufffd\ufffdW\ufffd\ufffd\ufffd\ufffd\ufffd>=p\u0701\ufffdW\ufffd*''5\u00e8M\ufffdWY\ufffd`\ufffd \ufffd\ufffd\ufffd\u0006\u0003ry \ufffdg}\u0010L\ufffd>\ufffd\ufffd\ufffd\ufffd@\ufffd \ufffd\ufffd \ufffdO\u075en\ufffd_YSD\ufffd\u0001`\ufffdMWPo\ufffd\ufffdtZ'\"\ufffd,J;\ufffd4\u0474\ufffd\ufffdg\ufffd\u0018A\ufffd\u0019\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u07de\ufffd\ufffd\ufffd3\ufffd]d\ufffd\ufffd\u0000\ufffd]\ufffdDW\ufffd\u0205\u000f\ufffdJw \ufffdP\ufffd\ufffdgzPg\u0013Q\ufffd\ufffd\ufffd\ufffd]\ufffd\ufffd\ufffdU\u0007')\ufffd@@2\u007fuA\ufffd\ufffd]\ufffd\ufffd }\u0001\ufffd\u00022\u0002/\ufffd\ufffd>\ufffd\ufffd^\ufffdO\ufffd\u0005\ufffd\u0001\ufffd\u000e\ufffd\ufffd\ufffd\u0001\ufffd\u0005\ufffd:\ufffd\ufffd\"\ufffd\u007f\ufffde\u070e P\u0003\u02c9|Ux\ufffd\ufffd\ufffd\u029e\ufffd\ufffd\ufffd\u001b\ufffd \ufffd\ufffdG\ufffd.\ufffdD(\ufffd@n\ufffd\u0017e\u0643l\ufffd\ufffdd\ufffd}a\ufffd_\u000e\ufffd_\ufffd\u0015\ufffdo\ufffdx\ufffd\u0017\ufffd\ufffd/\ufffdu\ufffd!\ufffd\ufffd^P\ufffd \ufffdvv\ufffdu\"f$\ufffd\b\ufffd?\ufffd\ufffd\ufffd\ufffdn\u03f4\ufffduc\ufffd0}\ufffd\ufffd \ufffd\u0015a\ufffd\ufffd)\u000e\u0003\u0004\ufffdE\u0007\ufffd%\u0014\ufffd\u0012F}\ufffd)0\u010d\ufffd\u01cb\ufffd\ufffd>\ufffd\ufffd\u0005\ufffdPF\ufffd\u0003\ufffdo\ufffd\ufffd\ufffdq \ufffd\u0015\ufffd\ufffd|\ufffd\u007f\ufffd\ufffdo\ufffdP\ufffd?\ufffd:\ufffdX\ufffd;\u05101 \ufffdrt\ufffdc\ufffd\ufffd\ufffd\ufffd\ufffd_\uae8e\ufffd-\u001agB\ufffd\ufffd\u0001\ufffd\u9329\ufffd\ufffd\ufffdu\ufffd\u001bT\ufffd\ufffd \ufffd\u0005\u000e\ufffd7A\ufffd>Pp3\u0006\u0003\ufffd* \ufffd\ufffd\u0005 \u000ep\u0000\ufffd\u00bf\ufffd4\u0006y\ufffdc\u0017L \ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd3\ufffdD/#?|6\u04b0`\ufffd\ufffd.\ufffd \ufffd0e\ufffd{\ufffd\uf8c0s\ufffd\u001ae 5\ufffd\u007f\ufffd\ufffd\ufffd\u007f\ufffdBt0\ufffdC-\ufffd\ufffd\ufffd\u0013| \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffdP{$^]\u0007\ufffd\u0012\ufffdC\ufffdwVp^d\ufffdH\u0007\ufffd\ufffd\u0016\u05aax\ufffdf\ufffdi\u001a\ufffd\u0004\ufffd\ufffd\u0016e\ufffd2\ufffdV\ufffd\ufffd\u012a\ufffd\ufffd=\ufffd21\ufffdE\ufffd1 SA\ufffd\ufffdU!\u007f4\\g( =\ufffd\ufffdX\ufffd \ufffdW\ufffd\ufffd\u001b\u02a4kZ@&d\ufffdk\ufffd`\ufffd\ufffdA\u0217\ufffdeRcO\u000ec\ufffd\u000f\ufffdG\ufffd\u04a7\u0016fh\ufffdC\ufffd\ufffdN\ufffd\u0005\ufffd\ufffd\ufffd\ufffd\u0005\ufffd\ufffd?\ufffd\u0010\bl P\ufffdq/*\ufffdr r\ufffd\ufffdr\ufffdj\ufffd\\\ufffd\ufffd;joW\ufffd\ufffd\ufffd~\ufffd1O\u0363\ufffd\ufffd\u06eb\ufffd\ufffdF\ufffd \ufffd-\ufffd\ufffd\\\ufffd \ufffd \u000fp\u0019\ufffd\ufffd\ufffd8\ufffd\ufffd\\hiR\ufffd-\u03d4]\ufffd\ufffd\u0548n\u0018\ufffd ~\ufffd\ufffd\ufffd\ufffd}\u0018(\u0018\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdQ\ufffd:\ufffd~\ufffd\u0001 \ufffdtq\ufffd\u02a0o=\ufffd.\u000f\ufffda u\ufffd\ufffdy#Z\ufffd\b\ufffd^\ufffdS\ufffd\ufffd/&\u0017\u0622l\ufffd\ufffd9\ufffdyLU\ufffd\u014du\ufffd\ufffdt0$\ufffd\ufffdR \ufffdh8\ufffd\ufffdW\ufffd\ufffd+\ufffd9\ufffd$\u05fd\ufffd7\ufffdxUd_ s\u0273m\u0002\u000e\u001b\ufffd\ufffd\u00035\u0016\ufffd \ufffdm\ufffdK\ufffd%\ufffd\ufffd6\ufffdD.\u0001 \ufffd\ufffd\ufffd\u0007\ufffd\b\ufffd5 ,\u0000(\ufffdzsyr\ufffd\ufffd\u0016\ufffd\ufffd#\ufffdR|u)8}\ufffd \ufffd\ufffd\ufffd}1-I^CqI\"7O-I\ufffd)\ufffd\ufffdC\ufffdt9\ufffd`\ufffd\ufffd\ufffd\ufffd$\ufffd\ufffd\ufffd\u0489^\ufffd\ufffd\ufffd\ufffdXs\ufffd\ufffd\u44d2MMt \u0002\ufffd\ufffd\ufffd u)v\ufffd;J\ufffd\ufffd\u0017\\\u0018\ufffd?0\ufffd\ufffd\ufffd\u0006\ufffd\ufffd\ufffd5S\ufffd\ufffd\ufffd\ufffdp\"\u70a2A\ufffd\u0007@[\ufffd;^\u0011\ufffd\ufffd\ufffd\ufffd\ufffd\u0418g\u02f2\u001a\ufffdC^:\ufffdi\ufffdw\ufffd\ufffd\ufffd\ufffde\u0018\ufffd&+8\ufffdN\ufffd+\ufffd\u0000\ufffd+\ufffdZM\ufffd\ufffd\ufffdn\ufffd\ufffdEt\ufffd\ufffd 4'Ln\ufffd\ufffd\ufffd\\5\ufffd\u0001\b\ufffd\ufffdi\u069f\ufffd\ufffd\ufffd\ufffd}\ufffd\ufffdWLY\u0015\ufffd\ue742br\ufffdpio\ufffd\ufffd\ufffdA\ufffd\ufffd}\ufffd\ufffd}\ufffd\ufffd\ufffd_\u007f;6\ufffd\ufffd\ufffd\ufffd\ufffd5\ufffdj\ufffd\ufffd>\ufffd\ufffd\u000eZ\ufffd\ufffd\ufffdJo\ufffd\ufffd\ufffdSri\ufffdW\ufffd\ufffd\u0004\ufffdev\ufffd\u04b4dh\u0006[\ufffd\ufffd\ufffd\u00126 Bo\ufffd\u000e\ufffd?\ufffd\ufffd'c\u02b7\ufffdy\ufffd\ufffd\ufffd\ufffd\u0007\ufffd\u001b\u8585k\ufffd\u0015\ufffdJ;#~\ufffdw\\\ufffd\u0003]\ufffd\u0010\ufffdLH\ufffd \ufffd)\ufffdW\ufffd \ufffd\b\u001a\ufffd\ufffd\ufffd?P\ufffd\ufffd\ufffdu\u0462}\ufffdG\ufffd{\ufffd/\ufffdi\ufffd\ufffd\ufffd\ufffd a g\ufffd.^B9\ufffd\ufffd\ufffdr\u0015\ufffd\ufffd\u056e\b\ufffd\u0010+\ufffd'\ufffd\ufffd\ufffd+U\ufffdr\ufffd\ufffdR\ufffd,\ufffd\ufffd\ufffdz\u0007\ufffd;\u0195\ufffd\ufffd\ufffd=\ufffd\u0006\ufffd\ufffdfn\u0490A\u0001J\ufffd\ufffd\ufffd+\ufffdd\ufffd\ufffd\ufffd4r\ufffdj}\ufffd-\ufffd\ufffd(\ufffd}\u0016\ufffd\ufffd\u0002\ufffd$\u0014\ufffdB\u0563l\ufffd\ufffd\u0005O]\ufffd\ufffd? MW\ufffdQ`1C\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0018,\ufffd%\ufffd\ufffd\ufffd>7]\ufffd\u001b\ufffd\ufffd \ufffd)\u000f\ufffd\ufffd6\u0018\ufffd@\ufffdU\ufffdkm\u0007\ufffdqu\ufffdW\ufffd\ufffd4\ufffd\ufffd\u0003\u0014}e{\ufffdr\ufffdhe\ufffdVwNOO\ufffdo\ufffdZ\u0616_\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffdT\ufffd\ufffd\ufffd3\ufffd\ufffd\u0007\ufffdv\ufffd|\ufffd\ufffdcn?\ufffd/\ufffd \ufffd\ufffd_j\ufffd!9\ufffd\ufffd\ufffd\ufffd t\ufffd\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd7\ufffd\ufffdFkw_\ufffd\b\ufffd\ufffd5\ufffdheo}\ufffd\ufffd\u0018\ufffd\ufffd\ufffd v\u0010\u0406\u007f\u0003\ufffdg.\ufffd\u001b\ufffd\ufffd\ufffd\u0002\ufffd8a\ufffd%\ufffd\ufffd\ufffd\ufffd\ufffd\u001a$j\ufffdW\u0001\ufffd\ufffd4\ufffd U \ufffd\u0016$3\ufffd\ufffd\ufffd9U\ufffd~\ufffd\ufffd\ufffd\ufffdM\u02c0ZZt!\ufffd\ufffd\ufffd\ufffd >\ufffd \ufffd\ufffdd\u0577\ufffd/\ufffd\ufffd\u0011\u0016g\ufffdT\ufffdOr_\ufffdl\u0013(\ufffd'l8\ufffdM\ufffd\ufffd\ufffd]\u0018K\ufffd\ufffdE\u007f;j\u0015\ufffd6\ufffd\ufffd\ufffd62\u0019\ufffd1\ufffd\ufffd7\ufffd\ufffd\ufffde\ufffd\ufffdj\u05b8\ufffd-\ufffd@\ufffd\ufffd\u0003\u04f2\ufffd.\u001b\ufffd\ufffd\ufffd\ufffdE\ufffdM\ufffd}3\ufffdm\u01d8\ufffd b\ufffd\ufffd \ufffd\u0017\ufffd \ufffd0\ufffd\ufffd C90F\ufffd\ufffd\u0003\ufffd\ufffdy\ufffd\ufffd\ufffd\ufffdN\ufffd}{\ufffd\\\u0004\ufffd8nu\u0004:\ufffd\ufffd\ufffd'\u0541\ufffdw\ufffd\ufffd p\ufffd\ufffd\\[\ufffd\ufffd\ufffd\ufffd\ufffd\u0082\ufffd\ufffds\u0004T\u0001\ufffd\u018e \ufffdygQ\ufffd\ufffdj $\ufffdg\ufffd\ufffd\ufffd\ufffdy\ufffdd\ufffd\ufffd\ufffd\ufffd3qT\ufffd6F \ufffd-\u077e\ufffd@\u001a\ufffd\u000e\ufffd\ufffd\ufffd\ufffdu\ufffd \u0017O\u0000\ufffduxL\ufffdQ\ufffd\ufffdBqQ\ufffdV\u0016\ufffd\ufffdy\ufffd\ufffd\"9E\u0016\u07fe\ufffd6\ufffdSZ4\ufffd \u0004y\ufffd*s@\ufffd\ufffd\ufffdF\ufffd\ufffdN\ufffd\ufffd`6\ufffdS@f\ufffdY#N \ufffd#\u007f\ufffd&\ufffdVq5 ry\ufffd\ufffd\ufffd\ufffdk\ufffd?\ufffd-\ufffd\ufffd\ufffd\u0002l\ufffd\u0004A\ufffd\ufffdp/\ufffd5@^V\ufffd\u0013U\ufffd?\ufffd\ufffdn7V\u0016\ufffd:g\u001bZW\ufffd\ufffdg\ufffd\u04ccub \ufffd\ufffdGC\u07fe\u0015D-\u0007\ufffd\ufffd\ufffd\ufffd_\ufffd\u03b6Y \ufffd\ufffd\ufffd1(*\ufffdFL\u0019'\ufffd\u0003\u000eG\ufffd\ufffdA%\u0018U\u0018\ufffd`\ufffdy\ufffd\ufffd\u0012T-\ufffdV \ufffd8]\u0012~\ufffdz\"N\ufffd",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260526210223_e2b61fb137.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526210226",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office/election-results",
+     "mimetype": "text/html",
+     "digest": "KAKHU3WNWU6R3BT6A4VKBOKSCGQOQCQP",
+     "length": "30334",
+     "replay_error": null,
+     "bytes": 28782,
+     "sha256": "b2a9de6e370fab1949361b8b280894098996e65b987dffc0f2fe379964c76bf9",
+     "orig_last_modified": "Tue, 26 May 2026 19:13:56 GMT",
+     "orig_date": "Tue, 26 May 2026 21:02:26 GMT",
+     "orig_last_modified_local": "2026-05-26 14:13:56",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd}m[\u06f8\ufffd\ufffd\ufffd=\ufffdu\ufffd\ufffd\ufffd\ufffdw\ufffd{qB\ufffd\ufffd\u0592\ufffd\ufffd[\ufffdB\ufffd\u0004\ufffdm\ufffd\ufffd\ufffd\ufffd\ufffdJbp\ufffd\ufffdv\u0002\u9dbf\ufffd\ufffd\ufffd\ufffd\ufffdgF\ufffd_d\ufffdvh\ufffd\ufffd\ufffd\ufffd=\u0156gF\ufffd\ufffd43\ufffdF\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdC\ufffd \ufffdv\ufffd\ufffd\ufffd\ufffd?^\ufffd\u0013\ufffdu\ufffd\ufffd[\ufffdN\ufffd\ufffd)T7\ufffde\ufffdV\ufffd\ufffd^i\ufffd\ufffd\ufffd@'FO\ufffd|\u001a\ufffdVn\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd^\u0010 4\ufffdyh\ufffdv+\u007fh7Mm\ufffd\ufffd\u000f\ufffd\ufffdj\u06f4B \ufffd \ufffd\u0003H'\ufffd\ufffd\ufffd/ \ufffd\ufffd\ufffd\ufffd\ufffdd\ufffd \ufffd>d\ufffd\u0002+\ufffd)d\ufffd\ufffd?\ufffdA\ufffd?\ufffd \ufffd\ufffdp\ufffd&\ufffd \ufffd\ufffd\ufffd \ufffd\u00fb\ufffd~p\ufffd \u007f\ufffdY\ufffdrs\u007f\ufffd\ufffd\ufffd\ufffd\u00dd{\ufffd\ufffd\ufffd\ufffd\ufffd{E\ufffd\ufffdOMK\u07ed \ufffd(o \u0013\ufffdF\ufffd\b\ufffd\ufffd\ufffd\ufffd \ufffdc\ufffdv\u007f\u0576\ufffd\ufffd{\u057e Y\ufffd[\u0007\ufffd`\ufffdz\ufffd~a\ufffdY\ufffdhZ\ufffdN\ufffd\ufffdE\ufffdm\ufffd\ufffd\ufffd\u0001eh\ufffd\u0017_\ufffd\u00155\u0434\ufffd\u0013\ufffd\u00a1\ufffd;Q\ufffd\ufffd\ufffd2?mm\ufffd\ufffdl\ufffd\ufffd\ufffdt|r\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_6\u0007\ufffd\ufffd\ufffdw\ufffd\ufffdh|\ufffd\ufffdi~\ufffdG\ufffd\u0013w\ufffd(;\ufffd3\ufffd\ufffdKz:\ufffd\u0004uL=G\ufffdo\ufffd\u03b0C\ufffdo/Q\u0017D\u0018!.\ufffd\ufffd\u0551\ufffd\u0003\ufffd\ufffd\u0000 \ufffd\u0431\ufffd Y^0\ufffdm(\ufffdm\u0019L\ufffd\\\ufffdAog\ufffd\ufffd\ufffdl\ufffd\ufffd \ufffd\ufffd[\ufffd\u0019&\ufffd\ufffdN'\ufffd\ufffd\ufffdYX\ufffd\ufffd\u000ej\ufffdE}\ufffd\ufffd\ufffd\ufffdSw\u0018\ufffdtt\u06e7\u02fe\ufffdx\ufffd[\ufffd0\ufffd\ufffd\ufffd\ufffd\ufffdr\u0000i\ufffdn\u04e6^\ufffdGA\u0465\b\u0130/\ufffd\ufffd#6k\ufffd{\ufffd M\ufffd@\ufffdX;T\ufffd-,\ufffd\ufffdm \ufffd\ufffdI=\ufffd\ufffd\ufffd\ufffd,,\u001b\ufffdB\ufffd3\ufffd dg!\ufffdq\u0017\ufffd\ufffdo\u0005\ufffd\ufffd`\ufffd\ufffd ndu\u0019(\ufffd\ufffd\ufffd.\u0013\ufffd?v\ufffd\ufffdR\ufffdR\ufffd>\u0001m\ufffdu\ufffdc\ufffd\u07fa\u0001\ufffd\ufffd}\ufffd\ufffd.5\u00ef Rx;q\ufffdw\ufffd\ufffd>\\\ufffd\ufffdkk\ufffd\ufffd\u0004\ufffd\u0010R n\u0013\ufffdr\ufffd\ufffd 2\ufffd\u0013\ufffd\ufffd\b\ufffd\ufffd\ufffd/t\ufffd\ufffdy&\u0004h\ufffd\u0016 \\Q\u007f\u0000\ufffd\ufffd\u001a\ufffdk\ufffd\ufffdCV\ufffd\ufffd\ufffd\ufffd\ufffd\u0003\u000f7\ufffd \ufffd G\ufffd\u0016\u0014\ufffdr\u0636-\ufffd\u001b\ufffd ~\u011c\ufffd\u04c5\ufffd>\u0010c\ufffdp\u8617.t\u0016@\ufffd\ufffdr\u0018}Gh\ufffd\u0006\ufffd C54\u001aP\ufffda\ufffd\u0000\ufffd\ufffd\ufffd\ufffd`,_\ufffd\ufffd\u0006\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd[\ufffd\ufffd =\ufffd \ufffd\ufffd\u000eY\ufffdb\ufffd 5kR:V\ufffdkX\ufffd}\ufffd\ufffd\u001bM,\ufffd\ufffd\ufffd\u0004\u000fV\u0000uOv\ufffd+\ufffd\ufffd\ufffd3`-\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd=\ufffdm\ufffd\ufffdQ _x]\u0771\ufffd\ufffd\ufffd\ufffd\u0016\ufffd.\ufffdd\ufffd\ufffd\ufffd\ufffd \ufffd~\ufffd7\ufffdI\u01f2\ufffdL\ufffdt\ufffdr\ufffd\ufffd\u30d0/\ufffd\u02e4\u019e\\\ufffdf\u000f\u070f\b\ufffdGm\ufffd\ufffdr\u0006\ufffd\ufffd= \ufffd \ufffd\ufffd\u0007 )\u007f \"\u0010\ufffd@\ufffd\ufffd\ufffd^T\ufffd\ufffd\ufffd\ufffd\ufffd\u0007\ufffd`\ufffdD\ufffd$\u0001\ufffd\ufffd\ufffd\ufffd&+r`\u03e1 \ufffdK( \ufffd\ufffdw\ufffdg^\ud8a3\udf4bgV*\ufffd\ufffd\u0000c \ufffd\ufffd\b\ufffd\u0011\ufffdr\u00e7P\ufffdn\ufffd\u0003\ufffd1\ufffd\u000ee\u0016\u000f\ufffd\ufffd\ufffd\ufffdc\u01c0\ufffd\u0019\u000et \ufffd\u007f\ufffd\u0001`\ufffd$\ufffd\ufffd a\ufffd\ufffd\u0000\\\ufffdq$A\ufffd\u000e\ufffd\u0001&\ufffdL\ufffd\ufffd\u0019P=`\u000f\ufffdj\ufffd_\ufffdi\ufffd\u0007^B\ufffd \ufffd\u0011\u0786}\u000e\u0002\ufffd\ufffdrx\ufffd \ufffd \ufffd\ufffd\u0015\ufffd'\ufffd \u0011\u00f3\ufffd\ufffdP*\ufffdJ\ufffd\ufffd\ufffd6 \u0003\ufffd{\ufffd\ufffd\ufffd\ufffd\ufffd \ufffdD/\ufffd)a\ufffd\ufffd_\ufffd\b\ufffd\u000f6T|\u0002\u0001A\ufffd\u0002\ufffd\ufffd\ufffd:l\ufffdY\u0019p(\u0014\ufffd,8-\ufffd}D\u0018F\ufffd.\ufffd#\ufffd\ufffd\u0433A\ufffd\ufffd\ufffdX$\ufffdv\ufffdUA\ufffd&4K|\ufffd\u001a\ufffd{o\ufffdH\ufffd\ufffd\ufffd\u00b5\ufffd\u0005\ufffdZ\u0017B\ufffd/W\ufffd,;v\ufffdQG\ufffd\ufffd\ufffdJ\ufffdn\ufffd\ufffd7\ufffd;\ufffd\ufffd l \ufffd\ufffd\ufffd\ufffd2K\ufffd\ufffd\ufffd#R\ufffd\ufffd_\ufffd\ufffd \ufffdo\ufffd \ufffd4\ufffd\u0355\ufffd\ufffd\u07b5:\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdF\ufffd\u07d5\ufffdD\ufffd6&0\ufffdv\u007f \ufffdW\ufffd\u000fDZ\u0010\u0011\ufffd^\ufffd^m\ufffd\ufffdp\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdf 4\u0001\ufffd?be\ufffd\u0018\ufffdA\ufffdl\ufffd\ufffd\ufffd\ufffd\ufffdoG\ufffd^ \ufffdn\ufffd\ufffd\ufffd\\\ufffd\\\ufffd\ufffd\u0010\ufffd@\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdQ\ufffd~\b,\ufffd\ufffd\ufffd\ufffd\ufffdz\ufffd\ufffd\ufffd\u0003\ufffdP\ufffdV\ufffdV\ufffd\u0147G\ufffd/D\ufffd\ufffdj\ufffd\ufffd (D\ufffd\ufffdy\ufffd\ufffd9\u000eL\ufffd\ufffd\ufffd \ufffd\\_\u000fY\ufffdb \ufffd\ufffd\ufffd\ufffd\u02cb\ufffd\ufffd\ufffdeseK`x\ufffd'0V7\ua6eb\ufffd\ufffd |\ufffd5!%\ufffd1\ufffd\ufffdl~\ufffd\u0018k\ufffd\ufffd\u037d\ufffd\ufffd\ufffd\ufffdf}?\u0014\ufffdhX\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdZ\ufffdBC~V_\ufffd\ufffd_\ufffd\ufffdX\u0013\u9ea5L \ufffdf!\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u007fy\"\ufffd\ufffd\ufffdZ\ufffd\uc814\"\ufffdA \ufffd\ufffd\ufffd& \ufffd\ufffd?X\ufffd\ufffd+\ufffdW\ufffdb$766\ufffd7\ufffd7C\ufffd\ufffd\ufffdR#\ufffd# y]\ufffd\ufffdvC\ufffd mlnlFR\ufffd\u063ah\ufffd\u001b\u001b\ufffd\ufffd\u001b \u0470\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\u0017\u0007G\ufffd\ufffdC\ufffd~\ufffdL\ufffd\ufffd\ufffdd$0\ufffd9O\ufffd\ufffd\ufffdo\ufffdq^\ufffd.\ufffd\ufffd+\ufffd\u000f& \u0014\u0018\u001b\u0018\u001b\ufffd\ufffd\ufffd\ufffd\ufffd8\ufffd\ufffd|\ufffd\ufffd\ufffd\ufffd\ufffdmwxm^\ufffd\ufffd\ufffd\ufffd\u007f:|q\ufffd\ufffd\ufffd.\ufffdO\u06a7\ufffd\ufffd]\ufffd|S \ufffd\ufffd\ufffd{O\ufffd\ufffd \ufffd\ufffd\u06af \ufffd\ufffd:\ufffd;\ufffd\ufffdYm\ufffd \ufffdl\ufffd\ufffdn\ufffd\u03e3\ufffdw+\ufffd\u0007g7\ufffd\ufffd\u05c7\ufffd\u0013\ufffd\ufffd\ufffd\ufffd'\u001b'\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u02db\ufffd\u0257\ufffd\ufffd'\u000fo\u000f\ufffd\ufffd? \ufffd\ufffd\ufffd\ufffd n_\ufffdN\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u08fff{M\ufffdt\ufffd\ufffd\ufffd\u0001z\ufffd\u059b7\u000f\ufffd{\ufffdw+\ufffd\u82f7\ufffdz\ufffd\ufffd\ufffdi\ufffd\ufffd}\ufffd\u027d\ufffd\ufffdj}Y=\ufffd\u007f \ufffd\ufffd\ufffd\ufffd\ufffd\ufffdp\ufffd \ufffd\ufffda\ufffd\ufffd\ufffd\ufffd\u0015Z_\ufffd2\ufffd3\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u077enV\ufffd\ufffd\u03a5\ufffd\ufffd\ufffd\u0747\ufffd\ufffd\ufffd\ufffd\ufffd/\u000fP\ufffd\ufffdwUs{\ufffduf:\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd@;\ufffd?}\ufffd\ufffdc\ufffd\ufffd\ufffd\ufffd`\ufffd\ufffd\ufffd\ufffdy\ufffd\u001an\\\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdck\ufffd\ufffd{\ufffd\ufffd\u077b\ufffd`x\ufffd\ufffd]\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffd\ufffd\ufffd\u007fxt\ufffdzs\ufffd\ufffd\b.\ufffd\ufffd\ufffd+_\u001bm\ufffd\ufffd\ufffd\ufffdK\ufffdywt\ufffdu\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdx\ufffd\ufffd\ufffd\ufffd`\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdG\u33f3\ufffd\ufffd/\ufffd\ufffd\ufffdm\ufffd]\ufffd\u058c\ufffd\ufffd\ufffd\ufffd\ufffd\u0639\u05e9y\ufffd\u001b\ufffd\u03db\ufffd\ufffd;0J\u000f\ufffd{\ufffdn\ufffd\ufffd7f\ufffd~{6\ufffd\ufffd\\_om]u>]v\ufffd\ufffdG\u0017\ufffd\ufffd}\ufffd\ufffda\ufffd\ufffd\ufffdW\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdV\u0d6d\ufffd\ufffd_Z\ufffd\ufffdQ |8yh}~\ufffd \ufffd[Czs\ufffd\u000e\u038e\ufffd\u0017\ufffd\ufffd\ufffd\ufffd\ufffd\u079cZ\ufffd\u074eu\ufffd\ufffd\ufffdu\ufffdyG\ufffd\ufffd+/\ufffd\u0005 \ufffd \ufffd\ufffd\u0016 \ufffd\ufffd\ufffd\ufffd`A\ufffd\ufffdO\ufffd\ufffd\ufffd\ufffd\ufffdebm\ufffd`\ufffdK\u007f\ufffd|l\ufffd*\ufffd\ufffdp\ufffd#\ufffdS\ufffd\u0007V8\u06c4\ufffd/A0\ufffdwj5\\\ufffd\u0011m\ufffdB\ufffd\ufffd\ufffdhd\ufffd\ufffd\u02b7\ufffd\u07d6B\ufffd/_\ufffd\ufffdE.\ufffdR\ufffd\ufffdR>O\ufffd\ufffdX1[\ufffd\u0001\ufffd6x/`\ufffd#F\ufffd\ufffd\u0dc0\ufffdssu\ufffd, Y\ufffdt\ufffdr\ufffd\ufffdI\ufffd\ufffd\ufffd\u0012 `\u0004\ufffd[\ufffdaA- OU\u0012\ufffdN\ufffd\u001a\ufffdM\ufffd\ufffd$\ufffdQ\ufffd\ufffdv\b\u0003\u0005\ufffd\u0012\u00181\ufffd\ufffd\u0003\ufffd^\ufffd4\ufffd\u0000\ufffd\u000e\ufffdV\u0019\ufffd\ufffdO\ufffd\ufffd!0\ufffd\ufffd \ufffd|\u007fH\ufffd1\ufffd_\ufffd|Jx\ufffd\ufffd\ufffd\ufffdbV\ufffd\ufffdN \ufffdKW &\ufffd\ufffd_IZ\ufffd\u04d5N\ufffd\ufffd \ufffd\u0007 \ufffd*\ufffd\ufffd\ufffdb,\ufffd\ufffdlj\ufffd\ufffd\u0010\ufffd$\u0004\ufffdA@\ufffd\ufffd\ufffd\ufffd\u0011H{\u0018\u0004\ufffd\ufffdL\u0006` \ufffd\ufffd\ufffd\ufffdG\ufffd\u001b\ufffdS:\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd68\ud12f\ufffd\ufffd\ufffd\ufffd\u000f\u0006c9\u0017\u0014 \u0012?\u0002\ufffdB\ufffd\u024a\ufffd\ufffd@\ufffd\ufffdO\ufffdE\ufffd,\ufffda9*\ufffd\u0017\ufffdiZ \ufffd\ufffd\ufffd\ufffd\ufffdy\u0019F\ufffd\ufffd \u03b9\u0013\ufffdJZ\ufffdqEU\ufffd)t\ufffd\ufffd} gq\u0011\ufffds~ \u0003\ufffd1\ufffd\ufffd\ufffd \"WM\ufffd\u0002\ufffd\ufffdg\ufffd\ufffd'\ufffde\u0007\ufffd\ufffdl\ufffd\ufffdPV\ufffd{\u0017\ufffd\ufffd 1\ufffd\ufffdi\ufffds=\ufffd\u0015\ufffd\ufffd\ufffd\ufffdU\u0012t\ufffd \ufffd\ufffd.\ufffdD\ufffd\ufffd)VVw\ufffd-jJQd\"h \ufffd\ufffd\ufffd\u054e\b\ufffd\u0010\ufffd\ufffd\ufffd\u0019/*\u0565r\ufffd\ufffdR\ufffd,g\ufffd\u06fa\u0001c \ufffd\ufffd\u01c5\ufffd\ufffd)f\ufffd8Y\u0230\u0000\u0013\ufffd\u0016\ufffd\ufffd+L\ufffd\ufffd\ufffd\ufffdY\ufffd\u0715\ufffd [@e\u0011+\ufffd,b%\u0003VI)\ufffd\ufffd\ufffdO\ufffdz\ufffd\u0007^\ufffd\u0000=| X\ufffd\u03a3\ufffd\u0012F!\ufffd \u0fd9B\ufffd\u007fa\ufffd?\ufffd\ufffdo\ufffd\ufffd7\u001aX'\ufffdY>h,\ufffd?\u0018\ufffd\ufffd\ufffd\ufffdU\ufffd\ufffd.\ufffd\ufffd\ufffdN\ufffdVyiu\u0016+G(\ufffd\ufffd\ufffdn\ufffd\ufffd\u001b\ufffd\ufffd\u0012\ufffd\ufffd]\\\ufffd_\ufffdr\u0015\ufffd+\ufffd~\ufffd\ufffd\ufffd\ufffde9\ufffd\ufffdA\u0004\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffdx\u0541a\ufffd>[YN\u0016z\ufffd\ufffd\ufffdB[r\ufffd\ufffd\u02d3[\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd7\u03f4\u0575\ufffdO\ufffd\ufffd\ufffdVs\ufffdP\ufffd\ufffd\ufffd\ufffd\ufffd \ufffdt\ufffd`\ufffd \u01d5\ufffd u\u0010\u040c\u007f\u0003\ufffdg \ufffd\u001b\ufffd\ufffd\ufffd\b\u0158a\ufffd%\ufffd\ufffd\ufffd\ufffd\ufffdx\u001a$j\ufffd_\u0001\ufffd\ufffdL$ U z6$3\u001b\ufffd\ufffd\ufffdU\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd,\u06c4ZZ\ufffd \ufffd\u06f7\ufffd \u0001\ufffd \ufffd\ufffdd\u0577 ,\ufffd\ufffd\u05b2\u0019\u0015g\ufffdB\ufffdOs_\ufffd (\u0007\ufffdlh\ufffdK\u007f\ufffdX \u0018WY\ufffd\ufffd`7n\u0015\ufffd\u000e\ufffd/\ufffd5s\u0019 \ufffd1\ufffd\ufffdW\ufffd\ufffd\ufffda\ufffd\u0005j\u05b8\ufffdm\ufffdLw\u0017C3\ufffd\ufffd\ufffd\u001b\ufffd\ufffd\u0165e\ufffdK\ufffd~5\ufffdm\ufffd \ufffd \u0012\ufffd\u0007K\u07d6\ufffd \ufffd0\ufffd: A9\ufffd, :\u0016\ufffd\ufffd?\u000f?\u0004\ufffdn\ufffd\u0637\ufffd\ufffdE\u0000\ufffd\ufffdU\ufffd\ufffd3\ufffd\ufffd\ufffdR\u0005\ufffdk\ufffd\u0016k\ufffd-p\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0492\ufffd\ufffd \u0004T\u0001\ufffdF\ufffd\u0005c\ufffdEwY\ufffd\ufffdj $\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdU\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd3qT\ufffd6F\u000e\ufffdm\u0779\ufffd@\u001a\ufffd\u0014\ufffd\ufffd\ufffd\ufffds\ufffd \u0017R\u0000\ufffduxL\ufffd\u0011\ufffd\ufffdB8Q\ufffdV\ufffd\ufffd\ufffdE \u00141X,\ufffd\ufffd\u05ef:\ufffd \ufffd\ufffd\ufffd\ufffd*\ufffd;\\\ufffd\ufffd \ufffd\u0015M\ufffd\ufffdf\u0003L\ufffdh\ufffd\ufffd\ufffd\u074a\ufffdA\u000f\ufffd\ufffd\ufffdCMz\ufffd/v\ufffd\ufffd\ufffd* \ufffd4\ufffd1]T#\ufffd\ufffd\u0010A?\ufffdf0!\ufffd.\ufffd\ufffd\u012c\ufffd.\ufffd!\ufffd",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260526210226_7ca775d185.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526203659",
+     "original": "https://www.johnsoncountytx.org/departments/elections-office",
+     "mimetype": "text/html",
+     "digest": "KL7MZXU2OKABAXFLU6UIVKGZEHF4D4AW",
+     "length": "31342",
+     "replay_error": null,
+     "bytes": 156986,
+     "sha256": "5cfde3eb41f54323dcf284036d877769f524b6c88570f16250e95cb455307fea",
+     "orig_last_modified": "Tue, 26 May 2026 16:10:39 GMT",
+     "orig_date": "Tue, 26 May 2026 20:36:59 GMT",
+     "orig_last_modified_local": "2026-05-26 11:10:39",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Elections Office | Johnson County, TX Please enable JavaScript in your browser for a better user experience. Home Menu Job Openings Public Information Employee Time Employee E-Mail Search Go Home Government History of Johnson County County Judge TABC Permit Applications Public Information Guidelines and Criteria for Johnson County Tax Abatement Policy Commissioners Commissioner Precinct 1 Commissioner Precinct 2 Commissioner Precinct 3 Commissioner Precinct 4 County Attorney Press Charges Hot Checks Protective Orders ID Theft Online E-Discovery Download Forms County Clerk Campaign Finance (C/OH) Reports Commissioners Court Conflicts of Interest Court Section Civil Family Law Misdemeanors &amp; Traffic Appeals Probate &amp; Guardianship Registry of the Court &amp; Custodial Accounts Safekeeping of Wills OPR &amp; Real Property Recording Assumed Names/DBAs Foreclosure Sales Livestock Marks &amp; Brands Military Discharge (DD-214) Plats Real Property Records Passport Acceptance Office Applications for Children Under Age 16 Passport Renewals TABC Applications Search Online Records Vital Statistics Birth Records Death Records Marriage License Applications &amp; Marriage Records County Courts County Court at Law 1 County Court at Law 2 County Treasurer Check Registers Quarterly Investment Report Treasurer Reports Utility Reports Unclaimed Funds District Attorney Victim Assistance District Clerk Fee Information Form Library Standardized Protective Order Forms Jury Information Permanent Exemption Forms Texas Uniform Jury Handbook Local Rules Monthy Appointment &amp; Fees Report District Courts 18th District Court 249th District Court 413th District Court Law Library Justice of the Peace Justice of the Peace Precinct 1 Justice of the Peace Precinct 2 Justice of the Peace Precinct 3 Justice of the Peace Precinct 4 Tax Assessor Departments Adult Probation Contact Us FAQ Locations Online Payments Programs Victim Services Auditor Auditor Reports Debt Transparency Financial Transparency Development Services Permit Applications and Information Culvert Installation Floodplain Management Land Development and Platting Permit Fees Storm Water Major Thoroughfare Plan Transportation Bond Economic Development Elections Office Early Voting and Election Day Locations Current Election Information Election Sample Ballots Election Results Voter Daily Turnout Reconciliation Forms Notice of Election Public Notices Previous Election Information Election Results Election Daily Turnout Reconciliation Forms Notice of Election Public Notices Elections Precinct by Precinct Results Hand Count Audit Results Register to Vote Vote by Mail Information Voting as a Student Voters with Disabilities Military/Overseas Citizens Vote by Mail Voter Resources What is My Precinct and District? Political Parties/Candidate Filing Resources Offices and Terms Information Campaign Finance Reports Campaign Signs Elections Commission Agendas/Minutes Elections Equipment Public Information Request Infor",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260526203659_2030d830db.html"
+    }
+   ]
+  }
+ }
+}

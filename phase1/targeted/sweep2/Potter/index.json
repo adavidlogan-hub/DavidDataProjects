@@ -1,0 +1,457 @@
+{
+ "county": "Potter",
+ "spec": {
+  "file_prefixes": [
+   "pottercountytexasvotes.gov"
+  ],
+  "page_prefixes": [
+   "pottercountytexasvotes.gov/archived-election-results"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 04:39:55",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 6
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov%2Farchived-election-results&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    }
+   ],
+   "versions_found": 8,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112081845",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_6adabf3880d74ce5baf11965a3124259.pdf",
+     "mimetype": "application/pdf",
+     "digest": "K3N54UWFMRZCDBLXAO6DDMNZEHTN7RDF",
+     "length": "957313"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112092858",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_1691f5fefdcb43cc96313dbcd39937a8.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BFUS4QP2O632MV3R2LBLGHCMOI5FQWL5",
+     "length": "487227"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112100530",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_0ebcbf5e68a94190b8e43eee1a05cd33.pdf",
+     "mimetype": "application/pdf",
+     "digest": "47OER3G63MXBKMILOEMRTE2HS77VXJ2T",
+     "length": "517833"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112101550",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_8902014093394bb9820e26e4e5139981.pdf",
+     "mimetype": "application/pdf",
+     "digest": "Z6QPXJY4756UXPUAHARIZ7TODCL7UTXM",
+     "length": "60087"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112103055",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_aa31d48390944ed997162b3efe6c464e.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FDDSOBUFYUCGDSMVYLGJKKUICPXPNIDW",
+     "length": "970794"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112104003",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/3d1a20_e5abf37ac311475199903ae63a17386a.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BAFPVDAEXUYU7YPOPLENUO2M3ST7V5IP",
+     "length": "271792"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241119112801",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_e6281b94f18b439093c69f09f35d6f92.pdf",
+     "mimetype": "application/pdf",
+     "digest": "52SWNMC2L5UBQQTT2BAC7YHIK4KSSDQ2",
+     "length": "1054279"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241120052024",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_1c89f9a64d154d708867e93a6eb63fbd.pdf",
+     "mimetype": "application/pdf",
+     "digest": "B2EA5LKDJ5S2NTPT3K273LWXTYSKANPM",
+     "length": "607622"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112081845",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_6adabf3880d74ce5baf11965a3124259.pdf",
+     "mimetype": "application/pdf",
+     "digest": "K3N54UWFMRZCDBLXAO6DDMNZEHTN7RDF",
+     "length": "957313",
+     "replay_error": null,
+     "bytes": 1048576,
+     "sha256": "8453a1424bbf7185721906a0aa47a7406ff422d3e2d7cf5a0f1da539209968e4",
+     "orig_last_modified": "Thu, 31 Oct 2024 00:51:19 GMT",
+     "orig_date": "Tue, 12 Nov 2024 08:18:44 GMT",
+     "orig_last_modified_local": "2024-10-30 18:51:19",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20241030194736-05'00'",
+     "ModDate": "D:20241030194736-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112081845_73e6c6f6a3.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112092858",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_1691f5fefdcb43cc96313dbcd39937a8.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BFUS4QP2O632MV3R2LBLGHCMOI5FQWL5",
+     "length": "487227",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112100530",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_0ebcbf5e68a94190b8e43eee1a05cd33.pdf",
+     "mimetype": "application/pdf",
+     "digest": "47OER3G63MXBKMILOEMRTE2HS77VXJ2T",
+     "length": "517833",
+     "replay_error": null,
+     "bytes": 534735,
+     "sha256": "be09170d32c2f30e32c0fff1e865d17da0ac668c130a02d5a4d3315de1a55549",
+     "orig_last_modified": "Thu, 03 Oct 2024 17:37:17 GMT",
+     "orig_date": "Tue, 12 Nov 2024 10:05:30 GMT",
+     "orig_last_modified_local": "2024-10-03 11:37:17",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20241003122906-05'00'",
+     "Creator": "Canon iR-ADV 6555  PDF",
+     "ModDate": "D:20241003123610-05'00'",
+     "Producer": "Adobe PSL 1.3e for Canon",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112100530_fd28e3c1f7.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112101550",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_8902014093394bb9820e26e4e5139981.pdf",
+     "mimetype": "application/pdf",
+     "digest": "Z6QPXJY4756UXPUAHARIZ7TODCL7UTXM",
+     "length": "60087",
+     "replay_error": null,
+     "bytes": 62792,
+     "sha256": "08e867d2d1c62687749d960d8a149f15130d5ea0cf6a097416e4d75422318008",
+     "orig_last_modified": "Thu, 17 Oct 2024 18:11:26 GMT",
+     "orig_date": "Tue, 12 Nov 2024 10:15:50 GMT",
+     "orig_last_modified_local": "2024-10-17 12:11:26",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20241017130224-05'00'",
+     "Creator": "Canon iR-ADV 6555  PDF",
+     "ModDate": "D:20241017130834-05'00'",
+     "Producer": "Adobe PSL 1.3e for Canon",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112101550_bf8bc03031.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112103055",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_aa31d48390944ed997162b3efe6c464e.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FDDSOBUFYUCGDSMVYLGJKKUICPXPNIDW",
+     "length": "970794",
+     "replay_error": null,
+     "bytes": 1048576,
+     "sha256": "c9bb4e5103ff26ef8b4e9d69a4638e9ed4221551a0e5c8568348312af04b3446",
+     "orig_last_modified": "Mon, 14 Oct 2024 21:51:25 GMT",
+     "orig_date": "Tue, 12 Nov 2024 10:30:54 GMT",
+     "orig_last_modified_local": "2024-10-14 15:51:25",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112103055_2cb1adb15e.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112104003",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/3d1a20_e5abf37ac311475199903ae63a17386a.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BAFPVDAEXUYU7YPOPLENUO2M3ST7V5IP",
+     "length": "271792",
+     "replay_error": null,
+     "bytes": 467854,
+     "sha256": "a828d10c3f11e8d1e4aaa04a0609579b832f55c138c6e3d22aa8562e6efd7563",
+     "orig_last_modified": "Wed, 30 Oct 2024 16:45:14 GMT",
+     "orig_date": "Tue, 12 Nov 2024 10:40:03 GMT",
+     "orig_last_modified_local": "2024-10-30 10:45:14",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20241030113343-05'00'",
+     "ModDate": "D:20241030113343-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112104003_cde7f45cf0.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241119112801",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_e6281b94f18b439093c69f09f35d6f92.pdf",
+     "mimetype": "application/pdf",
+     "digest": "52SWNMC2L5UBQQTT2BAC7YHIK4KSSDQ2",
+     "length": "1054279",
+     "replay_error": null,
+     "bytes": 1470510,
+     "sha256": "fd159e5b6f8afded51d15daae9831c672e3062f6b91058adfcc6a55141e06e29",
+     "orig_last_modified": "Tue, 30 Apr 2024 17:54:06 GMT",
+     "orig_date": "Tue, 19 Nov 2024 11:28:02 GMT",
+     "orig_last_modified_local": "2024-04-30 11:54:06",
+     "upload_on_election_night": false,
+     "Creator": "Microsoft Reporting Services 14.0.0.0",
+     "Producer": "Microsoft Reporting Services PDF Rendering Extension 14.0.0.0",
+     "CreationDate": "D:20240313125858-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 31,
+     "text_sample_first_streams": "President - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total David Stuckenberg 0 0.00% 1 0.30% 1 0.39% 2 0.32% Asa Hutchinson 0 0.00% 1 0.30% 1 0.39% 2 0.32% Donald J. Trump 26 83.87% 241 72.59% 205 79.77% 472 76.13% Ron DeSantis 0 0.00% 9 2.71% 3 1.17% 12 1.94% Chris Christie 0 0.00% 0 0.00% 1 0.39% 1 0.16% Vivek Ramaswamy 0 0.00% 1 0.30% 0 0.00% 1 0.16% Ryan L. Binkley 0 0.00% 0 0.00% 0 0.00% 0 0.00% Nikki Haley 4 12.90% 66 19.88% 39 15.18% 109 17.58% Uncommitted  \\(No Comprometido\\) 1 3.23% 13 3.92% 7 2.72% 21 3.39% Cast Votes: 31 100.00% 332 100.00% 257 100.00% 620 100.00% Undervotes: 0 1 0 1 Overvotes: 0 0 0 0 United States Senator - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Ted Cruz 29 93.55% 306 92.73% 225 88.93% 560 91.21% Holland \"Redd\" Gibson 1 3.23% 13 3.94% 10 3.95% 24 3.91% R E \\(Rufus\\) Lopez 1 3.23% 11 3.33% 18 7.11% 30 4.89% Cast Votes: 31 100.00% 330 100.00% 253 100.00% 614 100.00% Undervotes: 0 3 4 7 Overvotes: 0 0 0 0 United States Representative, District 13 - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Ronny Jackson 29 100.00% 304 100.00% 237 100.00% 570 100.00% Cast Votes: 29 100.00% 304 100.00% 237 100.00% 570 100.00% Undervotes: 2 29 20 51 Overvotes: 0 0 0 0 121 621 of 2,149 registered voters = 28.90% Official Results Registered Voters 9387 of 57763 = 16.25% Polling Places Reporting 20 of 20 = 100.00% POTTER COUNTY, TEXAS PRIMARY ELECTION 3/5/2024 Page 1 Republican Pct. x Pct. Run Time Run Date 12:58 PM 03/13/2024 | Railroad Commissioner - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Christie Clark 3 10.71% 42 14.24% 34 16.11% 79 14.79% James \"Jim\" Matlock 11 39.29% 81 27.46% 75 35.55% 167 31.27% Petra Reyes 0 0.00% 8 2.71% 8 3.79% 16 3.00% Christi Craddick 14 50.00% 156 52.88% 79 37.44% 249 46.63% Corey Howell 0 0.00% 8 2.71% 15 7.11% 23 4.31% Cast Votes: 28 100.00% 295 100.00% 211 100.00% 534 100.00% Undervotes: 3 38 46 87 Overvotes: 0 0 0 0 Justice, Supreme Court, Place 2 - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Jimmy Blacklock 26 100.00% 283 100.00% 208 100.00% 517 100.00% Cast Votes: 26 100.00% 283 100.00% 208 100.00% 517 100.00% Undervotes: 5 50 49 104 Overvotes: 0 0 0 0 Justice, Supreme Court, Place 4 - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total John Devine 9 39.13% 110 41.98% 79 39.70% 198 40.91% Brian Walker 14 60.87% 152 58.02% 120 60.30% 286 59.09% Cast Votes: 23 100.00% 262 100.00% 199 100.00% 484 100.00% Undervotes: 8 71 58 137 Overvotes: 0 0 0 0 Justice, Supreme Court, Place 6 - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Jane Bland 26 100.00% 266 100.00% 202 100.00% 494 100.00% Cast Votes: 26 100.00% 266 100.00% 202 100.00% 494 100.00% Undervotes: 5 67 55 127 Overvotes: 0 0 0 0 121 621 of 2,149 registered voters = 28.90% Official Results Registered Voters 9387 of 57763 = 16.25% Polling Places Reporting 20 of 20 = 100.00% POTTER COUNTY, TEXAS PRIMARY ELECTION 3/5/2024 Page 2 Republican Pct. x Pct. Run Time Run Date 12:58 PM 03/13/2024 | Presiding Judge, Court of Criminal Appeals - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total David J. Schenck 14 53.85% 181 65.34% 140 64.52% 335 64.42% Sharon Keller 12 46.15% 96 34.66% 77 35.48% 185 35.58% Cast Votes: 26 100.00% 277 100.00% 217 100.00% 520 100.00% Undervotes: 5 56 40 101 Overvotes: 0 0 0 0 Judge, Court of Criminal Appeals, Place 7 - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Barbara Parker Hervey 7 28.00% 109 41.60% 79 38.73% 195 39.71% Gina Parker 18 72.00% 153 58.40% 125 61.27% 296 60.29% Cast Votes: 25 100.00% 262 100.00% 204 100.00% 491 100.00% Undervotes: 6 71 53 130 Overvotes: 0 0 0 0 Judge, Court of Criminal Appeals, Place 8 - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Michelle Slaughter 21 77.78% 152 59.38% 105 52.50% 278 57.56% Lee Finley 6 22.22% 104 40.63% 95 47.50% 205 42.44% Cast Votes: 27 100.00% 256 100.00% 200 100.00% 483 100.00% Undervotes: 4 77 57 138 Overvotes: 0 0 0 0 Member, State Board of Education, District 15 - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Aaron Kinsey 26 100.00% 265 100.00% 200 100.00% 491 100.00% Cast Votes: 26 100.00% 265 100.00% 200 100.00% 491 100.00% Undervotes: 5 68 57 130 Overvotes: 0 0 0 0 121 621 of 2,149 registered voters = 28.90% Official Results Registered Voters 9387 of 57763 = 16.25% Polling Places Reporting 20 of 20 = 100.00% POTTER COUNTY, TEXAS PRIMARY ELECTION 3/5/2024 Page 3 Republican Pct. x Pct. Run Time Run Date 12:58 PM 03/13/2024 | State Representative, District 87 - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Richard Beyea 1 3.33% 17 5.18% 18 7.06% 36 5.87% Caroline Fairly 22 73.33% 232 70.73% 159 62.35% 413 67.37% Cindi Bulla 6 20.00% 72 21.95% 68 26.67% 146 23.82% Jesse Quackenbush 1 3.33% 7 2.13% 10 3.92% 18 2.94% Cast Votes: 30 100.00% 328 100.00% 255 100.00% 613 100.00% Undervotes: 1 5 2 8 Overvotes: 0 0 0 0 Justice, 7th Court of Appeals District, Place 2 - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Judy Parker 24 100.00% 271 100.00% 210 100.00% 505 100.00% Cast Votes: 24 100.00% 271 100.00% 210 100.00% 505 100.00% Undervotes: 7 62 47 116 Overvotes: 0 0 0 0 Justice, 7th Court of Appeals District, Place 3 - Republican Party - Vote for One Choice Party Absentee Voting Early Voting Election Day Voting Total Alex Yarbrough 24 100.00% 271 100.00% 207 100.00% 502 100.00% Cast Votes: 24 100.00% 271 100.00% 207 100.00% 502 ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241119112801_3e05e9a8af.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241120052024",
+     "original": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_1c89f9a64d154d708867e93a6eb63fbd.pdf",
+     "mimetype": "application/pdf",
+     "digest": "B2EA5LKDJ5S2NTPT3K273LWXTYSKANPM",
+     "length": "607622",
+     "replay_error": null,
+     "bytes": 1333014,
+     "sha256": "ddf7f46c373720af332c6a5133590d6bcb4e393bb30ce365d161622d080ac72c",
+     "orig_last_modified": "Tue, 06 Aug 2024 15:14:31 GMT",
+     "orig_date": "Wed, 20 Nov 2024 05:20:24 GMT",
+     "orig_last_modified_local": "2024-08-06 09:14:31",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20240806101154-05'00'",
+     "ModDate": "D:20240806101154-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241120052024_38582c3597.pdf"
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov%2Farchived-election-results&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 2,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035727",
+     "original": "https://www.pottercountytexasvotes.gov/_api/v1/access-tokens",
+     "mimetype": "application/json",
+     "digest": "UHBTOJGOZXBOO4E75JKU4XIGEGAKVYPD",
+     "length": "11696"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035728",
+     "original": "https://www.pottercountytexasvotes.gov/_api/tag-manager/api/v1/tags/sites/97b2dac5-6a69-4341-a923-3741832f5716?wixSite=false&htmlsiteId=1423998f-0dac-4d4a-975d-ccafd8ac5a7d&language=en&partytown=false",
+     "mimetype": "application/json",
+     "digest": "FR24KYUV73AK3QK6P6NC3RZCAU4VIQFW",
+     "length": "2415"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035727",
+     "original": "https://www.pottercountytexasvotes.gov/_api/v1/access-tokens",
+     "mimetype": "application/json",
+     "digest": "UHBTOJGOZXBOO4E75JKU4XIGEGAKVYPD",
+     "length": "11696",
+     "replay_error": null,
+     "bytes": 9877,
+     "sha256": "8400f076546685f7a8ab07c6f7dc590dd8a22f704bd204644a1e2924f25ec64d",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 03:57:27 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd}ks\ufffdV\ufffd\ufffd\u007f\ufffd\ufffdQJ\u06ba\ufffdo\ufffd@\b#\ufffd\u0012\u0012B\ufffd\ufffd\ufffd\u0015]ml\ufffd\ufffdN\ufffd\u007f\u007f\u05d6;\ufffd\u0004\ufffd\ufffd\ufffd\ufffd\ufffd8\ufffd\ufffdJ%\ufffd\ufffd1\ufffd\ufffd\ufffdsY\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd? \ufffd\ufffd\u007f\ufffd@\ufffd\ufffd\ufffd[\ufffd+\ufffd\u03efF\ufffd\ufffd\ufffd\ufffd\u0012\ufffd Q~\ufffd\ufffd/\ufffd\ufffde\ufffd\u06d5\ufffdO\ufffd\ufffdT\ufffd\ufffd \ufffdgHq\ufffd \ufffd\u033b1k\ufffd\ufffdq^ \u000e\ufffdh\ufffd\u0006~X$m\ufffd\ufffd\ufffd(\ufffde\ufffdNv\ufffd\ufffdx\ufffdt\ufffd\ufffd\ufffd\ufffdQ=\ufffd\ufffd.a\ufffd*9\ufffd\ufffd\ufffd/\ufffd\ufffd\u06f8\u0014m\ufffd\ufffd\ufffd\ufffd/~\ufffd\"\ufffdyV\ufffdzR.\u0299\ufffdu\u0006g\ufffd3\ufffdW|q\ufffd\ufffd&\ufffdb\ufffdL\u0007\u0012^\ufffd\u066a [\ufffd\ufffd\ufffd&;\ufffd \ufffdt\ufffd}P\ufffdq\ufffd&\ufffdq=\ufffd)\u0018O\ufffd\ufffd\ufffd\u0015\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffd,\ufffd\ufffd\u0011[\u02da\ufffd\ufffd|W>8\ufffdq\ufffd\u0014j2\ufffd\\ _\ufffd\u07cf}\ufffd,\ufffdY\ufffd\ufffdW\u5624Q\"2R$\ufffd\ufffd\ufffd \u0013\ufffd\ufffdgxY\ufffd\u0014\ufffd\ufffd\ufffdI\ufffd\ufffdh\ufffd\u0005\ufffd\ufffd\ufffd/\ufffdL\u0118\ufffd\"C\ufffd\ufffd0B$\ufffd\u0000 )e\ufffdOx|z\ufffd,\ufffd\ufffd\ufffd\ufffdO\ufffd}\ufffd\ufffdd\ufffd\ufffd?\u001a:\ufffd\ufffd\ufffd\ufffdu{\u0012\u0004\ufffd\u0004f \\;\ufffdG\u001a\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd4Oq\ufffd\u00148\ufffd\ufffdy\ufffd\u0010\u001bd\ufffd\u000e\ufffd\ufffdk\ufffdV\u06a0[T \ufffd\ufffd |.7\ufffd\ufffd \ufffdjm\ufffdr7\u0004 \u0313\ufffd\ufffd \u0539\ufffdr \ufffd]~8N\ufffdf\ufffd\ufffd\b@{\ufffd\ufffd&\ufffd\ufffd\"\ufffd \u0005d|\ufffdF\ufffd9tW% \ufffd\ufffd!\ufffd]\u0015\ufffd?\u0105kt\ufffd\ufffd4\ufffd\ufffd C\u05f8\u0005\bU.!\ufffd~&?\ufffdm\ufffd \ufffdI@(\u01ebY.\ufffd\u0011\ufffdp\ufffd\ufffd(\ufffd\ufffd\ufffd\ufffd\ufffdI\ufffd\\PID\u0012\ufffdW/ t\ufffdpVsQU\ufffd/\ufffd8\ufffdj\u0002?2\ufffd\ufffd\ufffdhh\ufffdd4PK\ufffd\ufffdm\ufffd\ufffdv\u0014, \ufffdj\u0015j\ufffd\u0013\ufffdNc \ufffd\ufffdB\u0007 \ufffd\u0014]?\u0005\ufffd\u01e7P\ufffdQ\ufffd\ufffd \ufffd\ufffd_[\u0011\ufffd\u0003\ufffd\u0019&`!\ufffd\u0012\u07ff\ufffdZK38T\ufffd\u7833\ufffd\u03de\ufffd%W\ufffd.\ufffdW\ufffd8\ufffd\u0016\ufffd\ufffd\ufffdo\ufffd\ufffdh\ufffdE\u0018,\u04a6 \u07cb\ufffd{|B\ufffd\u000f\ufffdS\u0005K \u00020\ufffdB#\u007f\u000e\ufffd`o\ufffd\ufffd\ufffd\ufffd\ufffd\"t\ufffd)\u0010\ufffd\ufffd\ufffd \ufffd\u001b\u0018\ufffd\ufffd\ufffdiW\ufffd\ufffd\u0016z\u074f\ufffd\ufffd V\ufffd\u07e9%\ufffdK8\ufffd\ufffd\u0016\u0017\ufffd\ufffd\ufffdc\ufffd5\ufffdk\u0001 \u07bfA\ufffd \u0016\u0010/\ufffd\ufffd~\ufffd\u007f\u0006 \ufffd\u000f\ufffd_|\ufffd\ufffd\ufffd\ufffd\ufffd\u0012V \ufffd\ufffd\ufffd2#dl\u00a8\u06370\u063c\ufffdT\ufffd\u0016\ufffd\ufffd\u0018\ufffd\ufffdiL\ufffd\u0017U\ufffds\ufffd\u001bc6\ufffd\ufffd(q'~\ufffd\ufffd\ufffd\ufffd\ufffdtE\ufffd\ufffd\ufffd\ufffd2\ufffd\ufffdT\ufffd\ufffd\ufffd\ufffd\u063c\ufffd\ufffd!\u01b1(f9:\ufffd\\\ufffd\u0249\ufffdi\ufffd\ufffd\ufffd\ufffdz\ufffd,\\{\u000f\ufffdiL\ufffd'\u0017:Fx\ufffdwm\ufffdP[ \ufffd\u000fU\ufffd\ufffdyB\ufffd%\ufffd38\ufffd\ufffd\ufffd\ufffd\ufffdo Q\u0014V\u0018\ufffdC-lL|\ufffd-\u07fb\ufffd\u0002\ufffd\ufffdqG\ufffd,\u0006\ufffd\u0015\ufffd0\ufffd\u0005E\ufffd\ufffd\u0002\ufffd\u007fS\ufffd \ufffd\ufffd\ufffd\ufffd\u0018\ufffd\ufffdY\ufffdj!\ufffdna\ufffd\ufffd\u0257\ufffd|?\ufffd?\u0003\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd~\ufffd\u0010E\ufffd\u030bL\u0014\ufffd(\ufffd\ufffd4\u0184VN\u00186\ufffd\u0005Ia\ufffd\u0005\ufffd\ufffd@\ufffdW\u0002\ufffdm\ufffd\ufffd\ufffd\ufffd\ufffdl\ufffdyahd\ufffd\ufffd\ufffd\ufffdm\ufffd\ufffdO\ufffd\ud0d4=\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0001\ufffd!l5\bz\ufffd\ufffd\ufffd\u7fa0u\u01f4@n\u0016\ufffd\ufffdMW\ufffdX\u076a4\ufffd\ufffd\ufffd\"\ufffdx\ufffd@6\u0264\u0000\ufffd\ufffd`\u42a0\ufffdO8t\ufffd\ufffd\ufffd\u0006\ufffd\u000f\ufffd\ufffd1h\ufffd\ufffd\ufffd6GK\ufffd\u0001n?c\ufffd\ufffd\ufffd\ufffd+^\ufffdo \u0003b\u0015\ufffd\ufffdth4\u0139;\ufffd\ufffd\u000f\ufffd, m@\ufffd\ufffd\ufffd\ufffd$\ufffdP\u0018j6oV\ufffd \ufffd\u00188\ufffd\u0012B\ufffdg\ufffd3A\ufffd\u0017:\ufffd\ufffd\ufffdA\ufffdD \ufffd\ufffdE\ufffd1\ufffd \ufffd\u001a\ufffd \ufffd\ufffd \ufffdS\ufffdj\u0015\ufffdj\ufffd\ufffdP\ufffd& \ufffd\ufffda\ufffdm\u00156S\u0006f\ufffd\ufffd$\ufffd\ufffd\u0018R\ufffd'\ufffd\ufffdM\u000e\b\u0001\u0627\ufffd\ufffd\ufffd?QV\u0454\ufffd%\ufffd\ufffdC\u0015J\u0016ZS\ufffdF \ufffd\u0003T\ufffd\ufffd 4M\ufffd\ufffd\ufffd@7A\ufffd\b\u0001^z\u0638Y\ufffd*^#\b\u0011\ufffd\u0011\u0015'\ufffdet B\ufffd\ufffdt\u0016:8\u0007\ufffdBq q\u001bI0\ufffd0\u0004\ufffd\ufffdJ\u007fs\ufffd*\ufffd/\u001b\ufffd\ufffd\ufffd\ufffdL\u0010j\ufffd\ufffd\ufffdE\ufffd$ T\ufffd96\u0007\ufffd\ufffd\ufffdy\ufffd\u0002B3\ufffdQSAb\u0014\ufffdK J\ufffd$\ufffdP\ufffd\ufffd\ufffd\ufffdfo\ufffd\ufffd(\ufffd\ufffd\u02c4\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd-u\ufffdz3J\ufffd\ufffd|\ufffd O\ufffd3\ufffdy\ufffd)\ufffd\u0001H\u0001h\u0631\ufffdN\u0000\ufffd\ufffd\ufffd\u0002\ufffd \ufffd7\u0016\ufffd5\ufffd \ufffd`U\u0003\ufffd \ufffd\u0002r\b!hW\ufffd\u0015\be\ufffdw\u01f0\u017ai\ufffd\ufffd\ufffd\ufffdg\ufffdXF/|4\ufffdX1\ufffd\u06a46\ufffd \u0007e\ufffd\ufffd\ufffd*\ufffd\ufffd\ufffdj b\ufffd\u0006U\u000f+BA\u0000r\ufffd\u0010d\u0000PV\ufffd\ufffd\ufffd\ufffd \ufffd\u0001\ufffd\u07edE\ufffd \b\u07c7\u001a\u007fw\b\ufffd\ufffd\u07ff\ufffd\ufffdO\u0005\ufffd_\ufffdL\ufffd\ufffd,\ufffd\u0608g\ufffd$V\u00199\ufffdsH-U\ufffdII\ufffd\ufffd\u0000\ufffd# \ufffd\u029f\ufffdS\u000f\ufffdL+\ufffdS)8J\ufffd\ufffdiY\ufffd\ufffd\ufffd\u0006\ufffd\ufffd\ufffdr>w\ufffdx> N\ufffdW\ufffd)w\ufffd\ufffd*\ufffd\u050a\ufffd\u049c\u0002U\u0012\ufffd?\ufffd\ufffdQ\ufffdjW\ufffdT\ufffd\u0003\ufffd*8=6e\ufffd\ufffdL\ufffdi-\ufffd \ufffd\ufffdu Z\ufffd\ufffd\u0002D\ufffdo\ufffd\ufffda\ufffd:\ufffd\ufffdy\u0014u\u035bn\u001b[\ufffd\ufffd\ufffd\ufffd \ufffdG\ufffd \ufffd\u039a9\ufffdN?\ufffdC\ufffd\u0002\b\u0004H\ufffd\ufffd\u0003*\ufffd:a\ufffd\ufffdi(%\u0019\u00165jP\ufffdW\ufffd,\ufffd8\u0006\u0000\ufffd\u0000\u02d0k J\ufffd\ufffd\u0005\ufffd\ufffd\ufffdD\ufffdT\ufffd:w\ufffd3\b\ufffd\ufffdP\ufffd`\ufffd \ufffd$ K\ufffd\ufffdPN\ufffd u\u02ed \ufffd\u0002\"Z\ufffdW\ufffd5\ufffd*\u02240\u0006\ufffd*\u0015\ufffdi\ufffd\ufffd\ufffd\ufffdB\ufffdN(\ufffd\ufffd\ufffd\ufffdP\ufffdV m\ufffd\ufffd\u0001\u0017\u0001m\ufffd \ufffd\ufffda\u06ebO\u026a\ufffd\ufffd/@hg\ufffd`\ufffd\ufffdj-\ufffd[\u0010\ufffdK,\ufffd^\ufffdC\ufffd\ufffd3\ufffd\ufffd\ufffduN%@4\ufffd\ufffd\u0010\ufffd^ \ufffd'*\ufffd\ufffdl\ufffd2j.\ufffd\ufffd,\ufffd\ufffd\ufffd\ufffd\ufffd\b rC\ufffdg\ufffd3\ufffd\ufffd_\ufffdL\u0002B#\ufffd\u0010(Mc\ufffd\ufffd\ufffd\ufffdQ\ufffd\ufffdc+\u000f+\u0014A\u0010\ufffd\u0018N(l\ufffd]\ufffd\ufffd\ufffd\ufffdF\u0585\u0216\ufffd\ufffd\u0212\ufffdT=N\ufffdN\ufffd~tV\ufffdXz\ufffd^\ufffd\"\ufffdN\u043e\ufffd \ufffd\ufffd$\u043d9\ufffd\ufffd\u0000\ufffdX\u007f\ufffdyh;f{b\u00134\ufffd\u0016f\ufffd\ufffd`B\ufffd\ufffd\ufffd\u0001\ufffd6\u000f\ufffdj\u001b\ufffd\ufffd\ufffd\u0013J #)8\ufffdQ\ufffd% \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd1\ufffd\ufffd\ufffd\ufffd^3\u05065\ufffd-7 \ufffd\ufffd9h\ufffd\ufffd=\ufffd\u0011\ufffd\u000e\ufffd\ufffd\u0002\ufffd\ufffd\ufffdRC.jH\u0142D6)B\ufffdRQ\u06d7\ufffd1\u000f\ufffd>\u0010\ufffd\ufffdg\ufffdSU\ufffd`\ufffd|\ufffd3I[y\u0213\u0004Q\u0399\ufffd% #\ufffd\ufffd\u0228P\ufffd3\ufffd\u0002\u0010\ufffdsY\ufffd\ufffd\u000f\ufffd\ufffd\ufffd \u0007Z9\ufffd=6\ufffd\ufffd\ufffdg]\u0013\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd!\ufffdts\ufffd\ufffd\ufffdAW/\ufffd\ufffd\ufffd\u0007\ufffd&\u0017-fk {A'6\ufffd 'a\ufffd\ufffd\u0001\u0006\ufffd(B{\ufffd\ufffd+'\ufffd\u05bcK\ufffd\ufffd \ufffd\ufffdzu\ufffd\ufffd\ufffd=}\ufffd\ufffdk\u00032\u0001\u001bx\ufffdS\ufffdM4\ufffdw\u0016\ufffdv\ufffd\ufffdihx\u06ed =@V\u027c\ufffd\u000eF\ufffd\ufffd\ufffd\ufffdc$)/\ufffd\ufffd,0a\ufffd;gm\ufffd\ufffdt\ufffd\ufffd\u0003n\ufffd\u0010\ufffd;\ufffd\ufffd\ufffd\u001a\ufffd \ufffdd\u0017R{\u02bap\ufffd.\ufffd\ufffd\ufffd\ufffd{\ufffd\u0000\ufffd \ufffd63\ufffd\u0010\ufffd\ufffd]\ufffdO\u000e\u0001Y%F\ufffd\ufffd\u05e3?g\ufffd\ufffd\ufffd\ufffd\ufffd\u007f`\ufffd\ufffd\ufffd\u001aT\ufffdtu\ufffdP\u001bTY624\ufffd\u0015*\ufffdOK\ufffd\ufffd\u0426\ufffd*\u0013\ufffd\ufffd\u078c?1\ufffdS\ufffd\ufffd\u007fL\ufffd\b{\ufffd\ufffd\ufffd\ufffd\ufffd \u0001+ [\ufffd\ufffd \u001a:f\ufffd\ufffd\ufffdt\u001a\ufffd\ufffd\ufffd8T \ufffd\ufffd\ufffd \ufffd*\ufffd6\ufffd\ufffdS \ufffd \u0007a9!\u0011\ufffdx\ufffd\ufffd\ufffd\ufffd\ufffd7Y$\ufffd\ufffd\ufffdib_\ufffdb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdG\ufffd\ufffd\ufffdg\ufffd\ufffd \ufffdEsD0\ufffd\u01e2BD^ ^W\u0005S|\ufffde) \ufffd\ufffd\u000e +\ufffd\ufffdI \ufffd0\ufffdE\ufffd\ud38fx\ufffd 6\ufffdx\ufffd\u0015~\ufffd\u007f\ufffdo\ufffd\ufffd;\ufffd?H\ufffdy\ufffd\ufffdj\u0000\ufffd@\ufffd\u0019\ufffd\ufffd\ufffd:\u0499\ufffd\ufffd{\u0004\ufffd\ufffd\u0005rB\ufffd\ufffdK\ufffd\ufffd\u0019v\u0007\u02be[#\ufffd\ufffd\ufffd3\ufffd\ufffd?N\ufffd\ufffd\ufffdq\ufffdk;\ufffd\ufffd\ufffd]\ufffd\u07ef \ufffd\ufffd3\ufffd\ufffd#n\ufffdgs\u0002{\ufffd\ufffd\u0019+\ufffdg\ufffdY\u0000\ufffdw\u0016\ufffd\ufffd\ufffdy t=T(\\\u0017\ufffd\u07f2\ufffd`\ufffd*b>\ufffd\ufffd\ufffd\ufffd\ufffdo\u00b7\ufffd\ufffd\u051e\ufffdY:}V\ufffdm4\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffds 3\ufffdy6\u000e\ufffd\ufffd\ufffd2\ufffdeyJ\ufffdEM\ufffd=r\"\u07b3\ufffdJ\ufffdK\u0017N\"~;\ufffd\ufffd\ufffdx\ufffdZ? \u0006\ufffdx\ufffdh\u03c9l\ufffd\ufffd\ufffd\ufffd!\u01e7\ufffd\u0105\ufffd;\ufffd\ufffd\ufffdW!\ufffd\ufffd\ufffd\u0003\u0017\ufffd\ufffdW\ufffd\ufffd \ufffd t_P\ufffd-\ufffd\ufffd\ufffd\ufffd\ufffdy\u007f\ufffd\ufffd:\ufffd\ufffd\ufffd\u0011\ufffd\ufffdy\ufffd\ufffd}\ufffd\ufffd\ufffd\ufffd',\ufffd\ufffd1\ufffd\ufffd{j!\ufffdk\ufffdnA\u0016\ufffd)Yn\ufffd \ufffd\ufffd3gt\ufffd\ufffd\ufffd(\ufffd\u0002\ufffdzx\ufffd\u0006I$ \ufffd\ufffdx\ufffdY \ufffd\ufffd\ufffdU\u0001\b\ufffd\ufffd\ufffd\u0011dC`\ufffdE\ufffdv\ufffd\ufffd-XL\ufffd: \ufffd\u0011M\u0007b f4\ufffd\ufffd\u0015\ufffd\ufffd\ufffd7ZEH\ufffd!\u0683\ufffd\ufffd\u0000 50\ufffd]\ufffdCs\ufffd\ufffd\u0005\ufffdc\ufffdW\ufffd\ufffd\ufffd\ufffd\u0001\ufffdiG \ufffd_\u0012\u0293\u0118\u0016\ufffd-\ufffdwP\ufffd k\u03360\ufffd9\ufffd\ufffd7\ufffd\u001bF\u0015\u0006\u0012 \ufffd44\ufffd7\u042c\ufffd)\ufffdA\ufffdr?\ufffd\ufffd\ufffd]\ufffd:\ufffd\ufffd\ufffd(\ufffd\u042a\ufffdpX\u0015\ufffdaW\u0011Y\ufffd\ufffdy\ufffdC\u0010\ufffd\u02a9\ufffdH\u0012,\u0014.\ufffd\ufffd%\ufffd\ufffdL\ufffd\ufffd\ufffd9Y`\ufffd\ufffd\ufffd\\\ufffd \ufffd\ufffdM\ufffd\ufffd+\ufffd\ufffd\\\ufffd\ufffd\u07be\ufffd\ufffdmV%?(U\ufffd \u0000\u0014\ufffd\u0015\ufffd\ufffd}\ufffdE\ufffd\ufffd\u0015\ufffd&k\ufffdpF\ufffd\ufffdn\ufffd&\"#-bC5a\ufffdP \ufffd\ufffd\ufffd\u0000\ufffd\u0017\ufffdgL\ufffd\ufffd6h!(\ufffd\u0007et\ufffd\u051c\u00021\ufffd`\u001a\u0002Xnxi0\u0003K\u0012i\u0011\ufffdr\ufffd\ufffd\ufffdH\ufffd\ufffd\u0013/\ufffdfj(\ufffd\ufffd \ufffdQ\ufffd\u000f\ufffd\ufffd\ufffd\ufffd*\u014e\ufffd\u0016\ufffd+ \u00104\ufffd \ufffdO\ufffd\\\ufffdBG\u0012\bJH\ufffd\ufffd7\u0002\ufffd\ufffd\ufffd`\ufffd$\ufffdB\ufffd$ # \ufffd\ufffd*\b\ufffd!\ufffd%\ufffd\ufffdO\ufffd\u007fV^\u01f6G\ufffd\ufffd>T\\ v\"@\u0017\u0223L\ufffd\ufffd\b\ufffd\ufffdH0\u0014\ufffd\ufffd\ufffd\ufffd}b\ufffd\ufffd[J\ufffd&\ufffd@\ufffd\u000e\u0010\ufffd\u04c1Y_\ufffd?\ufffd)\u0641\ufffd!]\ufffd",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321035727_5591d1232d.bin"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035728",
+     "original": "https://www.pottercountytexasvotes.gov/_api/tag-manager/api/v1/tags/sites/97b2dac5-6a69-4341-a923-3741832f5716?wixSite=false&htmlsiteId=1423998f-0dac-4d4a-975d-ccafd8ac5a7d&language=en&partytown=false",
+     "mimetype": "application/json",
+     "digest": "FR24KYUV73AK3QK6P6NC3RZCAU4VIQFW",
+     "length": "2415",
+     "replay_error": null,
+     "bytes": 764,
+     "sha256": "927fdb45042aa04aa5c06bff3ce0ec520ffce9f232377b5e9db8400d9aec1057",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 03:57:28 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffdTao\ufffd6\u0010\ufffd+\ufffd}\ufffd\u0000\u0271-\ufffd\ufffd\ufffd,@c;i\ufffd8 \ufffdx\ufffd0w\ufffd\ufffd P\ufffd\u06edk\ufffd\ufffd\u001bA\ufffdw\ufffd\ufffd; \ufffd\ufffdai!\ufffd\ufffd\u0019\ufffd\ufffd 8\ufffdb\ufffdX\u0012b\u0014\ufffda \ufffd k\ufffd\ufffd\u007f\ufffd\u0015\ufffd\ufffd u\ufffd\ufffd\ufffd\u04eer_*\ufffd$V\ufffdOz\ufffd\ufffd\ufffdF\ufffd?\ufffd6[\ufffdSy\ufffdX\ufffdR4,\ufffd\u000f\u0005c\u0018\ufffd \ufffdGQ\ufffd\ufffd8 ',OW\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdK\ufffd \u00d9\u0012\ufffd\u0011\ufffd\ufffd+d \ufffd3\ufffd@\ufffd\ufffd\ufffd\ufffd.\ufffdF[\ufffdV\ufffd\ufffd\u0003\ufffdO\ufffd\ufffd(>(N\ufffd9\ufffd\ufffd\u00008:*\ufffd\ufffdE\ufffdZR\ufffd\u0013\u0004 t\ufffd\ufffd\ufffd\u001a\ufffd \u0019\ufffd\ufffd\ufffdm7\u0691\ufffd1A\u0000 \ufffd\ufffdg\ufffd)\ufffd\u0013\ufffdT\ufffd\ufffd \ufffdy\u000eF\ufffd%,\u0019\ufffd\ufffd\u0018 cb\u0018\ufffdhP\ufffd,E*\ufffd1\ufffd\ufffd\ufffd\u0000\u0002\u0610\ufffd\ufffd\ufffd\ufffdG\ufffdA\u007f\ufffdZ\ufffd\u001b\ufffdH\ufffdK_'\ufffd \ufffd\u03d3\ufffd\ufffd \ufffd\"3%^IE\ufffdWf\ufffdE|\ufffduY *\u0375\ufffd\ufffd\ufffd\u0007\ufffdA\ufffd\ufffd\ufffd:{\ufffd \ufffd\u0006\ufffd\u0016\ufffd/\ufffd\ufffdgW\ufffd\ufffd\u000eS_\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd\ufffdX\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.\ufffdl\ufffd\ufffd\ufffd\ufffd)\ue1c4\ufffd\ufffd\ufffd\\\ufffd\ufffdK\ufffd\ufffd\u0016o\u022d\ufffd\ufffd\ufffdjv\ufffd\u0006&k\ufffdt\u0769:\ufffdw\u0001\ufffd\ufffd13Uh\ufffdI\\\ufffdmjm\ufffdv\u007f\u0001\u0000\u0000\ufffd\ufffd\u0003\u00009\ufffd{\ufffd\ufffd\u0005\u0000\u0000",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321035728_330dad9b3f.bin"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov%2Farchived-election-results&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

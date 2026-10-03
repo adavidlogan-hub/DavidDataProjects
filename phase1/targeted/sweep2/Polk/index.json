@@ -1,0 +1,415 @@
+{
+ "county": "Polk",
+ "spec": {
+  "file_prefixes": [
+   "polkcountyapps.net",
+   "polktx.gov"
+  ],
+  "page_prefixes": [
+   "polktx.gov/313/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 06:21:14",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov%2F313%2F&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov%2F313%2F&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    }
+   ],
+   "versions_found": 5,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307125205",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1000/March-2026-Republican-Sample-Ballots-PDF-",
+     "mimetype": "application/pdf",
+     "digest": "DH34ZB7XEBIBTAHLMLK7Y726P3UDRLEU",
+     "length": "174276"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318043547",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1104/Cumulative-Results-3-3-2026-?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "UF6M7PGHYGDEERMOUIY4DTDWZSP2UOZE",
+     "length": "286874"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318051625",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1084/2026-03-03-Election-Board-Meeting-Notice?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "5HIPDGBV2KGGH3OLMS7EK44EY6IQW266",
+     "length": "171378"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260322154731",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1133/-Notice-of-Logic-and-Accuracy-Test-for-Election-Equipment-for-May-2-2026-Election?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "643VZ6DRGRAUY6NSNVHOFE2GQAAAR22W",
+     "length": "177818"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323050828",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1054/Primary-Election-Day-Time-and-Locations?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "3FZ2CEZAKRR4BBIKQ64MQRDFGWOPGZLY",
+     "length": "942564"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318043547",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1104/Cumulative-Results-3-3-2026-?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "UF6M7PGHYGDEERMOUIY4DTDWZSP2UOZE",
+     "length": "286874",
+     "replay_error": null,
+     "bytes": 319793,
+     "sha256": "d829e07b79ff05b4fe08e838db4c838c892508d970de7746dd9ee2c9c07b0d32",
+     "orig_last_modified": null,
+     "orig_date": "Wed, 18 Mar 2026 04:35:47 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "Creator": "Microsoft Reporting Services 2019.11.0.0",
+     "Producer": "Microsoft Reporting Services PDF Rendering Extension 2019.11.0.0",
+     "CreationDate": "D:20260303215252-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 31,
+     "text_sample_first_streams": "Cumulative Results Report Unofficial Results Run Time Run Date 9:52 PM 03/03/2026 POLK COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Page 1 Unofficial Results 43384 9524 of 43624 = 21.83% Precincts Reporting 22 of 22 = 100.00% United States Senator - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Jasmine Crockett 68 40.24% 419 53.31% 350 62.06% 837 55.10% Ahmad R. Hassan 2 1.18% 15 1.91% 6 1.06% 23 1.51% James Talarico 99 58.58% 352 44.78% 208 36.88% 659 43.38% Cast Votes: 169 100.00% 786 100.00% 564 100.00% 1,519 100.00% Undervotes: 6 15 7 28 Overvotes: 0 0 0 0 United States Representative, District No. 10 - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Dawn Marshall 51 34.23% 278 38.29% 216 41.86% 545 39.18% Bernie Reyna 18 12.08% 174 23.97% 111 21.51% 303 21.78% Caitlin Rourk 80 53.69% 274 37.74% 189 36.63% 543 39.04% Cast Votes: 149 100.00% 726 100.00% 516 100.00% 1,391 100.00% Undervotes: 26 75 55 156 Overvotes: 0 0 0 0 Governor - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Gina Hinojosa 117 70.91% 356 48.11% 222 42.53% 695 48.70% Patricia Abrego 5 3.03% 49 6.62% 28 5.36% 82 5.75% 4 2.42% 46 6.22% 35 6.70% 85 5.96% Carlton W. Hart 2 1.21% 20 2.70% 18 3.45% 40 2.80% Zach Vance 2 1.21% 25 3.38% 21 4.02% 48 3.36% Bobby Cole 8 4.85% 72 9.73% 63 12.07% 143 10.02% Chris Bell 17 10.30% 114 15.41% 65 12.45% 196 13.74% Andrew White 10 6.06% 48 6.49% 53 10.15% 111 7.78% Jose Navarro Balbuena 0 0.00% 10 1.35% 17 3.26% 27 1.89% Cast Votes: 165 100.00% 740 100.00% 522 100.00% 1,427 100.00% Undervotes: 10 61 49 120 Overvotes: 0 0 0 0 | Cumulative Results Report Unofficial Results Run Time Run Date 9:52 PM 03/03/2026 POLK COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Page 2 Unofficial Results 43384 9524 of 43624 = 21.83% Precincts Reporting 22 of 22 = 100.00% Lieutenant Governor - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Marcos Isaias Velez 26 16.77% 220 30.64% 171 33.79% 417 30.24% Courtney Head 23 14.84% 181 25.21% 138 27.27% 342 24.80% Vikki Goodwin 106 68.39% 317 44.15% 197 38.93% 620 44.96% Cast Votes: 155 100.00% 718 100.00% 506 100.00% 1,379 100.00% Undervotes: 20 83 65 168 Overvotes: 0 0 0 0 Attorney General - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Nathan Johnson 71 45.22% 357 49.93% 281 56.31% 709 51.71% Joe Jaworski 55 35.03% 221 30.91% 118 23.65% 394 28.74% Anthony \"Tony\" Box 31 19.75% 137 19.16% 100 20.04% 268 19.55% Cast Votes: 157 100.00% 715 100.00% 499 100.00% 1,371 100.00% Undervotes: 18 86 72 176 Overvotes: 0 0 0 0 Comptroller of Public Accounts - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Sarah Eckhardt 121 78.06% 468 65.64% 295 60.57% 884 65.24% Michael Lange 22 14.19% 131 18.37% 107 21.97% 260 19.19% Savant Moore 12 7.74% 114 15.99% 85 17.45% 211 15.57% Cast Votes: 155 100.00% 713 100.00% 487 100.00% 1,355 100.00% Undervotes: 20 88 84 192 Overvotes: 0 0 0 0 Commissioner of the General Land Office - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Jose Loya 83 54.61% 338 48.01% 223 44.87% 644 47.60% Benjamin Flores 69 45.39% 366 51.99% 274 55.13% 709 52.40% Cast Votes: 152 100.00% 704 100.00% 497 100.00% 1,353 100.00% Undervotes: 23 97 74 194 Overvotes: 0 0 0 0 | Cumulative Results Report Unofficial Results Run Time Run Date 9:52 PM 03/03/2026 POLK COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Page 3 Unofficial Results 43384 9524 of 43624 = 21.83% Precincts Reporting 22 of 22 = 100.00% Commissioner of Agriculture - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Clayton Tucker 151 100.00% 653 100.00% 475 100.00% 1,279 100.00% Cast Votes: 151 100.00% 653 100.00% 475 100.00% 1,279 100.00% Undervotes: 24 148 96 268 Overvotes: 0 0 0 0 Railroad Commissioner - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Jon Rosenthal 151 100.00% 662 100.00% 468 100.00% 1,281 100.00% Cast Votes: 151 100.00% 662 100.00% 468 100.00% 1,281 100.00% Undervotes: 24 139 103 266 Overvotes: 0 0 0 0 Chief Justice, Supreme Court - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Maggie Ellis 129 83.23% 572 80.45% 408 80.63% 1,109 80.83% Cory L. Carlyle 26 16.77% 139 19.55% 98 19.37% 263 19.17% Cast Votes: 155 100.00% 711 100.00% 506 100.00% 1,372 100.00% Undervotes: 20 90 65 175 Overvotes: 0 0 0 0 Justice, Supreme Court, Place 2 Unexpired Term - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Chari Kelly 154 100.00% 661 100.00% 469 100.00% 1,284 100.00% Cast Votes: 154 100.00% 661 100.00% 469 100.00% 1,284 100.00% Undervotes: 21 140 102 263 Overvotes: 0 0 0 0 Justice, Supreme Court, Place 7 - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Gordon Goodman 31 20.13% 218 31.55% 181 37.17% 430 32.28% Kristen Hawkins 123 79.87% 473 68.45% 306 62.83% 902 67.72% Cast Votes: 154 100.00% 691 100.00% 487 100.00% 1,332 100.00% Undervotes: 21 110 84 215 Overvotes: 0 0 0 0 | Cumulative Results Report Unofficial Results Run Time Run Date 9:52 PM 03/03/2026 POLK COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Page 4 Unofficial Results 43384 9524 of 43624 = 21.83% Precincts Reporting 22 of 22 = 100.00% Justice, Supreme Court, Place 8 - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Gisela D. Triana 150 100.00% 649 100.00% 466 100.00% 1,265 100.00% Cast Votes: 150 100.00% 649 100.00% 466 100.00% 1,265 100.00% Undervotes: 25 152 105 282 Overvotes: 0 0 0 0 Judge, Court of Criminal Appeals, Place 3 - DEMOCRATIC PARTY Choice Party Absentee Voting Early Voting Election Day Voting Total Okey Anyiam 150 100.00% 632 100.00% 456 100.00% 1,238 100.00% Cast Votes: 150 100.00% 632 100.00% 456 100.00% 1,238 100.00% Undervotes: 25 169 115 309 Overvotes: 0 0 0 0 Judg",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260318043547_1cae0033c4.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307125205",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1000/March-2026-Republican-Sample-Ballots-PDF-",
+     "mimetype": "application/pdf",
+     "digest": "DH34ZB7XEBIBTAHLMLK7Y726P3UDRLEU",
+     "length": "174276",
+     "replay_error": null,
+     "bytes": 359099,
+     "sha256": "cdf377eb33263515b5a6527227941d78fb3a5af7230a324c13cb7e345d9e8fbd",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 07 Mar 2026 12:52:05 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260123104958-06'00'",
+     "Creator": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
+     "Producer": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307125205_da2d496168.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318051625",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1084/2026-03-03-Election-Board-Meeting-Notice?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "5HIPDGBV2KGGH3OLMS7EK44EY6IQW266",
+     "length": "171378",
+     "replay_error": null,
+     "bytes": 183022,
+     "sha256": "599715cf969137bc69c5217e84ace404bde15adce7a7e8a32c7418b548951b05",
+     "orig_last_modified": null,
+     "orig_date": "Wed, 18 Mar 2026 05:16:25 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260318051625_f95cf4f4a2.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260322154731",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1133/-Notice-of-Logic-and-Accuracy-Test-for-Election-Equipment-for-May-2-2026-Election?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "643VZ6DRGRAUY6NSNVHOFE2GQAAAR22W",
+     "length": "177818",
+     "replay_error": null,
+     "bytes": 185510,
+     "sha256": "faae9e489e8cff0ad04f00b746380a244729a060790d8289a6d30e3545b37676",
+     "orig_last_modified": null,
+     "orig_date": "Sun, 22 Mar 2026 15:47:31 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | 15 - 6  P r e scri b e d  by  Se cre tary  | of  St a t e  Sec t i on s  127 . 0 9 6 ,  129 . 0 2 3  Te xas  El e ct i on  C od e  9/2025  PUBLIC  NOTICE  OF  PUBLIC  LOGIC  AND  ACCURACY  TEST  AND  | FIRST  TEST  OF  AUTOMATIC  TABULATING  EQUIPMENT  Notice  is  hereby  given  that  the  Public  Logic  and  Accuracy  Test  and  First  Test  of  Automatic  Tabulating  Equipment  for  the  voting  system  equipment  that  will  be  used  in  th e  rv\\\\o.'-\\\\  d.  Qg_l  d,Od,.\\\\e  | Election  will  be  conducted  on:  \\(time\\)  at  C.0'0\\\\rn.Qx:Ce.  c.ecl-e,r  3  \\\\D\\\\:\\)  \\\\:\\\\w'-\\)  SC\\\\  Loep  t\\)l.  Crv\\\\0@6:\\\\on,7\\\\  7.:r~s  l  \\(location\\)  \\\\  to  ascertain  that  it  will  accurately  count  the  votes  cast  for  | all  offices  and  on  all  measures.  .  Signature  of  Officer  AV/SO  PUBL/CO  DE  PRUEBA  DE  LOG/CA  Y  PRECISION  PUBLICA  Y  PRIMERA  PRUEBA  DEL  EQUIPO  DE  TABULAC/ON  AUTOMATICA  Por  la  presente  se  notifica  que  la  Prueba  Publica  de  Logica  y  Precision  y  la  Primera  | Prueba  def  Equipo  de  Tabulacion  Automcitica  para  el  equipo  def  sistema  de  votacion  que  se  uti/izarci  en  la  \\267  Eleccion  de  a  d.e,  \\('{\\\\,Q~  0  de  40'.cllt>  que  se  1/evarci  a  .  cabo  el \\\\/\\\\  | er  oe.~  a_  Od.e  tn!\\).  r7..Cd  e  dl>~  las  a  ...  00  p  rf\\\\  \\(fecha\\)  \\\\  \\(hora\\)  Q..e:n~O  Q.b  rr\\\\  Q.f~\\\\_~\\\\  1135\"'1  en  | \\\\D\\\\J  I:\\\\~\\\\.\\\\  :;A  l!Pp  \\(\\\\\\\\  ~\",  ~'&\\\\o  ri  ;T'i.  para  determinar  si  contarci  con  precision  \\(sitio\\)  \\225  \\267  los  votos  emitidos  para  todos  /os  cargos  y  en  todas  las  propuestas.  Firma  def  Oficial  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260322154731_e4ba21f1ac.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323050828",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1054/Primary-Election-Day-Time-and-Locations?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "3FZ2CEZAKRR4BBIKQ64MQRDFGWOPGZLY",
+     "length": "942564",
+     "replay_error": null,
+     "bytes": 962672,
+     "sha256": "f431818ee5bbc98147c7d350d3db17ae3e04ca6c0dbe3caa1a080fa265ebeb67",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 23 Mar 2026 05:08:28 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260204052234Z",
+     "Creator": "Canva",
+     "ModDate": "D:20260203232342-06'00'",
+     "Producer": "Canva",
+     "Title": "EV&ED Time and Locations",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  | \u0000\u0019 \u0000\u0001 \u0000\u000f \u0000\u0001 \u0000\\) \u0001\u0015 \u0001\u0014 \u0001\u0014 \u0000\u0001 \u0000V \u0000\u0001 \u0000\u0015 \u0000\u0001 \u0000; \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 \u0000\u0001 |  |  |  |  | \u00006 \u0000H \u0000F \u0000K \u0000U \u0000H \u0000V \u0000W \u0000\u0003 \u0000: \u0000H \u0000E \u0000V \u0000W \u0000H \u0000U \u0000\u0003 \u0000& \u0000R \u0000P \u0000P \u0000X \u0000Q \u0000L \u0000W \u0000\\\\ \u0000\u0003 \u0000& \u0000H \u0000Q \u0000W \u0000H \u0000U \u0000\u0014 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000: \u0000\u0003 \u0000\\) \u0000U \u0000R \u0000Q \u0000W \u0000\u0003 \u00006 \u0000W \u0000\u000f \u0000\u0003 \u0000& \u0000R \u0000U \u0000U \u0000L \u0000J \u0000D \u0000Q \u0000\u000f \u0000\u0003 \u0000\u001a \u0000\u0018 \u0000\u001c \u0000\u0016 \u0000\u001c | \u0000*\u0000R\u0000R\u0000G\u0000U\u0000L\u0000F\u0000K\u0000\u0003\u0000&\u0000R\u0000P\u0000P\u0000X\u0000Q\u0000L\u0000W\u0000\\\\\u0000\u0003\u0000&\u0000H\u0000Q\u0000W\u0000H\u0000U \u0000\u001b\u0000\u0018\u0000\u001a\u0000\u0003\u00006\u0000W\u0000D\u0000W\u0000H\u0000\u0003\u0000+\u0000Z\u0000\\\\\u0000\u0003\u0000/\u0000R\u0000R\u0000S\u0000\u0003\u0000\u0016\u0000\u001c\u0000\u0016\u0000\u000f\u0000\u0003\u0000*\u0000R\u0000R\u0000G\u0000U\u0000L\u0000F\u0000K\u0000\u000f\u0000\u0003\u0000\u001a\u0000\u001a\u0000\u0016\u0000\u0016\u0000\u0018 | \u0000$ \u0000O \u0000D \u0000E \u0000D \u0000P \u0000D \u0000\u0010 \u0000& \u0000R \u0000X \u0000V \u0000K \u0000D \u0000W \u0000W \u0000D \u0000\u0003 \u0000$ \u0000G \u0000P \u0000L \u0000Q \u0000\u0003 \u0000% \u0000O \u0000G \u0000J \u0000\u0018 \u0000\u001a \u0000\u0014 \u0000\u0003 \u00006 \u0000W \u0000D \u0000W \u0000H \u0000\u0003 \u00003 \u0000D \u0000U \u0000N \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0006 \u0000\u0018 \u0000\u0019 \u0000\u000f \u0000\u0003 \u0000/ \u0000L \u0000Y \u0000L \u0000Q \u0000J \u0000V \u0000W \u0000R \u0000Q \u0000\u000f \u0000\u0003 \u0000\u001a \u0000\u001a \u0000\u0016 \u0000\u0018 \u0000\u0014 | \u00002 \u0000Q \u0000D \u0000O \u0000D \u0000V \u0000N \u0000D \u0000\u0003 \u00006 \u0000X \u0000E \u0000\u0010 \u0000& \u0000R \u0000X \u0000U \u0000W \u0000K \u0000R \u0000X \u0000V \u0000H \u0000\u0014 \u0000\u0017 \u0000\u0014 \u0000\u0014 \u0000\u0014 \u0000\u0003 \u00008 \u00006 \u0000\u0003 \u0000+ \u0000Z \u0000\\\\ \u0000\u0003 \u0000\u0014 \u0000\u001c \u0000\u0013 \u0000\u0003 \u0000: \u0000\u000f \u0000\u0003 \u00002 \u0000Q \u0000D \u0000O \u0000D \u0000V \u0000N \u0000D \u0000\u000f \u0000\u0003 \u0000\u001a \u0000\u001a \u0000\u0016 \u0000\u0019 \u0000\u0013 | \u00007 \u0000\u0001 \u0000\u000f \u0001\u0015 \u0001\u0014 \u0001\u0015 \u0000\u0001 \u0000r \u0000\u0001 \u0000A \u0000\u0001 \u0000Z \u0000\u0001 \u0000; \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 | \u0000\u000e \u0000\u0001 \u0000\u000e \u0000\u0001 \u0000\u000f \u0001\u0016 \u0001\u0018 \u0001\u0019 \u0001\u0014 \u0000\u0001 \u0000# \u0000A \u0000\u0001 \u0001\u0016 \u0001\u0018 \u0001\u0019 \u0001\u001b \u0000\u0001 \u0000; \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 | \u00006 \u0000F \u0000K \u0000Z \u0000D \u0000E \u0000\u0003 \u0000& \u0000L \u0000W \u0000\\\\ \u0000\u0003 \u0000% \u0000D \u0000S \u0000W \u0000L \u0000V \u0000W \u0000\u0003 \u0000& \u0000K \u0000X \u0000U \u0000F \u0000K \u0000\u0014 \u0000\u0013 \u0000\u001c \u0000\u001c \u0000\u001b \u0000\u0003 \u00006 \u0000W \u0000D \u0000W \u0000H \u0000\u0003 \u0000+ \u0000Z \u0000\\\\ \u0000\u0003 \u0000\u0014 \u0000\u0017 \u0000\u0019 \u0000\u0003 \u00006 \u0000\u000f \u0000\u0003 \u0000/ \u0000L \u0000Y \u0000L \u0000Q \u0000J \u0000V \u0000W \u0000R \u0000Q \u0000\u000f \u0000\u0003 \u0000\u001a \u0000\u001a \u0000\u0016 \u0000\u0018 \u0000\u0014 | \u0000Z \u0000\u0001 \u0000\u000e \u0000\u0001 \u0000\u000f \u0001\u001c \u0001\u0015 \u0001\u0017 \u0001\u0019 \u0000\u0001 \u0000f \u0000Z \u0000\u0001 \u0000\\) \u0000\u0001 \u0001\u0015 \u0001\u001d \u0001\u0014 \u0000\u0001 \u0000\u0019 \u0000\u0001 \u0000; \u0000\u0001 \u0000a \u0000w \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 | \u00006 \u0000W \u0000\u0003 \u0000- \u0000R \u0000V \u0000H \u0000S \u0000K \u0000\u0003 \u0000& \u0000D \u0000W \u0000K \u0000R \u0000O \u0000L \u0000F \u0000\u0003 \u0000& \u0000K \u0000X \u0000U \u0000F \u0000K \u0000\u0003 \u0000\\) \u0000D \u0000P \u0000L \u0000O \u0000\\\\ \u0000\u0003 \u0000& \u0000H \u0000Q \u0000W \u0000H \u0000U \u0000\u0015 \u0000\u0018 \u0000\u001c \u0000\u0013 \u0000\u0003 \u0000+ \u0000Z \u0000\\\\ \u0000\u0003 \u0000\u0014 \u0000\u001c \u0000\u0013 \u0000\u0003 \u0000: \u0000H \u0000V \u0000W \u0000\u0011 \u0000\u0003 \u0000/ \u0000L \u0000Y \u0000L \u0000Q \u0000J \u0000V \u0000W \u0000R \u0000Q \u0000\u000f \u0000\u0003 \u00007 \u0000; \u0000\u0003 \u0000\u001a \u0000\u001a \u0000\u0016 \u0000\u0018 \u0000\u0014 | \u0000Z \u0000\u0001 \u0000q \u0000\u0001 \u0000# \u0000\u0001 \u0000\u0015 \u0001\u0015 \u0001\u0019 \u0001\u001b \u0000\u0001 \u0000A \u0000\u0001 \u0000\\) \u0000\u0001 \u0000\u000f \u0000\u0001 \u0000; \u0000\u0001 \u0000a \u0000w \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 | \u0000\u0015 \u0000\u0001 \u0000$ \u0001\u0015 \u0001\u0015 \u0001\u0014 \u0001\u0017 \u0000\u0001 \u0000\u0015 \u0000\u0001 \u0000Z \u0000\u0001 \u0000; \u0000\u0001 \u0000a \u0000w \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 \u0000\u0001 |  |  | \u0000& \u0000\u0011 \u0000\u0002 \u0000\u0007 \u0000\u001a \u0000: \u0000R \u0000\u001a \u00009 \u00007 \u00009 \u0000= |  |  |  |  |  | \u0000\u000e \u0000\u0014 \u0000\u0013 \u0000\u001b \u0000\u0003 \u0000\u0015 \u0000\u0017 \u0000\u0012 \u0000\u0004 \u0000\u0017 \u0000  \u0000\u0003 \u0000\b \u0000\u0011 \u0000\b \u0000\u0006 \u0000\u001b \u0000\u0014 \u0000\u0013 \u0000\u0017 \u0001- \u0000\u0013 \u0000u \u0001- \u00003 \u0000u \u0001- \u0000J \u0001- \u0000? \u0001- \u0001- \u0000\u0001 \u00008 \u0001- \u0001- \u0001- \u0000J \u00008 | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260323050828_0e787b204b.pdf"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov%2F313%2F&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

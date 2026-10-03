@@ -1,0 +1,1054 @@
+{
+ "county": "Grayson",
+ "spec": {
+  "file_prefixes": [
+   "co.grayson.tx.us"
+  ],
+  "page_prefixes": [
+   "co.grayson.tx.us/page/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 04:07:41",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 31
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "TimeoutError: The read operation timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us%2Fpage%2F&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    }
+   ],
+   "versions_found": 30,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106045445",
+     "original": "https://www.co.grayson.tx.us/upload/page/0060/docs/Election%20Day%20General%20November%205%202024%20.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PGITW4HE67A5MXGZ5DAWIZHFA6HKTX47",
+     "length": "64479"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106074851",
+     "original": "https://www.co.grayson.tx.us/upload/page/0060/docs/General%20November%205%202024%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VOLDUPULEFCAFTMRQVS5FIW3BRF2AUQO",
+     "length": "63475"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106164210",
+     "original": "https://www.co.grayson.tx.us/page/open/3465/0/City%20of%20Sherman%20Order%20of%20Cancellation%20Nov%205%202024",
+     "mimetype": "application/pdf",
+     "digest": "R54HYCIQ2EU7VYD4ZAPZJLUZBWLM2WRR",
+     "length": "202200"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106165459",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Order_Nov_5th_Gen_Election_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4B562EQFAFZJJXNPXWBKXFDJSPGWMNLJ",
+     "length": "631386"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106173052",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/September%2014%202024%20City%20of%20Sherman%20Election%20dates%20and%20times.pdf",
+     "mimetype": "application/pdf",
+     "digest": "COXPA4O534TUWOUB6ZYSCJJO6AT5WCXY",
+     "length": "322951"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106173908",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Early_Voting_Election_Day_Polling_sites.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PLCNKWYQW3LZGANXI34E7WIBMAKE74BQ",
+     "length": "361694"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106175110",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/BALLOT_STYLE_LISTING_SHEET.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KPA5QJ6DF3GCEM6JRHAZO7QMZJJOFGLV",
+     "length": "118901"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106175222",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Order_of_Special_Election_11-05-2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "F3GSZBZN6APO3PJYBAC54ZN3WOQVKJFK",
+     "length": "957189"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106175244",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Election_Reconciliation_Official_Totals.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OSJ6RF2M26BSXX5CX54NDRURJQGOWEXE",
+     "length": "204431"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106175938",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Early_Voting_City_Sherman_Special_Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KBHVGF2PCG5IMJHDOQ2F3ZG46AOYERSU",
+     "length": "6536"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180051",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Order_Election_Grayson_College_08%2006%2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HK4VL5NPHIKLKWNK54TSKTG2TDOANEQV",
+     "length": "25438"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180109",
+     "original": "https://www.co.grayson.tx.us/page/open/3465/0/City%20of%20Sherman%20Ordinance%20Canceling%20the%20Nov%205.%202024%20Sherman%20Municipal%20Election",
+     "mimetype": "application/pdf",
+     "digest": "XJAJGOKEJOCPHMHA64BXNAEKEDFRKHMS",
+     "length": "956779"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180158",
+     "original": "https://www.co.grayson.tx.us/page/open/3462/0/Noble%20Ridge%20MUD%20Notice%20of%20Conf%20Directors%20Bond%20Maint%20Tax%20Election",
+     "mimetype": "application/pdf",
+     "digest": "DL5JI4IPKHXQXDONGG26QQ4WSMWEOTWK",
+     "length": "1037075"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180509",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/24GGRAYS_SAMPLE.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BY5NOTDSSWN7CDQC7CLORNXRBPPAYL35",
+     "length": "943491"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180610",
+     "original": "https://www.co.grayson.tx.us/upload/page/0186/docs/Candidate%20Campaign%20Finance%20Filings/CFR/KellyAshmore_07.16.2023_01.16.2024_CFR.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CXUYDRHLN7KPBIP5EGSF7JGW53GBVRNR",
+     "length": "166476"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180806",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/City_of_Sherman_Special_Sept_14_2024_Election_Unofficial_Results_Total.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QSSU3PFXG7GINIAX6ADLLF3IXWUEM2ZK",
+     "length": "6572"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181416",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Official_Election_Summary_Results_Report_City_Sherman_Spec_Sept_14_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AHWJYEO5YF4TCUELVINTQH43CK2O5BF2",
+     "length": "6579"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181649",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Gunter_Crossing_MUD_Ord_Calling_Conf_Election-7.9.24.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZNKTFEQIIRO5WXPJ5SDLZRNZOVC7HKIR",
+     "length": "971558"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181719",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Preliminary_Election_Reconciliaion_Unofficial.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RF6ZW3OJACOHSAMMEQILJWQOH4PLQKDJ",
+     "length": "280112"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106182720",
+     "original": "https://www.co.grayson.tx.us/upload/page/0186/docs/Candidate%20Campaign%20Finance%20Filings/Finance%20Report%2011.11.23%20to%2012.11.23.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NAFZK5ZZMWDLE6T6YFGTXZ7PGKKXOZPK",
+     "length": "280608"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183121",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Precinct_by_Precinct_September-14_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C2Z4NTYAZX3LRI6JPP3X55OLAI3Y4NGZ",
+     "length": "15450"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183203",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Proclamation_General_Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AOAWVBXBKDJAWIPLIR4JKYH3B5RZKLDE",
+     "length": "667512"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183320",
+     "original": "https://www.co.grayson.tx.us/page/open/3465/0/Grayson%20College%20Order%20of%20Election%20Cancellation",
+     "mimetype": "application/pdf",
+     "digest": "CJZOPKGALHWQ4SIROZW42BKGZNYDS3ZN",
+     "length": "27168"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183439",
+     "original": "https://www.co.grayson.tx.us/page/open/3462/0/GUNTER%20CROSSING%20Notice%20of%20Election%20for%20Directors%20Bond%20Election",
+     "mimetype": "application/pdf",
+     "digest": "FV4DV3XNOCMXHEA2USQSQQKCRDL6AOZI",
+     "length": "331262"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183950",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Official_Precinct_by_Precinct_Summary_Special_Election_091424.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SIXHA5K7UOE4MUN2W4GUNACTUNDK65GY",
+     "length": "26120"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106184028",
+     "original": "https://www.co.grayson.tx.us/upload/template/0023/docs/Guest_Volunteer_Information_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CPNWAJRTTEGJY26GNLPTSEBWWUV3BADV",
+     "length": "353642"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106184903",
+     "original": "https://www.co.grayson.tx.us/page/open/3462/0/Sunset%20Ranch%20MUD-%20English%20and%20Spanish%20Notice%20of%20Confirmation%20and%20Directors%20Election,%20Utility%20Bond%20Election,%20Utility%20Refunding%20Bond%20Election,%20Road%20Bond%20Election,%20Road%20Refunding%20Bond%20Election%20and%20Maintenance%20Tax%20Election",
+     "mimetype": "application/pdf",
+     "digest": "TJA6ZVTN7PXZTT5DMEL4DQXDAH3B2EWC",
+     "length": "751825"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106185812",
+     "original": "https://www.co.grayson.tx.us/page/open/3465/0/City%20of%20Sherman%20Certification%20Unopposed%20Candidates%20November%205%202024",
+     "mimetype": "application/pdf",
+     "digest": "I4PL6QGNJSODNCS3JJ4UES22GIM577AO",
+     "length": "230612"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106201524",
+     "original": "https://www.co.grayson.tx.us/upload/page/0186/docs/Candidate%20Campaign%20Finance%20Filings/CFR/Phyllis_James_07.01.23-12.31.23CampaignFinanceReport.pdf",
+     "mimetype": "application/pdf",
+     "digest": "24EWHJSVCCWXDW3MRGDGGRPRP7PJKJYN",
+     "length": "425497"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241107004432",
+     "original": "https://www.co.grayson.tx.us/upload/page/0186/docs/Candidate%20Campaign%20Finance%20Filings/CFR/Tommy_Carter_07.01.23-12.31.23CampaignFinanceReport.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GUUJSUNA7J4T6LRX6LAQ3VU6LI6KSVIZ",
+     "length": "304376"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183950",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Official_Precinct_by_Precinct_Summary_Special_Election_091424.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SIXHA5K7UOE4MUN2W4GUNACTUNDK65GY",
+     "length": "26120",
+     "replay_error": null,
+     "bytes": 37216,
+     "sha256": "f6092945d8e20d2f74a7145d832116e83f511fc87fe9fa04555e8b5cfb311fa9",
+     "orig_last_modified": "Wed, 25 Sep 2024 15:53:36 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:45:27 GMT",
+     "orig_last_modified_local": "2024-09-25 09:53:36",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "09/25/2024 10:36AM"
+     ],
+     "precinct_word_count_first_streams": 61,
+     "text_sample_first_streams": " |  |  |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 101 STATISTICS | TOTAL Absentee Early Voting Election Day Registered Voters - Total | 0 77 Ballots Cast - Total 9 45 23 0 Ballots Cast - Blank 0 | 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 | TOTAL Absentee Election Day Early Voting | Sandra Melton 22 3 17 2 Casie Rivas 18 0 9 9 | Clay Barnett 37 6 19 12 Overvotes 0 0 0 0 | Undervotes 0 0 0 0  15 Page 1 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 102 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 57 Ballots Cast - Total 25 13 19 2 Ballots Cast - Blank 1 1 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 31 14 7 10 Casie Rivas 13 4 2 7 Clay Barnett 11 6 3 2 Overvotes 0 0 0 0 Undervotes 2 1 1 0  15 Page 2 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 103 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 85 Ballots Cast - Total 15 45 25 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 27 4 14 9 Casie Rivas 28 2 16 10 Clay Barnett 30 9 15 6 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 3 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 104 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 0 Ballots Cast - Total 0 0 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 0 0 0 0 Casie Rivas 0 0 0 0 Clay Barnett 0 0 0 0 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 4 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 204 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 0 Ballots Cast - Total 0 0 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 0 0 0 0 Casie Rivas 0 0 0 0 Clay Barnett 0 0 0 0 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 5 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 206 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 121 Ballots Cast - Total 21 71 29 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 34 6 18 10 Casie Rivas 24 4 16 4 Clay Barnett 63 11 37 15 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 6 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 301 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 197 Ballots Cast - Total 31 101 65 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 50 9 26 15 Casie Rivas 45 5 25 15 Clay Barnett 102 17 50 35 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 7 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 302 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 196 Ballots Cast - Total 32 107 57 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 61 15 26 20 Casie Rivas 54 6 34 14 Clay Barnett 81 11 47 23 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 8 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 303 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 0 Ballots Cast - Total 0 0 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 0 0 0 0 Casie Rivas 0 0 0 0 Clay Barnett 0 0 0 0 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 9 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 304 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 233 Ballots Cast - Total 33 110 90 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 63 8 34 21 Casie Rivas 54 7 18 29 Clay Barnett 116 18 58 40 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 10 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 310 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 16 Ballots Cast - Total 5 7 4 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 2 0 0 2 Casie Rivas 6 3 2 1 Clay Barn",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106183950_00e9b04019.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183121",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Precinct_by_Precinct_September-14_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C2Z4NTYAZX3LRI6JPP3X55OLAI3Y4NGZ",
+     "length": "15450",
+     "replay_error": null,
+     "bytes": 26584,
+     "sha256": "b7fee4568db6017921c4df246a4e2a927796d1e76c8ebf8fd386bc2c6806115b",
+     "orig_last_modified": "Sun, 15 Sep 2024 02:03:01 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:36:58 GMT",
+     "orig_last_modified_local": "2024-09-14 20:03:01",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "09/14/2024 08:32PM"
+     ],
+     "precinct_word_count_first_streams": 61,
+     "text_sample_first_streams": " |  |  |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 101 STATISTICS TOTAL Registered Voters - Total 0 77 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 22 Casie Rivas 18 Clay Barnett 37 Overvotes 0 Undervotes 0  15 Page 1 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 102 STATISTICS TOTAL Registered Voters - Total 0 56 Ballots Cast - Total 2 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 30 Casie Rivas 13 Clay Barnett 11 Overvotes 0 Undervotes 2  15 Page 2 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 103 STATISTICS TOTAL Registered Voters - Total 0 85 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 27 Casie Rivas 28 Clay Barnett 30 Overvotes 0 Undervotes 0  15 Page 3 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 104 STATISTICS TOTAL Registered Voters - Total 0 0 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 0 Casie Rivas 0 Clay Barnett 0 Overvotes 0 Undervotes 0  15 Page 4 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 204 STATISTICS TOTAL Registered Voters - Total 0 0 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 0 Casie Rivas 0 Clay Barnett 0 Overvotes 0 Undervotes 0  15 Page 5 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 206 STATISTICS TOTAL Registered Voters - Total 0 119 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 33 Casie Rivas 24 Clay Barnett 62 Overvotes 0 Undervotes 0  15 Page 6 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 301 STATISTICS TOTAL Registered Voters - Total 0 196 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 49 Casie Rivas 45 Clay Barnett 102 Overvotes 0 Undervotes 0  15 Page 7 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 302 STATISTICS TOTAL Registered Voters - Total 0 195 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 61 Casie Rivas 54 Clay Barnett 80 Overvotes 0 Undervotes 0  15 Page 8 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 303 STATISTICS TOTAL Registered Voters - Total 0 0 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 0 Casie Rivas 0 Clay Barnett 0 Overvotes 0 Undervotes 0  15 Page 9 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 304 STATISTICS TOTAL Registered Voters - Total 0 230 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 63 Casie Rivas 53 Clay Barnett 114 Overvotes 0 Undervotes 0  15 Page 10 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 310 STATISTICS TOTAL Registered Voters - Total 0 16 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 2 Casie Rivas 6 Clay Barnett 8 Overvotes 0 Undervotes 0  15 Page 11 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 405 STATISTICS TOTAL Registered Voters - Total 0 25 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 1 Casie Rivas 9 Clay Barnett 15 Overvotes 0 Undervotes 0  15 Page 12 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 408 STATISTICS TOTAL Registered Voters - Total 0 0 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 0 Casie Rivas 0 Clay Barnett 0 Overvotes 0 Undervotes 0  15 Page 13 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 409 STATISTICS TOTAL Registered Voters - Total 0 312 Ballots Cast - Total 1 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TO",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106183121_20cdf2c52d.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180806",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/City_of_Sherman_Special_Sept_14_2024_Election_Unofficial_Results_Total.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QSSU3PFXG7GINIAX6ADLLF3IXWUEM2ZK",
+     "length": "6572",
+     "replay_error": null,
+     "bytes": 9851,
+     "sha256": "09f995e5e5f666fcc5da0e7c70f056bad297782fac0f47137bf4aa65e8cc4594",
+     "orig_last_modified": "Sun, 15 Sep 2024 01:12:52 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:13:43 GMT",
+     "orig_last_modified_local": "2024-09-14 19:12:52",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "09/14/2024 07:54PM"
+     ],
+     "precinct_word_count_first_streams": 4,
+     "text_sample_first_streams": " |  |  |  Summary Results Report City of Sherman Special Election September14, 2024 UNOFFICIAL RESULTS Grayson County STATISTICS | TOTAL Absentee | Early Voting Election Day 15 of 15 Election Day Precincts Reporting 0 0 | 15 0 of 15 Precincts Complete 0 0 0 | 15 of 15 Precincts Partially Reported 0 0 15 15 of 15 Absentee/ Early Precincts Reporting 11 | 15 0 Registered Voters - Total 0 1,541 Ballots Cast - Total | 227 830 484 3 Ballots Cast - Blank 1 1 1 | Voter Turnout - Total 0.00%  2 Page 1 of Election Summary - 09/14/2024 07:54PM |  Summary Results Report City of Sherman Special Election September14, 2024 UNOFFICIAL RESULTS Grayson County Council Member, District No.1 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % Sandra Melton 407 80 207 120 26.41% Casie Rivas 399 33 226 140 25.89% Clay Barnett 732 113 396 223 47.50% Overvotes 0 0 0 0 0.00% Undervotes 3 1 1 1 0.19%  2 Page 2 of Election Summary - 09/14/2024 07:54PM |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106180806_dc9d96c4cc.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181416",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Official_Election_Summary_Results_Report_City_Sherman_Spec_Sept_14_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AHWJYEO5YF4TCUELVINTQH43CK2O5BF2",
+     "length": "6579",
+     "replay_error": null,
+     "bytes": 9854,
+     "sha256": "d6922fca3b26e47b296d0339b10f49373b2ba58b4e0e3e75cd62cb3ff3d3a03e",
+     "orig_last_modified": "Wed, 25 Sep 2024 15:53:36 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:19:53 GMT",
+     "orig_last_modified_local": "2024-09-25 09:53:36",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "09/25/2024 10:41AM"
+     ],
+     "precinct_word_count_first_streams": 4,
+     "text_sample_first_streams": " |  |  |  Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County STATISTICS | TOTAL Absentee | Early Voting Election Day 15 of 15 Election Day Precincts Reporting 0 0 | 15 0 of 15 Precincts Complete 0 0 0 | 15 of 15 Precincts Partially Reported 0 0 15 15 of 15 Absentee/ Early Precincts Reporting 11 | 15 0 Registered Voters - Total 0 1,551 Ballots Cast - Total | 232 830 489 3 Ballots Cast - Blank 1 1 1 | Voter Turnout - Total 0.00%  2 Page 1 of Election Summary - 09/25/2024 10:41AM |  Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Council Member, District No.1 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % Sandra Melton 411 81 207 123 26.50% Casie Rivas 400 34 226 140 25.79% Clay Barnett 737 116 396 225 47.52% Overvotes 0 0 0 0 0.00% Undervotes 3 1 1 1 0.19%  2 Page 2 of Election Summary - 09/25/2024 10:41AM |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106181416_96e98246f3.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181719",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Preliminary_Election_Reconciliaion_Unofficial.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RF6ZW3OJACOHSAMMEQILJWQOH4PLQKDJ",
+     "length": "280112",
+     "replay_error": null,
+     "bytes": 322926,
+     "sha256": "6f3c9295319b0b8baf6df8265f1368a97b60dc1173a8b51980879681a20e384e",
+     "orig_last_modified": "Thu, 19 Sep 2024 21:03:37 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:22:55 GMT",
+     "orig_last_modified_local": "2024-09-19 15:03:37",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106181719_be19d7e6c3.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106045445",
+     "original": "https://www.co.grayson.tx.us/upload/page/0060/docs/Election%20Day%20General%20November%205%202024%20.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PGITW4HE67A5MXGZ5DAWIZHFA6HKTX47",
+     "length": "64479",
+     "replay_error": null,
+     "bytes": 75282,
+     "sha256": "8c2ee494bbf07568bd1fd04a67534fea30b0f1aced1303d688c6dceca3a41107",
+     "orig_last_modified": "Wed, 06 Nov 2024 04:03:28 GMT",
+     "orig_date": "Wed, 06 Nov 2024 05:00:22 GMT",
+     "orig_last_modified_local": "2024-11-05 22:03:28",
+     "upload_on_election_night": true,
+     "ModDate": "D:20241105215807-06'00'",
+     "Creator": "JasperReports \\(Election Summary\\",
+     "CreationDate": "D:20241105215807-06'00'",
+     "Producer": "iText 2.1.7 by 1T3XT",
+     "printed_datetimes_first_streams": [
+      "11/05/2024 09:56PM"
+     ],
+     "precinct_word_count_first_streams": 68,
+     "text_sample_first_streams": " Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County STATISTICS TOTAL Absentee Early Voting Election Day 41 of 41 Election Day Precincts Reporting 0 0 41 0 of 41 Precincts Complete 0 0 0 41 of 41 Precincts Partially Reported 0 0 41 41 of 41 Absentee/ Early Precincts Reporting 40 41 0 Registered Voters - Total 99,539 66,107 Ballots Cast - Total 2,395 51,524 12,188 6 Ballots Cast - Blank 3 3 0 Voter Turnout - Total 66.41%  24 Page 1 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County President/Vice President Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Donald J. Trump/JD Vance 50,468 1,377 39,961 9,130 76.34% DEM Kamala D. Harris/Tim Walz 14,754 968 10,982 2,804 22.32% LIB Chase Oliver/Mike ter Maat 342 11 219 112 0.52% GRN Jill Stein/Rudolph Ware 187 4 123 60 0.28% Write-In Totals 151 7 100 44 0.23% Write-In: Peter Sonski/Lauren Onak 20 0 13 7 0.03% Write-In: Claudia De la Cruz/Karina Garcia 5 0 1 4 0.01% Write-In: Shiva Ayyadurai/Crystal Ellis 2 0 2 0 0.00% Write-In: Jessie Cuellar/Wesley Lasley 0 0 0 0 0.00% Write-In: Cherunda Fox/Harlan Mc Vay 0 0 0 0 0.00% Write-In: Cornel West/Melina Abdullah 0 0 0 0 0.00% Not Assigned 124 7 84 33 0.19% Total Votes Cast 65,902 2,367 51,385 12,150 99.69% Overvotes 10 10 0 0 0.02% Undervotes 195 18 139 38 0.30% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41  24 Page 2 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County US Senator Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Ted Cruz 48,425 1,378 38,638 8,409 73.25% DEM Colin Allred 15,409 948 11,451 3,010 23.31% LIB Ted Brown 1,303 22 810 471 1.97% Write-In Totals 31 1 18 12 0.05% Write-In: Analisa Roche 6 0 3 3 0.01% Write-In: Tracy Andrus 2 0 2 0 0.00% Not Assigned 23 1 13 9 0.03% Total Votes Cast 65,168 2,349 50,917 11,902 98.58% Overvotes 4 4 0 0 0.01% Undervotes 935 42 607 286 1.41% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41 US Representative, Dist 4 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Pat Fallon 50,652 1,272 40,316 9,064 76.62% DEM Simon Cardell 13,268 807 9,942 2,519 20.07% Total Votes Cast 63,920 2,079 50,258 11,583 96.69% Overvotes 1 1 0 0 0.00% Undervotes 2,186 315 1,266 605 3.31% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41  24 Page 3 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Railroad Commissioner Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Christi Craddick 48,607 1,379 38,699 8,529 73.53% DEM Katherine Culbert 12,674 812 9,563 2,299 19.17% LIB Hawk Dunlap 1,590 23 1,121 446 2.41% GRN Eddie Espinoza 603 20 368 215 0.91% Write-In Totals 26 3 16 7 0.04% Write-In: Richard McKibbin 10 1 7 2 0.02% Not Assigned 16 2 9 5 0.02% Total Votes Cast 63,500 2,237 49,767 11,496 96.06% Overvotes 2 2 0 0 0.00% Undervotes 2,605 156 1,757 692 3.94% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41 Justice, Supreme Court, Pl 2 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Jimmy Blacklock 50,075 1,398 39,729 8,948 75.75% DEM DaSean Jones 13,410 835 10,034 2,541 20.29% Total Votes Cast 63,485 2,233 49,763 11,489 96.03% Overvotes 2 2 0 0 0.00% Undervotes 2,620 160 1,761 699 3.96% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41  24 Page 4 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Justice, Supreme Court, Pl 4 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP John Devine 49,468 1,359 39,299 8,810 74.83% DEM Christine Vinh Weems 13,874 859 10,381 2,634 20.99% Total Votes Cast 63,342 2,218 49,680 11,444 95.82% Overvotes 0 0 0 0 0.00% Undervotes 2,765 177 1,844 744 4.18% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41 Justice, Supreme Court, Pl 6 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Jane Bland 48,592 1,362 38,702 8,528 73.51% DEM Bonnie Lee Goldstein 13,069 822 9,829 2,418 19.77% LIB J. David Roberson 1,579 38 1,046 495 2.39% Total Votes Cast 63,240 2,222 49,577 11,441 95.66% Overvotes 1 1 0 0 0.00% Undervotes 2,866 172 1,947 747 4.34% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41  24 Page 5 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Presiding Judge, Ct of Crim App Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP David J. Schenck 49,326 1,356 39,252 8,718 74.62% DEM Holly Taylor 13,749 833 10,241 2,675 20.80% Total Votes Cast 63,075 2,189 49,493 11,393 95.41% Overvotes 0 0 0 0 0.00% Undervotes 3,032 206 2,031 795 4.59% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41 Judge, Ct of Crim App, Pl 7 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Gina Parker 49,442 1,361 39,285 8,796 74.79% DEM Nancy Mulder 13,462 836 10,081 2,545 20.36% Total Votes Cast 62,904 2,197 49,366 11,341 95.15% Overvotes 0 0 0 0 0.00% Undervotes 3,203 198 2,158 847 4.85% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41 Judge, Ct of Crim App, Pl 8 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Lee Finley 49,846 1,375 39,578 8,893 75.40% DEM Chika Anyiam 13,023 813 9,769 2,441 19.70% Total Votes Cast 62,869 2,188 49,347 11,334 95.10% Overvotes 0 0 0 0 0.00% Undervotes 3,238 207 2,177 854 4.90% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41  24 Page 6 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson Co",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106045445_29e3e6c2e3.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106074851",
+     "original": "https://www.co.grayson.tx.us/upload/page/0060/docs/General%20November%205%202024%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VOLDUPULEFCAFTMRQVS5FIW3BRF2AUQO",
+     "length": "63475",
+     "replay_error": null,
+     "bytes": 74563,
+     "sha256": "3ddef87059d3be18b05d087dd0f61ed03067da3b7eaaed8029617b26cdc0b76e",
+     "orig_last_modified": "Wed, 06 Nov 2024 01:54:27 GMT",
+     "orig_date": "Wed, 06 Nov 2024 07:54:29 GMT",
+     "orig_last_modified_local": "2024-11-05 19:54:27",
+     "upload_on_election_night": true,
+     "ModDate": "D:20241105194708-06'00'",
+     "Creator": "JasperReports \\(Election Summary\\",
+     "CreationDate": "D:20241105194708-06'00'",
+     "Producer": "iText 2.1.7 by 1T3XT",
+     "printed_datetimes_first_streams": [
+      "11/05/2024 07:44PM"
+     ],
+     "precinct_word_count_first_streams": 68,
+     "text_sample_first_streams": " Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County STATISTICS TOTAL Absentee Early Voting Election Day 0 of 41 Election Day Precincts Reporting 0 0 0 0 of 41 Precincts Complete 0 0 0 0 of 41 Precincts Partially Reported 0 0 0 41 of 41 Absentee/ Early Precincts Reporting 40 41 0 Registered Voters - Total 99,539 53,919 Ballots Cast - Total 2,395 51,524 0 6 Ballots Cast - Blank 3 3 0 Voter Turnout - Total 54.17%  24 Page 1 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County President/Vice President Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Donald J. Trump/JD Vance 41,338 1,377 39,961 0 76.67% DEM Kamala D. Harris/Tim Walz 11,950 968 10,982 0 22.16% LIB Chase Oliver/Mike ter Maat 230 11 219 0 0.43% GRN Jill Stein/Rudolph Ware 127 4 123 0 0.24% Write-In Totals 107 7 100 0 0.20% Write-In: Shiva Ayyadurai/Crystal Ellis 0 0 0 0 0.00% Write-In: Jessie Cuellar/Wesley Lasley 0 0 0 0 0.00% Write-In: Claudia De la Cruz/Karina Garcia 0 0 0 0 0.00% Write-In: Cherunda Fox/Harlan Mc Vay 0 0 0 0 0.00% Write-In: Peter Sonski/Lauren Onak 0 0 0 0 0.00% Write-In: Cornel West/Melina Abdullah 0 0 0 0 0.00% Not Assigned 107 7 100 0 0.20% Total Votes Cast 53,752 2,367 51,385 0 99.69% Overvotes 10 10 0 0 0.02% Undervotes 157 18 139 0 0.29% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41  24 Page 2 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County US Senator Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Ted Cruz 40,016 1,378 38,638 0 74.22% DEM Colin Allred 12,399 948 11,451 0 23.00% LIB Ted Brown 832 22 810 0 1.54% Write-In Totals 19 1 18 0 0.04% Write-In: Analisa Roche 3 0 3 0 0.01% Write-In: Tracy Andrus 0 0 0 0 0.00% Not Assigned 16 1 15 0 0.03% Total Votes Cast 53,266 2,349 50,917 0 98.79% Overvotes 4 4 0 0 0.01% Undervotes 649 42 607 0 1.20% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41 US Representative, Dist 4 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Pat Fallon 41,588 1,272 40,316 0 77.13% DEM Simon Cardell 10,749 807 9,942 0 19.94% Total Votes Cast 52,337 2,079 50,258 0 97.07% Overvotes 1 1 0 0 0.00% Undervotes 1,581 315 1,266 0 2.93% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41  24 Page 3 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Railroad Commissioner Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Christi Craddick 40,078 1,379 38,699 0 74.33% DEM Katherine Culbert 10,375 812 9,563 0 19.24% LIB Hawk Dunlap 1,144 23 1,121 0 2.12% GRN Eddie Espinoza 388 20 368 0 0.72% Write-In Totals 19 3 16 0 0.04% Write-In: Richard McKibbin 0 0 0 0 0.00% Not Assigned 19 3 16 0 0.04% Total Votes Cast 52,004 2,237 49,767 0 96.45% Overvotes 2 2 0 0 0.00% Undervotes 1,913 156 1,757 0 3.55% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41 Justice, Supreme Court, Pl 2 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Jimmy Blacklock 41,127 1,398 39,729 0 76.28% DEM DaSean Jones 10,869 835 10,034 0 20.16% Total Votes Cast 51,996 2,233 49,763 0 96.43% Overvotes 2 2 0 0 0.00% Undervotes 1,921 160 1,761 0 3.56% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41  24 Page 4 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Justice, Supreme Court, Pl 4 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP John Devine 40,658 1,359 39,299 0 75.41% DEM Christine Vinh Weems 11,240 859 10,381 0 20.85% Total Votes Cast 51,898 2,218 49,680 0 96.25% Overvotes 0 0 0 0 0.00% Undervotes 2,021 177 1,844 0 3.75% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41 Justice, Supreme Court, Pl 6 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Jane Bland 40,064 1,362 38,702 0 74.30% DEM Bonnie Lee Goldstein 10,651 822 9,829 0 19.75% LIB J. David Roberson 1,084 38 1,046 0 2.01% Total Votes Cast 51,799 2,222 49,577 0 96.07% Overvotes 1 1 0 0 0.00% Undervotes 2,119 172 1,947 0 3.93% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41  24 Page 5 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Presiding Judge, Ct of Crim App Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP David J. Schenck 40,608 1,356 39,252 0 75.31% DEM Holly Taylor 11,074 833 10,241 0 20.54% Total Votes Cast 51,682 2,189 49,493 0 95.85% Overvotes 0 0 0 0 0.00% Undervotes 2,237 206 2,031 0 4.15% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41 Judge, Ct of Crim App, Pl 7 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Gina Parker 40,646 1,361 39,285 0 75.38% DEM Nancy Mulder 10,917 836 10,081 0 20.25% Total Votes Cast 51,563 2,197 49,366 0 95.63% Overvotes 0 0 0 0 0.00% Undervotes 2,356 198 2,158 0 4.37% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41 Judge, Ct of Crim App, Pl 8 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Lee Finley 40,953 1,375 39,578 0 75.95% DEM Chika Anyiam 10,582 813 9,769 0 19.63% Total Votes Cast 51,535 2,188 49,347 0 95.58% Overvotes 0 0 0 0 0.00% Undervotes 2,384 207 2,177 0 4.42% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41  24 Page 6 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Member, State BoE, Dist 12 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Pam Little 40,740 1,287 39,453 0 75.56% DEM George King 10,832 794 10,038 0 20.09% Total Votes Cast 51,572 2,081 49,491 0 95.65% Overvotes 0",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106074851_c0897b1595.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106164210",
+     "original": "https://www.co.grayson.tx.us/page/open/3465/0/City%20of%20Sherman%20Order%20of%20Cancellation%20Nov%205%202024",
+     "mimetype": "application/pdf",
+     "digest": "R54HYCIQ2EU7VYD4ZAPZJLUZBWLM2WRR",
+     "length": "202200",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106165459",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Order_Nov_5th_Gen_Election_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4B562EQFAFZJJXNPXWBKXFDJSPGWMNLJ",
+     "length": "631386",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106173052",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/September%2014%202024%20City%20of%20Sherman%20Election%20dates%20and%20times.pdf",
+     "mimetype": "application/pdf",
+     "digest": "COXPA4O534TUWOUB6ZYSCJJO6AT5WCXY",
+     "length": "322951",
+     "replay_error": null,
+     "bytes": 427328,
+     "sha256": "2d9b95e65173ee312f81aae3a19e0ffd9c9f4190cfae37b36abc5d45fc88debf",
+     "orig_last_modified": "Mon, 09 Sep 2024 14:14:08 GMT",
+     "orig_date": "Wed, 06 Nov 2024 17:36:29 GMT",
+     "orig_last_modified_local": "2024-09-09 08:14:08",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | Revised     ELECTION GRAYSON  COUNTY  EARLY  VO TING  ELECTION DAY   |     | Tuesday  7:00 a.m.   \\226  7:00 p.m.  | Locations  o pen for   Early  Voting   Location  Address  |                 Locations  ope n  Election Day    |             | FINAL  D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by   m ai l  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@ co.grayson.tx . us     |          903 - 893 -   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Revised     ELECTION GRAYSON  COUNTY  EARLY  VO TING  ELECTION DAY       Tuesday  7:00 a.m.   \\226  7:00 p.m.  Locations  o pen for   Early  Voting   Location  Address                  Locations  ope n  Election Day            FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ai l  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@ co.grayson.tx . us              903 - 893 -   |  |  | Revised     ELECTION GRAYSON  COUNTY  EARLY  VO TING  ELECTION DAY       Tuesday  7:00 a.m.   \\226  7:00 p.m.    Locations  o pen for   Early  Voting Location  Address                  Locations  ope n  Election Day            FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ail  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@co.grayson.tx . us              903 - 893 -   |  |  |  |  |  | Revised     ELECTION GRAYSON  COUNTY  EARLY  VO TING  ELECTION DAY       Tuesday  7:00 a.m.   \\226  7:00 p.m.    Locations  o pen for   Early  Voting Location  Address                  Locations  ope n  Election Day            FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ail  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@co.grayson.tx . us              903 - 893 -   |  |  | Revised     ELECTION GRAYSON  COUNTY  EARLY  VO TING  ELECTION DAY       Tuesday  7:00 a.m.   \\226  7:00 p.m.    Locations  o pen for   Early  Voting Location  Address                  Locations  ope n  Election Day            FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ail  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@co.grayson.tx . us              903 - 893 -   |  |  | Revised     ELECTION  GRAYSON   COUNTY  EARLY  VO TING  ELECTION DAY       Tuesday  7:00 a.m.   \\226  7:00 p.m.    Locations  o pen for   Early  Voting Location  Address                  Locations  ope n  Election Day            FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ail  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@co.grayson.tx . us              903 - 893 -   |  |  | Revised     ELECTION  GRAYSON   COUNTY  EARLY  VO TING  ELECTION DAY       Tuesday  7:00 a.m.   \\226  7:00 p.m.    Locations  o pen for   Early  Voting Location  Address              Locations  ope n  Election Day            FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ail  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@co.grayson.tx . us              903 - 893 -   |  |  |  |  |  | Revised     ELECTION  GRAYSON   COUNTY  EARLY  VO TING  ELECTION DAY       Tuesday  7:00 a.m.   \\226  7:00 p.m.    Locations  o pen for   Early  Voting Location  Address              Locations  ope n  Election Day            FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ail  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@co.grayson.tx . us              903 - 893 -   |  |  | Revised     ELECTION  GRAYSON   COUNTY  EARLY  VO TING  ELECTION DAY       Tuesday  7:00 a.m.   \\226  7:00 p.m.    Locations  o pen for   Early  Voting Location Address              Locations  ope n  E lection Day           FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ail  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@co.grayson.tx . us              903 - 893 -   |  |  |  |  |  | Revised     ELECTION  GRAYSON   COUNTY  EARLY  VO TING  ELECTION DAY       Tuesday  7:00 a.m.   \\226  7:00 p.m.    Locations  o pen for   Early  Voting Location Address              Locations  ope n  E lection Day           FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ail  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@co.grayson.tx . us              903 - 893 -   |  |  | Revised     ELECTION  GRAYSON   COUNTY  EARLY  VO TING  ELECTION DAY         7:00 a.m.   \\226  7:00 p.m.     Locations  o pen for   Early  Voting Location Address              Locations  ope n  Election Day           FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ail  appl ications must  be   received no later   t han    to :  Early  V oting  C lerk,  115   W.  H ouston,  S herman,   TX,  75090     votegrayson@co.grayson.tx . us              903 - 893 -   |  |  |  |  |  | Revised     ELECTION  GRAYSON   COUNTY  EARLY  VO TING  ELECTION DAY         7:00 a.m.   \\226  7:00 p.m.    Locations  o pen for   Early  Voting Location Address              Locations  ope n  Election Day           FINAL D AY   TO REGISTER  T O VOTE  F OR   ELECTION:   Ballot  by  m ail  appl ications must  be   received no later   t han    to ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106173052_fe76a7eded.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106173908",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Early_Voting_Election_Day_Polling_sites.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PLCNKWYQW3LZGANXI34E7WIBMAKE74BQ",
+     "length": "361694",
+     "replay_error": null,
+     "bytes": 370952,
+     "sha256": "552c02b36adddcfd3917e26f735027e464bc3062759ef46a09ed4b97b8eb4648",
+     "orig_last_modified": "Fri, 27 Sep 2024 22:02:33 GMT",
+     "orig_date": "Wed, 06 Nov 2024 17:44:45 GMT",
+     "orig_last_modified_local": "2024-09-27 16:02:33",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |       R                 5 ,  2024       5         \\226       E     \\226             |       ,                - C     |           G ym ,      ,        r       |   ,  .             ,                    |                           ,    | ,        B ,                      |                               |         115   W.       TX     903 - 893 -   - -     |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |       R           5 ,  2024                       \\226       - 2 6   7   \\226     -       -     \\226   7   \\226   6   \\226   m                                                             :   :   7     :     D :   5                                               903 - -                   -                     \\)               3       l ,  c     |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106173908_e49626d904.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106175110",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/BALLOT_STYLE_LISTING_SHEET.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KPA5QJ6DF3GCEM6JRHAZO7QMZJJOFGLV",
+     "length": "118901",
+     "replay_error": null,
+     "bytes": 123576,
+     "sha256": "25c0b8032c8f77870d5d8b968ce96e72ab40836a25681bf895c632867e04d311",
+     "orig_last_modified": "Tue, 01 Oct 2024 20:49:02 GMT",
+     "orig_date": "Wed, 06 Nov 2024 17:56:48 GMT",
+     "orig_last_modified_local": "2024-10-01 14:49:02",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  | \\000\\022\\000K\\000h\\000E\\000d\\000z\\000\\003 \\000t\\000/\\000\\030\\000\\034\\003l\\000\\022\\000K\\000D\\000D\\000\\003 \\003\\355\\003l |  | C |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106175110_b7204be996.pdf"
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us%2Fpage%2F&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    }
+   ],
+   "versions_found": 1,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304045201",
+     "original": "https://www.co.grayson.tx.us/page/co.calendar?date=03-24-2026",
+     "mimetype": "text/html",
+     "digest": "PTMT35B4TQWPXJ3D65UMWX2SS2ID7D66",
+     "length": "28548"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304045201",
+     "original": "https://www.co.grayson.tx.us/page/co.calendar?date=03-24-2026",
+     "mimetype": "text/html",
+     "digest": "PTMT35B4TQWPXJ3D65UMWX2SS2ID7D66",
+     "length": "28548",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "TimeoutError: The read operation timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 9
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us%2Fpage%2F&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 4
+    }
+   ],
+   "versions_found": 13,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260528005344",
+     "original": "https://www.co.grayson.tx.us/page/co.calendar?date=06-02-2026",
+     "mimetype": "text/html",
+     "digest": "XRDZQAYCVGJZ5MV62JWSKLBS76TAOV76",
+     "length": "28331"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260528005344",
+     "original": "https://www.co.grayson.tx.us/page/co.calendar?date=06-09-2026",
+     "mimetype": "text/html",
+     "digest": "SJYICO73Y4CR4BIXLZH7YPWJ37C6NTKF",
+     "length": "28336"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260528005344",
+     "original": "https://www.co.grayson.tx.us/page/co.calendar?date=06-16-2026",
+     "mimetype": "text/html",
+     "digest": "YYGIGLDKB4NBFWEWM7HEX7OQIDKT4UZV",
+     "length": "28354"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260528005344",
+     "original": "https://www.co.grayson.tx.us/page/co.calendar?date=06-23-2026",
+     "mimetype": "text/html",
+     "digest": "XGEPPK6JXOFLIVXF6NAIJKYL6AESTEH2",
+     "length": "28357"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3774/0/City%20of%20Gunter%20Notice%20of%20Special%20Municipal%20Election%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZGCPQKVBAUHUZMM4HJUKAJWLB7CUBGMG",
+     "length": "1204461"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3774/0/Notice%20of%20Post-Election%20Hand%20Count%20Audit.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LRA62GY2EOPY2YNAIDEH3W3OXJDPA3WV",
+     "length": "152369"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3774/0/Van%20Alstyne%20ISD_Notice%20of%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5FZDKPXJ3VDWGDK4UEQZTZDOGIPDA2AW",
+     "length": "211307"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3826/0/City%20of%20Tioga%20Election%20Summary%20050226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "I4ABRYZPYLEGSV3MPHJ72TG5GWNAZUGF",
+     "length": "5514"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3826/0/Collinsville%20ISD%20Election%20Summary%20050226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AXYRF7EWP6LYNLXAHUOTKRHNFET52UDJ",
+     "length": "4247"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3826/0/Pottsboro%20ISD%20Election%20Summary%20050226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "X4V4DJWZTNCIB55J3AX4QUZD6AXEKQU2",
+     "length": "4682"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3826/0/Van%20Alstyne%20ISD%20Precinct%20Summary%20050226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RQHRAYNIZZROBU4TMW4VOF4CFIBNQ4UJ",
+     "length": "22906"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/upload/page/0186/docs/Candidate%20Campaign%20Finance%20Filings/CFR/KellyAshmore_07.16.2023_01.16.2024_CFR.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CXUYDRHLN7KPBIP5EGSF7JGW53GBVRNR",
+     "length": "173700"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/upload/page/0367/docs/TAX_ABATEMENT_AGREEMENT_GUIDELINES_CRITERIA_2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UFM7G3G7H4CJLK6APJWLVY674L6L3CGV",
+     "length": "255447"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3826/0/Van%20Alstyne%20ISD%20Precinct%20Summary%20050226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RQHRAYNIZZROBU4TMW4VOF4CFIBNQ4UJ",
+     "length": "22906",
+     "replay_error": null,
+     "bytes": 25469,
+     "sha256": "85b778ef8c65e11e791fca7c1fe0d7181df8b97f3ecc6b1424f18aa73abde1e9",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 08 Jun 2026 14:20:25 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "ModDate": "D:20260502173034-05'00'",
+     "Creator": "JasperReports \\(VAN ALSTYNE ISD Precinct Summary\\",
+     "CreationDate": "D:20260502173034-05'00'",
+     "Producer": "iText 2.1.7 by 1T3XT",
+     "printed_datetimes_first_streams": [
+      "05/02/2026 05:30PM"
+     ],
+     "precinct_word_count_first_streams": 16,
+     "text_sample_first_streams": " 105 105-3 VAN ALSTYNE ISD UNOFFICIAL RESULTS Precinct Summary Results Report 2026 Joint Local Election Grayson County May 2, 2026 STATISTICS TOTAL Absentee Early Voting Election Day 173 Ballots Cast - Total 3 170 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 9.09% Vote For 1 Board of Trustee Member, Place 3 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Justin Griffin 56 0 56 0 32.56% Sara Watson 116 3 113 0 67.44% Total Votes Cast 172 3 169 0 100.00% Overvotes 0 0 0 0 Undervotes 1 0 1 0 Contest Totals 173 3 170 0 Vote For 1 Board of Trustee Member, Place 4 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Jamie Blackerby 68 1 67 0 40.24% Ryan Laing 7 0 7 0 4.14% Jared Ramsey 94 2 92 0 55.62% Total Votes Cast 169 3 166 0 100.00% Overvotes 0 0 0 0 Undervotes 4 0 4 0 Contest Totals 173 3 170 0  8 Page 1 of VAN ALSTYNE ISD Precinct Summary - 05/02/2026 05:30PM |  105 105-4 VAN ALSTYNE ISD UNOFFICIAL RESULTS Precinct Summary Results Report 2026 Joint Local Election Grayson County May 2, 2026 STATISTICS TOTAL Absentee Early Voting Election Day 0 Ballots Cast - Total 0 0 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Board of Trustee Member, Place 3 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Justin Griffin 0 0 0 0 Sara Watson 0 0 0 0 Total Votes Cast 0 0 0 0 Overvotes 0 0 0 0 Undervotes 0 0 0 0 Contest Totals 0 0 0 0 Vote For 1 Board of Trustee Member, Place 4 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Jamie Blackerby 0 0 0 0 Ryan Laing 0 0 0 0 Jared Ramsey 0 0 0 0 Total Votes Cast 0 0 0 0 Overvotes 0 0 0 0 Undervotes 0 0 0 0 Contest Totals 0 0 0 0  8 Page 2 of VAN ALSTYNE ISD Precinct Summary - 05/02/2026 05:30PM |  106 106-3 VAN ALSTYNE ISD UNOFFICIAL RESULTS Precinct Summary Results Report 2026 Joint Local Election Grayson County May 2, 2026 STATISTICS TOTAL Absentee Early Voting Election Day 9 Ballots Cast - Total 0 9 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 4.64% Vote For 1 Board of Trustee Member, Place 3 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Justin Griffin 2 0 2 0 22.22% Sara Watson 7 0 7 0 77.78% Total Votes Cast 9 0 9 0 100.00% Overvotes 0 0 0 0 Undervotes 0 0 0 0 Contest Totals 9 0 9 0 Vote For 1 Board of Trustee Member, Place 4 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Jamie Blackerby 2 0 2 0 22.22% Ryan Laing 3 0 3 0 33.33% Jared Ramsey 4 0 4 0 44.44% Total Votes Cast 9 0 9 0 100.00% Overvotes 0 0 0 0 Undervotes 0 0 0 0 Contest Totals 9 0 9 0  8 Page 3 of VAN ALSTYNE ISD Precinct Summary - 05/02/2026 05:30PM |  109 109-3 VAN ALSTYNE ISD UNOFFICIAL RESULTS Precinct Summary Results Report 2026 Joint Local Election Grayson County May 2, 2026 STATISTICS TOTAL Absentee Early Voting Election Day 110 Ballots Cast - Total 0 110 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 8.20% Vote For 1 Board of Trustee Member, Place 3 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Justin Griffin 47 0 47 0 42.73% Sara Watson 63 0 63 0 57.27% Total Votes Cast 110 0 110 0 100.00% Overvotes 0 0 0 0 Undervotes 0 0 0 0 Contest Totals 110 0 110 0 Vote For 1 Board of Trustee Member, Place 4 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Jamie Blackerby 51 0 51 0 46.36% Ryan Laing 4 0 4 0 3.64% Jared Ramsey 55 0 55 0 50.00% Total Votes Cast 110 0 110 0 100.00% Overvotes 0 0 0 0 Undervotes 0 0 0 0 Contest Totals 110 0 110 0  8 Page 4 of VAN ALSTYNE ISD Precinct Summary - 05/02/2026 05:30PM |  109 109-4 VAN ALSTYNE ISD UNOFFICIAL RESULTS Precinct Summary Results Report 2026 Joint Local Election Grayson County May 2, 2026 STATISTICS TOTAL Absentee Early Voting Election Day 188 Ballots Cast - Total 9 179 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 6.72% Vote For 1 Board of Trustee Member, Place 3 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Justin Griffin 51 4 47 0 27.42% Sara Watson 135 5 130 0 72.58% Total Votes Cast 186 9 177 0 100.00% Overvotes 0 0 0 0 Undervotes 2 0 2 0 Contest Totals 188 9 179 0 Vote For 1 Board of Trustee Member, Place 4 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Jamie Blackerby 44 4 40 0 23.53% Ryan Laing 27 3 24 0 14.44% Jared Ramsey 116 2 114 0 62.03% Total Votes Cast 187 9 178 0 100.00% Overvotes 0 0 0 0 Undervotes 1 0 1 0 Contest Totals 188 9 179 0  8 Page 5 of VAN ALSTYNE ISD Precinct Summary - 05/02/2026 05:30PM |  110 110-3 VAN ALSTYNE ISD UNOFFICIAL RESULTS Precinct Summary Results Report 2026 Joint Local Election Grayson County May 2, 2026 STATISTICS TOTAL Absentee Early Voting Election Day 116 Ballots Cast - Total 4 112 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 8.35% Vote For 1 Board of Trustee Member, Place 3 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Justin Griffin 30 2 28 0 25.86% Sara Watson 86 2 84 0 74.14% Total Votes Cast 116 4 112 0 100.00% Overvotes 0 0 0 0 Undervotes 0 0 0 0 Contest Totals 116 4 112 0 Vote For 1 Board of Trustee Member, Place 4 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Jamie Blackerby 34 2 32 0 29.57% Ryan Laing 3 0 3 0 2.61% Jared Ramsey 78 2 76 0 67.83% Total Votes Cast 115 4 111 0 100.00% Overvotes 0 0 0 0 Undervotes 1 0 1 0 Contest Totals 116 4 112 0  8 Page 6 of VAN ALSTYNE ISD Precinct Summary - 05/02/2026 05:30PM |  110 110-4 VAN ALSTYNE ISD UNOFFICIAL RESULTS Precinct Summary Results Report 2026 Joint Local Election Grayson County May 2, 2026 STATISTICS TOTAL Absentee Early Voting Election Day 151 Ballots Cast - Total 5 146 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 7.83% Vote For 1 Board of Trustee Member, Place 3 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Early Voting Justin Griffin 66 2 64 0 44.00% Sara Watson 84 3 81 0 56.00% Total Votes Cast 150 5 145 0 100.00% Overvotes 0 0 0 0 Undervotes 1 0 1 0 Contest Totals 151 5 146 0 Vote For 1 Board of Trustee Member, Place 4 Van Alstyne ISD VOTE % TOTAL Absentee Election Day Earl",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260608142025_fb1eaf1652.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3826/0/City%20of%20Tioga%20Election%20Summary%20050226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "I4ABRYZPYLEGSV3MPHJ72TG5GWNAZUGF",
+     "length": "5514",
+     "replay_error": null,
+     "bytes": 5438,
+     "sha256": "84d90c3cde1759dc0b215a1b005d84c23859e660b63643d8ba90be70dfc48a3f",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 08 Jun 2026 14:20:25 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "ModDate": "D:20260502172650-05'00'",
+     "Creator": "JasperReports \\(CITY OF TIOGA Election Summary\\",
+     "CreationDate": "D:20260502172650-05'00'",
+     "Producer": "iText 2.1.7 by 1T3XT",
+     "printed_datetimes_first_streams": [
+      "05/02/2026 05:26PM"
+     ],
+     "precinct_word_count_first_streams": 2,
+     "text_sample_first_streams": " Election Summary Results Report 2026 Joint Local Election May 2, 2026 UNOFFICIAL RESULTS CITY OF TIOGA Grayson County STATISTICS TOTAL Absentee Early Voting Election Day 0 of 1 Precincts Complete 0 0 0 1 of 1 Absentee/ Early Precincts Reporting 1 1 0 114 Ballots Cast - Total 5 109 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 12.40%  2 Page 1 of CITY OF TIOGA Election Summary - 05/02/2026 05:26PM |  Election Summary Results Report 2026 Joint Local Election May 2, 2026 UNOFFICIAL RESULTS CITY OF TIOGA Grayson County Council Member, Place 1 City of Tioga Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % Kurt Hall 94 4 90 0 100.00% Total Votes Cast 94 4 90 0 100.00% Overvotes 0 0 0 0 Undervotes 20 1 19 0 Contest Totals 114 5 109 0 Council Member, Place 3 City of Tioga Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % Tommy Hunter 95 4 91 0 100.00% Total Votes Cast 95 4 91 0 100.00% Overvotes 0 0 0 0 Undervotes 19 1 18 0 Contest Totals 114 5 109 0 Council Member, Place 5 City of Tioga Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % Patty Wheeler 16 1 15 0 14.04% Heather Nesmith 98 4 94 0 85.96% Total Votes Cast 114 5 109 0 100.00% Overvotes 0 0 0 0 Undervotes 0 0 0 0 Contest Totals 114 5 109 0  2 Page 2 of CITY OF TIOGA Election Summary - 05/02/2026 05:26PM | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260608142025_ea66d24a67.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3826/0/Collinsville%20ISD%20Election%20Summary%20050226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AXYRF7EWP6LYNLXAHUOTKRHNFET52UDJ",
+     "length": "4247",
+     "replay_error": null,
+     "bytes": 4245,
+     "sha256": "cd6e3f4ba5092828f74cf6a6f62101dcc4693d730b7d24fd999f1935a0e00681",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 08 Jun 2026 14:20:25 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "ModDate": "D:20260502172115-05'00'",
+     "Creator": "JasperReports \\(COLLINSVILLE ISD Election Summary\\",
+     "CreationDate": "D:20260502172115-05'00'",
+     "Producer": "iText 2.1.7 by 1T3XT",
+     "printed_datetimes_first_streams": [
+      "05/02/2026 05:20PM"
+     ],
+     "precinct_word_count_first_streams": 2,
+     "text_sample_first_streams": " Election Summary Results Report 2026 Joint Local Election May 2, 2026 UNOFFICIAL RESULTS COLLINSVILLE ISD Grayson County STATISTICS TOTAL Absentee Early Voting Election Day 0 of 3 Precincts Complete 0 0 0 3 of 3 Absentee/ Early Precincts Reporting 3 3 0 458 Ballots Cast - Total 26 432 0 1 Ballots Cast - Blank 0 1 0 Voter Turnout - Total 17.39%  2 Page 1 of COLLINSVILLE ISD Election Summary - 05/02/2026 05:20PM |  Election Summary Results Report 2026 Joint Local Election May 2, 2026 UNOFFICIAL RESULTS COLLINSVILLE ISD Grayson County School Board Trustee, Place 1 Collinsville ISD Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % Derek Kays 59 11 48 0 59.00% Matt Weaver 41 6 35 0 41.00% Total Votes Cast 100 17 83 0 100.00% Overvotes 0 0 0 0 Undervotes 1 0 1 0 Contest Totals 101 17 84 0  2 Page 2 of COLLINSVILLE ISD Election Summary - 05/02/2026 05:20PM | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260608142025_dadff36b7e.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3826/0/Pottsboro%20ISD%20Election%20Summary%20050226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "X4V4DJWZTNCIB55J3AX4QUZD6AXEKQU2",
+     "length": "4682",
+     "replay_error": null,
+     "bytes": 4694,
+     "sha256": "c735a7368c52d395e82c481620802c70147f897258b3c721231b196d3a008a91",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 08 Jun 2026 14:20:25 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "ModDate": "D:20260502172351-05'00'",
+     "Creator": "JasperReports \\(POTTSBORO ISD Election Summary\\",
+     "CreationDate": "D:20260502172351-05'00'",
+     "Producer": "iText 2.1.7 by 1T3XT",
+     "printed_datetimes_first_streams": [
+      "05/02/2026 05:23PM"
+     ],
+     "precinct_word_count_first_streams": 2,
+     "text_sample_first_streams": " Election Summary Results Report 2026 Joint Local Election May 2, 2026 UNOFFICIAL RESULTS POTTSBORO ISD Grayson County STATISTICS TOTAL Absentee Early Voting Election Day 0 of 7 Precincts Complete 0 0 0 7 of 7 Absentee/ Early Precincts Reporting 5 7 0 688 Ballots Cast - Total 46 642 0 7 Ballots Cast - Blank 0 7 0 Voter Turnout - Total 8.65%  2 Page 1 of POTTSBORO ISD Election Summary - 05/02/2026 05:23PM |  Election Summary Results Report 2026 Joint Local Election May 2, 2026 UNOFFICIAL RESULTS POTTSBORO ISD Grayson County School Board Trustee Pottsboro ISD Vote For 3 Absentee Election Day TOTAL Early Voting VOTE % Lauren Dill 207 6 201 0 15.91% David Gibson 104 4 100 0 7.99% Marissa Vicars Wise 195 7 188 0 14.99% Jason Gattis 74 9 65 0 5.69% Alex Walston 154 2 152 0 11.84% Erica Sweetin 198 5 193 0 15.22% Jeremy Lewis 230 9 221 0 17.68% Donnie Snider 139 7 132 0 10.68% Total Votes Cast 1,301 49 1,252 0 100.00% Overvotes 0 0 0 0 Undervotes 376 23 353 0 Contest Totals 1,677 72 1,605 0  2 Page 2 of POTTSBORO ISD Election Summary - 05/02/2026 05:23PM | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260608142025_e39a08792b.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3774/0/City%20of%20Gunter%20Notice%20of%20Special%20Municipal%20Election%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZGCPQKVBAUHUZMM4HJUKAJWLB7CUBGMG",
+     "length": "1204461",
+     "replay_error": null,
+     "bytes": 1252848,
+     "sha256": "d5d28652e29f8429056a30ba3b912cc484e3feaaf5547e55950ecd86d313ca47",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 08 Jun 2026 14:20:25 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260608142025_ce48d84eaa.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/upload/page/0186/docs/Candidate%20Campaign%20Finance%20Filings/CFR/KellyAshmore_07.16.2023_01.16.2024_CFR.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CXUYDRHLN7KPBIP5EGSF7JGW53GBVRNR",
+     "length": "173700",
+     "replay_error": null,
+     "bytes": 173201,
+     "sha256": "25f1cccd4f00cd0fe6083b4dbfd9530c62c53feeb7dc47675331d99834a83343",
+     "orig_last_modified": "Fri, 12 Jan 2024 21:59:24 GMT",
+     "orig_date": "Mon, 08 Jun 2026 14:20:25 GMT",
+     "orig_last_modified_local": "2024-01-12 16:59:24",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ...  CANDIDATE  I  OFFICEHOLDER  FORM  C/OH  CAMPAIGN  FINANCE  REPORT  COVER  SHEET  PG  1  1  Filer  ID  \\( Ethics  Commission  Filers\\)  The  C/OH  Instruction  Guide  explains  how  to  complete  this  form.  2  T otal  pages  filed :  3  CANDIDATE/  MS ~ \\267 / MR  FIRST  Ml  OFFICE  USE  ONLY  OFFICEHOLDER  \\265;U-,~  NAME  ..  .  .  .  | .  . .. . . ...... . .  .........  . .  \\267\\267\\267 \\267\\267\\267\\267 \\267\\267\\267\\267\\267 \\267 \\267\\267\\267\\267\\267\\267\\267\\267\\225\\267\\267\\267\\267\\267  ... .. ..  ... .  Date  Re ceived  NICKNAME  LAST  SUFFIX  A'SI-Hvt~flE,  4  CANDIDATE /  ADDRESS  /  PO  BOX ;  APT  /  SUITE  # ;  CITY ;  STATE ;  ZIP  CODE  OFFICEHOLDER  -S  JiS  roAI  w/<..C...,L\\243  5HLi/Yvf./f/J  Ji  7Sv9.:L  MAILING  ~14  ADDRESS  D  | Change  of  Address  5  CANDIDATE /  AREA  CODE  PHONE  NUMBER  EXTENSION  Date  Hand-delivered  or  Date  Postma r ked  OFFICEHOLDER  \\( qo  \\)  t/-'/ff\\).  t:J,;lk/  PHONE  Rece i pt  #  I  Amount  $  6  CAMPAIGN  MS / MRS/MR  FIRST  Ml  TREASURER  ..  5.tJ~  ..  NAME  \\267\\267\\267\\267\\267\\267\\267\\267\\267\\267\\267  .....  .......... . .  .  .......  ....  Date  Pr ocessed  .... .. . . | ..  ... .. .  .  .  .  .  .  .  .  NICKNAME  LAST  SUFFIX  BLov.J  /J  Date  Imaged  7  CAMPAIGN  STREET  ADDRESS  \\( NO  PO  BOX  PLEASE \\);  APT  /  SUITE  # ;  CITY ;  STAT E ;  ZIP  CODE  TREASURER  JDeJ  ,,<J  -r.t:...Jt  VI  5 1  St\\243  J-L\\)S  5  tte-~JU  /VU  --0.  7So9t:J  ADDRESS  \\( Resi dence  | or  Busines s\\)  8  CAMPAIGN  AREA  CODE  PHONE  NUMBER  E X TE NSION  TREASURER  PHONE  \\(  '103  \\)  1-/-87 .  ~700  9  REPORT  TYPE  @  January  15  \\217  30th  day  before  elect i on  \\217  Runoff  \\217  15th  day  after  campaign  treasurer  appointment  \\(Officeholder  Only\\)  \\217  July  15  \\217  8th  day  before  elect i on  \\217  Exceeded  Mod ifi ed  \\217  F in al  Report  | \\(Attac h  C / O H  - FR \\)  Reporting  Limit  10  PERIOD  Month  Day  Year  Month  Day  Year  COVERED  /  /\\(,  /  ol-0,,23  d'/  / 1~  / oUJti.,\\245  tJ7  THROUGH  11  ELECTION  ELECTI O N  DATE  ELECTION  TYPE  Month  Day  Year  0  Primary  \\217  Runoff  \\217  Other  Description  /  /  0  General  \\217  Special  12  OFFICE  | OFFICE  HELD  \\(i f  any\\)  13  OFFICE  SOUGHT  \\(if  known \\)  6  ,R.tt  Y  x;  ,<1  CL>  /Jt57'\\200tc:f  fl  J;;J_  ~ y  14  NOTICE  FROM  THIS  BOX  IS  FOR  NOTICE  OF  POLITICAL  CONTRIBUTIONS  ACCEPTED  OR  POLITICAL  EXPENDITURES  MADE  BY  POLITICAL  COMMITTEES  TO  SUPPORT  POLITICAL  THE  CANDIDATE /  OFFICEHOLDER.  THESE  EXPENDITURES  MAY  HAVE  BEEN  MADE  WITHOUT  THE  CANDIDATE'S  OR  OFFICEHOLDER \" S  KNOWLEDGE  OR  | CONSENT .  CANDIDATES  ANO  OFFICEHOLDERS  ARE  REQUIRED  TO  REPORT  THIS  INFORMATION  ONLY  IF  THEY  RECEIVE  NOTICE  OF  SUCH  EXPENDITURES .  COMMITTEE\\(S \\)  COMMITTEE  TYPE  COMMITTEE  NAME  \\217 GENERAL  COMM ITTEE  ADDR E SS  \\217  Additional  Pages  O sPEC1F1c  COMM ITTEE  CAMPAIGN  TRE ASURER  NAME  COMMITTEE  CAMPAIGN  TREASURER  ADDRESS  GO  TO  PAGE  2  Forms  provided  by  Te x as  Eth ics  C ommission  www . ethics.state . tx.us  | CANDIDATE/  OFFICEHOLDER  CAMPAIGN  FINANCE  REPORT  FORM  C/OH  COVER  SHJ=ET  PG  2  15  C/OH  NAME  16  Filer  ID  \\(Ethics  Commission  Filers \\)  17  CONTRIBUTION  1 .  TOTAL  UNITEMIZED  POLITICAL  CONTRIBUTIONS  \\(OTHER  THAN  TOTALS  PLEDGES ,  LOANS ,  OR  GUARANTEES  OF  LOANS ,  OR  $  If  CONTRIBUTIONS  MADE  ELECTRONICALL Y\\)  2.  TOTAL  POLITICAL  CONTRIBUTIONS  $  \\(OTHER  THAN  PLEDGES ,  LOANS ,  OR  GUARANTEES  OF  LOANS \\)  -8'  ...................  EXPENDITURE  3.  TOTAL  UNITEM IZED  POLITICAL  E X PENDITURE .  TOTALS  $  g  4.  TOTAL  POLITICAL  EXPENDITURES  $  ,B- ..... . .. . ... .. .....  CONTRIBUTION  5.  TOTAL  POLITICAL  CONTRIBUTIONS  MAINTAINED  AS  OF  THE  LAST  DAY  BALANCE  OF  REPORTING  PERIOD  $  ..f:Y  .  - .. . ...... . . . ....  OUTSTANDING  6 .  TOTAL  PRINCIPAL  AMOUNT  OF  ALL  OUTSTANDING  LOANS  AS  OF  THE  io so  /5etFJ  LOAN  TOTALS  LAST  DAY  OF  THE  REPORTING  PERIOD  $  18  SIGNATURE  I  swear ,  or  affirm ,  under  penalty  of  perjury,  that  the  accompanying  report  is  true  and  correct  and  includes  all  i nformation  required  to  be  r eported  by  me  under  Title  15 ,  Election  Code .  Please  complete  either  option  below:  ***********tt*\\225\\267\\267\\267\\267\\267\\267\\267\\267\\267\\267\\267\\267\\267\\225\\\r:  \\(1\\)  Affidav it  :  y  l'q_  TRUETT  STEELE  :  \\225  Notary  ID  #  457777-3  *  :  ,JI,{,..  My  com missi on  E x pires  :  :  April  29 ,  2026  :  NOTARY  STAMf&  ***********************  Sworn  to  and  subscribed  before  me  by  l \\(L\\276  t  20  '.;\\).  4  i  to  cert;fy  wh;ch ,  w;fnes,  my  haod  ao :-S eal  ofoffice .  u  1  I..\\\\  ~ -- &fa:,  l \\(  U,f  H  ~ ~ 'f  - C  J  Signature  of  officer  administering  oath  Printed  name  of  officer  administering  oath  th;,  the  i \"  day  of ~ {\\),.,,v  Q ~  tJot r,., { 1_  Title  of  officer  administer i ng  oath  \\(2\\)  Unsworn  Declaration  My  name  is  _______________________  ,  and  my  date  of  birth  is  ____________  _  My  address  is  _____________________________________________  _  \\(street\\)  \\(city\\)  \\(state\\)  \\(zip  code\\)  \\(coun try\\)  Executed  in  ________  County ,  State  of  ______  ,  on  the  ___  day  of--,--...,.,...,----- \\267  20  ___  .  \\(month\\)  \\( year\\)  Signature  of  Candidate/Officeholder  \\(Declarant\\)  \"'  N  tO  N  N  :I:  a..  N  ,-\\215  z  a:  L---------------------------------------------- -F?, ....,  Revised  11/15/20  .  Forms  provided  by  Texas  E thics  Commission  www . ethics.state.tx . us  <:eo  ~N  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260608142025_63e51ddaa5.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/upload/page/0367/docs/TAX_ABATEMENT_AGREEMENT_GUIDELINES_CRITERIA_2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UFM7G3G7H4CJLK6APJWLVY674L6L3CGV",
+     "length": "255447",
+     "replay_error": null,
+     "bytes": 255546,
+     "sha256": "5cf8baedcd88b0a4062804aca1e8980138623e90cc4c50be8111e45b562cf8af",
+     "orig_last_modified": "Tue, 19 May 2026 21:01:47 GMT",
+     "orig_date": "Mon, 08 Jun 2026 14:20:25 GMT",
+     "orig_last_modified_local": "2026-05-19 16:01:47",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260608142025_dbbfaf8cbf.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3774/0/Notice%20of%20Post-Election%20Hand%20Count%20Audit.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LRA62GY2EOPY2YNAIDEH3W3OXJDPA3WV",
+     "length": "152369",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608142025",
+     "original": "https://www.co.grayson.tx.us/page/open/3774/0/Van%20Alstyne%20ISD_Notice%20of%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5FZDKPXJ3VDWGDK4UEQZTZDOGIPDA2AW",
+     "length": "211307",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260528005344",
+     "original": "https://www.co.grayson.tx.us/page/co.calendar?date=06-02-2026",
+     "mimetype": "text/html",
+     "digest": "XRDZQAYCVGJZ5MV62JWSKLBS76TAOV76",
+     "length": "28331",
+     "replay_error": null,
+     "bytes": 27180,
+     "sha256": "51136bf6bb0190309b43d75d0e8af8ceb3c3d31b00966b6e41c4e02b200859a1",
+     "orig_last_modified": null,
+     "orig_date": "Thu, 28 May 2026 00:53:44 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0004\u0000\ufffd\ufffd\u0007` I\ufffd%&/m\ufffd{\u007fJ\ufffdJ\ufffd\ufffdt\ufffd\b\ufffd`\u0013$\u0610@\u0010\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd iG#)\ufffd*\ufffd\ufffdeVe]f\u0016@\ufffd\ud77c\ufffd\ufffd{\ufffd\ufffd\ufffd{\ufffd\ufffd\ufffd;\ufffdN'\ufffd\ufffd\ufffd?\\fd\u0001l\ufffd\ufffdJ\ufffd\u025e!\ufffd\ufffd\ufffd ?~| ?\"~\ufffd\ufffd7NRz \ufffd\ufffdO\ufffd \u0297 \u0467\ufffd\ufffd \ufffd[\ufffd\ufffdm\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\"o\ufffdg\ufffd\ufffdzL\ufffd|\ufffd\ufffd\ufffd\u0001-\ufffd6# \ufffd\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffdg \ufffdT\ufffd6_\ufffd\ufffdo\ufffdW\ufffdG)\ufffd\ufffd\ufffd>\ufffd\ufffd\ufffd\u07f5w\ufffd\ufffda:\ufffdgu\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0018\ufffde\ufffd\ufffd?\ufffd\ufffd\u022fV\ufffd\ufffd\u0007\u4a98\ufffd\ufffd\ufffdf9!\ufffdo\ufffd \ufffd\ufffdX\u0016m\ufffd\ufffd\ufffd\ufffd4+\ufffd\ufffdv;\ufffdq\ufffd\ufffde\ufffd\ufffd\ufffd\u0000v\u0006)_\ufffd\u036af \ufffd\ufffdj \u077d{uu5\ufffd\ufffd\ufffd\ufffdE\ufffd$\u0003GD\ufffd\u0016w\u0001\ufffd\ufffdO7\ufffdG1\ufffd\ufffd\ufffd\ufffdO\u007f\ufffd\ufffd\ufffd\ufffd\u0377\ufffd \ufffd\ufffd\ufffd\ufffdQ\ufffd\u032f\u04a7Y\ufffdo\u0779s\ufffd\ufffd\ufffd\u000e:/.\u8ecf}\ufffd>\ufffd\ufffd-\ufffdB\ufffd\ufffdw\ufffd\ufffd\u0013\ufffd&\ufffd\ufffd~\ufffdO\ufffd\ufffdYJc\ufffd\ufffdy[\ufffd\ufffd\ufffdd\ufffd/2\ufffd\ufffd\ufffd|I\ufffdL\u010f\ufffdzPW0\ufffd\ufffd6\ufffd\ufffd\ufffd\ufffdw\ufffd}\ufffd\ufffd>\ufffd\ufffd\"\ufffd.\ufffd f\ufffd5AM\ufffd*\ufffd\ufffd\ufffdb\ufffd\ufffdl%>\ufffd\ufffde\ufffd7MzJ_\ufffdh L\ufffd\ufffd\ufffd{\ufffd0 \ufffd\ufffd\ufffdb+_ \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd#\ufffd\u01b2\u025f\u0011\u0000t\ufffdxV\\\ufffd\ufffd2k\ufffd\ufffd>\u029a\u054b\ufffd\ufffdv1\ufffd\ufffd\u0010\ufffdb\ufffd\"'I\ufffdm. \ufffd\ufffdr\ufffdr\ufffd\ufffd\u007f\ufffd\ufffd^\ufffd |! \ufffd\ufffd\ufffd\ufffdy\ufffd\ufffdt\ufffd\ufffd\ufffd\u02ec\\\u0013\u0000a\ufffd =\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffd\ufffdx\ufffd\ufffd\ufffd\ufffd\ufffdo\u0004j\ufffd\ufffd\ufffdDo}\ufffd\u0005\ufffd `\ufffd\u000fo\u000f\ufffd'\ufffdN\ufffd\ufffd\ufffd\ufffd\ufffdS\u0003\ufffd\ufffd@\ufffd\u073d:}\ufffd\ufffd\ufffd\ufffd\ufffd\u07dc\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\u0017?\ufffdb\ufffd\u015b/^\ufffd\u0513\ufffd\ufffd\ufffd. \ufffd}6?;9\ufffd\ufffd\ufffd\u0017\ufffd'\ufffd?A?\ufffd?A?\u000f\ufffd\ufffd\ufffd\ufffd\ufffdO^\ufffd4\ufffdO\ufffdO\ufffd\ufffd\ufffd\ufffd}N\ufffd}1\ufffdn\ufffd{\ufffdX\ufffd>\ufffdwe\ufffd\ufffd\ufffd\ufffd?u|v\ufffd\ufffd\ufffdO\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffdO\ufffd \u007f~\ufffd?}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdd1\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdiy\ufffd\ufffd\ufffd\ufffdg\ufffd_]}\ufffd\ufffd\ufffd\u04ef\ufffd>;\u007f\ufffd\ufffd\u00df\ufffd}w\ufffd\ufffd,_}\ufffd}wV\ufffdN\ufffds\ufffd?{\ufffd\ufffdd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_}\ufffdl\ufffdS\ufffd}\ufffd\ufffd\u0019\ufffd}\ufffd\ufffd\ufffd-\ufffd\ufffd\u0013\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd)\ufffdz\ufffdS\ufffd\u0007\ufffd=\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd'\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u02ae\ufffd\ufffd\ufffd?\ufffd\u0773\ufffdO~\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffd7\ufffd\ufffd\ufffd\ufffd\u06efN&\ufffd\ufffd\u07d9}\ufffd\ufffd\ufffd\ufffd'_\u0011\ufffdr\ufffd(\ufffd\ufffd\ufffd\ufffd}\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffdO.~\ufffdz\ufffdW^N~z\ufffd\ufffd\ufffd\ufffdg\ufffd\ufffd\u007f\ufffdt\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?y\ufffdSov\ufffd?\ufffd{\ufffd\ufffd\ufffdt\ufffd!X?1\ufffd\ufffdw\ufffd\ufffd/\ufffd\ufffd\ufffd\ufffd]~5\ufffdkKz\ufffd\ufffd\u0017?\ufffdl\ufffd\ufffd|\ufffd\ufffd{_\ufffd\ufffd/\ufffd\ufffd\ufffd\ufffd\u0017{?\ufffd\ufffd\ufffd Z _\ufffd \ufffd\ufffd\ufffd_d\ufffd\ufffdwZol\ufffdo>\u007f8\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffd>\ufffdO\u0016D\ufffd'\ufffd\ufffd\u0017o\u007f\ufffd\ufffd\u0015\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0013\ufffd\u3ed8+\ufffd\ufffd\ufffd\u066br\ufffd\ufffdO^g\ufffdm\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd'\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdN\u07ed~jo\ufffd\ufffd\u0013\ufffd\ufffd\ufffd\ufffd\u007foj\u0003\u001a\ufffdi\u071c=\ufffd\ufffdr\ufffd|\ufffd\ufffd\ufffd\ufffd?\ufffd\u29cf\ufffd_\ufffd\ufffd\u007fG4{\ufffd\ufffd\ufffd\ufffdy\ufffd\ufffdg\ufffd\ufffd\ufffd\ufffd\u0277_\ufffdN\u0017_=$\ufffdvg\ufffd\ufffd\ufffd|rru\ufffd\u0577\u007f\ufffd\ufffd|^\ufffd\ufffd\ubf5f\ufffd\ufffd\ufffd\ufffd?\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffdw?\ufffdxV\ufffd\ufffd\ufffd\u017b\u0017?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0017 \ufffd\ufffd>%\ufffd \ufffd3 \ufffd\ufffdw\ufffd]\ufffd\u0014\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdj\ufffd\ufffd\u0007\ufffd\ufffd\ufffd~\ufffdr\ufffd\ufffdW\ufffd\ufffd7\ufffd\ufffdK\ufffd\ufffdzp\ufffdx^\ufffd\ufffd\u0017\ufffd\ufffd \ufffd_\ufffd\ufffdw\u007f\ufffdgO\ufffd\ufffdWh\ufffd|o~9\ufffd\ufffdO\ufffd\ufffd\ufffd\ufffdO \ufffd\ufffdN9y\ufffd\ufffd-\u007f\ufffd\ufffdO\u069f\ufffd\ufffd\ufffd\u0773\ufffd\ufffd?\ufffd|\ufffd\ufffd\ufffd\ufffd\ufffd{7\ufffd\ufffd\ufffd\ufffd\ufffd\u0652p \ufffd \ufffd\ufffdW\ufffdO}\ufffd;\ufffd\ufffd\ufffd_]\ufffd\ufffd\ufffd[\u0497\ufffd\ufffd\ufffd'/\ufffd\ufffd\ufffd\ufffda\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdo\u007f\ufffd\ufffd\ufffdxx\ufffd\ufffd\ufffd\ufffd\u0019\ufffd%\ufffd\ufffd\ufffdl\ufffdw\u007fRtV\ufffdhX\u039f\u007fwN} \ufffd%\ufffd\ufffd\ufffd?;x\ufffdw\ufffd \ufffd\ufffd\ufffd\u0784\ufffd\ufffd=\ufffd\ufffd\ufffdn\ufffdS\ufffd}F49C\ufffd2\u03b7\ufffd\ufffdwwW\ufffd{\ufffd=\ue4cd\ufffd\ufffd\ufffd\ufffd=\ufffd\ufffd\b\ufffd\ufffdw~ \ufffd'}?\ufffd9\ufffd]z=\ufffd\ufffd\ufffd\ufffdv\ufffd\ufffdt\ufffd\ufffd\ufffd\ufffd)j\ufffd\u0013\ufffd\ufffd\ufffd\ufffd\u000fH\ufffd\\\ufffd7\ufffd*\ufffd\ufffd\ufffd\ufffd\ufffd9{z\ufffda ,{\ufffd{~&\ufffd\ufffd\ufffdw\ufffd\ufffd\ufffd\ufffdq\ufffd\ufffd\ufffd\u05ce&\ufffd\ufffd?\ufffd\ufffd\ufffdO`N\ufffd\ufffd~zvr|M\ufffd\ufffd/\u007f\ufffd\ufffd\ufffd\ufffd-\ufffd\ufffdn\u5353y\ufffd;?\ufffd? ^\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdK\ufffd\ufffd\ufffd^?$\u001a\ufffd^}q}\ufffd\ufffd\ufffd\ufffdw~p\ufffd|\ufffd\u0756\ufffd\ufffd d\ufffd}\b\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffd!\ufffd\ufffd}\ufffd\ufffd\ufffd\ufffd\u0017\ufffd\ufffd 2\ufffd\ufffd[\ufffde\ufffd\u0ef1\ufffd \ufffdo\u007f\ufffd\ufffd\ufffd1 \ufffd4\ufffd\ufffd\u000f\u2b47\ufffdK=\ufffd\u07e5\u0018d\ufffd'I\ufffd\ufffd\ufffdx\ufffd\ufffdgk\ufffd\ufffd\ufffd\u05b3\ufffd \ufffd\ufffdb\ufffd\ufffd\u076b\ufffd3\ufffd'\ufffdH\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffdy\u0483\ufffd\ufffd\ufffd\ufffd\ufffdP~\ufffd\ufffd\u0005\ufffd+\ufffdC\ufffd\u0017\ufffd\ufffd\ufffd\ufffd+\ufffd'|\u0000\ufffdk\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdv~\ufffdqRl6\ufffdO>p\ufffd\ufffd\ufffd\ufffdv2\ufffd\ufffd\u0388\ufffd \ufffd\ufffd\u0017\ufffd>'\ufffd\ufffdd\ua6e0c\ufffdy\ufffd\ufffd\ufffd\ufffd\u0007x\ufffd| \ufffd\ufffdg\u0014\u05ff y.K\ufffd \ufffd\ufffd\u06f3S\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdw\ufffd\ufffdf\u0010\ufffd|\b\ufffdW\ufffd\ufffd\ufffdKy\ufffd\ufffd\ufffdx\ufffd| \u82df&\ufffdJc\ufffd\u0010>\ufffd\ufffdt\ufffd{\ufffd\ufffd\ufffd\ufffdO^\u007f\ufffd\ufffd\ufffd\ufffdEq\u0003b\ufffd}\ufffd1~:\ufffd\ufffd>\ufffd\ufffdp\ufffd\ufffd\u000em\ufffds\ufffd\ufffd \ufffd\ufffdC1- \ufffd5\ufffd\ufffd\ufffd\ufffd\ufffd\u0001\ufffd\ufffd\ufffd8\ufffd\ufffd\ufffd\ufffd\u064b\u05cb\ufffd\ufffd\ufffd\ufffd'.~\ufffd\ufffd\ufffd\ufffd\ufffd-\ufffd\ufffdl$\ufffd\u0012\ufffd \u02b9\ufffd\ufffd\ufffd\u0013\u0001^7\ufffd\ufffd>\ufffdj\ufffdl\u0010\ufffd\ufffdO\ufffd\ufffd\ufffd\ufffd3\ufffdc\u007f\ufffd\ufffd\ufffd\ufffd\ufffdv?\ufffdS\u0018\ufffd7\ufffd e\ufffd\ufffdwN \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd>$#\ufffd\ufffd#\ufffd\u0017\ufffd\ufffd\ufffdN\ufffd_|m_iu\ufffd\ufffd\ufffd\ufffdkF\ufffdJ\ufffdy\u0019\u0019kK}\u04fbd\ufffd\ufffd7\ufffd\ufffd~\ufffd/\ufffd>\ufffd\ufffdl\ufffd\ufffd? =C\ufffd\\\ufffdT\ufffdd'\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd1\ufffd\ufffd\ufffd7\ufffdK\ufffd\ufffd}\u001b\u02af\u000e\ufffd\ufffd 4\ufffd\ufffd\ufffd\ufffd\ufffdi\ufffd/\ufffd\ufffd\ufffd\ufffd\ufffd|\ufffd(\ufffd\ufffdh\ufffd{\ufffd>2\ufffd\u07db\ufffdb\\\ufffd\u07adI\ufffd\u0012\u000e\u07d8\ufffd\ufffd\ufffdl\ufffdq\ufffd}7\ufffd]?\ufffd \ufffdw\ufffdI\ufffd!\ufffd\ufffd\u001a\ufffd)?\ufffd\ufffdWW\ufffd T\ufffd\ufffd\ufffd\ufffd\ufffd\u036e\ufffd\ufffd\ufffd^M\ufffd\ufffd\ufffd^~\ufffd\ufffd\ufffd\u000e\ufffd\ufffd\ufffd\ufffdO [g\ufffd\ufffdO\ufffd|\u0017y2\ufffd\ufffdi\ufffdH\ufffd\ufffd\ufffd\ufffd\u0014?\u07a7\ufffd\ufffd_\ufffd\ufffd>\\\ufffd-\ufffd\ufffd\ufffd\ufffdb\ufffd \ufffd\ufffd \ufffdW\ufffd\ufffd\ufffd/J\ufffd\ufffd\ufffdI\ufffd\ufffd4\u1d24\ufffd\ufffd\ufffd)\ufffd\ufffd\u03d7\ufffd\ufffd\ufffd\u0013\u007f}\ufffd\ufffd\u0017;/\ufffd~qI9\ufffd\ufffdx\ufffd!\u001a}\ufffd\ufffd\ufffd;'Z\ufffd+\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd8 \ufffd\u000e?C\ufffdP\ufffd\ufffd`\ufffd\ufffd\ufffdk\u049f;\ufffdY\ufffd\ufffd\ufffd\ufffdOR\ufffd\ufffd!\ufffd\ufffdws\ufffdC_\ufffd\ufffd \ufffdI\ufffd\u000f\ufffd$\ufffd\ufffd\ufffd(\ufffd\ufffdtg\ufffd{\ufffd}\u00074\ufffdIV\ufffdD\ufffd \ufffd\ufffd\u07dbb\ufffdk\ufffd\ufffd\u07e5 \ufffd\ufffd}\ufffd\u0005?yba\ufffd>\ufffd\ufffd}\ufffd\ufffd\ufffd'\ufffdg\u07e5 i`\ufffdn\ufffd7\ufffd\u0004\ufffd\u01ad\ufffdhd\ufffd\ufffds\u0017\u007f\ufffdO(WM\ufffd\ufffd\ufffd\ufffd\ufffdR\ufffdN\ufffd\ufffd\u000f\ufffd \ufffd\ufffdh\ufffd\ufffd\u000e\ufffd\ufffd+\ufffd \ufffd\u000f\ufffdc~1\u0663qR\ufffdK\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd#V\ufffd\ufffd\ufffd\ufffd\ufffdM\ufffd\u000eDnI\ufffd|\ufffd7\ufffdx\ufffd\\\ufffdT1\ufffd\ufffd7\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u000f=\ufffd}rM\ufffd/\ufffd\u066b\ufffd$3\ufffdg\ufffdg\ufffd\ufffd\ufffd_ w\ufffdC}\ufffdoD6w1m\ufffd;\ufffdw\ufffd;\u0014\ufffd\ufffd\ufffd\ufffd\u0001 \ufffd$\ufffd ~\ufffdx\ufffd\ufffd\ufffd_N\ufffd]\ufffd\ufffd\ufffd5\ufffd\ufffd\ufffd\u04c4\ufffd\u05e0 \ufffda\u033e\ufffd\ufffd\u0007_\u0016\u0007\ufffd?u\ufffd;\ufffd|\ufffdIq\u007fN\ufffd\ufffd\ufffd\ufffd\ufffdz\ufffdY/\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffd]g_\u045a\b\ufffdx\ufffd\ufffd7\ufffd\ufffd\ufffd\ufffd~\ufffdI\ufffdY\ufffd\ufffd/f\ufffd\ufffdbP~\ufffd\ufffd \u000f\ufffd\ufffdt \ufffd\u0016\ufffdG\ufffd\u001a\u062e\ufffd\ufffd+\ufffdoc\u034e\ufffdW\ufffd;Zci\ufffd{.7G\ufffdy\ufffd\ufffd\ufffdY\ufffd\ufffd\ufffd\ufffdg\ufffd\ufffdrw/\ufffd\u0013\ufffdK+\ufffd\ufffd/\ufffd\ufffdo\u007f\ufffd\ufffd\ufffd\ufffde\ufffd\u075f\ufffd\ufffd\u0003\ufffd \ufffd\u0013\ufffds\ufffd\ufffd\ufffdst\ufffdpc\ufffd\ufffdJ\u007f\u0013\ufffd!'\ufffd\ufffd\ufffdD\ufffdy\ufffd\ufffdg\ufffd\ufffd\ufffd \u0176eI\ufffd8\ufffd \ufffd\ufffd\ufffdM\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd%\ufffd\\a\ufffdo\ufffdO\ufffd\ufffd\u037e}\ufffd\ufffd>i\ufffd\ufffdH\ufffd}A>\u0000\ufffdli^\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd/\u0014\ufffd\ufffd\u0014\ufffd\ufffd\ufffd\ufffd\ufffd\u0015O\u0006IW\ufffd \u047a@I\ufffd\u01cbK\ufffd?\ufffd9\ufffd P?\ufffd\ufffd.\u05b3\ufffd\ufffd\ufffdK\ufffd\ufffd|H/P\ufffdg\ufffd\u05ae\uf7dd\ufffd$\ufffdp|\ufffd\ufffd\u05d3\u0013_O\ufffd8\ufffd\u0003\ufffd\ufffds\ufffd\ufffd\ufffd\ufffd\u00f7D/^\ufffd|\ufffd Z\u007f\ufffd\ufffd\ufffd\ufffdx\u0000\ufffdL>\ufffd}.\ufffd\ufffd\ufffd\ufffd\ufffd\u0019t>\ufffd\ufffdDG\ufffd7W \ufffd\ufffd\u0461D3\u0409\ufffd\ufffd\ufffd\ufffd\ufffd}\ufffd\u0017\ufffd\ufffd~\ufffd\ufffd9o\ufffd\ufffd\ufffdg\ufffd\ufffd\ufffd|'\uda1d\udfedg\ufffd\ufffd\ufffdu\ufffd\ufffd\ufffdY \ufffd\u0002\ufffda\ufffd\ufffd\ufffd>\ufffd\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd\u015b\ufffd\ufffd\u02e7O\ufffd\ufffd\ufffd\ufffd\ufffd>{\ufffd\ufffd^ ?(\u0017\ufffd\ufffd\ufffdK8\ufffd\ufffd}~p\ufffdK\ufffd;\ufffd\u03db\ufffd\ufffdt\ufffd_\ufffd\ufffd\u0017\ufffd\ufffd \ufffd\ufffd\ufffdoruA\ufffd8\ufffdFq\ufffd79f\ufffd\ufffd\ufffdl\ufffd\ufffd\ufffdNI\ufffdkZ/\ufffdF,Bp\ufffd\ufffd\ufffd\u0010\u001a \u0678\ufffd4~/\ufffd>\ufffd\ufffd\ufffd\ufffdgo\ufffd&y\ufffd~\ufffd^\ufffd\ufffd\ufffd\ufffd\ufffd\u0253S\u205a\ufffd\ufffduh\ufffd\ufffd\ufffd\ufffd\u07cb\ufffd\ufffd\ufffd/\u0641\ufffd\ufffd\u017b\ufffd\ufffdW`\ufffd\ufffd?2z\ufffd? \u4c60\ufffd\ufffd\u0015\ufffd8\ufffdl\u0003\ufffd\ufffdc",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260528005344_1b7d68236c.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260528005344",
+     "original": "https://www.co.grayson.tx.us/page/co.calendar?date=06-09-2026",
+     "mimetype": "text/html",
+     "digest": "SJYICO73Y4CR4BIXLZH7YPWJ37C6NTKF",
+     "length": "28336",
+     "replay_error": null,
+     "bytes": 27185,
+     "sha256": "a885f679a204fb5ddc4f708da54fde6a3f97af5c937675fb2983d440e50ce4b8",
+     "orig_last_modified": null,
+     "orig_date": "Thu, 28 May 2026 00:53:44 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0004\u0000\ufffd\ufffd\u0007` I\ufffd%&/m\ufffd{\u007fJ\ufffdJ\ufffd\ufffdt\ufffd\b\ufffd`\u0013$\u0610@\u0010\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd iG#)\ufffd*\ufffd\ufffdeVe]f\u0016@\ufffd\ud77c\ufffd\ufffd{\ufffd\ufffd\ufffd{\ufffd\ufffd\ufffd;\ufffdN'\ufffd\ufffd\ufffd?\\fd\u0001l\ufffd\ufffdJ\ufffd\u025e!\ufffd\ufffd\ufffd ?~| ?\"~\ufffd\ufffd7NRz \ufffd\ufffdO\ufffd \u0297 \u0467\ufffd\ufffd \ufffd[\ufffd\ufffdm\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\"o\ufffdg\ufffd\ufffdzL\ufffd|\ufffd\ufffd\ufffd\u0001-\ufffd6# \ufffd\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffdg \ufffdT\ufffd6_\ufffd\ufffdo\ufffdW\ufffdG)\ufffd\ufffd\ufffd>\ufffd\ufffd\ufffd\u07f5w\ufffd\ufffda:\ufffdgu\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0018\ufffde\ufffd\ufffd?\ufffd\ufffd\u022fV\ufffd\ufffd\u0007\u4a98\ufffd\ufffd\ufffdf9!\ufffdo\ufffd \ufffd\ufffdX\u0016m\ufffd\ufffd\ufffd\ufffd4+\ufffd\ufffdv;\ufffdq\ufffd\ufffde\ufffd\ufffd\ufffd\u0000v\u0006)_\ufffd\u036af \ufffd\ufffdj \u077d{uu5\ufffd\ufffd\ufffd\ufffdE\ufffd$\u0003GD\ufffd\u0016w\u0001\ufffd\ufffdO7\ufffdG1\ufffd\ufffd\ufffd\ufffdO\u007f\ufffd\ufffd\ufffd\ufffd\u0377\ufffd \ufffd\ufffd\ufffd\ufffdQ\ufffd\u032f\u04a7Y\ufffdo\u0779s\ufffd\ufffd\ufffd\u000e:/.\u8ecf}\ufffd>\ufffd\ufffd-\ufffdB\ufffd\ufffdw\ufffd\ufffd\u0013\ufffd&\ufffd\ufffd~\ufffdO\ufffd\ufffdYJc\ufffd\ufffdy[\ufffd\ufffd\ufffdd\ufffd/2\ufffd\ufffd\ufffd|I\ufffdL\u010f\ufffdzPW0\ufffd\ufffd6\ufffd\ufffd\ufffd\ufffdw\ufffd}\ufffd\ufffd>\ufffd\ufffd\"\ufffd.\ufffd f\ufffd5AM\ufffd*\ufffd\ufffd\ufffdb\ufffd\ufffdl%>\ufffd\ufffde\ufffd7MzJ_\ufffdh L\ufffd\ufffd\ufffd{\ufffd0 \ufffd\ufffd\ufffdb+_ \ufffd\ufffdy\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdGL\ufffde\ufffd?#\u0000\ufffd\ufffd\ufffdL\ufffde\ufffd4\ufffd}\ufffd5\ufffd\u0017y\ufffd\ufffdb6#!\ufffdw\ufffdrEN\ufffd\ufffd\ufffd\\>VG\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd*\ufffd\ufffd\ufffd\u0019\ufffdB\u0018j\ufffd\ufffd\u007f\ufffd\ufffd \ufffd`\ufffd\u05d7Y\ufffd&\u0000\ufffd\ufffd\u001bz\ufffd\ufffd\u007f\ufffd\u04df \ufffd\ufffd\ufffd\ufffd\ufffd\u00e7_=}v\ufffd\ufffd\ufffd?=\ufffd\ufffdn9Y\ufffd\ufffd\"\ufffd\ueb1a\ufffd~\ufffd2\u007f\ufffd\ufffd\ufffd\ufffd\u07b3\ufffd\ufffdw\ufffd/\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd3\ufffd\ufffdx\ufffd\ufffd[\ufffd\ufffd'\ufffd\u007f\ufffd\ufffd\u0173\u0173\ufffdS\ufffd\ufffd\u49ce\u000f\ufffd{\ufffd\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd?\ufffd\ufffdO6?\ufffd{\u007fg\ufffd]\ufffd\ufffd\ufffd\u007f\ufffdg\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0173\ufffdo>/\ufffd\u0677_\ufffdL\ufffd\u037f3\ufffd\ufffd'\ufffd\ufffd'O\ufffd\"\ufffd\ufffdtQ\ufffd\ufffd\ufffdY\ufffd\ufffd\u0014\ufffd\u007f\ufffd\ufffd\ubacb\ufffd\\\ufffd\ufffd\ufffdt\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0017O\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u04fd\ufffd?\ufffd\u0013{_\u0014W\u0017?q\ufffd'\ufffd\u0677\u007f\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\u025d\ufffd\ufffdYC\ufffd~b\ufffd\ufffd\ufffd4\ufffdw_ \ufffd\ufffdy`:\ufffdz\ufffd\ufffdk\ufffdp\ufffdS\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdv~\ufffd\ufffd8yr\ufffd4?\ufffd6\ufffd\u07fezR}\ufffd\ufffd\ufffd\ufffdw\u0016/v&O\ufffd\ufffd~\ufffd\u0017?\ufffd\ufffdO>|:\u067b\ufffd\ufffd~\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd|\ufffdp\ufffdS\ufffd\ufffd\ufffd\ufffd}2\ufffd,\ufffd\u0016O0'/\ufffd\ufffd\ufffd\ufffd+\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffd\u007f\ufffd'\ufffd\ufffdw1WL\ufffdg\ufffd\ufffdW\ufffd\ufffd\ufffd\u03be\u06ec\u007fr\ufffd'\ufffd\ufffd\ufffdO~\ufffdy\ufffd\ufffd\ufffdO\ufffd\ufffd[\ufffd\ufffd\ufffd|\ufffd'\u0016\u000f\ufffd_\ufffd\ufffd\ufffd\u00064\ufffd\u04f89{\ufffdS\ufffdt\ufffdb5\ufffd\ufffd\u007f\ufffd\ufffdO _\ufffdx\ufffd\ufffd\ufffdh\ufffd\ufffdE\ufffd\ufffd\ufffd\ufffd\u03da\ufffd\ufffd\u0017\ufffd\ufffdo\ufffd\u069d.\ufffdzHx\ufffd\u03be\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffdd1\ufffd\ufffd\ufffd\ufffd\ufffd{?y\ufffd'?\u007fX\ufffd\ufffdw\ufffd\ufffd7g\ufffd~j\ufffd|\ufffdw/~\ufffd'\ufffd\ufffd\ufffd\u034b\ufffd/x \ufffd\ufffd=\ufffd8{\ufffd\ufffd\ufffd{~\u0000\ufffd\ufffd4\ufffd \ufffd\ufffd8\ufffd\ufffd\u0017\ufffd\ufffd\u049e\u007f?\u0001\ufffd\ufffd\ufffdM\u001b\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd>\u0001\ufffd\u007f\ufffd\ufffd\ufffd\ufffdoh~\u007f\ufffd\ufffd\ufffd\ufffd\ufffdj\ufffdm\ufffd\ufffd\ufffd??y\ufffd\ufffd\ufffd\u0653\ufffdW%\ufffd \ufffd\u00122\ufffd\\\ufffd\u0002\ufffd\ufffd\ufffd\ufffd\u007f \ufffd3\ufffd\ufffd\ufffd[\ufffd'\ufffd\ufffd+\ufffd\ufffd\ufffd\ufffd \u0319\ufffd\ufffdzq9\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u00fa\ufffd~\ufffd6?\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffd\ufffd'\ufffd\ufffd\ufffdZ\ufffd\ufffd\ufffd\ufffdj\u0005\u001a\ufffd}\u001b\ufffd\ufffdj\ufffd\ufffd\ufffd\ufffd\u0018\ufffd\ufffd\ufffd\ud83e\udf5f\u007f\ufffd\ufffd \ufffd\ufffd\ufffd\ufffdww\ufffd\ufffd\ufffdl5)vw&\ufffd\ufffd?}\ufffd{?\ufffd\ufffdr\ufffd~VL\ufffd\u0699\ufffd\ufffd\ufffd\ufffd4&\ufffdy\u0017\ufffdY \ufffd\ufffdw\ufffd\ufffdw\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\ufffd\ufffd\u97fc\u029f\ufffd\ufffd\ufffd\ufffdg\ufffdp\ufffd>o\ufffds\ufffd\ufffd\u00174\u07b3\ufffd'?\ufffd\ufffd\ufffd5\ufffd+\ufffd\ufffd>\ufffd\ufffd\udbed\udffe(\ufffd\ufffd\u0402hwu\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd1\ufffd\ufffdf}nq}J\ufffd;tg \ufffd\ufffd)\ufffdE\ufffd\u007f\ufffdW\ufffd\u04e7\ufffd\ufffd\ufffd\ufffd\u0017\u000f\ufffdg\ufffd\ufffd\ufffd\ufffd\ufffd\u06ef.'o\ufffds\ufffd\ufffd\ufffd9\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd9yv\ufffdJ\u0793\ufffdn\ufffd\ufffdg\ufffd~o\ufffd\ufffd\ufffdr\ufffdy\ufffd\ufffdS\ufffd\u0779\ufffd>\ufffdI\ufffda?y=\ufffd\ufffd\ufffdr\ufffd.F\ufffd'\ufffd\ufffd\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\\ N:G\ufffd'\ufffd~\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdYI2\ufffd\ufffdO}\ufffd\ufffdy\ufffd\ufffdO.f\ufffdN\ufffd\u02df|>\ufffd\ufffd\ufffd\ufffd\ufffd>\u03de\u0016\u000f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdr\ufffd\u075f\ufffd\u07c9\u05dfxx\u0013\ufffd\ufffd \ufffd l'\u01ff\ufffd\ufffd\ufffdy\ufffd;9y\ufffd\u04d3\u03df\ufffd`\ufffd\ufffd\ufffd\ufffd\ufffd\u0011\ufffdg\u0017\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\\\ufffd~\ufffdO\ufffd3\ufffd\ufffd\ufffd\ufffdz\ufffd\ufffd}\ufffd\ufffd\ufffdr\ufffd[\ufffd>\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffdg?\ufffd\u007f0\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdn>\ufffd\ufffd\ufffd\u00f3%\ufffdx\ufffdKz\ufffd~}\ufffd9\ufffd\ufffd\ufffd\u069f\ufffd\ufffdw.\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd//\ufffd\ufffdO^~\ufffd\u0005\ufffd\ufffd>\ufffd\ufffdYAm\ufffd\ufffd\ufffd\ufffd}\ufffd\ufffd\uc9cf\ufffd3jK\ufffd\ufffd\ufffd\ufffd\u0002\ufffd\ufffd\ufffd\ufffd\ufffd \u0470\ufffd?\ufffd\ufffd\ufffdxr9\ufffd\ufffdO^\ufffd|\ufffd\ufffd\ufffd\ufffd\ufffd'K\ufffd\ufffdO\ufffdOa7>\ufffd\u0277\ufffd \ufffd\ufffdw?\ufffd\ufffd\ufffd\u0016w\ufffd\ufffd\u29e9]\ufffdS\ufffd}U\ufffd4\ufffd\ufffd\ufffd^Ic\ufffd\ufffd522\ufffd>\ufffd\ufffd\ufffd\ufffd%\ufffd-\u066b{\u07f9\ufffd\ufffd\ufffd\ufffd\u000f\u0000\ufffd\ufffdO\ufffdt\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdgd\ufffdO[jK\ufffd\\= \ufffd\u007fv\ufffd|\ufffd\ufffd\u0013\u001aC\ufffd\ufffd \ufffd\ufffd;{D\ufffd\ufffd\ufffd\ua9fe\ufffd\ufffdhr\ufffd>e\ufffdo\ufffd\ufffd\ufffd\ueba6\ufffd\ufffd{\ufffd'\u001b\ufffd\ufffd\ufffd\ufffd{ \ufffdO\ufffd~\ufffds\u0006\ufffd\ufffdz\u0000\u05fd\ufffd\ufffd\ufffd\ufffd\ufffd:# \ufffdS\ufffd\ufffd'\ufffd\ufffd\ufffdw\ufffd \ufffd \ufffd\u0004o\ufffdU\u0004\ufffd\ufffd\ufffd}\ufffds\ufffd\ufffdt\ufffd\u0018X\ufffd\ufffd\ufffd\ufffdLt\ufffd\ufffd\ufffd\\\u001b]C\ufffd\ufffd\ufffd\ufffd\ufffd M\ufffdo\u007f\\\u0153\ufffd\ufffd\ufffd\u0010\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\u0015\ufffd\ufffd[\ufffd\ufffd\ufffd\ufffd\u001b'\ufffd\ufffdw~\ufffd\u007f@\ufffd^\ufffd;\ufffd\ufffd\ufffd\ufffd\ufffdD\ufffd\ufffdO\ufffd~H4\u063d\ufffd\ufffd\ufffd~E?\ufffd\ufffd\ufffd\ufffd>\ufffd\ufffd\ufffd-\ufffd\ufffd?\u023e\ufffd\u0010t!\u007f\ufffd;\ufffd\ufffdC\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd?d,;\ufffd \ufffd\u000e\ufffdwc9y\ufffd;y\ufffdO\ufffd\ufffd[\u0011\ufffd`\ufffdh n\ufffd{/~\ufffd\ufffdN\ufffd\ud906\udff1\ufffd}\ufffd\ufffd\ufffdW\ufffd~\ufffd\ufffd\ufffd=\u001a/\ufffd>\ufffd\ufffdF\ufffd\ufffd\ufffd\u0016 \ufffd\ufffd\u0005\ufffd\ufffdw\u0207\ufffd\ufffd\ufffd5\ufffd\"s\ufffdE\ufffd \\]\ufffd>\u0004\ufffdk\ufffde\ufffdEC\ufffd\ufffd\u001b\ufffd=\ufffdm4\ufffd\ufffd\ufffd#\u060b\ufffd\ufffd~\u0010\ufffd\ufffd\u021f \ufffd\ufffdN\ufffd\ufffd\ufffd\ufffd5\ufffd\ufffd\ufffd\ufffdC\ufffd~\ufffdK\ufffd\ufffd\u000f\u0002\ufffd\ufffd7\u9f40 W\ufffd\ufffdUDF}\ufffd\u00b8\ufffdw\ufffd?E\ufffd \ufffd\ufffdcx\u0002\ufffd9]\ufffd/\ufffd\u000f\ufffd'\ufffd\u0014\ufffd\ufffd\ufffd\ufffd3\ufffd \ufffd|\ufffdi\u0421 \ufffd[\u000fI\ufffdzp\ufffdK1\ufffd\ufffdO\ufffdNy{\ufffd\ufffd\ufffd\ufffdhC\ufffd\ufffdgO?\u0010\ufffd\u014e\ufffd\ufffdW\ufffdg\ufffdO\u0791\ufffd+\ufffd\ufffd\ufffd\ufffd\u0017\ufffd\ufffd\u0007\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffdS \ufffdW\ufffd/\ufffd\ufffd\ufffdW\ufffdO\ufffd\u0000\u0018\ufffd\u000e\ufffd\ufffd9\ufffd;\ufffd\ufffd \ufffd\ufffdO\ufffd\ufffd\ufffd \ufffd\ufffdl>\ufffd|\ufffd\u0018\ufffd\ufffd\ufffd\ufffddN\ufffd\ufffd\u0011\ufffd\u001b\ufffd/^}N~)\ufffd\ufffd7A\ufffd\ufffd\ufffd\ufffd\u00073\ufffd\u000f\ufffd\u001a\ufffd\u0012\ufffd\ufffd\ufffd(\ufffd\u007fA\ufffd\\\ufffd\ufffd;D\u02f7g\ufffdd?\u0017\u000f\ufffd\ufffd\ufffd\u0681\ufffd \ufffd\u0010 \ufffd\ufffd\ufffd\ufffd\ufffd@\ufffdI\ufffd\ufffd5\ufffd 4}\u007fu1\ufffd\ufffd}HF\ufffd%\ufffdG\ufffd\u007f/\u02b3\ufffd\ufffd\u043f\ufffd\u06be\ufffd\ufffd\ufffd \ufffd7\ufffd\u05cc\ufffd\ufffd\ufffd\ufffd22\u0596\ufffd\ufffdw\ufffd\u07b3o\ufffd\ufffd\ufffd\ufffd_4}\ufffd\ufffd\ufffd\ufffd'\u007f@z\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffdN\ufffd\ufffdW\u0017_\u0011\ufffdc\ufffd\u03e9oz\ufffdt\u0011\ufffd6\ufffd_ \ufffd\ufffd\u001bh\ufffd\ufffdO\ufffdC\u04d0_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdQ>\u007f\ufffd\ufffd\ufffd\ufffd}d\u073f7\ufffd\u0178\ufffd\ufffd[\ufffd\ufffd% \ufffd1[\ufffd\ufffd\ufffd\ufffd]\ufffd\ufffd\ufffdn>\ufffd~B9\ufffd\ufffd\\\ufffd\ufffdCL\ufffd5`S~\ufffd\u06ef\ufffd\ufffd?\ufffd.\ufffd\u07db\u075b]\ufffd'\ufffd\u077d\ufffd\\\ufffd'\ufffd9\ufffd\ufffd\ufffd\ufffd\ufffd \ufffdM\ufffd\ufffd\ufffdx\ufffd\ufffd\u0747\ufffd\ufffd|\ufffd\u03ae\ufffd\ufffd\ufffd\ufffd.\ufffdd\u0014\u001b\ufffd|\ufffd~_\u0013\ufffd)~\ufffdO\u3f7f \ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffdO\ufffdn\ufffdi\ufffdiI\ufffd\ufffd\ufffdS\ufffd \ufffd/_\ufffd?'\ufffd\ufffd\ufffd/v^ \ufffdIG\ufffd\ufffdq \u03feK9\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd \ufffd[\ufffd\ufffd\ufffd \ufffd\ufffd.\ufffd*\ufffdP\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd1\ufffd\ufffd\ufffdL\u0011 R?FO\ufffdxC \ufffd\ufffdW\ufffd9\ufffd \ufffd\ufffd\ufffdb\ufffdG\ufffd\u0617|\ufffd'\ufffd\ufffd\ufffdUE\ufffdG\ufffd\ufffda\ufffd\ufffd\u075b\ufffd \ufffd\u0712~\ufffdjoN\ufffdB\ufffd\ufffd\ufffdb\ufffd\ufffdo\ufffd\ufffd\ufffd\ufffd\u0167\u03ef z TI\ufffdA\ufffd@\ufffdbI\ufffd\ufffd\ufffd\u0016\ufffd\u0014\u01fdkH\ufffd\ufffd\ufffd \ufffdA\u001bZ\u00d8}\ufffd\ufffd\u000f\ufffd,\u000e.\u007f\ufffd\ufffdw\ufffd9\ufffd\u0018\ufffd\ufffd\ufffd\ufffd~\u0007\ufffd\u0017?\ufffdz\ufffd^ _a\ufffd\ufffd\ufffd\ufffd\ufffd ;=\ufffd\u03be\ufffd5\u0011\ufffd\ufffd\b\ufffdoB/\ufffd\ufffd\ufffd\ufffdO\ufffd\u0733L=_\ufffd.g\u0160\ufffd\u0018\ufffdy2! \ufffd\ufffd\ufffdU\ufffd\ufffd\ufffd\ufffd\u001a\ufffdNk,\u013b&\ufffd\ufffd\ufffd~ :\u0019 \ufffd\ufffd\ufffdhbx\ufffd+\u009d\ufffd%?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdp\u007fj\ufffdd\ufffd( \ufffd\ufffd\ufffd\ufffd\u001b\ufffd%\ufffd[u\ufffd\ufffd'w\u02a7\u0001 7\ufffdC\ufffdf\ufffd\u0013\u0143W\ufffd\ufffd\ufffd\ufffd?/\u022f\ufffdbMs\ufffd>\u07e3\u03fe\ufffd\ufffd%\ufffdN\ufffd/?[\ufffd(7M\ufffd \ufffd\ufffdxv\ufffd\ufffd\ufffdU\ufffd\ufffd}\ufffd\u0005\u0014\ufffd^\ufffd\ufffd}~\ufffd'W\ufffdw\u007f\ufffd\ufffd7\ufffd\ufffd\ufffdO\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd}\ufffdN\u07fdxZ\ufffd\ufffd}~P.h y\ufffdp\ufffd\ufffd\ufffd\ufffd\ufffdl\ufffd\ufffd)w~\ufffd7_ \ufffd\ufffdo\ufffd\ufffd\ufffd/\ufffd3;\ufffd\ufffd#\ufffd\ufffd\ufffdbq\u008d\ufffdor\ufffd\u0004?'\ufffd\u0016\ufffd\ufffd\ufffd\ufffd\ufffd!\u05f4^x\ufffdX\ufffd\ufffd\ufffd\ufffd?!4\u0018\ufffdqoi\ufffd^ }F\ufffd\ufffd\ufffd\ufffd|M\ufffdH\ufffd\ufffd\ufffdxMk\ufffd\u04d3'\ufffd\ufffd\u00035\ufffd#\ufffd\ufffd\ufffd\ufffd\u0001\u0149\ufffd\u0017\ufffd_\ufffd\u0003/'\ufffdw\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\u007fd\ufffd ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260528005344_175d640b6a.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260528005344",
+     "original": "https://www.co.grayson.tx.us/page/co.calendar?date=06-16-2026",
+     "mimetype": "text/html",
+     "digest": "YYGIGLDKB4NBFWEWM7HEX7OQIDKT4UZV",
+     "length": "28354",
+     "replay_error": null,
+     "bytes": 27203,
+     "sha256": "48b301aa4fe88119a3273360e9fe95e272ba6bd30be83ea5147ebb48d945d4cb",
+     "orig_last_modified": null,
+     "orig_date": "Thu, 28 May 2026 00:53:44 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0004\u0000\ufffd\ufffd\u0007` I\ufffd%&/m\ufffd{\u007fJ\ufffdJ\ufffd\ufffdt\ufffd\b\ufffd`\u0013$\u0610@\u0010\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd iG#)\ufffd*\ufffd\ufffdeVe]f\u0016@\ufffd\ud77c\ufffd\ufffd{\ufffd\ufffd\ufffd{\ufffd\ufffd\ufffd;\ufffdN'\ufffd\ufffd\ufffd?\\fd\u0001l\ufffd\ufffdJ\ufffd\u025e!\ufffd\ufffd\ufffd ?~| ?\"~\ufffd\ufffd7NRz \ufffd\ufffdO\ufffd \u0297 \u0467\ufffd\ufffd \ufffd[\ufffd\ufffdm\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\"o\ufffdg\ufffd\ufffdzL\ufffd|\ufffd\ufffd\ufffd\u0001-\ufffd6# \ufffd\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffdg \ufffdT\ufffd6_\ufffd\ufffdo\ufffdW\ufffdG)\ufffd\ufffd\ufffd>\ufffd\ufffd\ufffd\u07f5w\ufffd\ufffda:\ufffdgu\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0018\ufffde\ufffd\ufffd?\ufffd\ufffd\u022fV\ufffd\ufffd\u0007\u4a98\ufffd\ufffd\ufffdf9!\ufffdo\ufffd \ufffd\ufffdX\u0016m\ufffd\ufffd\ufffd\ufffd4+\ufffd\ufffdv;\ufffdq\ufffd\ufffde\ufffd\ufffd\ufffd\u0000v\u0006)_\ufffd\u036af \ufffd\ufffdj \u077d{uu5\ufffd\ufffd\ufffd\ufffdE\ufffd$\u0003GD\ufffd\u0016w\u0001\ufffd\ufffdO7\ufffdG1\ufffd\ufffd\ufffd\ufffdO\u007f\ufffd\ufffd\ufffd\ufffd\u0377\ufffd \ufffd\ufffd\ufffd\ufffdQ\ufffd\u032f\u04a7Y\ufffdo\u0779s\ufffd\ufffd\ufffd\u000e:/.\u8ecf}\ufffd>\ufffd\ufffd-\ufffdB\ufffd\ufffdw\ufffd\ufffd\u0013\ufffd&\ufffd\ufffd~\ufffdO\ufffd\ufffdYJc\ufffd\ufffdy[\ufffd\ufffd\ufffdd\ufffd/2\ufffd\ufffd\ufffd|I\ufffdL\u010f\ufffdzPW0\ufffd\ufffd6\ufffd\ufffd\ufffd\ufffdw\ufffd}\ufffd\ufffd>\ufffd\ufffd\"\ufffd.\ufffd f\ufffd5AM\ufffd*\ufffd\ufffd\ufffdb\ufffd\ufffdl%>\ufffd\ufffde\ufffd7MzJ_\ufffdh L\ufffd\ufffd\ufffd{\ufffd0 \ufffd\ufffd\ufffdb+_ \ufffd\ufffd\ufffdt{og\ufffd\u04cf\ufffd\u001a\ufffd&\u007fF\u0000\ufffd\ufffd\ufffdYq\ufffdN\u02eci>\ufffd(kV/\ufffd\ufffd\ufffd\ufffdlFB\ufffd\ufffd\u529c$\ufffd\ufffd\ufffd|\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdU6{\ufffd3\ufffd\ufffd0\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0017\ufffd\ufffd\ufffd\ufffd/\ufffdrM\u0000\ufffd\ufffd7\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?y\ufffd\ufffd\u035b\ufffdW\ufffd\ufffd\ufffd\u0011\ufffd\ufffd\ufffd\ufffd\u0013\u0012\ufffd\ufffd\ufffd\u0017\ufffd3\ufffd\ufffd>\ufffd=\ufffd\ufffd yy\ufffd ?9>=~\ufffd\ufffd\ufffd9\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdb\ufffd\ufffd,\u0795\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdw?Q \ufffd\ufffd\ufffdg\u0017?q~\ufffd\ufffdE\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u7eefV\ufffd\ufffd\ufffd'~\ufffd\ufffd\ufffd/'\ufffd\ufffd\ufffd\u05f3\ufffd\ufffd}~u\ufffd\u0173\ufffdO\ufffdz\ufffd\ufffd\ufffd\ufffd\ufffd\u000f\u007fz\ufffd\ufffd\ufffdr\ufffd|\ufffdE\ufffd\ufffdY5;\ufffd\ufffde\ufffd\ufffd\ufffd\u0017\ufffd\ufffdgo\ufffd\ufffd\ufffd_~\ufffd\ufffd\ufffd\ufffdO}\ufffd\ufffd\ufffdg\ufffd\ufffd\ufffd\u07ab\ufffd\ufffd\ufffdO \ufffd\u0133\ufffdg\ufffdg\u0017\ufffd\ufffd\ufffd\ufffdO |\ufffd\ufffd\ufffd\ufffd\ufffdw\ufffd\u007f\ufffd'\ufffd\u007f\ufffd\ufffdl~\ufffd\ufffd\ufffd\ufffd*\ufffd\ufffd\ufffd{\ufffd\ufffdw\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffdW\ufffdgo\ufffd|^.\ufffdo\ufffd:\ufffd\u071b\u007fg\ufffd\ufffdO\ufffd\ufffdO\ufffd|Ep\ufffd\u98ac\ufffd\ufffd\ufffd\ufffd\ufffd)\ufffd\ufffd\ufffd\ufffd\ufffdW\u0017?\ufffd\ufffd\ufffd\ufffd\ufffd^y9\ufffd\ufffd\ufffd/\ufffd\ufffd\ufffd>\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd{\ufffd\u007f\ufffd'\ufffd\ufffd(\ufffd.~\ufffd\ufffdO6\ufffdo\ufffd\ufffd\ufffdO\ufffd\ufffd]\ufffd\ufffd\ufffd\ufffd\ufffd;\ufffd\u0173\ufffd`\ufffd\ufffd\ufffd\ufffdi\ufffd\ufffdx\ufffdS\ufffdw\ufffd\ufffdd\ufffd-\ufffd\ufffdw_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u076f\ufffd}I\ufffd\ufffd\ufffdw\ufffd_\ufffd\ufffd\ufffd\u000e\ufffd\ufffdh}|A\ufffd\ufffdt|\ufffd&\ufffd+\ufffd\u0004\ufffd\ufffd\ufffd\ufffd\ufffdS\ufffd\ufffdw\ufffd\ufffd\ufffd\ufffd\ufffd?q\ufffd\ufffdi~JmN\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd,^\ufffdL\ufffd _\ufffd\ufffd;/~\u22df|\ufffdt\ufffdw\u007f\ufffd\ufffd\ufffd\ufffdi\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd>/\ufffd?\ufffd\ufffdd>Y\u0010-\ufffd`N^\ufffd\ufffd\ufffd\ufffdW\ufffd\ufffd\ufffd\ufffd'\ufffd\u03d3\ufffd\ufffd\ufffd>O\u0018\ufffd\ufffdb\ufffd\ufffd\ufffd\ufffd\ufffdg\ufffd\ufffd\ufffd\ufffd?y\ufffd}\ufffdY\ufffd\ufffd\ufffdO\u0016\ufffd\u02df\ufffd\ufffd\ufffd\ufffd;\ufffd:}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO, \ufffd\ufffd\ufffd\ufffd h\u0527qs\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdj\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd>\ufffd~\ufffdz\ufffd \ufffd\ufffd\u074bb\u007f\ufffd\ufffdO\ufffd5g\ufffd/v'\ufffd~\ufffd;]|\ufffd\ufffd\ufffd\u069d}\ufffd;\ufffd\ufffd\ufffd\ufffd\ufffdW\ufffd\ufffd\ufffdb\ufffdy\ufffd\u04ef\ufffd~\ufffd\ufffdO~\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffd\ufffd\ufffd\ufffdY\ufffd\ufffd\u0007\u0017\ufffd^\ufffd\ufffdO\u0016\ufffd\u03db\u0017o_\ufffd8\ufffd\ufffd{|q\ufffd\ufffd\ufffd\u0015\ufffd\ufffd\ufffd\u0000T\u000fi\ufffd\u0013\ufffd\ufffdq\ufffd\ufffd/\ufffd\u07e5=\ufffd~\u0002^1\ufffd\ufffd64 ?ua\ufffd}\u0002Z\ufffd^{\u0001\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd{\ufffd\u007f~\ufffd\ufffd\ufffd\u0673';\ufffdJ\ufffd\u001b\ufffd%d\ufffd\ufffd\ufffd\u0005\ufffd\ufffd\ufffd'\ufffd\ufffd>\ufffdOg$\ufffd\ufffd4O\ufffd\ufffdW\ufffd=?\ufffd=\ufffd3\u000f}\ufffd\ufffdr\ufffd\ufffd\ufffd;\u0004\ufffd\ufffd\u01cb\u07c7u\u000f\ufffdNm~\"\u007f\ufffd\ufffd\u0017\ufffd\ufffd\ufffd{\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffde\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd 48\ufffd6\ufffd\ufffd\ufffd\ufffd\ufffd\u06631|\ufffd\u0019\ufffd?[?\ufffd\ufffdy\ufffd\u0747\ufffd\ufffd'\ufffd\u03e6\ufffd^\u075f|\ufffd\u0573\ufffd\ufffd\ufffd\u03a7\ufffd\ufffdjR\ufffd\ufffdL\ufffd \u007f\ufffd\ufffd\ufffd~\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd{\ufffd3\ufffd\u06d1\ufffdiL\ufffd\ufffd.\ufffd\ufffdx\ufffdG\ufffd \u0013o\ufffdg\u07fe\ufffd\ufffd\ufffd\ufffdr\ufffd\ufffd\ufffdo\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdw\ufffd4\ufffdw\ufffd\ufffd\u0017'\u01ef\ufffd{\ufffd+\ufffd\ufffd=y\ufffd\ufffd\ufffd}~\ufffd\ufffd,\ufffd\ufffd\uedf3\ufffd ^}\ufffd\ufffd?y\ufffd?m\ufffdg\ufffd\ufffd\ufffd\ufffd\u000e}\ufffd\ufffd\ufffdD\ufffd/h\ufffdg\ufffdO~\ufffd\ufffdk\ufffdW\ufffd\ufffd}~\ufffd\ufffd\u0017?}Q\u0002'\ufffd\u0005\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdc\ufffd#\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdw\ufffd\ufffdx\ufffd'\ufffd}v\ufffdS\ufffd\ufffd\ufffd\ufffd\u07af.\ufffdO\ufffd\ufffd\ufffd/ \ufffd\u03fe\ufffd\ufffd\ufffd\u0677_]N\ufffd\ufffd\ufffd\u0016/\ufffds\ufffd\ufffd\ufffd\ufffdy\ufffd\ufffd_t\ufffds\ufffd\ufffd\u257c'\ufffd!\ufffd\ufffd\u0013\u03de\ufffd\ufffdD\ufffd\ufffdg\ufffd\ufffd\ufffdr\u79fe\ufffds\ufffd}\ufffd\ufffd\ufffd\ufffd~\ufffdz\ufffd\ufffd\ufffd\ufffd\ufffd]\ufffd\ufffdO@C\ufffd\ufffd\ufffd->\ufffd\ufffd\u0012\ufffdt\ufffd\bO\ufffd\u0001\ufffd \ufffd\u0418\ufffdu5Y \ufffd_\u0010\ufffd\ufffd\ufffd\udb0c\udc53\ufffd|\ufffd\\\ufffd\ufffd\ufffd&}\ufffdN\ufffd\u007f\ufffd\ufffd}\ufffdnwr\ufffd\ufffd'\ufffd?\ufffd\ufffd\ufffd\u0007;\u0005\ufffd# \ufffd.\ufffd\ufffd\ufffd\ufffdO\ufffd\ufffd\ufffd?\ufffd&\ufffd6\ufffd\ufffdg\ufffd \ufffd\ufffd\ufffd\ufffdn\ufffd\ufffd|\ufffd;\ufffd\ufffd)\u007f\ufffd\ufffd}^?i\u007f\ufffd\ufffdw\ufffd~z\ufffd`\ufffd\ufffd\u06cb\ufffdg\ufffd\ufffd|z\uf2c7gK\ufffd\ufffdd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffds\ufffd#_\ufffd?\ufffd\ufffd\ufffd\\N?\u007fu9\ufffd\ufffdoI_^R?\ufffd\ufffd\ufffd\ufffd \ufffd}\ufffd\u07f3\ufffd\u06be\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO \u0017g\u0516\ufffd\ufffd\u00f3\u0005\ufffd\ufffdI\ufffdY\ufffd\u0013\ufffda9\u007f\ufffd\ufffd9\ufffd\ufffd\ufffdr\ufffd\ud7fcz\ufffd\ufffd;;\ufffd\ufffdO\ufffd\ueedf\u071f\ufffdn|\ufffd\ufffdo\ufffd;\ufffd\ufffd\ufffd~\ufffdS\ufffd-\ufffd\u0004\ufffd\ufffdOS\ufffd\u29fe\ufffd\ufffd\ufffdi|\ufffd\u03fd\ufffd\ufffd\ufffdUkddz}\ufffd\u026b\ufffdK\ufffd[\ufffdW\ufffd\ufffds\ufffd\ufffd\ufffd\ufffd \u0000\ufffd\u02df\u000e\ufffd\u4365\ufffd\ufffdW\ufffd\ufffd\ufffd\ufffd\ufffd\ue7f6\u0516\ufffd\ufffdzx\ufffd\ufffd\ufffdj\ufffd\ufffdI\ufffd\ufffd ^\ufffd1\ufffdl\ufffd>\u0017\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd&\u001a\ufffd>{\u000f\u001b\ufffd#\ufffd\ufffdW\ufffd\ufffd\ufffd}-\ufffd\ufffd\ufffd\ufffdK\ufffd\ufffd\ufffdi1\ufffd\ufffd\ufffd\ufffd\u0017\u0677\ufffdS\ufffd\ufffdO\ufffd,\ufffd\ufffd{2\ufffd\ufffd\ufffd\ufffd.\u007f\ufffd\ufffd\ufffd'\ufffd>_@\ufffd\ufffdZ\ufffd|\ufffdl\ufffd|\u0016\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd'4\ufffd&{\u0013\ufffd\ufffdw\ufffd\ufffd\ufffd'\ufffd\ufffdO}\ufffd\u0019\ufffd\ufffd }\ufffd8\ufffd\ufffd\ufffd\ufffd\ufffd]M\ufffd\ufffd\ufffd\ufffdO6\u22c3\ufffd\ufffdx\ufffd\"x\ufffd\ufffd\ufffd}\ufffd\ufffd\ufffd\ufffd\u0000\ufffd v\ufffd\ufffd\u0000\ufffd{\u000f\ufffd\ufffd\ufffd\ufffduF:\u69e8\ufffdO\ufffd\u07d3\ufffd? =r \ufffd$\ufffd\b\ufffd\ufffd\ufffd\ufffdb\ufffd\ufffd\ufffd\ufffd1\ufffd\ufffd\ufffd\ufffd\ufffd\u8687\u07f96\ufffd\ufffd\ufffd\ufffd{ _;\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd'?\ufffd9!\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd5\ufffd\ufffd\ufffd\ufffd\ufffd+\ufffd\u01f7\ufffd\ufffd7N\ufffd\ufffd\ufffd`\ufffd\ufffdx\ufffd\ufffdw\u0016/_O/\ufffdV\u02dfz\ufffd\ufffdh\ufffd{\ufffd\ufffd\ufffd\ufffd\ufffd~\ufffd\ufffd\ufffd\ufffd}\ufffd!w[\ufffd\ufffd\u007f\ufffd}\ufffd!\ufffdB\ufffd\ufffdw\ufffd\u07c7\ufffd\ufffd\ufffd\ufffd\ufffd\u0013\u0017_\\ \u007f\ufffdXvn9\ufffd \ufffd\ufffd\ufffdr\ufffdpw\ufffdt\ufffd\ufffd}\ufffd\"\ufffd\ufffd \ufffd \ufffd\ufffd \ufffd\ufffd\u000f\ufffd\ufffd\ufffd\u001bk\ufffdE\u620b\ufffd?\ufffd\ufffd\ufffd}\b\ufffd\ufffd \ufffd\u078b\ufffd|C7\ufffd{\ufffd\ufffdh ?\ufffdG\ufffd\u0017 \ufffd\ufffd \ufffd\u007f\ufffd??D\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdk\u0006\ufffd\ufffd\u0347\ufffd\ufffdp\ufffd|\ufffd \u0004\ufffd\u007fo\ufffd{\u0001=\ufffd\ufffd\u03eb\ufffd\ufffd\ufffd\ufffd\ufffdq\u007f\ufffd\ufffd\u007f\ufffd\ufffdyt;\ufffd\ufffd&\u07f7$^{\ufffdc\ufffd\u0000\ufffd\ufffd\u0003\ufffd'\ufffd\ufffd\ufffd^\ufffd3\ufffd\ufffd&\ufffd\u062e\ufffd={A:\ufffd\ufffdO\ufffd\ufffd \ufffd\ufffd8\ufffd\u000ee\ufffd\ufffdyeu\ufffd\ufffd\ufffd\ufffd\ufffd}^G\ufffd\ufffd\u0004vs\ufffd\ufffd_\ufffd 8O\ufffd)~ G\ufffdgD\u001b\ufffd\ufffd\ufffd\u04e0C?\ufffd\ufffd \ufffd.\ufffd\ufffd~\ufffdb\ufffd\ufffd\ufffd$\ufffd\ufffd\ufffd\ufffd\ufffdw\ufffd\ufffd\u0446>[\u03de~ \ufffd\ufffd +w\ufffd\u0016\ufffdH\ufffd\ufffd#\ufffdW\ufffd\ufffd\ufffd'/\ufffd\ufffdI\u000fR_\ufffd\u007f\ufffdC\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\ufffd\u000f-_T\ufffd\ufffdw\ufffdL\ufffd\ufffd\u00010\ufffd \ufffd\ufffds\ufffdw\ufffd\ufffd\u001b\u21df\"\ufffd\ufffd\u0015\ufffdI\ufffd\ufffd|>\ufffd\ufffd1f\ufffd\ufffd\ufffd\u025c>;#\ufffd7\ufffd[_\ufffd\ufffd\ufffd\ufffdR\ufffd\ufffdo\ufffd\ufffd\ufffd\ufffd\ufffd\u000ff^ \ufffd5\ufffd%\ufffd\ufffd\ufffdQ\\\ufffd\ufffd\ufffd,\ufffdw\ufffd\ufffdo\ufffdN\ufffd~. ^\ufffd\u07f5\u0003\ufffdA y\ufffd\ufffd\ufffd \u001a\u0017\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffde\ufffd:\ufffdu\ufffd)v&\ufffd\ufffd\u000f\u0174$ \ufffd4F\ufffd{\ufffd\u0007\u0018\ufffd\ufffd\u3d1a\ufffd g/^/ \ufffd&\u02df\ufffd\ufffd\ufffd\ufffd\ufffdS\ufffdH\ufffd3\ufffd\ufffd\ufffdKL/(\ufffdB>\ufffdO\u0004x\ufffd\u041f\ufffdD\ufffd]\ufffdA4\u007f?\ufffd\ufffd\ufffd\ufffd .\ufffd(\ufffd\ufffd\ufffd\ufffdO~\ufffd\ufffd\ufffd\ufffdOa\ufffd\u07f0\u007f\ufffd-\ufffd\ufffd9}h\ufffd\ufffd\ufffdb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdK\ufffd\ufffd^\ufffdg';\ufffd\u007f\ufffd}\ufffd\ufffd\ufffd\u0017\ufffdo~\ufffd\u0019\ufffd+\ufffd\ufffded\ufffd-\ufffdM\uf4bdg\ufffd\ufffdk\ufffdM\ufffdh\ufffd\u051b\ufffd\ufffdO\ufffd\ufffd\ufffd \ufffd\u007fr\ufffdS\u0153\ufffd\ufffd\ufffd.\ufffd\">\u01d8\ufffdS\ufffd\ufffd.\ufffd\"\ufffdm(\ufffd:,\ufffd7\ufffd\ufffd\ufffd\u0787\ufffd!\ufffd\b G\ufffdK\ufffd}\ufffd|\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0238\u007fo\u018bq!{\ufffd&]K8|c\ufffd\ue9f3\u017b\u018d\ufffd\ufffd|v\ufffd\ufffdrl\u07f9& \ufffd\ufffd\ufffdk\ufffd\ufffd\ufffd\u0737_]M\u007fP]>\ufffd7\ufffd7\ufffd\ufffdO\ufffd{5\ufffd\ufffdO\ufffdsz\ufffd\ufffd\ufffd';\u0004\ufffd\ufffdK?\ufffd\ufffd;\ufffd\u000f)\u0007\ufffdl\ufffd]O?y\ufffd]\ufffd\ufffd(6\ufffd\ufffd\"\ufffd\ufffd&:S\ufffdx\ufffd\ufffd{\u007fyv\ufffdpA\ufffd\ufffdk\ufffd\u0013\ufffdaw(\u000e&|^\ufffd\ufffdo\ufffd(\ufffd\ufffd\ufffd&\ufffd\ufffd\u04c4\u04d2rs\ufffd\ufffd\ufffd;>_\ufffd\ufffd\u007fN\ufffd\ufffd\ufffdO_\ufffdx\ufffd\ufffd%\ufffd\ufffd*\ufffd\ufffdh\ufffd\u075f\ufffd\ufffdh\ufffd\ufffd|\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdxH:\ufffd 9By\ufffd\ufffdqf\u001a\ufffdI\u007f\ufffd\ufffdge\ufffdw\u0017?I\ufffd\ufffd\ufffddc\ufffd\ufffd)\u000f}\ufffd\ufffd/H",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260528005344_87d4253d4a.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260528005344",
+     "original": "https://www.co.grayson.tx.us/page/co.calendar?date=06-23-2026",
+     "mimetype": "text/html",
+     "digest": "XGEPPK6JXOFLIVXF6NAIJKYL6AESTEH2",
+     "length": "28357",
+     "replay_error": null,
+     "bytes": 27206,
+     "sha256": "c5cf0f0e4bf9b9a7aff403504551988d66f9e1ec006e8bcdf52fcd7382520ea7",
+     "orig_last_modified": null,
+     "orig_date": "Thu, 28 May 2026 00:53:44 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0004\u0000\ufffd\ufffd\u0007` I\ufffd%&/m\ufffd{\u007fJ\ufffdJ\ufffd\ufffdt\ufffd\b\ufffd`\u0013$\u0610@\u0010\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd iG#)\ufffd*\ufffd\ufffdeVe]f\u0016@\ufffd\ud77c\ufffd\ufffd{\ufffd\ufffd\ufffd{\ufffd\ufffd\ufffd;\ufffdN'\ufffd\ufffd\ufffd?\\fd\u0001l\ufffd\ufffdJ\ufffd\u025e!\ufffd\ufffd\ufffd ?~| ?\"~\ufffd\ufffd7NRz \ufffd\ufffdO\ufffd \u0297 \u0467\ufffd\ufffd \ufffd[\ufffd\ufffdm\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\"o\ufffdg\ufffd\ufffdzL\ufffd|\ufffd\ufffd\ufffd\u0001-\ufffd6# \ufffd\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffdg \ufffdT\ufffd6_\ufffd\ufffdo\ufffdW\ufffdG)\ufffd\ufffd\ufffd>\ufffd\ufffd\ufffd\u07f5w\ufffd\ufffda:\ufffdgu\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0018\ufffde\ufffd\ufffd?\ufffd\ufffd\u022fV\ufffd\ufffd\u0007\u4a98\ufffd\ufffd\ufffdf9!\ufffdo\ufffd \ufffd\ufffdX\u0016m\ufffd\ufffd\ufffd\ufffd4+\ufffd\ufffdv;\ufffdq\ufffd\ufffde\ufffd\ufffd\ufffd\u0000v\u0006)_\ufffd\u036af \ufffd\ufffdj \u077d{uu5\ufffd\ufffd\ufffd\ufffdE\ufffd$\u0003GD\ufffd\u0016w\u0001\ufffd\ufffdO7\ufffdG1\ufffd\ufffd\ufffd\ufffdO\u007f\ufffd\ufffd\ufffd\ufffd\u0377\ufffd \ufffd\ufffd\ufffd\ufffdQ\ufffd\u032f\u04a7Y\ufffdo\u0779s\ufffd\ufffd\ufffd\u000e:/.\u8ecf}\ufffd>\ufffd\ufffd-\ufffdB\ufffd\ufffdw\ufffd\ufffd\u0013\ufffd&\ufffd\ufffd~\ufffdO\ufffd\ufffdYJc\ufffd\ufffdy[\ufffd\ufffd\ufffdd\ufffd/2\ufffd\ufffd\ufffd|I\ufffdL\u010f\ufffdzPW0\ufffd\ufffd6\ufffd\ufffd\ufffd\ufffdw\ufffd}\ufffd\ufffd>\ufffd\ufffd\"\ufffd.\ufffd f\ufffd5AM\ufffd*\ufffd\ufffd\ufffdb\ufffd\ufffdl%>\ufffd\ufffde\ufffd7MzJ_\ufffdh L\ufffd\ufffd\ufffd{\ufffd0 \ufffd\ufffd\ufffdb+_ \ufffd\u07bb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdGL\ufffde\ufffd?#\u0000\ufffd\ufffd\ufffdL\ufffde\ufffd4\ufffd}\ufffd5\ufffd\u0017y\ufffd\ufffdb6#!\ufffdw\ufffdrEN\ufffd\ufffd\ufffd\\>VG\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd*\ufffd\ufffd\ufffd\u0019\ufffdB\u0018j\ufffd\ufffd\u007f\ufffd\ufffd \ufffd`\ufffd\u05d7Y\ufffd&\u0000\ufffd\ufffd\u001bz\ufffd\ufffd\u007f\ufffd\u04df \ufffd\ufffd\ufffd\ufffd\ufffd\u00e7_=}v\ufffd\ufffd\ufffd?=\ufffd\ufffdn9Y\ufffd\ufffd\"\ufffd\ueb1a\ufffd~\ufffd2\u007f\ufffd\ufffd\ufffd\ufffd\u07b3\ufffd\ufffdw\ufffd/\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd3\ufffd\ufffdx\ufffd\ufffd[\ufffd\ufffd'\ufffd\u007f\ufffd\ufffd\u0173\u0173\ufffdS\ufffd\ufffd\u49ce\u000f\ufffd{\ufffd\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd?\ufffd\ufffdO6?\ufffd{\u007fg\ufffd]\ufffd\ufffd\ufffd\u007f\ufffdg\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0173\ufffdo>/\ufffd\u0677_\ufffdL\ufffd\u037f3\ufffd\ufffd'\ufffd\ufffd'O\ufffd\"\ufffd\ufffdtQ\ufffd\ufffd\ufffdY\ufffd\ufffd\u0014\ufffd\u007f\ufffd\ufffd\ubacb\ufffd\\\ufffd\ufffd\ufffdt\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0017O\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u04fd\ufffd?\ufffd\u0013{_\u0014W\u0017?q\ufffd'\ufffd\u0677\u007f\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\u025d\ufffd\ufffdYC\ufffd~b\ufffd\ufffd\ufffd4\ufffdw_ \ufffd\ufffdy`:\ufffdz\ufffd\ufffdk\ufffdp\ufffdS\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdv~\ufffd\ufffd8yr\ufffd4?\ufffd6\ufffd\u07fezR}\ufffd\ufffd\ufffd\ufffdw\u0016/v&O\ufffd\ufffd~\ufffd\u0017?\ufffd\ufffdO>|:\u067b\ufffd\ufffd~\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd|\ufffdp\ufffdS\ufffd\ufffd\ufffd\ufffd}2\ufffd,\ufffd\u0016O0'/\ufffd\ufffd\ufffd\ufffd+\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffd\u007f\ufffd'\ufffd\ufffdw1WL\ufffdg\ufffd\ufffdW\ufffd\ufffd\ufffd\u03be\u06ec\u007fr\ufffd'\ufffd\ufffd\ufffdO~\ufffdy\ufffd\ufffd\ufffdO\ufffd\ufffd[\ufffd\ufffd\ufffd|\ufffd'\u0016\u000f\ufffd_\ufffd\ufffd\ufffd\u00064\ufffd\u04f89{\ufffdS\ufffdt\ufffdb5\ufffd\ufffd\u007f\ufffd\ufffdO _\ufffdx\ufffd\ufffd\ufffdh\ufffd\ufffdE\ufffd\ufffd\ufffd\ufffd\u03da\ufffd\ufffd\u0017\ufffd\ufffdo\ufffd\u069d.\ufffdzHx\ufffd\u03be\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffdd1\ufffd\ufffd\ufffd\ufffd\ufffd{?y\ufffd'?\u007fX\ufffd\ufffdw\ufffd\ufffd7g\ufffd~j\ufffd|\ufffdw/~\ufffd'\ufffd\ufffd\ufffd\u034b\ufffd/x \ufffd\ufffd=\ufffd8{\ufffd\ufffd\ufffd{~\u0000\ufffd\ufffd4\ufffd \ufffd\ufffd8\ufffd\ufffd\u0017\ufffd\ufffd\u049e\u007f?\u0001\ufffd\ufffd\ufffdM\u001b\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd>\u0001\ufffd\u007f\ufffd\ufffd\ufffd\ufffdoh~\u007f\ufffd\ufffd\ufffd\ufffd\ufffdj\ufffdm\ufffd\ufffd\ufffd??y\ufffd\ufffd\ufffd\u0653\ufffdW%\ufffd \ufffd\u00122\ufffd\\\ufffd\u0002\ufffd\ufffd\ufffd\ufffd\u007f \ufffd3\ufffd\ufffd\ufffd[\ufffd'\ufffd\ufffd+\ufffd\ufffd\ufffd\ufffd \u0319\ufffd\ufffdzq9\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u00fa\ufffd~\ufffd6?\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffd\ufffd'\ufffd\ufffd\ufffdZ\ufffd\ufffd\ufffd\ufffdj\u0005\u001a\ufffd}\u001b\ufffd\ufffdj\ufffd\ufffd\ufffd\ufffd\u0018\ufffd\ufffd\ufffd\ud83e\udf5f\u007f\ufffd\ufffd \ufffd\ufffd\ufffd\ufffdww\ufffd\ufffd\ufffdl5)vw&\ufffd\ufffd?}\ufffd{?\ufffd\ufffdr\ufffd~VL\ufffd\u0699\ufffd\ufffd\ufffd\ufffd4&\ufffdy\u0017\ufffdY \ufffd\ufffdw\ufffd\ufffdw\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\ufffd\ufffd\u97fc\u029f\ufffd\ufffd\ufffd\ufffdg\ufffdp\ufffd>o\ufffds\ufffd\ufffd\u00174\u07b3\ufffd'?\ufffd\ufffd\ufffd5\ufffd+\ufffd\ufffd>\ufffd\ufffd\udbed\udffe(\ufffd\ufffd\u0402hwu\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd1\ufffd\ufffdf}nq}J\ufffd;tg \ufffd\ufffd)\ufffdE\ufffd\u007f\ufffdW\ufffd\u04e7\ufffd\ufffd\ufffd\ufffd\u0017\u000f\ufffdg\ufffd\ufffd\ufffd\ufffd\ufffd\u06ef.'o\ufffds\ufffd\ufffd\ufffd9\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd9yv\ufffdJ\u0793\ufffdn\ufffd\ufffdg\ufffd~o\ufffd\ufffd\ufffdr\ufffdy\ufffd\ufffdS\ufffd\u0779\ufffd>\ufffdI\ufffda?y=\ufffd\ufffd\ufffdr\ufffd.F\ufffd'\ufffd\ufffd\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\\ N:G\ufffd'\ufffd~\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdYI2\ufffd\ufffdO}\ufffd\ufffdy\ufffd\ufffdO.f\ufffdN\ufffd\u02df|>\ufffd\ufffd\ufffd\ufffd\ufffd>\u03de\u0016\u000f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdr\ufffd\u075f\ufffd\u07c9\u05dfxx\u0013\ufffd\ufffd \ufffd l'\u01ff\ufffd\ufffd\ufffdy\ufffd;9y\ufffd\u04d3\u03df\ufffd`\ufffd\ufffd\ufffd\ufffd\ufffd\u0011\ufffdg\u0017\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\\\ufffd~\ufffdO\ufffd3\ufffd\ufffd\ufffd\ufffdz\ufffd\ufffd}\ufffd\ufffd\ufffdr\ufffd[\ufffd>\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffdg?\ufffd\u007f0\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdn>\ufffd\ufffd\ufffd\u00f3%\ufffdx\ufffdKz\ufffd~}\ufffd9\ufffd\ufffd\ufffd\u069f\ufffd\ufffdw.\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd//\ufffd\ufffdO^~\ufffd\u0005\ufffd\ufffd>\ufffd\ufffdYAm\ufffd\ufffd\ufffd\ufffd}\ufffd\ufffd\uc9cf\ufffd3jK\ufffd\ufffd\ufffd\ufffd\u0002\ufffd\ufffd\ufffd\ufffd\ufffd \u0470\ufffd?\ufffd\ufffd\ufffdxr9\ufffd\ufffdO^\ufffd|\ufffd\ufffd\ufffd\ufffd\ufffd'K\ufffd\ufffdO\ufffdOa7>\ufffd\u0277\ufffd \ufffd\ufffdw?\ufffd\ufffd\ufffd\u0016w\ufffd\ufffd\u29e9]\ufffdS\ufffd}U\ufffd4\ufffd\ufffd\ufffd^Ic\ufffd\ufffd522\ufffd>\ufffd\ufffd\ufffd\ufffd%\ufffd-\u066b{\u07f9\ufffd\ufffd\ufffd\ufffd\u000f\u0000\ufffd\ufffdO\ufffdt\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdgd\ufffdO[jK\ufffd\\= \ufffd\u007fv\ufffd|\ufffd\ufffd\u0013\u001aC\ufffd\ufffd \ufffd\ufffd;{D\ufffd\ufffd\ufffd\ua9fe\ufffd\ufffdhr\ufffd>e\ufffdo\ufffd\ufffd\ufffd\ueba6\ufffd\ufffd{\ufffd'\u001b\ufffd\ufffd\ufffd\ufffd{ \ufffdO\ufffd~\ufffds\u0006\ufffd\ufffdz\u0000\u05fd\ufffd\ufffd\ufffd\ufffd\ufffd:# \ufffdS\ufffd\ufffd'\ufffd\ufffd\ufffdw\ufffd \ufffd \ufffd\u0004o\ufffdU\u0004\ufffd\ufffd\ufffd}\ufffds\ufffd\ufffdt\ufffd\u0018X\ufffd\ufffd\ufffd\ufffdLt\ufffd\ufffd\ufffd\\\u001b]C\ufffd\ufffd\ufffd\ufffd\ufffd M\ufffdo\u007f\\\u0153\ufffd\ufffd\ufffd\u0010\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\u0015\ufffd\ufffd[\ufffd\ufffd\ufffd\ufffd\u001b'\ufffd\ufffdw~\ufffd\u007f@\ufffd^\ufffd;\ufffd\ufffd\ufffd\ufffd\ufffdD\ufffd\ufffdO\ufffd~H4\u063d\ufffd\ufffd\ufffd~E?\ufffd\ufffd\ufffd\ufffd>\ufffd\ufffd\ufffd-\ufffd\ufffd?\u023e\ufffd\u0010t!\u007f\ufffd;\ufffd\ufffdC\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd?d,;\ufffd \ufffd\u000e\ufffdwc9y\ufffd;y\ufffdO\ufffd\ufffd[\u0011\ufffd`\ufffdh n\ufffd{/~\ufffd\ufffdN\ufffd\ud906\udff1\ufffd}\ufffd\ufffd\ufffdW\ufffd~\ufffd\ufffd\ufffd=\u001a/\ufffd>\ufffd\ufffdF\ufffd\ufffd\ufffd\u0016 \ufffd\ufffd\u0005\ufffd\ufffdw\u0207\ufffd\ufffd\ufffd5\ufffd\"s\ufffdE\ufffd \\]\ufffd>\u0004\ufffdk\ufffde\ufffdEC\ufffd\ufffd\u001b\ufffd=\ufffdm4\ufffd\ufffd\ufffd#\u060b\ufffd\ufffd~\u0010\ufffd\ufffd\u021f \ufffd\ufffdN\ufffd\ufffd\ufffd\ufffd5\ufffd\ufffd\ufffd\ufffdC\ufffd~\ufffdK\ufffd\ufffd\u000f\u0002\ufffd\ufffd7\u9f40 W\ufffd\ufffdUDF}\ufffd\u00b8\ufffdw\ufffd?E\ufffd \ufffd\ufffdcx\u0002\ufffd9]\ufffd/\ufffd\u000f\ufffd'\ufffd\u0014\ufffd\ufffd\ufffd\ufffd3\ufffd \ufffd|\ufffdi\u0421 \ufffd[\u000fI\ufffdzp\ufffdK1\ufffd\ufffdO\ufffdNy{\ufffd\ufffd\ufffd\ufffdhC\ufffd\ufffdgO?\u0010\ufffd\u014e\ufffd\ufffdW\ufffdg\ufffdO\u0791\ufffd+\ufffd\ufffd\ufffd\ufffd\u0017\ufffd\ufffd\u0007\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffdS \ufffdW\ufffd/\ufffd\ufffd\ufffdW\ufffdO\ufffd\u0000\u0018\ufffd\u000e\ufffd\ufffd9\ufffd;\ufffd\ufffd \ufffd\ufffdO\ufffd\ufffd\ufffd \ufffd\ufffdl>\ufffd|\ufffd\u0018\ufffd\ufffd\ufffd\ufffddN\ufffd\ufffd\u0011\ufffd\u001b\ufffd/^}N~)\ufffd\ufffd7A\ufffd\ufffd\ufffd\ufffd\u00073\ufffd\u000f\ufffd\u001a\ufffd\u0012\ufffd\ufffd\ufffd(\ufffd\u007fA\ufffd\\\ufffd\ufffd;D\u02f7g\ufffdd?\u0017\u000f\ufffd\ufffd\ufffd\u0681\ufffd \ufffd\u0010 \ufffd\ufffd\ufffd\ufffd\ufffd@\ufffdI\ufffd\ufffd5\ufffd 4}\u007fu1\ufffd\ufffd}HF\ufffd%\ufffdG\ufffd\u007f/\u02b3\ufffd\ufffd\u043f\ufffd\u06be\ufffd\ufffd\ufffd \ufffd7\ufffd\u05cc\ufffd\ufffd\ufffd\ufffd22\u0596\ufffd\ufffdw\ufffd\u07b3o\ufffd\ufffd\ufffd\ufffd_4}\ufffd\ufffd\ufffd\ufffd'\u007f@z\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffdN\ufffd\ufffdW\u0017_\u0011\ufffdc\ufffd\u03e9oz\ufffdt\u0011\ufffd6\ufffd_ \ufffd\ufffd\u001bh\ufffd\ufffdO\ufffdC\u04d0_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdQ>\u007f\ufffd\ufffd\ufffd\ufffd}d\u073f7\ufffd\u0178\ufffd\ufffd[\ufffd\ufffd% \ufffd1[\ufffd\ufffd\ufffd\ufffd]\ufffd\ufffd\ufffdn>\ufffd~B9\ufffd\ufffd\\\ufffd\ufffdCL\ufffd5`S~\ufffd\u06ef\ufffd\ufffd?\ufffd.\ufffd\u07db\u075b]\ufffd'\ufffd\u077d\ufffd\\\ufffd'\ufffd9\ufffd\ufffd\ufffd\ufffd\ufffd \ufffdM\ufffd\ufffd\ufffdx\ufffd\ufffd\u0747\ufffd\ufffd|\ufffd\u03ae\ufffd\ufffd\ufffd\ufffd.\ufffdd\u0014\u001b\ufffd|\ufffd~_\u0013\ufffd)~\ufffdO\u3f7f \ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffdO\ufffdn\ufffdi\ufffdiI\ufffd\ufffd\ufffdS\ufffd \ufffd/_\ufffd?'\ufffd\ufffd\ufffd/v^ \ufffdIG\ufffd\ufffdq \u03feK9\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd \ufffd[\ufffd\ufffd\ufffd \ufffd\ufffd.\ufffd*\ufffdP\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd1\ufffd\ufffd\ufffdL\u0011 R?FO\ufffdxC \ufffd\ufffdW\ufffd9\ufffd \ufffd\ufffd\ufffdb\ufffdG\ufffd\u0617|\ufffd'\ufffd\ufffd\ufffdUE\ufffdG\ufffd\ufffda\ufffd\ufffd\u075b\ufffd \ufffd\u0712~\ufffdjoN\ufffdB\ufffd\ufffd\ufffdb\ufffd\ufffdo\ufffd\ufffd\ufffd\ufffd\u0167\u03ef z TI\ufffdA\ufffd@\ufffdbI\ufffd\ufffd\ufffd\u0016\ufffd\u0014\u01fdkH\ufffd\ufffd\ufffd \ufffdA\u001bZ\u00d8}\ufffd\ufffd\u000f\ufffd,\u000e.\u007f\ufffd\ufffdw\ufffd9\ufffd\u0018\ufffd\ufffd\ufffd\ufffd~\u0007\ufffd\u0017?\ufffdz\ufffd^ _a\ufffd\ufffd\ufffd\ufffd\ufffd ;=\ufffd\u03be\ufffd5\u0011\ufffd\ufffd\b\ufffdoB/\ufffd\ufffd\ufffd\ufffdO\ufffd\u0733L=_\ufffd.g\u0160\ufffd\u0018\ufffdy2! \ufffd\ufffd\ufffdU\ufffd\ufffd\ufffd\ufffd\u001a\ufffdNk,\u013b&\ufffd\ufffd\ufffd~ :\u0019 \ufffd\ufffd\ufffdhbx\ufffd+\u009d\ufffd%?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdp\u007fj\ufffdd\ufffd( \ufffd\ufffd\ufffd\ufffd\u001b\ufffd%\ufffd[u\ufffd\ufffd'w\u02a7\u0001 7\ufffdC\ufffdf\ufffd\u0013\u0143W\ufffd\ufffd\ufffd\ufffd?/\u022f\ufffdbMs\ufffd>\u07e3\u03fe\ufffd\ufffd%\ufffdN\ufffd/?[\ufffd(7M\ufffd \ufffd\ufffdxv\ufffd\ufffd\ufffdU\ufffd\ufffd}\ufffd\u0005\u0014\ufffd^\ufffd\ufffd}~\ufffd'W\ufffdw\u007f\ufffd\ufffd7\ufffd\ufffd\ufffdO\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd}\ufffdN\u07fdxZ\ufffd\ufffd}~P.h y\ufffdp\ufffd\ufffd\ufffd\ufffd\ufffdl\ufffd\ufffd)w~\ufffd7_ \ufffd\ufffdo\ufffd\ufffd\ufffd/\ufffd3;\ufffd\ufffd#\ufffd\ufffd\ufffdbq\u008d\ufffdor\ufffd\u0004?'\ufffd\u0016\ufffd\ufffd\ufffd\ufffd\ufffd!\u05f4^x\ufffdX\ufffd\ufffd\ufffd\ufffd?!4\u0018\ufffdqoi\ufffd^ }F\ufffd\ufffd\ufffd\ufffd|M\ufffdH\ufffd\ufffd\ufffdxMk\ufffd\u04d3'\ufffd\ufffd\u00035\ufffd#\ufffd\ufffd\ufffd\ufffd\u0001\u0149\ufffd\u0017\ufffd_\ufffd\u0003/'\ufffdw\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\u007fd\ufffd \u007f",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260528005344_51e737a9e2.html"
+    }
+   ]
+  }
+ }
+}

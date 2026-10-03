@@ -1,0 +1,2622 @@
+{
+ "county": "Medina",
+ "spec": {
+  "file_prefixes": [
+   "medinatx.gov"
+  ],
+  "page_prefixes": [
+   "medinatx.gov/page/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 07:28:53",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov%2Fpage%2F&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 213
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 80
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov%2Fpage%2F&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 275,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307141456",
+     "original": "https://www.medinatx.gov/upload/page/6795/COURT%20POLICY%20REGARDING%20PRO%20SE%202026%20-%20Copy.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZEZAUNGJQPFYES42ZAINEVS62I6VUGHF",
+     "length": "228473"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260312092534",
+     "original": "https://www.medinatx.gov/upload/page/6789/images/2020%20Pct%20Map.pdf",
+     "mimetype": "application/pdf",
+     "digest": "N4QWRLWNUN5AEUDSMUINQVXO4T6GDFLO",
+     "length": "4728366"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317223920",
+     "original": "https://www.medinatx.gov/upload/page/0054/docs/2025%20Pct%202%20Tax%20Rate%20Order.pdf",
+     "mimetype": "application/pdf",
+     "digest": "F5YM32LTUEPT5TGUXUNA6WU3SZVIFEKU",
+     "length": "36518"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224057",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportOctober2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SL3Z5S5XN3I2VP2PW3WDATHX73E5DHYL",
+     "length": "97194"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224058",
+     "original": "https://www.medinatx.gov/upload/page/0078/Guardians%20Annual%20Report%202025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BLRNS5M7AH3R5F3NQOOYUXF2SJEMOBGM",
+     "length": "433546"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224100",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportNov2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3DGO66Q6JTFTWEDV35IQS7MJMZ55TESH",
+     "length": "105939"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224106",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR3%202022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FTG3GJ47LCHXX3P2ZDU2BOKZSBNFBOTG",
+     "length": "114248"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224107",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/Annual%20Financial%20Report%202020.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LR4IU6MLXIPYJJO7YWSJ423RYJUFUB7T",
+     "length": "1840878"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224109",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityAugust2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UTOJP4RB3ZTC7WPNAYGMAPQIAJI5KJEZ",
+     "length": "76211"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224115",
+     "original": "https://www.medinatx.gov/upload/page/0070/docs/Bids/PCT%201%20Dump%20Truck%20Specifications.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LPJILNZDCH24SJFT267BIW4FYEWTRAZ5",
+     "length": "87617"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224116",
+     "original": "https://www.medinatx.gov/upload/page/0083/Poll%20Worker%20Training/2024%20Poll%20Worker%20Training%20-%20Part%202.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CBF3762DIQ2V2ANCAW5W4AMSNSQDFXXL",
+     "length": "1025541"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224124",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportJune2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "Q5IQSG54G7R7DWLJTPKWN3IK5HZAL23U",
+     "length": "107404"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224127",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilitySeptember2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EBKKQCPNJQOF5QLYWURYIQVRO4FFYTN4",
+     "length": "80098"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224129",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportMarch2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HMH5YT3H5L7FHMFAO6U4EQRQ5TJWBSJZ",
+     "length": "109910"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224131",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Taxes/2022%20Pct%202%20Tax%20Rate.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BBF7EZ4JOGDVB4CW3I4NPMKTPQZVEJ46",
+     "length": "35699"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224131",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportApril2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6ZLHYUU5EIKPYQYUSGLHS3K4RSAXGQBW",
+     "length": "101923"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224132",
+     "original": "https://www.medinatx.gov/upload/page/0071/docs/Commissioners%20Court/2025-2026%20Monday%20Meeting%20Dates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CFEOD735Q32TVIB7FEAYYUGASJYUHLY2",
+     "length": "16993"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224133",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/Final%20Budget%202023-2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VP4B3UH4YOOXQUVUCKVKRCB6UDUNAS4A",
+     "length": "1701187"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224135",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportMay2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KCXTGR4KRP3D3GFNXXJD5AAT6B22IPFH",
+     "length": "97532"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224135",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityApril2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "O7MRCODZ4CM6RWHFF76NZ5SMPYP55ZSI",
+     "length": "68309"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224136",
+     "original": "https://www.medinatx.gov/upload/page/0105/docs/Financial/Treasurer's%20Report/TreasurersReportFeb2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "W7XBV56OI57ZPYPPPHE6OVYO34QY45XR",
+     "length": "105570"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224136",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityDecJan2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UCWL2KHDUEIMYRB4ZSREW6BJ3SNNK3BU",
+     "length": "60764"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224137",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityJuly2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2KDZMIBTIEA2OVIK7ZWKS53GM2FY5VWS",
+     "length": "83202"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224138",
+     "original": "https://www.medinatx.gov/upload/page/0089/Medina%20BASE%20SBC%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YFKAM362B6E5N2WOQ3VJZT7Q3CD7MIDO",
+     "length": "1831435"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224138",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR1%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "63NENQRFFPNPLXUUI6ZCPJTE3OA4E6VV",
+     "length": "126212"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224141",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportNov2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QHEEPX6PAWDN4MFEWDDMMLTPMBO5X2HM",
+     "length": "112707"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224142",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Taxes/2023%20Pct%202%20Road%20Tax%20Rate%20Order.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PEN4HCY7F7FXK4ZOQMTG2A2UEFKLMEQT",
+     "length": "35672"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224142",
+     "original": "https://www.medinatx.gov/upload/page/0089/MEDINA%20COUNTY%20HOLIDAY%20SCHEDULE%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "W5FD77L6RVRPCI75NZ5JDZPXIP2GS456",
+     "length": "71502"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224142",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportAug2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KE27XR52HQYP5HYSZNCW7IEAVFJXML7S",
+     "length": "111989"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224142",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityMay2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PL6P5GZZIULVMYGJVJCXMHTHT2KQBHUN",
+     "length": "64154"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224143",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportMay2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C427V52DTGLKGAA3EDRNSWF7D4FWCCEV",
+     "length": "104477"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224144",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportSeptember2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VB6GNTBJSSHQPNLPXQX7KYMHQIPCKKBY",
+     "length": "102774"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224145",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/Annual%20Financial%20Report%202021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "J4QRUN7IJCFPUOIWLSPTKJT7PTJRSEG7",
+     "length": "1718430"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224146",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportAug2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IQUPVXFRSFWPTGQ6TUAJ45TOLAW6YAZE",
+     "length": "106163"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224147",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportMay2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EYWN4GKYNI2VR2IDAVPCBOK2UTAVNMBY",
+     "length": "414996"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224148",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportMarch2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NSRJE7N663MN6LPVZPDAVGWXEC3GF3AN",
+     "length": "101680"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224149",
+     "original": "https://www.medinatx.gov/upload/page/0083/2025%20November%20General%20Election/Results/Summary%20and%20Cert%20of%20Post%20Election%20Hand%20Count%20Audit%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TOOO4N5M3MVVKVOXKLDZ6326RTLCSZXV",
+     "length": "174355"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224151",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportOct2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AS5BSIYNIBF2EI7GXFYHEDFLKIDUJONY",
+     "length": "109294"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224152",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportJuly2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GXMBAXK2FT6R36JFEI72NMECCY32YRGF",
+     "length": "95880"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224153",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportAugust2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AODVI3WIEDMZ5O5PNHBLEWDI22CEWZZN",
+     "length": "97939"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224157",
+     "original": "https://www.medinatx.gov/upload/page/0089/docs/HR/WC%20Witness%20Incident%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MGXKPUCVRBCULBNWZBJ5BK7HC6XVSFUY",
+     "length": "31805"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224158",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportSept2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YSKZVQMFYXS27PTTRNHX5O6OZZHUOZPH",
+     "length": "111096"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224159",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportJan2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MBYENFIG2RFX6LTOYW474MS3ZMZDNGYL",
+     "length": "108702"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224159",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityFeb2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GEQPGRDE2L4MYEHKPSB2U46C5QXTUUWN",
+     "length": "70317"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224202",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/FY%202025-2026%20Adopted%20Budget.pdf",
+     "mimetype": "application/pdf",
+     "digest": "47GK645EM2KUHGCB3NJPZ53HHV5NENP3",
+     "length": "1027232"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224203",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportNovember2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HWOD7ZGH5GZ4GZSRDO2YXJV3I6QOFXOA",
+     "length": "99469"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224204",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR2%202022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "Q4NF2YN275UJTZEOGJUFLAHES67SM6OT",
+     "length": "118284"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224208",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportJune2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GBJCD5FJDECE3W3DSJV2PVHQZNCMJVFT",
+     "length": "98758"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224209",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/Annual%20Financial%20Report%20-%2009-30-17.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OSCB4RRZAWFFTBZKMACIDHGK7CZJJ2SD",
+     "length": "3603264"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224214",
+     "original": "https://www.medinatx.gov/upload/page/0104/May%207%202022%20Official%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZXYRI442BGVA2DND52COL6P4RCYXC6TG",
+     "length": "144445"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224217",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportOct2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "76FMEYJFLW36YNUAQFJXP4ZICDMJMWKB",
+     "length": "108882"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224218",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/FY%2024-25%20REVISED%20PROPOSED%20Budget%20Worksheet.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VNL26246PYCQODBBVBY2CV65IDO7HL2Q",
+     "length": "645844"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224220",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportApril2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "U56S2D72XDZZBREYLYU2EBWQTAEVLJPE",
+     "length": "103664"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224222",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportFebruary2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KNAGEAEBQVALZ72FQJQ3ZJECXCNP3RAJ",
+     "length": "101720"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224223",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportJune2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "54HBWZPKOIUM6V7X5JCP377G4HA6MCL2",
+     "length": "107681"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224224",
+     "original": "https://www.medinatx.gov/upload/page/0071/docs/2024%20Bow%20Arrow.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QHEMWPV6QEKBXEM3MUCBIKNMROF75M3A",
+     "length": "77015"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224224",
+     "original": "https://www.medinatx.gov/upload/page/0105/Investment%20Policy%202024.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "I4Y3BLACR7CTMBRKEARCZQLD67ISSTML",
+     "length": "289904"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224224",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR1%202022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TFBS3H5ARHJXPQJ5H7X5YS62T5ESWSVZ",
+     "length": "118205"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224225",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityOct2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XVV6RF67HKL4OH3VYQVQCKSKQT5XUZEC",
+     "length": "71528"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224226",
+     "original": "https://www.medinatx.gov/upload/page/0104/2023%20May%206%20Uniform%20Election/Results/Official%20Results%20%20May%206%202023%20Joint%20General-Special%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7INJK64D5W7RAOWZ5LYPS4GT3FU44F4N",
+     "length": "667125"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224226",
+     "original": "https://www.medinatx.gov/upload/page/0104/2023%20November%20Election/Results/ED%20EV%20AB%20OFFICIAL.pdf",
+     "mimetype": "application/pdf",
+     "digest": "N42CVCHNY5PIBZOQFYXKJH44OG2XWTHU",
+     "length": "1205682"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224228",
+     "original": "https://www.medinatx.gov/upload/page/0089/MEDINA%20COUNTY%20PAYROLL%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SAU7KQQIQJKLAS4SSGEKZF2DNHEOPCF2",
+     "length": "72891"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224229",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/05-01-2021%20Hondo%20ISD%20%20Election%20Unofficial%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "J2Z3IT2FFC24RAVDGD6EAG4LXZIRSIFB",
+     "length": "82295"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224230",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityDec2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ITDSNCLPKCHW7RHJZMVMY5XAACUD267H",
+     "length": "78208"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224231",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR4%202022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XYAWAZKRBSFE5676OTA34UI5FRDAJKKF",
+     "length": "125434"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224231",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportMarch2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KJ5LHCGI72ZNUPFRS5SILGBNBTGDLZME",
+     "length": "105489"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224234",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportFeb2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HZQE2YRV5BWZ6J3BVX5RL2X7GVBZ6QSG",
+     "length": "110124"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224235",
+     "original": "https://www.medinatx.gov/upload/page/0104/2022%20November%20General%20Election/Results/Official%20Cumulative%20Results%20Nov%208%202022%20Joint%20General%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QYC5X3DUPBHFTPA4BTLFSE4LA2DRXWGZ",
+     "length": "227493"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224237",
+     "original": "https://www.medinatx.gov/upload/page/0104/May%2024%202022%20Official%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5ACNKOSILRM3RIZBTW6DYJIYW3F6YGOL",
+     "length": "960945"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224238",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/Official%20Results%20-%202018%20Special%20Election%20SD19.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2NDXFK7ZY7OW5WMBUVV27YE62ERE2O2W",
+     "length": "95906"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224242",
+     "original": "http://www.medinatx.gov/upload/page/0089/2020/EEO%20Utilization%20Report%20Medina.pdf",
+     "mimetype": "application/pdf",
+     "digest": "22GNFUJYPFXKMZKAT4EOHB6GFJGCLL7I",
+     "length": "1359961"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224242",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/Official%20Results%20-%20November%205%202019%20Constitutional%20Amendments.pdf",
+     "mimetype": "application/pdf",
+     "digest": "Y2HSOLQ76DITQZ24PQT6IJURS23SMWHF",
+     "length": "656498"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224243",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/Annual%20Financial%20Report%20-%20FY%2017-18.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MZ3KCXRXMKQRYWOOKO2G6EKYQCI5OFBN",
+     "length": "28453398"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224243",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/5-1-2021%20City%20of%20Hondo%20-%20Unofficial%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6PAEZW2SLEUYEKE5WZLRSW45JWGAYTJD",
+     "length": "118867"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224250",
+     "original": "https://www.medinatx.gov/upload/page/0107/TreasurersReportJanuary2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UIRZCDKHCRUIHP6SGFWFLEVC3PTWROD4",
+     "length": "111741"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224253",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/REP%20PCT%202.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KAWT2RND6BLVYAUE7ST235FUM6KAC4HU",
+     "length": "1524492"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224254",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/DEM%20PCT%203.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XQLQT75WKW2BZYGHEVSHBBATOZVXH3TU",
+     "length": "1520192"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224255",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityMarch2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TQS4T6KQCOMGEYNCN42CWAK5ZARXLBB5",
+     "length": "53393"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224256",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR3%202023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FOSWBDIYQOYPPG4QHD5ROHZEGZJHHANE",
+     "length": "174117"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224257",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/Official%20Results%20-%20March%203%202020%20Primary%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NOAYTKIBLKMAJGPQHLT42RSLKHKYOKSD",
+     "length": "3585250"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224258",
+     "original": "https://www.medinatx.gov/upload/page/0107/docs/Financial/Treasurer's%20Report/TreasurersReportMarch2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RXDVCFH5QKHXV7HHPCDXHORBNY3U5PIX",
+     "length": "103480"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224300",
+     "original": "https://www.medinatx.gov/upload/page/0104/Nov%202%202021%20Const%20Amnd%20Official%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PVFHXN4EP5JVFL3WF34YDR2ZGJUL7JXY",
+     "length": "624039"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224301",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Taxes/2021%20Pct%202%20Road%20Tax.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BACZQS7E33VC6NEGG3ZXA2H4DJLVEZIE",
+     "length": "34773"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224305",
+     "original": "https://www.medinatx.gov/upload/page/0107/TreasurersReportSeptember2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "62ABJWGEFCJPVUHJLC3KBTIYCQP6M3O3",
+     "length": "102333"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224306",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportJan2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WOLNXGGPNMKKTMJ2665EHVG3P6WJTOO4",
+     "length": "104686"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224309",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/City%20of%20Castroville%20-%20Official%20Results%20for%20May%204%202019.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OK7K6OCJFH6CZAASAYHP3SU4ZS6QC5H2",
+     "length": "104040"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224312",
+     "original": "https://www.medinatx.gov/upload/page/0071/docs/Commissioners%20Court/FY%202025-2026%20Rules%20of%20Decorum.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2JM6UCU4D7UOT4VZ5RBSYME55H3YHI6C",
+     "length": "149776"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224315",
+     "original": "https://www.medinatx.gov/upload/page/0094/docs/Sheriff%20Constable%20Fees%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WAMOTXH6X5KHZLCR5B4GCVYZK4FIZREJ",
+     "length": "43866"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224317",
+     "original": "https://www.medinatx.gov/upload/page/0105/docs/Financial/Treasurer's%20Report/TreasurersReportJan2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "H7ZE5KXCA3ECMLELPX6PILF3XD4BHMPX",
+     "length": "104609"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224320",
+     "original": "https://www.medinatx.gov/upload/page/0089/Medina%20BUY-UP%20SBC%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7IOJ7ONVUDK2U5RMCHT7KTAACH464ZSZ",
+     "length": "1890097"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224322",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR4%202023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4FBEOOYHPYN4RAZKQIGIRT2I77FI5B5N",
+     "length": "128584"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224323",
+     "original": "https://www.medinatx.gov/upload/page/0083/2025%20November%20General%20Election/Results/Hand%20Count%20Audit%20Results%20Totals.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AWYA3HALEA6CIKN5E6HLLJI6ZXWIRVSU",
+     "length": "135333"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224325",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020253010.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6Q76WFIV364FD5AJW3FOA5JGIJKWQNFW",
+     "length": "67596"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224326",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20Special%20Election/Results/Prelim%20Election%20Recon.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SJIKV6IJMYCIK24A7BOSLUE6QMH3NQYM",
+     "length": "142337"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224327",
+     "original": "https://www.medinatx.gov/upload/page/0078/COURT%20POLICY%20REGARDING%20PRO%20SE%202026%20-%20Copy.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZEZAUNGJQPFYES42ZAINEVS62I6VUGHF",
+     "length": "226607"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224327",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportJuly2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2SMNY7EDIK4LGSST4UDRKOZCOKFX7HHN",
+     "length": "105239"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224328",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020253110.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RYRMMSJ32PSFMTDCQHFOYZDBRLF44D4W",
+     "length": "82521"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224330",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020252710.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3B6TDBXKZRYCJERQY7D77NDQQBQZPMGT",
+     "length": "42566"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224331",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20November%20General/Results/Official%20Pct%20Results%2011.5.24.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2M6IZ6TNGT5NKDTLEMFUCSY5CRR3X45B",
+     "length": "1046062"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224331",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2011.5.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7HHHR64KA24JMOIJDOJXE7FSF4HLW443",
+     "length": "16829"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224332",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/05-01-21%20City%20of%20Castroville%20Unofficial%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "V3BDSX2XQJDK4ILKIKQRB7ZOSRNMO64A",
+     "length": "116257"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224333",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR1%202023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XKOLHFEFTWTGCH47VQYKEJU6GBTHPVYE",
+     "length": "135695"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224334",
+     "original": "https://www.medinatx.gov/upload/page/0103/2025%20November%20General%20Election/Results/Summary%20and%20Cert%20of%20Post%20Election%20Hand%20Count%20Audit%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TOOO4N5M3MVVKVOXKLDZ6326RTLCSZXV",
+     "length": "174358"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224335",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/05-01--21%20Bond%20Election%20Unofficial%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2AOM4QCPU7H5RTTVA7VW4LT7EFN4ERUW",
+     "length": "209562"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224335",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/City%20of%20Hondo-Hondo%20ISD%20Official%20Results%20for%20May%204%202019.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HY7HESPZGUPXZNPVMCM5ZBTRLHVK3ACW",
+     "length": "127737"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224337",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.07.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QU2CG6XQ6QN7HNXEJMF5Z2ZZQ4XCBMZZ",
+     "length": "16560"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224340",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020252410.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HWBDPEBP366WABCR6DPYIUR7YPPX46HM",
+     "length": "43857"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224340",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/REP%20PCT%204.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MV4KM6XAYDQDTWRBUAWDP33SDMC4Z6BT",
+     "length": "1519770"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224340",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportSept2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FCYWZFLVFSG7Q3ZD2CIT7OMLZSHXUGM3",
+     "length": "105885"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224342",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.09.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OMEDNPGV7WBB3O2F2M4CVMRW4LGY3RTL",
+     "length": "17407"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224342",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR4%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZNYLP42JDMN72ZECPUGLSOCCB3FXM47H",
+     "length": "128706"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224343",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20May%20Primary%20Runoff%20Election/Results/Election%20Reconc%20-%20Official%20Totals.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OD4TBNVEKT2EHVRP7HIF4TTUL2ZJBA2D",
+     "length": "122098"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224345",
+     "original": "https://www.medinatx.gov/upload/page/0101/2023%20November%20Election/Results/Election%20Reconciliation%20Official.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3565SK26OK76M7TKVISK3S4V5NGFRGDE",
+     "length": "131608"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224345",
+     "original": "https://www.medinatx.gov/upload/page/0104/2022%20March%20Primary%20Dem%20Party%20Official%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C3SK4WNZDVLPLOFZCERB3ZFQZLV7PSJ3",
+     "length": "4069289"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224348",
+     "original": "https://www.medinatx.gov/upload/page/0107/docs/Financial/Treasurer's%20Report/TreasurersReportAugust2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "K66EUUKPJDD3BWBD67NQ26YEGFLN3BBW",
+     "length": "100891"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224349",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/PROPOSED%20Budget%20FY%2024-25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AEPTGOA5VHIEH65XUHILOLO3JL563O2C",
+     "length": "776603"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224349",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020252310.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NQBMM3S5AEZBO564XRHDEIP24XFERRJG",
+     "length": "36585"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224351",
+     "original": "https://www.medinatx.gov/upload/page/0089/docs/HR/WC%20Employee's%20Report%20of%20Injury%20Form.pdf",
+     "mimetype": "application/pdf",
+     "digest": "V3NGMFVWRKN7P7Y3DFAN52TESRMPMC5F",
+     "length": "40111"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224351",
+     "original": "https://www.medinatx.gov/upload/page/0104/2022%20March%20Primary%20Rep%20Party%20Official%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TA34TBLPK2Z3U3CNKPUJCYLZJLC56SPD",
+     "length": "12096622"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224352",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.06.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LET4N5G27M7GBOXJKQEFTDTJ4WE3QZOE",
+     "length": "16628"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224352",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityJune2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2KGXY7WXXUPZBTYP7UFR4UNCX23FYQUG",
+     "length": "65259"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224353",
+     "original": "https://www.medinatx.gov/upload/page/0107/TreasurersReport%20October%202025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HRO5FJW6BCITJFCSAULPLFPFNEODSFPO",
+     "length": "107799"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224354",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportDec2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YKFCASVHHCANQ6KBZKV3U6OKK4JHIZ3G",
+     "length": "109792"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224356",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2011.3.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "G5O6XKIEHPWP3C56T3O6LHGW4Z3GGVN4",
+     "length": "17159"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224359",
+     "original": "https://www.medinatx.gov/upload/page/0097/docs/Personal%20History%20Statement%20-%20Sheriffs%20Office.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WGTAYDGTXDUF65C5KA35VUBPBD6SHU53",
+     "length": "674050"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224359",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.31.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2NPYJD253T4D2LXJH65FRHJPZGVXYZOV",
+     "length": "16402"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224359",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/Canvass%20Results%20-%20July%2014%202020%20Primary%20Runoff%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CGFYNYSZE47GN7KXCX7EQ2C4JCM4PCIU",
+     "length": "174630"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224400",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.24.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MJLL5LPKZN37D6H7Y6FCDBKYHH7LO6UD",
+     "length": "16086"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224400",
+     "original": "https://www.medinatx.gov/upload/page/0101/May%207%202022%20Reconciliation%20Unofficial.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MG3FFAZ6FCTANKX7UU2DLOPF6UVDJJF6",
+     "length": "148512"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224401",
+     "original": "https://www.medinatx.gov/upload/page/0107/docs/Financial/Treasurer's%20Report/TreasurersReportJuly2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JXX7Q6LTTW5IIQ2RBNZV2PA3G3KNT5AO",
+     "length": "100307"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224402",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20May%20Primary%20Runoff%20Election/Results/5.28.24%20Official%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "I3NET3MGTFIO52XDYO2U6GZYIM3Y5PHT",
+     "length": "187994"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224402",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.28.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CLL63VLJEFWUTN6GW7A2TX6N2ZK5GCBO",
+     "length": "17193"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224402",
+     "original": "https://www.medinatx.gov/upload/page/0103/2025%20November%20General%20Election/Results/Hand%20Count%20Audit%20Results%20Totals.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AWYA3HALEA6CIKN5E6HLLJI6ZXWIRVSU",
+     "length": "135329"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224404",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20March%20Primary%20Election/Results/Official%20Cumulative%20Results-3-12-2024%2001-21-55%20PM.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IM26OEMT2N4EUMFFQRFUXLC3JJEWQ5KU",
+     "length": "259918"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224404",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.23.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XI4PE62WGHQUWHQC56URMWHJQCM2DUIH",
+     "length": "18925"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224405",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/Official%20Results%20-%20Nov.%203%202020%20General%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TGI2XOJISNYBOJYAYTJ5SWUMIXMEIUTK",
+     "length": "2953044"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224407",
+     "original": "https://www.medinatx.gov/upload/page/0101/2023%20November%20Election/Results/Preliminary%20Election%20Reconciliation%20Unofficial.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NJFEWOZT26KJU5AXXN5Y3YBODCNWAFSV",
+     "length": "146862"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224411",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20May%20Special%20Election/Results/Official%20Cumulative%20Results%20-2025%20City-School-Special%20Joint%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BEX3CDNXM7AQ5NNE3V7BTOV4KSRTWPYA",
+     "length": "191259"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224412",
+     "original": "https://www.medinatx.gov/upload/page/0101/May%207%202022%20Reconciliation%20Official.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XIF4JJGYCLNVWDB24BWPE5HXQK7VDMRO",
+     "length": "168219"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224412",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/11-08-16%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4WZQCMHWUMMJSTXSHL72ZKVJ4BMFQVEV",
+     "length": "105138"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224413",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Results/Election%20Reconciliation%20-%20Official%20Totals.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+     "length": "435"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224416",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20November%20General/Election%20Reconciliation%20-Official%20Totals%20for%202024%20Nov.%20Joint%20General%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "E5KDN5AMOW3SOSNIVJ5Q7RHSEVDFMSNC",
+     "length": "148967"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224418",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/REP%20PCT%203.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VZMO47F23P3XXL3C4LSJBDAQL6AZ47OX",
+     "length": "1480729"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224419",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Results/Cumulative%20Results%20Report%20-%20Official%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "A3NOP7CACTSWOA2CJTQ2UTH6PFQFKRYN",
+     "length": "221396"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224419",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Results/Prelim%20Election%20Recon%20-%20Unofficial%20Totals.pdf",
+     "mimetype": "application/pdf",
+     "digest": "Y5LRSZ5GITEWSRMTOTQ4F73BZCCYSVZZ",
+     "length": "134463"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224421",
+     "original": "https://www.medinatx.gov/upload/page/0101/2022%20November%20General%20Election/Results/Preliminary%20Election%20Reconciliation-Unofficial.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KLZLSEXYLHLNDI26BYNUMV3TZ7BEIG3U",
+     "length": "156083"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224424",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20March%20Primary%20Election/Results/Official%20Precinct%20Results-3-12-2024%2001-22-17%20PM.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WXOL3RWN42OEQBQ77HD2IANDWR7XY7YY",
+     "length": "1082265"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224424",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.22.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C3ZLZ2GD7A6GFV7CTY5Q6W5VSNAD56TA",
+     "length": "16390"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224425",
+     "original": "https://www.medinatx.gov/upload/page/0074/images/2020%20Pct%20Map.pdf",
+     "mimetype": "application/pdf",
+     "digest": "N4QWRLWNUN5AEUDSMUINQVXO4T6GDFLO",
+     "length": "4709828"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224427",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20May%20Primary%20Runoff%20Election/Results/5.28.24%20Official%20Pct%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QYUSTZ3FXXJPUIDPWYRSIKZQZCUMHD5X",
+     "length": "223511"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224429",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020252110.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TJQEUCLXMODHNAABR3LXLU35ZMCHU27I",
+     "length": "47089"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224429",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR3%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JSMRQCGUMZR4FGHSVT4BKWACY273M4QE",
+     "length": "115659"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224430",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20November%20General/Results/PRELIM%20ELECTION%20RECON%20UNOFFICIAL.pdf",
+     "mimetype": "application/pdf",
+     "digest": "425ZKXLTAS727WEQ565XQ67PZNQPIZSM",
+     "length": "148898"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224431",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/Medina%20County%20Annual%20Financial%20Report%202022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ODGZIOZVO3CWPC57ETWDXUSHRVNSQZUA",
+     "length": "1763817"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224431",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20May%20Special%20Election/Results/Preliminary%20Election%20Reconciliation.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7B6M227S5JIVZVDZGKUJ6LCMAXCQNG7L",
+     "length": "146135"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224431",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/DEM%20PCT%201.pdf",
+     "mimetype": "application/pdf",
+     "digest": "D4ZJNY54PHKID7UGVFP2KCIM2BR5XDQN",
+     "length": "1543099"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224432",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20EMCS/Results/Election%20Reconciliation%20-%20Official%20Totals.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YE3ZILANWGRABE2DT7JLYXZPCH3UPXU6",
+     "length": "123199"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224432",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.21.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7HEVFWGOIRIPGL5M5JHEHTUCV5CMOPZV",
+     "length": "17892"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224433",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.08.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FAR5FRA6XHSIU34PA5DJSYOBWRPOBCK4",
+     "length": "16307"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224433",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020250411.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ECMSBONSW7GHBVNVUKY2GT6DSKF5OIDG",
+     "length": "329701"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224433",
+     "original": "https://www.medinatx.gov/upload/page/0107/docs/Financial/Investment%20Report/INVESTMENT%20REPORT%20QTR1%202025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VAGDBTZDAODK6EVBXN5W2IB6C5UZVYPB",
+     "length": "139892"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224434",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.16.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6DCMRZD42EED5JIJHOGTDERTZAG7KTU6",
+     "length": "18025"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224438",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR2%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SM55NVAVSRSXL52U5HEJ6JUFRSJCX5NC",
+     "length": "123828"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224439",
+     "original": "https://www.medinatx.gov/upload/page/0101/2023%20May%206%20Uniform%20Election/Results/Preliminary%20Reconciliation.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6QUAQVGATOTZL77RSQRVUDJ7U54QI4DF",
+     "length": "133006"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224441",
+     "original": "https://www.medinatx.gov/upload/page/0101/March%201%202022%20Reconciliation%20Official.pdf",
+     "mimetype": "application/pdf",
+     "digest": "M34G7TSFNTCRJETFLCU5YWSMKXJDZSSP",
+     "length": "165081"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224443",
+     "original": "https://www.medinatx.gov/upload/page/0101/May%2024%202022%20Reconciliation%20Official.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SJRQCQ3AWEQN7Y3YXYLRRP7AMFVAMSYP",
+     "length": "159189"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224444",
+     "original": "https://www.medinatx.gov/upload/page/0101/March%201%202022%20Reconciliation%20Unofficial.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MBW5HJHQYL6TI5DAT7KLDCEBOHFMZNAI",
+     "length": "331008"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224446",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Results/Precinct%20Results%20Report%20-%20Official%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LKPR664UGR2UDZHTOMXDXLNB7BOJTQMP",
+     "length": "607509"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224446",
+     "original": "https://www.medinatx.gov/upload/page/0107/docs/Financial/Treasurer's%20Report/TreasurersReportAPRIL2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "H5IR27FH352XDTCEBNIM46VBDD3YHUPM",
+     "length": "102717"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224447",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20March%20Primary%20Election/Results/Preliminary%20Election%20Reconciliation.pdf",
+     "mimetype": "application/pdf",
+     "digest": "E2EVPXY4TC463BCJWDDOG3RJZ7SSMBOU",
+     "length": "153958"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224449",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/DEM%20PCT%204.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TNBKNAPULI5KBEDGVX4CO6J5K6ZPQEQV",
+     "length": "1531742"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224451",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/Annual%20Financial%20Report%20FY%2015-16.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JDZMMWCXWL5TQ6A2X7WKAJCFXTZI6RX2",
+     "length": "4329509"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224451",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/05-01-2021%20Medina%20Valley%20ISD%20-Unofficial%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CTVBPD7HYFHF5OJTNS2IWKSEICHDDDKX",
+     "length": "82028"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224455",
+     "original": "https://www.medinatx.gov/upload/page/0083/Poll%20Worker%20Training/2024%20Poll%20Worker%20Training%20-%20Part%201.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UUYIBAA6S7ISLQ2CJQWMBP64PJ2MPEH3",
+     "length": "1192512"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224457",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20May%20Special%20Election/Results/Election%20Reconciliation%20-%20Official%20Totals%20for%202025%20City-School-Special%20Joint%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TXNABRZEODJKW7RO2RKUHQ77F7UBIF2Z",
+     "length": "131777"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224500",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/DEM%20PCT%202.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6GWV2FBQ2AAAYV2DKQ4T2ORA7AREOUXA",
+     "length": "1550029"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224501",
+     "original": "https://www.medinatx.gov/upload/page/0105/INVESTMENT%20REPORT%20QTR2%202023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HU26AE5FY54OJAP3QG6AH5EEX4GJ6A5H",
+     "length": "177422"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224504",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20November%20General/Results/Official%20Cumulative%20Results%2011.18.24.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DBYY7AZKBJKWEZZDPNZ7MHAIPDEWKFLG",
+     "length": "224496"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224505",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/Official%20Canvass%20Results%20-%202018%20SD19%20Runoff%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PQRUIILJA5VWYWVJVW4BDKPXAHNT2FNC",
+     "length": "108323"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224510",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20EMCS/Results/Preliminary%20Election%20Reconciliation%208.3.24.pdf",
+     "mimetype": "application/pdf",
+     "digest": "44TY4SDR62BCZR3ZVCTWNTY45U5TK7TO",
+     "length": "145280"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224515",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20Special%20Election/Results/EV.AB.ED%20Official.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5SQNKRCVG6BVE7LO3ENZPC7SJUHGEMTK",
+     "length": "668445"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224527",
+     "original": "https://www.medinatx.gov/upload/page/0107/docs/Financial/Treasurer's%20Report/TreasurersReportFebruary2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WACUNKSGDEUQXEB2UIMVZJ6Y5NLWI2YH",
+     "length": "106873"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224537",
+     "original": "https://www.medinatx.gov/upload/page/0078/Guardians%20Report%20on%20Condition%20of%20Well-being%20of%20Ward.docx",
+     "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "digest": "KT7UZ6KSYLUD3OHTTNOFE57NJRS4KHBF",
+     "length": "68240"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224537",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20Special%20Election/Results/Election%20Reconciliation-Official%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AEG2YLFK2DIHSD33VRBLIZTFROHJK3OF",
+     "length": "130745"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224539",
+     "original": "https://www.medinatx.gov/upload/page/0101/May%2024%202022%20Reconciliation%20Unofficial.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5W6ZES6Z4YSYBZU6HBIYH2FKUVYKBS6J",
+     "length": "154094"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224540",
+     "original": "https://www.medinatx.gov/upload/page/0071/docs/2024%20Firearms%20Air%20Guns.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XENTKGORVW3242JMCXRYMICIY5BGGOHR",
+     "length": "76950"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224548",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportDec2022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3DVGVWB2RDHFATPFKNQU32ABX3WJSIYP",
+     "length": "105996"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224603",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportDecember2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "URKQQPIRKBVNZCAVHGVUDMQSZBR2WS46",
+     "length": "107310"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224608",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/Annual%20Financial%20Report%202023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3FFEXX7MTY4FJSGYOHUEQGQFBLIDMDKZ",
+     "length": "1661202"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224620",
+     "original": "https://www.medinatx.gov/upload/page/0107/INVESTMENT%20REPORT%20QTR2%202025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HFYX47KDTYFPBSEVAHVIQOL4RHAIYEWO",
+     "length": "151525"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224622",
+     "original": "https://www.medinatx.gov/upload/page/0107/docs/Financial/Treasurer's%20Report/TreasurersReportJune2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WFDC6SKNDWPMW2S34RWKPUHYTAL5DS4R",
+     "length": "101574"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224629",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20March%20Primary%20Election/Results/Election%20Reconciliation%20-%20Official%20Totals.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HFVF45OEGWLRGWGEJC5OFOFB4TN2OYCZ",
+     "length": "112974"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224633",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportApril2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VIVKTGW6AKHZ4PB5VGJKB2TE7SLAYYWO",
+     "length": "109859"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224635",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.17.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DPNMNGFFNR5AXMOV4LSN4GDZEN5AJ55Y",
+     "length": "19338"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224653",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/2018%20MARCH%20PRIMARY%20UNOFFICIAL%20RESULTS.pdf",
+     "mimetype": "application/pdf",
+     "digest": "V55H7Y7NDTR4FZ2ZZHIUBWL2HGUNAPO6",
+     "length": "3083522"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224657",
+     "original": "https://www.medinatx.gov/upload/page/0101/2022%20November%20General%20Election/Results/Election%20Reconciliation%20Official%20Totals.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IGHQSDVVLVEL2B7P7ZJGZQDB34R65ZXN",
+     "length": "130582"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224707",
+     "original": "https://www.medinatx.gov/upload/page/0086/docs/Financial/Annual%20Financial%20Report%202019.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XALLKUN4OANTTDD6P5QT3NZRWZWQ2U3O",
+     "length": "1731314"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224716",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.20.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5TBL23XNULE44JC73SFP7MB2ZHZLPC6C",
+     "length": "16900"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224719",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020252810.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WA5QUSQOPX3NJPR7LQRGA37B6DXBQ2XM",
+     "length": "45119"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224748",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.27.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "Y5A6EF2NZWIOIX4DCVRWAVLWOZMSH7SR",
+     "length": "19780"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224815",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.29.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6ANSVAUYWIKVPYNM4GWXGTMF2LSSM5RT",
+     "length": "16401"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224817",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20EMCS/Results/Election%20Results%20-%20Official.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SIPZ6XMQATVI5IW47XMR7VYJILVTWTSE",
+     "length": "128570"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224819",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.14.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WMDCSHG2XCX4E5JD23DUFYDEMLUDCKDE",
+     "length": "18432"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224822",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/ABBM%20voter_check_in_details%2010.30.25.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HDQKDWR57LKLQAMEKMBMM2MPO3S6XIN7",
+     "length": "17174"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224829",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020252510.pdf",
+     "mimetype": "application/pdf",
+     "digest": "X3O4NLFYOTQDQ477B65PGCPTGYFZFFV7",
+     "length": "27881"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224838",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20May%20Primary%20Runoff%20Election/Results/Preliminary%20Election%20Recon.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4KJX2CCNF6WRFECSCGPMO2XVR726YTKO",
+     "length": "128204"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224841",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020252210.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WQOQPH4PPRD7DZACM3MFRTSJ5AOQYYLV",
+     "length": "39604"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224842",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/11-06-18%20Results%20Official.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7DO7PHMEMLDN4YK63PHJVZVI25G5DT42",
+     "length": "3678151"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317225001",
+     "original": "https://www.medinatx.gov/upload/page/0094/docs/2024%20Sheriff%20Constable%20Fees.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ECJKU2YAXJRLCLTNHQ6MPVFUJUS3RBLW",
+     "length": "39878"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317225036",
+     "original": "https://www.medinatx.gov/upload/page/0105/TreasurersReportJuly2023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "56B62VLJBQUHMN7QWYYSBPZUJXSN5AZ3",
+     "length": "113452"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317225057",
+     "original": "https://www.medinatx.gov/upload/page/0105/UtilityNov2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YUKVCMXZWASUXZMQOSMSDSUDSOJANEZL",
+     "length": "82947"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317225322",
+     "original": "http://www.medinatx.gov/upload/page/0074/docs/2024%20Sheriff%20Constable%20Fees.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ECJKU2YAXJRLCLTNHQ6MPVFUJUS3RBLW",
+     "length": "39865"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317225740",
+     "original": "https://www.medinatx.gov/upload/page/0107/docs/Financial/Treasurer's%20Report/TreasurersReportMay2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UWDPZHDWUTQ7FOX5VQ6GWQ4NMIGMQRTU",
+     "length": "106975"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317225826",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/Lytle%20ISD%20-%20Official%20Results%20for%20May%204%202019.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZBNOQZ3W4TOM7NXT2T5N4UBQC6YHT5CH",
+     "length": "13863"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318015956",
+     "original": "https://www.medinatx.gov/upload/page/0067/docs/2020%20Pct%20Map.pdf",
+     "mimetype": "application/pdf",
+     "digest": "N4QWRLWNUN5AEUDSMUINQVXO4T6GDFLO",
+     "length": "4709909"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318112505",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/REP%20PCT%201.pdf",
+     "mimetype": "application/pdf",
+     "digest": "K6RYEJAECAPROQUZR5DC73LMYTLI7PPE",
+     "length": "1469857"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318114306",
+     "original": "https://www.medinatx.gov/upload/page/0107/TreasurersReport%20November%202025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PONOVISOWT3NPOTVDWTZL65YUW56VYBZ",
+     "length": "481978"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318121145",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20May%20Special%20Election/Results/Official%20Precinct%20Results%20-%202025%20City-School-Special%20Joint%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DMLOGOSEU566RDBHWUJ3WPVYZSZHHFHU",
+     "length": "212502"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318162456",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Daily%20Check-in/voter_check_in_details%2020252910.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GHU2M6VSM7A6DACMFIGAMWKJVUYE4YE5",
+     "length": "57695"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260319233312",
+     "original": "https://www.medinatx.gov/upload/page/0075/docs/TaxAssessorCollector/general_information%20for%20tax%20sales.pdf",
+     "mimetype": "application/pdf",
+     "digest": "U3FBGSRSJSWKZ2F7OMOVN4CBXRADHJAI",
+     "length": "736668"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320001441",
+     "original": "https://www.medinatx.gov/upload/page/0075/docs/TaxAssessorCollector/Tax%20Rates/tax%20rate%20summary.pdf",
+     "mimetype": "application/pdf",
+     "digest": "U6VQFPXMYT6MANU2I3BFWCREEPMUUO2K",
+     "length": "59678"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320015435",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD5/ESD5%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "P5P6GS2XEZ7ZSCSTGI77J4MHVQJZC7EL",
+     "length": "164962"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320015446",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/Natalia%20ISD/SNA%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "E5XHSHB2DZT34BIJ5UHMP4AA6EUPS6OM",
+     "length": "1138273"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320015722",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD4/ESD4%202024%20Worksheets%20updated.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YBE3O352CMP7MJQP3542WTHP6BQYOCZS",
+     "length": "145021"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320020326",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/RFM%20TNT%20Worksheets%202022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2UGLZN55YWAV6EIAVNMALU4LSDXBUYLE",
+     "length": "542387"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320020523",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20Precinct%202%20Special%20Road%20Tax/RSP%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EIAKTVNZRL4KDVE7RQTSU6UP5L5B2P5Q",
+     "length": "145070"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320021235",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/City%20of%20Natalia/CNA%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TE5ATNTUOKMZAKUD52KYT56GRNJ5B7H7",
+     "length": "44541"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320021508",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/RFM%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "URFFDXXBDI3U7QLYENTVM67QXRCJJDUP",
+     "length": "148708"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320021850",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD6/ESD6%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DGZAYQAONIS7WE6DEUXRQ7AVKGQAJE6C",
+     "length": "45408"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320022649",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/RFM%202023%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PXYLRVPSLHJDHWYE67MK4MIGFS5RRXR2",
+     "length": "152927"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320023231",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD2/ESD2%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2NHXGUNEVVSE5KJBOVIG3GZYRPQOI7XE",
+     "length": "46818"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320023504",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%20RFM%202020%20Notice%20of%20Rate.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QXIBXP2MVICYXRJ2DPJF7Q6NPCYCUKYH",
+     "length": "19779"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320023541",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%20RFM%202019.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4TVBLUZQVTH3UXFMJDXS4ODYAVMZ6WES",
+     "length": "129024"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320024105",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20Precinct%202%20Special%20Road%20Tax/RSP%20TNT%20Worksheets%202022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VMDUC3WLIDPM4R53LR47YLMPGGPHYJPR",
+     "length": "562276"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320024155",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20Precinct%202%20Special%20Road%20Tax/RSP%202021%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LIPBLVHUP6DJLJ633WCPGZNUDTGJSPBP",
+     "length": "113038"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320024309",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/RFM%202020%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "72AESOZJM4WFGWS5M5FFAPK565KLSPPW",
+     "length": "90971"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320024440",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD1/ESD1%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3OHIHBRYLWTVIQDUT7RT4RRYNSCUVKUN",
+     "length": "254190"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320024451",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD2/ESD2%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RR4B5GN6H6VJA3BAA6ZEIH27EXRN2SBZ",
+     "length": "254523"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320024608",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%20RFM%20Notice%20About%202025%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TG3LNORE6W47DXSGRCLQZFCOXLTSZQU2",
+     "length": "48548"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320024817",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/City%20of%20LaCoste/CLA%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QHC3XDARAQLYE3TJ3TH47AGOIOWOFKGK",
+     "length": "144908"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320024957",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%202023%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FHHNPYP3G5DUMMOZ6U2VXVHFXZVWT42I",
+     "length": "152033"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320025503",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/D'Hanis%20ISD/SDH%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PXC272QQVI7A35WBGFGAQEV2MQQXESDV",
+     "length": "325565"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320030111",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20Precinct%202%20Special%20Road%20Tax/RSP%202019.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UJKENSGK7I4QITXZKN7E4B6LNOMQWMTR",
+     "length": "109632"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320030343",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%20RFM%202016.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PB72NN2Q67QHLHNL6ENPTVRUUPUQDSZ5",
+     "length": "104964"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320032551",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD3/ESD3%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PLG45TSJVRYH6JDDGRWDSW3NJ3BDKCIV",
+     "length": "45643"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320032844",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD4/ESD4%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5WDTYXVI66CFKFVDYSZDWFOPX4JLFZA3",
+     "length": "45860"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320033103",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/City%20of%20Castroville/CCA%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XUKRAQ672OODGBY723WRX5LQJW2E2OZ3",
+     "length": "44803"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320033320",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/City%20of%20LaCoste/CLA%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GZGB5QJI3T4JTNQXTOSVSDHOMTYRTQ6G",
+     "length": "44234"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320033617",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%202021%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XNIMJ7EG2OUUQZHIEQPEUE534X4MIP6P",
+     "length": "139968"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320034125",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/City%20of%20Devine/CDE%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "L4IKGDM2GCOOT3O2IPWZB4Z4PDC6QNVD",
+     "length": "145162"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320034347",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6FDZKS7OVTXGYXKNFS6XB2KSWSCI7LES",
+     "length": "145203"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320035057",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%202025%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XFCSD3IQVCEG4DLTGM2KXYBEEC3CJHTH",
+     "length": "154134"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320042814",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%20RFM%202015.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FL4KG65C47FMXXA4NMS7SOYCLLKPUHBM",
+     "length": "103928"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320043050",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/City%20of%20Devine/CDE%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZPY7MS74CNU34QX2GDYHJBDJV7YW6IAU",
+     "length": "45698"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320043806",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/City%20of%20Hondo/CHO%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "S6OJXE66VLDN6V6FOPVWPCQD5SH2ICS3",
+     "length": "47285"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320044931",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%20RFM%202018.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UYEHETMXUVGQMZSOT2CPOIEAQEI63AFF",
+     "length": "128897"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320045948",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%20RFM%202017.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AGU5RIC2EEPX3TKHXXLG5HICXD5WU7BG",
+     "length": "128667"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320050007",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD1/ESD1%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FU3LPYH5AFAYAGCUICAVTSNR3ODG4LF3",
+     "length": "44936"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320054429",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD6/ESD6%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3VXNNDFA6JDZ47JPEDJL6CZRT5BV2DMN",
+     "length": "145007"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320055024",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/RFM%202025%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QT2FWWD5526QFHL2YZXQLNPGZCAZVNS4",
+     "length": "157760"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320055316",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/Devine%20ISD/SDE%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HUB7PEINHNWALVY7RXJXWQND4UVGHUAQ",
+     "length": "1574178"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320055741",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/Hospital%20District/HSP%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KGJZ4LJ2LBAGSVW2RQ44TUB4LMJT4E4G",
+     "length": "145163"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320061154",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/Hospital%20District/HSP%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SNCE2DXHBK7VY3VRZNB6C5XZIDCWY6WX",
+     "length": "44642"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320063450",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%20Notice%20About%202021%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XF2OSTJJYYRS3CWGDZTUDB2R2G427M4W",
+     "length": "46001"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320063451",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20Precinct%202%20Special%20Road%20Tax/RSP%202018.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4G6A3Y3AV7XYQ5QOVR2QP3GKI5U2KVD3",
+     "length": "109634"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320065302",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/Hondo%20ISD/SHO%202025%20Tax%20Rate%20Calculation%20Worksheet%20-%20OFFICIAL.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GBH2AYGDP6LZYM3VLJ7J3YT64MRD3MHQ",
+     "length": "396974"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320074351",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD3/ESD3%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CCDXLHEXD67H564FHUL24YCA5IEB2FGD",
+     "length": "254636"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320075127",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/Groundwater%20Conservation%20Dist/MWD%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "55ROJLP4Z7QXUPL44GKMSCPSHMKW64DV",
+     "length": "45458"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320090322",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "E3M2JU3ELTDR47EOQTEQ7RLLUKCQHNJW",
+     "length": "50163"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260320090650",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/MC%20General%20Fund%20and%20FM%20Roads/GME%202020%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KLB3CBUV5HJ2PVIRG3HUYAF4TY7IFASN",
+     "length": "115718"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035944",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/City%20of%20Castroville/CCA%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6J54RQ22MZP523BWGU4D7IXL6FBLO2DC",
+     "length": "145109"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321054354",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/ESD5/ESD5%20Notice%20of%202024%20Tax%20Rates.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GIBSRD7TYD7HRPCSRHR363MXMPH4JWDP",
+     "length": "46363"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321061309",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/Groundwater%20Conservation%20Dist/MWD%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VH7FLQY5HCRTCWXITWF34QCIGG3YLVRW",
+     "length": "145031"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321173934",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/City%20of%20Hondo/CHO%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CKEMD54GDFXEAIBTAWN2HZMKQLXVBVYD",
+     "length": "145143"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260322014454",
+     "original": "https://www.medinatx.gov/upload/page/0099/docs/City%20of%20Natalia/CNA%202024%20Worksheets.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6DVRSMVUZ2GP7QBIQRSUTMVL46TL27TZ",
+     "length": "144947"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224331",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20November%20General/Results/Official%20Pct%20Results%2011.5.24.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2M6IZ6TNGT5NKDTLEMFUCSY5CRR3X45B",
+     "length": "1046062",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224359",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/Canvass%20Results%20-%20July%2014%202020%20Primary%20Runoff%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CGFYNYSZE47GN7KXCX7EQ2C4JCM4PCIU",
+     "length": "174630",
+     "replay_error": null,
+     "bytes": 177003,
+     "sha256": "4928d196695e04e4cee9e8c27f26c65128a7dcff136b10dd21b5bf29371c662a",
+     "orig_last_modified": "Tue, 21 Jul 2020 18:48:30 GMT",
+     "orig_date": "Tue, 17 Mar 2026 22:43:24 GMT",
+     "orig_last_modified_local": "2020-07-21 12:48:30",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20200721125620-05'00'",
+     "Creator": "OmniPage CSDK 20",
+     "ModDate": "D:20200721134603-05'00'",
+     "Producer": "Document Capture",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317224359_d3f5d46086.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224424",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20March%20Primary%20Election/Results/Official%20Precinct%20Results-3-12-2024%2001-22-17%20PM.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WXOL3RWN42OEQBQ77HD2IANDWR7XY7YY",
+     "length": "1082265",
+     "replay_error": null,
+     "bytes": 1531236,
+     "sha256": "f0a97628f347a0a0e7472248b8409607d7a9b27eb5ae2b214ecf0ec787d4ffa0",
+     "orig_last_modified": "Fri, 19 Apr 2024 15:09:54 GMT",
+     "orig_date": "Tue, 17 Mar 2026 22:43:49 GMT",
+     "orig_last_modified_local": "2024-04-19 09:09:54",
+     "upload_on_election_night": false,
+     "Creator": "Microsoft Reporting Services 14.0.0.0",
+     "Producer": "Microsoft Reporting Services PDF Rendering Extension 14.0.0.0",
+     "CreationDate": "D:20240312132223-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 482,
+     "text_sample_first_streams": "PRESIDENT - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total VIVEK RAMASWAMY REP 0 0.00% 3 1.48% 1 0.40% 4 0.86% DAVID STUCKENBERG REP 0 0.00% 1 0.49% 0 0.00% 1 0.21% NIKKI HALEY REP 0 0.00% 35 17.24% 38 15.02% 73 15.67% RYAN L. BINKLEY REP 0 0.00% 0 0.00% 0 0.00% 0 0.00% RON DESANTIS REP 0 0.00% 2 0.99% 0 0.00% 2 0.43% CHRIS CHRISTIE REP 0 0.00% 2 0.99% 1 0.40% 3 0.64% DONALD J. TRUMP REP 9 90.00% 156 76.85% 210 83.00% 375 80.47% ASA HUTCHINSON REP 0 0.00% 0 0.00% 0 0.00% 0 0.00% UNCOMMITTED 1 10.00% 4 1.97% 3 1.19% 8 1.72% Cast Votes: 10 100.00% 203 100.00% 253 100.00% 466 100.00% Undervotes: 0 1 0 1 Overvotes: 0 0 0 0 UNITED STATES SENATOR - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total TED CRUZ REP 9 90.00% 172 87.76% 225 91.46% 406 89.82% HOLLAND \"REDD\" GIBSON REP 1 10.00% 16 8.16% 8 3.25% 25 5.53% R E \\(RUFUS\\) LOPEZ REP 0 0.00% 8 4.08% 13 5.28% 21 4.65% Cast Votes: 10 100.00% 196 100.00% 246 100.00% 452 100.00% Undervotes: 0 8 7 15 Overvotes: 0 0 0 0 UNITED STATES REPRESENTATIVE DISTRICT 23 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total FRANK LOPEZ JR REP 0 0.00% 21 10.66% 24 9.72% 45 9.91% TONY GONZALES REP 2 20.00% 81 41.12% 88 35.63% 171 37.67% BRANDON HERRERA REP 6 60.00% 52 26.40% 79 31.98% 137 30.18% JULIE CLARK REP 2 20.00% 32 16.24% 44 17.81% 78 17.18% VICTOR AVILA REP 0 0.00% 11 5.58% 12 4.86% 23 5.07% Cast Votes: 10 100.00% 197 100.00% 247 100.00% 454 100.00% Undervotes: 0 7 6 13 Overvotes: 0 0 0 0 1A 545 of 2,209 registered voters = 24.67% Official Results Registered Voters 8782 of 37124 = 23.66% Precincts Reporting 15 of 15 = 100.00% Medina County, Texas 2024 Medina County Joint Primary Election 3/5/2024 Page 1 Precinct Results Report OFFICIAL RESULTS Run Time Run Date 1:22 PM 03/12/2024 | RAILROAD COMMISSIONER - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total PETRA REYES REP 0 0.00% 23 12.64% 17 7.59% 40 9.62% JAMES \"JIM\" MATLOCK REP 2 20.00% 37 20.33% 72 32.14% 111 26.68% COREY HOWELL REP 1 10.00% 7 3.85% 12 5.36% 20 4.81% CHRISTI CRADDICK REP 7 70.00% 94 51.65% 100 44.64% 201 48.32% CHRISTIE CLARK REP 0 0.00% 21 11.54% 23 10.27% 44 10.58% Cast Votes: 10 100.00% 182 100.00% 224 100.00% 416 100.00% Undervotes: 0 22 29 51 Overvotes: 0 0 0 0 JUSTICE, SUPREME COURT, PLACE 2 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total JIMMY BLACKLOCK REP 9 100.00% 165 100.00% 210 100.00% 384 100.00% Cast Votes: 9 100.00% 165 100.00% 210 100.00% 384 100.00% Undervotes: 1 39 43 83 Overvotes: 0 0 0 0 JUSTICE, SUPREME COURT, PLACE 4 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total JOHN DEVINE REP 6 66.67% 85 49.71% 125 57.87% 216 54.55% BRIAN WALKER REP 3 33.33% 86 50.29% 91 42.13% 180 45.45% Cast Votes: 9 100.00% 171 100.00% 216 100.00% 396 100.00% Undervotes: 1 33 37 71 Overvotes: 0 0 0 0 JUSTICE, SUPREME COURT, PLACE 6 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total JANE BLAND REP 9 100.00% 160 100.00% 204 100.00% 373 100.00% Cast Votes: 9 100.00% 160 100.00% 204 100.00% 373 100.00% Undervotes: 1 44 49 94 Overvotes: 0 0 0 0 1A 545 of 2,209 registered voters = 24.67% Official Results Registered Voters 8782 of 37124 = 23.66% Precincts Reporting 15 of 15 = 100.00% Medina County, Texas 2024 Medina County Joint Primary Election 3/5/2024 Page 2 Precinct Results Report OFFICIAL RESULTS Run Time Run Date 1:22 PM 03/12/2024 | PRESIDING JUDGE, COURT OF CRIMINAL APPEALS - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total SHARON KELLER REP 5 55.56% 68 40.00% 99 44.59% 172 42.89% DAVID J. SCHENCK REP 4 44.44% 102 60.00% 123 55.41% 229 57.11% Cast Votes: 9 100.00% 170 100.00% 222 100.00% 401 100.00% Undervotes: 1 34 31 66 Overvotes: 0 0 0 0 JUDGE, COURT OF CRIMINAL APPEALS PLACE 7 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total GINA PARKER REP 7 77.78% 110 67.90% 158 73.49% 275 71.24% BARBARA PARKER HERVEY REP 2 22.22% 52 32.10% 57 26.51% 111 28.76% Cast Votes: 9 100.00% 162 100.00% 215 100.00% 386 100.00% Undervotes: 1 42 38 81 Overvotes: 0 0 0 0 JUDGE, COURT OF CRIMINAL APPEALS PLACE 8 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total LEE FINLEY REP 7 77.78% 92 54.12% 127 57.73% 226 56.64% MICHELLE SLAUGHTER REP 2 22.22% 78 45.88% 93 42.27% 173 43.36% Cast Votes: 9 100.00% 170 100.00% 220 100.00% 399 100.00% Undervotes: 1 34 33 68 Overvotes: 0 0 0 0 MEMBER, STATE BOARD OF EDUCATION, DISTRICT 1 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total MICHAEL \\(TRAVIS\\) STEVENS REP 9 100.00% 163 100.00% 203 100.00% 375 100.00% Cast Votes: 9 100.00% 163 100.00% 203 100.00% 375 100.00% Undervotes: 1 41 50 92 Overvotes: 0 0 0 0 1A 545 of 2,209 registered voters = 24.67% Official Results Registered Voters 8782 of 37124 = 23.66% Precincts Reporting 15 of 15 = 100.00% Medina County, Texas 2024 Medina County Joint Primary Election 3/5/2024 Page 3 Precinct Results Report OFFICIAL RESULTS Run Time Run Date 1:22 PM 03/12/2024 | STATE REPRESENTATIVE DISTRICT 53 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total HATCH SMITH REP 3 30.00% 83 44.39% 68 29.18% 154 35.81% WES VIRDELL REP 7 70.00% 104 55.61% 165 70.82% 276 64.19% Cast Votes: 10 100.00% 187 100.00% 233 100.00% 430 100.00% Undervotes: 0 17 20 37 Overvotes: 0 0 0 0 JUSTICE, 4TH COURT OF APPEALS DISTRICT, PLACE 3 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total TODD MCCRAY REP 4 57.14% 9",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317224424_60d447b3fc.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224427",
+     "original": "https://www.medinatx.gov/upload/page/0101/2024%20May%20Primary%20Runoff%20Election/Results/5.28.24%20Official%20Pct%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QYUSTZ3FXXJPUIDPWYRSIKZQZCUMHD5X",
+     "length": "223511",
+     "replay_error": null,
+     "bytes": 245661,
+     "sha256": "acc350303db5e79ae0035b7795b24987438fb3cd130c66f4a2ae008d25e56aff",
+     "orig_last_modified": "Sat, 03 May 2025 22:37:11 GMT",
+     "orig_date": "Tue, 17 Mar 2026 22:43:53 GMT",
+     "orig_last_modified_local": "2025-05-03 16:37:11",
+     "upload_on_election_night": false,
+     "Creator": "Microsoft Reporting Services 14.0.0.0",
+     "Producer": "Microsoft Reporting Services PDF Rendering Extension 14.0.0.0",
+     "CreationDate": "D:20240606103657-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 44,
+     "text_sample_first_streams": "UNITED STATES REPRESENTATIVE DISTRICT 23 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total TONY GONZALES REP 9 69.23% 30 48.39% 64 37.21% 103 41.70% BRANDON HERRERA REP 4 30.77% 32 51.61% 108 62.79% 144 58.30% Cast Votes: 13 100.00% 62 100.00% 172 100.00% 247 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 COUNTY COMMISSIONER PRECINCT 1 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total JAMES TOMEY REP 5 38.46% 22 38.60% 55 34.59% 82 35.81% JESSICA CASTIGLIONE REP 8 61.54% 35 61.40% 104 65.41% 147 64.19% Cast Votes: 13 100.00% 57 100.00% 159 100.00% 229 100.00% Undervotes: 0 5 13 18 Overvotes: 0 0 0 0 1A 247 of 2,252 registered voters = 10.97% Official Results Registered Voters 4387 of 37601 = 11.67% Precincts Reporting 15 of 15 = 100.00% Medina County, Texas 2024 Medina County Primary Runoff Election 5/28/2024 Page 1 Precinct Results Report OFFICIAL RESULTS Run Time Run Date 10:36 AM 06/06/2024 | UNITED STATES REPRESENTATIVE DISTRICT 23 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total TONY GONZALES REP 9 56.25% 174 53.21% 90 37.82% 273 46.99% BRANDON HERRERA REP 7 43.75% 153 46.79% 148 62.18% 308 53.01% Cast Votes: 16 100.00% 327 100.00% 238 100.00% 581 100.00% Undervotes: 0 6 4 10 Overvotes: 1 0 0 1 COUNTY COMMISSIONER PRECINCT 1 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total JAMES TOMEY REP 7 43.75% 96 29.27% 99 41.77% 202 34.77% JESSICA CASTIGLIONE REP 9 56.25% 232 70.73% 138 58.23% 379 65.23% Cast Votes: 16 100.00% 328 100.00% 237 100.00% 581 100.00% Undervotes: 1 5 5 11 Overvotes: 0 0 0 0 1B 592 of 3,004 registered voters = 19.71% Official Results Registered Voters 4387 of 37601 = 11.67% Precincts Reporting 15 of 15 = 100.00% Medina County, Texas 2024 Medina County Primary Runoff Election 5/28/2024 Page 2 Precinct Results Report OFFICIAL RESULTS Run Time Run Date 10:36 AM 06/06/2024 | UNITED STATES REPRESENTATIVE DISTRICT 23 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total TONY GONZALES REP 4 66.67% 76 49.67% 64 40.00% 144 45.14% BRANDON HERRERA REP 2 33.33% 77 50.33% 96 60.00% 175 54.86% Cast Votes: 6 100.00% 153 100.00% 160 100.00% 319 100.00% Undervotes: 0 2 2 4 Overvotes: 0 0 0 0 COUNTY COMMISSIONER PRECINCT 1 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total JAMES TOMEY REP 1 25.00% 41 27.52% 56 38.62% 98 32.89% JESSICA CASTIGLIONE REP 3 75.00% 108 72.48% 89 61.38% 200 67.11% Cast Votes: 4 100.00% 149 100.00% 145 100.00% 298 100.00% Undervotes: 2 6 17 25 Overvotes: 0 0 0 0 1C 323 of 3,446 registered voters = 9.37% Official Results Registered Voters 4387 of 37601 = 11.67% Precincts Reporting 15 of 15 = 100.00% Medina County, Texas 2024 Medina County Primary Runoff Election 5/28/2024 Page 3 Precinct Results Report OFFICIAL RESULTS Run Time Run Date 10:36 AM 06/06/2024 | UNITED STATES REPRESENTATIVE DISTRICT 23 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total TONY GONZALES REP 8 80.00% 79 51.97% 39 39.00% 126 48.09% BRANDON HERRERA REP 2 20.00% 73 48.03% 61 61.00% 136 51.91% Cast Votes: 10 100.00% 152 100.00% 100 100.00% 262 100.00% Undervotes: 0 0 3 3 Overvotes: 0 0 0 0 COUNTY COMMISSIONER PRECINCT 1 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total JAMES TOMEY REP 5 50.00% 49 32.89% 45 44.55% 99 38.08% JESSICA CASTIGLIONE REP 5 50.00% 100 67.11% 56 55.45% 161 61.92% Cast Votes: 10 100.00% 149 100.00% 101 100.00% 260 100.00% Undervotes: 0 3 2 5 Overvotes: 0 0 0 0 1D 265 of 1,669 registered voters = 15.88% Official Results Registered Voters 4387 of 37601 = 11.67% Precincts Reporting 15 of 15 = 100.00% Medina County, Texas 2024 Medina County Primary Runoff Election 5/28/2024 Page 4 Precinct Results Report OFFICIAL RESULTS Run Time Run Date 10:36 AM 06/06/2024 | UNITED STATES REPRESENTATIVE DISTRICT 23 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total TONY GONZALES REP 1 100.00% 39 45.88% 24 34.78% 64 41.29% BRANDON HERRERA REP 0 0.00% 46 54.12% 45 65.22% 91 58.71% Cast Votes: 1 100.00% 85 100.00% 69 100.00% 155 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 2A 155 of 2,194 registered voters = 7.06% Official Results Registered Voters 4387 of 37601 = 11.67% Precincts Reporting 15 of 15 = 100.00% Medina County, Texas 2024 Medina County Primary Runoff Election 5/28/2024 Page 5 Precinct Results Report OFFICIAL RESULTS Run Time Run Date 10:36 AM 06/06/2024 | UNITED STATES REPRESENTATIVE DISTRICT 23 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total TONY GONZALES REP 15 100.00% 182 61.07% 60 40.00% 257 55.51% BRANDON HERRERA REP 0 0.00% 116 38.93% 90 60.00% 206 44.49% Cast Votes: 15 100.00% 298 100.00% 150 100.00% 463 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 2B 463 of 3,159 registered voters = 14.66% Official Results Registered Voters 4387 of 37601 = 11.67% Precincts Reporting 15 of 15 = 100.00% Medina County, Texas 2024 Medina County Primary Runoff Election 5/28/2024 Page 6 Precinct Results Report OFFICIAL RESULTS Run Time Run Date 10:36 AM 06/06/2024 | UNITED STATES REPRESENTATIVE DISTRICT 23 - Republican Party - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total TONY GONZALES REP 8 66.67% 179 59.08% 65 39.39% 252 52.50% BRANDON HERRERA REP 4 33.33% 124 40.92% 100 60.61% 228 47.50% Cast Votes: 12 100.00% 303 100.00% 165 100.00% 480 100.00% Undervotes: 2 0 1 3 Overvotes: 0 0 0 0 2C 483 of 4,434 registered voters = 10.89% Official Results Registered Voters 4387 of 37601 = 11.67% Precincts Reporting 15 of 15 = 100.00% Medina County, Texas 2024 Medina Cou",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317224427_e6d388c0db.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224446",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20November%20General%20Election/Results/Precinct%20Results%20Report%20-%20Official%20Results.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LKPR664UGR2UDZHTOMXDXLNB7BOJTQMP",
+     "length": "607509",
+     "replay_error": null,
+     "bytes": 674410,
+     "sha256": "0b8506dd3b78199d87fe6136781c17ddd324642a4829dba60972da37d73deecd",
+     "orig_last_modified": "Wed, 19 Nov 2025 14:56:47 GMT",
+     "orig_date": "Tue, 17 Mar 2026 22:44:11 GMT",
+     "orig_last_modified_local": "2025-11-19 08:56:47",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 233,
+     "text_sample_first_streams": " |  |  | 1A 438 of 0 registered voters = 0.00% Official Results Registered Voters 5430 of 0 = 0.00% Precincts Reporting 22 of 22 = 100.00% Medina County, Texas November 4, 2025 Joint General & Special Election 11/4/2025 Page 1 Precinct Results Report Run Time Run Date 1:49 PM 11/13/2025 PROPOSITION 1 \\(SJR 59\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 2 22.22% 108 71.05% 173 63.60% | 283 65.36% AGAINST 7 77.78% 44 28.95% 99 36.40% 150 34.64% Cast Votes: 9 100.00% 152 100.00% 272 100.00% 433 100.00% Undervotes: 0 3 2 5 Overvotes: | 0 0 0 0 PROPOSITION 2 \\(SJR 18\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 4 44.44% 116 76.32% 222 81.62% 342 78.98% AGAINST | 5 55.56% 36 23.68% 50 18.38% 91 21.02% Cast Votes: 9 100.00% 152 100.00% 272 100.00% 433 100.00% Undervotes: 0 3 2 5 Overvotes: 0 0 0 0 | PROPOSITION 3 \\(SJR 5\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 6 66.67% 114 74.03% 196 72.06% 316 72.64% AGAINST 3 33.33% 40 | 25.97% 76 27.94% 119 27.36% Cast Votes: 9 100.00% 154 100.00% 272 100.00% 435 100.00% Undervotes: 0 1 2 3 Overvotes: 0 0 0 0 | PROPOSITION 4 \\(HJR 7\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 2 22.22% 115 75.66% 189 69.74% 306 70.83% AGAINST 7 77.78% 37 24.34% 82 30.26% | 126 29.17% Cast Votes: 9 100.00% 152 100.00% 271 100.00% 432 100.00% Undervotes: 0 3 3 6 Overvotes: 0 0 0 0 |  |  | 1A 438 of 0 registered voters = 0.00% Official Results Registered Voters 5430 of 0 = 0.00% Precincts Reporting 22 of 22 = 100.00% Medina County, Texas November 4, 2025 Joint General & Special Election 11/4/2025 Page 2 Precinct Results Report Run Time Run Date 1:49 PM 11/13/2025 PROPOSITION 5 \\(HJR 99\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 3 33.33% 113 75.84% 204 75.56% 320 74.77% AGAINST 6 66.67% 36 24.16% 66 24.44% 108 25.23% Cast Votes: 9 100.00% 149 100.00% 270 100.00% 428 100.00% Undervotes: 0 6 4 10 Overvotes: 0 0 0 0 PROPOSITION 6 \\(HJR 4\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 3 33.33% 98 65.33% 189 70.79% 290 68.08% AGAINST 6 66.67% 52 34.67% 78 29.21% 136 31.92% Cast Votes: 9 100.00% 150 100.00% 267 100.00% 426 100.00% Undervotes: 0 5 7 12 Overvotes: 0 0 0 0 PROPOSITION 7 \\(HJR 133\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 8 88.89% 142 92.81% 247 91.14% 397 91.69% AGAINST 1 11.11% 11 7.19% 24 8.86% 36 8.31% Cast Votes: 9 100.00% 153 100.00% 271 100.00% 433 100.00% Undervotes: 0 2 3 5 Overvotes: 0 0 0 0 PROPOSITION 8 \\(HJR 2\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 5 55.56% 124 81.05% 232 85.29% 361 83.18% AGAINST 4 44.44% 29 18.95% 40 14.71% 73 16.82% Cast Votes: 9 100.00% 153 100.00% 272 100.00% 434 100.00% Undervotes: 0 2 2 4 Overvotes: 0 0 0 0 | 1A 438 of 0 registered voters = 0.00% Official Results Registered Voters 5430 of 0 = 0.00% Precincts Reporting 22 of 22 = 100.00% Medina County, Texas November 4, 2025 Joint General & Special Election 11/4/2025 Page 3 Precinct Results Report Run Time Run Date 1:49 PM 11/13/2025 PROPOSITION 9 \\(HJR 1\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 4 44.44% 109 71.71% 211 78.15% 324 75.17% AGAINST 5 55.56% 43 28.29% 59 21.85% 107 24.83% Cast Votes: 9 100.00% 152 100.00% 270 100.00% 431 100.00% Undervotes: 0 3 4 7 Overvotes: 0 0 0 0 PROPOSITION 10 \\(SJR 84\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 8 88.89% 144 94.74% 254 93.73% 406 93.98% AGAINST 1 11.11% 8 5.26% 17 6.27% 26 6.02% Cast Votes: 9 100.00% 152 100.00% 271 100.00% 432 100.00% Undervotes: 0 3 3 6 Overvotes: 0 0 0 0 PROPOSITION 11 \\(SJR 85\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 5 55.56% 135 87.66% 231 84.93% 371 85.29% AGAINST 4 44.44% 19 12.34% 41 15.07% 64 14.71% Cast Votes: 9 100.00% 154 100.00% 272 100.00% 435 100.00% Undervotes: 0 1 2 3 Overvotes: 0 0 0 0 PROPOSITION 12 \\(SJR 27\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 5 55.56% 104 68.87% 196 72.86% 305 71.10% AGAINST 4 44.44% 47 31.13% 73 27.14% 124 28.90% Cast Votes: 9 100.00% 151 100.00% 269 100.00% 429 100.00% Undervotes: 0 4 5 9 Overvotes: 0 0 0 0 | 1A 438 of 0 registered voters = 0.00% Official Results Registered Voters 5430 of 0 = 0.00% Precincts Reporting 22 of 22 = 100.00% Medina County, Texas November 4, 2025 Joint General & Special Election 11/4/2025 Page 4 Precinct Results Report Run Time Run Date 1:49 PM 11/13/2025 PROPOSITION 13 \\(SJR 2\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 6 66.67% 133 85.81% 240 88.24% 379 86.93% AGAINST 3 33.33% 22 14.19% 32 11.76% 57 13.07% Cast Votes: 9 100.00% 155 100.00% 272 100.00% 436 100.00% Undervotes: 0 0 2 2 Overvotes: 0 0 0 0 PROPOSITION 14 \\(SJR 3\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 5 55.56% 99 65.56% 170 62.96% 274 63.72% AGAINST 4 44.44% 52 34.44% 100 37.04% 156 36.28% Cast Votes: 9 100.00% 151 100.00% 270 100.00% 430 100.00% Undervotes: 0 4 4 8 Overvotes: 0 0 0 0 PROPOSITION 15 \\(SJR 34\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 5 55.56% 117 76.97% 214 78.39% 336 77.42% AGAINST 4 44.44% 35 23.03% 59 21.61% 98 22.58% Cast Votes: 9 100.00% 152 100.00% 273 100.00% 434 100.00% Undervotes: 0 3 1 4 Overvotes: 0 0 0 0 PROPOSITION 16 \\(SJR 37\\) - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 5 55.56% 114 74.51% 225 82.42% 344 79.08% AGAINST 4 44.44% 39 25.49% 48 17.58% 91 20.92% Cast Votes: 9 100.00% 153 100.00% 273 100.00% 435 100.00% Under",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317224446_6d8574f2ef.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224505",
+     "original": "https://www.medinatx.gov/upload/page/0104/docs/Elections/Official%20Canvass%20Results%20-%202018%20SD19%20Runoff%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PQRUIILJA5VWYWVJVW4BDKPXAHNT2FNC",
+     "length": "108323",
+     "replay_error": null,
+     "bytes": 180674,
+     "sha256": "166c31e8eab48f0befc54cdb49ef4701cfed92917b6870b32bb4b86a3609d6cb",
+     "orig_last_modified": "Mon, 01 Oct 2018 20:39:41 GMT",
+     "orig_date": "Tue, 17 Mar 2026 22:44:30 GMT",
+     "orig_last_modified_local": "2018-10-01 14:39:41",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317224505_3483fe378f.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318121145",
+     "original": "https://www.medinatx.gov/upload/page/0101/2025%20May%20Special%20Election/Results/Official%20Precinct%20Results%20-%202025%20City-School-Special%20Joint%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DMLOGOSEU566RDBHWUJ3WPVYZSZHHFHU",
+     "length": "212502",
+     "replay_error": null,
+     "bytes": 228130,
+     "sha256": "10ae2790e1a60533b3bc7e60086dc5a53298fbeb64849e1999eed9765873ca69",
+     "orig_last_modified": "Tue, 20 May 2025 01:32:20 GMT",
+     "orig_date": "Wed, 18 Mar 2026 12:11:08 GMT",
+     "orig_last_modified_local": "2025-05-19 19:32:20",
+     "upload_on_election_night": false,
+     "Creator": "Microsoft Reporting Services 14.0.0.0",
+     "Producer": "Microsoft Reporting Services PDF Rendering Extension 14.0.0.0",
+     "CreationDate": "D:20250514141732-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 26,
+     "text_sample_first_streams": "CITY OF HONDO-MAYOR - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total JOHN MCANELLY 1 100.00% 3 100.00% 5 100.00% 9 100.00% Cast Votes: 1 100.00% 3 100.00% 5 100.00% 9 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 CITY OF HONDO-COUNCIL MEMBER, PLACE 5 \\(AT LARGE POSITION\\) - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total MAKENNA LANGE 1 100.00% 2 66.67% 5 100.00% 8 88.89% OLIVIA STONE 0 0.00% 1 33.33% 0 0.00% 1 11.11% Cast Votes: 1 100.00% 3 100.00% 5 100.00% 9 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 1B - CH 9 of 221 registered voters = 4.07% Official Results Registered Voters 725 of 14926 = 4.86% Precincts Reporting 13 of 13 = 100.00% Medina County 2025 City-School-Special Joint Election 5/3/2025 Page 1 Precinct Results Report Official Results Run Time Run Date 2:17 PM 05/14/2025 | CITY OF HONDO-MAYOR - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total JOHN MCANELLY 1 100.00% 0 0.00% 0 0.00% 1 100.00% Cast Votes: 1 100.00% 0 0.00% 0 0.00% 1 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 CITY OF HONDO-COUNCIL MEMBER, PLACE 5 \\(AT LARGE POSITION\\) - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total MAKENNA LANGE 0 0.00% 0 0.00% 0 0.00% 0 0.00% OLIVIA STONE 1 100.00% 0 0.00% 0 0.00% 1 100.00% Cast Votes: 1 100.00% 0 0.00% 0 0.00% 1 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 1D - CH 1 of 29 registered voters = 3.45% Official Results Registered Voters 725 of 14926 = 4.86% Precincts Reporting 13 of 13 = 100.00% Medina County 2025 City-School-Special Joint Election 5/3/2025 Page 2 Precinct Results Report Official Results Run Time Run Date 2:17 PM 05/14/2025 | CITY OF HONDO-MAYOR - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total JOHN MCANELLY 3 100.00% 21 100.00% 9 100.00% 33 100.00% Cast Votes: 3 100.00% 21 100.00% 9 100.00% 33 100.00% Undervotes: 1 1 0 2 Overvotes: 0 0 0 0 CITY OF HONDO-COUNCIL MEMBER, PLACE 5 \\(AT LARGE POSITION\\) - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total MAKENNA LANGE 4 100.00% 22 100.00% 8 88.89% 34 97.14% OLIVIA STONE 0 0.00% 0 0.00% 1 11.11% 1 2.86% Cast Votes: 4 100.00% 22 100.00% 9 100.00% 35 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 3D - CH 35 of 3,811 registered voters = 0.92% Official Results Registered Voters 725 of 14926 = 4.86% Precincts Reporting 13 of 13 = 100.00% Medina County 2025 City-School-Special Joint Election 5/3/2025 Page 3 Precinct Results Report Official Results Run Time Run Date 2:17 PM 05/14/2025 | CITY OF CASTROVILLE-MAYOR - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total DARRIN SCHROEDER 0 0.00% 57 22.62% 26 28.26% 83 24.06% BRUCE ALEXANDER 1 100.00% 195 77.38% 66 71.74% 262 75.94% Cast Votes: 1 100.00% 252 100.00% 92 100.00% 345 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 2B - CCS 345 of 1,476 registered voters = 23.37% Official Results Registered Voters 725 of 14926 = 4.86% Precincts Reporting 13 of 13 = 100.00% Medina County 2025 City-School-Special Joint Election 5/3/2025 Page 4 Precinct Results Report Official Results Run Time Run Date 2:17 PM 05/14/2025 | CITY OF CASTROVILLE-MAYOR - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total DARRIN SCHROEDER 0 0.00% 0 0.00% 1 7.69% 1 2.44% BRUCE ALEXANDER 0 0.00% 28 100.00% 12 92.31% 40 97.56% Cast Votes: 0 0.00% 28 100.00% 13 100.00% 41 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 MEDINA VALLEY INDEPENDENT SCHOOL DISTRICT, BOARD OF TRUSTEE - SINGLE MEMBER DISTRICT #3 - VOTE FOR  NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total TOBY CASTILLO WALTERS 0 0.00% 6 22.22% 5 45.45% 11 28.95% MATT CASTIGLIONE 0 0.00% 21 77.78% 6 54.55% 27 71.05% Cast Votes: 0 0.00% 27 100.00% 11 100.00% 38 100.00% Undervotes: 0 1 2 3 Overvotes: 0 0 0 0 2B - CCS-SMV3 41 of 189 registered voters = 21.69% Official Results Registered Voters 725 of 14926 = 4.86% Precincts Reporting 13 of 13 = 100.00% Medina County 2025 City-School-Special Joint Election 5/3/2025 Page 5 Precinct Results Report Official Results Run Time Run Date 2:17 PM 05/14/2025 | CITY OF CASTROVILLE-MAYOR - VOTE FOR NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total DARRIN SCHROEDER 0 0.00% 31 33.70% 19 40.43% 50 35.97% BRUCE ALEXANDER 0 0.00% 61 66.30% 28 59.57% 89 64.03% Cast Votes: 0 0.00% 92 100.00% 47 100.00% 139 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 2C - CCS 139 of 590 registered voters = 23.56% Official Results Registered Voters 725 of 14926 = 4.86% Precincts Reporting 13 of 13 = 100.00% Medina County 2025 City-School-Special Joint Election 5/3/2025 Page 6 Precinct Results Report Official Results Run Time Run Date 2:17 PM 05/14/2025 | MEDINA VALLEY INDEPENDENT SCHOOL DISTRICT, BOARD OF TRUSTEE - SINGLE MEMBER DISTRICT #1 - VOTE FOR  NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total AL ANAYA 0 0.00% 4 44.44% 0 0.00% 4 28.57% BENITO JUAREZ 1 100.00% 5 55.56% 4 100.00% 10 71.43% Cast Votes: 1 100.00% 9 100.00% 4 100.00% 14 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 1A - SMV1 14 of 1,253 registered voters = 1.12% Official Results Registered Voters 725 of 14926 = 4.86% Precincts Reporting 13 of 13 = 100.00% Medina County 2025 City-School-Special Joint Election 5/3/2025 Page 7 Precinct Results Report Official Results Run Time Run Date 2:17 PM 05/14/2025 | MEDINA VALLEY INDEPENDENT SCHOOL DISTRICT, BOARD OF TRUSTEE - SINGLE MEMBER DISTRICT #1 - VOTE FOR  NONE OR ONE Choice Party Absentee Voting Early Voting Election Day Voting Total AL ANAYA 1 33.33% 5 45.45% 2 50.00% 8 44.44% BENITO JUAREZ 2 66.67% 6 54.55% 2 50.00% 10 55.56% Cast Votes: 3 100.00% 11 100.00% 4 100.00% 18 100.00% Undervotes: 0 0 2 2 Overvotes: 0 0 0 0 1C - SMV1 20 of 2,848 registered voters = 0.70% Official Results Registered Voters 725 of 14926 = ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260318121145_5e18ce3bb7.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224253",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/REP%20PCT%202.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KAWT2RND6BLVYAUE7ST235FUM6KAC4HU",
+     "length": "1524492",
+     "replay_error": null,
+     "bytes": 1804435,
+     "sha256": "d5a0bcbf8b073b08932fba0485e77ccad766cbdfc3b9e120cce99594c33dd901",
+     "orig_last_modified": "Mon, 26 Jan 2026 17:03:31 GMT",
+     "orig_date": "Tue, 17 Mar 2026 22:42:19 GMT",
+     "orig_last_modified_local": "2026-01-26 11:03:31",
+     "upload_on_election_night": false,
+     "Producer": "Epson Scan 2",
+     "CreationDate": "D:20260126104222-06'00'",
+     "ModDate": "D:20260126104222-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317224253_ca2e0dbb3c.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224254",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/DEM%20PCT%203.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XQLQT75WKW2BZYGHEVSHBBATOZVXH3TU",
+     "length": "1520192",
+     "replay_error": null,
+     "bytes": 1788830,
+     "sha256": "a7b7bebaeb74a8587aa29dde9e08593913e4999d9c59bce50f7e942094721f35",
+     "orig_last_modified": "Mon, 26 Jan 2026 17:03:28 GMT",
+     "orig_date": "Tue, 17 Mar 2026 22:42:19 GMT",
+     "orig_last_modified_local": "2026-01-26 11:03:28",
+     "upload_on_election_night": false,
+     "Producer": "Epson Scan 2",
+     "CreationDate": "D:20260126104609-06'00'",
+     "ModDate": "D:20260126104609-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317224254_cb8f60bd38.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224340",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/REP%20PCT%204.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MV4KM6XAYDQDTWRBUAWDP33SDMC4Z6BT",
+     "length": "1519770",
+     "replay_error": null,
+     "bytes": 1802139,
+     "sha256": "1a654e9f5302b5448e8fadc1003327149e4556ee686098778c91cb072b8f34b9",
+     "orig_last_modified": "Mon, 26 Jan 2026 17:03:33 GMT",
+     "orig_date": "Tue, 17 Mar 2026 22:43:06 GMT",
+     "orig_last_modified_local": "2026-01-26 11:03:33",
+     "upload_on_election_night": false,
+     "Producer": "Epson Scan 2",
+     "CreationDate": "D:20260126104400-06'00'",
+     "ModDate": "D:20260126104400-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317224340_bea179c4c8.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224418",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/REP%20PCT%203.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VZMO47F23P3XXL3C4LSJBDAQL6AZ47OX",
+     "length": "1480729",
+     "replay_error": null,
+     "bytes": 1763441,
+     "sha256": "5dde2663abe67e47518c814bfa3ad85dab4117c37de9d61152e057ba72d6ee66",
+     "orig_last_modified": "Mon, 26 Jan 2026 17:03:32 GMT",
+     "orig_date": "Tue, 17 Mar 2026 22:43:43 GMT",
+     "orig_last_modified_local": "2026-01-26 11:03:32",
+     "upload_on_election_night": false,
+     "Producer": "Epson Scan 2",
+     "CreationDate": "D:20260126104323-06'00'",
+     "ModDate": "D:20260126104323-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317224418_fa3e62292f.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317224431",
+     "original": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Sample%20Ballots/DEM%20PCT%201.pdf",
+     "mimetype": "application/pdf",
+     "digest": "D4ZJNY54PHKID7UGVFP2KCIM2BR5XDQN",
+     "length": "1543099",
+     "replay_error": null,
+     "bytes": 1815010,
+     "sha256": "93716a92b5287aceee80262a247a8c8b76009c5b9766dd533590a3103c13ed73",
+     "orig_last_modified": "Mon, 26 Jan 2026 17:03:26 GMT",
+     "orig_date": "Tue, 17 Mar 2026 22:43:56 GMT",
+     "orig_last_modified_local": "2026-01-26 11:03:26",
+     "upload_on_election_night": false,
+     "Producer": "Epson Scan 2",
+     "CreationDate": "D:20260126104445-06'00'",
+     "ModDate": "D:20260126104445-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317224431_c47bc23930.pdf"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov%2Fpage%2F&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

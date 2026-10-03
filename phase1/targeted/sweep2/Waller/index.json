@@ -1,0 +1,690 @@
+{
+ "county": "Waller",
+ "spec": {
+  "file_prefixes": [
+   "co.waller.tx.us"
+  ],
+  "page_prefixes": [
+   "co.waller.tx.us/page/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 06:01:23",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us%2Fpage%2F&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    }
+   ],
+   "versions_found": 5,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20241105111520",
+     "original": "https://www.co.waller.tx.us/page/Elections.Maps?os=wtmbTQtAJk9s",
+     "mimetype": "text/html",
+     "digest": "MZS6M346WHVF3LCWALISUSRXUPSMLSNK",
+     "length": "15568"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241106011020",
+     "original": "https://www.co.waller.tx.us/page/Elections.Maps?os=wtmbTQtAJk9s&ref=app",
+     "mimetype": "text/html",
+     "digest": "NBA3ZHEIWTED7YXD2LSTRXA3LGZ4PWD3",
+     "length": "15583"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110142435",
+     "original": "https://www.co.waller.tx.us/upload/page/0274/ELECTION%20DAY%20LOCATIONS2.pdf?os=vb_73kqvpgi%3Fno_journeystrue&ref=app",
+     "mimetype": "application/pdf",
+     "digest": "KTGO46Z5KAUEXWRILABQNRTF2MH72CV7",
+     "length": "36820"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241111032105",
+     "original": "https://www.co.waller.tx.us/upload/page/0274/Specimen%20Ballot%20-%20ALL%20Pcts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZLKU3BLXF65JT3D4SJCGEPM7JRYGXZZZ",
+     "length": "869640"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241111181408",
+     "original": "https://www.co.waller.tx.us/upload/page/0274/2024%20PRIMARY%20EARLY%20VOTING%20LOCATIONS.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LEE67AYQIYWAAB5AW46RAEOHYFTMAZSW",
+     "length": "120491"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241111032105",
+     "original": "https://www.co.waller.tx.us/upload/page/0274/Specimen%20Ballot%20-%20ALL%20Pcts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZLKU3BLXF65JT3D4SJCGEPM7JRYGXZZZ",
+     "length": "869640",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241111181408",
+     "original": "https://www.co.waller.tx.us/upload/page/0274/2024%20PRIMARY%20EARLY%20VOTING%20LOCATIONS.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LEE67AYQIYWAAB5AW46RAEOHYFTMAZSW",
+     "length": "120491",
+     "replay_error": null,
+     "bytes": 133912,
+     "sha256": "aa466e8f8cedc9bd056ae67c24e4f55d862e5ca584e047b70d8e8e7076bfccbd",
+     "orig_last_modified": "Tue, 13 Feb 2024 14:05:58 GMT",
+     "orig_date": "Mon, 11 Nov 2024 18:19:38 GMT",
+     "orig_last_modified_local": "2024-02-13 08:05:58",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |   |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241111181408_ce929412c5.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110142435",
+     "original": "https://www.co.waller.tx.us/upload/page/0274/ELECTION%20DAY%20LOCATIONS2.pdf?os=vb_73kqvpgi%3Fno_journeystrue&ref=app",
+     "mimetype": "application/pdf",
+     "digest": "KTGO46Z5KAUEXWRILABQNRTF2MH72CV7",
+     "length": "36820",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241105111520",
+     "original": "https://www.co.waller.tx.us/page/Elections.Maps?os=wtmbTQtAJk9s",
+     "mimetype": "text/html",
+     "digest": "MZS6M346WHVF3LCWALISUSRXUPSMLSNK",
+     "length": "15568",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241106011020",
+     "original": "https://www.co.waller.tx.us/page/Elections.Maps?os=wtmbTQtAJk9s&ref=app",
+     "mimetype": "text/html",
+     "digest": "NBA3ZHEIWTED7YXD2LSTRXA3LGZ4PWD3",
+     "length": "15583",
+     "replay_error": null,
+     "bytes": 103349,
+     "sha256": "ba5fd6b9f744c45e723ecbd8b0fc35529dbf79321bae6ac9fa1390a4ef931c6c",
+     "orig_last_modified": null,
+     "orig_date": "Wed, 06 Nov 2024 01:15:59 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Waller County, Texas Skip Navigation Close This Resource Requires Authentication! Username: Password: Login failed! Please try again. Image 1 of 1 Maximize image Restore image HOME &nbsp;&middot; &nbsp; SITEMAP &nbsp;&middot; &nbsp; CONTACT US &nbsp;&middot; &nbsp; TRANSLATE Toggle main menu visibility Menu About Waller County Community Center County Events County Directory Demographic Information History Housing - Section 3 Independent School District Recycling Center Government County Judge Commissioners Court County Auditor County Attorney County Clerk County Court At Law County Court at Law No. 1 County Court at Law No. 2 County Tax Assessor-Collector County Treasurer District Attorney District Clerk District Court Constable Justice of the Peace JP Precinct 1 JP Precinct 2 JP Precinct 3 JP Precinct 4 Sheriff Departments Indigent Health Care Veterans 9-1-1 Coordinator County Child Welfare County Engineer County Extension Office Elections Environmental Fire Marshal Human Resources Landfill Libraries Museums Bail Bond Forms & Agenda Probation Juvenile Probation Adult Probation Public Notices Calendar Commissioner Court Videos/Archives Foreclosures News/Public Notices Bids & Proposals Estray Livestock / Sheriff Forms TCEQ (Texas Commission on Environmental Quality) Employment Elections Texas Secretary of State Register to VOTE Ballot by Mail Application Elections Quicklinks Toggle main menu visibility Menu Waller County Elections Office 2024 County and Entity Elections 2023 County and Entity Elections 2022 County and Entity Elections Voter Registration Voter Resources Important Elections Dates Archived Sample Ballots Historic Election Results Campaign Finance Reports Archived County Postings Archived Entity Postings Volunteer Deputy Registrar Maps Public Information Requests Voting Equipment and Security ELECTION WORKERS KIDS KORNER En Espanol Post Redistricting: New Maps Old Maps Waller County Voting Precincts with State Senate lines.pdf Pct Map 101.pdf Pct Map 102.pdf Pct Map 103.pdf Pct Map 104.pdf Pct Map 105.pdf Pct Map 106.pdf Pct Map 207.pdf Pct Map 208.pdf Pct Map 209.pdf Pct Map 210.pdf Download file Pct Map 311.pdf Pct Map 312.pdf Pct Map 313.pdf Pct Map 314.pdf Pct Map 315.pdf Pct Map 416.pdf Pct Map 417.pdf Pct Map 418.pdf Pct Map 419.pdf Pct Map 420.pdf Download file County.pdf 101.pdf 102.pdf 103.pdf 104.pdf 105.pdf 206.pdf 207.pdf 208.pdf 309.pdf 310.pdf Download file 311.pdf 312.pdf 313.pdf 414.pdf 415.pdf 416.pdf 417.pdf 418.pdf 419.pdf 420.pdf Download file Press ENTER key to focus on the active panel Waller County Texas Waller County, Texas |&nbsp; 425 FM 1488 |&nbsp; Hempstead, TX 77445&nbsp; |&nbsp; (979) 826-7600&nbsp;&nbsp; Staff Login Web Accessibility Copyright &copy; Waller County, Texas &nbsp; 2016 powered by ezTask Titanium TM ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106011020_aa7af690de.html"
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us%2Fpage%2F&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    }
+   ],
+   "versions_found": 1,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260309034717",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2024/24-021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VIDC26UZJWMW2TAC7L34CY64VT4AGPLV",
+     "length": "82241"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260309034717",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2024/24-021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VIDC26UZJWMW2TAC7L34CY64VT4AGPLV",
+     "length": "82241",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 12
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.waller.tx.us%2Fpage%2F&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    }
+   ],
+   "versions_found": 13,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526203745",
+     "original": "https://www.co.waller.tx.us/page/Elections.current",
+     "mimetype": "text/html",
+     "digest": "OR5S3U6OHLIWT36AG7FNL7224NPIO4RN",
+     "length": "9872"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612231818",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-071.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UI357HT2LVRXXNQPNMVR6GW4PBJHYV2Z",
+     "length": "66358"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612233204",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-075.pdf",
+     "mimetype": "application/pdf",
+     "digest": "G77HFJZTACZP7RKKPQBXPSVISSQAOW5G",
+     "length": "101584"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612233802",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-067.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XEOPWAS5J7YSNCJ3Z7RC2XFP4HABC4ZK",
+     "length": "101254"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612234457",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-070.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5XA2FZCOMTYGPAXQ5SSWO4Z2GKLLLCCR",
+     "length": "76457"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612235255",
+     "original": "https://www.co.waller.tx.us/upload/page/0275/docs/Notices%202026/Waller%20County%20Municipal%20Utility%20District%20No%2018%20Application%20for%20Approval%20Unlimited%20Tax%20Bonds%20Second%20Issue%20Persuant%20to%20Texas%20Water%20Code%20TCEQ%20Internal%20Control%20No%20D-04282026-062.pdf",
+     "mimetype": "application/pdf",
+     "digest": "76I45QBUIZFC62OWIILLT7EFYNYME7XJ",
+     "length": "698684"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612235400",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-074.pdf",
+     "mimetype": "application/pdf",
+     "digest": "I4OXFJ33COJGAFYWRD6ZODZZDKEGCQN5",
+     "length": "109778"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613001228",
+     "original": "https://www.co.waller.tx.us/upload/page/0275/docs/Notices%202026/Permit%20No%20WQ0016347001.pdf",
+     "mimetype": "application/pdf",
+     "digest": "55GM2R7GD35OCG5GJHCSC6QNSVZ44LDW",
+     "length": "3968025"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613001720",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-073.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VHC24D5MBQNCOP26FQDWXWAFUYK644UC",
+     "length": "70577"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613001914",
+     "original": "https://www.co.waller.tx.us/upload/page/0275/docs/Notices%202026/Notice%20of%20Intent%20to%20Purchase%20Water%20and%20Sewer%20Facilities%20and%20to%20Transfer%20Water%20and%20Sewer%20Certificated%20Service%20Area.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IOPUJMADBQRYEIFA5Q2RUOWHPJTMMFYI",
+     "length": "2679140"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613002101",
+     "original": "https://www.co.waller.tx.us/upload/page/0275/docs/Notices%202026/Harris-Waller%20Counties%20Municipal%20Utility%20District%2010%20Application%20for%20Approval%20of%20Revenue%20Bonds.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IYRQEZ52MRH3VI3OX3LSLXHGAZEGQKQT",
+     "length": "704739"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613003305",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-069.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RPDLKMMXWC3UNGSWD56ZAHF4N7P7TGGK",
+     "length": "79701"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613003413",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-072.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6F4X2BECAINRBWLPATAY7CXOIDHQKG3A",
+     "length": "97054"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612231818",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-071.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UI357HT2LVRXXNQPNMVR6GW4PBJHYV2Z",
+     "length": "66358",
+     "replay_error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612233204",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-075.pdf",
+     "mimetype": "application/pdf",
+     "digest": "G77HFJZTACZP7RKKPQBXPSVISSQAOW5G",
+     "length": "101584",
+     "replay_error": null,
+     "bytes": 106364,
+     "sha256": "41443a0c0466bc977e904d838828dbcc47f2176bb853c1a7dbfbdac59aeabb4d",
+     "orig_last_modified": "Thu, 28 May 2026 18:54:15 GMT",
+     "orig_date": "Fri, 12 Jun 2026 23:32:03 GMT",
+     "orig_last_modified_local": "2026-05-28 13:54:15",
+     "upload_on_election_night": false,
+     "Creator": "PaperStream Capture 5.2",
+     "Producer": "PFUPDF Engine 1.3.80",
+     "CreationDate": "D:20260528135121-05'00'",
+     "ModDate": "D:20260528135121-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260612233204_8274c91251.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612233802",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-067.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XEOPWAS5J7YSNCJ3Z7RC2XFP4HABC4ZK",
+     "length": "101254",
+     "replay_error": null,
+     "bytes": 107854,
+     "sha256": "c16bec1d6a6b1bdf7d97ed3760ff94d9e210b2137b3289be616e1c32c744e625",
+     "orig_last_modified": "Tue, 12 May 2026 20:11:29 GMT",
+     "orig_date": "Fri, 12 Jun 2026 23:38:01 GMT",
+     "orig_last_modified_local": "2026-05-12 15:11:29",
+     "upload_on_election_night": false,
+     "Creator": "PaperStream Capture 6.0",
+     "Producer": "PFUPDF Engine 1.3.80",
+     "CreationDate": "D:20260511112505-05'00'",
+     "ModDate": "D:20260511112505-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260612233802_014938af86.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612234457",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-070.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5XA2FZCOMTYGPAXQ5SSWO4Z2GKLLLCCR",
+     "length": "76457",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612235255",
+     "original": "https://www.co.waller.tx.us/upload/page/0275/docs/Notices%202026/Waller%20County%20Municipal%20Utility%20District%20No%2018%20Application%20for%20Approval%20Unlimited%20Tax%20Bonds%20Second%20Issue%20Persuant%20to%20Texas%20Water%20Code%20TCEQ%20Internal%20Control%20No%20D-04282026-062.pdf",
+     "mimetype": "application/pdf",
+     "digest": "76I45QBUIZFC62OWIILLT7EFYNYME7XJ",
+     "length": "698684",
+     "replay_error": null,
+     "bytes": 877445,
+     "sha256": "f4af661e686e2d44e2cef184d504d569f85f04ecf19e9b1becc89dbca7c44cd8",
+     "orig_last_modified": "Tue, 12 May 2026 21:14:24 GMT",
+     "orig_date": "Fri, 12 Jun 2026 23:52:54 GMT",
+     "orig_last_modified_local": "2026-05-12 16:14:24",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260512160812-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260612235255_bc65deb0ee.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260612235400",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-074.pdf",
+     "mimetype": "application/pdf",
+     "digest": "I4OXFJ33COJGAFYWRD6ZODZZDKEGCQN5",
+     "length": "109778",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613001228",
+     "original": "https://www.co.waller.tx.us/upload/page/0275/docs/Notices%202026/Permit%20No%20WQ0016347001.pdf",
+     "mimetype": "application/pdf",
+     "digest": "55GM2R7GD35OCG5GJHCSC6QNSVZ44LDW",
+     "length": "3968025",
+     "replay_error": null,
+     "bytes": 4474836,
+     "sha256": "975c359926314defb5343f81cc0332319f1c4558b4751b672c312907478be85a",
+     "orig_last_modified": "Thu, 28 May 2026 20:59:56 GMT",
+     "orig_date": "Sat, 13 Jun 2026 00:12:28 GMT",
+     "orig_last_modified_local": "2026-05-28 15:59:56",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260528155847-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260613001228_609c9dcee6.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613001720",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-073.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VHC24D5MBQNCOP26FQDWXWAFUYK644UC",
+     "length": "70577",
+     "replay_error": null,
+     "bytes": 74561,
+     "sha256": "d7532452c374075b2f9e5d687167fc7120758c44af7451c6985ded6a0bc379bf",
+     "orig_last_modified": "Thu, 28 May 2026 18:52:59 GMT",
+     "orig_date": "Sat, 13 Jun 2026 00:17:20 GMT",
+     "orig_last_modified_local": "2026-05-28 13:52:59",
+     "upload_on_election_night": false,
+     "Creator": "PaperStream Capture 5.2",
+     "Producer": "PFUPDF Engine 1.3.80",
+     "CreationDate": "D:20260528135006-05'00'",
+     "ModDate": "D:20260528135006-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260613001720_5bfa0bb05e.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613001914",
+     "original": "https://www.co.waller.tx.us/upload/page/0275/docs/Notices%202026/Notice%20of%20Intent%20to%20Purchase%20Water%20and%20Sewer%20Facilities%20and%20to%20Transfer%20Water%20and%20Sewer%20Certificated%20Service%20Area.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IOPUJMADBQRYEIFA5Q2RUOWHPJTMMFYI",
+     "length": "2679140",
+     "replay_error": null,
+     "bytes": 2868848,
+     "sha256": "de3b6bdaee2b34961be096df05098d8b9b5d76050c6f84c8afdda30fd922f7f1",
+     "orig_last_modified": "Mon, 18 May 2026 20:28:46 GMT",
+     "orig_date": "Sat, 13 Jun 2026 00:19:11 GMT",
+     "orig_last_modified_local": "2026-05-18 15:28:46",
+     "upload_on_election_night": false,
+     "Creator": "Xerox AltaLink C8245 Color MFP",
+     "CreationDate": "D:20260518151725-05'00'",
+     "Producer": "PDFlib+PDI 8.0.4p2 \\(Linux\\",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260613001914_95557f1cc0.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613002101",
+     "original": "https://www.co.waller.tx.us/upload/page/0275/docs/Notices%202026/Harris-Waller%20Counties%20Municipal%20Utility%20District%2010%20Application%20for%20Approval%20of%20Revenue%20Bonds.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IYRQEZ52MRH3VI3OX3LSLXHGAZEGQKQT",
+     "length": "704739",
+     "replay_error": null,
+     "bytes": 881891,
+     "sha256": "435e9cdef003441a521a249575b6119f8ff489bd14ca64fdec6104c7e75d4ab2",
+     "orig_last_modified": "Thu, 28 May 2026 20:57:20 GMT",
+     "orig_date": "Sat, 13 Jun 2026 00:21:00 GMT",
+     "orig_last_modified_local": "2026-05-28 15:57:20",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260528152054-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260613002101_4940f1f466.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613003305",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-069.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RPDLKMMXWC3UNGSWD56ZAHF4N7P7TGGK",
+     "length": "79701",
+     "replay_error": null,
+     "bytes": 84657,
+     "sha256": "37a9c7f26ca49daf6aaeb9c5167be112ce18d4971c731f09e57372523b87cdbe",
+     "orig_last_modified": "Tue, 12 May 2026 20:13:11 GMT",
+     "orig_date": "Sat, 13 Jun 2026 00:33:05 GMT",
+     "orig_last_modified_local": "2026-05-12 15:13:11",
+     "upload_on_election_night": false,
+     "Creator": "PaperStream Capture 6.0",
+     "Producer": "PFUPDF Engine 1.3.80",
+     "CreationDate": "D:20260511112623-05'00'",
+     "ModDate": "D:20260511112623-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260613003305_1ea2508d5a.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260613003413",
+     "original": "https://www.co.waller.tx.us/upload/page/0137/docs/Foreclosure/2026/26-072.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6F4X2BECAINRBWLPATAY7CXOIDHQKG3A",
+     "length": "97054",
+     "replay_error": null,
+     "bytes": 100796,
+     "sha256": "4d2d15bd17edbeed415e98a5a78e22294a62b17917145018ad3777bd5a7b856a",
+     "orig_last_modified": "Thu, 28 May 2026 18:52:18 GMT",
+     "orig_date": "Sat, 13 Jun 2026 00:34:13 GMT",
+     "orig_last_modified_local": "2026-05-28 13:52:18",
+     "upload_on_election_night": false,
+     "Creator": "PaperStream Capture 5.2",
+     "Producer": "PFUPDF Engine 1.3.80",
+     "CreationDate": "D:20260528134915-05'00'",
+     "ModDate": "D:20260528134915-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260613003413_216cfc3d4a.pdf"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526203745",
+     "original": "https://www.co.waller.tx.us/page/Elections.current",
+     "mimetype": "text/html",
+     "digest": "OR5S3U6OHLIWT36AG7FNL7224NPIO4RN",
+     "length": "9872",
+     "replay_error": null,
+     "bytes": 41930,
+     "sha256": "7d26ff5c58dbe92e5edc7ac8b371f04010ee1a4bdd4a7d3d145a1ca20e49d21f",
+     "orig_last_modified": null,
+     "orig_date": "Tue, 26 May 2026 20:37:44 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Elections Current | Waller County TX Skip Navigation HOME &nbsp;&middot; &nbsp; SITEMAP &nbsp;&middot; &nbsp; CONTACT US &nbsp;&middot; &nbsp; TRANSLATE Toggle main menu visibility Menu About Waller County Community Center County Events County Directory Demographic Information History Housing - Section 3 Independent School District Recycling Center Government County Judge Commissioners Court County Auditor County Attorney County Clerk County Court At Law County Court at Law No. 1 County Court at Law No. 2 County Tax Assessor-Collector County Treasurer District Attorney District Clerk District Court Constable Justice of the Peace JP Precinct 1 JP Precinct 2 JP Precinct 3 JP Precinct 4 Sheriff Departments Indigent Health Care Veterans 9-1-1 Coordinator County Child Welfare County Engineer County Extension Office Elections Environmental Fire Marshal Human Resources Landfill Libraries Museums Bail Bond Forms & Agenda Probation Juvenile Probation Adult Probation Public Notices Calendar Commissioner Court Videos/Archives Foreclosures News/Public Notices Bids & Proposals Estray Livestock / Sheriff Forms TCEQ (Texas Commission on Environmental Quality) Employment Elections Texas Secretary of State Register to VOTE Ballot by Mail Application Elections Quicklinks Toggle main menu visibility Menu Waller County Elections Office 2026 County and Entity Elections 2025 County and Entity Elections 2024 County and Entity Elections 2023 County and Entity Elections 2022 County and Entity Elections Voter Registration Voter Resources Important Elections Dates Archived Sample Ballots Historic Election Results Campaign Finance Reports Archived County Postings Archived Entity Postings Volunteer Deputy Registrar Maps Public Information Requests Voting Equipment and Security ELECTION WORKERS KIDS KORNER En Espanol Waller County Texas Waller County, Texas |&nbsp; 836 Austin St.&nbsp;|&nbsp; Hempstead, TX 77445&nbsp; |&nbsp; (979) 826-7600&nbsp;&nbsp; Staff Login Web Accessibility Copyright &copy; Waller County, Texas &nbsp; 2016 powered by ezTask Titanium TM ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260526203745_024df2b3f1.html"
+    }
+   ]
+  }
+ }
+}

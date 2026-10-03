@@ -1,0 +1,1214 @@
+{
+ "county": "Angelina",
+ "spec": {
+  "file_prefixes": [
+   "angelinacounty.net",
+   "election.angelinacounty.net"
+  ],
+  "page_prefixes": [
+   "election.angelinacounty.net/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 04:52:27",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 6
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 12
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net%2F&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 21,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112215549",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2024/nog2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "36IYA5P2VI5Y5F4OQY7SMHYTRMEK3YMT",
+     "length": "1005522"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112224954",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/ballots/24GANGEL_SAMPLE.pdf",
+     "mimetype": "application/pdf",
+     "digest": "V4PZBHN2TZCG4F2ZQP5CCVRY44TNJMYT",
+     "length": "912714"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113171406",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2022/primary/NOTICE_OF_CONVENING_OF_EARLY_VOTING_BALLOT_BOARD_DEM.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UHTIMET6CA3DL4GENJ6YM53D6ZQH7EDI",
+     "length": "256707"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241121215859",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2022/primary/JOINT_PRIMARY_ELECTION_SERVICES_CONTRACT_REP.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QR3TULUX3QP5YLMV7I5G6U72OVVELAUT",
+     "length": "1810630"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241122074901",
+     "original": "https://www.angelinacounty.net/files/pdf/urs/RoadReport1223.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YCUB5JZDLJSP54723PARFRL7ECMLSKCQ",
+     "length": "388302"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241122094354",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2024/Rodney%20Paulette%20Final%20Commissioner%20pct%201%20DocScan.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NJSWXOZWAI7WACYJIC7F2ENB5MPREOFF",
+     "length": "1207119"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241122110528",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2020/TABULATING_EQUIPMENT_TEST.pdf",
+     "mimetype": "application/pdf",
+     "digest": "Q3JGP6DLT2W5OB5L6TQLVCIVYWD6QYXW",
+     "length": "539304"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241122113729",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/ballots/SAMPLE_BALLOT_2021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "64DS5RHL4MRMLIWFMKJVLWXYPECXVQ6O",
+     "length": "408927"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241122232419",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2023/Noe%20DeJesus%20cont%204%20correction%20for%207.1.23%20to%2012.31.23%20.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VBFG7TWRKLYXHB53VFH7JBXWIULLKVPT",
+     "length": "929819"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241123064546",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2020/TRAINING.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LALH5QGRHTKDVIXQZ522YCH2VVEEDC47",
+     "length": "330709"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241123083509",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2020/DESIGNATION_OF_DEPUTY_EARLY_VOTING_CLERK.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YJY3DLBNWIIK2PVNW4CZKIG6NBTEQUSR",
+     "length": "819122"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241123102010",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2020/TABULATING_EQUIPMENT_TEST_CERT.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7EKW7GJYQPVAP2R4ETI2PPZVLYSSM3YJ",
+     "length": "508242"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241124002004",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2022/primary/JOINT_PRIMARY_ELECTION_SERVICES_CONTRACT_DEM.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BQ5DKF2OV7QUE5C42MLGHX2LNDMMSSVR",
+     "length": "3143524"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241124021753",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2021/2021_PROPS.pdf",
+     "mimetype": "application/pdf",
+     "digest": "J2KG3NN6UMXLS2CCQSKVR5QNH2CDYEI7",
+     "length": "196859"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241124152331",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2021/APP_OF_JUDGES.pdf",
+     "mimetype": "application/pdf",
+     "digest": "J6OCKVSSSVCPLZWLXAZRRAMKB5J3YQF6",
+     "length": "155878"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241124161917",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2023/Sheriff%20Tom%20Selman%20coh%202023%20Scan.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RKPH67ERB226RPAKY6TRDE2PAR3DGBX4",
+     "length": "1669614"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241124202247",
+     "original": "https://www.angelinacounty.net/wp-content/uploads/2024/09/09102024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KQTKTKGL7MATPPALT56T6Z5T7QXBHPZ4",
+     "length": "46900"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125061210",
+     "original": "https://www.angelinacounty.net/files/pdf/landfill/2024-holiday-schedule.pdf",
+     "mimetype": "application/pdf",
+     "digest": "W3XFUOOLFX56HWPDY32W5VYMIDKGMDY4",
+     "length": "57004"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125063202",
+     "original": "https://www.angelinacounty.net/files/pdf/jps/civil/forms/Restor.Pkt.No.Pct.2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7IULVCG6OGECBGWRCVBAFYANQZ3ASTDK",
+     "length": "378814"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125095414",
+     "original": "https://www.angelinacounty.net/files/pdf/jps/civil/forms/App.Writ.Retrieval.2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PNFVZHQMKLDEWVHOVCB5VYCCRAVJQJSX",
+     "length": "286872"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241126025556",
+     "original": "https://www.angelinacounty.net/files/pdf/jps/civil/forms/ReEntry.Pkt.No.Pct.2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CUB5OZNPCS3E676KTMHUVTTMQN6Z44ZJ",
+     "length": "379105"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241122094354",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2024/Rodney%20Paulette%20Final%20Commissioner%20pct%201%20DocScan.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NJSWXOZWAI7WACYJIC7F2ENB5MPREOFF",
+     "length": "1207119",
+     "replay_error": null,
+     "bytes": 1422033,
+     "sha256": "4bf31705763463021e55c6486ba3d11db6082d607f81d70fac625ad250c4d2ed",
+     "orig_last_modified": "Fri, 03 May 2024 14:18:42 GMT",
+     "orig_date": "Fri, 22 Nov 2024 09:43:54 GMT",
+     "orig_last_modified_local": "2024-05-03 08:18:42",
+     "upload_on_election_night": false,
+     "Creator": "",
+     "CreationDate": "",
+     "Producer": "",
+     "Title": "",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241122094354_c0f7a01925.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125063202",
+     "original": "https://www.angelinacounty.net/files/pdf/jps/civil/forms/Restor.Pkt.No.Pct.2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7IULVCG6OGECBGWRCVBAFYANQZ3ASTDK",
+     "length": "378814",
+     "replay_error": null,
+     "bytes": 393649,
+     "sha256": "019ef78c971afdab3662815d511314bf7ffb134800fa1db885a9769c170c5faa",
+     "orig_last_modified": "Fri, 26 Jan 2024 22:05:20 GMT",
+     "orig_date": "Mon, 25 Nov 2024 06:32:02 GMT",
+     "orig_last_modified_local": "2024-01-26 16:05:20",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |     \\( \\)         4       |   |                 |         co |           |              |                   |         $      |  |  |  |  |  |  |  |  |  |  |  | M       |     2.                                              :       |     :                                                       3 | :   :  2 ,    |     2 ,         :    |       2         |   $ 2 ,                 J C C   C I   S   \\(4 |       C N   \\( \\) :   ___       :                         |  |  |  |  |  |  |  |  |   _______   \\247   \\247  \\247   \\247  \\247 A     a    at       :                     _   _     f ollo           1   |  |  |  |  |             _______________________                       2   |   -     1   1   1        T \\226   .        |               C a l l   Th e     B ar   o f   T e x as   - F r ee   at   1 - 8 77 - 9T E XBA R   if   y o u   need   h e l p     an   att or ne y ,   yo u  m ay   be   e l i g ib l e   fo r   fr ee   o r   lo w - c o st   l e g al   c |           is   a       low -                     and               in               |       T            L o     L e g al   A id   r a r y   \\226   8 00 - 35 4 - 1 8 89    -    41 4   E   Pi ll ar     \\226   N a c og d   T X   7 5 9 61 - 5 511     |   K ur th   M e   r a ry :   w w w . t h m e ia ll i b r a ry . com   A d d r   7 0 6   S.   R aq u et     . .   L   T X   7590 4   - -   P ho ne:   93 6 - 6 3 0 - 0 560    -    K ur th   M e ial   r a r y   is   o   10 am   to   7 pm   o n   M o n d a y s,   9 am   to   6 pm   Tu es | d ay   t hr o ug h   s d a y ,   9 am   to   5 : 3 0   o n   F r i d a y ,     9 am   to   1 pm   o n   ur d a y s.       p a r t m e n t   of   D n s e   O f f i c i al   Se i c e m e m b e r s C i v i l   R el i ef   A c t   \\( SC RA \\)   W e b si t e   -       |     \\226       T e x as   u ti o n   and   u       -   Th is     p i d es   com p l ete   a cc   to   a l l   T e x as   d es     T e x as   S e c r e t a r y   o f   S t a t e:     |   T e x as   Le g is l at ur e   O n l     -   Th is     a w s   t h e   u   to   t r a c k       d   H ou se       B i ll s           -       \\226       |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241125063202_b253645a1c.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241126025556",
+     "original": "https://www.angelinacounty.net/files/pdf/jps/civil/forms/ReEntry.Pkt.No.Pct.2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CUB5OZNPCS3E676KTMHUVTTMQN6Z44ZJ",
+     "length": "379105",
+     "replay_error": null,
+     "bytes": 390921,
+     "sha256": "c2f38412c18fcbcd92d8ac9bd7a6616ae339d1ec6b960c967a107c4b216c0cf3",
+     "orig_last_modified": "Fri, 26 Jan 2024 21:38:46 GMT",
+     "orig_date": "Tue, 26 Nov 2024 02:55:56 GMT",
+     "orig_last_modified_local": "2024-01-26 15:38:46",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |       4       |     |               |         |         |              |                         |           $    |  |  |  |  |  |  |  |  |  |  |  | M       |     2.                                              :       |     :                                                       3 | :   :  2 ,    |     2 ,         :    |       2         |   $ 2 ,                 J C C   C I   S   \\(4 |       C N   \\( \\) :   ___       :                         |  |  |  |  |  |  |  |  |     \\247   \\247 \\247   \\247  \\247 -   -     at       :                   _   _ _   f       _                     |  |  |  |  |  |  |  |  |  |   -     1   1   1        T \\226   .        |               C a l l   Th e     B ar   o f   T e x as   - F r ee   at   1 - 8 77 - 9T E XBA R   if   y o u   need   h e l p     an   att or ne y ,   yo u  m ay   be   e l i g ib l e   fo r   fr ee   o r   lo w - c o st   l e g al   c |           is   a       low -                     and               in               |       T            L o     L e g al   A id   r a r y   \\226   8 00 - 35 4 - 1 8 89    -    41 4   E   Pi ll ar     \\226   N a c og d   T X   7 5 9 61 - 5 511     |   K ur th   M e   r a ry :   w w w . t h m e ia ll i b r a ry . com   A d d r   7 0 6   S.   R aq u et     . .   L   T X   7590 4   - -   P ho ne:   93 6 - 6 3 0 - 0 560    -    K ur th   M e ial   r a r y   is   o   10 am   to   7 pm   o n   M o n d a y s,   9 am   to   6 pm   Tu es | d ay   t hr o ug h   s d a y ,   9 am   to   5 : 3 0   o n   F r i d a y ,     9 am   to   1 pm   o n   ur d a y s.       p a r t m e n t   of   D n s e   O f f i c i al   Se i c e m e m b e r s C i v i l   R el i ef   A c t   \\( SC RA \\)   W e b si t e   -       |     \\226       T e x as   u ti o n   and   u       -   Th is     p i d es   com p l ete   a cc   to   a l l   T e x as   d es     T e x as   S e c r e t a r y   o f   S t a t e:     |   T e x as   Le g is l at ur e   O n l     -   Th is     a w s   t h e   u   to   t r a c k       d   H ou se       B i ll s           -       \\226       |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241126025556_5282056b53.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112215549",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2024/nog2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "36IYA5P2VI5Y5F4OQY7SMHYTRMEK3YMT",
+     "length": "1005522",
+     "replay_error": null,
+     "bytes": 1048576,
+     "sha256": "684bef4b5daf04608f2a3f5a7c4f8d090397bb400303177ff62694de912aa029",
+     "orig_last_modified": "Wed, 11 Sep 2024 16:33:00 GMT",
+     "orig_date": "Tue, 12 Nov 2024 21:55:49 GMT",
+     "orig_last_modified_local": "2024-09-11 10:33:00",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112215549_1a44c69915.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113171406",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2022/primary/NOTICE_OF_CONVENING_OF_EARLY_VOTING_BALLOT_BOARD_DEM.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UHTIMET6CA3DL4GENJ6YM53D6ZQH7EDI",
+     "length": "256707",
+     "replay_error": null,
+     "bytes": 344070,
+     "sha256": "c3070684afcff62256d0e52a54384d05449746e1428e4f8a58d8e416aa0d9a17",
+     "orig_last_modified": "Mon, 07 Feb 2022 15:56:37 GMT",
+     "orig_date": "Wed, 13 Nov 2024 17:14:06 GMT",
+     "orig_last_modified_local": "2022-02-07 09:56:37",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241113171406_537f303b4d.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241121215859",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2022/primary/JOINT_PRIMARY_ELECTION_SERVICES_CONTRACT_REP.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QR3TULUX3QP5YLMV7I5G6U72OVVELAUT",
+     "length": "1810630",
+     "replay_error": null,
+     "bytes": 2169530,
+     "sha256": "9cfcbb996bfffdac3a859a32d0771b8a30bb81314182862febc8f40653a74fa0",
+     "orig_last_modified": "Mon, 07 Feb 2022 15:56:38 GMT",
+     "orig_date": "Thu, 21 Nov 2024 21:58:59 GMT",
+     "orig_last_modified_local": "2022-02-07 09:56:38",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241121215859_8774b4212a.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241122074901",
+     "original": "https://www.angelinacounty.net/files/pdf/urs/RoadReport1223.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YCUB5JZDLJSP54723PARFRL7ECMLSKCQ",
+     "length": "388302",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241124002004",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/archive/2022/primary/JOINT_PRIMARY_ELECTION_SERVICES_CONTRACT_DEM.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BQ5DKF2OV7QUE5C42MLGHX2LNDMMSSVR",
+     "length": "3143524",
+     "replay_error": null,
+     "bytes": 3814904,
+     "sha256": "0d4246e7f754141fda7566b57d13402ee1b1524626c72457149b8cedf0aad32b",
+     "orig_last_modified": "Mon, 07 Feb 2022 15:56:37 GMT",
+     "orig_date": "Sun, 24 Nov 2024 00:20:04 GMT",
+     "orig_last_modified_local": "2022-02-07 09:56:37",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241124002004_3f7678ea3e.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241124202247",
+     "original": "https://www.angelinacounty.net/wp-content/uploads/2024/09/09102024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KQTKTKGL7MATPPALT56T6Z5T7QXBHPZ4",
+     "length": "46900",
+     "replay_error": null,
+     "bytes": 48444,
+     "sha256": "36a0c3cc6bc7a01d72fa08b787ca50fb68c34fd3f4136d6e15226e0ef6666336",
+     "orig_last_modified": "Tue, 03 Sep 2024 18:08:43 GMT",
+     "orig_date": "Sun, 24 Nov 2024 20:22:47 GMT",
+     "orig_last_modified_local": "2024-09-03 12:08:43",
+     "upload_on_election_night": false,
+     "Creator": "Canon iR-ADV 6855  PDF",
+     "CreationDate": "D:20240903122003-05'00'",
+     "Producer": "\\376\\377\\000A\\000d\\000o\\000b\\000e\\000 \\000P\\000S\\000L\\000 \\0001\\000.\\000\\\n3\\000e\\000 \\000f\\000o\\000r\\000 \\000C\\000a\\000n\\000o\\000n\\000\\000",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241124202247_a03e197600.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125061210",
+     "original": "https://www.angelinacounty.net/files/pdf/landfill/2024-holiday-schedule.pdf",
+     "mimetype": "application/pdf",
+     "digest": "W3XFUOOLFX56HWPDY32W5VYMIDKGMDY4",
+     "length": "57004",
+     "replay_error": null,
+     "bytes": 58932,
+     "sha256": "b7ebbf0e73e6a70b76149cf97ae7a0c4119e663c33c1a7d12136225e19c165d1",
+     "orig_last_modified": "Thu, 04 Jan 2024 19:52:22 GMT",
+     "orig_date": "Mon, 25 Nov 2024 06:12:10 GMT",
+     "orig_last_modified_local": "2024-01-04 13:52:22",
+     "upload_on_election_night": false,
+     "Producer": "GPL Ghostscript 10.02.1",
+     "CreationDate": "D:20240104135222-06'00'",
+     "ModDate": "D:20240104135222-06'00'",
+     "Title": "Microsoft Word - 2024-holiday-schedule.rtf",
+     "Creator": "PDF24 Creator",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "\u0001 \u0001 \u0001 \b \u0001 \u0001 |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241125061210_e5cec3e055.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125095414",
+     "original": "https://www.angelinacounty.net/files/pdf/jps/civil/forms/App.Writ.Retrieval.2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PNFVZHQMKLDEWVHOVCB5VYCCRAVJQJSX",
+     "length": "286872",
+     "replay_error": null,
+     "bytes": 296389,
+     "sha256": "3ba96938ba10edefeb0d281f110d86b8bbf2bc60963cc2d9e35149cf9a9de28d",
+     "orig_last_modified": "Fri, 26 Jan 2024 21:34:16 GMT",
+     "orig_date": "Mon, 25 Nov 2024 09:54:14 GMT",
+     "orig_last_modified_local": "2024-01-26 15:34:16",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  | 1   4       7 3         |  |  |               |           -   l                     |           |       |  |  |                 54 | $   89.00             y     |     $ 100.00         |  |  |  |  |  |  |  |  |  | 2   4       7 3                   _________ _ __   ________________ _________ _____________________________________                       St     Zip       -             ___________     ________________________________________     -       _______         ________ _______________________________________                          St     Zip     -     _________ __________________________________________________     __________     -                 ________________________________________________________________________\\\r _________ ____                   St                   | 3   4       7 3                             -                                   \\(               ___                          | 4   4       7 3                   and         :     ____ __ _         _ ______________________________________ _______ _____________ _____________________ ______ _    A       _____ / ___ ______ _ / __ _________   _____ _______ / ____ _____.                                                                                  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241125095414_ed4c9aa210.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112224954",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/ballots/24GANGEL_SAMPLE.pdf",
+     "mimetype": "application/pdf",
+     "digest": "V4PZBHN2TZCG4F2ZQP5CCVRY44TNJMYT",
+     "length": "912714",
+     "replay_error": null,
+     "bytes": 1048576,
+     "sha256": "5cb536fa58ec56cdefcaea7e8743cd6eebbb95bd57a4df3b6523beb18925283b",
+     "orig_last_modified": "Wed, 18 Sep 2024 17:30:00 GMT",
+     "orig_date": "Tue, 12 Nov 2024 22:49:53 GMT",
+     "orig_last_modified_local": "2024-09-18 11:30:00",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  | SAMPLE  BALLOT   \\050BOLETA  DE  MUESTRA\\051 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112224954_731b1dc378.pdf"
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net%2F&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 6,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260309093812",
+     "original": "https://www.angelinacounty.net/files/pdf/conpct1/RPReport14.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GGYE7O3SLJUEVPXBVY7ROSP447FOHFGM",
+     "length": "25872"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260311104832",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/forms/2023/Locations_and_Hours-1123.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FXJ73Q34HGESJ742QH56URQOPAJO3QHL",
+     "length": "527284"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260311213916",
+     "original": "https://www.angelinacounty.net/files/pdf/Surplus2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MCC6JPO32UE2ORZ3BZJINPW5SRPTDYRU",
+     "length": "101761"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314065013",
+     "original": "https://www.angelinacounty.net/files/pdf/conpct1/RPReport13.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UC6MSO3L24WQI23YRM5RLKK6WHX4GIOY",
+     "length": "24954"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314065014",
+     "original": "https://www.angelinacounty.net/files/pdf/conpct1/RPReport17.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3XDVEKPXWHOCPHQ6XG5AQL2CIV2IU6C7",
+     "length": "25495"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260315072525",
+     "original": "http://www.angelinacounty.net/files/pdf/Surplus2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MCC6JPO32UE2ORZ3BZJINPW5SRPTDYRU",
+     "length": "101772"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260309093812",
+     "original": "https://www.angelinacounty.net/files/pdf/conpct1/RPReport14.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GGYE7O3SLJUEVPXBVY7ROSP447FOHFGM",
+     "length": "25872",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314065013",
+     "original": "https://www.angelinacounty.net/files/pdf/conpct1/RPReport13.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UC6MSO3L24WQI23YRM5RLKK6WHX4GIOY",
+     "length": "24954",
+     "replay_error": null,
+     "bytes": 27853,
+     "sha256": "0c887e364b622d6385c4333af5c6401ebfd408f72d58e4c347a439237b685d3a",
+     "orig_last_modified": "Fri, 01 May 2020 14:18:02 GMT",
+     "orig_date": "Sat, 14 Mar 2026 06:50:13 GMT",
+     "orig_last_modified_local": "2020-05-01 08:18:02",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260314065013_39dd054ef9.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314065014",
+     "original": "https://www.angelinacounty.net/files/pdf/conpct1/RPReport17.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3XDVEKPXWHOCPHQ6XG5AQL2CIV2IU6C7",
+     "length": "25495",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260311213916",
+     "original": "https://www.angelinacounty.net/files/pdf/Surplus2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MCC6JPO32UE2ORZ3BZJINPW5SRPTDYRU",
+     "length": "101761",
+     "replay_error": null,
+     "bytes": 108508,
+     "sha256": "9ac3116047b4981bb0363d1937345c1af917d626fb1f3d588c37348d331c885f",
+     "orig_last_modified": "Wed, 11 Mar 2026 15:17:01 GMT",
+     "orig_date": "Wed, 11 Mar 2026 21:39:16 GMT",
+     "orig_last_modified_local": "2026-03-11 09:17:01",
+     "upload_on_election_night": false,
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u00002\u00000\u00002\u00001",
+     "CreationDate": "D:20260311101701-05'00'",
+     "ModDate": "D:20260311101701-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u00002\u00000\u00002\u00001",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260311213916_1fcdb06efb.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260315072525",
+     "original": "http://www.angelinacounty.net/files/pdf/Surplus2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MCC6JPO32UE2ORZ3BZJINPW5SRPTDYRU",
+     "length": "101772",
+     "replay_error": null,
+     "bytes": 108508,
+     "sha256": "9ac3116047b4981bb0363d1937345c1af917d626fb1f3d588c37348d331c885f",
+     "orig_last_modified": "Wed, 11 Mar 2026 15:17:01 GMT",
+     "orig_date": "Sun, 15 Mar 2026 07:25:25 GMT",
+     "orig_last_modified_local": "2026-03-11 09:17:01",
+     "upload_on_election_night": false,
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u00002\u00000\u00002\u00001",
+     "CreationDate": "D:20260311101701-05'00'",
+     "ModDate": "D:20260311101701-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u00002\u00000\u00002\u00001",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260315072525_c0550a79ba.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260311104832",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/forms/2023/Locations_and_Hours-1123.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FXJ73Q34HGESJ742QH56URQOPAJO3QHL",
+     "length": "527284",
+     "replay_error": null,
+     "bytes": 613990,
+     "sha256": "7a2e7f28f4c9f604df190d6ffc1365a5223b0c75e6c0052801a00a647a8a6445",
+     "orig_last_modified": "Tue, 22 Aug 2023 21:02:16 GMT",
+     "orig_date": "Wed, 11 Mar 2026 10:48:32 GMT",
+     "orig_last_modified_local": "2023-08-22 15:02:16",
+     "upload_on_election_night": false,
+     "Creator": "HP Scan",
+     "CreationDate": "D:20230822154159-08'00'",
+     "ModDate": "D:20230822154159-08'00'",
+     "Producer": "HP Scan Extended Application",
+     "Title": "",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260311104832_220f1714e8.pdf"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 15
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=angelinacounty.net&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=election.angelinacounty.net%2F&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 15,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609020603",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/rep_voter_history_051826.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CRSK4WSH5VED63DZQTFWFD2A3J5D5DV4",
+     "length": "121488"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609020632",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/rep_voter_history_052126.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2KA53JREVNOYIHAWG3RG2GRORNXAG7TC",
+     "length": "128602"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609020659",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/certification_of_public_accuracy_test_051226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OJF5D37IBSVSBAZO2XJ32J3CPSXIIVML",
+     "length": "725203"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609021059",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/rep_official_election_reconciliation_052626.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CS5N2SGEEFUYAXMHFNL5FF5IL6GOJQVS",
+     "length": "198003"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609021204",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/rep_voter_history_052026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6J3LJLCOHZX7VNXJKUETTTJVDK4IR2EG",
+     "length": "139981"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609021525",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/public_test_logic_and_accuracy_joint_primary_051226_1.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LNA6U6O42VXUE4FRZYSMUG6BW3EOC3BW",
+     "length": "123368"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609023731",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/forms/2023/23GANGEL_SAMPLE.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7DJJHQM6Y5R3YAOXM6ZJXNAF4T3I4MSH",
+     "length": "1364541"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609030133",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/early_voting_clerk_appt_052626.pdf",
+     "mimetype": "application/pdf",
+     "digest": "A2XREZ7MKMZKIYWXMKNTBJMDUDEKGHUI",
+     "length": "241461"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609030153",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/dem_voter_history_051926.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BHUDVL4PBD4JHYAVA2MXW2VHDKCXCPWC",
+     "length": "44896"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609030953",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/dem_voter_history_051826.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7IDNGGKIB53KPMV2QVIKNEKUUIW7ECQM",
+     "length": "44101"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609031101",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/dem_voter_history_052126.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C7BVWNTRWFD3QABKJMCGW3XK4HYSNQJ5",
+     "length": "49947"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609031523",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/public_test_logic_and_accuracy_joint_primary_051226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "B4652JMZGN3ISV2N3PGPOS7BJ56TWSLD",
+     "length": "180290"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609031731",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/dem_official_election_reconciliation_052626.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XJDEYW7GEUBGZLIK5AP7D4HKVURBRHYV",
+     "length": "184763"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609031928",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/dem_voter_history_052026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GLFS4KPWAEBAHS2XZ7PJVVTSZO27M75I",
+     "length": "47431"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609032306",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/rep_voter_history_051926.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MPVMIUCR7BF4AFWMEMIN7IA53KLWRPAA",
+     "length": "132390"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609020603",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/rep_voter_history_051826.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CRSK4WSH5VED63DZQTFWFD2A3J5D5DV4",
+     "length": "121488",
+     "replay_error": null,
+     "bytes": 140022,
+     "sha256": "e1f70dce085e148d1bcd87fec5d2892cb850ab1fa90e1d22669cc821ebef748e",
+     "orig_last_modified": "Thu, 21 May 2026 19:09:01 GMT",
+     "orig_date": "Tue, 09 Jun 2026 02:06:03 GMT",
+     "orig_last_modified_local": "2026-05-21 14:09:01",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | 1031602257 1129144904 1031602261 1031957606 1031814724 2000999222 | 1031930240 1031593268 1031982407 1128166080 1128178130 1031819315 | 1100056148 1177118528 1031751440 1031748725 1032091423 1032079333 | 1029117416 1029131463 1151998083 1031900016 S 7 1140405989 1032065645 | S 5 1031824942 1148906055 S 8 1031606446 S 8 1216877545 S 3 1031606700 1031698063 | 1031606894 1031899108 1032052456 1031991391 1052827374 S 8 1031608389 | 1031607603 1169836554 S 8 1031769534 S 5 1057118664 1165593896 2168324490 | 1118651358 1031685481 1031817052 1113271099 S 8 1113271109 S 8 |  | 1206264401 S 8 1120099363 1181073494 1032060821 1031953937 S 7 1158904837 S 4 1158949362 S 4 1031861222 1031858062 1009567357 S 8 1031765103 1031816400 1031816416 1136306212 1031616881 S 3 1032023278 1031652784 1057910609 S 4 1031618460 1031943217 1038591263 1038613721 1031616419 2124388840 1031935948 S 5 1031954246 S 5 1031819406 1031821867 1031884584 1031623782 1031920500 1031623805 1032073544 1148816668 1032146298 S 5 1031911272 1011928543 1031625579 S 7 1040714518 1031598548 1199811239 2142273012 S 7 1060353428 S 7 1031952281 1032135038 1162359146 S 8 1032032978 | 1032027998 2160443127 2160443162 1031726776 1031631294 1032110200 1158065958 2187632511 1029083961 1031588780 1031632369 1180438159 1161586815 1031935641 2167462249 3382894847 3382894848 1175924219 1001586039 2168430811 1031593036 1010449002 1031800880 1031992574 1188441825 1032118367 1031943264 1031766945 S 8 1031640927 1031640943 1032123102 1075653612 1031642230 S 8 1031642248 S 8 2137776030 1031765283 2170786975 1031642966 1009284188 1031889978 S 5 1032085198 S 4 1031644155 1031644164 1014075473 1031644977 1031645192 1161690882 S 5 | 1174607263 1175380030 2003591956 S 7 1204880185 S 7 1032001830 1032001404 1032044209 1032044213 1031648142 1032134519 1032125743 2142273134 1031649992 1118887965 1031822166 1031870059 1031935706 1032125356 1031736413 1031823628 1032132866 1031654442 1031654517 1031654978 1031906420 1031655043 2177899335 1031733730 1031733748 1012052794 1031656673 1157742567 1031657445 1031624827 1031797807 1219501602 1031901064 1032145822 1031822227 1032125665 S 7 1031658143 S 7 1031948252 1211647139 S 7 1031659183 1031721176 1060273424 1156801838 | 1031589290 1031629658 1031659550 1031735522 1031734836 1031639496 1031659760 S 5 1031659773 S 5 1032035267 S 7 1203335332 1032031373 1031903948 1031660823 1031660834 1145560658 S 3 1031842094 1031662792 1031744122 1031979102 S 7 2184531332 1031663976 2203995509 1031817150 1031921823 1031989001 P 9 1031903570 S 3 1031927663 1031666145 1031666178 1032072738 1166675040 1031667191 1162542911 1031984653 S 8 1001546274 1001546288 1031722590 1031758971 1031801615 1032060976 1031853083 1032077251 1151285446 1032703217 1034233797 1031669782 1031730721 | 1039348393 1032130204 1031670832 S 3 1031671062 1032035878 1031756147 1031671690 1031899098 S 3 1031672047 1031672270 1031672289 2148770470 1031910423 1032023526 S 8 1031764896 1031764906 1031746698 1031857520 1148905629 S 4 1209431662 S 4 1031908318 S 5 1031908497 S 5 1031853175 1014507805 2135297262 1217897620 1031992746 S 5 2188989069 S 5 1029162907 1031939857 1031919226 2119953461 2120097793 1031749557 1031749561 1031892709 1031754052 1032129539 1138908706 S 3 1031677173 1031868508 1169018972 1169229057 1031828242 S 8 1148182967 S 8 1003995449 1003995496 | 1031752532 2183750826 1213494258 S 7 2185490145 1032003090 2185588466 1032019469 2169009469 1031830552 1031752804 1031599712 1031894540 1032049665 2162189412 1149020976 1031601953 1030438265 1031834377 1031810839 1031893483 1031681749 S 4 1128089140 1031766852 1031981602 1031682704 S 6 1031686584 S 6 1031682838 1217648427 S 3 1209432608 S 3 1031689710 1164623524 1031734741 1117739585 1117739592 1031858473 S 8 1032095351 1031683798 P 9 1031774397 1159245027 1031768851 1031591672 S 5 1105183772 1039485983 1031685315 S 5 1031685358 S 5 2129145551 1031797055 | 1154757598 S 3 2209622203 1031739708 1147754948 1042290908 1031741724 1031733223 1032027126 1031988358 1164958167 1219067862 S 4 1032060171 S 4 1173912347 1032093683 1032095572 2210767971 1129362901 1164113442 1031947273 1001567014 1031690727 S 3 1031690736 S 3 2120572643 1031908421 1205995546 1031691197 1031692058 1031743541 S 3 1031982668 1031737137 1113505730 P 9 1031725295 2162208226 1116180319 1027770046 1031845156 1031835115 1031835127 1031881376 1034393797 1031748300 1031805633 1031805646 2142232007 1031637293 S 5 1032127592 1172004440 | 1031649452 1175924149 2126707044 1188401965 1032022271 S 5 2153384416 1031813131 1031842601 1031802935 2203106472 1020832920 1031865244 S 6 1047052546 1187875267 1034267551 1032136765 1031700343 S 4 1031839613 1159271636 1029094386 1031919681 1031874738 2203498670 2191085551 1178018813 1031763342 1031763357 1031882273 1031971209 S 7 1036104239 S 2 1032074165 1031778663 1031733140 1031914517 1031625215 2200549007 1206582072 S 1 1031690631 1031766636 1031787741 1031754215 1206909384 1159268083 1011534209 2199261022 1184786210 1031704346 | 1031704555 1031788823 1032093801 S 7 1215643034 S 7 1031646143 1031843228 1031843244 1031788847 S 2 1031776798 1123598495 2206430025 S 8 1031813392 1032144529 S 1 1032018780 1031761337 1031858487 1032133582 2165617362 S 8 1104103978 S 8 1031707007 S 1 1031707011 S 1 1151904330 1031760150 2145456144 1113874568 3382703305 S 4 1031983950 1031817081 1173828316 1019703670 2167472472 1031740660 1076700660 1031960866 1031931762 S 3 1196629694 S 3 2167966199 S 7 1031759427 S 8 1031869254 S 8 1031981192 S 5 2130345689 1032095593 1032139325 1031996206 1031588934 S 3 1031890468 1031969018 | 1031713365 1031791754 1188404237 1031713982 1031734901 1031723961 1032133020 1031816297 1032118118 1113866204 1031890786 1143194390 1032151577 1031628054 2144710628 2145569600 1027038713 1031971535 1032003331 1031809813 1031809821 1031609502 1031929100 1167376221 1182316873 1167376382 1031799464 S 3 2189029429 S 3 1154658684 1132625596 1032063415 1034575644 1032056375 1031593425 1032128764 ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260609020603_b26e475c50.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609020632",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/rep_voter_history_052126.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2KA53JREVNOYIHAWG3RG2GRORNXAG7TC",
+     "length": "128602",
+     "replay_error": null,
+     "bytes": 149012,
+     "sha256": "912531e5837651dacdb9aa55357e35a2e9b1a3c2c77a3f93e4aea273c7c5ef39",
+     "orig_last_modified": "Fri, 22 May 2026 14:28:35 GMT",
+     "orig_date": "Tue, 09 Jun 2026 02:06:31 GMT",
+     "orig_last_modified_local": "2026-05-22 09:28:35",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | 1032114171 1031901470 S 8 1015986893 S 8 1031602718 1031747517 1031863708 | 1031863720 2185553271 1031598894 1031598915 1032143735 S 5 1031773316 | 1031771024 S 8 1031603712 S 6 1032034004 S 6 1031771030 S 8 1215630837 1031762486 | S 3 1032109104 S 7 1031819148 S 3 1031587829 2209578027 1031789792 S 3 1031765055 | 1031988622 2002657940 P 9 1031838913 1031772643 1031607619 S 5 1029434807 | 1031957453 1031608097 1196165007 1032133008 2001682020 S 8 1031608565 | S 6 1017202823 1013514792 1031668048 1173632104 1031818709 1031925097 | 1031772305 1031772314 1121278285 1031845777 2187626464 |  | 1031613255 1031882148 1158135713 1031729166 1038025209 1182822098 1031613887 S 7 2215472369 1163179638 S 6 1031861267 S 4 1031861279 S 4 1146202345 1031614906 1032132878 1031823914 2154206716 1005453080 1032140803 2184098560 2183699948 1031617549 S 7 1031617842 1031617916 1149820206 1011127373 1011127394 2221390566 2221391045 1031891576 S 8 1031621348 1031998673 1031622148 S 1 1031622130 S 1 1031622468 1031754994 1031622916 S 5 1031597026 2173008886 1032048062 1031932333 1031793503 1031997054 P 9 1031819111 1031625624 1031625630 1140722021 1031626373 | 1031929026 1042434181 1031627320 1172616411 S 5 1003251631 1031939842 1211102767 S 7 1031835664 1031743462 1031760449 1151173393 1031890481 1031633302 S 5 1031633318 S 5 1172358205 1032095875 1031755840 S 8 1031635538 S 8 1032063277 2157812041 2160203888 1102723225 1123724969 1032103375 1192895419 2154736586 1056987167 1032062580 1002123730 1032142980 1031793812 S 5 1052829653 2192103503 2192103526 2215694980 1031738962 1031960591 2193598125 1148879065 1148066442 1032066358 P 9 1031800954 1031848116 1031848128 1029182089 1031640759 1031641151 | 1207659733 1080805173 S 3 2179794660 S 3 1031643509 1032124956 1031644058 1174050265 1032057647 1032007831 1059076812 1059594655 1032117469 S 8 1032117495 S 8 1031955655 1032138898 1011864809 1009475603 1031936444 1031650512 1205204482 1051104852 1031835428 1119356933 1031763873 2198249829 1032018877 1031651286 1031624972 1032106554 1031976318 1031736387 1031902065 S 8 1032125421 S 8 1031653372 S 8 1031653420 1031653431 1031772555 1032131242 1031819554 1031819565 2000574839 S 4 2000574873 S 4 1031905005 1201529358 2207499817 S 4 2207499974 S 4 1006363717 S 7 | 1006303325 S 7 2214666064 1031869296 1146851817 1032102329 S 7 1032024264 S 7 1032029768 1112131139 1112163892 1203095804 2205128458 1166090427 1032017497 S 7 1031772572 1038993640 1031849227 1031849243 1031864121 1040470953 1031653579 1031658245 1032137740 1031658437 S 2 1031787196 1167179884 1172175706 1032138384 S 4 1031977924 S 4 2125855808 1004179518 1031838248 1031630482 1031730882 1032079282 1104435075 1031661745 1031661778 2185719328 1170385954 1032010218 1032065272 1207490651 1215254479 1215254887 1031664111 1031664153 1032015268 | 2169860112 1031948299 2130783348 1032116807 1031835812 S 3 1031730040 2193164810 2193166948 1017846798 2172925440 2150190973 1165324519 S 8 1191563549 1180987204 1029134862 1155407770 1031727240 1162692801 1200269017 1088742234 1031730541 1031735010 1170402186 1031814782 1032126175 1031694486 1032039633 1031907087 1031911645 1031712106 1031640678 2171715753 1031670233 1032067670 1031949076 1020056537 1031876393 1031796022 1032033756 1032041986 1031671350 1032129368 1031671537 1031733867 1126685946 2171864308 S 3 1031671996 | 1032109910 1146196526 1142322092 1031788593 1031740570 1014507247 1031596216 1032063462 2171368840 1183816302 1031743208 1009002530 1031742533 1179784412 2133417273 1031740734 1031777960 1168239380 1031989064 1033910747 1031621213 1031586440 1060212962 1192160501 S 1 1031778040 1183064186 1126635165 1126646887 1031678681 1041092400 1031678940 1031618027 1031836443 2122780981 2136325435 1150052691 1031670694 S 3 1031680091 1032126785 2123699198 1169697269 1107762147 1107770088 1031984837 S 7 1031759951 1031759967 1028171503 | 1173673518 1031681230 1031768456 2140933377 1031774366 S 8 1175103853 1032032881 1031918311 1031682855 1197158032 3382835965 2125516389 1032016354 1031850653 S 8 1172290578 1201670814 1031768234 1031918191 1031683981 1031684083 1032078716 S 7 1032074718 S 7 2137853671 1031685294 S 3 1031967253 1099810803 S 8 2195861467 1031686482 S 6 1031686545 S 6 1031687254 1031687594 1031687692 1126119321 1032019359 1031730811 1201289344 1031688939 1040160828 1032007526 1031689845 1167727756 P 9 1031756357 1031690151 1031652951 1173909313 1031729598 S 5 1021816514 | 1147601068 1031964318 1031769893 S 8 1031690762 1031691099 1153398792 3382354126 1031817871 1007537843 S 4 1007560896 S 4 1151962712 1031787647 1031733782 1031988605 1077352548 1031732370 1031693202 1031693452 1031693651 1099179999 3382405838 1147148520 2134308559 S 3 1032037006 S 7 1031738744 1031939646 1127015474 1127015488 1031806787 1031591191 1031985715 S 3 1028186650 1031696914 S 3 1165927332 1031697005 1031697046 S 7 1031778628 S 7 1154522178 1090371663 1151558282 1031678993 1032134297 S 8 1031771864 1031942042 1031706809 S 3 1032127657 S 3 1122754502 | 1031698777 1138630187 1031752891 1031866991 2171699212 1032123139 1171602353 2134082356 1031735885 S 2 1031735863 S 2 1031993302 S 7 1016950308 S 7 1027600378 1027600366 1031735215 1147243180 1031945869 1031626990 S 7 2176563156 1031915880 1031702352 S 5 1172445602 1059142293 1031737813 S 5 1031703178 2003592091 1031967540 2001441027 1218835378 1218835366 1031618036 S 5 1099103207 1099170878 1031742956 1000198020 1031704435 1031738498 1031704604 1031619030 1031840940 2178182465 1179302430 1059527831 1173593309 1032031011 1031584016 1031763479 | 1031646693 1031705674 1031705688 2165277421 1031762558 2002125792 1031935809 1031650362 1031610449 1010200338 1031708115 1031778797 1031708376 1031925646 3382692313 1003537505 1151951875 1029015553 1158181967 1031911012 1031763632 1031991531 1219791414 1031896536 1031898588 1031709940 2120786206 1031798533 S 5 1031749849 1031788881 1031766141 1209962005 1031711334 1031711436 1031711573 1013417625 2158180779 1045729470 1046930",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260609020632_ecab8b27af.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609020659",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/certification_of_public_accuracy_test_051226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OJF5D37IBSVSBAZO2XJ32J3CPSXIIVML",
+     "length": "725203",
+     "replay_error": "URLError: [Errno 111] Connection refused",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609021059",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/rep_official_election_reconciliation_052626.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CS5N2SGEEFUYAXMHFNL5FF5IL6GOJQVS",
+     "length": "198003",
+     "replay_error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609021204",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/rep_voter_history_052026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6J3LJLCOHZX7VNXJKUETTTJVDK4IR2EG",
+     "length": "139981",
+     "replay_error": null,
+     "bytes": 162905,
+     "sha256": "3cfafd4c6d6f135a46a69bce5cce0a52234bc9ba92dab42d42437cda6731f44a",
+     "orig_last_modified": "Thu, 21 May 2026 19:10:08 GMT",
+     "orig_date": "Tue, 09 Jun 2026 02:12:04 GMT",
+     "orig_last_modified_local": "2026-05-21 14:10:08",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | 1031766442 2135330698 1032120245 2128646965 1031603847 S 3 1219516461 | 1031603945 1031765980 S 6 1031767680 S 6 1060547157 S 7 1031926718 1031604301 | 1031604317 1144042997 P 9 1144043014 P 9 3382875857 1181895347 | 1031788037 S 3 1146738652 1192870587 1031606989 S 5 1031940291 1107139882 | 1107195917 2127771919 S 4 2204292801 1031608066 1031608153 2215942713 | 2167898663 1031789860 1032099844 1031926836 1031612137 1031751641 | 1031612625 1003537871 1020710351 1031924595 S 3 1213981073 1059548615 | 2134715475 S 7 1031793250 1032119621 S 4 2163584074 S 4 1162119194 |  | 1182244200 1031765126 1031614923 1191510212 1031806453 1005483190 1031616564 1031922421 1177716484 S 4 1209911030 1031784267 2135050660 1031691150 2162224477 1032100821 1032024012 1040450406 S 7 1211850708 1180457696 1179961938 1032124648 S 7 1031638214 S 7 1028964790 1150324854 1013881062 1031621831 1031739295 1181567498 S 4 1031615157 2140868441 1031747691 1031895015 S 7 1162713609 S 2 1162713553 S 2 1031884597 1036337555 1031912713 1031923934 1031618268 S 5 2156658789 1031783565 1031624242 1032072755 1031735372 S 4 1031745785 1031745479 2201933168 S 7 | 2154456517 S 7 1031625726 1031625735 1031626048 1175825986 1178232792 1028781929 S 8 1158619130 S 8 1031626325 1031626568 1009074261 1082729195 S 5 1032119553 1031627438 2123183913 1184503340 1021580138 1213009040 1031728752 1031728768 1031841218 1176603763 1027781405 1145028299 1031629367 1031766834 P 9 2142735744 1031630226 1031630274 1032655415 S 8 1031630392 1154134448 S 8 1031630699 1031630741 1031740641 1031616538 2165821234 1032054308 1031775440 1031727357 1031888728 1031900333 1039059391 1031650452 1016948676 2197028144 1179114147 | 1031633762 1032124412 1169685594 1016832973 1031634807 1031635658 1031832544 1031784562 1014154857 S 8 1031631890 1016907927 1031681442 1031732389 1035160068 1035160132 1031638543 1031638775 2208374725 S 8 1032056541 1032056525 1159552038 1005437105 S 3 1001984014 S 3 1032049421 1032104409 1032124828 1031641285 2207923409 1001794216 1123888033 1124004174 2169965186 1031767888 1057340847 1031627687 1031742522 1031665760 1031644657 2218732293 1031645821 S 5 1031854722 1031731324 1031646561 1031820171 1031856000 1031855998 1031647317 | 1031647329 1031909129 1031909138 1031881002 S 7 1031777611 S 8 1164577996 1164578124 1031988963 1031619325 S 8 1031635636 S 8 1031648811 1031648824 1031649605 1031736919 1031649772 1031650481 1032125259 1031936437 1032023266 1158376590 1032003911 1031651390 2133680393 1050975759 1057333038 1031651860 1032084364 S 8 1031652265 1149334764 1133401616 1032654025 1032654039 1003530012 1009655157 1010895643 1032125484 1021694051 1021691574 1202634140 1202634155 1031654950 1031614798 1031655268 1031655281 1146080934 1018579010 S 7 1031678889 | 1031732124 S 5 1031867500 1031867516 1132187377 1032029558 S 7 1031657360 1031639291 1032053202 2156993143 2156993245 1171862232 1031658471 S 2 1032125677 1031792935 S 6 1014014964 1151951269 1196864667 1031801322 1031659889 1031825361 1031660194 1031660211 1032050840 1032050855 2138401063 S 2 2214765068 S 8 1031813371 1031954308 1031754800 1031981781 1190302860 1031813453 2132246022 1031770943 S 3 1031663687 2127035277 1031664021 1166093268 2119953691 1031612723 1031664842 1037730274 1031936798 1031814268 1031808669 S 5 1031742816 1032039565 S 7 | 1099543642 S 8 1031666364 1031666386 1031850317 1145258205 1031815279 S 3 1060210720 S 3 1032132019 1031820982 S 5 1037062463 P 9 1031667751 2170710951 1020658877 1031668122 1031668053 1020050261 1031953679 1031953701 1132607640 S 2 1031614094 2168704685 S 8 1032031789 S 8 1031669563 S 7 1031669585 S 7 1031816672 1031766564 2144513539 1031766572 1205570017 1117986200 1143547147 2192248985 1171102813 S 5 1143547168 2126754375 S 6 1117944436 1031598511 2212146448 1031597192 1031970541 1031598272 1032042280 1025120752 1029030795 1031672607 1031672611 1031808496 S 8 | 1031822431 1031822449 1031927869 S 3 1031867707 S 5 1060258406 1031673399 2143350421 1031673404 2164433075 1039783715 1052912649 1121530790 1031642749 1055647828 1031860039 2152985402 1031767971 2137044084 1032138155 1032087193 S 5 1031848687 1031848673 1031588865 1060509735 1035868103 2127620933 1169825854 1031869265 2142579123 2190124538 2162984910 S 8 1031676835 S 8 1031621039 1170276808 2174650724 2142625083 1173475588 1031819928 2170079500 S 7 1031843864 1031835471 1145042506 1031938323 1031739125 1141849985 S 2 1031929953 1031679094 | 1126318419 1031679189 S 3 1031908791 1031679542 1151941126 1031787532 1031680015 1031924700 1060159666 S 3 1031811791 1031861185 1031681248 1031921211 1032073378 2188047334 1031811654 1037177198 1037177200 3382858855 2165304515 1031682048 1031682053 1172090590 2164925783 S 6 1193695124 1028923573 1031823375 1003513676 1122907453 2195489730 2195489724 1032126915 S 8 1031683297 S 8 1031632975 1031765750 1031683437 1031946847 S 8 1031772071 1182569785 1031871436 1192519526 1031684106 1126482122 1031766295 1031684530 1031684613 1031684645 | 1031774418 1031893121 1032079540 1032144028 1031672068 1031846036 2222466412 1188968824 1158292858 S 8 1031685336 1100565469 S 8 1031936746 1031584071 1031797040 1031687190 1031687616 1031746481 1031687709 1181072680 S 4 1032074675 1031688653 1144412994 1032127210 1031689383 1031739367 1031689809 1032076935 1168785848 1126025845 1201739208 1031737128 1031769903 S 8 1031817236 1031691270 1032086678 1031691340 1031876598 1032127313 1031908523 1031950988 1031692206 1032127366 1108217386 1108275112 1073262192 1154761627 1032033014 | 1016750613 1031827426 1009673042 1173831505 1167516521 1031754197 1031926513 1031879585 1201151217 1112613636 1112676996 1031808761 1031697794 1031808774 1032033986 1031694504 P 9 1199328907 1032003222 1153729739 1178550369 1180942445 1180944728 1183781543 1031943134 1031652142 1031895397 1031694976 1031914071 1031802736 1032137565 2137113002 1148711973 S 3 1031587450 S 3 1211562099 S 3 1032040301 2222512984 1031697328 1031697316 1031780167 1031697359 2195133796 1",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260609021204_54c8ea0196.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609021525",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/public_test_logic_and_accuracy_joint_primary_051226_1.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LNA6U6O42VXUE4FRZYSMUG6BW3EOC3BW",
+     "length": "123368",
+     "replay_error": null,
+     "bytes": 149063,
+     "sha256": "392ec989da3f1ffe693926b5b34d56d85809d73c47c3ac228702e965edb3a735",
+     "orig_last_modified": "Thu, 07 May 2026 13:09:35 GMT",
+     "orig_date": "Tue, 09 Jun 2026 02:15:25 GMT",
+     "orig_last_modified_local": "2026-05-07 08:09:35",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | 15 - 9  Pr esc ribed  by  Secretary  of  State  Se ction  129.0231  Texas  Election  Code  | 9/2025  PUBLIC  NOTICE  OF  LOGIC  AND  ACCURACY  TEST  OF  ELECTRONIC  POLLBOOK  EQUIPMENT  Notice  is  hereby  given  that  the  Logic  and  Accuracy  Test  | for  the  electronic  pollbook  equipment  that  will  be  used  in  the  Joint  Primary  Runoff  Election  will  be  conducted  on:  May  12,  2026  | at  10:00  A . M.  ---------------- \\(date\\)  \\(time\\)  at  Elections  Administration  606  E  Lufkin  Ave,  Lufkin  \\(location\\)  AV/SO  PUBLICO  DE  PRUEBA  | DE  L6GICA  Y  PRECISION  DEL  EQUIPO  ELECTR6NICO  DEL  LIBRO  DE  VOTACIONES  Por  la  presente  se  notifica  que  la  Prueba  de  L6gica  y  | Precision  para  el  equipo  de  libros  electorates  electr6nicos  que  se  utilizara  en  la  Elecci6n  de  La  Escorrenia  Primaria  Conjunta  se  | 1/evara  a  cabo  el  de  12  del  mayo  2026  alas  10:00  A.M.  ---------------- \\(f  e  ch  a\\)  \\(hora\\)  en  Elecciones  | Administraci6n  606  E  Lufkin  Ave.  \\(sitio\\)  \"' bAM _ ,  ~ ffll 021  Firma  de/  0/iclal  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260609021525_d1fa68b13f.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609030133",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/early_voting_clerk_appt_052626.pdf",
+     "mimetype": "application/pdf",
+     "digest": "A2XREZ7MKMZKIYWXMKNTBJMDUDEKGHUI",
+     "length": "241461",
+     "replay_error": null,
+     "bytes": 292313,
+     "sha256": "bc088fd3fca20225506520d31488aced65d7b7ec09d13a257ac536364f688552",
+     "orig_last_modified": "Thu, 07 May 2026 13:12:04 GMT",
+     "orig_date": "Tue, 09 Jun 2026 03:01:33 GMT",
+     "orig_last_modified_local": "2026-05-07 08:12:04",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ~':~bodbySeu\\225l>ryofSla t e  DESIGNATION  OF  DEPUTY  EARLY  VOTING  CLERK  Section  83.032,  T eas  Election  Code  3/07  !,Terri  Jordan,  the  early  voting  clerk  for  the  May  26,  2026  Joint  Primary  Runoff  Election  conducted  by  Angelina  County  do  hereby  designate  the  following  persons  as  deputy  early  voting  clerks  for  the  above  named  Election.  The  Named  Persons  are  hereby  authorized  to  perform  any  duties  which  are  assigned  to  me  in  the  performance  of  conducting  early  voting .  NAMES  OF  EARLY  VOTING  CLERKS  &  POLLING  LOCATIONS:  ANGELINA  COUNTY  ELECTIONS  ADMINISTRATION  606  E  LUFKIN  AVE  LUFKIN,  TX  75901  JUDGE:  Audrey  Pope  ALT.  JUDGE:  Vivian  Crain  CLERKS:  Merrill  Nerren  Shirley  Graham  L y ska  Gordon  ALTERNATING  CLERKS:  Terri  Jordan  Connie  Brown  Catrenia  Rains  Valeri e  R e ed  Emily  McGaughey  Sh e rl e ain  Bridg e s  Glenda  Searcy  | :::b::.:r:.::: R,c!ignacion  del  secretario  de  votacion  anticipada  adjunto  3 /07  Yo,  Terri  Jordan,  la  secretaria  de  votaci6n  anticipada  para  la  Elecci6n  Primaria  Desempate  Conjunta  del  26  de  may  de  2026  real iz ada  por  condado  de  Angelina,  por  la  presente,  designo  a  las  siguientes  personas  como  secretarios  adjuntos  de  votaci6n  anticipada  para  la  Elecci6n  mencionada  anteriormente.  Las  personas  nombradas  quedan  autorizadas  para  realizar  cualquier  tarea  que  se  me  asigne  en  el  desempefio  de  la  realizaci6n  de  la  votaci6n  anticipada .  NOMBRES  DE  EMPLEADOS  DE  VOTACI6N  ANTICIPADA  Y  UBICACIONES  DE  VOTACION:  CENTRO  DE  LOS  JUBILADOS  CANDADO  DE  ANGELINA  6 06  E  LUFKIN  A  VENUE  LUFKIN  TX  75901  JUEZA:  Audrey  Pope  ALT.  JUEZ:  Vivian  Crain  SECRETARIOS:  Shirley  Graham  Merrill  Nerren  L y ska  Gordon  Empleados  altemos:  Terri  Jordan  Connie  Brown  Catr e nia  Rains  Glenda  Searcy  Emily  McGaughey  Sharon  Mullins  Valerie  Reed  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260609030133_ff02ad9722.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609030153",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/dem_voter_history_051926.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BHUDVL4PBD4JHYAVA2MXW2VHDKCXCPWC",
+     "length": "44896",
+     "replay_error": null,
+     "bytes": 48331,
+     "sha256": "80eaceecd60e38b6505d66a5be2cdbac4744657568d492115c4af7370c667481",
+     "orig_last_modified": "Thu, 21 May 2026 17:18:33 GMT",
+     "orig_date": "Tue, 09 Jun 2026 03:01:53 GMT",
+     "orig_last_modified_local": "2026-05-21 12:18:33",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | 1031730905 1031614503 | 1031642852 1032132233 1043191563 | 2133343006 1164783976 | 1163819804 1031996299 | 1031675480 1154389172 1031683705 | 1031604483 1031738716 | 1031694515 1031729121 | 1031671223 1032013892 |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260609030153_914725c850.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609030953",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/dem_voter_history_051826.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7IDNGGKIB53KPMV2QVIKNEKUUIW7ECQM",
+     "length": "44101",
+     "replay_error": null,
+     "bytes": 47514,
+     "sha256": "713c3e9e630b3d99b3446655616f03a43610a52baf80e9baae13d2770340b88b",
+     "orig_last_modified": "Thu, 21 May 2026 17:19:53 GMT",
+     "orig_date": "Tue, 09 Jun 2026 03:09:53 GMT",
+     "orig_last_modified_local": "2026-05-21 12:19:53",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | 1031800027 1031642016 | 1031657758 2219601903 | 2210029745 1032133361 | 1031665411 1031685130 | 1146578398 2128387112 | 2133877915 1031992975 | 1031708143 2207198741 | 2220460241 2169346913 |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260609030953_f180b7f267.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609031101",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/dem_voter_history_052126.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C7BVWNTRWFD3QABKJMCGW3XK4HYSNQJ5",
+     "length": "49947",
+     "replay_error": null,
+     "bytes": 53754,
+     "sha256": "4e0f95ee944e0fda9d1575385b45123db7f9e2ac84977c5530e2466fdcae73b2",
+     "orig_last_modified": "Fri, 22 May 2026 14:27:52 GMT",
+     "orig_date": "Tue, 09 Jun 2026 03:11:01 GMT",
+     "orig_last_modified_local": "2026-05-22 09:27:52",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  | 2144870347 2152765634 1212049366 1031932615 1032088468 1032097374 | 2139765767 1176009270 S 7 1031809536 1151548309 1031990316 | 1031654379 2203168117 1031596506 1032066410 1031964534 1220637219 | 1032136398 S 2 1031799116 S 4 1031801538 1031849047 1031731640 1031673368 | S 2 1031708934 1032074288 1206469270 2164852598 2125046275 2121794821 | 1005408684 S 7 1031779554 S 2 1031688505 1031763530 1031680281 2159049346 | 2000059747 1090012341 1001641068 1057252955 2142661656 S 5 1032030792 | S 5 1031598240 2193084585 1031600158 1031928939 S 2 1031978609 |  | 1031769665 |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260609031101_8bd88d58e7.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609031523",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/public_test_logic_and_accuracy_joint_primary_051226.pdf",
+     "mimetype": "application/pdf",
+     "digest": "B4652JMZGN3ISV2N3PGPOS7BJ56TWSLD",
+     "length": "180290",
+     "replay_error": null,
+     "bytes": 205034,
+     "sha256": "816b30cb89431d40ec4cbb719e475c1b0c52713c6b9eab135a99ad86b83262be",
+     "orig_last_modified": "Thu, 07 May 2026 13:06:35 GMT",
+     "orig_date": "Tue, 09 Jun 2026 03:15:23 GMT",
+     "orig_last_modified_local": "2026-05-07 08:06:35",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | 15-6  Prescr i bed  by  Secretary  o f  State  Sections  127.096 ,  1 29.023  T exas  E l ection  Code  9/2025  PUBLIC  NOTICE  OF  PUBLIC  LOGIC  AND  | ACCURACY  TEST  AND  FIRST  TEST  OF  AUTOMATIC  TABULATING  EQUIPMENT  Notice  is  hereby  given  that  the  Public  Logic  and  Accuracy  Test  and  First  Test  of  Automatic  Tabulating  Equipment  for  the  voting  system  | equipment  that  will  be  used  in  the  _Jo_i_n_t  _P_ri_m_a_r_y_R_u_n_o_ff  __________  Election  will  be  conducted  on:  May  12,  2026  at  10:00  A.M _  --------------- \\(date\\)  \\(time\\)  at  Elections  Admin  606  | E  Lufkin  Ave,  Lufkin  75901  \\(location\\)  0;:,, :\\225  it  w ~= the  votes  cast  for  all  offices  and  on  all  measures .  Signature  of  Offic ~  | AV/SO  PUBLICO  DE  PRUEBA  DE  LOG/CA  Y  PRECISION  PUBLICA  Y  PRIMERA  PRUEBA  DEL  EQUIPO  DE  TABULAC/ON  AUTOMATICA  Por  la  presente  se  notifica  que  la  Prueba  Publica  de  Logica  y  Precision  y  | la  Primera  Prueba  def  Equipo  de  Tabulacion  Automtitica  para  el  equipo  de/  sistema  de  votacion  que  se  utilizarti  en  la  Eleccion  deLa  Escorrentia  Primaria  Conjunta  que  se  llevarti  0  | cabo  el  12  Mayo  2026  a  las  10:00  A.M .  ------------- \\(  f  e  ch  a\\)  \\(hora\\)  en  Elections  Admin  Office,  606  E  Lufkin  Ave  para  determinar  si  | contarti  con  precision  \\(sitio\\)  los  votos  emitidos  para  todos  los  cargos  yen  todas  las  propuestas .  \"- },u,u  \\267.  {jnd c nL  Firma  de/  Oficiai  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260609031523_60b40a87e4.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260609031731",
+     "original": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/052626/dem_official_election_reconciliation_052626.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XJDEYW7GEUBGZLIK5AP7D4HKVURBRHYV",
+     "length": "184763",
+     "replay_error": null,
+     "bytes": 208073,
+     "sha256": "99806cf274e1096a950ee858549a2bdec5155398454000ad3feea8b14afeed40",
+     "orig_last_modified": "Tue, 02 Jun 2026 21:00:04 GMT",
+     "orig_date": "Tue, 09 Jun 2026 03:17:31 GMT",
+     "orig_last_modified_local": "2026-06-02 16:00:04",
+     "upload_on_election_night": false,
+     "CreationDate": "",
+     "Creator": "",
+     "ModDate": "D:20260602160004-05'00'",
+     "Producer": "Adobe Acrobat Pro 2020 20 Paper Capture Plug-in",
+     "Title": "",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | 12-2  Prescribed  by  the  Texas  Secretary  of  State  Section  127 .1 31\\(!\\)  Election  Reconciliation  - Official  Totals  DeM  9/2023  County  ANGELINA  Election  Name  Registered  Voters  Election  Date  1.  Voters  2.  Rejected  ballots  \\(from  ck  lh<m  roster,,  ~nd  l ist s\\)  A.  Ear l y  voting  I  [p  in  person  vo ters  B.  Election  day  in  person  /9  vo ters  C.  Mail  ballot  vo ter s  F.  Mail  ballots  rejected  J_  D.  Provisional  0  ballots  submitted  G.  Provisional  ballots  0  rejected  E.  Total  voters  H.  Total  ballots  \\(A+B+C+D\\)  '213  1,  re jected  \\(F+G\\)  JOIINT  PRIMARY  RUNOFF  05/26/2026  3.  Counted  ballots  \\(from  tabuldt1 o n  ~oftw , ue\\)  I.  Early  vot i ng  ballots  I&  counted  J.  Election  day  ballots  counted  K.  Mail  ballots  counted  '6  L.  Provisional  ballots  0  counted  M.  Total  ballots  counted  $JI  \\( l +J+K+L\\)  4.  Comparison  of  voters  and  counted  ballots  N .  Difference  between  voters  and  ballots  \\(E-H-M\\)  P.  Explanation  for  difference,  if  any  0  0.  Difference  as  percentage  of  voters  \\(N+\\(E-H\\)'100\\)  5.  Attestation  ------\"-'-\\(;\\)_%  Q.  \"I  certify  that  the  information  contained  in  this  document  accurate ly  reflects  the  officia l  reconc i l iat ion  of  votes  and  voters  f rom  the  above  stated  election\"  6.  Mail  ballots  R.  Mail  ballots  sent  J4~  s.  Mail  ballots  not  returned  90  by  voter  T.  Mai l  ballots  surrendered  J  Steve  Smith  Maudie  Hamilton  Print  name  7.  Provi s ional  ballots  U .  Provi sional  ballots  deemed  incomp le te  \\(\\)  06/02/2026  Date  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260609031731_75040a735d.pdf"
+    }
+   ]
+  }
+ }
+}

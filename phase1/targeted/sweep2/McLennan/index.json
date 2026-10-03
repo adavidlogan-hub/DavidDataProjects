@@ -1,0 +1,248 @@
+{
+ "county": "McLennan",
+ "spec": {
+  "file_prefixes": [
+   "mclennan.gov"
+  ],
+  "page_prefixes": [
+   "mclennan.gov/546/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 03:13:27",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20241108060000&to=20241111060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20241111060000&to=20241114060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20241114060000&to=20241117060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20241117060000&to=20241120060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20241120060000&to=20241123060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20241123060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov%2F546%2F&matchType=prefix&output=json&from=20241105060000&to=20241108060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260306060000&to=20260309060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260309060000&to=20260312060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260312060000&to=20260315060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260315060000&to=20260318060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260318060000&to=20260321060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260321060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov%2F546%2F&matchType=prefix&output=json&from=20260303060000&to=20260306060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 3,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035308",
+     "original": "https://www.mclennan.gov/DocumentCenter/View/760/McLennan-County-Commissioner-Precincts-PDF",
+     "mimetype": "application/pdf",
+     "digest": "X6I45Y46THSLZITYGIIMBEANDXZWMZLG",
+     "length": "3622301"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035308",
+     "original": "https://www.mclennan.gov/DocumentCenter/View/761/McLennan-County-Justice-of-the-Peace-Constable-Precincts-PDF",
+     "mimetype": "application/pdf",
+     "digest": "PJYR7JGRHOCQYTOZUNWZAH5BCG4OHNWM",
+     "length": "3841207"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035308",
+     "original": "https://www.mclennan.gov/DocumentCenter/View/763/McLennan-County-Voting-Precincts-PDF",
+     "mimetype": "application/pdf",
+     "digest": "XULKJQ4XMWSCS4JNKWOITIEAM7HO3OBY",
+     "length": "3021914"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035308",
+     "original": "https://www.mclennan.gov/DocumentCenter/View/760/McLennan-County-Commissioner-Precincts-PDF",
+     "mimetype": "application/pdf",
+     "digest": "X6I45Y46THSLZITYGIIMBEANDXZWMZLG",
+     "length": "3622301",
+     "replay_error": null,
+     "bytes": 3643790,
+     "sha256": "489484a97d10e2d64040b963e6b952a46e8cc05d607cca285115e3f90b04ed85",
+     "orig_last_modified": "Sat, 21 Mar 2026 03:53:09 GMT",
+     "orig_date": "Sat, 21 Mar 2026 03:53:09 GMT",
+     "orig_last_modified_local": "2026-03-20 21:53:09",
+     "upload_on_election_night": false,
+     "Creator": "Esri ArcMap 10.9.1.28388",
+     "CreationDate": "D:20251121112508-06",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "W     C E N T R A L E     C E N T R A L M C D A N I E L   D R E L K I N S   S T \\306 \\377 9 3 9 \\306 \\377 2 9 5 7 \\306 \\377 2 6 0 3 \\306 \\377 3 4 2 F A L L S   C O M C L E N N A N   C O L I M E S T O N E   C O E     L A K E     C R E E K     R D S C H I M S C H A T   R D R O A D R U N N E R   T R W A L T S     R D H A P P Y     H O L L O W     R D V A N O U S     L N C O U N T Y   L I N E   P K W Y O L D V I C T O R I A R D 7     M I L E     L N B A T T L E T H O M P S O N     R D J   P   M     R D C O T T O N W O O D C R E E K   R D B I G C R E E K R D C O U N T Y   L I N E   P K W Y C O W A N P R O S P E C T M C L E N N A N T E X A S L I M E S T O N E N A V A R R O R O S S B O W I E T R A V I S H I L L K E N S I N G T O N P E C A N C H U R C H D O U G L A S W A C O F A L L S E L M E L M F A L L S M A I N C O M M E R C E P E A R L S M Y T H L U M P K I N M a r t   C i t y M a r t C i t y E E E N N N N N E E E E E E E A D A L U M P K I N S N N N N S S W A C O S R A I L R O A D R A I L R O A D S T A N T O N L I M E S T O N E   C O N N N N N N C R I S W E L L N B U R L E S O N E A V E A V E N   G O D D A R D   S T S T N C A R P E N T E R S T G O D D A R D N E M E R S O N S T S T S T S T S T S T S T F R O N T S T S T S T S T S T M C L E N N A N W W W P R O S P E C T C O W A N A V E G O D D A R D E M E R S O N J O H N S O N B O O T H S P E N C E R S T S T S T S T S T S S S S S R D S C O U N T Y L I N E R D F o o t b a l l S t a d i u m S T S M Y T H S T S T S T S T S T S T C R I S W E L L C R I S W E L L P E A R L C O M M E R C E F R O N T C A R P E N T E R M A I N S S S S S S S T S E C L A Y S T S S S T E L M S T S S S T T R A V I S S T S T S T L I M E S T O N E W W N A V A R R O S F A L L S S T S M Y T H S S T T E X A S A V E W S C H O O L S C H O O L S T S T S T S T O L D L I M E S T O N E C O U N T Y R D S T E P H E N S S T S P E N C E R     S T B O O T H     S T J O H N S O N     S T N   C O U N T Y     L I N E   R D S T S T S T W S T S T S T S T S T S T S T C o m m u n i t y C e n t e r S T \\306 \\377 1 8 6 0 W   B U R L E S O N     A V E A V E o u t M C L E N N A N   C O S w a i n P R u c k e r P P a r k M C L E N N A N   C O F A L L S   C O K L A T T     R D M I S S O U R I P A C I F I C M C L E N N A N   C O F A L L S   C O \\306 \\377 1 8 6 0 R i e s e l C i t y J   &   B S P R I N G S R D R I C E   R D P O S S U M   T R O T   R D K A T T N E R   R D K A T T N E R     R D N I E K A M P     R D R I C E     R D R A T T L E S N A K E   R D M O U N T   M O R I A H   R D W   L A K E   C R E E K   R D E   H W Y   6 D O N   L N N O R T H E R N H I L L S   R D E V A N S     R D B L A C K L A N D   R D G R A S S L A N D   R D B A L L M A N     R D S A N D H O F F L N R O A D R U N N E R     T R R A T T L E S N A K E   R D C H A R L E S J U L I U S A D A M S E D W A R D S N F A I R - P A R K S   H E D W I G S     J E N A W I L L I A M S M E M O R I A L M E M O R I A L M A I N B R O A D W A Y C A N T O N H I L L T O P   S T S A N D E R S   L N B R O A D W A Y N S T S T N S S T N   W I E B U S C H   S T C H U R C H   S T S T S T E S T S T S T S T T A P L E Y   S T D Y C K   S T E   H E N R Y   S T O L D T I M E S T W S T N   R A I L R O A D   S T W   H E N R Y   S T S T N   M A I N   S T W   A L E X A N D E R   S T B R O O K S H I R E   S T B E A V E R   S T S   R A I L R O A D   S T S S T N   J E N A   S T W   F R E D E R I C K   S T E   F R E D E R I C K   S T L N M O R R I S S T E   A L E X A N D E R   S T S   W I E B U S C H   S T R O L I N A T A S T S L I V E O A K L N W   F R E D E R I C K   S T S   F A I R P A R K   S T E   H W Y   6 N S   W I L L I A M S S T R O A D R U N N E R T R N   H E D W I G   S T E   A D A M S   S T S T L E H M A N L N L I N E B A U G H L N W   C H A R L E S R A C O O N H O L L O W G E R H A R D   D R O L E   B A E R   T R \\050 / 7 7 \\306 \\377 4 3 4 \\306 \\377 1 8 6 0 \\306 \\377 2 6 4 3 \\306 \\377 2 6 4 3 \\306 \\377 3 4 0 0 E   M O O N L I G H T     D R W   M O O N L I G H T   D R S A F F L E S     R D L I N D A   V I S T A   L N W A T E R     W E L L     R D N E H R I N G   L N H I L L S I D E     D R D O W N S V I L L E     R D D O W N S V I L L E     R D H O B B S     L N W I L D W O O D     T R W I L D W O O D     T R C A N D Y C E     D R H I L L S I D E     D R A N D E R S O N     L N S T E I N E R     R D S T E I N E R     R D C R U N K     R D H I D E A W A Y L P E     L E O N A       P K W Y F R A N C E S     R D P E E V E Y       L N C A R O N     S T D O N L O   D R L A W N D A L E C A R L O S D E A N C A T H Y   D R S A M   D R J E N N I F E R   D R K E T T L E R O A K W O O D   T E R A D R I A N F A L C O N L U X     D R L U X   D R B R I N T   L N G E O R G I A C O N I N E     D R O L D   R O B I N S O N   R D W A R D     A V E W A R D     A V E I V A N   R D R I G G I N S D A N A S I M O N S S T U R G I S K A R L E S K A R L E S L Y N D A L E S T E G A L L E   S T E G A L L R U T H H A H N     D R D O V E   S T Q U A I L   R U N W O O D C O C K N   S T O V A L L N   S T O V A L L K I M   L N D A L   P A S O   D R K I O W A   L N C O M A N C H E L N K R I S T I K R I S T I J O S E A N K A R E N C E L E S T E E R I N J A N C Y     D R D A L E S T E F K A     D R D I S O N     D R N   H I L L V I E W B E N T W O O D D E A N A P E P L O W S H A M R O C K K A Y   D R E M B E R W O O D A N D R E W S A N D R E W S M C L E N D O N M C L E N D O N S T R A U S S S A N   B E N I T O D R D R D A W N   D R M E R I T T E   D R C I N D Y S   1 2 T H   S T   R D H I C K ' S     L N S A N T A   A N N A F A R N E Y     R D G O R H A M   L N W O O D L A N D D R B R I A R   L N D I X O N   L N C R A F T   R D N E V I L L E   D R C O T T O N S T R O S E N F E L D     R D J E R I C O     R D Y O U N G B L O O D     R D W   R O C K E T     R D E   R O C K E T     R D E   R O C K E T     R D H A L L   L N D R A Z T E C C H A D O L N O L D R O B I N S O N R D K I N G S P U R D R D E G R A T E   S T R E N N E R   R D R E N N E R   R D R E D D I N G   L N S A X E T   R D E R S K I",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321035308_38946503cb.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035308",
+     "original": "https://www.mclennan.gov/DocumentCenter/View/761/McLennan-County-Justice-of-the-Peace-Constable-Precincts-PDF",
+     "mimetype": "application/pdf",
+     "digest": "PJYR7JGRHOCQYTOZUNWZAH5BCG4OHNWM",
+     "length": "3841207",
+     "replay_error": null,
+     "bytes": 3856163,
+     "sha256": "8f5523e3fa282aaecd1ffa8a140e7a585d8965b8d107bcb32857980aa12815db",
+     "orig_last_modified": "Sat, 21 Mar 2026 03:53:09 GMT",
+     "orig_date": "Sat, 21 Mar 2026 03:53:09 GMT",
+     "orig_last_modified_local": "2026-03-20 21:53:09",
+     "upload_on_election_night": false,
+     "Creator": "Esri ArcMap 10.9.1.28388",
+     "CreationDate": "D:20251121112839-06",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "W     C E N T R A L E     C E N T R A L M C D A N I E L   D R E L K I N S   S T \\306 \\377 9 3 9 \\306 \\377 2 9 5 7 \\306 \\377 2 6 0 3 \\306 \\377 3 4 2 F A L L S   C O M C L E N N A N   C O L I M E S T O N E   C O E     L A K E     C R E E K     R D S C H I M S C H A T   R D R O A D R U N N E R   T R W A L T S     R D H A P P Y     H O L L O W     R D V A N O U S     L N C O U N T Y   L I N E   P K W Y O L D V I C T O R I A R D 7     M I L E     L N B A T T L E T H O M P S O N     R D J   P   M     R D C O T T O N W O O D C R E E K   R D B I G C R E E K R D C O U N T Y   L I N E   P K W Y C O W A N P R O S P E C T M C L E N N A N T E X A S L I M E S T O N E N A V A R R O R O S S B O W I E T R A V I S H I L L K E N S I N G T O N P E C A N C H U R C H D O U G L A S W A C O F A L L S E L M E L M F A L L S M A I N C O M M E R C E P E A R L S M Y T H L U M P K I N M a r t   C i t y M a r t C i t y E E E N N N N N E E E E E E E A D A L U M P K I N S N N N N S S W A C O S R A I L R O A D R A I L R O A D S T A N T O N L I M E S T O N E   C O N N N N N N C R I S W E L L N B U R L E S O N E A V E A V E N   G O D D A R D   S T S T N C A R P E N T E R S T G O D D A R D N E M E R S O N S T S T S T S T S T S T S T F R O N T S T S T S T S T S T M C L E N N A N W W W P R O S P E C T C O W A N A V E G O D D A R D E M E R S O N J O H N S O N B O O T H S P E N C E R S T S T S T S T S T S S S S S R D S C O U N T Y L I N E R D F o o t b a l l S t a d i u m S T S M Y T H S T S T S T S T S T S T C R I S W E L L C R I S W E L L P E A R L C O M M E R C E F R O N T C A R P E N T E R M A I N S S S S S S S T S E C L A Y S T S S S T E L M S T S S S T T R A V I S S T S T S T L I M E S T O N E W W N A V A R R O S F A L L S S T S M Y T H S S T T E X A S A V E W S C H O O L S C H O O L S T S T S T S T O L D L I M E S T O N E C O U N T Y R D S T E P H E N S S T S P E N C E R     S T B O O T H     S T J O H N S O N     S T N   C O U N T Y     L I N E   R D S T S T S T W S T S T S T S T S T S T S T C o m m u n i t y C e n t e r S T \\306 \\377 1 8 6 0 W   B U R L E S O N     A V E A V E o u t M C L E N N A N   C O S w a i n P R u c k e r P P a r k M C L E N N A N   C O F A L L S   C O K L A T T     R D M I S S O U R I P A C I F I C M C L E N N A N   C O F A L L S   C O \\306 \\377 1 8 6 0 R i e s e l C i t y J   &   B S P R I N G S R D R I C E   R D P O S S U M   T R O T   R D K A T T N E R   R D K A T T N E R     R D N I E K A M P     R D R I C E     R D R A T T L E S N A K E   R D M O U N T   M O R I A H   R D W   L A K E   C R E E K   R D E   H W Y   6 D O N   L N N O R T H E R N H I L L S   R D E V A N S     R D B L A C K L A N D   R D G R A S S L A N D   R D B A L L M A N     R D S A N D H O F F L N R O A D R U N N E R     T R R A T T L E S N A K E   R D C H A R L E S J U L I U S A D A M S E D W A R D S N F A I R - P A R K S   H E D W I G S     J E N A W I L L I A M S M E M O R I A L M E M O R I A L M A I N B R O A D W A Y C A N T O N H I L L T O P   S T S A N D E R S   L N B R O A D W A Y N S T S T N S S T N   W I E B U S C H   S T C H U R C H   S T S T S T E S T S T S T S T T A P L E Y   S T D Y C K   S T E   H E N R Y   S T O L D T I M E S T W S T N   R A I L R O A D   S T W   H E N R Y   S T S T N   M A I N   S T W   A L E X A N D E R   S T B R O O K S H I R E   S T B E A V E R   S T S   R A I L R O A D   S T S S T N   J E N A   S T W   F R E D E R I C K   S T E   F R E D E R I C K   S T L N M O R R I S S T E   A L E X A N D E R   S T S   W I E B U S C H   S T R O L I N A T A S T S L I V E O A K L N W   F R E D E R I C K   S T S   F A I R P A R K   S T E   H W Y   6 N S   W I L L I A M S S T R O A D R U N N E R T R N   H E D W I G   S T E   A D A M S   S T S T L E H M A N L N L I N E B A U G H L N W   C H A R L E S R A C O O N H O L L O W G E R H A R D   D R O L E   B A E R   T R \\050 / 7 7 \\306 \\377 4 3 4 \\306 \\377 1 8 6 0 \\306 \\377 2 6 4 3 \\306 \\377 2 6 4 3 \\306 \\377 3 4 0 0 E   M O O N L I G H T     D R W   M O O N L I G H T   D R S A F F L E S     R D L I N D A   V I S T A   L N W A T E R     W E L L     R D N E H R I N G   L N H I L L S I D E     D R D O W N S V I L L E     R D D O W N S V I L L E     R D H O B B S     L N W I L D W O O D     T R W I L D W O O D     T R C A N D Y C E     D R H I L L S I D E     D R A N D E R S O N     L N S T E I N E R     R D S T E I N E R     R D C R U N K     R D H I D E A W A Y L P E     L E O N A       P K W Y F R A N C E S     R D P E E V E Y       L N C A R O N     S T D O N L O   D R L A W N D A L E C A R L O S D E A N C A T H Y   D R S A M   D R J E N N I F E R   D R K E T T L E R O A K W O O D   T E R A D R I A N F A L C O N L U X     D R L U X   D R B R I N T   L N G E O R G I A C O N I N E     D R O L D   R O B I N S O N   R D W A R D     A V E W A R D     A V E I V A N   R D R I G G I N S D A N A S I M O N S S T U R G I S K A R L E S K A R L E S L Y N D A L E S T E G A L L E   S T E G A L L R U T H H A H N     D R D O V E   S T Q U A I L   R U N W O O D C O C K N   S T O V A L L N   S T O V A L L K I M   L N D A L   P A S O   D R K I O W A   L N C O M A N C H E L N K R I S T I K R I S T I J O S E A N K A R E N C E L E S T E E R I N J A N C Y     D R D A L E S T E F K A     D R D I S O N     D R N   H I L L V I E W B E N T W O O D D E A N A P E P L O W S H A M R O C K K A Y   D R E M B E R W O O D A N D R E W S A N D R E W S M C L E N D O N M C L E N D O N S T R A U S S S A N   B E N I T O D R D R D A W N   D R M E R I T T E   D R C I N D Y S   1 2 T H   S T   R D H I C K ' S     L N S A N T A   A N N A F A R N E Y     R D G O R H A M   L N W O O D L A N D D R B R I A R   L N D I X O N   L N C R A F T   R D N E V I L L E   D R C O T T O N S T R O S E N F E L D     R D J E R I C O     R D Y O U N G B L O O D     R D W   R O C K E T     R D E   R O C K E T     R D E   R O C K E T     R D H A L L   L N D R A Z T E C C H A D O L N O L D R O B I N S O N R D K I N G S P U R D R D E G R A T E   S T R E N N E R   R D R E N N E R   R D R E D D I N G   L N S A X E T   R D E R S K I",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321035308_11fbeb658c.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035308",
+     "original": "https://www.mclennan.gov/DocumentCenter/View/763/McLennan-County-Voting-Precincts-PDF",
+     "mimetype": "application/pdf",
+     "digest": "XULKJQ4XMWSCS4JNKWOITIEAM7HO3OBY",
+     "length": "3021914",
+     "replay_error": null,
+     "bytes": 3045561,
+     "sha256": "e33c45b48e7f9436a9caf5edbfdd181e130678b98765eb3c469b98c75e7ccf29",
+     "orig_last_modified": "Sat, 21 Mar 2026 03:53:09 GMT",
+     "orig_date": "Sat, 21 Mar 2026 03:53:09 GMT",
+     "orig_last_modified_local": "2026-03-20 21:53:09",
+     "upload_on_election_night": false,
+     "Creator": "Esri ArcMap 10.9.1.28388",
+     "CreationDate": "D:20251121110626-06",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "W     C E N T R A L E     C E N T R A L M C D A N I E L   D R E L K I N S   S T \\306 \\377 9 3 9 \\306 \\377 2 9 5 7 \\306 \\377 2 6 0 3 \\306 \\377 3 4 2 F A L L S   C O M C L E N N A N   C O L I M E S T O N E   C O E     L A K E     C R E E K     R D S C H I M S C H A T   R D R O A D R U N N E R   T R W A L T S     R D H A P P Y     H O L L O W     R D V A N O U S     L N C O U N T Y   L I N E   P K W Y O L D V I C T O R I A R D 7     M I L E     L N B A T T L E T H O M P S O N     R D J   P   M     R D C O T T O N W O O D C R E E K   R D B I G C R E E K R D C O U N T Y   L I N E   P K W Y C O W A N P R O S P E C T M C L E N N A N T E X A S L I M E S T O N E N A V A R R O R O S S B O W I E T R A V I S H I L L K E N S I N G T O N P E C A N C H U R C H D O U G L A S W A C O F A L L S E L M E L M F A L L S M A I N C O M M E R C E P E A R L S M Y T H L U M P K I N M a r t   C i t y M a r t C i t y E E E N N N N N E E E E E E E A D A L U M P K I N S N N N N S S W A C O S R A I L R O A D R A I L R O A D S T A N T O N L I M E S T O N E   C O N N N N N N C R I S W E L L N B U R L E S O N E A V E A V E N   G O D D A R D   S T S T N C A R P E N T E R S T G O D D A R D N E M E R S O N S T S T S T S T S T S T S T F R O N T S T S T S T S T S T M C L E N N A N W W W P R O S P E C T C O W A N A V E G O D D A R D E M E R S O N J O H N S O N B O O T H S P E N C E R S T S T S T S T S T S S S S S R D S C O U N T Y L I N E R D F o o t b a l l S t a d i u m S T S M Y T H S T S T S T S T S T S T C R I S W E L L C R I S W E L L P E A R L C O M M E R C E F R O N T C A R P E N T E R M A I N S S S S S S S T S E C L A Y S T S S S T E L M S T S S S T T R A V I S S T S T S T L I M E S T O N E W W N A V A R R O S F A L L S S T S M Y T H S S T T E X A S A V E W S C H O O L S C H O O L S T S T S T S T O L D L I M E S T O N E C O U N T Y R D S T E P H E N S S T S P E N C E R     S T B O O T H     S T J O H N S O N     S T N   C O U N T Y     L I N E   R D S T S T S T W S T S T S T S T S T S T S T C o m m u n i t y C e n t e r S T \\306 \\377 1 8 6 0 W   B U R L E S O N     A V E A V E o u t M C L E N N A N   C O S w a i n P R u c k e r P P a r k M C L E N N A N   C O F A L L S   C O K L A T T     R D M I S S O U R I P A C I F I C M C L E N N A N   C O F A L L S   C O \\306 \\377 1 8 6 0 R i e s e l C i t y J   &   B S P R I N G S R D R I C E   R D P O S S U M   T R O T   R D K A T T N E R   R D K A T T N E R     R D N I E K A M P     R D R I C E     R D R A T T L E S N A K E   R D M O U N T   M O R I A H   R D W   L A K E   C R E E K   R D E   H W Y   6 D O N   L N N O R T H E R N H I L L S   R D E V A N S     R D B L A C K L A N D   R D G R A S S L A N D   R D B A L L M A N     R D S A N D H O F F L N R O A D R U N N E R     T R R A T T L E S N A K E   R D C H A R L E S J U L I U S A D A M S E D W A R D S N F A I R - P A R K S   H E D W I G S     J E N A W I L L I A M S M E M O R I A L M E M O R I A L M A I N B R O A D W A Y C A N T O N H I L L T O P   S T S A N D E R S   L N B R O A D W A Y N S T S T N S S T N   W I E B U S C H   S T C H U R C H   S T S T S T E S T S T S T S T T A P L E Y   S T D Y C K   S T E   H E N R Y   S T O L D T I M E S T W S T N   R A I L R O A D   S T W   H E N R Y   S T S T N   M A I N   S T W   A L E X A N D E R   S T B R O O K S H I R E   S T B E A V E R   S T S   R A I L R O A D   S T S S T N   J E N A   S T W   F R E D E R I C K   S T E   F R E D E R I C K   S T L N M O R R I S S T E   A L E X A N D E R   S T S   W I E B U S C H   S T R O L I N A T A S T S L I V E O A K L N W   F R E D E R I C K   S T S   F A I R P A R K   S T E   H W Y   6 N S   W I L L I A M S S T R O A D R U N N E R T R N   H E D W I G   S T E   A D A M S   S T S T L E H M A N L N L I N E B A U G H L N W   C H A R L E S R A C O O N H O L L O W G E R H A R D   D R O L E   B A E R   T R \\050 / 7 7 \\306 \\377 4 3 4 \\306 \\377 1 8 6 0 \\306 \\377 2 6 4 3 \\306 \\377 2 6 4 3 \\306 \\377 3 4 0 0 E   M O O N L I G H T     D R W   M O O N L I G H T   D R S A F F L E S     R D L I N D A   V I S T A   L N W A T E R     W E L L     R D N E H R I N G   L N H I L L S I D E     D R D O W N S V I L L E     R D D O W N S V I L L E     R D H O B B S     L N W I L D W O O D     T R W I L D W O O D     T R C A N D Y C E     D R H I L L S I D E     D R A N D E R S O N     L N S T E I N E R     R D S T E I N E R     R D C R U N K     R D H I D E A W A Y L P E     L E O N A       P K W Y F R A N C E S     R D P E E V E Y       L N C A R O N     S T D O N L O   D R L A W N D A L E C A R L O S D E A N C A T H Y   D R S A M   D R J E N N I F E R   D R K E T T L E R O A K W O O D   T E R A D R I A N F A L C O N L U X     D R L U X   D R B R I N T   L N G E O R G I A C O N I N E     D R O L D   R O B I N S O N   R D W A R D     A V E W A R D     A V E I V A N   R D R I G G I N S D A N A S I M O N S S T U R G I S K A R L E S K A R L E S L Y N D A L E S T E G A L L E   S T E G A L L R U T H H A H N     D R D O V E   S T Q U A I L   R U N W O O D C O C K N   S T O V A L L N   S T O V A L L K I M   L N D A L   P A S O   D R K I O W A   L N C O M A N C H E L N K R I S T I K R I S T I J O S E A N K A R E N C E L E S T E E R I N J A N C Y     D R D A L E S T E F K A     D R D I S O N     D R N   H I L L V I E W B E N T W O O D D E A N A P E P L O W S H A M R O C K K A Y   D R E M B E R W O O D A N D R E W S A N D R E W S M C L E N D O N M C L E N D O N S T R A U S S S A N   B E N I T O D R D R D A W N   D R M E R I T T E   D R C I N D Y S   1 2 T H   S T   R D H I C K ' S     L N S A N T A   A N N A F A R N E Y     R D G O R H A M   L N W O O D L A N D D R B R I A R   L N D I X O N   L N C R A F T   R D N E V I L L E   D R C O T T O N S T R O S E N F E L D     R D J E R I C O     R D Y O U N G B L O O D     R D W   R O C K E T     R D E   R O C K E T     R D E   R O C K E T     R D H A L L   L N D R A Z T E C C H A D O L N O L D R O B I N S O N R D K I N G S P U R D R D E G R A T E   S T R E N N E R   R D R E N N E R   R D R E D D I N G   L N S A X E T   R D E R S K I",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321035308_8018d0aad6.pdf"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260529050000&to=20260601050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260601050000&to=20260604050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260604050000&to=20260607050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260607050000&to=20260610050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: [Errno 111] Connection refused",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260610050000&to=20260613050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov&matchType=prefix&output=json&from=20260613050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=mclennan.gov%2F546%2F&matchType=prefix&output=json&from=20260526050000&to=20260529050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}
