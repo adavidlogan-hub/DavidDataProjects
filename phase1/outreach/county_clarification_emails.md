@@ -1,6 +1,6 @@
 # Draft emails: counties tagged LIVE_PRECINCT at medium or low confidence
 
-Drafts only; nothing has been sent. Contacts come from the Texas Secretary of State county election officials list (data/seed_counties.csv). Replace the bracketed placeholders before sending. Replies are owner-provided evidence and would be recorded separately from the public-source checks (Phase 1 research itself never contacted a county).
+Drafts only; nothing has been sent. Contacts come from the Texas Secretary of State county election officials list (data/seed_counties.csv). Sender: David Logan, Data Director, Jon Rosenthal for Railroad Commission (david@jonrosenthaltx.com); send from that address. Replies are owner-provided evidence and would be recorded separately from the public-source checks (Phase 1 research itself never contacted a county).
 
 Why each county is on this list:
 | County | Tag, confidence | What we could not confirm from public sources |
@@ -21,7 +21,7 @@ Subject: Question about election night precinct results for November 3, 2026
 
 Dear Harris County Elections staff,
 
-My name is [Your name], and I am [one line on who you are or the project]. I am compiling how Texas counties publish election results on election night, and I would appreciate a short confirmation for Harris County.
+My name is David Logan, and I am the Data Director for the Jon Rosenthal for Railroad Commission campaign. I am compiling how Texas counties publish election results on election night, and I would appreciate a short confirmation for Harris County.
 
 Your Live Results page (harrisvotes.com/Election-Results/Live-Results) has a "Precinct Reporting" view. Could you confirm:
 
@@ -31,8 +31,9 @@ Your Live Results page (harrisvotes.com/Election-Results/Live-Results) has a "Pr
 
 A one-line reply is plenty. Thank you for your time.
 
-[Your name]
-[Phone or email]
+David Logan
+Data Director, Jon Rosenthal for Railroad Commission
+david@jonrosenthaltx.com
 
 ---
 
@@ -43,7 +44,7 @@ Subject: Question about election night precinct results for November 3, 2026
 
 Dear Mr. Havard and the Lubbock County Elections staff,
 
-My name is [Your name], and I am [one line on who you are or the project]. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Lubbock County.
+My name is David Logan, and I am the Data Director for the Jon Rosenthal for Railroad Commission campaign. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Lubbock County.
 
 On your Clarity results site, precinct-level results appeared more than once during the November 2024 election night, once on the March 2026 primary night, and on the day after the May 2026 runoff. For the November 3, 2026 general election:
 
@@ -53,8 +54,9 @@ On your Clarity results site, precinct-level results appeared more than once dur
 
 A short reply is plenty. Thank you.
 
-[Your name]
-[Phone or email]
+David Logan
+Data Director, Jon Rosenthal for Railroad Commission
+david@jonrosenthaltx.com
 
 ---
 
@@ -65,7 +67,7 @@ Subject: Question about election night precinct results for November 3, 2026
 
 Dear Ms. Escobedo,
 
-My name is [Your name], and I am [one line on who you are or the project]. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Williamson County.
+My name is David Logan, and I am the Data Director for the Jon Rosenthal for Railroad Commission campaign. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Williamson County.
 
 Your election night results site (livevoterturnout.com) shows precinct-level tables alongside the county totals. For the November 3, 2026 general election:
 
@@ -75,8 +77,9 @@ Your election night results site (livevoterturnout.com) shows precinct-level tab
 
 A short reply is plenty. Thank you for your time.
 
-[Your name]
-[Phone or email]
+David Logan
+Data Director, Jon Rosenthal for Railroad Commission
+david@jonrosenthaltx.com
 
 ---
 
@@ -87,7 +90,7 @@ Subject: Question about election night precinct results for November 3, 2026
 
 Dear Ms. Onyon and the Ellis County Elections staff,
 
-My name is [Your name], and I am [one line on who you are or the project]. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Ellis County.
+My name is David Logan, and I am the Data Director for the Jon Rosenthal for Railroad Commission campaign. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Ellis County.
 
 Your election night results site (livevoterturnout.com) showed precinct-level results during the March 2026 primary. For the November 3, 2026 general election:
 
@@ -97,8 +100,9 @@ Your election night results site (livevoterturnout.com) showed precinct-level re
 
 A short reply is plenty. Thank you.
 
-[Your name]
-[Phone or email]
+David Logan
+Data Director, Jon Rosenthal for Railroad Commission
+david@jonrosenthaltx.com
 
 ---
 
@@ -109,7 +113,7 @@ Subject: Question about election night precinct results for November 3, 2026
 
 Dear Ms. Roberts,
 
-My name is [Your name], and I am [one line on who you are or the project]. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Bell County.
+My name is David Logan, and I am the Data Director for the Jon Rosenthal for Railroad Commission campaign. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Bell County.
 
 Your Clarity results site showed precinct-level updates through the night in November 2024. For the May 2026 primary runoff, the vote counts on the site appeared to be hidden until June 2. For the November 3, 2026 general election:
 
@@ -119,8 +123,9 @@ Your Clarity results site showed precinct-level updates through the night in Nov
 
 A short reply is plenty. Thank you for your time.
 
-[Your name]
-[Phone or email]
+David Logan
+Data Director, Jon Rosenthal for Railroad Commission
+david@jonrosenthaltx.com
 
 ---
 
@@ -131,7 +136,7 @@ Subject: Question about election night precinct results for November 3, 2026
 
 Dear Comal County Elections staff,
 
-My name is [Your name], and I am [one line on who you are or the project]. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Comal County.
+My name is David Logan, and I am the Data Director for the Jon Rosenthal for Railroad Commission campaign. I am compiling how Texas counties publish results on election night and would appreciate a short clarification for Comal County.
 
 In 2024 your results were on Clarity with precinct-level updates through the night; in 2026 they moved to Enhanced Voting. For the November 3, 2026 general election:
 
@@ -141,5 +146,6 @@ In 2024 your results were on Clarity with precinct-level updates through the nig
 
 A short reply is plenty. Thank you.
 
-[Your name]
-[Phone or email]
+David Logan
+Data Director, Jon Rosenthal for Railroad Commission
+david@jonrosenthaltx.com
