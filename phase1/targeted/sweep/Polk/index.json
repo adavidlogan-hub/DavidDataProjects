@@ -1,0 +1,228 @@
+{
+ "county": "Polk",
+ "spec": {
+  "file_prefixes": [
+   "polkcountyapps.net",
+   "polktx.gov"
+  ],
+  "page_prefixes": [
+   "polktx.gov/313/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 01:12:55",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov%2F313%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 8
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov%2F313%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 5,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307125205",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1000/March-2026-Republican-Sample-Ballots-PDF-",
+     "mimetype": "application/pdf",
+     "digest": "DH34ZB7XEBIBTAHLMLK7Y726P3UDRLEU",
+     "length": "174276"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318043547",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1104/Cumulative-Results-3-3-2026-?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "UF6M7PGHYGDEERMOUIY4DTDWZSP2UOZE",
+     "length": "286874"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318051625",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1084/2026-03-03-Election-Board-Meeting-Notice?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "5HIPDGBV2KGGH3OLMS7EK44EY6IQW266",
+     "length": "171378"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260322154731",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1133/-Notice-of-Logic-and-Accuracy-Test-for-Election-Equipment-for-May-2-2026-Election?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "643VZ6DRGRAUY6NSNVHOFE2GQAAAR22W",
+     "length": "177818"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323050828",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1054/Primary-Election-Day-Time-and-Locations?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "3FZ2CEZAKRR4BBIKQ64MQRDFGWOPGZLY",
+     "length": "942564"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318043547",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1104/Cumulative-Results-3-3-2026-?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "UF6M7PGHYGDEERMOUIY4DTDWZSP2UOZE",
+     "length": "286874",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307125205",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1000/March-2026-Republican-Sample-Ballots-PDF-",
+     "mimetype": "application/pdf",
+     "digest": "DH34ZB7XEBIBTAHLMLK7Y726P3UDRLEU",
+     "length": "174276",
+     "replay_error": null,
+     "bytes": 359099,
+     "sha256": "cdf377eb33263515b5a6527227941d78fb3a5af7230a324c13cb7e345d9e8fbd",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 07 Mar 2026 12:52:05 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260123104958-06'00'",
+     "Creator": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
+     "Producer": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307125205_da2d496168.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318051625",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1084/2026-03-03-Election-Board-Meeting-Notice?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "5HIPDGBV2KGGH3OLMS7EK44EY6IQW266",
+     "length": "171378",
+     "replay_error": null,
+     "bytes": 183022,
+     "sha256": "599715cf969137bc69c5217e84ace404bde15adce7a7e8a32c7418b548951b05",
+     "orig_last_modified": null,
+     "orig_date": "Wed, 18 Mar 2026 05:16:25 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260318051625_f95cf4f4a2.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260322154731",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1133/-Notice-of-Logic-and-Accuracy-Test-for-Election-Equipment-for-May-2-2026-Election?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "643VZ6DRGRAUY6NSNVHOFE2GQAAAR22W",
+     "length": "177818",
+     "replay_error": null,
+     "bytes": 185510,
+     "sha256": "faae9e489e8cff0ad04f00b746380a244729a060790d8289a6d30e3545b37676",
+     "orig_last_modified": null,
+     "orig_date": "Sun, 22 Mar 2026 15:47:31 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | 15 - 6  P r e scri b e d  by  Se cre tary  | of  St a t e  Sec t i on s  127 . 0 9 6 ,  129 . 0 2 3  Te xas  El e ct i on  C od e  9/2025  PUBLIC  NOTICE  OF  PUBLIC  LOGIC  AND  ACCURACY  TEST  AND  | FIRST  TEST  OF  AUTOMATIC  TABULATING  EQUIPMENT  Notice  is  hereby  given  that  the  Public  Logic  and  Accuracy  Test  and  First  Test  of  Automatic  Tabulating  Equipment  for  the  voting  system  equipment  that  will  be  used  in  th e  rv\\\\o.'-\\\\  d.  Qg_l  d,Od,.\\\\e  | Election  will  be  conducted  on:  \\(time\\)  at  C.0'0\\\\rn.Qx:Ce.  c.ecl-e,r  3  \\\\D\\\\:\\)  \\\\:\\\\w'-\\)  SC\\\\  Loep  t\\)l.  Crv\\\\0@6:\\\\on,7\\\\  7.:r~s  l  \\(location\\)  \\\\  to  ascertain  that  it  will  accurately  count  the  votes  cast  for  | all  offices  and  on  all  measures.  .  Signature  of  Officer  AV/SO  PUBL/CO  DE  PRUEBA  DE  LOG/CA  Y  PRECISION  PUBLICA  Y  PRIMERA  PRUEBA  DEL  EQUIPO  DE  TABULAC/ON  AUTOMATICA  Por  la  presente  se  notifica  que  la  Prueba  Publica  de  Logica  y  Precision  y  la  Primera  | Prueba  def  Equipo  de  Tabulacion  Automcitica  para  el  equipo  def  sistema  de  votacion  que  se  uti/izarci  en  la  \\267  Eleccion  de  a  d.e,  \\('{\\\\,Q~  0  de  40'.cllt>  que  se  1/evarci  a  .  cabo  el \\\\/\\\\  | er  oe.~  a_  Od.e  tn!\\).  r7..Cd  e  dl>~  las  a  ...  00  p  rf\\\\  \\(fecha\\)  \\\\  \\(hora\\)  Q..e:n~O  Q.b  rr\\\\  Q.f~\\\\_~\\\\  1135\"'1  en  | \\\\D\\\\J  I:\\\\~\\\\.\\\\  :;A  l!Pp  \\(\\\\\\\\  ~\",  ~'&\\\\o  ri  ;T'i.  para  determinar  si  contarci  con  precision  \\(sitio\\)  \\225  \\267  los  votos  emitidos  para  todos  /os  cargos  y  en  todas  las  propuestas.  Firma  def  Oficial  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260322154731_e4ba21f1ac.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323050828",
+     "original": "https://www.polktx.gov/DocumentCenter/View/1054/Primary-Election-Day-Time-and-Locations?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "3FZ2CEZAKRR4BBIKQ64MQRDFGWOPGZLY",
+     "length": "942564",
+     "replay_error": null,
+     "bytes": 962672,
+     "sha256": "f431818ee5bbc98147c7d350d3db17ae3e04ca6c0dbe3caa1a080fa265ebeb67",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 23 Mar 2026 05:08:28 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260204052234Z",
+     "Creator": "Canva",
+     "ModDate": "D:20260203232342-06'00'",
+     "Producer": "Canva",
+     "Title": "EV&ED Time and Locations",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  | \u0000\u0019 \u0000\u0001 \u0000\u000f \u0000\u0001 \u0000\\) \u0001\u0015 \u0001\u0014 \u0001\u0014 \u0000\u0001 \u0000V \u0000\u0001 \u0000\u0015 \u0000\u0001 \u0000; \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 \u0000\u0001 |  |  |  |  | \u00006 \u0000H \u0000F \u0000K \u0000U \u0000H \u0000V \u0000W \u0000\u0003 \u0000: \u0000H \u0000E \u0000V \u0000W \u0000H \u0000U \u0000\u0003 \u0000& \u0000R \u0000P \u0000P \u0000X \u0000Q \u0000L \u0000W \u0000\\\\ \u0000\u0003 \u0000& \u0000H \u0000Q \u0000W \u0000H \u0000U \u0000\u0014 \u0000\u0013 \u0000\u0013 \u0000\u0003 \u0000: \u0000\u0003 \u0000\\) \u0000U \u0000R \u0000Q \u0000W \u0000\u0003 \u00006 \u0000W \u0000\u000f \u0000\u0003 \u0000& \u0000R \u0000U \u0000U \u0000L \u0000J \u0000D \u0000Q \u0000\u000f \u0000\u0003 \u0000\u001a \u0000\u0018 \u0000\u001c \u0000\u0016 \u0000\u001c | \u0000*\u0000R\u0000R\u0000G\u0000U\u0000L\u0000F\u0000K\u0000\u0003\u0000&\u0000R\u0000P\u0000P\u0000X\u0000Q\u0000L\u0000W\u0000\\\\\u0000\u0003\u0000&\u0000H\u0000Q\u0000W\u0000H\u0000U \u0000\u001b\u0000\u0018\u0000\u001a\u0000\u0003\u00006\u0000W\u0000D\u0000W\u0000H\u0000\u0003\u0000+\u0000Z\u0000\\\\\u0000\u0003\u0000/\u0000R\u0000R\u0000S\u0000\u0003\u0000\u0016\u0000\u001c\u0000\u0016\u0000\u000f\u0000\u0003\u0000*\u0000R\u0000R\u0000G\u0000U\u0000L\u0000F\u0000K\u0000\u000f\u0000\u0003\u0000\u001a\u0000\u001a\u0000\u0016\u0000\u0016\u0000\u0018 | \u0000$ \u0000O \u0000D \u0000E \u0000D \u0000P \u0000D \u0000\u0010 \u0000& \u0000R \u0000X \u0000V \u0000K \u0000D \u0000W \u0000W \u0000D \u0000\u0003 \u0000$ \u0000G \u0000P \u0000L \u0000Q \u0000\u0003 \u0000% \u0000O \u0000G \u0000J \u0000\u0018 \u0000\u001a \u0000\u0014 \u0000\u0003 \u00006 \u0000W \u0000D \u0000W \u0000H \u0000\u0003 \u00003 \u0000D \u0000U \u0000N \u0000\u0003 \u00005 \u0000G \u0000\u0003 \u0000\u0006 \u0000\u0018 \u0000\u0019 \u0000\u000f \u0000\u0003 \u0000/ \u0000L \u0000Y \u0000L \u0000Q \u0000J \u0000V \u0000W \u0000R \u0000Q \u0000\u000f \u0000\u0003 \u0000\u001a \u0000\u001a \u0000\u0016 \u0000\u0018 \u0000\u0014 | \u00002 \u0000Q \u0000D \u0000O \u0000D \u0000V \u0000N \u0000D \u0000\u0003 \u00006 \u0000X \u0000E \u0000\u0010 \u0000& \u0000R \u0000X \u0000U \u0000W \u0000K \u0000R \u0000X \u0000V \u0000H \u0000\u0014 \u0000\u0017 \u0000\u0014 \u0000\u0014 \u0000\u0014 \u0000\u0003 \u00008 \u00006 \u0000\u0003 \u0000+ \u0000Z \u0000\\\\ \u0000\u0003 \u0000\u0014 \u0000\u001c \u0000\u0013 \u0000\u0003 \u0000: \u0000\u000f \u0000\u0003 \u00002 \u0000Q \u0000D \u0000O \u0000D \u0000V \u0000N \u0000D \u0000\u000f \u0000\u0003 \u0000\u001a \u0000\u001a \u0000\u0016 \u0000\u0019 \u0000\u0013 | \u00007 \u0000\u0001 \u0000\u000f \u0001\u0015 \u0001\u0014 \u0001\u0015 \u0000\u0001 \u0000r \u0000\u0001 \u0000A \u0000\u0001 \u0000Z \u0000\u0001 \u0000; \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 | \u0000\u000e \u0000\u0001 \u0000\u000e \u0000\u0001 \u0000\u000f \u0001\u0016 \u0001\u0018 \u0001\u0019 \u0001\u0014 \u0000\u0001 \u0000# \u0000A \u0000\u0001 \u0001\u0016 \u0001\u0018 \u0001\u0019 \u0001\u001b \u0000\u0001 \u0000; \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 | \u00006 \u0000F \u0000K \u0000Z \u0000D \u0000E \u0000\u0003 \u0000& \u0000L \u0000W \u0000\\\\ \u0000\u0003 \u0000% \u0000D \u0000S \u0000W \u0000L \u0000V \u0000W \u0000\u0003 \u0000& \u0000K \u0000X \u0000U \u0000F \u0000K \u0000\u0014 \u0000\u0013 \u0000\u001c \u0000\u001c \u0000\u001b \u0000\u0003 \u00006 \u0000W \u0000D \u0000W \u0000H \u0000\u0003 \u0000+ \u0000Z \u0000\\\\ \u0000\u0003 \u0000\u0014 \u0000\u0017 \u0000\u0019 \u0000\u0003 \u00006 \u0000\u000f \u0000\u0003 \u0000/ \u0000L \u0000Y \u0000L \u0000Q \u0000J \u0000V \u0000W \u0000R \u0000Q \u0000\u000f \u0000\u0003 \u0000\u001a \u0000\u001a \u0000\u0016 \u0000\u0018 \u0000\u0014 | \u0000Z \u0000\u0001 \u0000\u000e \u0000\u0001 \u0000\u000f \u0001\u001c \u0001\u0015 \u0001\u0017 \u0001\u0019 \u0000\u0001 \u0000f \u0000Z \u0000\u0001 \u0000\\) \u0000\u0001 \u0001\u0015 \u0001\u001d \u0001\u0014 \u0000\u0001 \u0000\u0019 \u0000\u0001 \u0000; \u0000\u0001 \u0000a \u0000w \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 | \u00006 \u0000W \u0000\u0003 \u0000- \u0000R \u0000V \u0000H \u0000S \u0000K \u0000\u0003 \u0000& \u0000D \u0000W \u0000K \u0000R \u0000O \u0000L \u0000F \u0000\u0003 \u0000& \u0000K \u0000X \u0000U \u0000F \u0000K \u0000\u0003 \u0000\\) \u0000D \u0000P \u0000L \u0000O \u0000\\\\ \u0000\u0003 \u0000& \u0000H \u0000Q \u0000W \u0000H \u0000U \u0000\u0015 \u0000\u0018 \u0000\u001c \u0000\u0013 \u0000\u0003 \u0000+ \u0000Z \u0000\\\\ \u0000\u0003 \u0000\u0014 \u0000\u001c \u0000\u0013 \u0000\u0003 \u0000: \u0000H \u0000V \u0000W \u0000\u0011 \u0000\u0003 \u0000/ \u0000L \u0000Y \u0000L \u0000Q \u0000J \u0000V \u0000W \u0000R \u0000Q \u0000\u000f \u0000\u0003 \u00007 \u0000; \u0000\u0003 \u0000\u001a \u0000\u001a \u0000\u0016 \u0000\u0018 \u0000\u0014 | \u0000Z \u0000\u0001 \u0000q \u0000\u0001 \u0000# \u0000\u0001 \u0000\u0015 \u0001\u0015 \u0001\u0019 \u0001\u001b \u0000\u0001 \u0000A \u0000\u0001 \u0000\\) \u0000\u0001 \u0000\u000f \u0000\u0001 \u0000; \u0000\u0001 \u0000a \u0000w \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 | \u0000\u0015 \u0000\u0001 \u0000$ \u0001\u0015 \u0001\u0015 \u0001\u0014 \u0001\u0017 \u0000\u0001 \u0000\u0015 \u0000\u0001 \u0000Z \u0000\u0001 \u0000; \u0000\u0001 \u0000a \u0000w \u0000\u0001 \u0001\u001b \u0001\u001b \u0001\u0017 \u0001\u0019 \u0001\u0015 \u0000\u0001 |  |  | \u0000& \u0000\u0011 \u0000\u0002 \u0000\u0007 \u0000\u001a \u0000: \u0000R \u0000\u001a \u00009 \u00007 \u00009 \u0000= |  |  |  |  |  | \u0000\u000e \u0000\u0014 \u0000\u0013 \u0000\u001b \u0000\u0003 \u0000\u0015 \u0000\u0017 \u0000\u0012 \u0000\u0004 \u0000\u0017 \u0000  \u0000\u0003 \u0000\b \u0000\u0011 \u0000\b \u0000\u0006 \u0000\u001b \u0000\u0014 \u0000\u0013 \u0000\u0017 \u0001- \u0000\u0013 \u0000u \u0001- \u00003 \u0000u \u0001- \u0000J \u0001- \u0000? \u0001- \u0001- \u0000\u0001 \u00008 \u0001- \u0001- \u0001- \u0000J \u00008 | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260323050828_0e787b204b.pdf"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polkcountyapps.net&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=polktx.gov%2F313%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

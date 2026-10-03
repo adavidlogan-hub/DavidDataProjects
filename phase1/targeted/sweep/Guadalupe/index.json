@@ -1,0 +1,747 @@
+{
+ "county": "Guadalupe",
+ "spec": {
+  "file_prefixes": [
+   "guadalupetx.gov"
+  ],
+  "page_prefixes": [
+   "guadalupetx.gov/page/"
+  ]
+ },
+ "swept_at_utc": "2026-10-02 22:58:38",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=guadalupetx.gov&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=guadalupetx.gov%2Fpage%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=guadalupetx.gov&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 8
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=guadalupetx.gov%2Fpage%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 9
+    }
+   ],
+   "versions_found": 6,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304053445",
+     "original": "https://www.guadalupetx.gov/page/elections.election3",
+     "mimetype": "text/html",
+     "digest": "74FZYQUEO7JDWMYWGZZZ7WUW2ABFIZIX",
+     "length": "24917"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260304101742",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/docs/030326/RETURNED%20BALLOTS%20LOG%20FOR%20POSTING%20%20FOR%203-2-2026.xlsx",
+     "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+     "digest": "YVAMSM6DGEIJJCNDXNURXTPVRHNZWEFX",
+     "length": "57674"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260304101743",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/docs/030326/Unofficial%20%20Results%20Early%20Voting%20and%20Mail%20Ballots%2036%20of%2036.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FLZAW6JWP3QYZDGWHKBPXBASABEHBNKG",
+     "length": "11335690"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260304101838",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/docs/030326/Unofficial%20Reconciliation%20Form.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KWYFYTYG6KIAB63ICWYTGWJR2RGLVXRK",
+     "length": "250988"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260306015913",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/Unofficial%20%20Results%20Early%20Voting%20and%20Mail%20Ballots%205%20of%2036.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EL5KVPFKIN2SFCIEWXVAPRVGTZ67KVVO",
+     "length": "11300660"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317084522",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/docs/030326/ED_Vote_Center_Locations.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2C54WFJACPW5TFSA5CBR45GVA6QLOOLA",
+     "length": "207308"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260304101743",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/docs/030326/Unofficial%20%20Results%20Early%20Voting%20and%20Mail%20Ballots%2036%20of%2036.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FLZAW6JWP3QYZDGWHKBPXBASABEHBNKG",
+     "length": "11335690",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260306015913",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/Unofficial%20%20Results%20Early%20Voting%20and%20Mail%20Ballots%205%20of%2036.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EL5KVPFKIN2SFCIEWXVAPRVGTZ67KVVO",
+     "length": "11300660",
+     "replay_error": null,
+     "bytes": 13440367,
+     "sha256": "005be96704cac7fe35782a96dbda495e30302072eb418f3db526e51018731d4f",
+     "orig_last_modified": "Wed, 04 Mar 2026 03:06:04 GMT",
+     "orig_date": "Fri, 06 Mar 2026 02:17:50 GMT",
+     "orig_last_modified_local": "2026-03-03 21:06:04",
+     "upload_on_election_night": true,
+     "Producer": "PFU PDF Library 1.4.2",
+     "Creator": "ScandAll PRO V2.1.8",
+     "CreationDate": "D:20260303204001-06'00'",
+     "ModDate": "D:20260303204001-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260306015913_65eec88a8b.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260304101838",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/docs/030326/Unofficial%20Reconciliation%20Form.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KWYFYTYG6KIAB63ICWYTGWJR2RGLVXRK",
+     "length": "250988",
+     "replay_error": null,
+     "bytes": 290286,
+     "sha256": "f7eec609a7ffa9df86286a37df4ecb25298fd5e1f00e8487efbd2f5183ca16b1",
+     "orig_last_modified": "Wed, 04 Mar 2026 06:04:22 GMT",
+     "orig_date": "Wed, 04 Mar 2026 10:37:17 GMT",
+     "orig_last_modified_local": "2026-03-04 00:04:22",
+     "upload_on_election_night": true,
+     "Producer": "PFU PDF Library 1.4.2",
+     "Creator": "ScandAll PRO V2.1.8",
+     "CreationDate": "D:20260303234214-06'00'",
+     "ModDate": "D:20260303234214-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260304101838_5793aa3481.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260304101742",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/docs/030326/RETURNED%20BALLOTS%20LOG%20FOR%20POSTING%20%20FOR%203-2-2026.xlsx",
+     "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+     "digest": "YVAMSM6DGEIJJCNDXNURXTPVRHNZWEFX",
+     "length": "57674",
+     "replay_error": null,
+     "bytes": 60087,
+     "sha256": "b4baadac2c3506e4da537271289663b1062ceb5db60ce4b24eea15b7c5c445de",
+     "orig_last_modified": "Tue, 03 Mar 2026 14:18:14 GMT",
+     "orig_date": "Wed, 04 Mar 2026 10:36:21 GMT",
+     "orig_last_modified_local": "2026-03-03 08:18:14",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": "PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000A7\ufffd\ufffdn\u0001\u0000\u0000\u0004\u0005\u0000\u0000\u0013\u0000\b\u0002[Content_Types].xml \ufffd\u0004\u0002(\ufffd\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffdT\ufffdn\ufffd0\u0010\ufffdW\ufffd?D\ufffdV\ufffd\ufffd\ufffd\ufffd\ufffd\b \ufffd [$\ufffd\u0007\ufffdx\ufffdX$\ufffd\ufffd\u0019(\ufffd}'fQU\ufffd\b\ufffd%Ql\ufffd[&\ufffd \ufffd`{\ufffd\ufffd\u04d0lC\ufffd\ufffdB\ufffd\ufffd\ufffdJ\ufffd\ufffdd\ufffd \ufffd\ufffd70\ufffd\u007f\u001a\ufffd\ufffd\ufffdz\ufffd\u0004\ufffd\ufffdO\ufffd9\u0007n\ufffdvq\ufffd*J~\ufffd\ufffd.b\ufffd\ufffd\u0015\ufffdT\ufffdJ \ufffd\ufffd\ufffd4+$\ufffd\ufffd\ufffd\b\ufffd\u0346\u007f\ufffd\u0010\ufffd:\ufffd\u0012\ufffd\ufffd\uf69ef\\ \ufffd|-P\ufffdW\ufffd+\ufffd\u0012\ufffd \ufffd\ufffd\u038b\ufffd (\ufffd\ufffd\ufffd \ufffdA\u0014\ufffd\ufffd\ufffdj\ufffd\ufffdgR`\u0003\ufffd\ufffd\ufffdm;\ufffd z\ufffd\ufffdc'\ufffd\ufffd\ufffd\u01de\ufffd\u035e\ufffd\ufffdS\u007f\ufffd\u0002\ufffd~Fu\ufffd\u0016 u\ufffd\u0012\ufffd\ufffd\ufffd\ufffdgYC\"Pg\ufffd\u02cc\ufffdU KY\ufffdB\u001b\ufffd\ufffdw\ufffd 6}\ufffd\ufffd\ufffdr\ufffd\ufffd~\u0006\u0005\u0016@\ufffd\ufffd8 a\ufffd\ufffd1\ufffd \ufffd\ufffd|S\ufffdl\ufffd\ufffd'vlRgDc\u001a9\ufffd@\ufffd\u0015\u0011\ufffd \u0017e\ufffd\b\ufffd\ufffd\ufffdQ,s&\ufffdR\ufffd\ufffd \ufffdXs\ufffd\ufffdX \ufffd\ufffd\u0005\u0004|\u07d3\ufffd /\ufffd\u0016P\ufffd\u0013\ufffd\ufffd6\ufffd E\ufffd\ufffd;qb9#\u0012O\ufffd\ufffd\ufffd\ufffdU\ufffd>yMyF\ufffd4g\ufffd\ufffd\u0016V\ufffd\u06ef\u00035&\ufffd\ufffd\ufffd\ufffdj\ufffd\ufffd\ufffd\u04c7\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\u007fs\\@\ufffd%?\ufffd9\ufffd9\ufffdqr5[\ufffdN\ufffd\ufffd\ufffd\ufffd\ufffdmr\ufffds8\ufffd\ufffd\ufffdt\ufffdp>\u000f\ufffd\\\ufffd?\ufffd#\ufffd\u007fL\ufffd\ufffd\u0017\\\ufffd\ufffdL\ufffdA&\u0017\u007f\u0003\u0000\u0000\ufffd\ufffd\u0003\u0000PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000\ufffd>\ufffd\ufffd\ufffd\u0000\u0000\u0000\ufffd\u0002\u0000\u0000\u001a\u0000\b\u0001xl/_rels/workbook.xml.rels \ufffd\u0004\u0001(\ufffd\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffdRMK\ufffd0\u0010\ufffd \ufffd\ufffd0w\ufffdv\u0015\u0011\ufffdt/\"\ufffdU\ufffd\u000f\b\u0274)\ufffd&!3~\ufffd\ufffd\u001b*\ufffd]X\ufffdK/\u0003o\ufffdy\ufffd\ufffd\ufffdv\ufffd5\u000e\ufffd\u0003\u0013\ufffd\ufffd+\ufffd\ufffd\u0012\u0004z\u0013l\ufffd;\u0005o\ufffd\ufffd\ufffd\u0003\bb\ufffd\ufffd \ufffdG\u0005\u0013\u0012\ufffd\ufffd\ufffd\ufffd \u000e\ufffds\u0013\ufffd>\ufffd\ufffd,\ufffd\u00148\ufffd\ufffd(%\u0019\ufffd\ufffd\ufffd\"D\ufffd\ufffd\u04864j\ufffd0u2js\ufffd \ufffdMY\ufffd\u02f4\ufffd\ufffd\ufffdS\ucb42\ufffd\ufffd\ufffd \ufffd)f\ufffd\ufffd\ufffdC\ufffd\ufffd\u0006\ufffd\ufffdy \ufffd\ufffd\u0019 I \ufffd\u0014e3Z\u00145$-\ufffd1\ufffd\ufffd>Y\ufffd\u06a7\ufffd\ufffd\ufffd\u0014\u0697\ufffd\ufffd\u0007\ufffd\ufffd\ufffd XH,,\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffdo~\u007f\ufffd\ufffd\u02c7O\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u04c7_\ufffd\ufffd\u00eb\ufffd\ufffd?\ufffd\ufffd\ufffdo\ufffd|}\ufffd\ufffdOo\u007f\ufffd\ufffd\ufffd\ufffd ^\ufffd\ufffd\ufffd\ufffdW\ufffd\ufffd\ufffd\u007f\ufffdO\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd~\u0003\ufffd_\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffd\ufffd\u01f7_\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd?}\ufffd\ufffd\ufffd+\ufffd\ufffd\u7ffc\ufffd\ufffd\ufffd\ufffd\ufffdo\u007f \u000f}\ufffd\ufffdu\u007f\ufffd\u032f?\ufffd\ufffd\ufffd\ufffd \ufffd\ufffdg0>\ufffd\ufffd\ufffdw\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd~\ufffd@>\ufffd\ufffd\ufffd\ufffdW\ufffd\ufffd/\u007f\ufffd\ufffd\u06d7\u0007\ufffd\ufffdwg\ufffd>\ufffd\ufffd\ufffdo\u007f\ufffd\ufffd\u000f\ufffd>}\ufffd \u0010\u007f\ufffd\ufffd\u02c7\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\u02ef\ufffd>\ufffd\ufffd\ufffd/\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffd\u0019\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd7}\ufffd\ufffd\ufffd\ufffd/\ufffd~\ufffd\ufffd-\ufffd_o\ufffd\u067b\u007f{}{\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\u0014L7\ufffd\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\u0007 \ufffd\ufffd\ufffd\ufffd\ufffd\u07ffD\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdxM\ufffd\ua6ef\ufffd~\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd/\ufffd\ufffd\ufffd7\ufffd\ufffd\ufffdO\ufffd\ufffd>\ufffd\ufffdhv\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0017\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffd\u0007\ufffd:\ufffd\u000e\ufffd\ufffd\ufffd\u001b\u07be\ufffd/\ufffd\ufffd\ufffd\u02fb\ufffd\ufffd\ufffd\ufffd \u007f \ufffd\ufffd\ufffd}\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffd/_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\u05ef\ufffdA\u0013l\ufffd\u000e\ufffd\ufffd~\ufffd\ufffd\ufffd\ufffd/\ufffd0z\ufffd\ufffdo\ufffdi\ufffd\u043bO\ufffd\u0000\u0002\ufffd\ufffd\ufffd\ufffd \ufffdi\ufffd\ufffd\ufffd\ufffd \ufffd?\ufffd\ufffd\u19ef\u007f\ufffd\u007f\u001b\ufffd\ufffdN\ufffd8_\u0017\ufffd|\ufffd\ufffd\ufffduH\ufffd\u05fd\ufffd\u06d7\ufffd\ufffd>\ufffd\ufffd\ufffd\u034e\ufffda\ufffd\ufffd\u0005 \ufffd\ufffd1 \u0011F\ufffdI\ufffd\ufffd'\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdM3~\ufffd\ufffd\ufffd\ufffdo\u0005 \ufffd:`\ufffd&\ufffd\u007f\ufffd\ufffd\u06f1\ufffd\ufffdk\ufffdb\u0014\ufffd\ufffd_\u00d3\ufffd\ufffd\u01d3\u00f7\ufffdr\u0019\u0083{\u05d7\u0014\ufffd\ufffd\u034a\ufffd\u0003=\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?\u007f\ufffd\ufffd7\ufffdU0\ufffd\ufffd\u07ae>\ufffd\ufffdn\ufffd}\u0005\ufffd\u007fm\ufffd\u01f5\ufffd\u000f\ufffd`5|\ufffd/\u0018 \ufffd\ufffdx\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\ufffd:\ufffd -:n\ufffd@\ufffd_Z\ufffd\ufffd\ufffd\ufffd1\u0006n\ufffdfk\ufffd\ufffd\ufffd\ufffd1r\ufffd?%~\ufffd\ufffd@y\ufffd\u03bfX\u0000\ufffd9o\ufffd\ufffd\ufffd:\ufffd\u05be\ufffd\ufffd\ufffd\ufffd\ufffd4\ufffd\u00161Bl\ufffdI\ufffd\ufffd\u0001L\u001b\ufffd {\ufffd\ufffd\ufffd\ufffd\ufffd\u06d3Kxr\ufffd/W\ufffdr\ufffdlw9\ufffdJ\ufffd]g\ufffd\ufffd\u03fd6~t\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdW\u0010C _\ufffde \ufffde\u040f \ufffd\ufffdNf\ufffd\u04c6P\ufffd3=\ufffd}\u079e\ufffd\ufffd\ufffd \ufffd\ufffdd\ufffd\ufffd\ufffd}^\u001b\ufffd\u0003{\ufffdL\ufffd[w4:\ufffd\ufffdx\ufffd\ufffd \ufffd\ufffd,\ufffd\ud65e\ufffd>o\ufffd\ufffd\ufffdL\u000f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdc{m\ufffd} \ufffd[w4:\ufffd,\u0003\ufffdiC(\ufffd\ufffd\ufffd\ufffd>o\ufffd\ufffd\ufffdL\u000f\ufffd\ufffd|k\ufffd\ufffd\ufffd8\ufffd\ufffdm\ufffd 7\ufffdNw4:\ufffd\ufffd.{C\ufffd>\ufffd\u03e6\ufffd\ufffd\u0003\ufffd\u065e\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffdN\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdm\ufffdCo\ufffd\u0004\ufffd\u000e\u02a1n,\ufffd\ufffdWq\ufffd\ufffd\ufffd?\ufffdm\u000e\ufffdi\ufffdw\ufffd|\ufffd\ufffd\ufffdl\ufffd\ufffd\b\ufffd\ufffds6>\u0012\ufffd\ufffd\ufffd\b2\ufffd\ufffd,\ufffdc\ufffd\ufffd\ufffd\ufffd\ufffd0\ufffd]'Fg]\ufffd\u0010 ]\ufffd\u01f3]obb]L\ufffd\u05ae/\ufffd\ufffd2*\u0015[[ _] \ufffd\ufffdA]\u0017\u000f\ufffdL\b\ufffdu\ufffd\ufffd\ufffd\ufffd\ufffdl\u05dbxYG\u012c\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\ufffd\ufffd\ufffd\ufffd1\\/JDw\u0010^_\ufffd\u0003> \ufffdX\ufffd\u034eQ\ufffd\ufffd8Z\ufffdD\ufffdB\ufffd\ufffd\ufffd/\ufffd|\ufffd\ufffdb\ufffd\ufffd\ufffdz/>\ufffdi\u0007\ufffd\ufffd\ufffd0\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd wY\ufffd\ufffd \ufffdn\ufffdK\u01c4\ufffd^g\ufffdK' \u02b8y&\ufffdQ\ufffd ov\ufffd\ufffdW?\ufffd\ufffd\ufffd&>\u0017Z\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffds=\ufffdb\ufffd\ufffdav \ufffd\ufffdV \ufffd\ufffd^cs\ufffd+N\ufffd\ufffd&6\u0017\ufffd \ufffd\ufffd>\"\ufffd )\ufffd]\ufffd\u0014\ufffdz\ufffd\ufffd\ufffd\ufffd\ufffdc\ufffd&67P\ufffdn\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO\u001a\ufffd\ufffd1\ufffd]'\u0004\ufffd\ufffd;B\ufffd hs\ufffd\ufffd\ufffd\u059fY\u07f9 Ml.\ufffd\ufffd\u016d\ufffd\ufffd\ufffd\ufffd\ufffd\u0018\ufffd\ufffd\ufffdw\ufffd\ufffd\ufffdF|\u043a^cs\ufffd\u0003\ufffds}lbs\ufffdu\ufffd\ufffde\ufffdz\ufffd\ufffd\ufffd\ufffd\ufffd.n;F\ufffd\ufffdEC\u0015\ufffd`s}G($\u02dcbsc\u0013\ufffd \ufffd\ufffdPE? \ufffdy\ufffduq[[\ufffdt}Q\u000f\ufffdcP\ufffd\ufffd\ufffd\u0013\ufffdw\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdWobs\ufffd \ufffd\ufffds] \ufffd}mut]=\ufffd\ufffdQ\ufffd\ufffd\ufffd]\ufffd\ufffd\ufffd\ufffd\ufffd|RX\u0013\ufffd\u001b\ufffd\ufffd\u03604\ufffd\u06fe\ufffd\ufffd\ufffd\ufffd+\ufffd\ufffd1\ufffd\ufffd\ufffd\u0010\ufffd\ufffd56G\ufffd\ufffdz\u0013\ufffd\u001b7 \ufffdBi\ufffdeEB\ufffd\u0012\u0675\ufffd\ufffdu]\ufffdv \u001a\ufffd\u0011\ufffdw\ufffd\ufffd\ufffd\ufffd\ufffd|\u05db\ufffd\u0728l\ufffd\ufffd\u000f8h\u0017\"\ufffd\ufffd:\ufffd\ufffd\ufffd\u06ceAmtq#\u0004\ufffdz\ufffd\ufffd\ufffd\ufffd\ufffd\u0001\ufffd\ufffd\ufffdFfs\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd%\ufffdVG\ufffd\ufffd\ufffd;\ufffd[\ufffd\ufffd1\ufffdw\ufffd\ufffd\ufffd\ufffd\u0007\ufffdz\u0013\ufffd\u001bc6\ufffd]\ufffd\ufffd2\ufffdW=Z\ufffd\ufffd\ufffd^\ufffd\ufffd\ufffdO;F\ufffd\u056f\ufffd\u0013I\b\ufffd\ufffd\u001a\ufffd\ufffd\ufffd\ufffd]obs#\ufffd9$\ufffd#\ufffd~\ufffd\ufffdW\ufffd\ufffd\ufffdU\ufffd\ufffd;Fq\ufffd\ufffd\ufffd\ufffd\u0013\ufffd \ufffd\ufffd\ufffd",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260304101742_a1a80a631e.bin"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260317084522",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/docs/030326/ED_Vote_Center_Locations.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2C54WFJACPW5TFSA5CBR45GVA6QLOOLA",
+     "length": "207308",
+     "replay_error": null,
+     "bytes": 212651,
+     "sha256": "4fb9463415c1006d67eeb7de0eaea488c47e0a8fe9c165c64521ec68560ce2d1",
+     "orig_last_modified": "Wed, 28 Jan 2026 20:42:07 GMT",
+     "orig_date": "Tue, 17 Mar 2026 09:03:45 GMT",
+     "orig_last_modified_local": "2026-01-28 14:42:07",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260128142100-06'00'",
+     "ModDate": "D:20260128142100-06'00'",
+     "Producer": "Microsoft: Print To PDF",
+     "Title": "Microsoft Word - Election Day Vote Center Locations - March 3, 2026",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260317084522_3cf17cca15.pdf"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304053445",
+     "original": "https://www.guadalupetx.gov/page/elections.election3",
+     "mimetype": "text/html",
+     "digest": "74FZYQUEO7JDWMYWGZZZ7WUW2ABFIZIX",
+     "length": "24917",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=guadalupetx.gov&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 31
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=guadalupetx.gov%2Fpage%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    }
+   ],
+   "versions_found": 31,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260527001128",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/docs/030326/ED_Vote_Center_Locations.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2C54WFJACPW5TFSA5CBR45GVA6QLOOLA",
+     "length": "207256"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615010958",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/Bulk%20Clean%20Up%20Event%20May%2016_News%20Release.pdf",
+     "mimetype": "application/pdf",
+     "digest": "P6DPSLJL6IBZR42PMBW7UHI55MFNIURB",
+     "length": "328056"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615011216",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/Appointment%20of%20interim%20Elections%20Admin.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PUX2QOUOQM6TLJPFCUJ3342DOFOAUYZZ",
+     "length": "263046"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615011552",
+     "original": "https://www.guadalupetx.gov/page/open/968/0/FY23%20INDEPENDENT%20AUDIT%20REPORT%20EXEMPTION%20LETTER.PDF",
+     "mimetype": "application/pdf",
+     "digest": "KAOFLYIDJI6ORVC4BIHPFPIFVMNH4TUY",
+     "length": "134462"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615011806",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/Elections%20Admin%20Appointed%20_NRelease031626.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PN5XGVLKMJ5SP5C3BRNVX6BDMSHS45NF",
+     "length": "352503"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615011912",
+     "original": "https://www.guadalupetx.gov/page/open/2540/0/2026%20Guadalupe%20County%20Transfer_Request_pdf.pdf",
+     "mimetype": "application/pdf",
+     "digest": "I62C2UQE4KRIUE5L72BRFKTAVDQ4IKBC",
+     "length": "124244"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615012417",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/Elections%20Office%20Sticker%20Contest%20Winners%20Announced%20_Release%20071525.pdf",
+     "mimetype": "application/pdf",
+     "digest": "A344ZZGNPXBHQPA7YH62JHSZ34BYETCU",
+     "length": "296592"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615012616",
+     "original": "https://www.guadalupetx.gov/upload/page/0086/Guadalupe%20County%20Clerk%20Web%20Fee%20Schedule%202026.1.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C5FYTZY4B4D3SGPZWBUHXB7RBBZEGX64",
+     "length": "359085"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615012854",
+     "original": "https://www.guadalupetx.gov/upload/page/0237/List%20of%20Engineers%20and%20Surveyors%20PUBLIC%20USE%201-22-2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LESCMPUUHG3FDMOFDU7JFK4YBIQW4Z7F",
+     "length": "225675"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615012923",
+     "original": "https://www.guadalupetx.gov/page/open/3640/0/421-Elections_Administrator%20Revised%2006.02.26.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AFKHSMV4NF3WWXS6M4LZQTQZHOVEBIXC",
+     "length": "116143"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615013240",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/Judge%20appoints%20interim%20Comm%20Pct3_F.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SX2JIEWX3YAMX46OXVMYXAL2XTTS3VSH",
+     "length": "207128"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615013649",
+     "original": "https://www.guadalupetx.gov/upload/page/0061/docs/2026%20Calendars/2026%20Guadalupe%20County%20Calendar.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6WAENVVAPPR4RK3J6AWJ3TTHSX2NJUNT",
+     "length": "285158"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615014054",
+     "original": "https://www.guadalupetx.gov/upload/page/0061/docs/2026%20Calendars/Guadalupe%20County%20Holidays%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XN4RFNXELYL47IBRB4MROVG3YIJWOKAW",
+     "length": "268215"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615014118",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/Increase%20of%20Illegal%20Dumping_GuadCo112024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SJBB657UEJT37FY4VZ7A2XWTWUASGGFF",
+     "length": "236003"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615014251",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/GC%20Moody%20Rating%20assiged%20Aaa%20_March.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7ZPJOYZ5SG4QCA5NY43OPICSE2MHTNE6",
+     "length": "284561"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615014335",
+     "original": "https://www.guadalupetx.gov/upload/page/0061/docs/2026%20Calendars/GC%20Commissioner%20Court%20Dates%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5CF2YIQ37AKRETNPKLSNELORG2447G2W",
+     "length": "222237"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615014358",
+     "original": "https://www.guadalupetx.gov/page/open/968/0/Guadalupe%20County%20CSCD%20Financial%20Statements%20August%2031%202022.pdf",
+     "mimetype": "application/pdf",
+     "digest": "D6CSN2EMCN6YERJPIBBTTOIY6T2A55DA",
+     "length": "5244154"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615014659",
+     "original": "https://www.guadalupetx.gov/page/open/1516/0/Exc%20Permit%20Checklist%202.20.2026...pdf",
+     "mimetype": "application/pdf",
+     "digest": "WTWCISY7APAZ4S55DCPY3CJNUR3S5C6H",
+     "length": "1031441"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615014719",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/Guadalupe%20County%20Selects%20Alternate%20Presiding%20Officer.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3OTXQP4PTVPJYJOCTL7GMOTLWMY4GRWA",
+     "length": "178005"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615015021",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/3-26-26%20_Area%20Counties%20and%20Cities%20to%20Conduct%20Emergency%20Notification%20System%20Test%20April%202.pdf",
+     "mimetype": "application/pdf",
+     "digest": "W6TCCK72WP33KDHI7S4BFZ7OOF7D4IJB",
+     "length": "196955"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615015121",
+     "original": "https://www.guadalupetx.gov/page/open/964/0/AnnualFINReportFY15",
+     "mimetype": "application/pdf",
+     "digest": "FEFN2U7TVGZOTZZQUGTB3ZB6HHKZPKBE",
+     "length": "770970"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615015135",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/Release%20_MTP%20Review%20and%20Public%20Meetings.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BWDDE7YYZSVXLNVPHEC4HZJ7BZWGSFIV",
+     "length": "318834"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615015200",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/Release%20_Severe%20Winter%20Weather%20Alert.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XHD4Q2D5IV3SQHIPOHZJRCNRYNKFSNEW",
+     "length": "192333"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615015222",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/Passport%20Night%20022026%20_R1.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AWFUATKWEEEJP7CQZWMGIEJR2LDW5F4V",
+     "length": "343281"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615020035",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/Release%20_MTP%20Public%20Meeting%20June%202.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KFCEAHQKHTYHQQCO6X3E6C2VGOJM76NO",
+     "length": "318506"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615020523",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/Elections%20Office%20Sticker%20Contest%20Announcement%20_Release%20042325.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EONWF4BQ3OBWBL5BXYEPNU3KZISJ532E",
+     "length": "184316"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615021936",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/Old%20Seguin%20Luling%20Rd%20_Release%20_Jan26.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2JE4CX33G56LMQKDBULNJSQTFOBHULSE",
+     "length": "360180"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615022139",
+     "original": "https://www.guadalupetx.gov/page/open/1708/0/2026%20TCDRS%20Handout%20-%20Guadalupe%20County_pdf",
+     "mimetype": "application/pdf",
+     "digest": "D5KSZBEMKBSQRBBG7UEYUKXGJCF6DCW2",
+     "length": "405310"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615022250",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/Constable%20Pct%204%20Donation%20of%20retail%20theft%20items%20_08072025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5DJ2SQQ3SVPIZG6NXNB2CXWTTUOIAWXL",
+     "length": "227524"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615022313",
+     "original": "https://www.guadalupetx.gov/page/open/1708/0/2026%20Family%20Medical%20Leave%20Act_FMLA_pdf",
+     "mimetype": "application/pdf",
+     "digest": "NGO65BKRII36S5NAES7SNUOMM7H7X7N6",
+     "length": "1811753"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615022336",
+     "original": "https://www.guadalupetx.gov/upload/page/0358/docs/061326/New%20Braunfels%20Runoff%20Election%20Notice.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RCSFQF63KAI6NWTAJ5DCVRZFXKVPU2LU",
+     "length": "766242"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615013240",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/Judge%20appoints%20interim%20Comm%20Pct3_F.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SX2JIEWX3YAMX46OXVMYXAL2XTTS3VSH",
+     "length": "207128",
+     "replay_error": null,
+     "bytes": 223964,
+     "sha256": "63865caf9dcac5e3d58aef9311ab9812fc1410f179f67a3715034b5f799d1e24",
+     "orig_last_modified": "Tue, 02 Dec 2025 21:39:48 GMT",
+     "orig_date": "Mon, 15 Jun 2026 01:32:39 GMT",
+     "orig_last_modified_local": "2025-12-02 16:39:48",
+     "upload_on_election_night": false,
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "CreationDate": "D:20251202152212-06'00'",
+     "ModDate": "D:20251202152212-06'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260615013240_a3ae6cba91.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615022250",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/Constable%20Pct%204%20Donation%20of%20retail%20theft%20items%20_08072025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5DJ2SQQ3SVPIZG6NXNB2CXWTTUOIAWXL",
+     "length": "227524",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615015222",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/Passport%20Night%20022026%20_R1.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AWFUATKWEEEJP7CQZWMGIEJR2LDW5F4V",
+     "length": "343281",
+     "replay_error": null,
+     "bytes": 348991,
+     "sha256": "acd48ad4e3e74e1c3a04685e9c54cc2f7bccfb595390d9890452abe6b00d0b72",
+     "orig_last_modified": "Mon, 02 Feb 2026 17:48:42 GMT",
+     "orig_date": "Mon, 15 Jun 2026 01:52:21 GMT",
+     "orig_last_modified_local": "2026-02-02 12:48:42",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  | \\225      \\225 \\225 -    \\225                       ,   202 6   |             \\227     two         | - -   -       :   | \\226     - 7 PM       \\226     6   - 7 PM           - |  |  |     an   .\\224     | :     - -       D   |   .     -   .   Y     |         303 -   I   C:   - 8727   G   |  |  |  |  |  |  |  |  |  |  |  |         \\225    \\225 \\225 -    \\225       \\224 C   .             ,   0   .      ## #     |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260615015222_11e239f42b.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615010958",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/Bulk%20Clean%20Up%20Event%20May%2016_News%20Release.pdf",
+     "mimetype": "application/pdf",
+     "digest": "P6DPSLJL6IBZR42PMBW7UHI55MFNIURB",
+     "length": "328056",
+     "replay_error": null,
+     "bytes": 373907,
+     "sha256": "0cabcf9f17ac343723e101ae8cc4164f725f0b0c324a844ce20faa9aeb1940a1",
+     "orig_last_modified": "Mon, 11 May 2026 16:24:32 GMT",
+     "orig_date": "Mon, 15 Jun 2026 01:09:58 GMT",
+     "orig_last_modified_local": "2026-05-11 11:24:32",
+     "upload_on_election_night": false,
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "CreationDate": "D:20260511111002-05'00'",
+     "ModDate": "D:20260511111002-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260615010958_583647919f.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615011552",
+     "original": "https://www.guadalupetx.gov/page/open/968/0/FY23%20INDEPENDENT%20AUDIT%20REPORT%20EXEMPTION%20LETTER.PDF",
+     "mimetype": "application/pdf",
+     "digest": "KAOFLYIDJI6ORVC4BIHPFPIFVMNH4TUY",
+     "length": "134462",
+     "replay_error": null,
+     "bytes": 142317,
+     "sha256": "6e22d3d450f2fd7ca61eaa0890d0dc995340de71cac3567b8852ff944e5da1d0",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 15 Jun 2026 01:15:52 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "Title": "Texas Department of Criminal Justice",
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "CreationDate": "D:20230807131207-05'00'",
+     "ModDate": "D:20230807131207-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260615011552_2e49ebaf67.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615011806",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/2026/Elections%20Admin%20Appointed%20_NRelease031626.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PN5XGVLKMJ5SP5C3BRNVX6BDMSHS45NF",
+     "length": "352503",
+     "replay_error": null,
+     "bytes": 386366,
+     "sha256": "7a796815eaf3684e97d04f2215bbf48bdc9d7453caa02031ca79c51d30af4f4c",
+     "orig_last_modified": "Mon, 16 Mar 2026 21:04:28 GMT",
+     "orig_date": "Mon, 15 Jun 2026 01:18:05 GMT",
+     "orig_last_modified_local": "2026-03-16 16:04:28",
+     "upload_on_election_night": false,
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "CreationDate": "D:20260316140032-05'00'",
+     "ModDate": "D:20260316140032-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260615011806_1ab91b47c3.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615011912",
+     "original": "https://www.guadalupetx.gov/page/open/2540/0/2026%20Guadalupe%20County%20Transfer_Request_pdf.pdf",
+     "mimetype": "application/pdf",
+     "digest": "I62C2UQE4KRIUE5L72BRFKTAVDQ4IKBC",
+     "length": "124244",
+     "replay_error": null,
+     "bytes": 157508,
+     "sha256": "0cdca71e557dbda9f2401c1f3def3cb6aca49c642f75dd94dce7c6f6e493e15b",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 15 Jun 2026 01:19:11 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "CreationDate": "D:20180323124051-05'00'",
+     "ModDate": "D:20180323124051-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u00002\u00000\u00001\u00000",
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u00002\u00000\u00001\u00000",
+     "Title": "Guadalupe County Employee Transfer Request",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |     W |  |  |  | W E D ate | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260615011912_65ce2807f8.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615012616",
+     "original": "https://www.guadalupetx.gov/upload/page/0086/Guadalupe%20County%20Clerk%20Web%20Fee%20Schedule%202026.1.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C5FYTZY4B4D3SGPZWBUHXB7RBBZEGX64",
+     "length": "359085",
+     "replay_error": null,
+     "bytes": 367755,
+     "sha256": "4d7c676c52b73931b47770868e980f10254a3ad8da38bba2c71e686daf2c3337",
+     "orig_last_modified": "Wed, 18 Feb 2026 22:39:00 GMT",
+     "orig_date": "Mon, 15 Jun 2026 01:26:15 GMT",
+     "orig_last_modified_local": "2026-02-18 17:39:00",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |   P 1   12             s   2 6                           ................................ ................................ ................................ ................................ ..................       $ 2 5 |     ................................ ................................ ................................ ................................ ....              ................................ ................................ ................................ ................................ .................      $ 12 0     ................................ ................................ ................................ ................................      $       ................................ ................................ ................................ ................................ .      $3 5     ................................ ................................ ................................ .....      $ 50   |   ................................ ................................ ................................ ................................ ..      $ 3 0         ................................ ................................ ................................ ...............      $ 15       ................................ ................................ ................................ ................................ ... $2 5       ................................ ................................ ................................ ................................ ....             ................................ ................................ ................................ ..............................      $ 2 2   |   ................................ ................................ ................................ .................             ................................ ................................ ................................ ..............................      $ 2 2     ................................ ................................ ................................ .................         ................................ ................................ ................................ ................................ ..      $ 2 5     A   ................................ ................................ ..............................      $ 2 | 5     ................................ ................................ ................................ ................................ .......      $ 2 5       ................................ ................................ ................................ ................................ .........      $2             ................................ ................................ ................................ ................................ ................            ................................ ................................ ................................ ................................ ..        |     ................................ ................................ ................................ ................................ ..............      $2 1     E     ................................ ................................ ...............................            ................................ ................................ ................................ ................................ .      $2 0       ................................ ................................ ................................ .      $ 8 1         ................................ .......      $ 2 1 |  |     \\226   -   ................................ ................................ .....      $ 18 1       ................................ ................................ ...................      $ 4 6   Du   ................................ ................................ ................................ .............................      $51        ................................ ................................ ................................ .......        - |      ................................ ................................ ................................ ...........              |  |  |  |  |  |  |  | 2  12                    -                                         \\247         +  $1. 0     10 . 00     -                   -                         ........................................................................\\\r........................ ................................................................     ........................................................................\\\r................................................   ........................................................................\\\r.........................................      $   - ........................................................................\\\r........................ ................................   -   ........................................................................\\\r........................ ................................          ........................................................................\\\r........................ ..............................................          .....        ........................................................................\\\r........................ ........................................................        ........................................................................\\\r........................ ..............................................................            ........................................................................\\\r........................ ...................................            ........................................................................\\\r.................      $           ........................................................................\\\r.....................................            ..........................................",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260615012616_717caae6b6.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615012854",
+     "original": "https://www.guadalupetx.gov/upload/page/0237/List%20of%20Engineers%20and%20Surveyors%20PUBLIC%20USE%201-22-2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LESCMPUUHG3FDMOFDU7JFK4YBIQW4Z7F",
+     "length": "225675",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615013649",
+     "original": "https://www.guadalupetx.gov/upload/page/0061/docs/2026%20Calendars/2026%20Guadalupe%20County%20Calendar.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6WAENVVAPPR4RK3J6AWJ3TTHSX2NJUNT",
+     "length": "285158",
+     "replay_error": null,
+     "bytes": 292271,
+     "sha256": "740fd3cd3490d1e90d80b26708947c0c543fc0b8705b24f286ae52455fa7c54b",
+     "orig_last_modified": "Fri, 31 Oct 2025 19:36:00 GMT",
+     "orig_date": "Mon, 15 Jun 2026 01:36:48 GMT",
+     "orig_last_modified_local": "2025-10-31 14:36:00",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | S M T W T F S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 S M T W T F S 1 2 3 4 5 | 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 S M T W T F S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 | S M T W T F S 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 S M T W T F S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2026 |             7           | S M T W T F S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 S M T W T F S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 | S M T W T F S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 S M T W T F S 1 2 3 4 5 6 7 8 9 10 11 12 | 13 14 15 16 17 18 19 20 21 22 23 31 25 26 27 28 29 30 S M T W T F S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 | S M T W T F S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 S M T W T F S 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260615013649_ee4d0a5d7e.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615014054",
+     "original": "https://www.guadalupetx.gov/upload/page/0061/docs/2026%20Calendars/Guadalupe%20County%20Holidays%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XN4RFNXELYL47IBRB4MROVG3YIJWOKAW",
+     "length": "268215",
+     "replay_error": null,
+     "bytes": 276498,
+     "sha256": "0c4d3505fe1cae9f5127669fabef628e8b67b4d24b8b4e0ec1c18bb4e154bda1",
+     "orig_last_modified": "Fri, 31 Oct 2025 19:36:10 GMT",
+     "orig_date": "Mon, 15 Jun 2026 01:40:54 GMT",
+     "orig_last_modified_local": "2025-10-31 14:36:10",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |                       1   |         |     3     5     |   9     3       | 7       9         |     6   7     |             20 2 | 6             |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260615014054_7739d4b59c.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260615014118",
+     "original": "https://www.guadalupetx.gov/upload/page/0131/docs/PIO%20Releases/Increase%20of%20Illegal%20Dumping_GuadCo112024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SJBB657UEJT37FY4VZ7A2XWTWUASGGFF",
+     "length": "236003",
+     "replay_error": null,
+     "bytes": 248161,
+     "sha256": "06e2c0006f3e8a66ab530adb87caee87e0f634ee4a9f5d786e79c3b428f3fc80",
+     "orig_last_modified": "Thu, 21 Nov 2024 19:11:16 GMT",
+     "orig_date": "Mon, 15 Jun 2026 01:41:17 GMT",
+     "orig_last_modified_local": "2024-11-21 14:11:16",
+     "upload_on_election_night": false,
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "CreationDate": "D:20241120150640-06'00'",
+     "ModDate": "D:20241120150640-06'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260615014118_1540fabe0a.pdf"
+    }
+   ]
+  }
+ }
+}

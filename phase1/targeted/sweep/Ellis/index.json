@@ -1,0 +1,246 @@
+{
+ "county": "Ellis",
+ "spec": {
+  "file_prefixes": [
+   "elliscountytx.gov",
+   "livevoterturnout.com/ENR/ellistxenr"
+  ],
+  "page_prefixes": [
+   "livevoterturnout.com/ENR/ellistxenr"
+  ]
+ },
+ "swept_at_utc": "2026-10-02 22:49:34",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=elliscountytx.gov&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fellistxenr&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fellistxenr&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=elliscountytx.gov&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 6
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fellistxenr&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fellistxenr&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 5
+    }
+   ],
+   "versions_found": 5,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304054915",
+     "original": "https://www.livevoterturnout.com/ENR/ellistxenr/4/en/Index_4.html",
+     "mimetype": "text/html",
+     "digest": "EWCJ3MIOZ22OKV4USIXAH4UT3UJVPPJJ",
+     "length": "135663"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304054954",
+     "original": "https://www.livevoterturnout.com/ENR/ellistxenr/5/en/Index_5.html",
+     "mimetype": "text/html",
+     "digest": "UCFNVU54KHWIJ6BD56GXFKBD22SG7IJF",
+     "length": "96673"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260304171233",
+     "original": "https://www.elliscountytx.gov/DocumentCenter/View/22968/260303-Preliminary-Election-Reconciliation---Unoffical-Totals",
+     "mimetype": "application/pdf",
+     "digest": "RB2S3ENJV7YP4565RVWIS5AZQDYCRAKJ",
+     "length": "760838"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260313100551",
+     "original": "https://www.elliscountytx.gov/DocumentCenter/View/18758/Annual-Comprehensive-Financial-Report-2023",
+     "mimetype": "application/pdf",
+     "digest": "6MBALBYODJGMYIYEMPC6GHU746632HXS",
+     "length": "4242436"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318044324",
+     "original": "https://www.elliscountytx.gov/DocumentCenter/View/22466/EVLocations-2026-Prim?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "RM7E2Y5MGDD7WKU7F6CMUBVLBUQ7T56P",
+     "length": "217831"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260313100551",
+     "original": "https://www.elliscountytx.gov/DocumentCenter/View/18758/Annual-Comprehensive-Financial-Report-2023",
+     "mimetype": "application/pdf",
+     "digest": "6MBALBYODJGMYIYEMPC6GHU746632HXS",
+     "length": "4242436",
+     "replay_error": "HTTP 404",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260318044324",
+     "original": "https://www.elliscountytx.gov/DocumentCenter/View/22466/EVLocations-2026-Prim?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "RM7E2Y5MGDD7WKU7F6CMUBVLBUQ7T56P",
+     "length": "217831",
+     "replay_error": null,
+     "bytes": 236365,
+     "sha256": "807a7ecdb4bf16e88ddde1e46d6d9c43e3dea1f4ed5fb7ce1c0b8bc64463ebaf",
+     "orig_last_modified": null,
+     "orig_date": "Wed, 18 Mar 2026 04:43:24 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260112180902-06'00'",
+     "ModDate": "D:20260112180902-06'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260318044324_98cb34055f.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260304171233",
+     "original": "https://www.elliscountytx.gov/DocumentCenter/View/22968/260303-Preliminary-Election-Reconciliation---Unoffical-Totals",
+     "mimetype": "application/pdf",
+     "digest": "RB2S3ENJV7YP4565RVWIS5AZQDYCRAKJ",
+     "length": "760838",
+     "replay_error": "HTTP 404",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304054915",
+     "original": "https://www.livevoterturnout.com/ENR/ellistxenr/4/en/Index_4.html",
+     "mimetype": "text/html",
+     "digest": "EWCJ3MIOZ22OKV4USIXAH4UT3UJVPPJJ",
+     "length": "135663",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304054954",
+     "original": "https://www.livevoterturnout.com/ENR/ellistxenr/5/en/Index_5.html",
+     "mimetype": "text/html",
+     "digest": "UCFNVU54KHWIJ6BD56GXFKBD22SG7IJF",
+     "length": "96673",
+     "replay_error": null,
+     "bytes": 5065943,
+     "sha256": "6d52b3165543b42d86febb00be183bdb8790d6142fe293e07cbf5c1f76807c52",
+     "orig_last_modified": "Wed, 04 Mar 2026 05:34:47 GMT",
+     "orig_date": "Wed, 04 Mar 2026 05:49:53 GMT",
+     "orig_last_modified_local": "2026-03-03 23:34:47",
+     "upload_on_election_night": true,
+     "updated_strings": [
+      "updated 3/3/2026 11:34:46 PM"
+     ],
+     "text_sample": " Election Night Results &times; Filter SELECT ALL SELECT RESULTS WITHIN 2% DEM US Senator DEM US Representative, District 6 DEM Governor DEM Lieutenant Governor DEM Attorney General DEM Comptroller of Public Accounts DEM Comm. of the General Land Office DEM Comm. of Agriculture DEM Railroad Commissioner DEM Chief Justice, Supreme Court DEM Justice, Supreme Court, Pl 2, Unex Term DEM Justice, Supreme Court, Pl 7 DEM Justice, Supreme Court, Pl 8 DEM Judge, Ct of Crim App, Pl 3 DEM Judge, Ct of Crim App, Pl 4 DEM Judge, Ct of Crim App, Pl 9 DEM St. Board of Education, Dist 14 DEM State Senator, District 2 DEM State Senator, District 22 DEM State Representative, Dist. 10 DEM Chief Justice, 15th Court of Appeals DEM Justice, 15th Court of Appeals, Pl 2 DEM Justice, 15th Court of Appeals, Pl 3 DEM County Commissioner, Pct 4 DEM Justice of the Peace, Pct No. 4 DEM County Chair DEM Proposition #1 DEM Proposition #2 DEM Proposition #3 DEM Proposition #4 DEM Proposition #5 DEM Proposition #6 DEM Proposition #7 DEM Proposition #8 DEM Proposition #9 DEM Proposition #10 DEM Proposition #11 DEM Proposition #12 DEM Proposition #13 1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021 1022 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 1042 1043 1044 1045 1046 1047 1048 1049 1050 1051 1052 1053 1054 1055 1056 1057 1058 1059 1060 1061 Cancel Apply Skip to Content Seleccione el Idioma: English Espa\u00f1ol Ver la P\u00e1gina Traducida Website Updated: 3/3/2026 11:34:46 PM Refresh Display Auto-Refresh Loading... Ellis County, Texas Election Department March 3, 2026 - Democratic Primary Election Early Voting results will be posted at 7 p.m. on Election Night. Election Day results will be posted as they are received on election night. Toggle Navigation Results Precincts Reporting Results Precincts Reporting Unofficial Election Results Absentee: Complete Early Voting: Complete Election Day: Complete Voter Turnout 12.3% Ballots Counted 18,806 Absentee 209 Early Voting 12,477 Election Day 6,120 Registered Voters 152,671 Vote Centers Reporting 100% Not Reporting 0 Partially Reporting 0 Fully Reporting 30 Total Precincts 30 List Slideshow Tabular View Pie Chart Print Page Back Precinct Results Filter Showing 39 of 39 contests Showing of Precincts Show All Only Show Selected Precinct: 1001 1001 Precinct: 1001 - Contest: DEM US Senator 1001 - DEM US Senator Candidate Name Total Votes Percentage James Talarico James Talarico 73 13.72% Ahmad R. Hassan Ahmad R. Hassan 3 0.56% Jasmine Crockett Jasmine Crockett 456 85.71% Precinct: 1001 - Contest: DEM US Representative, District 6 1001 - DEM US Representative, District 6 Candidate Name Total Votes Percentage Danny Minton Danny Minton 275 100.00% Precinct: 1001 - Contest: DEM Governor 1001 - DEM Governor Candidate Name Total Votes Percentage Andrew White Andrew White 55 12.91% Angela \"TiaAngie\" Villescaz Angela \"TiaAngie\" Villescaz 71 16.67% Chris",
+     "printed_on_election_night": true,
+     "saved_file": "2026_primary_20260304054954_8115d68933.html"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=elliscountytx.gov&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fellistxenr&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=livevoterturnout.com%2FENR%2Fellistxenr&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    }
+   ],
+   "versions_found": 1,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526210012",
+     "original": "https://www.livevoterturnout.com/ENR/ellistxenr/8/en/Index_8.html",
+     "mimetype": "text/html",
+     "digest": "XWOFVOUNXTKLG33X7XUZMJXUIS6SQA2Q",
+     "length": "51331"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526210012",
+     "original": "https://www.livevoterturnout.com/ENR/ellistxenr/8/en/Index_8.html",
+     "mimetype": "text/html",
+     "digest": "XWOFVOUNXTKLG33X7XUZMJXUIS6SQA2Q",
+     "length": "51331",
+     "replay_error": null,
+     "bytes": 50655,
+     "sha256": "a840c8dfd1845fc40dd09d3fabbcd18f857115053d699ddc5b850e6294eb2d2e",
+     "orig_last_modified": "Sat, 09 May 2026 00:39:58 GMT",
+     "orig_date": "Tue, 26 May 2026 21:00:12 GMT",
+     "orig_last_modified_local": "2026-05-08 19:39:58",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0002\ufffd\ufffdV\ufffdo\ufffd6\u0010~n\ufffd\ufffd\u000f\ufffd\ufffd!\u001b\u0010\ufffdr\u0012w\ufffdke\u0003\ufffd>-\u0018\ufffd\ufffd\ufffdkq\ufffdN\u0012\u0013\ufffdT\u0273lu\ufffd\ufffd>Prj[\ufffd\ufffd\u0015\ufffd\u0005=\ufffd\ufffdw\ufffd \ufffd\ufffd\ufffd\ufffd\ufffdd\ufffdSb\u0004\ufffd%\ufffd\ufffd u}\ufffd\ufffd\u0017S\ufffd\ufffd\ufffd \ufffd\ufffdr\u000f!\ufffd\ufffd\u0016H\ufffdr\ufffd\ufffd\ufffd\u05d9\ufffd\ufffd\ufffd\ufffdhBM\ufffds]b\ufffdD\ufffd\ufffd\u0002\ufffd\u0005 =M\ufffdD\u000e\ufffd!E\ufffd\ufffdR\ufffd>`\ufffd%\ufffd\ufffd\u0002\ufffd\ufffd\ufffd8/\ufffd\ufffd5\u0679L(\ufffd\u0012\ufffd\ufffd@\ufffd,\u0399\u0512$(\ufffd\u0004(\ufffdF\ufffdl\ufffd\ufffd6+\ufffd\u0015F5\ufffd\u0015qiM\ufffd\ufffd\ufffd(0\u0644$\ufffdu\ufffd>)\u0014$\ufffdf\u007f\ufffd,'v\ufffdn\ufffdh\ufffd\ufffd\ufffd\ufffd\u0018;I\ufffd\u0002o8\u0002D\ufffd\u073b\ufffd\u001a\ufffd&\ufffd \u0017\ufffd\ufffdi\ufffd \u0019\ufffd\u7b189\ufffd\u0016+P2\ufffd]\ufffdw\u0016\ufffd\u0002z\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\ufffd \ufffd\ufffd\u0007\ufffd\ufffd0\ufffd\ufffd\ufffd +Kb \u0010p\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0014\ufffd\u00c0\ufffd[.#\ufffd\u0000\u0015\ufffd\ufffd`)\ufffd ,+- \ufffd\u0005\ufffd\ufffd5\ufffdX\u0010,y\ufffd-z ^\ufffdL\ufffd\u050f\u0322\ufffd\u0002G\ufffdB\ufffd#R\ufffdr\ufffdi\u0014 \u0006\ufffd\ufffdu9XL\ufffd-b\ufffd\u001aM \ufffd\ufffdL\ufffd\ufffdB\ufffdpM`^\ufffd\u001a\u001bC\ufffd,\ufffd\ufffd\ufffdo^\ufffd\ufffd \ufffd\\:\ufffd\ufffd\ufffd|R \ufffd\ufffdVV\ufffdL\ufffd\u007f\ufffd\ufffdT\ufffd\ufffd1\ufffdXw4\ufffd\ufffd\u0010\ufffd\ufffd w\ufffd\ufffd\u000e.cAg\ufffd\ufffd\ufffd\ufffd\ufffdc\ufffd8\ufffd\ufffd*\ufffd\b/\u0785\ufffd\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffdY\ufffdeM\u03eb*\ufffd[5\ufffd\u0010\ufffd\ufffdus\ufffd\ufffd\bz\ufffdjfA\ufffd\ufffdpk\"ke\ufffd?-vV\ufffd\ufffd\ufffd\u0011p\u00c7\ufffd3\ufffdu\ufffd\ufffd\u0007wv\ufffd)\ufffd\ufffdqo\ufffd\ufffd\ufffd\ufffd\u05eb\ufffdZ\ufffd\ufffd C\ufffd\u007f\ufffd\ufffd\u0011\ufffdY\ufffdG\ufffd\ufffd\u0004\ufffdK\u0001\ufffdv\u0099\\\ufffd\ufffdr\ufffd+\ufffdw\ufffd/ >\"\ufffdT\ufffd}\ufffdu\ufffd\ufffd\ufffd\ufffd2\ufffd\ufffd\ufffd\u0013v9\u0018W\ufffd\u000f\ufffd\ufffd\ufffd\ufffd\ufffdiKyi\ufffd\ufffd-\ufffd\u00041\ufffd\u0013\u0004H\ufffd\ufffd\ufffds\ufffd\ufffd\ufffd\ufffd\ufffd i4o\ufffd\ufffd/,W\ufffd\ufffd\ufffd\u000e\ufffd }\ufffdL\ufffdU\u0018\ufffd@ \ufffd\ufffd\u051cL9a\ufffd^\ufffd\ufffd\ufffd\ufffd*0}F\ufffd\ufffd\ufffd\u0010\ufffd\u0013\ufffd\ufffdMD6\u000e\u007f\u07ab\ufffd\ufffd\ufffd\u000f\ufffd\u001bo9a\ufffd\ufffdaf\ufffdKd\ufffd\ufffd&\ufffd/\ufffd\ufffd\u0347\ufffd\ufffd\u03c9\ufffdC\u0015\u001b\ufffd\ufffd\ufffd\ufffdQ\ufffd`\ufffd(\ufffd\ufffd\ufffdB\ufffd\ufffd\ufffd\ufffdo\ufffdc\ufffd\ufffdy\ufffd 6\ufffd\ufffd\ufffdQg\ufffdV\ufffd\ufffd\ufffdE{\ufffd\ufffd\ufffd/ N\ufffd\ufffd}u\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u09a3\ufffd)\ufffd\ufffd)m\u0001?\ufffd\ufffdb\ufffd\ufffd\ufffdW\ufffdi6^\ufffd\ufffdwFv(\ufffdy\ufffd\ufffd]~\ufffd3|\ufffd\ufffd\ufffdJ\ufffd2\ufffd\u0005]h\ufffd\ufffd\ufffd \u0011'\u018b\ufffd\ufffdr\ufffd]\ufffd\u007f5\ufffd6/\ufffdcN \ufffd/\ufffd m,\ufffd\u0000\ufffd\ufffd\ufffd\u0006w\ufffd \u0002\u00113'\u0013\ufffda\ufffdkXE\ufffd8\ufffd \u0012\ufffd\ufffdU2D\ufffd\ufffd&8\u0013\ufffd \ufffdK\ufffd\ufffd 5Ap\ufffd\ufffd\ufffd\ufffd\u05c8 l\ufffd\ufffdp\ufffdGvN\ufffdk\ufffd4 \ufffdykH\ufffd\ufffd\ufffd\ufffdP\u001a\ufffd^|\ufffd;\ufffd\ufffdq_yeT\ufffdZ\u072a\ufffdN\ufffd@\ufffdZ\ufffd \ufffd\ufffdr {\ufffdE\ufffd *\ufffd\ufffdP\ufffd\u0015a>\u0017O\u000e\ufffd\ufffd\ufffd\u001a\u000e\ufffd \ufffd\ufffd+)\ufffdd\u010b9\ufffd E\u0019\ufffd\ufffdZ\ufffdKy \ufffd\u68b9\ufffd\ufffd\ufffdA\u0555T\ufffdF\ufffd \ufffd,\u0012L\u0001v.\ufffd96H\ufffd3\ufffd\ufffd\u001b\ufffd\ufffdU\ufffd\ufffd\ufffdn\ufffd\ufffdz\ufffd\ufffdk\ufffd\ufffdw\ufffdSP\ufffdp\ufffd\ufffd\ufffd\ufffd\u001a(&\u001b\u065c\ufffd\ufffd\ufffd\ufffd5\u032b\u0320\u802f\u0018\u067b\ufffd9V)\ufffd\ufffd\ufffdw\ufffdqw\u0013\ufffd'\ufffd&\ufffd\u020c\ufffd\ufffd\ufffdJ7\ufffd93\ufffd\ufffdn#U \ufffd6\ufffd#IU\ufffd\ufffd\ufffdR \"\ufffd\ufffdT\ufffdV([Pk\u000e\u0492\ufffd\ufffd\ufffd\u02a2\u0011\u7e64\ufffd\ufffd2\u0017W\ufffd,E \ufffd\ufffdQ\u0005\ufffd\ufffd^$\u0010Re\ufffd\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd3y\ufffdY\ufffd\ufffd(1C\ufffd\b\ufffd\ufffd\ufffd}\u007f\ufffd\ufffdt\ufffd=\ufffdh:=\ufffd \ufffd\ufffd!\ufffdgW\ufffd\ufffdi \"\u0017 A\ufffd&Do/Yp\ufffd%\ufffd\ufffd\ufffdj\ufffd@kv 4\ufffd4\ufffd\ufffdVf\ufffd\u0013mE\ufffd;\u0011\ufffd\ufffd\ufffd\ufffd\u0386\ufffd\ufffdY\ufffd\ufffd\ufffd\u0004\ufffd\ufffdx\ufffd{\ufffd0\ufffd?\ufffd\ufffd\ufffd\ufffd/\ufffd~\ufffd{\ufffd\ufffdw\u0011\ufffdb[\ufffd4\ufffd\u0017/:\ufffdg79\u0019\u001a\u033c\u0011M\ufffd\ufffd I\ufffd~\ufffd\ufffd\ufffd\ufffdR\u0012\ufffd \ufffd\u0013\ufffdt \ufffd\ufffd\ufffd\ud684Xu\\q\ufffdJ{S\ufffd\u0017@/\u00e2\ufffd\ufffdC\u0018\u0017b\ufffdPa\ufffd\u0001 W\ufffd\ufffdu\ufffdT6I\ufffdx.K\ufffd?\ufffdz\ufffd\u0013\ufffd\ufffd\ufffd)\u03a9\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0016\u03d7\ufffd&{?\u0016\ufffdJ\ufffdi\ufffd\ufffdc\ufffd\u0016D\u0000#\ufffd\ufffd\ufffd\u0005O\ufffd\ufffd9\ufffdpC\ufffd\ufffdT\ufffdptz\ufffdPe\ufffd\"6(\ufffd\ufffd\ufffd \ufffd\ufffdOo0\ufffdWg~\ufffd\ufffdH-;Uj|Qk{\ufffd`\ufffdG\ufffd/\ufffdq\ufffdy\ufffd+\ufffdq\ufffd\ufffd\u0458s\u0016\u00dd\ufffd\ufffd \u0746|\ufffd\ufffd\u000e\ufffd\ufffd9\ufffd\ufffd>\u000e\ufffd7s\u020f\ufffdw\ufffd?\u0000\u0000\u0000\ufffd\ufffd\u031b\ufffdJ\ufffd@\u0010\ufffd_e\ufffd\u0004\ufffdJg\ufffd9\\\ufffd\u0003\"T\ufffdE\ufffd\ub46c\ufffd\ufffd\ufffdl\ufffd\u0637\ufffdQ\ufffd\u001b\ufffdi\ufffdC\ufffd/\ufffd\ufffd\ufffde\ufffd\ufffd$\u007f\u0000I% \ufffd\u000e\ufffd\ufffd\u001b\ufffdu\u05f9\u0015\ufffd\u047a\ufffd\ufffd\ufffd \ufffd\ufffd\ufffdA9\ufffd\ufffd\ufffd\ufffd\ufffdz\u000e2\ufffdv\ufffdS;\u001b\ufffd\ufffdO} \ufffd\ufffd\ufffd\ufffd]\ufffd\ufffd\u0007\ufffd\ufffd\ufffd`\ufffd.\ufffdK\ufffds\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_~\ufffdPH\ufffd \ufffd\ufffdP\ufffd\u0010\u0710\ufffdv\u0018\ufffd\ufffdp\ufffd}\ufffds\ufffd:\ufffdu\ufffd=\ufffd\ufffd=u5T\ufffd\ufffdw\ufffdg\ufffd\ufffd\u0011\ufffdEq\u0004\"\ufffdPP P*\u07ffC\u0019\u0007 #\ufffd0J4\ufffd6\u001a\u0017q\ufffd\u0010\u0005\u0012\u0013%\u001a\ufffd6\u001a\ufffdq\ufffd\u0010}\u0012\ufffd\ufffd\ufffds\u0002\u001a\ufffd\u00035\ufffd8t\u001aE}D%\u007f\u4720\ufffd=\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd6m\ufffdR\ufffdr\ufffd\ufffd*\ufffd\ufffd+rNX\ufffd\ufffd5 \ufffd\ufffd\u0006nn\ufffd#\ufffd\ufffd\ufffd\ufffd\u0015[\u0173\ufffdl=\ufffd \ufffd\ufffd\u04c8\ufffdi\ufffd\u0713sv\u0002`\ufffdg\ufffd\ufffd\ufffd\ufffdSXZ\ufffdN\u000eCtN\ufffd\u471c\u0013\ufffdx\ufffd\u0002\u0000\u0000\ufffd\ufffd\u031a\ufffdj\ufffd@\u0010F_%/`\ufffd3j\ufffd&\u0017i\u0011\ufffd\ufffd\u0182\u05cb]I@\u0732\ufffd\ufffd\ufffd\ufffd\ufffdR\ufffd\ufffd\ufffd\u00182l\ufffd\u0005>\ufffd\ufffd2\ufffd\ufffdY\ufffd;\ufffd)\ufffdA\ufffdxw/\ufffd\ufffd\u0005\ufffd\ufffdIJ\u225c\u0006$\ufffdt\ufffd\ufffd\ufffdIJ\ufffd\ufffd\ufffd\u0006$\ufffdt\ufffd\ufffd JJ \ufffd\ufffd\u0007H~\ufffdi\ufffd\ufffd\u0010u\ufffd\ufffdt\u00149w,V\ufffdlJ\ufffd.+\ufffd\ufffd\ufffd\u2a58\ufffd\ufffd^\ufffd\ufffd\u0010\u0554\ufffd\ufffd\u00149\ufffd@D\ufffd\ufffd(\ufffd\ufffd$\ufffd\ufffdi\u0007\ufffd\ufffd\ufffd\u00105\ufffd\ufffd4\u00149u z\ufffd\ufffdH\ufffdM\ufffd*\ufffd?}\ufffd\ufffd\"v\ufffd,\ufffd&+\ufffd&rnw\ufffd\ufffd\ufffdc\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\u05059\u0019\ufffd]\u007f3\u0019\ufffd\ufffd\ufffdJ\ufffd\ufffd\ufffdZ \ufffd\u0012\u000eQ4YI4\ufffd3\u0333\ufffd\ufffd>\ufffd\ufffd\u0006\ufffd \u0011t\ufffdI2&\ufffd\ufffd\\I4\ufffd\u04c0\ufffdM\u0011I\ufffd\ufffd\u0003\ufffdk\ufffdH\ufffd\ufffd@\ufffd\u0370\ufffd \\ \ufffd\ufffd\ufffd\ufffd\u0000\ufffdN\ufffd\u045f\ufffd(\ufffd\ufffd$\ufffd\ufffd\u0019\ufffd \u007f[\ufffdI\u0001\ufffd\ufffd\u0000\ufffd\ufffd\u00129\u0000P}m\u0761\ufffd\u032e\ufffd]t\ufffd\ufffd\u0002\u0000\u0000\ufffd\ufffd\u011cMj\ufffd0\u0010\ufffd\ufffd\"z\u0000[\ufffd\u01e4%\ufffdM\ufffde\ufffdh\ufffd\u0017\ufffd\ufffd`hb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd$F\ufffd\ufffdg\ufffd\ufffd\ufffd\ufffd\u0010\ufffd\u001bI3s\u07534\ufffdM\u0015,\ufffdw\ufffd\ufffd\uf8bb'\u00112cBH\ufffdq\ufffd\u007f\u007f\u001a[=Zw[~\ufffdo\ufffd'$\ufffd\ufffd4I\ufffd\u0318\ufffd\u0012uR-\ufffdL\ufffd=\ufffd\u001b!z-\u0001$M\u0002\u0013M\ufffd\ufffd3\ufffd\u0010\ufffd:I\ufffd\ufffdD\ufffd\ufffd\ufffd\ufffdz \ufffd:I\ufffd\ufffdD\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd)\ufffd>\ufffd\ufffd \ufffd@\bL@\ufffd:\u0013\ufffdG?F\u0001\ufffd\ufffd$\ufffd\ufffd\u025e\ufffd\u000e\u0017c\ufffd\ufffdZ\ufffd\ufffd\ufffd\ufffd8\ufffd\u0015E\ufffdv\ufffd.;\ufffd\ufffd$Bm}\ufffd\u0000$\u0005\u0002\u0013\u0005\ufffdN\ufffd\u0169\ufffd\u0018 \ufffd+\ufffd\ufffdJ\ufffdl\ufffd\ufffdX\ufffd\u0017dCU\ufffdu\u001a$\u0012\u0002\u0013\u0012\ufffd\u03824\ufffd\ufffd\ufffd\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffdi\ufffd\ufffd\bL\u0208: \ufffd(6\ufffd\ufffd\ufffd\ufffdF\ufffd\ufffdF\ufffd\ufffd\ufffd\u0014\ufffd5e\ufffd\ufffdV\ufffd\u0011\u0005d0\u0013\u001bS\ufffd\ufffd ?\ufffd\ufffdw_\ufffdn\ufffd\ufffd\u064a/\ufffd\u07ce\ufffd)!\ufffd\ufffd QJ)\u01e8\u0016^\ufffdr\u0007z\u0472\ufffd\ufffd\ufffd\ufffd)\ufffdZH)\ufffd\ufffdJf*\ufffd\ufffd|VY\ufffdzLi\ufffd5\u072e_{\ufffdJ\ufffd\ufffdUo]A\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0018\ufffd\ufffdk\ufffd\ufffdx7\ufffd \bA\u0018\ufffd~\ufffddF\ufffdh\ufffd\ufffd\ufffd\ufffdT\ufffd\ufffd\u0006z \ufffd\ufffd\ufffd\ufffd\\^\ufffd\ufffda2 \ufffdU\ufffdp\u0010\ufffd\ufffd\ufffd#?B\ufffd{9\ufffd3\ufffd\ufffdU\ufffd\bp#\ufffd\u04d6P\ufffd^\ufffd\ufffd7u\ufffd2\u0002\ufffdRK\u0012\ufffd\ufffd\u053dl\ufffd\u0019o\ufffd*_ \ufffd\ufffd%|\u05bdT\ufffd\u0019o\ufffd*Y \ufffd\u0011D\ufffd\ufffd{y\ufffd3\ufffd\ufffdU\ufffd\ufffdw\ufffd\ufffd\ufffd%\ufffdz( \ufffd\u0019g\ufffdo\u0019\ufffd\ufffd]w\u0012\u0721\ufffd\ufffd\ufffd\ufffdx\ufffd\ufffd\ufffdQ'\ufffd\u0015:\ufffd\ufffd \ufffd\ufffd\ufffd 3\ufffd\ufffd\ufffdP\ufffd 1[/\ufffd \ufffdU\ufffd\ufffdC\ufffd \ufffd'A\u000e\ufffd\ufffdp\ufffd\ufffd\ufffd\ufffd@]\ufffd\ufffd \u001bu\ufffd\u000e\ufffd0\ufffd\ufffdr\ufffd@\u074c\ufffd\ufffdR\ufffd\ufffd%|\ufffd\u0013Z\ufffd\ufffd \u0019\u041b\ufffd1+\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd`g\ufffd\ufffd\ufffd\ufffdP bG\u0012\ufffd^\ufffd\ufffd\u0002\ufffd\ufffd\ufffdn2J\ufffd\ufffdX\ufffd\ufffdSZ \u0007\ufffd\ufffd\ufffd\ufffd/wI\ufffd\ufffd\ufffd%' \ufffd)\ufffd\ufffd\ufffdT\ufffd\ufffd\ufffd9\ufffdj\ufffd\ufffdFF\ufffd\ufffd\ufffd\ufffd\ufffd:\ufffd\u0331UwL\ufffd~\ufffd\u0764\ufffdB\ufffd \ufffd5\ufffd\ufffd\ufffdf\ufffdM\ufffd/\ufffd\ufffdO\ufffd\u0019\ufffd\u0001\ufffd\ufffd\ufffdf~\ufffd\ufffd\ufffdSOX\ufffdz\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd&\ufffd\ufffd0\ufffd\ufffd \ufffd7\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd] \ufffd0\b\ufffdoT\ufffd\ufffd \ufffd\ufffd/\ufffdL[\ufffd\ufffdy\u0010\"\ufffd.\ufffd!?~\ufffdQ^}$\ufffd\ufffd:\ufffdY\ufffdc\ufffd\ufffd\ufffd\ufffd\u03b0Oy\ufffd*\u0000\ufffd\ufffd\ufffd@\ufffd\ufffd\u00004\ufffd27 rg \ufffd=\ufffd\u0005T\ufffd \u0016H\u04bfo\ufffd`\u0349)\ufffd\ufffd:d\u007ff&I\ufffd:\ufffd\ufffd\u0001\ufffd6\ufffd\ufffdp\ufffd:\ufffd\ufffdr\u0007\ufffd\ufffd\u01f4\ufffdY\u0001\ufffd\ufffd\u0007\u0003\ufffd`{ \ufffd>d\ufffd\u0007\ufffd\ufffd\ufffd\u0016 \ufffd\ufffd\u0004\u0014\ufffd\ufffd\ufffd\ufffd\u0012$ @\ufffdc\ufffd\ufffd\u0007\ufffd:\ufffd(`\ufffd9iI\ufffd \ufffd\u0002\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u00004\u0010\ufffd\ufffd\ufffd\u0000\ufffd\ufffd|\ufffd\ufffdn\ufffd\u0001h\ufffd\ufffd\u000eC\ufffd\ufffd\ufffd*\ufffd\ufffd\ufffd\ufffd:P\u0005\ufffdI\ufffd&m\ufffd\ufffd\ufffd\ufffduL\ufffd\ufffdH\ufffd\ufffdf\ufffdns\u0001\ufffdh\ufffdo\u0016 X\u00066T\ufffd\ufffdk\ufffdj\u0014\ufffd\u000f\ufffdW \\\ufffdV ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260526210012_48ce061902.html"
+    }
+   ]
+  }
+ }
+}

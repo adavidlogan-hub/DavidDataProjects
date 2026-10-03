@@ -1,0 +1,218 @@
+{
+ "county": "Kerr",
+ "spec": {
+  "file_prefixes": [
+   "kerrcountytx.gov",
+   "legacy.co.kerr.tx.us"
+  ],
+  "page_prefixes": [
+   "legacy.co.kerr.tx.us/elections/results/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 01:40:33",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=kerrcountytx.gov&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us%2Felections%2Fresults%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=kerrcountytx.gov&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us%2Felections%2Fresults%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 17
+    }
+   ],
+   "versions_found": 2,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260311222259",
+     "original": "https://legacy.co.kerr.tx.us/commcrt/agenda/2026/2026-03-09%20Agenda.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DAYOM6FTKQKAMHKDF7ZFQWPCWSV6ABZL",
+     "length": "1369946"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260312003040",
+     "original": "https://legacy.co.kerr.tx.us/elections/docs/2026-03-03/2026.02.19_REPUBLICAN-EARLY_VOTERS.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4EJJP3GP3XAURF53B4JFOQMSFQMUQW7O",
+     "length": "62294"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260311222259",
+     "original": "https://legacy.co.kerr.tx.us/commcrt/agenda/2026/2026-03-09%20Agenda.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DAYOM6FTKQKAMHKDF7ZFQWPCWSV6ABZL",
+     "length": "1369946",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260312003040",
+     "original": "https://legacy.co.kerr.tx.us/elections/docs/2026-03-03/2026.02.19_REPUBLICAN-EARLY_VOTERS.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4EJJP3GP3XAURF53B4JFOQMSFQMUQW7O",
+     "length": "62294",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=kerrcountytx.gov&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us%2Felections%2Fresults%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 3,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260603202141",
+     "original": "https://legacy.co.kerr.tx.us/auditor/docs/2026-01-05_IRSMileageRatefor2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CDJ5A4YEWIHHBUTCJM3ISFM3RQ5EHOUF",
+     "length": "46224"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608174756",
+     "original": "https://legacy.co.kerr.tx.us/notices/docs/2026-TDA_Burn_Plan-TEMPLATE.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VWNOULVNUC4XAOW5BDI7D5QB4R7CTXAM",
+     "length": "70415"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608174805",
+     "original": "https://legacy.co.kerr.tx.us/notices/docs/2026-TPWD_Prescribed_Burn_Plan-BLANK.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VTTPHGEJH3TD22TPACZYCZBPXAMV3DV7",
+     "length": "819146"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260603202141",
+     "original": "https://legacy.co.kerr.tx.us/auditor/docs/2026-01-05_IRSMileageRatefor2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CDJ5A4YEWIHHBUTCJM3ISFM3RQ5EHOUF",
+     "length": "46224",
+     "replay_error": null,
+     "bytes": 49381,
+     "sha256": "6074a063c242e83e64bbc21a5ba4311f9eb18d592d95d0b89d89af643e581803",
+     "orig_last_modified": "Mon, 05 Jan 2026 14:43:38 GMT",
+     "orig_date": "Wed, 03 Jun 2026 20:21:41 GMT",
+     "orig_last_modified_local": "2026-01-05 09:43:38",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260603202141_30e33759a6.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608174756",
+     "original": "https://legacy.co.kerr.tx.us/notices/docs/2026-TDA_Burn_Plan-TEMPLATE.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VWNOULVNUC4XAOW5BDI7D5QB4R7CTXAM",
+     "length": "70415",
+     "replay_error": null,
+     "bytes": 104982,
+     "sha256": "a985d14a54b765c9b9d2ef025c07a7fe350e1a7e451d947e6e4b72c2d943f356",
+     "orig_last_modified": "Wed, 01 Apr 2026 22:46:50 GMT",
+     "orig_date": "Mon, 08 Jun 2026 17:47:56 GMT",
+     "orig_last_modified_local": "2026-04-01 17:46:50",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  | n |  |  |  |  |  |  | - 1   -         | - 7476     - - - - - | -             |                            |                    |           |   T      Regional  Fire  Coordinator        | -       |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260608174756_4d3fbb2eb8.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260608174805",
+     "original": "https://legacy.co.kerr.tx.us/notices/docs/2026-TPWD_Prescribed_Burn_Plan-BLANK.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VTTPHGEJH3TD22TPACZYCZBPXAMV3DV7",
+     "length": "819146",
+     "replay_error": null,
+     "bytes": 1087911,
+     "sha256": "0eacbadb457b98778bb35f4d0a0fbe9bc27afbd03aeb6e2bd98960687d6dd0b5",
+     "orig_last_modified": "Wed, 01 Apr 2026 23:30:59 GMT",
+     "orig_date": "Mon, 08 Jun 2026 17:48:05 GMT",
+     "orig_last_modified_local": "2026-04-01 18:30:59",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 14   14   -                 - - 1112 | 13   14   -   C.                                     tag   in         site                         - up                                 P                       -               -   - up             - e.           | 12   14   -   B. A. B. C. D. E. F. G. A. B. C. D. E. A. B.   \\( \\) C. A. B. C. D. | 11   14   -   17 A. - A NO         NO   B NO   NO     -     s     -       -               Date   | 10   14   -                                     , 20         | 9   14   -   15 :   fi etc. | 8   14   -   B.   | 7   14   -   P -   A A.                         \\260 F\\):     :     :             :   :             F\\):     :         1 - : 10 - :                             | 6   14   -   e  e  th e                    l   r   Quality Smoke-Sensitive Receptors:   No   Yes Potential Impacted Areas:    No   Yes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | -   Page  5   of  14   Burn  Unit\\(s\\):     If  a  emergency.    to .  a  T est   F ire - :                                             \\(t e  e  e  e  e  th e  el  e  e  at  gn e  e  e  e  t.  e  coordinate  all  |  |  |  |  |  |  |  |  |  | 4   14   -                                       s       Communication       Safety a  First  at  |  |  |  |  |  |  |  |  |  |  |  |  | Burn  Unit\\(s\\):    3   14   -   C. Constraints: Blackline: Other: Mow:   A  On a  Notifications:                   Positions: Crew  Size  -   |  |  |  |  |  |  |  |  |  |  |  |  |       2   14   -   Results: . Prescribed Burn Justification    Complete  a  Prescription must   represent a  successful burn.    that conditions  at    range. Conversely,  a                -   -             1 -   10 -   100 -                   Scheduling Pr |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260608174805_dbc4d6b48e.pdf"
+    }
+   ]
+  }
+ }
+}

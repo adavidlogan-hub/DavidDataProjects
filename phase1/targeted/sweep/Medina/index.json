@@ -1,0 +1,95 @@
+{
+ "county": "Medina",
+ "spec": {
+  "file_prefixes": [
+   "medinatx.gov"
+  ],
+  "page_prefixes": [
+   "medinatx.gov/page/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 01:54:28",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov%2Fpage%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov%2Fpage%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 19
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=medinatx.gov%2Fpage%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 6
+    }
+   ],
+   "versions_found": 1,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526202024",
+     "original": "https://www.medinatx.gov/page/Elections",
+     "mimetype": "text/html",
+     "digest": "G3T6YT7VMHYM4BDYE2LA33WNY2RFVYFB",
+     "length": "14687"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526202024",
+     "original": "https://www.medinatx.gov/page/Elections",
+     "mimetype": "text/html",
+     "digest": "G3T6YT7VMHYM4BDYE2LA33WNY2RFVYFB",
+     "length": "14687",
+     "replay_error": null,
+     "bytes": 69216,
+     "sha256": "3c40250e879e79b75f9d111cfdc668024052ff0ec58c4b477f85d47ad48ae713",
+     "orig_last_modified": null,
+     "orig_date": "Tue, 26 May 2026 20:20:23 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Elections | Medina County TX Skip Navigation HOME SITEMAP TRANSLATE &nbsp;&nbsp;&nbsp; Search Toggle main menu visibility Menu About Precinct Map Subdivision Map Historical Commission Seco Creek Flood Mitigation Project Government Commissioners Court County Clerk County Treasurer Treasurer Home and Financial Reports Financial Reports 2026 Financial Reports 2025 Financial Report Archive County Auditor Tax Assessor Collector Tax Assessor Collector - Home Taxing Units County Court at Law Constable Sheriff Justice of the Peace District Court Judge District Clerk District Attorney Departments Elections Emergency Management/ Fire Marshall Cooperative Extension Office Health Unit Human Resources 911 Communications District Economic Development WIC Environmental Health Group Indigent Defense/Pre-Trial Services Veteran Services Financial Transparency Public Notices Public Information & Notices Public Information Notice of Trustee Sales Bid Notices Commissioners Court Agendas & Minutes Notice of Trustee Sales Employment Opportunities Job Openings Law Enforcement Applicants How Do I... Pay a Traffic Citation Elections Medina County Elections Toggle main menu visibility Menu Elections - Home Elections 2026 Elections 2024-2025 Elections 2016-2023 REGISTER TO VOTE The last day to register to vote for the May 2, 2026 Joint City-Schools General and Special Election is Thursday, April 2, 2026. The last day to register to vote for the May 26, 2026 Primary Run-off is Monday, April 27, 2026. You can find out if you're already registered or you may fill out an informal application here . Print it, sign it and mail the application to Medina County Elections Office, 1300 Ave M, Rm 108, Hondo, TX 78861. Elections Administrator Jeanie L. Longoria jean.longoria@medinatx.gov Assistant Elections Administrator Debra Brashear debra.brashear@medinatx.gov Elections Clerk Bobbie J. Krawitz bobbie.krawitz@medinatx.gov Elections Clerk II Ashley Christilles ashley.christilles@medinatx.gov Elections Clerk Jody Gomez jody.gomez@medinatx.gov For general questions or to submit Public Information Requests, please email&nbsp; elections@medinatx.gov . Medina County Courthouse Annex: 1300 Ave M, Rm 108 Hondo, TX 78861 Hours: Monday - Friday&nbsp; 8a-12p and 1p-5p (830) 741-6009 - Office (830) 741-6007 - Fax Voter Registration Certificate Mailing Update &#9650; Voter Registration Certificates are issued and mailed every two years and display a &ldquo;valid from&rdquo; and &ldquo;to&rdquo; date. If your certificate shows an expiration date or you have not yet received a new card, this does not mean your voter registration has been cancelled or that you are ineligible to vote. Typically, new certificates are mailed in December of every odd-numbered year. However, due to statewide redistricting, the Texas Secretary of State has experienced delays in confirming voter registration details across the state. As a result, new certificates have not yet been mailed. Please be assured: You remain reg",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260526202024_2a4a0ba293.html"
+    }
+   ]
+  }
+ }
+}

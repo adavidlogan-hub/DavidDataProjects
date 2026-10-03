@@ -1,0 +1,249 @@
+{
+ "county": "Taylor",
+ "spec": {
+  "file_prefixes": [
+   "taylorcounty.texas.gov"
+  ],
+  "page_prefixes": [
+   "taylorcounty.texas.gov/214/"
+  ]
+ },
+ "swept_at_utc": "2026-10-02 23:37:38",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=taylorcounty.texas.gov&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=taylorcounty.texas.gov%2F214%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=taylorcounty.texas.gov&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 6
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=taylorcounty.texas.gov%2F214%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    }
+   ],
+   "versions_found": 6,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041011",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5015/DEM-UNOFFICIAL-RESULTS-1ST-RELEASE?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "I6UVN7I2E6LC6MAOGJIBGM53RJ7H7JSA",
+     "length": "367853"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041037",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/2976/TaylorCoFINALREPORTJune212021",
+     "mimetype": "application/pdf",
+     "digest": "YDV3565NP32P4PPLJ7OKF6ET2FTAJLBK",
+     "length": "676262"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041047",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/4004/FY-2024-Proposed-Budget",
+     "mimetype": "application/pdf",
+     "digest": "KVIWUE2TQ7TEGKN3FJ6RSWKWH34XW3WI",
+     "length": "1035115"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041047",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/4529/2024-Taylor-County-Notice-of-Tax-Rate-50-212",
+     "mimetype": "application/pdf",
+     "digest": "BLRYXYRVTGQXEO6VUY6DLE7GWG3PTH22",
+     "length": "189697"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041047",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/4532/2024-AD-Notice-of-Public-Hearing-on-Tax-Increase",
+     "mimetype": "application/pdf",
+     "digest": "4N4GITGLU4T2RZODK5B5S47RC3GMDS6R",
+     "length": "21324"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041047",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/4806/2026-Proposed-Budget",
+     "mimetype": "application/pdf",
+     "digest": "WUQOE3IK26PDFLQE3XG4GMXTCSPVZNHO",
+     "length": "3573926"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041011",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5015/DEM-UNOFFICIAL-RESULTS-1ST-RELEASE?bidId=",
+     "mimetype": "application/pdf",
+     "digest": "I6UVN7I2E6LC6MAOGJIBGM53RJ7H7JSA",
+     "length": "367853",
+     "replay_error": null,
+     "bytes": 418550,
+     "sha256": "0bd96ce676b5143f4b881186d7c3fdb7106cdec0d2b13b199d85d9c5a5d58146",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 04:10:11 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "CreationDate": "D:20260303211043-06'00'",
+     "Creator": "Xerox AltaLink C8170",
+     "Producer": "Xerox AltaLink C8170",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321041011_547bf830b6.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041037",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/2976/TaylorCoFINALREPORTJune212021",
+     "mimetype": "application/pdf",
+     "digest": "YDV3565NP32P4PPLJ7OKF6ET2FTAJLBK",
+     "length": "676262",
+     "replay_error": null,
+     "bytes": 775032,
+     "sha256": "0d688abc48dcf030bcb9ebebaafc4c45dd7c04e5941db2c31a76d4402d2dc635",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 04:10:37 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "Title": "\u00fe\u00ff\u0000P\u0000R\u0000E\u0000A\u0000 \u0000A\u0000u\u0000d\u0000i\u0000t\u0000 \u0000S\u0000y\u0000s\u0000t\u0000e\u0000m",
+     "Creator": "\u00fe\u00ff\u0000w\u0000k\u0000h\u0000t\u0000m\u0000l\u0000t\u0000o\u0000p\u0000d\u0000f\u0000 \u00000\u0000.\u00001\u00002\u0000.\u00003",
+     "Producer": "\u00fe\u00ff\u0000Q\u0000t\u0000 \u00004\u0000.\u00008\u0000.\u00007",
+     "CreationDate": "D:20210623195458-04'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321041037_721cd3fc83.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041047",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/4004/FY-2024-Proposed-Budget",
+     "mimetype": "application/pdf",
+     "digest": "KVIWUE2TQ7TEGKN3FJ6RSWKWH34XW3WI",
+     "length": "1035115",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041047",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/4529/2024-Taylor-County-Notice-of-Tax-Rate-50-212",
+     "mimetype": "application/pdf",
+     "digest": "BLRYXYRVTGQXEO6VUY6DLE7GWG3PTH22",
+     "length": "189697",
+     "replay_error": null,
+     "bytes": 232313,
+     "sha256": "d36cd8ffa385fd8911ad11e2a2f43a1f078516357aa8aa55d9e0b26af12285b5",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 04:10:47 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "CreationDate": "D:20240729102326",
+     "Creator": "PDFium",
+     "Producer": "PDFium",
+     "ModDate": "D:20240729110805-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321041047_0a5f021f1c.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041047",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/4532/2024-AD-Notice-of-Public-Hearing-on-Tax-Increase",
+     "mimetype": "application/pdf",
+     "digest": "4N4GITGLU4T2RZODK5B5S47RC3GMDS6R",
+     "length": "21324",
+     "replay_error": null,
+     "bytes": 27760,
+     "sha256": "146887f16db149fe27f25f1fadf70c19642c418aff1915767c4a4a3cd8f9c91f",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 04:10:47 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "CreationDate": "D:20240813140614-04'00'",
+     "Creator": "Adobe InDesign 17.4 \\(Windows\\",
+     "ModDate": "D:20240815093322-05'00'",
+     "Producer": "Adobe PDF Library 16.0.7",
+     "printed_datetimes_first_streams": [
+      "08/27/2024 09:00 "
+     ],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " | AB-40031455 | Statements required in notice if the proposed tax rate exceeds the no-ne\\\rw-revenue tax rate  This notice only applies to a taxing unit other than a special taxing un\\\rit or municipality  with a population of less than 30,000, regardless of whether it is a spe\\\rcial taxing unit.     $  .5486  per $100     $  .5199  per $100 |     $  .5696  per $100 The no-new-revenue tax rate is the tax rate for the  2024  tax year that will raise the same  amount of property tax revenue for   from the same properties in both the  2023  tax year and the  2024  may adopt without  holding an election to seek voter approval of the rate. The proposed tax rate is greater than the no-new-revenue tax rate. This \\\rmeans that   is proposing to increase property taxes for the  2024 08/27/2024 09:00  at  . |  is not required to hold an election at which voters may accept or rejec\\\rt  proposed tax rate by contacting the members of the  Commissioners\\222 Court  of  County Property tax amount = \\(tax rate\\) x \\(taxable value of your property\\) \\\r/ 100 FOR the proposal:  Commissioner Brad Birchum, Commissioner Chuck Statler AGAINST the proposal:    Commissioner Kyle Kendrick       PRESENT and not voting:                                                                                                                     | you can easily access information regarding your property taxes, includi\\\rng information  about proposed tax rates and scheduled public hearings of each entity th\\\rat taxes your  calculated to limit the rate of growth of property taxes in the state. The following table compares the taxes imposed on the average residence \\\rhomestead by   last year to the taxes proposed to the be imposed on the average reside\\\rnce  homestead by  | 2023 2024 Change $0.5397 $0.5486 1.64% Increase | $195,841 $213,602 9.06% Increase $1,056 $1,172 10.98% Increase $60,378,145 $65,622,104 8.68% Increase No-New-Revenue Maintenance and Operations Rate Adjustments State Criminal Justice Mandate \\(counties\\) The   County Auditor certi\\037es that   County has spent $  718,835  in the previous  12 months for the maintenance and operations cost of keeping inmates sen\\\rtenced to the   County  information on these costs, minus the state revenues received for the re\\\rimbursement of  such costs. This increased the no-new-revenue maintenance and operations rate by  .0027  /$100. Indigent Health Care Compensation Expenditures \\(counties\\) The   spent $ 3,146,855  from July 1  2023  to June 30  2024  on indigent health  care compensation procedures at the increased minimum eligibility standa\\\rrds, less the  | 884,164 . This increased the no-new- revenue maintenance and operations rate by  .0076  /$100. Indigent Defense Compensation Expenditures \\(counties\\) The   spent $ 4,890,712  from July 1  2023  to June 30  2024  to provide appointed  counsel for indigent individuals in criminal or civil proceedings in acc\\\rordance with the  schedule of fees adopted under Article 26.05 , Code of Criminal Procedur\\\re, and to fund the  687,150  . This increased the no-new-revenue maintenance and operations rate by  .0018  /$100. For assistance with tax calculations, please contact the tax assessor fo\\\rr   at  \\(325\\)676-9381  or  earnest@cadtx.org , or visit  http://taylorcad.org/  for more information. |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321041047_f0b8a839ea.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321041047",
+     "original": "https://www.taylorcounty.texas.gov/DocumentCenter/View/4806/2026-Proposed-Budget",
+     "mimetype": "application/pdf",
+     "digest": "WUQOE3IK26PDFLQE3XG4GMXTCSPVZNHO",
+     "length": "3573926",
+     "replay_error": null,
+     "bytes": 3677081,
+     "sha256": "cd6daae68ad7550edbb321bc5a0d9a179825db79165efe20695a133130372209",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 04:10:47 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2 |  |  |  |  |  |  | 3 |  |  |  |  |  |  | 4 |  |  |  |  |  |  |  |  | 5 |  |  | 6 |  |  | 7 |  |  | 8 |  |  | 9 |  |  | 10 |  |  | 11 |  |  | 12 |  |  | 13 |  |  | 14 |  |  | 15 |  |  | 16 |  |  | 17 |  |  | 18 |  |  | 19 |  |  | 20 |  |  | 21 |  |  | 22 |  |  | 23 |  |  | 24 |  |  | 25 |  |  | 26 |  |  | 27 |  |  | 28 |  |  | 29 |  |  | 30 |  |  | 31 |  |  | 32 |  |  | 33 |  |  | 34 |  |  | 35 |  |  | 36 |  |  | 37 |  |  | 38 |  |  | 39 |  |  | 40 |  |  | 41 |  |  | 42 |  |  | 43 |  |  | 44 |  |  | 45 |  |  | 46 |  |  | 47 |  |  | 48 |  |  | 49 |  |  | 50 |  |  |  | 51 |  |  |  | 52 |  |  | 53 |  |  | 54 |  |  | 55 |  |  | 56 |  |  | 57 |  |  | 58 |  |  | 59 |  |  | 60 |  |  | 61 |  |  | 62 |  |  | 63 |  |  | 64 |  |  | 65 |  |  | 66 |  |  | 67 |  |  | 68 |  |  | 69 |  |  | 70 |  |  | 71 |  |  | 72 |  |  | 73 |  |  | 74 |  |  | 75 |  |  | 76 |  |  | 77 |  |  | 78 |  |  | 79 |  |  | 80 |  |  | 81 |  |  | 82 |  |  | 83 |  |  | 84 |  |  | 85 |  |  | 86 |  |  | 87 |  |  | 88 |  |  | 89 |  |  | 90 |  |  | 91 |  |  | 92 |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321041047_9c1b991d43.pdf"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=taylorcounty.texas.gov&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=taylorcounty.texas.gov%2F214%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

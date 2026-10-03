@@ -1,0 +1,744 @@
+{
+ "county": "Grayson",
+ "spec": {
+  "file_prefixes": [
+   "co.grayson.tx.us"
+  ],
+  "page_prefixes": [
+   "co.grayson.tx.us/page/"
+  ]
+ },
+ "swept_at_utc": "2026-10-02 23:20:07",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 54
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us%2Fpage%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "TimeoutError: The read operation timed out",
+     "rows": 0
+    }
+   ],
+   "versions_found": 53,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106045445",
+     "original": "https://www.co.grayson.tx.us/upload/page/0060/docs/Election%20Day%20General%20November%205%202024%20.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PGITW4HE67A5MXGZ5DAWIZHFA6HKTX47",
+     "length": "64479"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106074851",
+     "original": "https://www.co.grayson.tx.us/upload/page/0060/docs/General%20November%205%202024%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VOLDUPULEFCAFTMRQVS5FIW3BRF2AUQO",
+     "length": "63475"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106164210",
+     "original": "https://www.co.grayson.tx.us/page/open/3465/0/City%20of%20Sherman%20Order%20of%20Cancellation%20Nov%205%202024",
+     "mimetype": "application/pdf",
+     "digest": "R54HYCIQ2EU7VYD4ZAPZJLUZBWLM2WRR",
+     "length": "202200"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106165459",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Order_Nov_5th_Gen_Election_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4B562EQFAFZJJXNPXWBKXFDJSPGWMNLJ",
+     "length": "631386"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106173052",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/September%2014%202024%20City%20of%20Sherman%20Election%20dates%20and%20times.pdf",
+     "mimetype": "application/pdf",
+     "digest": "COXPA4O534TUWOUB6ZYSCJJO6AT5WCXY",
+     "length": "322951"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106173908",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Early_Voting_Election_Day_Polling_sites.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PLCNKWYQW3LZGANXI34E7WIBMAKE74BQ",
+     "length": "361694"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106175110",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/BALLOT_STYLE_LISTING_SHEET.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KPA5QJ6DF3GCEM6JRHAZO7QMZJJOFGLV",
+     "length": "118901"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106175222",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Order_of_Special_Election_11-05-2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "F3GSZBZN6APO3PJYBAC54ZN3WOQVKJFK",
+     "length": "957189"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106175244",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Election_Reconciliation_Official_Totals.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OSJ6RF2M26BSXX5CX54NDRURJQGOWEXE",
+     "length": "204431"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106175938",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Early_Voting_City_Sherman_Special_Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KBHVGF2PCG5IMJHDOQ2F3ZG46AOYERSU",
+     "length": "6536"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180051",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Order_Election_Grayson_College_08%2006%2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HK4VL5NPHIKLKWNK54TSKTG2TDOANEQV",
+     "length": "25438"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180109",
+     "original": "https://www.co.grayson.tx.us/page/open/3465/0/City%20of%20Sherman%20Ordinance%20Canceling%20the%20Nov%205.%202024%20Sherman%20Municipal%20Election",
+     "mimetype": "application/pdf",
+     "digest": "XJAJGOKEJOCPHMHA64BXNAEKEDFRKHMS",
+     "length": "956779"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180158",
+     "original": "https://www.co.grayson.tx.us/page/open/3462/0/Noble%20Ridge%20MUD%20Notice%20of%20Conf%20Directors%20Bond%20Maint%20Tax%20Election",
+     "mimetype": "application/pdf",
+     "digest": "DL5JI4IPKHXQXDONGG26QQ4WSMWEOTWK",
+     "length": "1037075"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180509",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/24GGRAYS_SAMPLE.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BY5NOTDSSWN7CDQC7CLORNXRBPPAYL35",
+     "length": "943491"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180610",
+     "original": "https://www.co.grayson.tx.us/upload/page/0186/docs/Candidate%20Campaign%20Finance%20Filings/CFR/KellyAshmore_07.16.2023_01.16.2024_CFR.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CXUYDRHLN7KPBIP5EGSF7JGW53GBVRNR",
+     "length": "166476"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180806",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/City_of_Sherman_Special_Sept_14_2024_Election_Unofficial_Results_Total.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QSSU3PFXG7GINIAX6ADLLF3IXWUEM2ZK",
+     "length": "6572"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181416",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Official_Election_Summary_Results_Report_City_Sherman_Spec_Sept_14_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AHWJYEO5YF4TCUELVINTQH43CK2O5BF2",
+     "length": "6579"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181649",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Gunter_Crossing_MUD_Ord_Calling_Conf_Election-7.9.24.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZNKTFEQIIRO5WXPJ5SDLZRNZOVC7HKIR",
+     "length": "971558"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181719",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Preliminary_Election_Reconciliaion_Unofficial.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RF6ZW3OJACOHSAMMEQILJWQOH4PLQKDJ",
+     "length": "280112"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106182720",
+     "original": "https://www.co.grayson.tx.us/upload/page/0186/docs/Candidate%20Campaign%20Finance%20Filings/Finance%20Report%2011.11.23%20to%2012.11.23.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NAFZK5ZZMWDLE6T6YFGTXZ7PGKKXOZPK",
+     "length": "280608"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183121",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Precinct_by_Precinct_September-14_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C2Z4NTYAZX3LRI6JPP3X55OLAI3Y4NGZ",
+     "length": "15450"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183203",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Proclamation_General_Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AOAWVBXBKDJAWIPLIR4JKYH3B5RZKLDE",
+     "length": "667512"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183320",
+     "original": "https://www.co.grayson.tx.us/page/open/3465/0/Grayson%20College%20Order%20of%20Election%20Cancellation",
+     "mimetype": "application/pdf",
+     "digest": "CJZOPKGALHWQ4SIROZW42BKGZNYDS3ZN",
+     "length": "27168"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183439",
+     "original": "https://www.co.grayson.tx.us/page/open/3462/0/GUNTER%20CROSSING%20Notice%20of%20Election%20for%20Directors%20Bond%20Election",
+     "mimetype": "application/pdf",
+     "digest": "FV4DV3XNOCMXHEA2USQSQQKCRDL6AOZI",
+     "length": "331262"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183950",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Official_Precinct_by_Precinct_Summary_Special_Election_091424.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SIXHA5K7UOE4MUN2W4GUNACTUNDK65GY",
+     "length": "26120"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106184028",
+     "original": "https://www.co.grayson.tx.us/upload/template/0023/docs/Guest_Volunteer_Information_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CPNWAJRTTEGJY26GNLPTSEBWWUV3BADV",
+     "length": "353642"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106184903",
+     "original": "https://www.co.grayson.tx.us/page/open/3462/0/Sunset%20Ranch%20MUD-%20English%20and%20Spanish%20Notice%20of%20Confirmation%20and%20Directors%20Election,%20Utility%20Bond%20Election,%20Utility%20Refunding%20Bond%20Election,%20Road%20Bond%20Election,%20Road%20Refunding%20Bond%20Election%20and%20Maintenance%20Tax%20Election",
+     "mimetype": "application/pdf",
+     "digest": "TJA6ZVTN7PXZTT5DMEL4DQXDAH3B2EWC",
+     "length": "751825"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106185812",
+     "original": "https://www.co.grayson.tx.us/page/open/3465/0/City%20of%20Sherman%20Certification%20Unopposed%20Candidates%20November%205%202024",
+     "mimetype": "application/pdf",
+     "digest": "I4PL6QGNJSODNCS3JJ4UES22GIM577AO",
+     "length": "230612"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106201524",
+     "original": "https://www.co.grayson.tx.us/upload/page/0186/docs/Candidate%20Campaign%20Finance%20Filings/CFR/Phyllis_James_07.01.23-12.31.23CampaignFinanceReport.pdf",
+     "mimetype": "application/pdf",
+     "digest": "24EWHJSVCCWXDW3MRGDGGRPRP7PJKJYN",
+     "length": "425497"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241107004432",
+     "original": "https://www.co.grayson.tx.us/upload/page/0186/docs/Candidate%20Campaign%20Finance%20Filings/CFR/Tommy_Carter_07.01.23-12.31.23CampaignFinanceReport.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GUUJSUNA7J4T6LRX6LAQ3VU6LI6KSVIZ",
+     "length": "304376"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241121144950",
+     "original": "https://www.co.grayson.tx.us/page/open/3389/0/March%205%202024%20Official%20Final%20Results",
+     "mimetype": "application/pdf",
+     "digest": "BO4VU6I63XFU2ZAMU6KMY3D7PTVGPOIT",
+     "length": "96816"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241121220406",
+     "original": "https://www.co.grayson.tx.us/upload/page/0125/docs/Pct3_Road_Master_Plan_2014-2016.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LS4TZNNIP6U6RAXGCSLOCNNRNSKZJMMI",
+     "length": "11038"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241123063014",
+     "original": "https://www.co.grayson.tx.us/upload/page/0125/docs/Pct_3_Road_MasterPlan_2017-2020.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TXYZZBUG4Z7G22CPZHDCE5YRNFKLYQFF",
+     "length": "3150"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125052701",
+     "original": "https://www.co.grayson.tx.us/upload/page/0065/docs/2017_Annual_Financial_Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "J4UTUIHR2CFH7UPONEHKDJWTG5MLDSEP",
+     "length": "1883218"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125062059",
+     "original": "https://www.co.grayson.tx.us/upload/page/0067/docs/Juvenile_Report_2017.pdf",
+     "mimetype": "application/pdf",
+     "digest": "P7XKNVRI677LMYXNSNOYBIXMV26NO2XE",
+     "length": "721009"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125062603",
+     "original": "https://www.co.grayson.tx.us/upload/page/0065/docs/2006_Annual_Financial_Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2YGEF7SKESHY2YM6AKUEVUEDR6HBDC3I",
+     "length": "398756"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125065949",
+     "original": "https://www.co.grayson.tx.us/upload/page/0232/docs/Expense_Report_Blank_2021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZVQWQL3LPKLTG6JTAYPT42QL3ZLXNXYK",
+     "length": "81738"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125072538",
+     "original": "https://www.co.grayson.tx.us/upload/page/0065/docs/AnnualFinancialReport2021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AXXLTAJBXUBV3YYZGJYQ5GCHZ4NPVVSV",
+     "length": "2259632"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125072750",
+     "original": "https://www.co.grayson.tx.us/upload/page/0232/docs/Forms/WellNessInfo2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "F6ZCSWFQOJI2ULRFNNTZIEW33IRTOTZZ",
+     "length": "54141"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125073504",
+     "original": "https://www.co.grayson.tx.us/upload/page/0065/docs/2011_Annual_Financial_Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VU6FUE6UQECJLLDIJ32L4FP5JPIEAIJV",
+     "length": "422879"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125074348",
+     "original": "https://www.co.grayson.tx.us/upload/page/0067/docs/Annual%20Financial%20Report%202021%20-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CHUG6WAD6OU4GDKMCKFVIA5SD7WG4MUE",
+     "length": "349202"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125075710",
+     "original": "https://www.co.grayson.tx.us/upload/page/0071/docs/Annual%20Financial%20Report%202021%20-%20CSCD.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QPUBAT4DGCCPTJIZ6Z6I2HM7GLN6E7F6",
+     "length": "715450"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125081808",
+     "original": "https://www.co.grayson.tx.us/upload/page/0067/docs/Juvenile_Report_2013.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BLIMZLDFJU2BAL6K42KCDL4D5HU62N4D",
+     "length": "200881"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125083240",
+     "original": "https://www.co.grayson.tx.us/upload/page/0071/docs/FinancialReport2023_CSCD.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VRB3DHESYZICS6TJWC66NPB6YQ4KVSMO",
+     "length": "2649716"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125085241",
+     "original": "https://www.co.grayson.tx.us/upload/page/0067/docs/Juvenile_Report_2012.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JSD4HZ335LCAIUQ7X2C2PIDNHAK2WEIZ",
+     "length": "59072"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125163248",
+     "original": "https://www.co.grayson.tx.us/upload/page/0232/docs/Forms/WellnessVerification2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "S5WNFYLWGNJJ4CP4ZITZ3D5BFEYISOUI",
+     "length": "85458"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125182751",
+     "original": "https://www.co.grayson.tx.us/upload/page/0065/docs/2012_Annual_Financial_Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7AE72G2SNZDY77NTCSNNOOKUNSFWB46R",
+     "length": "443363"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125183344",
+     "original": "https://www.co.grayson.tx.us/upload/page/0069/docs/AnnualFinancialReport2021-Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AWRVUERQRDJVMIZW6IGMZWEXICFIBODL",
+     "length": "1227837"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125192911",
+     "original": "https://www.co.grayson.tx.us/upload/page/0067/docs/Annual_Financial_Report_2023_Juvenile_Division.pdf",
+     "mimetype": "application/pdf",
+     "digest": "22SJIJGMKT7OD6XCCNATNJKEH4OBE7TJ",
+     "length": "435025"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125195504",
+     "original": "https://www.co.grayson.tx.us/upload/page/0067/docs/Juvenile_Report_2018.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WKEIOZNGMXPLYU42XFLCFTH6TRUWBALF",
+     "length": "434337"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125204808",
+     "original": "https://www.co.grayson.tx.us/upload/page/0065/docs/2018_Annual_Financial_Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JS4ZHXGBM2AOVWNLWNVUXSWJP7WOBAYI",
+     "length": "1893475"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125212615",
+     "original": "https://www.co.grayson.tx.us/upload/page/0065/docs/2008_Annual_Financial_Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CD2NCS43VXJMYIXOE4GZGRTFWQLA5HVI",
+     "length": "535056"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241126055003",
+     "original": "https://www.co.grayson.tx.us/upload/page/0067/docs/Juvenile_Report_2014.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IJBUUA2HQP4IO25Q3P4P2SN6BD4FGCOJ",
+     "length": "546095"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183950",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Official_Precinct_by_Precinct_Summary_Special_Election_091424.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SIXHA5K7UOE4MUN2W4GUNACTUNDK65GY",
+     "length": "26120",
+     "replay_error": null,
+     "bytes": 37216,
+     "sha256": "f6092945d8e20d2f74a7145d832116e83f511fc87fe9fa04555e8b5cfb311fa9",
+     "orig_last_modified": "Wed, 25 Sep 2024 15:53:36 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:45:27 GMT",
+     "orig_last_modified_local": "2024-09-25 09:53:36",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "09/25/2024 10:36AM"
+     ],
+     "precinct_word_count_first_streams": 61,
+     "text_sample_first_streams": " |  |  |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 101 STATISTICS | TOTAL Absentee Early Voting Election Day Registered Voters - Total | 0 77 Ballots Cast - Total 9 45 23 0 Ballots Cast - Blank 0 | 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 | TOTAL Absentee Election Day Early Voting | Sandra Melton 22 3 17 2 Casie Rivas 18 0 9 9 | Clay Barnett 37 6 19 12 Overvotes 0 0 0 0 | Undervotes 0 0 0 0  15 Page 1 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 102 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 57 Ballots Cast - Total 25 13 19 2 Ballots Cast - Blank 1 1 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 31 14 7 10 Casie Rivas 13 4 2 7 Clay Barnett 11 6 3 2 Overvotes 0 0 0 0 Undervotes 2 1 1 0  15 Page 2 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 103 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 85 Ballots Cast - Total 15 45 25 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 27 4 14 9 Casie Rivas 28 2 16 10 Clay Barnett 30 9 15 6 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 3 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 104 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 0 Ballots Cast - Total 0 0 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 0 0 0 0 Casie Rivas 0 0 0 0 Clay Barnett 0 0 0 0 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 4 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 204 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 0 Ballots Cast - Total 0 0 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 0 0 0 0 Casie Rivas 0 0 0 0 Clay Barnett 0 0 0 0 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 5 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 206 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 121 Ballots Cast - Total 21 71 29 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 34 6 18 10 Casie Rivas 24 4 16 4 Clay Barnett 63 11 37 15 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 6 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 301 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 197 Ballots Cast - Total 31 101 65 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 50 9 26 15 Casie Rivas 45 5 25 15 Clay Barnett 102 17 50 35 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 7 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 302 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 196 Ballots Cast - Total 32 107 57 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 61 15 26 20 Casie Rivas 54 6 34 14 Clay Barnett 81 11 47 23 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 8 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 303 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 0 Ballots Cast - Total 0 0 0 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 0 0 0 0 Casie Rivas 0 0 0 0 Clay Barnett 0 0 0 0 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 9 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 304 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 233 Ballots Cast - Total 33 110 90 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 63 8 34 21 Casie Rivas 54 7 18 29 Clay Barnett 116 18 58 40 Overvotes 0 0 0 0 Undervotes 0 0 0 0  15 Page 10 of Precinct Summary - 09/25/2024 10:36AM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Precinct 310 STATISTICS TOTAL Absentee Early Voting Election Day Registered Voters - Total 0 16 Ballots Cast - Total 5 7 4 0 Ballots Cast - Blank 0 0 0 Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Absentee Election Day Early Voting Sandra Melton 2 0 0 2 Casie Rivas 6 3 2 1 Clay Barn",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106183950_00e9b04019.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106183121",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Precinct_by_Precinct_September-14_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C2Z4NTYAZX3LRI6JPP3X55OLAI3Y4NGZ",
+     "length": "15450",
+     "replay_error": null,
+     "bytes": 26584,
+     "sha256": "b7fee4568db6017921c4df246a4e2a927796d1e76c8ebf8fd386bc2c6806115b",
+     "orig_last_modified": "Sun, 15 Sep 2024 02:03:01 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:36:58 GMT",
+     "orig_last_modified_local": "2024-09-14 20:03:01",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "09/14/2024 08:32PM"
+     ],
+     "precinct_word_count_first_streams": 61,
+     "text_sample_first_streams": " |  |  |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 101 STATISTICS TOTAL Registered Voters - Total 0 77 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 22 Casie Rivas 18 Clay Barnett 37 Overvotes 0 Undervotes 0  15 Page 1 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 102 STATISTICS TOTAL Registered Voters - Total 0 56 Ballots Cast - Total 2 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 30 Casie Rivas 13 Clay Barnett 11 Overvotes 0 Undervotes 2  15 Page 2 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 103 STATISTICS TOTAL Registered Voters - Total 0 85 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 27 Casie Rivas 28 Clay Barnett 30 Overvotes 0 Undervotes 0  15 Page 3 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 104 STATISTICS TOTAL Registered Voters - Total 0 0 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 0 Casie Rivas 0 Clay Barnett 0 Overvotes 0 Undervotes 0  15 Page 4 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 204 STATISTICS TOTAL Registered Voters - Total 0 0 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 0 Casie Rivas 0 Clay Barnett 0 Overvotes 0 Undervotes 0  15 Page 5 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 206 STATISTICS TOTAL Registered Voters - Total 0 119 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 33 Casie Rivas 24 Clay Barnett 62 Overvotes 0 Undervotes 0  15 Page 6 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 301 STATISTICS TOTAL Registered Voters - Total 0 196 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 49 Casie Rivas 45 Clay Barnett 102 Overvotes 0 Undervotes 0  15 Page 7 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 302 STATISTICS TOTAL Registered Voters - Total 0 195 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 61 Casie Rivas 54 Clay Barnett 80 Overvotes 0 Undervotes 0  15 Page 8 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 303 STATISTICS TOTAL Registered Voters - Total 0 0 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 0 Casie Rivas 0 Clay Barnett 0 Overvotes 0 Undervotes 0  15 Page 9 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 304 STATISTICS TOTAL Registered Voters - Total 0 230 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 63 Casie Rivas 53 Clay Barnett 114 Overvotes 0 Undervotes 0  15 Page 10 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 310 STATISTICS TOTAL Registered Voters - Total 0 16 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 2 Casie Rivas 6 Clay Barnett 8 Overvotes 0 Undervotes 0  15 Page 11 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 405 STATISTICS TOTAL Registered Voters - Total 0 25 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 1 Casie Rivas 9 Clay Barnett 15 Overvotes 0 Undervotes 0  15 Page 12 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 408 STATISTICS TOTAL Registered Voters - Total 0 0 Ballots Cast - Total 0 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TOTAL Sandra Melton 0 Casie Rivas 0 Clay Barnett 0 Overvotes 0 Undervotes 0  15 Page 13 of Precinct Summary - 09/14/2024 08:32PM |  Precinct by Precinct Summary Results Report City of Sherman Special Election September 14, 2024 UNOFFICIAL RESULTS Grayson County Precinct 409 STATISTICS TOTAL Registered Voters - Total 0 312 Ballots Cast - Total 1 Ballots Cast - Blank Voter Turnout - Total 0.00% Vote For 1 Council Member, District No.1 TO",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106183121_20cdf2c52d.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106180806",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/City_of_Sherman_Special_Sept_14_2024_Election_Unofficial_Results_Total.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QSSU3PFXG7GINIAX6ADLLF3IXWUEM2ZK",
+     "length": "6572",
+     "replay_error": null,
+     "bytes": 9851,
+     "sha256": "09f995e5e5f666fcc5da0e7c70f056bad297782fac0f47137bf4aa65e8cc4594",
+     "orig_last_modified": "Sun, 15 Sep 2024 01:12:52 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:13:43 GMT",
+     "orig_last_modified_local": "2024-09-14 19:12:52",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "09/14/2024 07:54PM"
+     ],
+     "precinct_word_count_first_streams": 4,
+     "text_sample_first_streams": " |  |  |  Summary Results Report City of Sherman Special Election September14, 2024 UNOFFICIAL RESULTS Grayson County STATISTICS | TOTAL Absentee | Early Voting Election Day 15 of 15 Election Day Precincts Reporting 0 0 | 15 0 of 15 Precincts Complete 0 0 0 | 15 of 15 Precincts Partially Reported 0 0 15 15 of 15 Absentee/ Early Precincts Reporting 11 | 15 0 Registered Voters - Total 0 1,541 Ballots Cast - Total | 227 830 484 3 Ballots Cast - Blank 1 1 1 | Voter Turnout - Total 0.00%  2 Page 1 of Election Summary - 09/14/2024 07:54PM |  Summary Results Report City of Sherman Special Election September14, 2024 UNOFFICIAL RESULTS Grayson County Council Member, District No.1 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % Sandra Melton 407 80 207 120 26.41% Casie Rivas 399 33 226 140 25.89% Clay Barnett 732 113 396 223 47.50% Overvotes 0 0 0 0 0.00% Undervotes 3 1 1 1 0.19%  2 Page 2 of Election Summary - 09/14/2024 07:54PM |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106180806_dc9d96c4cc.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241121144950",
+     "original": "https://www.co.grayson.tx.us/page/open/3389/0/March%205%202024%20Official%20Final%20Results",
+     "mimetype": "application/pdf",
+     "digest": "BO4VU6I63XFU2ZAMU6KMY3D7PTVGPOIT",
+     "length": "96816",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241121220406",
+     "original": "https://www.co.grayson.tx.us/upload/page/0125/docs/Pct3_Road_Master_Plan_2014-2016.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LS4TZNNIP6U6RAXGCSLOCNNRNSKZJMMI",
+     "length": "11038",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241123063014",
+     "original": "https://www.co.grayson.tx.us/upload/page/0125/docs/Pct_3_Road_MasterPlan_2017-2020.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TXYZZBUG4Z7G22CPZHDCE5YRNFKLYQFF",
+     "length": "3150",
+     "replay_error": null,
+     "bytes": 6458,
+     "sha256": "1f6866f4ed6f15193443731c67b7fb9bfff426ea27003338ee72d068f9ac3cb7",
+     "orig_last_modified": "Thu, 05 Jan 2017 18:57:41 GMT",
+     "orig_date": "Sat, 23 Nov 2024 06:36:29 GMT",
+     "orig_last_modified_local": "2017-01-05 12:57:41",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ROAD MASTERPLAN FOR 2017-2020    2017 Chip/Seal  Deaver \\(part not done in 2016\\)  Miniature  Crossroads  Frog Pond    Redo 2017  Stiff Chapel  Southmayd Road \\(56 to 82\\)  Old Tioga Road    Second coat of chip/seal on roads done in 2016  Utley  Spring Creek  Hill  Hestand  Airport              |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241123063014_c91c126e58.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181416",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Official_Election_Summary_Results_Report_City_Sherman_Spec_Sept_14_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AHWJYEO5YF4TCUELVINTQH43CK2O5BF2",
+     "length": "6579",
+     "replay_error": null,
+     "bytes": 9854,
+     "sha256": "d6922fca3b26e47b296d0339b10f49373b2ba58b4e0e3e75cd62cb3ff3d3a03e",
+     "orig_last_modified": "Wed, 25 Sep 2024 15:53:36 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:19:53 GMT",
+     "orig_last_modified_local": "2024-09-25 09:53:36",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "09/25/2024 10:41AM"
+     ],
+     "precinct_word_count_first_streams": 4,
+     "text_sample_first_streams": " |  |  |  Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County STATISTICS | TOTAL Absentee | Early Voting Election Day 15 of 15 Election Day Precincts Reporting 0 0 | 15 0 of 15 Precincts Complete 0 0 0 | 15 of 15 Precincts Partially Reported 0 0 15 15 of 15 Absentee/ Early Precincts Reporting 11 | 15 0 Registered Voters - Total 0 1,551 Ballots Cast - Total | 232 830 489 3 Ballots Cast - Blank 1 1 1 | Voter Turnout - Total 0.00%  2 Page 1 of Election Summary - 09/25/2024 10:41AM |  Summary Results Report City of Sherman Special Election September 14, 2024 OFFICIAL RESULTS Grayson County Council Member, District No.1 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % Sandra Melton 411 81 207 123 26.50% Casie Rivas 400 34 226 140 25.79% Clay Barnett 737 116 396 225 47.52% Overvotes 0 0 0 0 0.00% Undervotes 3 1 1 1 0.19%  2 Page 2 of Election Summary - 09/25/2024 10:41AM |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106181416_96e98246f3.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106181719",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/Sept14/Preliminary_Election_Reconciliaion_Unofficial.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RF6ZW3OJACOHSAMMEQILJWQOH4PLQKDJ",
+     "length": "280112",
+     "replay_error": null,
+     "bytes": 322926,
+     "sha256": "6f3c9295319b0b8baf6df8265f1368a97b60dc1173a8b51980879681a20e384e",
+     "orig_last_modified": "Thu, 19 Sep 2024 21:03:37 GMT",
+     "orig_date": "Wed, 06 Nov 2024 18:22:55 GMT",
+     "orig_last_modified_local": "2024-09-19 15:03:37",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106181719_be19d7e6c3.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106045445",
+     "original": "https://www.co.grayson.tx.us/upload/page/0060/docs/Election%20Day%20General%20November%205%202024%20.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PGITW4HE67A5MXGZ5DAWIZHFA6HKTX47",
+     "length": "64479",
+     "replay_error": null,
+     "bytes": 75282,
+     "sha256": "8c2ee494bbf07568bd1fd04a67534fea30b0f1aced1303d688c6dceca3a41107",
+     "orig_last_modified": "Wed, 06 Nov 2024 04:03:28 GMT",
+     "orig_date": "Wed, 06 Nov 2024 05:00:22 GMT",
+     "orig_last_modified_local": "2024-11-05 22:03:28",
+     "upload_on_election_night": true,
+     "ModDate": "D:20241105215807-06'00'",
+     "Creator": "JasperReports \\(Election Summary\\",
+     "CreationDate": "D:20241105215807-06'00'",
+     "Producer": "iText 2.1.7 by 1T3XT",
+     "printed_datetimes_first_streams": [
+      "11/05/2024 09:56PM"
+     ],
+     "precinct_word_count_first_streams": 68,
+     "text_sample_first_streams": " Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County STATISTICS TOTAL Absentee Early Voting Election Day 41 of 41 Election Day Precincts Reporting 0 0 41 0 of 41 Precincts Complete 0 0 0 41 of 41 Precincts Partially Reported 0 0 41 41 of 41 Absentee/ Early Precincts Reporting 40 41 0 Registered Voters - Total 99,539 66,107 Ballots Cast - Total 2,395 51,524 12,188 6 Ballots Cast - Blank 3 3 0 Voter Turnout - Total 66.41%  24 Page 1 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County President/Vice President Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Donald J. Trump/JD Vance 50,468 1,377 39,961 9,130 76.34% DEM Kamala D. Harris/Tim Walz 14,754 968 10,982 2,804 22.32% LIB Chase Oliver/Mike ter Maat 342 11 219 112 0.52% GRN Jill Stein/Rudolph Ware 187 4 123 60 0.28% Write-In Totals 151 7 100 44 0.23% Write-In: Peter Sonski/Lauren Onak 20 0 13 7 0.03% Write-In: Claudia De la Cruz/Karina Garcia 5 0 1 4 0.01% Write-In: Shiva Ayyadurai/Crystal Ellis 2 0 2 0 0.00% Write-In: Jessie Cuellar/Wesley Lasley 0 0 0 0 0.00% Write-In: Cherunda Fox/Harlan Mc Vay 0 0 0 0 0.00% Write-In: Cornel West/Melina Abdullah 0 0 0 0 0.00% Not Assigned 124 7 84 33 0.19% Total Votes Cast 65,902 2,367 51,385 12,150 99.69% Overvotes 10 10 0 0 0.02% Undervotes 195 18 139 38 0.30% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41  24 Page 2 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County US Senator Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Ted Cruz 48,425 1,378 38,638 8,409 73.25% DEM Colin Allred 15,409 948 11,451 3,010 23.31% LIB Ted Brown 1,303 22 810 471 1.97% Write-In Totals 31 1 18 12 0.05% Write-In: Analisa Roche 6 0 3 3 0.01% Write-In: Tracy Andrus 2 0 2 0 0.00% Not Assigned 23 1 13 9 0.03% Total Votes Cast 65,168 2,349 50,917 11,902 98.58% Overvotes 4 4 0 0 0.01% Undervotes 935 42 607 286 1.41% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41 US Representative, Dist 4 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Pat Fallon 50,652 1,272 40,316 9,064 76.62% DEM Simon Cardell 13,268 807 9,942 2,519 20.07% Total Votes Cast 63,920 2,079 50,258 11,583 96.69% Overvotes 1 1 0 0 0.00% Undervotes 2,186 315 1,266 605 3.31% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41  24 Page 3 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Railroad Commissioner Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Christi Craddick 48,607 1,379 38,699 8,529 73.53% DEM Katherine Culbert 12,674 812 9,563 2,299 19.17% LIB Hawk Dunlap 1,590 23 1,121 446 2.41% GRN Eddie Espinoza 603 20 368 215 0.91% Write-In Totals 26 3 16 7 0.04% Write-In: Richard McKibbin 10 1 7 2 0.02% Not Assigned 16 2 9 5 0.02% Total Votes Cast 63,500 2,237 49,767 11,496 96.06% Overvotes 2 2 0 0 0.00% Undervotes 2,605 156 1,757 692 3.94% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41 Justice, Supreme Court, Pl 2 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Jimmy Blacklock 50,075 1,398 39,729 8,948 75.75% DEM DaSean Jones 13,410 835 10,034 2,541 20.29% Total Votes Cast 63,485 2,233 49,763 11,489 96.03% Overvotes 2 2 0 0 0.00% Undervotes 2,620 160 1,761 699 3.96% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41  24 Page 4 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Justice, Supreme Court, Pl 4 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP John Devine 49,468 1,359 39,299 8,810 74.83% DEM Christine Vinh Weems 13,874 859 10,381 2,634 20.99% Total Votes Cast 63,342 2,218 49,680 11,444 95.82% Overvotes 0 0 0 0 0.00% Undervotes 2,765 177 1,844 744 4.18% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41 Justice, Supreme Court, Pl 6 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Jane Bland 48,592 1,362 38,702 8,528 73.51% DEM Bonnie Lee Goldstein 13,069 822 9,829 2,418 19.77% LIB J. David Roberson 1,579 38 1,046 495 2.39% Total Votes Cast 63,240 2,222 49,577 11,441 95.66% Overvotes 1 1 0 0 0.00% Undervotes 2,866 172 1,947 747 4.34% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41  24 Page 5 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Presiding Judge, Ct of Crim App Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP David J. Schenck 49,326 1,356 39,252 8,718 74.62% DEM Holly Taylor 13,749 833 10,241 2,675 20.80% Total Votes Cast 63,075 2,189 49,493 11,393 95.41% Overvotes 0 0 0 0 0.00% Undervotes 3,032 206 2,031 795 4.59% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41 Judge, Ct of Crim App, Pl 7 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Gina Parker 49,442 1,361 39,285 8,796 74.79% DEM Nancy Mulder 13,462 836 10,081 2,545 20.36% Total Votes Cast 62,904 2,197 49,366 11,341 95.15% Overvotes 0 0 0 0 0.00% Undervotes 3,203 198 2,158 847 4.85% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41 Judge, Ct of Crim App, Pl 8 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Lee Finley 49,846 1,375 39,578 8,893 75.40% DEM Chika Anyiam 13,023 813 9,769 2,441 19.70% Total Votes Cast 62,869 2,188 49,347 11,334 95.10% Overvotes 0 0 0 0 0.00% Undervotes 3,238 207 2,177 854 4.90% Contest Totals 66,107 2,395 51,524 12,188 100.00% Precincts Reporting 41 of 41  24 Page 6 of Election Summary - 11/05/2024 09:56PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson Co",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106045445_29e3e6c2e3.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106074851",
+     "original": "https://www.co.grayson.tx.us/upload/page/0060/docs/General%20November%205%202024%20Election.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VOLDUPULEFCAFTMRQVS5FIW3BRF2AUQO",
+     "length": "63475",
+     "replay_error": null,
+     "bytes": 74563,
+     "sha256": "3ddef87059d3be18b05d087dd0f61ed03067da3b7eaaed8029617b26cdc0b76e",
+     "orig_last_modified": "Wed, 06 Nov 2024 01:54:27 GMT",
+     "orig_date": "Wed, 06 Nov 2024 07:54:29 GMT",
+     "orig_last_modified_local": "2024-11-05 19:54:27",
+     "upload_on_election_night": true,
+     "ModDate": "D:20241105194708-06'00'",
+     "Creator": "JasperReports \\(Election Summary\\",
+     "CreationDate": "D:20241105194708-06'00'",
+     "Producer": "iText 2.1.7 by 1T3XT",
+     "printed_datetimes_first_streams": [
+      "11/05/2024 07:44PM"
+     ],
+     "precinct_word_count_first_streams": 68,
+     "text_sample_first_streams": " Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County STATISTICS TOTAL Absentee Early Voting Election Day 0 of 41 Election Day Precincts Reporting 0 0 0 0 of 41 Precincts Complete 0 0 0 0 of 41 Precincts Partially Reported 0 0 0 41 of 41 Absentee/ Early Precincts Reporting 40 41 0 Registered Voters - Total 99,539 53,919 Ballots Cast - Total 2,395 51,524 0 6 Ballots Cast - Blank 3 3 0 Voter Turnout - Total 54.17%  24 Page 1 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County President/Vice President Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Donald J. Trump/JD Vance 41,338 1,377 39,961 0 76.67% DEM Kamala D. Harris/Tim Walz 11,950 968 10,982 0 22.16% LIB Chase Oliver/Mike ter Maat 230 11 219 0 0.43% GRN Jill Stein/Rudolph Ware 127 4 123 0 0.24% Write-In Totals 107 7 100 0 0.20% Write-In: Shiva Ayyadurai/Crystal Ellis 0 0 0 0 0.00% Write-In: Jessie Cuellar/Wesley Lasley 0 0 0 0 0.00% Write-In: Claudia De la Cruz/Karina Garcia 0 0 0 0 0.00% Write-In: Cherunda Fox/Harlan Mc Vay 0 0 0 0 0.00% Write-In: Peter Sonski/Lauren Onak 0 0 0 0 0.00% Write-In: Cornel West/Melina Abdullah 0 0 0 0 0.00% Not Assigned 107 7 100 0 0.20% Total Votes Cast 53,752 2,367 51,385 0 99.69% Overvotes 10 10 0 0 0.02% Undervotes 157 18 139 0 0.29% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41  24 Page 2 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County US Senator Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Ted Cruz 40,016 1,378 38,638 0 74.22% DEM Colin Allred 12,399 948 11,451 0 23.00% LIB Ted Brown 832 22 810 0 1.54% Write-In Totals 19 1 18 0 0.04% Write-In: Analisa Roche 3 0 3 0 0.01% Write-In: Tracy Andrus 0 0 0 0 0.00% Not Assigned 16 1 15 0 0.03% Total Votes Cast 53,266 2,349 50,917 0 98.79% Overvotes 4 4 0 0 0.01% Undervotes 649 42 607 0 1.20% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41 US Representative, Dist 4 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Pat Fallon 41,588 1,272 40,316 0 77.13% DEM Simon Cardell 10,749 807 9,942 0 19.94% Total Votes Cast 52,337 2,079 50,258 0 97.07% Overvotes 1 1 0 0 0.00% Undervotes 1,581 315 1,266 0 2.93% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41  24 Page 3 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Railroad Commissioner Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Christi Craddick 40,078 1,379 38,699 0 74.33% DEM Katherine Culbert 10,375 812 9,563 0 19.24% LIB Hawk Dunlap 1,144 23 1,121 0 2.12% GRN Eddie Espinoza 388 20 368 0 0.72% Write-In Totals 19 3 16 0 0.04% Write-In: Richard McKibbin 0 0 0 0 0.00% Not Assigned 19 3 16 0 0.04% Total Votes Cast 52,004 2,237 49,767 0 96.45% Overvotes 2 2 0 0 0.00% Undervotes 1,913 156 1,757 0 3.55% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41 Justice, Supreme Court, Pl 2 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Jimmy Blacklock 41,127 1,398 39,729 0 76.28% DEM DaSean Jones 10,869 835 10,034 0 20.16% Total Votes Cast 51,996 2,233 49,763 0 96.43% Overvotes 2 2 0 0 0.00% Undervotes 1,921 160 1,761 0 3.56% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41  24 Page 4 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Justice, Supreme Court, Pl 4 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP John Devine 40,658 1,359 39,299 0 75.41% DEM Christine Vinh Weems 11,240 859 10,381 0 20.85% Total Votes Cast 51,898 2,218 49,680 0 96.25% Overvotes 0 0 0 0 0.00% Undervotes 2,021 177 1,844 0 3.75% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41 Justice, Supreme Court, Pl 6 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Jane Bland 40,064 1,362 38,702 0 74.30% DEM Bonnie Lee Goldstein 10,651 822 9,829 0 19.75% LIB J. David Roberson 1,084 38 1,046 0 2.01% Total Votes Cast 51,799 2,222 49,577 0 96.07% Overvotes 1 1 0 0 0.00% Undervotes 2,119 172 1,947 0 3.93% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41  24 Page 5 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Presiding Judge, Ct of Crim App Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP David J. Schenck 40,608 1,356 39,252 0 75.31% DEM Holly Taylor 11,074 833 10,241 0 20.54% Total Votes Cast 51,682 2,189 49,493 0 95.85% Overvotes 0 0 0 0 0.00% Undervotes 2,237 206 2,031 0 4.15% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41 Judge, Ct of Crim App, Pl 7 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Gina Parker 40,646 1,361 39,285 0 75.38% DEM Nancy Mulder 10,917 836 10,081 0 20.25% Total Votes Cast 51,563 2,197 49,366 0 95.63% Overvotes 0 0 0 0 0.00% Undervotes 2,356 198 2,158 0 4.37% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41 Judge, Ct of Crim App, Pl 8 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Lee Finley 40,953 1,375 39,578 0 75.95% DEM Chika Anyiam 10,582 813 9,769 0 19.63% Total Votes Cast 51,535 2,188 49,347 0 95.58% Overvotes 0 0 0 0 0.00% Undervotes 2,384 207 2,177 0 4.42% Contest Totals 53,919 2,395 51,524 0 100.00% Precincts Reporting 0 of 41  24 Page 6 of Election Summary - 11/05/2024 07:44PM |  Summary Results Report  November 5, 2024 General Election UNOFFICIAL RESULTS Grayson County Member, State BoE, Dist 12 Vote For 1 Absentee Election Day TOTAL Early Voting VOTE % REP Pam Little 40,740 1,287 39,453 0 75.56% DEM George King 10,832 794 10,038 0 20.09% Total Votes Cast 51,572 2,081 49,491 0 95.65% Overvotes 0",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106074851_c0897b1595.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106164210",
+     "original": "https://www.co.grayson.tx.us/page/open/3465/0/City%20of%20Sherman%20Order%20of%20Cancellation%20Nov%205%202024",
+     "mimetype": "application/pdf",
+     "digest": "R54HYCIQ2EU7VYD4ZAPZJLUZBWLM2WRR",
+     "length": "202200",
+     "replay_error": null,
+     "bytes": 249995,
+     "sha256": "b315f3dd7450256b21f18dceaf8587b18f40a7200aab0c741b2007bd15c1866c",
+     "orig_last_modified": null,
+     "orig_date": "Wed, 06 Nov 2024 16:47:47 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106164210_278d3a039f.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106165459",
+     "original": "https://www.co.grayson.tx.us/upload/page/0188/docs/General/Order_Nov_5th_Gen_Election_2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4B562EQFAFZJJXNPXWBKXFDJSPGWMNLJ",
+     "length": "631386",
+     "replay_error": null,
+     "bytes": 729800,
+     "sha256": "0d0b496a6229f51e286f87517c28a8f9248cfa66edda733f02862e53c2b86f82",
+     "orig_last_modified": "Tue, 06 Aug 2024 21:23:45 GMT",
+     "orig_date": "Wed, 06 Nov 2024 17:00:36 GMT",
+     "orig_last_modified_local": "2024-08-06 15:23:45",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106165459_a51601b607.pdf"
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us%2Fpage%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "TimeoutError: The read operation timed out",
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us%2Fpage%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

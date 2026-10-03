@@ -1,0 +1,387 @@
+{
+ "county": "Brazoria",
+ "spec": {
+  "file_prefixes": [
+   "brazoriacountyclerktx.gov"
+  ],
+  "page_prefixes": [
+   "brazoriacountyclerktx.gov/departments/elections/"
+  ]
+ },
+ "swept_at_utc": "2026-10-02 22:24:14",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=brazoriacountyclerktx.gov&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=brazoriacountyclerktx.gov%2Fdepartments%2Felections%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 17
+    }
+   ],
+   "versions_found": 7,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20241105111511",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?os=wtmbTQtAJk9s",
+     "mimetype": "text/html",
+     "digest": "72ZY67B2YVCKGF4DQQHJUGSJZZMKLVHA",
+     "length": "20998"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241105111529",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?os=wtmbTQtAJk9s&ref=app",
+     "mimetype": "text/html",
+     "digest": "PUUT6UZ4RPDAXRAQEQ2PJH6JOYEAVDNJ",
+     "length": "21005"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241105153653",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?os=av.",
+     "mimetype": "text/html",
+     "digest": "JUELSQIH4LFJ5UG5ZCPZHSOOJYY7X7KZ",
+     "length": "20990"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241105153729",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?os=av.&ref=app",
+     "mimetype": "text/html",
+     "digest": "55J25KPD2IRYRRGDUWRFXM676ZEFYAVI",
+     "length": "21012"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241106054426",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?fbclid=IwY2xjawGXBPZleHRuA2FlbQIxMAABHQyQ_18CrHBqKu8LNmogoO9BLonhfPMlhpQSN3SHV32up7lT1YYPu4jbUw_aem_JGZ6uC_NdOzIwyED5t7_pg",
+     "mimetype": "text/html",
+     "digest": "E2GFRY27LL4EL3WTEJFEDIVHYHTQAGET",
+     "length": "21094"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241106091148",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-early-voting?os=vbkn42t...&ref=app",
+     "mimetype": "text/html",
+     "digest": "CWT3OGTIX74XZSKNJ7N2Y54NDQF5F34P",
+     "length": "18707"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241106185505",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/ballot-processing-cameras",
+     "mimetype": "text/html",
+     "digest": "C6KEX2LYCNUCORM37F5TJS7XT3NYRM6Q",
+     "length": "18245"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20241105111511",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?os=wtmbTQtAJk9s",
+     "mimetype": "text/html",
+     "digest": "72ZY67B2YVCKGF4DQQHJUGSJZZMKLVHA",
+     "length": "20998",
+     "replay_error": null,
+     "bytes": 110404,
+     "sha256": "305019a52b07c33068143f2e9de88fee17b2daac53105b67d797db2a0d2af278",
+     "orig_last_modified": "Tue, 05 Nov 2024 11:15:11 GMT",
+     "orig_date": "Tue, 05 Nov 2024 11:15:12 GMT",
+     "orig_last_modified_local": "2024-11-05 05:15:11",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Polling Places - Election Day | Brazoria County Clerk Please enable JavaScript in your browser for a better user experience. Brazoria County Clerk Home Menu Search CLOSE Go Contact Us County Clerk Calendar Home Online Services Attorney Portal Apply for Assumed Name Certificate Apply for a Marriage License Request Copies of Birth Certificates Pay ADULT Misdemeanor/Felony Court Fines &amp; Fees Pay JUVENILE Court Fine and Fees Request Copies of Civil and Probate Court Cases Request Copies of Criminal Court Cases Request Copies of Death Certificates Request Copies of Marriage License Request Voter Records Search Commissioners Court Records Search Criminal, Civil &amp; Probate Search Real Property &amp; Vital Records Departments Civil/Probate Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Policy Regarding Pro Se \"self represented\" Applicants in Probate Matters Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections Pay Adult Court Fine and Fees Application for Payment Plans FAQ's for Collections Pay Juvenile Court Fine and Fees Commissioners Court Criminal Forms Criminal Fees Today's Court Docket FAQ's Criminal Search and Request Court Cases Elections Campaign Finance Reports Candidate Information Current Election Information Election Results Local Election Results Information for Voters with Disabilities Polling Places - Early Voting Polling Places - Election Day Poll Workers Precinct Maps Sample Ballots Vote by Mail Voter Registration Ballot Board Cameras Ballot Delivery Cameras Signature Verification Cameras Juvenile General Information Juvenile Payments Recording Department Assumed Name Birth Records Conflict of Interest Death Records FAQ's OPR, Vitals &amp; Assumed Names Marks &amp; Brands Marriage License Plat Regulations Public Notices Recording Requirements Recording Department Forms Recording &amp; Vitals Fees Search &amp; Request Copies of Real Property Records Search Records Criminal, Civil &amp; Probate Real Property and Vital Records I Want To... Apply for... Festival Permit Marriage License Assumed Name Occupational Drivers License Request PIA Register/File... Marks and Brands Property Fraud Alert Property Fraud Information Contact US Helpful Related Links View Today's Criminal Court Docket Jump to subpage... Civil/Probate + Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Policy Regarding Pro Se &quot;self represented&quot; Applicants in Probate Matters Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections + Pay Adult Court Fine and Fees Application for Payment Plans FAQ&#39;s for Collections Pay Juvenile Court Fine and Fees + Juvenile Payments Commissioners Court Criminal + Forms Criminal Fees Today&#39;s Court Docket FAQ&#39;s Criminal Search and Request Court Cases Elections - Campaign Finance Reports Candidate Information Current Election Information + Voter Lists Recent Elections Election Results Local E",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241105111511_9c50f55007.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241105111529",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?os=wtmbTQtAJk9s&ref=app",
+     "mimetype": "text/html",
+     "digest": "PUUT6UZ4RPDAXRAQEQ2PJH6JOYEAVDNJ",
+     "length": "21005",
+     "replay_error": null,
+     "bytes": 110547,
+     "sha256": "192823fb58cd20b44679627e9a17f1f446f0e59c4e0ec9678d67565f837d76c0",
+     "orig_last_modified": "Tue, 05 Nov 2024 11:15:29 GMT",
+     "orig_date": "Tue, 05 Nov 2024 11:15:30 GMT",
+     "orig_last_modified_local": "2024-11-05 05:15:29",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Polling Places - Election Day | Brazoria County Clerk Please enable JavaScript in your browser for a better user experience. Brazoria County Clerk Home Menu Search CLOSE Go Contact Us County Clerk Calendar Home Online Services Attorney Portal Apply for Assumed Name Certificate Apply for a Marriage License Request Copies of Birth Certificates Pay ADULT Misdemeanor/Felony Court Fines &amp; Fees Pay JUVENILE Court Fine and Fees Request Copies of Civil and Probate Court Cases Request Copies of Criminal Court Cases Request Copies of Death Certificates Request Copies of Marriage License Request Voter Records Search Commissioners Court Records Search Criminal, Civil &amp; Probate Search Real Property &amp; Vital Records Departments Civil/Probate Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Policy Regarding Pro Se \"self represented\" Applicants in Probate Matters Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections Pay Adult Court Fine and Fees Application for Payment Plans FAQ's for Collections Pay Juvenile Court Fine and Fees Commissioners Court Criminal Forms Criminal Fees Today's Court Docket FAQ's Criminal Search and Request Court Cases Elections Campaign Finance Reports Candidate Information Current Election Information Election Results Local Election Results Information for Voters with Disabilities Polling Places - Early Voting Polling Places - Election Day Poll Workers Precinct Maps Sample Ballots Vote by Mail Voter Registration Ballot Board Cameras Ballot Delivery Cameras Signature Verification Cameras Juvenile General Information Juvenile Payments Recording Department Assumed Name Birth Records Conflict of Interest Death Records FAQ's OPR, Vitals &amp; Assumed Names Marks &amp; Brands Marriage License Plat Regulations Public Notices Recording Requirements Recording Department Forms Recording &amp; Vitals Fees Search &amp; Request Copies of Real Property Records Search Records Criminal, Civil &amp; Probate Real Property and Vital Records I Want To... Apply for... Festival Permit Marriage License Assumed Name Occupational Drivers License Request PIA Register/File... Marks and Brands Property Fraud Alert Property Fraud Information Contact US Helpful Related Links View Today's Criminal Court Docket Jump to subpage... Civil/Probate + Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Policy Regarding Pro Se &quot;self represented&quot; Applicants in Probate Matters Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections + Pay Adult Court Fine and Fees Application for Payment Plans FAQ&#39;s for Collections Pay Juvenile Court Fine and Fees + Juvenile Payments Commissioners Court Criminal + Forms Criminal Fees Today&#39;s Court Docket FAQ&#39;s Criminal Search and Request Court Cases Elections - Campaign Finance Reports Candidate Information Current Election Information + Voter Lists Recent Elections Election Results Local E",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241105111529_cb8a081e77.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241105153653",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?os=av.",
+     "mimetype": "text/html",
+     "digest": "JUELSQIH4LFJ5UG5ZCPZHSOOJYY7X7KZ",
+     "length": "20990",
+     "replay_error": null,
+     "bytes": 110302,
+     "sha256": "da169488d17c64ee6aa28961f9307eddd9140ea90be7cf45c5f9295522e7c10b",
+     "orig_last_modified": "Tue, 05 Nov 2024 15:36:54 GMT",
+     "orig_date": "Tue, 05 Nov 2024 15:36:54 GMT",
+     "orig_last_modified_local": "2024-11-05 09:36:54",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Polling Places - Election Day | Brazoria County Clerk Please enable JavaScript in your browser for a better user experience. Brazoria County Clerk Home Menu Search CLOSE Go Contact Us County Clerk Calendar Home Online Services Attorney Portal Apply for Assumed Name Certificate Apply for a Marriage License Request Copies of Birth Certificates Pay ADULT Misdemeanor/Felony Court Fines &amp; Fees Pay JUVENILE Court Fine and Fees Request Copies of Civil and Probate Court Cases Request Copies of Criminal Court Cases Request Copies of Death Certificates Request Copies of Marriage License Request Voter Records Search Commissioners Court Records Search Criminal, Civil &amp; Probate Search Real Property &amp; Vital Records Departments Civil/Probate Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Policy Regarding Pro Se \"self represented\" Applicants in Probate Matters Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections Pay Adult Court Fine and Fees Application for Payment Plans FAQ's for Collections Pay Juvenile Court Fine and Fees Commissioners Court Criminal Forms Criminal Fees Today's Court Docket FAQ's Criminal Search and Request Court Cases Elections Campaign Finance Reports Candidate Information Current Election Information Election Results Local Election Results Information for Voters with Disabilities Polling Places - Early Voting Polling Places - Election Day Poll Workers Precinct Maps Sample Ballots Vote by Mail Voter Registration Ballot Board Cameras Ballot Delivery Cameras Signature Verification Cameras Juvenile General Information Juvenile Payments Recording Department Assumed Name Birth Records Conflict of Interest Death Records FAQ's OPR, Vitals &amp; Assumed Names Marks &amp; Brands Marriage License Plat Regulations Public Notices Recording Requirements Recording Department Forms Recording &amp; Vitals Fees Search &amp; Request Copies of Real Property Records Search Records Criminal, Civil &amp; Probate Real Property and Vital Records I Want To... Apply for... Festival Permit Marriage License Assumed Name Occupational Drivers License Request PIA Register/File... Marks and Brands Property Fraud Alert Property Fraud Information Contact US Helpful Related Links View Today's Criminal Court Docket Jump to subpage... Civil/Probate + Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Policy Regarding Pro Se &quot;self represented&quot; Applicants in Probate Matters Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections + Pay Adult Court Fine and Fees Application for Payment Plans FAQ&#39;s for Collections Pay Juvenile Court Fine and Fees + Juvenile Payments Commissioners Court Criminal + Forms Criminal Fees Today&#39;s Court Docket FAQ&#39;s Criminal Search and Request Court Cases Elections - Campaign Finance Reports Candidate Information Current Election Information + Voter Lists Recent Elections Election Results Local E",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241105153653_8b8c7ebfd2.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20241105153729",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?os=av.&ref=app",
+     "mimetype": "text/html",
+     "digest": "55J25KPD2IRYRRGDUWRFXM676ZEFYAVI",
+     "length": "21012",
+     "replay_error": null,
+     "bytes": 110446,
+     "sha256": "e4f6f0734742bc23e5f3bb638342b44f3dd60fbc81001d716eb056655f89aa1b",
+     "orig_last_modified": "Tue, 05 Nov 2024 15:37:29 GMT",
+     "orig_date": "Tue, 05 Nov 2024 15:37:30 GMT",
+     "orig_last_modified_local": "2024-11-05 09:37:29",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Polling Places - Election Day | Brazoria County Clerk Please enable JavaScript in your browser for a better user experience. Brazoria County Clerk Home Menu Search CLOSE Go Contact Us County Clerk Calendar Home Online Services Attorney Portal Apply for Assumed Name Certificate Apply for a Marriage License Request Copies of Birth Certificates Pay ADULT Misdemeanor/Felony Court Fines &amp; Fees Pay JUVENILE Court Fine and Fees Request Copies of Civil and Probate Court Cases Request Copies of Criminal Court Cases Request Copies of Death Certificates Request Copies of Marriage License Request Voter Records Search Commissioners Court Records Search Criminal, Civil &amp; Probate Search Real Property &amp; Vital Records Departments Civil/Probate Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Policy Regarding Pro Se \"self represented\" Applicants in Probate Matters Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections Pay Adult Court Fine and Fees Application for Payment Plans FAQ's for Collections Pay Juvenile Court Fine and Fees Commissioners Court Criminal Forms Criminal Fees Today's Court Docket FAQ's Criminal Search and Request Court Cases Elections Campaign Finance Reports Candidate Information Current Election Information Election Results Local Election Results Information for Voters with Disabilities Polling Places - Early Voting Polling Places - Election Day Poll Workers Precinct Maps Sample Ballots Vote by Mail Voter Registration Ballot Board Cameras Ballot Delivery Cameras Signature Verification Cameras Juvenile General Information Juvenile Payments Recording Department Assumed Name Birth Records Conflict of Interest Death Records FAQ's OPR, Vitals &amp; Assumed Names Marks &amp; Brands Marriage License Plat Regulations Public Notices Recording Requirements Recording Department Forms Recording &amp; Vitals Fees Search &amp; Request Copies of Real Property Records Search Records Criminal, Civil &amp; Probate Real Property and Vital Records I Want To... Apply for... Festival Permit Marriage License Assumed Name Occupational Drivers License Request PIA Register/File... Marks and Brands Property Fraud Alert Property Fraud Information Contact US Helpful Related Links View Today's Criminal Court Docket Jump to subpage... Civil/Probate + Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Policy Regarding Pro Se &quot;self represented&quot; Applicants in Probate Matters Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections + Pay Adult Court Fine and Fees Application for Payment Plans FAQ&#39;s for Collections Pay Juvenile Court Fine and Fees + Juvenile Payments Commissioners Court Criminal + Forms Criminal Fees Today&#39;s Court Docket FAQ&#39;s Criminal Search and Request Court Cases Elections - Campaign Finance Reports Candidate Information Current Election Information + Voter Lists Recent Elections Election Results Local E",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241105153729_ae8b241cdd.html"
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=brazoriacountyclerktx.gov&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=brazoriacountyclerktx.gov%2Fdepartments%2Felections%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 11
+    }
+   ],
+   "versions_found": 4,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303210611",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections",
+     "mimetype": "text/html",
+     "digest": "XZF4JEZUBTS3KEJLP6QKHR4JF5WK676I",
+     "length": "24766"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303233907",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections",
+     "mimetype": "text/html",
+     "digest": "54PJFTBPTRBW2YVKIDVS3MI5THMYLGYB",
+     "length": "25542"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304001111",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-early-voting",
+     "mimetype": "text/html",
+     "digest": "O5RD4WRUUI43ISPRQ35HGDME4S7WAAB6",
+     "length": "24059"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304015006",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/candidate-information",
+     "mimetype": "text/html",
+     "digest": "LX2HBR2ATNKQODV7BUI6ZEVVM2RPA7DW",
+     "length": "24186"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303210611",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections",
+     "mimetype": "text/html",
+     "digest": "XZF4JEZUBTS3KEJLP6QKHR4JF5WK676I",
+     "length": "24766",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303233907",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections",
+     "mimetype": "text/html",
+     "digest": "54PJFTBPTRBW2YVKIDVS3MI5THMYLGYB",
+     "length": "25542",
+     "replay_error": null,
+     "bytes": 24068,
+     "sha256": "7a625c94c2d59fc4c57eca84904b7d8af38bb6e4e383173e4b9c0d7c93db1974",
+     "orig_last_modified": "Tue, 03 Mar 2026 15:36:38 GMT",
+     "orig_date": "Tue, 03 Mar 2026 23:39:07 GMT",
+     "orig_last_modified_local": "2026-03-03 09:36:38",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd\ufffd\ufffdv\ufffd8\ufffd(\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd%j_\ufffd\ufffd\\\u05cb\ufffdi\ufffd\ufffd\ufffd\ufffd\u072a\ufffd\ufffdP\"$\u0466H%I\ufffdVf\ufffd\ufffdy\ufffdy\ufffd9\ufffd{\ufffd\ufffd\u039b\u0313L\u0004\u0000\ufffdd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\"\u0018\b\u0004\u0002\ufffd@ \u0010\u0000\ufffd\ufffdo\ufffd^\ufffd\ufffd^|:k\ufffd\ufffd3\u04b7\ufffd\ufffdo\ufffd\ufffd\ufffdW\ufffd\ufffd\ufffd1hI\u0510\ufffd0\ufffd**\ufffd\u0516\ufffd\u0006~\ufffd\ufffd\ufffdW#\ufffd(\ufffd7T,\ufffd:-\ufffd\ufffdb_^\ufffdHq\ub56e\u00197dh\ufffd~K*\ufffd\u047e2\u045d]\ufffdp\ufffd\u1e2f\u016ei:\ufffdc)\ufffd\u00b4Z\ufffd\u0015\u0285\ufffdf\u0014z\ufffd-\u0011\ufffd\ufffd-\ufffdvf:\ufffd\ufffd\ufffd:R\u0011\ufffdf% g,\ufffd/\u0013m\u0692>\u0297\ufffd\ufffd9\u001a+\ufffd\ufffd\u0569Dz\ufffd\ufffd\ufffdt\ufffdn\ufffdo\u0012\ufffdw\ufffd\ufffd\ufffdd\ufffd\ufffd\ufffd^\ufffd\u0019i\ufffd\ufffd\ufffd\u00140\ufffd\ufffd_\u007f#\ufffdu\ufffds4\u04f0\ufffdK\ufffd\ufffdt\ufffdE\ufffd\ufffd@C\ufffd0\ufffd|';\ufffd\ufffd\u05744\ufffd\ufffd\u0013\u00d9\ufffd]\ufffdZ7\ufffd?E\u0017\u0015\ufffd\ufffd\ufffd}e\ufffd,m\ufffdl\ufffd7\ufffd\ufffd\ufffd'\u0006+ce\ufffd| \ufffd\ufffds\ufffd\u0019\ufffdy\ufffdG\u000e\ufffd \ufffd \ufffd/\ufffdSZ;H\u0159e^C\u001b\u0015\u0005\u0019v\ufffdX\u044c\ufffdD\ufffdmZZim:,o\u007f15\ufffdt\ufffd\ufffdgj\ufffd\ufffd3\ufffd\ufffdao\ufffd\ufffd\u0538\ufffd(\ufffd\u000f:_\ufffd_oj\ufffd\u0010\ufffdmQ\ufffd.n\ufffd \ufffd.!A\u0012\ufffd-\ufffd\ufffd\ufffd\ufffd@p|\"\ufffd/z\ufffd6\ufffd_Us\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdE\ufffd\ufffd\u0018\ufffd\ufffd\ufffd\ufffd\ufffd\u04bc,\ufffdR\u007fw\ufffd\ufffdXk\ufffd[\ufffd\ufffd\ufffd\ufffd8\ufffd4\ufffd \ufffd\ufffdM\ufffd\ufffd\ufffd\ufffd\ufffds6\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd9\ufffd\ufffd>\\\u05be^\ufffd\\\ufffd\ufffd\ufffd?\\\ufffd\u01df\u02d6=\ufffdI(\ufffd\ufffd\ufffd\ufffd)-i\ufffdH\ufffdt,\ufffd\u001a\u0011\u0012\ufffd\ufffd\ufffd\ufffd[\ufffdxt\ufffd\u03ba\ufffd{\ufffd\u075f\ufffd\ufffd_7\ufffd\ufffd\ufffd\ufffd \ufffd\ufffdc\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0447\ufffd\ufffd \\\ufffdm\ufffd\ufffd\ufffd\u000e{\ufffd\ufffd_\ufffd\u0002\u06fa~`\ufffd\u001a\ufffdp-\ufffd\ufffd\ufffd\ufffd\ufffd'\ufffd\ufffdp\ufffd\ufffd\ufffdi\ufffdm\ufffd\ufffd\ufffd |*w+\ufffd\ufffd\ufffd\u04fe\ufffd>9\ufffd\ufffd4\ufffdJ;w\ufffdw\ufffd\ufffd\ufffdn\ufffd\u0015'z\ufffd\ufffd}\ufffdP\ufffd\ufffd\ufffd\ufffd\ufffde(\ufffd\ufffd\ufffd\u0011vhr\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd]\ufffd0\ufffdl\ufffdz:\ufffd:\ufffdE\ufffdM5\u02d9(\ufffd\ufffdx\ufffdk=\ufffdd\ufffd\u0014g\ufffd\ufffd+\ufffd\ufffd98\u0015o\\\u048e0\ufffd\ufffd\ufffd\ufffd\ufffd\u000f\ufffd~.O \u0005t_\ufffd\ufffdX\u02056\ufffd\ufffd\ufffd\ufffd\ufffd+\ufffdM\ufffdv(\ufffd\ufffd8\u058c\ufffdC\ufffdj)\ufffd@\u0685\ufffd \ufffd\ufffd\u0661}\u04ca \ufffda\ufffdyz\ufffdb \ufffd $d\ufffd\ufffdC\ufffdXl'\ufffd\ufffd\ufffd#\ufffd\ufffd}SW\ufffd%\ufffd,=\ufffd|\u000f^\ufffdudr\ufffd\u0000rc\ufffdS\ufffd4\ufffd\ufffd\ufffdc.Ol\u0361\u0007{\u001b\ufffd |\ufffdh_\ufffdm\ufffdB\b\ufffd\ufffd5\ufffdpN\ufffd1H\ufffd6\ufffd\u0017\ufffdlm\ufffdx\ufffd(V\u001bA .- \ufffd\ufffd\u001a\u0015;@\ufffd\u0664\ufffdk\ufffd)\ufffd\u0003\ufffd\ufffd%Qc\u0000\ufffdF\ufffd\ufffd\ufffdm\ufffdg&\ufffd\u0012\ufffd\ufffd\u06e3\ufffd}Gh.|GP`24\u000e\ufffd\ufffd\ufffd\ufffd\u0002\u043d\ufffd\ufffd \ufffd\ufffde\ufffd6\ufffd\u0015{\ufffdDr\ufffdi\u0007\ufffd8\u0013\ufffd\ufffd\ufffd\ufffdf\ufffd\ufffdj\u0162j1\ufffd\ufffd h\ufffd4E?\ufffd~}`\ufffdM\ufffd\ufffd8\ufffd\ufffd\ufffd\ufffd\ufffd\u0006t\ufffd\ufffdrw\u00045s\ufffd\ufffdVY+\ufffdxG\ufffd\ufffd\u0004\u0007\u00c3\ufffd\\\ufffdA\u0007\ufffd u6\ufffdZv\ufffd\u0004\u0579\ufffdpK\u001b\u07e4=\u0161\ufffd\ufffd5R iC:>.\ufffdjq\u0006\ufffd\ufffd\ufffdPV\ufffd/\u00cd\u0448\\\\@\ufffd\ufffd\u0010\ufffd\u296f\ufffd\ufffd\ufffd\ufffd\u0012\ufffdG\ufffd\ufffd\ufffd\ufffd\ufffdSk\ufffd\u0018\ufffdW&\ufffd'0\ufffd\u0002L\ufffd\ufffd \ufffd>\ufffdPm \ufffd\ufffd3?\ufffd \u04c4p\ufffd\ufffdP6\ufffd\ufffd \ufffd\ufffd(\ufffd\u000e\ufffd\u07c1\u0019\ufffd\ufffd\ufffd\ufffd}\ufffd\u0741 \u043b\u040c\ufffd\ufffd\ufffd\ufffd\u0003ZJ\ufffdT\ufffdP\ufffdgO\ufffd\ufffd\ufffdf\ufffd\u0295\u02cb]\ufffd\ufffd\ufffd(\ufffdV\ufffd\ufffd\u0003\u0001\ufffd\ufffde\u0007,\ufffd]\ufffdPTe\u0015\ufffd\ufffdhD\ufffdT\ufffd\ufffdL\ufffd\u0006C'\u0002\ufffd&\ufffd`;\u0414\ufffdN\u000ft\u0016\u0018\ufffd\u0000\ufffdI\ufffd\ufffd\ufffd\u06f6z=\ufffd \u0014\ufffd\ufffd \u0001\ufffd\ufffd \ufffd\ufffd\ufffd( aK\ufffdRYf\ufffd]\ufffd, \ufffd=\ufffd\ufffd{\ufffd\u000e\ufffd\ufffd\ufffd\ufffd[\ufffd\ufffd\ufffd\ufffd}\ufffd\ufffd-?\ufffd\ufffd\u007fB\ufffd\ufffd\ufffd\ufffdd\ufffd]:;0\ufffd\u0019\u0003\u0589\ufffd\ufffd\u0005$\ufffd\u0001\ufffd\ufffdw\ufffdX\u0003\ufffd8W\u0536\ufffd9\ufffd\ufffdA\ufffd\u0018\ufffd\ufffd)\ufffd\u0000\u0004h\ufffd\u0007\ufffd\u0012\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\u078d\ufffd\u0019h\ufffdz\ufffd\ufffd\ufffd\ufffdnMK\ufffd\ufffd(q\ufffd\ufffd;\ufffd\u0003\ufffd~gC\u0015\ufffdb\ufffd\ufffdN\u0015\ufffdG\ufffdp\u000e\ufffd\ufffdME\ufffdn\u001a0\ufffd\ufffdn\ufffd/\ufffd,\ufffd\ufffd~\ufffdL\u0015\ufffd\ufffd4F&\ufffd\ufffd\ufffdZ\ufffd\ufffdT\u047fC\ufffd\ufffd\ufffd\ufffdkk}\u0017(\ufffd \u0005 c4\ufffd\ufffd\ufffd\ufffd\ufffd}\ufffdM0\ufffd\u0006\ufffd-\ufffd \ufffd\ufffd\ufffdo\ufffd\u0647Q\ufffd\ufffd\ufffd\ufffd\ufffdd\ufffd\ufffdO]f\ufffd\u0004`yB\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffdV\ufffd0\ufffd9}\ufffd7\ufffd\ufffd\ufffd\ufffdb\u0007\ufffdO\u071a\ufffdW\ufffdhh)\ufffd\ufffdO,\ufffd\u0003cD\u000f\ufffd{T\ufffd{\ufffdB\ufffd\u0017\ufffd`\u001b\ufffd\ufffd\ufffd9\ufffdcjL\u012be\ufffd,\u1715\ufffd3\ufffd9\ufffdP\ufffd\u0002\ufffd\ufffdtlU\ufffd\u000eb\ufffdq\ufffd\ufffd\u0004\u0018\ufffd\ufffd\ufffdb ]\ufffd-)TU\ufffdR\u0006\ufffd\u000fel\ufffd_:U\ufffd\ufffdK\u0005\ufffd\ufffd\u07ec \ufffdO\ufffd2\ufffd\u29cd\ufffd\u001a\u001b\ufffd\ufffd\ufffd\ufffd/\ufffdz \u0007W\ufffd\u0245z\ufffd}\ufffdn\ufffds\ufffd\ufffd/ \u000fO/\u000e\ufffd\ufffd\ufffd2\ufffdJ\ufffdI3\ufffdc\ufffdP\ufffd%\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdj\ufffd;\ufffd\u05d7\ufffdN\ufffd\ufffd \ufffd \ufffd\ufffd\u0471\ufffd\ufffd\ufffdt\ufffdwt9\ufffd8\ufffdh\ufffd\u000e\ufffd[M\ufffd 4\u000e\ufffd\ufffd\ufffdsY=\ufffd\ufffd\ufffd\ufffd\ufffdJw\ufffd\u000f\ufffd\ufffdM\ufffd\ufffdp\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd[?\ufffd \ufffd\u0017N\ufffdZ\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\\\ufffd\ufffd\ufffd\ufffd\ufffd\\\ufffd\ufffd\ufffd\ufffd\ufffd[Knh_\ufffd\ufffd}\u066d \u000f\ufffd W\u836a\ufffd\ufffdw\u000e\ua7ce\ufffd\u001ao/O\ufffd^_\ufffd\ufffd\ufffdNo\ufffdN}\ufffd\ufffd\u0552S\ufffd\u06ad\u007f:Sgcm\ufffdww\ufffd\ufffd\ufffd\ufffd\u0391vR\ufffdx=\ufffd\ufffd\ufffd\ufffd\ufffd\u001b\u03ee? ko&\ufffdk\ufffd\u03c3BC;=l\ufffdyW\ufffd\ufffd\u05eew\ufffd\ufffdo\ufffd\ufffd\ufffd\u01cf ;\ufffd\ufffd\ufffd\ufffdm\ufffd\ufffd\ufffd\ufffdY\ufffdbt\ufffd\ufffdB'\ufffdkm\ufffd\ufffdI>\ufffd\ufffdE\ufffd\ufffd\ufffdq\ufffd\ufffdw{t9\ufffd\ufffd\ufffdf\ufffd\ufffd\ufffd\ufffdz\ufffd\ufffd\ufffdr[;t\ufffd\ufffd\ufffdh2:;\ufffd4\ufffd5\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u04fb\ufffd`p~>\ufffd\ufffd\ufffd~\u0447U\ufffd\u06be\ufffd\u0019l\ufffd\ufffdl\ufffd\ufffd'\ufffd\ufffd\ufffdr\ufffdT\ufffd \ufffd\ufffd\ufffd\u000e\ufffd\ufffd\u001b\u01cd\u0495\ufffd}\ufffdW^\ufffd\ufffdL./g\u00fbq\u07da\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffd\ufffdo\ufffd\ufffd \ufffdO\ufffd\ufffd\ufffd\u05ae\ufffd\u07fc\u001b\ufffd7\u06ef\ufffd/\u000f\ufffdt?W\u078f\ufffd\ufffdz\ufffdZ\ufffd\ufffd\ufffdo{\ufffd\u0013\ufffd\ufffde\u05f8)\u021f\ufffd\ufffdw\ufffdgyg\ufffd}=>\ufffd\ufffd\ufffd@\ufffdo\u0796\u0795O\ufffd\ufffd\ufffd_\ufffdU\ufffdj\ufffd\ufffd\u96efW\ufffd\ufffd7\ufffd\u04a6\ufffdV\ufffd\u0005b\ufffd\ufffd\u0010\ufffd\ufffd\ufffd\u0785\u0011t\u0017\ufffd\ufffdA\ufffd\ufffd\ufffdf`Y\ufffd\ufffd\u0012W\ufffd\ufffd\ufffd\ufffd,\ufffdp6\ufffd\ufffd\ufffd\ufffd#)c\ufffd\ufffd7\ufffd\u0003\ufffdq\ufffd\ufffdF\ufffd\b\ufffd\ufffdH\u0222\ufffd\u0183Aq\ufffd \u0015\ufffd\ufffd\ufffd\ufffdU\u0017\ufffd\ufffd&\ufffd^\ufffd\ufffd\ufffd\u0006\ufffd\ufffd\ufffd\ufffd\ufffdw\ufffdeW+XN4O\ufffd\ufffd\ufffd\u00179\ufffd D \ufffdw\ufffd$4\ufffd\ufffd,H \ufffd\u0012\u0015\ufffdDQU\ufffd\u0012gH\ufffd\u001a\\\u001b\ufffd{\ufffd\u0012\ufffd\ufffd\ufffd=\ufffd^G\ufffd\u0019\ufffd\u0000d\ufffd>\ufffd1\u0019\ufffd\ufffdM\ufffdP!0\ufffd\ufffd\u0016\ufffdl{B >\ufffd_ \u0707\ufffd\ufffdk>\ufffd\ufffd\ufffd\u0017\ufffd\ufffd;\ufffdW05\ufffdP\ufffd\ufffdT\ufffd\ufffdCGc\ufffd\"\ufffd\ufffd\u0003\u0006\ufffdC\ufffd:s9\ufffdH\ufffd6\ufffdV7\ufffdYW0_\u0001\ufffd/&\ufffd\ufffdE\ufffd\ufffd\ufffdE\ufffd\ufffd\ufffd*\ufffd=\u0001\ufffdE8%\u001b\ufffdf\ufffd\ufffd\ufffd\u0002\u0000\ufffd/ \ufffd \ufffd`\u0015\ufffdt\u0000\ufffd\ufffd\\o.\ufffd\ufffd\u0012\ufffdEe\ufffd\ufffd\ufffd'|\ufffd(\ufffdj\ufffd@\u0017\ufffd~\ufffd\ufffds\ufffd\ufffdP\ufffd\ufffdX\ufffd\ufffd\ufffdd\ufffdR\ufffd\ufffdwQ\ufffd28\ufffd\ufffd\ufffd\ufffd;\ufffdr\ufffdi\ufffd\ufffd\ufffdC\ufffd \ufffd\ufffd\">\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd(\ufffd\u000f\ufffd\ufffdO\ufffd{\u0001\ufffd\ufffdu\ufffd\ufffd'\u0749\ufffd\u0016\u0004\ufffd0\ufffd\ufffd\ufffd\u000f\ufffdE\ufffd\u001b\ufffdP:\ufffd\ufffd`\ufffdt\ufffd\ufffde\u001b\ufffd]0\ufffd _\ufffd\ufffdP\u0019\ufffdg\ufffdR\ufffd5\ufffd| p ~\u0007\u001bb@ \ufffd\ufffd3;PW\ufffd:\ufffd\ufffdtH\ufffd.\ufffd \ufffd\ufffd\ufffdd%\ufffd3\ufffd\ufffd\ufffd0\ufffd\ufffd\ufffd\ufffdYN\ufffd+\ufffd@\ufffd\ufffd\ufffdV\ufffdd\ufffd\ufffdm\ufffd\ufffd\u0015\ufffd\ufffd_\ufffd\ufffdp\ufffd\ufffdf' 7M\ufffd\ufffd\u0017\ufffd\ufffd\u0007\ufffdKw\ufffdA\ufffd\ufffd\ufffd\u0019PV\ufffd\ufffdNA1Y\ufffd\ufffd\u0016W}\ufffd\ufffd ^\ufffd\ufffd[o\ufffd\u0586\u0377S\ufffd;\\\ufffd\ufffd\u84ef\ufffd\ufffd\ufffd\ud977\udf7f\ufffd>Wk\ufffd\ufffd\ufffd\ufffdO\u0475\ufffd_^\ufffd\ufffd\u0003\u0517\ufffd\ufffdS\ufffd\ufffdk\ufffdla\u0012\ufffd\u0011\ufffd\ufffd^\ufffdM\\0\ufffd\ufffd'\u0006\ufffd/ 0\ufffd\\\u02bc\ufffd\ud462\ufffd,\u0014!ai\ufffd!\ufffd M\ufffd\ufffdA\ufffd:\ufffd1\ufffd\ufffd\ufffd\u0007\ufffd\u0012\ufffd \ufffd\u000f_\ufffd \ufffdN[\ufffdW)\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdz\u007fY>\b{\ufffdz\ufffd\u0012\u0001\ufffd\ufffd\ufffd \ufffd \ufffd|\ufffd\ufffd\ufffd\ufffd\ufffdp\ufffd\ufffd-\ufffd l\ufffd\u0405\u0000\ufffd\u01c5AD\ufffd \u00151\ufffdf\ufffd`s \ufffd7\"\ufffd\ufffd\ufffd\ufffdL \ufffdk\ufffd/\u0016\ufffd\ufffdj\ufffdb(\u0003j\ufffd$\ufffd\ufffd\u0135X\ufffd(\ufffd\ufffd\ufffd]\ufffd\u0007\u0006\ufffdzi\ufffdB\ufffd@3@\u04f3\ufffd} \ufffd%`\u0001\u040cU\ufffd\u0004\ufffd\ufffd\ufffd\ufffdm \ufffdT\ufffdu\ufffd3\ufffdRFv+\ufffdKv\ufffd\u00b8\ufffd\ufffd^\ufffd\ufffdA\ufffd+\ufffdT K\ufffd#\ufffd>;\ufffd\u0002\ufffd\u0492*\ufffd+\u0376\ufffdq\ufffd\ufffd\ufffd\u000f\ufffd\ufffd\ufffd\ufffdG\ufffd\ufffdF\ufffd\ufffdX~\ufffd\ufffd\ufffd\ufffdC)\ufffd\ufffd0}\ufffd: \ufffd\u0017\ufffd\ufffd\ufffd\ufffd|\ufffd\ufffd4cF\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u001a\ufffddH\ufffd\u0015[\ufffd\ufffd\ufffd0\u0012$\ufffd0\ufffdtHV\ufffds\ufffdu3 0\ufffd\ufffdT\ufffd\u000e5]\ufffdV\ufffd[\ufffdz\u007f\ufffd\ufffd\ufffd`\ufffda\ufffd&k\ufffd\ufffd\ufffdW\ufffdZ^\ufffd\ufffd\u025f \ufffd\ufffd\ufffd\u0017lC\u0003\ufffd\ufffd1\ufffd\ufffd[\ufffdwI\ufffd\ufffd,D\ufffd\ufffdN\u02d7\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u050a9X1\ufffd\ufffdwQ7\ufffd\u03ea\ufffd$W\ufffds^g\u06ba\ufffdb\ufffd\ufffd\ufffdkE\ufffdhy`\ufffdZY\ufffd\ufffd\u0016\ufffd\ufffd]-tMu\ufffd\ufffd\b\ufffd\ufffdY\ufffd\u03ff\u0010\u0018a\ufffd\u041e\u0002 G\ufffd\ufffd)\ufffd\u0011/_\ufffd G\ufffd \u0677\ufffd/E\u0204i\u0015&\ufffd\ufffd\ufffd\ufffdy_\u0018)No\ufffdR \ufffdsZ ]\ufffd\u001a\ufffd\ufffdN-\u0409y\u0018\u00147\ufffd\u007fO\ufffd \ufffd",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260303233907_45b5a7b0cd.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304001111",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-early-voting",
+     "mimetype": "text/html",
+     "digest": "O5RD4WRUUI43ISPRQ35HGDME4S7WAAB6",
+     "length": "24059",
+     "replay_error": null,
+     "bytes": 22582,
+     "sha256": "56b449dd67ee7d5fbc64612a44199f60d352a62860b545777b98e961fc60d4a0",
+     "orig_last_modified": "Tue, 03 Mar 2026 14:14:53 GMT",
+     "orig_date": "Wed, 04 Mar 2026 00:11:11 GMT",
+     "orig_last_modified_local": "2026-03-03 08:14:53",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd\ufffd\ufffdr\ufffdH\ufffd(\ufffd\ufffd'\ufffd{\ufffd2\ufffd\u01d2\ufffd \ufffd\u0016\ufffd\ua428\u0152\ufffdY\ufffd,\ufffd=}\u0014 Q$!\ufffd\u0000 \ufffd\ufffdh[\u0011\ufffd5\ufffd\u0013\u0738\ufffd\ufffd\ufffd\ufffd\ufffd;or\ufffd\ufffdfV\u0015\ufffd\ufffd\ufffd,\ufffd\ufffdg\ufffd3m\u0001\ufffd\ufffd\ufffd\u032c\u032c\ufffd5\ufffd\ufffd o^\ufffd6/>\ufffd\ud4be3\ufffd7\ufffd\ufffd \ufffd\ufffd\ufffd7\ufffdDt\ufffd\ufffd5$jH\ufffd\ufffdB\u0015\ufffdhjCz \u000f%i\ufffd\u0340: \ufffd\ufffd\u0015\u02e6NC\ufffd\ufffd\u0613\ufffd$R\ufffd|\ufffdk\ufffd-\ufffd[\ufffd\u06d0 ;\ufffd\ufffd\ufffdt\ufffdi\u001a\u000e5 \ufffd\ufffd\ufffd6M\ufffdv,e\ufffd W\ufffd\ufffd|)?\u040c|\u01f6%bQ\ufffd!\ufffd\ufffdT\ufffdv\ufffdRG*`\u056c\ufffd\ufffd\ufffd e\ufffde\ufffd\ufffd\u001b\ufffdG\ufffdrKn\ufffd\ufffd\ufffd\ufffdhm\ufffdJ\ufffd\ufffd+hH\u0007\ufffd\ufffd\ufffd\ufffd\u0004\ufffd]c\ufffd\ufffd\ufffd\u007fww\ufffdw\u0019j\ufffd\ufffd\ufffd\u0014 \ufffd\ufffd_\ufffd \ufffd;3u@\ufffdG\ufffdt\ufffdCm\"\ufffd]\ufffd\u04a7\ufffd\ufffd`\ufffdw\ufffdm)_MKSH\ufffd \u0019\u03944uj\ufffd2\ufffd\u0014\\H \u0010\ufffd\ufffd\ufffd\u0771\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd;2:\ufffdf\u001a\ufffd+\ufffd[ ~\u0013\ufffdP\ufffd\ufffdoK\ufffd\u346eX\ufffdm\u0166K\ufffd\ufffd\u0006\ufffd \ufffd\ufffd@\ufffd\ufffd\ufffd\ufffd\u0015\ufffd\ufffd\ufffd\u0010\ufffd!\\\ufffd\ufffd\u0013X\u0010g:\ufffd \u0261wN\ufffdF\u0019+ \ufffd\ufffd\ufffd \ufffdw\u0002\ufffd\ufffd%\ufffdEi%\ufffdS\ufffd\ufffd\ufffd\ufffd&)\ufffd\ufffd\ufffd\ufffd\ufffd\u0002\ufffd[\ufffd\ufffd|GWl\ufffdH\ufffd\ufffd\ufffd\ufffd\ufffd\u02d22 \ufffdT Z\ufffd:\ufffd8\ufffd\ufffd\ufffd\ufffd\u0278\ufffd/\ufffd} \ufffd\ufffd v\ufffd?\ufffd\ufffd\ufffd\ufffdR\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd:\u000f\u0012[\u0016U\ufffd\u0096 6\ufffdE$\ufffd\u009e\ufffd\ufffd\ufffd\ufffd;0X>\u0012\ufffd\u0017\ufffdCW\ufffd_Us\ufffd\ufffd`\u007f\ufffd\ufffd\ufffd\ufffd\ufffdVU\ufffdq\ufffdw\ufffdIY\ufffd,\ufffdb\ufffd\ufffdwk\ufffd\ufffd\ufffd\ufffd\u0007\ufffd\ufffd\ufffd8\ufffd4\ufffdb\ufffd\uda9f\udeebW\ufffd\uf733\u0011\ufffd\ufffd},\ufffdn\ufffd\u0007\ufffdA{zuY\ufffdzy{\ufffd\ufffd]\ufffd\ufffd1\ufffd?\ufffd,{t\ufffdP)\u0019PUS\u001a\ufffd\u0010\ufffdr\u96235\"(\ufffdt\ufffd\ufffdw\ufffd\ufffd\ufffd\ufffdu}\ufffdn\ufffd;^\u07fb\ufffd\u007f9\ufffd\ufffd?\ufffd\ufffd\ufffd\u037b\u00cb\ufffd\ufffd>\ufffd\ufffdw\ufffd\ufffdF\ufffd(\b{e[ \ufffd\ufffd\ufffd^l\ufffdW\ufffd\ufffd\ufffd\ufffd \u0018\ufffd\u0006\ufffd\ufffd\b$n\ufffd\ufffd\ufffd\ufffd8=\\;9pV\u03f6\ufffd\u03dak\u0007\ufffdJ\ufffd\ufffd}9y{\ufffdU\ufffdG\ufffd \ufffd\ufffdYq\ufffd\ufffd\ufffd {*_\ufffd\ufffd\ufffdf\ufffd\ufffd\ufffd\ufffd\u0015\ufffd \u0698Z\ufffd\ufffd_\ufffd \ufffd1$\ufffd\ufffd\ufffd\ufffd{%\u0732\ufffd\ufffd5\u001b\ufffd\ufffd\u000e\u0011\ufffd \ufffd\ufffd\ufffdX\ufffd\ufffd\ufffd\ufffdo\ufffd\u0015\ufffd: &\ufffd)N\u007fc\ufffd\ufffd\ufffd\ufffd\ufffd\u07a9x\ufffdv\ufffd \ufffd\u0003_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0015\u0002\ufffd\ufffd\ufffd\ufffd:|>\ufffdz\ufffd\ufffd}er\ufffd\ufffd\u0002\ufffdIt\u0003E\u0005[\ufffd \ufffd\ufffdc\ufffdv\u69dda\ufffd\u0010.\ufffd\ufffd\u0019\ufffd\u01ac \ufffd`! \ufffd>\ufffd\ufffd3\ufffdyv\ufffdn\u0017\ufffd;P!w\u0013\ufffd\ufffdRt\ufffdr\ufffdH)\ufffdJ0\u0017\ufffd\ufffd\ufffdlh\ufffd\ufffd\ufffdr\ufffd\ufffd)\u0017\ufffd\u001bEp\ufffd\ufffd\u0012\ufffd\ufffd,_\ufffd\ufffdK\ufffdT EUV\ufffd\ufffd F\ufffdK\ufffd\ufffdLu\ufffd\ufffdw\"\ufffd\ufffdd7\ufffd64\ufffd\ufffd\u0001\ufffd\u0005\ufffd\u0000\ufffd\ufffdQ\ufffd\ufffd\u00f7-\ufffdfd;(\ufffd\ufffd#\ufffd\u0001\ufffd\ufffd\ufffdx{AU\u0016\ufffd-\u0016\ufffd%\ufffd\ufffd\ufffd\ufffd\u0015\ufffd0\u0007\b*|/\u0017\ufffdu\ufffdT\ufffd+\ufffd\ufffd \ufffd \ufffd; B)\ufffd>]X (#6\ufffd\ufffd\ufffd\u001bk\ufffd\ufffd.d\ufffd\ufffd[\ufffd \ufffdv\ufffd\ufffd\ufffdjN\ufffd\ufffd\ufffdV\u0002\ufffd$\ufffd\ufffd\ufffd\ufffdi\ufffd\ufffd\u0016s\u0481\ufffd\ufffd\ufffdQ\u0015\ufffdD\ufffd$n \ue4eagt \\+\ufffd\ufffd\ufffd\ufffd5\ufffdHU-\ufffd'\ufffdP\ufffdf|\u04a92\ufffd^*\ufffdU \ufffdM\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdq\u0007\\1\ufffd0\ufffd#D\ufffd\ufffd\ufffd-\ufffd \\\ufffdF\u0017\ufffdE\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u069e|\ufffd?\ufffd8h \ufffdJ\ufffd\"\ufffd'\ufffd\ufffd\ufffdyK\ufffd\ufffdD\ufffd\ufffd\ufffd\ufffd~G;\ufffd\u000e\ufffd\ufffdo.\u02edRG;j \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdx\ufffdst\u067f8\ufffd\u061d h\u0013M\ufffd \ufffd\u000f \ufffd\ufffd\ufffd\u000f\ufffd\ufffd7\ufffd\u06ed\ufffd\ufffde\ufffd\u2ca4\u000e:\ufffd\u02fd\ufffd\ufffdQ\ufffd\ufffd~\ufffd:\\\u03df\\\ufffd\u05ac\ufffdmu\ufffdn\ufffd\ufffdz\ufffdf\ufffd\u007f4\ufffd\ufffdUw\ufffd\ufffd\ufffd] 4\ufffdmm\ufffdy\ufffd\ufffdl\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdV.k LY\ufffd\ufffd\ufffd\uf19f\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\u0003\ufffd\ufffd\ufffdyw\ufffd\uba23\u000f\ufffdbe09Y3-\ufffd-\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdw\ufffdt\ufffd^\ufffd3?}\ufffd\ufffd\ufffd~o+\u007f\ufffd\ufffdYF\ufffdh_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd-JoV\ufffd\ufffd\ufffd\ufffdW\ufffd\ufffd:\ufffd l\ufffd\ufffd[\ufffd\ufffd\ufffd\ufffd:s:\ufffd\ufffdC\ufffd6\ufffd\u0533\ufffd\ufffd\ufffd\ufffd\ufffdUuD\ufffd?M\ufffd\u000f{\ufffd\ufffd\ufffd\ufffd^\ufffd\uc4f5\ufffd\ufffd=\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0017\ufffd\ufffd\\1\ufffd\ufffd\u01d7\ufffd\ufffd\ufffd\ufffde\ufffdw\ufffd\ufffd\ufffdi\ufffdV \u0017\ufffd$o\ufffd '\ufffd\ufffd\ufffd\ufffdd\ufffd(F\ufffd]\u0014\ufffd N0\ufffd}\ufffdN\ufffd\ufffd~Z\ufffd\ufffd\ufffd\ufffd|y4 \ufffd\ufffd>\u007fb\ufffd)\b\ufffd!\ufffd\ufffd\u0004g/\ufffd\ufffd\ufffd\ufffdf\ufffdI{\ufffd\ufffd\ufffd!.\u00c3NP\ufffd\ufffd\u001a\ufffdR:\u0004]\ufffd`\ufffd}\u01ca \ufffd6\ufffd\u0684\ufffdq\u06a4\ufffd \ufffd\ufffdp-\ufffd\u001a\u0004\ufffd\u0007\ufffd\u0005\ufffd\ufffd \ufffd\u0006oO\u000f\ufffde\ufffd\ufffd*# \ufffd\ufffd0L\\\ufffd\ufffd\ufffdLn\ufffdp\ufffdPKJ8YN\ufffd+i\u0001\ufffdRR\ufffdF\ufffd\ufffd\ufffdi\ufffd{\ufffd\ufffd\ufffdk\u0018 N\u0019\ufffd\ufffd\u0004 \ufffd\ufffd\ufffd0\ufffd\ufffd,\ufffd\u0006t\ufffd\u000e9\ufffd%\ufffd\u0007\ufffd\ufffd\ufffd\u0578S0L\ufffd\ufffd-\ufffdU\u07af\ufffd\ufffd/\ufffdw\u03edwwk\ufffd\ufffdwc\ufffd\ufffd_oo\ub8ef\ufffd\ufffd\ufffd\ud937\udf77\ufffd{\ufffdV{k\ufffd\u0017\ufffd\ufffdKq?\ufffdy\ufffd\u001b\ufffd/\ufffd\ufffd\ufffd,G\ufffdR\ufffduI\ufffdm\ufffd&/\ufffdu\ufffd\ufffd\ufffd\ufffd\ufffdrb\ufffd\ufffd\ufffd\ufffd#\ufffd+\ufffdw\ufffd=Pt\ufffdm4IX\u0019g\ufffd[}\ufffdr:\ufffdZ\u0007\ufffdGx\ufffd\ufffdP\ufffd{ \ufffd\u12d6\ufffd\ufffdi\ufffd\ufffd*\ufffdj\b\ufffd[\ufffd\ufffdW\ufffdyo\ufffd\u0019\ufffd\u010c\ufffd\\l l\ufffdl>Pf\ufffd\ufffda\ufffdc\ufffd\ufffdd\ufffd6\ufffd\u0394\u0000\ufffdGmr\ufffdb\u0019\ufffda&a _s\u0018G7\"\ufffd\ufffd\ufffd2\ufffd&\ufffd|W,\u014b\ufffd\ufffdc\ufffdPz\ufffdZNT\ufffd\u0115X\ufffd \ufffd\ufffd\ufffdJ\u0007\ufffda\ufffd\ufffd\ufffde\u029ef\ufffd\ufffdg#\ufffdxN\u0017\ufffd9\ufffdf\ufffd\ufffd&\u0018\ufffd\ufffdWm\ufffdS\ufffdq%\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd \ufffdlR\u0104\ufffd\ufffdm\ufffd\u05a0,\ufffd\ufffdD\ufffd\u077b\ufffdf)|\u007f\ufffd\ufffdyl K \ufffdv\ufffd\ufffdcd\ufffdY\ufffdZZW\ufffdH@v\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdn\ufffd\ufffdp\ufffd~\ufffd6e\ufffd6\ufffdw\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd^\u001b\ufffd\ufffd\"\ufffdY\ufffd\ufffd _\ufffd^x\ufffd ]\ufffd\ufffd]\u0003\ufffdy\\7\ufffd\ufffd\ufffdLy0 A\ufffd\ufffd\ufffd\u0005\ufffd i@\ufffdb\ufffd \ufffdk\ufffd\ufffd,\ufffda\ufffdJ\ufffd\ufffdta\ufffd\ufffd\ufffdB\ufffd\u06e7\ufffd\ufffd\ufffd\ufffd\ufffdql\ufffd_\ufffd\u007f\ufffdv\ufffd '\ufffdq\ufffd\ufffdL\ufffd\ufffd\ufffd\ufffdH\ufffd\ufffd].?\ufffdh\ufffd\u0017\ufffd\\\u0010\ufffdr6\ufffd\u0091\ufffd\u0000\ufffd\ufffd\u000e\ufffd\ufffd\ufffd4\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdyX\u0653k\ufffd\ufffd\ufffdG\ufffd\ufffdz\ufffd\ufffdX~\ufffd\ufffd\ufffd\ufffd\ufffdw\u007f}\ufffd\ufffd \ufffd{aq\ufffd\ufffdF\ufffd/#\ufffd\u0755\ufffd4\ufffd\ufffd\u001a\ufffddH\ufffd\u0015[\u0002\u04b0\u0017 \"\ufffd Y:$+8q\ufffd\ufffd\ufffdy\ufffd\ufffdA*\ufffd}MW\ufffd\ufffdr\u0016\ufffd\ufffd\ufffd{x8\ufffdr\ufffd\ufffd\ufffd5_\ufffd\ufffd)9-\ufffdz\ufffd\ufffdN\u0005\ufffd(\ufffdy\ufffd\ufffd\u0000\ufffds\u031c\ufffd\u0006\ufffdU\u04ba0\b\u0464\ufffd\ufffd\ufffd\"gp\ufffd\ufffd\ufffd\ufffdJ\ufffd\ufffd\ufffd\u0019\u07ff \u06b4.#\ufffdI&\ufffds^g\u01ba\ufffdl@\ufffd\ufffdKE+\ufffdx\ufffdV-\ufffd\ufffdh\ufffd~\ufffd\ufffd\ufffd\u06e6:EF\u0004\ufffdwV\ufffds/\u0004D\u0018/\ufffd\u0001\u000f\u0719F\ufffd\ufffdx\ufffd\ufffd\ufffd\ufffd8J\ufffd\u03fe\ufffd|)6L\ufffdV~\u0004\ufffdh \ufffd\ufffd\ufffd\u0003\ufffd\ufffd\ufffd\ufffd \ufffd-\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd|aeExt\u0019 \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdc\ufffd\ufffd RY+\u0001\u0007\ufffd\ufffd\ufffd?\ufffd;\ufffd:\u0795Vr c\ufffd\ufffd\ufffdq\ufffdJ[W\ufffd[ \ufffdXO\u0004 \u0003 \ufffd\ufffd=\u0014\ufffd\ufffd\u000f\ufffd8\ufffd\ufffd\ufffd\u0016S\ufffd\ufffdRNk,+y\ufffd\u007fPT\ufffd\ufffd\ufffd\u0002& \ufffd\ufffd\ufffd\ufffd\ufffd;\u070a\ufffd\u0527\ufffd\ufffd\ufffd \ufffdlh\ufffd U\ufffd \u0790 \\d\ufffd\u0216\u0002-iM\ufffd\ufffd6\ufffd\ufffd\ufffd:W\ufffd\u001b L\ufffdy\ufffd>\ufffd\ufffd@\u000f\ufffd;\ufffd\ufffd\ufffd+\ufffd \ufffdt\ufffd\ufffd /.\ufffd\ufffdHo\u0003\u0005\u0217H\u0001\ufffd* 4\ufffd\ufffdW\ufffd+i\ufffd5\ufffdn\ud995\udd1b\u000f\u0005\ufffdgcE\ufffd_\ufffd\ufffd\ufffd\u001b\u0001%u\ufffd\ufffd\ufffd\u0002\u0007\ufffd\ufffd\ufffd95?\ufffd\ufffd\ufffd.Ko\u06a6\ufffdJR\ufffd\ufffd\ufffd\ufffd4\ufffd c\ufffd\ufffdk\b\u007f+\ufffd\ufffd3\u001bZ~\ufffd`\ufffd\u0013\u0018\u000f\ufffd\ufffd.\u0005\ufffdq\ufffd:\ufffdS \ufffd\u0006\ufffd\ufffd\ufffd\ufffd\ufffdF\ufffdy\ufffdRr\ufffd\u0016\ufffdVt\ufffd\ufffd.\ufffd\ufffdm\ufffdF\ufffd\ufffde \ufffd\ufffd\ufffd\ufffdJ\ufffdV\u02d7\ufffd5\ufffd\ufffd\ufffdH\ufffd=\ufffd\ufffdn\ufffd \ufffd)\ufffd+ \ufffd*G\ufffdv\u1933FO\ufffd\ufffd\u0518 \ufffd[\ufffd/\ufffd\ufffd\u7d4b\ufffd\ufffd\ufffd\u0013g\ufffd\ufffd\ufffd\u03b1\ufffd\ufffd|\ufffdn\ufffd\ufffd\ufffdr\ufffd\ufffdt~\ufffd\ufffd\ufffdR\ufffd\ufffdL\ufffd\u0017\ufffd\ufffd{\ufffdd\ufffd~\ufffd\ufffd]e\ufffd \ufffdMJ\ufffd5\ufffdp|b \ufffd\ufffd*\u0017G\ufffd\ufffdE\ufffd\ufffdne}{|h\u007f]S\u07b7\ufffdO;\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdcUm\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0278\ufffd\ufffd\u02dd\ufffdu\ufffdwL\ufffd on\ufffd\ufffd\ufffd/\u000f\ufffd>\ufffd\ufffd~\ufffd_Lw\ufffd\u000f\ufffd\u03b6\ufffd{\ufffd\ufffd\ufffdY\ufffd`\ufffd\ufffd*\ufffd\ufffdZ\ufffd\ufffdr\ufffd\ufffd2\ufffd\ufffd\ufffd\ufffd\ufffd~\ufffd\ufffd{U\ufffdduN'M\ufffd\ufffda\ufffdnk\ufffdV]o\ufffd\ufffd\\\ufffd\ufffd\ufffd\ufffdx{\ufffd}i\ufffdM\ufffd\ufffd[\ufffd\ufffd\ufffd\ufffd\u0005\ufffd\\yU(\u05be\ufffdl\ufffd:\ufffd\ufffd\ufffdny\ufffd\ufffd}>\ufffd|ug\ufffd\u0015\ud6fd\ufffd\u00fd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdW'o\ufffd/\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffd\u077d\ufffd\ufffdq\ufffd-\ufffd \ufffd\ufffd\ufffd\ufffd\ufffdUe\ufffd\ufffd\ufffd\ufffdZ\ufffdZ(7\ufffd}\ufffd\u001a\ufffd\ufffd\ufffd\ufffd\ufffd\u0349\ufffd??\u06f1?|\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdN\ufffdx\ufffdn\u007f\u0477\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdh\ufffdy\ufffd\u000e\ufffdJ.\ufffd(-\ufffdk\ufffdE \ufffdJ\ufffd\u001a _\ufffd`P\ufffd\u0773\u0001\ufffd\ufffd\u0002,\u044a\ufffd\u001b\u0013\ufffdjK\ufffd7 \ufffdsZ\ufffdo\ufffd\u0006tt\ufffdx\u00f3%\u07b8\ufffdiL^34GCG\ufffd\ufffd\ufffd\ufffd\ufffdX~a\ufffd\ufffd\ufffd\u000e\ufffd\u0006{\ufffd\\\ufffd\u0015K\u0005\ufffdn`\u048a\ufffd\ufffdKM\ufffd\ufffd\ufffd\ufffdP1\ufffd\u0004\ufffd\ufffd\ufffdf+\ufffd\ufffd\ufffd \ufffd:`\ufffd?(\u05b2 \u0744\u0015\ufffd",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260304001111_720ff85a35.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260304015006",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/candidate-information",
+     "mimetype": "text/html",
+     "digest": "LX2HBR2ATNKQODV7BUI6ZEVVM2RPA7DW",
+     "length": "24186",
+     "replay_error": null,
+     "bytes": 22715,
+     "sha256": "4d187a346e6e65332b0bf3f547e4eabc56be631ef4b7f8af63efa22728b2e281",
+     "orig_last_modified": "Tue, 03 Mar 2026 18:12:38 GMT",
+     "orig_date": "Wed, 04 Mar 2026 01:50:06 GMT",
+     "orig_last_modified_local": "2026-03-03 12:12:38",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd\ufffd\ufffdv\ufffd8\ufffd(\ufffd\ufffdg\ufffd\ufffd\u000e\b\ufffd'\ufffdw\ufffd\ufffd\ufffd\"\u06c9\ufffde\ufffdrb\u01f7X\ufffds\ufffd\ufffdE\ufffd\ufffdD\ufffd\"\u0019\ufffd\ufffd\ufffd$^\ufffd\ufffd\ufffd\u0004\ufffd:\ufffdp\ufffd\ufffdG9Or\ufffd\u0000\ufffd~\ufffd\ufffdX\ufffd3[\ufffd\u0013\ufffd P\ufffd*\u0014 \ufffdB\u0001\ufffd\ufffd\ufffd\ufffd~\ufffdw\u06bc\ufffd|\ufffd\"Cw\ufffdo\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffd\ufffd1hH\u0510\ufffd1\ufffd**\ufffd\u0506\ufffd\u000e \ufffd\ufffd\ufffd\ufffd\u0011u\u0015\ufffd\u001b*\ufffdC\u0746ty\ufffd/oH\ufffd\ufffd\ufffdZ\u05cc\u001b2\ufffdi\ufffd!\ufffd\ufffdh_\u0019\ufffdn\ufffd4\\j\ufffd\ufffdk\ufffdk\ufffd\ufffd\ufffd\u068aU\ufffd\ufffd\ufffdVK\ufffd\ufffdH3J=\u01d1\ufffdM\ufffd\ufffd\ufffdS\ufffd:CJ]\ufffd\ufffdU\ufffd\ufffd\ufffd\ufffdk\ufffd\ufffd\ufffdX\ufffd4\ufffdO\ufffd\ufffd\ufffd4G\ufffd\ufffdj]\ufffdJ\ufffd\ufffd+hH\u0007\ufffd\ufffd\ufffd+\u0002\ufffdn\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0016C\ufffd\ufffd\\\ufffd\u0002\ufffd_\ufffd\ufffdo\u0004~M\ufffdP5Uq)90\ufffd\ufffd=\u0002h\ufffdA~\ufffd][\ufffdf\u069aB\ufffd\ufffd\ufffdp\ufffd\ufffd\ufffdS\ufffd\ufffd\ufffd\ufffd\ufffdA\ufffd\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdY\ufffd6\u007fc\ufffd\ufffd\ufffd\ufffd\ufffd!\ufffd\ufffde\ufffd=\ufffd\u000e\ufffd[\ufffdP\ufffd\ufffd? \ufffd\u06f1\ufffd\u061d\ufffd\ufffd\ufffd\u009f\ufffdA\ufffd\ufffd\ufffd*\ufffd\ufffd~yiY\ufffd\ufffd.Gj\ufffd\ufffd\u03b8c(#\u0690&\u001a\ufffd\ufffdL\ufffd 1\ufffdVS\ufffdaC\ufffd\u0013\ufffdGe\ufffd\ufffd\ufffd\ufffd\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\"\ufffdcC\ufffd\ufffd u\ufffd\ufffdq1\ufffd#\ufffdM\ufffd5\ufffd7\ufffd\ufffdt\ufffdo\u001b\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdu\\\ufffd}\ufffd\ufffdzv>l\ufffd\ufffd\ufffd\ufffd\ufffdV\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u077b\ufffd\ufffd\ufffd\ufffdJ5\ufffd\ufffd\ufffdX\ufffd\ufffd\ufffd5\ufffd\ufffde\ufffd\ufffdS>V4c&\u0012\ufffd\ufffdV\u0658 \ufffd;_MM9\u0778\u865a\ufffd\ufffdsf\u007f=\ufffd\ufffd^M\ufffd\ufffd\ufffd\ufffd\ufffdA\ufffdk\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd9Q\ufffd2O \ufffd\u00078\ufffd\u064b#\ufffd\ufffd\u0016\ufffd\ufffd\ufffd\u0003\ufffd\u0520\ufffdk\ufffd\ufffd\u036ai~6N\u000f7N\u000e\ufffd\ufffd\ufffd\ufffd\ufffdYs\ufffd\ufffds\ufffd[s.o\u07dd\ufffd\ufffd\ufffd\ufffd\ufffd'e\ufffd\ufffd\ufffd{\ufffd\ufffd\u00015X\u042d\ufffd\ufffdD\ufffd\ufffd/\u0019*X\u0013\ufffd1\ufffd E\ufffd \ufffd\ufffdg\ufffd\ufffdO\ufffduc -v\ufffd\u00f3 \ufffd\ufffd1`\ufffd\ufffd\ufffd\\\u0000\ufffd\u001aP\u0018~\u01ca=\u040csEm\ufffd\ufffdk\ufffd \ufffd}\u0340Q \u0004\u007f\ufffd_\ufffd5\ufffdd22\ufffd`\ufffd\ufffdE\ufffdT\ufffd 5\ufffdb\ufffdn\ufffd\u0014\ufffd\u0000\ufffd?Y6\u0622\ufffdq\ufffd\ufffd` \u0004\b!\ufffdEC\ufffdC{\ufffd\ufffd\ufffd J%\ufffd(\ufffdL\ufffd\ufffdC\ufffd\ufffd\ufffd\ufffd\ufffd={|`/ \ufffd\ufffd\ufffd\ufffd \ufffd9\u207c\ufffdg\ufffd\u0015{\ufffd\ufffdY\ufffd\ufffd^D\ufffd \ufffd|\ufffd'\ufffd\ufffdf\ufffd\u000f\ufffd0\ufffd\u000e8\ufffd\ufffd\ufffdk\ufffd\ufffd\ufffd\u0443gO -\u0005\u0000\ufffd_\u04c2\ufffd i\ufffd?BD\u01b6\u000e\ufffd\ufffd~ J\u000e \ufffd\ufffd\ufffd\ufffd\u007f\ufffd \ufffd\ufffdR\ufffd\ufffdF}\ufffdz W\u0003 j\ufffdO\ufffd\ufffd/J\ufffd\ufffd X\u02e8#\ufffd\ufffdC*][\ufffd\u007f\ufffd\ufffd\ufffd\u000fi\u007f\u007foc\u007f\ufffd \u049fE\ufffdJ\u04d2-C\ufffdnl\ufffdUV[\ufffd\ufffd\ufffd^e\ufffd\ufffdS\ufffd\u0011\ufffd\u0007Z\ufffd\u007f_\ufffd\ufffdn\ufffd\ufffd\ufffdl\ufffd\ufffd\u05eb\ufffd\ufffd\ufffd\ufffd\ufffdML`\ufffd\ufffd#Kd\ufffd\ufffd\ufffd4\ufffd\u0007\ufffd\ufffd\ufffdY\u06e9Tx\ufffd\u057dJ\ufffd\ufffd\u0013d\ufffd#\ufffd3a\ufffd\ufffd\u0012w\ufffd\ufffd\ufffds&\ufffd\ufffd\ufffdH\ufffd\ufffdmW\u0000\ufffd\ufffd5\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0004 \ufffd\ufffd\u0003 ~a\ufffd\ufffd\ufffdq\u079a& \ufffd\ufffd C\u0018(067\ufffd)\u0006\u001af\ufffd\b\ufffd\ufffd\ufffde\u0007\u007f\u0007\ufffd\ufffd\ufffdB\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdZ\u06d7\ufffd\ufffd\ufffd\u0017\u0007\ufffdCS\u0019\ufffdH\ufffdi3\ufffdk\ufffdP\ufffd!\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdj\ufffd\ufffd\ufffd\u05d7\ufffdv\ufffd\ufffd 5\u000f\ufffd\ufffd\ufffd\ufffdO\ufffdP9\ufffd;\ufffd ^\ufffd\\\ufffd\ufffd\u0007\u06ad\ufffdL\u000f\ufffd\u000fF_\ufffdW\ufffd\ufffd\ufffd\ufffd;\ufffd\ufffd\ufffd\ufffd\ufffdY\ufffd8\ufffdz\ufffdN\ufffd}s\ufffd\ufffd\\\ufffd6\ufffd\u0687\ufffd\ufffd\ufffd\ufffd\ufffd5\u001a}\ufffd|\ufffd[\ufffd|\ufffd;\ufffd\ufffd\ufffdA\ufffd\ufffd\ufffd\ufffdZ\ufffdz[o\u065f.\ufffd Z\ufffd\ufffdq\ufffdvcM[w\ufffd\ufffdM\ufffd\ufffd mvV\ufffd\ufffd[\ufffd\ufffd\ufffdZ\ufffd\ufffd[wtsxur\ufffdqX9\ufffd@es \ufffdl\ufffd\ufffd\ufffd;\ufffd\ufffdw\ufffd `{V=\ufffd\ufffd\ufffdZ\ufffd\ufffd\ufffd\ufffd\u065d\ufffd^ \ufffd\ufffd\ufffd\ufffd\ufffd=k\ufffd}8;h_\ufffd&g\ufffd\ufffdqg\u06b5/5m\ufffdyv \\\ufffdD\ufffd \ufffd\ufffd\ufffd6\ufffd(\ufffd \ufffdu\ufffdZ\ufffd\u0018\ufffd7+\ufffd\ufffd[z\ufffdj\u001bW\u3f4a\ufffd\ufffd\ufffd\ufffd\ufffdS\ufffdfS\ufffd\ufffd\ufffd^\ufffd_\ufffd`$\ufffd \ufffd*\ufffd@,\u007f\u0017\ufffd\ufffd\u001b9M\u0018A\ufffdh\ufffd \u001a\ufffd\ufffd_\ufffdV5z,q\ufffd;\ufffd.\u034a g\u0013\ufffd= J\ufffd-\ufffd1\u01ba\ufffd\ufffd\u0566`\ufffd\u0019\u0002\\\ufffd\ufffd}1\ufffdI\ufffdBaN\"5O\ufffd\ufffd(Q\ufffd\u02bb8v9\ufffd`\ufffd\ufffd\ufffd\u0139\ufffd\ufffd\ufffd ^\ufffd\u007f\u0010om\u0011\u007f\ufffd-\u0005\ufffdI\ufffd,\ufffd\u000f\ufffd\ufffdO\ufffd{\u0001\ufffd\ufffdu\ufffd\ufffd'\u0771\ufffd\ufffd\u0003,\u0018\ufffd@\ufffd\ufffd\u0526\ufffd n(\ufffd\ufffd/\ufffd0\u077ec\ufffdFf\u0017Lm\ufffd\ufffd8 \u0002\ufffd\u045aFkA\ufffd \ufffd}\ufffd-\ufffd n\ufffd\u0001uE\ufffd\ufffd\ufffd@]b\u02e82\ufffd!qZ\ufffd/ S\ub4e5\u0018\ufffd\ufffd\ufffd\ufffd\u6274\ufffd\ufffd\ufffdr\ufffd_I\u001b(\ufffd\ufffdZ5V\ufffd\ufffd+\ufffd\ufffd\ufffdW,\ufffd)\ufffd\ufffd\ufffdp\ufffd\ufffd\ufffd\u0000\ufffd6M\ufffd\ufffd\ufffd\u0017\ufffd\ufffd\u0007\u0425\ufffd\ufffdE6\ufffd )\ufffd\u066bq\ufffd\ufffd\ufffdl\ufffd_\ufffd[\ufffdP\ufffd ^|\ufffd\ufffd\ufffd\ufffd6\ufffd\ufffd\ufffd\u0013\ufffd;\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffd\ufffd\u9f73\ufffd\ufffd:WW\u0007\u001b\ufffd\ufffd\ufffd\ufffd_^\ufffd\ufffd\u0003\u0517\ufffd\ufffdS\ufffd\ufffdK\ufffdl]\u0012\ufffd\u0010\ufffd\ufffdv\ufffd&\ufffd\u0017&\ufffd\u0013C\u0297\ufffd\u0015\ufffdd\ufffd\ufffd\ufffdH\ufffdu\u0016\ufffd\ufffd\ufffd2\u0380\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdk \ufffd\u0018\ufffd\u00c3Q^\ufffd\ufffd\u0012\ufffd\ufffd\u0017-\u00e5\ufffd\u0016\ufffdU\ufffdi\ufffd\u0010\ufffd\ufffdN \ufffd\u0287\ufffd\ufffdx \ufffd\u050c\ufffd\\l\u000el\u000e >Qf\ufffd `xs\ufffd\ufffdd\u000e\ufffdX\ufffdB\b\u0383\ufffd \ufffd\ufffdE \ufffd$\ufffd\ufffdiZI4c\u25c8\ufffd\ufffdU \ufffd\ufffd\ufffdb ^\ufffdA +\u0006\ufffd\ufffd\ufffd\ufffd\ufffdN\ufffd\ufffd\u0002+\ufffd\ufffdb2sW\ufffd \ufffd^:\ufffd \ufffd\u0012\ufffd\ufffd\ufffdp\ufffd|\u0706\u0001\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd(\ufffd\ufffd\ufffd\ufffd%\ufffd\ufffd h\ufffd\ufffd\u001a\ufffd6\ufffd\u0322 \ufffd\ufffd\u0012p@\ufffdl\ufffd\ufffd\ufffd\ufffd\u35b4\\T\u0018;$\ufffd\ufffd\ufffd)]]1n$Hc#\u0010 \ufffdh\ufffd\ufffd\ufffd\u000e{(\ufffd{?\ufffd\ufffdFc!\ufffd\ufffd\u01e5\ufffd\ufffdXR@\u0243\ufffd\u0010U\ufffd\ufffd\ufffd\ufffdJ\ufffdq\ufffd\ufffd\ufffdxd[\u0005\ufffd\ufffd\u0014W\ufffd\ufffdc\ufffdM\ufffd\u0623\u0297\ufffd\u001b\ufffd\ufffd\ufffd\ufffd1\ufffdR\ufffd%\ufffd\ufffd\ufffd\u04c6R\u0012Z\ufffd#\ufffd\u0006\b\ufffdi\u0267\u000f\u00069\ufffd\u0007\ufffd=\ufffd\ufffd\ufffd\ufffdw# ]51\ufffd\u01634\ufffd\ufffdm\ufffd\u0000\u0005\u0012)@\ufffdRE\ufffdFA\ufffd\ufffd\ufffd]*\ufffdb\u072d\ufffd\ufffd\ufffd\ufffd\u0000\ufffdl,\ufffd\ufffd\u000ek \ufffd\u0011\ufffd\ufffdPs X\u0001\b0+lcw\u0160\u0015\ufffd\ufffd4\ufffd\u0006\ufffdy\ufffd\u0010\ufffd\ufffdd\u0492\ufffd\ufffd\u0000M \ufffd\ufffdj\u0018xH\\\ufffd#oKb\u00011T\u0014y\ufffd\u00e5\u001a\ufffd\ufffdW\u0000 *\ufffd\ufffdZ\u0013\ufffd\u0457/i \ufffd\u0376\ufffd\ufffd\ufffd ?\ufffd:\u001b2\ufffdE\ufffd\ufffd\ufffd \ufffd\ufffd\u0012\ufffd`@-/_\ufffdH\ufffd\u001a\ufffd;\\*\ufffd\ufffdk\u0004\ufffdF\u0014 h\ufffd\ufffdl \ufffdW\u0015\ufffd\u0134\ufffdW \ufffdFu\ufffd\u0018\ufffd9 \ufffd\ufffd| \ufffdt\ufffd\u0016\ufffd\ufffd \ufffd5\ufffd\ufffdH\ufffd.\ufffd\ufffd,\ufffd/\u0017\ufffd9\u0005j1\u0014!,\ufffdV\ufffd\ufffd\ufffdBW\ufffd\ufffd\u00188\ufffd\ufffdL\u0015\ufffd `T\ufffdC\ufffd_\ufffd\ufffdf\ufffd{\u0004)\ufffd\u000e\ufffd d\ufffd\ufffdIA\ufffdU\ufffd\ufffd\ufffd\u00013I*\ufffd,\ufffdk\ufffd\ufffd @\ufffdgJ0W`S \ufffdG\ufffd\ufffdXg \ufffd\ufffd\ufffdA$\u0007\u06a1\ufffd\ufffd1\ufffdv\ufffd\u0002\u0003`\ufffd\ufffd \ufffd\ufffd\ufffd\u01a8\ufffd\ufffds\ufffd\ufffd{\u0011e;\ufffd\ufffd4\ufffd{\ufffdPX\ufffd\u0018\ufffdy\ufffd\u0011yc\ufffd_D\ufffdJ;\ufffd}S\u0012\ufffdC\ufffd\ufffd\ufffd\ufffdT\ufffd*E\ufffd t \ufffd\ufffd\u05fa\ufffd \ufffd\ufffd}3U\ufffd\u058c\ufffd] *r_\ufffd\ufffd7\u05eb=\ufffd\ufffd\"\ufffd@A\u00d9\ufffd\ufffdNI\ufffdQ@\ufffd\u000fU\ufffd\ufffdp\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd!\u05f6\ufffd\ufffd\ufffdK\ufffdMi\u0002\ufffd\ufffd F\ufffd\ufffds\ufffd\ufffd\u021c\ufffd\ufffdZ\ufffd\ufffd\u0013\u0014M\u06b202\ufffd\u0000\u001bh}\ufffdZ\ufffd\ufffdI\ufffdje\ufffd}5u\u0011\u0010\ufffdEmi\ufffd\u039e4k\u00a2\ufffd\ufffd\u0011\ufffdw\ufffd)\ufffd\ufffd\ufffdj\ufffd\u02b3\ufffd\u001a\u0006\u0000\ufffd+\ufffd\ufffd\u0015\ufffd!\ufffd\ufffd\ufffd\ufffdZ\ufffd\ufffdRj\u0496\ufffd\ufffdF\ufffd\ufffdg0\ufffd \ufffd :\u007f\ufffd k\ufffd \ufffd\ufffd\ufffdz\ufffdT[\ufffd,yh\ufffd\ufffd\ufffd-\u0000\ufffd\u0081 \ufffd\ufffdo\ufffdT\ufffd\ufffd\ufffd\ufffd\ufffdJ\u057a\ufffd\ufffd\ufffdX\ufffdM|\ufffd\ufffd\ufffd \ufffd\ufffd\ufffdVxR\ufffdv]\ufffd;\ufffd\ufffd\ufffd\ufffd\ufffd0\ufffdeK\ufffd\u0005\ufffdz\ufffd\ufffd\ufffd\ufffd\u0002\u0018\ufffdT\ufffd\ufffd\ufffd\ufffd\ufffdf\ufffd\ufffd.\ufffd\ufffd \u001bNw\ufffd\u000f\ufffd_.?\u007fk\u000e\u05ae\ufffd;\ufffd\ufffd6\ufffd\ufffdh\ufffd tw&\u07ea\ufffd'k\ufffdN.~ m\ufffd\u04db\ufffd\ufffd\ufffd\ufffdq\ufffd\ufffd\ufffd\u0547\ufffdu\ufffd\ufffd\ufffdQ\ufffd\ufffd|\ufffd\u06ed@wx[\ufffd\ufffd\ufffdb\u0579\ufffd]9j\ufffd\ufffd\u0007\ufffd}BW\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\ufffd\ufffdU\ufffdZ\ufffdjv\ufffd\u06e7\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0430G\ufffdz{\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\ufffd5\ufffd`\ufffd\ufffdV=\ufffd\ufffd\ufffd\u04eb\ufffd\ufffds\ufffdw\u07af\ufffdZ\ufffd\ufffdn\ufffdt\ufffd\ufffd\ufffd;\ufffd\ufffd\ufffd\u02b7\ufffd~l\ufffd k\ufffd\ufffd\ufffd~\u052a _^t\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd;h\ufffd> O\ufffd\ufffdG\ufffdW\ufffd\u067b\ufffd\ufffd\ufffd\ufffd~\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffdO\ufffd\u05bb\ufffd\ufffd\u0007\ufffdf\ufffd\ufffdh\ufffd\u5553\ufffd'\ufffd\u0003Z\ufffdZ \udbff\udf9d\ufffd>\ufffd\ufffd\ufffd.>\u0018\ufffd\ufffd\ufffd\ufffdJ\u07e8}\ufffd \u037b\ufffd3u\ufffd^}G5\ufffd#k}o8\ufffd?\ufffd\ufffd\ufffd\u000fG\ufffdO\ufffdw\ufffdw\ufffd\ufffd\u000f\ufffd\ufffd'\ufffd j\ufffd\ufffd\ufffd\ufffd\ufffdM\ufffd\ufffdu\u007f\ufffd^q+\ufffd\ufffdM\ufffd\ufffd\ufffd\ufffd^\ufffd\ufffdw\ufffd\ufffdub\ufffd\ufffd\ufffd\ufffd\ufffd3\ufffd\ufffd\ufffdl{\ufffd\ufffd\ufffdYq\ufffd\ufffd\u0478\ufffdZ\ufffd\ufffdU\ufffd\ufffd\ufffdzo\ufffdwv\ufffdo\ufffdn\ufffdl\ufffdY+\ufffd \ufffd^\ufffd\ufffd\ufffdG\ufffdW\ufffd\u0017\ufffd\ufffdgk_\ufffd\ufffd\ufffd\ufffd\ufffdw'\u00f5o+\ufffd\ufffd\ufffd\ufffdd|3^\ufffdU\ufffd6i\ufffd\ufffdx \ufffd9\u0017l\ufffd\u0016O\ufffdT\ufffdT\ufffd\ufffd\ufffd\u0005\ufffd\u0004s\u0002\ufffd\ufffd\ufffd\ufffd\u0017\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffdUG\ufffd\ufffd\u1c81\ufffdn|\u05f6`\ufffdS&[\ufffd*\ufffd \ufffd\u00d44Cs5\ufffd\ufffd\ufffd$ \u0309\ufffd\u0017\ufffd \ufffd0gp,\ufffd3Tl\u0015:t\u0003\ufffd\ufffdE }jB\u0005\ufffd$\ufffd\ufffda\"\ufffdOM\u6b20*\ufffd&\\\ufffd\u05beR\ufffd%\u0013F ;T\ufffd7)\ufffd#\ufffdb\ufffd>\ufffd\ufffd",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260304015006_8d2cda3b29.html"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=brazoriacountyclerktx.gov&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=brazoriacountyclerktx.gov%2Fdepartments%2Felections%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 11
+    }
+   ],
+   "versions_found": 3,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526195308",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections",
+     "mimetype": "text/html",
+     "digest": "P2XZCCMSJJR6EPQK7UN7UMVDX3QFPQIF",
+     "length": "25675"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526203902",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections",
+     "mimetype": "text/html",
+     "digest": "5P5EUPLEMUXLCXGCXGCCSX4SPRSLX5XZ",
+     "length": "25345"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260527024920",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day",
+     "mimetype": "text/html",
+     "digest": "GVMOUGP7A3REEO7RC43FUYCN4DWHESB2",
+     "length": "24874"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526195308",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections",
+     "mimetype": "text/html",
+     "digest": "P2XZCCMSJJR6EPQK7UN7UMVDX3QFPQIF",
+     "length": "25675",
+     "replay_error": null,
+     "bytes": 121590,
+     "sha256": "575a9f3a9dc3c829b1ee68adab4a297758342c5ec7292049558fbee6e8656b8a",
+     "orig_last_modified": "Tue, 26 May 2026 19:53:07 GMT",
+     "orig_date": "Tue, 26 May 2026 19:53:08 GMT",
+     "orig_last_modified_local": "2026-05-26 14:53:07",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Elections & Voter Registration | Brazoria County Clerk Please enable JavaScript in your browser for a better user experience. Show/Hide Due to legislative changes, beginning January&nbsp;1, 2026, all persons presenting a document for filing (in person) into the real property records of Brazoria County, are required to provide a photo ID to the Clerk.&nbsp;&nbsp; Texas Local Government Code \u00a7191.010 Brazoria County Clerk Home Menu Search CLOSE Go Contact Us County Clerk Calendar Home Online Services Attorney Portal Apply for Assumed Name Certificate Apply for a Marriage License Request Copies of Birth Certificates Pay ADULT Misdemeanor/Felony Court Fines &amp; Fees Pay JUVENILE Court Fine and Fees Request Copies of Civil and Probate Court Cases Request Copies of Criminal Court Cases Request Copies of Death Certificates Request Copies of Marriage License Request Voter Records Search Commissioners Court Records Search Criminal, Civil &amp; Probate Search Real Property &amp; Vital Records Departments Civil/Probate Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections Pay Court Fine and Fees Application for Payment Plans FAQ's for Collections Pay Juvenile Court Fine and Fees Commissioners Court Criminal Forms Criminal Fees Today's Court Docket FAQ's Criminal Search and Request Court Cases Elections Campaign Finance Reports Candidate Information Current Election Information Election Results Local Election Results Information for Voters with Disabilities Polling Places - Early Voting Polling Places - Election Day Poll Workers Precinct Maps Sample Ballots Vote by Mail Voter Registration Central Count Station Cameras Ballot Delivery Cameras Ballot Board Signature Verification Warehouse Drop-off Cameras Juvenile General Information Juvenile Payments Recording Department Assumed Name Birth Records Conflict of Interest Death Records FAQ's OPR, Vitals &amp; Assumed Names Marks &amp; Brands Marriage License Plat Regulations Public Notices Recording Requirements Recording Department Forms Recording &amp; Vitals Fees Search &amp; Request Copies of Real Property Records Search Records Criminal, Civil &amp; Probate Real Property and Vital Records I Want To... Apply for... Festival Permit Marriage License Assumed Name Occupational Drivers License Request PIA Register/File... Marks and Brands Property Fraud Alert Property Fraud Information Contact US Helpful Related Links View Today's Criminal Court Docket New Manvel Polling Location Welcome to Elections & Voter Registration Welcome to Elections & Voter Registration Jump to subpage... Civil/Probate + Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections + Pay Court Fine and Fees Application for Payment Plans FAQ&#39;s for Collections Pay Juvenile Court Fine and Fees + Juvenile Payments Commiss",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260526195308_45b5a7b0cd.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260526203902",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections",
+     "mimetype": "text/html",
+     "digest": "5P5EUPLEMUXLCXGCXGCCSX4SPRSLX5XZ",
+     "length": "25345",
+     "replay_error": null,
+     "bytes": 121597,
+     "sha256": "18d2e791b618f32b2f0147211eb207955b389453dc767a0ba8ce76d61ec6d8c5",
+     "orig_last_modified": "Tue, 26 May 2026 19:53:07 GMT",
+     "orig_date": "Tue, 26 May 2026 20:39:02 GMT",
+     "orig_last_modified_local": "2026-05-26 14:53:07",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Elections & Voter Registration | Brazoria County Clerk Please enable JavaScript in your browser for a better user experience. Show/Hide Due to legislative changes, beginning January&nbsp;1, 2026, all persons presenting a document for filing (in person) into the real property records of Brazoria County, are required to provide a photo ID to the Clerk.&nbsp;&nbsp; Texas Local Government Code \u00a7191.010 Brazoria County Clerk Home Menu Search CLOSE Go Contact Us County Clerk Calendar Home Online Services Attorney Portal Apply for Assumed Name Certificate Apply for a Marriage License Request Copies of Birth Certificates Pay ADULT Misdemeanor/Felony Court Fines &amp; Fees Pay JUVENILE Court Fine and Fees Request Copies of Civil and Probate Court Cases Request Copies of Criminal Court Cases Request Copies of Death Certificates Request Copies of Marriage License Request Voter Records Search Commissioners Court Records Search Criminal, Civil &amp; Probate Search Real Property &amp; Vital Records Departments Civil/Probate Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections Pay Court Fine and Fees Application for Payment Plans FAQ's for Collections Pay Juvenile Court Fine and Fees Commissioners Court Criminal Forms Criminal Fees Today's Court Docket FAQ's Criminal Search and Request Court Cases Elections Campaign Finance Reports Candidate Information Current Election Information Election Results Local Election Results Information for Voters with Disabilities Polling Places - Early Voting Polling Places - Election Day Poll Workers Precinct Maps Sample Ballots Vote by Mail Voter Registration Central Count Station Cameras Ballot Delivery Cameras Ballot Board Signature Verification Warehouse Drop-off Cameras Juvenile General Information Juvenile Payments Recording Department Assumed Name Birth Records Conflict of Interest Death Records FAQ's OPR, Vitals &amp; Assumed Names Marks &amp; Brands Marriage License Plat Regulations Public Notices Recording Requirements Recording Department Forms Recording &amp; Vitals Fees Search &amp; Request Copies of Real Property Records Search Records Criminal, Civil &amp; Probate Real Property and Vital Records I Want To... Apply for... Festival Permit Marriage License Assumed Name Occupational Drivers License Request PIA Register/File... Marks and Brands Property Fraud Alert Property Fraud Information Contact US Helpful Related Links View Today's Criminal Court Docket New Manvel Polling Location Welcome to Elections & Voter Registration Welcome to Elections & Voter Registration Jump to subpage... Civil/Probate + Credit Card Procedures Occupational Drivers License Information E-Filing Info Forms Search and Request Court Cases - Civil/Probate Civil Fees Probate Fees Collections + Pay Court Fine and Fees Application for Payment Plans FAQ&#39;s for Collections Pay Juvenile Court Fine and Fees + Juvenile Payments Commiss",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260526203902_45b5a7b0cd.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260527024920",
+     "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day",
+     "mimetype": "text/html",
+     "digest": "GVMOUGP7A3REEO7RC43FUYCN4DWHESB2",
+     "length": "24874",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    }
+   ]
+  }
+ }
+}

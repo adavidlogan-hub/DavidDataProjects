@@ -1,0 +1,2297 @@
+{
+ "county": "Tom Green",
+ "spec": {
+  "file_prefixes": [
+   "tomgreencountytx.gov"
+  ],
+  "page_prefixes": [
+   "tomgreencountytx.gov/page/"
+  ]
+ },
+ "swept_at_utc": "2026-10-02 23:49:17",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=tomgreencountytx.gov&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 53
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=tomgreencountytx.gov%2Fpage%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    }
+   ],
+   "versions_found": 53,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106070232",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2024/20241105/report4.pdf",
+     "mimetype": "application/pdf",
+     "digest": "INTXVF6LFSDXJ5QOONU7GYIZ4SNW6DAZ",
+     "length": "579050"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241109231122",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0129/docs/TGCSpecialMeeting11192024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7CBNHYWAWUOVIRFZPB3GELW4J4V76XSW",
+     "length": "304061"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112152054",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/WernerScoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MB46DZQX6Y23EFZ6YEJ37WSVK3GN2GNM",
+     "length": "329523"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112153218",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0085/docs/Jury%20Panel%20Updates%202/JuryPanelStatusNov2024a.pdf",
+     "mimetype": "application/pdf",
+     "digest": "633APRQI5JDTGAQA5TQYAUQPJJDGKNMX",
+     "length": "143811"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112155923",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/LacyLcoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SDJ7MQBO2MCM22QOQ7TYKDX36HGSCI4C",
+     "length": "117525"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112161355",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/mageemcoh011521%20report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CSKXFTYFHXSSJHP5EQEZY2KING73PY5N",
+     "length": "239607"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112165127",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0085/docs/20241015EXCESS_FUNDS_LIST.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QO3TVCNEUVM6OTYVKUFW25NGAU7RXN4W",
+     "length": "92700"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112170045",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/DerussoMcoh022024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "W4MMIMDSITRMXYAID5PB2KJZ5UWO2EDQ",
+     "length": "252601"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112173001",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0120/docs/2024Figure2ModelAffidavittothePublic.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NYOVPIFVYWYKOAS5XJK3ZOZKNT7DODR5",
+     "length": "322180"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113073025",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/SpeckScoh072024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "APPT6BO3Q4BJKTJLYZ57XY33GSFWH5OH",
+     "length": "46794"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113073633",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/BighamTcoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HY6FQTBAHUJRJHHF4VOBTJTWQAAP4BBK",
+     "length": "170558"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113074440",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/LelandLcoh072024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BXF7BPBI6YQ7ZCHFWAU2X2KNRBJR7KWG",
+     "length": "102572"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113074535",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0096/docs/2024/20240504/20240504VRBScancelldoc.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JKZGU46JQFJKZ76M3WFRSVP6ISLF6WWA",
+     "length": "210418"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113074840",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/HannaNcoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WF4QWYUQBXJ6ORQEXEXIOIGGRO4RTPGZ",
+     "length": "67942"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113075740",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/BaconRcoh102024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2EI7AX36AZ3QKQ4V2EXD3X26NKPRC7O4",
+     "length": "653900"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113080135",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/BighamTcoh072024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MKDVNNJL6NR63F2JA77JOAYXWZCRQCD7",
+     "length": "43829"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113080339",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/WhitakerMcoh072024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3GOQ244WXG6GJCZIPOTWZKEBHUNTVT54",
+     "length": "55977"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113080455",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/ColeGcoh022024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7S7E63JRQJSDB5UZTG4RCM7OVLNUBPUK",
+     "length": "163544"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113080806",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/AcevedoJcoh022024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KDN5DCDTWS6565N64HVVV46N64MBQ4MZ",
+     "length": "91603"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113080846",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/BaconRcoh011521%20report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FT2CIN6ODRH3VJOYNV5QAHN7TDYNUCTK",
+     "length": "278807"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113080924",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/TaylorCcoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ONL42BUDD4PW7WPXMETFVDV7TCZ66DJ2",
+     "length": "83931"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113081003",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0096/docs/2024/20240504/20240504appraisaldistrictORDEROFCANCEL2024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GTBL2CPSE7DEEQ734GRCIEEMFDTESWUB",
+     "length": "47439"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113081239",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/DANIELTcoh01082024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ONPHOIHMSZQMABHRUUQLLPCUR2STQKDI",
+     "length": "48401"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113081353",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/BeckyRcoh022024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LKMIIK2URKKY6OT4HTZ3X3HVUS56DBCX",
+     "length": "153263"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113081428",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/BaconRcoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GDXOT7GCE2BKTSSTPJUP7G7227O2DEAS",
+     "length": "60745"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113082718",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/ColeGcoh022024b.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RYG7S47D6CSWXDVGAQMXE5ZXXQQROB2U",
+     "length": "143178"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113082921",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/TaylorCcoh072024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4T4C3ZLE2VEQKS6HOJ5PMK4HZ3NA7T6Z",
+     "length": "41278"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113084842",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/MageeMcoh072024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3IZVQUXFY3SIZQCJH6EC4YNAP3T2RQXG",
+     "length": "41675"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113084849",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2023/COSAISDOfficialPrecinct.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JD6JCWUGYAI54MKQY5PBSNLBXWXD7DZL",
+     "length": "323737"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113090307",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/RoblesB072024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ITQQRVW2TTXOYQQNVNXLV3U473PP7VZJ",
+     "length": "334421"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113091319",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/BighamTcoh042024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KWZUR6VTGS2C72CVZYQL3YVQTBRFSJEQ",
+     "length": "71919"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113091428",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2023/COSAISDOfficialCumulative050623.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZPHWD4JUOJ3AUJNFYNSFWBZAXVCEY5FE",
+     "length": "190137"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113091936",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2024/20240305OCResults.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LUOB4UU3ZQPGNDZG4R7FRUDTCP4BK2FX",
+     "length": "252049"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113092337",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0087/Jury%20Panel%20Updates%202/JuryPanelStatusNov2024a.pdf",
+     "mimetype": "application/pdf",
+     "digest": "633APRQI5JDTGAQA5TQYAUQPJJDGKNMX",
+     "length": "143806"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113092501",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/HoelscherR072024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "O443OXJQJ6VXYDTMUADPYAZTRDFRO6PB",
+     "length": "217099"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113092618",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/DerussoMcoh022024b.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3RXOHTUXMRWISB6VHUQWIDV7H53HJWNU",
+     "length": "310247"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113092851",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0092/docs/GravesAcoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZU3GXGDTOVUA4S2ZR4TJPZLU4RQCQHHU",
+     "length": "108562"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113093450",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/DicksonDcoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IV7ZZFLO2KSCXZ4L54Y4XT3WDHTGVDZ6",
+     "length": "149417"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113093524",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/BaconRcoh072024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "N3RUSSCM7B6JYF75EU7DBBSXEFL6HRT7",
+     "length": "61791"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113094038",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/CarterLcoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "F5P3FCMW7HCXCKOD6G4SSRZU5OFGMMD6",
+     "length": "49181"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113094112",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/CardenasDcta022024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IYTUOAJ2OMYXXQGQLQAGOYJVDK4V3UR3",
+     "length": "27534"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113094430",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/AcevedoJcoh032024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3S2UNGDZS6L5TZUQFEVVIPP3NNTL32SO",
+     "length": "85048"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113094723",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/UbandoCcoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YL3YRG4MQCKVJVQH2K2IUPTWFNIB4XS5",
+     "length": "45900"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113095033",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/BighamTcoh022024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3VIYBDBBAPBEKPK4YDCHFMXQIEDH37Y7",
+     "length": "114674"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113095509",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/BighamTcoh022024b.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C2NHLOA7BGETII6ERU4VLHQMCUB6E5DJ",
+     "length": "125570"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241116104105",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0097/docs/20241105/20241105Pollingplaces_hours.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NNFT2HROUPYBLAYBX2LRFQBZJFRML25W",
+     "length": "134067"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125055659",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/DEC23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EWOKP6PIS7DR53N6JG7B2FN4RDRG5YWM",
+     "length": "1227572"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125090053",
+     "original": "https://www.tomgreencountytx.gov/page/open/1844/0/JUN24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2ACQO3TEWQAIJ4LSA4AST3PEPPVC4YGE",
+     "length": "1507806"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125164927",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/JAN24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3J4EAF7C6THF3HYS46WKDMZCLR7726EC",
+     "length": "1324243"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125175833",
+     "original": "https://www.tomgreencountytx.gov/page/open/1822/0/MAY23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JPNOJ725SA6A4R3KJVVJ3ZTYAQMJLJ33",
+     "length": "1251554"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125215757",
+     "original": "https://www.tomgreencountytx.gov/page/open/1844/0/APR24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OXSPZ6BU3ZVHSJRLBTXRRDYBARQ3RX2W",
+     "length": "1389293"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125215953",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/NOV23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BDJKCJOUDLOPLI4ZWIHX556DAXM75ZXL",
+     "length": "1223169"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125224733",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/OCT23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PGP4LRYCLPM6QV4AUGYMNXABUVPVDYL2",
+     "length": "1382378"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113084849",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2023/COSAISDOfficialPrecinct.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JD6JCWUGYAI54MKQY5PBSNLBXWXD7DZL",
+     "length": "323737",
+     "replay_error": null,
+     "bytes": 377832,
+     "sha256": "80edf99c2cf23e7f3655e58c69bed35d86b6bc2ea29ace04ce6b8f639815c12d",
+     "orig_last_modified": "Thu, 01 Jun 2023 15:25:36 GMT",
+     "orig_date": "Wed, 13 Nov 2024 08:54:17 GMT",
+     "orig_last_modified_local": "2023-06-01 09:25:36",
+     "upload_on_election_night": false,
+     "Creator": "Microsoft Reporting Services 14.0.0.0",
+     "Producer": "Microsoft Reporting Services PDF Rendering Extension 14.0.0.0",
+     "CreationDate": "D:20230531133801-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 82,
+     "text_sample_first_streams": "Proposition A - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 0 0.00% 2 40.00% 5 55.56% 7 50.00% AGAINST 0 0.00% 3 60.00% 4 44.44% 7 50.00% Cast Votes: 0 0.00% 5 100.00% 9 100.00% 14 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 Proposition B - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 0 0.00% 3 60.00% 7 77.78% 10 71.43% AGAINST 0 0.00% 2 40.00% 2 22.22% 4 28.57% Cast Votes: 0 0.00% 5 100.00% 9 100.00% 14 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 Proposition C - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 0 0.00% 3 60.00% 5 55.56% 8 57.14% AGAINST 0 0.00% 2 40.00% 4 44.44% 6 42.86% Cast Votes: 0 0.00% 5 100.00% 9 100.00% 14 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 106 - BS1 14 of 1,576 registered voters = 0.89% Official Results Registered Voters 1490 of 62087 = 2.40% Precincts Reporting 0 of 41 = 0.00% Tom Green County 5/6/2023 COSA/ISD General Special 5/6/2023 Page 1 Precinct Results Report 050623 Cosa/ISD General Special  Election ED Run Time Run Date 1:37 PM 05/31/2023 | Proposition A - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 2 100.00% 4 66.67% 4 40.00% 10 55.56% AGAINST 0 0.00% 2 33.33% 6 60.00% 8 44.44% Cast Votes: 2 100.00% 6 100.00% 10 100.00% 18 100.00% Undervotes: 0 0 1 1 Overvotes: 0 0 0 0 Proposition B - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 2 100.00% 6 100.00% 7 63.64% 15 78.95% AGAINST 0 0.00% 0 0.00% 4 36.36% 4 21.05% Cast Votes: 2 100.00% 6 100.00% 11 100.00% 19 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 Proposition C - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 2 100.00% 5 83.33% 3 30.00% 10 55.56% AGAINST 0 0.00% 1 16.67% 7 70.00% 8 44.44% Cast Votes: 2 100.00% 6 100.00% 10 100.00% 18 100.00% Undervotes: 0 0 1 1 Overvotes: 0 0 0 0 107 - BS2 19 of 1,165 registered voters = 1.63% Official Results Registered Voters 1490 of 62087 = 2.40% Precincts Reporting 0 of 41 = 0.00% Tom Green County 5/6/2023 COSA/ISD General Special 5/6/2023 Page 2 Precinct Results Report 050623 Cosa/ISD General Special  Election ED Run Time Run Date 1:37 PM 05/31/2023 | 2023 Board of Trustees Election - Vote for none, one, two or three Choice Party Absentee Voting Early Voting Election Day Voting Total Mike Diaz 0 0.00% 0 0.00% 0 0.00% 0 0.00% Kacey Doucet 0 0.00% 0 0.00% 0 0.00% 0 0.00% Scott Stephens 0 0.00% 0 0.00% 0 0.00% 0 0.00% Jeff Lashley 0 0.00% 0 0.00% 0 0.00% 0 0.00% Cast Votes: 0 0.00% 0 0.00% 0 0.00% 0 0.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 108 - BS3 0 of 150 registered voters = 0.00% Official Results Registered Voters 1490 of 62087 = 2.40% Precincts Reporting 0 of 41 = 0.00% Tom Green County 5/6/2023 COSA/ISD General Special 5/6/2023 Page 3 Precinct Results Report 050623 Cosa/ISD General Special  Election ED Run Time Run Date 1:37 PM 05/31/2023 | Board of Trustees - Vote for none, one, two or three Choice Party Absentee Voting Early Voting Election Day Voting Total DOUG DUSEK 0 0.00% 4 16.00% 13 23.21% 17 20.99% KEVIN RIPPLE 0 0.00% 5 20.00% 9 16.07% 14 17.28% COLE MIKULIK 0 0.00% 4 16.00% 15 26.79% 19 23.46% HEATHER BRADEN 0 0.00% 8 32.00% 18 32.14% 26 32.10% CRYSTAL BRADEN 0 0.00% 4 16.00% 1 1.79% 5 6.17% Cast Votes: 0 0.00% 25 100.00% 56 100.00% 81 100.00% Undervotes: 0 5 4 9 Overvotes: 0 0 0 0 112 - BS4 30 of 669 registered voters = 4.48% Official Results Registered Voters 1490 of 62087 = 2.40% Precincts Reporting 0 of 41 = 0.00% Tom Green County 5/6/2023 COSA/ISD General Special 5/6/2023 Page 4 Precinct Results Report 050623 Cosa/ISD General Special  Election ED Run Time Run Date 1:37 PM 05/31/2023 | City Council SMD 3 - Vote for none or one Choice Party Absentee Voting Early Voting Election Day Voting Total Michael LePak 0 0.00% 2 40.00% 3 33.33% 5 35.71% Harold \"Harry\" Thomas 0 0.00% 3 60.00% 6 66.67% 9 64.29% Cast Votes: 0 0.00% 5 100.00% 9 100.00% 14 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 Proposition A - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 0 0.00% 4 80.00% 8 88.89% 12 85.71% AGAINST 0 0.00% 1 20.00% 1 11.11% 2 14.29% Cast Votes: 0 0.00% 5 100.00% 9 100.00% 14 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 Proposition B - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 0 0.00% 4 80.00% 8 88.89% 12 85.71% AGAINST 0 0.00% 1 20.00% 1 11.11% 2 14.29% Cast Votes: 0 0.00% 5 100.00% 9 100.00% 14 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 Proposition C - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 0 0.00% 3 60.00% 8 88.89% 11 78.57% AGAINST 0 0.00% 2 40.00% 1 11.11% 3 21.43% Cast Votes: 0 0.00% 5 100.00% 9 100.00% 14 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 114 - BS5 14 of 895 registered voters = 1.56% Official Results Registered Voters 1490 of 62087 = 2.40% Precincts Reporting 0 of 41 = 0.00% Tom Green County 5/6/2023 COSA/ISD General Special 5/6/2023 Page 5 Precinct Results Report 050623 Cosa/ISD General Special  Election ED Run Time Run Date 1:37 PM 05/31/2023 | Proposition A - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 1 100.00% 1 50.00% 3 50.00% 5 55.56% AGAINST 0 0.00% 1 50.00% 3 50.00% 4 44.44% Cast Votes: 1 100.00% 2 100.00% 6 100.00% 9 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 Proposition B - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 1 100.00% 1 50.00% 4 66.67% 6 66.67% AGAINST 0 0.00% 1 50.00% 2 33.33% 3 33.33% Cast Votes: 1 100.00% 2 100.00% 6 100.00% 9 100.00% Undervotes: 0 0 0 0 Overvotes: 0 0 0 0 Proposition C - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 1 100.00% 0 0.00% 3 50.00% 4 44.44% AGAINST 0 0.00% 2 100.00% 3 50.00% 5 55.56% Cast Votes: ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241113084849_cc8bffa02c.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241106070232",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2024/20241105/report4.pdf",
+     "mimetype": "application/pdf",
+     "digest": "INTXVF6LFSDXJ5QOONU7GYIZ4SNW6DAZ",
+     "length": "579050",
+     "replay_error": null,
+     "bytes": 584106,
+     "sha256": "0a733df41514cccc02f40da5c784a03421a2f992617c1daf96aae6b1291c7f24",
+     "orig_last_modified": "Wed, 06 Nov 2024 05:10:40 GMT",
+     "orig_date": "Wed, 06 Nov 2024 07:08:10 GMT",
+     "orig_last_modified_local": "2024-11-05 23:10:40",
+     "upload_on_election_night": true,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241106070232_b9b3ee2143.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113091428",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2023/COSAISDOfficialCumulative050623.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZPHWD4JUOJ3AUJNFYNSFWBZAXVCEY5FE",
+     "length": "190137",
+     "replay_error": null,
+     "bytes": 194468,
+     "sha256": "e0cc92c4bbb2e7f1819a0ac132b81393dcf5c3c72e1181b7738c68843e56d72a",
+     "orig_last_modified": "Thu, 01 Jun 2023 15:27:50 GMT",
+     "orig_date": "Wed, 13 Nov 2024 09:19:56 GMT",
+     "orig_last_modified_local": "2023-06-01 09:27:50",
+     "upload_on_election_night": false,
+     "Creator": "Microsoft Reporting Services 14.0.0.0",
+     "Producer": "Microsoft Reporting Services PDF Rendering Extension 14.0.0.0",
+     "CreationDate": "D:20230531133714-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 2,
+     "text_sample_first_streams": "City Council SMD 3 - Vote for none or one Choice Party Absentee Voting Early Voting Election Day Voting Total Michael LePak 3 25.00% 29 34.94% 24 40.00% 56 36.13% Harold \"Harry\" Thomas 9 75.00% 54 65.06% 36 60.00% 99 63.87% Cast Votes: 12 100.00% 83 100.00% 60 100.00% 155 100.00% Undervotes: 1 0 5 6 Overvotes: 0 0 0 0 Proposition A - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 81 91.01% 342 76.85% 366 61.20% 789 69.70% AGAINST 8 8.99% 103 23.15% 232 38.80% 343 30.30% Cast Votes: 89 100.00% 445 100.00% 598 100.00% 1,132 100.00% Undervotes: 1 3 6 10 Overvotes: 0 0 0 0 Proposition B - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 79 89.77% 351 78.35% 390 64.89% 820 72.12% AGAINST 9 10.23% 97 21.65% 211 35.11% 317 27.88% Cast Votes: 88 100.00% 448 100.00% 601 100.00% 1,137 100.00% Undervotes: 2 0 3 5 Overvotes: 0 0 0 0 Proposition C - VOTE FOR OR AGAINST Choice Party Absentee Voting Early Voting Election Day Voting Total FOR 82 92.13% 321 71.97% 338 56.81% 741 65.58% AGAINST 7 7.87% 125 28.03% 257 43.19% 389 34.42% Cast Votes: 89 100.00% 446 100.00% 595 100.00% 1,130 100.00% Undervotes: 1 2 9 12 Overvotes: 0 0 0 0 Cumulative Results Report 050623 Cosa/ISD General Special  Election ED Run Time Run Date 1:33 PM 05/31/2023 Tom Green County 5/6/2023 COSA/ISD General Special 5/6/2023 Page 1 Official Results Registered Voters 1490 of 62087 = 2.40% Precincts Reporting 0 of 41 = 0.00% | 2023 Board of Trustees Election - Vote for none, one, two or three Choice Party Absentee Voting Early Voting Election Day Voting Total Mike Diaz 4 33.33% 10 31.25% 31 32.98% 45 32.61% Kacey Doucet 4 33.33% 8 25.00% 28 29.79% 40 28.99% Scott Stephens 0 0.00% 10 31.25% 25 26.60% 35 25.36% Jeff Lashley 4 33.33% 4 12.50% 10 10.64% 18 13.04% Cast Votes: 12 100.00% 32 100.00% 94 100.00% 138 100.00% Undervotes: 0 4 20 24 Overvotes: 0 0 0 0 Board of Trustees - Vote for none, one, two or three Choice Party Absentee Voting Early Voting Election Day Voting Total DOUG DUSEK 0 0.00% 40 24.24% 199 28.88% 239 27.99% KEVIN RIPPLE 0 0.00% 22 13.33% 84 12.19% 106 12.41% COLE MIKULIK 0 0.00% 43 26.06% 200 29.03% 243 28.45% HEATHER BRADEN 0 0.00% 48 29.09% 189 27.43% 237 27.75% CRYSTAL BRADEN 0 0.00% 12 7.27% 17 2.47% 29 3.40% Cast Votes: 0 0.00% 165 100.00% 689 100.00% 854 100.00% Undervotes: 0 12 67 79 Overvotes: 0 0 0 0 *** End of report *** Cumulative Results Report 050623 Cosa/ISD General Special  Election ED Run Time Run Date 1:33 PM 05/31/2023 Tom Green County 5/6/2023 COSA/ISD General Special 5/6/2023 Page 2 Official Results Registered Voters 1490 of 62087 = 2.40% Precincts Reporting 0 of 41 = 0.00% |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241113091428_b5ff047a7d.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241113091936",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2024/20240305OCResults.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LUOB4UU3ZQPGNDZG4R7FRUDTCP4BK2FX",
+     "length": "252049",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125175833",
+     "original": "https://www.tomgreencountytx.gov/page/open/1822/0/MAY23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JPNOJ725SA6A4R3KJVVJ3ZTYAQMJLJ33",
+     "length": "1251554",
+     "replay_error": null,
+     "bytes": 1362528,
+     "sha256": "cdbe95eb9e3d7a7f73a6be3b522f4d5bceb4783b9739662f850d64aeb1c1a2d3",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 25 Nov 2024 18:04:58 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | 11 3   - - - 6703   |               |     3                         |       202 3       \\226     | \\)  and     \\226   ,    |   |                                      | :         |  |  |  |  |  |  |  |  | 1 4 6 7 11 12 13 14 15 16 17 18 21 53 54 55 56 57 58 59 60 | CDs     - 1                                                                                                      |                                                                                                                     -0 -                                                                            -0 -                                      |                                                                                                                                                                                                                                       |                                                                    5 0,                                                                                                                              |                                                                                                                                       -0 -                                                                                                             |                                                                                                                                                                                                                                                 |                                                                     -0 -                                                                                                                                                                         |                                                                                                                                                                                    -0 -                     |  | Page 1 of 67 |  | CDs              -0 -   -0 -   -0 -   -0 -   -0 -   -0 -   1                                                                                                                                                                                                                                                                                                                                                    5                                                                                                                                                                                                                                                                                                     -0 -       -0 -                              -0 -                                                                                                                                                        -0 -       -0 -                                                                                                                                                                                         -0 -                                                                                                                                                                                                                                                                                                                8 8,                                                                                                                                                                                                                                                                       |  | Page 2 of 67 | CDs            -0 -   -0 -   -0 -   -0 -   -0 -   -0 -   1                                                                                                                                                                                                                                                                                                              4                                                                                                                                                                                -0 -                                                                                                                                                                                                                                                                                          -0 -                                                                                                                                                                                                                                                                      \\(                                        - $             |  | Page 3 of 67 | 0001 $                   7, $                   48, $          0005                 68,   74,   759,                 0006                 58,   66,   538,                 0009                   4,   5,   40,                   0010                 7,   5,   129,                 0011   5,   5,   2,   0012                    1,   4. 96   \\(   0013                   62. 69   1,   66,                   0014                   1,   - 0-   16,                   0015                 7,   1,   437,                 0016   15. 78   - 0-   9,   0018                   6,   9,   60,                   0019                   7,   4,   80,                   0021                   211. 15   - 0-   15,                   0022                   59. 18   - 0-   82,                   0023                   311. 03   1. 87   20,                   0024                   1,   23. 11   33,                   0025                   4,   - 0-   50,                   0026                 538. 86   538. 86   750,                 0027   - 0-   - 0-   5. 00   0028                 1,   82. 55   116,                 0029   12,   8,   9,   00",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241125175833_7f53dcb6b8.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241125215953",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/NOV23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BDJKCJOUDLOPLI4ZWIHX556DAXM75ZXL",
+     "length": "1223169",
+     "replay_error": null,
+     "bytes": 1329721,
+     "sha256": "81b70aee0fbeff256f7705741f3fed1bc6d365dfcfaffcaa270328d2b07891e8",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 25 Nov 2024 22:06:18 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | 11 3   - - - 6703   |                 |     20 3                         |       202 3       \\226     | \\)  and     \\226   ,    |  |                                    |   :         |  |  |  |  |  |  |  |  | 1 4 6 7 11 12 13 14 15 16 17 18 20 51 52 53 54 55 56 57 58 | CDs 0001 $      $              - 12, $      $      $        $          $     0005                                    0006                                    0009                        |                 0010                                    0011                                            0012                      -0 -                     0013                                        0014                  -0 -                       0015                      |               0016                                            0018                                        0019                                        0021                                        0022                                        0023                      |                   0024                                        0025 71, 589. 07                                        0026                              0027                 0028                                    0029                        |                 0030                                    0031                                        0032                  -0 -                 0035                                                  0036                                            0037                    |                 0038                                                  0040                                            0041                                    0043                                    0044                                        0045                          |                   0046                        -0 -                 0047                                            0048                                    0050                                            0051                                        0052                    |                 0053                                        0054                              0055                                            0056                    -0 -                     0058                                        |  | Page 1 of 64 |  | CDs 0059              -0 -   -0 -   -0 -   -0 -   -0 -   -0 -   99,               0061                                                  0062                                      0063                                        0064                                            0065                              0066                                    0069                                            0071                                        0072                        137,             0073                                                  0077                                        0078                                                            0079                 0082                                        0085                                        0089                                    0090 -0 -       -0 -       0095                        -0 -                     0097                                        0098                                            0100                                                  0101 -0 -       -0 -       0102                                            0103                                            0104                                            0105                                            0106       -0 -           0109                                            0110                                        0111                                        0112                                            0114                                        0116                                    0117                                            0120                 0124 90, 166. 13                                        0125                 0149                 0150                                            0155                 0156 88                                            0157                                        0401                                    0503                          99,               |  | Page 2 of 64 | CDs 0504                                                                                                                                                            0508                                                                                                                                                                0509                                                                                                                                                                0517                                                                                                                                                                0520                                                                                                                                                                               0521                                                                                                                                                                               0540                                                                                                                                                                               0541                                                                                                                                                                    542                                                                                                                                                                0560                                                                                                                                                                               0",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241125215953_383cbf11f6.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241109231122",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0129/docs/TGCSpecialMeeting11192024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7CBNHYWAWUOVIRFZPB3GELW4J4V76XSW",
+     "length": "304061",
+     "replay_error": null,
+     "bytes": 319638,
+     "sha256": "3652b83f01d15cdefac9f79473a5fdeb7d4ab8f4e46f6e1818fe9683121b7f57",
+     "orig_last_modified": "Sat, 09 Nov 2024 15:36:12 GMT",
+     "orig_date": "Sat, 09 Nov 2024 23:16:56 GMT",
+     "orig_last_modified_local": "2024-11-09 09:36:12",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20241108161351-06'00'",
+     "Creator": "NAPS2",
+     "Title": "Scanned Image",
+     "ModDate": "D:20241108161351-06'00'",
+     "Producer": "PDFsharp 1.50.4589 \\(www.pdfsharp.com\\",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241109231122_14cce15edd.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112152054",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/WernerScoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MB46DZQX6Y23EFZ6YEJ37WSVK3GN2GNM",
+     "length": "329523",
+     "replay_error": null,
+     "bytes": 336243,
+     "sha256": "fff80cea9ccf96f28ff057e330ed33dab32f4e3ee8b17f1be0e2e8bc63df810b",
+     "orig_last_modified": "Mon, 08 Jan 2024 19:44:51 GMT",
+     "orig_date": "Tue, 12 Nov 2024 15:26:22 GMT",
+     "orig_last_modified_local": "2024-01-08 13:44:51",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | CANDIDATE  I  OFFICEHOLDER  FORM  C/OH  CAMPAIGN  FINANCE  REPORT  COVER  SHEET  PG  1  The  C/0H  Instruction  Guide  explains  how  to  complete  this  form.  1  Filer  ID  \\(Ethics  Commission  Filers\\)  2  Total  pages  filed:  2  3  CANDIDATE/  I  MS/MRS/MR  FIRST  Ml  Orr\\\\Cc'nOL'uER  MRS  l.  OFFICE  USE  ONLY  SUSAN  NAME  | . ....  ,. ,  ... .. .  . . ..........................  ,,  .................. . ..... . .. ... ... . .  Date  Received  NICKNAME  LAST  SUFFIX  WERNER  4  CANDIDATE/  ADDRESS  /  PO  BOX ;  APT/  SUITE  # ;  CITY ;  STATE ;  ZIP  CODE  OFFICEHOLDER  ~JAN  8  2i\\)24  P~l:  MA ILI NG  | 122  W  HARRIS  SAN  ANGELO  TEXAS  76903  ADDRESS  D  Change  of  Address  5  CANDIDATE/  AREA  CODE  PHONE  NUMBER  EXTENSION  Date  Hand-delivered  or  Date  Postmarked  OFFICEHOLDER  \\(  325  \\)  PHONE  659-6444  Receipt#  I  Amount  $  6  CAMPAIGN  MS/MRS/MR  FIRST  Ml  TREASURER  STANLEY  J.  NAME  ........................ . ......  \\267\\267\\267 \\267\\267  ..... .  ..... | . .  .....  ........... ... .  \\267\\267\\267\\267\\267\\267 \\267 \\267\\267\\267\\267\\267  Date  Processed  NICKNAME  LAST  SUFFIX  Date  Imaged  WERNER  7  CAMPAIGN  STREET  ADDRESS  \\(NO  PO  BOX  PLEASE\\);  APT  /  SUITE  #;  CITY;  STATE;  ZIP  CODE  TREASURER  ADDRESS  PO  BOX  35  MILES  TEXAS  76861  \\(Residence  or  Business\\)  8  CAMPAIGN  AREA  CODE  PHONE  NUMBER  EXTENSION  TREASURER  PHONE  \\(  325  | \\)  656-8025  9  REPORT  TYPE  January  15  \\217  30th  day  before  election  \\217  Runoff  \\217  15th  day  after  campaign  treasurer  appointment  \\( Officeholder  Only \\)  July  15  \\217  8th  day  before  election  \\217  Exceeded  Modified  \\217  Final  Report  \\(Attach  C/OH  - FR\\)  Reporting  Limit  10  PERIOD  Month  Day  Year  Month  Day  Year  COVERED  07  | /  01  / 2023  /  /  2023  THROUGH  12  31  11  ELECTION  ELECTION  DATE  ELECTION  TYPE  Month  Day  Year  D  Primary  \\217  Runoff  \\217  Other  Description  11 /  08  / 2022  121  General  \\217  Special  - 12  OFFICE  OFFICE  HELD  \\(if  any \\)  13  OFFICE  SOUGHT  \\(if  known \\)  | JUSTICE  OF  THE  PEACE  PCT  1  JUSTICE  OF  THE  PEACE  PCT  1  - \\267 14  NOTICE  FROM  THIS  BOX  IS  FOR  NOTICE  OF  POLITICAL  CONTRIBUTIONS  ACCEPTED  OR  POLITICAL  EXPENDITURES  MADE  BY  POLITICAL  COMMITTEES  TO  SUPPORT  POLITICAL  THE  CANDIDATE/  OFFICEHOLDER.  THESE  EXPENDITURES  MAY  HAVE  BEEN  MADE  WITHOUT  THE  CANDIDATE'S  OR  OFRCEHOLDER'S  KNOWLEDGE  OR  CONSENT .  CANDIDATES  AND  | OFFICEHOLDERS  ARE  REQUIRED  TO  REPORT  THIS  INFORMATION  ONLY  IF  THEY  RECEIVE  NOTICE  OF  SUCH  EXPENDITURES.  COMMITTEE\\(S\\)  COMM ITTEE  TYPE  COMMITTEE  NAME  \\217 GENERAL  COMMITTEE  ADDRESS  \\217  Additional  Pages  OsPECIFIC  COMMITTEE  CAMPA IGN  TREASURER  NAME  COMMITTEE  CAMPA IGN  TREASURER  ADDRESS  GO  TO  PAGE  2  Forms  provided  by  Texas  Ethics  Commission  www.ethics.state .tx.us  Revised  8/17/2020  |  | CANDIDATE/  OFFICEHOLDER  CAMPAIGN  FINANCE  REPORT  FORM  C/OH  COVER  SHEET  PG  2  \\26715  C/OH  NAME  \\267 17  CONTRIBUTION  TOTALS  SUSAN  L.  WERNER  1 .  2.  TOTAL  UNITEMIZED  POLITICAL  CONTRIBUTIONS  \\(OTHER  THAN  PLEDGES ,  LOANS ,  OR  GUARANTEES  OF  LOANS ,  OR  CONTRIBUTIONS  MADE  ELECTRONICALLY\\)  TOTAL  POLITICAL  CONTRIBUTIONS  \\( OTHER  THAN  PLEDGES ,  LOANS ,  OR  GUARANTEES  OF  LOANS\\)  16  Filer  ID  \\(Ethics  Commission  Filers\\)  $  $  .... .. ..... ... ...  \\2671------------- -- --- -- ----------+--- -------- - EXPENDITURE  TOTALS  3.  4.  TOTAL  UNITEMIZED  POLITICAL  EXPENDITURE .  $  TOTAL  POLITICAL  EXPENDITURES  $  .................  \\2671--------- -- -------------------+----------- - CONTRIBUTION  BALANCE  5 .  TOTAL  POLITICAL  CONTRIBUTIONS  MAINTAINED  AS  OF  THE  LAST  DAY  OF  REPORTING  PERIOD  $  1,293.84  .  .  .  t------------------------------+------------1  OUTSTANDING  LOAN  TOTALS  6.  TOTAL  PRINCIPAL  AMOUNT  OF  ALL  OUTSTANDING  LOANS  AS  OF  THE  LAST  DAY  OF  THE  REPORTING  PERIOD  $  ' 18  SIGNATURE  I  swear ,  or  affirm ,  under  penalty  of  perjury ,  that  the  accompanying  report  is  true  and  correct  and  includes  all  information  r equired  to  be  reported  by  me  under  Title  15 ,  Election  Code .  I  -..c.~----~.L..a..._-...=Q--z::L.\"'----L._~2.,.,cc.,4--=.____.---\\)_...~\\\r~~-=-=--- Signature  of  Candidate  or  Officeholder  \"- Please  complete  either  option  below:  , \\(1\\)  Affidavit  NOTARY  STAMP/SEAL  Sworn  to  and  subscribed  before  me  by  _ S .......:c...; w; e..=  ...  Q =>-,; f\\\\ '-'-_, \\\\\\) :.... l\\) =-..; e,.., ..:.. '\\(  ...:. \\(\\\\ ...J. e,, =-:~------ this  the  <is  day  of  :cf  OJ\\\\  \\\\J., O  ..  '{  \\275f=\\267  20  4  ,  to  certify  which ,  witness  my  hand  and  seal  of  office.  _  ~rd~  B  S \\267 1~{lY\\\\  : Signa~  ~ministering  oath  Printed  name  of  officer  administering  oath  T i tle  of  officer  administering  oath  1\\( 2\\)  Unsworn  Declaration  I My  name  is  ______________________  ,  and  my  date  of  birth  is  ____________  _  I My  address  is  _________________________________________  _  \\( street\\)  \\(city\\)  \\(state\\)  \\(zip  code\\)  \\(country\\)  ! Executed  in  ________  County ,  State  of  ______  ,  on  the  ___  day  of......,.._.,,..,..  ___  ,  20  ___  .  \\(month\\)  \\(year\\)  Signature  of  Candidate/Officeholder  \\(Declarant\\)  Forms  provided  by  Texas  Ethics  Commission  www.ethics . state . tx . us  Revised  8 / 17/2020  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112152054_15a67250c5.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112153218",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0085/docs/Jury%20Panel%20Updates%202/JuryPanelStatusNov2024a.pdf",
+     "mimetype": "application/pdf",
+     "digest": "633APRQI5JDTGAQA5TQYAUQPJJDGKNMX",
+     "length": "143811",
+     "replay_error": null,
+     "bytes": 149061,
+     "sha256": "ef97438c3658f92f71fbff595c2ded2dac7be0814417cc0a0855edb46f8f2cef",
+     "orig_last_modified": "Wed, 30 Oct 2024 18:06:22 GMT",
+     "orig_date": "Tue, 12 Nov 2024 15:37:47 GMT",
+     "orig_last_modified_local": "2024-10-30 12:06:22",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |       :      2024                           |                           1   -                   |   2   -                   3   - 4         |             4   - 4                       5   - 4       st     |                 6   - 4                       | 7   - 4                       8   - 4               |       9   - 4                         - 4         |                 -                     |  |  |  |  |  |  |  |  |  |         -                       -                     -                     - 6   1 P .M.                   - 5     P .M.   2   4                 -   9 A   4                 -     4                 -   0                   -                                                                                                                                                     |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112153218_3b783acbaf.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112155923",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/LacyLcoh012024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SDJ7MQBO2MCM22QOQ7TYKDX36HGSCI4C",
+     "length": "117525",
+     "replay_error": null,
+     "bytes": 122659,
+     "sha256": "eeaf307bdb431c984b62428065e8a55f01e1740a31ce8a3a51042ac47c931a2d",
+     "orig_last_modified": "Tue, 16 Jan 2024 21:31:28 GMT",
+     "orig_date": "Tue, 12 Nov 2024 16:04:52 GMT",
+     "orig_last_modified_local": "2024-01-16 15:31:28",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112155923_023ba42d05.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112161355",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0089/docs/mageemcoh011521%20report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CSKXFTYFHXSSJHP5EQEZY2KING73PY5N",
+     "length": "239607",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241112165127",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0085/docs/20241015EXCESS_FUNDS_LIST.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QO3TVCNEUVM6OTYVKUFW25NGAU7RXN4W",
+     "length": "92700",
+     "replay_error": null,
+     "bytes": 96346,
+     "sha256": "376794fc6defa974e78317d3c629c71206a103d3a47dbaf6c7e5fb96d10710e3",
+     "orig_last_modified": "Tue, 22 Oct 2024 16:55:45 GMT",
+     "orig_date": "Tue, 12 Nov 2024 16:56:56 GMT",
+     "orig_last_modified_local": "2024-10-22 10:55:45",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |                             C - 17 - -               A - 18 - -                  B - 20 - -     |           B - 15 - -                 C - 20 - -                 C - 20 - -                 A - 19 - -                  D - | 21 - -               A - 19 - -                  D - 14 - -               A - 19 - -             D - 21 - -     |               A - 16 - -                   A - 21 - -                 C - 20 - -                   D - 22 - -             |     A - 14 - -                 A - 20 - -                 B - 20 - -                 C - 19 - -                 D - 21 - - |                 A - 22 - -             B - 22 - -             B - 22 - -                 D - 21 - -         |         A - 19 - -                 D - 22 - -                   C - 17 - -                     B - 19 - -                 C - 22 - - |                 D - 20 - -                  C - 22 - -                           -   |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241112165127_05c4a6e4fa.pdf"
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=tomgreencountytx.gov&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 165
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=tomgreencountytx.gov%2Fpage%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    }
+   ],
+   "versions_found": 165,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307111345",
+     "original": "https://www.tomgreencountytx.gov/page/open/1822/0/JUN23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IN5GL6XOXYDSTRTNXNDMAOJ523EQKESM",
+     "length": "1320401"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307111806",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0095/docs/2026/Solicituddevotoporcorreo.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UM2HMZV6BAEXFL5J5KNJP6I7SNNOBYFR",
+     "length": "1503959"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307112038",
+     "original": "https://www.tomgreencountytx.gov/page/open/1567/0/FY15%20Annual%20Financial%20Report-%20CSCD.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YWASBSPI4WAWA5KUM4B3U34ZFTCMKFUX",
+     "length": "973360"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307112524",
+     "original": "https://www.tomgreencountytx.gov/page/open/1567/0/FY20%20Annual%20Financial%20Report-%20CSCD.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C2OA2CQJ6CSRKG5WCTQZTSRZRJWTRONL",
+     "length": "779266"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307112558",
+     "original": "https://www.tomgreencountytx.gov/page/open/1573/0/MAR16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VE5BT3BA43SR44MLEOWJS5R4QR6PW3SA",
+     "length": "564689"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307112658",
+     "original": "https://www.tomgreencountytx.gov/page/open/1573/0/JAN16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "B7T75Q7S4BFKX44FOXVM3QTTQRPFXLNC",
+     "length": "289446"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113144",
+     "original": "https://www.tomgreencountytx.gov/page/open/1580/0/MAY15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BIBN34LZ4I6Q2WFNNGRU7F46J2SMGIR7",
+     "length": "408068"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113320",
+     "original": "https://www.tomgreencountytx.gov/page/open/1567/0/FY16%20Annual%20Financial%20Report-%20CSCD.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YA4FUJLBFNJVOMFJGOR2U3BZP77LNSBK",
+     "length": "1203445"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113347",
+     "original": "https://www.tomgreencountytx.gov/page/open/1685/0/APR21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SUPV4BNO7ZERMSW6D2GEYT4UIYE5WTH3",
+     "length": "1144019"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113434",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2020/20201103/422%20with%20precincts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SWF3AXAWF6JYFLOCNTDWVJN3LQO4HFQM",
+     "length": "711227"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113520",
+     "original": "https://www.tomgreencountytx.gov/page/open/1629/0/MAY19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WG5YJ6SSDUFZKMZMF4N6JY5DZ6U7QYLV",
+     "length": "1473959"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113629",
+     "original": "https://www.tomgreencountytx.gov/page/open/1567/0/FY21%20Annual%20Financial%20Report-%20CSCD.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4YUSJG6HU6QSLY4PNLQTPVWF6BS2WGOT",
+     "length": "1087296"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113820",
+     "original": "https://www.tomgreencountytx.gov/page/open/1537/0/MAY18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JWI34RUD34UCXURDUGQXLJJOLY4PNHEO",
+     "length": "1012535"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113841",
+     "original": "https://www.tomgreencountytx.gov/page/open/1685/0/JUN21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "34OP644BETGH427ZY2XY77YBQMKK23KQ",
+     "length": "1003794"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114125",
+     "original": "https://www.tomgreencountytx.gov/page/open/1567/0/FY17%20Annual%20Financial%20Report-%20CSCD.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KPITS64OHYZTLJLUXTBWIYULZGKROZK2",
+     "length": "879592"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114446",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2020/20201103/112%20wall%20with%20precincts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5I6ERB26PHYUYISJPQFPI5RLDTTQQNQP",
+     "length": "583287"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114630",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2020/20201103/112%20vrbs%20with%20precincts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NWOUSAJZ6OQ7FIQDG4MOMI42OC5PBARQ",
+     "length": "578178"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114715",
+     "original": "https://www.tomgreencountytx.gov/page/open/1567/0/FY22%20Annual%20Financial%20Report-%20CSCD.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QMWOWGGWA5P7DXSXVYN2FGTTAZ765I5H",
+     "length": "1101050"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114738",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0082/Electronic%20Devices%20-%202023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "AIK7NS257MF36UTZ6C6LVFEWQ7U6OMJR",
+     "length": "951182"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114824",
+     "original": "https://www.tomgreencountytx.gov/page/open/1822/0/MAY23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JPNOJ725SA6A4R3KJVVJ3ZTYAQMJLJ33",
+     "length": "1256118"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114843",
+     "original": "https://www.tomgreencountytx.gov/page/open/1745/0/NOV21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ST5ASCQQSJ7MSODQSZSP257MVCHCBXZL",
+     "length": "1193697"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114927",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2023/COSA050623FINALUNOFFICIAL.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RCWPRBYJ6R4EHOIVKRDKWD5JGNNHA5KY",
+     "length": "153800"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114951",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/NOV23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BDJKCJOUDLOPLI4ZWIHX556DAXM75ZXL",
+     "length": "1226996"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307115012",
+     "original": "https://www.tomgreencountytx.gov/page/open/1849/0/DEC24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZB42RZ3HCSTILR4SDZMUVMI46ZIKWRK3",
+     "length": "1394995"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307115109",
+     "original": "https://www.tomgreencountytx.gov/page/open/1567/0/FY18%20Annual%20Financial%20Report-%20CSCD.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NPPKVL2NHM7YZAN5G5UOF6HFPHN2KFTB",
+     "length": "913365"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307115239",
+     "original": "https://www.tomgreencountytx.gov/page/open/1566/0/FY15%20TGC%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2S7SZFJXTX36JA4I55A2CB23R2NMNU3B",
+     "length": "555173"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307115311",
+     "original": "https://www.tomgreencountytx.gov/page/open/1745/0/DEC21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QU4XAZ35XZOT4DH26XXS3FU7RX7H37JL",
+     "length": "1389714"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307115501",
+     "original": "https://www.tomgreencountytx.gov/page/open/1849/0/MAR25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3WCTLEPDA36K723UUSNWTLM2QFML4ED7",
+     "length": "1485134"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307115617",
+     "original": "https://www.tomgreencountytx.gov/page/open/1566/0/FY20%20TGC%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IBYKQSDCYG7P4WV36ONPORSUAD7ZJDH7",
+     "length": "532257"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307115655",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0145/docs/2026/Eviction%20Petition.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CSWSW7UP7B3KA2AQX5XYPRJ36FMTQNY4",
+     "length": "853391"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307115706",
+     "original": "https://www.tomgreencountytx.gov/page/open/1565/0/FY15%20Coke%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "B4EWEQUG7MORYWVNFR4RXSCKM5NG44AR",
+     "length": "519244"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307115728",
+     "original": "https://www.tomgreencountytx.gov/page/open/1844/0/JUL24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3DTZYKCDTEWL7R5RSTANF6PT63JE2BJJ",
+     "length": "1561191"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307120021",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0172/docs/JP2Forms/2026%20DEBT%20CLAIM%20PACKET.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KETHOABSJGHPENWFCDKPOFZTVSLBW3ST",
+     "length": "269546"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307120106",
+     "original": "https://www.tomgreencountytx.gov/page/open/1844/0/APR24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OXSPZ6BU3ZVHSJRLBTXRRDYBARQ3RX2W",
+     "length": "1395880"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307120135",
+     "original": "https://www.tomgreencountytx.gov/page/open/1685/0/MAY21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OVNN5JG6YN6EFV7IFGXOWFIPLUNJOYLJ",
+     "length": "1212177"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307120211",
+     "original": "https://www.tomgreencountytx.gov/page/open/1566/0/FY16%20TGC%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WHAJ2MNPAKDWVC4BASFYYLO4SN7X3TNL",
+     "length": "844128"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307120256",
+     "original": "https://www.tomgreencountytx.gov/page/open/1745/0/JAN22%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YBZZ2DBIYDLBIW7QLPUA6KEPPHMTE3BQ",
+     "length": "1337459"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307120417",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/JAN24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3J4EAF7C6THF3HYS46WKDMZCLR7726EC",
+     "length": "1359708"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307120447",
+     "original": "https://www.tomgreencountytx.gov/page/open/1646/0/JUL20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "S3SBCOUZFR2VQ65IMTJHVQRYOIBONKY2",
+     "length": "1092883"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307120606",
+     "original": "https://www.tomgreencountytx.gov/page/open/1566/0/FY21%20TGC%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BPK77U4OROW2YVCAZHSEDFKBQXTGEJEG",
+     "length": "501991"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307120637",
+     "original": "https://www.tomgreencountytx.gov/page/open/1646/0/APR20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MUTKX3FMMG65KPS7XOOZNW5CX7NCIWIG",
+     "length": "1458668"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307120743",
+     "original": "https://www.tomgreencountytx.gov/page/open/1645/0/MAR20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CN2EBRODKVPG4FVTLEGMGE3JUMGHGX25",
+     "length": "1195836"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307121025",
+     "original": "https://www.tomgreencountytx.gov/page/open/1565/0/FY21%20Coke%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FITXUU2U2GW2IJ2EKIX2PNWCC4WBHNPW",
+     "length": "312208"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307121316",
+     "original": "https://www.tomgreencountytx.gov/page/open/1566/0/FY17%20TGC%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TQXF7ZKVRR237DPWWPT2CSWXDG2HWGMH",
+     "length": "492626"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307121459",
+     "original": "https://www.tomgreencountytx.gov/page/open/1646/0/JUN20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HTYD72RCUMRRGRYUXKVG64YK6TRE6W25",
+     "length": "1076494"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307121531",
+     "original": "https://www.tomgreencountytx.gov/page/open/1645/0/FEB20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "O3BHNVFOV3CU7JZSXG7FMAP7VZ7AJQ7D",
+     "length": "1192835"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307121652",
+     "original": "https://www.tomgreencountytx.gov/page/open/1538/0/OCT17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WUMAIO5INITBTOC6QA6WXJCASU42DZHL",
+     "length": "1017032"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307121716",
+     "original": "https://www.tomgreencountytx.gov/page/open/1566/0/FY22%20TGC%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2BARCS7W66H5FDIUYWSQ2FMVHEOB3SOC",
+     "length": "527857"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307121805",
+     "original": "https://www.tomgreencountytx.gov/page/open/1565/0/FY17%20Coke%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "THMJWKPGC2ONNAG3BJNP5QWGLHV23PJQ",
+     "length": "460409"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307121828",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2020/20201103/358%20with%20precincts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "P6RFRXB6PPHGFPC36XYIDHOB5SJMSQR4",
+     "length": "603861"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307121851",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0145/docs/2026/2026%20Small%20Claims%20Petition.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XAPSRJ5GYP3GY433VU3SJU3O6LKVPLX2",
+     "length": "303868"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122025",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0145/docs/2026/2026%20Repair%20Remedy%20Petition.pdf",
+     "mimetype": "application/pdf",
+     "digest": "D4PILWKR5NH3ZSPH46T2PHIN2H43W6JH",
+     "length": "199038"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122052",
+     "original": "https://www.tomgreencountytx.gov/page/open/1571/0/AUG17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KSXVLZQKFB3STX3TVWYQETHEANSQDX4E",
+     "length": "1301833"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122141",
+     "original": "https://www.tomgreencountytx.gov/page/open/1579/0/JAN15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QSFVRNJO66IEEYFPMVXFVLXIEE5GEIVW",
+     "length": "351101"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122202",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0172/docs/JP2Forms/EVICTION%20PACKET%202026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2PTFREXS43KDGQVRU3JDBGNZWHNNJGGI",
+     "length": "218796"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122222",
+     "original": "https://www.tomgreencountytx.gov/page/open/1565/0/FY22%20Coke%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HXW5REA4DHYW6RAHIRW3TOYG544FW66T",
+     "length": "430816"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122352",
+     "original": "https://www.tomgreencountytx.gov/page/open/1537/0/AUG18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UN7INJWUGMFHFX7FRA4XHDIBFESPIIKN",
+     "length": "1085496"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122522",
+     "original": "https://www.tomgreencountytx.gov/page/open/1579/0/FEB15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "KTBTD5LNUDKNB5INZDO3SYSG3OU6RARK",
+     "length": "594934"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122606",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0145/docs/2026/2026%20Debt%20Claim%20Petition.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ET7GGNIRYSI7DDB42UXLPS72YC7NVIF3",
+     "length": "263769"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122744",
+     "original": "https://www.tomgreencountytx.gov/page/open/1565/0/FY18%20Coke%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RPHZD2PAHDZGHWRZ6SYOUXXN2LRQYFCE",
+     "length": "473500"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122805",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2020/20201103/106%20with%20precincts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "STIVYAUI5CGQOLJ4MBS24JZKYOHXNBSX",
+     "length": "552494"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122931",
+     "original": "https://www.tomgreencountytx.gov/page/open/1576/0/NOV18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4BFXVNNRNHJFD7RHDLXPQDFIXOGXRS32",
+     "length": "973262"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123011",
+     "original": "https://www.tomgreencountytx.gov/page/open/1576/0/OCT18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2SHWJPAC56L4UEJ5YNA67DNVPZM3UZHO",
+     "length": "1529058"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123030",
+     "original": "https://www.tomgreencountytx.gov/page/open/1570/0/DEC16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "33NU6GKFVWRQ3UQFUZM7RTSVZZNPCSLR",
+     "length": "1100109"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123050",
+     "original": "https://www.tomgreencountytx.gov/page/open/1822/0/AUG23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ME6BHY3COOP6AY3Y5VL253UUDGFFATTE",
+     "length": "1358834"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123111",
+     "original": "https://www.tomgreencountytx.gov/page/open/1629/0/JUL19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DRBBMBNIJRCW5WV7BPZR22G7FGTEMWF6",
+     "length": "994097"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123214",
+     "original": "https://www.tomgreencountytx.gov/page/open/1566/0/FY19%20TGC%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VBCNN5RUCZ2JW6U235J2VMVCR3RQQO63",
+     "length": "361940"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123257",
+     "original": "https://www.tomgreencountytx.gov/page/open/1538/0/JAN18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EJNDL4VMM6Q3R4JU6BC3NGDL73RADQ5G",
+     "length": "1043615"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123316",
+     "original": "https://www.tomgreencountytx.gov/page/open/1844/0/MAY24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "POM2YKDCZ2JKU252Q5F2Z4UUNEEEJ7QT",
+     "length": "1397633"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123354",
+     "original": "https://www.tomgreencountytx.gov/page/open/1919/0/OCT25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2KCKKDNXKIFWHJQCYMAR54FDBDIMALJY",
+     "length": "1596867"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123411",
+     "original": "https://www.tomgreencountytx.gov/page/open/1565/0/FY19%20Coke%20Annual%20Financial%20and%20Compliance%20Audit%20Report-%20Juvenile.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MUXC5AADVFRNAKQYZJBUDDKNJEJ4PYP4",
+     "length": "272986"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123507",
+     "original": "https://www.tomgreencountytx.gov/page/open/1571/0/APR17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VA7EXD7MZLHVRELWAFUCANT22JVQWL7I",
+     "length": "817106"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123527",
+     "original": "https://www.tomgreencountytx.gov/page/open/1580/0/JUN15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "V74ERFLR7TESDH5GCES47YLOGIGULO5N",
+     "length": "375014"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123546",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0172/docs/JP2Forms/2026%20SMALL%20CLAIM%20PACKET.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FT6OS24MGESTFCCVWUFN7VYX6YKRKUAE",
+     "length": "189209"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123604",
+     "original": "https://www.tomgreencountytx.gov/page/open/1570/0/MAR17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "H4KUNWVYYHTGBXOMXI3AKRU47BNR3BNN",
+     "length": "992236"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123842",
+     "original": "https://www.tomgreencountytx.gov/page/open/1571/0/JUN17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CISUXLL353W3LR7HNUJTZKXHWZ36DRII",
+     "length": "585864"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123924",
+     "original": "https://www.tomgreencountytx.gov/page/open/1537/0/JUN18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "H6YFT7TZGEHX6GNGXE3BDESPFTPTFXRB",
+     "length": "977778"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307123939",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0145/docs/2026/Filing%20an%20Eviction%20Case.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YO5TM5DG2OB4U6TEMQM537UJWIU3RIYI",
+     "length": "306596"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124006",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0095/docs/2026/ApplicationBallotbyMail.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DVIIHAASBMHYJBUSNMLEXXGJLRYFJZEV",
+     "length": "1447435"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124021",
+     "original": "https://www.tomgreencountytx.gov/page/open/1576/0/MAR19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HEJT6Z4W5FDYXBW5MFZPQKNRD6WTMFGY",
+     "length": "1004070"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124034",
+     "original": "https://www.tomgreencountytx.gov/page/open/1576/0/JAN19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "T32Y6SUUT3BH5PX2XAPCM33LBKGXSRRH",
+     "length": "1144148"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124146",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0095/docs/ES_voter_registration_app_updated2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QS2RMDBOBFI44B4VBKBXEQWAGGXWPAEI",
+     "length": "249486"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124156",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0093/docs/ES_voter_registration_app_updated2025.pdf",
+     "mimetype": "application/pdf",
+     "digest": "QS2RMDBOBFI44B4VBKBXEQWAGGXWPAEI",
+     "length": "249483"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124236",
+     "original": "https://www.tomgreencountytx.gov/page/open/1685/0/AUG21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LUUS6DPHVZZ4XEGNSLXYM4BCN4YQ26HC",
+     "length": "1169545"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124248",
+     "original": "https://www.tomgreencountytx.gov/page/open/1821/0/MAR23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RTZFFXWTVP76MUYHOAZYS3HWKJWM6OEC",
+     "length": "1345151"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124305",
+     "original": "https://www.tomgreencountytx.gov/page/open/1821/0/JAN23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "H5NOQD4FPLL64RS6FNZMSQQFAPM7IRVK",
+     "length": "1324857"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124330",
+     "original": "https://www.tomgreencountytx.gov/page/open/1684/0/NOV20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3KVIQVILHXCOH6XXSBWBS4YTWWW7P63S",
+     "length": "1320895"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124336",
+     "original": "https://www.tomgreencountytx.gov/page/open/1645/0/DEC19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GZ3WWUJXIGRWB2GHUMJY7OALTNBUA3KD",
+     "length": "1075643"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124407",
+     "original": "https://www.tomgreencountytx.gov/page/open/1744/0/APR22%20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NTS5PRH23SA3TCU447O6K4QVIJK7AMDW",
+     "length": "1320416"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307124421",
+     "original": "https://www.tomgreencountytx.gov/page/open/1684/0/OCT20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ABZPT7C5MIAD34ZE5TE3EDTE64V5QLIF",
+     "length": "1186719"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314190953",
+     "original": "https://www.tomgreencountytx.gov/page/open/1821/0/FEB23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2643SBJRKQX74SODOGKV7NCOOIJYFNCT",
+     "length": "1247244"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314191514",
+     "original": "https://www.tomgreencountytx.gov/page/open/1574/0/JUL16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CVBM5ANZQ4LY2YAYNS3MBTJKLVTX2TCA",
+     "length": "291290"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314192034",
+     "original": "https://www.tomgreencountytx.gov/page/open/1574/0/APR16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NOZEVPAWUPLN44IN52HSZUICHWC7XBQZ",
+     "length": "869153"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314192138",
+     "original": "https://www.tomgreencountytx.gov/page/open/1684/0/DEC20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZOEW6Y7TKIDVFUDLDF67RFL7XACBOZ4T",
+     "length": "1399114"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314192452",
+     "original": "https://www.tomgreencountytx.gov/page/open/1685/0/JUL21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "YJFDW5XGMHOOEQFKP37YUC65L7MQ6V5X",
+     "length": "1154535"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314192719",
+     "original": "https://www.tomgreencountytx.gov/page/open/1574/0/JUN16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VUDMJTTMNTLTIOKXDZXTTZIU6YZOUEBG",
+     "length": "394589"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314192800",
+     "original": "https://www.tomgreencountytx.gov/page/open/1573/0/FEB16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "TSUUMWGFPAVOMLM4OC6Z3F4HLW7YOHYY",
+     "length": "563351"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314193022",
+     "original": "https://www.tomgreencountytx.gov/page/open/1684/0/MAR21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DZJQRMSPKLAFAWVCB3QQU64YIF4XU5BO",
+     "length": "1158875"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314193051",
+     "original": "https://www.tomgreencountytx.gov/page/open/1684/0/JAN21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "MH5ELK7G32ORDTDAY5LOW4VLPXUEF6UN",
+     "length": "1393761"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314193258",
+     "original": "https://www.tomgreencountytx.gov/page/open/1571/0/MAY17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "M6CL6G6KO65KSHILIUXTE2PQQ3NACVFD",
+     "length": "1712506"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314193446",
+     "original": "https://www.tomgreencountytx.gov/page/open/1684/0/FEB21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "P3CZY5SP5MDQSB4RVTZS2TQ4CQFEWMS2",
+     "length": "1063141"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314193656",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0045/docs/Adopted%20Budget%20FY2026.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VEZAHF4YQLBYQLOOD7PJMDUSRMVQ5WUV",
+     "length": "4770104"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314193855",
+     "original": "https://www.tomgreencountytx.gov/page/open/1849/0/NOV24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SAU2VFXIPYALYWTIT2PAYT4LNC3YGOM5",
+     "length": "1317082"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314194102",
+     "original": "https://www.tomgreencountytx.gov/page/open/1849/0/OCT24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VL45ALTO5EP4ZNDQY7FZSJYSBN6IP7GV",
+     "length": "1429969"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314194418",
+     "original": "https://www.tomgreencountytx.gov/page/open/1844/0/AUG24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "K3JC2K5FZT7INVZ7PGAEUKLBW3QY3FAG",
+     "length": "1543867"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314194529",
+     "original": "https://www.tomgreencountytx.gov/page/open/1745/0/OCT21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6J377RGFF5EVDREJYI4MZRXO43VMZRPS",
+     "length": "1120950"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314194550",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/OCT23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PGP4LRYCLPM6QV4AUGYMNXABUVPVDYL2",
+     "length": "1421391"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314194847",
+     "original": "https://www.tomgreencountytx.gov/page/open/1850/0/AUG25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WYGNZSUT2WNWTVEZTK5LGS2QHNZHZKVB",
+     "length": "1406467"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314194945",
+     "original": "https://www.tomgreencountytx.gov/page/open/1646/0/AUG20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZNDL3ZXGCN2XVNTI3YR2P5HQW6GYR6XO",
+     "length": "1143548"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314195038",
+     "original": "https://www.tomgreencountytx.gov/page/open/1744/0/AUG22%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4PP4OYO2PMRX2YN5UZVGR3CAK5Y3X3EF",
+     "length": "1360656"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314195140",
+     "original": "https://www.tomgreencountytx.gov/page/open/1574/0/MAY16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "Z3GE2BRVQMZCDMQ5YEBYGON24JDQ33PL",
+     "length": "359458"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314195157",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/DEC23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EWOKP6PIS7DR53N6JG7B2FN4RDRG5YWM",
+     "length": "1230347"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314195228",
+     "original": "https://www.tomgreencountytx.gov/page/open/1849/0/JAN25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JCPROVM7ZZLZZAEYKRWPWMC2XAXOA5TY",
+     "length": "1319487"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314195622",
+     "original": "https://www.tomgreencountytx.gov/page/open/1849/0/FEB25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LTRBEKS7YOCOBFJ4WHRVLD6BFWUISOZ4",
+     "length": "1322250"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314195815",
+     "original": "https://www.tomgreencountytx.gov/page/open/1850/0/JUL25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "T7HGHWQP33Z4ZNJJSM56M4SFXL3U5DPY",
+     "length": "1325034"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314195930",
+     "original": "https://www.tomgreencountytx.gov/page/open/1579/0/NOV14%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RZK6DXT3LEP3RONNOREZW53F5XQ42EGJ",
+     "length": "354568"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314195959",
+     "original": "https://www.tomgreencountytx.gov/page/open/1745/0/MAR22%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2LFYEDQR6K65HHU6S7SPLF33GTGGEV3G",
+     "length": "1381274"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314200057",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/MAR24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BV5M5Z7RMR57EWXCBIWDFG4I6BKQUZCT",
+     "length": "1530631"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314200123",
+     "original": "https://www.tomgreencountytx.gov/page/open/1579/0/OCT14%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EU67OYTLZKRQWXGWBJ2SXL7PBD6VER3E",
+     "length": "1018211"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314200223",
+     "original": "https://www.tomgreencountytx.gov/page/open/1744/0/JUL22%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UMQ432N2NQM34APZCSCIHAR2S3YVSJH7",
+     "length": "1281611"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314200446",
+     "original": "https://www.tomgreencountytx.gov/page/open/1850/0/APR25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3K22MQDCHBO4F4OE3KOF6TYQ3NRG6DIY",
+     "length": "1421057"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314200634",
+     "original": "https://www.tomgreencountytx.gov/page/open/1745/0/FEB22%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4JZY2NTKQFFTUA6C7VOG3ILQVXKMIRSR",
+     "length": "1412718"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314200731",
+     "original": "https://www.tomgreencountytx.gov/page/open/1844/0/JUN24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2ACQO3TEWQAIJ4LSA4AST3PEPPVC4YGE",
+     "length": "1540120"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314200819",
+     "original": "https://www.tomgreencountytx.gov/page/open/1843/0/FEB24%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SHMVCG6RQBJ27FFCOHBDTJL7GJ33DLXH",
+     "length": "1391765"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314201001",
+     "original": "https://www.tomgreencountytx.gov/page/open/1645/0/JAN20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3IUWWODESDQTBZICZOX5PFODNS2KWCEI",
+     "length": "1004093"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314201140",
+     "original": "https://www.tomgreencountytx.gov/page/open/1579/0/DEC14%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CB5AB26KWBCUGYI7G6VFGV3BTQ7BBN73",
+     "length": "295972"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314201306",
+     "original": "https://www.tomgreencountytx.gov/page/open/1850/0/JUN25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "2SEL6ECIO3KXGZAGQ2ZXTYMXJQ6RBQAK",
+     "length": "1218924"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314201427",
+     "original": "https://www.tomgreencountytx.gov/page/open/1744/0/JUN22%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "FM2I4TLEGVSKDHFUSWW67SKTA74PIJML",
+     "length": "1357737"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314201451",
+     "original": "https://www.tomgreencountytx.gov/page/open/1580/0/AUG15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LKR4GVPMRFNMU5JNV5QYESKWK67PY5XD",
+     "length": "290243"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314201520",
+     "original": "https://www.tomgreencountytx.gov/page/open/1538/0/NOV17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7FITY7XJ4FINYXDWLAQSD2M6E6LUTCCT",
+     "length": "1389348"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314201705",
+     "original": "https://www.tomgreencountytx.gov/page/open/1629/0/AUG19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "33A6SAIB7PLCCYDLAGTYK2OEMSTQ5JLI",
+     "length": "1078434"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314201931",
+     "original": "https://www.tomgreencountytx.gov/page/open/1579/0/MAR15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "HQ2QU4FEGF5N4262QS7RKQIHGCOV3FKI",
+     "length": "427181"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314202021",
+     "original": "https://www.tomgreencountytx.gov/page/open/1570/0/NOV16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PFKYQUWKRN4CBXWBUI7BLF3HDT7T46AB",
+     "length": "707311"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314202135",
+     "original": "https://www.tomgreencountytx.gov/page/open/1570/0/OCT16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "PNIJF76P6FUKMD5NP6DA4M47QWHGS3F4",
+     "length": "731469"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314202314",
+     "original": "https://www.tomgreencountytx.gov/page/open/1538/0/DEC17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LBQRGAQXKERU2SCYXHM6T3IKMI5AUOS7",
+     "length": "1407341"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314202515",
+     "original": "https://www.tomgreencountytx.gov/page/open/1580/0/JUL15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ITG63E37KXPX655H2BCGVCHBDJVWSH7L",
+     "length": "438039"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314202643",
+     "original": "https://www.tomgreencountytx.gov/page/open/1821/0/NOV22%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XVUSN2DMIKEHGZVEXK4DONBOQNFS7AZX",
+     "length": "1361534"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314202703",
+     "original": "https://www.tomgreencountytx.gov/page/open/1580/0/APR15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "Q3E6GNA6J3DZRJPKDJIP4OE4G7B2X5WB",
+     "length": "288907"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314202814",
+     "original": "https://www.tomgreencountytx.gov/page/open/1821/0/OCT22%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "7EGQQUQ6LG7PV5247RMPNGVPU2BPCZ2W",
+     "length": "1352814"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314202835",
+     "original": "https://www.tomgreencountytx.gov/page/open/1538/0/MAR18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "OZASOOL4FG2DWG32YSH526LAFHEMZSEI",
+     "length": "969723"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314202854",
+     "original": "https://www.tomgreencountytx.gov/page/open/1571/0/JUL17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "EPA6PELKX7UMSCLOEACZUMVLJ4AYIW5R",
+     "length": "416712"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203022",
+     "original": "https://www.tomgreencountytx.gov/page/open/1629/0/APR19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "6HNOZQLUGADLKGGLNB7XHNJKP47Q7YKH",
+     "length": "1062215"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203110",
+     "original": "https://www.tomgreencountytx.gov/page/open/1537/0/JUL18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DLFEFK3CZLFFXTS6OQE4GRRUBFD6OSSD",
+     "length": "978129"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203132",
+     "original": "https://www.tomgreencountytx.gov/page/open/1919/0/NOV25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "GPZLG5OMIVFH4UIBOE3TLL5R3QXXYV4B",
+     "length": "1378739"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203216",
+     "original": "https://www.tomgreencountytx.gov/page/open/1538/0/FEB18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "CVVWES7NG2Q5SN3JWNPRICC6JWB7GDLF",
+     "length": "1169728"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203259",
+     "original": "https://www.tomgreencountytx.gov/page/open/1576/0/DEC18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "LVHV4XYVGV6KXWK36DWUGADULLUJJRWK",
+     "length": "976275"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203321",
+     "original": "https://www.tomgreencountytx.gov/page/open/1537/0/APR18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "O7SBA4TMU7JVRQHRSHIKN2FW3KHM5Z4N",
+     "length": "1021144"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203341",
+     "original": "https://www.tomgreencountytx.gov/page/open/1570/0/JAN17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "K65UGGQYQQS5HFR2QIW7NGQ6BTTV7QDU",
+     "length": "590080"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203402",
+     "original": "https://www.tomgreencountytx.gov/page/open/1850/0/MAY25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "T5SQB2TJM2WCNJL2WKJLY74XN4LHDIZB",
+     "length": "1501885"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203424",
+     "original": "https://www.tomgreencountytx.gov/page/open/1821/0/DEC22%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "F7IKNUGOM5HBHZCRHGEJQYNMAFXU5CRR",
+     "length": "1425777"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203444",
+     "original": "https://www.tomgreencountytx.gov/page/open/1646/0/MAY20%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BSWWZZJLOR44VCZU6BKUV5NP4GUFCJVM",
+     "length": "1008382"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203502",
+     "original": "https://www.tomgreencountytx.gov/page/open/1629/0/JUN19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RQ4A4LNLGAP2Y7CYBEGNWXL4LHNA4EYJ",
+     "length": "1107295"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203520",
+     "original": "https://www.tomgreencountytx.gov/page/open/1574/0/AUG16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "4GC545SSB6EODNJNB74FVYGSYG6ZEXWS",
+     "length": "433128"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203539",
+     "original": "https://www.tomgreencountytx.gov/page/open/1645/0/NOV19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "T2CBPGEMLH5C6QG57J3SJTEJSFHBNE4K",
+     "length": "1079897"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203558",
+     "original": "https://www.tomgreencountytx.gov/page/open/1744/0/MAY22%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "O55LZSRBFCM3OG6O4PA7TDT7TGO47B3T",
+     "length": "1351326"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203617",
+     "original": "https://www.tomgreencountytx.gov/page/open/1573/0/NOV15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "S6DQRVFSCVPH5JPCZ4GEOU77KUELKXM4",
+     "length": "766501"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203637",
+     "original": "https://www.tomgreencountytx.gov/page/open/1645/0/OCT19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "E4YQD6N7FMC553VUDV524GK3RI6OU6YI",
+     "length": "1296398"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203734",
+     "original": "https://www.tomgreencountytx.gov/page/open/1570/0/FEB17%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BZE7BFMX5NWYKHQJ5E4MCWBL72TXTPEX",
+     "length": "373159"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203753",
+     "original": "https://www.tomgreencountytx.gov/page/open/1573/0/OCT15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UAWQC5SK4GRG7BPAIMOEKG5FTI6SAMUY",
+     "length": "450731"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203814",
+     "original": "https://www.tomgreencountytx.gov/page/open/1822/0/JUL23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZQEUAVZRPQ7BFA2P57F3VQXFGIG43DZQ",
+     "length": "1298853"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314203832",
+     "original": "https://www.tomgreencountytx.gov/page/open/1919/0/DEC25%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RBE6LEQ2EYVW3RY6T3ZEDYYAHFRHZ5GE",
+     "length": "1380867"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314204000",
+     "original": "https://www.tomgreencountytx.gov/page/open/1822/0/APR23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "C2MK3X2KDEQAMZLC4GJZE63PE23KEPTB",
+     "length": "1482595"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314204223",
+     "original": "https://www.tomgreencountytx.gov/page/open/1576/0/FEB19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VNIMCMPC6XRO7NQI3S6PBE3JADKLYZE7",
+     "length": "1167201"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260314204238",
+     "original": "https://www.tomgreencountytx.gov/page/open/1573/0/DEC15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ACOZ2A7F7DJLLO3IH4OXJBKJKWRSP7K6",
+     "length": "337729"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323003322",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0097/docs/20240305/20240305pollingplaceshours.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XLG5R3JLTTB7A7XIKVQBJOQS7QEQUAMY",
+     "length": "133442"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113434",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2020/20201103/422%20with%20precincts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SWF3AXAWF6JYFLOCNTDWVJN3LQO4HFQM",
+     "length": "711227",
+     "replay_error": null,
+     "bytes": 716559,
+     "sha256": "de7853aaa8873f8fecf3c171fb4f1462d84e877b6ba1119e3f7d25b78f0c9d01",
+     "orig_last_modified": "Tue, 22 Sep 2020 20:25:01 GMT",
+     "orig_date": "Sat, 07 Mar 2026 11:53:09 GMT",
+     "orig_last_modified_local": "2020-09-22 14:25:01",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 13,
+     "text_sample_first_streams": " |  | Boleta  de  muestra | Precinct/precinto  422BS38,  423BS41 | All  Federal,  State,  District,  County,  and  Precinct  Offices;  Christoval  Independent  School  District  Todas  las  oficinas  federales,  estatales,  distritales,condado  y  precinto;  Distrito  Escolar  Independiente  de  Christoval |  | November  3,  2020  General  Election  November  3,  2020  Tom  Green  County,  Texas  Sample  Ballot  Elecci6n  General  3  de  noviembre  de  2020  3  de  noviembre  de  2020  Condado  de  Tom  Green,  Texas  Please  use  a  black  or  blue  ink  pen  to  mark  your  ballot.  To  vote  for  your  choice  in  each  | contest,  completely  fill  in  the  box  next  to  your  choice.  Por  favor  utilice  una  pluma  negro  o  azul  para  marcar  su  boleta.  Para  votar  por  su  selecci6n  en  cada  carrera,  Ilene  completamente  el  espacio  cuadrado  al  lado  de  su  elecci6n.  Write-in  Instruction  To  vote  for  a  write-in  candidate,  completely  fill  in  | the  box  provided  to  the  left  of  the  words  \"Write-in\"  and  write  in  the  name  of  the  candidate  on  the  line  provided.  Para  votar  par  un  candidato  par  voto  escrito,  Ilene  completamente  el  espacio  cuadrado  a  la  izquierda  de  c:::J  MARY  \"MJ''  HEGAR  DEM  DEM  c:::J  KERRY  DOUGLASLIB  | MCKENNON  LIB  c:::J  DAVID  B.  COLLINS  GRN  GRN  c:::J  Write-in  Escribir  en  las  palabras  \"Escribir  En\"  y  escriba  el  c:::J  AUGUST  PFLUGER  REP  REP  nombre  del  candidato  en  la  Unea  provista.  Republican=  REP  Democratic=  DEM  Libertarian=  LIB  Green=GRN  Independent=IN  D  | Republicano=REP  Dem6crata=DEM  Libertario=LIB  Verde=GRN  tndependiente=IND  c:::J  DONALD  J.  TRUMP/MICHAEL  R.  PENCE  REP  REP  c:::J  JOSEPH  R.  BID  EN/KAMALA  D.  HARRIS  DEM  DEM  c:::J  JO  JORGENSEN/JEREMYLIB  \"SPIKE\"  COHEN  LIB  c:::J  HOWIE  HAWKINS/ANGELA  WALKER  GRN  GRN  c:::J  Write-in  Escribir  en  c:::J  | JON  MARK  HOGG  DEM  DEM  c:::J  WACEY  ALPHA  CODY  LIB  LIB  c:::J  JAMES  \"JIM\"  WRIGHT  REP  REP  c:::J  CHRYSTA  CASTANEDA  DEM  DEM  c:::J  KATIJA  \"KAT\"  GRUENE  GRN  GRN  c:::J  AMY  CLARK  MEACHUM  DEM  DEM  c:::J  JANE  BLAND  REP  REP  | c:::J  KATHY  DEM  Precinct  422  8S38  Precinto  422  BS38  Page  1  of  2  P6gina  1  de  2  c:::J  JEFF  BOYD  REP  REP  c:::J  STACI  WILLIAMS  DEM  DEM  c:::J  WILLIAM  BRYAN  STRANGE  III  LIB  LIB  c:::J  GISELA  D.  TRIANA  DEM  DEM  | c:::J  BERT  RICHARDSON  REP  REP  c:::J  ELIZABETH  DAVIS  FRIZELL  DEM  DEM  c:::J  KEVIN  PATRICK  YEARY  REP  REP  c:::J  BRANDON  BIRMINGHAM  DEM  DEM  Read  Both  Sides  of  the  Ballot  /  Leer  ambos  lados  de  la  boleta  N  1.0  l\"l'l  00  l\"l'l  | November  3,  2020  General  Election  November  3,  2020  Tom  Green  County,  Texas  Sample  Ballot  Elecci6n  General  3  de  noviembre  de  2020  3  de  noviembre  de  2020  Condado  de  Tom  Green,  Texas  MEMBER,  STATE  BOARD  OF  EDUCA  110  TRI  CT  1  c::J  JAY  JOHNSON  REP  REP  c::J  JOHN  BETANCOURT  DEM  DEM  ST,ATESENAT  Se ha dor  Estatal,  ito  Num.  '28  c::J  CHARLES  PERRY  REP  REP  Representante  Estatal,  Distrito  Num.  72  c::J  DREW  DARBY  REP  REP  CHIEF  JUSTICE,  3RD  COURT  OF  APPEALS  DISTRICT  lyez  Presidente,  Cpr:fe  de  Ap'etaciones,  Disti\"ito  Num.  3  c::J  JEFF  ROSE  REP  REP  c::J  DARLENE  BYRNE  DEM  DEM  DISTRICT  JUDGE,  51ST  JUDICIAL  DISTRICT  luez  de  Distrit  \\267  rito  Judie  Ndm.  51  c::J  CARMEN  SYMES  DUSEK  REP  REP  DISTRICT  JUDGE,  119TH  JUDICAL  DISTRICT  Juez  de  Distrito,  Distrito  Judicial  Num.119  c::J  BEN  WOODWARD  REP  REP  DISTRICT  JUDGE,  340TH  JUDICAL  DISTRICT  Distrito,  Distrito  Judicial  Num.  340  c::J  JAY  WEATHERBY  REP  REP  ll~TRICT  JU\"GE,  391ST  JUDICIAL  DISTRICT  Juez  de  Distrito ,  Distrito  Judicial  391  CJ  BRAD  GOODWIN  REP  REP  DISTRICT  ATTORNEY,  51ST  Unopposed  Candidates  Declared  Elected.  County  Attorney,  Chris  Taylor  \\(REP\\);  District  Clerk,  Unexpired  Term,  Anthony  Monico  \\(REP\\);  Sheriff,  J.  Nick  Hanna  \\(REP\\);  County  Tax  Assessor-Collector,  Becky  Robles  \\(REP\\);  County  Commissioner,  Precinct  1,  Ralph  E.  Hoelscher  \\(REP\\);  County  Commissioner,  Precinct  3,  Rick  Bacon  \\(REP\\);  Constable,  Precinct  1,  Mike  Magee  \\(REP\\);  Constable,  Precinct  2,  Deen  Dickson  \\(REP\\);  Constable,  Precinct  3,  Mark  A.  Whitaker  \\(REP\\);  Constable,  Precinct  4,  Randy  Harris  \\(REP\\)  Candidatos  sin  contendientes  declarados  elegidos :  Procurador  de[  Condado ,  Chris  Taylor  \\(REP\\) ;  Secretario  del  Distrito,  Duraci6n  Restante  del  Cargo ,  Anthony  Monico  \\(REP\\);  Alguacil ,  Nick  J.  Hanna  \\(REP\\) ;  Asesor-Colector  de  impuestos  del  Condado,  Becky  Robles  \\(REP\\) ;  Comisionado  de  Condado,  Precinto  Num.  1 ,  Ralph  E .  Hoelscher  \\(REP\\);  Comisionado  de  Condado ,  Precinto  Num.  3,  Rick  Bacon  \\(REP\\);  Condestable,  Precinto  Num.  1,  Mike  Magee  \\(REP\\);  Condestable ,  Precinto  Num.  2,  Deen  Dickson  \\(REP\\) ;  Condestable,  Precinto  Num.  3,  Mark  A.  Whitaker  \\(REP\\);  Condestable ,  Precinto  Num.  4,  Randy  Harris  \\(REP\\)  Precinct  422  BS38  Precinto  422  BS38  Page  2  of  2  Pagina  2  de  2  CHRISTOVAL  INDEPENDENT  SCHOOL  DISTRICT  Distrito  Escolar  lndependiente  de  Christoval  \\225  \\225  \\225  \\225  \\225  \\225  \\225  \\225\\225  ,,  I  Vote  por  Ninguna,  Uno,  Dos,  o  Tres  Read  Both  Sides  of  the  Ballot  /  Leer  ambos  lados  de  la  boleta  N  ID  M  00  M  |  | This  list  does  not  appear  on  the  ballot  but  will  be  posted  in  the  voting  booth.  Esta  lista  no  aparece  en  la  boleta,  pero  se  publicar\\341  en  la  cabina  de  votaci\\363n.  | Name  of  Candidate/Nombre  del  candidato    President/Vice  President    President  R.  Boddie/Eric  C.  Stoneham  Brian  Carroll/Amar  Patel  Todd  Cella/Tim  Cella  Jesse  Cuellar/Jimmy  Monreal  Tom  Hoefling/Andy  Prior  Gloria  La  Riva/Leonard  Peltier  Abram  L",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307113434_7d4be3e39b.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114446",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2020/20201103/112%20wall%20with%20precincts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "5I6ERB26PHYUYISJPQFPI5RLDTTQQNQP",
+     "length": "583287",
+     "replay_error": null,
+     "bytes": 588822,
+     "sha256": "1ba49d2d6889264c8b8c4851fa2033b2897f4766cd74e49431ab409b757a603c",
+     "orig_last_modified": "Tue, 22 Sep 2020 20:24:51 GMT",
+     "orig_date": "Sat, 07 Mar 2026 12:03:21 GMT",
+     "orig_last_modified_local": "2020-09-22 14:24:51",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 15,
+     "text_sample_first_streams": " |  | Precinct/precinto  112BS6,  144BS11,  213BS13;  230BS20,  423BS39 | Boleta  de  muestra | All  Federal,  State,  District,  County,  and  Precinct  Offices;  Wall  Independent  School  Distict  Todas  las  oficinas  federales,  estatales,  distritales,  condado  y  precinto;  Distrito  Escolar  Independiente  de  Wall |  | November  3,  2020  General  Election  November  3,  2020  Tom  Green  County,  Texas  Sample  Ballot  Elecci6n  General  3  de  naviembre  de  2020  3  de  naviembre  de  2020  Candada  de  Tom  Green,  Texas  Please  use  a  black  or  blue  ink  pen  to  mark  your  ballot.  To  vote  for  your  choice  | in  each  contest,  completely  fill  in  the  box  next  to  your  choice .  Por  favor  utilice  una  pluma  negro  o  azul  para  marcar  su  boleta.  Para  votar  por  su  selecci6n  en  cada  carrera,  Ilene  completamente  el  espacio  cuadrado  al  lado  de  su  elecci6n.  Write-in  Instruction  To  vote  for  a  write-in  candidate,  completely  | fill  in  the  box  provided  to  the  left  of  the  words  \"Write-in\"  and  write  in  the  name  of  the  cand i date  on  the  line  provided.  Para  vatar  par  un  candidata  par  vata  escrita,  llene  campletamente  el  espacia  cuadrada  a  la  izquierda  de  c::J  MARY  \"MJ\"  HEGAR  DEM  | DEM  c::J  KERRY  DOUGLASLIB  MCKENNON  LIB  c::J  DAVID  B.  COLLINS  GRN  GRN  c::J  Write-in  Escribir  en  las  palabras  \"Escribir  En\"  y  escriba  el .  c::J  AUGUST  PFLUGER  REP  REP  nambre  del  candidata  en  la  linea  pravista.  Republican=REP  Democratic=  DEM  Libertarian=UB  | Green=GRN  Independent=IN  D  Republicana=REP  Dem6crata=DEM  Libertaria=LIB  Verde=GRN  c::J  DONALD  J.  TRUMP/MICHAEL  R.  PENCE  REP  REP  c::J  JOSEPH  R.  BIDEN/KAMALA  D.  HARRIS  DEM  DEM  c::J  JO  JORGENSEN/JEREMY  LIB  \"SPIKE\"  COHEN  LIB  c::J  HOWIE  HAWKINS/ANGELA  WALKER  GRN  GRN  c::J  Write-in  Escribir  | en  c::J  JON  MARK  HOGG  DEM  DEM  c::J  WACEY  ALPHA  CODY  LIB  LIB  c::J  JAMES  \"JIM\"  WRIGHT  REP  REP  c::J  CHRYSTA  CASTANEDA  DEM  DEM  c::J  KATIJA  \"KAT\"  GRUENE  GRN  GRN  c::J  AMY  CLARK  MEACHUM  DEM  DEM  c::J  JANE  BLAND  | REP  REP  c::J  KATHY  CHENG  DEM  DEM  Precinct  112  8S6  Precinta  112  8S6  Page  1  of  2  Pagina  1  de  2  c::J  JEFF  BOYD  REP  REP  c::J  STACI  WILLIAMS  DEM  DEM  c::J  WILLIAM  BRYAN  STRANGE  III  LIB  LIB  c::J  GISELA  | D.  TRIANA  DEM  DEM  c::J  BERT  RICHARDSON  REP  REP  c::J  ELIZABETH  DAVIS  FRIZELL  DEM  DEM  c::J  BRANDON  BIRMINGHAM  DEM  DEM  Read  Both  Sides  of  the  Ballot  /  Leer  ambos  lados  de  la  boleta  N  \\\\D  ,.,,  00  ,.,,  | November  3,  2020  General  Election  November  3,  2020  Tom  Green  County,  Texas  Sample  Ballot  Elecci6n  General  3  de  noviembre  de  2020  3  de  noviembre  de  2020  Condado  de  Tom  Green,  Texas  MEMBER,  STATE  BOARD  OF  EDUCATION,  DISTRICT  15  DISTRICT  ATTORNEY,  51ST  JUDICIAL  DISTRICT  Miembro  de  la  Junta  Estatal  de  Procurador  de  Distrito,  Distrito  Educaci6n  Publica,  Distrito  Num.  15  Judicial  Num .  51  c:J  JAY  JOHNSON  REP  REP  c:J  JOHN  BETANCOURT  DEM  DE/vi  STATE  SENATOR,  DISTRICT  28  Senador  Estatal,  Distrito  Num.  28  c:J  CHARLES  PERRY  REP  REP  STATE  RE~~l~iNTA  DISTRICT  72  Representante  Estatal,  Distrito  Num.  72  c:J  DREW  DARBY  REP  REP  CHIEF  JUSTICE,  ..  3RD  COURT  OF  APPEALS  DISTRICT  Juez  Pre '\"  nte,  Cqrte  q~  Apelaci  ,  Distrito  N'\\(Jin  3  c:J  JEFF  ROSE  REP  REP  c:J  DARLENE  BYRNE  DEM  DE/vi  DISTRICT  JUDGE,  51ST  JUDICIAL  DISTRICT  rito,  \\267to  Judicial  c:J  CARMEN  SYMES  DUSEK  REP  REP  DISTRICT  JUDGE,  119TH  JUDIOAL  DIST  CT  Juez  de  Dis  Num . 119  \\267  trito  Judicial  ,%m:c%cm idl:7:::\\(\\)i/i\\(H\\\\:\\(\\(\\\\  c:J  BEN  WOODWARD  REP  REP  DISTRICT  JUDGE,  340TH  JUDIOAL  DISTRICT  Juez  de  Distrito,  Distrito  Judicial  Num.  340  c:J  JAY  WEATHERBY  REP  REP  DISTRICT  J  DISTRICT  ST  JUDICIAL  Juez  de  Distrito,  Distrito  Judicial  Num .  391  c:J  BRAD  GOODWIN  REP  REP  - \\225  \\225  ..  \\225  \\225  \\225  ,  ,  .  ,  ..  \\225  \\225  \\225  ,  I  \\225  - \\225  .  .  \\225  .  \\225  .  Unopposed  Candidates  Declared  Elected .  County  Attorney,  Chris  Taylor  \\(REP\\);  District  Clerk,  Unexpired  Term,  Anthony  Monico  \\(REP\\);  Sheriff,  J.  Nick  Hanna  \\(REP\\);  County  Tax  Assessor-Collector,  Becky  Robles  \\(REP\\);  County  Commissioner,  Precinct  1,  Ralph  E.  Hoelscher  \\(REP\\);  County  Commissioner,  Precinct  3,  Rick  Bacon  \\(REP\\);  Constable,  Precinct  1,  Mike  Magee  \\(REP\\);  Constable,  Precinct  2,  Deen  Dickson  \\(REP\\);  Constable,  Precinct  3,  Mark  A.  Whitaker  \\(REP\\);  Constable,  Precinct  4,  Randy  Harris  \\(REP\\)  Candidatos  sin  contendientes  declarados  elegidos :  Procurador  de[  Condado ,  Chris  Ta y lor  \\(REP \\);  Secretario  de/  Distrito,  Duraci6n  Resta n te  del  Cargo,  Anthon y  Mon i co  \\(REP\\) ;  Alguacil ,  Nick  J.  Hanna  \\(REP\\) ;  Aseso r -Co/ector  de  i mpuestos  del  Condado ,  Bec ky  Robles  \\(REP \\);  Comisionado  de  Condado ,  Precinto  Num.  1 ,  Ralph  E .  Hoelscher  \\( REP\\) ;  Comisionado  de  Condado ,  Precinto  Num .  3,  Rick  Bacon  \\( REP\\) ;  Condestable,  Precinto  Num.  1 ,  fvlike  Magee  \\(REP\\);  Condestable ,  Precinto  Num.  2 ,  Deen  Dickson  \\(REP\\) ;  Condestable ,  Precinto  Num.  3 ,  fvlark  A.  Whitaker  \\( REP \\);  Condestable ,  Precinto  Num.  4,  Randy  Harr i s  \\( REP\\)  Precinct  112  BS6  Precinto  112  856  Page  2  of  2  Pagina  2  de  2  WALL  INDEPENDENT  SCHOOL  DISTRICT  Distrito  Escolar  l n depend i ente  de  Wall  Junta  \\243scalar  ciel  Di\\247tr,ito  lndependiente  de  Wall  '  '  Vote  for  none,  one,  two  or  three  Vote  por  Ninguna,  Uno,  Dos,  o  Tres  - :  ...  - .....  Read  Both  Sides  of  the  Ballot  /  Leer  ambos  lados  de  la  boleta  N  ID  M  00  M  |  | Boleta  de  muestra | All  Federal,  State,  District,  County,  and  Precinct  Offices; ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307114446_7fa1c6c270.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114630",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2020/20201103/112%20vrbs%20with%20precincts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NWOUSAJZ6OQ7FIQDG4MOMI42OC5PBARQ",
+     "length": "578178",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307121828",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2020/20201103/358%20with%20precincts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "P6RFRXB6PPHGFPC36XYIDHOB5SJMSQR4",
+     "length": "603861",
+     "replay_error": null,
+     "bytes": 609154,
+     "sha256": "68901f51c6899a5a0c951a900d1b08269ca648e424fda1e077c2c9bbb366c7bb",
+     "orig_last_modified": "Tue, 22 Sep 2020 20:24:57 GMT",
+     "orig_date": "Sat, 07 Mar 2026 12:37:03 GMT",
+     "orig_last_modified_local": "2020-09-22 14:24:57",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 15,
+     "text_sample_first_streams": " |  | Precinct/precinto  358BS33 | Boleta  de  muestra | All  Federal,  State,  District,  County,  and  Precinct  Offices;  Water  Valley  School  District  Todas  las  oficinas  federales,  estatales,  distritales,  condado  y  precinto;  Distrito  Escolar  Independiente  de  Water  Valley |  | November  3,  2020  General  Election  November  3,  2020  Tom  Green  County,  Texas  Sample  Ballot  Elecci6n  General  3  de  noviembre  de  2020  3  de  noviembre  de  2020  Condado  de  Tom  Green,  Texas  Please  use  a  black  or  blue  ink  pen  to  mark  your  ballot.  To  vote  for  your  | choice  in  each  contest,  completely  fill  in  the  box  next  to  your  choice.  Par  favor  utilice  una  pluma  negro  o  azul  para  marcar  su  boleta.  Para  votar  par  su  selecci6n  en  cada  carrera,  Ilene  completamente  el  espacio  cuadrado  al  lado  de  su  elecci6n.  Write-in  Instruction  To  vote  for  a  | write-in  candidate,  completely  fill  in  the  box  provided  to  the  left  of  the  words  \"Write-in\"  and  write  in  the  name  of  the  candidate  on  the  line  provided.  Para  votar  por  un  candidato  por  voto  escrito,  Ilene  completamente  el  espacio  cuadrado  a  la  izquierda  de  c::J  MARY  \"MJ\"  HEGAR  | DEM  DEM  c::J  KERRY  DOUGLASLIB  MCKENNON  LIB  c::J  DAVID  B .  COLLINS  GRN  GRN  c::J  Write-in  Escribir  en  las  palabras  \"Escribir  En\"  y  escriba  el  c::J  AUGUST  PFLUGER  REP  REP  nombre  de/  candidato  en  la  Linea  pro  vista.  Republican=  | REP  Democratic=  DEM  Libertarian=  LIB  Green=GRN  Independent=IN  D  Republicano=REP  Dem6crata=DEM  Libertario=LIB  Verde=GRN  c::J  DONALD  J .  TRUMP/MICHAEL  R .  PENCE  REP  REP  c::J  JOSEPH  R.  BID  EN/KAMALA  D.  HARRIS  DEM  DEM  c::J  JO  JORGENSEN/JEREMYLIB  \"SPIKE\"  COHEN  LIB  c::J  HOWIE  HAWKINS/ANGELA  WALKER  | GRN  GRN  c::J  Write-in  Escribir  en  c::J  JON  MARK  HOGG  DEM  DEM  c::J  WACEY  ALPHA  CODY  LIB  LIB  c::J  JAMES  \"JIM\"  WRIGHT  REP  REP  c::J  CHRYSTA  CASTANEDA  DEM  DEM  c::J  KATIJA  \"KAT\"  GRUENE  GRN  GRN  c::J  | AMY  CLARK  MEACHUM  DEM  DEM  c::J  JANE  BLAND  REP  REP  c::J  KATHY  CHENG  DEM  DEM  Precinct  358  8S33  Precinto  358  BS33  Page  1  of  2  Pagina  1  de  2  c::J  JEFF  BOYD  REP  REP  c::J  STACI  WILLIAMS  DEM  | DEM  c::J  WILLIAM  BRYAN  STRANGE  III  LIB  LIB  c::J  BERT  RICHARDSON  REP  REP  c::J  ELIZABETH  DAVIS  FRIZELL  DEM  DEM  c::J  BRANDON  BIRMINGHAM  DEM  DEM  Read  Both  Sides  of  the  Ballot  /  Leer  ambos  lados  de  la  boleta  | November  3,  2020  General  Election  November  3,  2020  Tom  Green  County,  Texas  Sample  Ballot  Elecci6n  General  3  de  noviembre  de  2020  3  de  noviembre  de  2020  Condado  de  Tom  Green ,  Texas  MEMBER,  STATE  BOARD  OF  EDUCATION,  DISTRICT  15  DISTRICT  ATTORNEY,  51ST  JUDICIAL  DISTRICT  Miembro  de  la  Junta  Estatal  de  Procurador  de  Distrito,  Distrito  Educaci6n  Publica,  Distrito  Num.  15  Judicial  Num.  51  c::::J  JAY  JOHNSON  REP  REP  c::::J  JOHN  BETANCOURT  DEM  DEM  STATE  SENA T OR ,  DISTRICT  28  Senador  Estatal,  Distrito  Num .  28  c::::J  CHARLES  PERRY  REP  REP  DISTRICT  Represen  n  72  c::::J  DREW  DARBY  REP  REP  CHIEF  JUSTICE,  3RD  COURT  OF  APPEALS  DI  c::::J  JEFF  ROSE  REP  REP  c::::J  DARLENE  BYRNE  DEM  DEM  DISTRICT  JUDGE,  51ST  JUDICIAL  DISTRICT  Juez  de  Distrito ,  Distrito  Judicial  Num .  51  c::::J  CARMEN  SYMES  DUSEK  REP  REP  DISTRICT  JUDGE,  119TH  JUDIOAL  DISTRICT  c::::J  BEN  WOODWARD  REP  REP  DISTRICT  JUDGE,  340TH  JUDIOAL  DISTRICT  Juez  de  Distrito,  Distr i to  Judicial  Num .  340  -!i \\):/!%,\\);w  c::::J  JAY  WEATHERBY  REP  REP  >,ij :i'>\\)  ;::;  DISTRICT  JUDGE,  391ST  JUDICIAL  DISTRICT  Juez  de  Distrito ,  Num .  391  ito  Judicial  c::::J  BRAD  GOODWIN  REP  REP  c::::J  ALLISON  PALMER  REP  REP  dor  de  Distrito,  Distrito  Judicial  Num .  1.19  c::::J  JOHN  H .  BEST  REP  REP  Unopposed  Candidates  Declared  Elected.  County  Attorney,  Chris  Taylor  \\(REP\\);  District  Clerk,  Unexpired  Term,  Anthony  Monico  \\(REP\\);  Sheriff,  J.  Nick  Hanna  \\(REP\\);  County  Tax  Assessor-Collector,  Becky  Robles  \\(REP\\);  County  Commissioner,  Precinct  1,  Ralph  E.  Hoelscher  \\(REP\\);  County  Commissioner,  Precinct  3,  Rick  Bacon  \\(REP\\);  Constable,  Precinct  1,  Mike  Magee  \\(REP\\);  Constable,  Precinct  2,  Deen  Dickson  \\(REP\\);  Constable,  Precinct  3,  Mark  A.  Whitaker  \\(REP\\);  Constable,  Precinct  4,  Randy  Harris  \\(REP\\)  Candidatos  sin  contendientes  declarados  elegidos :  Procurador  de/  Condado,  Chris  Taylor  \\(REP\\) ;  Secretario  de/  Distrito,  Duraci6n  Restante  de/  Cargo ,  Anthony  Mon i co  \\(REP\\) ;  Alguacil,  Nick  J.  Hanna  \\(REP\\) ;  Aseso r- Colector  de  i mpuestos  de/  Condado ,  Becky  Robles  \\(REP \\);  Comisionado  de  Condado ,  P r ec i nto  Num.  1 ,  Ralph  E .  Hoelscher  \\( REP\\) ;  Comisionado  de  Condado,  Precinto  Num.  3 ,  Rick  Bacon  \\(REP \\);  Condestable ,  Precinto  Num .  1 ,  Mike  Magee  \\( REP\\);  Condestable ,  Precinto  Num.  2 ,  Deen  Dickson  \\(REP\\) ;  Condestable ,  Precinto  Num.  3 ,  Mork  A.  Whitaker  \\( REP \\);  Condestable ,  Precinto  Num.  4 ,  Randy  Harris  \\( REP\\)  Precinct  358  BS33  Precinto  358  BS33  Page  2  of  2  P6gina  2  de  2  WATER  VALLEY  ISO  Distrito  Esco/o r  lndependiente  de  Wate r  Valley  Vote  for  none  or  one  Vote  par  Ninguna  o  Uno  Junta  Escolar  Elec  \\267  Vote  for  none,  one,  two,  three ,  or  four  Vote  por  Ninguna ,  Uno,  Dos,  Tres,  o  Quatro  Read  Both  Sides  of  the  Ballot  /  Leer  ambos  lados  de  la  boleta  N  '\\260  M  00  M  |  | Boleta  de  muestra | All  Federal,  State,  District,  County,  and  Precinct  Offices;  Water  Valley  School  District  Todas  las  oficinas  federales,  estatales,  distritales,  condado  y  precinto;  Distrito  Escolar  Independiente  de  Water  Valley | This  list  does  n",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307121828_d69683c0e9.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307122805",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2020/20201103/106%20with%20precincts.pdf",
+     "mimetype": "application/pdf",
+     "digest": "STIVYAUI5CGQOLJ4MBS24JZKYOHXNBSX",
+     "length": "552494",
+     "replay_error": null,
+     "bytes": 557680,
+     "sha256": "e2759d252067896ede27ce2d4d84ecb7f21c6cd34eefe90a83268b2af97213c0",
+     "orig_last_modified": "Tue, 22 Sep 2020 20:24:42 GMT",
+     "orig_date": "Sat, 07 Mar 2026 12:46:40 GMT",
+     "orig_last_modified_local": "2020-09-22 14:24:42",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 15,
+     "text_sample_first_streams": " |  | All  Federal,  State,  District,  County,  and  Precinct  Offices  Todas  las  oficinas  federales,  estatales,  distritales,condado  y  precinto | Boleta  de  muestra | Precinct/precinto  106BS1,  107BS2,  108BS3,  114BS7,  124BS8,  137BS9,  144BS10,  146BS12,  213BS15,  215BS16,  225BS17,  228BS18,  230BS19,  241BS21,  304BS22,  305BS23,  306BS25,  308BS26,  319BS27,  327BS28,  348BS29,  351BS31,  358BS32,  401BS34,  402BS35,  420BS36,  421BS37,  423BS40,  424BS42,  434BS43,  435BS44,  436BS45 |  | November  3,  2020  General  Election  November  3,  2020  Tom  Green  County,  Texas  Sample  Ballot  Elecci6n  General  3  de  noviembre  de  2020  3  de  noviembre  de  2020  Condado  de  Tom  Green,  Texas  Please  use  a  black  or  blue  ink  pen  to  mark  your  ballot.  To  vote  for  your  choice  | in  each  contest,  completely  fill  in  the  box  next  to  your  choice .  Par  favor  utilice  una  pluma  negro  o  azul  para  marcar  su  boleta.  Para  votar  par  su  selecci6n  en  cada  carrera,  Ilene  completamente  el  espacio  cuadrado  al  lado  de  su  elecci6n.  Write-in  Instruction  To  vote  for  a  write-in  candidate,  | completely  fill  in  the  box  provided  to  the  left  of  the  words  \"Write-in\"  and  write  in  the  name  of  the  candidate  on  the  line  provided.  Para  votar  por  un  candidato  por  voto  escrito,  llene  completamente  el  espacio  cuadrado  a  la  izquierda  de  c::J  MARY  \"MJ''  HEGAR  DEM  DEM  | c::J  KERRY  DOUGLASLIB  MCKENNON  LIB  c::J  DAVID  B.  COLLINS  GRN  GRN  c::J  Write-in  Escribir  en  las  palabras  \"Escribir  En\"  y  escriba  el  c::J  AUGUST  PFLUGER  REP  REP  nombre  de[  candidato  en  la  linea  provista .  Republican=REP  Democratic=  DEM  Libertarian=  LIB  Green=GRN  Independent=IN  | D  Republicano=REP  Dem6crata  =  DEM  Libertario=LIB  Verde=GRN  c::J  DONALD  J.  TRUMP/MICHAEL  R.  PENCE  REP  REP  c::J  JOSEPH  R.  BID  EN/KAMALA  D.  HARRIS  DEM  DEM  c::J  JO  JORGENSEN/JEREMYLIB  \"SPIKE\"  COHEN  LIB  c::J  HOWIE  HAWKINS/ANGELA  WALKER  GRN  GRN  c::J  Write-in  | Escribir  en  c::J  JON  MARK  HOGG  DEM  DEM  c::J  WACEY  ALPHA  CODY  LIB  LIB  c::J  JAMES  \"JIM\"  WRIGHT  REP  REP  c::J  CHRYSTA  CASTANEDA  DEM  DEM  c::J  KATIJA  \"KAT\"  GRUENE  GRN  GRN  c::J  AMY  CLARK  MEACHUM  DEM  DEM  c::J  | JANE  BLAND  REP  REP  c::J  KATHY  CHENG  DEM  DEM  Precinct  106  BSl  Precinto  106  BSl  Page  1  of  2  P6gina  1  de  2  c::J  JEFF  BOYD  REP  REP  c::J  STACI  WILLIAMS  DEM  DEM  c::J  WILLIAM  BRYAN  STRANGE  III  LIB  LIB  | c::J  BERT  RICHARDSON  REP  REP  c::J  ELIZABETH  DAVIS  FRIZELL  DEM  DEM  c::J  KEVIN  PATRICK  YEARY  REP  REP  c::J  BRANDON  BIRMINGHAM  DEM  DEM  Read  Both  Sides  of  the  Ballot  /  Leer  ambos  lados  de  la  boleta  N  \\\\D  M  co  M  | November  3,  2020  General  Election  November  3,  2020  Tom  Green  County,  Texas  Sample  Ballot  Elecci6n  General  3  de  no v iembre  de  2020  3  de  noviembre  de  2020  Condado  de  Tom  Green ,  Te x as  MEMBER,  STATE  BOARD  OF  EDU  CA  110N,  DISTRICT  15  Miembro  de  la  Junta  Estatal  de  Educaci6n  Publica,  Distrito  Num .  15  CJ  JAY  JOHNSON  REP  REP  CJ  JOHN  BETANCOURT  DEM  DEM  STATE  SENATOR,  DISTRICT  28  Senador  Estatal,  Distrito  Num .  28  CJ  CHARLES  PERRY  REP  REP  CJ  DREW  DARBY  REP  REP  CHIEF  JUSTICE,  3RD  COURT  OF  APPEALS  DISTRICT  Juez  Presidente,  Corte  de  Apelaciones r.J 2 ~~t rito  CJ  JEFF  ROSE  REP  REP  CJ  DARLENE  BYRNE  DEM  DEM  DISTRICT  JUDGE,  51ST  JUDICIAL  DISTRICT  CJ  CARMEN  SYMES  DUSEK  REP  REP  DISTRICT  JUDGE,  119TH  JUDICAL  DISTRICT  Juez  de  Distrito,  Distrito  Judicial  Num.119  CJ  BEN  WOODWARD  REP  REP  DISTRICT  JUDGE,  340TH  JUDICAL  DISTRICT  Distrito,  Distrito  Judicial  Num .  340  CJ  JAY  WEATHERBY  REP  REP  DISTRICT  DISTRICT  391ST  JUDICIAL  Juez  de  Distrito ,  D  rito  Judicial  Num.  391  CJ  BRAD  GOODWIN  REP  REP  DISTRICT  ATTORNEY,  s1s r IIi  JUDICIAL  DISTRICT  Procurador  de  Distrito ,  D i strito  Judicial  Num .  51  CJ  ALLISON  PALMER  REP  REP  DIST  JUDI  Procurador  de  D i strito ,  Distrito  Judicial  Num .  119  CJ  JOHN  H .  BEST  REP  REP  Unopposed  Candidates  Decla r ed  Elected.  County  Attorney,  Chris  Taylor  \\(REP\\);  District  Clerk,  Unexpired  Term,  Anthony  Monico  \\(REP\\);  Sheriff,  J.  Nick  Hanna  \\(REP\\);  County  Tax  Assessor-Collector,  Becky  Robles  \\(REP\\);  County  Commissioner,  Precinct  1,  Ralph  E.  Hoelscher  \\(REP\\);  County  Commissioner,  Precinct  3,  Rick  Bacon  \\(REP\\);  Constab l e,  Precinct  1,  Mike  Magee  \\(REP\\);  Constable,  Precinct  2,  Deen  Dickson  \\(REP\\);  Constable,  Precinct  3,  Mark  A.  Whitaker  \\(REP\\);  Constable,  Precinct  4,  Randy  Harris  \\(REP\\)  Candidatos  sin  contendientes  declarados  elegidos :  Procurador  del  Condado ,  Chris  Taylor  \\(REP\\) ;  Secretario  def  Distrito ,  Duraci6n  Restante  def  Cargo ,  Anthony  Monico  \\(REP\\);  Alguacil ,  Nick  J .  Hanna  \\( REP\\);  Asesor-Colector  de  impuestos  def  Condado ,  Beck y  Robles  \\( REP \\);  Com i s i onado  de  Condado ,  Precinto  Num.  1 ,  Ralph  E .  Hoelscher  \\(REP\\) ;  Comisionado  de  Condado ,  Precinto  Num.  3 ,  Rick  Bacon  \\( REP\\) ;  Condestable ,  Precinto  Num.  1,  Mike  Magee  \\(REP \\);  Condestable ,  Precinto  Num.  2 ,  Deen  Dickson  \\(REP \\);  Condestable ,  Precinto  Num.  3,  Mark  A.  Whitaker  \\( REP\\) ;  Condestable ,  Precinto  Num.  4 ,  Randy  Harris  \\( REP\\)  Precinct  106  BSl  Precinto  106  851  Page  2  of  2  Pagina  2  de  2  Read  Both  Sides  of  the  Ballot  /  Leer  ambos  lados  de  la  boleta  N  ID  M  00  M  |  | Name  of  Candidate/Nombre  del  candidato    President/Vice  President    President  R.  Boddie/Eric  C.  Stoneham  Brian  Carroll/Amar  Patel  Todd  Cella/Tim  Cella  Jesse  Cuellar/Jimmy  Monreal  Tom  Hoefling/Andy  Prior  Gloria  La  Riva/Leonard  Peltier  Abram  Loeb/Jennifer  Jairala  Robert  M",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307122805_c4a29b9297.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307112558",
+     "original": "https://www.tomgreencountytx.gov/page/open/1573/0/MAR16%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "VE5BT3BA43SR44MLEOWJS5R4QR6PW3SA",
+     "length": "564689",
+     "replay_error": null,
+     "bytes": 765686,
+     "sha256": "a8714f35975b8a479ed70ae1e22d5a90a38619738a83d3236025a80df0571951",
+     "orig_last_modified": null,
+     "orig_date": "Sun, 01 Dec 2024 19:03:12 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "04/14/2016 16:08    ",
+      "04/14/2016 16:06    "
+     ],
+     "precinct_word_count_first_streams": 8,
+     "text_sample_first_streams": " |  |  | - - 658 - 6703   |           |                     |             2016       |       |          |                                   |         |  |  |  |  |  |  |  |  |   1 4 6 7 11 12 13 14 15 16 17 18 20 51 52 53 54 55 56 57 58 60 | CDs 0001 $        $            $        $      $        $           $    0005                                                                                                                                                           0006                                                                                                                                                           0009                                                                                                                                                                       0010                                                                                                                                                                 0011                                                                                                                                                                           0012                                                                                                                                                             0013                                                                                                                                                                 0015                                                                                                                                                                   0016                                                                                                                                                                    0018                                                                                                                                                                 0019                                                                                                                                                             0021                                                                                                                                                                     0022                                                                                                                                                                    0023                                                                                                                                                                    0026                                                                                                                                                                   0027                                                                                                                                                                                      0030                                                                                                                                                             0031                                                                                                                                                                     0032                                                                                                                                                             0035                                                                                                                                                                           0036                                                                                                                                                                           0037                                                                                                                                                                    0038                                                                                                                                                                                 0041                                                                                                                                                                    0043                                                                                                                                                         2, 932. 81                0045                                                                                                                                                                      0047                                                                                                                                                                                      0048                                                                                                                                                                       0050                                                                                                                                                                                 0051                                                                                                                                                                       0052                                                                                                                                                                       0055                                                                                                                                                                           0056                                                                                                                                                           0057                                                                                  ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307112558_7c3482670f.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113144",
+     "original": "https://www.tomgreencountytx.gov/page/open/1580/0/MAY15%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BIBN34LZ4I6Q2WFNNGRU7F46J2SMGIR7",
+     "length": "408068",
+     "replay_error": null,
+     "bytes": 515011,
+     "sha256": "edf08021d064d6f10ef7eef10b68dcbaafb7aacd64661aaa6c1cf799cba08a76",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 07 Mar 2026 11:50:19 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "06/04/2015 14:29    ",
+      "06/04/2015 14:31    "
+     ],
+     "precinct_word_count_first_streams": 10,
+     "text_sample_first_streams": " |  |  | - - 658 - 6703   |           |                   |               2015       |       |          |                                   |  |         |  |  |  |  |  |  |  |   1 3 5 6 10 12 14 15 16 17 18 19 22 53 54 55 56 57 58 59 60 62 64 | CASH CDs 0001 $           $            $        $        $        $          0005                                                                                                                                      0006                                                                                                                                      0009                                                                                                                                                0010                                                                                                                                          0011                                                                                                                                                    0012                                                                                                                                      0013                                                                                                                                          0015                                                                                                                                            0016                                        -0 -                                                                                                   0018                                                                                                                                          0019                                                                                                                                      0020                                                                                                                                                                0021                                                                                                                                            0022                     -0 -                                                                                                                         0023                                                                                                                                              0026                                                                                                                                            0027                                                                                                                                                  0030                                                                                                                                      0031                     -0 -                                                                                                                                   0032                                                                                                                                      0035                                                                                                                                                    0036                                                                                                                                                          0037                                                                                                                                          0038                                                                                                                                                 0041                                                                                                                                          0043                                                                                                                                             0045                                                                                                                                          0047                                                                                                                                                                0048                                                                                                                                                0050                                                                                                                                                    0051                                                                                                                                                0052                                                                                                                                                0055                                                                                                                                                          0056                                                                                                                                          0057                                                                                                                                                              0058                                                                                                                                                0061                                                                                                                                                    0062                                                                                                         -0 -                                    0063                                                                      ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307113144_f0f48637d9.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113520",
+     "original": "https://www.tomgreencountytx.gov/page/open/1629/0/MAY19%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WG5YJ6SSDUFZKMZMF4N6JY5DZ6U7QYLV",
+     "length": "1473959",
+     "replay_error": null,
+     "bytes": 1797754,
+     "sha256": "4a92bed7b84fa8a5c9b1a5c563162ae2ac2b848d42e208f8e6b767af02252886",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 07 Mar 2026 11:53:55 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "06/10/2019 14:22    ",
+      "06/10/2019 14:25    "
+     ],
+     "precinct_word_count_first_streams": 36,
+     "text_sample_first_streams": " |  |  | 11 3   - - - 6703   |                   9 |                           |   201 9       \\226     \\)  and   |   \\226   s   \\( ,    \\)   |          |                                     | :           |  |  |  |  |  |  |  |  | Prepared by the Tom Green County Auditor's Office |  |  |  |  |  | FOR THE MONTH ENDED MAY 31, 2019 $   Road & Bridge Pcts 2 & 4 | Cafeteria Plan Trust  County Law Library Cafeteria/Zesch & Pickett 2,500.00 Justice Court Technology Fund District Clerk Technology Fund | Library Donations Fund 4,588.46 Courthouse Security/County Crts. Records Mgt/County Clerk -0-   -0- CIP Donations | Bates Fund 9,587.11 Reserve for Special Venue Trials TDCP Grant 0027 County Clerk Preservation Guardianship Fund | 6,554.41 County Clerk Archive Child Abuse Prevention Fund 3,151.63 Third Court of Appeals Fund 0036 915.59 Justice Court Security Fund -0-   -0-   Wastewater Treatment Fund 0038 | 610.00 CA PreTrial Diversion DA PreTrial Diversion County Attorney Fee Juror Donations 0047 Election Contract Service | 51st District Attorney Fee 0050 120.87 Lateral Road 51st DA Special Forfeiture Acct Local Provider Participation 119th District Atty Fee Acct -0-   3,622.54                State Fees-Civil | 119th DA Special Forfeiture Acct 2,848.79 AIC/CHAP Pgm FUND |  | Page 1 of 68 |  | FOR THE MONTH ENDED MAY 31, 2019 FUND TAIP, CSCD -0- -0- -0- -0- -0- -0- Diversion Target Program, CCRC -0- -0- -0- -0- -0- -0- 6,468.44 Comm. Supervision & Corrections -0- -0- -0- -0- -0- -0- CRTC -0- -0- -0- -0- -0- -0- Substance Abuse Caseloads -0- -0- -0- -0- -0- -0- State & Municipal Fees -0- -0- -0- -0- -0- -0- Consolidated Court Costs -0- -0- -0- -0- -0- -0- Graffiti Eradication Fund 0073 633.76 -0- -0- -0- -0- -0- -0- 633.76 Unclaimed Property -0- -0- -0- -0- -0- -0- 4,542.62 Bail Bonds -0- -0- 430,000.00 -0- -0- -0- 2018 COB Interest & Sinking -0- -0- -0- -0- -0- -0- 2017 COB Interest & Sinking -0- -0-                       -0- -0- -0- -0- Judicial Efficiency Fund -0- -0- -0- -0- -0- -0- 2015 COB Interest & Sinking -0- -0- -0- -0- -0- -0- 2015 COB Capital Projects -0- -0- -0- -0- -0- Payroll Fund   -0- -0- -0- -0- -0- -0- 4,627.34 LEOSE Training Fund-Sheriff -0- -0- -0- -0- -0- -0- Child Restraint State Fee Fund -0- -0- -0- -0- -0- -0- 3,535.90 County Attorney LEOSE Fund 0100 871.58 -0- -0- -0- -0- -0- -0- 871.58 2017 COB Capital Projects -0- -0- 991,000.00 4,467,566.59 -0- -0- Constable Pct 1 LEOSE Fund -0- -0- -0- -0- -0- -0- 3,815.11 Constable Pct 2 LEOSE Fund -0- -0- -0- -0- -0- -0- 7,498.46 Constable Pct 3 LEOSE Fund -0- -0- -0- -0-                        -0- -0- 3,035.32 Constable Pct 4 LEOSE Fund -0- -0- -0- -0- -0- -0- 1,672.66 TCOMI -0- -0- -0- -0- -0- -0- -0- -0- -0- -0- -0- -0- Co Judge Excess Contributions -0- -0- -0- -0- -0- -0- Juvenile Restitution 0112 105.60 -0- -0- -0- -0- -0- -0- 105.60 -0- -0- -0- -0- -0- -0- CRTC Female Facility -0- -0- -0- -0- -0- -0- Juvenile Unclaimed Restitution -0- -0- -0- -0- -0- -0- 5,037.11 2018 COB Capital Projects -0- -0- -0- -0- -0- TGC Benefits Account 0125 -0- -0- -0- -0- -0- -0- -0- Cognitive Behavior Intervention 0149 -0- -0- -0- -0- -0- -0- -0-                          CREW Fund -0- -0- -0- -0- -0- -0- DVC Fund -0- -0- -0- -0- -0- -0- 2,385.23 SOCS Fund -0- -0- -0- -0- -0- -0- Pretrial Diversion Program \\(PDP\\) -0- -0- -0- -0- -0- -0- |  | Page  2  of  68 |  | FOR THE MONTH ENDED MAY 31, 2019 FUND Sheriff Forfeiture Fund -0- -0- -0- -0- -0- -0- Community Corrections/Regional -0- -0- -0- -0- -0- -0- IV-E Program/Regional -0- -0- -0- -0- -0- -0- TYC-Regional -0- -0- -0- -0- -0- -0- Special Projects-Regional Interest -0- -0- -0- -0- -0- -0- Title IV E Int Coke -0- -0- -0- -0- -0- -0- 9,117.53 Grant R; Regionalization; Reg -0- -0- -0- -0- -0- -0- 3,310.00 Grant Program \"R\" - Regional -0- -0- -0- -0- -0- -0- \\(2,430.96\\) -0- -0- -0- -0- -0- -0- -0- -0- -0- -0- -0- -0- 9,275.26 -0- -0- -0- -0- -0- -0- -0- -0-                       -0- -0- -0- -0- 3,777.52 -0- -0- -0- -0- -0- -0- 1,273.25 Juvenile Basic Probation Services -0- -0- -0- -0- -0- -0- Juvenile Community Programs -0- -0- -0- -0- -0- -0- Juvenile Pre & Post Adjudication -0- -0- -0- -0- -0- -0- Juvenile Commitment Diversion -0- -0- -0- -0- -0- -0- \\(3,750.00\\) Juvenile Mental Health Services -0- -0- -0- -0- -0- -0- 5,492.88 Texas Youth Commission -0- -0- -0- -0- -0- -0- IV-E Program -0- -0- -0- -0- -0- -0- Special Needs Diversionary Pgm -0- -0- -0- -0- -0- -0- 4,558.47 Grant Program \"S\" -0- -0- -0- -0- -0- -0- Title IV E Int TGC -0- -0- -0- -0-                        -0- -0- Special Projects-Interest Funds -0- -0- -0- -0- -0- -0- 6,195.60 Reimb for Mandated Funding -0- -0- -0- -0- -0- -0- District Atty Grants -0- -0- -0- -0- -0- -0- County Atty Grants -0- -0- -0- -0- -0- -0- \\(6,467.14\\) Treasurer Grants 0636 -0- -0- -0- -0- -0- -0- -0- Sheriff's Office Grants -0- -0- -0- -0- -0- -0- \\(6,452.20\\) Adult Probation Grants 0665 -0- -0- -0- -0- -0- -0- -0- Misc Block Grants -0- -0- -0- -0- -0- -0-      TOTAL ALL FUNDS 10,900,646.23 24,302.39 - 28,199,820.87 4,030,599.86 5,043,411.82 56,387,667.03 $   |  | Page  3  of  68 |  | FOR THE MONTH ENDED MAY 31, 2019 CASH, CR CARDS, SECURITIES, CDs, TX CLASS, TEXPOOL, TEXPOOL PRIME Child Abuse Prevention Fund 0035 3,078.72 72.91 -0- 3,151.63 Third Court of Appeals Fund 0036 2,084.64 915.97 2,085.02 915.59 Justice Court Security Fund 998.26 -0- 54,689.58 Wastewater Treatment Fund 0038 380.00 230.08 0.08 610.00 CA PreTrial Diversion 6,002.45 3,571.00 13,065.10 DA PreTrial Diversion 3,510.41 2,019.25 49,863.36 County Attorney Fee 571.15 571.00 13,608.98 Juror Donations 0047 -0- -0- -0- -0- Election Contract Service 79.00 18,513.44 94,484.50 51st District Attorney Fee 0050 113.35 7.52 -0- 120.87 Lateral Road 7.64 -0- 33,919.84 51st DA Special Forfeiture Acct 773,041.23 2,315.22 789,959.34 Local Provider Participation 566.39 2,345,950.04 3,161,268.51 119th District Atty Fee Acct 0055 3,470.42 152.12 -0- 3,622.54 State Fees-Civil 44,707.36 23.17 97,567.10 119th DA ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307113520_64a318916a.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307113820",
+     "original": "https://www.tomgreencountytx.gov/page/open/1537/0/MAY18%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JWI34RUD34UCXURDUGQXLJJOLY4PNHEO",
+     "length": "1012535",
+     "replay_error": null,
+     "bytes": 1112639,
+     "sha256": "b5cf0c9245f4ab7df357869dd45c8a13dd5fe0eb52a43219965628c55cec1a91",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 07 Mar 2026 11:56:51 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [
+      "06/07/2018 11:37    ",
+      "06/07/2018 11:34    "
+     ],
+     "precinct_word_count_first_streams": 38,
+     "text_sample_first_streams": " |  |  | 11 3   - - - 6703   |                   |                           |   201 8       \\226     \\)  and   |   \\226   s   \\( ,    \\)   |          |                                     |  | :           |  |  |  |  |  |  |  |  |  |  |  |  |  | FOR THE MONTH ENDED MAY 31, 2018 $   Road & Bridge Pcts 2 & 4 | Cafeteria Plan Trust  County Law Library Cafeteria/Zesch & Pickett 2,500.00 Justice Court Technology Fund District Clerk Technology Fund | Library Donations Fund Courthouse Security/County Crts. Records Mgt/County Clerk -0-   -0- CIP Donations | 9,971.92 Bates Fund 7,117.12 Reserve for Special Venue Trials TDCP Grant 0027 County Clerk Preservation Guardianship Fund | 5,401.96 County Clerk Archive Child Abuse Prevention Fund 2,261.77 Third Court of Appeals Fund 0036 704.23 Justice Court Security Fund -0-   -0-   Wastewater Treatment Fund 0038 | 510.00 CA PreTrial Diversion 8,434.55 DA PreTrial Diversion 9,097.61 County Attorney Fee Juror Donations 0047 Election Contract Service | 51st District Attorney Fee \\(767.28\\) Lateral Road 51st DA Special Forfeiture Acct Local Provider Participation 119th District Atty Fee Acct -0-   2,339.84                State Fees-Civil | 119th DA/DPS Forfeiture Acct 0057 99.40 119th DA Special Forfeiture Acct 1,523.99 FUND |  | Page  1  of  65 |  | FOR THE MONTH ENDED MAY 31, 2018 FUND AIC/CHAP Pgm TAIP, CSCD Diversion Target Program, CCRC Comm. Supervision & Corrections CRTC Substance Abuse Caseloads State & Municipal Fees Consolidated Court Costs Graffiti Eradication Fund 0073 631.79 Unclaimed Property 4,187.77 Bail Bonds 481,262.82 2018 COB Interest & Sinking -0-   -0-   6,053.60 2017 COB Interest & Sinking Judicial Efficiency Fund 2009 TAN Interest & Sinking 0087 2009 TAN Capital Projects 0088 2015 COB Interest & Sinking 2015 COB Capital Projects 15,392,395.94      Payroll Fund   6,221.20 LEOSE Training Fund-Sheriff Child Restraint State Fee Fund 3,646.65 County Attorney LEOSE Fund 0100 831.35 2017 COB Capital Projects 4,271,400.84           -0-   Constable Pct 1 LEOSE Fund 3,123.49 Constable Pct 2 LEOSE Fund 6,795.27 Constable Pct 3 LEOSE Fund 3,185.15 Constable Pct 4 LEOSE Fund 0105 987.67 TCOMI Co Judge Excess Contributions 9,240.51 Juvenile Restitution 0112 542.38 CRTC Female Facility Juvenile Unclaimed Restitution -0-   5,021.49                2018 COB Capital Projects TGC Benefits Account 0125 Cognitive Behavior Intervention CREW Fund |  | Page 2 of 65 | FOR THE MONTH ENDED MAY 31, 2018 FUND ISP Fund 0154 DVC Fund 2,009.83 SOCS Fund 4,303.18 Pretrial Diversion Program \\(PDP\\) Sheriff Forfeiture Fund Community Corrections/Regional IV-E Program/Regional TYC-Regional 9,884.00 Special Projects-Regional Interest Grant Program \"R\" - Regional \\(867.52\\) -0-   -0-   9,783.42 7,238.00 3,805.77 Juvenile Basic Probation Services Juvenile Community Programs Juvenile Pre & Post Adjudication Juvenile Commitment Diversion Juvenile Mental Health Services 6,423.90 Texas Youth Commission IV-E Program Special Needs Diversionary Pgm -0-   -0-   2,280.46 Grant Program \"S\" Special Projects-Interest Funds 5,514.69 Reimb for Mandated Funding District Atty Grants County Atty Grants \\(3,232.71\\) Treasurer Grants 0636 Sheriff's Office Grants Misc Block Grants TOTAL ALL FUNDS 11,990,341.16 13,164.28 - 42,918,892.93 2,070,935.34 2,578,708.24 84,839,512.28 $   |  | Page 3 of 65 | FOR THE MONTH ENDED MAY 31, 2018 CASH, CR CARDS, SECURITIES, CDs, TX CLASS, TEXPOOL, TEXPOOL PRIME Road & Bridge Pcts 2 & 4 Cafeteria Plan Trust  County Law Library Cafeteria/Zesch & Pickett 0011 Justice Court Technology Fund District Clerk Technology Fund Library Donations Fund Records Mgt/District Clerk-GC51.3 Courthouse Security/County Crts. Records Mgt/County Clerk CIP Donations 0021 Bates Fund Reserve for Special Venue Trials TDCP Grant 0027 County Clerk Preservation Guardianship Fund 0031 County Clerk Archive 227,403.82   Child Abuse Prevention Fund 0035 2,127.03   Third Court of Appeals Fund 0036 Justice Court Security Fund Wastewater Treatment Fund 0038 CA PreTrial Diversion 0041 DA PreTrial Diversion 0043 County Attorney Fee Juror Donations 0047 Election Contract Service 51st District Attorney Fee 0050 Lateral Road 51st DA Special Forfeiture Acct Local Provider Participation 2,589,542.68 119th District Atty Fee Acct 0055 State Fees-Civil 119th DA/DPS Forfeiture Acct 0057 119th DA Special Forfeiture Acct A IC/CHAP Pgm TAIP, CSCD Diversion Target Program, CCRC Comm. Supervision & Corrections 1,034,404.25 CRTC Substance Abuse Caseloads State & Municipal Fees 0071 Consolidated Court Costs Graffiti Eradication Fund 0073 Unclaimed Property 0077 Bail Bonds 2018 COB Interest & Sinking 0080 2017 COB Interest & Sinking Judicial Efficiency Fund 2009 TAN Interest & Sinking 0087 FUND |  | Page 4 of 65 | FOR THE MONTH ENDED MAY 31, 2018 CASH, CR CARDS, SECURITIES, CDs, TX CLASS, TEXPOOL, TEXPOOL PRIME 2015 COB Interest & Sinking 1,146,480.75 2015 COB Capital Projects 31,486,232.10 Payroll Fund   0095 LEOSE Training Fund-Sheriff Child Restraint State Fee Fund 0098 County Attorney LEOSE Fund 0100 2017 COB Capital Projects 8,453,824.23 Constable Pct 1 LEOSE Fund 0102 Constable Pct 2 LEOSE Fund 0103 Constable Pct 3 LEOSE Fund 0104 Constable Pct 4 LEOSE Fund 0105 TCOMI Juvenile Deferred Processing Fees Co Judge Excess Contributions 0111 Juvenile Restitution 0112 CRTC Female Facility Juvenile Unclaimed Restitution 0117 2018 COB Capital Projects -0-   8,200,000.00               TGC Benefits Account 0125 -0-   Cognitive Behavior Intervention CREW Fund ISP Fund 0154 DVC Fund 0155 SOCS Fund 0156 Pretrial Diversion Program \\(PDP\\) Sheriff Forfeiture Fund State Aid/Regional 0500 Community Corrections/Regional IV-E Program/Regional TYC-Regional 0508 Special Projects-Regional Interest Grant Program \"R\" - Regional Juvenile Basic Probation Services 14,078.72   Juvenile Community Programs 0571 Juvenile Pre & Post Adjudication Juvenile Commitment Diversion Juvenile Mental Health Services 0574 Texas Youth Commission IV-E P",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307113820_1614da8927.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114824",
+     "original": "https://www.tomgreencountytx.gov/page/open/1822/0/MAY23%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "JPNOJ725SA6A4R3KJVVJ3ZTYAQMJLJ33",
+     "length": "1256118",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114843",
+     "original": "https://www.tomgreencountytx.gov/page/open/1745/0/NOV21%20Auditors%20Monthly%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ST5ASCQQSJ7MSODQSZSP257MVCHCBXZL",
+     "length": "1193697",
+     "replay_error": "URLError: _ssl.c:999: The handshake operation timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260307114927",
+     "original": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2023/COSA050623FINALUNOFFICIAL.pdf",
+     "mimetype": "application/pdf",
+     "digest": "RCWPRBYJ6R4EHOIVKRDKWD5JGNNHA5KY",
+     "length": "153800",
+     "replay_error": null,
+     "bytes": 156130,
+     "sha256": "19dfbd9c309a0df318ad66949579b5c34f24a7e665da38d7a7da61ea444f7629",
+     "orig_last_modified": "Sun, 07 May 2023 03:23:59 GMT",
+     "orig_date": "Sat, 07 Mar 2026 12:08:02 GMT",
+     "orig_last_modified_local": "2023-05-06 21:23:59",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260307114927_844ef25c1a.pdf"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=tomgreencountytx.gov&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=tomgreencountytx.gov%2Fpage%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

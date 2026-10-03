@@ -1,0 +1,122 @@
+{
+ "county": "Potter",
+ "spec": {
+  "file_prefixes": [
+   "pottercountytexasvotes.gov"
+  ],
+  "page_prefixes": [
+   "pottercountytexasvotes.gov/archived-election-results"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 00:01:43",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov%2Farchived-election-results&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov%2Farchived-election-results&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    }
+   ],
+   "versions_found": 2,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035727",
+     "original": "https://www.pottercountytexasvotes.gov/_api/v1/access-tokens",
+     "mimetype": "application/json",
+     "digest": "UHBTOJGOZXBOO4E75JKU4XIGEGAKVYPD",
+     "length": "11696"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035728",
+     "original": "https://www.pottercountytexasvotes.gov/_api/tag-manager/api/v1/tags/sites/97b2dac5-6a69-4341-a923-3741832f5716?wixSite=false&htmlsiteId=1423998f-0dac-4d4a-975d-ccafd8ac5a7d&language=en&partytown=false",
+     "mimetype": "application/json",
+     "digest": "FR24KYUV73AK3QK6P6NC3RZCAU4VIQFW",
+     "length": "2415"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035727",
+     "original": "https://www.pottercountytexasvotes.gov/_api/v1/access-tokens",
+     "mimetype": "application/json",
+     "digest": "UHBTOJGOZXBOO4E75JKU4XIGEGAKVYPD",
+     "length": "11696",
+     "replay_error": null,
+     "bytes": 9877,
+     "sha256": "8400f076546685f7a8ab07c6f7dc590dd8a22f704bd204644a1e2924f25ec64d",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 03:57:27 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd}ks\ufffdV\ufffd\ufffd\u007f\ufffd\ufffdQJ\u06ba\ufffdo\ufffd@\b#\ufffd\u0012\u0012B\ufffd\ufffd\ufffd\u0015]ml\ufffd\ufffdN\ufffd\u007f\u007f\u05d6;\ufffd\u0004\ufffd\ufffd\ufffd\ufffd\ufffd8\ufffd\ufffdJ%\ufffd\ufffd1\ufffd\ufffd\ufffdsY\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd? \ufffd\ufffd\u007f\ufffd@\ufffd\ufffd\ufffd[\ufffd+\ufffd\u03efF\ufffd\ufffd\ufffd\ufffd\u0012\ufffd Q~\ufffd\ufffd/\ufffd\ufffde\ufffd\u06d5\ufffdO\ufffd\ufffdT\ufffd\ufffd \ufffdgHq\ufffd \ufffd\u033b1k\ufffd\ufffdq^ \u000e\ufffdh\ufffd\u0006~X$m\ufffd\ufffd\ufffd(\ufffde\ufffdNv\ufffd\ufffdx\ufffdt\ufffd\ufffd\ufffd\ufffdQ=\ufffd\ufffd.a\ufffd*9\ufffd\ufffd\ufffd/\ufffd\ufffd\u06f8\u0014m\ufffd\ufffd\ufffd\ufffd/~\ufffd\"\ufffdyV\ufffdzR.\u0299\ufffdu\u0006g\ufffd3\ufffdW|q\ufffd\ufffd&\ufffdb\ufffdL\u0007\u0012^\ufffd\u066a [\ufffd\ufffd\ufffd&;\ufffd \ufffdt\ufffd}P\ufffdq\ufffd&\ufffdq=\ufffd)\u0018O\ufffd\ufffd\ufffd\u0015\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffd,\ufffd\ufffd\u0011[\u02da\ufffd\ufffd|W>8\ufffdq\ufffd\u0014j2\ufffd\\ _\ufffd\u07cf}\ufffd,\ufffdY\ufffd\ufffdW\u5624Q\"2R$\ufffd\ufffd\ufffd \u0013\ufffd\ufffdgxY\ufffd\u0014\ufffd\ufffd\ufffdI\ufffd\ufffdh\ufffd\u0005\ufffd\ufffd\ufffd/\ufffdL\u0118\ufffd\"C\ufffd\ufffd0B$\ufffd\u0000 )e\ufffdOx|z\ufffd,\ufffd\ufffd\ufffd\ufffdO\ufffd}\ufffd\ufffdd\ufffd\ufffd?\u001a:\ufffd\ufffd\ufffd\ufffdu{\u0012\u0004\ufffd\u0004f \\;\ufffdG\u001a\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd4Oq\ufffd\u00148\ufffd\ufffdy\ufffd\u0010\u001bd\ufffd\u000e\ufffd\ufffdk\ufffdV\u06a0[T \ufffd\ufffd |.7\ufffd\ufffd \ufffdjm\ufffdr7\u0004 \u0313\ufffd\ufffd \u0539\ufffdr \ufffd]~8N\ufffdf\ufffd\ufffd\b@{\ufffd\ufffd&\ufffd\ufffd\"\ufffd \u0005d|\ufffdF\ufffd9tW% \ufffd\ufffd!\ufffd]\u0015\ufffd?\u0105kt\ufffd\ufffd4\ufffd\ufffd C\u05f8\u0005\bU.!\ufffd~&?\ufffdm\ufffd \ufffdI@(\u01ebY.\ufffd\u0011\ufffdp\ufffd\ufffd(\ufffd\ufffd\ufffd\ufffd\ufffdI\ufffd\\PID\u0012\ufffdW/ t\ufffdpVsQU\ufffd/\ufffd8\ufffdj\u0002?2\ufffd\ufffd\ufffdhh\ufffdd4PK\ufffd\ufffdm\ufffd\ufffdv\u0014, \ufffdj\u0015j\ufffd\u0013\ufffdNc \ufffd\ufffdB\u0007 \ufffd\u0014]?\u0005\ufffd\u01e7P\ufffdQ\ufffd\ufffd \ufffd\ufffd_[\u0011\ufffd\u0003\ufffd\u0019&`!\ufffd\u0012\u07ff\ufffdZK38T\ufffd\u7833\ufffd\u03de\ufffd%W\ufffd.\ufffdW\ufffd8\ufffd\u0016\ufffd\ufffd\ufffdo\ufffd\ufffdh\ufffdE\u0018,\u04a6 \u07cb\ufffd{|B\ufffd\u000f\ufffdS\u0005K \u00020\ufffdB#\u007f\u000e\ufffd`o\ufffd\ufffd\ufffd\ufffd\ufffd\"t\ufffd)\u0010\ufffd\ufffd\ufffd \ufffd\u001b\u0018\ufffd\ufffd\ufffdiW\ufffd\ufffd\u0016z\u074f\ufffd\ufffd V\ufffd\u07e9%\ufffdK8\ufffd\ufffd\u0016\u0017\ufffd\ufffd\ufffdc\ufffd5\ufffdk\u0001 \u07bfA\ufffd \u0016\u0010/\ufffd\ufffd~\ufffd\u007f\u0006 \ufffd\u000f\ufffd_|\ufffd\ufffd\ufffd\ufffd\ufffd\u0012V \ufffd\ufffd\ufffd2#dl\u00a8\u06370\u063c\ufffdT\ufffd\u0016\ufffd\ufffd\u0018\ufffd\ufffdiL\ufffd\u0017U\ufffds\ufffd\u001bc6\ufffd\ufffd(q'~\ufffd\ufffd\ufffd\ufffd\ufffdtE\ufffd\ufffd\ufffd\ufffd2\ufffd\ufffdT\ufffd\ufffd\ufffd\ufffd\u063c\ufffd\ufffd!\u01b1(f9:\ufffd\\\ufffd\u0249\ufffdi\ufffd\ufffd\ufffd\ufffdz\ufffd,\\{\u000f\ufffdiL\ufffd'\u0017:Fx\ufffdwm\ufffdP[ \ufffd\u000fU\ufffd\ufffdyB\ufffd%\ufffd38\ufffd\ufffd\ufffd\ufffd\ufffdo Q\u0014V\u0018\ufffdC-lL|\ufffd-\u07fb\ufffd\u0002\ufffd\ufffdqG\ufffd,\u0006\ufffd\u0015\ufffd0\ufffd\u0005E\ufffd\ufffd\u0002\ufffd\u007fS\ufffd \ufffd\ufffd\ufffd\ufffd\u0018\ufffd\ufffdY\ufffdj!\ufffdna\ufffd\ufffd\u0257\ufffd|?\ufffd?\u0003\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd~\ufffd\u0010E\ufffd\u030bL\u0014\ufffd(\ufffd\ufffd4\u0184VN\u00186\ufffd\u0005Ia\ufffd\u0005\ufffd\ufffd@\ufffdW\u0002\ufffdm\ufffd\ufffd\ufffd\ufffd\ufffdl\ufffdyahd\ufffd\ufffd\ufffd\ufffdm\ufffd\ufffdO\ufffd\ud0d4=\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0001\ufffd!l5\bz\ufffd\ufffd\ufffd\u7fa0u\u01f4@n\u0016\ufffd\ufffdMW\ufffdX\u076a4\ufffd\ufffd\ufffd\"\ufffdx\ufffd@6\u0264\u0000\ufffd\ufffd`\u42a0\ufffdO8t\ufffd\ufffd\ufffd\u0006\ufffd\u000f\ufffd\ufffd1h\ufffd\ufffd\ufffd6GK\ufffd\u0001n?c\ufffd\ufffd\ufffd\ufffd+^\ufffdo \u0003b\u0015\ufffd\ufffdth4\u0139;\ufffd\ufffd\u000f\ufffd, m@\ufffd\ufffd\ufffd\ufffd$\ufffdP\u0018j6oV\ufffd \ufffd\u00188\ufffd\u0012B\ufffdg\ufffd3A\ufffd\u0017:\ufffd\ufffd\ufffdA\ufffdD \ufffd\ufffdE\ufffd1\ufffd \ufffd\u001a\ufffd \ufffd\ufffd \ufffdS\ufffdj\u0015\ufffdj\ufffd\ufffdP\ufffd& \ufffd\ufffda\ufffdm\u00156S\u0006f\ufffd\ufffd$\ufffd\ufffd\u0018R\ufffd'\ufffd\ufffdM\u000e\b\u0001\u0627\ufffd\ufffd\ufffd?QV\u0454\ufffd%\ufffd\ufffdC\u0015J\u0016ZS\ufffdF \ufffd\u0003T\ufffd\ufffd 4M\ufffd\ufffd\ufffd@7A\ufffd\b\u0001^z\u0638Y\ufffd*^#\b\u0011\ufffd\u0011\u0015'\ufffdet B\ufffd\ufffdt\u0016:8\u0007\ufffdBq q\u001bI0\ufffd0\u0004\ufffd\ufffdJ\u007fs\ufffd*\ufffd/\u001b\ufffd\ufffd\ufffd\ufffdL\u0010j\ufffd\ufffd\ufffdE\ufffd$ T\ufffd96\u0007\ufffd\ufffd\ufffdy\ufffd\u0002B3\ufffdQSAb\u0014\ufffdK J\ufffd$\ufffdP\ufffd\ufffd\ufffd\ufffdfo\ufffd\ufffd(\ufffd\ufffd\u02c4\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd-u\ufffdz3J\ufffd\ufffd|\ufffd O\ufffd3\ufffdy\ufffd)\ufffd\u0001H\u0001h\u0631\ufffdN\u0000\ufffd\ufffd\ufffd\u0002\ufffd \ufffd7\u0016\ufffd5\ufffd \ufffd`U\u0003\ufffd \ufffd\u0002r\b!hW\ufffd\u0015\be\ufffdw\u01f0\u017ai\ufffd\ufffd\ufffd\ufffdg\ufffdXF/|4\ufffdX1\ufffd\u06a46\ufffd \u0007e\ufffd\ufffd\ufffd*\ufffd\ufffd\ufffdj b\ufffd\u0006U\u000f+BA\u0000r\ufffd\u0010d\u0000PV\ufffd\ufffd\ufffd\ufffd \ufffd\u0001\ufffd\u07edE\ufffd \b\u07c7\u001a\u007fw\b\ufffd\ufffd\u07ff\ufffd\ufffdO\u0005\ufffd_\ufffdL\ufffd\ufffd,\ufffd\u0608g\ufffd$V\u00199\ufffdsH-U\ufffdII\ufffd\ufffd\u0000\ufffd# \ufffd\u029f\ufffdS\u000f\ufffdL+\ufffdS)8J\ufffd\ufffdiY\ufffd\ufffd\ufffd\u0006\ufffd\ufffd\ufffdr>w\ufffdx> N\ufffdW\ufffd)w\ufffd\ufffd*\ufffd\u050a\ufffd\u049c\u0002U\u0012\ufffd?\ufffd\ufffdQ\ufffdjW\ufffdT\ufffd\u0003\ufffd*8=6e\ufffd\ufffdL\ufffdi-\ufffd \ufffd\ufffdu Z\ufffd\ufffd\u0002D\ufffdo\ufffd\ufffda\ufffd:\ufffd\ufffdy\u0014u\u035bn\u001b[\ufffd\ufffd\ufffd\ufffd \ufffdG\ufffd \ufffd\u039a9\ufffdN?\ufffdC\ufffd\u0002\b\u0004H\ufffd\ufffd\u0003*\ufffd:a\ufffd\ufffdi(%\u0019\u00165jP\ufffdW\ufffd,\ufffd8\u0006\u0000\ufffd\u0000\u02d0k J\ufffd\ufffd\u0005\ufffd\ufffd\ufffdD\ufffdT\ufffd:w\ufffd3\b\ufffd\ufffdP\ufffd`\ufffd \ufffd$ K\ufffd\ufffdPN\ufffd u\u02ed \ufffd\u0002\"Z\ufffdW\ufffd5\ufffd*\u02240\u0006\ufffd*\u0015\ufffdi\ufffd\ufffd\ufffd\ufffdB\ufffdN(\ufffd\ufffd\ufffd\ufffdP\ufffdV m\ufffd\ufffd\u0001\u0017\u0001m\ufffd \ufffd\ufffda\u06ebO\u026a\ufffd\ufffd/@hg\ufffd`\ufffd\ufffdj-\ufffd[\u0010\ufffdK,\ufffd^\ufffdC\ufffd\ufffd3\ufffd\ufffd\ufffduN%@4\ufffd\ufffd\u0010\ufffd^ \ufffd'*\ufffd\ufffdl\ufffd2j.\ufffd\ufffd,\ufffd\ufffd\ufffd\ufffd\ufffd\b rC\ufffdg\ufffd3\ufffd\ufffd_\ufffdL\u0002B#\ufffd\u0010(Mc\ufffd\ufffd\ufffd\ufffdQ\ufffd\ufffdc+\u000f+\u0014A\u0010\ufffd\u0018N(l\ufffd]\ufffd\ufffd\ufffd\ufffdF\u0585\u0216\ufffd\ufffd\u0212\ufffdT=N\ufffdN\ufffd~tV\ufffdXz\ufffd^\ufffd\"\ufffdN\u043e\ufffd \ufffd\ufffd$\u043d9\ufffd\ufffd\u0000\ufffdX\u007f\ufffdyh;f{b\u00134\ufffd\u0016f\ufffd\ufffd`B\ufffd\ufffd\ufffd\u0001\ufffd6\u000f\ufffdj\u001b\ufffd\ufffd\ufffd\u0013J #)8\ufffdQ\ufffd% \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd1\ufffd\ufffd\ufffd\ufffd^3\u05065\ufffd-7 \ufffd\ufffd9h\ufffd\ufffd=\ufffd\u0011\ufffd\u000e\ufffd\ufffd\u0002\ufffd\ufffd\ufffdRC.jH\u0142D6)B\ufffdRQ\u06d7\ufffd1\u000f\ufffd>\u0010\ufffd\ufffdg\ufffdSU\ufffd`\ufffd|\ufffd3I[y\u0213\u0004Q\u0399\ufffd% #\ufffd\ufffd\u0228P\ufffd3\ufffd\u0002\u0010\ufffdsY\ufffd\ufffd\u000f\ufffd\ufffd\ufffd \u0007Z9\ufffd=6\ufffd\ufffd\ufffdg]\u0013\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd!\ufffdts\ufffd\ufffd\ufffdAW/\ufffd\ufffd\ufffd\u0007\ufffd&\u0017-fk {A'6\ufffd 'a\ufffd\ufffd\u0001\u0006\ufffd(B{\ufffd\ufffd+'\ufffd\u05bcK\ufffd\ufffd \ufffd\ufffdzu\ufffd\ufffd\ufffd=}\ufffd\ufffdk\u00032\u0001\u001bx\ufffdS\ufffdM4\ufffdw\u0016\ufffdv\ufffd\ufffdihx\u06ed =@V\u027c\ufffd\u000eF\ufffd\ufffd\ufffd\ufffdc$)/\ufffd\ufffd,0a\ufffd;gm\ufffd\ufffdt\ufffd\ufffd\u0003n\ufffd\u0010\ufffd;\ufffd\ufffd\ufffd\u001a\ufffd \ufffdd\u0017R{\u02bap\ufffd.\ufffd\ufffd\ufffd\ufffd{\ufffd\u0000\ufffd \ufffd63\ufffd\u0010\ufffd\ufffd]\ufffdO\u000e\u0001Y%F\ufffd\ufffd\u05e3?g\ufffd\ufffd\ufffd\ufffd\ufffd\u007f`\ufffd\ufffd\ufffd\u001aT\ufffdtu\ufffdP\u001bTY624\ufffd\u0015*\ufffdOK\ufffd\ufffd\u0426\ufffd*\u0013\ufffd\ufffd\u078c?1\ufffdS\ufffd\ufffd\u007fL\ufffd\b{\ufffd\ufffd\ufffd\ufffd\ufffd \u0001+ [\ufffd\ufffd \u001a:f\ufffd\ufffd\ufffdt\u001a\ufffd\ufffd\ufffd8T \ufffd\ufffd\ufffd \ufffd*\ufffd6\ufffd\ufffdS \ufffd \u0007a9!\u0011\ufffdx\ufffd\ufffd\ufffd\ufffd\ufffd7Y$\ufffd\ufffd\ufffdib_\ufffdb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdG\ufffd\ufffd\ufffdg\ufffd\ufffd \ufffdEsD0\ufffd\u01e2BD^ ^W\u0005S|\ufffde) \ufffd\ufffd\u000e +\ufffd\ufffdI \ufffd0\ufffdE\ufffd\ud38fx\ufffd 6\ufffdx\ufffd\u0015~\ufffd\u007f\ufffdo\ufffd\ufffd;\ufffd?H\ufffdy\ufffd\ufffdj\u0000\ufffd@\ufffd\u0019\ufffd\ufffd\ufffd:\u0499\ufffd\ufffd{\u0004\ufffd\ufffd\u0005rB\ufffd\ufffdK\ufffd\ufffd\u0019v\u0007\u02be[#\ufffd\ufffd\ufffd3\ufffd\ufffd?N\ufffd\ufffd\ufffdq\ufffdk;\ufffd\ufffd\ufffd]\ufffd\u07ef \ufffd\ufffd3\ufffd\ufffd#n\ufffdgs\u0002{\ufffd\ufffd\u0019+\ufffdg\ufffdY\u0000\ufffdw\u0016\ufffd\ufffd\ufffdy t=T(\\\u0017\ufffd\u07f2\ufffd`\ufffd*b>\ufffd\ufffd\ufffd\ufffd\ufffdo\u00b7\ufffd\ufffd\u051e\ufffdY:}V\ufffdm4\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffds 3\ufffdy6\u000e\ufffd\ufffd\ufffd2\ufffdeyJ\ufffdEM\ufffd=r\"\u07b3\ufffdJ\ufffdK\u0017N\"~;\ufffd\ufffd\ufffdx\ufffdZ? \u0006\ufffdx\ufffdh\u03c9l\ufffd\ufffd\ufffd\ufffd!\u01e7\ufffd\u0105\ufffd;\ufffd\ufffd\ufffdW!\ufffd\ufffd\ufffd\u0003\u0017\ufffd\ufffdW\ufffd\ufffd \ufffd t_P\ufffd-\ufffd\ufffd\ufffd\ufffd\ufffdy\u007f\ufffd\ufffd:\ufffd\ufffd\ufffd\u0011\ufffd\ufffdy\ufffd\ufffd}\ufffd\ufffd\ufffd\ufffd',\ufffd\ufffd1\ufffd\ufffd{j!\ufffdk\ufffdnA\u0016\ufffd)Yn\ufffd \ufffd\ufffd3gt\ufffd\ufffd\ufffd(\ufffd\u0002\ufffdzx\ufffd\u0006I$ \ufffd\ufffdx\ufffdY \ufffd\ufffd\ufffdU\u0001\b\ufffd\ufffd\ufffd\u0011dC`\ufffdE\ufffdv\ufffd\ufffd-XL\ufffd: \ufffd\u0011M\u0007b f4\ufffd\ufffd\u0015\ufffd\ufffd\ufffd7ZEH\ufffd!\u0683\ufffd\ufffd\u0000 50\ufffd]\ufffdCs\ufffd\ufffd\u0005\ufffdc\ufffdW\ufffd\ufffd\ufffd\ufffd\u0001\ufffdiG \ufffd_\u0012\u0293\u0118\u0016\ufffd-\ufffdwP\ufffd k\u03360\ufffd9\ufffd\ufffd7\ufffd\u001bF\u0015\u0006\u0012 \ufffd44\ufffd7\u042c\ufffd)\ufffdA\ufffdr?\ufffd\ufffd\ufffd]\ufffd:\ufffd\ufffd\ufffd(\ufffd\u042a\ufffdpX\u0015\ufffdaW\u0011Y\ufffd\ufffdy\ufffdC\u0010\ufffd\u02a9\ufffdH\u0012,\u0014.\ufffd\ufffd%\ufffd\ufffdL\ufffd\ufffd\ufffd9Y`\ufffd\ufffd\ufffd\\\ufffd \ufffd\ufffdM\ufffd\ufffd+\ufffd\ufffd\\\ufffd\ufffd\u07be\ufffd\ufffdmV%?(U\ufffd \u0000\u0014\ufffd\u0015\ufffd\ufffd}\ufffdE\ufffd\ufffd\u0015\ufffd&k\ufffdpF\ufffd\ufffdn\ufffd&\"#-bC5a\ufffdP \ufffd\ufffd\ufffd\u0000\ufffd\u0017\ufffdgL\ufffd\ufffd6h!(\ufffd\u0007et\ufffd\u051c\u00021\ufffd`\u001a\u0002Xnxi0\u0003K\u0012i\u0011\ufffdr\ufffd\ufffd\ufffdH\ufffd\ufffd\u0013/\ufffdfj(\ufffd\ufffd \ufffdQ\ufffd\u000f\ufffd\ufffd\ufffd\ufffd*\u014e\ufffd\u0016\ufffd+ \u00104\ufffd \ufffdO\ufffd\\\ufffdBG\u0012\bJH\ufffd\ufffd7\u0002\ufffd\ufffd\ufffd`\ufffd$\ufffdB\ufffd$ # \ufffd\ufffd*\b\ufffd!\ufffd%\ufffd\ufffdO\ufffd\u007fV^\u01f6G\ufffd\ufffd>T\\ v\"@\u0017\u0223L\ufffd\ufffd\b\ufffd\ufffdH0\u0014\ufffd\ufffd\ufffd\ufffd}b\ufffd\ufffd[J\ufffd&\ufffd@\ufffd\u000e\u0010\ufffd\u04c1Y_\ufffd?\ufffd)\u0641\ufffd!]\ufffd",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321035727_5591d1232d.bin"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321035728",
+     "original": "https://www.pottercountytexasvotes.gov/_api/tag-manager/api/v1/tags/sites/97b2dac5-6a69-4341-a923-3741832f5716?wixSite=false&htmlsiteId=1423998f-0dac-4d4a-975d-ccafd8ac5a7d&language=en&partytown=false",
+     "mimetype": "application/json",
+     "digest": "FR24KYUV73AK3QK6P6NC3RZCAU4VIQFW",
+     "length": "2415",
+     "replay_error": null,
+     "bytes": 764,
+     "sha256": "927fdb45042aa04aa5c06bff3ce0ec520ffce9f232377b5e9db8400d9aec1057",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 03:57:28 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffdTao\ufffd6\u0010\ufffd+\ufffd}\ufffd\u0000\u0271-\ufffd\ufffd\ufffd,@c;i\ufffd8 \ufffdx\ufffd0w\ufffd\ufffd P\ufffd\u06edk\ufffd\ufffd\u001bA\ufffdw\ufffd\ufffd; \ufffd\ufffdai!\ufffd\ufffd\u0019\ufffd\ufffd 8\ufffdb\ufffdX\u0012b\u0014\ufffda \ufffd k\ufffd\ufffd\u007f\ufffd\u0015\ufffd\ufffd u\ufffd\ufffd\ufffd\u04eer_*\ufffd$V\ufffdOz\ufffd\ufffd\ufffdF\ufffd?\ufffd6[\ufffdSy\ufffdX\ufffdR4,\ufffd\u000f\u0005c\u0018\ufffd \ufffdGQ\ufffd\ufffd8 ',OW\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdK\ufffd \u00d9\u0012\ufffd\u0011\ufffd\ufffd+d \ufffd3\ufffd@\ufffd\ufffd\ufffd\ufffd.\ufffdF[\ufffdV\ufffd\ufffd\u0003\ufffdO\ufffd\ufffd(>(N\ufffd9\ufffd\ufffd\u00008:*\ufffd\ufffdE\ufffdZR\ufffd\u0013\u0004 t\ufffd\ufffd\ufffd\u001a\ufffd \u0019\ufffd\ufffd\ufffdm7\u0691\ufffd1A\u0000 \ufffd\ufffdg\ufffd)\ufffd\u0013\ufffdT\ufffd\ufffd \ufffdy\u000eF\ufffd%,\u0019\ufffd\ufffd\u0018 cb\u0018\ufffdhP\ufffd,E*\ufffd1\ufffd\ufffd\ufffd\u0000\u0002\u0610\ufffd\ufffd\ufffd\ufffdG\ufffdA\u007f\ufffdZ\ufffd\u001b\ufffdH\ufffdK_'\ufffd \ufffd\u03d3\ufffd\ufffd \ufffd\"3%^IE\ufffdWf\ufffdE|\ufffduY *\u0375\ufffd\ufffd\ufffd\u0007\ufffdA\ufffd\ufffd\ufffd:{\ufffd \ufffd\u0006\ufffd\u0016\ufffd/\ufffd\ufffdgW\ufffd\ufffd\u000eS_\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd\ufffdX\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.\ufffdl\ufffd\ufffd\ufffd\ufffd)\ue1c4\ufffd\ufffd\ufffd\\\ufffd\ufffdK\ufffd\ufffd\u0016o\u022d\ufffd\ufffd\ufffdjv\ufffd\u0006&k\ufffdt\u0769:\ufffdw\u0001\ufffd\ufffd13Uh\ufffdI\\\ufffdmjm\ufffdv\u007f\u0001\u0000\u0000\ufffd\ufffd\u0003\u00009\ufffd{\ufffd\ufffd\u0005\u0000\u0000",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321035728_330dad9b3f.bin"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=pottercountytexasvotes.gov%2Farchived-election-results&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

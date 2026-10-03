@@ -1,0 +1,278 @@
+{
+ "county": "Wichita",
+ "spec": {
+  "file_prefixes": [
+   "wichitacountytx.com"
+  ],
+  "page_prefixes": [
+   "wichitacountytx.com/election_info/election-results-archive/"
+  ]
+ },
+ "swept_at_utc": "2026-10-02 23:43:44",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wichitacountytx.com&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wichitacountytx.com%2Felection_info%2Felection-results-archive%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 3,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241120213038",
+     "original": "https://wichitacountytx.com/wp-sitemap-posts-election_stats-1.xml",
+     "mimetype": "application/xml",
+     "digest": "HEC7LRPMJ52LMTHX6Z3T25YQ2EVNF7NT",
+     "length": "1345"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241121063158",
+     "original": "https://wichitacountytx.com/wp-content/uploads/2024/10/Wichita-County-Website-Notice-of-Security-Incident11688726.2.pdf",
+     "mimetype": "application/pdf",
+     "digest": "S4CEW3TOGFR7V46VEYWSYMF4OTWCULSV",
+     "length": "127954"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241122012211",
+     "original": "https://wichitacountytx.com/wp-sitemap-posts-election_info-1.xml",
+     "mimetype": "application/xml",
+     "digest": "MYSOTYYD2X3EZIBKPWBNI3HVIJ7ZXV5C",
+     "length": "977"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241121063158",
+     "original": "https://wichitacountytx.com/wp-content/uploads/2024/10/Wichita-County-Website-Notice-of-Security-Incident11688726.2.pdf",
+     "mimetype": "application/pdf",
+     "digest": "S4CEW3TOGFR7V46VEYWSYMF4OTWCULSV",
+     "length": "127954",
+     "replay_error": null,
+     "bytes": 129090,
+     "sha256": "a4e1e203b51822739d1b46dce87fa36e141bbc899172998cb22e3485f571d322",
+     "orig_last_modified": "Mon, 28 Oct 2024 20:21:21 GMT",
+     "orig_date": "Thu, 21 Nov 2024 06:31:58 GMT",
+     "orig_last_modified_local": "2024-10-28 14:21:21",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "  11688726v1                                              :              - -                     1 - - -                               |     11688726v1                          |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241121063158_946a9a0815.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241120213038",
+     "original": "https://wichitacountytx.com/wp-sitemap-posts-election_stats-1.xml",
+     "mimetype": "application/xml",
+     "digest": "HEC7LRPMJ52LMTHX6Z3T25YQ2EVNF7NT",
+     "length": "1345",
+     "replay_error": null,
+     "bytes": 5480,
+     "sha256": "0cfcefd54e9b77df6a3bc18ec7bb79b4eca487b7cc0032c129b5b3eb44733e7f",
+     "orig_last_modified": null,
+     "orig_date": "Wed, 20 Nov 2024 21:30:39 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " https://wichitacountytx.com/election_stats/president-vice-president/ 2024-11-05T22:31:53-06:00 https://wichitacountytx.com/election_stats/u-s-senator/ 2024-11-05T22:32:30-06:00 https://wichitacountytx.com/election_stats/u-s-representative-district-13/ 2024-11-05T22:07:29-06:00 https://wichitacountytx.com/election_stats/railroad-commissioner/ 2024-11-05T22:33:13-06:00 https://wichitacountytx.com/election_stats/justice-supreme-court-place-2/ 2024-11-05T22:08:36-06:00 https://wichitacountytx.com/election_stats/justice-supreme-court-place-4/ 2024-11-05T22:09:03-06:00 https://wichitacountytx.com/election_stats/justice-supreme-court-place-6/ 2024-11-05T22:09:36-06:00 https://wichitacountytx.com/election_stats/presiding-judge-court-of-criminal-appeals/ 2024-11-05T22:10:03-06:00 https://wichitacountytx.com/election_stats/judge-court-of-criminal-appeals-place-7/ 2024-11-05T22:10:29-06:00 https://wichitacountytx.com/election_stats/judge-court-of-criminal-appeals-place-8/ 2024-11-05T22:10:48-06:00 https://wichitacountytx.com/election_stats/member-state-board-of-education-district-15/ 2024-11-05T22:11:29-06:00 https://wichitacountytx.com/election_stats/justice-2nd-court-of-appeals-district-place-6/ 2024-11-05T22:12:26-06:00 https://wichitacountytx.com/election_stats/district-judge-78th-judicial-district/ 2024-11-05T22:12:54-06:00 https://wichitacountytx.com/election_stats/state-senator-district-30/ 2024-11-05T22:35:00-06:00 https://wichitacountytx.com/election_stats/district-judge-78th-judicial-district-2/ 2024-11-05T22:13:41-06:00 https://wichitacountytx.com/election_stats/state-representative-district-69/ 2024-11-05T22:35:41-06:00 https://wichitacountytx.com/election_stats/sheriff/ 2024-11-05T22:38:05-06:00 https://wichitacountytx.com/election_stats/chief-justice-2nd-court-of-appeals-district/ 2024-11-05T22:36:04-06:00 https://wichitacountytx.com/election_stats/county-tax-assessor-collector/ 2024-11-05T22:38:20-06:00 https://wichitacountytx.com/election_stats/justice-2nd-court-of-appeals-district-place-4/ 2024-11-05T22:36:20-06:00 https://wichitacountytx.com/election_stats/justice-2nd-court-of-appeals-district-place-5/ 2024-11-05T22:36:50-06:00 https://wichitacountytx.com/election_stats/county-commissioner-precinct-1/ 2024-11-05T22:38:55-06:00 https://wichitacountytx.com/election_stats/county-commissioner-precinct-3/ 2024-11-05T22:39:14-06:00 https://wichitacountytx.com/election_stats/justice-of-the-peace-precinct-1-place-1/ 2024-11-05T22:39:30-06:00 https://wichitacountytx.com/election_stats/county-constable-precinct-1/ 2024-11-05T22:39:49-06:00 https://wichitacountytx.com/election_stats/county-constable-precinct-2/ 2024-11-05T22:40:07-06:00 https://wichitacountytx.com/election_stats/county-constable-precinct-3/ 2024-11-05T22:04:45-06:00 https://wichitacountytx.com/election_stats/county-constable-precinct-4/ 2024-11-05T22:05:59-06:00 https://wichitacountytx.com/election_stats/city-of-wichita-falls-councilor-at-large/ 2024-11-05T22:07:11-06:00 https://wic",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241120213038_2a77372d7d.bin"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241122012211",
+     "original": "https://wichitacountytx.com/wp-sitemap-posts-election_info-1.xml",
+     "mimetype": "application/xml",
+     "digest": "MYSOTYYD2X3EZIBKPWBNI3HVIJ7ZXV5C",
+     "length": "977",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wichitacountytx.com&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 5
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wichitacountytx.com%2Felection_info%2Felection-results-archive%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 5,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321154151",
+     "original": "https://wichitacountytx.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwichitacountytx.com%2Felection_info%2Fpollworkers%2F",
+     "mimetype": "application/json",
+     "digest": "E3YNHISHJLTSJUQLNIHC2QAMK6J2TNF6",
+     "length": "1667"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321202741",
+     "original": "https://wichitacountytx.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwichitacountytx.com%2Felection_info%2Fpollworkers%2F&format=xml",
+     "mimetype": "text/xml",
+     "digest": "2Q3V6ZTICOFDRZCK7QPY2O7TU6O6ZC5V",
+     "length": "1669"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321213932",
+     "original": "https://wichitacountytx.com/wp-json/wp/v2/election_info/10328",
+     "mimetype": "application/json",
+     "digest": "CP5L3E74EESM43ZDHFG5BWCSWGQ2FRAU",
+     "length": "2681"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323081712",
+     "original": "https://wichitacountytx.com/wp-sitemap-posts-election_stats-1.xml",
+     "mimetype": "application/xml",
+     "digest": "2445KTPXPB3OBDOLZEPB6KLDKRRSDYRD",
+     "length": "1752"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323160314",
+     "original": "https://wichitacountytx.com/wp-sitemap-posts-election_info-1.xml",
+     "mimetype": "application/xml",
+     "digest": "I76NO47BTYOCSMFTOL5F6T6JXOYJI24R",
+     "length": "1107"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321154151",
+     "original": "https://wichitacountytx.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwichitacountytx.com%2Felection_info%2Fpollworkers%2F",
+     "mimetype": "application/json",
+     "digest": "E3YNHISHJLTSJUQLNIHC2QAMK6J2TNF6",
+     "length": "1667",
+     "replay_error": null,
+     "bytes": 2282,
+     "sha256": "329221c296679469a2cd4198f1f0eaf07b92a982a0b64323a73c67d5e17c4655",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 15:41:53 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": "{\"version\":\"1.0\",\"provider_name\":\"Wichita County\",\"provider_url\":\"https:\\/\\/wichitacountytx.com\",\"author_name\":\"Matthew Cameron\",\"author_url\":\"https:\\/\\/wichitacountytx.com\\/author\\/matthew-cameron\\/\",\"title\":\"Poll workers\",\"type\":\"rich\",\"width\":600,\"height\":338,\"html\":\" Poll workers \\n\\/* *\\/\\n \\n\"}",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321154151_0a7ef7f119.bin"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321202741",
+     "original": "https://wichitacountytx.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwichitacountytx.com%2Felection_info%2Fpollworkers%2F&format=xml",
+     "mimetype": "text/xml",
+     "digest": "2Q3V6ZTICOFDRZCK7QPY2O7TU6O6ZC5V",
+     "length": "1669",
+     "replay_error": "HTTP 404",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260321213932",
+     "original": "https://wichitacountytx.com/wp-json/wp/v2/election_info/10328",
+     "mimetype": "application/json",
+     "digest": "CP5L3E74EESM43ZDHFG5BWCSWGQ2FRAU",
+     "length": "2681",
+     "replay_error": null,
+     "bytes": 5130,
+     "sha256": "4159db74a614655f4a33a1ddcf90c24e335571bcf72ed9908229ec5df3f00d90",
+     "orig_last_modified": null,
+     "orig_date": "Sat, 21 Mar 2026 21:39:33 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": "{\"id\":10328,\"date\":\"2025-01-15T12:55:41\",\"date_gmt\":\"2025-01-15T18:55:41\",\"guid\":{\"rendered\":\"https:\\/\\/wichitacountytx.com\\/?post_type=election_info&#038;p=10328\"},\"modified\":\"2025-12-10T11:07:01\",\"modified_gmt\":\"2025-12-10T17:07:01\",\"slug\":\"pollworkers\",\"status\":\"publish\",\"type\":\"election_info\",\"link\":\"https:\\/\\/wichitacountytx.com\\/election_info\\/pollworkers\\/\",\"title\":{\"rendered\":\"Poll workers\"},\"content\":{\"rendered\":\"\\n How to become an Election Worker \\n\\n\\n\\n Poll workers make voting possible. Poll worker duties included checking in voters and assisting voters with voting equipment as needed and are PAID positions. Workers must be registered voters in Wichita County and able to attend any required trainings prior to their start date. Trainings are held one (if not twice) per year prior to the March and November Elections. Additional training could be scheduled if deemed necessary. Please complete the application below. You may mail it to our office or email the form to us at&nbsp;elections@co.wichita.tx.us. \\n\\n\\n\\n You can also visit the\\u00a0 Texas Election Training Portal \\u00a0for more information. The State of Texas offers a variety of free online course. NOTE: Wichita County does require all Election Workers to attend in person training as well. \\n\\n\\n\\n Poll Worker Application \\n\\n\\n\\n \\n\\n\\n\\n Student Poll Worker Program \\n\\n\\n\\n This program is designed to provide students with a greater awareness of the electoral process and the rights and responsibilities of voters. The students will assist their local election officials by filling positions at polling places during the Early Voting period or on Election Day and working under the direction of the polling place presiding judge. Student election clerks must be 16 years or older on Election Day, be enrolled in a public, private or qualified home school program and be a US Citizen. Student election clerks must also have the consent of their legal guardian and school principal in order to work an election. and attend any required trainings. Students are paid hourly for their service. \\n\\n\\n\\n Student Clerk Application and Permission Form \\n\",\"protected\":false},\"featured_media\":0,\"template\":\"\",\"class_list\":[\"post-10328\",\"election_info\",\"type-election_info\",\"status-publish\",\"hentry\"],\"publishpress_future_workflow_manual_trigger\":{\"enabledWorkflows\":[]},\"_links\":{\"self\":[{\"href\":\"https:\\/\\/wichitacountytx.com\\/wp-json\\/wp\\/v2\\/election_info\\/10328\",\"targetHints\":{\"allow\":[\"GET\"]}}],\"collection\":[{\"href\":\"https:\\/\\/wichitacountytx.com\\/wp-json\\/wp\\/v2\\/election_info\"}],\"about\":[{\"href\":\"https:\\/\\/wichitacountytx.com\\/wp-json\\/wp\\/v2\\/types\\/election_info\"}],\"wp:attachment\":[{\"href\":\"https:\\/\\/wichitacountytx.com\\/wp-json\\/wp\\/v2\\/media?parent=10328\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}}",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260321213932_00641c7d90.bin"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323081712",
+     "original": "https://wichitacountytx.com/wp-sitemap-posts-election_stats-1.xml",
+     "mimetype": "application/xml",
+     "digest": "2445KTPXPB3OBDOLZEPB6KLDKRRSDYRD",
+     "length": "1752",
+     "replay_error": null,
+     "bytes": 13153,
+     "sha256": "9520a8bac941e75975d5731f4074ee9696134a767b0bf3061a5207bb96b0e119",
+     "orig_last_modified": null,
+     "orig_date": "Mon, 23 Mar 2026 08:17:13 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " https://wichitacountytx.com/election_stats/united-states-senator-republican-party/ 2026-03-03T21:53:42-06:00 https://wichitacountytx.com/election_stats/united-states-senator-democratic-party/ 2026-03-03T21:54:30-06:00 https://wichitacountytx.com/election_stats/united-states-representative-district-13-republican-party/ 2026-03-03T22:22:20-06:00 https://wichitacountytx.com/election_stats/united-states-representative-district-13-democratic-party/ 2026-03-03T22:22:43-06:00 https://wichitacountytx.com/election_stats/governor-republican-party/ 2026-03-03T22:26:51-06:00 https://wichitacountytx.com/election_stats/governor-democratic-party/ 2026-03-03T22:23:55-06:00 https://wichitacountytx.com/election_stats/lieutenant-governor-republican-party/ 2026-03-03T22:27:59-06:00 https://wichitacountytx.com/election_stats/lieutenant-governor-democratic-party/ 2026-03-03T22:29:23-06:00 https://wichitacountytx.com/election_stats/attorney-general-republican-party/ 2026-03-03T22:30:16-06:00 https://wichitacountytx.com/election_stats/attorney-general-democratic-party/ 2026-03-03T22:31:00-06:00 https://wichitacountytx.com/election_stats/comptroller-of-public-accounts-republican-party/ 2026-03-03T22:31:54-06:00 https://wichitacountytx.com/election_stats/comptroller-of-public-accounts-democratic-party/ 2026-03-03T22:32:47-06:00 https://wichitacountytx.com/election_stats/commissioner-of-the-general-land-office-republican-party/ 2026-03-03T22:33:14-06:00 https://wichitacountytx.com/election_stats/commissioner-of-the-general-land-office-democratic-party/ 2026-03-03T22:34:09-06:00 https://wichitacountytx.com/election_stats/commissioner-of-agriculture-republican-party/ 2026-03-03T22:34:56-06:00 https://wichitacountytx.com/election_stats/commissioner-of-agriculture-democratic-party/ 2026-03-03T22:35:33-06:00 https://wichitacountytx.com/election_stats/railroad-commissioner-republican-party/ 2026-03-03T22:36:39-06:00 https://wichitacountytx.com/election_stats/railroad-commissioner-democratic-party/ 2026-03-03T22:37:03-06:00 https://wichitacountytx.com/election_stats/chief-justice-supreme-court-republican-party/ 2026-03-03T22:37:40-06:00 https://wichitacountytx.com/election_stats/chief-justice-supreme-court-democratic-party/ 2026-03-03T22:38:20-06:00 https://wichitacountytx.com/election_stats/justice-supreme-court-place-2-unexpired-term-republican-party/ 2026-03-03T22:38:46-06:00 https://wichitacountytx.com/election_stats/justice-supreme-court-place-2-unexpired-term-democratic-party/ 2026-03-03T22:39:23-06:00 https://wichitacountytx.com/election_stats/justice-supreme-court-place-7-republican-party/ 2026-03-03T22:40:08-06:00 https://wichitacountytx.com/election_stats/justice-supreme-court-place-7-democratic-party/ 2026-03-03T22:40:50-06:00 https://wichitacountytx.com/election_stats/justice-supreme-court-place-8-republican-party/ 2026-03-03T22:41:17-06:00 https://wichitacountytx.com/election_stats/justice-supreme-court-place-8-democratic-party/ 2026-03-03T22:41:42-06:00 https://wic",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260323081712_2a77372d7d.bin"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323160314",
+     "original": "https://wichitacountytx.com/wp-sitemap-posts-election_info-1.xml",
+     "mimetype": "application/xml",
+     "digest": "I76NO47BTYOCSMFTOL5F6T6JXOYJI24R",
+     "length": "1107",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wichitacountytx.com&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wichitacountytx.com%2Felection_info%2Felection-results-archive%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 0
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

@@ -1,0 +1,421 @@
+{
+ "county": "San Patricio",
+ "spec": {
+  "file_prefixes": [
+   "sanpatriciocountytx.gov"
+  ],
+  "page_prefixes": [
+   "sanpatriciocountytx.gov/page/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 00:41:13",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=sanpatriciocountytx.gov&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 12
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=sanpatriciocountytx.gov%2Fpage%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    }
+   ],
+   "versions_found": 12,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110140846",
+     "original": "https://www.sanpatriciocountytx.gov/page/open/1234/0/10%2025%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NNDKSAEEWK3IAJXWXU2BXIKO5FGXAYCR",
+     "length": "432392"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110141440",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0128/docs/Elected%20Officials%20Federal%202021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WRB4LXOQICQN3LLOPVECFVX3IDCHUEE6",
+     "length": "371263"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110142528",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0117/docs/2023%20Truth%20N%20Taxation%20Summary.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UY4KG7Q7JTPVELY6DAYNSKXZN7WTLN4D",
+     "length": "979486"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110143441",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0128/docs/Elected%20Officials%20Phone%20Numbers%202023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DI5UCCQ7D26UDIMSPLCAIFV3MP657FKQ",
+     "length": "405081"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110144312",
+     "original": "https://www.sanpatriciocountytx.gov/page/open/1394/0/Notice%20of%202024%20Property%20Tax%20Rates",
+     "mimetype": "application/pdf",
+     "digest": "SJVDU36ULY2MJ2JHYS4CI6NK3F6TR6BO",
+     "length": "1015433"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110150211",
+     "original": "https://www.sanpatriciocountytx.gov/page/open/1563/0/JP%20Precincts%202021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WVDFWZG3CZOCS5V2X7O2CJDCBN437ZB6",
+     "length": "822178"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110150815",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0125/November%202024/Early%20Voting%20and%20Election%20Day%20Schedule%202024%20General.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XDVPGJCPMJO5MEK55WT3U64OD5D5P6DE",
+     "length": "399923"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110151234",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0128/docs/2023%20Finance%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZBRC757TXUYAJSRDMGEWZYEH3ANITMDE",
+     "length": "463230"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110155022",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0128/docs/REQUIREMENTS%20FOR%20APPLICATION%20TO%20GET%20NAME%20ON%20BALLOT%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XABI3VKU53ODEBAJZPVIXG4UEXAJVA7W",
+     "length": "6067"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110160727",
+     "original": "https://www.sanpatriciocountytx.gov/page/open/1403/0/SPC%20Tax%20Abatement%20Policy%2020%20Feb%202023%20to%2019%20Feb%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3B4KOCMOTD44B4R56XD6HV4Y2CZA24AL",
+     "length": "397122"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110162005",
+     "original": "https://www.sanpatriciocountytx.gov/page/open/1563/0/County%20Commissioner%20Pct%202021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SOZAU6IYNIWSIAC37FW77YZWNJE43UG4",
+     "length": "798081"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110162754",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0128/docs/Application%20for%20a%20place%20on%20a%20Primary%20Ballot.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NZJ25ZHEXBAFQF4XUUVFYZZVSO7YJZTT",
+     "length": "134167"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110150211",
+     "original": "https://www.sanpatriciocountytx.gov/page/open/1563/0/JP%20Precincts%202021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WVDFWZG3CZOCS5V2X7O2CJDCBN437ZB6",
+     "length": "822178",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110162005",
+     "original": "https://www.sanpatriciocountytx.gov/page/open/1563/0/County%20Commissioner%20Pct%202021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "SOZAU6IYNIWSIAC37FW77YZWNJE43UG4",
+     "length": "798081",
+     "replay_error": null,
+     "bytes": 1048576,
+     "sha256": "665c5d3ab39a0f86aa8c925bdff1f9c3219121674c94b84f206662794cd37e03",
+     "orig_last_modified": null,
+     "orig_date": "Sun, 10 Nov 2024 16:25:37 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241110162005_46afa678b7.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110142528",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0117/docs/2023%20Truth%20N%20Taxation%20Summary.pdf",
+     "mimetype": "application/pdf",
+     "digest": "UY4KG7Q7JTPVELY6DAYNSKXZN7WTLN4D",
+     "length": "979486",
+     "replay_error": null,
+     "bytes": 1048576,
+     "sha256": "10ddd58c5af1c2fa9db30992de838ad967a9165baf981ab46e2cd5b8ab3c2012",
+     "orig_last_modified": "Fri, 09 Aug 2024 18:40:37 GMT",
+     "orig_date": "Sun, 10 Nov 2024 14:30:59 GMT",
+     "orig_last_modified_local": "2024-08-09 12:40:37",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20240809131018-05'00'",
+     "Creator": "ScandAll PRO V2.0.1",
+     "Producer": "Adobe PDF Scan Library 3.1",
+     "ModDate": "D:20240809131018-05'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241110142528_65bc341641.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110140846",
+     "original": "https://www.sanpatriciocountytx.gov/page/open/1234/0/10%2025%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NNDKSAEEWK3IAJXWXU2BXIKO5FGXAYCR",
+     "length": "432392",
+     "replay_error": null,
+     "bytes": 445663,
+     "sha256": "876d2f7271b466ca35a0785e5f4b9d8715072d3bbaa9f395eb0519e6c0ae8096",
+     "orig_last_modified": null,
+     "orig_date": "Sun, 10 Nov 2024 14:14:18 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |                                   P           | \\222s             D           -               |           * 3 ,             *   * A           \\222S   |  |           * 3 , . 51     |         *     *             *   |           *     |  |             1301   E   ,    | gov - 364 - -         |  |  |  |  |           \\226               .                              -                     -                         -                                     \\226         s       \\226               -                                     |                                                                       -     67     3 ,                                             gov - 364 - -         |  |         -       .                104             -                     -                                                                 -                                                           |                                         -   73 8. 94                                             gov - 364 - -           |  |           \\226                 .                            -                     -                         -                                       \\226         and  s     \\226             -                                         |                                                     du     -                                                   gov - 364 - -           |  |         \\226     .                106             -                     -                         -                                             -                                                 |                                                   -                                           gov - 364 - -       |  |           -         .                            -                                             \\) ;         -       II:                               |                   ;                           -         K               -                     -                                       -     608 . 52         930 . 67         gov - 364 - -         |  |         - \\226     .                103               -                                                                     -                       -                 -                         |                     -       $1                                                                               gov - 364 - -           |  |  |  |         \\226   -         .                105             -                               - o             -                                         -                       -                   |       -                                         -     d                                                           gov - 364 - -     10 / 25       |  |             .                 106               -                                                 -         needed;         -     in -                         en                   |                                                                                                           -               -                 -     r                             -   |                   -                                               -                                   .                 |  |             J                   - - -     -                                                            |  |                 361 - 364 -     361 - -                                                                     -         -         N                  -                       n -     -                                           |  |               361 - 364 -     361 - -                                                                -     ,  ,  TX   :  7   :    0 9 / 19         U   -   C S O                         -                         -                 -     -                         -                   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241110140846_a39347f863.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110144312",
+     "original": "https://www.sanpatriciocountytx.gov/page/open/1394/0/Notice%20of%202024%20Property%20Tax%20Rates",
+     "mimetype": "application/pdf",
+     "digest": "SJVDU36ULY2MJ2JHYS4CI6NK3F6TR6BO",
+     "length": "1015433",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110150815",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0125/November%202024/Early%20Voting%20and%20Election%20Day%20Schedule%202024%20General.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XDVPGJCPMJO5MEK55WT3U64OD5D5P6DE",
+     "length": "399923",
+     "replay_error": null,
+     "bytes": 417211,
+     "sha256": "6f686243d522f8906e81c0edaabcef443f9485c55ca843de16d12af1b5ba71b6",
+     "orig_last_modified": "Thu, 08 Aug 2024 20:21:47 GMT",
+     "orig_date": "Sun, 10 Nov 2024 15:13:47 GMT",
+     "orig_last_modified_local": "2024-08-08 14:21:47",
+     "upload_on_election_night": false,
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u00002\u00000\u00001\u00006",
+     "CreationDate": "D:20240731141218-05'00'",
+     "ModDate": "D:20240731141218-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u00002\u00000\u00001\u00006",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241110150815_e22ca0d7fa.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110151234",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0128/docs/2023%20Finance%20Report.pdf",
+     "mimetype": "application/pdf",
+     "digest": "ZBRC757TXUYAJSRDMGEWZYEH3ANITMDE",
+     "length": "463230",
+     "replay_error": null,
+     "bytes": 499329,
+     "sha256": "56fb71ecdc481d29ee56bf915f16e1630d559db326079658f03b2c14a66bffcc",
+     "orig_last_modified": "Mon, 25 Sep 2023 21:13:31 GMT",
+     "orig_date": "Sun, 10 Nov 2024 15:18:06 GMT",
+     "orig_last_modified_local": "2023-09-25 15:13:31",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | A P The C/OH Instruction Guide explains how to complete this form. 1 Filer ID  \\(Ethics Commission Filers\\) 2 filed: 3 OFFICEHOLDER NAME MS / MRS / MR FIRST |  | NICKNAME LAST SUFFIX 4 OFFICEHOLDER MAILING ADDRESS ADDRESS  / PO BOX; ZIP CODE 5 OFFICEHOLDER PHONE AREA  CODE EXTENSION 6 TREASURER NAME MS / MRS / MR FIRST NICKNAME LAST SUFFIX 7 TREASURER ADDRESS \\(Residence or Business\\) ZIP CODE 8 TREASURER | PHONE AREA  CODE EXTENSION 9 REPORT TYPE 10 PERIOD COVERED THROUGH | 11 ELECTION ELECTION TYPE Primary Runoff Other Description General Special 12 OFFICE 13 OFFICE SOUGHT   \\(if known\\) |  |  |  | THESE   EXPENDITURES   MAY   HAVE   BEEN   MADE   WITHOUT   THE   CANDIDATE OFFICEHOLDER 'S KNOWLEDGE CONSENT . |  |  |  |  |  |  |  |  | Date Imaged Date Received | Date Hand-delivered or Date Postmarked Date Processed Receipt # Amount $ www.ethics.state.tx.us Revised  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Revised                          |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Revised  |  |  | Revised  |  |  |  | Revised  |  |  |  |  |  |  | \\000 \\000 \\000 \\000 Revised  |  |  |  |  |  |  | Revised  |  |  |  |  |  |  |  |  |  |  | Revised  |  |  | Revised  |  |  | Revised  |  |  | Revised  |  |  |  |  |  |  |  | Revised  |  |  |  | Revised  |  |  | Revised  |  |  | Revised  |  |  | Forms provided by  T exas Ethics Commission www .ethics.st ate.tx.us SCHEDULE   T The Instruction Guide explains how to complete this form. 1 T ot al  p age s Schedule  2 FILER NAME 3 Filer ID  \\( Ethics Commission Filers\\) 4 Name of Contributor / Corporation or Labor Organization / Pledgor / Paye\\\re 5 Contribution / Expenditure reported on: Schedule  A2 Schedule B Schedule B\\(J\\) Schedule C2 Schedule D Schedule F1 Schedule F2 Schedule F4 Schedule G Schedule H Schedule COH-UC 6 Dates of travel 7 Name of person\\(s\\) traveling 8 Departure city or name of departure location 9 Destination city or name of destination location 10 Means of transportation Purpose of travel \\(including name of conference, seminar , or other event\\) Name of Contributor / Corporation or Labor Organization / Pledgor / Paye\\\re Contribution / Expenditure reported on: Schedule  A2 Schedule B Schedule B\\(J\\) Schedule C2 Schedule D Schedule F1 Schedule F2 Schedule F4 Schedule G Schedule H Schedule COH-UC Dates of travel Name of person\\(s\\) traveling Departure city or name of departure location Destination city or name of destination location Means of transportation Purpose of travel \\(including name of conference, seminar , or other event\\) Name of Contributor / Corporation or Labor Organization / Pledgor / Paye\\\re Contribution / Expenditure reported on: Schedule  A2 Schedule B\\(J\\) Schedule C2 Schedule B Schedule G Schedule F2 Schedule F4 Schedule H Schedule D Schedule COH-UC Schedule F1 Dates of travel Name of person\\(s\\) traveling Departure city or name of departure location Destination city or name of destination location Means of transportation Purpose of travel \\(including name of conference, seminar , or other event\\) A TT ACH  ADDITIONAL  COPIES OF THIS SCHEDULE  AS NEEDED Revised  |  |  |  | only only Revised  |  |  | AFFIDAVIT FOR  CANDIDATE OR OFFICEHOLDER:  ELECTRONIC FILING EXEMPTION  A n     n         e     d     h     h       r               e     o r       r   o     s     d     e     $     i n     l     s   o r     e     e     n         i   n     l     s  i n         r     r     t     e     l     t   s     Filer name   #  Receipt #  Date Hand-delivered or Date Postmarked  OFFICE USE ONLY  Date Processed  Date Received  Date Imaged  Amount $                                FILERS WHO ARE EXEMPT FROM THE ELECTRONIC FILING REQUIREMENT        |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241110151234_921b36ec09.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110155022",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0128/docs/REQUIREMENTS%20FOR%20APPLICATION%20TO%20GET%20NAME%20ON%20BALLOT%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "XABI3VKU53ODEBAJZPVIXG4UEXAJVA7W",
+     "length": "6067",
+     "replay_error": null,
+     "bytes": 7858,
+     "sha256": "fffc22a6ab59b8a57d99726c40c0c3b065871f9270b9f67c504b87e4cd488f1b",
+     "orig_last_modified": "Mon, 11 Mar 2024 21:13:57 GMT",
+     "orig_date": "Sun, 10 Nov 2024 15:55:54 GMT",
+     "orig_last_modified_local": "2024-03-11 15:13:57",
+     "upload_on_election_night": false,
+     "Title": "REQUIREMENTS FOR APPLICATION TO GET NAME ON BALLOT",
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u00002\u00000\u00001\u00006",
+     "CreationDate": "D:20230908090355-05'00'",
+     "ModDate": "D:20230908090355-05'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u00002\u00000\u00001\u00006",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241110155022_67667bd79d.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110160727",
+     "original": "https://www.sanpatriciocountytx.gov/page/open/1403/0/SPC%20Tax%20Abatement%20Policy%2020%20Feb%202023%20to%2019%20Feb%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "3B4KOCMOTD44B4R56XD6HV4Y2CZA24AL",
+     "length": "397122",
+     "replay_error": null,
+     "bytes": 420796,
+     "sha256": "a54b6f94e1057888c63d48b75bcdac2fed7c43b04db47772c803eb8af9833c02",
+     "orig_last_modified": null,
+     "orig_date": "Sun, 10 Nov 2024 16:12:58 GMT",
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "CreationDate": "D:20230330165003-05'00'",
+     "ModDate": "D:20230330165003-05'00'",
+     "Creator": "RICOH MP 3555",
+     "Producer": "RICOH MP 3555",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241110160727_d0bdddb026.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110162754",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0128/docs/Application%20for%20a%20place%20on%20a%20Primary%20Ballot.pdf",
+     "mimetype": "application/pdf",
+     "digest": "NZJ25ZHEXBAFQF4XUUVFYZZVSO7YJZTT",
+     "length": "134167",
+     "replay_error": null,
+     "bytes": 146606,
+     "sha256": "c9788611a417fa9c582d4ce1b6bbcd372de9621434b3361e2b90921a254aa28d",
+     "orig_last_modified": "Mon, 25 Sep 2023 21:12:42 GMT",
+     "orig_date": "Sun, 10 Nov 2024 16:33:27 GMT",
+     "orig_last_modified_local": "2023-09-25 15:12:42",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | n | Print | Reset  Form | n | n | n | Reset  Form | Print |  |  |  |  |  | ib e d  ta f  S 03 02 Te o n  8/ 2                       $750     $300                                   - - Co               $750                 $375     $75     $750         | Pr io        cc es 31 72 21 \\363d ig T ex a 0 17             al Pa o/ si           pr r al rr   no o i nd a b a j o .     \\(                     \\( \\)   *         P O S T AL     \\( su   \\)                                 \\(     O CU PA C I \\323 N       \\226                           HA             P           *S i   u s te d   i nc l uy e   u n   a o   c o mo   p a r t e   d e   su   no m br e   e n     bo l et a,   u s t e d   t am b i \\351 n   f i r ma   y   j ur a     si g u i e nt e :   Y o   t am b i \\351 n   j ur o   qu e   mi   a o   n o   c on uy ma   am po un nd on po l\\355 mi c   H e   si d o   c c i d o  c o m \\372n m e n t e   po r   e s t e   a o   p o r     t r e s   a \\361o s   a n te s   d e   e s t a   e l e cc i \\363n .   ,         \\)       \\) d                   J ur a d o   u s c r i t o   a n t e   m\\355   en      ,            d e       ,   po r                     .                                                              F i r ma   d e l   o fi c   a d mi n t r a nd o   e l   j ur am e n t o \\262               T \\355 t u   d e l   o fi c   a d mi n t r a nd o   e l   j ur am e n t o                                                         | \\355   03 02   8/ 2                         $750     $300               \\341                   -         $750           $375     $75     $750   | \\355 03 02   8/ 2                                                                                       1     2           de       | ib e d  ta f  S 03 02 Te o n                T EX .   E .   C             y        on                   - -     -     - - - -                 1     n      2           | ib e d  ta f  S 03 02 Te o n    A ll           -                   .\\)   .\\)               IL         1   \\( \\)     C ON T AC TI   \\(O         TH ON TI E TE TI RN     \\(s\\)   \\(s\\)   IN  / /       \\(s\\)   \\(s\\)   *                       OF               A O 2                                |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241110162754_c6fb7e113d.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110141440",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0128/docs/Elected%20Officials%20Federal%202021.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WRB4LXOQICQN3LLOPVECFVX3IDCHUEE6",
+     "length": "371263",
+     "replay_error": null,
+     "bytes": 392806,
+     "sha256": "bbd37b4a5d3b4cf098130535d7a11e9312b9b985f99f020d9a49876296af43b0",
+     "orig_last_modified": "Tue, 19 Sep 2023 21:04:55 GMT",
+     "orig_date": "Sun, 10 Nov 2024 14:20:12 GMT",
+     "orig_last_modified_local": "2023-09-19 15:04:55",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20210219101946-06'00'",
+     "ModDate": "D:20210219101946-06'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u00002\u00000\u00001\u00006",
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u00002\u00000\u00001\u00006",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241110141440_3bc0abab25.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241110143441",
+     "original": "https://www.sanpatriciocountytx.gov/upload/page/0128/docs/Elected%20Officials%20Phone%20Numbers%202023.pdf",
+     "mimetype": "application/pdf",
+     "digest": "DI5UCCQ7D26UDIMSPLCAIFV3MP657FKQ",
+     "length": "405081",
+     "replay_error": null,
+     "bytes": 435622,
+     "sha256": "891d19e20a89e60174d94d77def8122d35d423065896b4523edd6c16f32b940b",
+     "orig_last_modified": "Tue, 19 Sep 2023 21:05:56 GMT",
+     "orig_date": "Sun, 10 Nov 2024 14:40:13 GMT",
+     "orig_last_modified_local": "2023-09-19 15:05:56",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20230109120550-06'00'",
+     "ModDate": "D:20230109120550-06'00'",
+     "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u00002\u00000\u00001\u00006",
+     "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000\u00ae\u0000 \u00002\u00000\u00001\u00006",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241110143441_3c35208a61.pdf"
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=sanpatriciocountytx.gov&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=sanpatriciocountytx.gov%2Fpage%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=sanpatriciocountytx.gov&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=sanpatriciocountytx.gov%2Fpage%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    }
+   ],
+   "versions_found": 0,
+   "versions": [],
+   "replays": []
+  }
+ }
+}

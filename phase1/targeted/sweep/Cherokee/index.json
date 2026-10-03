@@ -1,0 +1,296 @@
+{
+ "county": "Cherokee",
+ "spec": {
+  "file_prefixes": [
+   "co.cherokee.tx.us"
+  ],
+  "page_prefixes": [
+   "co.cherokee.tx.us/ips/cms/othercountyoffices/"
+  ]
+ },
+ "swept_at_utc": "2026-10-03 02:02:13",
+ "window_days": 21,
+ "elections": {
+  "2024_general": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.cherokee.tx.us&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 3
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.cherokee.tx.us%2Fips%2Fcms%2Fothercountyoffices%2F&matchType=prefix&output=json&from=20241105060000&to=20241126060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    }
+   ],
+   "versions_found": 3,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241109133527",
+     "original": "http://co.cherokee.tx.us/ips/cms/countyoffices/auditor-docs/Addendum%20No%201%20RFP%202024-08%20Request%20for%20Proposals%20for%20Jury%20System%20Software.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WI22GMHFASVXZNMCD43D6JY5C77PAXPM",
+     "length": "578735"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241109140529",
+     "original": "http://co.cherokee.tx.us/ips/cms/countyoffices/auditor-docs/RFP%202025-01%20-%20Document%20Imaging%20Services%20for%20Cherokee%20County%20-%202024-10-22.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IUECCKMJQYTOLRNZWOFCXDMD6VUU6PTF",
+     "length": "1018835"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241121181051",
+     "original": "http://co.cherokee.tx.us/ips/cms/countyoffices/tax-docs/Aggregated%20Tax%20Rate%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BJZQ6DBHHNGSOTXRRMELNPOLRFFAGCJ5",
+     "length": "34962"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20241109133527",
+     "original": "http://co.cherokee.tx.us/ips/cms/countyoffices/auditor-docs/Addendum%20No%201%20RFP%202024-08%20Request%20for%20Proposals%20for%20Jury%20System%20Software.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WI22GMHFASVXZNMCD43D6JY5C77PAXPM",
+     "length": "578735",
+     "replay_error": "URLError: timed out",
+     "bytes": 0,
+     "sha256": null,
+     "orig_last_modified": null,
+     "orig_date": null,
+     "orig_last_modified_local": null,
+     "upload_on_election_night": false,
+     "printed_on_election_night": false
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241109140529",
+     "original": "http://co.cherokee.tx.us/ips/cms/countyoffices/auditor-docs/RFP%202025-01%20-%20Document%20Imaging%20Services%20for%20Cherokee%20County%20-%202024-10-22.pdf",
+     "mimetype": "application/pdf",
+     "digest": "IUECCKMJQYTOLRNZWOFCXDMD6VUU6PTF",
+     "length": "1018835",
+     "replay_error": null,
+     "bytes": 1048576,
+     "sha256": "1fc6737a36185a96f6bec4490f89576dff1fb27930bb80d56d6f4666d640e236",
+     "orig_last_modified": "Thu, 24 Oct 2024 07:17:44 GMT",
+     "orig_date": "Sat, 09 Nov 2024 14:05:29 GMT",
+     "orig_last_modified_local": "2024-10-24 01:17:44",
+     "upload_on_election_night": false,
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241109140529_10051c4ec5.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20241121181051",
+     "original": "http://co.cherokee.tx.us/ips/cms/countyoffices/tax-docs/Aggregated%20Tax%20Rate%202024.pdf",
+     "mimetype": "application/pdf",
+     "digest": "BJZQ6DBHHNGSOTXRRMELNPOLRFFAGCJ5",
+     "length": "34962",
+     "replay_error": null,
+     "bytes": 36551,
+     "sha256": "341cdb6f3b775915ba4184a1699a31c4686a63b1617d07f75f05128ae57d178b",
+     "orig_last_modified": "Thu, 04 Jan 2024 19:07:05 GMT",
+     "orig_date": "Thu, 21 Nov 2024 18:10:51 GMT",
+     "orig_last_modified_local": "2024-01-04 13:07:05",
+     "upload_on_election_night": false,
+     "CreationDate": "D:20231220085524-05'00'",
+     "ModDate": "D:20231220085524-05'00'",
+     "Creator": "RICOH MP 2555",
+     "Producer": "RICOH MP 2555",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": "",
+     "printed_on_election_night": false,
+     "saved_file": "2024_general_20241121181051_4077b02d78.pdf"
+    }
+   ]
+  },
+  "2026_primary": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.cherokee.tx.us&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.cherokee.tx.us%2Fips%2Fcms%2Fothercountyoffices%2F&matchType=prefix&output=json&from=20260303060000&to=20260324060000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 2
+    }
+   ],
+   "versions_found": 4,
+   "versions": [
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303210546",
+     "original": "http://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
+     "mimetype": "text/html",
+     "digest": "ASUVZYK6YQL4BOQHAV742HTBKH5OG2IN",
+     "length": "9311"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260303212144",
+     "original": "http://www.co.cherokee.tx.us/ips/cms/othercountyoffices/register_to_vote.jfif",
+     "mimetype": "application/octet-stream",
+     "digest": "EKEQNFVVUQPAYJXHA4ABUX7ACN7XMPAK",
+     "length": "9946"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303233910",
+     "original": "http://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
+     "mimetype": "text/html",
+     "digest": "CSUZNZWG75DSH4IESUOFTRXZ5GYMAD2O",
+     "length": "9734"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323050828",
+     "original": "https://co.cherokee.tx.us/ips/cms/othercountyoffices/2026-03/Primary%20Voting%20Locations.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WGU5FHXD2HJ7MZ3HACTOT4X6KBQGIGET",
+     "length": "76761"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260323050828",
+     "original": "https://co.cherokee.tx.us/ips/cms/othercountyoffices/2026-03/Primary%20Voting%20Locations.pdf",
+     "mimetype": "application/pdf",
+     "digest": "WGU5FHXD2HJ7MZ3HACTOT4X6KBQGIGET",
+     "length": "76761",
+     "replay_error": null,
+     "bytes": 78680,
+     "sha256": "6bd4fd7ddfaab6a4f24e270ee43b121a6cdbad8ba9c5b0860f198d81cb7b1ca0",
+     "orig_last_modified": "Fri, 23 Jan 2026 20:11:56 GMT",
+     "orig_date": "Mon, 23 Mar 2026 05:08:28 GMT",
+     "orig_last_modified_local": "2026-01-23 14:11:56",
+     "upload_on_election_night": false,
+     "Creator": "Canon iR-ADV C3826  PDF",
+     "CreationDate": "D:20260116112736-06'00'",
+     "Producer": "\\376\\377\\000A\\000d\\000o\\000b\\000e\\000 \\000P\\000S\\000L\\000 \\0001\\000.\\000\\\n3\\000e\\000 \\000f\\000o\\000r\\000 \\000C\\000a\\000n\\000o\\000n\\000\\000",
+     "ModDate": "D:20260123123616-06'00'",
+     "printed_datetimes_first_streams": [],
+     "precinct_word_count_first_streams": 0,
+     "text_sample_first_streams": " |  |  | ",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260323050828_16bb9cc3a1.pdf"
+    },
+    {
+     "kind": "file",
+     "timestamp_utc": "20260303212144",
+     "original": "http://www.co.cherokee.tx.us/ips/cms/othercountyoffices/register_to_vote.jfif",
+     "mimetype": "application/octet-stream",
+     "digest": "EKEQNFVVUQPAYJXHA4ABUX7ACN7XMPAK",
+     "length": "9946",
+     "replay_error": null,
+     "bytes": 9420,
+     "sha256": "2adf4fb2d13e7f3e438f6334dc5346419ae62209a9774ea8b77e7655260ab3fe",
+     "orig_last_modified": "Thu, 13 May 2021 04:06:07 GMT",
+     "orig_date": "Tue, 03 Mar 2026 21:21:44 GMT",
+     "orig_last_modified_local": "2021-05-12 22:06:07",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": "\ufffd\ufffd\ufffd\ufffd\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000\ufffd\ufffd\u0000\ufffd\u0000 \u0006\u0007\u0013\u0010\u0012\u0015\u000f\u000f\u0013\u0016\u0016\u0015\u0015\u0018\u0017\u0018\u0017\u0017\u0015\u0016\u0010\u0015\u0016\u0019 \u001a\u0017\u0018\u0017 \u0018\u0019\u0017\u0018 ( \u0018 & \u0017\u0018!1!%)-...\u0019 383-7(-.+\u0001 \u000e \u000e\u001b\u0010\u0010\u001b.% %-------+------------------------+--------+-+------\ufffd\ufffd\u0000\u0011\b\u0000\ufffd\u0000\ufffd\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001\ufffd\ufffd\u0000 \u0000\u0000\u0001\u0004\u0003\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0006\u0007\b\u0001\u0003\u0004\u0002\ufffd\ufffd\u0000M\u0010\u0000\u0002\u0001\u0003\u0001\u0004\u0005 \u0005\u0004\b\u0002 \u0005\u0000\u0000\u0001\u0002\u0003\u0000\u0004\u0011\u0012\u0005\u0006!1\u0007\u0013AQa\u0014\"2RTq\ufffd\ufffd\ufffd\u0016\u0017\ufffd\ufffd\ufffd\u0015#B\ufffd\bSbrs\ufffd\ufffd\ufffd45$3Cc\ufffd\ufffd\ufffd\ufffd\ud8c8\udce3\ufffd\ufffd\ufffd\ufffd\u0000\u001b\u0001\u0001\u0000\u0001\u0005\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0001\u0002\u0003\u0005\u0006\u0007\ufffd\ufffd\u00002\u0011\u0000\u0001\u0003\u0002\u0003\u0006\u0005\u0004\u0003\u0000\u0003\u0001\u0000\u0000\u0000\u0000\u0001\u0000\u0002\u0003\u0004\u0011\u0005!1\u0012\u0013AQ\ufffd\ufffd\u0006\u0014\u0016Rq2a\ufffd\ufffd\"\ufffd\ufffdBb\ufffd$\ufffd\ufffd\u0000 \u0003\u0001\u0000\u0002\u0011\u0003\u0011\u0000?\u0000\ufffd(\ufffd\ufffd;\ufffd\ufffd^E\ufffd!\u0001\ufffda\ufffd>\ufffd\u000e\ufffdGi=\ufffd\ufffd\u0000f\ufffd80\\\ufffd\ufffd\ufffd\ufffdO \ufffd1rS\ufffd4T\u0001.\ufffd\u07b9\u0278\ufffdx\u0002\u0000\ufffd\u0000+_\ufffd\ufffd\ufffdh\ufffd\ufffd5\u0017\ufffd3\ufffd]\u0010\ufffdM\ufffd\ufffd\ufffd\ufffd \u0015_>\ufffd^\ufffdD\ufffdY\ufffd\ufffde\ufffdM\ufffd\ufffd\ufffd\ufffdg\"\ufffd\ufffd\ufffd\ufffd\ufffd\ufffde`\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd&\ufffd\ufffd k/}\ufffdo\ufffd\ufffd\ufffd3\ufffdOJ\ufffd\ufffd\ufffd\u05f2\ufffdtU|\ufffdY{\ufffd\u0013}F\ufffd\ufffd\ufffd\ufffd\ufffd7\ufffdj\ufffdy\ufffd\ufffdzV\ufffd\ufffd\u07bd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdh\ufffd\ufffd5\ufffd\ufffd\ufffd\ufffd\ufffd7\ufffdi\ufffd\u0227\ufffdj}\ufffd\ufffd\ufffdXJ*\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdG\ufffd\ufffd\ufffdh\ufffd\ufffd5O \ufffd^\ufffdD\ufffdY\ufffd\ufffdg\"\ufffd\ufffd\ufffd\ufffd\ufffd\ufffde`\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd&\ufffd\ufffd k/}\ufffdo\ufffd\ufffd\ufffd3\ufffdOJ\ufffd\ufffd\ufffd\u05f2\ufffdtU|\ufffdY{\ufffd\u0013}f\ufffd\ufffd\ufffd\ufffd\ufffd7\ufffdi\ufffd\u0227\ufffdj}\ufffd\ufffd\ufffdX:*\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdG\ufffd\ufffd\ufffdh\ufffd\ufffd4\ufffd\ufffd\ufffdS\u04b5>\ufffd\ufffd\ufffd\u0011\ufffdU}M\ufffd\ufffd\u0007\"\ufffdO\ufffd?\ufffdO\ufffd\ufffd\u07e6\ufffd\u0175\ufffd5\ufffd\ufffd\ufffd`1\ufffdXv \ufffd9\ufffd\u0000 g\ufffd\ufffdY\ufffd[\ufffdR\ufffd[\ufffdbW\ufffdR\ufffd\ufffd\u0019\ufffd8\ufffd\ufffdY*$\u0772\ufffdC\ufffdh\ufffdUH\ufffd\ufffd\ufffd_\ufffd\u0005\u037b;z\b\ufffdK\ufffdA\u0017V\ufffd\u0011\ufffd\ufffd\ufffd\u00101\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdl\ufffdT4x\ufffd\u0003\u001aq\ufffd X\ufffdeV\ufffdS_EE\ufffd\ufffd\ufffdbF\ufffd \u000f` 0 4\ufffd\u0466\u0637\ufffd-\ufffd\ufffd5\ufffd?\ufffd\ufffdBe\ufffd\ufffd\u034fK\ufffd\ufffd\ufffd\ufffd\u034d\ufffduu\ufffdkb\u03e9\ufffd1\ufffdI A'\ufffd\\\ufffdp~\"\ufffd\u000e\ufffdv\ufffdj\u07c5\ufffdQ`qy-\ufffd\u0479\ufffdk\ufffd\ufffd\ufffd\u062c\ufffdf\ufffd\ufffdh:\ufffdK\ufffdQ\ufffd'\ufffd:FsJy\ufffd\ufffd7 \u03c8\ufffd!%m\u06e8!\ufffd\ufffd\ufffd\u04e1y\ufffd s\ufffd\u0001\ufffdOuA\u001bR\ufffd&\ufffd\u0291\ufffdhH \ufffd\u0014\u00005v\ufffd\uf9ffLE\ufffd\ufffd m\ufffd\u000e\ufffd\u0475\ufffd\ufffd\ufffd\ufffd\u04b2\ufffdr\u00162\u0223\ufffdr~$\ufffd\u0017P\u07ab\ufffd-^\ufffd\ufffd\ufffdO\ufffd\ufffd\u0003z\ufffd\ufffd\u0462\ufffd\ufffd\ufffd&\ufffd\ufffd@. t\ufffd\ufffd \ufffd?KQ\ufffd7\ufffd~\ufffd\ufffd6G\ufffdl\ufffd\ufffd'\ufffd\ufffd\ufffdQ,\ufffd\u0012\u0005\ufffd\ufffd\ufffd%\ufffd\ufffd\ufffd\ufffdv\u01c4\ufffd\ufffd9+)g\ufffd6u\u000f\ufffdc|\ufffd\ufffd_\ufffds\ufffd(\ufffd\\\u0013\ufffd\ufffd\ufffd\u0005Oh\ufffd`\ufffd \ufffd\ufffdT\ufffd-GR\ufffd\ufffd\ufffdZ\ufffdeyn\ufffd\ufffdZ()\u0004\ufffdf\ufffd 9e\ufffd ]=\ufffdn\ufffd\ufffd;H\ufffd\ufffd\ufffd\u02e8:\ufffd\ufffd\u0010I'\ufffdQ\ufffds\ufffdq\ufffdo\ufffd\ufffd\ufffd\ufffd\u0000K\ufffd\ufffd\ufffd\ua7e5\ufffd\ufffd{\u065bVZ\ufffdX*\ufffdl\ufffd\ufffdok\ufffd\u007f\ufffd\ufffd\ufffdo]\u05fe\ufffdy\u044e\ufffd \ufffd>\u0014\ufffd\ufffd7\ufffd\ufffd\ufffdIkq \ufffdit\ufffdH \ufffd\ufffdyr\ufffd3\ufffd\u0014\ufffd\ufffdw\ufffdO\ufffd\ufffdy3\ufffd\ufffd\ufffd\ufffdp\ufffdAq}V\u00190\ufffdG\ufffd\ufffdd\u0002\ufffd\u0010FZ|-t\ufffd\ufffd\ufffd\ufffd\ufffd\u0012I;)v)\ufffd\u0014 \ufffd\u0004\ufffd\ufffd\u000e\u0003\ufffd\ufffd\u0017\ufffd\ufffd\ufffd\ufffd\u0000K\ufffd\ufffd7\ufffd\ufffd\u0000K\u054cs\ufffdv\ufffd\ufffdS\u0014U\u0011\ufffd\ufffd9 sN \ufffd\ufffd\ufffdW'\ufffd\ufffd4\ufffdX\ufffd(\ufffd\ufffd\ufffd~t\ufffd\ufffdzF\ufffd\ufffd 8\ub4fc\ufffdq\ufffdnM\ufffd\ufffd\ufffd3\ufffd\ufffd\ufffd\u007f\ufffdQ\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd4\ufffd\ufffd\\\ufffd\ufffd\ufffd\ufffd] \u8c76\ufffd\ufffd\ufffdtmy\ufffdY\ufffd \ufffdF*\ufffd}\ufffd_{=\ufffd\ufffd\u007f\ufffd*_\ufffd\ufffd\ufffd7[6=\ufffdw\ufffd,\ufffd\ufffd\ufffd\ufffd\"\ufffdf\u0019\ufffd (\ufffdF\ufffd3\ufffd\ufffdls\ufffd\ufffd\ufffd]}cF\ufffd\ufffdYC0>h\ufffd\u0016#\ufffdI \ufffdo\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd}\ufffd\ufffd\ufffd=\ufffd\ufffd\u007f\ufffd(\ufffd\ufffd\ufffd5\u0016\ufffd^\ufffd.'\ufffd\ufffd{Q\ufffd\ufffdK\u0004\ufffd\u0015@\ufffd\ufffd#\ufffd^\ufffd[9\ufffd\ufffd\ufffdG!L\ufffd\ufffd\ufffd\ufffdg\ufffd\ufffdO\ufffd\ufffd\u0011X\ufffd5\ufffd \ufffd\ufffd\ufffd[\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffdROG]\"E\ufffd\u0003\u01e0\ufffd X\ufffd \u0651O\u001a#\ufffd\ufffd\ufffd(rd \ufffdN\u0019\ufffd#\ufffd\ufffd\ufffd\u007f\ufffdw \ufffdK\ufffd\u0000\ufffdj\ufffd7;b\u037065\ufffd\u06ea\ufffdK/Z\ufffd\ufffdUt\ufffd*6\b\ufffd\u0019$\ufffd\ufffdlvT\u0001\u007fpf\ufffd\ufffd`\u0001vf r\ufffd\u0012\ufffd h\ufffd\ufffd\ufffd\ufffd>\ufffd\u0616\ufffd[\ufffd\ufffd\u0190L\ufffd\ufffd\ufffdE\ufffd\ufffdyd\ufffd8\ufffd\u0002\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd4\u0391\ufffd\ufffd\ufffd\ufffd!\ufffd|\ufffd\ufffd}4o\u0003\ufffd|\ufffdC\ufffd\ufffd\ufffdvw~\ufffd\ufffd\u0019:\ufffd\u0016\ufffdA\ufffd\ufffd \ufffdF\ufffdg$\ufffd:A>\ufffdkm]\ufffd\ufffd}\ufffd-6\ufffd\ufffd]#\ufffd\ufffd]\ufffdt8\u0005\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \u0007a\ufffd(\ufffdN\ufffdy,oK\ufffdm!\ufffd\ufffdT\ufffd\ufffdj\ufffd:dd\ufffd\ufffdX\u029e\\8\ufffdG\ufffd] \ufffd\ufffd6\ufffd3\ufffd\u0329\u000e\u000fU\u0555\ufffd\u75de\ufffd\u03bf\u000eT\ufffd\ufffd \ufffdN\ufffdgh\u0014e\ufffd\u0011\ufffd1\u0018\u000e\ufffd\ufffd \ufffd\u0001\u01128p\u0014\ufffd\ufffd\ufffdm=\ufffd\ufffd\u008a\ufffdnX\ufffd\ufffdd\u0005\u0001\ufffd\\\u0011\ufffd#\ufffd4E\u000etR\ufffd\ufffdk@@#\ufffd \ufffd\u0014[:(\ufffdTO\ufffdB\ufffd\ufffd\b\ufffd\ufffdP[H\ufffd\ufffd\ufffd\u0011B\u06ed\ufffd\ufffdm\u0007\ufffd8\ufffd\u0010\ufffd \ufffdK\ufffd\ufffdT\ufffd@\ufffd \u0014\ufffd\ufffd\ufffd%\ufffdl\ufffd\ufffdte\ufffd\ufffd\"\u0005\u0555\u0001\ufffda\ufffd\u0000\ufffd \ufffd\u05be\ufffd\ufffd6\u04fc`A\u0006y\b \ufffd =\ufffds\ufffd\u0015\ufffd\ufffd3l\ufffd\"\ufffd \ufffd\ufffd\ufffd\ufffdTr\ufffd\ufffd\ufffdNt\ufffdF\ufffd\ufffd.\ufffd\ufffd3\ufffd~.\u0654\ufffd\ufffd\ufffd\ufffdj\ufffd:\ufffdEmY\u0018\ufffd[\ufffd \ufffd\ufffd\ufffdn$\ufffd\\L`\ufffd(\ufffd\ufffd\ufffd\ufffd\ufffdc:\ufffdc\u001aT\ufffd\ufffd\ufffd??\ufffd\ufffd\ufffd\ufffdf\u0001\u0004\ufffd\ufffd###&,ds\u0019\ufffdGG\ufffd\ufffd\ufffdTLZ\ufffd;~\ufffd\ufffd\u001a\ufffd Z\ufffd\ufffd\ufffd\ufffd\u0018\ufffd\ufffd\u0388\ufffd\ufffd n%\ufffd\ufffd\u0542Y\ufffdE\u001b\ufffd \ufffdn\ufffdA\ufffd0\ufffd\u0013\ufffd\ufffd\ufffdF\ufffd\ufffdclM\u00daB\u007f\ufffdj?\u04a7M\ufffd\ufffd \ufffd\ufffd\u0232\ufffdb\ufffd\u0016e \ufffdLe5g\ufffd\ufffd1\ufffd9\ufffdoJ\u001b\ufffdm\ufffd/\u0004\u03f4\ufffd\ufffd\ufffdbTd\ufffd\ufffd\u05d0Y\ufffd\u0010dR80\ufffd\ufffd'\ufffdE\ufffdF\u0273\u0004c\ufffd \ufffd\ufffd#\ufffd\u04f2\ufffd\ufffdv8\ufffd\ufffd\b\ufffdd\ufffd\"DWB \ufffdE \ufffdA#\ufffd{\ufffdV\ufffd\ufffd(\ufffd\ufffd\ufffdE\u0015\u0011o'Kr\ufffd]Ml-\ufffd\ufffdNT1w\u0004\u3d0cT\ufffdZ9\ufffd\ufffdY\b\ufffd\u0019\ufffd\\\ufffd\ufffdT\ufffdQwJ \u001bM\ufffd\ufffdc\ufffd\ufffdh\ufffd \u0010\ufffd\ufffd\u000f\ufffdu\ufffdg\ufffd\ufffd\ufffdR\u000f\ufffd|\ufffd\ufffd \ufffd?\ufffdG\ufffdt\ufffd\ufffd \ufffd?\ufffd[/O\ufffd \u03a3\ufffd\ufffdz\ufffdk\ufffd\ufffd\ufffd-sku\u0005\ufffd\\B\ufffd\u0014\ufffd\ufffdT,\ufffd!X1\u0003#\ufffd \ufffd\ufffd`YU\ufffd\ufffdC#\u0002\ufffd\ufffdd\u0010F\b#\ufffd\u0011P\ufffd\ufffd|\ufffd\ufffd \ufffd?\ufffdG\ufffdt\ufffd\ufffd \ufffd?\ufffdOO\ufffd \u03a3\ufffdo[\ufffdgy\ufffd \ufffdM\ufffd:\ufffd\ufffd\ufffd\ufffd`\ufffd/\ufffdE\ufffd#\ufffd\ufffd|Mql\ufffd\ufffd\ufffd. \ufffd\ufffd\ufffdH\ufffd\u0000\u0011\ufffd\u0000Jz\u007f\u0010\ufffdu \ufffdo5\u057f\ufffd\u0010M}{%\u0764\ufffd\u01b2\ufffd_\ufffd\u03bca\ufffd\u04a4`\ufffd y4\ufffd\ufffd\ufffdu?eY\ufffdf*\u0496g\ufffd\ufffdV\ufffd\u01c0\ufffd@8 \u0000\ufffdQ\ufffd\ufffd|\ufffd\ufffd \ufffd?\ufffdG\ufffd|\ufffd\ufffd \ufffd?\ufffdOO\ufffd \u03a3\ufffdo[\ufffdI{\ufffdV\ufffdR \ufffd\ufffdNW%$_M \ufffd\ufffd \ufffd\ufffd\ufffdw D\u0017\ufffd\u0003]\u0006\"\u001b\ufffd\u0019; \ufffdco\ufffd \ufffd\ufffdO\ufffd\ufffd\ufffd\ufffd?\ufffd\u007f\u048f\ufffd\u9f52?\ufffd\u007f\u049e\ufffd\ufffd=\ufffdGt\u07b7\ufffdV\u070e\ufffd\"\ufffd\ufffdnod\u0013\u02042\u01ab\ufffd\ufffd\u000eD\ufffd\ufffd\ufffd\u0007\ufffd\ufffd+k\u0699\ufffd\ufffd\u0010@2F\ufffd \ufffd )\\\ufffd\ufffdC\ufffd\u0000}\ufffd{$\u007f\ufffd\ufffd\u0000\ufffd }\ufffd{$\u007f\ufffd\ufffd\u0000\ufffd=?\ufffd{:\ufffd\ufffdo4\ufffd\ufffd u\ufffdP}2\ufffd\ufffd&t_\ufffd2l\ufffdi-\ufffd$/)\ufffd\u0014 \u0006 \"\ufffd\ufffds\ufffd?:c}\ufffdM\ufffd\ufffd#\ufffd\ufffd}\ufffdM\ufffd\ufffd#\ufffd\ufffd\ufffd\ufffd!\ufffd\ufffd;\ufffd\ufffd\ufffd\ufffd\u007fH \u0014\\m+\ufffd/#\ufffd$W\b\u0002\ufffd}^j\u00059\ufffd\ufffde7~\ufffd.\ufffd\ufffd\u000f\ufffd_\u0494\ufffd\ufffd\ufffd\ufffdX\ufffd\u0000\u0011\ufffd\u0000J>\ufffd\ufffd\ufffdH\ufffd\u0000\u0011\ufffd\u0000Jz\u007f\u0010\ufffdu \ufffdz\ufffdk\ufffdr:#\ufffd\ufffd\ufffd\ufffd\ufffdIq\u0013\ufffdE\ufffd %\ufffdr\ufffd\ufffd21\ufffd[7\ufffd\ufffd{\ufffd\ufffd}-\ufffds\u010a\ufffd\u0000 W\ufffd\ufffdNp1\ufffd\\?}\ufffd{,\u007f\ufffd\ufffd\u0000\ufffd }\ufffd{$\u007f\ufffd\ufffd\u0000\ufffd=?\ufffd{:\ufffd\ufffdo5(\ufffd^\ufffdk\u001b(,\ufffdef\ufffdJ\ufffd]ZO\ufffd\u01c6x\ufffd\ufffd\ufffdB }\ufffd{$\u007f\ufffd\ufffd\u0000\ufffde:m\ufffd\ufffd \ufffd3 \ufffdH\ufffd\ufffd \ufffdy\ufffd\ufffd\ufffd\ufffd\ufffd]{?\ufffd}\ufffd.5G @\ufffd\ufffd\"\ufffd\u4e8dM\ufffd\ufffd\ufffd\u02f3\ufffd#\ufffd\\\u0016 s\ufffd\ufffd'>\ufffd\ufffdv\u000f\u0000+o\ufffd\ufffd\ufffd\u0016\ufffd;\ufffdy \ufffd+UM\ufffd\"te-\ufffd\ufffd\ufffd\ufffdh\ufffdu b9e\ufffd\u000e\u001a\ufffd\ufffd\ufffd#\u0019\ufffd8\ufffd \u0011\ufffd\ufffd\ufffd\u001b\ufffdDi&\ufffd\ufffd@Y\ufffdY\u0019@ \ufffd\ufffd[ f\ufffdx\ufffdK\ufffdq\ufffd\u0013l\u054e\ufffd\ufffd\ufffd\u0015\u0672\ufffd \ufffdh\ufffd\ufffd\u0019y\u0018*\ufffd\u0013\ufffd\ufffd9\ufffd\u0000i\ufffd\ufffd:;\ufffd\u0017\u00004v\ufffdU\ufffd!\ufffd\ufffdA\u0007\ufffd#\ufffdjM\ufffd\u05e3\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd6\ufffdN\ufffd\ufffd 0\\\ufffdLI\u0003\ufffd8 v\u0013VW\ufffdT\ufffdD\ufffd\u01c2\ufffd\u0000",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260303212144_c23dd01336.bin"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303210546",
+     "original": "http://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
+     "mimetype": "text/html",
+     "digest": "ASUVZYK6YQL4BOQHAV742HTBKH5OG2IN",
+     "length": "9311",
+     "replay_error": null,
+     "bytes": 35089,
+     "sha256": "d35ab0d5f6577b1af3dd032a027d834a7eac6c07a0987b7319ce94ac5db3ea99",
+     "orig_last_modified": "Tue, 10 Feb 2026 00:04:58 GMT",
+     "orig_date": "Tue, 03 Mar 2026 21:05:46 GMT",
+     "orig_last_modified_local": "2026-02-09 18:04:58",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " Cherokee County - Elections &nbsp; &nbsp; &nbsp; Welcome to Cherokee County, Texas HOME | COUNTY OFFICES | OTHER COUNTY OFFICES | DISTRICT COURT | INFORMATION | DOWNLOAD FORMS | FINANCIAL REPORTS | TREASURER'S REPORT | JOBS &nbsp; Home County Offices Other County Offices County Airport County Health Department Cooperative Extension Office Supervision and Corrections Department Emergency Management Coordinator Human Resource Election Department District Court Information Public Notices Download Forms Financial Reports Treasurer's Report Jobs Election Department How to Register to Vote &nbsp;&nbsp; (External link) Fill out Online Voter Application &nbsp;&nbsp; (External link) After completing an online application you must print out and mail the application to the Cherokee County Election Department --> General Primary Election Day 03/03/26 Saturday 05/03/25 City and School Elections Early Voting: April 22nd - 29th --> City of Alto Election Alto ISD Election Rusk ISD Election Wells ISD Election The County will not be conducting the City or ISD elections but by law must post notice. Please contact the individual entity for more information about their Election. See Notices below. --> 11/05/24 Presidential Election Day --> 11/04/25 Constitutonal Amendments Election --> 11/08/22 General Election --> 05/06/23 General Election for Municipalities and Other Political Subdivisions --> (today this page should auto-refresh every 60 seconds.) --> Check back here after 7pm tonight for Cherokee County results --> Check back here on Election night for Cherokee County results Check back here TONIGHT after 7pm for Cherokee County results --> Results: Early Voting Totals - 7:15pm --> Results: Absentee + Early Voting Totals - 7:01pm --> Results: Early Voting + Mail Totals - 7:30pm --> Results: 8:55pm - 10 of 13 locations reporting --> Results: 9:30pm - All 13 locations reporting --> Unofficial FINAL Cumulative All reporting (PDF) --> Results: Unofficial Precinct Results - All reporting --> Official Cumulative Results (PDF) Official Precinct-by-Precinct Results (PDF) --> Preliminary Reconciliation 11-05-24 (PDF) --> Final Reconciliation 11-04-25 (PDF) Post-Election Hand Count Audit (PDF) --> Orders and Notices of Election: Cherokee County Notice &nbsp(pdf) Cherokee County Order &nbsp(pdf) --> City of Jacksonville MDD &nbsp(pdf) City of Alto &nbsp(pdf) Troup ISD - English &nbsp(pdf) Rusk ISD Order &nbsp(pdf) Rusk ISD Notice &nbsp(pdf) Rusk ISD Notice - Spanish &nbsp(pdf) Wells ISD &nbsp(pdf) --> Cherokee County Notice &nbsp(pdf) --> Notice of Early Voting on Saturday &nbsp(pdf) --> Public Notice of Public Logic and Accuracy Test and First Test of Automatic Tabulating Equipment &nbsp(pdf) CLICK for Previous Election Results --> Application for Ballot By Mail &nbsp;&nbsp; (External PDF link) IN ACCORDANCE WITH TEC Sec. 84.007(b-1); IF YOU FAX OR EMAIL AN APPLICATION, OUR OFFICE MUST RECEIVE THE ORIGINAL WITHIN 4 BUSINESS DAYS. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260303210546_5e6d600d38.html"
+    },
+    {
+     "kind": "page",
+     "timestamp_utc": "20260303233910",
+     "original": "http://www.co.cherokee.tx.us/ips/cms/othercountyoffices/elections.html",
+     "mimetype": "text/html",
+     "digest": "CSUZNZWG75DSH4IESUOFTRXZ5GYMAD2O",
+     "length": "9734",
+     "replay_error": null,
+     "bytes": 8797,
+     "sha256": "a8a46a21711e9049ef112b32ba3ef8405d1db34a3eaaa5218186a79d888bdefe",
+     "orig_last_modified": "Tue, 10 Feb 2026 00:04:58 GMT",
+     "orig_date": "Tue, 03 Mar 2026 23:39:10 GMT",
+     "orig_last_modified_local": "2026-02-09 18:04:58",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": " \ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003\ufffd]\ufffdv\u001b\ufffd\ufffd\ufffdm>\u0005\u009c\ufffd\ufffdD\ufffdK\ufffd%[\ufffd\ufffd(\ufffd\ufffdD\u0012\u0015\ufffd\ufffd3\ufffd\ufffd\ufffd\u0001\ufffd \ufffdv\ufffd\ufffd\ufffd\u0017I\ufffdM\ufffd\ufffdw\ufffd7\ufffdG\u02d3lU\u0001\ufffd\ufffd\u001b\ufffd\ufffd\ufffd9\ufffd\ufffdddu7P\ufffdPU(\u0014\ufffd\u0002\ufffd\ufffd7g\ufffdV\ufffd\ufffd6\ufffd\ufffd_]\ufffd\ufffd\ufffd\ufffd\ufffdN\ufffd\u0015K\ufffd\u02a7F\ufffdR9\ub7e9\u000f{\ufffdj\ufffd\ufffd]n{\ufffdoJ\ufffd[\ufffdJ\ufffd\ufffdxRx\ufffd\ufffd\ufffd\u011fZ\ufffd\ufffd\ufffd\ufffd\ufffd(lzU\ufffd\ufffdR\ufffd]\ufffd\ufffd+]a\ufffd\ufffd+\ufffdl(\ufffd\u00c9p\ufffd\u0017!\ufffd\ufffds9\ufffd*\ufffd\ufffdU\ufffdS\ufffd\"}x?\ufffd\ufffd\ufffd\ufffd\ufffdhd\u000e\ufffdW\u0011\ufffd\u0018b1^\ufffd\ufffd\u000ff\u0000\u0002 ~a\ufffd\ufffd\u0000\u0010\b\u0592\ufffd)\ufffdJ\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd Z\ufffd\ufffd\ufffdj\ufffd\ufffd\ufffd]\u059f\u0004\ufffd\ufffd\ufffd\ufffd]q\ufffd\ufffd\ufffd\u0006\ufffd \ufffd\u000f\ufffd\u001ao\ufffd\u01eb>+\ufffdN\u0014\ufffd\ufffda\u0000\ufffd\u0018a\ufffd\ufffda*|\ufffd&\ufffd\ufffd\u012f\ufffd\ufffdx\\ J\ufffd\u0017\ufffd_\ufffdg\ufffd(2\ufffdt\\\ufffd\u0173_Ad\ufffd\u0013\ufffdz\ufffd?\ufffd\ub7d7\ufffd\u0015O\ufffdt%\ufffdv\ufffd\ufffdDpC\u0017\ufffd\u0452\u0003n1\ufffd\ufffd\ufffd\ufffdlg \ufffd\u02df\ufffd7 \ufffdI9\ufffd\u0004k\u0002\ufffdg\ufffd9\ufffdTfo\u868e\u03f87\ufffd\ufffd\ufffds\ufffd\ufffdE\ufffd\ufffd U*OOO\ufffd1\ufffd\u0001\u001aSn\ufffdp\ufffdC9\ufffd \ufffd\ufffdg\ufffdG\ufffd8\ufffdk\ufffdj\ufffd\ufffdzm\ufffd\ufffd\u007fX\ufffd\u0001\u030a\ufffd\u0017\u0011>)0\ufffdd\u0686|*\u001b\ufffd\ufffd|&\\v\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd=$ \u00056 \ufffda);o\ufffd=JRv\u0002o\ufffd\ufffd\ufffdq0\u0005Vyo\ufffd\ufffd RS\ufffd\u05df\ufffd\u05fb\ufffd\u0016O\ufffd\ufffdb\ufffd\u035b\ufffd\ufffd\u0017`\ufffd\ufffd \ufffd\ufffd\ufffdI\ufffd\ufffd!\ufffd +\ufffd\ufffd\u0002u\ufffdM\ufffd\u0012'-\ufffdK\ufffd\b\ufffd8\ufffd\ufffdv\ufffd3 ** \ufffd\u0388\ufffd\u0015#Wx\ufffd\ufffd4\u000f\ufffd\ufffd\ufffd\ufffd--\ufffd\ufffd\"\ufffd\ufffd\ufffd\u0002\ufffd\ufffd\ufffd|*\ufffd\ufffd\ufffdP\ufffd\u0001W,\u007f\u001a\ufffdV\ufffdl\ufffd/b\ufffd$]\u00cb\ufffd \u001b\ufffd.SM\u0006\ufffd5]\ufffd\ufffd\u0000\u0013\ufffdv\ufffdX> \ufffdF\ufffdg\ufffd\ufffdr \ufffd8-\u0010\ufffdx\ufffde#iY\ufffd)'\ufffdx4\u0001W\ufffd\ufffd|\ufffd\u01b2\ufffde\u0006\ufffdy*=\ufffdL\ufffd \ufffd\u0000g\ufffd\ufffd\ufffdr\u015by\ufffd\ufffdV\ufffd\ufffd\b,h\ufffd\ufffd \ufffd\ufffd#lh\ufffde\ufffd\u0004H\ufffd(C\u0002\ufffd\u00025\ufffd\ufffd\ufffd\ufffd8d\ufffdb\ufffd\ufffd\ufffd\ufffd%\ufffdAmP z\u078f\ufffd\ufffd\ufffd\ufffd\ufffd \ufffdxv\ufffd\ufffdW\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd{\ufffdD\u01d5\u0007\ufffdG\ufffdr\ufffdz%\ufffd\ufffd\u0000t)1\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0006i\ufffd\u0487\ufffd\u0007K\u000e\ufffd%\ufffd\ufffd\ufffd1WX\ufffdE\u0002\ufffdM\ufffd\ufffd\ufffd \ufffd\u0016?P\ufffd \ufffd\u0004\ufffd\ufffd\ufffd\ufffd\u3fd5\ufffd3l\ufffd\u031cB\ufffdd\ufffd|b\ufffd\ufffd\ufffd{\ufffd|,\ufffd;\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdD\ufffd\ufffd\u007f\ufffd\u000e\ufffd\ufffd\ufffd\ufffd\ufffd^ \ufffd\ufffd\ufffd]\ufffd\ufffdQ\ufffd\ufffdG,p\ufffd \ufffd4\ufffd_\ufffd\ufffd\u0001KQiun\ufffd L\ufffd[\ufffdpg\ufffd\ufffd\ufffd\ufffd\u0017@Z\ufffd\u000f\ufffdj\ufffd \ufffd ?pm\ufffd\u000e\ufffd\ufffdG\u0019\ufffd\u0014\ufffd:\ufffd\u0018rH\ufffdJ\u0019\ufffd\ufffd\ufffd\ufffdzN\ufffd5t\ufffd\ufffd\ufffd\u0013\ufffd\ufffd+\ufffdF\ufffdM\u0003\ufffdg\u0013\ufffd(\u0018\ufffd\ufffd%8 \u0004\ufffd\ufffd\ufffd\u0006z\ufffd\ufffd A\ufffdL\ufffd |-o%\ufffd\ufffd |\ufffd\ufffd\ufffd#\ufffd\ufffd\ufffdF\ufffd\u0012 \\3\ufffd\ufffd \u000et\ufffdY\u0007i\ufffdc\ufffdi\ufffd\ufffdq\ufffd\ufffd&\u007fm#\u0012\ufffd\ufffd$\ufffd\ufffd\ufffd\ufffd\u01a6\u001ae\ufffdm\ufffd\ufffd\ufffd\ufffd({\ufffdz\ufffd\u0012\ufffd\ufffd x\ufffd\ufffd\u000fh\ufffd\ufffd\ufffd&\\p\ufffd\ufffdU\" ?bS(\ufffd\u0012\ufffd\ufffd\ufffd\u0005c\u0013/\ufffdMK\ufffd8\u0381\ufffd\ufffd\ufffd\u2114NG\ufffd\ufffds\ufffd\u000f\ufffd\ufffdz\ufffd\ufffd\ufffd. u{\u0010\ufffd>\ufffd\u0018\ufffd\u0015@~\ufffd\ufffdf\ufffd]\u0005\ufffdf\u001ao\ufffd7R-\ufffd\ufffdl\ufffd\ufffd\ufffd6!\ufffdj\u0004\ufffdr\ufffd\u0000\ufffdz\ufffd\ufffd\ufffd'a\ufffd/ \ufffd\ufffdd)\ufffd\u0005 Y9\ufffd \ufffd\ufffd^5\ufffd\ufffd\ufffduF\ufffdL{$\ufffd\ufffd\ufffd}y\ufffd{\ufffdX\ufffd\ufffdt}\ufffdm\ufffd1,?\ufffd\b`\ufffdh[\ufffd\u001b\u000f\ufffd[/\ufffdy\ufffd\ufffd\ufffd\ufffd\ufffd_\u0002\ufffd\ufffds\u077cnu\ufffd\ufffd\ufffd}\u04fd\ufffd\ufffdkpn\ufffd\ufffd \ufffd\ufffdz\ufffd\u0015\ufffd\".\ufffdD\ufffd\ufffd\ufffd\ufffd\ufffd`I=\ufffd\ufffd\ufffdf\ufffd\ufffd}\ufffd\ufffd\ufffd\u0001\ufffd*\ufffdw\ufffd\ufffd \\\ufffdz,\ufffdF\ufffd\ufffd\ufffd\ufffd\ufffd\u0007\ufffdS\ufffd4\ufffd\ufffd\ufffdr\ufffd\u55cc \ufffd,\ufffdQ\ufffdaT\ufffd\ufffdMd;\ufffd\u0223\u059en\ufffd5X9\ufffd@\ufffdV\ufffdm\u00b2\ufffdC\u001a=c-\ufffd\ufffd 9\ufffd\ufffdQ\ufffd \ufffd\u0011\ufffd\ufffd%Fj0 \ufffd\ufffdb\ufffd\ufffd3\ufffdK\ufffd\ufffd0\ufffd\u0011\ufffdp\ufffdC\ufffd 2\ufffd\ufffd\ufffdoB?\ufffdI\ufffd\ufffd\u0006\ufffd\ufffd4\ufffdz\ufffd\ufffd\ufffd{\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0003\ufffd\ufffd\ufffd\u02c4\u0014\ufffd\u0542~4\ufffd\ufffd\ufffd[\ufffd\ufffd \ufffdQ\ufffd\ufffd\ufffd\u001a\ufffd\ufffdy)\ufffdv}Q \ufffdf@\ufffd*\u0003\ufffd\ufffd-q\ufffd.\ufffd\ufffd\ufffd5K\u0017\ufffd\ufffd\ufffd |5\ufffd\u0015[\ufffd\ufffd\ufffd\ufffdo \ufffd\ufffd\u0011C\ufffd\ufffd Q\ufffd\ufffdH\ufffd\ufffd'\ufffd3] \ufffd\u0005\ufffdfg\u0002\ufffda\ufffd\ufffdPZ\ufffdeKT\ufffd\ufffdG;\ufffd%\u0018\ufffd\ufffd|\u001a\ufffd\ufffd\u0011Tb\ufffd\u0006\u0016\ufffd\ufffd\ufffd\ufffdIG\ufffdl\u000e\ufffd\ufffd\ufffd\u03fe\ufffd=l\ufffdJX\ufffdp\ufffd\ufffd-Q\ufffd\u0002\ufffd\ufffd\ufffds\u0018uq\ufffdhI\ufffdM\ufffd\ufffd\u0016p1\ufffd\ufffdA6\u0016\u02d7\ufffd\ufffdz\ufffd\ufffd.\ufffd\u0002\ufffd\ufffd\ufffd\ufffd\u0015M \ufffd\ufffdy\u0019\ufffdv\ufffd\ufffd\ufffd3\u0000\"\ufffd\ufffd\ufffd\u0015\ufffd\u0012 \ufffd\ufffd\u0014[\u0002\ufffd\u0004Sn\u07c6\ufffd.\u02ed\u0014&eaZ\ufffdW\ufffd\ufffde\ufffd\ufffd\ufffd\ufffdQ\ufffd\ufffd B\ufffdY\ufffd\ufffd7\ufffdnN\b3\ufffde P%\ufffd\ufffd\ufffd\ufffd\u0006\ufffdk\ufffd\ufffd\ufffdh\ufffd\u0408$\ufffd\ufffd\ufffd\u047a\ufffdh\ufffd\ufffd\ufffd\ufffd\ufffdQ' \ufffd\ufffd\ufffda\ufffd\ufffd\ufffd\u0019Z.\ufffd\ufffd``\ufffdCv-}e\u0493\ufffd\ufffd \u001b\u0017\ufffd\ufffd?\u001b Ag`\ufffd\u0001\ufffd\ufffdx\u079e \ufffd\ufffd\ufffd\ufffd\ufffd\u001b\ufffda:\u000f8\ufffd\ufffdW\ufffd#Z\u07ff\ufffd\ufffd\ufffd0\ufffdkO\u0017\u000f\ufffdg\ufffd\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\ufffd[ \ufffd\ufffd\ufffdQ!\ufffd> \ufffd\ufffdig] Nq\ufffd\ufffd2S\ufffdX\ufffde\u0010 \u0006.\ufffd\ufffd\u0011\ufffdO\ufffd0\u000el\ufffd\ufffde\ufffd\ufffd\ufffd\ufffdp~(\ufffd3\ufffd\ufffd\ufffd\u0005\ufffdz\ufffd\ufffd\ufffd1\ufffd0@&s:f\ufffd \u0017\ufffd!\ufffd\ufffd\ufffd*\ufffd\ufffd\u007f|A\u03d0\ufffd\u0528V\ufffdq}\u0131\u01d8\ufffd\ufffd\u0000\ufffd\ufffd\ufffd\ufffd\u001bC\ufffd %\ufffd\ufffd\ufffd\ufffdbq\ufffd\u0018 \ufffdp\ufffd\u001b\ufffd\ufffdw!\ufffdpZ\ufffdV\ufffd\u017f\u0011\u0015\u0016\ufffd\ufffd\ufffdp\b@\u0013lq\u0014\ufffd\ufffd\ufffd\u000e:7\ufffd \ufffd\u0017\u0017Y\u0784\ufffdp\ufffd[1s%\ufffdG\ufffd;N\u0653^\ufffd\ufffd -\ufffd\u0013b\ufffd9Y\ufffd\ufffde1\u0019\ufffd\ufffdCp\u04b5q\ufffdC\ufffd]\ufffdt \ufffd\ufffd\u06b6\u0007'\ufffd\u001a\ufffd =^\u0005\ufffd\u007f\ufffd M\\\ufffd\u0004\ufffd\ufffd:\ufffd\ufffdA \ufffd_\ufffd\ufffd3\u0001\ufffd1\b\ufffdu&\u00035\ufffd\ufffd&\ufffd@\ufffd\ufffd[\ufffd\ufffd\ufffdb\ufffd\u39d3\u0003\ufffd\ufffdmzY6\ufffd\ufffd\ufffd\u009c\ufffda\ufffdx\ufffd\ufffdm\u0002\u0015V\ufffdN\ufffd\\\ufffd\ufffdf\ufffdt'!\ufffd}\ufffd\ufffd\ufffd\u48f0\ufffd{\ufffd\u060dkN\ufffd\u001bG\ufffdg\ufffd\u06a8\ufffd\ufffd\ufffd\u0007P\ufffdI \ufffdsR\b\ufffd5IwO\ufffd\ufffdq?p \ufffd\ufffdO4\ufffd\u0015 B?8i\ufffdPY\ufffdOo8\ufffd\u048a\ufffd\ufffd\ufffdJ\"\ufffd:is\u05da\ufffd\ufffdia\ufffd \ufffd\ufffdX\ufffd\u000eyK\ufffd~\ufffdO0G \ufffd\u0012\u0584\ufffd\ufffd\u0011kZ \ufffd\ufffdP*3\ufffdbHD ;\ufffd\ufffd\ufffd n\u0003\ufffd\ufffd\ufffd\u0004\ufffd\u0420-N\ufffd\ufffdFZ\ufffdO\ufffd\ufffd\ufffd\ufffd@\ufffdj\ufffd\u0011 I\ufffdH7\b\ufffd\ufffd9\ufffdR\ufffd#\ufffd\u0001\ufffd\ufffd`\ufffd,\ufffd\ufffd5N\ufffd/\ufffd\u070d2\ufffd\ufffd\ufffd\ufffd'\"\ufffdn&\u04426f>\ufffdF\u0000\ufffd\u0006\ufffdB\ufffd#Ey*]\ufffd\u001ayJ\ufffd\u000fPu!\ufffd\ufffdF\ufffd\ufffdj\u000f\ufffdT\ufffd4\u0000\u0592Oe\ufffdw\ufffd\ufffd\ufffdzP\ufffdU@\u0003\ufffd{ \ufffd\u07f8\ufffd3 D\u00ad\ufffd\ufffd\ufffd+\ufffd:e\ufffdeT X\u00055 | bMhJ\u0006\u0147$E\ufffdUY\ufffd*\ufffdz\ufffd\ufffd\ufffd\u0011} il)\u0007\ufffdzc9ix\u000f\ufffdbW\ufffdm\u000eM\u0007\ufffd5\ufffd\u0004\ufffd@[\"\ufffdR\ufffd 7\u0012_\u000f![/\u0018\ufffd\ufffdL\ufffd\ufffdC\u0015\ufffd\u0004=\ufffd\ufffd/\ufffd\ufffd\ufffd\u0013\ufffdc\ufffd\ufffd\u01bc\ufffd ,\ufffdq`iI\u01f40\ufffd\ufffd\ufffdh T\ufffd'P}\ufffd\uda2f\ude59\u04bfT\ufffdK*\ufffd\ufffd\ufffd\u0109H+\u0010\ufffd\u0013`\u0016\ufffd_h\ufffd\ufffdAu\ufffdx\ufffd\u0019~\ufffdL\ufffd\u02f2q\ufffd*\ufffdB\ufffd~\u0002\ufffd\ufffd\ufffd\ufffdj:\ufffd\u0015\ufffd9 \u0004\ufffd}\ufffd\\P\ufffdH;U\ufffd\ufffd\ufffd\u0005\ufffdvh\u0010v\ufffd\ufffdbrj\ufffd\ufffd^w>^\ufffd\ufffd5]\ufffd\ufffdT\ufffd\u0016rX\ufffdx\ufffd\ufffd E\ufffd\ufffdg\ufffd;\ufffd`\ufffd\ufffd\ufffd#\ufffd[V\ufffd\ufffd\ufffd{\ufffd\ufffd~\ufffd1F\u0144)f}\ufffds\ufffdr%\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdy\ufffd\ufffd Z\ufffd\ufffd\u0000\ufffdnZ}v\ufffd3\ufffd\ufffd\ufffd\u0016r\ufffd4\ufffd\ufffd\u049c\ufffd\u0018\ufffdV \u0005\ufffd\ufffd\ufffdP\ufffdeN\ufffdl\ufffd\uf1e6eR;S\ufffdV\ufffd\ufffd\ufffd\ufffdK\ufffd\ufffd\ufffd\ufffd\u01b2\u0019\u05af\u0002\ufffd@\u0003n\u06ed\ufffdu\ufffds\u0661\ufffdk\u0005\ufffd\ufffd\ufffdL\u000ed\u0337\u0019\ufffdT\ufffd\ufffdn\ufffd_\ufffdFn\u0017\ufffd\ufffd3\u0015\ufffd\ufffd\ufffdwg\ufffd\ufffdf3\ufffd\ufffd\ufffd\ufffd/\ufffdPS\ufffd\ufffd\u001b\ufffdf`\ufffd\ufffdfpS60=x\u029a\ufffd.\ufffd\u0690\ufffd\u0019\ufffd\u0006\ufffd\"\ufffdh\ufffdE\ufffd% \u073cq\ufffd v \ufffd\ufffd\ufffd_\ufffd`\ufffdj\ufffd\ufffd\u007fT\ufffd jY\ufffd\u02d8;\ufffdu^Sgq\ufffd\ufffdJ0\ufffd\u06f3\ufffd-\ufffdG\ufffdi\ufffd\ufffd\ufffd\u0632)\ufffd\ufffd\u057a\ufffd\ufffd\ufffdO\ufffd\ufffd\ufffd\ufffd6\ufffd:;\u04c8\ufffd\ufffd\ufffd'\ufffd)=i?\ufffd\ufffdR\ufffd\ufffdMAm\u0001\ufffd\u0561\ufffd\u001b\u05bc\ufffdw\ufffd`p(\ufffd\ufffd\u0001\ufffd\ufffd\ufffd8@V\ufffdQj\ufffdc\ufffd\ufffd& G\u07d5\ufffdC\u0003q\ufffda\ufffd\u000f\ufffd\u001a\u000e\ufffd\ufffd\ufffd\ufffd\ufffdG,Ta\ufffdf \ufffd\u0491m\ufffd\u000f \ufffd\ufffd\ufffd\u001b\ufffdd\ufffd04\ufffd\ufffddJL\ufffd;\ufffd0\u0014S\ufffd{ \ufffd\ufffd\ufffd\ufffd\ufffd\ufffdf=\ufffd\u06d1\ufffdS\ufffd!\ufffd\ufffd\ufffd *\ufffd}y\u065b\ufffd?\ufffd \u06b4\ufffdm\ufffd\ufffd \ufffd\ufffd\ufffd|\ufffd\ufffd\ufffd\ufffd\ufffdm\ufffdQ\ufffd\ufffd\ufffd\ufffd;\ufffd6Z\ufffd^\ufffd\u007fw{\ufffd\ufffd\ufffd\ufffd\u00eb\ufffd \ufffd\\\u0209\ufffd\u0012\ufffdYO,n\ufffdv#\ufffd\ufffd\u0017\ufffd\ufffdis\ufffdQ\ufffd\ufffd\ufffd\ufffd]\ufffd\ufffd \ufffds\ufffd\ufffd\ufffd\ufffdt\ufffd _\ufffdC\ufffd\ufffd\u0165 \ufffdo=M\ufffd \u000e\u0003\ufffd\u000fg\ufffd/ ;\ufffd\ufffd8}\ufffde\u0006\ufffd\u0012K j^X\ufffd \ufffd%V\ufffd\\\ufffdf\ufffd\u0005\ufffdF\ufffd\u001a4\ufffdS\ufffd\u007f\u0001 \ufffdb=1,\ufffdw{\ufffdj\ufffd\ufffd\u03a0T{\ufffdt\ufffd\ufffd\ufffd\ufffd;v\ufffd\ufffd3\ufffd\u07b2\ufffdU\ufffds\u025a@\ufffd\ufffd\u0006\ufffdM.\ufffd",
+     "printed_on_election_night": false,
+     "saved_file": "2026_primary_20260303233910_5e6d600d38.html"
+    }
+   ]
+  },
+  "2026_runoff": {
+   "cdx": [
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.cherokee.tx.us&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28application%2Fpdf%7Ctext%2Fcsv%7Ctext%2Fplain%7Capplication%2Fvnd.%2A%7Capplication%2Foctet-stream%7Capplication%2Fzip%7Capplication%2Fx-zip.%2A%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": null,
+     "rows": 1
+    },
+    {
+     "cdx_url": "https://web.archive.org/cdx/search/cdx?url=co.cherokee.tx.us%2Fips%2Fcms%2Fothercountyoffices%2F&matchType=prefix&output=json&from=20260526050000&to=20260616050000&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=mimetype:%28text%2Fhtml%7Capplication%2Fjson%7Ctext%2Fxml%7Capplication%2Fxml%29&filter=original:%28%3Fi%29.%2A%28elect%7Cresult%7Cprecinct%7Cpct%7Ccanvass%7Ccumul%7Cunofficial%7Cofficial%7Csovc%7Cstatement%7Csummary%7Cvote%7Creturns%7Ctally%7Creport%7Cgeneral%7Cprimary%7Crunoff%7C2024%7C2026%29.%2A&limit=3000",
+     "error": "URLError: timed out",
+     "rows": 0
+    }
+   ],
+   "versions_found": 1,
+   "versions": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260526205325",
+     "original": "http://www.co.cherokee.tx.us/ips/cms/othercountyoffices/register_to_vote.jfif",
+     "mimetype": "application/octet-stream",
+     "digest": "EKEQNFVVUQPAYJXHA4ABUX7ACN7XMPAK",
+     "length": "9945"
+    }
+   ],
+   "replays": [
+    {
+     "kind": "file",
+     "timestamp_utc": "20260526205325",
+     "original": "http://www.co.cherokee.tx.us/ips/cms/othercountyoffices/register_to_vote.jfif",
+     "mimetype": "application/octet-stream",
+     "digest": "EKEQNFVVUQPAYJXHA4ABUX7ACN7XMPAK",
+     "length": "9945",
+     "replay_error": null,
+     "bytes": 9420,
+     "sha256": "2adf4fb2d13e7f3e438f6334dc5346419ae62209a9774ea8b77e7655260ab3fe",
+     "orig_last_modified": "Thu, 13 May 2021 04:06:07 GMT",
+     "orig_date": "Tue, 26 May 2026 20:53:25 GMT",
+     "orig_last_modified_local": "2021-05-12 23:06:07",
+     "upload_on_election_night": false,
+     "updated_strings": [],
+     "text_sample": "\ufffd\ufffd\ufffd\ufffd\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000\ufffd\ufffd\u0000\ufffd\u0000 \u0006\u0007\u0013\u0010\u0012\u0015\u000f\u000f\u0013\u0016\u0016\u0015\u0015\u0018\u0017\u0018\u0017\u0017\u0015\u0016\u0010\u0015\u0016\u0019 \u001a\u0017\u0018\u0017 \u0018\u0019\u0017\u0018 ( \u0018 & \u0017\u0018!1!%)-...\u0019 383-7(-.+\u0001 \u000e \u000e\u001b\u0010\u0010\u001b.% %-------+------------------------+--------+-+------\ufffd\ufffd\u0000\u0011\b\u0000\ufffd\u0000\ufffd\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001\ufffd\ufffd\u0000 \u0000\u0000\u0001\u0004\u0003\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0006\u0007\b\u0001\u0003\u0004\u0002\ufffd\ufffd\u0000M\u0010\u0000\u0002\u0001\u0003\u0001\u0004\u0005 \u0005\u0004\b\u0002 \u0005\u0000\u0000\u0001\u0002\u0003\u0000\u0004\u0011\u0012\u0005\u0006!1\u0007\u0013AQa\u0014\"2RTq\ufffd\ufffd\ufffd\u0016\u0017\ufffd\ufffd\ufffd\u0015#B\ufffd\bSbrs\ufffd\ufffd\ufffd45$3Cc\ufffd\ufffd\ufffd\ufffd\ud8c8\udce3\ufffd\ufffd\ufffd\ufffd\u0000\u001b\u0001\u0001\u0000\u0001\u0005\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0001\u0002\u0003\u0005\u0006\u0007\ufffd\ufffd\u00002\u0011\u0000\u0001\u0003\u0002\u0003\u0006\u0005\u0004\u0003\u0000\u0003\u0001\u0000\u0000\u0000\u0000\u0001\u0000\u0002\u0003\u0004\u0011\u0005!1\u0012\u0013AQ\ufffd\ufffd\u0006\u0014\u0016Rq2a\ufffd\ufffd\"\ufffd\ufffdBb\ufffd$\ufffd\ufffd\u0000 \u0003\u0001\u0000\u0002\u0011\u0003\u0011\u0000?\u0000\ufffd(\ufffd\ufffd;\ufffd\ufffd^E\ufffd!\u0001\ufffda\ufffd>\ufffd\u000e\ufffdGi=\ufffd\ufffd\u0000f\ufffd80\\\ufffd\ufffd\ufffd\ufffdO \ufffd1rS\ufffd4T\u0001.\ufffd\u07b9\u0278\ufffdx\u0002\u0000\ufffd\u0000+_\ufffd\ufffd\ufffdh\ufffd\ufffd5\u0017\ufffd3\ufffd]\u0010\ufffdM\ufffd\ufffd\ufffd\ufffd \u0015_>\ufffd^\ufffdD\ufffdY\ufffd\ufffde\ufffdM\ufffd\ufffd\ufffd\ufffdg\"\ufffd\ufffd\ufffd\ufffd\ufffd\ufffde`\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd&\ufffd\ufffd k/}\ufffdo\ufffd\ufffd\ufffd3\ufffdOJ\ufffd\ufffd\ufffd\u05f2\ufffdtU|\ufffdY{\ufffd\u0013}F\ufffd\ufffd\ufffd\ufffd\ufffd7\ufffdj\ufffdy\ufffd\ufffdzV\ufffd\ufffd\u07bd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdh\ufffd\ufffd5\ufffd\ufffd\ufffd\ufffd\ufffd7\ufffdi\ufffd\u0227\ufffdj}\ufffd\ufffd\ufffdXJ*\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdG\ufffd\ufffd\ufffdh\ufffd\ufffd5O \ufffd^\ufffdD\ufffdY\ufffd\ufffdg\"\ufffd\ufffd\ufffd\ufffd\ufffd\ufffde`\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd&\ufffd\ufffd k/}\ufffdo\ufffd\ufffd\ufffd3\ufffdOJ\ufffd\ufffd\ufffd\u05f2\ufffdtU|\ufffdY{\ufffd\u0013}f\ufffd\ufffd\ufffd\ufffd\ufffd7\ufffdi\ufffd\u0227\ufffdj}\ufffd\ufffd\ufffdX:*\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdG\ufffd\ufffd\ufffdh\ufffd\ufffd4\ufffd\ufffd\ufffdS\u04b5>\ufffd\ufffd\ufffd\u0011\ufffdU}M\ufffd\ufffd\u0007\"\ufffdO\ufffd?\ufffdO\ufffd\ufffd\u07e6\ufffd\u0175\ufffd5\ufffd\ufffd\ufffd`1\ufffdXv \ufffd9\ufffd\u0000 g\ufffd\ufffdY\ufffd[\ufffdR\ufffd[\ufffdbW\ufffdR\ufffd\ufffd\u0019\ufffd8\ufffd\ufffdY*$\u0772\ufffdC\ufffdh\ufffdUH\ufffd\ufffd\ufffd_\ufffd\u0005\u037b;z\b\ufffdK\ufffdA\u0017V\ufffd\u0011\ufffd\ufffd\ufffd\u00101\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdl\ufffdT4x\ufffd\u0003\u001aq\ufffd X\ufffdeV\ufffdS_EE\ufffd\ufffd\ufffdbF\ufffd \u000f` 0 4\ufffd\u0466\u0637\ufffd-\ufffd\ufffd5\ufffd?\ufffd\ufffdBe\ufffd\ufffd\u034fK\ufffd\ufffd\ufffd\ufffd\u034d\ufffduu\ufffdkb\u03e9\ufffd1\ufffdI A'\ufffd\\\ufffdp~\"\ufffd\u000e\ufffdv\ufffdj\u07c5\ufffdQ`qy-\ufffd\u0479\ufffdk\ufffd\ufffd\ufffd\u062c\ufffdf\ufffd\ufffdh:\ufffdK\ufffdQ\ufffd'\ufffd:FsJy\ufffd\ufffd7 \u03c8\ufffd!%m\u06e8!\ufffd\ufffd\ufffd\u04e1y\ufffd s\ufffd\u0001\ufffdOuA\u001bR\ufffd&\ufffd\u0291\ufffdhH \ufffd\u0014\u00005v\ufffd\uf9ffLE\ufffd\ufffd m\ufffd\u000e\ufffd\u0475\ufffd\ufffd\ufffd\ufffd\u04b2\ufffdr\u00162\u0223\ufffdr~$\ufffd\u0017P\u07ab\ufffd-^\ufffd\ufffd\ufffdO\ufffd\ufffd\u0003z\ufffd\ufffd\u0462\ufffd\ufffd\ufffd&\ufffd\ufffd@. t\ufffd\ufffd \ufffd?KQ\ufffd7\ufffd~\ufffd\ufffd6G\ufffdl\ufffd\ufffd'\ufffd\ufffd\ufffdQ,\ufffd\u0012\u0005\ufffd\ufffd\ufffd%\ufffd\ufffd\ufffd\ufffdv\u01c4\ufffd\ufffd9+)g\ufffd6u\u000f\ufffdc|\ufffd\ufffd_\ufffds\ufffd(\ufffd\\\u0013\ufffd\ufffd\ufffd\u0005Oh\ufffd`\ufffd \ufffd\ufffdT\ufffd-GR\ufffd\ufffd\ufffdZ\ufffdeyn\ufffd\ufffdZ()\u0004\ufffdf\ufffd 9e\ufffd ]=\ufffdn\ufffd\ufffd;H\ufffd\ufffd\ufffd\u02e8:\ufffd\ufffd\u0010I'\ufffdQ\ufffds\ufffdq\ufffdo\ufffd\ufffd\ufffd\ufffd\u0000K\ufffd\ufffd\ufffd\ua7e5\ufffd\ufffd{\u065bVZ\ufffdX*\ufffdl\ufffd\ufffdok\ufffd\u007f\ufffd\ufffd\ufffdo]\u05fe\ufffdy\u044e\ufffd \ufffd>\u0014\ufffd\ufffd7\ufffd\ufffd\ufffdIkq \ufffdit\ufffdH \ufffd\ufffdyr\ufffd3\ufffd\u0014\ufffd\ufffdw\ufffdO\ufffd\ufffdy3\ufffd\ufffd\ufffd\ufffdp\ufffdAq}V\u00190\ufffdG\ufffd\ufffdd\u0002\ufffd\u0010FZ|-t\ufffd\ufffd\ufffd\ufffd\ufffd\u0012I;)v)\ufffd\u0014 \ufffd\u0004\ufffd\ufffd\u000e\u0003\ufffd\ufffd\u0017\ufffd\ufffd\ufffd\ufffd\u0000K\ufffd\ufffd7\ufffd\ufffd\u0000K\u054cs\ufffdv\ufffd\ufffdS\u0014U\u0011\ufffd\ufffd9 sN \ufffd\ufffd\ufffdW'\ufffd\ufffd4\ufffdX\ufffd(\ufffd\ufffd\ufffd~t\ufffd\ufffdzF\ufffd\ufffd 8\ub4fc\ufffdq\ufffdnM\ufffd\ufffd\ufffd3\ufffd\ufffd\ufffd\u007f\ufffdQ\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd4\ufffd\ufffd\\\ufffd\ufffd\ufffd\ufffd] \u8c76\ufffd\ufffd\ufffdtmy\ufffdY\ufffd \ufffdF*\ufffd}\ufffd_{=\ufffd\ufffd\u007f\ufffd*_\ufffd\ufffd\ufffd7[6=\ufffdw\ufffd,\ufffd\ufffd\ufffd\ufffd\"\ufffdf\u0019\ufffd (\ufffdF\ufffd3\ufffd\ufffdls\ufffd\ufffd\ufffd]}cF\ufffd\ufffdYC0>h\ufffd\u0016#\ufffdI \ufffdo\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd}\ufffd\ufffd\ufffd=\ufffd\ufffd\u007f\ufffd(\ufffd\ufffd\ufffd5\u0016\ufffd^\ufffd.'\ufffd\ufffd{Q\ufffd\ufffdK\u0004\ufffd\u0015@\ufffd\ufffd#\ufffd^\ufffd[9\ufffd\ufffd\ufffdG!L\ufffd\ufffd\ufffd\ufffdg\ufffd\ufffdO\ufffd\ufffd\u0011X\ufffd5\ufffd \ufffd\ufffd\ufffd[\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffdROG]\"E\ufffd\u0003\u01e0\ufffd X\ufffd \u0651O\u001a#\ufffd\ufffd\ufffd(rd \ufffdN\u0019\ufffd#\ufffd\ufffd\ufffd\u007f\ufffdw \ufffdK\ufffd\u0000\ufffdj\ufffd7;b\u037065\ufffd\u06ea\ufffdK/Z\ufffd\ufffdUt\ufffd*6\b\ufffd\u0019$\ufffd\ufffdlvT\u0001\u007fpf\ufffd\ufffd`\u0001vf r\ufffd\u0012\ufffd h\ufffd\ufffd\ufffd\ufffd>\ufffd\u0616\ufffd[\ufffd\ufffd\u0190L\ufffd\ufffd\ufffdE\ufffd\ufffdyd\ufffd8\ufffd\u0002\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd4\u0391\ufffd\ufffd\ufffd\ufffd!\ufffd|\ufffd\ufffd}4o\u0003\ufffd|\ufffdC\ufffd\ufffd\ufffdvw~\ufffd\ufffd\u0019:\ufffd\u0016\ufffdA\ufffd\ufffd \ufffdF\ufffdg$\ufffd:A>\ufffdkm]\ufffd\ufffd}\ufffd-6\ufffd\ufffd]#\ufffd\ufffd]\ufffdt8\u0005\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \u0007a\ufffd(\ufffdN\ufffdy,oK\ufffdm!\ufffd\ufffdT\ufffd\ufffdj\ufffd:dd\ufffd\ufffdX\u029e\\8\ufffdG\ufffd] \ufffd\ufffd6\ufffd3\ufffd\u0329\u000e\u000fU\u0555\ufffd\u75de\ufffd\u03bf\u000eT\ufffd\ufffd \ufffdN\ufffdgh\u0014e\ufffd\u0011\ufffd1\u0018\u000e\ufffd\ufffd \ufffd\u0001\u01128p\u0014\ufffd\ufffd\ufffdm=\ufffd\ufffd\u008a\ufffdnX\ufffd\ufffdd\u0005\u0001\ufffd\\\u0011\ufffd#\ufffd4E\u000etR\ufffd\ufffdk@@#\ufffd \ufffd\u0014[:(\ufffdTO\ufffdB\ufffd\ufffd\b\ufffd\ufffdP[H\ufffd\ufffd\ufffd\u0011B\u06ed\ufffd\ufffdm\u0007\ufffd8\ufffd\u0010\ufffd \ufffdK\ufffd\ufffdT\ufffd@\ufffd \u0014\ufffd\ufffd\ufffd%\ufffdl\ufffd\ufffdte\ufffd\ufffd\"\u0005\u0555\u0001\ufffda\ufffd\u0000\ufffd \ufffd\u05be\ufffd\ufffd6\u04fc`A\u0006y\b \ufffd =\ufffds\ufffd\u0015\ufffd\ufffd3l\ufffd\"\ufffd \ufffd\ufffd\ufffd\ufffdTr\ufffd\ufffd\ufffdNt\ufffdF\ufffd\ufffd.\ufffd\ufffd3\ufffd~.\u0654\ufffd\ufffd\ufffd\ufffdj\ufffd:\ufffdEmY\u0018\ufffd[\ufffd \ufffd\ufffd\ufffdn$\ufffd\\L`\ufffd(\ufffd\ufffd\ufffd\ufffd\ufffdc:\ufffdc\u001aT\ufffd\ufffd\ufffd??\ufffd\ufffd\ufffd\ufffdf\u0001\u0004\ufffd\ufffd###&,ds\u0019\ufffdGG\ufffd\ufffd\ufffdTLZ\ufffd;~\ufffd\ufffd\u001a\ufffd Z\ufffd\ufffd\ufffd\ufffd\u0018\ufffd\ufffd\u0388\ufffd\ufffd n%\ufffd\ufffd\u0542Y\ufffdE\u001b\ufffd \ufffdn\ufffdA\ufffd0\ufffd\u0013\ufffd\ufffd\ufffdF\ufffd\ufffdclM\u00daB\u007f\ufffdj?\u04a7M\ufffd\ufffd \ufffd\ufffd\u0232\ufffdb\ufffd\u0016e \ufffdLe5g\ufffd\ufffd1\ufffd9\ufffdoJ\u001b\ufffdm\ufffd/\u0004\u03f4\ufffd\ufffd\ufffdbTd\ufffd\ufffd\u05d0Y\ufffd\u0010dR80\ufffd\ufffd'\ufffdE\ufffdF\u0273\u0004c\ufffd \ufffd\ufffd#\ufffd\u04f2\ufffd\ufffdv8\ufffd\ufffd\b\ufffdd\ufffd\"DWB \ufffdE \ufffdA#\ufffd{\ufffdV\ufffd\ufffd(\ufffd\ufffd\ufffdE\u0015\u0011o'Kr\ufffd]Ml-\ufffd\ufffdNT1w\u0004\u3d0cT\ufffdZ9\ufffd\ufffdY\b\ufffd\u0019\ufffd\\\ufffd\ufffdT\ufffdQwJ \u001bM\ufffd\ufffdc\ufffd\ufffdh\ufffd \u0010\ufffd\ufffd\u000f\ufffdu\ufffdg\ufffd\ufffd\ufffdR\u000f\ufffd|\ufffd\ufffd \ufffd?\ufffdG\ufffdt\ufffd\ufffd \ufffd?\ufffd[/O\ufffd \u03a3\ufffd\ufffdz\ufffdk\ufffd\ufffd\ufffd-sku\u0005\ufffd\\B\ufffd\u0014\ufffd\ufffdT,\ufffd!X1\u0003#\ufffd \ufffd\ufffd`YU\ufffd\ufffdC#\u0002\ufffd\ufffdd\u0010F\b#\ufffd\u0011P\ufffd\ufffd|\ufffd\ufffd \ufffd?\ufffdG\ufffdt\ufffd\ufffd \ufffd?\ufffdOO\ufffd \u03a3\ufffdo[\ufffdgy\ufffd \ufffdM\ufffd:\ufffd\ufffd\ufffd\ufffd`\ufffd/\ufffdE\ufffd#\ufffd\ufffd|Mql\ufffd\ufffd\ufffd. \ufffd\ufffd\ufffdH\ufffd\u0000\u0011\ufffd\u0000Jz\u007f\u0010\ufffdu \ufffdo5\u057f\ufffd\u0010M}{%\u0764\ufffd\u01b2\ufffd_\ufffd\u03bca\ufffd\u04a4`\ufffd y4\ufffd\ufffd\ufffdu?eY\ufffdf*\u0496g\ufffd\ufffdV\ufffd\u01c0\ufffd@8 \u0000\ufffdQ\ufffd\ufffd|\ufffd\ufffd \ufffd?\ufffdG\ufffd|\ufffd\ufffd \ufffd?\ufffdOO\ufffd \u03a3\ufffdo[\ufffdI{\ufffdV\ufffdR \ufffd\ufffdNW%$_M \ufffd\ufffd \ufffd\ufffd\ufffdw D\u0017\ufffd\u0003]\u0006\"\u001b\ufffd\u0019; \ufffdco\ufffd \ufffd\ufffdO\ufffd\ufffd\ufffd\ufffd?\ufffd\u007f\u048f\ufffd\u9f52?\ufffd\u007f\u049e\ufffd\ufffd=\ufffdGt\u07b7\ufffdV\u070e\ufffd\"\ufffd\ufffdnod\u0013\u02042\u01ab\ufffd\ufffd\u000eD\ufffd\ufffd\ufffd\u0007\ufffd\ufffd+k\u0699\ufffd\ufffd\u0010@2F\ufffd \ufffd )\\\ufffd\ufffdC\ufffd\u0000}\ufffd{$\u007f\ufffd\ufffd\u0000\ufffd }\ufffd{$\u007f\ufffd\ufffd\u0000\ufffd=?\ufffd{:\ufffd\ufffdo4\ufffd\ufffd u\ufffdP}2\ufffd\ufffd&t_\ufffd2l\ufffdi-\ufffd$/)\ufffd\u0014 \u0006 \"\ufffd\ufffds\ufffd?:c}\ufffdM\ufffd\ufffd#\ufffd\ufffd}\ufffdM\ufffd\ufffd#\ufffd\ufffd\ufffd\ufffd!\ufffd\ufffd;\ufffd\ufffd\ufffd\ufffd\u007fH \u0014\\m+\ufffd/#\ufffd$W\b\u0002\ufffd}^j\u00059\ufffd\ufffde7~\ufffd.\ufffd\ufffd\u000f\ufffd_\u0494\ufffd\ufffd\ufffd\ufffdX\ufffd\u0000\u0011\ufffd\u0000J>\ufffd\ufffd\ufffdH\ufffd\u0000\u0011\ufffd\u0000Jz\u007f\u0010\ufffdu \ufffdz\ufffdk\ufffdr:#\ufffd\ufffd\ufffd\ufffd\ufffdIq\u0013\ufffdE\ufffd %\ufffdr\ufffd\ufffd21\ufffd[7\ufffd\ufffd{\ufffd\ufffd}-\ufffds\u010a\ufffd\u0000 W\ufffd\ufffdNp1\ufffd\\?}\ufffd{,\u007f\ufffd\ufffd\u0000\ufffd }\ufffd{$\u007f\ufffd\ufffd\u0000\ufffd=?\ufffd{:\ufffd\ufffdo5(\ufffd^\ufffdk\u001b(,\ufffdef\ufffdJ\ufffd]ZO\ufffd\u01c6x\ufffd\ufffd\ufffdB }\ufffd{$\u007f\ufffd\ufffd\u0000\ufffde:m\ufffd\ufffd \ufffd3 \ufffdH\ufffd\ufffd \ufffdy\ufffd\ufffd\ufffd\ufffd\ufffd]{?\ufffd}\ufffd.5G @\ufffd\ufffd\"\ufffd\u4e8dM\ufffd\ufffd\ufffd\u02f3\ufffd#\ufffd\\\u0016 s\ufffd\ufffd'>\ufffd\ufffdv\u000f\u0000+o\ufffd\ufffd\ufffd\u0016\ufffd;\ufffdy \ufffd+UM\ufffd\"te-\ufffd\ufffd\ufffd\ufffdh\ufffdu b9e\ufffd\u000e\u001a\ufffd\ufffd\ufffd#\u0019\ufffd8\ufffd \u0011\ufffd\ufffd\ufffd\u001b\ufffdDi&\ufffd\ufffd@Y\ufffdY\u0019@ \ufffd\ufffd[ f\ufffdx\ufffdK\ufffdq\ufffd\u0013l\u054e\ufffd\ufffd\ufffd\u0015\u0672\ufffd \ufffdh\ufffd\ufffd\u0019y\u0018*\ufffd\u0013\ufffd\ufffd9\ufffd\u0000i\ufffd\ufffd:;\ufffd\u0017\u00004v\ufffdU\ufffd!\ufffd\ufffdA\u0007\ufffd#\ufffdjM\ufffd\u05e3\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd6\ufffdN\ufffd\ufffd 0\\\ufffdLI\u0003\ufffd8 v\u0013VW\ufffdT\ufffdD\ufffd\u01c2\ufffd\u0000",
+     "printed_on_election_night": false,
+     "saved_file": "2026_runoff_20260526205325_c23dd01336.bin"
+    }
+   ]
+  }
+ }
+}
