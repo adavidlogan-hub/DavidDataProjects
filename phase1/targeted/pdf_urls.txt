@@ -1,19 +1,7 @@
-# Run 4: Wichita election_stats posts (WordPress sitemap shows them last edited on election night).
-# A capture made before the next edit shows the election-night content.
-https://wichitacountytx.com/election_stats/ from=20241105 to=20241231
-https://wichitacountytx.com/election_stats/ from=20260303 to=20260430
-# Kerr: archived copies of the old results page (17 captures Mar 3 to 24, 2026, not saved by the sweep).
-https://legacy.co.kerr.tx.us/elections/results/ from=20241105 to=20241115
+# Run 7: retry of run 6 lines that timed out at the archive.
+https://www.mclennan.gov/546/Current-Election-Results from=20241105 to=20241231
+https://www.mclennan.gov/546/Current-Election-Results from=20260303 to=20260430
 https://legacy.co.kerr.tx.us/elections/results/ from=20260303 to=20260324
-https://legacy.co.kerr.tx.us/elections/results/ from=20260526 to=20260605
-# McLennan: archived copies of the Current Election Results page (CDX rows found by the sweep, never saved).
-https://www.mclennan.gov/546/ from=20241105 to=20241126
-https://www.mclennan.gov/546/ from=20260303 to=20260324
-https://www.mclennan.gov/546/ from=20260526 to=20260616
-# Hays: archived copies of the county's egovlink election folders and election pages.
-https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/ from=20241105 to=20241126
-https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303 from=20260303 to=20260324
-https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0526 from=20260526 to=20260616
-https://www.hayscountytx.gov/elections/ from=20241105 to=20241108
-https://www.hayscountytx.gov/elections/ from=20260303 to=20260306
-https://www.hayscountytx.gov/elections/ from=20260526 to=20260529
+https://legacy.co.kerr.tx.us/elections/results/ from=20241105 to=20241115
+https://www.hayscountytx.gov/elections/20260303 from=20260303 to=20260310
+https://www.hayscountytx.gov/elections from=20260303 to=20260305
