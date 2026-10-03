@@ -68,5 +68,13 @@
    "what_i_checked": "No captures in any window; 2024 CDX request failed (connection refused)"
   }
  ],
- "written_blind_at_utc": "2026-10-03T00:08:25Z"
+ "written_blind_at_utc": "2026-10-03T00:08:25Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "Same (LATER, check 2). Both rest on the same unlinked election-night county-totals file 'Election Day General November 5 2024 .pdf' (printed 11/05/2024 09:56PM, Last-Modified 04:03:28 GMT = 10:03 PM CST) and the Nov 19 official Pct. by Pct. report as the first precinct numbers; I confirmed the hash (8c2ee494...), times and that all 24 pages are county summaries. Both note the caveat that folder 0060 is not a complete record of election-night postings; I add that the same folder held an election-night unofficial precinct report for the May 3, 2025 election (Last-Modified 04 May 2025 02:38:21 GMT), so the county does sometimes post precinct reports on election night; none is known for Nov 2024, so condition (ii) of the DECISIONS 67 reading is met on present evidence.",
+  "2026_primary": "Same (UNDETERMINED). Both found the unofficial primary files only as names (HTTP 404 or empty 'Document Open' pages) and only Official_*_2026 reports surviving. Research fact still says 'Check 3 pending'; the wayback-data branch now has a Grayson index with no captures (CDX empty), so check 3 is done with nothing found.",
+  "2026_runoff": "Same (UNDETERMINED). Only official runoff files (folder 3854) found by both. Research fact text 'No 2026 runoff results listed on the elections pages' is superseded by its own pass 4 note (elec.history lists official runoff files); 'Check 3 pending' is stale as above.",
+  "unsupported_or_stale_claims": "No research claim is contradicted by the cited sources. Stale: 'Check 3 pending' in the primary and runoff facts and 'origin/wayback-data not present' in notes (the branch exists; Grayson has no captures, 2024 CDX request refused). Not checkable: the Howe Enterprise article date ('runoff night'), since the fetch module refuses that host; it is not used for any result. Seed-URL 403 claim: my fetch of the seed URL returned a cached 200 that rendered the county homepage; immaterial."
+ }
 }
