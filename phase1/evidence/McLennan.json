@@ -1,72 +1,72 @@
 {
-  "county": "McLennan",
-  "tag": "UNKNOWN",
-  "confidence": "low",
-  "elections_office_phone": "",
-  "elections_office_email": "",
-  "results_url": "https://www.mclennan.gov/546/Current-Election-Results",
-  "platform": "county_pdfs",
-  "host": "www.mclennan.gov",
-  "evidence_url": "",
-  "evidence_snapshot_timestamp": "",
-  "precinct_first_seen_local_time": "",
-  "stated_change_2026": "n",
-  "stated_change_source": "",
-  "usage_notice_text": "",
-  "notes": "Seed URL redirects to www.mclennan.gov (CivicPlus; documents on tx-mclennancounty.civicplus.com). No Clarity site (elections.json 404). The 'Current Election Results' page now says 'Please click on Past Election Results for reports from the March 3, 2026 Joint Primary Election, May 2, 2026 ...', so election-night results were evidently shown there and later moved to the Archive Center (Archive.aspx AMID=66). The archive entries list Cumulative, Canvass and Precinct PDFs per election; the runoff ones are dated 6-2-2026 (canvass). The Elections page's Last-Modified equals the request time (dynamic page, no upload evidence). Election-night content cannot be determined from the current site; check 3 (Wayback captures of /546/Current-Election-Results) should settle all three elections. Targeted pass 3 2026-10-02 (targeted3-A): no election changed. Tried: Archive Center list (Archive.aspx?AMID=66) and the 2026 primary entry (ADID=3372): Democratic and Republican 'Cumulative', 'Canvass' and 'Precinct' PDFs all carry canvass-time names (e.g. Republican-Party---Precinct-Results-3-10-2026-01-26-32-PM), like the 2024 general (11-13-2024) and runoff (6-2-2026) entries; election pages /1336 (March 3, 2026) and /1345 (May 26, 2026) list only notices, ballots and vote center files. Lead only: DocumentCenter/View/15785 'Results Page' (found by web search; the civicplus.com copy is robots-disallowed, the www.mclennan.gov copy loads) is the March 5, 2024 primary election-night 'Cumulative Results Report ... Unofficial Results ... Precincts Reporting 182 of 182 ... Run Time 10:52 PM Run Date 03/05/2024' (county totals), so the Current Election Results page used election-night cumulative PDFs in 2024; not a target election and Last-Modified there is the request time. Check 4: KWBU 2026 primary results page (published 2026-03-04T11:38Z) and KWBU Nov 5 2024 live updates show county totals and narrative only, no per-precinct numbers. Wayback main harvest targeted co.mclennan.tx.us only (connection refused); no phase1/targeted/ folder for McLennan; web.archive.org is unreachable from this environment; sweep pending. Targeted pass 4 2026-10-02 (targeted4-A): no election changed. Tried: public DocumentCenter page (folder listing loads only from /admin/DocumentCenter endpoints, which robots.txt disallows, so not used; tx-mclennancounty.civicplus.com disallows all); sitemap.xml (lastmod only: 546 Current-Election-Results 2026-06-16, 1345 runoff page 2026-05-26, no election-night files listed); Archive Center entries for March 5 2024 (ADID=3165) and Nov 4 2025 (ADID=3341) for comparison: like the target elections they hold only canvass-time Cumulative/Canvass/Precinct PDFs, while the March 2024 election-night 'Results Page' (DocumentCenter/View/15785, CreationDate 2024-03-06 04:54:47 UTC = 10:54 PM CST, county totals) is not in its archive entry, so election-night files are kept outside the archive and their IDs are not linked anywhere found (DocumentCenter IDs were not enumerated); WordPress upload log of the City of Bruceville-Eddy (bruceville-eddy.us, which reposts county reports): no county report uploaded on any of the three election nights; check 4: KWTX 'Jeremy Davis to face Donis D.L. Wilson...' (published 2026-03-04T05:34Z = 11:34 PM CST) and KWBU Nov 2024 and March 2026 pages give county totals and narrative only, no per-precinct numbers and no links to county files; Waco Tribune-Herald and AOL leads were off-topic or 404; www.mclennanvotes.com refused by the fetch module (robots_disallowed_or_unreachable); 7 web searches (search text only, lead: an index summary describing the Current Election Results page during the runoff as listing election-night PDFs with 'Vote Centers Reporting', turnout totals and the preliminary reconciliation log; not evidence). Sweep pending (no phase1/targeted/sweep/McLennan on wayback-data at finish). Targeted pass 6 2026-10-03 (targeted6-A): no election changed; tag and results unchanged. Tried (third-party election-night copies): (1) County party sites: McLennan County Republican Party (mclennanrepublicans.org, WordPress 7.1.2): /wp-json/wp/v2/media and /wp-json/wp/v2/posts return HTTP 401 (login required, not pursued); its public /elections/ page only points to the county elections website ('Election Results Historical Election Results Visit Now') and /category/election-notices/ lists only 'Notice of Conventions 2026'; McLennan County Democratic Party site (www.mclennandemocrats.com) is refused by the fetch module (robots_disallowed_or_unreachable). (2) GitHub/civic repositories: one web search found none; api.github.com repository search returns HTTP 403. (3) City and other entity reposts: web searches found only Bruceville-Eddy canvass-time reposts (City-of-Bruceville-Eddy-Canvass-Report-11-13-2024-04-15-25-PM, recorded earlier) and no city repost of an election-night precinct report; mclennan.gov DocumentCenter/View/775 and /769 (search leads) are voter-registration reports ('Voter Count by Precinct and Status', 'Voter Registration District Directory Report'), not results. (4) Local media: Waco Tribune-Herald '2024 election results for Waco and Texas' (article_20314172..., published_time 2024-11-06T15:00:00Z) embeds AP result widgets and a Flourish table (flo.uri.sh/visualisation/19475668) whose data are county totals per race ('McLennan County Commissioner, Precinct 2 (unexpired term) / 100% of vote centers reporting / Jeremy Davis (D) 7108 47.3'), no per-precinct numbers; Baylor Lariat ?p=123205 is a pre-primary guide (2026-02-18). (5) wayback-data re-read at start and finish: phase1/targeted/sweep/McLennan is present with 0 versions; it reports CDX rows for the page prefix mclennan.gov/546/ (1 row in the 2024 general window Nov 5 to Nov 26, 3 rows in the 2026 primary window Mar 3 to Mar 24) but saves no capture or timestamp. Lead: a Wayback harvest of www.mclennan.gov/546/Current-Election-Results (the main harvest targeted only co.mclennan.tx.us) might settle 2024_general and 2026_primary if any of those captures fall on election night. 8 web searches, 14 fetches. No third-party per-precinct candidate numbers with an election-night time were found.",
-  "tag_rationale": "No election was determined (all UNDETERMINED), so the rule gives UNKNOWN.",
-  "agent": "research-5",
-  "method_version": "v2",
-  "elections": {
-    "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "check 3 pending; the archive entry for Nov 5 2024 lists cumulative, canvass and precinct reports without dates on the page; election-night posting (on the Current Election Results page) is not visible now"
-    },
-    "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "check 3 pending; results moved to the Past Elections archive; election-night posting not visible now"
-    },
-    "2026_runoff": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "check 3 pending; the archive entry lists Democratic and Republican 'Cumulative', 'Canvass' and 'Precinct' reports whose file names carry run times of 6-2-2026 (e.g. Republican-Party-Precinct-Report-6-2-2026-09-47-38-AM), i.e. canvass-time reports; what the Current Election Results page showed on election night is not visible now"
-    }
+ "county": "McLennan",
+ "tag": "UNKNOWN",
+ "confidence": "low",
+ "elections_office_phone": "",
+ "elections_office_email": "",
+ "results_url": "https://www.mclennan.gov/546/Current-Election-Results",
+ "platform": "county_pdfs",
+ "host": "www.mclennan.gov",
+ "evidence_url": "",
+ "evidence_snapshot_timestamp": "",
+ "precinct_first_seen_local_time": "",
+ "stated_change_2026": "n",
+ "stated_change_source": "",
+ "usage_notice_text": "",
+ "notes": "Seed URL redirects to www.mclennan.gov (CivicPlus; documents on tx-mclennancounty.civicplus.com). No Clarity site (elections.json 404). The 'Current Election Results' page now says 'Please click on Past Election Results for reports from the March 3, 2026 Joint Primary Election, May 2, 2026 ...', so election-night results were evidently shown there and later moved to the Archive Center (Archive.aspx AMID=66). The archive entries list Cumulative, Canvass and Precinct PDFs per election; the runoff ones are dated 6-2-2026 (canvass). The Elections page's Last-Modified equals the request time (dynamic page, no upload evidence). Election-night content cannot be determined from the current site; check 3 (Wayback captures of /546/Current-Election-Results) should settle all three elections. Targeted pass 3 2026-10-02 (targeted3-A): no election changed. Tried: Archive Center list (Archive.aspx?AMID=66) and the 2026 primary entry (ADID=3372): Democratic and Republican 'Cumulative', 'Canvass' and 'Precinct' PDFs all carry canvass-time names (e.g. Republican-Party---Precinct-Results-3-10-2026-01-26-32-PM), like the 2024 general (11-13-2024) and runoff (6-2-2026) entries; election pages /1336 (March 3, 2026) and /1345 (May 26, 2026) list only notices, ballots and vote center files. Lead only: DocumentCenter/View/15785 'Results Page' (found by web search; the civicplus.com copy is robots-disallowed, the www.mclennan.gov copy loads) is the March 5, 2024 primary election-night 'Cumulative Results Report ... Unofficial Results ... Precincts Reporting 182 of 182 ... Run Time 10:52 PM Run Date 03/05/2024' (county totals), so the Current Election Results page used election-night cumulative PDFs in 2024; not a target election and Last-Modified there is the request time. Check 4: KWBU 2026 primary results page (published 2026-03-04T11:38Z) and KWBU Nov 5 2024 live updates show county totals and narrative only, no per-precinct numbers. Wayback main harvest targeted co.mclennan.tx.us only (connection refused); no phase1/targeted/ folder for McLennan; web.archive.org is unreachable from this environment; sweep pending. Targeted pass 4 2026-10-02 (targeted4-A): no election changed. Tried: public DocumentCenter page (folder listing loads only from /admin/DocumentCenter endpoints, which robots.txt disallows, so not used; tx-mclennancounty.civicplus.com disallows all); sitemap.xml (lastmod only: 546 Current-Election-Results 2026-06-16, 1345 runoff page 2026-05-26, no election-night files listed); Archive Center entries for March 5 2024 (ADID=3165) and Nov 4 2025 (ADID=3341) for comparison: like the target elections they hold only canvass-time Cumulative/Canvass/Precinct PDFs, while the March 2024 election-night 'Results Page' (DocumentCenter/View/15785, CreationDate 2024-03-06 04:54:47 UTC = 10:54 PM CST, county totals) is not in its archive entry, so election-night files are kept outside the archive and their IDs are not linked anywhere found (DocumentCenter IDs were not enumerated); WordPress upload log of the City of Bruceville-Eddy (bruceville-eddy.us, which reposts county reports): no county report uploaded on any of the three election nights; check 4: KWTX 'Jeremy Davis to face Donis D.L. Wilson...' (published 2026-03-04T05:34Z = 11:34 PM CST) and KWBU Nov 2024 and March 2026 pages give county totals and narrative only, no per-precinct numbers and no links to county files; Waco Tribune-Herald and AOL leads were off-topic or 404; www.mclennanvotes.com refused by the fetch module (robots_disallowed_or_unreachable); 7 web searches (search text only, lead: an index summary describing the Current Election Results page during the runoff as listing election-night PDFs with 'Vote Centers Reporting', turnout totals and the preliminary reconciliation log; not evidence). Sweep pending (no phase1/targeted/sweep/McLennan on wayback-data at finish). Targeted pass 6 2026-10-03 (targeted6-A): no election changed; tag and results unchanged. Tried (third-party election-night copies): (1) County party sites: McLennan County Republican Party (mclennanrepublicans.org, WordPress 7.1.2): /wp-json/wp/v2/media and /wp-json/wp/v2/posts return HTTP 401 (login required, not pursued); its public /elections/ page only points to the county elections website ('Election Results Historical Election Results Visit Now') and /category/election-notices/ lists only 'Notice of Conventions 2026'; McLennan County Democratic Party site (www.mclennandemocrats.com) is refused by the fetch module (robots_disallowed_or_unreachable). (2) GitHub/civic repositories: one web search found none; api.github.com repository search returns HTTP 403. (3) City and other entity reposts: web searches found only Bruceville-Eddy canvass-time reposts (City-of-Bruceville-Eddy-Canvass-Report-11-13-2024-04-15-25-PM, recorded earlier) and no city repost of an election-night precinct report; mclennan.gov DocumentCenter/View/775 and /769 (search leads) are voter-registration reports ('Voter Count by Precinct and Status', 'Voter Registration District Directory Report'), not results. (4) Local media: Waco Tribune-Herald '2024 election results for Waco and Texas' (article_20314172..., published_time 2024-11-06T15:00:00Z) embeds AP result widgets and a Flourish table (flo.uri.sh/visualisation/19475668) whose data are county totals per race ('McLennan County Commissioner, Precinct 2 (unexpired term) / 100% of vote centers reporting / Jeremy Davis (D) 7108 47.3'), no per-precinct numbers; Baylor Lariat ?p=123205 is a pre-primary guide (2026-02-18). (5) wayback-data re-read at start and finish: phase1/targeted/sweep/McLennan is present with 0 versions; it reports CDX rows for the page prefix mclennan.gov/546/ (1 row in the 2024 general window Nov 5 to Nov 26, 3 rows in the 2026 primary window Mar 3 to Mar 24) but saves no capture or timestamp. Lead: a Wayback harvest of www.mclennan.gov/546/Current-Election-Results (the main harvest targeted only co.mclennan.tx.us) might settle 2024_general and 2026_primary if any of those captures fall on election night. 8 web searches, 14 fetches. No third-party per-precinct candidate numbers with an election-night time were found. Archive retry 2026-10-03 (pdf-probe run 7): archived copies of /546/Current-Election-Results from 2024-11-23 and 2026-03-20 link only to Past Elections Results and other pages; no election-night result files are linked. Stays UNDETERMINED.",
+ "tag_rationale": "No election was determined (all UNDETERMINED), so the rule gives UNKNOWN.",
+ "agent": "research-5",
+ "method_version": "v2",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "check 3 pending; the archive entry for Nov 5 2024 lists cumulative, canvass and precinct reports without dates on the page; election-night posting (on the Current Election Results page) is not visible now"
   },
-  "sources": [
-    {
-      "url": "https://www.mclennan.gov/546/Current-Election-Results",
-      "via": "fetch_module",
-      "content_hash": "a31cc4adc411cd05e17605eaacfd78f117f27d545d1bd6dbb7c8f6676dbebf38",
-      "quote": "Current Election Results Please click on Past Election Results for reports from the March 3, 2026 Joint Primary Election, May 2, 2026",
-      "supports": "election-night results page now empty"
-    },
-    {
-      "url": "https://www.mclennan.gov/Archive.aspx?ADID=3389",
-      "via": "fetch_module",
-      "content_hash": "d9dff16ead8c9f86f5020947f31d6f5dea8c36c83b9014295b8721cda7d81eea",
-      "quote": "May 26, 2026 Joint Primary Runoff Election Democratic Primary Runoff Reports Cumulative (.pdf) Canvass (.pdf) Precinct (.pdf) ... Republican-Party-Precinct-Report-6-2-2026-09-47-38-AM",
-      "supports": "runoff archive holds canvass-time reports"
-    },
-    {
-      "url": "https://www.mclennan.gov/Archive.aspx?ADID=3208",
-      "via": "fetch_module",
-      "content_hash": "823d1d44a6f08191ae56c98db1d0a83ba879fc0becde72453a0066237e06121a",
-      "quote": "November 5, 2024 Joint General Election All reports are in .pdf format. McLennan County Reports Cumulative Canvass Precinct",
-      "supports": "2024 archive entry"
-    }
-  ]
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "check 3 pending; results moved to the Past Elections archive; election-night posting not visible now"
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "check 3 pending; the archive entry lists Democratic and Republican 'Cumulative', 'Canvass' and 'Precinct' reports whose file names carry run times of 6-2-2026 (e.g. Republican-Party-Precinct-Report-6-2-2026-09-47-38-AM), i.e. canvass-time reports; what the Current Election Results page showed on election night is not visible now"
+  }
+ },
+ "sources": [
+  {
+   "url": "https://www.mclennan.gov/546/Current-Election-Results",
+   "via": "fetch_module",
+   "content_hash": "a31cc4adc411cd05e17605eaacfd78f117f27d545d1bd6dbb7c8f6676dbebf38",
+   "quote": "Current Election Results Please click on Past Election Results for reports from the March 3, 2026 Joint Primary Election, May 2, 2026",
+   "supports": "election-night results page now empty"
+  },
+  {
+   "url": "https://www.mclennan.gov/Archive.aspx?ADID=3389",
+   "via": "fetch_module",
+   "content_hash": "d9dff16ead8c9f86f5020947f31d6f5dea8c36c83b9014295b8721cda7d81eea",
+   "quote": "May 26, 2026 Joint Primary Runoff Election Democratic Primary Runoff Reports Cumulative (.pdf) Canvass (.pdf) Precinct (.pdf) ... Republican-Party-Precinct-Report-6-2-2026-09-47-38-AM",
+   "supports": "runoff archive holds canvass-time reports"
+  },
+  {
+   "url": "https://www.mclennan.gov/Archive.aspx?ADID=3208",
+   "via": "fetch_module",
+   "content_hash": "823d1d44a6f08191ae56c98db1d0a83ba879fc0becde72453a0066237e06121a",
+   "quote": "November 5, 2024 Joint General Election All reports are in .pdf format. McLennan County Reports Cumulative Canvass Precinct",
+   "supports": "2024 archive entry"
+  }
+ ]
 }
