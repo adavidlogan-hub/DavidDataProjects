@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
       - name: Probe archived PDFs
         shell: bash
-        run: set -o pipefail; python -m phase1.pdf_probe --urls-file phase1/targeted/pdf_urls.txt --out-dir phase1/targeted/pdfs | tee pdf_probe_log.jsonl
+        run: set -o pipefail; python -m phase1.pdf_probe --urls-file phase1/targeted/pdf_urls.txt --out-dir phase1/targeted/pdfs --max-replays 60 --save-html | tee pdf_probe_log.jsonl
       - name: Upload artifact (always)
         if: always()
         uses: actions/upload-artifact@v4

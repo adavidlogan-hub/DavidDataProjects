@@ -61,6 +61,8 @@ def main(argv=None) -> int:
     ap.add_argument("--urls-file")
     ap.add_argument("--file", action="append", default=[])
     ap.add_argument("--out-dir")
+    ap.add_argument("--max-replays", type=int, default=6, help="distinct files replayed per URL line")
+    ap.add_argument("--save-html", action="store_true", help="also save non-PDF replays (pages)")
     a = ap.parse_args(argv)
     for f in a.file:
         data = Path(f).read_bytes()
@@ -68,6 +70,7 @@ def main(argv=None) -> int:
     urls = list(a.url)
     if a.urls_file:
         urls += [l.strip() for l in Path(a.urls_file).read_text().splitlines() if l.strip() and not l.startswith("#")]
+    # A line may end with " from=YYYYMMDD to=YYYYMMDD" to limit capture dates.
     if not urls:
         return 0
     from txprecinct.fetch import FetchClient
@@ -76,19 +79,22 @@ def main(argv=None) -> int:
     if out_dir:
         out_dir.mkdir(parents=True, exist_ok=True)
     results = []
-    for u in urls:
+    for line in urls:
+        parts_ = line.split()
+        u = parts_[0]
+        dates = "".join(f"&{p_}" for p_ in parts_[1:] if p_.startswith(("from=", "to=")))
         s = urlsplit(u)
         query = "&".join(q for q in s.query.split("&") if q and not q.startswith("sfvrsn="))
         key = f"{s.netloc}{s.path}" + (f"?{query}" if query else "")
         cdx = (f"https://web.archive.org/cdx/search/cdx?url={quote(key, safe='')}&matchType=prefix&output=json"
-               f"&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=50")
+               f"&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500{dates}")
         r = c.get(cdx, purpose="pdf-probe:cdx")
         rows = json.loads(r.text() or "[]")[1:] if r.ok else []
         first: dict = {}
         for row in rows:
             first.setdefault(row[1].split("?sfvrsn=")[0], row)
         rec = {"url": u, "cdx_url": cdx, "cdx_error": r.error, "captures": [x[:2] for x in rows], "replays": []}
-        for ts, orig, *_ in list(first.values())[:6]:
+        for ts, orig, *_ in list(first.values())[:a.max_replays]:
             rr = c.get(f"https://web.archive.org/web/{ts}id_/{orig}", purpose="pdf-probe:replay")
             body = rr.body or b""
             rp = {"original": orig, "capture_utc": ts, "replay_error": rr.error, "bytes": len(body),
@@ -101,6 +107,10 @@ def main(argv=None) -> int:
                     name = f"{ts}_{hashlib.sha256(orig.encode()).hexdigest()[:12]}.pdf"
                     (out_dir / name).write_bytes(body)
                     rp["saved_file"] = name
+            elif rr.ok and a.save_html and out_dir and len(body) < SAVE_LIMIT:
+                name = f"{ts}_{hashlib.sha256(orig.encode()).hexdigest()[:12]}.html"
+                (out_dir / name).write_bytes(body)
+                rp["saved_file"] = name
             rec["replays"].append(rp)
         results.append(rec)
         print(json.dumps(rec))
