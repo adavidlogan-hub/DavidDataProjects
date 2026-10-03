@@ -1,0 +1,77 @@
+{
+ "county": "Waller",
+ "reason_selected": "tag changed in targeted pass 4",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "2024 County and Entity Elections page links one Nov 2024 results file, \"Unofficial Final - Includes Limited Ballots\" (/upload/page/0274/UNOFFICIAL FINAL - Includes Limited Ballots.pdf): Hart \"Cumulative Results Report ... Unofficial Results\", county totals only (Absentee/Early/Election Day columns, no precinct pages, 9 pages), \"Precincts Reporting 29 of 29\", printed \"Run Time 10:07PM\" \"Run Date 11/05/2024\". PDF CreationDate 2024-11-09 21:59 UTC (3:59 PM CST Nov 9), ModDate 2024-11-10 16:19 UTC; server Last-Modified Sun, 10 Nov 2024 16:31:23 GMT (after election night). No unofficial precinct report for Nov 2024 is linked on the 2024 page, the Historic Election Results page (empty), or Archived County Postings; site searches found none. Condition (i) of the DECISIONS 67 reading is met by the printed run time (10:07 PM 11/05/2024, election night); condition (ii) met (no precinct report ever posted). No Clarity site (elections.json 404). check 3: wayback-data index for this county has no saved election-night captures with results (CDX empty or failed); nothing to open."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "2026 page links only official files: \"OFFICIAL FINAL BOTH Cumulative Results-3-11-2026 01-26-24 PM.pdf\" (Run Time 1:25 PM, Run Date 03/11/2026, Last-Modified 11 Mar 2026 19:27:55 GMT), Republican and Democrat official finals (Run Date 03/11/2026), reconciliation. No election-night file found (two site-restricted searches found none). check 3: wayback-data index for this county has no saved election-night captures with results (CDX empty or failed); nothing to open."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "2026 page links only \"Official Dem/Rep Primary Runoff Cumulative Results-6-2-2026\" (Run Date 06/02/2026, Last-Modified 10 Jun 2026) plus PEHCA and reconciliation; \"BOTH FINAL.pdf\" is an early voting locations flyer. No election-night file found. check 3: wayback-data index for this county has no saved election-night captures with results (CDX empty or failed); nothing to open."
+  }
+ },
+ "rationale": "Only the 2024 general is determined (LATER: an election-night printed run time on a county-totals report and no precinct report ever posted). Exactly one determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS at low confidence.",
+ "waller_condition_i_assessment": "The Nov 2024 report prints Run Time 10:07PM and Run Date 11/05/2024, but its PDF CreationDate is 2024-11-09 21:59 UTC and its upload is 2024-11-10. I count condition (i) as met. Reasons: (1) DECISIONS 67 (i) asks for a printed run time OR an upload time on election night; the face of the report gives a printed run time on election night. (2) Unlike rule 47 for END/LIVE, the LATER reading has no clause by which a later known upload time defeats a printed time, so the Nov 10 upload does not cancel (i). (3) The two times measure different things: Waller's own 2026 Hart reports show the printed Run Time equal to the PDF CreationDate within about 2 minutes (3/11/2026 1:25 PM printed vs 18:27 UTC created; 06/02/2026 10:59 AM vs 16:00 UTC), so a 4-day gap means this copy was exported on Nov 9 from a report run at 10:07 PM on election night; the content (29 of 29 precincts, county totals) is the election-night count. Caveat: the file proves county totals existed at 10:07 PM on election night, not that they were posted online that night; that weakness is built into the rule's acceptance of printed times, and the resulting tag is low confidence. If the rule were read to treat CreationDate as the controlling printed time when it conflicts with the face time, (i) would fail and the election would be UNDETERMINED, making Waller UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://www.co.waller.tx.us/page/2024%20County%20and%20Entity%20Elections",
+   "content_hash": "1c296466f746761fe427afc7d9571aac785cd456f37f3b9a0f32ac5a0d9447f2",
+   "what_i_checked": "list of Nov 2024 result files (only Unofficial Final - Includes Limited Ballots)"
+  },
+  {
+   "url": "https://www.co.waller.tx.us/upload/page/0274/UNOFFICIAL FINAL - Includes Limited Ballots.pdf",
+   "content_hash": "8a7b7345be0ebbb5d937f032675280a7a6e91ed6a98f00cede453cb7fbdf80ae",
+   "what_i_checked": "title, Run Time 10:07PM Run Date 11/05/2024, CreationDate 2024-11-09 21:59 UTC, Last-Modified 10 Nov 2024 16:31:23 GMT, county totals only"
+  },
+  {
+   "url": "https://www.co.waller.tx.us/page/2026%20County%20and%20Entity%20Elections",
+   "content_hash": "21ae6dabcf41328f1c8af05e2a7854da83e822ed0668f69c0bfc4f81676435cd",
+   "what_i_checked": "2026 primary and runoff result files (official only)"
+  },
+  {
+   "url": "https://www.co.waller.tx.us/upload/page/0286/OFFICIAL FINAL BOTH Cumulative Results-3-11-2026 01-26-24 PM.pdf",
+   "content_hash": "17548ea252f0fb5f883aea6df7afaee1e3d9774641e5acc1d681bb956d13e246",
+   "what_i_checked": "Run Time 1:25 PM Run Date 03/11/2026 vs CreationDate 18:27 UTC (run time equals render time)"
+  },
+  {
+   "url": "https://www.co.waller.tx.us/upload/page/0286/Official Rep Primary Runoff Cumulative Results-6-2-2026 10-59-57 AM.pdf",
+   "content_hash": "c3f973af88b5a8393039aa693cef313b73b32ecaa5569f1b0e0bdd8d672fda84",
+   "what_i_checked": "official runoff, Run Date 06/02/2026, Last-Modified 10 Jun 2026"
+  },
+  {
+   "url": "https://www.co.waller.tx.us/page/Elections.HistoricElectionResults",
+   "content_hash": "068a2628fe9bde707405ced33a4226ab058cd164c7998a2e478031df23399c3a",
+   "what_i_checked": "no result files"
+  },
+  {
+   "url": "websearch:site:co.waller.tx.us unofficial results 2026 primary",
+   "content_hash": "3194557b2e0fda9de28425807f2b9e57bd3d3cf54f2af97f2e500028c16b7ba8",
+   "what_i_checked": "no unlinked Waller files"
+  },
+  {
+   "url": "websearch:site:co.waller.tx.us \"Unofficial Results\" cumulative results report 2026",
+   "content_hash": "9b54f939e8bfc3b6a5a338124a4951fb6420467492491124f6fcf14c1f88c5cd",
+   "what_i_checked": "no unlinked Waller files"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-03T00:15:00Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "Same (LATER, check 2, same file: Unofficial Final - Includes Limited Ballots, Run Time 10:07PM 11/05/2024, CreationDate 2024-11-09, Last-Modified 10 Nov 2024, county totals only, no precinct report listed). Both research and I count condition (i) of the DECISIONS 67 reading as met by the printed Run Time; see waller_condition_i_assessment for why the later CreationDate and upload do not defeat (i).",
+  "2026_primary": "Same (UNDETERMINED). Research's Community Impact and KWHI items are labeled leads, county totals only; not used as evidence by either side.",
+  "2026_runoff": "Same (UNDETERMINED).",
+  "unsupported_claims": "None found. I opened the research's extra source 'Joint Primary Early Voting Cumulative Results-3-5-2024 08-20-24 PM.pdf' (Run Time 8:20 PM 03/05/2024, Last-Modified 06 Mar 2024 02:55:02 GMT) and it exists but is not listed on the 2024 page, which supports the research caveat that Waller delists election-night files; it concerns a non-target election. Minor: research notes first say the Nov 2024 section has 'plus an official cumulative report', later corrected in the same notes (that file belongs to the May 2024 runoff), consistent with what I saw.",
+  "compared_at_utc": "2026-10-03T00:40:00Z"
+ }
+}

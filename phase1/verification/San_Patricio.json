@@ -1,0 +1,104 @@
+{
+ "county": "San Patricio",
+ "reason_selected": "tag changed in targeted pass 4",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "Corrected after blind pass (DECISIONS 44). File cited by research, opened by me: /upload/page/0127/Results/Unofficial Election Night Results.pdf (not linked from current pages): 'Cumulative Results Report SAN PATRICIO COUNTY, TEXAS Unofficial Results GENERAL ELECTION ... Precincts Reporting 28 of 28 = 100.00% Run Time 9:11 PM Run Date 11/05/2024', 8 pages, county totals only (no precinct pages); CreationDate 2024-11-06 03:11:57 UTC; Last-Modified Wed, 06 Nov 2024 03:24:32 GMT (9:24 PM CST, election night). The only precinct report for this election ('2024 November Precinct Results.pdf') is Official, Run Date 12/09/2024, Last-Modified 09 Dec 2024. DECISIONS 67 (i) and (ii) met."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "Unlinked file found by site search: /upload/page/0125/2026/Primary Election/Unofficial Democratic Cumulative Results-3-3-2026 09-29-52 PM.pdf: \"Cumulative Results Report ... Unofficial Results\", \"Election Night\", county totals only, \"Precincts Reporting 0 of 27\", printed Run Time 9:29 PM Run Date 03/03/2026; CreationDate 2026-03-04 03:30 UTC; server Last-Modified Wed, 04 Mar 2026 03:56:42 GMT (9:56 PM CST Mar 3, election night). Elections page links only official files (Official Republican Cumulative, Republican Canvass Results-3-11-2026). No unofficial precinct report found by three site searches."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections page links only Official Results for the runoff (Dem/Rep Cumulative and Canvass; Republican Cumulative CreationDate 2026-06-02). Site search found no unofficial runoff file. Check 3 unavailable (CDX failed)."
+  }
+ },
+ "rationale": "After the DECISIONS 44 correction, the 2024 general and 2026 primary are both LATER from check 2 (election-night county-totals uploads, precinct reports only at canvass) and the runoff is UNDETERMINED: COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence med (check 2 results).",
+ "sources": [
+  {
+   "url": "https://www.sanpatriciocountytx.gov/page/elections.current",
+   "content_hash": "e7859f254b210fda242069f18ae91536c86ead13b4ef415ec01604034aa7ea4d",
+   "what_i_checked": "2026 primary and runoff links (official only)"
+  },
+  {
+   "url": "https://www.sanpatriciocountytx.gov/page/elections.results.archive.16",
+   "content_hash": "08c271dee318b04eab1db1f68b398b08659637162308b5cdc9adb2734b3157b6",
+   "what_i_checked": "Nov 2024 links (official only)"
+  },
+  {
+   "url": "https://www.sanpatriciocountytx.gov/upload/page/0125/2026/Primary Election/Unofficial Democratic Cumulative Results-3-3-2026 09-29-52 PM.pdf",
+   "content_hash": "56e6c8c08dd13100eaa5e21c990f8e8e7f0cbd7ea023bae16fa7d5705c533075",
+   "what_i_checked": "county totals, Run Time 9:29 PM 03/03/2026, Last-Modified 04 Mar 2026 03:56:42 GMT"
+  },
+  {
+   "url": "https://www.sanpatriciocountytx.gov/upload/page/0124/docs/2024 Elections Official Results/2024 Novmebr Cumulative Results.pdf",
+   "content_hash": "b13cb4dd0fe59f370e2585726c5ab943eea0cb542016ce28bff70623864f30fc",
+   "what_i_checked": "official, Run Date 12/09/2024"
+  },
+  {
+   "url": "https://www.sanpatriciocountytx.gov/upload/page/0124/docs/2024 Elections Official Results/2024 November Precinct Results.pdf",
+   "content_hash": "bc37c50ffd1c573a71ab272617c7a53162c4a0bc22d6a2ff0d932806a1600b2c",
+   "what_i_checked": "official precinct, Run Date 12/09/2024"
+  },
+  {
+   "url": "websearch:site:sanpatriciocountytx.gov \"Unofficial\" cumulative results 2026 primary election night",
+   "content_hash": "27e33ed960bf2d1901da5a9324a064adb9cd9e9a4d64a90b0204e19cf788d613",
+   "what_i_checked": "located the unlinked primary file"
+  },
+  {
+   "url": "websearch:site:sanpatriciocountytx.gov \"Unofficial\" precinct results 2026",
+   "content_hash": "4205cfd6db3d08fb4fb38f1df785dcf46a2f75a098f1257744d109c5a20d4005",
+   "what_i_checked": "no unofficial precinct report"
+  },
+  {
+   "url": "websearch:site:sanpatriciocountytx.gov \"Primary Runoff\" unofficial 5-26-2026",
+   "content_hash": "b766d1da15e471cd93968291403bb8644422c7b9c38110f3d0504060255175b8",
+   "what_i_checked": "no unofficial runoff file"
+  },
+  {
+   "url": "https://www.sanpatriciocountytx.gov/upload/page/0127/Results/Unofficial Election Night Results.pdf",
+   "content_hash": "055579a91d3055200ef1b8fe8b200f89f4d4f470a9e2f45c3b28220fcb15ed12",
+   "what_i_checked": "opened after blind pass: county totals, Run Time 9:11 PM 11/05/2024, Last-Modified 06 Nov 2024 03:24:32 GMT"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-03T00:15:00Z",
+ "blind_verdict": {
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+   "2024_general": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "Results archive page (elections.results.archive.16) links only official Nov 2024 files: \"2024 Novmebr Cumulative Results.pdf\" (Official Results, Run Time 12:21 PM Run Date 12/09/2024), \"2024 November Precinct Results.pdf\" (Run Date 12/09/2024), canvass; all Last-Modified 09 Dec 2024. A search-engine summary mentioned a 9:11 PM unofficial report, but no such San Patricio file was returned or found; not evidence. No Clarity site (404). Wayback CDX for co.san-patricio.tx.us failed (robots/unreachable); check 3 unavailable."
+   },
+   "2026_primary": {
+    "result": "LATER",
+    "check": "2",
+    "fact": "Unlinked file found by site search: /upload/page/0125/2026/Primary Election/Unofficial Democratic Cumulative Results-3-3-2026 09-29-52 PM.pdf: \"Cumulative Results Report ... Unofficial Results\", \"Election Night\", county totals only, \"Precincts Reporting 0 of 27\", printed Run Time 9:29 PM Run Date 03/03/2026; CreationDate 2026-03-04 03:30 UTC; server Last-Modified Wed, 04 Mar 2026 03:56:42 GMT (9:56 PM CST Mar 3, election night). Elections page links only official files (Official Republican Cumulative, Republican Canvass Results-3-11-2026). No unofficial precinct report found by three site searches."
+   },
+   "2026_runoff": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "Elections page links only Official Results for the runoff (Dem/Rep Cumulative and Canvass; Republican Cumulative CreationDate 2026-06-02). Site search found no unofficial runoff file. Check 3 unavailable (CDX failed)."
+   }
+  },
+  "rationale": "Only the 2026 primary is determined (LATER: election-night county-totals report uploaded 9:56 PM, no precinct report found). One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS at low confidence."
+ },
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "Different in blind pass (I had UNDETERMINED: my site searches did not surface the /upload/page/0127/Results/ file, and a search summary's mention of a 9:11 PM report was not evidence). After opening the research's file I confirm it: county totals printed 9:11 PM and uploaded 9:24 PM CST on election night; only precinct report is official, uploaded 9 Dec 2024. Corrected to LATER under DECISIONS 44; blind result kept in blind_verdict.",
+  "2026_primary": "Same (LATER, check 2, same unlinked file, Run Time 9:29 PM, Last-Modified 04 Mar 2026 03:56:42 GMT = 9:56 PM CST, 0 of 27 precincts, county totals only).",
+  "2026_runoff": "Same (UNDETERMINED).",
+  "tag": "Blind tag COUNTY_ONLY_PRECINCT_AT_CANVASS low; after correction same tag at med, matching research (tag and confidence).",
+  "unsupported_claims": "None found for deciding facts. Not checked by me: research's canvass upload times for the 2026 primary (12 and 13 Mar 2026) and runoff upload 8 Jun 2026; the Taft city file and KRIS 6 article are leads only.",
+  "compared_at_utc": "2026-10-03T00:40:00Z"
+ }
+}
