@@ -1,46 +1,15 @@
 [
  {
-  "url": "https://wichitacountytx.com/election_stats/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wichitacountytx.com%2Felection_stats%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20241105&to=20241231",
-  "cdx_error": null,
-  "captures": [],
-  "replays": []
- },
- {
-  "url": "https://wichitacountytx.com/election_stats/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wichitacountytx.com%2Felection_stats%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260303&to=20260430",
-  "cdx_error": null,
-  "captures": [],
-  "replays": []
- },
- {
-  "url": "https://legacy.co.kerr.tx.us/elections/results/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us%2Felections%2Fresults%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20241105&to=20241115",
-  "cdx_error": "URLError: timed out",
-  "captures": [],
-  "replays": []
- },
- {
-  "url": "https://legacy.co.kerr.tx.us/elections/results/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us%2Felections%2Fresults%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260303&to=20260324",
-  "cdx_error": "URLError: timed out",
-  "captures": [],
-  "replays": []
- },
- {
-  "url": "https://legacy.co.kerr.tx.us/elections/results/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us%2Felections%2Fresults%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260526&to=20260605",
-  "cdx_error": null,
-  "captures": [],
-  "replays": []
- },
- {
-  "url": "https://www.mclennan.gov/546/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.mclennan.gov%2F546%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20241105&to=20241126",
+  "url": "https://www.mclennan.gov/546/Current-Election-Results",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.mclennan.gov%2F546%2FCurrent-Election-Results&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20241105&to=20241231",
   "cdx_error": null,
   "captures": [
    [
     "20241123115721",
+    "https://www.mclennan.gov/546/Current-Election-Results"
+   ],
+   [
+    "20241201160449",
     "https://www.mclennan.gov/546/Current-Election-Results"
    ]
   ],
@@ -48,265 +17,124 @@
    {
     "original": "https://www.mclennan.gov/546/Current-Election-Results",
     "capture_utc": "20241123115721",
-    "replay_error": "URLError: timed out",
-    "bytes": 0,
-    "sha256": null,
-    "orig_last_modified": null,
-    "orig_date": null
+    "replay_error": null,
+    "bytes": 20032,
+    "sha256": "e51666a8858b548a8f45acc6972cf26c4d2ff501648ed25cdbd3938be6504ab2",
+    "orig_last_modified": "Sat, 23 Nov 2024 11:57:21 GMT",
+    "orig_date": "Sat, 23 Nov 2024 11:57:22 GMT",
+    "saved_file": "20241123115721_be2d28612289.html"
    }
   ]
  },
  {
-  "url": "https://www.mclennan.gov/546/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.mclennan.gov%2F546%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260303&to=20260324",
-  "cdx_error": "URLError: _ssl.c:999: The handshake operation timed out",
-  "captures": [],
-  "replays": []
- },
- {
-  "url": "https://www.mclennan.gov/546/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.mclennan.gov%2F546%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260526&to=20260616",
-  "cdx_error": null,
-  "captures": [],
-  "replays": []
- },
- {
-  "url": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.egovlink.com%2Fpublic_documents300%2Fhayscounty%2Fpublished_documents%2Fdepartments%2Felections%2F2024%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20241105&to=20241126",
+  "url": "https://www.mclennan.gov/546/Current-Election-Results",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.mclennan.gov%2F546%2FCurrent-Election-Results&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260303&to=20260430",
   "cdx_error": null,
   "captures": [
    [
-    "20241114023508",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Daily%20Count/Official%20Reconciliation%2020241112.pdf"
+    "20260320090815",
+    "https://www.mclennan.gov/546/Current-Election-Results"
    ],
    [
-    "20241114023608",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/ACC%20-%20Notice%20of%20General%20Trustee%20Election.pdf"
+    "20260321035246",
+    "https://www.mclennan.gov/546/Current-Election-Results"
    ],
    [
-    "20241114023609",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/ACC%20-%20Order%20Calling%20Trustee%20Election.pdf"
-   ],
-   [
-    "20241114023533",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Blanco%20ISD%20-%20Order%20of%20Tax%20Rate%20Election.pdf"
-   ],
-   [
-    "20241114023716",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/BSEACD%20-%20Certification%20of%20Unopposed%20Candidates.pdf"
-   ],
-   [
-    "20241114023544",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/BSEACD%20-%20Order%20Cancelling%20Election.pdf"
-   ],
-   [
-    "20241114023641",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Caldwell-Hays%20ESD%201%20-%20Certification%20of%20Unopposed%20Candidates.pdf"
-   ],
-   [
-    "20241114023530",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Caldwell-Hays%20ESD%201%20-%20Order%20of%20Cancellation.pdf"
-   ],
-   [
-    "20241114023559",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Austin%20-%20Notice%20of%20Election.pdf"
-   ],
-   [
-    "20241114023543",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Buda%20-%20Order%20of%20Cancellation.pdf"
-   ],
-   [
-    "20241114023646",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Kyle%20-%20Notice%20of%20General%20Election.pdf"
-   ],
-   [
-    "20241114023605",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Kyle%20-%20Order%20of%20General%20Election.pdf"
-   ],
-   [
-    "20241114023519",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Mountain%20City%20-%20Certification%20of%20Unopposed%20Candidates.pdf"
-   ],
-   [
-    "20241114023706",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Mountain%20City%20-%20Order%20of%20Cancellation.pdf"
-   ],
-   [
-    "20241114023541",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Crystal%20Clear%20SUD%20-%20Notice%20of%20Election.pdf"
-   ],
-   [
-    "20241114023534",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Crystal%20Clear%20SUD%20-%20Order%20of%20General%20Election.pdf"
-   ],
-   [
-    "20241114023544",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Dripping%20Springs%20Community%20Library%20-%20Certificate%20of%20Unopposed%20Candidates.pdf"
-   ],
-   [
-    "20241114023624",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Dripping%20Springs%20Community%20Library%20-%20Order%20of%20Cancellation%20.pdf"
-   ],
-   [
-    "20241114023628",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/East%20Hays%20MUD%20No%202%20-%20Notice%20of%20Election.pdf"
-   ],
-   [
-    "20241114023527",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Edwards%20Aquifer%20Authority%20-%20Order%20Declaring%20Unopposed%20Candidates%20Elected.pdf"
-   ],
-   [
-    "20241114023539",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Certificate%20of%20Nomination%20to%20Fill%20Unexpired%20Term%20-%20Dem.pdf"
-   ],
-   [
-    "20241114023625",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Certificate%20of%20Nomination%20to%20Fill%20Unexpired%20Term%20-%20Rep.pdf"
-   ],
-   [
-    "20241114023539",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Notice%20of%20Bond%20Election%20-%20espanol.pdf"
-   ],
-   [
-    "20241114023617",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Notice%20of%20Bond%20Election.pdf"
-   ],
-   [
-    "20241114023610",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Notice%20of%20Test%20of%20Automatic%20Tabulating%20Equipment.pdf"
-   ],
-   [
-    "20241114023643",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Order%20Calling%20Road%20Bond%20Election%20-%20espanol.pdf"
-   ],
-   [
-    "20241114023637",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Order%20Calling%20Road%20Bond%20Election.pdf"
-   ],
-   [
-    "20241114023640",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Road%20Bond%20Election%20Proposition%20Language%20-%20incluyendo%20espanol.pdf"
-   ],
-   [
-    "20241114023606",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Road%20Bond%20Election%20Voter%20Information%20Document%20-%20espanol.pdf"
-   ],
-   [
-    "20241114023714",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Road%20Bond%20Election%20Voter%20Information%20Document.pdf"
-   ],
-   [
-    "20241114023516",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Road%20Bond%20Press%20Release.pdf"
-   ],
-   [
-    "20241114023530",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20MUD%2011%20-%20Notice%20of%20Election.pdf"
-   ],
-   [
-    "20241114023623",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20MUD%2011%20-%20Order%20of%20Election.pdf"
-   ],
-   [
-    "20241114023604",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20MUD%20No%205%20-%20Order%20Declaring%20Election%20of%20Unopposed%20Candidates%20and%20Canceling%20Election.pdf"
-   ],
-   [
-    "20241114023559",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Notice%20of%20Appointment%20of%20EVC%20to%20ID%20Verify.pdf"
-   ],
-   [
-    "20241114023500",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Notice%20of%20Election%2020241105.pdf"
-   ],
-   [
-    "20241114023621",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/San%20Marcos%20CISD%20-%20Notice%20of%20Special%20Election.pdf"
-   ],
-   [
-    "20241114023652",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/San%20Marcos%20CISD%20-%20Order%20of%20Tax%20Rate%20Special%20Election.pdf"
-   ],
-   [
-    "20241114023730",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/San%20Marcos%20CISD%20-%20Resolution%20to%20Participate%20in%20Joint%20Election.pdf"
-   ],
-   [
-    "20241114023540",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/State%20of%20Texas%20-%20Proclamation%20of%20General%20Election.pdf"
-   ],
-   [
-    "20241114023533",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/State%20of%20Texas%20-%20Write-In%20Ballot%20Certification.pdf"
-   ],
-   [
-    "20241114023714",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Village%20of%20Bear%20Creek%20-%20Certification%20of%20Unopposed%20Candidates.pdf"
-   ],
-   [
-    "20241114023602",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Village%20of%20Bear%20Creek%20-%20Ordinance%20Declaring%20Candidates%20Elected.pdf"
-   ],
-   [
-    "20241114023544",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Wimberley%20ISD%20-%20Notice%20of%20General%20Election.pdf"
-   ],
-   [
-    "20241114023600",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Sample%20Ballots/Generic%20Sample%20Ballot%2020241105.pdf"
+    "20260321035249",
+    "https://www.mclennan.gov/546/Current-Election-Results"
    ]
   ],
   "replays": [
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Daily%20Count/Official%20Reconciliation%2020241112.pdf",
-    "capture_utc": "20241114023508",
+    "original": "https://www.mclennan.gov/546/Current-Election-Results",
+    "capture_utc": "20260320090815",
     "replay_error": null,
-    "bytes": 266857,
-    "sha256": "58a042ee08ca449d8b2d500161176ecd0020d153bf1b303153bfd20a20b24f65",
-    "orig_last_modified": "Wed, 13 Nov 2024 21:22:33 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:07 GMT",
-    "CreationDate": "D:20241112183140-06'00'",
-    "Creator": "Canon ",
-    "ModDate": "D:20241113152151-06'00'",
-    "Producer": " ",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023508_8d22b0bd4a45.pdf"
-   },
+    "bytes": 100309,
+    "sha256": "c6de9e63d58f0c158aec22968d2e2d8b43cad5ad7bf60cbe10d8843ab0910bef",
+    "orig_last_modified": "Fri, 20 Mar 2026 09:08:16 GMT",
+    "orig_date": "Fri, 20 Mar 2026 09:08:16 GMT",
+    "saved_file": "20260320090815_be2d28612289.html"
+   }
+  ]
+ },
+ {
+  "url": "https://legacy.co.kerr.tx.us/elections/results/",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us%2Felections%2Fresults%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260303&to=20260324",
+  "cdx_error": null,
+  "captures": [
+   [
+    "20260311123955",
+    "https://legacy.co.kerr.tx.us/elections/results/2010-04-13/?C=M;O=A"
+   ],
+   [
+    "20260311125629",
+    "https://legacy.co.kerr.tx.us/elections/results/2010-05-07/?C=S;O=A"
+   ],
+   [
+    "20260311134710",
+    "https://legacy.co.kerr.tx.us/elections/results/2010-11-02/?C=N;O=A"
+   ],
+   [
+    "20260311132541",
+    "https://legacy.co.kerr.tx.us/elections/results/2012-11-06/?C=M;O=D"
+   ],
+   [
+    "20260311135747",
+    "https://legacy.co.kerr.tx.us/elections/results/2012-11-06/?C=N;O=A"
+   ],
+   [
+    "20260311135445",
+    "https://legacy.co.kerr.tx.us/elections/results/2014-05-10/?C=D;O=D"
+   ],
+   [
+    "20260311131206",
+    "https://legacy.co.kerr.tx.us/elections/results/2014-05-10/?C=N;O=A"
+   ],
+   [
+    "20260311130012",
+    "https://legacy.co.kerr.tx.us/elections/results/2014-05-10/?C=S;O=A"
+   ],
+   [
+    "20260311122953",
+    "https://legacy.co.kerr.tx.us/elections/results/2014-11-04/?C=S;O=A"
+   ],
+   [
+    "20260311133557",
+    "https://legacy.co.kerr.tx.us/elections/results/2016-11-08/?C=M;O=A"
+   ],
+   [
+    "20260311131921",
+    "https://legacy.co.kerr.tx.us/elections/results/2016-11-08/?C=N;O=D"
+   ],
+   [
+    "20260311124345",
+    "https://legacy.co.kerr.tx.us/elections/results/2016-11-08/?C=S;O=A"
+   ],
+   [
+    "20260311131412",
+    "https://legacy.co.kerr.tx.us/elections/results/2018-05-22/?C=M;O=D"
+   ],
+   [
+    "20260311122822",
+    "https://legacy.co.kerr.tx.us/elections/results/2018-05-22/?C=N;O=D"
+   ],
+   [
+    "20260311135803",
+    "https://legacy.co.kerr.tx.us/elections/results/2018-05-22/?C=S;O=D"
+   ],
+   [
+    "20260311125050",
+    "https://legacy.co.kerr.tx.us/elections/results/2021-11-02/?C=N;O=D"
+   ],
+   [
+    "20260311132931",
+    "https://legacy.co.kerr.tx.us/elections/results/?C=D;O=A"
+   ]
+  ],
+  "replays": [
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/ACC%20-%20Notice%20of%20General%20Trustee%20Election.pdf",
-    "capture_utc": "20241114023608",
-    "replay_error": null,
-    "bytes": 319152,
-    "sha256": "1945c1359903d4be00c95df69f96aae28c1d476282d06a3184be2ffd70319491",
-    "orig_last_modified": "Fri, 06 Sep 2024 17:21:23 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:08 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  | -     - -     p                 -   ,  ,    - -   - -     W                 -   120     - -   y                   -       - -   - -                       ,        - -   - - |         \\(   de  2024     :\\)                   ,  2024         pm   12 pm     pm     pm                                   -                   -             |             -                               -         \\226     \\226       -     -       C                     -                       |                                   -   -                 st                                                             r -   |                                                                                                                     | st                                                                                   A                                 |       -       \\226  7 pm  \\(   7 am  7 pm 6 pm  \\( \\)      \\( ,  7 am  7 pm \\)               -                         -                                               Ln ,    ,            El     ,              620 ,    ,          Dr   ,        of         Rd       ,        of     ,  ,              Dr ,  ,                    ,              Rd   ,        De             ,    |  |  |  |             Rd     ,              ,    :        W       ,          of       E   ,  -   ,            &           ,                Rd     ,                        ,                Rd ,      ,                  Dr ,  ,                  Dr   ,            E     ,  ,      :        E       Dr     1 ,        of             Dr   1   ,          of           Rd       ,          of       ,    ,              ,            ,  ,          ,  ,            W     ,    ,                Jr   ,    ,              Dr ,    ,            and     E     ,  ,          Dr     ,            -             ,      of         #6     Dr ,    ,            SE     ,    ,          of     W         ,        at             ,      ,        ,      ,      Rd   ,              102   &   103 ,        of     E   Hwy   29 ,  ,          W     St ,    ,              ,  ,                  ,          Ed       ,              CR   305 ,    ,          ,  ,                ,  ,              ,  ,              Wy ,  ,        ,      Wy   ,          S.     Rd   ,            N       ,            Rd ,  ,      at       ,  ,              ,  ,                  ,              W   SH   29 ,    ,                  ,  ,              CR   258 ,      ,                    Dr   &     ,                  Rd ,    ,                    Dr   ,        at     Co   Rd   ,  ,                ,    ,    |               Dr ,    ,                  Dr ,    ,                    ,                  ,            2,     ,                Rd     ,                      ,        by   IH   35     ,                  Rd ,    ,                    ,            IH   35   ,              ,                    ,            ,  ,              ,          of       ,    ,                -     ,  am      am    7 pm \\)   6 pm  \\( \\)      \\( ,  7 am  7 pm \\)       120                   \\227        M         A \\227    \\227                  |                       Ha ,  120                     D                           \\227        \\227                        \\227      \\227          i           |                 -           \\) 5 pm     7 pm   27   pm       \\) 7 pm                                                                                     \\(     | \\)]           s    \\)       \\(   27   9         \\)            \\( :                   5 pm   pm               Lo                           -               \\226       111             203             206         h     302             305             401       402         404       |                     \\(2   \\)               2024 \\)           \\)                   \\)       -   -     D                     -     -                       \\(     |  |  |  |               |  |               |       |   -         | por               |   25               |     -         - -         |             |  |  |  |  |  |  | ",
-    "saved_file": "20241114023608_2629526334da.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/ACC%20-%20Order%20Calling%20Trustee%20Election.pdf",
-    "capture_utc": "20241114023609",
-    "replay_error": null,
-    "bytes": 356569,
-    "sha256": "9a1db5eb39631174ddb2e0b43176ca26057a6caa65505dd215d8d5e8d68db7b2",
-    "orig_last_modified": "Tue, 20 Aug 2024 20:21:32 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:08 GMT",
-    "CreationDate": "D:20240820114308-05'00'",
-    "ModDate": "D:20240820114308-05'00'",
-    "Creator": "RICOH MP 3055",
-    "Producer": "RICOH MP 3055",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "",
-    "saved_file": "20241114023609_ccc65f3f0d38.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Blanco%20ISD%20-%20Order%20of%20Tax%20Rate%20Election.pdf",
-    "capture_utc": "20241114023533",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2010-04-13/?C=M;O=A",
+    "capture_utc": "20260311123955",
     "replay_error": "URLError: timed out",
     "bytes": 0,
     "sha256": null,
@@ -314,8 +142,8 @@
     "orig_date": null
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/BSEACD%20-%20Certification%20of%20Unopposed%20Candidates.pdf",
-    "capture_utc": "20241114023716",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2010-05-07/?C=S;O=A",
+    "capture_utc": "20260311125629",
     "replay_error": "URLError: _ssl.c:999: The handshake operation timed out",
     "bytes": 0,
     "sha256": null,
@@ -323,736 +151,88 @@
     "orig_date": null
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/BSEACD%20-%20Order%20Cancelling%20Election.pdf",
-    "capture_utc": "20241114023544",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2010-11-02/?C=N;O=A",
+    "capture_utc": "20260311134710",
     "replay_error": null,
-    "bytes": 390411,
-    "sha256": "63e55f20b0859c523b527908c83e29199907e2f6fc1fa4501fb35aa398140823",
-    "orig_last_modified": "Thu, 19 Sep 2024 16:23:33 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:43 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "I   B   5     W \\(\\223 \\224 \\)    \\(\\223   on   20 20   P     W ,   4 06 -     W ,             P         W ,   s  s      - E     W N   Q E     S       S      P s        E     D 1 S        5 sh       E    5 |   4         S     -   SECTION  6.     This Order  sh all  t ak e  effect  i mmediately   upon   its   passage .  PASSED AN D  APPROVED   THIS   DAY   OF   SEPTEMBER ,   20 24.  B     _       _     [   |   O   20 L   C   \\223 \\224 \\223 \\224  o  \\223 \\224 \\223 \\224 C   4 06     C   \\223 \\224       y      C   C   P   S   S        D S        |      S          SECCI\\323 N  6.     Esta   Orde n   entrar\\341   e n   vigencia   inmediatamen te   desp u\\351s   de   s u  aprobaci\\363n.   APROBADA   Y   CONFIRMADA   ESTE   D\\315A     D E  SEPTIEMBRE   D E  2 0 24.  D     _       _   [ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023544_661aa122a7e1.pdf"
+    "bytes": 1181,
+    "sha256": "4a9c0146b2a408651dcd4cead187c1d71d0fc1db2cc2e671fc30067300df96f4",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 13:47:10 GMT",
+    "saved_file": "20260311134710_f28d5cfae066.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Caldwell-Hays%20ESD%201%20-%20Certification%20of%20Unopposed%20Candidates.pdf",
-    "capture_utc": "20241114023641",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2012-11-06/?C=M;O=D",
+    "capture_utc": "20260311132541",
     "replay_error": null,
-    "bytes": 43642,
-    "sha256": "cba8581390dc50ca6098baa50fcee79924959b69489c9386818234a2e66dc58f",
-    "orig_last_modified": "Tue, 01 Oct 2024 20:37:13 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:40 GMT",
-    "CreationDate": "D:20240919085009-05'00'",
-    "ModDate": "D:20241001114601-05'00'",
-    "Creator": "RICOH IM C3500",
-    "Producer": "RICOH IM C3500",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  | ",
-    "saved_file": "20241114023641_63d303f98d31.pdf"
+    "bytes": 1169,
+    "sha256": "3b5d738a23433530ab9554c140069f7e901a65e9b69cdaee103e4dc42a0e84ec",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 13:25:41 GMT",
+    "saved_file": "20260311132541_fcbdb40b65e4.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Caldwell-Hays%20ESD%201%20-%20Order%20of%20Cancellation.pdf",
-    "capture_utc": "20241114023530",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2012-11-06/?C=N;O=A",
+    "capture_utc": "20260311135747",
     "replay_error": null,
-    "bytes": 574652,
-    "sha256": "dbf11e188ca2fe829ea05284271b77247f4d56b459bae9e14e8160885511d330",
-    "orig_last_modified": "Tue, 01 Oct 2024 20:39:58 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:30 GMT",
-    "CreationDate": "D:20240919084853-05'00'",
-    "ModDate": "D:20241001114631-05'00'",
-    "Creator": "RICOH IM C3500",
-    "Producer": "RICOH IM C3500",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  | ",
-    "saved_file": "20241114023530_7ad7cbdc83e5.pdf"
+    "bytes": 1169,
+    "sha256": "ebb08c75fc98bfd8d29b127218ec6cfc50b612cc8f1a2514f0cece1bfbbd5b73",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 13:57:47 GMT",
+    "saved_file": "20260311135747_d889658beec2.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Austin%20-%20Notice%20of%20Election.pdf",
-    "capture_utc": "20241114023559",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2014-05-10/?C=D;O=D",
+    "capture_utc": "20260311135445",
     "replay_error": null,
-    "bytes": 211285,
-    "sha256": "01cd27a26254ba2ff1f9cf13d3059d086ecc2006d83ab5d09448ba8b86588ccb",
-    "orig_last_modified": "Wed, 18 Sep 2024 21:17:08 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:58 GMT",
-    "Creator": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
-    "CreationDate": "D:20240918152953-05'00'",
-    "ModDate": "D:20240918152953-05'00'",
-    "Producer": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000\u00ae\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023559_489405d685b4.pdf"
+    "bytes": 981,
+    "sha256": "83b082ce1e70b4a3f1760d312c58cdee9c349530f457d3996f43861314c0db6d",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 13:54:45 GMT",
+    "saved_file": "20260311135445_3c85d3c1ddbf.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Buda%20-%20Order%20of%20Cancellation.pdf",
-    "capture_utc": "20241114023543",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2014-05-10/?C=N;O=A",
+    "capture_utc": "20260311131206",
     "replay_error": null,
-    "bytes": 523619,
-    "sha256": "76549e1e6b76f44088996d07e4dcd2ef4fd966ead1b43eb03e6f13606441624b",
-    "orig_last_modified": "Thu, 12 Sep 2024 16:07:26 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:42 GMT",
-    "Producer": "PFU PDF Library 2.0.1",
-    "Creator": "PaperStream Capture 3.1",
-    "CreationDate": "D:20240906083443-06'00'",
-    "ModDate": "D:20240906083443-06'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  | ",
-    "saved_file": "20241114023543_84c809632bff.pdf"
+    "bytes": 981,
+    "sha256": "bb500671d484fd93718b35ac51fb5fa4dd62d8ed21997dfeb3b78bfe98433be7",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 13:12:06 GMT",
+    "saved_file": "20260311131206_4a0ce4a901be.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Kyle%20-%20Notice%20of%20General%20Election.pdf",
-    "capture_utc": "20241114023646",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2014-05-10/?C=S;O=A",
+    "capture_utc": "20260311130012",
     "replay_error": null,
-    "bytes": 477556,
-    "sha256": "9e5a81c8b15be287fedb8bed7f8757d86534bbb71619819e901eb384db7be38b",
-    "orig_last_modified": "Tue, 20 Aug 2024 20:24:36 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:46 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 2,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   OF             DE             :   \\)                   will                   - |                   .\\)           of   |           \\226             |           \\226     \\226     \\226     |                   |                 |                   |     \\226       \\226     | Applications  for  ballot  by  mail  shall  be  mailed  to :  \\(Las  solicitudes  para  boletas  que  se  votaran  adelantada  par  correo  deberan  enviarse  a : \\)  Jennifer  Doinoff  Name  of  Early  Voting  Clerk  \\(Nombre  def  Secretario/a  de  la  Votaci6n  Adelantada\\)  120  Stagecoach  Trail  Address  \\(Oirecci6n\\)  San  Marcos  City  \\(Ciudad\\)  512-393-7310  78666  Zip  Code  \\(C6digo  Postal\\)  Telephone  Number  \\(Numero  de  telefono\\)  elections@co . hays . tx . us  Email  Address  \\(Direcci6n  de  Correo  Electr6nico\\)  https : //www.hayscountytx . com/elections  Early  Voting  Clerk ' s  Website  \\(Sitio  web  def  Secretariola  de  Votaci6n  Adelantada\\)  Applications  for  Ballots  by  Mail  \\(ABBMs\\)  must  be  received  no  later  than  the  close  of  business  on :  \\(Las  solicitudes  para  boletas  que  se  votaran  adelantada  por  correo  deberan  recibirse  no  mas  tardar  de  las  horas  de  negocio  el : \\)  10  /  25  /  2024  \\(date\\)\\(fecha\\)  Federal  Post  Card  Applications  \\(FPCAs\\)  must  be  received  no  later  than  the  close  of  business  on :  \\(La  T  arjeta  Federal  Postal  de  Solicitud  deberan  recibirse  no  mas  tardar  de  las  horas  de  negocio  el : \\)  10  /  25  I  2024  \\(date\\)\\(fecha\\)  Issued  this  _15_th  ___  d_a_y_o_f  __  A_u_gu_s_t  ------~\\267  _2_0_24  __  _  \\( day\\)  \\( month\\)  \\( year\\)  \\(Emitada  este  dia  __  1~5  ___  de  ---~a  ....  go~s=to~---~ 20  24  .\\)  \\(dfa\\)  \\(mes\\)  \\(aflo\\)  Sig~Mayor1FiriaA[c  de\\)  |       a         at     of                   \\226   \\226   6 pm   \\226   6 pm\\)   \\226   7pm   \\226     \\226     \\226     \\226   \\226     \\226   7 pm\\)           \\226       \\226                   \\226     \\226           |  |  |  |  |  |  |  |  |  |  |  |           at     of                 \\226   \\226   6 pm   \\226   6 pm\\)   7pm   \\226          \\226   7 pm\\)               \\226            \\(  Tr  C      #A ,  S an    Hay s  C ounty  E lections   Offic e  \\(Main Early  V oti ng  Site\\) ,   120 Stagecoach Trail,  S an Marcos     LBJ  S tudent  C enter,  Tex as  S tate University,   301  Student  C enter  D rive,  S an Marc os   \\226     \\226     |  |  |  | ",
-    "saved_file": "20241114023646_12845f657239.pdf"
+    "bytes": 981,
+    "sha256": "fea75b081cd369f6a6f95ce1761462aa9436511e148db9557756ea1cda851ac2",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 13:00:12 GMT",
+    "saved_file": "20260311130012_54fbcadc351c.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Kyle%20-%20Order%20of%20General%20Election.pdf",
-    "capture_utc": "20241114023605",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2014-11-04/?C=S;O=A",
+    "capture_utc": "20260311122953",
     "replay_error": null,
-    "bytes": 1894885,
-    "sha256": "97a85791cbd228d106f9c1de0d65eb9773faf5263b4597b86232a96b6f83e712",
-    "orig_last_modified": "Tue, 20 Aug 2024 20:23:50 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:05 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   by     of             OF             DE                         el         on               en   la     -         by       will   be                                       1   \\226   5   9   \\226   6   pm   9  \\226 pm\\)   28   \\( 2 8    1   \\226   7 pm\\)                                                 \\226         1   \\226   5   9   \\226   6   pm   9  \\226 pm\\)   28   \\( 2 8    1   \\226   7 pm\\)       by       will   be             en el                             \\226   7pm     7  m  6  pm   \\226     |  |  |  |  |  |  |  | Page   of  |  |  |  |  | 11.    - -   12.    5 , 202 4 13.          14 .   ,    ,    C C ,  ,    15.    5 4 -     16. | Page   of  |  |  |  |  |  |  |     4.                    at     at   .    is   y     as          is   .  5. 6.   - An   a      d    8 .         9. ,    10 .   | Page   of  |  |  |  |  |  |           T - S ;  AND      ;  ;                        s         A g   -   6      ,  5 ,  202 | Page   of  |  |  |  |  |  |  |  | Branch  Early  Voting  Locations  \\(sucursal  sitios  de  votaci6n  adelantada\\)  Location  \\(sitio\\)  HCISD  Academic  Support  Center,  21003  Interstate  35  Frontage  Road  Building  A,  Room  #1220,  Kyle  Kyle  City  Hall,  100  West  Center  Street,  Kyle  Main  Office,  HCISD  Transportation,  2385  High  Road,  Uhland  Yarrington  - Hays  County  Transportation  Department,  2171  Yarrington  Road,  Kyle  Buda  City  Hall  - Multipurpose  Room,  405  East  Loop  Street,  Building  100,  Buda  Sunfield  Station,  2610  Main  Street,  Buda  Dripping  Springs  Ranch  Park,  1042  Event  Center  Drive,  Dripping  Springs  Patriots'  Hall  of  Dripping  Springs,  231  Patriots'  Hall  Boulevard  \\(formerly  listed  as  3400  East  US  290\\),  Dripping  Springs  Broadway,  401  Broadway  Street  #A,  San  Marcos  Hays  County  Elections  Office  \\(3\\)  Main  Early  Voting  Site ,  120  Stagecoach  Trail,  San  Marcos  LBJ  Student  Center,  Texas  State  University,  301  Student  Center  Drive,  San  Marcos  Texan  Academy  at  Scudder  - Gym,  400  Green  Acres  Drive,  Wimberley  Wimberley  Community  Center- Johnson  Hall,  14068  Ranch  Road  12,  Wimberley  Hours  \\(horas\\)  Saturday,  October  26  7am  - 7pm  \\(sabado  26  de  octubre  7  am  - 7  pm\\)  Sunday,  October  27  12  pm  -6  pm  \\(domingo  27  de  octubre  12  pm- 6  pm\\)  Applications  for  ballot  by  mail  shall  be  mailed  to:  \\(Las  solicitudes  para  boletas  que  se  votaran  adelantada  por  correo  deberan  enviarse  a:\\)  Jennifer  Doinoff  Name  of  Early  Voting  Clerk  \\(Nombre  de/  Secretario/a  de  la  Votaci6n  Adelantada\\)  120  Stagecoach  Trail  Address  \\(Direcci6n\\)  San  Marcos  Citv  \\(Ciudad\\)  512-393-731  O  78666  Zio  Code  \\(C6diao  Postal\\)  Telephone  Number  \\(Numero  de  telefono\\)  elections@co  hays  tx  us  Email  Address  \\(Direcci6n  de  Correo  Electr6nico\\)  https://www.hayscountytx.com/elections  Earlv  Votina  Clerk's  Website  \\(Sitio  web  de/  Secretariola  de  Votaci6n  Adelantada\\)  Applications  for  Ballots  by  Mail  \\(ABBMs\\)  must  be  received  no  later  than  the  close  of  business  on:  \\(Las  solicitudes  para  boletas  que  se  votaran  adelantada  por  correo  deberan  recibirse  no  mas  tardar  de  las  horas  de  negocio  el:\\)  10  /  25  /  2024  \\(  date  \\)\\(fecha\\)  Federal  Post  Card  Applications  \\(FPCAs\\)  must  be  received  no  later  than  the  close  of  business  on:  \\(La  Tarjeta  Federal  Postal  de  Solicitud  deberan  recibirse  no  mas  tardar  de  las  horas  de  negocio  el:\\)  10  I  25  I  2024  \\(date\\)\\(fecha\\)  Issued  this  ~15-th~  __  d_ay_o_f  _~A_ug_u~st  ________  ,_2_0_2-4  __  _  \\(day\\)  \\(month\\)  \\(year\\)  \\(Emitida  este  dia  __  1~5  __  de  ___  ag..,.o~s-to  _____  ~,  20  _24  __  .\\)  \\(dfa\\)  \\(mes\\)  \\(ano\\)  Instruction  Note:  A  copy  of  this  election  order  must  be  delivered  to  the  County  Clerk/Elections  Administrator  and  Voter  Registrar  not  later  than  60  days  before  election  day.  Nota  de  lnstrucci6n:  Se  debera  entregar  una  copia  de  esta  orden  de  elecci6n  al/a  la  Secretario\\(a\\)  de/  Condado/Administrador\\(a\\)  de  Elecciones  yell/a  Registrador\\(a\\)  de  Votantes  a  mas  tardar  60  dias  antes  de/  dia  de  elecci6n.  | SECTION  17.  S h o uld  a n y  p a rt ,  sec ti o n ,  ub se cti o n ,  paragraph ,  se nt e n ce ,  c l a u se,  o r  phra se  co nt ai n e d  in  thi  o rdinan ce  be  h e ld  t o  be  un co n s tituti o n a l  o r  of  n o  fo r ce  a nd  effec t ,  s uch  h o ldin g  s h a ll  not  affect  the  va li dit y  of  the  remaining  p o rti on  of  thi s  o rdin a nc e,  but  in  a ll  respect  sa id  remaining  p o rti o n  s hall  be  a nd  rema in  in  fu ll  force  and  effect.  SECTION  18.  T hi s  o rdin a nc e  i  effective  imm e di ately  up o n  ado pti on  in  accordance  with  s tate  l aw  a nd  the  C it y  C h arter.  PASS E D  A  D  APPROVED  o n  thi s  the  __filh_  da y  of  __  A_u~g~u_t  __  ~,  202 4 .  FfNALL  Y  PA SSED  A  D  APPROV E D  o n  thi s  th e  1 5 th  da y  of  A ugu s t  ,  2 0 24.  ATTEST:  The  City  of  K y le ,  Texas  P age  4  of7  |  | ",
-    "saved_file": "20241114023605_03c4b5f7f7a9.pdf"
+    "bytes": 1169,
+    "sha256": "e140104917972430d4861e1eed0e58428683836723d9a67bd35847614d5abef7",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 12:29:53 GMT",
+    "saved_file": "20260311122953_919de5d72f8e.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Mountain%20City%20-%20Certification%20of%20Unopposed%20Candidates.pdf",
-    "capture_utc": "20241114023519",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2016-11-08/?C=M;O=A",
+    "capture_utc": "20260311133557",
     "replay_error": null,
-    "bytes": 335420,
-    "sha256": "4a3f33372423cccfb58b06b8e88e3a1add68e6aa1ec4c690b7343dc94ba9c857",
-    "orig_last_modified": "Wed, 11 Sep 2024 23:42:50 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:19 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "",
-    "saved_file": "20241114023519_167e99c58056.pdf"
+    "bytes": 1393,
+    "sha256": "8316fc455b3a7a53db14221a7758740edfe49b105434046308f8894f49d4f356",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 13:35:57 GMT",
+    "saved_file": "20260311133557_e94920b02d84.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/City%20of%20Mountain%20City%20-%20Order%20of%20Cancellation.pdf",
-    "capture_utc": "20241114023706",
-    "replay_error": null,
-    "bytes": 306211,
-    "sha256": "a2f346f54d96a773971e905c852cc355b1d198a21067905ed0a6fdcd6c5837c8",
-    "orig_last_modified": "Wed, 11 Sep 2024 23:44:26 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:37:05 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "",
-    "saved_file": "20241114023706_1033f69288d0.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Crystal%20Clear%20SUD%20-%20Notice%20of%20Election.pdf",
-    "capture_utc": "20241114023541",
-    "replay_error": null,
-    "bytes": 394687,
-    "sha256": "8f4e1c164fea26b6833687e2b16514f3e6a0db55391057526c10eaa988618e05",
-    "orig_last_modified": "Fri, 27 Sep 2024 14:28:00 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:41 GMT",
-    "CreationDate": "D:20240927081751-05'00'",
-    "ModDate": "D:20240927081751-05'00'",
-    "Creator": "PFU ScanSnap Manager 7.2.71 #iX1600",
-    "Producer": "PFUPDF Engine 1.3.20",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "",
-    "saved_file": "20241114023541_c456bea2195b.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Crystal%20Clear%20SUD%20-%20Order%20of%20General%20Election.pdf",
-    "capture_utc": "20241114023534",
-    "replay_error": null,
-    "bytes": 331935,
-    "sha256": "d67d8228a641bada3854ada8d8bcdf19dd65dec5de3b9084307ef22def72a2d9",
-    "orig_last_modified": "Fri, 30 Aug 2024 15:48:04 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:34 GMT",
-    "Producer": "PFU PDF Library 2.0.0",
-    "Creator": "PFU ScanSnap Manager 7.2.60 #iX500",
-    "CreationDate": "D:20240830084311-06'00'",
-    "ModDate": "D:20240830084311-06'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  | ",
-    "saved_file": "20241114023534_e939f5f5c89a.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Dripping%20Springs%20Community%20Library%20-%20Certificate%20of%20Unopposed%20Candidates.pdf",
-    "capture_utc": "20241114023544",
-    "replay_error": null,
-    "bytes": 330292,
-    "sha256": "ce4896df071d4ece6b20f932230debeaebf5fe3bad4132d4b1280694f518932b",
-    "orig_last_modified": "Thu, 19 Sep 2024 22:43:37 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:43 GMT",
-    "CreationDate": "D:20240919105740-06'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "",
-    "saved_file": "20241114023544_c7a229598d4a.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Dripping%20Springs%20Community%20Library%20-%20Order%20of%20Cancellation%20.pdf",
-    "capture_utc": "20241114023624",
-    "replay_error": null,
-    "bytes": 294547,
-    "sha256": "775a6c3fa970bebed62aa84c4dfce516633e2db33d9b56af284911e15bd0ca2e",
-    "orig_last_modified": "Thu, 19 Sep 2024 22:45:22 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:24 GMT",
-    "CreationDate": "D:20240919105657-06'00'",
-    "ModDate": "D:20240919114346-05'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  | ",
-    "saved_file": "20241114023624_6e43523ca2ed.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/East%20Hays%20MUD%20No%202%20-%20Notice%20of%20Election.pdf",
-    "capture_utc": "20241114023628",
-    "replay_error": null,
-    "bytes": 3798396,
-    "sha256": "665ed844703a2c3e94b7f0840373cea0680a4384f99dfffb4f4a1d6f7799ca20",
-    "orig_last_modified": "Sat, 05 Oct 2024 21:57:16 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:28 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \\\\ - -                                                         | \\\\ - -                                   -                                                    |  |  |  |  | \\\\ - -       |  | \\\\ - -   |  | \\\\ - -   |  | \\\\ - -           |  | \\\\ - -           \\247  \\247  \\247  \\247  \\247                                 | \\\\ - -                                       - 0 -   - 0 -         i.         ii.                         | \\\\ - -   v.                                    1        2      3               | \\\\ - -               | \\\\ - -           | \\\\ - -           AN | \\\\ - -                              5                 | \\\\ - -                                                                 | \\\\ - -                                         -                                            | \\\\ - -          6          7                   -      9            11   | \\\\ - -        12             S     [         31 st                                           |  |  |  |  |  |  | \\\\ - -             ,  ,  |         ,  |         |           |     |  |  | .   |                         |     |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023628_6cb373c2ea4e.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Edwards%20Aquifer%20Authority%20-%20Order%20Declaring%20Unopposed%20Candidates%20Elected.pdf",
-    "capture_utc": "20241114023527",
-    "replay_error": null,
-    "bytes": 806986,
-    "sha256": "fc4f00259bc5c0e05248c414f1ea4fa04d1ef46c428a310f97a971aa1947f9fc",
-    "orig_last_modified": "Wed, 18 Sep 2024 01:30:30 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:27 GMT",
-    "CreationDate": "D:20240912121723-06'00'",
-    "Creator": "PFU ScanSnap Manager 5.6.10 #S1500",
-    "ModDate": "D:20240912151231-05'00'",
-    "Producer": "PFU PDF Library 2.0.0",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  | ",
-    "saved_file": "20241114023527_04e61c636429.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Certificate%20of%20Nomination%20to%20Fill%20Unexpired%20Term%20-%20Dem.pdf",
-    "capture_utc": "20241114023539",
-    "replay_error": null,
-    "bytes": 224397,
-    "sha256": "830aa50de0cf074daaa9e2e0f38b7a0bda4871aa5e21a22677ed79a302925c4a",
-    "orig_last_modified": "Fri, 23 Aug 2024 17:05:38 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:39 GMT",
-    "Producer": "Epson ScanSmart",
-    "CreationDate": "D:20240822155949-06'00'",
-    "ModDate": "D:20240822155949-06'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " | ",
-    "saved_file": "20241114023539_33f599e5981a.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Certificate%20of%20Nomination%20to%20Fill%20Unexpired%20Term%20-%20Rep.pdf",
-    "capture_utc": "20241114023625",
-    "replay_error": null,
-    "bytes": 407360,
-    "sha256": "956e96afa20657a68aab5f73ccad1814a9696e0b43e9c329bbd032368495c34a",
-    "orig_last_modified": "Sat, 28 Sep 2024 17:48:42 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:25 GMT",
-    "Producer": "Haru Free PDF Library 2.4.0dev",
-    "CreationDate": "D:20240820221924+00'00'",
-    "ModDate": "D:20240820222024+00'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "2-63 Prescribed by Secretary of State Section 145.037, 202.006. Texas Election Code 9\\0572023 CERTIFICATE OF NOMINATION TO FILL UNEXPIRED TERM To: Secretary of State or County Clerk\\057Elections Administrator: 1, Michelle M. L\\363pez , Chair of the Hays County _Executive Committee of the Republican _party do hereby certify that the Executive Committee met on August 12, 2024 \\050date\\051 for the purpose of nominating a candidate for placement on the general election ballot. The committee nominated Philip Muzzy \\050name of nominee\\051 by favorable vote of the majority of the members present at the meeting to the office of District Clerk Unexpired Term. The nomination is a result of the \\050check one\\051 resignation death of _ Avery Anderson \\050name of office-holder\\051 Name of Nominee as it is to appear on general election ballot: Philip Muzzy Residence address of the replacement nominee: 125 William Moon Way \\050City, State, ZIP\\051 San Marcos Texas 78666 Mailing address \\050if different from resident address\\051: \\050City, State, ZIP\\051 Date of Birth: Business Telephone: Home Telephone: Occupation: 04\\05721\\0571973 \\050512\\051 757-1606 \\050512\\051 757-1606 Business Owner micheum tops State of Texas County of Hays Sworn to and subscribed before me this date Ung: 14,7024 00000000000000 SEEMAN HANCOCK Notary Public, State of Texas ID No 1067458-5 0000000000000000 Title of Officer Fem \\057notary My commission expires: 10\\05717\\0572024 Print Reset | ",
-    "saved_file": "20241114023625_084c7c23c786.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Notice%20of%20Bond%20Election%20-%20espanol.pdf",
-    "capture_utc": "20241114023539",
-    "replay_error": null,
-    "bytes": 411906,
-    "sha256": "3b1ce2fd7f61a9659bd4cbb0fe955541de267b39f86cc4ab55df78a3e735f926",
-    "orig_last_modified": "Thu, 26 Sep 2024 19:06:29 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:39 GMT",
-    "Creator": "\u00fe\u00ff\u0000P\u0000o\u0000w\u0000e\u0000r\u0000 \u0000P\u0000D\u0000F\u0000 \u0000C\u0000r\u0000e\u0000a\u0000t\u0000e",
-    "Producer": "\u00fe\u00ff\u0000P\u0000o\u0000w\u0000e\u0000r\u0000 \u0000P\u0000D\u0000F\u0000 \u0000C\u0000r\u0000e\u0000a\u0000t\u0000e",
-    "CreationDate": "D:20240920152759-05'00'",
-    "ModDate": "D:20240920153106-05'00'",
-    "Title": "\u00fe\u00ff\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u0000W\u0000o\u0000r\u0000d\u0000 \u0000-\u0000 \u0000H\u0000a\u0000y\u0000s\u0000 \u0000C\u0000o\u0000u\u0000n\u0000t\u0000y\u0000 \u0000N\u0000o\u0000v\u0000e\u0000m\u0000b\u0000e\u0000r\u0000 \u00002\u00000\u00002\u00004\u0000 \u0000R\u0000o\u0000a\u0000d\u0000 \u0000B\u0000o\u0000n\u0000d\u0000 \u0000E\u0000l\u0000e\u0000c\u0000t\u0000i\u0000o\u0000n\u0000 \u0000-\u0000 \u0000N\u0000o\u0000t\u0000i\u0000c\u0000e\u0000 \u0000o\u0000f\u0000 \u0000B\u0000o\u0000n\u0000d\u0000 \u0000E\u0000l\u0000e\u0000c\u0000t\u0000i\u0000o\u0000n\u0000 \u0000\\(\u0000S\u0000p\u0000a\u0000n\u0000i\u0000s\u0000h\u0000\\",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  | : | \\) | o o o |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023539_2bd9f37d81fd.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Notice%20of%20Bond%20Election.pdf",
-    "capture_utc": "20241114023617",
-    "replay_error": null,
-    "bytes": 635446,
-    "sha256": "a655341879fc56da5a2aa615e02a98a47e3a6039f36a30fee4da05b83163e2e0",
-    "orig_last_modified": "Thu, 26 Sep 2024 19:02:45 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:17 GMT",
-    "Creator": "\u00fe\u00ff\u0000P\u0000o\u0000w\u0000e\u0000r\u0000 \u0000P\u0000D\u0000F\u0000 \u0000C\u0000r\u0000e\u0000a\u0000t\u0000e",
-    "Producer": "\u00fe\u00ff\u0000P\u0000o\u0000w\u0000e\u0000r\u0000 \u0000P\u0000D\u0000F\u0000 \u0000C\u0000r\u0000e\u0000a\u0000t\u0000e",
-    "CreationDate": "D:20240920152712-05'00'",
-    "ModDate": "D:20240920153331-05'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " | \\226 : : : | : : : \\( | \\) |  |  | \\( |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | PASSED  AND  APPROVED  the  13 th  day  of  August,  2024  COUN ~  YS ,  TEXAS  <P  County  Judge  ATTEST:  \u00a3\\\\a : ,  r1e  \\\\- \\\\ .  C0.r d Ut ~ S  \\000~\\000  \\000~ \\000~\\000  De  ? 1  \\\\h>.  County  Clerk  and  Ex-Offici;  lerk  1  - '-J  of  the  Commissioners  Court  of  Hays  County,  Texas  \\(SEAL  OF  COMMISSIONERS  COURT\\)  Signature  Page  Order  Calling  Road  Bond  Election  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023617_63274b313599.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Notice%20of%20Test%20of%20Automatic%20Tabulating%20Equipment.pdf",
-    "capture_utc": "20241114023610",
-    "replay_error": null,
-    "bytes": 54021,
-    "sha256": "fab940951104e7bfa3e88df43462d5da523f357c4655f976988f7abec165b63e",
-    "orig_last_modified": "Tue, 10 Sep 2024 21:04:41 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:10 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  | 15 - 6           |             |           |               lo     se   da |       el             se     la   \\363 n       | se     a     el   5   de   de   se     el   1 8   de     de     a     |     en   la           a    |         |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023610_00cd4ad2592b.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Order%20Calling%20Road%20Bond%20Election%20-%20espanol.pdf",
-    "capture_utc": "20241114023643",
-    "replay_error": null,
-    "bytes": 411656,
-    "sha256": "87bcc788594aa2b44db2bf89fa074f19560ebafad02cce8f3df6f226e04f67b2",
-    "orig_last_modified": "Thu, 26 Sep 2024 19:13:30 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:42 GMT",
-    "Creator": "\u00fe\u00ff\u0000P\u0000o\u0000w\u0000e\u0000r\u0000 \u0000P\u0000D\u0000F\u0000 \u0000C\u0000r\u0000e\u0000a\u0000t\u0000e",
-    "Producer": "\u00fe\u00ff\u0000P\u0000o\u0000w\u0000e\u0000r\u0000 \u0000P\u0000D\u0000F\u0000 \u0000C\u0000r\u0000e\u0000a\u0000t\u0000e",
-    "CreationDate": "D:20240920152955-05'00'",
-    "ModDate": "D:20240920153017-05'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  | : \\( | \\) | o o o |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023643_0de913f33872.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Order%20Calling%20Road%20Bond%20Election.pdf",
-    "capture_utc": "20241114023637",
-    "replay_error": null,
-    "bytes": 466908,
-    "sha256": "9d5db2aa86ad58d77dab2c5684bbf1a88a207155331e73c45421a5b56705539a",
-    "orig_last_modified": "Thu, 26 Sep 2024 19:13:08 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:37 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  | \\226 |  | : : : : | : : \\) |  |  |  | PASSED  AND  APPROVED  the  13 th  day  of  August,  2024  COUN ~  YS ,  TEXAS  <P  County  Judge  ATTEST:  \u00a3\\\\a : ,  r1e  \\\\- \\\\ .  C0.r d Ut ~ S  \\000~\\000  \\000~ \\000~\\000  De  ? 1  \\\\h>.  County  Clerk  and  Ex-Offici;  lerk  1  - '-J  of  the  Commissioners  Court  of  Hays  County,  Texas  \\(SEAL  OF  COMMISSIONERS  COURT\\)  Signature  Page  Order  Calling  Road  Bond  Election  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023637_b4e45290ddb6.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Road%20Bond%20Election%20Proposition%20Language%20-%20incluyendo%20espanol.pdf",
-    "capture_utc": "20241114023640",
-    "replay_error": null,
-    "bytes": 43229,
-    "sha256": "75d8178511a7ac8053ebcbfcda851b96807723d5999eb233a5a84127a3e5c811",
-    "orig_last_modified": "Thu, 26 Sep 2024 19:16:14 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:40 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |       \u0096 :   \\000x     \\000x     \\000x   \\000x     :   \\000x     \\000x     \\000x     |  |  |  |       :   \\000x     \\000x   \\000x   \\000x       :   \\000x     \\000x     \\000x     \\000x     \\000x     \\000x     \\000x         \\000x     \\000x       :   \\000x     \\000x       :   \\000x     \\000x     \\000x     \\000x       :    \\000x         |       \\000x     \\000x     \\000x   \\000x       \\000x     \\000x     \\000x       |       \\000x     \\000x   \\000x   \\000x         \\000x     \\000x       \\000x     \\000x     \\000x     \\000x     \\000x       \\000x     \\000x       :   \\000x     \\000x         \\000x     \\000x     \\000x     \\000x           \\000x     |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023640_6a4a325cdff1.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Road%20Bond%20Election%20Voter%20Information%20Document%20-%20espanol.pdf",
-    "capture_utc": "20241114023606",
-    "replay_error": null,
-    "bytes": 28956,
-    "sha256": "5aee21ccc49f51c87bd5d619e1341429796f52923185ab8b0ea8831587a00945",
-    "orig_last_modified": "Thu, 26 Sep 2024 19:15:30 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:05 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |   \u00b1           1.   $439,634,000  2.   $338,728,762.50  3.     $778,362,762.50  4.   *   $475,481,919  5.   *   $162,561,565.43  6.   *   $638,043,484.43  7.     $20.00  8.     *     \\000x         \u00b1 |  |  |  |   \\000x     \\000x     \\000x     \\000x     \\000x     \\000x     |  |  |  |  | ",
-    "saved_file": "20241114023606_918feef8158f.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Road%20Bond%20Election%20Voter%20Information%20Document.pdf",
-    "capture_utc": "20241114023714",
-    "replay_error": null,
-    "bytes": 28070,
-    "sha256": "6acff7565193b0ce1041f05dcf9fe28ecc64d72f56b35e9d549241aebb4f7d5a",
-    "orig_last_modified": "Thu, 26 Sep 2024 19:14:59 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:37:14 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |   \u00b1             1.   $439,634,000  2.   $338,728,762.50  3.     $778,362,762.50  4.   *   $475,481,919  5.   *   $162,561,565.43  6.   *   $638,043,484.43  7.     $20.00  8.     *     \\000x       \\000x     \\000x     \u00b1 |  |  |  |     \\000x     \\000x     \\000x     \\000x     |  |  |  |  | ",
-    "saved_file": "20241114023714_c1ccb463bfb7.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20-%20Road%20Bond%20Press%20Release.pdf",
-    "capture_utc": "20241114023516",
-    "replay_error": null,
-    "bytes": 256260,
-    "sha256": "086e1499461b3e88dc65c51332d18396ac50606e8bae3bb4c3bc31d883cb41e3",
-    "orig_last_modified": "Wed, 21 Aug 2024 15:11:51 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:16 GMT",
-    "Creator": "Microsoft Word",
-    "CreationDate": "D:20240821080444-07'00'",
-    "ModDate": "D:20240821080444-07'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023516_52ecc8cab9a9.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20MUD%2011%20-%20Notice%20of%20Election.pdf",
-    "capture_utc": "20241114023530",
-    "replay_error": null,
-    "bytes": 482567,
-    "sha256": "e8b3bdebdbf8abbfbd168643fba58262f61467f4e6ffba6308e5355e36af8c0a",
-    "orig_last_modified": "Wed, 18 Sep 2024 17:32:27 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:30 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  | TO     T   | 11    W ,  |       | W ,    W | W   W | 2       W | W ,  W |   W ,    |  |  |   ,                  A.       1.       2.       3.         44,772,000   B.         1.     $             4,563,000   2.     2,000,000   3.     2,000,000   4.     15,494,000   5.   - 3\\)   684,000   6.   - 3\\)   684,000         $               0   6   $                 $           11 2,       -     A.         $             4,950,000   B.       \\(2. 5 % of BIR\\)   4,125,000   C.             2  yr s 6 .0%\\)   19,800 ,000   |                   Total   A.       B.     \\(15%   \\)   2,301,000   C.     \\( 15 %   \\)   2,301,000   D.       3,500,000     $               10   6 \\)   $           14,067,000           -     A.       $            1,650,000   B.     50   1,375,000   C.         1.   6 .0%\\)   6,600,000   2.   6   4,501,000   D.          1,650,000   E.       500,000   F.       1,174,000   G.       38,000                    -   $          17,488,000             $          55,000,000     6   13,478,000   D.     4,950,000   E.           F.         G.         H.         I.     300,000     -   $                   $             |   WH           ,           ;      ,    -   s  $55,000,000                  .    | .    o    .  ,  7     on      ed     n            .                                |             $165,000,000    ,                    |       ,  ,               E     |                 |     .          \\(  \\)     \\(  \\)     \\)   \\)           \\(  \\)     \\(  \\) \\)             \\(  \\)     \\(  \\) \\)   \\)           \\(  \\)     \\(  \\) \\)   \\)             \\(  \\)     \\(  \\) \\)   \\)   $247,500,000      |         \\(  \\)     \\(  \\) \\)   \\)         .     \\(  \\)   Tu \\(  \\)     \\(  \\)     \\(  \\)     \\(  \\)   -   -   .      .      9 .            C \\226  ,  |       10 .  E D       1 .    2 .      3 .  s s   Sp   st   1      4 .  s   s        1     |  | 5 .          6   7 .        |             \\223                                     y       y     |                               Total   A.       1.       2.       3.         $           44,772,000   B.         1.     $             4,563,000   2.     2,000,000   3.     2,000,000   4.     15,494,000   5.   - 3\\)   684,000   6.   - 3\\)   684,000         $               |                       Total   A.       B.     2,301,000   C.     2,301,000   D.     3,500,000     $                 $           14,067,000               A.       $            1,650,000   B.       1,375,000   C.         1.     6,600,000   2.     4,501,000     $                 $           11 2,       A.     $             4,950,000   B.     4,125,000   C.             19,800 ,000       13,478 ,000   D.     4,950,000   E.         F.         G.         H.         I.     300,000     $                 $             |   D.        1,650,000   E.       500,000   F.       1,174,000   G.       38,000                      $          17,488,000             $          55,000,000             c                                   |               .      .      .          .                      |                   |                 |               A             F     |   L\\315       .                \\(  \\)     \\(  \\)     \\)   \\)           |       \\(  \\)   \\(  \\)   \\)   \\)   \\)               \\(  \\) \\(  \\)   \\)   \\)   \\)   \\)               \\(  \\)   \\(  \\)   \\)   \\)   \\)               \\(  \\) \\(  \\)   \\)   \\)   \\)   \\)   \\)   \\)   \\)   \\)               \\(  \\) \\(  \\)   \\)   \\)   \\)   \\)   \\)   \\)   $82,500,000        |       .                      .              .            \\226  -           |     .      .      .         1       .         .         1   |  |               |             5, 2024    5  4            S                       |                         S                       |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023530_c70742a75944.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20MUD%2011%20-%20Order%20of%20Election.pdf",
-    "capture_utc": "20241114023623",
-    "replay_error": null,
-    "bytes": 1174287,
-    "sha256": "5e669e26b618ea327bd19d2d50a8208c7dbfaf5266b4da79db7c2586cb9c2d3f",
-    "orig_last_modified": "Wed, 18 Sep 2024 17:34:11 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:23 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  | A  I A   ,  ,  A    11  |   REAS ,    created   dated  | v Constitution  and  Constitution; and  W HEREAS , the  District  currently  operates  pursuant  to  Code,   as amend ed ;  and  W HEREAS | th eir  taking the oath and making the bond required by law; and   W HEREAS   fiv e   permanent  d ir ectors  thereof; and  W | HEREAS it  operation  n o 1.20  ro perty  with purposes;  and  W HEREAS | in  an election held for that purpose; and  W HEREAS ,  the  Board  is  of  the  opinion  that  an  election  should be  held  for  the  purpose  of  proposition  on the  levy  of  an operation and maintenance  W HEREAS | y District  election ; and   W HEREAS ,  dated  \\(th covering  the  land,  | d Hays   Co MUD No.   11   |  N o v   20 24   Election   |  Order   Calling   Election  |  |  |  |  |  |               ,      ,      as         A.       1.       2.     \\)     3.   5 %   \\)         B.         1.     $                 2.     2,000,000   3.     2,000,000   4.       5.   - 3\\)   684,000   6.   - 3\\)   684,000     $                   $               0   6   $                 $           11 2 ,       -     A.         of BIR %\\)   $                       B.       \\( 2. 5 %   \\)   4,125,000   C.             2  yr s 6 .0%\\)   19 , 800     6   13,478   D.     4,950,000   |  |  |  | 3       |           ,      an d         2024   ,         :           Total   A.     $                       B.     \\(1 5 %   \\)   2,301,000   C.     \\( 15 %   \\)   2,301,000   D.       3,500,000       $               10   6 \\)   $                 $                   -     A.       $                B.     50   1,375,000   C.         1.   6   6,600,000   2.   6   4,501,000   D.      \\222 s     1,650,000         500,000   F.       1,174,000   G.       38,000        -   $                        $                          F.         G.         H.         I.     300,000     -   $                      T   $             | 4       |         WH EREAS s   $ 165,000,000 ,   $ 55,000,000         ,  P F     ,               $   ;      ,    -     $       ,               ,                :     .       .                   t o  | 5       |                      .   ,  7 7     s     ,       on      ed       n     \\(   \\) 5 ,  2024 .   's       of     F G .       .           A               B           \\( $ 1. 2 0 \\)   PER   $100 \\)       | 6       |                 C         $ 165,000,000         ,                    | 7       |             D       $             OR  ,  ,         ,  A       ON           E       $ 247,500,000   | 8       |           ,      A             F       $   BY      A       | 9       |             .             A     \\(  \\)     \\(  \\)     \\)   \\)   c .         B     \\(  \\)     \\(  \\)     \\)   \\)   \\)   o m t 2           \\(  \\)     \\(  \\)     \\)   \\)   \\)   \\)   i $ 165,000,000   f         D     \\(  \\)     \\(  \\)     \\)   \\)   \\)   i $             \\(  \\)     \\(  \\)     \\)   \\)   \\)   \\)   \\)   \\)   i $       | 10       |           F         \\(  \\)     \\(  \\)     \\)   \\)   \\)   \\)   \\)   \\)   i $     s       .           \\(  \\)   Tu -   \\(  \\)     \\(  \\)     \\(  \\)     \\(  \\)       ,       - -     .         8 .         9 .         pol       C       \\226   | 11       |         ,  - .        - 7310         10 .       E D         .     1 .   .     2 .       3 .     s s ,  s .    ;           st   ,   1       4 .   s s     s        1         |  | 12       |         5 .           6 .   of   by        7 .               |  |  |       |           | to   | y             |             | 2       |             |     |  |                           Total   A.       1.       2.       3.         $            44,772,000   B.         1.     $             4,563,000   2.     2,000,000   3.     2,000,000   4.     15,494,000   5.   1 - 3\\)   684,000   6.   - 3\\)   684,000         $                 $                 $           11 2 ,   |  |  |  |                           Total   A.       B.     2,301,000   C.     2,301,000   D.     3,500,000     $                 $           14,067,000               A.       $            1,650,000   B.       1,375,000   C.         1.     6,600,000   2.     4,501,000       A.     $             4,950,000   B.     4,125,000   C.             19,800 ,000       13,478 ,000   D.     4,950,000   E.         F.         G.         H.         I.     300,000     $                 $             |  |  |  | 4       D.        1,650,000         500,000   F.       1,174,000   G.                             $165,000,000   y $ 55,000,000   y         c       $ 165,000,000             55,000,000                 | 5                     .       .     y     y       .       F G     .       | 6             A               B         2           C     ,    | 7                   D     $ 55,000,000 |     C C R AD       P  M  NRO .  11   DEL         E   C A    I DE  9  DEL  AR T\\315 DISPONER  B R R GRAVAB DI STRITO, TODO SEG\\332N LO  |          F   \\277     Y      | 10           \\(  \\)     \\(  \\)     \\) \\)       \\(  \\)   \\(  \\)   \\) \\) \\) \\)       \\(  \\) \\(  \\)   \\) \\) \\) \\) 1650,000,000         \\(  \\)   \\(  \\)   \\) \\) \\) 55,000,000         \\(  \\) \\(  \\)   \\) \\) \\) \\) \\) \\) \\) \\) $247,500,000  r o d e  agua,  d imp u el  inter\\351s de los bonos.  | 11         F   \\(  \\) \\(  \\)   \\) \\) \\) \\) \\) \\) $       C     \\(  \\) T u -         \\(  \\)    E               | 12           \\226   -     - 7310         .       .       .         | 13       1       .         .                         1   |  |       DI   P           A   P           |  |  |              \"A \"   N   P S   NOVEMBE R  5,  2 02 4  SEE AT TACHED SCHEDULE PROVIDED BY HAYS   COUNTY S   |           DE   VO N   D  E   5  DE  VE R EL HORARIO  A DJUNTO  P ROPORCIONADO  P OR EL CONDADO  D E HAYS S   | Ha           EXH       SEE ATTACHED SCHEDULE PROVIDED BY HAYS   COUNTY S   | Ha     ANE   H   VE R EL HORARIO  A DJUNTO  P ROPORCIONADO  P OR EL CONDADO  D E HAYS S   |  |  |  |  |  |  |  |  |  | C - 1         |                 1                       .     %         2024         2024   s",
-    "saved_file": "20241114023623_6526c90fdf5b.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Hays%20County%20MUD%20No%205%20-%20Order%20Declaring%20Election%20of%20Unopposed%20Candidates%20and%20Canceling%20Election.pdf",
-    "capture_utc": "20241114023604",
-    "replay_error": null,
-    "bytes": 2342294,
-    "sha256": "1955266ff639b12252de103cb6262a5d2a868f0febee9e2429736a7d05f84b27",
-    "orig_last_modified": "Mon, 09 Sep 2024 23:32:12 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:04 GMT",
-    "Producer": "Aspose.PDF for .NET 22.6.0",
-    "Creator": "Aspose Ltd.",
-    "ModDate": "D:20240909161910-05'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023604_b07f36ae01f2.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Notice%20of%20Appointment%20of%20EVC%20to%20ID%20Verify.pdf",
-    "capture_utc": "20241114023559",
-    "replay_error": null,
-    "bytes": 47134,
-    "sha256": "f4746be8d334694ded8b92a48e7b719d6c0f3c3f6372a58606a14e9d0d5cd124",
-    "orig_last_modified": "Sat, 28 Sep 2024 17:45:27 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:59 GMT",
-    "CreationDate": "D:20240927170501-06'00'",
-    "Creator": "Canon ",
-    "ModDate": "D:20240928124244-05'00'",
-    "Producer": " ",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023559_66f47cb29e56.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Notice%20of%20Election%2020241105.pdf",
-    "capture_utc": "20241114023500",
-    "replay_error": null,
-    "bytes": 276281,
-    "sha256": "e7092d7376e8d1aa0a50342bdd88d18ddb5db120bba2c281490732adc0c720c3",
-    "orig_last_modified": "Thu, 26 Sep 2024 19:40:09 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:34:59 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 1,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |              .   12       of                         de               24 ,            On             in           to           \\(       24   un a    ,            en         se                                     21   22   23   24   25   26       |  | 9   \\226   6   pm     9   \\226   6   pm     9   \\226   6   pm     9   \\226   6   pm     9   \\226   6   pm     7   \\226   7   pm   27   28   29   30   31     2     \\226       7   \\226   7   pm     7   \\226   7   pm     7   \\226   7   pm     7   \\226   7   pm     7   \\226   7   pm     3   4   5   6   7   8   9                   |                                                                                                   |  |  |  |  |  |  |  |  |  |                                                                             3                                                         \\226                                                                                         |  |  |  |                                 21   22   23   24   25   26                     \\226       \\226       \\226       \\226   6  pm     \\226       \\226     27   28   29   30   31     2     \\226   6      \\226       \\226       \\226       \\226       \\226       3   4   5   6   7   8   9                                                                                                                                                                         \\)                                                 |  |  |                           \\226                                           \\(                                                 th   2024 \\(   24   20 24 . \\)             of         \\)     \\(     \\):       la     \\)           \\( \\)     \\)  -     \\(   \\)         \\( D   c   \\)     e   \\( b |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023500_79f66b148a4c.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/San%20Marcos%20CISD%20-%20Notice%20of%20Special%20Election.pdf",
-    "capture_utc": "20241114023621",
-    "replay_error": null,
-    "bytes": 858633,
-    "sha256": "e2a72bfbe34868076e09f57acd692e3151dbf520c9e32fa401b29962fd848ffe",
-    "orig_last_modified": "Thu, 19 Sep 2024 18:12:04 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:21 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     __________        __________                        th   \\223 A \\224      E       \\223 A \\224                  r  \\223 A \\224    .       \\223 A \\224      \\222       \\341 \\363                   |  |  |           DE     |  |           th   |  |   .         | E \\) \\( .         |                                         |   \\223 \\224  O  \\223 \\224      |  |   \\223 $1.015200     1.3   | $ 851,078 .\\224     |  |  |  |  |  |     \\( \\)         1.   -         2.   -   4        3.   -         4.   -         5.   -         6.   -         7.   -         8.   -       206   9.   \\226   -         10.   -   \\226         11.   \\226     -         12.   -         13.   -         14.   -         15.   -         16.   -           |  |  |  |  |  |  |  |  |  |  |  |   \\( \\)                   \\226               \\( \\)         \\226         :    8   \\226   5     8 5   \\226             ,    30 8 \\226   5   \\205\\205\\205  8 5   31   7 \\226   6     7 6           |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |                   \\( \\)       |   1403 -             \\( \\)       /      |     \\226     o o     \\205 ..       /      \\226     |     27 \\226       de         /      |   7   \\226   7   pm             A B B y  M       |   P   A                 - A   78644 .  |       - A   .  |       .   \\( \\)       |  |  |  |  |  |  |  |  |  |  |  | 5 , 202 4   \\( 5   4 \\)           S   \\( \\)           \\(     \\)       2 1   | th ,   4 7     2 1   has 6     4     2 7 th ,   4 \\205. 1 2     | 7   4 \\205 1 2 :00      28 th     1 4       28     4   1     | 24 \\205\\205\\205           \\(   \\)       215   ,     830 - 303 -     .  | e   .\\)              \\(   \\)             3864       .   |             *     8815       *       ,                        |                 ,    -        | 2 5 4 .      5     4 .       |  |  |  |  |  |  |  |  |     4           , 20 2 4   s .                                                                                                                            VC # 1     , 3211  FM                       St . |             ,                              |   .       ,                  ,               ,  730  |                               ,            |     VC  #20   ,    St . ,             ,              |                                           ,  |                   ,    VC  #32         ,    262 1         VC # 3 4 |   ,                  78       |  |  |  |  |  | .   .       5 4                               21   22   23   24   25   26       9     6   pm     9     6   pm     9     6   pm     9     6   pm     9     6   pm     7     7   pm   27   28   29   30   31     2           7     7   pm     7     7   pm     7     7   pm     7     7   pm     7     7   pm     3   4   5   6   7   8   9                                         12                         801                                                                          625                                                                                               |  |  |  |  | EXHIBIT \"A\" | Anexo \"A\" |  |  | ",
-    "saved_file": "20241114023621_3c33144251d3.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/San%20Marcos%20CISD%20-%20Order%20of%20Tax%20Rate%20Special%20Election.pdf",
-    "capture_utc": "20241114023652",
-    "replay_error": null,
-    "bytes": 1047078,
-    "sha256": "1cd9fd9fd39d7129a2368de79fc9a6da35cb5bcf818798bc5668954a5ae29ad9",
-    "orig_last_modified": "Fri, 23 Aug 2024 17:07:33 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:52 GMT",
-    "Title": "Hays Caldwell and Gpe  - Early Voting 2024 November General Exhibit A.pdf",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  | I.               ,       $ 1.015200   1. 3   $ 851,078 .             1. 3     . \"     II.     \\223 A, \\224      \\223 A       III.       | .           of             V.     |           \\223 A \\224  120           a  120   ,               \\223 \\224  \\223 \\224  s:   \\223 \\224  o  \\223 \\224      ,       \\223 $ 1.015200     1.3   $ 851,078 .\\224       |       $851,078                               |         X.                   |                               th   th   st             30    10  s         9 th     2024.       1 9               |  |  |  |  | -   |  |             ,  |       - 5 , 202 4     \\223 \\224 \\)  | \\223 \\224 \\)  \\223 \\224 \\)          \\223 \\224 y     | \\222   $ 1.015200   \\222 s   -     | $ 1.015200   a      |         |           |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 5 , 202 4   \\( 5   4 \\)           S   \\( \\)           \\(     \\)       2 1   | th ,   4 7     2 1   has 6     4     2 7 th ,   4 \\205. 1 2     | 7   4 \\205 1 2 :00      28 th     1 4       28     4   1     | 24 \\205\\205\\205           \\(   \\)       215   ,     830 - 303 -     .  | e   .\\)              \\(   \\)             3864       .   |             *     8815       *       ,                        |                 ,    -        | 2 5 4 .      5     4 .       |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | .   .           5 4                   -                                     9   \\226   6   pm     9   \\226   6   pm   |   9   \\226   6   pm     9   \\226   6   pm     9   \\226   6   pm     7   \\226   7   pm               2       p m  \\226   6   pm     7   \\226   7   pm     7   \\226   7   pm     7   \\226   7   pm     7   \\226   7   pm     7   \\226   7   pm     3   4   5   6   7   8   9         \\226                                               \\226         |                 2100 3                         \\226             \\226           \\226                                 \\226   4   \\226   3   3  \\226   3   \\226   3     |                           \\( | \\)         /        \\205\\205 \\205   \\226     o o     \\205 .. |       /      \\226     S     27 | \\226   3 pm   o   de         /      8    7   \\226   7   pm   | \\205\\205\\205              \\( \\)         1403 - A |                   - A   |       - A   |     .        |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023652_99cc24b8e275.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/San%20Marcos%20CISD%20-%20Resolution%20to%20Participate%20in%20Joint%20Election.pdf",
-    "capture_utc": "20241114023730",
-    "replay_error": null,
-    "bytes": 581427,
-    "sha256": "d0e93f07a3b9f52340c3f2ae8a17191ad2337eafd25656ac42f9b008c521d0ad",
-    "orig_last_modified": "Tue, 20 Aug 2024 21:29:52 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:37:29 GMT",
-    "Creator": "HP Scan",
-    "CreationDate": "D:20240820085307-08'00'",
-    "ModDate": "D:20240820085307-08'00'",
-    "Producer": "HP Scan Extended Application",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "",
-    "saved_file": "20241114023730_ee49b1896d23.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/State%20of%20Texas%20-%20Proclamation%20of%20General%20Election.pdf",
-    "capture_utc": "20241114023540",
-    "replay_error": null,
-    "bytes": 3087350,
-    "sha256": "4cc2816da0f66cdad0b33bfeba65ae92b1b3cd0b7d763572b76f094ffc5bf4b3",
-    "orig_last_modified": "Tue, 20 Aug 2024 20:19:05 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:39 GMT",
-    "CreationDate": "D:20240820142406-05'00'",
-    "ModDate": "D:20240820142406-05'00'",
-    "Producer": "Microsoft: Print To PDF",
-    "Title": "Proclamation - General Election.pdf",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "",
-    "saved_file": "20241114023540_9f1cf1323505.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/State%20of%20Texas%20-%20Write-In%20Ballot%20Certification.pdf",
-    "capture_utc": "20241114023533",
-    "replay_error": null,
-    "bytes": 163220,
-    "sha256": "12bc3e227e14071d50020c554fbb42230919c8aa173d45e971581fa3b4fafb8d",
-    "orig_last_modified": "Fri, 30 Aug 2024 18:56:00 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:33 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023533_b936ef5d6e71.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Village%20of%20Bear%20Creek%20-%20Certification%20of%20Unopposed%20Candidates.pdf",
-    "capture_utc": "20241114023714",
-    "replay_error": null,
-    "bytes": 269171,
-    "sha256": "ea293278a5a363cf7d99370242d3b4da8a33c1e293332e0b630b6406cf399a73",
-    "orig_last_modified": "Tue, 27 Aug 2024 23:20:22 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:37:14 GMT",
-    "Creator": "HP Scan",
-    "CreationDate": "D:20240827140644-08'00'",
-    "ModDate": "D:20240827140644-08'00'",
-    "Producer": "HP Scan Extended Application",
-    "Title": "",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "",
-    "saved_file": "20241114023714_758bfab3706e.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Village%20of%20Bear%20Creek%20-%20Ordinance%20Declaring%20Candidates%20Elected.pdf",
-    "capture_utc": "20241114023602",
-    "replay_error": null,
-    "bytes": 712407,
-    "sha256": "a5a1702c299ca1bb7869ad04bd031a6177bcd94458bf9c5ef81db2543846359c",
-    "orig_last_modified": "Fri, 27 Sep 2024 18:00:56 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:02 GMT",
-    "Creator": "HP Scan",
-    "CreationDate": "D:20240927103148-08'00'",
-    "ModDate": "D:20240927153221Z",
-    "Producer": "3-Heights\\222 PDF Merge Split API 6.25.0.4 \\(http://www.pdf-tools.com\\",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  | ",
-    "saved_file": "20241114023602_8f4d34f40a07.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Notices/Wimberley%20ISD%20-%20Notice%20of%20General%20Election.pdf",
-    "capture_utc": "20241114023544",
-    "replay_error": null,
-    "bytes": 547728,
-    "sha256": "d87e44fb23cf89952150bc7f4ae51fa943a1761e0b259c5ea69dea33601e3da3",
-    "orig_last_modified": "Wed, 28 Aug 2024 17:55:39 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:35:43 GMT",
-    "CreationDate": "D:20240820082922+00'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": "",
-    "saved_file": "20241114023544_4b9ebb07f075.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2024/20241105%20Uniform/Sample%20Ballots/Generic%20Sample%20Ballot%2020241105.pdf",
-    "capture_utc": "20241114023600",
-    "replay_error": null,
-    "bytes": 221329,
-    "sha256": "b7b2ccf46a51c7e44a704e75e8f4db4ab3d58aa15df90e1c657884ca7d9c9251",
-    "orig_last_modified": "Wed, 18 Sep 2024 23:54:19 GMT",
-    "orig_date": "Thu, 14 Nov 2024 02:36:00 GMT",
-    "CreationDate": "D:20240915231746-05'00'",
-    "Creator": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
-    "Producer": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
-    "ModDate": "D:20240918185339-05'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20241114023600_e67ae6c3bffd.pdf"
-   }
-  ]
- },
- {
-  "url": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.egovlink.com%2Fpublic_documents300%2Fhayscounty%2Fpublished_documents%2Fdepartments%2Felections%2F2026%2F0303&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260303&to=20260324",
-  "cdx_error": null,
-  "captures": [
-   [
-    "20260316134118",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/20260303%20PEHCA%20Certification%20-%20signed.pdf"
-   ],
-   [
-    "20260316134120",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/All%20Tally%20Sheets%20-%20DEM.pdf"
-   ],
-   [
-    "20260316134102",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/All%20Tally%20Sheets%20-%20REP.pdf"
-   ],
-   [
-    "20260318151407",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Canvass%20Results%20-%20Democratic%20Party%20-%20official%20signed.pdf"
-   ],
-   [
-    "20260321034957",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Canvass%20Results%20-%20Democratic%20Party%20-%20official%20signed.pdf"
-   ],
-   [
-    "20260316134205",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Canvass%20Results%20-%20Republican%20Party%20-%20official%20signed.pdf"
-   ],
-   [
-    "20260316134455",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/Absentee%20Ballots%20Received%2020260303%20-%20DEM.zip"
-   ],
-   [
-    "20260316134130",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/Absentee%20Ballots%20Received%2020260303%20-%20REP.zip"
-   ],
-   [
-    "20260316134359",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/Daily%20Recap%2020260303%20-%20DEM.pdf"
-   ],
-   [
-    "20260316134140",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/Daily%20Recap%2020260303%20-%20REP.pdf"
-   ],
-   [
-    "20260316134046",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/In-Person%20Check-ins%2020260303%20-%20DEM.zip"
-   ],
-   [
-    "20260316134031",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/In-Person%20Check-ins%2020260303%20-%20REP.zip"
-   ],
-   [
-    "20260316134105",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20for%20Weekend%20Voting%2020260303.pdf"
-   ],
-   [
-    "20260317040520",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Appt%20of%20EVC%20to%20Conduct%20ID%20Verification%20and%20BBM%20Corrective%20Action.pdf"
-   ],
-   [
-    "20260316194406",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Convening%20of%20the%20CCS%2020260303.pdf"
-   ],
-   [
-    "20260316172651",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Delivery%20of%20EV%20Balloting%20Materials%2020260303.pdf"
-   ],
-   [
-    "20260316134703",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Post-Election%20Hand%20Count%20Audit%2020260303.pdf"
-   ],
-   [
-    "20260321034951",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Post-Election%20Hand%20Count%20Audit%2020260303.pdf"
-   ],
-   [
-    "20260316134148",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Test%20of%20Automatic%20Tabulating%20Equipment%2020260303.pdf"
-   ],
-   [
-    "20260321035026",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Test%20of%20Automatic%20Tabulating%20Equipment%2020260303.pdf"
-   ],
-   [
-    "20260316134137",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Test%20of%20Electronic%20Poll%20Books%2020260303.pdf"
-   ],
-   [
-    "20260321034959",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Test%20of%20Electronic%20Poll%20Books%2020260303.pdf"
-   ],
-   [
-    "20260316134043",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notification%20of%20Election%20Training%20Program%2020260303.pdf"
-   ],
-   [
-    "20260316134131",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Notice%20of%20Primary%20Election%20-%20Democratic%20Party.pdf"
-   ],
-   [
-    "20260316134120",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Notice%20of%20Primary%20Election%20-%20Republican%20Party.pdf"
-   ],
-   [
-    "20260307135055",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Sample%20Ballots/Dem%20Combined%20Sample%20Ballot%2020260303.pdf"
-   ],
-   [
-    "20260307135100",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Sample%20Ballots/Rep%20Combined%20Sample%20Ballot%2020260303.pdf"
-   ],
-   [
-    "20260308194055",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Sample%20Ballots/Rep%20Combined%20Sample%20Ballot%2020260303.pdf"
-   ],
-   [
-    "20260307090423",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Vote%20Centers%2020260303%20Joint%20Primary%20Election.pdf"
-   ]
-  ],
-  "replays": [
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/20260303%20PEHCA%20Certification%20-%20signed.pdf",
-    "capture_utc": "20260316134118",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2016-11-08/?C=N;O=D",
+    "capture_utc": "20260311131921",
     "replay_error": "URLError: timed out",
     "bytes": 0,
     "sha256": null,
@@ -1060,124 +240,28 @@
     "orig_date": null
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/All%20Tally%20Sheets%20-%20DEM.pdf",
-    "capture_utc": "20260316134120",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2016-11-08/?C=S;O=A",
+    "capture_utc": "20260311124345",
     "replay_error": null,
-    "bytes": 9170532,
-    "sha256": "2b6d976202bc7776c710e172578b86545b67b12ec990350ff0258498da2e2a08",
-    "orig_last_modified": "Fri, 13 Mar 2026 18:23:45 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:41:19 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 47,
-    "text_sample_first_streams": " |  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  James  Talarico  U.S.  Senate  I  /  I  TALLY  SHEET  FOR  | A  HAND  COUNT  Printed  Name  of  Tallier:  ____________  _  Printed  Name  of  Tallier :  ------------- I  J  /  /  /  /  Name  | of  Election:  Joint  Primary  Election  Precinct  Number:  Category:  \\(circle  one\\)  DEM  EV  Mail  EDay  \\225  Polling  Location:  Hays  County  Elections  Center  /  /  | ,  /  /  /  /  /  /  /  /  /  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  cor | 1; ect  tally  list  kept  by  me  for  the  above  described  election.  SignatureofTallierthatcompleledlhisshe ~  42...  Date ~ \\)!JJ__ t  2t >' | :z..b  7  Date  of  Election:  March  3,  2026  Presiding  Judge:  /  /  /  ,I  /  /  /  | /  I  /  /  /  /  /  /  /  /  /  /  I  /  /  ,/  | /  /  /  /  /  /  /  /  ,/  /  /  /'  /  /  |  | 11-6  Prescribed  by  Secretary  of  State  65 . 004  Texas  Election  Code  10/2024  \\\\,_  Printed  Name  of  Caller:  ----' ~ '-- ~ - 'l,U =---_ S _ 5 _ 4 _ JJ ___;__  ___  _  James  Talarico  U.S.  Senate  TALLY  SHEET  FOR  A  HAND  COUNT  Printed  Name  of  Tallier:  Printed  Name  of  Tallier:  -------------- Printed  Name  of  Tallier:  _____________  _  /  /  /  11  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  correct  tally  list  kept  by  me  for  the  Date  I  ii\\)  --=-- Name  of  Election :  Date  of  Election:  Joint  Primary  Election  March  3,  2026  Precinct  Number:  Category:  \\(ci rcle  one\\)  Presiding  Judge:  DEM  EV  Mail  EDay  \\225  Polling  Location:  Hays  County  Elections  Center  ....- |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  Printed  Name  of  Caller:  _____________  _  Printed  Name  of  Tallier:  ......  G  _____  .;.---------- Ahmad  R.  Hassan  U.S.  Senate  TALLY  SHEET  FOR  A  HAND  COUNT  Printed  Name  of  Tallier:  -------------- Printed  Name  of  Tallier:  _____________  _  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  correct  tally  list  kept  by  me  for  the  above  described  election.  Signature  of  Tallier  that  completed  this  sheet  I'\\(  Date  3  I  JO  \\225  Name  of  Election:  Date  of  Election :  Joint  Primary  Election  March  3,  2026  Precinct  Number :  --Category:  \\(circle  one\\)  Presiding  Judge:  DEM  EV  Mail  EDay  \\225  Polling  Location:  Hays  County  Elections  Center  |  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  Jasmine  Crockett  Undervotes  U.S.  Senate  TALLY  SHEET  FOR  A  HAND  COUNT  n  Printed  Name  of  Tallier:  _____________  _  Printed  Name  of  Tallier :  I  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  correct  ally  list  kept  by  me  for  the  above  described  election.  Date  3  1 /D  \\225  Name  of  Election:  Joint  Primary  Election  Precinct  Number :  DEM  Polling  Location :  ategory:  \\(circle  one\\)  EV  Mail  EDay  \\225  Hays  County  Elections  Center  Date  of  Election:  March  3,  2026  Presiding  Judge :  |  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  Printed  Name  of  Caller:  ~ l/ylUA ~  __  s _ S _ ct _ J _ &Yi  _____  _  Printed  Name  of  Tallier:  0  V\\\\\\243;14  ___________  ....:...:.,__  Printed  Name  of  Tallier:  ---------=---------- Nathan  Johnson  /  /  /  /  /  /  ,  /  /  I  Attorney  General  TALLY  SHEET  FOR  A  HAND  COUNT  Printed  Name  of  Tallier:  ------------- Printed  Name  of  Tallier:  ------------- /  /  /  I'  /  /  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  correct  tally  list  kept  by  Date  Name  of  Election:  Date  of  Election :  Joint  Primary  Election  March  3,  2026  Precinct  Number :  Category:  \\(  circle  one\\)  Presiding  Judge:  DEM  EV  Mail  EDay  \\225  Polling  Location:  Hays  County  Elections  Center  /'  |  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  Joe  Jaworski  Attorney  General  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  correct  tally  \\225  TALLY  SHEET  FOR  A  HAND  COUNT  Printed  Name  of  Tallier:  _____________  _  Printed  Name  of  Tallier:  -------------- t  by  me  for  the  above  described  election .  Date -2- /  /J  I  Name  of  Election:  Date  of  Election:  Joint  Primary  Election  March  3,  2026  Precinct  Number:  ategory :  \\(circle  one\\)  Presiding  Judge:  DEM  EV  Mail  EDay  J  /A?O  \\225  Polling  Location:  Hays  County  Elections  Center  ./  j  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  Attorney  General  TALLY  SHEET  FOR  A  HAND  COUNT  Printed  Name  of  Tallier :  -------------- Printed  Name  of  Tallier:  -------------- /  /  /  //  /  /  /  /I  I  I  hereby  certify  that  the  w i thin  and  foregoing  is  a  true  and  correct  tally  list  kept  by  m  Name  of  Election:  Joint  Primary  Election  Precinct  Number:  Category:  \\(circle  one\\)  DEM  EV  Mail  EDay  \\225  Polling  Location:  Hays  County  Elections  Center  /  /  /  /  I  Date ~ /  f  Q  I  ZOL[c?  Date  of  Election:  March  3,  2026  Presiding  Judge :  /  /  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  Michelle  Gutierrez  Cohen  County  Judge  TALLY  SHEET  FOR  A  HAND  COUNT  Printed  Name  of  Tallier:  -------------- Printed  Name  of  Tallier:  _ _ _ __ ___ ___ __  _  I  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  correct  tally  list  kep  Name  of  Election:  Date  of  Election:  Joint  Primary  Election  March  3,  2026  Precinct  Number :  ategory:  \\(circle  one\\)  Presiding  Judge:  DEM  EV  Mail  EDay  \\225  Polling  Location :  Hays  County  Elections  Center  /  l  I  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024 ",
-    "saved_file": "20260316134120_d76d23e4e23c.pdf"
+    "bytes": 1393,
+    "sha256": "46912f0b491d3ba051a38d021c0840796317516bad0c1456c1fd4a859ba4c212",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 12:43:45 GMT",
+    "saved_file": "20260311124345_8b6e18f7f7e0.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/All%20Tally%20Sheets%20-%20REP.pdf",
-    "capture_utc": "20260316134102",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2018-05-22/?C=M;O=D",
+    "capture_utc": "20260311131412",
     "replay_error": null,
-    "bytes": 6956385,
-    "sha256": "488851db315d93d8dcc262bd41f9e7fe3168363a83c209953e2fd6f30163f0bd",
-    "orig_last_modified": "Fri, 13 Mar 2026 18:23:50 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:41:02 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 43,
-    "text_sample_first_streams": " |  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  Wesley  Hunt  Gulrez  \"Gus\"  Khan  U.S.  Senate  Virgil  John  Bierschwale  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  co  TALLY  SHEET  FOR  A  HAND  COUNT  rinted  Name  of  T 9 llier:  ____________  _  /  I  Date  O  3 1  J  D  I  Name  of  Election :  Date  of  Election:  Joint  Primary  Election  March  3,  2026  Precinct  Number:  Category:  \\(circle  one\\)  Presiding  Judge:  REP  EV  Mail  EDay  \\225  Polling  Location:  Hays  County  Elections  Center  12  /  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  \\225  Printed  Name  of  Caller:  _ y ~ \\) ___., ~ .__, V .____ L ......;_ R --\"'-\" ~ _..._ \\\\l --=--- \\\\ _....,. L '-'- n -=-= t- :;;__ Q; -=---- Printed  Name  of  Tallier:  \\\\  \\\\\\)'J,  1\\\\l  l'-4.  __._---'-----------~-------t-- U.S.  Senate  Sara  Canady  John  0.  Adefope  Anna  Bender  TALLY  SHEET  FOR  A  HAND  COUNT  Printed  Name  of  Tallier:  ____________  _  Printed  Name  of  Tallier:  ------------- Printed  Name  of  Tallier:  ____________  _  /  Name  of  Election:  Joint  Primary  Election  Precinct  Number:  REP  Polling  Location:  ategory:  \\(circle  one\\)  EV  Mail  EDay  \\225  Hays  County  Elections  Center  Date  of  Election :  March  3,  2026  Presiding  Judge:  /  /  !O  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  U.S.  Senate  TALLY  SHEET  FOR  A  HAND  COUNT  rinted  Name  of  Tallier:  -------------- Printed  Name  of  Tallier:  Name  of  Election:  Joint  Primary  Election  Precinct  Number:  REP  Polling  Location:  ategory:  \\(circle  one\\)  EV  Mail  EDay  \\225  Hays  County  Elections  Center  Date __3_ t  /D I  ~t-e  Date  of  Election:  March  3,  2026  Presiding  Judge:  /  |  | 11-6  Prescribed  by  Secretary  of  State  65 . 004  Texas  Election  Code  10/2024  Attorney  General  Chip  Roy  Aaron  Reitz  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  TALLY  SHEET  FOR  A  HAND  COUNT  Name  of  Election:  Date  of  Election:  Joint  Primary  Election  March  3,  2026  Printed  Name  of  Tallier:  ____________  _  Precinct  Number :  Category:  \\(  circle  one\\)  Presiding  Judge:  Printed  Name  of  Tallier:  REP  EV  Mail  EDay  \\225  ------------- Polling  Location:  Printed  Name  of  Tallier:  ____________  _  Hays  County  Elections  Center  /  I  Date  3 ,  ID ,  ~lo  |  | /  /  /  /  /  /  //  /  r  /  /  Undervotes  /  /  /  /  1/r'  Attorney  General  bove  described  election .  Date  /  /'  /  I  .2  I  / 0  i  Name  of  Election:  Joint  Primary  Election  Precinct  Number :  REP  Polling  Location :  ategory:  \\(circle  one\\)  EV  Mail  EDay  \\225  Hays  County  Elections  Center  /  /  /  Date  of  Election:  March  3,  2026  Presiding  Judge :  /  38  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  Printed  Name  of  Caller :  ,~  h  I  Printed  Name  of  Tallier:  t\\)c..AJ  ~t-P  Printed  Name  of  Tallier:  -'a~ \\243Jt  .........  Vl _.__;:_____,...___  _______  _  Candidate/Proposition  Choice  5  10  -..  __  ,:\\267r  ,,  Rob  McClelland  Hll  Wm.  Travis  Crow  ~- Undervotes  l  I  County  Commissioner  Precinct  4  ,,- TALLY  SHEET  FOR  A  HAND  COUNT  Printed  Name  of  Tallier:  ------------- Printed  Name  of  Tallier:  ____________  _  Printed  Name  of  Tallier:  ------------- 15  20  25  30  35  40  45  50  55  /'J  /  fl  /\\\\  tion.  Name  of  Election:  Joint  Primary  Election  Precinct  Number:  Category:  \\(circle  one\\)  REP  EV  Mail  EDay  \\225  Polling  Location:  Hays  County  Elections  Center  60  65  70  75  80  85  1 ,  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and lJ l  {ally  list  ~ ept  y  _ for  t'f\\(/a'g/v { , 2: d  cribed  el  S .  ~_,  '-'IAj  1gnature  of  Tallier  that  completed  this  sheet  v  ,  Date  3 ,  10 , ~\\(p  v  Date  of  Election:  March  3,  2026  Presiding  Judge:  90  95  100  Total  L{  5\"  /  I'  \\)  - ./  |  |  | 11-6  Prescribed  by  Secretary  of  State  65 . 004  Texas  Election  Code  10/2024  Printed  Name  of  Tallier:  TALLY  SHEET  FOR  A  HAND  COUNT  Printed  Name  of  Tallier:  VI  Name  of  Election:  Date  of  Election:  Joint  Primary  Election  March  3,  2026  Precinct  Number :  Category:  i rcle  one\\)  Presiding  Judge:  REP  EV  \\225  Mail  EDay  Pollin  g  Location :  Patriots'  Hall  of  Dripping  Springs  Candidate/Proposition  Choice  5  20  25  40  45  60  65  70  75  so  85  90  95  100  Total  Ken  Paxton  U.S.  Senate  Wesley  Hunt  33_3  Khan  I  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  correct  tally  list  ke  t  by  me  for  the  above  described  election .  Date  ___3_ 1  /  D  I  1_0  2lo  |  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  Virgil  John  Bierschwale  U.S.  Senate  John  Cornyn  Sara  Canady  TALLY  SHEET  FOR  A  HAND  COUNT  U{f  I  hereby  certify  that  the  within  and  foregoing  is  a  true  and  corr  ct  tally  list  kept  by  me  for  the  above  described  election.  Date  Name  of  Election:  Date  of  Election:  Joint  Primary  Election  March  3,  2026  Precinct  Number :  ategory:  \\(circle  one\\)  Presiding  Judge:  REP  Polling  Location:  EV  Mail  EDay  \\225  Patriots'  Hall  of  Dripping  Springs  ' --=- - Z.. _ lo _  1 0 1 ~  /  /  I  |  | 11-6  Prescribed  by  Secretary  of  State  65.004  Texas  Election  Code  10/2024  TALLY  SHEET  FOR  A  HAND  COUNT  Name  of  Election :  Joint  Primary  Election  Precinct  Number:  Category:  \\(circle  one\\)  REP  EV  \\225  Mail  EDay  Polling  Location:  Patriots'  Hall  of  Dripping  Springs  Candidate/Proposition  Choice  5  10  15  20  25  30  35  40  45  60  65  70  75  80  85  John  0.  Adefope  \\\\m  \\\\\\\\  ,  Anna  Bender  \\\\\\\\  \\\\  Undervotes  \\\\X\\(\\\\  \\\\\\\\  ~.  ,~  I  ./  ,  ,,  U",
-    "saved_file": "20260316134102_fdeec61fba88.pdf"
+    "bytes": 1685,
+    "sha256": "9f51628fccee9b93dd31d11e02512699c7fee225135403b467459e1e78523f8e",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 13:14:12 GMT",
+    "saved_file": "20260311131412_fa91da879c8a.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Canvass%20Results%20-%20Democratic%20Party%20-%20official%20signed.pdf",
-    "capture_utc": "20260318151407",
-    "replay_error": null,
-    "bytes": 2378127,
-    "sha256": "05d477a51a05c9b75c6bad6c1e4cdb9545cd0c2d54849b336ed13d2f3525e3c9",
-    "orig_last_modified": "Fri, 13 Mar 2026 18:23:55 GMT",
-    "orig_date": "Wed, 18 Mar 2026 15:14:06 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 595,
-    "text_sample_first_streams": " |  |  | U . S .  Senator  \\(Dem\\)  - Democratic  Party  Ill  Ill  :::E  u  :::E  Ill  :::E  I.II  I.II  ]  0  0  I.II  c  \"iii  0  =  co  0  CII  O'l  Ill  .Ill:  C  1,1  Ill  1,1  | -~  \\267c  J:  e  Ill  Ill  Ill  >  -;  ii  u  Q\\)  Ill  QJ  0  QJ  QJ  ...  \"C  CII  0  0  Ill  C  C:  CII  Ill  .E  >  QJ  C:  C  E  E  Ill  \"O  \\(I\\)  | .c  Ill  C  >  .D  Ill  Precinct  c\\(  u  ::>  0  <t:  109  18 0  2  78  260  110  332  7  218  30  112  332  5  148  485  12  113  282  5  125  412  4  0  13  114  274  0  145  419  7  0  39  115  376  2  131  509  120  277  3  136  416  16  | 121  341  3  183  125  205  159  365  2  0  17  128  377  4  221  602  2  0  7  132  122  2  51  175  2  0  4  134  319  3  149  471  136  266  5  1 00  371  0  10  140  370  5  186  561  0  11  141  170  0  50  220  4  142  500  6  249  755  0  146  0  2  147  0  0  200  0  0  203  319  2  214  535  4  0  17  204  167  105  273  | 2  Hays  County,  Texas  ....  Ill  Ill  u  Ill  ]  \"iii  co  O'l  C  -~  >  >..  .:  Prim a ry  El ect i o n  155  287  207  205  238  285  264  256  219  381  104  293  219  290  136  406  2  0  0  354  163  3/3/2 026  Pa g e  1  t;  | Ill  u  Ill  ]  \"iii  co  O'l  C  -~  >  >..  Ill  0  C  0  \\267 .;:;  u  Q\\)  w  101  243  271  198  149  223  141  268  131  216  69  172  143  261  80  349  0  0  0  168  108  t;  Ill  u  Ill  ]  \"iii  co  \"iii  0  I- 260  560  | 490  416  426  514  421  527  367  6 0 4  177  471  372  562  220  756  2  0  0  539  273  QJ  O'l  Q\\)  !!l  0  C  QJ  >  QJ  \"O  Cl.  ....  ::::,  0  ' 01  E  Q\\)  ::::,  ex:  I- 1,442  18 | . 03%  3,495  16.02%  2,533  19.34%  2,658  15 . 65%  2,441  17.45%  3,001  17.13%  /  1 '  oft  2,740  15.36%  3,302  15 . 96%  2,176  16 . 87%  3,8 0 2  15.89%  711  24.89%  3,125  15 . 07%  3,276  11.36%  3,278  17.14%  797  27 . 60%  3,980  18 . 99%  24  8 . 33%  7  0.00%  0  0 . 00%  3,205  16 . 82%  1 , 997  13.67%  |  | Hays County, Texas Primary Election 3/3/2026 Page 2 Official Results Registered Voters 34049 of 192945 = 17.65% Precincts Reporting 93 of 93 = 100.00% Canvass Results - Democratic  Party March 3, 2026 Joint Primary Election Run Time Run Date 6:03 PM 03/09/2026 U.S. Senator \\(Dem\\) - Democratic Party Precinct James Talarico, DEM Ahmad R. Hassan, DEM Jasmine Crockett, DEM Cast Votes Undervotes Overvotes Absentee Voting Ballots Cast Early Voting Ballots Cast Election Day Voting Ballots Cast Total Ballots Cast Registered Voters Turnout Percentage 205 367 3 209 579 5 0 23 372 189 584 3,765 15.51% 206 313 6 181 500 0 0 12 309 179 500 3,475 14.39% 216 62 1 29 92 0 0 1 60 31 92 786 11.70% 218 327 0 109 436 2 0 19 288 131 438 2,690 16.28% 219 108 0 70 178 2 0 8 120 52 180 937 19.21% 220 539 4 191 734 5 0 39 497 203 739 3,432 21.53% 221 158 1 105 264 0 0 10 163 91 264 1,595 16.55% 223 330 4 144 478 6 0 19 310 155 484 3,047 15.88% 225 67 1 19 87 1 0 0 71 17 88 489 18.00% 227 421 4 182 607 0 0 27 387 193 607 3,266 18.59% 228 490 5 202 697 2 0 3 507 189 699 3,357 20.82% 231 233 6 96 335 4 0 12 209 118 339 1,720 19.71% 237 494 1 245 740 2 0 8 479 255 742 3,929 18.89% 252 317 3 176 496 3 0 13 329 157 499 2,894 17.24% 253 297 2 194 493 1 0 13 315 166 494 3,240 15.25% 254 441 3 213 657 1 0 29 444 185 658 3,434 19.16% 314 508 3 118 629 7 0 30 485 121 636 3,335 19.07% 315 377 4 132 513 6 0 23 359 137 519 1,898 27.34% 316 528 8 192 728 10 0 37 447 254 738 3,244 22.75% 319 219 0 86 305 3 0 8 195 105 308 1,797 17.14% 325 67 0 24 91 2 0 7 59 27 93 564 16.49% | Hays County, Texas Primary Election 3/3/2026 Page 3 Official Results Registered Voters 34049 of 192945 = 17.65% Precincts Reporting 93 of 93 = 100.00% Canvass Results - Democratic  Party March 3, 2026 Joint Primary Election Run Time Run Date 6:03 PM 03/09/2026 U.S. Senator \\(Dem\\) - Democratic Party Precinct James Talarico, DEM Ahmad R. Hassan, DEM Jasmine Crockett, DEM Cast Votes Undervotes Overvotes Absentee Voting Ballots Cast Early Voting Ballots Cast Election Day Voting Ballots Cast Total Ballots Cast Registered Voters Turnout Percentage 331 153 2 28 183 3 0 13 111 62 186 1,155 16.10% 332 469 3 137 609 7 0 26 363 227 616 2,850 21.61% 333 453 2 91 546 1 0 25 387 135 547 2,983 18.34% 335 558 5 151 714 6 0 31 514 175 720 3,624 19.87% 336 580 3 195 778 3 0 15 459 307 781 3,706 21.07% 337 451 3 126 580 3 0 24 396 163 583 3,365 17.33% 338 451 3 81 535 4 0 23 379 137 539 2,918 18.47% 339 186 2 32 220 1 0 11 141 69 221 1,364 16.20% 340 516 6 157 679 2 0 26 400 255 681 2,936 23.19% 342 420 2 174 596 4 0 9 416 175 600 3,437 17.46% 344 445 2 111 558 2 0 41 390 129 560 3,416 16.39% 347 320 2 92 414 0 0 11 224 179 414 2,334 17.74% 351 168 0 75 243 0 0 2 120 121 243 1,646 14.76% 359 29 0 7 36 1 0 0 26 11 37 208 17.79% 360 19 0 7 26 1 0 2 17 8 27 191 14.14% 371 540 1 179 720 4 0 13 483 228 724 3,387 21.38% 372 22 0 8 30 0 0 1 13 16 30 361 8.31% 374 3 0 0 3 0 0 0 3 0 3 301 1.00% 375 7 1 3 11 0 0 0 10 1 11 47 23.40% 376 10 0 5 15 0 0 1 12 2 15 124 12.10% 400 1 0 0 1 0 0 0 1 0 1 0 0.00% | Hays County, Texas Primary Election 3/3/2026 Page 4 Official Results Registered Voters 34049 of 192945 = 17.65% Precincts Reporting 93 of 93 = 100.00% Canvass Results - Democratic  Party March 3, 2026 Joint Primary Election Run Time Run Date 6:03 PM 03/09/2026 U.S. Senator \\(Dem\\) - Democratic Party Precinct James Talarico, DEM Ahmad R. Hassan, DEM Jasmine Crockett, DEM Cast Votes Undervotes Overvotes Absentee Voting Ballots Cast Early Voting Ballots Cast Election Day Voting Ballots Cast Total Ballots Cast Registered Voters Turnout Percentage 422 250 3 95 348 3 0 21 233 97 351 1,917 18.31% 423 308 5 107 420 1 0 13 299 109 421 2,265 18.59% 424 470 4 124 598 6 0 20 428 156 604 2,946 20.50% 425 139 2 35 176 2 0 12 134 32 178 1,128 15.78% 426 481 1 131 613 2 0 45 390 180 615 2,786 22.07% 430 241 0 65 306 3 0 16 212 81 309 1,607 19.23% 432 275 2 82 359 1 0 23 233 104 360 2,196 16.39% 435 558 3 148 709 4 0 13 519 181 713 3,271 21.80% 436 393 2 90 485 5 0 12 345 133 490 2,946 16.63% 440 173 1 42 216 1 0 18 128 71 2",
-    "saved_file": "20260318151407_8579b8c1215c.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Canvass%20Results%20-%20Republican%20Party%20-%20official%20signed.pdf",
-    "capture_utc": "20260316134205",
-    "replay_error": null,
-    "bytes": 2105042,
-    "sha256": "098d2f450ed23061344ae6705acd9b8a77d7ff131650b617c0001c804947af6f",
-    "orig_last_modified": "Fri, 13 Mar 2026 18:23:59 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:42:05 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 527,
-    "text_sample_first_streams": " |  |  |  |  |  |  | Hays County, Texas Primary Election 3/3/2026 Page 2 Official Results Registered Voters 18686 of 192945 = 9.68% Precincts Reporting 93 of 93 = 100.00% Canvass Results - Republican  Party March 3, 2026 Joint Primary Election Run Time Run Date 6:04 PM 03/09/2026 U.S. Senator \\(Rep\\) - Republican Party Precinct Ken Paxton, REP Wesley Hunt, REP Gulrez \"Gus\" Khan, REP Virgil John Bierschwale, REP John Cornyn, REP Sara Canady, REP John O. Adefope, REP Anna Bender, REP Cast Votes Undervotes Overvotes Absentee Voting Ballots Cast Early Voting Ballots Cast Election Day Voting Ballots Cast Total Ballots Cast Registered Voters Turnout Percentage 205 80 23 2 3 81 6 1 3 199 0 0 12 118 69 199 3,765 5.29% 206 59 24 0 1 102 6 2 3 197 1 0 7 120 71 198 3,475 5.70% 216 15 5 2 1 12 3 0 0 38 0 0 0 26 12 38 786 4.83% 218 48 21 3 0 51 4 1 1 129 3 0 10 66 56 132 2,690 4.91% 219 27 14 0 0 25 0 2 0 68 0 0 3 34 31 68 937 7.26% 220 111 35 0 1 117 3 1 0 268 3 0 11 156 104 271 3,432 7.90% 221 29 7 0 0 31 3 0 1 71 0 1 8 35 29 72 1,595 4.51% 223 63 25 3 0 83 2 0 4 180 1 0 3 114 64 181 3,047 5.94% 225 16 8 1 0 19 1 0 0 45 0 0 2 28 15 45 489 9.20% 227 65 21 2 2 88 5 1 1 185 0 0 1 113 71 185 3,266 5.66% 228 79 28 2 3 89 4 0 1 206 1 0 2 139 66 207 3,357 6.17% 231 41 17 0 0 34 1 0 0 93 2 0 3 47 45 95 1,720 5.52% 237 77 22 1 1 53 1 1 2 158 0 0 6 85 67 158 3,929 4.02% 252 48 14 1 0 50 7 1 2 123 2 0 7 71 47 125 2,894 4.32% 253 62 24 1 1 47 2 3 0 140 2 0 4 75 63 142 3,240 4.38% 254 73 37 2 0 88 5 1 0 206 1 0 5 149 53 207 3,434 6.03% 314 277 96 5 2 474 7 2 4 867 11 0 50 610 218 878 3,335 26.33% 315 113 40 2 1 178 4 2 2 342 4 0 10 218 118 346 1,898 18.23% 316 62 21 2 2 112 4 0 0 203 4 0 16 121 70 207 3,244 6.38% 319 83 19 1 1 68 2 1 1 176 0 0 2 113 61 176 1,797 9.79% 325 22 13 0 0 49 1 1 0 86 0 0 3 63 20 86 564 15.25% | Hays County, Texas Primary Election 3/3/2026 Page 3 Official Results Registered Voters 18686 of 192945 = 9.68% Precincts Reporting 93 of 93 = 100.00% Canvass Results - Republican  Party March 3, 2026 Joint Primary Election Run Time Run Date 6:04 PM 03/09/2026 U.S. Senator \\(Rep\\) - Republican Party Precinct Ken Paxton, REP Wesley Hunt, REP Gulrez \"Gus\" Khan, REP Virgil John Bierschwale, REP John Cornyn, REP Sara Canady, REP John O. Adefope, REP Anna Bender, REP Cast Votes Undervotes Overvotes Absentee Voting Ballots Cast Early Voting Ballots Cast Election Day Voting Ballots Cast Total Ballots Cast Registered Voters Turnout Percentage 331 92 25 1 0 98 2 1 1 220 0 0 11 128 81 220 1,155 19.05% 332 67 30 4 0 74 4 0 2 181 4 0 10 94 81 185 2,850 6.49% 333 275 73 3 1 247 5 3 4 611 4 0 20 390 205 615 2,983 20.62% 335 284 86 1 3 316 4 1 1 696 6 0 30 446 226 702 3,624 19.37% 336 149 66 2 4 226 4 1 4 456 7 0 18 248 197 463 3,706 12.49% 337 264 63 3 2 247 12 1 0 592 7 0 25 370 204 599 3,365 17.80% 338 197 69 6 3 231 8 2 3 519 5 0 17 359 148 524 2,918 17.96% 339 118 36 1 0 156 5 0 1 317 1 0 7 183 128 318 1,364 23.31% 340 52 22 3 1 71 6 0 1 156 0 0 9 89 58 156 2,936 5.31% 342 138 62 5 3 187 7 2 1 405 0 0 9 248 148 405 3,437 11.78% 344 265 79 4 2 294 6 1 1 652 3 0 19 425 211 655 3,416 19.17% 347 110 47 0 0 109 8 2 2 278 2 0 9 101 170 280 2,334 12.00% 351 6 2 0 0 2 0 0 0 10 0 0 0 4 6 10 1,646 0.61% 359 23 8 0 0 16 0 0 0 47 0 0 1 33 13 47 208 22.60% 360 18 6 1 0 31 0 0 0 56 0 0 2 34 20 56 191 29.32% 371 122 41 1 1 124 7 1 3 300 4 0 2 200 102 304 3,387 8.98% 372 3 5 0 0 1 1 0 0 10 0 0 0 3 7 10 361 2.77% 374 2 0 0 0 1 0 0 0 3 0 0 0 3 0 3 301 1.00% 375 4 2 0 0 8 0 0 0 14 0 0 0 13 1 14 47 29.79% 376 4 2 0 0 9 0 0 0 15 0 0 0 11 4 15 124 12.10% 400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00% | Hays County, Texas Primary Election 3/3/2026 Page 4 Official Results Registered Voters 18686 of 192945 = 9.68% Precincts Reporting 93 of 93 = 100.00% Canvass Results - Republican  Party March 3, 2026 Joint Primary Election Run Time Run Date 6:04 PM 03/09/2026 U.S. Senator \\(Rep\\) - Republican Party Precinct Ken Paxton, REP Wesley Hunt, REP Gulrez \"Gus\" Khan, REP Virgil John Bierschwale, REP John Cornyn, REP Sara Canady, REP John O. Adefope, REP Anna Bender, REP Cast Votes Undervotes Overvotes Absentee Voting Ballots Cast Early Voting Ballots Cast Election Day Voting Ballots Cast Total Ballots Cast Registered Voters Turnout Percentage 422 45 16 1 0 70 1 0 0 133 1 0 1 81 52 134 1,917 6.99% 423 45 33 2 1 55 4 0 2 142 0 0 6 82 54 142 2,265 6.27% 424 126 53 3 3 179 6 1 1 372 2 0 15 238 121 374 2,946 12.70% 425 57 27 1 2 105 6 0 0 198 3 0 10 130 61 201 1,128 17.82% 426 129 60 2 2 188 10 1 3 395 2 0 25 232 140 397 2,786 14.25% 430 75 38 1 2 135 7 4 0 262 4 1 16 151 100 267 1,607 16.61% 432 116 51 1 1 180 8 1 1 359 2 0 19 214 128 361 2,196 16.44% 435 148 35 1 3 175 7 0 3 372 5 0 10 232 135 377 3,271 11.53% 436 196 70 1 3 234 5 0 0 509 5 0 11 323 180 514 2,946 17.45% 440 134 37 5 1 143 2 0 1 323 5 0 11 198 119 328 2,030 16.16% 441 177 69 0 0 174 2 2 0 424 2 0 7 270 149 426 2,622 16.25% 443 147 51 1 4 204 11 0 3 421 7 0 7 248 173 428 2,770 15.45% 444 95 22 0 1 60 2 1 1 182 1 0 8 105 70 183 1,144 16.00% 445 151 60 2 0 161 3 3 2 382 7 0 27 242 120 389 2,776 14.01% 446 155 79 0 3 201 7 1 1 447 5 0 21 284 147 452 3,237 13.96% 448 199 92 3 2 282 8 1 2 589 5 0 29 365 200 594 3,121 19.03% 449 209 99 4 1 210 9 1 2 535 9 0 20 330 194 544 3,215 16.92% 451 61 26 2 1 79 1 0 0 170 0 0 8 118 44 170 1,285 13.23% 452 195 73 5 2 211 3 0 1 490 4 0 8 303 183 494 3,436 14.38% 453 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0.00% 458 2 0 0 0 2 0 0 0 4 2 0 0 5 1 6 37 16.22% | Hays County, Texas Primary Election 3/3/2026 Page 5 Official Results Registered Voters 18686 of 192945 = 9.68% Precincts Reporting 93 of 93 = 100.00% Canvass Results - Republican  Party March 3, 2026 Joint Primary Election Run Time Run Date 6:04 PM 03/09/2026 U.S. Senator \\(Rep\\) - Republican Party Precinct Ken Paxton, REP Wesley Hunt, REP Gulrez \"Gus\" Khan, REP Virgil John Bierschwale, REP John Cornyn, REP Sara Canady, REP John O. Adefope, REP Anna Bender, REP Cast Votes Undervotes Overvotes Absentee Vot",
-    "saved_file": "20260316134205_f3c1adf0b16e.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/Absentee%20Ballots%20Received%2020260303%20-%20DEM.zip",
-    "capture_utc": "20260316134455",
-    "replay_error": null,
-    "bytes": 84310,
-    "sha256": "8864820312e282fcd23e8be3997ed0ddd02fc34bb97beb854268066e1c669451",
-    "orig_last_modified": "Wed, 04 Mar 2026 18:18:01 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:44:55 GMT",
-    "saved_file": "20260316134455_60595a7428ee.html"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/Absentee%20Ballots%20Received%2020260303%20-%20REP.zip",
-    "capture_utc": "20260316134130",
-    "replay_error": null,
-    "bytes": 52439,
-    "sha256": "c5c67f25125cac6f8219555b7fe8870ae175490d4e60b3126e54a8025da55d10",
-    "orig_last_modified": "Wed, 04 Mar 2026 18:18:06 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:41:30 GMT",
-    "saved_file": "20260316134130_0b1e7fe2339d.html"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/Daily%20Recap%2020260303%20-%20DEM.pdf",
-    "capture_utc": "20260316134359",
-    "replay_error": null,
-    "bytes": 103241,
-    "sha256": "e2c39a2a868f689072e15930e0edbd7c363ab2473144318c843dbcedb96f9cee",
-    "orig_last_modified": "Wed, 04 Mar 2026 07:17:30 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:43:59 GMT",
-    "CreationDate": "D:20260304011707-06'00'",
-    "ModDate": "D:20260304011707-06'00'",
-    "Producer": "Microsoft: Print To PDF",
-    "Title": "Daily Recap 20260303.xlsx",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  | ",
-    "saved_file": "20260316134359_094acbebd460.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/Daily%20Recap%2020260303%20-%20REP.pdf",
-    "capture_utc": "20260316134140",
-    "replay_error": null,
-    "bytes": 103772,
-    "sha256": "9ae43839eb1b64acde9e5f2e43e00e0ad6e2440a28c2514a0f848b0d64e3048c",
-    "orig_last_modified": "Wed, 04 Mar 2026 18:49:59 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:41:39 GMT",
-    "CreationDate": "D:20260304124920-06'00'",
-    "ModDate": "D:20260304124920-06'00'",
-    "Producer": "Microsoft: Print To PDF",
-    "Title": "Daily Recap 20260303.xlsx",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  | ",
-    "saved_file": "20260316134140_a662bf64d9d4.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/In-Person%20Check-ins%2020260303%20-%20DEM.zip",
-    "capture_utc": "20260316134046",
-    "replay_error": null,
-    "bytes": 2119433,
-    "sha256": "10a252598ae272148ea8198076e8a12a769f0f400a392275a476404ac1d4e7b8",
-    "orig_last_modified": "Wed, 04 Mar 2026 07:03:13 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:40:45 GMT",
-    "saved_file": "20260316134046_7375a8d34f25.html"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Daily%20Count/In-Person%20Check-ins%2020260303%20-%20REP.zip",
-    "capture_utc": "20260316134031",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2018-05-22/?C=N;O=D",
+    "capture_utc": "20260311122822",
     "replay_error": "URLError: timed out",
     "bytes": 0,
     "sha256": null,
@@ -1185,86 +269,18 @@
     "orig_date": null
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20for%20Weekend%20Voting%2020260303.pdf",
-    "capture_utc": "20260316134105",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2018-05-22/?C=S;O=D",
+    "capture_utc": "20260311135803",
     "replay_error": null,
-    "bytes": 149569,
-    "sha256": "7a1474c51d11c9d5c455f9b25f5c0555187fea0532b00370755d20de18ed7ea8",
-    "orig_last_modified": "Wed, 07 Jan 2026 20:09:40 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:41:04 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  | 5 - 1 6                             a m  \\226       s     |         \\226   6                       |       1     \\226             |               \\226         |   \\226     2           R   4   |                 |   \\226                 |   \\226             6 th         6           \\( a   \\)   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260316134105_e219a2d7b562.pdf"
+    "bytes": 1685,
+    "sha256": "cb410f2307cb55183bb09937913ce4e43c20df80dda8d8582be776aa5e2b58b6",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 13:58:03 GMT",
+    "saved_file": "20260311135803_0c4b7209c91f.html"
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Appt%20of%20EVC%20to%20Conduct%20ID%20Verification%20and%20BBM%20Corrective%20Action.pdf",
-    "capture_utc": "20260317040520",
-    "replay_error": null,
-    "bytes": 99144,
-    "sha256": "c506c2f545e6a64aa82f4fcdad3abbd7cff6c0d86328ce2ff9b6139b653d46b3",
-    "orig_last_modified": "Mon, 09 Feb 2026 21:16:12 GMT",
-    "orig_date": "Tue, 17 Mar 2026 04:05:20 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |         s     - by -                               S i g n a t                       |  |  |  |  |  |  |  |  |  |  |  |  |  |     T   - by -               u re           F     |  |  |  | ",
-    "saved_file": "20260317040520_be450a6fb502.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Convening%20of%20the%20CCS%2020260303.pdf",
-    "capture_utc": "20260316194406",
-    "replay_error": null,
-    "bytes": 81332,
-    "sha256": "acc5c54e65be2ff33c13a9a7a65b159bc0f76051b5ccb4d37550227b8418041a",
-    "orig_last_modified": "Wed, 07 Jan 2026 20:10:24 GMT",
-    "orig_date": "Mon, 16 Mar 2026 19:44:06 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |                     s             to       |                   -     |           10   a         ,             | ,     4                           de     de   la   |     de       3   de  6     |             ,  28   |   de   202 6   a   \\( v       ,   3     202 6       ,   9   6   4 |         de     5    6     f   |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260316194406_462ead3bac51.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Delivery%20of%20EV%20Balloting%20Materials%2020260303.pdf",
-    "capture_utc": "20260316172651",
-    "replay_error": null,
-    "bytes": 73222,
-    "sha256": "a3b3fd091a6378f2379d57ab80d1aa4322379522b15b92e44c48c8c2596752bc",
-    "orig_last_modified": "Wed, 07 Jan 2026 20:10:04 GMT",
-    "orig_date": "Mon, 16 Mar 2026 17:26:51 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  | - 7     by                             |               be     to             |         de     de               |   y           el                   y             en   la       |                             202 6   \\( de   202 6 \\)   |     26     202 6   \\( 26   de     202 6 \\)       3    202 6   \\( 3   de     de   202 6 \\)   3     9   202 6   | \\( 9         202 6 \\)   \\)                 de   la         |   \\( 5   de     de   202 6 \\)       |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260316172651_649de019723f.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Post-Election%20Hand%20Count%20Audit%2020260303.pdf",
-    "capture_utc": "20260316134703",
-    "replay_error": null,
-    "bytes": 149655,
-    "sha256": "8134af0602e7efe7e2f0161be2c44ff2de702b8cef1aab6332e44c590afaf8fb",
-    "orig_last_modified": "Wed, 07 Jan 2026 20:10:46 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:47:02 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |     -             s       ,   ,   202 6           120               |   202 6 .         202 6     -       |           I               on                 | .     de             3   de   de   202 6       6     202 6           120   |               6 .     10     6 a   |   la s   o n   3     6         la         el     |             6     6 .       **     -       to       | if     **   A             |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260316134703_76d155f5aa48.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Test%20of%20Automatic%20Tabulating%20Equipment%2020260303.pdf",
-    "capture_utc": "20260316134148",
-    "replay_error": null,
-    "bytes": 54062,
-    "sha256": "4e50b6db57cb417f2a9e6c6abb7f472b80c3d74ec98c10999c9bd93f0bc8556a",
-    "orig_last_modified": "Wed, 07 Jan 2026 20:08:39 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:41:48 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  | 15 - 6           |           |             |             lo     se   da   |     el             se       \\363 n       | se     a     el   3  de     de   6   se     el   1 4   de   de   6   a   |       en   la           a    |         |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260316134148_fec13890e493.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notice%20of%20Test%20of%20Electronic%20Poll%20Books%2020260303.pdf",
-    "capture_utc": "20260316134137",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/2021-11-02/?C=N;O=D",
+    "capture_utc": "20260311125050",
     "replay_error": "URLError: timed out",
     "bytes": 0,
     "sha256": null,
@@ -1272,186 +288,35 @@
     "orig_date": null
    },
    {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Hays%20County%20-%20Notification%20of%20Election%20Training%20Program%2020260303.pdf",
-    "capture_utc": "20260316134043",
+    "original": "https://legacy.co.kerr.tx.us/elections/results/?C=D;O=A",
+    "capture_utc": "20260311132931",
     "replay_error": null,
-    "bytes": 109753,
-    "sha256": "80271a4633dc466fd4ca649a1099b2610e60aa1c46d80bab38a8ad71c362ca13",
-    "orig_last_modified": "Fri, 23 Jan 2026 19:11:32 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:40:42 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |                 of                         2 6   202 6   |     20   ,        is   ,                      10     pm | .     ,       by       of                             |       in     of   -                                            d e   u n     de       i |     A         y       \\(       \\):       lo     se             \\363     se   \\341       6     6     |   6     3     6               \\363   \\341             | \\226         \\341     la     \\363 \\363 n.       \\363 \\341   \\372       |     \\(   .\\)           |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260316134043_fdf1991aa048.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Notice%20of%20Primary%20Election%20-%20Democratic%20Party.pdf",
-    "capture_utc": "20260316134131",
-    "replay_error": null,
-    "bytes": 436630,
-    "sha256": "9d3d240330f69aa837a327603988e018b76c98d0ed12175f862be5e3a994ce87",
-    "orig_last_modified": "Wed, 11 Feb 2026 22:34:18 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:41:31 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 15,
-    "text_sample_first_streams": " |  |  | 18-6  Prescribed  by  Secretary  of  State  Sections  4.004 ,  83 . 010,  85.004,  85.007 ,  172 . 1112,  V . T . C . A . ,  Elect i on  Code  9/2023  NOTICE  OF  GENERAL  PRIMARY  ELECTION,  _ D _ e | _ m _ o _ c _ r _ a _ ti _ c _ PARTY  To  the  Registered  Voters  of  the  County  of  Hays  ,  Texas:  Notice  is  hereby  given  that  the  polling  places  listed  below  will  be  open  from  7:00  a.m.  to  7:00  p.m.,  March  3,  2026,  for  voting  in  a  primary  election  for  the  Democratic  Party  to  nominate  federal  officers,  Members  of  the  State  Legislature,  | and  state,  district,  county  and  precinct  officers;  and  for  the  purpose  of  electing  county  and  precinct  chairs.  \\2251f  precincts  have  been  combined  to  form  one  consolidated  precinct,  list  all  precinct  numbers  that  will  be  voted  at  the  consolidated  location.  March  3,  2026  Joint  Primary  Election  Elecciones  primarias  conjuntas  del  3  de  marzo  de  2026  Vote  Center  Locations  Ubicaciones  de  los  centros  de  | votaci6n  Main  Early  Voting  Site  \\(Sitio  principal  de  votaci6n  anticipada\\):  Hays  County  Elections  Office  Jennifer  Doinoff  Hays  County  Elections  Administrator  \\(Administradora  de  elecciones  del  condado  de  Hays\\)  \\(512\\)  393-7310  - Early  Votin g  \\(votaci6n  anticipada\\)  *  - Election  Day  \\(Dia  de  elecci6n\\)-view  in  \\(ver  en\\)  Google  Maps  February  {febrero\\)  Sunday  domingo  15  Monday  tunes  16  Tuesday  martes  | 17  Pre s i d ents'  Day  8  am  - 5  pm  22  23  24  March  {marzo\\)  3  7am - 7pm  Wednesday  miercoles  18  25  am-7  pm  On  Election  Day,  voters  must  vote  at  any  of  t h e  locations  listed  below.  Thursday  | jueves  19  26  pm  Friday  viernes  20  8am  -5pm  27  am-7  pm  Saturday  sabado  21  7  pm  28  San  Marcos  Broadway  Polling  Location  Brookdale  San  Marcos  North  Centro  Cultural  Hispano  de  San  Marcos  Dunbar  Center  First  Baptist  Church  San  Marcos  Hays  County  Elections  Office  Main  | Early  Voting  Site  \\(Sitio  principal  de  votaci6n  anticipada\\)  La  Cima  Amenity  Center  LBJ  Student  Center- TXST  Promiseland  Church  San  Marcos  Fire  Department  Station  #5  San  Marcos  HousingAuthority/C . M.  Allen  Homes  San  Marcos  Public  Library  Sinai  Pentecostal  Church  South  Hays  Fire  Department  Station  #12  Austin  Community  College- Hays  Campus  Gemstone  Palace  HCISD  Academic  Support  Center  401  Broadway  Street  #A  1720  Old  Ranch  Road  12  211  Lee  Street  | 801  West  Martin  Luther  King  Drive  325  West  McCarty  Lane  120  Stagecoach  Trail  301  A  Central  Park  Loop  301  Student  Center  Drive/  601  Univ ~~s ity  Drive  1650  Lime  Kiln  Road  100  Carlson  Circle  820  Sturgeon  Drive  I  625  East  Hopkins  Street  208  Laredo  Street  8301  Ranch  Road  12  1200  Kohlers  Crossing  1101  Bunton  Creek  Road,  Suite  200  21003  Interstate  35  Frontage  Road  |  | Kyle  City  Hall  Main  Office  - HCISD  Transportation  Precinct  2  Office  - Hays  County  Yarrington  - Hays  County  Transportation  Department  Buda  City  Hall  and  Library  Multipurpose  Room  \\(sala  multiusos\\)  Child  Nutrition  - HCISD  Support  Services  Hays  Hills  Baptist  Church  Southern  Hills  Church  of  Christ  Sunfield  Station  Upper  Campus  - Historic  Buda  Elementary  School  Kunkel  Room  Texan  Academy  at  Scudder  VFW  Post  #6441  Wimberley  Community  Center- Blanco  Room  Wimberley  100  West  Center  Street  2385  High  Road,  Uhland  5458  FM  2770  2171  Yarrington  Road  405  East  Loop  Street,  Building  100  5750  Dacy  Lane  1401  North  FM  1626  3740  FM  967  2610  Main  Street,  #100  300  North  San  Marcos  Street  400  Green  Acres  Drive  401  Jacobs  Well  Road  14068  Ranch  Road  12  Dripping  Springs  Belterra  Centre  Dripping  Springs  Ranch  Park  and  Event  Center  Henley  Station  #3- North  ti . ~t~  County  Fire  Rescue  Patriots'  Hall  of  Dripping  Springs  -Veterans  Hall  Precinct  4  Office  - Hays  County  For  early  voting,  a  voter  may  vote  at  any  of  the  locations  listed  below:  151  Trinity  Hills  Drive  1042  Event  Center  Drive  7520  Creek  Road  231  Patriots'  Hall  Boulevard  195  Roger  Hanks  Parkway  San  Marcos  Broadway  Polling  Location  Hays  County  Elections  Office  Main  Early  Voting  Site  \\(Sitio  principal  de  votaci6n  anticipada\\)  LBJ  Student  Center  - TXST  HCISD  Academic  Support  Center  Kyle  City  Hall  Main  Office  - HCISD  Transportation  Yarrington  - Hays  County  Transportation  Department  Buda  City  Hall  Multipurpose  Room  \\(Sala  multiusos\\)  Sunfield  Station  401  Broadway  Street  #A  120  Stagecoach  Trail  601  University  Drive  21003  Interstate  35  Frontage  Road  1  oo  West  Center  Street  2385  High  Road,  Uhland  2171  Yarrington  Road  405  East  Loop  Street,  Building  100  2610  Main  Street,  100  Wimberley  Texan  Academy  at  Scudder  400  Green  Acres  Drive  Wimberley  Community  Center- Blanco  Room  14068  Ranch  Road  12  Dripping  Springs  Hays  County  Precinct  4  195  Roger  Hanks  Patriots'  Hall  of  Dripping  Springs  -Veterans  Hall  231  Patriots'  Hall  Boulevard  Applications  for  ballot  by  mail  shall  be  mailed  to:  |  | Jennifer  Doinoff  Elections  Administrator  120  Stagecoach  Trail  San  Marcos,  Texas  78666  Applications  for  ballots  by  mail  must  be  received  no  later  than  the  close  of  business  on:  Februa  '\"\"\\260d  thlsthe  _i__  day  of  f:  f,  20  2  l.f  AVISO  DE  ELECCION  PRIMARIA  GENERAL,  PARTIDO  DEMOCRATIC  A  los  votantes  registrados  del  Condado  de~.  Texas:  otifiquese  por  la  presente,  que  las  casillas  electorates  citadas  abajo  se  abriran  desde  las  7:00  a.m.  hasta  las  7:00  p.m.  el  3  de  marzo  de  2026  para  votar  en  la  elecci6n  primaria  general  para  el  Partido  Democratic  para  nombrar  funcionarios  ",
-    "saved_file": "20260316134131_1d3d67225ffc.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Notices/Notice%20of%20Primary%20Election%20-%20Republican%20Party.pdf",
-    "capture_utc": "20260316134120",
-    "replay_error": null,
-    "bytes": 426405,
-    "sha256": "471a8daeba0e6fa76965a164a48e48846788392e51a2f8610f54aa9728bd3a1f",
-    "orig_last_modified": "Wed, 11 Feb 2026 22:34:23 GMT",
-    "orig_date": "Mon, 16 Mar 2026 13:41:20 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  | !\" # $ % % ,. % % 23 % % % % % % % % % % ?2-\\( % % % % ' \"\\( ' ' ' ' + !\"#$% & ' 1234 ' ' !\" # # # # \". # # # \". # 3 # # # \\)* # # # # # # # # # # 9& # # # # # $\" # # # # C3 # D@DE3 # # # \\)1 # 5 # # # # # # # $\" # # # # |  |  |  |  | # \". # # # # 51, # # # # # %5:& # # # $\" # # \"1& # # # # # # # # # 9& # # 5$ # # # # !\" # # # # # # ,\\( # # *4 # # # # # #   3,   2026         \\) \\) \\) \\) 2 \\) 1# \\) \\) 1# \\) 4546 \\)       * +\\( * * |  |  |  |  |  |  |  |  |  |  |  |  |  | * +\\( * * % % % % 0 % % ,- % % 12 % % % % % ' ' % % % % 0 % ,- % % ,-+ % % ,- % % % >?> @ A><B % ! \" ! \" & & * * # \" ! \" & /\"% & * ,0 * * 2 * \" $' \" * 0\\)- * \" \" \" ' ' 01'2-3 \" * \" * \" * \" |  |  |  |  | * \" * \" * \" 7:;%,# * # LM # LE # * * L? # ! \" N # 5> # O # M # ;> # LN # ! \" N # 5> # O # M # ;> # LP # ! \" N # 5> # O # M # ;> # D@ # ! \" N # 5> # O # M # ;> # DL # ! \" ? # 5> # O # ? # ;> # # D D # ! \" LD # O # E # ;> # DC # ! \" ? # 5> # O # ? # ;> # DQ # ! \" ? # 5> # O # ? # ;> | # DM # ! \" ? # 5> # O # ? # ;> # DE # ! \" ? # 5> # O # ? # ;> # D? # ! \" ? # 5> # O # ? # ;> # DN # ' ! ' ' ! ! ! ' \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" * ' #\" '' \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" ! ' 2 ' \" # \" ? # O # ? # ;> ! ! ! ! \"     \" \" \" >?@ \" \" \" AB \" \" \" \" \" H-'=6 \" | \" @F \" \" \" \" 2% \" \" \" F@@ \" \" \" K1'L-7 \" \" M?@ \" \" \" \" \" \" \" \" \" \" \" OFP \" \" \" \" \" \" \" \" & & & & ! ! -. ! ! ! @F? \" \" \" <- \" \" \" \" O?@ \" B \" \" ;-7C | \" <\\)\\). \" \" \" \" ! \" \" O?@ \" \" \" \" W?@ \" \" \" \" \" @WP? \" \" \" \" \" \" \" \" \" AP \" @?? \" \" \" \" \" \" \" \" \" MF? \" \" \" \" \" \" \" WFP \" Q-/9 \" \" \" \" | \" \" F?M \" \" \" \" \" \" \" \" A@F \" MO?@ \" H-'=6 \" \" @F \"   \" \" \" ! \" \" \" @F?? \" \" \" \" \" @@?@ \" \" I7%%C \" \" \" F?? \" \" \" \" \" F@??O \" \" OP \" \" \" |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \" \" \" @?? \" \" \" \" \" \" ! \" \" \" FOMP \" \" \" \" F \" \" ! \" \" \" P>PM \" 8, \" FEE? \" \" ! \" \" \" F@E@ \" \" \"   :12- \" \" \" -'2 \" \" \" \" * * >?P \" \" \" @?? \" ! \" \" ! \" \" \" \" PEP? \" \" \" \" \" \" \" @>?@ \" \" 8, \" @WFW \" \" \" I617=6 \" \\)R \" \" OE>? \" 8, \" ]WE \" \" \" FW@? \" \" \" A@?? \" \" \" ! \" \" \" \" \" \" \" O?? \" \" \" \" \"   \" \" -9 \" \" >?? \" \" \" ! \" \" AW>>@ \" \" \" \" \" \" ! \" \" \" \" \" @F \"     \" \" @P@ \" \" \" \" ! \" \" H-'=6 \" ;-7C \" -'2 \" \" \" @?>F \" \" \" \" \" \" AO \" ! \" \" \" \" EPF? \" I7%%C \" \" \" \" \\)R \" \" \" ! \" \" \" FO@ \" \" \" \" \" > \" \" ! \" \" \" @]P \" \" \"   # # # , # # # # ,\\( # # *4 # # # # #     \" \" \" >?@ \" \" \" AB \" \" \" \" \" & & & & ! ! -. ! ! ! @F? \" \" \" \" \" \" ! \" \" W?@ \" \" \"     \" \" \" \" F@??O \" \" OP \" \" \" \" \" \" @?? \" \" \" \" \" \" ! \" \" \" FOMP \" \" \" \" ! \" \" \" \" \" F@E@ \" \" \"   :12- \" \" * * >?P \" Q-/9 \" \" @?? \" \" \" FW@? \" \" \" @?? \"   \" \" -9 \" \" >?? \" \" \" ! \" \" \" ! \" \" \" \" \" @F \"     \" \" \" > \" @]P \" \" \" \" \" \\)R \" \" \" ! \" \" \" FO@ \" \" \" \" # # # 9& # # # |  |  | ' ' ' ' ' ' =>??? ' ' ' ' AB ' ' ' A\" ' ' #\\) ' ' ' ' ' \\)% ' ' \\)#E ' ' 45; ' 454? ' ' ' ' ' H -8 ' ' '' 4? I ' ' ' \\)% ' ' ' \"'\\(\\)* & +, & & !#\\(0\"#\\(\" & 1,/,#\"-2 & !\"#$\\(+* & #,!34-\\(.\"/ & # # ,& # 3 # # # ;\"+ # <5 # # U0& # # # # # # *& # # # # # # # # # # &< # C # ,& # # ,& # D@DE# \" # # G\\) # *& # %51 # # # # # 01 # # # # # # # ,& # # # # # $% # # 6& # # # # # # &\" # # 6& # # # ! \" ! \" & & * * # \" ! \" & /\"% & * ,0 * * 2 * \" $' \" * 0\\)- * \" '''''''' ' '     \" \" \" >?@ \" \" \" AB \" \" \" \" \" H-'=6 \" \" @F \" \" \" \" 2% \" \" \" F@@ \" \" \" K1'L-7 \" \" M?@ \" \" \" \" \" \" \" \" \" \" \" OFP \" \" \" \" \" \" \" \" & & & & ! ! -. ! ! ! @F? \" \" \" <- \" \" \" \" O?@ \" B \" \" ;-7C \" <\\)\\). \" \" \" \" ! \" \" O?@ \" \" \" \" W?@ \" \" \" \" \" @WP? \" \" \" \" \" \" \" \" \" AP \" @?? \" \" \" \" \" \" \" \" \" MF? \" \" \" \" \" \" \" WFP \" Q-/9 \" \" \" \" \" \" F?M \" \" \" \" \" \" \" \" A@F \" MO?@ \" H-'=6 \" \" @F \"   \" \" \" ! \" \" \" @F?? \" \" \" \" \" @@?@ \" \" I7%%C \" \" \" F?? \" JI[0K \" \" \" \" F@??O \" \" OP \" \" \" \" \" \" @?? \" \" \" \" \" \" ! \" \" \" FOMP \" \" \" \" F \" \" ! \" \" \" P>PM \" 8, \" FEE? \" \" ! \" \" \" F@E@ \" \" \"   01'2-3 \" \" \" \" \" \" \" * * * * * * 7:;%,# * LM # LE # L? # LN # LP # D@ # DL # * * ! \" N # 5> # O # M # ;> # ! \" N # 5> # O # M # ;> # ! \" N # 5> # O # M # ;> # ! \" N # 5> # O # M # ;> # ! \" ? # 5> # O # ? # ;> # DD # DC # DQ # DM # DE # D? # DN # ! LD # O # E # ;> # ! \" ? # 5> # O # ? # ;> # ! \" ? # 5> # O # ? # ;> # ! \" ? # 5> # O # ? # ;> # ! \" ? # 5> # O # ? # ;> # ! \" ? # 5> # O # ? # ;> # ' # L # # # D # # # B # # ? # O # ? # ;> # | :12- \" \" \" -'2 \" \" \" \" * * >?P \" \" \" @?? \" \" \" ! \" \" \" \" PEP? \" \" \" \" \" \" \" @>?@ \" \" 8, \" @WFW \" \" \" I617=6 \" \\)R \" \" OE>? \" 8, \" ]WE \" \" \" FW@? \" \" \" A@?? \" \" \" ! \" \" \" \" \" \" \" O?? \" \" \" \" \"   \" \" -9 \" \" >?? \" \" \" \" \" AW>>@ \" \" \" \" \" \" ! \" \" \" \" \" @F \"     \" \" @P@ \" \" \" \" \" \" H-'=6 \" ;-7C \" -'2 \" \" \" @?>F \" \" \" \" \" \" AO \" ! \" \" \" \" EPF? \" I7%%C \" \" \" \" \\)R \" \" \" ! \" \" \" FO@ \" \" \" \" \" > \" \" ! \" \" \" @]P \" \" \" # # # # # # &\" # # # # # #     \" \" \" >?@ \" \" \" AB \" \" \" \" \" & & & & ! ! -. ! ! ! @F? \" \" \" \" \" \" ! \" \" W?@ \" \" \"   JI[0K \" \" \" \" F@??O \" \" OP \" \" \" \" \" \" @?? \" \" \" \" \" \" ! \" \" \" FOMP \" \" \" \" ! \" \" \" \" \" F@E@ \" \" \"   :12- \" \" * * >?P \" Q-/9 \" \" @?? \" \" \" FW@? \" \" \" @?? \"   \" \" -9 \" \" >?? \" \" \" \" \" \" ! \" \" \" \" \" @F \"     \" \" \" > \" @]P \" \" \" \" \" \\)R \" \" \" ! \" \" \" FO@ \" \" \" \" # # # # # # ;\"+ # # # 56 # ' ' ' ' ' ' ' ' ' =>??? ' ' ' ' ' 0\" ' ' ' @\\)& ' ' ' ' ' \"+ ' ' 0\" ' ' ' 0\" ' ' ' 45 ' ' ' 454? ' ' ' ' ' H ' ' 0\" ' \\) ; ' 45 4? ' ' ' ' ' \\) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260316134120_4a7196a02bd6.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Sample%20Ballots/Dem%20Combined%20Sample%20Ballot%2020260303.pdf",
-    "capture_utc": "20260307135055",
-    "replay_error": null,
-    "bytes": 492866,
-    "sha256": "263fba6a7fe2824d45cda7462169184317e43d5fec733de4fa83d6c13e863609",
-    "orig_last_modified": "Thu, 15 Jan 2026 22:09:54 GMT",
-    "orig_date": "Sat, 07 Mar 2026 13:50:56 GMT",
-    "CreationDate": "D:20260108123443-06'00'",
-    "Creator": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
-    "Producer": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
-    "ModDate": "D:20260108124909-06'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260307135055_2476a6295f2b.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Sample%20Ballots/Rep%20Combined%20Sample%20Ballot%2020260303.pdf",
-    "capture_utc": "20260307135100",
-    "replay_error": null,
-    "bytes": 409826,
-    "sha256": "6570ac87944e6e9250523fc174dc7c62d8bb357086852a37814741dcee3a9de2",
-    "orig_last_modified": "Thu, 15 Jan 2026 22:09:59 GMT",
-    "orig_date": "Sat, 07 Mar 2026 13:51:00 GMT",
-    "CreationDate": "D:20260108123455-06'00'",
-    "Creator": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
-    "Producer": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
-    "ModDate": "D:20260108125006-06'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260307135100_ae5689a0f874.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0303%20Primary/Vote%20Centers%2020260303%20Joint%20Primary%20Election.pdf",
-    "capture_utc": "20260307090423",
-    "replay_error": null,
-    "bytes": 242616,
-    "sha256": "17d985e5f4af5e175999756ecf9eceec2bb0dbd7dbaba8eebefbed5739afe5e0",
-    "orig_last_modified": "Sun, 08 Feb 2026 17:05:00 GMT",
-    "orig_date": "Sat, 07 Mar 2026 09:04:23 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |   Ma   3     3             \\( \\) :           \\(   -       \\226       \\226       \\226             o \\)     |  |                           15     1 6     17     \\226     18     \\226     19     \\226     20     \\226     21     7   a m  \\226   7   pm   22     12   p m  \\226   6   pm   23     7   \\226   7   pm   24     7   \\226   7   pm   25     7   \\226   7   pm   26     7   \\226   7   pm   27     7   \\226   7   pm   28         \\( \\)     1     2     3     \\226                         Map                   |                                                       \\226                                                                           |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |           Map         \\226                                         \\226               \\226               \\226                           R         \\226                                             \\226                                       \\226               /                               \\226             \\226               \\226                     \\226       \\226       \\226           |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260307090423_2c769b99b8da.pdf"
+    "bytes": 13333,
+    "sha256": "25f892a7f9d745f393fc775dd73a2ec9486d6a93f356cf2117ff9dedfdc2385d",
+    "orig_last_modified": null,
+    "orig_date": "Wed, 11 Mar 2026 13:29:31 GMT",
+    "saved_file": "20260311132931_f5a72ec0da8e.html"
    }
   ]
  },
  {
-  "url": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0526",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.egovlink.com%2Fpublic_documents300%2Fhayscounty%2Fpublished_documents%2Fdepartments%2Felections%2F2026%2F0526&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260526&to=20260616",
-  "cdx_error": null,
-  "captures": [
-   [
-    "20260531215846",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0526%20Primary%20Runoff/Sample%20Ballots/20260526%20Sample%20Ballot%20-%20Dem.pdf"
-   ],
-   [
-    "20260606071250",
-    "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0526%20Primary%20Runoff/Vote%20Centers%2020260526%20Joint%20Primary%20Run-off.pdf"
-   ]
-  ],
-  "replays": [
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0526%20Primary%20Runoff/Sample%20Ballots/20260526%20Sample%20Ballot%20-%20Dem.pdf",
-    "capture_utc": "20260531215846",
-    "replay_error": null,
-    "bytes": 210442,
-    "sha256": "3f2d1b9e24c0399cc5d306e2bff6ffb5d19a7df7a33f82c2c5067b0ce5fb9ac4",
-    "orig_last_modified": "Fri, 10 Apr 2026 18:03:16 GMT",
-    "orig_date": "Sun, 31 May 2026 21:58:46 GMT",
-    "CreationDate": "D:20260410104844-05'00'",
-    "Creator": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
-    "Producer": "PDFsharp 1.31.1789-w \\(www.pdfsharp.com\\",
-    "ModDate": "D:20260410120634-05'00'",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260531215846_0af565c16d03.pdf"
-   },
-   {
-    "original": "https://www.egovlink.com/public_documents300/hayscounty/published_documents/departments/elections/2026/0526%20Primary%20Runoff/Vote%20Centers%2020260526%20Joint%20Primary%20Run-off.pdf",
-    "capture_utc": "20260606071250",
-    "replay_error": null,
-    "bytes": 263899,
-    "sha256": "8f575a1887acdfe0fa945ddb0463d53698dfe29c4fdb09e8f1c8e07f234c6de7",
-    "orig_last_modified": "Fri, 10 Apr 2026 19:27:05 GMT",
-    "orig_date": "Sat, 06 Jun 2026 07:12:50 GMT",
-    "printed_datetimes_first_streams": [],
-    "precinct_word_count_first_streams": 0,
-    "text_sample_first_streams": " |  |  |  |  |   May 26, 2026 Primary Run - Off Vote Centers   |  |  |  |  |  |  |  |  |  |  |  | M a y   26   -           26   yo             \\( \\) :     C e         \\(   -       \\226       \\226       \\226             \\( \\)                               1 7     18     7   \\226   7   pm   19     7   \\226   7   pm   20     7   \\226   7   pm   21     7   \\226   7   pm   22     7   \\226   7   pm   23     24     25     26     7   \\226   7   pm               |         Map                                                               \\226                                               \\226                     |         |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   May 26, 2026 Primary Run - Off Vote Centers             Map                                             \\226               \\226                           R         \\226                                   \\226                                 \\226               \\226                     \\226       \\226       \\226           |  |  |  |  |  |  |  |  |  |  |  | ",
-    "saved_file": "20260606071250_5d5c73054df4.pdf"
-   }
-  ]
- },
- {
-  "url": "https://www.hayscountytx.gov/elections/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.hayscountytx.gov%2Felections%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20241105&to=20241108",
+  "url": "https://legacy.co.kerr.tx.us/elections/results/",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=legacy.co.kerr.tx.us%2Felections%2Fresults%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20241105&to=20241115",
   "cdx_error": null,
   "captures": [],
   "replays": []
  },
  {
-  "url": "https://www.hayscountytx.gov/elections/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.hayscountytx.gov%2Felections%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260303&to=20260306",
-  "cdx_error": null,
-  "captures": [
-   [
-    "20260303233917",
-    "https://www.hayscountytx.gov/elections"
-   ],
-   [
-    "20260304023515",
-    "https://www.hayscountytx.gov/elections/20260303"
-   ]
-  ],
-  "replays": [
-   {
-    "original": "https://www.hayscountytx.gov/elections",
-    "capture_utc": "20260303233917",
-    "replay_error": "URLError: timed out",
-    "bytes": 0,
-    "sha256": null,
-    "orig_last_modified": null,
-    "orig_date": null
-   },
-   {
-    "original": "https://www.hayscountytx.gov/elections/20260303",
-    "capture_utc": "20260304023515",
-    "replay_error": "URLError: _ssl.c:999: The handshake operation timed out",
-    "bytes": 0,
-    "sha256": null,
-    "orig_last_modified": null,
-    "orig_date": null
-   }
-  ]
+  "url": "https://www.hayscountytx.gov/elections/20260303",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.hayscountytx.gov%2Felections%2F20260303&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260303&to=20260310",
+  "cdx_error": "URLError: timed out",
+  "captures": [],
+  "replays": []
  },
  {
-  "url": "https://www.hayscountytx.gov/elections/",
-  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.hayscountytx.gov%2Felections%2F&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260526&to=20260529",
-  "cdx_error": null,
+  "url": "https://www.hayscountytx.gov/elections",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.hayscountytx.gov%2Felections&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&limit=500&from=20260303&to=20260305",
+  "cdx_error": "URLError: timed out",
   "captures": [],
   "replays": []
  }
