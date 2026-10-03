@@ -3,26 +3,143 @@
   "targets": [
     "vanzandtcounty.org"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:29Z",
+  "harvested_at_utc": "2026-10-03T10:23:40Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=vanzandtcounty.org&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "f4639af67b21b41ad11ed84d01289f401982a06c0dc53be60c80cdbb38091c47"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106050034",
+          "local": "2024-11-05 23:00:34 CST",
+          "original": "https://www.vanzandtcounty.org/page/vanzandt.Elections?os=0slw57psddf",
+          "mimetype": "text/html",
+          "digest": "27ZKCK6VFTSHXYZ25EONEKKO5KV2OIK2",
+          "length": "15441",
+          "replay_url": "https://web.archive.org/web/20241106050034id_/https://www.vanzandtcounty.org/page/vanzandt.Elections?os=0slw57psddf",
+          "ok": true,
+          "error": null,
+          "content_hash": "0d6b12c79f7b7c23a19a93a02b15eeb4868fbefe14d3485a7d478b2e462fcece",
+          "saved_as": "Van_Zandt/2024_general_20241106050034_0d6b12c79f7b.html"
+        },
+        {
+          "timestamp_utc": "20241106050050",
+          "local": "2024-11-05 23:00:50 CST",
+          "original": "https://www.vanzandtcounty.org/page/vanzandt.Elections?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "YL22E4HMZV45FD3CGBSEBYYCWKZ2ZT7V",
+          "length": "15453",
+          "replay_url": "https://web.archive.org/web/20241106050050id_/https://www.vanzandtcounty.org/page/vanzandt.Elections?os=0slw57psddf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "fb8031e978c78524207effb49cc4e22ce93ec380f253ee36cc7eb905052b27e5",
+          "saved_as": "Van_Zandt/2024_general_20241106050050_fb8031e978c7.html"
+        },
+        {
+          "timestamp_utc": "20241106065010",
+          "local": "2024-11-06 00:50:10 CST",
+          "original": "https://www.vanzandtcounty.org/page/vanzandt.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "PXE25PJLNFKJ6PKBWQI6MOYVOM2Z4H3S",
+          "length": "15459",
+          "replay_url": "https://web.archive.org/web/20241106065010id_/https://www.vanzandtcounty.org/page/vanzandt.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "313c1b3ac2e8d9b6f7f4f58e3d18149305a44948c3a3e91ba9543f3ea32cf218",
+          "saved_as": "Van_Zandt/2024_general_20241106065010_313c1b3ac2e8.html"
+        },
+        {
+          "timestamp_utc": "20241106065016",
+          "local": "2024-11-06 00:50:16 CST",
+          "original": "https://www.vanzandtcounty.org/page/vanzandt.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "3JSZSZJ7SG52ENMYTZEEBPDZNZHMBR6T",
+          "length": "15482",
+          "replay_url": "https://web.archive.org/web/20241106065016id_/https://www.vanzandtcounty.org/page/vanzandt.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106080541",
+          "local": "2024-11-06 02:05:41 CST",
+          "original": "https://www.vanzandtcounty.org/page/vanzandt.Elections?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "5N35NIQ6KONKZBRRCMLURR5PELZXSQ22",
+          "length": "15456",
+          "replay_url": "https://web.archive.org/web/20241106080541id_/https://www.vanzandtcounty.org/page/vanzandt.Elections?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "a869492c4400635196deaeac0d354859dcb31faa096fa82a3bb4e581fc81de6b",
+          "saved_as": "Van_Zandt/2024_general_20241106080541_a869492c4400.html"
+        },
+        {
+          "timestamp_utc": "20241106080615",
+          "local": "2024-11-06 02:06:15 CST",
+          "original": "https://www.vanzandtcounty.org/page/vanzandt.Elections?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "K2QMBDKRKXOKUFOMB7FNBFSVOTI7HO7R",
+          "length": "15452",
+          "replay_url": "https://web.archive.org/web/20241106080615id_/https://www.vanzandtcounty.org/page/vanzandt.Elections?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "06b36b55fb3a648b9bcc1fffdfd86b782282613704aa9e0c31a6b84433212125",
+          "saved_as": "Van_Zandt/2024_general_20241106080615_06b36b55fb3a.html"
+        },
+        {
+          "timestamp_utc": "20241106080911",
+          "local": "2024-11-06 02:09:11 CST",
+          "original": "https://www.vanzandtcounty.org/page/vanzandt.Elections?os=wtmb5utkcxk5refdapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "CR7NPO2AJGOL2OQG5TIGFLJLKSH4ELZZ",
+          "length": "15470",
+          "replay_url": "https://web.archive.org/web/20241106080911id_/https://www.vanzandtcounty.org/page/vanzandt.Elections?os=wtmb5utkcxk5refdapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "d8493357dc5bed2f23ef4b7c93f9580da9da6a50d473b1c94c0cc117d956e056",
+          "saved_as": "Van_Zandt/2024_general_20241106080911_d8493357dc5b.html"
+        },
+        {
+          "timestamp_utc": "20241106081620",
+          "local": "2024-11-06 02:16:20 CST",
+          "original": "https://www.vanzandtcounty.org/page/vanzandt.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "EEMOROPKRWZGRUREAPUSHIEIC3IUOAY3",
+          "length": "15475",
+          "replay_url": "https://web.archive.org/web/20241106081620id_/https://www.vanzandtcounty.org/page/vanzandt.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "bd89adea8cf6d6de2268c7569e18e729460c3f0fae4f61e7b74e0019b92ea053",
+          "saved_as": "Van_Zandt/2024_general_20241106081620_bd89adea8cf6.html"
+        },
+        {
+          "timestamp_utc": "20241106081632",
+          "local": "2024-11-06 02:16:32 CST",
+          "original": "https://www.vanzandtcounty.org/page/vanzandt.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "EDPHXCMWUDOA276LI3YHHB7KVRYWIMS5",
+          "length": "15456",
+          "replay_url": "https://web.archive.org/web/20241106081632id_/https://www.vanzandtcounty.org/page/vanzandt.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "72c2f67bdc55f3065382b95f0003defea40dc6feb1b5717142b10e0359c84767",
+          "saved_as": "Van_Zandt/2024_general_20241106081632_72c2f67bdc55.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=vanzandtcounty.org&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +148,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=vanzandtcounty.org&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 9
 }
