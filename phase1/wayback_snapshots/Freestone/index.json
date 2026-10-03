@@ -3,7 +3,7 @@
   "targets": [
     "co.freestone.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T19:14:22Z",
+  "harvested_at_utc": "2026-10-03T09:26:29Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -75,9 +75,10 @@
           "digest": "74IFQMND2O2SL6UIDT54PGZ2NMEP3QW3",
           "length": "732069",
           "replay_url": "https://web.archive.org/web/20241106052313id_/https://www.co.freestone.tx.us/upload/page/1902/2024/signed_order_of_election%20415.pdf",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "d38881a5ab5b3fe78615ec4e816f77f996c7dcbac2ea4c31c6c6f008217b3de5",
+          "saved_as": "Freestone/2024_general_20241106052313_d38881a5ab5b.pdf"
         },
         {
           "timestamp_utc": "20241106052919",
@@ -100,9 +101,10 @@
           "digest": "7EZUCAFPWI76S6Y6DPHJTFB3CQ5TP32P",
           "length": "91483",
           "replay_url": "https://web.archive.org/web/20241106055820id_/https://www.co.freestone.tx.us/upload/page/1902/2024/ntc_of_election_oakwood_isd.pdf",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "6afa6b673e22b0c12e4469661e1efe44fb61a7d599bdf2ada7aeb4284755ab4e",
+          "saved_as": "Freestone/2024_general_20241106055820_6afa6b673e22.pdf"
         },
         {
           "timestamp_utc": "20241106062351",
