@@ -3,7 +3,7 @@
   "targets": [
     "tarrantcountytx.gov"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:44Z",
+  "harvested_at_utc": "2026-10-03T10:34:43Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -257,9 +257,10 @@
           "digest": "BBFEI77ZBONIUDWNQEWF35ZSMG7UWJFG",
           "length": "21735",
           "replay_url": "https://web.archive.org/web/20241106064906id_/https://www.tarrantcountytx.gov/en/elections.html?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "bf5b075f253f42ab200b89d0f1121352edd339feed444f8dee3f4f13d5753702",
+          "saved_as": "Tarrant/2024_general_20241106064906_bf5b075f253f.html"
         },
         {
           "timestamp_utc": "20241106064937",
@@ -308,9 +309,10 @@
           "digest": "GKPM2LU7IICQ63ZENKBYEWSEQWWR3AJ4",
           "length": "21717",
           "replay_url": "https://web.archive.org/web/20241106073248id_/https://www.tarrantcountytx.gov/en/elections.html?os=httpadfdfwww.google",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "dd5a699f37bc3619eb5b80b4ed6049a7f81f1a982d08d9a77bfdf8de5fbd9e5c",
+          "saved_as": "Tarrant/2024_general_20241106073248_dd5a699f37bc.html"
         },
         {
           "timestamp_utc": "20241106073658",

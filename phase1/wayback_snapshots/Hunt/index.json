@@ -3,26 +3,170 @@
   "targets": [
     "huntcounty.net"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:44Z",
+  "harvested_at_utc": "2026-10-03T10:51:31Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=huntcounty.net&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "a75a37fe5da2aed9f67e7ed69fef9cff6e636d9e22ab8e12f26e4234c95920c5"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106012723",
+          "local": "2024-11-05 19:27:23 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=qtfT_1no_journeystrue&ref=app",
+          "mimetype": "text/html",
+          "digest": "4MP7X7MV2ECA54JGFEBFJOA3AOEJ2P6T",
+          "length": "25908",
+          "replay_url": "https://web.archive.org/web/20241106012723id_/https://www.huntcounty.net/page/hunt.election?os=qtfT_1no_journeystrue&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "fcf62da9920b820e25f5d19c56976853b6de16fe8a2b39defbfa5ec7162444b1",
+          "saved_as": "Hunt/2024_general_20241106012723_fcf62da9920b.html"
+        },
+        {
+          "timestamp_utc": "20241106035625",
+          "local": "2024-11-05 21:56:25 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=io....sxj9oul9%3Fno_journeystrue",
+          "mimetype": "text/html",
+          "digest": "TB6UDW7SHZW5ZTG6JIJOQYRHVBLM6BS6",
+          "length": "25911",
+          "replay_url": "https://web.archive.org/web/20241106035625id_/https://www.huntcounty.net/page/hunt.election?os=io....sxj9oul9%3Fno_journeystrue",
+          "ok": true,
+          "error": null,
+          "content_hash": "d23d73fbc9db98fed46d7a117f6d050f313ed214657810210b59a9ff1fef593c",
+          "saved_as": "Hunt/2024_general_20241106035625_d23d73fbc9db.html"
+        },
+        {
+          "timestamp_utc": "20241106050020",
+          "local": "2024-11-05 23:00:20 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=0slw57psddf",
+          "mimetype": "text/html",
+          "digest": "TA6JBAJL6WM4QJJKX7OTCZN4G7PRCUCS",
+          "length": "25890",
+          "replay_url": "https://web.archive.org/web/20241106050020id_/https://www.huntcounty.net/page/hunt.election?os=0slw57psddf",
+          "ok": true,
+          "error": null,
+          "content_hash": "92bd6a7c72318206b7879a413227b6d6daacbed2c4c6d138b40ad2b4ccfdbbbb",
+          "saved_as": "Hunt/2024_general_20241106050020_92bd6a7c7231.html"
+        },
+        {
+          "timestamp_utc": "20241106050241",
+          "local": "2024-11-05 23:02:41 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "IXE6LOUCL3XKJZDDUHZEVEQO62JMGN2U",
+          "length": "25903",
+          "replay_url": "https://web.archive.org/web/20241106050241id_/https://www.huntcounty.net/page/hunt.election?os=0slw57psddf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "436dd0dc5fe2b70b7f93c89bf12cc65a9df69fae1938848217cff970ebf1037a",
+          "saved_as": "Hunt/2024_general_20241106050241_436dd0dc5fe2.html"
+        },
+        {
+          "timestamp_utc": "20241106064940",
+          "local": "2024-11-06 00:49:40 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "XF5XTSMIBQRIWJQYVP43UDHJLQML7KGP",
+          "length": "25923",
+          "replay_url": "https://web.archive.org/web/20241106064940id_/https://www.huntcounty.net/page/hunt.election?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "5d068fe2fff42d63327093da2fcf68577e4520d26101941375a033f6db66cc61",
+          "saved_as": "Hunt/2024_general_20241106064940_5d068fe2fff4.html"
+        },
+        {
+          "timestamp_utc": "20241106064956",
+          "local": "2024-11-06 00:49:56 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "2XXB3KQYCWAU4UV5HFE7ZCSX72XBNOR4",
+          "length": "25913",
+          "replay_url": "https://web.archive.org/web/20241106064956id_/https://www.huntcounty.net/page/hunt.election?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "afce1b4dbbe895385daea2db7b2910414f8566af2dd52c03104e08f96a933e7a",
+          "saved_as": "Hunt/2024_general_20241106064956_afce1b4dbbe8.html"
+        },
+        {
+          "timestamp_utc": "20241106080417",
+          "local": "2024-11-06 02:04:17 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "WN2ATUFJJIONJ5ZJGXG3YSWZAYD32AWJ",
+          "length": "25902",
+          "replay_url": "https://web.archive.org/web/20241106080417id_/https://www.huntcounty.net/page/hunt.election?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "48dbd992bff012e91276d97b594eb1547bba585fbbee8925023117ea49fe23d5",
+          "saved_as": "Hunt/2024_general_20241106080417_48dbd992bff0.html"
+        },
+        {
+          "timestamp_utc": "20241106080426",
+          "local": "2024-11-06 02:04:26 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "LFR5Y4KGHX4AGDMXUJGOQFWDNXANHM5J",
+          "length": "25888",
+          "replay_url": "https://web.archive.org/web/20241106080426id_/https://www.huntcounty.net/page/hunt.election?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "d1ec4593d8ed33fa360713245903c65ff3658414e64856735d1ba08594d7d637",
+          "saved_as": "Hunt/2024_general_20241106080426_d1ec4593d8ed.html"
+        },
+        {
+          "timestamp_utc": "20241106081557",
+          "local": "2024-11-06 02:15:57 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "AKVLSO7BSNXJISIXWXJCPWRBEILCTMHE",
+          "length": "25902",
+          "replay_url": "https://web.archive.org/web/20241106081557id_/https://www.huntcounty.net/page/hunt.election?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "fe67e02d5d45d4528580e24b37990ede2e8b88e0039e50c3f4b28b13f50af203",
+          "saved_as": "Hunt/2024_general_20241106081557_fe67e02d5d45.html"
+        },
+        {
+          "timestamp_utc": "20241106081620",
+          "local": "2024-11-06 02:16:20 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "HDFRCJ5G6M25UNALS2DQJ2NEIIBEFRYQ",
+          "length": "25915",
+          "replay_url": "https://web.archive.org/web/20241106081620id_/https://www.huntcounty.net/page/hunt.election?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "c52bb90701726fc08c66cf019a6d66db9a528c39cdae251e754ab024e447e48c",
+          "saved_as": "Hunt/2024_general_20241106081620_c52bb9070172.html"
+        },
+        {
+          "timestamp_utc": "20241106081853",
+          "local": "2024-11-06 02:18:53 CST",
+          "original": "https://www.huntcounty.net/page/hunt.election?os=io....sxj9oul9%3Fno_journeystrue&ref=app",
+          "mimetype": "text/html",
+          "digest": "WXJWMKI4DCK3X4T7J26OMQYZGUWXRX3X",
+          "length": "25919",
+          "replay_url": "https://web.archive.org/web/20241106081853id_/https://www.huntcounty.net/page/hunt.election?os=io....sxj9oul9%3Fno_journeystrue&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "13d9f82a3e9065776140bb6b7ad2fb765bd02db0d49fc963c3c61b6630e33d6b",
+          "saved_as": "Hunt/2024_general_20241106081853_13d9f82a3e90.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=huntcounty.net&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +175,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=huntcounty.net&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 11
 }

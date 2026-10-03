@@ -3,26 +3,182 @@
   "targets": [
     "co.hill.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:44Z",
+  "harvested_at_utc": "2026-10-03T10:48:56Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.hill.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "0b0ef69ff338eedc2632c178c47c51f42f3c5ec4b21b9d8297e1fe1324273657"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106045902",
+          "local": "2024-11-05 22:59:02 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=0slw57psddf",
+          "mimetype": "text/html",
+          "digest": "QID7I2R2X4FVGYES6ITYAYEOWRQXH7VC",
+          "length": "11748",
+          "replay_url": "https://web.archive.org/web/20241106045902id_/https://www.co.hill.tx.us/page/hill.Elections?os=0slw57psddf",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106050042",
+          "local": "2024-11-05 23:00:42 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "LEGCA7O2E2TR7AIOCMVARLLU6LTOZNHN",
+          "length": "11756",
+          "replay_url": "https://web.archive.org/web/20241106050042id_/https://www.co.hill.tx.us/page/hill.Elections?os=0slw57psddf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "687ff187417acf236876ea392c1da54cc5ec2495f5ac8f7b616ee3c689e6c479",
+          "saved_as": "Hill/2024_general_20241106050042_687ff187417a.html"
+        },
+        {
+          "timestamp_utc": "20241106054721",
+          "local": "2024-11-05 23:47:21 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=fno_journeystrueFno_journeysDtrue",
+          "mimetype": "text/html",
+          "digest": "NFJQPLLMYQWAPNDASFSBOBQW2UOQL26W",
+          "length": "11756",
+          "replay_url": "https://web.archive.org/web/20241106054721id_/https://www.co.hill.tx.us/page/hill.Elections?os=fno_journeystrueFno_journeysDtrue",
+          "ok": true,
+          "error": null,
+          "content_hash": "648bcf4514bff31065d015bcf6242871fa0fc910ef92fc992e4b1e7065fe0b1e",
+          "saved_as": "Hill/2024_general_20241106054721_648bcf4514bf.html"
+        },
+        {
+          "timestamp_utc": "20241106064856",
+          "local": "2024-11-06 00:48:56 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "I3J4EN5Q6AKU32UYNOXX2QQTSDEWBOTH",
+          "length": "11779",
+          "replay_url": "https://web.archive.org/web/20241106064856id_/https://www.co.hill.tx.us/page/hill.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "4a135929e940bd57482391b87a11d1d4d1579b86a86c22b93fe63cb6748df43c",
+          "saved_as": "Hill/2024_general_20241106064856_4a135929e940.html"
+        },
+        {
+          "timestamp_utc": "20241106064923",
+          "local": "2024-11-06 00:49:23 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "PSCHEHJ34WIMVNVXDK4MW5XLZA3TYG44",
+          "length": "11767",
+          "replay_url": "https://web.archive.org/web/20241106064923id_/https://www.co.hill.tx.us/page/hill.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "1dfd167054f94f8e9fdc8e28f97d0a2c21aeb7d6c644774a700a87deb51e0a9e",
+          "saved_as": "Hill/2024_general_20241106064923_1dfd167054f9.html"
+        },
+        {
+          "timestamp_utc": "20241106070058",
+          "local": "2024-11-06 01:00:58 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=vpkn75tqhopmkpsxtqemvd8y1m",
+          "mimetype": "text/html",
+          "digest": "NAC5BD76Q24X4WKSAPG4V3WAU4VSX7IV",
+          "length": "11757",
+          "replay_url": "https://web.archive.org/web/20241106070058id_/https://www.co.hill.tx.us/page/hill.Elections?os=vpkn75tqhopmkpsxtqemvd8y1m",
+          "ok": true,
+          "error": null,
+          "content_hash": "5982167b3f92feff36371440d641e4bcb0dcdcf0ef8a1c119e52710bf465ed47",
+          "saved_as": "Hill/2024_general_20241106070058_5982167b3f92.html"
+        },
+        {
+          "timestamp_utc": "20241106070107",
+          "local": "2024-11-06 01:01:07 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=wtmb5utKCxk5refapputm_sourcesyndication&ref=app",
+          "mimetype": "text/html",
+          "digest": "YJNWAZNABRHIOECVPXJDBLMSU3TFE4M5",
+          "length": "11774",
+          "replay_url": "https://web.archive.org/web/20241106070107id_/https://www.co.hill.tx.us/page/hill.Elections?os=wtmb5utKCxk5refapputm_sourcesyndication&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "968ed0037e8a3091870fb1ea6d001616370ad76607f097cc79afda1dc2fff745",
+          "saved_as": "Hill/2024_general_20241106070107_968ed0037e8a.html"
+        },
+        {
+          "timestamp_utc": "20241106074854",
+          "local": "2024-11-06 01:48:54 CST",
+          "original": "https://www.co.hill.tx.us/upload/page/7586/docs/Elections/2024/11052024-ElectionDay-Final.pdf",
+          "mimetype": "application/pdf",
+          "digest": "K7NU6HYQ3BIYNCCZ42TQHAJCBLQWSLLL",
+          "length": "174927",
+          "replay_url": "https://web.archive.org/web/20241106074854id_/https://www.co.hill.tx.us/upload/page/7586/docs/Elections/2024/11052024-ElectionDay-Final.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "48addb6cd150ddcdd8e69d807e227f7884d8dcff183e13f25f399618934364f3",
+          "saved_as": "Hill/2024_general_20241106074854_48addb6cd150.pdf"
+        },
+        {
+          "timestamp_utc": "20241106080353",
+          "local": "2024-11-06 02:03:53 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "FPWCWTZHXLSJOH2F2RYIOSK66ZFTMKFG",
+          "length": "11752",
+          "replay_url": "https://web.archive.org/web/20241106080353id_/https://www.co.hill.tx.us/page/hill.Elections?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "a1b5e1fe1c2a1b81484f477018293cca19a3482aa939cfd45559de7bbe7c56a0",
+          "saved_as": "Hill/2024_general_20241106080353_a1b5e1fe1c2a.html"
+        },
+        {
+          "timestamp_utc": "20241106080412",
+          "local": "2024-11-06 02:04:12 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "7FEJTVOTALKMCMAAZ5NCXARYZCQTHIYQ",
+          "length": "11732",
+          "replay_url": "https://web.archive.org/web/20241106080412id_/https://www.co.hill.tx.us/page/hill.Elections?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "35a964f64eee4671585ee09bda844fd2e4f4ab4cd1cf60f4fcb10d83e7ecb4f6",
+          "saved_as": "Hill/2024_general_20241106080412_35a964f64eee.html"
+        },
+        {
+          "timestamp_utc": "20241106081512",
+          "local": "2024-11-06 02:15:12 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "GIE5URTCGT35FWPPAYOYFJL4FJFL6HZ5",
+          "length": "11759",
+          "replay_url": "https://web.archive.org/web/20241106081512id_/https://www.co.hill.tx.us/page/hill.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "94e73b5c16b478c309b8a099ab4c88a5d84b69d0de0e859d8ee534c6ffd3fe38",
+          "saved_as": "Hill/2024_general_20241106081512_94e73b5c16b4.html"
+        },
+        {
+          "timestamp_utc": "20241106081516",
+          "local": "2024-11-06 02:15:16 CST",
+          "original": "https://www.co.hill.tx.us/page/hill.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "HS5IIXC4JK4BZI4MT46GO4FTJNQNBELB",
+          "length": "11730",
+          "replay_url": "https://web.archive.org/web/20241106081516id_/https://www.co.hill.tx.us/page/hill.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "55bfdbf0dfb6fdce1e1fc70a462532af92486525d37eb4c89f18030a020dbdc0",
+          "saved_as": "Hill/2024_general_20241106081516_55bfdbf0dfb6.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.hill.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +187,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.hill.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 12
 }

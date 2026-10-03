@@ -3,41 +3,69 @@
   "targets": [
     "brazoriacountyclerktx.gov"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:44Z",
+  "harvested_at_utc": "2026-10-03T10:38:03Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=brazoriacountyclerktx.gov&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "09b8662ef2c4d7b65555a5655714249be83a6b6f62449bdf4eb1f5d0e9136631"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106054426",
+          "local": "2024-11-05 23:44:26 CST",
+          "original": "https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?fbclid=IwY2xjawGXBPZleHRuA2FlbQIxMAABHQyQ_18CrHBqKu8LNmogoO9BLonhfPMlhpQSN3SHV32up7lT1YYPu4jbUw_aem_JGZ6uC_NdOzIwyED5t7_pg",
+          "mimetype": "text/html",
+          "digest": "E2GFRY27LL4EL3WTEJFEDIVHYHTQAGET",
+          "length": "21094",
+          "replay_url": "https://web.archive.org/web/20241106054426id_/https://www.brazoriacountyclerktx.gov/departments/elections/polling-places-election-day?fbclid=IwY2xjawGXBPZleHRuA2FlbQIxMAABHQyQ_18CrHBqKu8LNmogoO9BLonhfPMlhpQSN3SHV32up7lT1YYPu4jbUw_aem_JGZ6uC_NdOzIwyED5t7_pg",
+          "ok": true,
+          "error": null,
+          "content_hash": "e43d07bf926a88224a38ba0d20e41df2da941e996ab9196b95078c24a99211df",
+          "saved_as": "Brazoria/2024_general_20241106054426_e43d07bf926a.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=brazoriacountyclerktx.gov&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "6a77894b6c4a23e58df8c61dd3bccb8513eaeac4043c4abeda2f69524a9a195c"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20260304015006",
+          "local": "2026-03-03 19:50:06 CST",
+          "original": "https://www.brazoriacountyclerktx.gov/departments/elections/candidate-information",
+          "mimetype": "text/html",
+          "digest": "LX2HBR2ATNKQODV7BUI6ZEVVM2RPA7DW",
+          "length": "24186",
+          "replay_url": "https://web.archive.org/web/20260304015006id_/https://www.brazoriacountyclerktx.gov/departments/elections/candidate-information",
+          "ok": true,
+          "error": null,
+          "content_hash": "4d187a346e6e65332b0bf3f547e4eabc56be631ef4b7f8af63efa22728b2e281",
+          "saved_as": "Brazoria/2026_primary_20260304015006_4d187a346e6e.html"
+        }
+      ]
     },
     "2026_runoff": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=brazoriacountyclerktx.gov&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
           "ok": false,
-          "error": "robots_disallowed_or_unreachable",
+          "error": "URLError: timed out",
           "content_hash": null
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 2
 }

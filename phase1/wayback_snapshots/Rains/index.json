@@ -3,26 +3,325 @@
   "targets": [
     "co.rains.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T16:51:44Z",
+  "harvested_at_utc": "2026-10-03T11:02:07Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.rains.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "2faf3b732dd31355e1bdb65cd45534465359bb62ca7aa94d52a3e04a97823932"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106011642",
+          "local": "2024-11-05 19:16:42 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=qtfT_1no_journeystrue",
+          "mimetype": "text/html",
+          "digest": "NGBRB42KY7BQCND5FXHYIUBYIDIUQYXX",
+          "length": "22740",
+          "replay_url": "https://web.archive.org/web/20241106011642id_/https://www.co.rains.tx.us/page/rains.Elections?os=qtfT_1no_journeystrue",
+          "ok": true,
+          "error": null,
+          "content_hash": "685046f1c424fefe39ecb10f5b2670aa8b80ac20254ad64653eb6ab5a6ba6e1c",
+          "saved_as": "Rains/2024_general_20241106011642_685046f1c424.html"
+        },
+        {
+          "timestamp_utc": "20241106024152",
+          "local": "2024-11-05 20:41:52 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=wtmb5utkcxk5refdappf&ref=app",
+          "mimetype": "text/html",
+          "digest": "RTSTCFZZYCHOGXDWERFXKA676POJYYHG",
+          "length": "22752",
+          "replay_url": "https://web.archive.org/web/20241106024152id_/https://www.co.rains.tx.us/page/rains.Elections?os=wtmb5utkcxk5refdappf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "9d048a3f44e6dc82d794bed8b0ae47592f1f84ddf4a87fc7979a89e6afc8c990",
+          "saved_as": "Rains/2024_general_20241106024152_9d048a3f44e6.html"
+        },
+        {
+          "timestamp_utc": "20241106044256",
+          "local": "2024-11-05 22:42:56 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=wtmbrgj5xbahrefapp",
+          "mimetype": "text/html",
+          "digest": "5IYOASXHGXSIOXLWLSCR4OV5MFOZNAGT",
+          "length": "22814",
+          "replay_url": "https://web.archive.org/web/20241106044256id_/https://www.co.rains.tx.us/page/rains.Elections?os=wtmbrgj5xbahrefapp",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106044309",
+          "local": "2024-11-05 22:43:09 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2010-26-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "TVEHV64RW3YGJ4S3N6Z6QWGU6JP3UW5K",
+          "length": "66526",
+          "replay_url": "https://web.archive.org/web/20241106044309id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2010-26-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "556c321ff4ba7b9727e0f045f53c5bae96e3d71332d16ee8ff8c4d37cdf5f4a9",
+          "saved_as": "Rains/2024_general_20241106044309_556c321ff4ba.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044310",
+          "local": "2024-11-05 22:43:10 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/BALLOT%20BY%20MAILS%20RECEIVED%2010-15-24%20THROUGH%2010-21-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "XQG4FZWKBIY3JZA5R3CUYO5SW5DYYOJG",
+          "length": "85146",
+          "replay_url": "https://web.archive.org/web/20241106044310id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/BALLOT%20BY%20MAILS%20RECEIVED%2010-15-24%20THROUGH%2010-21-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "2dbcf6bd093bf0d7ca80e09b541ee087675df23056b56a7e4b1062b7d6bbf235",
+          "saved_as": "Rains/2024_general_20241106044310_2dbcf6bd093b.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044311",
+          "local": "2024-11-05 22:43:11 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/9%20GENERAL%20ELECTION%20VOTER%20HISTORY%2010-29-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "L67GLLKYHNVO77FDCQS24T2XGH4RDWHN",
+          "length": "145172",
+          "replay_url": "https://web.archive.org/web/20241106044311id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/9%20GENERAL%20ELECTION%20VOTER%20HISTORY%2010-29-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "3b3af7592dbf42728787c470665482d02e39a2f57680951c7738db572962531e",
+          "saved_as": "Rains/2024_general_20241106044311_3b3af7592dbf.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044312",
+          "local": "2024-11-05 22:43:12 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2010-25-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "EF2AUKTOJGEAJNA4IO36ERHPC645LLMG",
+          "length": "96309",
+          "replay_url": "https://web.archive.org/web/20241106044312id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2010-25-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "a5afb79f7ffa70e7e4860b6a8bc14b975fce9c85fb59c64f429fa7f2e9c20201",
+          "saved_as": "Rains/2024_general_20241106044312_a5afb79f7ffa.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044313",
+          "local": "2024-11-05 22:43:13 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/11%20GENERAL%20ELECTION%20VOTER%20HISTORY%2010-31-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "2R6LIMWTSWZT6OUM5N354OHLUZ6KT6PK",
+          "length": "144997",
+          "replay_url": "https://web.archive.org/web/20241106044313id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/11%20GENERAL%20ELECTION%20VOTER%20HISTORY%2010-31-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "b902c91e73aa6c3fbe98f0659d8fdd1e029838e246a2af0e54fa1e09dce4e4d7",
+          "saved_as": "Rains/2024_general_20241106044313_b902c91e73aa.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044314",
+          "local": "2024-11-05 22:43:14 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/BALLOT%20BY%20MAILS%20RECEIVED%2010-22-24%20THROUGH%2010-26-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "YDF7JH7BK6SSTGDA67M46T5YBGRCNNQG",
+          "length": "82506",
+          "replay_url": "https://web.archive.org/web/20241106044314id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/BALLOT%20BY%20MAILS%20RECEIVED%2010-22-24%20THROUGH%2010-26-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "2b9dd055ba34c0f2e62a3b075389cf2793e23203d6c11fbc0beeac01bbc2e3d6",
+          "saved_as": "Rains/2024_general_20241106044314_2b9dd055ba34.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044314",
+          "local": "2024-11-05 22:43:14 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2011-01-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "YVURVLGH32NRWTU363375DR77GOIFEUG",
+          "length": "152102",
+          "replay_url": "https://web.archive.org/web/20241106044314id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2011-01-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "43135b931ec67727c7c92043ce590be4fa1a793f7c7c03cb52db02556b15a047",
+          "saved_as": "Rains/2024_general_20241106044314_43135b931ec6.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044315",
+          "local": "2024-11-05 22:43:15 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2010-24-2024.pdf",
+          "mimetype": "application/pdf",
+          "digest": "BSV2COAJG5373Y3UO7C2HA2A22YSVCVZ",
+          "length": "97817",
+          "replay_url": "https://web.archive.org/web/20241106044315id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2010-24-2024.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "d2824b11ac8cb30e606a12b7a43ee115db3e25d60f7889db24298f5c401801fa",
+          "saved_as": "Rains/2024_general_20241106044315_d2824b11ac8c.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044316",
+          "local": "2024-11-05 22:43:16 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2010-23-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "5CILLWOLG3KHCVILGA244AHQTTPBT3IZ",
+          "length": "96041",
+          "replay_url": "https://web.archive.org/web/20241106044316id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2010-23-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "3bf60c56d3161241b3d92c38c628a2d50c6b6523ae6e7852b22f23b745f756cd",
+          "saved_as": "Rains/2024_general_20241106044316_3bf60c56d316.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044320",
+          "local": "2024-11-05 22:43:20 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2010-27-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "WWYXHJNWREA4WCKINVFKICYCU6JPZ3RM",
+          "length": "115911",
+          "replay_url": "https://web.archive.org/web/20241106044320id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/NOV%205%202024%20GENERAL-RAINS%20CO%20SALES%20AND%20USE%20TAX%20ELECTION%20VOTER%20HISTORY%2010-27-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "0cee622ee5ba74216a8e5c5d05e66d7453abf23acf37f1a479ae7372cc80ea41",
+          "saved_as": "Rains/2024_general_20241106044320_0cee622ee5ba.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044322",
+          "local": "2024-11-05 22:43:22 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/8%20GENERAL%20ELECTION%20VOTER%20HISTORY%2010-28-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "FPGGI7QXYM3ZCF5MQIVVQ4IOS6M6DG7F",
+          "length": "170431",
+          "replay_url": "https://web.archive.org/web/20241106044322id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/8%20GENERAL%20ELECTION%20VOTER%20HISTORY%2010-28-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "2a65a991bd5378a2563a1dbfbfd075165f5c877045a93de3af424853e1616217",
+          "saved_as": "Rains/2024_general_20241106044322_2a65a991bd53.pdf"
+        },
+        {
+          "timestamp_utc": "20241106044323",
+          "local": "2024-11-05 22:43:23 CST",
+          "original": "https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/10%20GENERAL%20ELECTION%20VOTER%20HISTORY%2010-30-24.pdf",
+          "mimetype": "application/pdf",
+          "digest": "FMXSAJ35MSU2TF3X44SQ5UVVUBBJUAQA",
+          "length": "144258",
+          "replay_url": "https://web.archive.org/web/20241106044323id_/https://www.co.rains.tx.us/upload/page/2858/November%205,%202024%20Presidential%20Election/10%20GENERAL%20ELECTION%20VOTER%20HISTORY%2010-30-24.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "c06042c2b0439db33321d0daab06c120294a9162217bc9eaf11451b1cf3ae2e7",
+          "saved_as": "Rains/2024_general_20241106044323_c06042c2b043.pdf"
+        },
+        {
+          "timestamp_utc": "20241106045912",
+          "local": "2024-11-05 22:59:12 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=0slw57psddf",
+          "mimetype": "text/html",
+          "digest": "YHTXPMBS2E4OZTKFKW7IBGN4CTHZI2JT",
+          "length": "22808",
+          "replay_url": "https://web.archive.org/web/20241106045912id_/https://www.co.rains.tx.us/page/rains.Elections?os=0slw57psddf",
+          "ok": true,
+          "error": null,
+          "content_hash": "612a120f4fde8401bfad76044a4b2f789fe70445d42930d4c56a35ec43275072",
+          "saved_as": "Rains/2024_general_20241106045912_612a120f4fde.html"
+        },
+        {
+          "timestamp_utc": "20241106050105",
+          "local": "2024-11-05 23:01:05 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=0slw57psddf&ref=app",
+          "mimetype": "text/html",
+          "digest": "QSY7Y363474XETG22JECYE6H32YSBJXE",
+          "length": "22819",
+          "replay_url": "https://web.archive.org/web/20241106050105id_/https://www.co.rains.tx.us/page/rains.Elections?os=0slw57psddf&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "84d3c3c10b94cd4f065ece68582947ba7b03dc737c7e8507ae5fe78e60ba9fc0",
+          "saved_as": "Rains/2024_general_20241106050105_84d3c3c10b94.html"
+        },
+        {
+          "timestamp_utc": "20241106064952",
+          "local": "2024-11-06 00:49:52 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "mimetype": "text/html",
+          "digest": "DPGUWSYFRLNMIAPVPTOFQMOJ7BBV2QC2",
+          "length": "22837",
+          "replay_url": "https://web.archive.org/web/20241106064952id_/https://www.co.rains.tx.us/page/rains.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "66676bb0df097b3aeb6121f2cf3b3800e8b17629f73afb2b6907d3fdae98e097",
+          "saved_as": "Rains/2024_general_20241106064952_66676bb0df09.html"
+        },
+        {
+          "timestamp_utc": "20241106065018",
+          "local": "2024-11-06 00:50:18 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "mimetype": "text/html",
+          "digest": "MWOPJB34MBHMZDW2IUFLNZZLAIB45MBW",
+          "length": "22782",
+          "replay_url": "https://web.archive.org/web/20241106065018id_/https://www.co.rains.tx.us/page/rains.Elections?os=www.youtube.com%2Fwatch%3Fv%3Dep9iyj93qii",
+          "ok": true,
+          "error": null,
+          "content_hash": "a4f8b84e382ccabc83b126df110e0f79f4d4143afa8f77bcdc6c18f0898ccccc",
+          "saved_as": "Rains/2024_general_20241106065018_a4f8b84e382c.html"
+        },
+        {
+          "timestamp_utc": "20241106080407",
+          "local": "2024-11-06 02:04:07 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=apprefapp&ref=app",
+          "mimetype": "text/html",
+          "digest": "37LZD36WPEHILP4Y3RD2TCSCAZN2FAFR",
+          "length": "22819",
+          "replay_url": "https://web.archive.org/web/20241106080407id_/https://www.co.rains.tx.us/page/rains.Elections?os=apprefapp&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "67331adc0abab817d37d10bb27921a2ed7dd8c01ba0336f3d9affb2d577ac79b",
+          "saved_as": "Rains/2024_general_20241106080407_67331adc0aba.html"
+        },
+        {
+          "timestamp_utc": "20241106080437",
+          "local": "2024-11-06 02:04:37 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=apprefapp",
+          "mimetype": "text/html",
+          "digest": "QAU6IFDOUGWM5SI3KKEB7WPWA53EIZLS",
+          "length": "22813",
+          "replay_url": "https://web.archive.org/web/20241106080437id_/https://www.co.rains.tx.us/page/rains.Elections?os=apprefapp",
+          "ok": true,
+          "error": null,
+          "content_hash": "ac8fcc2b5a3edeaeffafcd279d4ad6913ed9163e9ac544b9071d781fc97c0d05",
+          "saved_as": "Rains/2024_general_20241106080437_ac8fcc2b5a3e.html"
+        },
+        {
+          "timestamp_utc": "20241106081627",
+          "local": "2024-11-06 02:16:27 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "mimetype": "text/html",
+          "digest": "HQ3AJAG46K7PGUFJRINAAUMD4ZTFEOHS",
+          "length": "22823",
+          "replay_url": "https://web.archive.org/web/20241106081627id_/https://www.co.rains.tx.us/page/rains.Elections?os=wtmb5utkcxk5refappahtvjlve&ref=app",
+          "ok": true,
+          "error": null,
+          "content_hash": "200b71b15fd1c157ed41580d32f2241cf332d2d99cc728e40f3dd2459c0e3daa",
+          "saved_as": "Rains/2024_general_20241106081627_200b71b15fd1.html"
+        },
+        {
+          "timestamp_utc": "20241106081642",
+          "local": "2024-11-06 02:16:42 CST",
+          "original": "https://www.co.rains.tx.us/page/rains.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "mimetype": "text/html",
+          "digest": "EXDA6VZAXENYHGBHNJB5UJ7UYX6MDGR2",
+          "length": "22820",
+          "replay_url": "https://web.archive.org/web/20241106081642id_/https://www.co.rains.tx.us/page/rains.Elections?os=wtmb5utkcxk5refappahtvjlve",
+          "ok": true,
+          "error": null,
+          "content_hash": "212dd224cb437d7893ca3880792154a1af338e45c96218b62939421460debaf2",
+          "saved_as": "Rains/2024_general_20241106081642_212dd224cb43.html"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.rains.tx.us&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
@@ -31,13 +330,13 @@
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.rains.tx.us&matchType=domain&from=20260527000000&to=20260527080000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "robots_disallowed_or_unreachable",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
         }
       ],
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 23
 }
