@@ -1,31 +1,31 @@
 {
   "county": "Waller",
-  "tag": "UNKNOWN",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
   "confidence": "low",
   "elections_office_phone": "",
   "elections_office_email": "",
   "results_url": "https://www.co.waller.tx.us/page/2026%20County%20and%20Entity%20Elections",
   "platform": "county_pdfs",
   "host": "www.co.waller.tx.us",
-  "evidence_url": "",
+  "evidence_url": "https://www.co.waller.tx.us/upload/page/0274/UNOFFICIAL%20FINAL%20-%20Includes%20Limited%20Ballots.pdf",
   "evidence_snapshot_timestamp": "",
   "precinct_first_seen_local_time": "",
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No Clarity site (elections.json 404). The 2026 County and Entity Elections page lists for the March 3 primary only 'OFFICIAL FINAL - JOINT PRIMARY ELECTION' (file 'OFFICIAL FINAL BOTH Cumulative Results-3-11-2026 01-26-24 PM.pdf') and Democrat/Republican official finals, and for the May 26 runoff only 'Official Dem/Rep Primary Runoff Cumulative Results-6-2-2026'; no election-night report remains. The 2024 page lists, for the November 5 general, 'Unofficial Final - Includes Limited Ballots', a 'Cumulative Results Report ... Unofficial Results' with 'Run Time 10:07PM Run Date 11/05/2024' printed but CreationDate 2024-11-09 21:59 UTC and Last-Modified Sun, 10 Nov 2024 16:31:23 GMT (uploaded after election night), county totals only, plus an official cumulative report. No precinct-level report is listed for any of the three elections, but the election-night postings themselves are gone, so check 2 cannot decide. Check 3 pending (origin/wayback-data branch not found). Targeted pass 3 2026-10-02 (targeted3-D): no election changed. Re-listed every result file on the 2024 and 2026 County and Entity Elections pages (cached): no election-night report for any target election remains; the only unlabeled file, /upload/page/0286/BOTH FINAL.pdf (Last-Modified Mon, 18 May 2026 04:55:19 GMT), is the runoff early voting and election day locations notice. Check 3: harvest has one 2024 capture (Elections.Maps page, replay timed out) and the 2026 primary CDX query failed (TLS timeout). archive.org/wayback/available shows captures of the 2026 page at 20260316182826 and 20260515165212 (after the primary, before the runoff) and none near Nov 5-6 2024; web.archive.org replay is unreachable from this environment (robots_disallowed_or_unreachable), so the March 16 copy, which may list primary night file names, could not be read: lead for the sweep. Sweep pending.",
-  "tag_rationale": "No election could be determined by checks 1 and 2 (only post-election cumulative reports remain; check 3 pending), so the rule gives UNKNOWN.",
+  "notes": "No Clarity site (elections.json 404). The 2026 County and Entity Elections page lists for the March 3 primary only 'OFFICIAL FINAL - JOINT PRIMARY ELECTION' (file 'OFFICIAL FINAL BOTH Cumulative Results-3-11-2026 01-26-24 PM.pdf') and Democrat/Republican official finals, and for the May 26 runoff only 'Official Dem/Rep Primary Runoff Cumulative Results-6-2-2026'; no election-night report remains. The 2024 page lists, for the November 5 general, 'Unofficial Final - Includes Limited Ballots', a 'Cumulative Results Report ... Unofficial Results' with 'Run Time 10:07PM Run Date 11/05/2024' printed but CreationDate 2024-11-09 21:59 UTC and Last-Modified Sun, 10 Nov 2024 16:31:23 GMT (uploaded after election night), county totals only, plus an official cumulative report. No precinct-level report is listed for any of the three elections, but the election-night postings themselves are gone, so check 2 cannot decide. Check 3 pending (origin/wayback-data branch not found). Targeted pass 3 2026-10-02 (targeted3-D): no election changed. Re-listed every result file on the 2024 and 2026 County and Entity Elections pages (cached): no election-night report for any target election remains; the only unlabeled file, /upload/page/0286/BOTH FINAL.pdf (Last-Modified Mon, 18 May 2026 04:55:19 GMT), is the runoff early voting and election day locations notice. Check 3: harvest has one 2024 capture (Elections.Maps page, replay timed out) and the 2026 primary CDX query failed (TLS timeout). archive.org/wayback/available shows captures of the 2026 page at 20260316182826 and 20260515165212 (after the primary, before the runoff) and none near Nov 5-6 2024; web.archive.org replay is unreachable from this environment (robots_disallowed_or_unreachable), so the March 16 copy, which may list primary night file names, could not be read: lead for the sweep. Sweep pending. Targeted pass 4 2026-10-02 (targeted4-G): 2024_general changed UNDETERMINED to LATER (check 2) under the DECISIONS 67 reading of rule 43: the only results file for the general is county totals printed 'Run Time 10:07PM Run Date 11/05/2024' and no precinct report was ever listed; flagged caveat that the PDF CreationDate (2024-11-09 21:59 UTC) and Last-Modified (10 Nov 2024) are after election night. 2026_primary and 2026_runoff stay UNDETERMINED: only official files remain and site-restricted web searches found no unlinked election-night file for either; Community Impact (posted 9:30 PM and updated 10:35 PM March 3) and KWHI report county totals only (leads, not evidence). Correction: 'CUMULATIVE - ABS, EV AND ED OFFICIAL FINAL' (OFFICIAL Cumulative Results.pdf) sits under the May 28, 2024 runoff section, not the November general. Tried: newtools.cira.state.tx.us copies (the 2024 PDF path returns 404 and page/waller.2024 County and Entity Elections returns 403; this ezTask site is not served there); wayback-data branch has only the main harvest (one 2024 capture, replay failed; 2026 primary CDX failed), no targeted archives, wayback, or sweep folder for Waller (sweep pending); web.archive.org not reachable.",
+  "tag_rationale": "Only the 2024 general is determined (LATER from check 2 under the DECISIONS 67 reading of rule 43); with exactly one determined election the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS at low confidence.",
   "agent": "research-8",
   "method_version": "v2",
   "elections": {
     "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 22:07 CT",
       "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "'Unofficial Final - Includes Limited Ballots' cumulative county totals, printed Run Time 10:07PM 11/05/2024 but Last-Modified 10 Nov 2024; 'CUMULATIVE - ABS, EV AND ED OFFICIAL FINAL'. No election-night upload visible. Check 3 pending."
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.waller.tx.us/upload/page/0274/UNOFFICIAL%20FINAL%20-%20Includes%20Limited%20Ballots.pdf",
+      "fact": "Ruled LATER under DECISIONS 67 (rule 43), same pattern as Live Oak 2026 primary (county totals printed on election night, uploaded later, no precinct report). The 2024 County and Entity Elections page lists for 'November 5, 2024 - JOINT AND GENERAL ELECTION' only one results file, 'Unofficial Final - Includes Limited Ballots': 'Cumulative Results Report WALLER COUNTY, TEXAS Unofficial Results ... GENERAL ELECTION ... Ballots Cast 27671 ... Precincts Reporting 29 of 29 = 100.00% Run Time 10:07PM ... Run Date 11/05/2024', 9 pages of county totals by Absentee, Early and Election Day Voting (no per-precinct pages). Printed run time 10:07 PM on election night; the online copy has PDF CreationDate 2024-11-09 21:59:07 UTC and Last-Modified Sun, 10 Nov 2024 16:31:23 GMT (after election night). No unofficial or official precinct report is listed for this election. Caveat: the CreationDate (also a printed time under the checklist) is after election night, so the posted copy was rendered later even though its printed Run Time is 10:07 PM election night; and Waller has delisted election-night files before (a 2024 March primary file 'Joint Primary Early Voting Cumulative Results-3-5-2024 08-20-24 PM.pdf' is on the server but not on the page), so an election-night posting later removed cannot be ruled out (DECISIONS 67 caveat)."
     },
     "2026_primary": {
       "result": "UNDETERMINED",
@@ -34,7 +34,7 @@
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "",
-      "fact": "Only 'OFFICIAL FINAL BOTH Cumulative Results-3-11-2026' and party official finals listed. Check 3 pending."
+      "fact": "Only 'OFFICIAL FINAL BOTH Cumulative Results-3-11-2026' and party official finals listed; no election-night file found by site-restricted search. Leads (county totals only, not deciding): Community Impact 'Posted 9:30 p.m. March 3 Waller County has released March 3 primary election early voting totals' and 'Updated 10:35 p.m. March 3 Unofficial Waller County election data show...'; KWHI area results (county totals). No county file with an election-night time survives."
     },
     "2026_runoff": {
       "result": "UNDETERMINED",
@@ -43,7 +43,7 @@
       "precinct_first_seen": "",
       "night_updates_with_precinct_numbers": "",
       "evidence_url": "",
-      "fact": "Only 'Official Dem/Rep Primary Runoff Cumulative Results-6-2-2026' listed. Check 3 pending."
+      "fact": "Only 'Official Dem/Rep Primary Runoff Cumulative Results-6-2-2026' listed; no election-night file found."
     }
   },
   "sources": [
@@ -67,6 +67,27 @@
       "content_hash": "8a7b7345be0ebbb5d937f032675280a7a6e91ed6a98f00cede453cb7fbdf80ae",
       "quote": "Cumulative Results Report WALLER COUNTY, TEXAS Unofficial Results ... Run Time 10:07PM Run Date 11/05/2024",
       "supports": "2024 unofficial cumulative uploaded 10 Nov 2024"
+    },
+    {
+      "url": "https://communityimpact.com/katy-fulshear/election/update-unofficial-results-show-beckendorff-cantrell-secure-waller-county-primaries/",
+      "via": "fetch_module",
+      "content_hash": "cae8a283d60ffbbc24e5d0053fe29e847455f4090f2681b95872d25675a275e1",
+      "quote": "Posted 9:30 p.m. March 3 Waller County has released March 3 primary election early voting totals for multiple races ... Updated 10:35 p.m. March 3 Unofficial Waller County election data show Justin Glenn Beckendorff and Brian Cantrell have secured their seats",
+      "supports": "Lead only for 2026_primary: county totals released on election night; no precinct numbers and no county file"
+    },
+    {
+      "url": "https://kwhi.com/2026/03/03/election-results-area-counties-2/",
+      "via": "fetch_module",
+      "content_hash": "5e11d2e31e4fb815ac8408a1c5ceb947c35f90bc133aed25f9b3541f58573b57",
+      "quote": "Waller County: County Judge Brent Davis (R) - 1,878 Justin Glenn Beckendorff (R) - 3,762",
+      "supports": "Third-party county totals only; not check 4 evidence"
+    },
+    {
+      "url": "https://www.co.waller.tx.us/upload/page/0274/Joint%20Primary%20Early%20Voting%20Cumulative%20Results-3-5-2024%2008-20-24%20PM.pdf",
+      "via": "websearch",
+      "content_hash": "ac889da546487c08f5125e985fb7b84e0549b18a9f63977bedacca3d03df5b51",
+      "quote": "President - Republican Party Precincts Counted Total Percent 0 20 0.00% Voters",
+      "supports": "Search listing shows Waller keeps unlinked election-night files on its server (2024 March primary, not a target election); search text is not evidence; content_hash is the search log record"
     }
   ]
 }
