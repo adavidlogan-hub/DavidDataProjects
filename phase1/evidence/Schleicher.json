@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "No seed website; the county site is www.co.schleicher.tx.us (2026 Elections page and Past Elections archive). Archive links point to www.schleichercounty.gov, which returned HTTP 403 to the fetch module; the same upload path on www.co.schleicher.tx.us served the 2024 file. No Clarity site (elections.json 404). Server Last-Modified values differ by file and follow the PDF creation times, so upload times are usable. Only SOS county-total reports are posted; no precinct-by-precinct results for any target election. Confidence med follows the pilot practice (Hudspeth): the 2024 report has both a PDF creation time and an election-night upload; the runoff reports were uploaded the next morning. Check 3 pending for the 2026 primary (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:32 CT.",
+  "notes": "No seed website; the county site is www.co.schleicher.tx.us (2026 Elections page and Past Elections archive). Archive links point to www.schleichercounty.gov, which returned HTTP 403 to the fetch module at first (this sandbox's egress block (body 'Host not in allowlist: www.schleichercounty.gov. Add this host to your network egress settings to allow access.'), not a county response; on 2026-10-03 it loads); the same upload path on www.co.schleicher.tx.us served the 2024 file. No Clarity site (elections.json 404). Server Last-Modified values differ by file and follow the PDF creation times, so upload times are usable. Only SOS county-total reports are posted; no precinct-by-precinct results for any target election. Confidence med follows the pilot practice (Hudspeth): the 2024 report has both a PDF creation time and an election-night upload; the runoff reports were uploaded the next morning. Check 3 pending for the 2026 primary (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:32 CT. Targeted pass 4 2026-10-03 (targeted4-K): no election changed. The archive link as written, http://www.schleichercounty.gov/upload/page/0086/UNOFFICIAL RESULTS.pdf (earlier HTTP 403 twice for research-7 was this sandbox's egress block (body 'Host not in allowlist: www.schleichercounty.gov. Add this host to your network egress settings to allow access.'), not a county response), now loads: same bytes as the www.co.schleicher.tx.us copy (hash 3ebc52a6...), Last-Modified Wed, 06 Nov 2024 03:22:22 GMT (9:22 PM CST Nov 5) on the county's other host too. Confirms 2024_general LATER. 1 fetch (cache).",
   "tag_rationale": "Results: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
   "agent": "research-7",
   "method_version": "v2",
@@ -81,6 +81,13 @@
       "content_hash": "01a3586d72ec54f330712fd1041f7fdedbc22addc864d0f2fd8ed899669510ac",
       "quote": "COUNTY COMMISSIONER PRECINCT 2 JASON PORTER 4 35 18 39 57",
       "supports": "Runoff Republican county totals, uploaded May 27"
+    },
+    {
+      "url": "http://www.schleichercounty.gov/upload/page/0086/UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "3ebc52a609595c534aeb43f5419b398f9a2e58b0dfbc0f01f3a01a75a5e615f0",
+      "quote": "HTTP 200, application/pdf, Last-Modified Wed, 06 Nov 2024 03:22:22 GMT (byte-identical to the www.co.schleicher.tx.us copy; image PDF, CreationDate Wed Nov 6 02:38:54 2024 UTC)",
+      "supports": "confirms 2024_general LATER: the archive link as written serves the same county-totals report uploaded 9:22 PM CST election night; earlier 403s (research-7) were the sandbox block"
     }
   ]
 }

@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed http://www.co.kimble.tx.us/ works over https. No Clarity site (elections.json 404). Results are Microsoft Reporting Services 'Cumulative Results Report' PDFs (county totals, 7 precincts) posted on the Elections page (2026) and Elections Archive page (2024). No precinct-by-precinct report is listed for any of the three elections, so precinct numbers are never published online. Server Last-Modified values differ per file (meaningful); 2024 and 2026 primary unofficial reports were uploaded on election night; the runoff copy found was re-uploaded 30 Jun 2026. 2024 archive entry over http returned 403; https works. Rule 43 applied 2026-10-02 (normalize-1): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:34 CT.",
+  "notes": "Seed http://www.co.kimble.tx.us/ works over https. No Clarity site (elections.json 404). Results are Microsoft Reporting Services 'Cumulative Results Report' PDFs (county totals, 7 precincts) posted on the Elections page (2026) and Elections Archive page (2024). No precinct-by-precinct report is listed for any of the three elections, so precinct numbers are never published online. Server Last-Modified values differ per file (meaningful); 2024 and 2026 primary unofficial reports were uploaded on election night; the runoff copy found was re-uploaded 30 Jun 2026. 2024 archive entry over http returned 403 (this sandbox's egress block (body 'Host not in allowlist: www.co.kimble.tx.us. Add this host to your network egress settings to allow access.'), not a county response; on 2026-10-03 the http URL loads, redirected to https); https works. Rule 43 applied 2026-10-02 (normalize-1): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:34 CT. Targeted pass 4 2026-10-03 (targeted4-K): no election changed. The retried http archive link for the 2024 general (earlier HTTP 403 for research-5 was this sandbox's egress block (body 'Host not in allowlist: www.co.kimble.tx.us. Add this host to your network egress settings to allow access.'), not a county response) redirects to the https file already recorded: same bytes (content hash ee0c40dc...), Last-Modified Wed, 06 Nov 2024 04:00:43 GMT (10:00 PM CST Nov 5), CreationDate Wed Nov 6 03:53:58 2024 UTC, Run Time 9:53 PM; county totals by Absentee / Early / Election Day only ('Precinct' appears only in 'Precincts Reporting' and 'County Commissioner, Precinct 1/3'). Confirms 2024_general LATER. 1 fetch (cache).",
   "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
   "agent": "research-5",
   "method_version": "v2",
@@ -81,6 +81,13 @@
       "content_hash": "2084a47a907e16907bbd729255ed8c6d5197a1f71f15c7590f93dab90e2d16dc",
       "quote": "Cumulative Results Report ... PRIMARY RUNOFF ELECTION ... Run Time 7:34 PM Run Date 05/26/2026",
       "supports": "2026_runoff county totals only"
+    },
+    {
+      "url": "http://www.co.kimble.tx.us/upload/page/0097/Final%20Cumulative%20Results-11-5-2024%2010-23-14%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "ee0c40dce67f37c9ce992f86aab5f907320e2f2fe81fa1d37b0f31a39230c1e6",
+      "quote": "Cumulative Results Report KIMBLE COUNTY, TEXAS ... GENERAL ELECTION ... Official Election Day Tally ... Precincts Reporting 7 of 7 ... Run Time 9:53 PM Run Date 11/05/2024 (Last-Modified Wed, 06 Nov 2024 04:00:43 GMT)",
+      "supports": "confirms 2024_general LATER: archive link as written (http) redirects to the same county-totals file, uploaded 10:00 PM CST election night; earlier http 403 was the sandbox block"
     }
   ]
 }

@@ -13,7 +13,7 @@
   "stated_change_2026": "n",
   "stated_change_source": "",
   "usage_notice_text": "",
-  "notes": "Seed https://www.co.lynn.tx.us/ loads; Elections page lists scanned results PDFs named by scanner timestamp (http links return 403; https works). No Clarity site (elections.json 404). Reports read visually (no text layer). Last-Modified differs per file. In both 2026 elections a single unofficial precinct-by-precinct report was posted on election night, minutes after scanning. No 2024 general results are listed; check 3 pending. Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "notes": "Seed https://www.co.lynn.tx.us/ loads; Elections page lists scanned results PDFs named by scanner timestamp (http links returned 403 at first, which was this sandbox's egress block (body 'Host not in allowlist: www.co.lynn.tx.us. Add this host to your network egress settings to allow access.'), not a county response; on 2026-10-03 they load; https works). No Clarity site (elections.json 404). Reports read visually (no text layer). Last-Modified differs per file. In both 2026 elections a single unofficial precinct-by-precinct report was posted on election night, minutes after scanning. No 2024 general results are listed; check 3 pending. Rule 47 applied 2026-10-02 (normalize-47): none. Targeted pass 4 2026-10-03 (targeted4-K): no election changed. The http links as written on the Elections page (earlier HTTP 403 for research-5 was this sandbox's egress block (body 'Host not in allowlist: www.co.lynn.tx.us. Add this host to your network egress settings to allow access.'), not a county response) now load: 20260303223813.pdf (hash 1269e3d5..., Last-Modified Wed, 04 Mar 2026 03:41:48 GMT = 9:41 PM CST Mar 3) and 20260526201006.pdf (hash a0e99684..., Last-Modified Wed, 27 May 2026 01:13:14 GMT = 8:13 PM CDT May 26), byte-identical to the https copies already read; confirms 2026_primary END and 2026_runoff END. 2 fetches (cache).",
   "tag_rationale": "2026 primary and runoff are END by check 2, so the tag is PRECINCT_END_OF_NIGHT; both have a creation time (counted as printed run time) and an upload time on election night, so confidence is med. Rule 47 checked 2026-10-02: no change.",
   "agent": "research-5",
   "method_version": "v2",
@@ -67,6 +67,20 @@
       "content_hash": "a0e996849b4e3039a7f5b5e16ec043bb2ee3b9357dff8b7bd3acf9f3b81553b1",
       "quote": "Precinct by Precinct Results Report May 26, 2026 UNOFFICIAL RESULTS Lynn County",
       "supports": "2026_runoff precinct numbers on election night"
+    },
+    {
+      "url": "http://www.co.lynn.tx.us/upload/page/0086/20260303223813.pdf",
+      "via": "fetch_module",
+      "content_hash": "1269e3d52dcb9f5d293db930a5928a8666a65f75f8da118270cbb72904a2f807",
+      "quote": "HTTP 200 over http as linked, Last-Modified Wed, 04 Mar 2026 03:41:48 GMT; byte-identical to the https copy",
+      "supports": "confirms 2026_primary END (precinct report uploaded 9:41 PM CST election night); earlier http 403 (research-5) was the sandbox block"
+    },
+    {
+      "url": "http://www.co.lynn.tx.us/upload/page/0086/20260526201006.pdf",
+      "via": "fetch_module",
+      "content_hash": "a0e996849b4e3039a7f5b5e16ec043bb2ee3b9357dff8b7bd3acf9f3b81553b1",
+      "quote": "HTTP 200 over http as linked, Last-Modified Wed, 27 May 2026 01:13:14 GMT; byte-identical to the https copy",
+      "supports": "confirms 2026_runoff END (precinct report uploaded 8:13 PM CDT election night); earlier http 403 (research-5) was the sandbox block"
     }
   ]
 }
