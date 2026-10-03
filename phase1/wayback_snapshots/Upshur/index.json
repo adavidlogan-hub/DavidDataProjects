@@ -3,7 +3,7 @@
   "targets": [
     "countyofupshur.com"
   ],
-  "harvested_at_utc": "2026-10-02T21:52:02Z",
+  "harvested_at_utc": "2026-10-03T08:39:06Z",
   "windows": {
     "2024_general": {
       "cdx": [
@@ -35,7 +35,7 @@
           "length": "226211",
           "replay_url": "https://web.archive.org/web/20260304062909id_/https://www.countyofupshur.com/page/open/1413/0/March%203%202026%20Democratic%20Party%20Cumulative%20Unofficial.pdf",
           "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
+          "error": "URLError: timed out",
           "content_hash": null
         },
         {
