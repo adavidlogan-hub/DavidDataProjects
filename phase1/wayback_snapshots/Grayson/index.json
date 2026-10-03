@@ -3,18 +3,44 @@
   "targets": [
     "co.grayson.tx.us"
   ],
-  "harvested_at_utc": "2026-10-02T22:02:04Z",
+  "harvested_at_utc": "2026-10-03T08:54:35Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=co.grayson.tx.us&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "532522e481b8a63a934a05e8c3264b6dc59ffde363b2f1d212dfa9e7d82ccc47"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106045445",
+          "local": "2024-11-05 22:54:45 CST",
+          "original": "https://www.co.grayson.tx.us/upload/page/0060/docs/Election%20Day%20General%20November%205%202024%20.pdf",
+          "mimetype": "application/pdf",
+          "digest": "PGITW4HE67A5MXGZ5DAWIZHFA6HKTX47",
+          "length": "64479",
+          "replay_url": "https://web.archive.org/web/20241106045445id_/https://www.co.grayson.tx.us/upload/page/0060/docs/Election%20Day%20General%20November%205%202024%20.pdf",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106074851",
+          "local": "2024-11-06 01:48:51 CST",
+          "original": "https://www.co.grayson.tx.us/upload/page/0060/docs/General%20November%205%202024%20Election.pdf",
+          "mimetype": "application/pdf",
+          "digest": "VOLDUPULEFCAFTMRQVS5FIW3BRF2AUQO",
+          "length": "63475",
+          "replay_url": "https://web.archive.org/web/20241106074851id_/https://www.co.grayson.tx.us/upload/page/0060/docs/General%20November%205%202024%20Election.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "3ddef87059d3be18b05d087dd0f61ed03067da3b7eaaed8029617b26cdc0b76e",
+          "saved_as": "Grayson/2024_general_20241106074851_3ddef87059d3.pdf"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
@@ -39,5 +65,5 @@
       "captures": []
     }
   },
-  "replays_fetched": 0
+  "replays_fetched": 2
 }

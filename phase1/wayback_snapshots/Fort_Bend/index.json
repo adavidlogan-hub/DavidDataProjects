@@ -3,29 +3,523 @@
   "targets": [
     "fortbendcountytx.gov"
   ],
-  "harvested_at_utc": "2026-10-02T22:00:04Z",
+  "harvested_at_utc": "2026-10-03T08:44:35Z",
   "windows": {
     "2024_general": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=fortbendcountytx.gov&matchType=domain&from=20241106010000&to=20241106090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "URLError: [Errno 111] Connection refused",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "928e9e234eb7d11f143f94b9819163abdcf9e1266cad177bcb120605544aa5ab"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20241106010405",
+          "local": "2024-11-05 19:04:05 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242087-25.pdf",
+          "mimetype": "application/pdf",
+          "digest": "AB525PWELORGIDH3NMQHH5AQJO7YF3B6",
+          "length": "151112",
+          "replay_url": "https://web.archive.org/web/20241106010405id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242087-25.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "03af1914658dd3c59413c833c0e0ef84089e660234a01fc4265c9fa12d922452",
+          "saved_as": "Fort_Bend/2024_general_20241106010405_03af1914658d.pdf"
+        },
+        {
+          "timestamp_utc": "20241106010725",
+          "local": "2024-11-05 19:07:25 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243102-51.pdf",
+          "mimetype": "application/pdf",
+          "digest": "HKWAXI4NTFD3Q4D4EHOCF3RT5NNTWNO5",
+          "length": "149865",
+          "replay_url": "https://web.archive.org/web/20241106010725id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243102-51.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "785c60aa6b7a2db95146fa89f6daaf0f6cb079cdb645f5b345444989fa0a52e5",
+          "saved_as": "Fort_Bend/2024_general_20241106010725_785c60aa6b7a.pdf"
+        },
+        {
+          "timestamp_utc": "20241106010859",
+          "local": "2024-11-05 19:08:59 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241005-2.pdf",
+          "mimetype": "application/pdf",
+          "digest": "K6GS3HRWX2REVOY67T4IGEVSUXI6YFSI",
+          "length": "119775",
+          "replay_url": "https://web.archive.org/web/20241106010859id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241005-2.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "8b82b60bcdf60fe329d58995111ebad9538352b79742be7b9304111f6a4783d8",
+          "saved_as": "Fort_Bend/2024_general_20241106010859_8b82b60bcdf6.pdf"
+        },
+        {
+          "timestamp_utc": "20241106010947",
+          "local": "2024-11-05 19:09:47 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242108-27.pdf",
+          "mimetype": "application/pdf",
+          "digest": "272FEREU7XH7H3DCUKVJ42MFWFZWHHEC",
+          "length": "192073",
+          "replay_url": "https://web.archive.org/web/20241106010947id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242108-27.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "cbf173003933fb1d34e2576b010221249a464f08f2e67b7dc78c597ee97585d2",
+          "saved_as": "Fort_Bend/2024_general_20241106010947_cbf173003933.pdf"
+        },
+        {
+          "timestamp_utc": "20241106011738",
+          "local": "2024-11-05 19:17:38 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243121-36.pdf",
+          "mimetype": "application/pdf",
+          "digest": "GF3PUTULGK5OMUSHXJSCWAN77XULOTHO",
+          "length": "150053",
+          "replay_url": "https://web.archive.org/web/20241106011738id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243121-36.pdf",
+          "ok": false,
+          "error": "URLError: timed out",
+          "content_hash": null
+        },
+        {
+          "timestamp_utc": "20241106012606",
+          "local": "2024-11-05 19:26:06 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244002-58.pdf",
+          "mimetype": "application/pdf",
+          "digest": "B332X54JCEM3HMM62ETPZVNVMPSQJTPT",
+          "length": "121254",
+          "replay_url": "https://web.archive.org/web/20241106012606id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244002-58.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "39c26b147cb0cd0cbcd49b84fa7b295765660b48ca342a3ab0d5435ac01e560d",
+          "saved_as": "Fort_Bend/2024_general_20241106012606_39c26b147cb0.pdf"
+        },
+        {
+          "timestamp_utc": "20241106012719",
+          "local": "2024-11-05 19:27:19 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243078-42.pdf",
+          "mimetype": "application/pdf",
+          "digest": "IPFPANPZBJOD4TPXECZ47D7HNBXFIVYY",
+          "length": "119727",
+          "replay_url": "https://web.archive.org/web/20241106012719id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243078-42.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "27fa2c5e55456688109407928d5776bc53605fc36e3e71ece5a0119d888a08fd",
+          "saved_as": "Fort_Bend/2024_general_20241106012719_27fa2c5e5545.pdf"
+        },
+        {
+          "timestamp_utc": "20241106013100",
+          "local": "2024-11-05 19:31:00 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244162-60.pdf",
+          "mimetype": "application/pdf",
+          "digest": "B7J6FIGGIDGXJBDFSICKAPIU3XU3HRKZ",
+          "length": "121342",
+          "replay_url": "https://web.archive.org/web/20241106013100id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244162-60.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "528432c88c7ff70040ced184e9c9b0af3b0f3d7f5758f0ac5b7114e7410b4e2c",
+          "saved_as": "Fort_Bend/2024_general_20241106013100_528432c88c7f.pdf"
+        },
+        {
+          "timestamp_utc": "20241106013501",
+          "local": "2024-11-05 19:35:01 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242088-8.pdf",
+          "mimetype": "application/pdf",
+          "digest": "QDVHXO47YXVR4DM4522WCMBO4WOWXDGY",
+          "length": "119770",
+          "replay_url": "https://web.archive.org/web/20241106013501id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242088-8.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "fba13c026b1d7f9a53dcfffc5253f7b186819c605c319076b9aafa93f2193c5d",
+          "saved_as": "Fort_Bend/2024_general_20241106013501_fba13c026b1d.pdf"
+        },
+        {
+          "timestamp_utc": "20241106013548",
+          "local": "2024-11-05 19:35:48 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243102-52.pdf",
+          "mimetype": "application/pdf",
+          "digest": "X5D5TYJCVHCP7EZHIN64UAI6443OJTFP",
+          "length": "119654",
+          "replay_url": "https://web.archive.org/web/20241106013548id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243102-52.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "71b1a3698d70cfcf6c901af752d1791bd99cd796e0273950393c21dfdcd88548",
+          "saved_as": "Fort_Bend/2024_general_20241106013548_71b1a3698d70.pdf"
+        },
+        {
+          "timestamp_utc": "20241106014046",
+          "local": "2024-11-05 19:40:46 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244100-62.pdf",
+          "mimetype": "application/pdf",
+          "digest": "4D5KYBBOFAL5Y3SSTFIECWR3B4G2GDFM",
+          "length": "120367",
+          "replay_url": "https://web.archive.org/web/20241106014046id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244100-62.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "ca6503c40b2c9d2be24e387ad121eb5d13e5a1dc107edf8d6ffeb823bd56b9b6",
+          "saved_as": "Fort_Bend/2024_general_20241106014046_ca6503c40b2c.pdf"
+        },
+        {
+          "timestamp_utc": "20241106014450",
+          "local": "2024-11-05 19:44:50 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242028-16.pdf",
+          "mimetype": "application/pdf",
+          "digest": "C52SMCTHMVJABLI37SDCHINDKPNYU5ZR",
+          "length": "187372",
+          "replay_url": "https://web.archive.org/web/20241106014450id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242028-16.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "b7ff86583a9aa3bd290afe3c623b07def3e8a8765967eeda42f59ddca3a56336",
+          "saved_as": "Fort_Bend/2024_general_20241106014450_b7ff86583a9a.pdf"
+        },
+        {
+          "timestamp_utc": "20241106014557",
+          "local": "2024-11-05 19:45:57 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242161-15.pdf",
+          "mimetype": "application/pdf",
+          "digest": "5ZPJH3W6KRLBBKEQ6NYHAVXL5LWJRH2G",
+          "length": "120896",
+          "replay_url": "https://web.archive.org/web/20241106014557id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242161-15.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "46da893c8c0d44a6a606017f82f6e57d0ed7d49e93483e5b61ecfd6a3990e607",
+          "saved_as": "Fort_Bend/2024_general_20241106014557_46da893c8c0d.pdf"
+        },
+        {
+          "timestamp_utc": "20241106014733",
+          "local": "2024-11-05 19:47:33 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242077-21.pdf",
+          "mimetype": "application/pdf",
+          "digest": "TF4K7HENHEE5I6DRK67C4NPD2I4N6QW2",
+          "length": "188181",
+          "replay_url": "https://web.archive.org/web/20241106014733id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242077-21.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "752fd7de73550f0bdb64fe08182d2ac7087cf7da684e10dbd195fe562318c8de",
+          "saved_as": "Fort_Bend/2024_general_20241106014733_752fd7de7355.pdf"
+        },
+        {
+          "timestamp_utc": "20241106014805",
+          "local": "2024-11-05 19:48:05 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241014-1.pdf",
+          "mimetype": "application/pdf",
+          "digest": "JFN43QDKSZMBIUZLBMQHYPHYTDJRHZL4",
+          "length": "120527",
+          "replay_url": "https://web.archive.org/web/20241106014805id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241014-1.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "267ce587fa76956e36dada05114e65e7f8d587885b301409279af425337c4f04",
+          "saved_as": "Fort_Bend/2024_general_20241106014805_267ce587fa76.pdf"
+        },
+        {
+          "timestamp_utc": "20241106014837",
+          "local": "2024-11-05 19:48:37 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244117-65.pdf",
+          "mimetype": "application/pdf",
+          "digest": "XAT5VIQNBWKMXKMM2LG5DMW3FDIVPIGX",
+          "length": "120354",
+          "replay_url": "https://web.archive.org/web/20241106014837id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244117-65.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "4feb193074284d77c307ba06d2a92a78e6ef3d32273234469c4b312b8f5f3738",
+          "saved_as": "Fort_Bend/2024_general_20241106014837_4feb19307428.pdf"
+        },
+        {
+          "timestamp_utc": "20241106015142",
+          "local": "2024-11-05 19:51:42 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242108-19.pdf",
+          "mimetype": "application/pdf",
+          "digest": "ZCM5L6F3IPZSXW52Z5TLUSJHHTVIIHRX",
+          "length": "186910",
+          "replay_url": "https://web.archive.org/web/20241106015142id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242108-19.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "caa4344ea21c9ebde0c98626e1d7f72b19f04ce09515c67defc9e99665d964fa",
+          "saved_as": "Fort_Bend/2024_general_20241106015142_caa4344ea21c.pdf"
+        },
+        {
+          "timestamp_utc": "20241106015304",
+          "local": "2024-11-05 19:53:04 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242059-20.pdf",
+          "mimetype": "application/pdf",
+          "digest": "LCQ26YLVPVYBRX6UVZAWDDF5TC3QURUT",
+          "length": "187038",
+          "replay_url": "https://web.archive.org/web/20241106015304id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242059-20.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "0f6c350e32a95eeff6d9279ff5614d3a68aa5321559d88f6687c8982a02c0921",
+          "saved_as": "Fort_Bend/2024_general_20241106015304_0f6c350e32a9.pdf"
+        },
+        {
+          "timestamp_utc": "20241106020317",
+          "local": "2024-11-05 20:03:17 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242090-16.pdf",
+          "mimetype": "application/pdf",
+          "digest": "L27T4MYCZUQ4LA7HEIUHGATAVSEUHCSM",
+          "length": "187355",
+          "replay_url": "https://web.archive.org/web/20241106020317id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242090-16.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "286b23908c7ce5c806c2aab9c7424cd9bdc47926b43ee7ba45729575294069bf",
+          "saved_as": "Fort_Bend/2024_general_20241106020317_286b23908c7c.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021256",
+          "local": "2024-11-05 20:12:56 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244039-63.pdf",
+          "mimetype": "application/pdf",
+          "digest": "IROY4WH75UCX23DRIKWFXJ5RLPXABRB6",
+          "length": "150483",
+          "replay_url": "https://web.archive.org/web/20241106021256id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244039-63.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "36bcf63c644078e15cad885002e1c549ec3a60829e7fd9f8a366c91d27d74ed4",
+          "saved_as": "Fort_Bend/2024_general_20241106021256_36bcf63c6440.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021306",
+          "local": "2024-11-05 20:13:06 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241054-7.pdf",
+          "mimetype": "application/pdf",
+          "digest": "EJIAQ5KFHJ3L4C54IVYDIMTGETO4A2MR",
+          "length": "134034",
+          "replay_url": "https://web.archive.org/web/20241106021306id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241054-7.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "30fecdedd3da0179928d5d6006e7434d0895ddacf36840c1cab65f96fbb03f7b",
+          "saved_as": "Fort_Bend/2024_general_20241106021306_30fecdedd3da.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021531",
+          "local": "2024-11-05 20:15:31 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242050-8.pdf",
+          "mimetype": "application/pdf",
+          "digest": "U2CY6XMGHGFJ7DWWX5O6PJJYZSADMOGO",
+          "length": "119857",
+          "replay_url": "https://web.archive.org/web/20241106021531id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242050-8.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "1a0a5862f42b42ba51b8f00ccb3d9fa0089307afd8f710f6d014b4cca741f67e",
+          "saved_as": "Fort_Bend/2024_general_20241106021531_1a0a5862f42b.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021643",
+          "local": "2024-11-05 20:16:43 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242151-20.pdf",
+          "mimetype": "application/pdf",
+          "digest": "5RJIRWDFXOFZYMISSAVVLFPDPN2RFJCD",
+          "length": "187035",
+          "replay_url": "https://web.archive.org/web/20241106021643id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242151-20.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "c40c277cc2c8605d61c07e8fee30a48920ddeed2d57dfefc37c271c90eccf499",
+          "saved_as": "Fort_Bend/2024_general_20241106021643_c40c277cc2c8.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021732",
+          "local": "2024-11-05 20:17:32 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242017-8.pdf",
+          "mimetype": "application/pdf",
+          "digest": "GBDWMKR4QXWTQBITYNK2W6NGJ33DDUKH",
+          "length": "119805",
+          "replay_url": "https://web.archive.org/web/20241106021732id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242017-8.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "a06b5aa52d8798db5f89911487ed73f547daa65b4e78b91917802327385a705f",
+          "saved_as": "Fort_Bend/2024_general_20241106021732_a06b5aa52d87.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021823",
+          "local": "2024-11-05 20:18:23 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243016-31.pdf",
+          "mimetype": "application/pdf",
+          "digest": "GUYTAT3MG6ODKIJ5K5DUBZJILZ2YUS4Z",
+          "length": "150880",
+          "replay_url": "https://web.archive.org/web/20241106021823id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243016-31.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "b1da7201dd08a01f4bb6a461c21664965a67b500a8732c96131e1b0fcb27c25f",
+          "saved_as": "Fort_Bend/2024_general_20241106021823_b1da7201dd08.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021906",
+          "local": "2024-11-05 20:19:06 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241038-5.pdf",
+          "mimetype": "application/pdf",
+          "digest": "MBLLOBKIEHELUEX5FEVZPRFZDOOBEHWN",
+          "length": "134877",
+          "replay_url": "https://web.archive.org/web/20241106021906id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241038-5.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "b649b6b1b582c3e02d1e27c9c4e61936ffe44a79de0831cccf2bdf87ee9c9ffc",
+          "saved_as": "Fort_Bend/2024_general_20241106021906_b649b6b1b582.pdf"
+        },
+        {
+          "timestamp_utc": "20241106021948",
+          "local": "2024-11-05 20:19:48 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243053-31.pdf",
+          "mimetype": "application/pdf",
+          "digest": "IT4TRE7UFX2ZZHLYWRDWS5NAJZLYYPP5",
+          "length": "151010",
+          "replay_url": "https://web.archive.org/web/20241106021948id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243053-31.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "653ea9e3b815a2e0170719a8fe4591d8d826f76075d4cf43588c04c855e469fa",
+          "saved_as": "Fort_Bend/2024_general_20241106021948_653ea9e3b815.pdf"
+        },
+        {
+          "timestamp_utc": "20241106022146",
+          "local": "2024-11-05 20:21:46 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241008-2.pdf",
+          "mimetype": "application/pdf",
+          "digest": "CDXL3EPBCPT5T2XTBUWUOQ7EEAPBZMIV",
+          "length": "119749",
+          "replay_url": "https://web.archive.org/web/20241106022146id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241008-2.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "3fc59a4b722cd5d73be26472ac4a667a4daa4c712fdaa6da5af88e2e8aab60f8",
+          "saved_as": "Fort_Bend/2024_general_20241106022146_3fc59a4b722c.pdf"
+        },
+        {
+          "timestamp_utc": "20241106022623",
+          "local": "2024-11-05 20:26:23 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244099-62.pdf",
+          "mimetype": "application/pdf",
+          "digest": "YFKXO72A2FTAUL23RACZGNPQPDQAXBG7",
+          "length": "120340",
+          "replay_url": "https://web.archive.org/web/20241106022623id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244099-62.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "3210fb07b911459aae33711d17ddc2153a23c43fc486db3afddc4f2f5a345778",
+          "saved_as": "Fort_Bend/2024_general_20241106022623_3210fb07b911.pdf"
+        },
+        {
+          "timestamp_utc": "20241106023154",
+          "local": "2024-11-05 20:31:54 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243098-36.pdf",
+          "mimetype": "application/pdf",
+          "digest": "XWW3JFTRHS6JEYRIJQDDNRYIZ6T7H3MB",
+          "length": "150050",
+          "replay_url": "https://web.archive.org/web/20241106023154id_/http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243098-36.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "01f78fa22be1b774b1b05f2dcc163d6e4db1f4803a8b70692d5b6ac3d4c9c850",
+          "saved_as": "Fort_Bend/2024_general_20241106023154_01f78fa22be1.pdf"
+        },
+        {
+          "timestamp_utc": "20241106023232",
+          "local": "2024-11-05 20:32:32 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243064-44.pdf",
+          "mimetype": "application/pdf",
+          "digest": "Q2NKW6IMHMWEPJROQRK5ZMGWLA6ZIOIK",
+          "length": "189180",
+          "skipped": "per-window cap reached"
+        },
+        {
+          "timestamp_utc": "20241106023427",
+          "local": "2024-11-05 20:34:27 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244113-62.pdf",
+          "mimetype": "application/pdf",
+          "digest": "QINGA6R4ZXZTR7O2DGI4KC2W6BE4GDOZ",
+          "length": "120355",
+          "skipped": "per-window cap reached"
+        },
+        {
+          "timestamp_utc": "20241106023541",
+          "local": "2024-11-05 20:35:41 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11244073-57.pdf",
+          "mimetype": "application/pdf",
+          "digest": "W54E6ZZKN5OL3XXW6OHHLVSHB3VGRT56",
+          "length": "120549",
+          "skipped": "per-window cap reached"
+        },
+        {
+          "timestamp_utc": "20241106023617",
+          "local": "2024-11-05 20:36:17 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241143-1.pdf",
+          "mimetype": "application/pdf",
+          "digest": "YLB6IJNBB273XNNFZXXV6RPOW5UHAWQN",
+          "length": "120563",
+          "skipped": "per-window cap reached"
+        },
+        {
+          "timestamp_utc": "20241106023809",
+          "local": "2024-11-05 20:38:09 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11241145-1.pdf",
+          "mimetype": "application/pdf",
+          "digest": "ZVZNNB6ASJF4XYU7PCEFRR6H4SOQNSZF",
+          "length": "120533",
+          "skipped": "per-window cap reached"
+        },
+        {
+          "timestamp_utc": "20241106024155",
+          "local": "2024-11-05 20:41:55 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243125-39.pdf",
+          "mimetype": "application/pdf",
+          "digest": "K5VOARG7IHN7KUFJLMVIOB6YQF4LOG2P",
+          "length": "119825",
+          "skipped": "per-window cap reached"
+        },
+        {
+          "timestamp_utc": "20241106024231",
+          "local": "2024-11-05 20:42:31 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243064-30.pdf",
+          "mimetype": "application/pdf",
+          "digest": "GKOX4JK7DWD3722AGA3XFYGL4UJNNKPA",
+          "length": "150986",
+          "skipped": "per-window cap reached"
+        },
+        {
+          "timestamp_utc": "20241106024346",
+          "local": "2024-11-05 20:43:46 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242109-28.pdf",
+          "mimetype": "application/pdf",
+          "digest": "WX2VK6DNL32EAQVZZC24HTSP5GPRRJX5",
+          "length": "188224",
+          "skipped": "per-window cap reached"
+        },
+        {
+          "timestamp_utc": "20241106024459",
+          "local": "2024-11-05 20:44:59 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11243020-33.pdf",
+          "mimetype": "application/pdf",
+          "digest": "YPJQH2VN22L3K2PTKV6TPLPNOV6A5D3G",
+          "length": "152607",
+          "skipped": "per-window cap reached"
+        },
+        {
+          "timestamp_utc": "20241106024535",
+          "local": "2024-11-05 20:45:35 CST",
+          "original": "http://sampleballots.fortbendcountytx.gov/Presidential-Election/11242050-20.pdf",
+          "mimetype": "application/pdf",
+          "digest": "JRP4E7LX53G3AOPK2CEUJBFL6X24DVFW",
+          "length": "186999",
+          "skipped": "per-window cap reached"
+        }
+      ]
     },
     "2026_primary": {
       "cdx": [
         {
           "url": "https://web.archive.org/cdx/search/cdx?url=fortbendcountytx.gov&matchType=domain&from=20260304010000&to=20260304090000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&filter=original:%28%3Fi%29.%2A%28election%7Cresult%7Cprecinct%7Ccanvass%7Ccumulative%29.%2A&collapse=digest&limit=5000",
-          "ok": false,
-          "error": "TimeoutError: The read operation timed out",
-          "content_hash": null
+          "ok": true,
+          "error": null,
+          "content_hash": "ffc97c05110d38e94edcfe9e156e572b4f3f0c2c434e6321eca9bf48c1424810"
         }
       ],
-      "captures": []
+      "captures": [
+        {
+          "timestamp_utc": "20260304031331",
+          "local": "2026-03-03 21:13:31 CST",
+          "original": "https://sampleballots.fortbendcountytx.gov/index.php?curr_folder=%2FPrecinct-Maps",
+          "mimetype": "text/html",
+          "digest": "HKHSAH6JD5BTGNWX34MCINK6V6E54UIG",
+          "length": "4049",
+          "replay_url": "https://web.archive.org/web/20260304031331id_/https://sampleballots.fortbendcountytx.gov/index.php?curr_folder=%2FPrecinct-Maps",
+          "ok": true,
+          "error": null,
+          "content_hash": "a68857cb038b5bcfc8a32ecee62e1491b97cfbdcc6193892b1c5f183108b636c",
+          "saved_as": "Fort_Bend/2026_primary_20260304031331_a68857cb038b.html"
+        }
+      ]
     },
     "2026_runoff": {
       "cdx": [
@@ -105,5 +599,5 @@
       ]
     }
   },
-  "replays_fetched": 5
+  "replays_fetched": 36
 }
