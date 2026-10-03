@@ -1,65 +1,65 @@
 {
-  "county": "Concho",
-  "tag": "UNKNOWN",
-  "confidence": "low",
-  "elections_office_phone": "",
-  "elections_office_email": "",
-  "results_url": "https://www.co.concho.tx.us/page/concho.Elections",
-  "platform": "unknown",
-  "host": "www.co.concho.tx.us",
-  "evidence_url": "",
-  "evidence_snapshot_timestamp": "",
-  "precinct_first_seen_local_time": "",
-  "stated_change_2026": "n",
-  "stated_change_source": "",
-  "usage_notice_text": "",
-  "notes": "Seed http://www.co.concho.tx.us/default.aspx?Concho_County/Elections replaced by https://www.co.concho.tx.us/page/concho.Elections. No Clarity or vendor link, and no results files for 2024 or 2026 on the Elections or County Clerk pages. Because the page holds only current-cycle items, NONE cannot be inferred. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-L): No change. The Elections page holds only November 3, 2026 items; the wayback harvest for co.concho.tx.us recorded robots_disallowed_or_unreachable with no captures for all three windows. Wayback (web.archive.org) was unreachable from the fetch module throughout this pass (robots.txt request reset: 'Connection reset by peer'), so no new archive lookups were possible; sweep not expected for this county.",
-  "tag_rationale": "No election could be determined from checks 1 and 2, so the tag is UNKNOWN.",
-  "agent": "research-2",
-  "method_version": "v2",
-  "elections": {
-    "2024_general": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "The Elections page currently lists only November 3, 2026 election notices and orders plus sample ballots; no results files for any past election are posted, and the page appears to be cleared each cycle, so absence does not show what was posted. Check 3 pending."
-    },
-    "2026_primary": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "The Elections page currently lists only November 3, 2026 election notices and orders plus sample ballots; no results files for any past election are posted, and the page appears to be cleared each cycle, so absence does not show what was posted. Check 3 pending."
-    },
-    "2026_runoff": {
-      "result": "UNDETERMINED",
-      "check": "none",
-      "county_totals_first_seen": "",
-      "precinct_first_seen": "",
-      "night_updates_with_precinct_numbers": "",
-      "evidence_url": "",
-      "fact": "The Elections page currently lists only November 3, 2026 election notices and orders plus sample ballots; no results files for any past election are posted, and the page appears to be cleared each cycle, so absence does not show what was posted. Check 3 pending."
-    }
+ "county": "Concho",
+ "tag": "UNKNOWN",
+ "confidence": "low",
+ "elections_office_phone": "",
+ "elections_office_email": "",
+ "results_url": "https://www.co.concho.tx.us/page/concho.Elections",
+ "platform": "unknown",
+ "host": "www.co.concho.tx.us",
+ "evidence_url": "",
+ "evidence_snapshot_timestamp": "",
+ "precinct_first_seen_local_time": "",
+ "stated_change_2026": "n",
+ "stated_change_source": "",
+ "usage_notice_text": "",
+ "notes": "Seed http://www.co.concho.tx.us/default.aspx?Concho_County/Elections replaced by https://www.co.concho.tx.us/page/concho.Elections. No Clarity or vendor link, and no results files for 2024 or 2026 on the Elections or County Clerk pages. Because the page holds only current-cycle items, NONE cannot be inferred. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-L): No change. The Elections page holds only November 3, 2026 items; the wayback harvest for co.concho.tx.us recorded robots_disallowed_or_unreachable with no captures for all three windows. Wayback (web.archive.org) was unreachable from the fetch module throughout this pass (robots.txt request reset: 'Connection reset by peer'), so no new archive lookups were possible; sweep not expected for this county. Check 3 after full harvest 2026-10-03 (check3-H1, recorded by orchestrator): a new capture 20241106083249 (2:32 AM CST Nov 6) of co.concho.tx.us/page/concho.Elections lists only the Nov 5 2024 order of election, test notice, polling places and sample ballots; no results file or link. Missing results alone cannot give LATER or NONE, so 2024_general stays UNDETERMINED.",
+ "tag_rationale": "No election could be determined from checks 1 and 2, so the tag is UNKNOWN.",
+ "agent": "research-2",
+ "method_version": "v2",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "The Elections page currently lists only November 3, 2026 election notices and orders plus sample ballots; no results files for any past election are posted, and the page appears to be cleared each cycle, so absence does not show what was posted. Check 3 pending."
   },
-  "sources": [
-    {
-      "url": "https://www.co.concho.tx.us/page/concho.Elections",
-      "via": "fetch_module",
-      "content_hash": "84fe27928a3972f5c2540df4c4e85e0675179ce93d8ed324bf84f5fce961bfe7",
-      "quote": "11.3.26.ORDER.GENERAL.ELECTION.pdf; 11.3.2026.NOTICE OF GENERAL ELECTION.pdf; Precinct 101 ... Precinct 408 (sample ballots)",
-      "supports": "Elections page holds only current-cycle notices"
-    },
-    {
-      "url": "https://www.co.concho.tx.us/page/concho.County.Clerk",
-      "via": "fetch_module",
-      "content_hash": "9686048d785d4527cdb944328fd4d622ae8f7767e1512e22bff3424809646a30",
-      "quote": "Voter Registration Information",
-      "supports": "County Clerk page has no results links"
-    }
-  ]
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "The Elections page currently lists only November 3, 2026 election notices and orders plus sample ballots; no results files for any past election are posted, and the page appears to be cleared each cycle, so absence does not show what was posted. Check 3 pending."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "county_totals_first_seen": "",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "",
+   "evidence_url": "",
+   "fact": "The Elections page currently lists only November 3, 2026 election notices and orders plus sample ballots; no results files for any past election are posted, and the page appears to be cleared each cycle, so absence does not show what was posted. Check 3 pending."
+  }
+ },
+ "sources": [
+  {
+   "url": "https://www.co.concho.tx.us/page/concho.Elections",
+   "via": "fetch_module",
+   "content_hash": "84fe27928a3972f5c2540df4c4e85e0675179ce93d8ed324bf84f5fce961bfe7",
+   "quote": "11.3.26.ORDER.GENERAL.ELECTION.pdf; 11.3.2026.NOTICE OF GENERAL ELECTION.pdf; Precinct 101 ... Precinct 408 (sample ballots)",
+   "supports": "Elections page holds only current-cycle notices"
+  },
+  {
+   "url": "https://www.co.concho.tx.us/page/concho.County.Clerk",
+   "via": "fetch_module",
+   "content_hash": "9686048d785d4527cdb944328fd4d622ae8f7767e1512e22bff3424809646a30",
+   "quote": "Voter Registration Information",
+   "supports": "County Clerk page has no results links"
+  }
+ ]
 }
