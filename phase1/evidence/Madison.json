@@ -1,0 +1,65 @@
+{
+  "county": "Madison",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.madison.tx.us/page/madison.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.madison.tx.us",
+  "evidence_url": "https://www.co.madison.tx.us/upload/page/0407/unofficial%20results%20March%203%202026.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL loads; Elections page lists results PDFs. No Clarity site (elections.json 404). The 2026 primary unofficial file is a scanned county cumulative report posted on election night; no precinct reports are listed for any election. No results for the 2024 general (official reconciliation only) or the 2026 runoff are listed; check 3 pending for those.",
+  "tag_rationale": "Only the 2026 primary is determined (LATER by check 2), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; for Nov 5 2024 the Elections page lists only an official reconciliation report, no results"
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:49 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.madison.tx.us/upload/page/0407/unofficial%20results%20March%203%202026.pdf",
+      "fact": "'unofficial results March 3 2026.pdf' (scanned, 19 pages, read visually): 'Cumulative Results Report ... Election Night ... MADISON COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 ... Unofficial Results'; county totals by Absentee / Early / Election Day. PDF CreationDate Wed Mar 4 03:48:09 2026 UTC; Last-Modified Wed, 04 Mar 2026 03:49:25 GMT (9:49 PM CST). Other primary files: unofficial and official reconciliation, official cumulative, canvass; no precinct report listed, so precinct numbers are not published online."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; no May 26, 2026 runoff results listed on the Elections page"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.madison.tx.us/page/madison.Elections",
+      "via": "fetch_module",
+      "content_hash": "8e4edaed99c3c7482af017c7bc925e70d1090c3506ee36dc7bb454f10e7f5bf5",
+      "quote": "March 3 2026 official Cumulative.pdf | unofficial results March 3 2026.pdf | March 3 2026 unofficial reconcilliation.pdf | nov 5 2024 official reconcilliation report.pdf",
+      "supports": "report lists; no runoff results; no 2024 results"
+    },
+    {
+      "url": "https://www.co.madison.tx.us/upload/page/0407/unofficial%20results%20March%203%202026.pdf",
+      "via": "fetch_module",
+      "content_hash": "efde2cdafcb11a44d158f7956dfde17526c36c66c4b9b892124b2337ea511432",
+      "quote": "Cumulative Results Report ... Election Night ... PRIMARY ELECTION 3/3/2026 ... Unofficial Results",
+      "supports": "2026_primary county totals only on election night"
+    }
+  ]
+}

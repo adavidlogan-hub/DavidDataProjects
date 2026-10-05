@@ -1,0 +1,79 @@
+{
+  "county": "Mills",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.millscountytx.gov/page/Elections.2025-2026",
+  "platform": "county_pdfs",
+  "host": "www.millscountytx.gov",
+  "evidence_url": "https://www.millscountytx.gov/upload/page/0085/26%20PRIMARY%20DEM%20AND%20REPUBLICAN%20UNOFFICIAL%20RESULTS.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.co.mills.tx.us/ returned HTTP 403; https www.co.mills.tx.us redirects to www.millscountytx.gov. No Clarity site (elections.json 404). The 'Election Results and Notices' page (Elections.2025-2026) lists for the 2026 primary a scanned 'DEMOCRAT AND REPUBLICAN PRIMARY ELECTION UNOFFICIAL RESULTS' (Cumulative Results Report, county totals by Absentee / Early / Election Day / Provisional, Run Time 8:34 PM Run Date 03/03/2026, scan created 9:29 PM CST, Last-Modified Wed, 04 Mar 2026 03:35:41 GMT = 9:35 PM CST Mar 3) plus SOS 'Election Unofficial Results Report' PDFs and reconciliation and audit documents. The Elections.Home page lists for the runoff a scanned 'JOINT PRIMARY RUNOFF UNOFFICIAL RESULTS' (Cumulative Results Report, county totals, Run Date 05/26/2026, run time read as about 8:2x PM, scan created 9:02 PM CDT May 26, Last-Modified Thu, 28 May 2026 19:39:57 GMT). Neither page lists any precinct-level report for these elections. One http link (26 PRIMARY ... UNOFFICIAL RESULTS.pdf over http) returned HTTP 403; the same file over https returned 200. The 2024 general is not listed on the current pages. Confidence is low because the runoff file's upload time is after election night (only the primary has both printed and upload time on election night). Check 3 pending for 2024 general: origin/wayback-data not present. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 21:02 CT.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results listed on the current Elections pages. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:35 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.millscountytx.gov/upload/page/0085/26%20PRIMARY%20DEM%20AND%20REPUBLICAN%20UNOFFICIAL%20RESULTS.pdf",
+      "fact": "'Cumulative Results Report ... MILLS COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 ... Unofficial Results', Run Time 8:34 PM, county totals by Absentee Voting / Early Voting / Election Day Voting / Provisional Voting, 28 pages, no precinct rows; CreationDate Mar 4 2026 03:29 UTC; Last-Modified Wed, 04 Mar 2026 03:35:41 GMT. No precinct report is listed; precinct numbers never published online on the county page."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:02 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.millscountytx.gov/upload/page/0125/2026%20Elections/JOINT%20PRIMARY%20UNOFFICIAL%20RESULTS%205.26.26.pdf",
+      "fact": "'Cumulative Results Report ... PRIMARY RUNOFF ELECTION 5/26/2026 ... Unofficial Results', Run Date 05/26/2026, county totals with Election Day Voting column, 2 pages, no precinct rows; CreationDate May 27 2026 02:02 UTC (9:02 PM CDT May 26); Last-Modified Thu, 28 May 2026 19:39:57 GMT. No precinct report listed; precinct numbers never published online on the county page. Rule 43: election-night county-totals file is JOINT PRIMARY UNOFFICIAL RESULTS 5.26.26.pdf, scan CreationDate Wed May 27 02:02:28 2026 UTC (9:02 PM CDT May 26) of a report with Run Date 05/26/2026."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.millscountytx.gov/page/Elections.2025-2026",
+      "via": "fetch_module",
+      "quote": "DEMOCRAT AND REPUBLICAN PRIMARY ELECTION UNOFFICIAL RESULTS / RESULTADOS NO OFICIALES DE LAS ELECCTIONES PRIMARIAS",
+      "supports": "2026 primary report list",
+      "content_hash": "771502c0e0b7411ea130d383adbc27bc1ddf393d07c696b97d440b9712c1c880"
+    },
+    {
+      "url": "https://www.millscountytx.gov/upload/page/0085/26%20PRIMARY%20DEM%20AND%20REPUBLICAN%20UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report ... Run Time 8:34 PM Run Date 03/03/2026",
+      "supports": "2026_primary LATER, county totals on election night",
+      "content_hash": "f2bff734dd542e567cd02921ad28673a2a2906f2170ce1a63576e3882cffda8a"
+    },
+    {
+      "url": "https://www.millscountytx.gov/page/Elections.Home",
+      "via": "fetch_module",
+      "quote": "JOINT PRIMARY RUNOFF UNOFFICIAL RESULTS / RESULTADOS NO OFICIALES DE LA ELECCION PRIMARIA CONJUNTA 5.26.26",
+      "supports": "2026 runoff report list",
+      "content_hash": "dadd9be0b5ed7da076ba44eca9819ed28b399dbc6faf4ac82c8095e0d83556f4"
+    },
+    {
+      "url": "https://www.millscountytx.gov/upload/page/0125/2026 Elections/JOINT PRIMARY UNOFFICIAL RESULTS 5.26.26.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report ... PRIMARY RUNOFF ELECTION 5/26/2026",
+      "supports": "2026_runoff LATER, county totals only",
+      "content_hash": "3c7384eea72baa1057e97d1155ab9aaff91dde07d275d5052960ca5fc565534c"
+    }
+  ]
+}

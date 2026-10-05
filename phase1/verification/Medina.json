@@ -1,0 +1,114 @@
+{
+ "county": "Medina",
+ "reason_selected": "tag changed in targeted pass 4",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections 2024-2025 page links \"Official Cumulative Results 11.18.24.pdf\" (Run Date 11/18/2024, Last-Modified 18 Nov 2024), \"Official Pct Results 11.5.24.pdf\" (Run Date 11/18/2024, Last-Modified 03 May 2025) and \"PRELIM ELECTION RECON UNOFFICIAL.pdf\" (SOS 12-1 ballot reconciliation scan, Last-Modified 06 Nov 2024 05:22:49 GMT = 11:22 PM CST election night). The reconciliation form reports ballot and voter counts only, no candidate votes, so it is not a county-totals results file. No election-night results file found. No Clarity site (404). Wayback CDX failed (robots/unreachable)."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "Corrected after blind pass (DECISIONS 44). The state-hosted copy of the county's old Elections page (newtools.cira.state.tx.us/page/medina.Elections) links its 'Election Results' image to /upload/page/6805/2026 March Primary/Results/ED.EV.AB UNOFFICIAL.pdf. Opened by me: 20-page Epson scan, CreationDate 2026-03-04 04:01:50 UTC, Last-Modified Wed, 04 Mar 2026 04:03:31 GMT (10:03 PM CST, election night). Page images read: 'Cumulative Results Report MEDINA COUNTY, TEXAS ... Unofficial Results ... 2026 JOINT PRIMARY ELECTION 3/3/2026 ... Run Time 9:47 PM Run Date 03/03/2026 ... Precincts Reporting 15 of 15 = 100.00%', county totals by Absentee/Early/Election Day (e.g. KEN PAXTON 43 / 2,123 / 1,124 / 3,290), page 20 ends '*** End of report ***'; no precinct numbers. The only precinct report on that page (Official Precinct Results.pdf) has Last-Modified Fri, 13 Mar 2026 16:11:41 GMT. DECISIONS 67 (i) and (ii) met."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections 2026 page links \"ED EV AB - Official.pdf\" (scan created 2026-06-23), Precinct Results Report - Official, \"Prelim Election Recon.pdf\" (12-1 ballot reconciliation, dated 5/26/26, Last-Modified 27 May 2026 03:26:35 GMT = 10:26 PM CDT election night; ballot counts only, no candidate votes). No election-night results file found."
+  }
+ },
+ "rationale": "After the DECISIONS 44 correction, only the 2026 primary is determined (LATER, check 2); one determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS at low confidence.",
+ "sources": [
+  {
+   "url": "https://www.medinacountytexas.org/page/Elections-2026",
+   "content_hash": "4d333269f118743935cb8ed7bf6e965bbb863c9420cdf45bee453449b11f84c3",
+   "what_i_checked": "2026 result links"
+  },
+  {
+   "url": "https://www.medinacountytexas.org/page/Elections-2024%20and%202025",
+   "content_hash": "f3e53ebcdaef1c3e739abd8cb63d7df8bf8ae56ce582faaa1bdb9e89bf4464c1",
+   "what_i_checked": "Nov 2024 result links"
+  },
+  {
+   "url": "https://www.medinacountytexas.org/upload/page/0101/2024 November General/Results/PRELIM ELECTION RECON UNOFFICIAL.pdf",
+   "content_hash": "50e803dd7ea126be87a6d6d248c9ee95757555d13606ee58c4c4cdc2ba6befff",
+   "what_i_checked": "ballot reconciliation only; Last-Modified 06 Nov 2024 05:22:49 GMT"
+  },
+  {
+   "url": "https://www.medinacountytexas.org/upload/page/0103/2026 May Primary Runoff/Results/Prelim Election Recon.pdf",
+   "content_hash": "e206020dd372ff9eea8ce64ae04f579aa898acc82f8bae7340bc98b1e3cb7d4a",
+   "what_i_checked": "rendered image: ballot reconciliation only, dated 5/26/26"
+  },
+  {
+   "url": "https://www.medinacountytexas.org/upload/page/0101/2024 November General/Results/Official Cumulative Results 11.18.24.pdf",
+   "content_hash": "d0bcc44ac3de509375d478f36e142e0364249b89cc37947b8285e2588872738c",
+   "what_i_checked": "official, Run Date 11/18/2024"
+  },
+  {
+   "url": "https://www.medinatx.gov/upload/page/0103/2026%20March%20Primary/Results/Official%20Cumulative%20Results.pdf",
+   "content_hash": "61951c09d0c121c27d8c68ceb3928063ccefd2e229954dabad87f58d013846e9",
+   "what_i_checked": "official, Run Date 03/13/2026"
+  },
+  {
+   "url": "websearch:site:medinatx.gov unofficial results",
+   "content_hash": "5a4d1e0efdae881768efe9c9cc8cb74eae87cc09559888b2dac6482e4847d93a",
+   "what_i_checked": "no unofficial Medina files"
+  },
+  {
+   "url": "websearch:site:medinacountytexas.org unofficial cumulative results",
+   "content_hash": "107ffbea114e843ab057b5f174f2a246bd1baf2af77c86041ab0dbd6ab0517fa",
+   "what_i_checked": "no unofficial Medina files"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/page/medina.Elections",
+   "content_hash": "23055d6c0bd6738118fab1b130826b992749a0526d1a83e8eb3573cc47a638d0",
+   "what_i_checked": "opened after blind pass: links ED.EV.AB UNOFFICIAL.pdf and official 2026 primary files"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/6805/2026 March Primary/Results/ED.EV.AB UNOFFICIAL.pdf",
+   "content_hash": "c6a4fd4bacd076662416a29a95fb951bd7d3e8f84502f432acb44e2a36e4095b",
+   "what_i_checked": "page images 1 and 20: unofficial county totals, Run Time 9:47 PM 03/03/2026; Last-Modified 04 Mar 2026 04:03:31 GMT"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/upload/page/6805/2026 March Primary/Results/Official Precinct Results.pdf",
+   "content_hash": "a91130c3fdd8f8ff8787e8b7342f346ed9f6b7d949155834da59795bff1641e6",
+   "what_i_checked": "Last-Modified 13 Mar 2026 16:11:41 GMT"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-03T00:15:00Z",
+ "blind_verdict": {
+  "verifier_tag": "UNKNOWN",
+  "verifier_confidence": "low",
+  "elections": {
+   "2024_general": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "Elections 2024-2025 page links \"Official Cumulative Results 11.18.24.pdf\" (Run Date 11/18/2024, Last-Modified 18 Nov 2024), \"Official Pct Results 11.5.24.pdf\" (Run Date 11/18/2024, Last-Modified 03 May 2025) and \"PRELIM ELECTION RECON UNOFFICIAL.pdf\" (SOS 12-1 ballot reconciliation scan, Last-Modified 06 Nov 2024 05:22:49 GMT = 11:22 PM CST election night). The reconciliation form reports ballot and voter counts only, no candidate votes, so it is not a county-totals results file. No election-night results file found. No Clarity site (404). Wayback CDX failed (robots/unreachable)."
+   },
+   "2026_primary": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "Elections 2026 page links Official Cumulative Results (Run Date 03/13/2026, Last-Modified 02 Apr 2026), Official Precinct Results, PER.pdf (reconciliation scan, CreationDate 2026-03-04 20:19 UTC), official reconciliation. No election-night results file found; site searches found none."
+   },
+   "2026_runoff": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "Elections 2026 page links \"ED EV AB - Official.pdf\" (scan created 2026-06-23), Precinct Results Report - Official, \"Prelim Election Recon.pdf\" (12-1 ballot reconciliation, dated 5/26/26, Last-Modified 27 May 2026 03:26:35 GMT = 10:26 PM CDT election night; ballot counts only, no candidate votes). No election-night results file found."
+   }
+  },
+  "rationale": "No election is determined: only official results and ballot-reconciliation forms survive; the reconciliation forms carry no candidate totals. Tag UNKNOWN, low."
+ },
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "Same (UNDETERMINED). Both treat the election-night PRELIM ELECTION RECON UNOFFICIAL.pdf (Last-Modified 06 Nov 2024 05:22:49 GMT) as a ballot reconciliation, not a results file.",
+  "2026_primary": "Different in blind pass (I had UNDETERMINED: I tried newtools page/medina.Elections-2026 and the 2024-2025 page (both 403) but not page/medina.Elections). After opening the research's file I confirm it: county totals printed 9:47 PM, uploaded 10:03 PM CST election night; only precinct report uploaded 13 Mar 2026. Corrected to LATER under DECISIONS 44; blind result kept in blind_verdict.",
+  "2026_runoff": "Same (UNDETERMINED). The runoff Prelim Election Recon.pdf (Last-Modified 27 May 2026 03:26:35 GMT) is a ballot reconciliation, not a results file; research did not rely on it either.",
+  "tag": "Blind tag UNKNOWN low; after correction COUNTY_ONLY_PRECINCT_AT_CANVASS low, matching research.",
+  "unsupported_claims": "None found. Research's search-title lead for a runoff 'Unofficial Results' listing is correctly marked as not evidence.",
+  "compared_at_utc": "2026-10-03T00:40:00Z"
+ }
+}

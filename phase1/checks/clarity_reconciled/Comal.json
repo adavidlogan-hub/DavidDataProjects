@@ -1,0 +1,154 @@
+{
+  "county": "Comal",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122856",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "349202",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/349202/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349235",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/349235/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349239",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/349239/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349242",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/349242/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349245",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/349245/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349247",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/349247/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349248",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/349248/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349256",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/349256/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "349308",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/349308/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/1/2024 3:17:01 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "349309",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/349309/reports/detailxml.zip",
+              "content_hash": "b16b480607e5ebda2066a781449dadb6ef4fd3c4ce1c789147de0f8149490c08",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:55:34 PM CST",
+              "precincts_with_votes": 44,
+              "nonzero_precinct_vote_cells": 3263,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "351144",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/351144/reports/detailxml.zip",
+              "content_hash": "da05b66839c432a7dfe7aa25cbbb766539e56f91845b11c285e1a4962a051419",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:36:10 PM CST",
+              "precincts_with_votes": 44,
+              "nonzero_precinct_vote_cells": 5151,
+              "precincts_with_election_day_votes": 42,
+              "election_day_precinct_vote_sum": 91339,
+              "version": "352165",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/352165/reports/detailxml.zip",
+              "content_hash": "7ad0792408ac930b63e41a0a00787bc909461e97f9b9719d7c029c2c4ffded15",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:52:35 PM CST",
+              "precincts_with_votes": 45,
+              "nonzero_precinct_vote_cells": 5349,
+              "precincts_with_election_day_votes": 44,
+              "election_day_precinct_vote_sum": 307818,
+              "version": "352705",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/352705/reports/detailxml.zip",
+              "content_hash": "f5b3704d9cfd8b206b633b1e02a5f3514fddf5deddb5228cc479fae4ec08dce1",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:49:14 AM CST",
+              "precincts_with_votes": 75,
+              "nonzero_precinct_vote_cells": 7396,
+              "precincts_with_election_day_votes": 44,
+              "election_day_precinct_vote_sum": 307818,
+              "version": "353090",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/353090/reports/detailxml.zip",
+              "content_hash": "76e935631d9085005e41f565252fa3a95cb4c4ffd299a073a318f955a5efbad9",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/19/2024 2:36:37 PM CST",
+              "precincts_with_votes": 75,
+              "nonzero_precinct_vote_cells": 7410,
+              "precincts_with_election_day_votes": 44,
+              "election_day_precinct_vote_sum": 308882,
+              "version": "355369",
+              "url": "https://results.enr.clarityelections.com/TX/Comal/122856/355369/reports/detailxml.zip",
+              "content_hash": "2dff03efaaaca8055153b5200e1d485909a299117add2affb8f5961ffc3abf79",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:55:34 PM CST",
+            "version": "351144",
+            "url": "https://results.enr.clarityelections.com/TX/Comal/122856/351144/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 3,
+          "election_night_distinct_election_day_precinct_releases": 2,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 9:36:10 PM CST",
+            "version": "352165",
+            "url": "https://results.enr.clarityelections.com/TX/Comal/122856/352165/reports/detailxml.zip"
+          },
+          "unreadable_versions": 9
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": false,
+      "note": "election not listed on this county's Clarity site"
+    },
+    "2026_runoff": {
+      "found": false,
+      "note": "election not listed on this county's Clarity site"
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122856"
+  }
+}

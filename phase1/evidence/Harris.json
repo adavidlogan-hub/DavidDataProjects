@@ -1,0 +1,134 @@
+{
+  "county": "Harris",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.harrisvotes.com/Election-Results/Live-Results",
+  "platform": "homegrown",
+  "host": "app.harrisvotes.com",
+  "evidence_url": "https://web.archive.org/web/20260304020130id_/https://app.harrisvotes.com/ElectionResults/RepublicanPrimary",
+  "evidence_snapshot_timestamp": "20260304020130",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "The Harris County Elections Administrator's Office makes a diligent effort to post accurate information on this website, but assumes no liability for damages incurred directly or indirectly as a result of errors, omissions, or discrepancies. For additional information please review our Privacy Policy and our Accessibility Statement.",
+  "notes": "Harris runs its own results app (harrisvotes.com Live Results iframes app.harrisvotes.com/electionresults/electionday). The app code loads appfiles.harrisvotes.com/harrisvotes/prd/Data/<electionCode>/resultsbyballot.json and, per contest, pv-<contestId>.json, rendered as a 'Precinct' voting tab, so the live site is built to show per-precinct numbers. But the files are overwritten in place: for the 2024 general (code 1124) resultsbyballot.json has dt 2024-11-15T17:30:00Z and Last-Modified Fri, 15 Nov 2024 18:03:43 GMT; pv-7281.json (President) Last-Modified Fri, 15 Nov 2024 18:03:22 GMT. No dated update history exists (check 1 not applicable; not Clarity). Data codes for the 2026 primary and runoff were not found (0326 and 0526 return 404) and were not guessed further. The Archives page lists only Official Cumulative and Official Canvass PDFs (e.g. 2024 general canvass file stamped 11-14-2024 03-12-57 PM); Election Reports lists reconciliation and audit forms, no election-night precinct reports. So no check could place precinct numbers on election night. The usage notice is the site footer on the Live Results page. Check 3 (wayback-data branch): the 2026 primary and runoff election-night captures of the county's own app (app.harrisvotes.com/ElectionResults/RepublicanPrimary at 2026-03-03 20:01:30 CST; .../DemocraticPrimary at 2026-05-26 20:47:41 CDT) contain a 'Precinct Reporting' tab that loads per-precinct candidate votes (rep-pv-/dem-pv-<contestId>.json?nocache=<minute time>) from the same feed as the county totals, so both are LIVE under the live precinct view rule (confidence capped at med). No pv file itself was captured and the captured county-total files show only early and mail votes (ed all 0), so precinct_first_seen is left empty. The per-precinct pr.json files are ballots cast (turnout) and do not count. 2024 general stays UNDETERMINED: the app capture timed out and only the embedding www page and a county-totals file were saved. check 3 applied 2026-10-02 (agent check3-pilot). Check 3 after full harvest 2026-10-03 (check3-H2): 2024_general UNDETERMINED to LIVE (check 3, live precinct view rule). The full harvest now holds the app capture that had timed out (app.harrisvotes.com/electionresults/electionday at 20:39:21 CST); it has the same 'Precinct Reporting' tab loading pv-<contestId>.json?nocache=<minute time> from the same feed as resultsbyballot.json, as in the 2026 captures. No pv file was captured, so precinct_first_seen stays empty.",
+  "tag_rationale": "The 2024 general, 2026 primary and 2026 runoff are all LIVE (check 3, live precinct view rule), so the tag is LIVE_PRECINCT; the live precinct view rule caps confidence at med.",
+  "agent": "research-B",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "3",
+      "county_totals_first_seen": "2024-11-05 20:39 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://web.archive.org/web/20241106023921id_/https://app.harrisvotes.com/electionresults/electionday",
+      "rule": "live_precinct_view",
+      "evidence_snapshot_timestamp": "20241106023921",
+      "fact": "Live precinct view rule. Wayback capture of the county's own results app app.harrisvotes.com/electionresults/electionday (the page the county's Live Results page embeds with '<iframe src=\"https://app.harrisvotes.com/electionresults/electionday\"></iframe>') at 2024-11-05 20:39:21 CST (wayback-data Harris/2024_general_20241106023921_0feb0bbd7de6.html, title 'Election Day Results - Election Division') has a per-contest tab '<a href=\"#precinctVoting-{{ contest.i }}\" data-toggle=\"tab\" data-target=\"#precinctVoting-{{ contest.i }}\"><i class=\"fa fa-1x fa-home\" title=\"Precinct Reporting\"></i></a>' filled by \"$http.get(dnnPrefix + '/Data/' + electionCode + '/pv-' + contestId + '.json?nocache=' + cacheTime)\" and RenderPrecinctVoting, which builds a table with a 'Precinct' column, one column per candidate (contest[0].ca) and rows from vm.pv.v[key]; the county totals come from the same feed, \"$http.get(dnnPrefix + '/Data/' + electionCode + '/resultsbyballot.json?nocache=' + cacheTime, { timeout: 3000 })\", with \"var electionCode = '1124'; var dnnPrefix = 'https://appfiles.harrisvotes.com/harrisvotes/prd'; var cacheTime = (new Date(new Date().setSeconds(0, 0))).getTime();\". No pv file was captured; the captured resultsbyballot.json (20:39:22 CST, 'ec':'1124', 'dt':'2024-11-06T01:10:00Z', 'vc':0 of 'vt':700) has county totals with 'ed' all 0 (early and mail only), and pr.json is per-precinct ballots cast (turnout), which does not count."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "3",
+      "county_totals_first_seen": "2026-03-03 20:01 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://web.archive.org/web/20260304020130id_/https://app.harrisvotes.com/ElectionResults/RepublicanPrimary",
+      "fact": "Live precinct view rule. Wayback capture of the county's own results app app.harrisvotes.com/ElectionResults/RepublicanPrimary at 2026-03-03 20:01:30 CST (file Harris/2026_primary_20260304020130_ad3eb5a4577a.html) has a per-contest tab '<a href=\"#precinctVoting-{{ contest.i }}\" ...><i class=\"fa fa-1x fa-home\" title=\"Precinct Reporting\"></i></a>' filled by \"$http.get('https://appfiles.harrisvotes.com/harrisvotes/prd/Data/' + electionCode + '/rep-pv-' + contestId + '.json?nocache=' + cacheTime)\" and RenderPrecinctVoting, which builds a table with a 'Precinct' column, one column per candidate (contest[0].ca) and rows from vm.pv.v[key]; the county totals come from the same feed, \"'/rep-resultsbyballot.json?nocache=' + cacheTime\", with \"var electionCode = '0326'; var cacheTime = (new Date(new Date().setSeconds(0, 0))).getTime();\". The rep-pv files themselves were not captured; the captured rep-resultsbyballot.json (20:01:32 CST, dt 2026-03-04T01:03:00Z, vc 0 of 275) has county totals with ed all 0 (early and mail only), and rep-pr.json (20:01:33 CST) is per-precinct ballots cast (turnout), which does not count.",
+      "rule": "live_precinct_view",
+      "evidence_snapshot_timestamp": "20260304020130"
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "3",
+      "county_totals_first_seen": "2026-05-26 20:47 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://web.archive.org/web/20260527014741id_/https://app.harrisvotes.com/ElectionResults/DemocraticPrimary",
+      "fact": "Live precinct view rule. Wayback capture of app.harrisvotes.com/ElectionResults/DemocraticPrimary at 2026-05-26 20:47:41 CDT (file Harris/2026_runoff_20260527014741_a597a71f666b.html, var electionCode = '0526') has the same 'Precinct Reporting' tab (title=\"Precinct Reporting\", #precinctVoting-{{ contest.i }}) loaded by \"$http.get('https://appfiles.harrisvotes.com/harrisvotes/prd/Data/' + electionCode + '/dem-pv-' + contestId + '.json?nocache=' + cacheTime)\" and rendered per candidate by RenderPrecinctVoting, from the same nocache feed as the county totals ('/dem-resultsbyballot.json?nocache=' + cacheTime). The captured dem-resultsbyballot.json (20:47:43 CDT, et 'Primary Runoff Elections', edt 'May 26, 2026', dt 2026-05-27T00:00:00Z, vc 0 of 157) has county totals with ed all 0; dem-pr.json (20:47:42 CDT) is per-precinct ballots cast only. No pv file was captured. Republican runoff app not captured; the www Republican-Primary-Election page (20:47:54 CDT) iframes app.harrisvotes.com/ElectionResults/RepublicanPrimary.",
+      "rule": "live_precinct_view",
+      "evidence_snapshot_timestamp": "20260527014741"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.harrisvotes.com/Election-Results/Live-Results",
+      "via": "fetch_module",
+      "content_hash": "9aa46ff68a0001622e8aa77af1fbfd0017d9950cdd8174631abe85905b9076fc",
+      "quote": "<iframe src=\"https://app.harrisvotes.com/electionresults/electionday\" title=\"Election Day Live Results\">",
+      "supports": "Live results page embeds the county's own app"
+    },
+    {
+      "url": "https://app.harrisvotes.com/electionresults/electionday",
+      "via": "fetch_module",
+      "content_hash": "6e5cc9f6089dee8e44a377e85ec56d0e1f64277eb66b0e3bead4929a149b95bf",
+      "quote": "$http.get(dnnPrefix + '/Data/' + electionCode + '/pv-' + contestId + '.json?nocache=' + cacheTime) ... createTextNode(\"Precinct\")",
+      "supports": "Live app has a per-precinct voting tab"
+    },
+    {
+      "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/resultsbyballot.json",
+      "via": "fetch_module",
+      "content_hash": "d418eb218a70ce59b1334f999b946845c39f13fca718e089034318fd67a51c84",
+      "quote": "\"ec\":\"1124\",\"edt\":\"November 05, 2024\" ... \"dt\":\"2024-11-15T17:30:00Z\"",
+      "supports": "2024 data file is the post-canvass version; Last-Modified Fri, 15 Nov 2024 18:03:43 GMT"
+    },
+    {
+      "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/pv-7281.json",
+      "via": "fetch_module",
+      "content_hash": "5baaf0810fb0fc9a9b83887c034f1b4d7ad3feab586fbcc9b864082b3df83b8c",
+      "quote": "{\"i\":7281,\"p\":[\"0001\",\"0002\",...",
+      "supports": "2024 per-precinct file exists; Last-Modified Fri, 15 Nov 2024 18:03:22 GMT"
+    },
+    {
+      "url": "https://www.harrisvotes.com/Election-Results/Archives",
+      "via": "fetch_module",
+      "content_hash": "0f95719fd9f28cba1a36bee30a3b20e44c825500cbd1f83d77bb1d206bbf58c7",
+      "quote": "Date Election Cumulative Report Canvass Report ... November 05, 2024 General and Special Elections PDF Version PDF Version",
+      "supports": "Archive lists only official cumulative and canvass reports"
+    },
+    {
+      "url": "https://web.archive.org/web/20260304020130id_/https://app.harrisvotes.com/ElectionResults/RepublicanPrimary",
+      "via": "wayback_branch",
+      "content_hash": "ad3eb5a4577a95079f59e6890fd2f89a40fcfc0188b57af0d76cd744b02d10f1",
+      "quote": "<i class=\"fa fa-1x fa-home\" title=\"Precinct Reporting\"></i> ... $http.get('https://appfiles.harrisvotes.com/harrisvotes/prd/Data/' + electionCode + '/rep-pv-' + contestId + '.json?nocache=' + cacheTime) ... var node = document.createTextNode(\"Precinct\"); ... angular.forEach(contest[0].ca, ...) ... angular.forEach(vm.pv.v[key], ...)",
+      "supports": "2026_primary LIVE under the live precinct view rule (capture 2026-03-03 20:01:30 CST, saved as Harris/2026_primary_20260304020130_ad3eb5a4577a.html)"
+    },
+    {
+      "url": "https://web.archive.org/web/20260304020132id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/rep-resultsbyballot.json?nocache=1772589660000",
+      "via": "wayback_branch",
+      "content_hash": "0b443e42ec676c78e8d4049902e05f450f221451f39f2b5e66c0955f0223aef8",
+      "quote": "\"et\": \"Primary Election\", \"ec\": \"0326\", \"edt\": \"March 03, 2026\", \"vc\": 0, \"vt\": 275, \"dt\": \"2026-03-04T01:03:00Z\"; contest 8303 \"ed\": [0, 0, 0, 0, 0, 0, 0, 0]",
+      "supports": "2026_primary county totals feed live on election night (early and mail only at 20:01 CST)"
+    },
+    {
+      "url": "https://web.archive.org/web/20260527014741id_/https://app.harrisvotes.com/ElectionResults/DemocraticPrimary",
+      "via": "wayback_branch",
+      "content_hash": "a597a71f666b44f51d64ac49ae5ebc3909d0503b5d43b4643236d412eb9a3bbf",
+      "quote": "var electionCode = '0526'; ... title=\"Precinct Reporting\" ... $http.get('https://appfiles.harrisvotes.com/harrisvotes/prd/Data/' + electionCode + '/dem-pv-' + contestId + '.json?nocache=' + cacheTime)",
+      "supports": "2026_runoff LIVE under the live precinct view rule (capture 2026-05-26 20:47:41 CDT, saved as Harris/2026_runoff_20260527014741_a597a71f666b.html)"
+    },
+    {
+      "url": "https://web.archive.org/web/20241106023920id_/https://www.harrisvotes.com/Election-Results/Live-Results",
+      "via": "wayback_branch",
+      "content_hash": "24d4ff9e88d4568f36a0ff875dc06048ddc8840f76f0eb7708881e96fdc742a5",
+      "quote": "<iframe src=\"https://app.harrisvotes.com/electionresults/electionday\"></iframe>",
+      "supports": "2024_general stays UNDETERMINED: only the embedding page was saved; the app capture timed out (capture 2024-11-05 20:39:20 CST)"
+    },
+    {
+      "url": "https://web.archive.org/web/20241106023921id_/https://app.harrisvotes.com/electionresults/electionday",
+      "via": "wayback_branch",
+      "content_hash": "0feb0bbd7de6eb329d437d9d43d04fa5bfdd568edf7cdd6ebacac366a9a167d0",
+      "quote": "var electionCode = '1124'; ... title=\"Precinct Reporting\" ... $http.get(dnnPrefix + '/Data/' + electionCode + '/pv-' + contestId + '.json?nocache=' + cacheTime) ... $http.get(dnnPrefix + '/Data/' + electionCode + '/resultsbyballot.json?nocache=' + cacheTime, { timeout: 3000 })",
+      "supports": "2024_general LIVE under the live precinct view rule (capture 2024-11-05 20:39:21 CST, saved as Harris/2024_general_20241106023921_0feb0bbd7de6.html)"
+    },
+    {
+      "url": "https://web.archive.org/web/20241106023922id_/https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1124/resultsbyballot.json?nocache=1730860740000",
+      "via": "wayback_branch",
+      "content_hash": "d0366eb3a7ab2e20f89a273722f62bc1056f16094dc22ea16090c00fca41bd0a",
+      "quote": "\"et\":\"General and Special Elections\",\"ec\":\"1124\",\"edt\":\"November 05, 2024\" ... \"vc\":0,\"vt\":700,\"dt\":\"2024-11-06T01:10:00Z\" ... \"ed\":[0,0,0,0,0,0,0,0,0,0]",
+      "supports": "2024_general county totals feed live on election night (early and mail only at 20:39 CST)"
+    }
+  ]
+}

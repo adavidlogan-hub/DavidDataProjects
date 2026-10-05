@@ -1,0 +1,62 @@
+{
+  "county": "Navarro",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "No Clarity site (elections.json 404). 'Unofficial Election Results' (Summary Results Report, county totals, CreationDate 11/6/2024 04:23 UTC = 10:23 PM CST) has Last-Modified 11/6/2024 14:52 GMT (8:52 AM CST next day). 'Official Election Results' is also a county summary (CreationDate 11/15/2024). No precinct numbers on the night."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only official files: '3-3-26 OFFICIAL RESULTS By Precinct' (Precinct Summary Results Report, CreationDate 3/9/2026, Last-Modified 3/16/2026) and official summary. No election-night file listed."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only official files: '5-26-26 Official Results by precinct' (CreationDate 6/3/2026, Last-Modified 6/17/2026). No election-night file listed."
+    }
+  },
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'LATER', '2026_primary': 'UNDETERMINED', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in all three (check 2; precinct numbers only in official reports). COUNTY_ONLY_PRECINCT_AT_CANVASS; no election-night upload evidence, so low.)",
+  "sources": [
+    {
+      "url": "https://www.co.navarro.tx.us/page/Elections.2026",
+      "content_hash": "56782ac008234b076e47a5c328e0f6fc7771f7b0c213479d7f8d9d0e6079a1df",
+      "what_i_checked": "2026 file list"
+    },
+    {
+      "url": "https://www.co.navarro.tx.us/page/Elections.2025.and.Earlier",
+      "content_hash": "ca7941ef6baaef3b47a895bbda1f4b2e51b78e16c26b6a64fb2d48cbb2080579",
+      "what_i_checked": "2024 file list"
+    },
+    {
+      "url": "https://www.co.navarro.tx.us/upload/page/0129/docs/Elections/2024/Nov 5 2024/UNOFFICIAL ELECTION RESULTS.pdf",
+      "content_hash": "97365013fc9daa3f2606df22bd57cc686533d5fa7ef4bf0e107b2a92d2fb3a8b",
+      "what_i_checked": "2024 county summary, uploaded 8:52 AM next day"
+    },
+    {
+      "url": "https://www.co.navarro.tx.us/upload/page/0134/docs/Elections/2026/March 3 Primary Election/Results/3-3-26 OFFICIAL RESULTS By Precinct.pdf",
+      "content_hash": "2cdabd5d188ba9fd5ecf0f75ffc6dd64ffebb7cd5bdd2c11d0f4d0061792aa40",
+      "what_i_checked": "primary precinct, Mar 9 to 16"
+    },
+    {
+      "url": "https://www.co.navarro.tx.us/upload/page/0095/docs/Elections/2026/May%2026th/5-26-26%20Official%20Results%20by%20precinct.pdf",
+      "content_hash": "229c6214713e82a9ecc22319a64cdb2d05c775d09df4c96ce0ef5e12810a3cca",
+      "what_i_checked": "runoff precinct, Jun 3 to 17"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LATER, check 2): unofficial county summary, Last-Modified 11/6 14:52 GMT. Research quotes footer '11/05/2024 22:22 PM'; I read CreationDate 04:23 UTC (10:23 PM CST), consistent.",
+    "2026_primary": "different: research UNDETERMINED, I said LATER (only official precinct report, CreationDate 3/9/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only official files (CreationDate 3/9/2026)); check 3 pending.",
+    "2026_runoff": "different: research UNDETERMINED, I said LATER (only official precinct report, CreationDate 6/3/2026). I counted the absence of any election-night file plus only post-night files as LATER; research left it UNDETERMINED (check 3 pending). Difference in method, not in facts. Rule 43 re-applied: LATER changed to UNDETERMINED (only official files (CreationDate 6/3/2026)); check 3 pending.",
+    "rule_43": "rule 43 re-applied"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+}

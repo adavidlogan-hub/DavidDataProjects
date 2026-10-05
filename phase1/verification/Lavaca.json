@@ -1,0 +1,61 @@
+{
+  "county": "Lavaca",
+  "reason_selected": "random 10 percent sample",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only official 2024 files listed: '11052024OFFICIAL PRECINCT RESULTS.pdf' (scan CreationDate Feb 24 2025, Last-Modified Tue, 25 Feb 2025) and '112024OFFICIAL SUMMARY RESULTS.pdf'. No election-night file survives. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only 'RESULTS_REPUBLICAN_OFFICIAL', 'RESULTS DEMOCRATIC_OFFICIAL' and 'PRECINCT BY PRECINCT_RESULTS_OFFICIAL' (file MARCH 3RD 2026_Primary Election_UNOFFICIAL_FINAL_PCTbyPCT_03062026.pdf, scan CreationDate Mar 6 22:08 UTC, Last-Modified Fri, 06 Mar 2026 22:58:03 GMT). No election-night file survives. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'UNOFFICIAL RESULTS_Page 1 of 2' and 'Page 2 of 2' (JPG scans, read as images): 'Summary Results Report May 26, 2026 Lavaca County UNOFFICIAL RESULTS', county totals only (REP US Senator Ken Paxton 1,831, Election Day 868), footer 'Election Summary - 05/26/2026 8:42 PM'. Last-Modified Wed, 27 May 2026 02:17:07 GMT = 9:17 PM CDT election night. No runoff precinct results posted (only PEHCA returns and tally sheets)."
+    }
+  },
+  "rationale": "Only the runoff is determined (LATER: county-total summary printed 8:42 PM and uploaded 9:17 PM CDT on election night, no precinct numbers), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "sources": [
+    {
+      "url": "https://www.co.lavaca.tx.us/page/Elections",
+      "what_i_checked": "results file list",
+      "content_hash": "0805446446a25abda173922d14cc835c6f4be43cc12940d1df5ac8a86389bd8c"
+    },
+    {
+      "url": "https://www.co.lavaca.tx.us/upload/page/0134/images/2026/May 26 RUNOFF/UNOFFICIAL RESULTS.1.jpg",
+      "what_i_checked": "runoff unofficial summary page 1, printed 8:42 PM, Last-Modified 02:17 GMT May 27",
+      "content_hash": "af27c5a3fe182cf16819852f3dfc06ed1667495eda0a8d035217037ebaa1b781"
+    },
+    {
+      "url": "https://www.co.lavaca.tx.us/upload/page/0134/images/2026/May 26 RUNOFF/UNOFFICIAL RESULTS.2.jpg",
+      "what_i_checked": "runoff unofficial summary page 2, county contest totals",
+      "content_hash": "34e7284b33734a136bea5a7464bea99f3927c8ec50600ccc9f156e89c535f4f5"
+    },
+    {
+      "url": "https://www.co.lavaca.tx.us/upload/page/0134/docs/Elections/2026/March 3rd PRIMARY/MARCH 3RD 2026_Primary Election_UNOFFICIAL_FINAL_PCTbyPCT_03062026.pdf",
+      "what_i_checked": "primary precinct file uploaded Mar 6",
+      "content_hash": "bd29eac156faae4b91d3124de4851e21bc22e4a4b5170d47814aa6e6dd82ebc3"
+    },
+    {
+      "url": "https://www.co.lavaca.tx.us/upload/page/0134/11052024OFFICIAL PRECINCT RESULTS.pdf",
+      "what_i_checked": "2024 precinct file uploaded Feb 2025",
+      "content_hash": "a062449155943054fe127ec521478588c7ebfb669318996bfe1045e917b4102b"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:25:52Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED). Research also notes the 2024 'Unofficial Results' link points to a Nov 2023 file; I did not open that link.",
+    "2026_primary": "different: research LATER (precinct numbers first appear Mar 6, no election-night report listed); I UNDETERMINED. Under the updated LATER rule no election-night county-totals file survives for the primary, so the research LATER is not supported.",
+    "2026_runoff": "same (LATER, check 2). Both: unofficial summary JPG printed 8:42 PM, Last-Modified 02:17:07 GMT (9:17 PM CDT), county totals, no precinct report.",
+    "unsupported_or_unchecked": "Research primary LATER lacks election-night evidence under the updated rule; tag unaffected (runoff alone gives the same tag)."
+  },
+  "compared_at_utc": "2026-10-02T16:25:58Z"
+}

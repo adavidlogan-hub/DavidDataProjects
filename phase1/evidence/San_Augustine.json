@@ -1,0 +1,79 @@
+{
+  "county": "San Augustine",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.san-augustine.tx.us/page/sanaugustine.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.san-augustine.tx.us",
+  "evidence_url": "https://www.co.san-augustine.tx.us/upload/page/10663/March 2026 Unofficial Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "On the first attempt the county host was unreachable (robots.txt request reset by peer); a retry later in the session succeeded. No Clarity site (elections.json 404). Results are scanned Hart cumulative reports on page/sanaugustine.Elections; server Last-Modified values differ by file and follow the scan creation times, so upload times are usable. Printed run times on the scans are not legible at the resolution read, so the PDF CreationDate is used as the printed time (per brief). Each target election has one election-night county-total posting and no precinct-level results.",
+  "tag_rationale": "All three elections are LATER by check 2 (only county totals posted on election night, precinct numbers never posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because each night report has a PDF creation time and an election-night upload time.",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 22:35 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.san-augustine.tx.us/upload/page/10663/Unofficial Nov. 5 Election Results.pdf",
+      "fact": "'Unofficial General Election Results' = 8-page scan of Hart 'Cumulative Results Report SAN AUGUSTINE COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Unofficial Results', county totals by Absentee/Early/Election Day (read visually); PDF CreationDate Wed Nov 6 04:26:47 2024 UTC (10:26 PM CST), Last-Modified Wed, 06 Nov 2024 04:35:40 GMT (10:35 PM CST Nov 5). No precinct-level 2024 results are posted (never published online as far as the site shows)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 23:45 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.san-augustine.tx.us/upload/page/10663/March 2026 Unofficial Results.pdf",
+      "fact": "'March 2026 Unofficial Results' = 14-page scan of Hart 'Cumulative Results Report SAN AUGUSTINE COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 ... Unofficial Results', county totals (read visually); PDF CreationDate Wed Mar 4 05:14:25 2026 UTC (11:14 PM CST), Last-Modified Wed, 04 Mar 2026 05:45:53 GMT (11:45 PM CST Mar 3). Later 'March 2026 Official Results'. No unofficial precinct numbers are posted."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 22:12 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.san-augustine.tx.us/upload/page/10663/May 26 2026 Unofficial Primary Runoff Results.pdf",
+      "fact": "'May 26 2026 Primary Runoff Unofficial Results' = 2-page scan of Hart 'Cumulative Results Report SAN AUGUSTINE COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Unofficial Results', county totals (read visually); PDF CreationDate Wed May 27 02:55:55 2026 UTC (9:55 PM CDT), Last-Modified Wed, 27 May 2026 03:12:46 GMT (10:12 PM CDT May 26). No precinct-level runoff results are posted."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.san-augustine.tx.us/page/sanaugustine.Elections",
+      "via": "fetch_module",
+      "content_hash": "3840ea40b6a375017b45edf43e9ced13acd3199ed274e3b01777dd214b446de1",
+      "quote": "May 26 2026 Primary Runoff Unofficial Results; March 2026 Official Results; March 2026 Unofficial Results; Unofficial General Election Results",
+      "supports": "Results postings per election"
+    },
+    {
+      "url": "https://www.co.san-augustine.tx.us/upload/page/10663/Unofficial Nov. 5 Election Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "b739a1704b3e3f58ad9f5240799ac80871311dff4c37a72eec76849aeb9aaffd",
+      "quote": "Cumulative Results Report SAN AUGUSTINE COUNTY, TEXAS GENERAL ELECTION 11/5/2024 Unofficial Results (scanned, read visually)",
+      "supports": "2024 night county totals uploaded 10:35 PM"
+    },
+    {
+      "url": "https://www.co.san-augustine.tx.us/upload/page/10663/March 2026 Unofficial Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "72914d8985dbdb9f649b16f3aa2142637ff609966d434748c2a07095dc4546c0",
+      "quote": "Cumulative Results Report SAN AUGUSTINE COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Unofficial Results (scanned, read visually)",
+      "supports": "Primary night county totals uploaded 11:45 PM"
+    },
+    {
+      "url": "https://www.co.san-augustine.tx.us/upload/page/10663/May 26 2026 Unofficial Primary Runoff Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "16afbd4daaa52426df4cf3a8afa156ea6674bbf841263dd1b3723c8fc6406e57",
+      "quote": "Cumulative Results Report SAN AUGUSTINE COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Unofficial Results (scanned, read visually)",
+      "supports": "Runoff night county totals uploaded 10:12 PM"
+    }
+  ]
+}

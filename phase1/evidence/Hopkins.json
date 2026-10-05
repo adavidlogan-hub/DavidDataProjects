@@ -1,0 +1,79 @@
+{
+  "county": "Hopkins",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.hopkinscountytx.org/page/hopkins.Elections",
+  "platform": "county_pdfs",
+  "host": "www.hopkinscountytx.org",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/3034/5.26.2026/Precinct%20Results-5-26-2026%20Unofficial.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-05-26 20:12 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed default.aspx URL replaced by https://www.hopkinscountytx.org/page/hopkins.Elections ('Election Information/Results'); files are hosted on newtools.cira.state.tx.us. No Clarity link. 2026 runoff: 'Cumulative Unofficial Results' (Hart Cumulative Results Report, Run Time 7:55 PM, Last-Modified Wed, 27 May 2026 01:11:51 GMT) and 'Precinct by Precinct Unofficial Results' (Precinct Results Report, Run Time 7:56 PM, per-precinct Absentee, Early and Election Day votes, Last-Modified 01:12:05 GMT = 8:12 PM CDT); both say 'Precincts Reporting 0 of 21' although election-day votes are included. 2026 primary: only 'Unofficial March 3, 2026 Election Results' = 'FINAL-Cumulative Results-3-6-2026 04-08-24 PM' (run Mar 6) and an official cumulative file; no precinct report or election-night file, although this county posts precinct reports for other elections. 2024 general: the '11/5/2024' menu lists 'General Election Unofficial Results' and official cumulative, precinct and canvass results, but every one of those links is href='#' (no file). The 'Archived Election Results' page stops at 2022. Check 3 pending (wayback-data branch not on origin). Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "Only the 2026 runoff is determined (END: one election-night precinct report with election-day votes alongside the final unofficial totals), so the tag is PRECINCT_END_OF_NIGHT with confidence low as the rule requires for one determined election. Rule 47 checked 2026-10-02: no change.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.hopkinscountytx.org/page/hopkins.Elections",
+      "via": "fetch_module",
+      "content_hash": "3557c7e6354095111d1a25be5bd534fae189654a97f681fe82aff195056c5dc0",
+      "quote": "Cumulative Unofficial Results; Precinct by Precinct Unofficial Results; Unofficial March 3, 2026 Election Results; 11/5/2024 ... General Election Unofficial Results (href='#')",
+      "supports": "Reports listed per election"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3034/5.26.2026/Precinct%20Results-5-26-2026%20Unofficial.pdf",
+      "via": "fetch_module",
+      "content_hash": "0a3aa855b3bada731c01a683ff766cfbb0e704c1313c1efc41e38c557fd99ef2",
+      "quote": "Precinct Results Report Unofficial Results HOPKINS COUNTY, TEXAS ... Run Time 7:56 PM Run Date 05/26/2026",
+      "supports": "Runoff precinct numbers on election night"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3034/5.26.2026/Cumulative%20Results-5-26-2026%20Final%20Unofficial.pdf",
+      "via": "fetch_module",
+      "content_hash": "47587d390274fbfc9df1fd3e1c39eddccedcdde3a9a2b28c0c217c2d960aa95c",
+      "quote": "Cumulative Results Report HOPKINS COUNTY, TEXAS Unofficial Results ... Run Time 7:55 PM",
+      "supports": "Runoff final unofficial county totals posted with the precinct report"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/page/hopkins.ArchivedElections",
+      "via": "fetch_module",
+      "content_hash": "d9504899d96f457cc2460e47957fdce21716f99f08d0bba177af78f07f481da8",
+      "quote": "Cumulative (file #1) ... 11.8.2022.official.cumulative.results.pdf",
+      "supports": "Archive ends at 2022"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The 11/5/2024 menu items 'General Election Unofficial Results', 'General Election Official Precinct Results' and others link to '#' (no file). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Unofficial March 3, 2026 Election Results' (file 'FINAL-Cumulative Results-3-6-2026 04-08-24 PM', county totals run Mar 6) and 'Official March 3, 2026 Election Results' (cumulative) are posted; no election-night or precinct file. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:11 CT",
+      "precinct_first_seen": "2026-05-26 20:12 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/3034/5.26.2026/Precinct%20Results-5-26-2026%20Unofficial.pdf",
+      "fact": "'Precinct Results Report Unofficial Results HOPKINS COUNTY, TEXAS 5.26.26 Primary RO PRIMARY RUNOFF ELECTION ... Run Time 7:56 PM Run Date 05/26/2026'; precinct 1 'Vikki Goodwin 7 ... 7 ... 8 ... 22' (Absentee, Early, Election Day, Total); Last-Modified Wed, 27 May 2026 01:12:05 GMT. Posted together with 'Cumulative Results-5-26-2026 Final Unofficial' (Run Time 7:55 PM, Last-Modified 01:11:51 GMT). Rule 47: publication shown by upload time 2026-05-26 20:12 CT in Precinct Results-5-26-2026 Unofficial.pdf."
+    }
+  }
+}

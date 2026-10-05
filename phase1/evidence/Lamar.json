@@ -1,0 +1,129 @@
+{
+  "county": "Lamar",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.lamar.tx.us/page/Elections",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Lamar/122497/351606/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 19:14 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL redirects to www.lamarcountytx.gov; its Elections page links 'Election Results' to results.enr.clarityelections.com/TX/Lamar/. Clarity elections.json lists all three elections (EIDs 122497, 126018, 126354). Classification uses election-day precinct votes: 2024 general had early-vote precinct numbers at 7:14 and 7:26 PM and election-day precinct votes in one update only (8:38 PM, the last version) = END. 2026 primary: election-day precinct votes in 3 night updates (7:49 PM, 7 precincts; 8:11 PM; 8:23 PM, 26 precincts) = LIVE. 2026 runoff: one night update (7:15 PM CDT, 5 precincts, the last election-night version) with election-day votes = END; an earlier 6:50 PM update had early votes. Several versions return 404 (2024: 8; primary: 3; runoff: 5), all before or between the readable ones, so an unreadable night update cannot be ruled out for 2024 (350800 between 10/18 and 7:14 PM) and runoff (372918 before 6:50 PM).",
+  "tag_rationale": "2024 general and 2026 runoff are END by check 1 (election-day precinct numbers in a single election-night update) and 2026 primary is LIVE; two END results give PRECINCT_END_OF_NIGHT, high confidence (check 1).",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 19:14 CT",
+      "precinct_first_seen": "2024-11-05 19:14 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Lamar/122497/351606/reports/detailxml.zip",
+      "fact": "Clarity EID 122497: 4 readable updates (8 versions returned 404), 3 on election night. Night updates with precinct votes: 2024-11-05 19:14 CT: 26 precincts with votes, election-day precinct votes 0 in 0 precincts; 2024-11-05 19:26 CT: 26 precincts with votes, election-day precinct votes 0 in 0 precincts; 2024-11-05 20:38 CT: 26 precincts with votes, election-day precinct votes 89668 in 26 precincts"
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 19:10 CT",
+      "precinct_first_seen": "2026-03-03 19:10 CT",
+      "night_updates_with_precinct_numbers": "3",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368410/reports/detailxml.zip",
+      "fact": "Clarity EID 126018: 8 readable updates (3 versions returned 404), 4 on election night. Night updates with precinct votes: 2026-03-03 19:10 CT: 26 precincts with votes, election-day precinct votes 0 in 0 precincts; 2026-03-03 19:49 CT: 26 precincts with votes, election-day precinct votes 27895 in 7 precincts; 2026-03-03 20:11 CT: 26 precincts with votes, election-day precinct votes 27895 in 7 precincts; 2026-03-03 20:23 CT: 26 precincts with votes, election-day precinct votes 112830 in 26 precincts"
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 19:15 CT",
+      "precinct_first_seen": "2026-05-26 19:15 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372935/reports/detailxml.zip",
+      "fact": "Clarity EID 126354: 4 readable updates (5 versions returned 404), 1 on election night. Night updates with precinct votes: 2026-05-26 19:15 CT: 5 precincts with votes, election-day precinct votes 5657 in 5 precincts"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.lamar.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "582497ff43d9d5bc3846a33dfc33bf017b7dbed2216d22661ce8b6e353590f6f",
+      "quote": "Election Results | https://results.enr.clarityelections.com/TX/Lamar/",
+      "supports": "county links its results to Clarity"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/351606/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "9bf8368e962a03887c8ce684461feec47c622bc95a326a09399a300615448872",
+      "quote": "Timestamp 11/5/2024 8:38:14 PM CST; precincts_with_votes 26; election-day precinct votes 89668 in 26 precincts (read from cached detail.xml)",
+      "supports": "2024_general night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/351606/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "9bf8368e962a03887c8ce684461feec47c622bc95a326a09399a300615448872",
+      "quote": "Timestamp 11/5/2024 8:38:14 PM CST; precincts_with_votes 26; election-day precinct votes 89668 in 26 precincts (read from cached detail.xml)",
+      "supports": "2024_general night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368410/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "956bbbb2a28d0758606a665830c51bc6ec674751abb7d7e83bf7ac7a6a05eb59",
+      "quote": "Timestamp 3/3/2026 7:49:38 PM CST; precincts_with_votes 26; election-day precinct votes 27895 in 7 precincts (read from cached detail.xml)",
+      "supports": "2026_primary night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368431/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "de57346b0593888829706038539fc7116def19e6bdd76640785d3549903da942",
+      "quote": "Timestamp 3/3/2026 8:23:24 PM CST; precincts_with_votes 26; election-day precinct votes 112830 in 26 precincts (read from cached detail.xml)",
+      "supports": "2026_primary night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372935/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "8796df0521af82783f1e735badc023a1dae66225be391d4f6cfa3efc99f78a35",
+      "quote": "Timestamp 5/26/2026 7:15:22 PM CDT; precincts_with_votes 5; election-day precinct votes 5657 in 5 precincts (read from cached detail.xml)",
+      "supports": "2026_runoff night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372935/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "8796df0521af82783f1e735badc023a1dae66225be391d4f6cfa3efc99f78a35",
+      "quote": "Timestamp 5/26/2026 7:15:22 PM CDT; precincts_with_votes 5; election-day precinct votes 5657 in 5 precincts (read from cached detail.xml)",
+      "supports": "2026_runoff night update with precinct numbers"
+    }
+  ],
+  "third_opinion": {
+    "agent": "verifier-11",
+    "file": "phase1/verification/Lamar_third.json",
+    "tag": "UNKNOWN",
+    "confidence": "low",
+    "agrees_with": "verifier (phase1/verification/Lamar.json, tag UNKNOWN)",
+    "per_election": {
+      "2024_general": {
+        "third_opinion_result": "END",
+        "check": "1",
+        "agrees_with": "both (research and verifier agree)",
+        "why": "Opened v350862 (11/5/2024 7:14:07 PM CST, Election Day precinct votes 0) and v351606 (8:38:14 PM CST, last version, Election Day votes in all 26 voting precincts, e.g. Trump/Vance 1A3B 322). One election-night release with the final unofficial count. The research caveat about unreadable v350800 does not matter: it is numbered before v350862, which has no Election Day votes."
+      },
+      "2026_primary": {
+        "third_opinion_result": "LIVE",
+        "check": "1",
+        "agrees_with": "both (research and verifier agree)",
+        "why": "Opened v368392 (7:10:40 PM, Election Day 0), v368410 (7:49:38 PM, Election Day votes in 7 voting precincts), v368424 (8:11 PM, unchanged), v368431 (8:23:24 PM, all 26 precincts). Two distinct election-night releases."
+      },
+      "2026_runoff": {
+        "third_opinion_result": "LATER",
+        "check": "1",
+        "agrees_with": "verifier",
+        "why": "v372935 (5/26/2026 7:15:22 PM CDT, last version) reports by ballot-group units, not voting precincts: VoterTurnout lists only 'Lamar County' (16449 voters), 'County and Commissioner Pct 2' (7151) and 'County and Commissioner Pct 4' (9464), plus contest-level sub-units 'County and Commissioner Pct 2 Precinct No. 2' and '... Pct 4 Precinct No. 4'. The primary and general use 26 voting precincts (1A3B ... 4G). The research's '5 precincts with votes' counts these group units as precincts, so the research END is not supported by the file's content. The election-night 7:15 PM CDT update is a county-level release split by ballot style; no voting-precinct numbers appear on Clarity then or later, and the county Elections page posts no runoff precinct report, so LATER (precinct numbers not published online as far as found)."
+      }
+    },
+    "summary": "Results END, LIVE, LATER: no two agree, so the fixed rule gives UNKNOWN. The dispute is only the runoff, and the third opinion sides with the verifier after reading the runoff detail.xml reporting-unit names directly.",
+    "written_at_utc": "2026-10-02T22:37:35Z"
+  }
+}

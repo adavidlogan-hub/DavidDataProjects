@@ -1,0 +1,93 @@
+{
+  "county": "Comal",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.comalcounty.gov/973/Past-Election-Results",
+  "platform": "vendor_hosted",
+  "host": "app.enhancedvoting.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Comal/122856/352165/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 19:55 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL co.comal.tx.us/Elections.htm now redirects to comalcounty.gov; its Elections and Voter Registration page (193) links 'Election Results' to results.enr.clarityelections.com/TX/Comal/ and 'Past Election Results' (973). The 2024 general is on Clarity (EID 122856), read by phase1.clarity_timeline (9 of 15 versions 404, all before election day). From 2026 the county uses Enhanced Voting (app.enhancedvoting.com/results/public/comal-county-tx/...), which exposes only the current state through its public API (/results/public/api/elections/comal-county-tx/<election>: primary lastUpdated 2026-03-13T16:35:48Z isOfficialResults true; runoff lastUpdated 2026-06-04T22:19:29Z) and no dated update history, so check 1 cannot read election night for 2026. No county-posted election-night reports for 2026 were found on comalcounty.gov. 2026 primary and runoff are UNDETERMINED pending check 3 (wayback-data branch not found on origin). The current Enhanced Voting settings show precinctResultsProtected false and hidePrecincts false, but that is the post-canvass state, not election night.",
+  "tag_rationale": "Only the 2024 general is determined (LIVE by check 1); both 2026 elections are UNDETERMINED. With exactly one election determined the tag is LIVE_PRECINCT with low confidence.",
+  "agent": "research-B",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 19:55 CT",
+      "precinct_first_seen": "2024-11-05 19:55 CT",
+      "night_updates_with_precinct_numbers": "4 (3 with election-day votes)",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Comal/122856/352165/reports/detailxml.zip",
+      "fact": "Clarity EID 122856 night updates: 11/5/2024 7:55:34 PM CST (44 precincts with votes, early only), 9:36:10 PM (44; election-day votes in 42 precincts), 10:52:35 PM (45; election-day in 44), 11/6/2024 12:49:14 AM CST (75; adds absentee)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Results on Enhanced Voting (https://app.enhancedvoting.com/results/public/comal-county-tx/elections/ComalCountyPrimary); API shows only the official state (lastUpdated 2026-03-13T16:35:48Z), no update history. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Results on Enhanced Voting (https://app.enhancedvoting.com/results/public/comal-county-tx/elections/ComalCountyPrimaryRunoff26); API shows only the final state (lastUpdated 2026-06-04T22:19:29Z), no update history. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.comalcounty.gov/193",
+      "via": "fetch_module",
+      "content_hash": "ee203269b236f4a099e4459cd34ade39aca288072670d7e7ce85558105000396",
+      "quote": "Election Results -> https://results.enr.clarityelections.com/TX/Comal/ ; Past Election Results from 2011 - 2026",
+      "supports": "County results links"
+    },
+    {
+      "url": "https://www.comalcounty.gov/973/Past-Election-Results",
+      "via": "fetch_module",
+      "content_hash": "9136046747c87b54c353ada6c273d639448f9c8d648b4b451a03027d2fcb114b",
+      "quote": "March 3, 2026: Primary Election Results -> app.enhancedvoting.com/.../ComalCountyPrimary ; May 26, 2026: Primary Runoff Election Results -> .../ComalCountyPrimaryRunoff26",
+      "supports": "2026 results moved to Enhanced Voting"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Comal/122856/352165/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "7ad0792408ac930b63e41a0a00787bc909461e97f9b9719d7c029c2c4ffded15",
+      "quote": "<Timestamp>11/5/2024 9:36:10 PM CST; 44 precincts with votes; election-day votes in 42 precincts",
+      "supports": "2024 night update with election-day precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Comal/122856/353090/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "76e935631d9085005e41f565252fa3a95cb4c4ffd299a073a318f955a5efbad9",
+      "quote": "11/6/2024 12:49:14 AM CST; 75 precincts with votes",
+      "supports": "2024 last night update"
+    },
+    {
+      "url": "https://app.enhancedvoting.com/results/public/api/elections/comal-county-tx/ComalCountyPrimary",
+      "via": "fetch_module",
+      "content_hash": "0eb3763a2391d7e2f050d226ddc04edd4384b817163a4cfc6f69dd38c0134158",
+      "quote": "\"isOfficialResults\":true,\"electionDate\":\"2026-03-03\",\"isProduction\":true,\"asOf\":\"2026-03-13T16:58:11.1144859Z\",\"lastUpdated\":\"2026-03-13T16:35:48.9486173Z\"",
+      "supports": "2026 primary vendor API holds only the official state"
+    },
+    {
+      "url": "https://app.enhancedvoting.com/results/public/api/elections/comal-county-tx/ComalCountyPrimaryRunoff26",
+      "via": "fetch_module",
+      "content_hash": "8f91c674394da87f15255086bb8db346a7e31fda7a12b31da86e97fe97ed1440",
+      "quote": "\"electionDate\":\"2026-05-26\",\"isProduction\":true,\"asOf\":\"2026-06-04T22:22:04.2030128Z\",\"lastUpdated\":\"2026-06-04T22:19:29.4488057Z\"",
+      "supports": "2026 runoff vendor API holds only the final state"
+    }
+  ]
+}

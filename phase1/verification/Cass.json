@@ -1,0 +1,65 @@
+{
+ "county": "Cass",
+ "reason_selected": "low confidence (after rule 43 normalization)",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "The county Elections page (co.cass.tx.us/page/cass.Elections) lists no November 5, 2024 results file (results links there are for March 2026, May 2026, and older 2016 to 2022 files). No 2024 general file to read; no wayback folder (check 3 unavailable)."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "'Unofficial Democratic and Republican Precinct by Precinct Results' (Precinct Results-3-6-2026 08-07-21 AM.pdf): 'Precinct Results Report Unofficial Results ... PRIMARY ELECTION MARCH 3, 2026', printed 'Run Time 8:04 AM Run Date 03/06/2026', Last-Modified Fri, 06 Mar 2026 15:38:35 GMT (after election night). 'OFFICIAL RESULTS MARCH 3, 2026 PRIMARY' (offical results.pdf) scanned, Last-Modified 19 Mar 2026. 'Preliminary Election Reconciliation- Unofficial' (Election Reconciliation.pdf) is a ballot reconciliation, Last-Modified 04 Mar 2026 16:40 GMT. No election-night results file survives."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "'PRIMARY RUNOFF ELECTION- Republican' (runoffrep.pdf) and '- Democratic' (runoffdem.pdf): scanned one-page county-totals reports headed 'Unofficial Results ... PRIMARY RUNOFF ELECTION DAY', printed 'Run Time 8:09 PM Run Date 05/26/2026' (Dem: 8:10 PM), with Absentee/Early/Election Day columns (REP US Senator: Paxton 1,853 total, 851 Election Day) but no precinct breakdown. Uploaded later (Last-Modified Wed, 27 May 2026 19:57:01 GMT and 19:54:17 GMT). No precinct-level runoff file is posted on the page, so precinct numbers are never published online. Election-night evidence is the printed run time only."
+  }
+ },
+ "rationale": "Only the runoff is determined: an unofficial county-totals report printed 8:09 PM election night and no precinct numbers posted (LATER). 2024 has no file and the primary has only post-election-night files. One determined election, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+ "sources": [
+  {
+   "url": "https://www.co.cass.tx.us/page/cass.Elections",
+   "content_hash": "365e8f7ce8c13f978988550490d6c8e14dfdfb6555b7a5b95a74d669d2e14112",
+   "what_i_checked": "results list (cached copy)"
+  },
+  {
+   "url": "https://www.co.cass.tx.us/upload/page/1176/runoffrep.pdf",
+   "content_hash": "edc4b0cbf880dde7280f14b32199e253a02ccccf84e019b112ab327685399c85",
+   "what_i_checked": "county totals, run time 8:09 PM 05/26/2026, read from rendered scan"
+  },
+  {
+   "url": "https://www.co.cass.tx.us/upload/page/1176/runoffdem.pdf",
+   "content_hash": "60a77c202e0acec2ddfdad0ad5eca65fa0c8aacd99dcc00794ae52f2ef474c97",
+   "what_i_checked": "county totals, run time 8:10 PM 05/26/2026"
+  },
+  {
+   "url": "https://www.co.cass.tx.us/upload/page/1176/Precinct Results-3-6-2026 08-07-21 AM.pdf",
+   "content_hash": "b2e6bbe0828127f09c34a4d7b20a13ebe54d05aabe3670f9edeca3f6e41b0326",
+   "what_i_checked": "unofficial precinct report run 03/06/2026 8:04 AM"
+  },
+  {
+   "url": "https://www.co.cass.tx.us/upload/page/1176/offical results.pdf",
+   "content_hash": "6c73ed724343127107d1b893ea00d5f9a8f6d9653b179717e819c7ab603870ea",
+   "what_i_checked": "official primary results, uploaded 19 Mar 2026"
+  },
+  {
+   "url": "https://www.co.cass.tx.us/upload/page/1176/Election Reconciliation.pdf",
+   "content_hash": "944fb77e0f17be1a097d5eb488dafb16c1d5daa94fc2fbc0e41376f21475fd6c",
+   "what_i_checked": "preliminary reconciliation, uploaded 04 Mar 2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:42:39Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (LATER, check 2). Research cites runoffrep.pdf, run time 8:09 PM read from the scan, Last-Modified 27 May 2026 19:57:01 GMT; matches what I read. No unsupported claims found.",
+  "rule_47": "rule 47 applied: no change to my results (no END or LIVE rests on a printed time contradicted by a later upload)."
+ }
+}

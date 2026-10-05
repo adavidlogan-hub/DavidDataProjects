@@ -1,0 +1,40 @@
+name: archive-file-sweep
+# Targeted pass 3: archived results files for the largest UNKNOWN counties (phase1/targeted/sweep_targets.json),
+# with the original servers' upload times. Shares the wayback-harvest concurrency group (one archive.org client at a time).
+on:
+  push:
+    branches: [claude/tx-precinct-pipeline]
+    paths: [phase1/targeted/sweep_targets.json, .github/workflows/archive-file-sweep.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    concurrency:
+      group: wayback-harvest
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Sweep archived results files
+        shell: bash
+        run: set -o pipefail; python -m phase1.archive_file_sweep --targets phase1/targeted/sweep_targets.json --out phase1/targeted/sweep | tee sweep_log.jsonl
+      - name: Upload artifact (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-file-sweep-${{ github.run_id }}
+          path: phase1/targeted/sweep
+          retention-days: 30
+      - name: Push to wayback-data branch
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+          JOB: archive-file-sweep
+        run: bash tools/push_targeted.sh

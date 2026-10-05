@@ -1,0 +1,154 @@
+{
+  "county": "Live Oak",
+  "reason_selected": "tag changed in targeted pass 3",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "2",
+      "fact": "liveoak.Results page lists per-precinct 'Unofficial Pct. N ... Results' PDFs (Hart-style 'Unofficial Results Pct N' reports with Absentee, Early Voting and Election Day Voting candidate columns). Server Last-Modified times fall across election night: Pct 1 Argenta (Run Time 8:56 PM, Election Day votes e.g. Trump 120) 06 Nov 2024 03:08:51 GMT = 9:08 PM CST; W George West 03:34:11; Simmons 03:36:24; E George West 03:53:44; Ray Point 03:57:56; W Three Rivers 04:03:17; Nell 04:10:59; E Three Rivers 04:12:48; Oakville 04:16:05; Whitsett 04:16:34; Swinney Switch 04:17:55; Pct 2 Lagarto (Run Time 10:37 PM, Election Day votes) 04:37:48 GMT = 10:37 PM CST; Unofficial Cumulative 04:45:31 GMT. Precinct numbers with election-day votes were posted in many separate uploads from 9:08 PM to 10:37 PM: LIVE."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Election History page, March 3 2026 'ELECTION NIGHT RESULTS': 'Early Voting Results', 'Election Night Results', 'Cumulative Results-Democratic', 'Cumulative Results-Republican', 'Election Reconciliation - Official Totals'; no precinct report listed. 'Election Night Results' (EN Unoffical Results.pdf) is a 19-page 'Cumulative Results Report - Election Night Results' (county totals), Run Time 11:09 PM, Run Date 03/03/2026 (printed on election night); Last-Modified 18 Mar 2026 20:45:18 GMT. No unofficial precinct report was ever posted: LATER (county_totals_first_seen 2026-03-03 23:09 CT, printed)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Election History page, 2026 results: 'Unofficial Election Night Results - Republican' (2026May/unoffical res rep.pdf) is a 'Cumulative Results Report' county totals, Run Time 9:38 PM 05/26/2026, Precincts Reporting 14 of 14, Last-Modified Wed, 27 May 2026 02:48:19 GMT (9:48 PM CDT); Democratic version Last-Modified 02:47:59 GMT. No unofficial precinct report listed for the runoff (only Official Results 5.26.26, reconciliation, hand count audit). LATER (county_totals_first_seen 2026-05-26 21:47 CT upload)."
+    }
+  },
+  "rationale": "Not on Clarity: the county's results pages link no results.enr.clarityelections.com election, so check 1 does not apply. Check 3: wayback-data CDX lookups for co.live-oak.tx.us failed (robots_disallowed_or_unreachable), no captures. Primary and runoff are LATER by check 2 (two deciding elections), 2024 general is LIVE, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, med (check 2).",
+  "sources": [
+    {
+      "url": "https://www.co.live-oak.tx.us/page/liveoak.Results",
+      "content_hash": "e9aaddd5f95221a7eea270f365dec43a86ca24b85eb61e4882d2e1c8edea21ad",
+      "what_i_checked": "Nov 5 2024 per-precinct unofficial PDFs list"
+    },
+    {
+      "url": "https://www.co.live-oak.tx.us/page/liveoak.Election History",
+      "content_hash": "6ac79bd63563cf39ffa5b187468bf71e91818282b7ca7f577e27ed7eaa082215",
+      "what_i_checked": "2026 primary and runoff results lists"
+    },
+    {
+      "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/Unofficail%20EV%20ARGENTA%20Results.pdf",
+      "content_hash": "e9d374a7a6edfae52329aa386f98aa51638993b62faf287be7be598e907daa8e",
+      "what_i_checked": "Pct 1 run 8:56 PM with election-day votes; Last-Modified 2024-11-06 03:08:51 GMT"
+    },
+    {
+      "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/LAGARTO.pdf",
+      "content_hash": "40e956f5ce643f1c36e9c14e87448b30f0c150959536ad75a4d0a567335200ec",
+      "what_i_checked": "Pct 2 run 10:37 PM with election-day votes; Last-Modified 2024-11-06 04:37:48 GMT"
+    },
+    {
+      "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/E%20George%20West.pdf",
+      "content_hash": "524811aa08d29b2cd06c94bc519bc8e300e0d9abb491299d2e93d1feb79f9e03",
+      "what_i_checked": "Last-Modified 2024-11-06 03:53:44 GMT"
+    },
+    {
+      "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/Unofficial%20Cumulative%20Results.pdf",
+      "content_hash": "c61155438afa2e617303fab40a325b149eded84bb104ab8817c301382db780b1",
+      "what_i_checked": "Last-Modified 2024-11-06 04:45:31 GMT"
+    },
+    {
+      "url": "https://www.co.live-oak.tx.us/upload/page/1218/2026/Results/EN%20Unoffical%20Results.pdf",
+      "content_hash": "38f353407b9d67e004a1e6d504a623c64a963d691aa8b33122270814963dcc7b",
+      "what_i_checked": "Cumulative Election Night Results, run 11:09 PM 03/03/2026, county totals; Last-Modified 2026-03-18"
+    },
+    {
+      "url": "https://www.co.live-oak.tx.us/upload/page/1218/2026/Results/Cumulative%20Results-Rep.pdf",
+      "content_hash": "2290f8f88b25b82a4d81dab6d92a99d22c6efd2f594f75b112faf80c2a100fcc",
+      "what_i_checked": "Official cumulative county totals (11 pages), no precinct pages"
+    },
+    {
+      "url": "https://www.co.live-oak.tx.us/upload/page/1218/2026May/unoffical%20res%20rep.pdf",
+      "content_hash": "69ae5b8c93e63b984605871f196845776c04a246bae549a1d76d71ea821fa337",
+      "what_i_checked": "Runoff cumulative county totals run 9:38 PM 05/26/2026; Last-Modified 2026-05-27 02:48:19 GMT"
+    },
+    {
+      "url": "https://www.co.live-oak.tx.us/upload/page/1218/2026May/unoffical%20res%20dem.pdf",
+      "content_hash": "67bcb3271f08f03d79ba4c8a9ea319b0ce0249b58fbca744ca618a9060e352f7",
+      "what_i_checked": "Last-Modified 2026-05-27 02:47:59 GMT"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T22:58:45Z",
+  "previous_verification": {
+    "county": "Live Oak",
+    "reason_selected": "random 10 percent sample",
+    "verifier_tag": "UNKNOWN",
+    "verifier_confidence": "low",
+    "elections": {
+      "2024_general": {
+        "result": "LIVE",
+        "check": "2",
+        "fact": "co.live-oak.tx.us/page/liveoak.Results, \"Nov. 5, 2024 General Elections\", lists one unofficial report per precinct (Pct. 1 to 14). Pct 3 E. George West: \"Unofficial Results Pct 3\", Run Time 9:03 PM, Run Date 11/05/2024, with Election Day Voting column (Trump 60); Last-Modified Wed 06 Nov 2024 03:53:44 GMT = 9:53 PM CST. Swinney Switch Last-Modified 04:17:55 GMT (10:17 PM CST); Lagarto 04:37:48 GMT (10:37 PM CST); Unofficial Cumulative 04:45:31 GMT (10:45 PM CST). Precinct numbers with election-day votes were posted in at least three separate uploads during election night."
+      },
+      "2026_primary": {
+        "result": "UNDETERMINED",
+        "check": "none",
+        "fact": "No 2026 results on the Results, Elections or Election History pages (only sample ballots and notices). No wayback folder for this county, check 3 pending."
+      },
+      "2026_runoff": {
+        "result": "LATER",
+        "check": "2",
+        "fact": "Same as primary. No wayback folder for this county, check 3 pending.",
+        "corrected_after_comparison": "Election-night county-totals file opened by me from cache: https://www.co.live-oak.tx.us/upload/page/1218/2026May/unoffical%20res%20rep.pdf : Runoff unofficial Republican results, CreationDate 27 May 2026 02:45:27 UTC, Last-Modified 27 May 2026 02:48:19 GMT (9:48 PM CDT); research quotes it as a county-totals \"Cumulative Results Report ... Run Time 9:38 PM ... Unofficial Results\". No precinct numbers that night."
+      }
+    },
+    "rationale": "Only 2024 is determined (LIVE, check 2: per-precinct unofficial reports uploaded at 9:53, 10:17 and 10:37 PM CST). One election gives LIVE_PRECINCT, low.",
+    "sources": [
+      {
+        "url": "https://www.co.live-oak.tx.us/page/liveoak.Results",
+        "content_hash": "e9aaddd5f95221a7eea270f365dec43a86ca24b85eb61e4882d2e1c8edea21ad",
+        "what_i_checked": "2024 per-precinct unofficial reports"
+      },
+      {
+        "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/E%20George%20West.pdf",
+        "content_hash": "524811aa08d29b2cd06c94bc519bc8e300e0d9abb491299d2e93d1feb79f9e03",
+        "what_i_checked": "Pct 3, run 9:03 PM, uploaded 9:53 PM CST"
+      },
+      {
+        "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/SWINNEY%20SWITCH.pdf",
+        "content_hash": "74ff34b1986d32b4cc4e963dc9ff77d391ad00857308e6ac185f0dc654c13ffa",
+        "what_i_checked": "uploaded 10:17 PM CST"
+      },
+      {
+        "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/LAGARTO.pdf",
+        "content_hash": "40e956f5ce643f1c36e9c14e87448b30f0c150959536ad75a4d0a567335200ec",
+        "what_i_checked": "uploaded 10:37 PM CST"
+      },
+      {
+        "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/Unofficial%20Cumulative%20Results.pdf",
+        "content_hash": "c61155438afa2e617303fab40a325b149eded84bb104ab8817c301382db780b1",
+        "what_i_checked": "uploaded 10:45 PM CST"
+      }
+    ],
+    "written_blind_at_utc": "2026-10-02T16:25:07Z",
+    "research_tag": "UNKNOWN",
+    "agree": true,
+    "comparison_notes": {
+      "2024_general": "same (LIVE: per-precinct unofficial reports uploaded at several times on election night). Research read Pct 11 (run 9:20 PM, uploaded 9:36 PM CST) and Pct 2; I read Pct 3 (run 9:03 PM, uploaded 9:53 PM CST) and upload times of Pct 13 and Pct 2.",
+      "2026_primary": "same (UNDETERMINED).",
+      "2026_runoff": "different: research LATER, mine UNDETERMINED. My blind pass missed this file (it is linked on the cached copy of the page I read; my link filter dropped it). I opened the research-cited file from cache: 2026May/unoffical res rep.pdf, CreationDate 27 May 2026 02:45:27 UTC, Last-Modified 02:48:19 GMT (9:48 PM CDT); I did not re-read its page content (no text layer), research quotes \"Cumulative Results Report ... Run Time 9:38 PM ... Unofficial Results\", county totals. Supported as far as times go; with it the tag would be UNKNOWN (LIVE once, LATER once), matching research. blind miss corrected after opening unoffical%20res%20rep.pdf myself (DECISIONS 44): runoff result now LATER (check 2)."
+    },
+    "blind_verdict": {
+      "verifier_tag": "LIVE_PRECINCT",
+      "verifier_confidence": "low",
+      "elections": {
+        "2024_general": "LIVE",
+        "2026_primary": "UNDETERMINED",
+        "2026_runoff": "UNDETERMINED"
+      }
+    }
+  },
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same: LIVE by check 2 (per-precinct unofficial PDFs uploaded one by one on election night). Research's precinct_first_seen 21:36 CT (Simmons) is later than the earliest upload I found: Pct 1 Argenta and Pct 14 SW George West at 03:08:51 and 03:09:24 GMT (9:08-9:09 PM CST). Research's Lagarto run time 10:32 PM is correct; my blind fact said 10:37 PM (that is its upload time), a misread on my side.",
+    "2026_primary": "Same: LATER by check 2 under the DECISIONS 67 reading. Printed run time on 'Election Night Results' reads 11:09 PM on my zoomed render (research says 11:03 PM); both on election night, result unaffected. Research's fact sentence 'no file posted on election night survives' sits beside the LATER ruling and reflects the earlier rule 43/47 analysis, not a contradiction of the result.",
+    "2026_runoff": "Same: LATER by check 2 (county cumulative run 9:38 PM, uploaded 9:48 PM CDT; no precinct report).",
+    "unsupported_claims": "None material. Research notes say 'Precincts Reporting 14 of 14' for the primary election-night report; not checked closely (header text blurred) and not result-relevant."
+  }
+}

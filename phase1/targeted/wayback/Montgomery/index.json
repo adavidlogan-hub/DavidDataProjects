@@ -1,0 +1,137 @@
+{
+  "county": "Montgomery",
+  "targets": [
+    "elections.mctx.org"
+  ],
+  "harvested_at_utc": "2026-10-02T20:46:35Z",
+  "windows": {
+    "2024_general": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=elections.mctx.org&matchType=prefix&from=20241106010000&to=20241106150000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "866216a4f7a638a0327f4a0d10c7e197d129354c252fbf2d0332c99253bfb253"
+        }
+      ],
+      "captures": [
+        {
+          "timestamp_utc": "20241106021913",
+          "local": "2024-11-05 20:19:13 CST",
+          "original": "https://elections.mctx.org/samplebal.asp?ElectionId=GEN110524&curLang=English",
+          "mimetype": "text/html",
+          "digest": "GN3XTNDWTKWBR2JFL5XHVMHDOI6GGUN5",
+          "length": "4092",
+          "replay_url": "https://web.archive.org/web/20241106021913id_/https://elections.mctx.org/samplebal.asp?ElectionId=GEN110524&curLang=English",
+          "ok": true,
+          "error": null,
+          "content_hash": "2b7d8c520e9aaeab12040832a347083de0d5d830da05e1ee45ba8cec40ef5f69",
+          "saved_as": "Montgomery/2024_general_20241106021913_2b7d8c520e9a.html"
+        },
+        {
+          "timestamp_utc": "20241106040921",
+          "local": "2024-11-05 22:09:21 CST",
+          "original": "https://elections.mctx.org/pdf/GEN110524/Notice%20of%20Convening%20of%20Central%20Counting%20Station%202024.11.05.pdf",
+          "mimetype": "application/pdf",
+          "digest": "D67CB2MAKRLB4OUKGJMW653XVDQ57TP5",
+          "length": "110206",
+          "replay_url": "https://web.archive.org/web/20241106040921id_/https://elections.mctx.org/pdf/GEN110524/Notice%20of%20Convening%20of%20Central%20Counting%20Station%202024.11.05.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "22876328fb31b906a946863b4f980f4ffbe315f282cd520966bebd7009f63376",
+          "saved_as": "Montgomery/2024_general_20241106040921_22876328fb31.pdf"
+        },
+        {
+          "timestamp_utc": "20241106100940",
+          "local": "2024-11-06 04:09:40 CST",
+          "original": "https://elections.mctx.org/EDPolls.asp?ELID=87&curLang=English&os=wtmbTQtAJk9s",
+          "mimetype": "text/html",
+          "digest": "B3PP6RGTJ2RTA7346RPO7KOUKDVULMRV",
+          "length": "12651",
+          "replay_url": "https://web.archive.org/web/20241106100940id_/https://elections.mctx.org/EDPolls.asp?ELID=87&curLang=English&os=wtmbTQtAJk9s",
+          "ok": true,
+          "error": null,
+          "content_hash": "72280603655f5a0c0e8d9284898d38d359b1bbb9c3bb6cb7182cdcd0bdfab3c8",
+          "saved_as": "Montgomery/2024_general_20241106100940_72280603655f.html"
+        },
+        {
+          "timestamp_utc": "20241106114505",
+          "local": "2024-11-06 05:45:05 CST",
+          "original": "https://elections.mctx.org/EVEDMAPS/EVGEN110524.pdf?ts=91201",
+          "mimetype": "application/pdf",
+          "digest": "NGXYAYOF2D3F7R4RHQRZQVZRCK4YTK2A",
+          "length": "5303051",
+          "replay_url": "https://web.archive.org/web/20241106114505id_/https://elections.mctx.org/EVEDMAPS/EVGEN110524.pdf?ts=91201",
+          "ok": true,
+          "error": null,
+          "content_hash": "2477687c869f7a6d5e573e885712c95e56290274ba31f63b7dac4c2b1eea1fd4",
+          "saved_as": "Montgomery/2024_general_20241106114505_2477687c869f.pdf"
+        }
+      ]
+    },
+    "2026_primary": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=elections.mctx.org&matchType=prefix&from=20260304010000&to=20260304150000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "2eea42803fb07482259171f4b1f4d23de5a7983c0178b212ea0e0a3b3450c1da"
+        }
+      ],
+      "captures": [
+        {
+          "timestamp_utc": "20260304073422",
+          "local": "2026-03-04 01:34:22 CST",
+          "original": "https://elections.mctx.org/EDPolls.asp?ELID=93",
+          "mimetype": "text/html",
+          "digest": "PQQE3ZUSMDFSRDAVT77TGS4CSKEUN7IT",
+          "length": "18839",
+          "replay_url": "https://web.archive.org/web/20260304073422id_/https://elections.mctx.org/EDPolls.asp?ELID=93",
+          "ok": true,
+          "error": null,
+          "content_hash": "8b386d151f60b58070626709855440d1159fd68faf0d32aa0da0037662c8141b",
+          "saved_as": "Montgomery/2026_primary_20260304073422_8b386d151f60.html"
+        },
+        {
+          "timestamp_utc": "20260304134837",
+          "local": "2026-03-04 07:48:37 CST",
+          "original": "https://elections.mctx.org/pdf/PRI030326/Republican%20Cumulative%20Results-3-4-2026%2002-08-24%20AM.pdf",
+          "mimetype": "application/pdf",
+          "digest": "F5ZUVXVVWEPI6TC7B26YKJUC7TSSFUSK",
+          "length": "300406",
+          "replay_url": "https://web.archive.org/web/20260304134837id_/https://elections.mctx.org/pdf/PRI030326/Republican%20Cumulative%20Results-3-4-2026%2002-08-24%20AM.pdf",
+          "ok": true,
+          "error": null,
+          "content_hash": "19cbbd618acce840232f709bec6d3c5a6332e4933430f3657c7cddbf32402640",
+          "saved_as": "Montgomery/2026_primary_20260304134837_19cbbd618acc.pdf"
+        }
+      ]
+    },
+    "2026_runoff": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=elections.mctx.org&matchType=prefix&from=20260527000000&to=20260527140000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "65c5420bd665b3a474079a39c7836be1fc5117cc549389fbb8682a023e338dab"
+        }
+      ],
+      "captures": [
+        {
+          "timestamp_utc": "20260527064443",
+          "local": "2026-05-27 01:44:43 CDT",
+          "original": "https://elections.mctx.org/EDPolls.asp?ELID=95",
+          "mimetype": "text/html",
+          "digest": "KGR3LZZDQVDY6DGVWVHXPIIS6M2CE57F",
+          "length": "15048",
+          "replay_url": "https://web.archive.org/web/20260527064443id_/https://elections.mctx.org/EDPolls.asp?ELID=95",
+          "ok": true,
+          "error": null,
+          "content_hash": "2a17d212c842028fa5fedd8854f01e4216affccad43d8ca5563462d77aeb76c7",
+          "saved_as": "Montgomery/2026_runoff_20260527064443_2a17d212c842.html"
+        }
+      ]
+    }
+  },
+  "replays_fetched": 7
+}

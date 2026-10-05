@@ -1,0 +1,100 @@
+{
+  "county": "Kendall",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.kendall.tx.us/220/Election-Results-Past-Present",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368437/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-03 19:16 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed domain www.kendallcountytx.gov reset the connection on robots.txt (fetch module refused); the same CivicPlus site on www.co.kendall.tx.us loads (found by one web search). Clarity elections.json is an empty list, so EIDs were taken from the county's Election Results (Past & Present) page. In each election the first night update (7:23 PM 2024, 7:16 PM primary, 7:01 PM runoff) carries early-vote precinct numbers only; election-day precinct votes then grow across later night updates (2024: 2 updates; primary: 3; runoff: 3). Several versions return 404. 2024 also has a pre-election version stamped 10/23/2024 8:04 PM with nonzero precinct values (not on election night, ignored). Check 3 not needed.",
+  "tag_rationale": "All three elections are LIVE by check 1 (election-day precinct votes in two or more election-night Clarity updates), so the tag is LIVE_PRECINCT with high confidence.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 19:23 CT",
+      "precinct_first_seen": "2024-11-05 19:23 CT",
+      "night_updates_with_precinct_numbers": "2",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Kendall/122829/351618/reports/detailxml.zip",
+      "fact": "Clarity EID 122829: 7 readable updates (5 versions returned 404), 3 on election night. Night updates with precinct votes: 2024-11-05 19:23 CT: 17 precincts with votes, election-day precinct votes 0 in 0 precincts; 2024-11-05 20:39 CT: 17 precincts with votes, election-day precinct votes 40845 in 17 precincts; 2024-11-05 21:18 CT: 17 precincts with votes, election-day precinct votes 75444 in 17 precincts"
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 19:16 CT",
+      "precinct_first_seen": "2026-03-03 19:16 CT",
+      "night_updates_with_precinct_numbers": "3",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368437/reports/detailxml.zip",
+      "fact": "Clarity EID 126002: 5 readable updates (3 versions returned 404), 4 on election night. Night updates with precinct votes: 2026-03-03 19:16 CT: 17 precincts with votes, election-day precinct votes 0 in 0 precincts; 2026-03-03 20:32 CT: 17 precincts with votes, election-day precinct votes 76964 in 17 precincts; 2026-03-03 21:16 CT: 17 precincts with votes, election-day precinct votes 137192 in 17 precincts; 2026-03-03 21:32 CT: 17 precincts with votes, election-day precinct votes 175321 in 17 precincts"
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 19:01 CT",
+      "precinct_first_seen": "2026-05-26 19:01 CT",
+      "night_updates_with_precinct_numbers": "3",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372955/reports/detailxml.zip",
+      "fact": "Clarity EID 126365: 6 readable updates (7 versions returned 404), 4 on election night. Night updates with precinct votes: 2026-05-26 19:01 CT: 17 precincts with votes, election-day precinct votes 0 in 0 precincts; 2026-05-26 20:04 CT: 17 precincts with votes, election-day precinct votes 7233 in 17 precincts; 2026-05-26 20:24 CT: 17 precincts with votes, election-day precinct votes 12291 in 17 precincts; 2026-05-26 20:37 CT: 17 precincts with votes, election-day precinct votes 16090 in 17 precincts"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.kendall.tx.us/220/Election-Results-Past-Present",
+      "via": "fetch_module",
+      "content_hash": "ce1f1f5cc933edf4c320c27ee2cc41a038a6cfb831564023f49b59ff718ffe7d",
+      "quote": "November 5, 2024 General Election | results.enr.clarityelections.com/TX/Kendall/122829/ ; March 3, 2026 Joint Primary Election | .../126002/ ; May 26, 2026 Joint Primary Runoff Election | .../126365/",
+      "supports": "Clarity EIDs taken from county results page"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/351618/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "d9a6d8362bc52b7a385f8e2521731e96b5205baa2772f68a5f63be99b4390585",
+      "quote": "Timestamp 11/5/2024 8:39:46 PM CST; precincts_with_votes 17; election-day precinct votes 40845 in 17 precincts (read from cached detail.xml)",
+      "supports": "2024_general night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/351989/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "e9ddddfed586efc23e50a19865f282cf2742a24e3754446de99f7491535043c5",
+      "quote": "Timestamp 11/5/2024 9:18:18 PM CST; precincts_with_votes 17; election-day precinct votes 75444 in 17 precincts (read from cached detail.xml)",
+      "supports": "2024_general night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368437/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "01e26cd457b6ef3351890ff9f5e3b274a0d1dbb489f580c296c5c42d32f00861",
+      "quote": "Timestamp 3/3/2026 8:32:04 PM CST; precincts_with_votes 17; election-day precinct votes 76964 in 17 precincts (read from cached detail.xml)",
+      "supports": "2026_primary night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368482/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "47ab5f1a83bb0a3c9de0f51585b1412743600df6062a1b19d62fe6830f7b612d",
+      "quote": "Timestamp 3/3/2026 9:32:11 PM CST; precincts_with_votes 17; election-day precinct votes 175321 in 17 precincts (read from cached detail.xml)",
+      "supports": "2026_primary night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372955/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "facee2014075e2c2a9d2bbe445d06402b00e2be704d918cad89499eaf1885e58",
+      "quote": "Timestamp 5/26/2026 8:04:11 PM CDT; precincts_with_votes 17; election-day precinct votes 7233 in 17 precincts (read from cached detail.xml)",
+      "supports": "2026_runoff night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372984/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "334b46c204e7c5c999aa11c418f0b06d8f1dc949c51e8f78b9d60debfcbe80dc",
+      "quote": "Timestamp 5/26/2026 8:37:14 PM CDT; precincts_with_votes 17; election-day precinct votes 16090 in 17 precincts (read from cached detail.xml)",
+      "supports": "2026_runoff night update with precinct numbers"
+    }
+  ]
+}

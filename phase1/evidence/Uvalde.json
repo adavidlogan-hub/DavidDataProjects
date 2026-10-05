@@ -1,0 +1,65 @@
+{
+  "county": "Uvalde",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.uvaldecounty.gov/elections",
+  "platform": "unknown",
+  "host": "www.uvaldecounty.gov",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL www.uvaldecounty.com is a Wix site whose Elections link goes to www.uvaldecounty.gov/elections. No Clarity site (elections.json 404). The Elections page (Wix) shows only the Elections Office contact block and links to flood resources and a burn-ban order PDF (Last-Modified 17 Sep 2026); it lists no results files for any election. One web search found no other county results page (only Ballotpedia, KSAT and the same Elections page). Because the page holds no past results, check 2 cannot tell whether results were posted on election night and later removed, so NONE is not asserted. Check 3 pending (origin/wayback-data branch not found). Targeted pass 3 2026-10-02 (targeted3-E): no change. Tried: Wix sitemap of www.uvaldecounty.gov (pages-sitemap.xml lists only the 'elections' page, no results page); uvaldecounty.com home (Wix, links only to the .gov Elections page); one web search (found an old uvaldecounty.com/images/elections_admin/.../Results/Cumulative_Results-11-7-2023 PDF, which now returns HTTP 404, so the old results folder is gone). Wayback harvest of uvaldecounty.com found no election-night captures. Sweep: no folder. All three elections stay UNDETERMINED.",
+  "tag_rationale": "No election could be determined (county Elections page lists no results now; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County Elections page lists no results files. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County Elections page lists no results files. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "County Elections page lists no results files. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.uvaldecounty.gov/elections",
+      "via": "fetch_module",
+      "content_hash": "2786a7e2be0107effb43df437c8877a579a97cc22ab979dee8fab952f87f6349",
+      "quote": "UVALDE COUNTY ELECTIONS Contact Us Uvalde County Elections Office 124 E. North St., Uvalde, TX 78801",
+      "supports": "Elections page has no results listings"
+    },
+    {
+      "url": "websearch:?q=uvalde%20county%20elections%20office%20election%20results%202026",
+      "via": "websearch",
+      "content_hash": "e55e1bf13f16a1b529297ec9beee47a9004adf60e16c84792e81346e0c49f40a",
+      "quote": "ELECTIONS https://www.uvaldecounty.gov/elections",
+      "supports": "no other county results site located"
+    }
+  ]
+}

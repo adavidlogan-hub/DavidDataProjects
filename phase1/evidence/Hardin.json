@@ -1,0 +1,100 @@
+{
+  "county": "Hardin",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://hcelectioncenter.hardincountytx.gov/results/",
+  "platform": "homegrown",
+  "host": "hcelectioncenter.hardincountytx.gov",
+  "evidence_url": "https://hcelectioncenter.hardincountytx.gov/media/pdf/2026_may_runoff.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "This site is intended to provide a visual representation of the voting data made available by the Hardin County Elections Department. Results are unofficial.",
+  "notes": "Seed host www.co.hardin.tx.us is unreachable through the fetch module (robots check: connection reset by peer); one web search found the current site hardincountytx.gov, whose Elections Department page links 'HCElectionCenter' (hcelectioncenter.hardincountytx.gov/results/, a county-built results map run by the Hardin County Technology Department) plus official cumulative PDFs/TXT. HCElectionCenter shows per-precinct candidate votes (precinctCandidateVotes) for the 2024 general (election/5) and the 2026 primaries (election/8 and 9), but every race is stamped 'Last Updated' in March or April 2026 (for example 2024 general 'Last Updated: March 24, 2026 - 11:17 AM'; Republican primary 'Last Updated: April 6, 2026 - 1:27 PM'; Democratic primary 'Last Updated: March 26, 2026 - 2:22 PM'), so the current pages show reloaded data, not the election-night state, and the site exposes no update history. The 2026 runoff is 'PDF only' on HCElectionCenter. Official files on hardincountytx.gov are county cumulative reports (2024 general 'OFFICIAL Cumulative Results-11-18-2024', 2026 primaries '...-3-12-2026', runoff '...-6-4-2026'). No Clarity site linked. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER: county totals on election night, precinct numbers never posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low as the rule requires for a single determined election.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://hcelectioncenter.hardincountytx.gov/results/",
+      "via": "fetch_module",
+      "content_hash": "73f9518c0c340cd964f4bbf62008b2d8c79ff2ef833fed2ebc7c07c22bd7aeeb",
+      "quote": "Run-off Election May 26, 2026 (PDF only) | Republican Primary March 3, 2026 | Democratic Primary March 3, 2026 ... General Election Nov 5, 2024 ... Results posted are unofficial.",
+      "supports": "County results site and the elections it covers"
+    },
+    {
+      "url": "https://hcelectioncenter.hardincountytx.gov/media/pdf/2026_may_runoff.pdf",
+      "via": "fetch_module",
+      "content_hash": "5b30aa0f8582f6e02aee95288e8a0060dde83eecc6cbd06dc5d4edd874e06995",
+      "quote": "Cumulative Results Report HARDIN COUNTY, TEXAS Unofficial Results ... Run Time 8:41 PM Run Date 05/26/2026",
+      "supports": "Runoff county totals on election night"
+    },
+    {
+      "url": "https://hcelectioncenter.hardincountytx.gov/results/election/5/",
+      "via": "fetch_module",
+      "content_hash": "69a3e4679ed294fdc885fe9c49a50feac092a18d07bcb2d391e698b763e95db2",
+      "quote": "To view precinct level results hover mouse over voting precinct ... Last Updated: March 24, 2026 - 11:17 AM",
+      "supports": "2024 general precinct data present now but reloaded in 2026"
+    },
+    {
+      "url": "https://hcelectioncenter.hardincountytx.gov/results/election/9/",
+      "via": "fetch_module",
+      "content_hash": "15d36c3ff42a17f4d1c6b280f66c0681a4b1d1105791567024beefd297b85045",
+      "quote": "Last Updated: April 6, 2026 - 1:27 PM",
+      "supports": "2026 Republican primary page reflects a post-canvass load"
+    },
+    {
+      "url": "https://hcelectioncenter.hardincountytx.gov/results/election/8/",
+      "via": "fetch_module",
+      "content_hash": "c3a7f539fb267272ef0e819e125274b38f95fbd37f5c93829f1cb9a22bb3d51e",
+      "quote": "Last Updated: March 26, 2026 - 2:22 PM",
+      "supports": "2026 Democratic primary page reflects a post-canvass load"
+    },
+    {
+      "url": "https://www.hardincountytx.gov/page/ElectionsDepartment",
+      "via": "fetch_module",
+      "content_hash": "e4cd246816bf69cdecd29a8ac14f38cfb30827a736c94a48b2c57388b9e89572",
+      "quote": "Official 11/5/2024 General Election; Official 3/3/2026 Republican Primary; Official 5/26/2026 Republican Primary Runoff",
+      "supports": "Official county cumulative files"
+    },
+    {
+      "url": "websearch:Hardin County Texas elections results",
+      "via": "websearch",
+      "content_hash": "a3fee058c60c16d439962507c6a8070dd6ffbfe027ef8b8eda911ebb9fcbdeae",
+      "quote": "Elections https://www.hardincountytx.gov/page/ElectionsDepartment",
+      "supports": "Located the current county site"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "HCElectionCenter election/5 now shows per-precinct votes (e.g. 'Donald Trump ... 87.7% (24,688 votes) ... 19 of 19 precincts reporting (100%)'), but races are stamped 'Last Updated: March 20, 2026' to 'March 24, 2026', so when precinct numbers first appeared is unknown. Official file: 'OFFICIAL Cumulative Results-11-18-2024' (county totals). Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "HCElectionCenter election/9 (Republican) and election/8 (Democratic) show per-precinct votes, stamped 'Last Updated: April 6, 2026 - 1:27 PM' and 'Last Updated: March 26, 2026 - 2:22 PM'; election-night state not shown. Official cumulative files dated 3-12-2026. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:15 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://hcelectioncenter.hardincountytx.gov/media/pdf/2026_may_runoff.pdf",
+      "fact": "HCElectionCenter lists the runoff as 'May 26, 2026 (PDF only)'. The PDF is 'Cumulative Results Report HARDIN COUNTY, TEXAS Unofficial Results ... REPUBLICAN & DEMOCRATIC PRIMARY RUNOFF ELECTION ... Run Time 8:41 PM Run Date 05/26/2026' with county totals by Absentee, Early and Election Day Voting; Last-Modified Wed, 27 May 2026 02:15:57 GMT (9:15 PM CDT). Only official cumulative county reports (6-4-2026) follow; no precinct numbers posted online."
+    }
+  }
+}

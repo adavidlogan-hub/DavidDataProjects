@@ -1,0 +1,86 @@
+{
+  "county": "El Paso",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/El_Paso/",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368441/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 20:52 MT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL epcountyvotes.com redirects to epcountyvotestx.gov, whose 'Election Night Reporting' link goes to results.enr.clarityelections.com/TX/El_Paso/126385/. Check 1 (Clarity update log, Mountain time): 2024 general EID 122595 has 6 election-night updates (8:52 PM to 12:29 AM MST), all with 216 precincts with nonzero candidate votes; summed precinct votes grow from 6,669,993 (6:48 PM early-vote update) to 6,837,235 (8:52 PM) and 9,190,352 (12:29 AM), so election-day votes were added at precinct level during the night. 8 early versions were unreadable (no detail file) and a 10/17/2024 update with precinct votes was a pre-election version. 2026 primary EID 125933: 6 election-night updates (7:47 PM to 1:04 AM MST), 225 to 230 precincts with votes. 2026 runoff EID 126385: 3 election-night updates (8:34 PM to 10:20 PM MDT) all with 0 precincts with votes; precinct votes first appear 5/27/2026 11:19:51 AM MDT (226 precincts), consistent with precinct values withheld on election night. Check 3 not needed.",
+  "tag_rationale": "2024 general and 2026 primary are both LIVE by check 1, so the tag is LIVE_PRECINCT with high confidence; the 2026 runoff is LATER.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 20:52 MT",
+      "precinct_first_seen": "2024-11-05 20:52 MT",
+      "night_updates_with_precinct_numbers": "6",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/352195/reports/detailxml.zip",
+      "fact": "Clarity EID 122595 'NOVEMBER 2024 GENERAL ELECTION': election-night updates at 11/5/2024 8:52:10 PM, 9:41:13 PM, 10:22:21 PM, 11:11:46 PM MST, 11/6/2024 12:00:24 AM and 12:29:44 AM MST, each with 216 precincts with nonzero votes."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 19:47 MT",
+      "precinct_first_seen": "2026-03-03 19:47 MT",
+      "night_updates_with_precinct_numbers": "6",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368441/reports/detailxml.zip",
+      "fact": "Clarity EID 125933 'MARCH 2026 PRIMARY ELECTION': election-night updates 3/3/2026 7:47:08 PM (225 precincts with votes), 9:15:55 PM (226), 9:53:42 PM (228), 10:41:02 PM (229), 11:47:21 PM (230), 3/4/2026 1:04:18 AM MST (230)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 20:34 MT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373134/reports/detailxml.zip",
+      "fact": "Clarity EID 126385 'MAY 2026 PRIMARY RUNOFF': election-night updates 5/26/2026 8:34:53 PM, 9:11:32 PM, 10:20:47 PM MDT each with 0 precincts with nonzero votes; first update with precinct votes 5/27/2026 11:19:51 AM MDT (226 precincts)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://epcountyvotes.com/",
+      "via": "fetch_module",
+      "content_hash": "1e6d5fc9f76e0798422c3db949ad6c7c4438b1fe4883a7386baf6165203d8740",
+      "quote": "Election Night Reporting (https://results.enr.clarityelections.com/TX/El_Paso/126385/)",
+      "supports": "county site links its Clarity results"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/El_Paso/122595/352195/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "b32e94064ea604cf35d3341288037fdd57c5ce87983132c985ff0dbb83650d76",
+      "quote": "Timestamp 11/5/2024 8:52:10 PM MST; 216 precincts with votes",
+      "supports": "2024_general first election-night precinct update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/El_Paso/125933/368441/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "2ecc6e6295e35d944e2ccee05dec732a299b177f896a650fa6b7df2025eed76b",
+      "quote": "Timestamp 3/3/2026 7:47:08 PM MST; 225 precincts with votes",
+      "supports": "2026_primary first election-night precinct update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373022/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "c1f5ecefce995456362c82277ccbdb293f41aee7c24e337df8dd8b163ee37c70",
+      "quote": "Timestamp 5/26/2026 8:34:53 PM MDT; 0 precincts with votes",
+      "supports": "2026_runoff election night without precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/El_Paso/126385/373134/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "8e8d48e43e4b7fb0eb85c7fe5550e8df479a1f985f68c7f67637961e8a6dd8d4",
+      "quote": "Timestamp 5/27/2026 11:19:51 AM MDT; 226 precincts with votes",
+      "supports": "2026_runoff precinct numbers after election night"
+    }
+  ]
+}

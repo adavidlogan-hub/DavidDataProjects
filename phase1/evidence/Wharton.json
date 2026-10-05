@@ -1,0 +1,79 @@
+{
+  "county": "Wharton",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.wharton.tx.us/page/wharton.ElectionsResults",
+  "platform": "county_pdfs",
+  "host": "www.co.wharton.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The Elections Results page currently lists only the May 26, 2026 runoff ('Official Election Totals', a 2-page EPSON scan with Last-Modified Mon, 15 Jun 2026 16:53:05 GMT, plus hand count audit certifications and daily check-in lists) and the May 2, 2026 city and school election. No 2024 general or 2026 primary results are listed and no election-night report remains for the runoff, so check 2 cannot decide. Check 3 pending (origin/wayback-data branch not found). Targeted pass 3 2026-10-02 (targeted3-G): Wayback harvest: co.wharton.tx.us CDX robots_disallowed_or_unreachable for all three windows (check 3 failed). Elections page and the CIRA copy of the results page (newtools.cira.state.tx.us/page/wharton.ElectionsResults) list no 2024 general or 2026 primary results and only official runoff files. One web search for third-party election-night precinct results found none. Sweep: no sweep file. No change.",
+  "tag_rationale": "No election could be determined by checks 1 and 2 (only a canvass-time runoff file remains; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Not listed on the current Elections Results page. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Not listed on the current Elections Results page. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Official Election Totals' scanned PDF, Last-Modified 15 Jun 2026; no election-night report listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.wharton.tx.us/page/wharton.ElectionsResults",
+      "via": "fetch_module",
+      "content_hash": "3d5e55c449a53204001570b6bfedeed2290c9d5205357c8898d6c6efd31a755e",
+      "quote": "May 26, 2026 Joint Primary Runoff ... Official Election Totals -- Click Here",
+      "supports": "report list"
+    },
+    {
+      "url": "https://www.co.wharton.tx.us/upload/page/7010/Primary%20Runoff%20Official%20Elections%20Results%205.26.2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "da944c1796128b11ece753bb08dd86a71a043449fd21af297f0c76c98bf66b2b",
+      "quote": "Last-Modified: Mon, 15 Jun 2026 16:53:05 GMT (EPSON Scan)",
+      "supports": "runoff official totals posted at canvass"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/page/wharton.ElectionsResults",
+      "via": "fetch_module",
+      "content_hash": "3d5e55c449a53204001570b6bfedeed2290c9d5205357c8898d6c6efd31a755e",
+      "quote": "2026 May City School Official Election Results | Primary Runoff Official Elections Results 5.26.2026 | REP/DEM 2026 Primary Runoff Summary and Certification of Post-Election Hand Count Audit Results",
+      "supports": "CIRA copy of the results page lists the same files; no 2024 general or 2026 primary results, no election-night runoff report"
+    },
+    {
+      "url": "websearch:?q=wharton%20county%20texas%20election%20results%20by%20precinct%202026%20primary",
+      "via": "websearch",
+      "content_hash": "77ab66ea67a570b0055e1c47a47246a702014458ab6bfe1ce89051660f70e6fd",
+      "quote": "no Wharton County precinct-level results; other counties' files returned",
+      "supports": "Search for check 4 or archived results pages found nothing (search text is not evidence)"
+    }
+  ]
+}

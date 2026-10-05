@@ -1,0 +1,93 @@
+{
+  "county": "Duval",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.duval.tx.us/page/duval.ElectionArchives",
+  "platform": "county_pdfs",
+  "host": "www.co.duval.tx.us",
+  "evidence_url": "https://www.co.duval.tx.us/upload/page/11353/Precinct%20Results-11-6-2024%2008-30-08%20AM.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-03-03 22:11 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). Results are PDF reports (Precinct Results Report / Cumulative Results Report, Microsoft Reporting Services) listed on the county's Election Archives page. 2024 general: 'Final Cumulative Results' (run 9:51 PM 11/05/2024, Last-Modified Wed, 06 Nov 2024 04:30:35 GMT = 10:30 PM CST) is county totals; the 'Precinct Results' report was run 8:29 AM 11/06/2024 (file name '11-6-2024 08-30-08 AM'; current Last-Modified Tue, 12 Nov 2024 14:51:33 GMT), after election night. 2026 primary: 'Precinct by Precinct Results' (file 20260309_Precinct Results.pdf) is headed 'Election day + E.V.', run 9:53 PM 03/03/2026, with Absentee, Early and Election Day columns per precinct, Last-Modified Wed, 04 Mar 2026 04:11:50 GMT (10:11 PM CST election night); only one election-night precinct report is listed. 2026 runoff: 'Run-Off Election Results' cumulative report run 8:11 PM 05/26/2026 but Last-Modified Wed, 27 May 2026 17:28:43 GMT (next day); 'Precinct by Precinct Results' run 10:56 AM 05/28/2026, Last-Modified Thu, 28 May 2026 22:12:05 GMT. Server Last-Modified values differ per file, so they are real upload times, though a replaced file hides an earlier upload. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-3): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 20:11 CT. Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "After Rule 43: 2024_general LATER, 2026_primary END, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag. Rule 47 checked 2026-10-02: no change.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 22:30 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.duval.tx.us/upload/page/11353/Precinct%20Results-11-6-2024%2008-30-08%20AM.pdf",
+      "fact": "'Precinct Results' PDF: 'Precinct Results Report ... Unofficial Results ... Run Time 8:29 AM Run Date 11/06/2024' (PDF CreationDate 6 Nov 2024 14:30 UTC). 'Final Cumulative Results' PDF: 'Cumulative Results Report DUVAL COUNTY, TEXAS Unofficial Results Run Time 9:51 PM Run Date 11/05/2024', Last-Modified Wed, 06 Nov 2024 04:30:35 GMT. Precinct numbers first available the morning after election night."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-03 22:11 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.duval.tx.us/upload/page/11353/20260309_Precinct%20Results.pdf",
+      "fact": "'Precinct by Precinct Results': 'Precinct Results Report Unofficial Results DUVAL COUNTY, TEXAS ... Election day + E.V. PRIMARY ELECTION ... Run Time 9:53 PM Run Date 03/03/2026'; precinct 1 'United States Senator - DEMOCRATIC PARTY ... James Talarico 33 ... 112 ... 67 ... 212' (Absentee, Early, Election Day, Total). Last-Modified Wed, 04 Mar 2026 04:11:50 GMT (10:11 PM CST). Rule 47: publication shown by upload time 2026-03-03 22:11 CT in 20260309_Precinct Results.pdf."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:11 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.duval.tx.us/upload/page/11353/20260528_RunoffbyPrecinct.pdf",
+      "fact": "'Precinct by Precinct Results': 'Precinct Results Report Unofficial Results primary runoff PRIMARY RUNOFF ELECTION Run Time 10:56 AM Run Date 05/28/2026', Last-Modified Thu, 28 May 2026 22:12:05 GMT. 'Run-Off Election Results': 'Cumulative Results Report DUVAL COUNTY, TEXAS Unofficial Results primary runoff Run Time 8:11 PM Run Date 05/26/2026', Last-Modified Wed, 27 May 2026 17:28:43 GMT. Rule 43: county totals first seen 2026-05-26 20:11 CT in 20260526_RunOff Election Results.pdf (printed 'Run Time 8:11 PM Run Date 05/26/2026'; county totals, 'Precincts Reporting 0 of 9', so early-vote totals only)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.duval.tx.us/page/duval.ElectionArchives",
+      "via": "fetch_module",
+      "content_hash": "3e15249d80fc794fd0adafe51d0cea7783635b6f2634d90c8a3d2ec998eb160c",
+      "quote": "Early voting Cumulative Results | Final Cumulative Results | Precinct Results | Canvass Report ... Early Voting Results | Unofficial Results | Precinct by Precinct Results ... Run-Off Election Results | Reconciliation Report | Precinct by Precinct Results",
+      "supports": "report lists for all three elections"
+    },
+    {
+      "url": "https://www.co.duval.tx.us/upload/page/11353/Precinct%20Results-11-6-2024%2008-30-08%20AM.pdf",
+      "via": "fetch_module",
+      "content_hash": "e1c9cf34e437724df705bcd2542bcfc0c766b04ad08c67b41d5b71f39dc773c5",
+      "quote": "Precinct Results Report Unofficial Results ... Run Time 8:29 AM Run Date 11/06/2024",
+      "supports": "2024_general precinct report produced after election night"
+    },
+    {
+      "url": "https://www.co.duval.tx.us/upload/page/11353/Cumulative%20Results-11-5-2024%2010-04-13%20PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "5d34a90b0e46c252c9ec7e1eac1054d1c3440b4b60a3665db517b3b29da23d4c",
+      "quote": "Cumulative Results Report DUVAL COUNTY, TEXAS Unofficial Results Run Time 9:51 PM Run Date 11/05/2024",
+      "supports": "2024_general county totals on election night"
+    },
+    {
+      "url": "https://www.co.duval.tx.us/upload/page/11353/20260309_Precinct%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "ea7b94df74824025fdc2fd0d31acf94323fdde918915c25dca24254bc8385205",
+      "quote": "Precinct Results Report ... Election day + E.V. PRIMARY ELECTION ... Run Time 9:53 PM Run Date 03/03/2026",
+      "supports": "2026_primary precinct numbers with election-day votes uploaded 10:11 PM CST"
+    },
+    {
+      "url": "https://www.co.duval.tx.us/upload/page/11353/20260526_RunOff%20Election%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "6fe6601db4318343bb74b80320f104267189de8950372d30d5d52928de5c4612",
+      "quote": "Cumulative Results Report DUVAL COUNTY, TEXAS Unofficial Results primary runoff Run Time 8:11 PM Run Date 05/26/2026",
+      "supports": "2026_runoff county totals, uploaded 27 May 2026"
+    },
+    {
+      "url": "https://www.co.duval.tx.us/upload/page/11353/20260528_RunoffbyPrecinct.pdf",
+      "via": "fetch_module",
+      "content_hash": "69d0aa2d2d9a40395a8f4d4d8027b40c5a23597c12a0c48b503a74a8a863f938",
+      "quote": "Precinct Results Report Unofficial Results primary runoff PRIMARY RUNOFF ELECTION Run Time 10:56 AM Run Date 05/28/2026",
+      "supports": "2026_runoff precinct numbers after election night"
+    }
+  ]
+}

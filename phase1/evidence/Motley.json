@@ -1,0 +1,86 @@
+{
+  "county": "Motley",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.motley.tx.us/page/motley.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.motley.tx.us",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/9607/Unofficial%20Results%2011.05.2024.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No county website in the seed list; one web search located https://www.co.motley.tx.us/page/motley.Elections. No Clarity site (elections.json 404). The Elections page links scanned PDFs (some on newtools.cira.state.tx.us, the same CMS file host). 2024 general: 'Unofficial Results 11.05.2024' is a Cumulative Results Report with county totals (Absentee / Early / Election Day), scan created Nov 6 02:49 UTC (8:49 PM CST Nov 5), Last-Modified Wed, 06 Nov 2024 02:55:32 GMT (8:55 PM CST); precinct numbers only in 'Precinct Results-11-14-2024.pdf' (canvass, not opened). 2026 primary: 'Unofficial Republican Results' (Cumulative county totals, scan created 9:23 PM CST Mar 3, Last-Modified Wed, 04 Mar 2026 03:24:13 GMT = 9:24 PM CST) and 'Unofficial Democratic Results'; no precinct report listed, only '3.12.26 Official Democrat and Republican Results'. 2026 runoff: 'Unofficial Results' is a Cumulative Results Report run 11:07 AM 05/27/2026, Last-Modified Wed, 27 May 2026 16:23:06 GMT (11:23 AM CDT May 27), county totals; then 'Official Results'. Confidence med: 2024 general and 2026 primary each have a printed time (scan CreationDate) and an upload time on election night; the runoff file was posted the next morning. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary LATER, 2026_runoff UNDETERMINED. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 20:55 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/9607/Unofficial%20Results%2011.05.2024.pdf",
+      "fact": "'Cumulative Results Report MOTLEY COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Unofficial Results', county totals by Absentee Voting / Early Voting / Election Day Voting; CreationDate Nov 6 2024 02:49 UTC; Last-Modified Wed, 06 Nov 2024 02:55:32 GMT. Precinct numbers came at canvass ('Precinct Results-11-14-2024.pdf')."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:24 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.motley.tx.us/upload/page/9607/Republican 3.26.pdf",
+      "fact": "'Unofficial Republican Results': 'MOTLEY COUNTY, TEXAS ... 3/3/2026', county totals by Absentee Voting / Early Voting / Election Day Voting, no precinct rows; CreationDate Mar 4 2026 03:23 UTC; Last-Modified Wed, 04 Mar 2026 03:24:13 GMT. No precinct report listed; precinct numbers never published online (only '3.12.26 Official Democrat and Republican Results')."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.motley.tx.us/upload/page/9607/Unofficial Results 3.26.260001.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: 'Cumulative Results Report MOTLEY COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026', Run Time 11:07 AM Run Date 05/27/2026, county totals; Last-Modified Wed, 27 May 2026 16:23:06 GMT. Nothing posted on election night; no precinct report listed."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.motley.tx.us/page/motley.Elections",
+      "via": "fetch_module",
+      "quote": "Unofficial Results; Official Results; Unofficial Democratic Results; Unofficial Republican Results; Unofficial Results 11.05.2024; Precinct Results-11-14-2024",
+      "supports": "report list",
+      "content_hash": "78971fca0dea976d5c3ad551686fa10aa7a0704fa0e0345b2bc0d570b20c38b0"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/9607/Unofficial%20Results%2011.05.2024.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report ... GENERAL ELECTION 11/5/2024 ... Unofficial Results",
+      "supports": "2024_general county totals on election night",
+      "content_hash": "b37e07129e9f4619030fb2e200256b0c1d4f1153e3eaa338883b4db9b763d5a7"
+    },
+    {
+      "url": "https://www.co.motley.tx.us/upload/page/9607/Republican 3.26.pdf",
+      "via": "fetch_module",
+      "quote": "MOTLEY COUNTY, TEXAS 3/3/2026 ... Absentee Voting Early Voting Election Day Voting",
+      "supports": "2026_primary county totals on election night",
+      "content_hash": "028f0f3b11c8af69c4fc578e8d0864feb57f31f47857821f21d68cd252263fc8"
+    },
+    {
+      "url": "https://www.co.motley.tx.us/upload/page/9607/Unofficial Results 3.26.260001.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report ... PRIMARY RUNOFF ELECTION 5/26/2026 ... Run Time 11:07 AM",
+      "supports": "2026_runoff county totals next morning",
+      "content_hash": "f97c902c2a4f337111701df45c003fdd629c9cd762acb3c749a4bafe751ab5c8"
+    },
+    {
+      "url": "websearch:?q=motley%20county%20texas%20elections%20results",
+      "via": "websearch",
+      "quote": "Elections - Motley County, Texas https://www.co.motley.tx.us/page/motley.Elections",
+      "supports": "locating only",
+      "content_hash": "31ac7010af374bd99ddbbf77ae244035904bf9bcf5a88df9c261b4bfc564be41"
+    }
+  ]
+}

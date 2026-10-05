@@ -1,0 +1,68 @@
+{
+ "county": "Freestone",
+ "reason_selected": "low confidence",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "No Clarity site (elections.json 404). Elections page (co.freestone.tx.us/page/Freestone.Elections) lists result PDFs but every result link tried returned HTTP 404 (e.g. \"EV ED BBM ELECTION TOTAL ALL0001.pdf\", \"REPUBLICAN OFFICIAL STATE.pdf\", \"CANVASS OF ELECTION0001.pdf\", also on newtools.cira.state.tx.us). Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Primary official results links (DEMOCRATIC STATE OFFICIAL RESULTS, REPUBLICAN OFFICIAL STATE) return 404; no unofficial file readable. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No readable runoff results file (links 404). Check 3 unavailable: no wayback-data folder for this county."
+  }
+ },
+ "rationale": "No election could be settled: result links on the county page return 404 and check 3 is unavailable. UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://www.co.freestone.tx.us/page/Freestone.Elections",
+   "content_hash": "1eee80ef0d5ba9beeaedd6556f0be59461d94f9052986f1c513f70e4513e2ed8",
+   "what_i_checked": "file list"
+  },
+  {
+   "url": "https://www.co.freestone.tx.us/upload/page/1902/REPUBLICAN%20OFFICIAL%20STATE.pdf",
+   "content_hash": "",
+   "what_i_checked": "HTTP 404"
+  },
+  {
+   "url": "https://www.co.freestone.tx.us/upload/page/1902/EV%20ED%20BBM%20ELECTION%20TOTAL%20ALL0001.pdf",
+   "content_hash": "",
+   "what_i_checked": "HTTP 404"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "different: verifier could not read any Freestone result file in its blind pass (all links tried returned 404) and recorded UNDETERMINED; research read 2024/unofficial_official_results_1152024.pdf. Verifier opened the cited file afterwards: Summary Results Report, UNOFFICIAL RESULTS, county totals, footer \"Election Summary - 11/05/2024 10:18 PM\", Last-Modified 06 Nov 2024 19:00 GMT (next day). The research LATER is supported (printed on election night); with it the research tag COUNTY_ONLY_PRECINCT_AT_CANVASS low follows the fixed rule. The disagreement comes from the verifier missing this file, not from a research error. blind miss corrected after opening https://www.co.freestone.tx.us/upload/page/1902/2024/unofficial_official_results_1152024.pdf myself.",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (UNDETERMINED; unofficial link 404)."
+ },
+ "blind_verdict": {
+  "verifier_tag": "UNKNOWN",
+  "verifier_confidence": "low",
+  "agree": false,
+  "elections": {
+   "2024_general": {
+    "result": "UNDETERMINED",
+    "check": "none"
+   },
+   "2026_primary": {
+    "result": "UNDETERMINED",
+    "check": "none"
+   },
+   "2026_runoff": {
+    "result": "UNDETERMINED",
+    "check": "none"
+   }
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+  "county": "Lampasas",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.lampasas.tx.us/page/lampasas.testpage2",
+  "platform": "county_pdfs",
+  "host": "www.co.lampasas.tx.us",
+  "evidence_url": "https://www.co.lampasas.tx.us/upload/page/8715/MARCH%203%202026%20PRIMARY%20RESULTS.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed https://www.co.lampasas.tx.us/ loads; Elections page is /page/lampasas.testpage2. No Clarity site (elections.json 404). Results are scanned Electionware 'Summary Results Report' PDFs (no text layer; page 1 of each was rendered and read visually). Both 2026 unofficial summaries carry printed election-night times and were uploaded on election night (Last-Modified differs per file). No precinct-by-precinct report is listed for either 2026 election, so precinct numbers are not published online. The page lists no November 5, 2024 general election results (2024 entries are the March primary, May local and May runoff only), so 2024 is check 3 pending.",
+  "tag_rationale": "2026 primary and runoff are LATER by check 2 (county summary reports only), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; both have printed run times and upload times on election night, so confidence is med.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; no November 5, 2024 results listed on the current Elections page"
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:24 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.lampasas.tx.us/upload/page/8715/MARCH%203%202026%20PRIMARY%20RESULTS.pdf",
+      "fact": "'March 3, 2026 Primary Results' (scanned, 12 pages; read visually): 'Summary Results Report TX Lampasas County 260303 Primary Election 6110 March 3, 2026 ... Unofficial ... Election Summary - 03/03/2026 8:35 PM ... Report generated with Electionware'; county totals by Absentee / Early Voting / Election Day. PDF CreationDate Wed Mar 4 03:15:51 2026 UTC; Last-Modified Wed, 04 Mar 2026 03:24:41 GMT (9:24 PM CST Mar 3). No precinct report listed for this election."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 19:54 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.lampasas.tx.us/upload/page/8715/UnoffResults2026PrimRO.pdf",
+      "fact": "'May 26, 2026 Republican and Democratic Results' (UnoffResults2026PrimRO.pdf, scanned, 2 pages; read visually): 'Summary Results Report TX Lampasas County 260526 Primary Runoff Election 6110 May 26, 2026 ... UNOFFICIAL RESULTS ... Election Summary - 05/26/2026 7:43 PM'; county totals only. Last-Modified Wed, 27 May 2026 00:54:42 GMT (7:54 PM CDT May 26). No precinct report listed."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.lampasas.tx.us/page/lampasas.testpage2",
+      "via": "fetch_module",
+      "content_hash": "4f8c170acc205811ab43e477e3efa65287dcbff64ba7f791ad3adcad707a9ed6",
+      "quote": "May 26, 2026 Republican and Democratic Results | ... | March 3, 2026 Primary Results | ... | May 28, 2024 Runoff Results | March 5, 2024 Joint Primary Results | 2022 November 8 General Election",
+      "supports": "report lists; no 2024 general entry; no precinct reports"
+    },
+    {
+      "url": "https://www.co.lampasas.tx.us/upload/page/8715/MARCH%203%202026%20PRIMARY%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "3bc2a884ce2974aa01f10eda261b7529c41ec53f55459732b4a24ad5f9fc1fed",
+      "quote": "Summary Results Report ... 260303 Primary Election ... Unofficial ... Election Summary - 03/03/2026 8:35 PM",
+      "supports": "2026_primary county totals on election night"
+    },
+    {
+      "url": "https://www.co.lampasas.tx.us/upload/page/8715/UnoffResults2026PrimRO.pdf",
+      "via": "fetch_module",
+      "content_hash": "317db767bcb069bc671e17d1cccff331e7c6f3bd7d5b8a30aa4613f8ed29b6a2",
+      "quote": "Summary Results Report ... 260526 Primary Runoff Election ... UNOFFICIAL RESULTS ... Election Summary - 05/26/2026 7:43 PM",
+      "supports": "2026_runoff county totals on election night"
+    }
+  ]
+}

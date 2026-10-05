@@ -1,0 +1,44 @@
+{
+ "county": "Throckmorton",
+ "reason_selected": "low confidence",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Seed list has no website; throckmortoncounty.org/page/throckmorton.elections lists no 2024 results. No wayback folder for this county, check 3 pending."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No primary results file listed. No wayback folder for this county, check 3 pending."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: Link \"ELECTION NIGHT RETURNS Republican and Democrat\" opens 52626OfficialResults.pdf (scanned): page 1 Preliminary Election Reconciliation, pages 2 and 3 \"Cumulative Results Report ... THROCKMORTON COUNTY ... PRIMARY RUNOFF ELECTION\", county totals only; CreationDate 1 Jun 2026 15:16 UTC; Last-Modified Mon 01 Jun 2026 14:21:08 GMT. No precinct numbers posted. Check 3 pending (no wayback folder)."
+  }
+ },
+ "rationale": "No election is determined. The runoff file linked as \"ELECTION NIGHT RETURNS\" is a scan created and uploaded June 1, 2026, county totals only; no election-night time. Tag UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://www.throckmortoncounty.org/page/throckmorton.elections",
+   "content_hash": "50d8e6983687af52635e63551705dfb3a6cc82cfc0f1f5ad5fe9c2fa6c53f507",
+   "what_i_checked": "results list"
+  },
+  {
+   "url": "https://www.throckmortoncounty.org/upload/page/10021/52626OfficialResults.pdf",
+   "content_hash": "6f85017bdbdf167f448f620760e2ff5f1ca758776621a62ffc8df83dcc97d08d",
+   "what_i_checked": "runoff county totals, uploaded 1 Jun 2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "different: research LATER, mine UNDETERMINED. Same file (52626OfficialResults.pdf, county totals, ModDate and Last-Modified 1 Jun 2026); no election-night time, so UNDETERMINED under the clarified rule. Research LATER not supported under the current rule."
+ }
+}

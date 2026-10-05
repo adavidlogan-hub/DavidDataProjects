@@ -1,0 +1,20 @@
+name: wayback-connectivity
+# Connectivity check: can a GitHub-hosted runner reach the Wayback Machine CDX API?
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/tx-precinct-pipeline]
+    paths: [.github/workflows/wayback-connectivity.yml]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: CDX query for harrisvotes.com, Nov 2024 election night window (UTC)
+        run: |
+          curl -sS -m 60 -A "TXPrecinctTimingResearch/0.1 (+internal research)" -w "\nHTTP %{http_code} in %{time_total}s\n" \
+            "https://web.archive.org/cdx/search/cdx?url=harrisvotes.com&matchType=domain&from=20241106010000&to=20241106090000&fl=timestamp,original,statuscode&limit=15"
+      - name: Snapshot replay check
+        run: |
+          curl -sS -m 60 -o /dev/null -w "replay HTTP %{http_code} in %{time_total}s\n" \
+            "https://web.archive.org/web/20241105170433id_/https://www.harrisvotes.com/"

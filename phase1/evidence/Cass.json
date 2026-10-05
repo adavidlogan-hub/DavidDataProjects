@@ -1,0 +1,86 @@
+{
+  "county": "Cass",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.cass.tx.us/page/cass.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.cass.tx.us",
+  "evidence_url": "https://www.co.cass.tx.us/upload/page/1176/Precinct%20Results-3-6-2026%2008-07-21%20AM.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.co.cass.tx.us/default.aspx?Cass_County/Elections replaced by https://www.co.cass.tx.us/page/cass.Elections (County Clerk). Older files are linked on newtools.cira.state.tx.us (same CIRA hosting). No Clarity or vendor results site found. Last-Modified headers differ per file and look like real upload times. Two scanned PDFs (2024 unofficial, runoff Rep) were read visually from rendered images. Precinct-by-precinct files are posted days after each election; no election-night precinct numbers found for any of the three. No upload on any election night was found, so confidence stays low. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED; 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-19",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/1176/2024/november_2025_general_election_precinct_by_precinct_results.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: The only unofficial 2024 general file, 'UNOFFICIAL RESULTS NOVEMBER 5, 2024' (unofficial_results.pdf), is a scanned 'Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION CASS County' with county totals only; Last-Modified Wed, 06 Nov 2024 14:48:39 GMT (8:48 AM CST Nov 6). Precinct numbers appear only in 'NOVEMBER 2024 PRECINCT RESULTS', a 'Precinct Results Report Official Results' with 'Run Date 11/15/2024', Last-Modified Tue, 19 Nov 2024 17:11:04 GMT."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-06 09:38 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.cass.tx.us/upload/page/1176/Precinct%20Results-3-6-2026%2008-07-21%20AM.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: 'Unofficial Democratic and Republican Precinct by Precinct Results' is a 'Precinct Results Report Unofficial Results CASS COUNTY, TEXAS PRIMARY ELECTION MARCH 3, 2026' with 'Run Time 8:04 AM Run Date 03/06/2026', Last-Modified Fri, 06 Mar 2026 15:38:35 GMT (9:38 AM CST Mar 6), three days after election night. No other unofficial primary results file is on the page."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:09 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.cass.tx.us/upload/page/1176/runoffrep.pdf",
+      "fact": "'PRIMARY RUNOFF ELECTION- Republican' (runoffrep.pdf, scanned) is a county-total 'Unofficial Results' summary with printed 'Run Time 8:09 PM Run Date 05/26/2026' (as read from the scan), Last-Modified Wed, 27 May 2026 19:57:01 GMT (2:57 PM CDT May 27). No per-precinct runoff results file is posted on the page."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.cass.tx.us/page/cass.Elections",
+      "via": "fetch_module",
+      "content_hash": "365e8f7ce8c13f978988550490d6c8e14dfdfb6555b7a5b95a74d669d2e14112",
+      "quote": "Unofficial Democratic and Republican Precinct by Precinct Results; PRIMARY RUNOFF ELECTION- Republican; UNOFFICIAL RESULTS NOVEMBER 5, 2024; NOVEMBER 2024 PRECINCT RESULTS",
+      "supports": "County clerk elections page listing result files"
+    },
+    {
+      "url": "https://www.co.cass.tx.us/upload/page/1176/Precinct%20Results-3-6-2026%2008-07-21%20AM.pdf",
+      "via": "fetch_module",
+      "content_hash": "b2e6bbe0828127f09c34a4d7b20a13ebe54d05aabe3670f9edeca3f6e41b0326",
+      "quote": "Precinct Results Report Unofficial Results CASS COUNTY, TEXAS ... Run Time 8:04 AM ... Run Date 03/06/2026",
+      "supports": "Primary precinct numbers first posted Mar 6 (Last-Modified 2026-03-06 15:38:35 GMT)"
+    },
+    {
+      "url": "https://www.co.cass.tx.us/upload/page/1176/runoffrep.pdf",
+      "via": "fetch_module",
+      "content_hash": "edc4b0cbf880dde7280f14b32199e253a02ccccf84e019b112ab327685399c85",
+      "quote": "REPUBLICAN PRIMARY RUNOFF ... Run Time 8:09 PM Run Date 05/26/2026 ... Unofficial Results (scanned image, read visually)",
+      "supports": "Runoff county totals; Last-Modified 2026-05-27 19:57:01 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1176/2024/unofficial_results.pdf",
+      "via": "fetch_module",
+      "content_hash": "7a963ba8ceb0486661d9c1f7e745942da533d5844471b76b72fac44110ad2171",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 CASS County (scanned image, read visually)",
+      "supports": "2024 unofficial county totals; Last-Modified 2024-11-06 14:48:39 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/1176/2024/november_2025_general_election_precinct_by_precinct_results.pdf",
+      "via": "fetch_module",
+      "content_hash": "0615b19632ada7878fec375edc519167b6a54e63279ac1f68c524be5c47a2b3c",
+      "quote": "Precinct Results Report Official Results CASS COUNTY, TEXAS ... Run Date 11/15/2024",
+      "supports": "2024 precinct numbers first posted Nov 19 2024"
+    }
+  ]
+}

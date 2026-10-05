@@ -1,0 +1,86 @@
+{
+  "county": "Kleberg",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.kleberg.tx.us/page/kleberg.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.kleberg.tx.us",
+  "evidence_url": "https://www.co.kleberg.tx.us/upload/page/6346/Republican%20Unofficial%20Precinct%20Summary%20Results%20May%2026%20%202026%20Primary%20Runoff.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL redirects to the CIRA page /page/kleberg.Elections, which lists all results PDFs. No Clarity site (elections.json 404). All fetched results PDFs are scanned images without text or PDF dates, so contents are read from titles and upload times from Last-Modified (values differ per file, so meaningful). 2026 runoff: county summary uploaded on election night, unofficial precinct reports uploaded 2 Jun 2026. 2026 primary: only summary reports listed. 2024 general: only summary, official and canvass reports listed (the election-night upload, if any, is not visible now). Check 3 pending for any election-night posting not listed now. Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so that is the tag.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.kleberg.tx.us/upload/page/6346/Updated%20unoffical%20summary%20report%2011052024.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: Elections page lists for Nov 5 2024: 'EL45A Updated Unofficial Summary Report with Provisionals' (Last-Modified Thu, 14 Nov 2024 16:04:03 GMT), 'EL45A Official Summary Report', and 'Texas Secretary of State Canvass Report General Election Nov. 5, 2024'. No unofficial precinct report is listed; precinct-level numbers appear only in post-election canvass material."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:06 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.kleberg.tx.us/upload/page/6346/03032026%20JPE.pdf",
+      "fact": "Elections page lists 'Election Day Summary Report Unofficial Results JPE 03/03/2026' (03032026 JPE.pdf, scanned, Last-Modified Wed, 04 Mar 2026 03:06:32 GMT = 9:06 PM CST Mar 3), 'Early Voting Election Summary Report Unofficial Results' and 'Election Day Summary Report Official Results'. No precinct report is listed for this election, so precinct numbers are not published online."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:47 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.kleberg.tx.us/upload/page/6346/Republican%20Unofficial%20Precinct%20Summary%20Results%20May%2026%20%202026%20Primary%20Runoff.pdf",
+      "fact": "'Unofficial Primary Runoff Election May 26, 2026 Results' summary (scanned) Last-Modified Wed, 27 May 2026 01:47:31 GMT (8:47 PM CDT May 26). 'Republican Unofficial Precinct Summary Results May 26, 2026 Runoff' (scanned) Last-Modified Tue, 02 Jun 2026 15:59:50 GMT, after election night; Democratic precinct report and 'Official Precinct Summary Results Report' also listed."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.kleberg.tx.us/page/kleberg.Elections",
+      "via": "fetch_module",
+      "content_hash": "a90268428b7e4bd69c308c9a7f14d1b3da93bde67c7812005b44c2e3e6da8f71",
+      "quote": "Republican Unofficial Precinct Summary Results May 26, 2026 Runoff | Unofficial Primary Runoff Election May 26, 2026 Results | lection Day Summary Report Unofficial Results JPE 03/03/2026 | EL45A Updated Unofficial Summary Report with Provisionals Nov.5, 2024 Election",
+      "supports": "report lists for all three elections"
+    },
+    {
+      "url": "https://www.co.kleberg.tx.us/upload/page/6346/Republican%20Unofficial%20Precinct%20Summary%20Results%20May%2026%20%202026%20Primary%20Runoff.pdf",
+      "via": "fetch_module",
+      "content_hash": "a3175ecf653d7fdcb7513deff783882e72cbb691dce1f3273b202ca4e4b01bab",
+      "quote": "scanned PDF, 6 pages, no metadata; Last-Modified Tue, 02 Jun 2026 15:59:50 GMT",
+      "supports": "2026_runoff precinct numbers posted after election night"
+    },
+    {
+      "url": "https://www.co.kleberg.tx.us/upload/page/6346/Primary%20Runoff%20May%2026%202026%20Sumary%20Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "ec2898f3b36722cebf6df0d4104714bc0c248daab7df83a69f6cb6f3ec14e9b7",
+      "quote": "scanned PDF, 2 pages; Last-Modified Wed, 27 May 2026 01:47:31 GMT",
+      "supports": "2026_runoff county summary on election night"
+    },
+    {
+      "url": "https://www.co.kleberg.tx.us/upload/page/6346/03032026%20JPE.pdf",
+      "via": "fetch_module",
+      "content_hash": "9efe76618c1f3c9baeda4d9aeedc8990970cd0ff816f2c330ea62fa5930f3032",
+      "quote": "scanned PDF, 19 pages; Last-Modified Wed, 04 Mar 2026 03:06:32 GMT",
+      "supports": "2026_primary election-day summary on election night"
+    },
+    {
+      "url": "https://www.co.kleberg.tx.us/upload/page/6346/Updated%20unoffical%20summary%20report%2011052024.pdf",
+      "via": "fetch_module",
+      "content_hash": "462fefbe8d1784fc229bb882f20f143529b6ef58b8d033e338659caa307e86f7",
+      "quote": "scanned PDF, 4 pages; Last-Modified Thu, 14 Nov 2024 16:04:03 GMT",
+      "supports": "2024 unofficial summary (updated with provisionals)"
+    }
+  ]
+}

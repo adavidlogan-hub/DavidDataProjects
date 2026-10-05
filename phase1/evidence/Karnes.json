@@ -1,0 +1,79 @@
+{
+  "county": "Karnes",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.karnes.tx.us/page/karnes.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.karnes.tx.us",
+  "evidence_url": "https://www.co.karnes.tx.us/upload/page/1033/5.26.2026%20Republican%20Unofficial.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL redirects to https://www.co.karnes.tx.us/; the Elections page posts Hart PDF reports per election. No Clarity link. 2026 runoff: 'REPUBLICAN' and 'DEMOCRAT' unofficial files (scanned Hart 'Cumulative Results Report ... Unofficial Results ... Run Time 8:35 PM Run Date 05/26/2026', county totals; Republican Last-Modified Wed, 27 May 2026 01:55:23 GMT = 8:55 PM CDT), later 'PRECINCT REPORT - REP' ('Official Results', Run Date 06/05/2026, Last-Modified Fri, 05 Jun 2026 17:50:58 GMT). 2026 primary: only official cumulative files and 'Republican Primary Precinct Results 03.03.2026' ('Official Results', Run Date 03/23/2026, Last-Modified Mon, 23 Mar 2026 20:05:06 GMT); no unofficial or election-night file. 2024 general: only 'Official Results 11.5.2024'. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "Only the 2026 runoff is determined (LATER: county totals on election night, precinct numbers only in the official June report), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low as the rule requires for one determined election.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.co.karnes.tx.us/page/karnes.Elections",
+      "via": "fetch_module",
+      "content_hash": "bfc54287a31c07375c8d07db037822b9b76a56f5e184ce8f0804872b002cca18",
+      "quote": "5.26.2026 Republican Unofficial.pdf; 5.26.2026 PRECINCT REPORT.pdf; Republican Primary Precinct Results 03.03.2026.pdf; Official Results 11.5.2024.pdf",
+      "supports": "Results files listed per election"
+    },
+    {
+      "url": "https://www.co.karnes.tx.us/upload/page/1033/5.26.2026%20Republican%20Unofficial.pdf",
+      "via": "fetch_module",
+      "content_hash": "a1069983dd462580438f719adf83990eebfa245b17e820e578b2e0bec4e30158",
+      "quote": "Cumulative Results Report KARNES COUNTY, TEXAS PRIMARY RUNOFF ELECTION ... Unofficial Results ... Run Time 8:35 PM",
+      "supports": "Runoff county totals on election night"
+    },
+    {
+      "url": "https://www.co.karnes.tx.us/upload/page/1033/5.26.2026%20PRECINCT%20REPORT.pdf",
+      "via": "fetch_module",
+      "content_hash": "d1af58322f0cb3ac2d42e9fee5549a6012f3ce2c3eb8318bc395b6485bca3977",
+      "quote": "PRECINCT REPORT - REP Official Results KARNES COUNTY, TEXAS ... Run Date 06/05/2026",
+      "supports": "Runoff precinct numbers posted after canvass"
+    },
+    {
+      "url": "https://www.co.karnes.tx.us/upload/page/1033/Republican%20Primary%20Precinct%20Results%2003.03.2026.pdf",
+      "via": "fetch_module",
+      "content_hash": "113215f3f6a3164a4ba13976fa740ff9947c1212133082c0340278d8334801e5",
+      "quote": "Precinct Results Report Official Results KARNES COUNTY, TEXAS ... PRIMARY ELECTION ... Run Date 03/23/2026",
+      "supports": "Primary precinct file is official"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'Official Results 11.5.2024' is posted; what was published on election night is not shown. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only official files are posted ('Official Results Republican 03.03.2026', 'Republican Primary Precinct Results 03.03.2026' with Run Date 03/23/2026, Last-Modified Mon, 23 Mar 2026 20:05:06 GMT); no election-night file survives. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:55 CT",
+      "precinct_first_seen": "2026-06-05 12:50 CT (official, upload)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.karnes.tx.us/upload/page/1033/5.26.2026%20Republican%20Unofficial.pdf",
+      "fact": "'Cumulative Results Report KARNES COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Unofficial Results ... Run Time 8:35 PM Run Date 05/26/2026 ... Ken Paxton 40 211 316 567' (county totals), Last-Modified Wed, 27 May 2026 01:55:23 GMT. Precinct numbers first appear in 'PRECINCT REPORT - REP Official Results' (Run Date 06/05/2026), Last-Modified Fri, 05 Jun 2026 17:50:58 GMT."
+    }
+  }
+}

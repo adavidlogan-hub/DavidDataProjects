@@ -1,0 +1,72 @@
+{
+  "county": "DeWitt",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.dewitt.tx.us/page/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.dewitt.tx.us",
+  "evidence_url": "https://www.co.dewitt.tx.us/upload/page/0091/May%2026,%202026%20Primary%20Runoff/Precinct%20Results-5-26-2026%2008-33-22%20PM%20ED%20PRCT%20REPORT.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2026-05-26 20:42 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.dewitt.tx.us/ works over https (first attempts were refused after a robots.txt connection reset during proxy relay failures; it loaded after the retry window). No Clarity or vendor link; page links the SOS 'Texas Election Results'. Hart reports; file names carry the tabulator export time. Last-Modified values differ per file and look like real upload times. The May 2, 2026 school election shows the same pattern (unofficial precinct report printed 8:06 PM on election night). 2024 general and 2026 primary undetermined (check 3 pending; wayback-data branch not on origin). Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "Only the 2026 runoff is determined (END, check 2: one election-night precinct report printed 8:33 PM and uploaded 8:42 PM). With exactly one election determined the tag is PRECINCT_END_OF_NIGHT with low confidence. Rule 47 checked 2026-10-02: no change.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The page lists 'Cumulative' and 'Precinct' reports for Nov 5, 2024; the Precinct report (88 pages, scanned) has PDF CreationDate 2025-01-06 and Last-Modified Mon, 06 Jan 2025 15:43:27 GMT, so it is a later posting and does not show what was available on election night. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only official files remain for the March 3, 2026 primary ('DEMOCRAT CUMULATIVE OFFICIAL RESULTS-3-18-2026 11-34-36 AM.pdf', 'REPUBLICAN CUMULATIVE OFFICIAL RESULTS-3-18-2026 ...', reconciliation forms); nothing shows what was posted on election night. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:32 CT",
+      "precinct_first_seen": "2026-05-26 20:42 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.dewitt.tx.us/upload/page/0091/May%2026,%202026%20Primary%20Runoff/Precinct%20Results-5-26-2026%2008-33-22%20PM%20ED%20PRCT%20REPORT.pdf",
+      "fact": "'Unofficial Precinct Results' (Precinct Results-5-26-2026 08-33-22 PM ED PRCT REPORT.pdf) is a 23-page Hart 'Precinct Results Report Unofficial Results DE WITT COUNTY, TEXAS ... PRIMARY RUNOFF ELECTION ... Run Time 8:33 PM Run Date 05/26/2026' with per-precinct votes including Election Day Voting (precinct 101: Vikki Goodwin 18 = 5 absentee, 11 early, 2 election day). PDF CreationDate 2026-05-27 01:33:32 UTC; Last-Modified Wed, 27 May 2026 01:42:23 GMT (8:42 PM CDT). It is the only unofficial precinct file for the runoff; the matching 'Unofficial Cumulative Results' is named '... 08-32-49 PM ED REPORT'. Official precinct results followed. Rule 47: publication shown by upload time 2026-05-26 20:42 CT in Precinct Results-5-26-2026 08-33-22 PM ED PRCT REPORT.pdf."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.dewitt.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "fe55328ca0fb1340daef1b51d20179453f622d7850bf97b03c577cadcbee760b",
+      "quote": "Unofficial Cumulative Results; Unofficial Precinct Results; Official Precinct Results; Official Cumulative Results - Republican; November 5 2024 General Election Precinct Report",
+      "supports": "Elections page result links"
+    },
+    {
+      "url": "https://www.co.dewitt.tx.us/upload/page/0091/May%2026,%202026%20Primary%20Runoff/Precinct%20Results-5-26-2026%2008-33-22%20PM%20ED%20PRCT%20REPORT.pdf",
+      "via": "fetch_module",
+      "content_hash": "e5a258439163f664843e974e3f5b95394421ba38a1759b92a4f178e73ccbd596",
+      "quote": "Precinct Results Report Unofficial Results DE WITT COUNTY, TEXAS ... PRIMARY RUNOFF ELECTION Run Time 8:33 PM Run Date 05/26/2026",
+      "supports": "Runoff precinct numbers uploaded 2026-05-27 01:42:23 GMT"
+    },
+    {
+      "url": "https://www.co.dewitt.tx.us/upload/page/0091/November%205,%202024%20General%20Election/November%205%202024%20General%20Election%20Precinct%20Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "d4d6cec4e56577b44be614dbb24f6fe5b93caab10a556a4bb7b49e450387105a",
+      "quote": "November 5 2024 General Election Precinct Report (scanned, CreationDate 2025-01-06)",
+      "supports": "2024 precinct report posted Jan 2025"
+    }
+  ]
+}

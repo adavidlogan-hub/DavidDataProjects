@@ -1,0 +1,79 @@
+{
+  "county": "Coke",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.coke.tx.us/page/coke.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.coke.tx.us",
+  "evidence_url": "https://www.co.coke.tx.us/upload/page/0177/RUNOFF%20UNOFFICIAL%20RESULTS%202026.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.coke.tx.us/ works over https. No Clarity or vendor site; page also links the SOS 'Texas Election Night Reporting'. All three election-night files are scanned Hart cumulative (county total) reports, read visually; Last-Modified values differ per file and match the PDF scan times. Precinct-level reports were not found for these elections (the county posted a 'PRECINCT RESULTS REPORT-OFFICIAL TOTALS' only for Nov 2025). Official result files posted after the canvass were not opened. 2024 run time vs upload time mismatch noted in that election's fact.",
+  "tag_rationale": "All three elections are LATER (check 2: county totals only on election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS. Confidence med because the 2026 primary and runoff each have a printed run time and a server upload time on election night.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 20:37 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.coke.tx.us/upload/page/0177/2024%20Election/General%20Election%20Results.pdf",
+      "fact": "'General Results' is a scanned Hart 'Cumulative Results Report OFFICIAL ELECTION RESULTS COKE COUNTY, TEXAS GENERAL ELECTION 11/5/2024 ... Unofficial Results' with county totals by vote type only, printed 'Run Time 9:08 PM Run Date 11/05/2024'. Last-Modified Wed, 06 Nov 2024 02:37:37 GMT (8:37 PM CST), PDF CreationDate 02:28:45 UTC. The printed time is later than the upload time, which suggests the tabulator clock was still on daylight time (9:08 PM CDT = 8:08 PM CST). No precinct-level 2024 general file is listed for election night."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:08 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.coke.tx.us/upload/page/0177/Unofficial%20Results.pdf",
+      "fact": "'UNOFFICIAL RESULTS DEMOCRAT & REPUBLICAN' (Unofficial Results.pdf) is an 18-page scanned Hart 'Cumulative Results Report ELECTION RESULTS COKE COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 Unofficial Results' with county totals by Absentee, Early, Election Day only, 'Run Time 8:28 PM Run Date 03/03/2026'. Last-Modified Wed, 04 Mar 2026 03:08:18 GMT (9:08 PM CST). No precinct report for the primary is listed on the page."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:33 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.coke.tx.us/upload/page/0177/RUNOFF%20UNOFFICIAL%20RESULTS%202026.pdf",
+      "fact": "'UNOFFICIAL PRIMARY RUNOFF ELECTION RESULTS DEMOCRATIC & REPUBLICAN' is a scanned Hart 'Cumulative Results Report ELECTION RESULTS COKE COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 Unofficial Results' with county totals only, 'Run Time 7:56 PM Run Date 05/26/2026'. Last-Modified Wed, 27 May 2026 01:33:54 GMT (8:33 PM CDT). No precinct report for the runoff is listed on the page."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.coke.tx.us/page/coke.Elections",
+      "via": "fetch_module",
+      "content_hash": "c1854c34a214dc3e4f095989f2485da78df9c99e0016e44d96892cc5b70289a3",
+      "quote": "UNOFFICIAL PRIMARY RUNOFF ELECTION RESULTS DEMOCRATIC & REPUBLICAN; OFFICIAL PRIMARY RUNOFF ELECTION RESULTS; UNOFFICIAL RESULTS DEMOCRAT & REPUBLICAN; General Results; General Election Official Results",
+      "supports": "Elections page result links"
+    },
+    {
+      "url": "https://www.co.coke.tx.us/upload/page/0177/RUNOFF%20UNOFFICIAL%20RESULTS%202026.pdf",
+      "via": "fetch_module",
+      "content_hash": "f757db307f983d3a29ae8e61ca053304a739819c77e7ebd33fbaedffdc4709d9",
+      "quote": "Cumulative Results Report ... PRIMARY RUNOFF ELECTION 5/26/2026 ... Run Time 7:56 PM (scanned image, read visually)",
+      "supports": "Runoff county totals uploaded 2026-05-27 01:33:54 GMT"
+    },
+    {
+      "url": "https://www.co.coke.tx.us/upload/page/0177/Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "10b2d3daf3b6af19e2e14624cc8245597e324a92afcb629a00720aaaa266057a",
+      "quote": "Cumulative Results Report ... PRIMARY ELECTION 3/3/2026 ... Run Time 8:28 PM (scanned image, read visually)",
+      "supports": "Primary county totals uploaded 2026-03-04 03:08:18 GMT"
+    },
+    {
+      "url": "https://www.co.coke.tx.us/upload/page/0177/2024%20Election/General%20Election%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "a4f4444e7b0d0e5161a7558df98a7e02d6b30ab8f10148cb844d30eabfceefa3",
+      "quote": "Cumulative Results Report OFFICIAL ELECTION RESULTS ... GENERAL ELECTION 11/5/2024 ... Run Time 9:08 PM (scanned image, read visually)",
+      "supports": "2024 county totals uploaded 2024-11-06 02:37:37 GMT"
+    }
+  ]
+}

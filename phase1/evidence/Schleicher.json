@@ -1,0 +1,93 @@
+{
+  "county": "Schleicher",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.schleicher.tx.us/page/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.schleicher.tx.us",
+  "evidence_url": "https://www.co.schleicher.tx.us/upload/page/0086/UNOFFICIAL RESULTS.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No seed website; the county site is www.co.schleicher.tx.us (2026 Elections page and Past Elections archive). Archive links point to www.schleichercounty.gov, which returned HTTP 403 to the fetch module at first (this sandbox's egress block (body 'Host not in allowlist: www.schleichercounty.gov. Add this host to your network egress settings to allow access.'), not a county response; on 2026-10-03 it loads); the same upload path on www.co.schleicher.tx.us served the 2024 file. No Clarity site (elections.json 404). Server Last-Modified values differ by file and follow the PDF creation times, so upload times are usable. Only SOS county-total reports are posted; no precinct-by-precinct results for any target election. Confidence med follows the pilot practice (Hudspeth): the 2024 report has both a PDF creation time and an election-night upload; the runoff reports were uploaded the next morning. Check 3 pending for the 2026 primary (wayback-data branch not found on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 19:32 CT. Targeted pass 4 2026-10-03 (targeted4-K): no election changed. The archive link as written, http://www.schleichercounty.gov/upload/page/0086/UNOFFICIAL RESULTS.pdf (earlier HTTP 403 twice for research-7 was this sandbox's egress block (body 'Host not in allowlist: www.schleichercounty.gov. Add this host to your network egress settings to allow access.'), not a county response), now loads: same bytes as the www.co.schleicher.tx.us copy (hash 3ebc52a6...), Last-Modified Wed, 06 Nov 2024 03:22:22 GMT (9:22 PM CST Nov 5) on the county's other host too. Confirms 2024_general LATER. 1 fetch (cache).",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary UNDETERMINED, 2026_runoff LATER. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 21:22 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.schleicher.tx.us/upload/page/0086/UNOFFICIAL RESULTS.pdf",
+      "fact": "Past Elections, 'General Election for County Officers - November 5, 2024 ... Election Results: UNOFFICIAL ELECTION NIGHT RESULTS' = SOS 'Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 SCHLEICHER County' (county totals by Early Voting By Mail / In Person / Election Day; image PDF read visually); PDF CreationDate Wed Nov 6 02:38:54 2024 UTC (8:38 PM CST), Last-Modified Wed, 06 Nov 2024 03:22:22 GMT (9:22 PM CST Nov 5). No precinct results are posted for 2024 (never published online as far as the site shows)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 primary results on the 2026 Elections page or the Past Elections page. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 19:32 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.schleicher.tx.us/upload/page/0086/UNOFFICIAL REP RESULTS.pdf",
+      "fact": "'Democrat Unofficial Results' and 'Republican Unofficial Results' = SOS 'Election Unofficial Results Report 2026 ... PRIMARY RUNOFF ELECTION May 26, 2026 SCHLEICHER County', county totals (read visually); Democratic CreationDate Wed May 27 00:32:47 2026 UTC (7:32 PM CDT), Last-Modified Wed, 27 May 2026 14:28:27 GMT; Republican CreationDate and Last-Modified Wed, 27 May 2026 14:31-14:32 GMT (9:32 AM CDT May 27). No precinct results are posted. Rule 43: county totals first seen 2026-05-26 19:32 CT in Unofficial DEM 5-26-26 Runoff Results.pdf (PDF CreationDate Wed May 27 00:32:47 2026 UTC = 7:32 PM CDT May 26; no precinct results posted)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.schleicher.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "58067cd34a397878154d5c04bb3a9042f877e7dd8d454c13bc77d4a1d1501345",
+      "quote": "Democrat Unofficial Results; Republican Unofficial Results; Post Election Hand Count Audit",
+      "supports": "2026 runoff postings"
+    },
+    {
+      "url": "https://www.co.schleicher.tx.us/page/Elections.Archive",
+      "via": "fetch_module",
+      "content_hash": "6ba79192d234ddc8a4d2d04eae5adaccc6ac5d7f43c86d0a00753d0c4d729c18",
+      "quote": "General Election for County Officers - November 5, 2024 ... Election Results UNOFFICIAL ELECTION NIGHT RESULTS",
+      "supports": "2024 posting"
+    },
+    {
+      "url": "https://www.co.schleicher.tx.us/upload/page/0086/UNOFFICIAL RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "3ebc52a609595c534aeb43f5419b398f9a2e58b0dfbc0f01f3a01a75a5e615f0",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 SCHLEICHER County (image PDF, read visually)",
+      "supports": "2024 night report is county totals, uploaded 9:22 PM"
+    },
+    {
+      "url": "https://www.co.schleicher.tx.us/upload/page/0086/Unofficial DEM 5-26-26 Runoff Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "91609bc55ce34d3dc203d6f1e9c5d270164e10444444163cb521a21bd3169109",
+      "quote": "Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY RUNOFF ELECTION May 26, 2026 SCHLEICHER County (read visually)",
+      "supports": "Runoff Democratic county totals"
+    },
+    {
+      "url": "https://www.co.schleicher.tx.us/upload/page/0086/UNOFFICIAL REP RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "01a3586d72ec54f330712fd1041f7fdedbc22addc864d0f2fd8ed899669510ac",
+      "quote": "COUNTY COMMISSIONER PRECINCT 2 JASON PORTER 4 35 18 39 57",
+      "supports": "Runoff Republican county totals, uploaded May 27"
+    },
+    {
+      "url": "http://www.schleichercounty.gov/upload/page/0086/UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "3ebc52a609595c534aeb43f5419b398f9a2e58b0dfbc0f01f3a01a75a5e615f0",
+      "quote": "HTTP 200, application/pdf, Last-Modified Wed, 06 Nov 2024 03:22:22 GMT (byte-identical to the www.co.schleicher.tx.us copy; image PDF, CreationDate Wed Nov 6 02:38:54 2024 UTC)",
+      "supports": "confirms 2024_general LATER: the archive link as written serves the same county-totals report uploaded 9:22 PM CST election night; earlier 403s (research-7) were the sandbox block"
+    }
+  ]
+}

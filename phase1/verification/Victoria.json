@@ -1,0 +1,64 @@
+{
+ "county": "Victoria",
+ "reason_selected": "tag LIVE_PRECINCT",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 122848 linked (\"Election Returns\") from victoriacountytx.gov/234/Elections-Historical-Archive (vctxelections.org redirects there); Region Victoria, ElectionDate 11/5/2024. v351128 \"7:53:10 PM CST\" Absentee/Mail only; v351371 \"8:17:50 PM CST\" Election Day votes in 35 precincts (<Precinct name=\"2\" votes=\"6\">), then 8:35:30, 8:51:56, 9:56:45 PM. Four distinct releases."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 126049 (\"Election Night Reporting\" on victoriacountytx.gov/228/Election-Results); Region Victoria, ElectionDate 3/3/2026. v368460 \"8:58:31 PM CST\" 35 precincts with Election Day votes; v368488 \"9:38:47 PM CST\" larger sum. Two releases."
+  },
+  "2026_runoff": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 126376 (\"Election Night Reporting - Unofficial Results 8:51 pm\"); Region Victoria, ElectionDate 5/26/2026. v372961 \"8:07:39 PM CDT\" 33 precincts with Election Day votes (Ken Paxton, <Precinct name=\"2\" votes=\"23\">); v372992 \"8:48:46 PM CDT\" 34. Two releases."
+  }
+ },
+ "rationale": "All three elections LIVE from check 1, so LIVE_PRECINCT, high.",
+ "sources": [
+  {
+   "url": "https://www.victoriacountytx.gov/228/Election-Results",
+   "content_hash": "b56a90d8d77cf8eb6493e8918a5f7f200d386872d25e975a4249e2360476f878",
+   "what_i_checked": "links to EIDs 126376 and 126049"
+  },
+  {
+   "url": "https://www.victoriacountytx.gov/234/Elections-Historical-Archive",
+   "content_hash": "fcc962f8d9edfbdc3b50e178936e40bfa032abe03783797a3d671e083ccb21e0",
+   "what_i_checked": "link to EID 122848"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/351128/reports/detailxml.zip",
+   "content_hash": "b1fe19f9decca1cdd32346422be5c698e8b5dca3480e5d4d62cb9831b9d27d63",
+   "what_i_checked": "opened: 7:53:10 PM CST"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/351371/reports/detailxml.zip",
+   "content_hash": "39ac887a373b05749e0b3618aef4ac80cc3e068ab75d3c0794c9a767d8e9174e",
+   "what_i_checked": "opened: 8:17:50 PM CST"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368460/reports/detailxml.zip",
+   "content_hash": "28e131e57baecd7a871b3965959447118ca6110ebe1b944bfbbd532c99339602",
+   "what_i_checked": "opened: 8:58:31 PM CST"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Victoria/126376/372961/reports/detailxml.zip",
+   "content_hash": "2ca9edf830c2ccbb6540a412195b6cb14bb0155e7fac5caadfef7228a49f9e02",
+   "what_i_checked": "opened: 8:07:39 PM CDT"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:22:42Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE).",
+  "2026_primary": "same (LIVE).",
+  "2026_runoff": "same (LIVE)."
+ }
+}

@@ -1,0 +1,345 @@
+{
+  "county": "Lamar",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122497",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "346053",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/346053/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346124",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/346124/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347537",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/347537/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347538",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/347538/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347541",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/347541/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347544",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/347544/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347547",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/347547/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/18/2024 1:36:49 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347549",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/347549/reports/detailxml.zip",
+              "content_hash": "4eefa2e381b81625f5717eccf8c14f318d59032a278f41e9259d64f51f23edcf",
+              "election_night": false
+            },
+            {
+              "version": "350800",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/350800/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 7:14:07 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 958,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350862",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/350862/reports/detailxml.zip",
+              "content_hash": "5e261b77d3ce55cdc61d85d586499b2f3ba377c0afbb669567a5bc667da477f3",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 7:26:54 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 1787,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350953",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/350953/reports/detailxml.zip",
+              "content_hash": "29840a5c9b0339e646f3b4b620fc52a325a75b40ad66b1e5eebc24c922d445c4",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:38:14 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 2731,
+              "precincts_with_election_day_votes": 26,
+              "election_day_precinct_vote_sum": 89668,
+              "version": "351606",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/351606/reports/detailxml.zip",
+              "content_hash": "9bf8368e962a03887c8ce684461feec47c622bc95a326a09399a300615448872",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 3,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:14:07 PM CST",
+            "version": "350862",
+            "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/350862/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 1,
+          "election_night_distinct_election_day_precinct_releases": 1,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 8:38:14 PM CST",
+            "version": "351606",
+            "url": "https://results.enr.clarityelections.com/TX/Lamar/122497/351606/reports/detailxml.zip"
+          },
+          "unreadable_versions": 8
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126018",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368200",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368200/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368345",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368345/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 6:24:14 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368373",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368373/reports/detailxml.zip",
+              "content_hash": "4fc86c06de0eea75e57d073328ebea06c749fdf782dda929565d1b8e90b3ff2c",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 6:30:22 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368375",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368375/reports/detailxml.zip",
+              "content_hash": "3526788b5a7f2549dc669815dcc38250f9ea040356ee714b92db3f3960064524",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 6:59:43 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 3691,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368387",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368387/reports/detailxml.zip",
+              "content_hash": "524dec61fca24dc0368bd5b8ef83fdc2c2164cd557af389cc4164ddf419c2460",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:10:40 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 5781,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368392",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368392/reports/detailxml.zip",
+              "content_hash": "7f4a8e06814e378c5294a3ff115f9a24e283b3682408af733f888218abaf9e05",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 7:49:38 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 6733,
+              "precincts_with_election_day_votes": 7,
+              "election_day_precinct_vote_sum": 27895,
+              "version": "368410",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368410/reports/detailxml.zip",
+              "content_hash": "956bbbb2a28d0758606a665830c51bc6ec674751abb7d7e83bf7ac7a6a05eb59",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:11:21 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 6733,
+              "precincts_with_election_day_votes": 7,
+              "election_day_precinct_vote_sum": 27895,
+              "version": "368424",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368424/reports/detailxml.zip",
+              "content_hash": "b0b9a85e8af73d236e59a876ae4d3765120b99307106e74ab166544cacefb1fe",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:23:24 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 9376,
+              "precincts_with_election_day_votes": 26,
+              "election_day_precinct_vote_sum": 112830,
+              "version": "368431",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368431/reports/detailxml.zip",
+              "content_hash": "de57346b0593888829706038539fc7116def19e6bdd76640785d3549903da942",
+              "election_night": true
+            },
+            {
+              "version": "369080",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/369080/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/20/2026 11:11:52 AM CDT",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 9377,
+              "precincts_with_election_day_votes": 26,
+              "election_day_precinct_vote_sum": 113316,
+              "version": "369081",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/369081/reports/detailxml.zip",
+              "content_hash": "35c00e7efab22821acd3e7b5810ce5acf72745d5e3a6dea4de976d333395bd96",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 6:59:43 PM CST",
+            "version": "368387",
+            "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368387/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 3,
+          "election_night_distinct_election_day_precinct_releases": 2,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 7:49:38 PM CST",
+            "version": "368410",
+            "url": "https://results.enr.clarityelections.com/TX/Lamar/126018/368410/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126354",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "370847",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/370847/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371624",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/371624/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371626",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/371626/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371681",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/371681/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/20/2026 8:45:37 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372307",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372307/reports/detailxml.zip",
+              "content_hash": "2f286d111f16ffb51459d05988aa9c6cbf32dba39960c692d97ae87f95614b05",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/20/2026 8:55:44 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372310",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372310/reports/detailxml.zip",
+              "content_hash": "fcec454752ce1a3d8ff2869bb94b454a5ab83bcfd039c7d5eb55a50f953104cb",
+              "election_night": false
+            },
+            {
+              "version": "372918",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372918/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 6:50:34 PM CDT",
+              "precincts_with_votes": 5,
+              "nonzero_precinct_vote_cells": 72,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372923",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372923/reports/detailxml.zip",
+              "content_hash": "70deb5b8ae12fa5dddf7426f6c7215933289c945ecc6f96020a791d6772a78b1",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:15:22 PM CDT",
+              "precincts_with_votes": 5,
+              "nonzero_precinct_vote_cells": 112,
+              "precincts_with_election_day_votes": 5,
+              "election_day_precinct_vote_sum": 5657,
+              "version": "372935",
+              "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372935/reports/detailxml.zip",
+              "content_hash": "8796df0521af82783f1e735badc023a1dae66225be391d4f6cfa3efc99f78a35",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 1,
+          "election_night_updates_with_precinct_votes": 1,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 6:50:34 PM CDT",
+            "version": "372923",
+            "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372923/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 1,
+          "election_night_distinct_election_day_precinct_releases": 1,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/26/2026 7:15:22 PM CDT",
+            "version": "372935",
+            "url": "https://results.enr.clarityelections.com/TX/Lamar/126354/372935/reports/detailxml.zip"
+          },
+          "unreadable_versions": 5
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122497",
+    "2026_primary": "126018",
+    "2026_runoff": "126354"
+  }
+}

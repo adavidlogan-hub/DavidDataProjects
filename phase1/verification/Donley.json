@@ -1,0 +1,55 @@
+{
+ "county": "Donley",
+ "reason_selected": "tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections.Archive page, '2024 Election': 'November 5th 2024 Unofficial General Election Day Results' (Unofficial%20Results.pdf) is a scanned Texas Secretary of State 'Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION ... DONLEY County' with county totals only, CreationDate 2024-11-06 21:37 UTC, Last-Modified Wed, 06 Nov 2024 21:38:49 GMT (3:38 PM CST Nov 6), after election night. No election-night file survives; no wayback folder (check 3 unavailable)."
+  },
+  "2026_primary": {
+   "result": "END",
+   "check": "2",
+   "fact": "'03032026 Primary unofficial' (upload/page/0087/docs/MarchPrimary20260001.pdf), 20-page scan of Electionware 'Custom Table Report TX DONLEY 260303 Primary 6110 ... UNOFFICIAL RESULTS', handwritten 'FINAL', rows Precinct 1, 2, 3, 303, 4 with candidate votes (REP US Senator: Ken Paxton 92 / 89 / 43 / 34 / 56, total 314), printed 'Custom Table Report - 03/03/2026 08:45PM'; Last-Modified Wed, 04 Mar 2026 05:19:06 GMT (11:19 PM CST election night). Single election-night precinct report with the final unofficial count (vote types not split; printed after polls closed and marked final). Page note: '03032026 Democratic Election Night Not Yet Available'."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections page 'MAY 26, 2026' section lists only sample ballots and hours; no runoff results file of any kind is posted. Missing files alone are UNDETERMINED; no wayback folder."
+  }
+ },
+ "rationale": "Only the primary is determined: one precinct-by-precinct unofficial report printed 8:45 PM and uploaded 11:19 PM on election night (END). 2024 has only a next-day county-totals file and the runoff has no results posted. One determined election, so PRECINCT_END_OF_NIGHT, low.",
+ "sources": [
+  {
+   "url": "https://www.co.donley.tx.us/page/Elections",
+   "content_hash": "23be2e0705df6c879e552c482eaa37e2226da8556dd06c3e46440da80e144669",
+   "what_i_checked": "2026 results lists"
+  },
+  {
+   "url": "https://www.co.donley.tx.us/page/Elections.Archive",
+   "content_hash": "d19935763b6b0d62d6e837df46ce8c1bca01f6d4055855bfd196e0cce73f3441",
+   "what_i_checked": "2024 results list"
+  },
+  {
+   "url": "https://www.co.donley.tx.us/upload/page/0087/docs/MarchPrimary20260001.pdf",
+   "content_hash": "d643144dc8ff0d037a4bbe6f384923e63e1b64a23830868c929e6820f5eb64de",
+   "what_i_checked": "rendered pages 1 to 2: precinct table, printed 03/03/2026 08:45PM, Last-Modified 04 Mar 2026 05:19:06 GMT"
+  },
+  {
+   "url": "https://www.co.donley.tx.us/upload/page/0109/Unofficial%20Results.pdf",
+   "content_hash": "05b02a2ed093cccdf0e2f9553f5d9282e84fc7e80a66f626330ee50904f6a777",
+   "what_i_checked": "SOS county totals, uploaded 06 Nov 2024 21:38 GMT"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:44:02Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (END, check 2). Research quotes for MarchPrimary20260001.pdf (Custom Table Report 08:45PM, handwritten FINAL, Paxton 92/89/43/34/56, Last-Modified 05:19:06 GMT) match the rendered scan.",
+  "2026_runoff": "same (UNDETERMINED).",
+  "rule_47": "rule 47 applied: no change to my results (no END or LIVE rests on a printed time contradicted by a later upload)."
+ }
+}

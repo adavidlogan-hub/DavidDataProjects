@@ -1,0 +1,66 @@
+{
+ "county": "Val Verde",
+ "reason_selected": "tag changed in targeted pass 3",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "valverdecounty.texas.gov/519/_2024 (CivicPlus; DocumentCenter sends no Last-Modified, so no upload times) lists \"2024 General Election Unofficial Results\" (View/8410, scanned, read visually): \"Summary Results Report General Election ... UNOFFICIAL RESULTS\", county totals, printed \"Election Summary - 11/06/2024 2:58 PM\" (after election night), PDF CreationDate Nov 6 21:42 UTC. Precinct-by-precinct only in \"Official Results\" (View/8425). No election-night file. Check 3: CDX ok, no captures. Not on Clarity (elections.json 404)."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Unofficial Joint Primary Results\" (/528/_2026, View/10174, scanned, 22 pages, read visually): \"Summary Results Report Joint Primary Election ... UNOFFICIAL RESULTS Val Verde\", county totals with Election Day column on every page, printed \"Election Summary - 03/03/2026 9:35 PM\" (election night; no upload time available, CivicPlus). Precinct-by-precinct only in \"Final -Official Joint Primary Results - Precinct-by-Precinct\" (View/10206). No unofficial precinct report posted."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Unofficial Results - Val Verde County\" (View/10450, scanned, 4 pages, read visually): \"Summary Results Report Joint Primary Run Off ... UNOFFICIAL RESULTS\", county totals (Ballots Cast - Total 1,520, equal to the attached preliminary reconciliation's in-person plus mail total), printed \"Election Summary - 05/26/2026 8:27 PM\"; page 4 is the Preliminary Election Reconciliation dated 5-26-26. Precinct-by-precinct only in \"Official Results Precinct by Precinct\" (View/10473). No unofficial precinct report posted."
+  }
+ },
+ "rationale": "Primary and runoff are LATER (unofficial county-totals summaries printed 9:35 PM Mar 3 and 8:27 PM May 26; precinct-by-precinct posted only as official results); 2024's unofficial summary was printed Nov 6 2:58 PM. Two LATER results give COUNTY_ONLY_PRECINCT_AT_CANVASS, med (check 2).",
+ "sources": [
+  {
+   "url": "https://www.valverdecounty.texas.gov/270/Elections",
+   "content_hash": "b2866c82b5a74e4e33d185be7481583a223687a0f87ca6fe36b055ac24934a55",
+   "what_i_checked": "elections hub"
+  },
+  {
+   "url": "https://www.valverdecounty.texas.gov/519/_2024",
+   "content_hash": "83743d1cfd953c38fedd8f77cc2be8c03c2847bdda405757fd0ff7b4849f9b45",
+   "what_i_checked": "2024 report list"
+  },
+  {
+   "url": "https://www.valverdecounty.texas.gov/528/_2026",
+   "content_hash": "fc568a20cbe6f93f4be2a6fa62afb1d79b1101d4825c72452e0742d13573a1a3",
+   "what_i_checked": "2026 report list"
+  },
+  {
+   "url": "https://www.valverdecounty.texas.gov/DocumentCenter/View/8410/Unofficial-Results-Val-Verde-County-General-Election-202",
+   "content_hash": "8da7666cc1cdca5a190ce6e56e87e6df317305f9f0d8e6725baab53b556d4c3d",
+   "what_i_checked": "2024 unofficial summary printed 11/06/2024 2:58 PM"
+  },
+  {
+   "url": "https://www.valverdecounty.texas.gov/DocumentCenter/View/10174/2026-JOINT-PRIMARY-ELECTIONS-UNOFFICIAL-RESULTS",
+   "content_hash": "c0f3be7f3601e74598d1f801a2f9c050a64a8000462e3b4c01fdc0964540ca4b",
+   "what_i_checked": "primary unofficial summary printed 03/03/2026 9:35 PM"
+  },
+  {
+   "url": "https://www.valverdecounty.texas.gov/DocumentCenter/View/10450/2026-JOINT-PRIMARY-RUN-OFF-UNOFFICIAL-RESULTS",
+   "content_hash": "fa58e4244960f8d2661b3de89d50643925ea67879568babca8d4c535dce32f2d",
+   "what_i_checked": "runoff unofficial summary printed 05/26/2026 8:27 PM"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T22:54:26Z",
+ "verifier_agent": "verifier-12",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED): the unofficial summary is printed 11/06/2024 2:58 PM, after election night; no Wayback captures.",
+  "2026_primary": "same (LATER, check 2): scanned county-totals summary printed 03/03/2026 9:35 PM (no upload time on CivicPlus); precinct numbers only in the official precinct-by-precinct report. Quoted 'Ballots Cast - Total 6,180 195 4,135 1,850' checked and supported.",
+  "2026_runoff": "same (LATER, check 2): scanned county-totals summary printed 05/26/2026 8:27 PM, total 1,520 equal to the reconciliation; precinct numbers only in the official report.",
+  "unsupported_claims": "None on results. Minor: the notes say valverdecounty.org returned 403 and www.valverdecounty.texas.gov was refused; on 2026-10-02 both loaded for me (valverdecounty.org serves the same home page as valverdecounty.texas.gov), so those were transient and do not affect the results."
+ }
+}

@@ -1,0 +1,86 @@
+{
+  "county": "Kaufman",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Kaufman/",
+  "platform": "clarity_style",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368521/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 20:39 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "County Elections page (kaufmancounty.net/237/Elections) links 'View election results' to results.enr.clarityelections.com/TX/Kaufman/. Check 1 (updated script, election-day precinct votes counted separately): 2024 general EID 122824 7/8 night updates with election-day precinct votes; 2026 primary EID 125939 10/11; 2026 runoff EID 126350 6/7. Kaufman's Clarity files stamp times in Eastern time (EST/EDT): the first night update of each election is at about 8:00 PM Eastern, which is poll close at 7:00 PM Central, so local Central times here are the Clarity times minus one hour. The script's 'first update with election-day precinct votes' for the runoff (5/6/2026 2:14:33 PM EDT) is a pre-election update with small test-like totals, not election night; the first election-night one is 9:27:59 PM EDT (8:27 PM CDT). Candidate-only election-day precinct sums were also computed from the cached files and agree.",
+  "tag_rationale": "All three elections are LIVE (election-day precinct numbers in several election-night updates), so the tag is LIVE_PRECINCT; confidence high because all were settled by check 1.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.kaufmancounty.net/237/Elections",
+      "via": "fetch_module",
+      "content_hash": "c25961e8bd458460ef22a8319edc32836480eb2cf5259fd8dbf36a579dccfbe7",
+      "quote": "View election results -> https://results.enr.clarityelections.com/TX/Kaufman/",
+      "supports": "County links to Clarity"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/352096/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "4e93b7c2429cadd454ce19b83c0eeb6f7f3190e51e748a872edea0cc6a545f71",
+      "quote": "Timestamp 11/5/2024 10:29:33 PM EST; 37 precincts; election-day precinct sum 175429",
+      "supports": "2024 general live precinct updates"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/351615/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "2229e967892d6e1808b96a2c414f727c5f1bb5cbeee6504c8ad54ef174319ced",
+      "quote": "Timestamp 11/5/2024 9:39:41 PM EST; first night update with election-day precinct votes",
+      "supports": "2024 general first precinct update"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368521/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "187d8b1fb1e2cc1a7dd7a7186d34cd6bffb688785de33942cae0338437ae3adf",
+      "quote": "Timestamp 3/3/2026 11:19:47 PM EST; election-day precinct sum 351051",
+      "supports": "2026 primary live precinct updates"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/373010/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "a816f3cbf8eadfee832b1b5cfc5e61def517149069b30474bb09be8590ca59c2",
+      "quote": "Timestamp 5/26/2026 10:11:56 PM EDT; election-day precinct sum 14475",
+      "supports": "2026 runoff live precinct updates"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-05 20:39 CT",
+      "night_updates_with_precinct_numbers": "7",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Kaufman/122824/352096/reports/detailxml.zip",
+      "fact": "Clarity EID 122824 (NOVEMBER 5, 2024 GENERAL ELECTION): election-day precinct votes in 37 precincts in night updates 9:39:41, 9:58:30, 10:29:33, 11:34:34 PM, 12:27:26, 1:18:45, 2:32:11 AM EST (8:39 PM to 1:32 AM CST); election-day precinct sums 50803, 105483, 175429, 313867, 338576, 338576, 338576."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-03 20:37 CT",
+      "night_updates_with_precinct_numbers": "10",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Kaufman/125939/368521/reports/detailxml.zip",
+      "fact": "Clarity EID 125939 (2026 Primary Election): election-day precinct votes in 37 precincts in 10 night updates from 9:37:57 PM to 11:19:47 PM EST (8:37 to 10:19 PM CST); election-day precinct sums 34359, 63426, 108810, 129518, 167571, 212763, 229592, 270792, 306486, 351051."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-05-26 20:27 CT",
+      "night_updates_with_precinct_numbers": "6",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Kaufman/126350/373010/reports/detailxml.zip",
+      "fact": "Clarity EID 126350 (2026 Primary Runoff): election-day precinct votes in 37 precincts in night updates 9:27:59, 9:40:43, 9:56:00, 10:01:13, 10:03:31, 10:11:56 PM EDT (8:27 to 9:11 PM CDT); election-day precinct sums 3156, 5649, 10372, 10372, 10372, 14475."
+    }
+  }
+}

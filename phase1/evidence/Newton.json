@@ -1,0 +1,72 @@
+{
+  "county": "Newton",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.newton.tx.us/page/newton.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.newton.tx.us",
+  "evidence_url": "https://www.co.newton.tx.us/page/newton.Elections",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The Elections page 'Election Results' section lists one 'Official Canvass' PDF per election back to 2017, including 'November 5 2024 Official Canvass', 'March 3 2026 Primaries Official Canvass' and 'May 26 2026 Joint Primaries Official Canvass'. No unofficial or election-night result file is listed and the page text says nothing about election-night posting. Whether anything was posted on election night (and later replaced by the canvass) cannot be told from the current page, so the canvass PDFs were not opened (they are post-election by title). The HTML page sends no Last-Modified header. Check 3 pending: origin/wayback-data not present. Targeted pass 3 2026-10-02 (targeted3-G): Wayback harvest (co.newton.tx.us) has two 2024 election-night captures, 'Order of General Election.pdf' (2024-11-06 01:23:57 CST) and 'March 1 2022 Primaries Official Canvass.pdf' (02:22:56 CST), neither with 2024 results; no captures for the 2026 windows. The CIRA copy of the Elections page lists only Official Canvass files. One web search for third-party precinct results returned only Newton County, Georgia. Sweep: no sweep file. No change.",
+  "tag_rationale": "No election could be determined (only official canvass files are listed; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'November 5 2024 Official Canvass' listed. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'March 3 2026 Primaries Official Canvass' listed. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only 'May 26 2026 Joint Primaries Official Canvass Newton County Texas' and a PEHCA certification listed. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.newton.tx.us/page/newton.Elections",
+      "via": "fetch_module",
+      "quote": "May 26 2026 Primaries Runoff Election; March 3 2026 Primaries Election; November 5 2024 General Election (each linking an Official Canvass PDF)",
+      "supports": "only canvass files listed",
+      "content_hash": "f0df0ba82b43e850bbddf8bc86dd00ffc616e9fd016e221a96df35428c591ef9"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/page/newton.Elections",
+      "via": "fetch_module",
+      "content_hash": "f0df0ba82b43e850bbddf8bc86dd00ffc616e9fd016e221a96df35428c591ef9",
+      "quote": "Election Results ... May 26 2026 Primaries Runoff Election | March 3 2026 Primaries Election | ... | November 5 2024 General Election (each an Official Canvass PDF)",
+      "supports": "CIRA copy of the Elections page: only official canvass files"
+    },
+    {
+      "url": "websearch:?q=newton%20county%20texas%20election%20results%20precinct%20kjas%202024",
+      "via": "websearch",
+      "content_hash": "5fb2c936249cf4f1a0ecd3aefda7dbee446ded2890046a033e7a6758a319239d",
+      "quote": "results mostly for Newton County, Georgia",
+      "supports": "Search for check 4 pages found nothing usable (search text is not evidence)"
+    }
+  ]
+}

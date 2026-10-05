@@ -1,0 +1,49 @@
+{
+ "county": "Jasper",
+ "reason_selected": "low confidence",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "co.jasper.tx.us/page/Elections lists no 2024 results; its results link goes to the SOS historical page. No wayback folder for this county, check 3 pending."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: Only \"Official Results\" and \"Official PCT by PCT Results\" (3326 Official Pct by Pct Results.pdf: \"Summary Results Report OFFICIAL RESULTS 2026 Primary Election ... Pct # 1 Three Corners\"; CreationDate 10 Mar 2026 21:42 UTC; Last-Modified Fri 20 Mar 2026 19:00:51 GMT). No election-night file listed. Check 3 pending (no wayback folder)."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"5-26-2026 Official Pct by Pct Results a.pdf\": \"Pct by Pct Results Report OFFICIAL RESULTS\"; CreationDate 28 May 2026 18:03 UTC; Last-Modified Fri 29 May 2026 13:32:08 GMT. No election-night file listed. Check 3 pending (no wayback folder)."
+  }
+ },
+ "rationale": "No election is determined. The 2026 primary and runoff files are official precinct reports created and uploaded after election night; nothing from election night survives, so UNDETERMINED under the clarified rule. Tag UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://www.co.jasper.tx.us/page/Elections",
+   "content_hash": "e9bb0d215d7a870aae91ca63654ab6af9ac300fe5ffe880a54577087aa9606e0",
+   "what_i_checked": "results list"
+  },
+  {
+   "url": "https://www.co.jasper.tx.us/upload/page/0095/2026 elections/3326 Official Pct by Pct Results.pdf",
+   "content_hash": "ded276b4a371cacfb123535e633966c2c23db00653b65ce7735cd5089e890b5d",
+   "what_i_checked": "official precinct, uploaded 20 Mar 2026"
+  },
+  {
+   "url": "https://www.co.jasper.tx.us/upload/page/0095/2026 elections/May 26th 2026/5-26-2026 Official Pct by Pct Results a.pdf",
+   "content_hash": "1e417b188e0c15b9e5c3e51abfc9c5f7a89fbb33f7474cf191d88f570531216d",
+   "what_i_checked": "official precinct, uploaded 29 May 2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "different: research LATER, mine UNDETERMINED. Research cites an \"Unofficial Totals\" county-totals scan with CreationDate 2026-03-04 18:29 UTC and Last-Modified 05 Mar 2026 21:41:18 GMT; both are after election night, so under the clarified rule (election-night time required) this is UNDETERMINED. Research LATER not supported under the current rule.",
+  "2026_runoff": "same (UNDETERMINED)."
+ }
+}

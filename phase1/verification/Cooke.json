@@ -1,0 +1,61 @@
+{
+  "county": "Cooke",
+  "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections page lists 2024 March and May files but nothing for November 5, 2024 (no link containing November 5, 2024). No Clarity. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "fact": "'Final Unofficial Results Precinct by Precinct' (2026PrimaryPctbyPctResultsUnofficial.pdf): 'Pct. by Pct. Results UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 ... Pct. 1', REP US Senate John Cornyn 47 (Absentee 0, Early 27, Election Day 20); footer 'Precinct Summary - 03/03/2026 10:12 PM'. Last-Modified Wed, 04 Mar 2026 03:37:31 GMT = 9:37 PM CST election night. Note the upload time is 35 minutes before the printed time (tabulation PC clock or server clock disagreement). One unofficial precinct file; the summary 'Final Unofficial Results' was replaced next day (Last-Modified Mar 4 20:06 GMT)."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "fact": "'2026 Primary Runoff Unofficial Results Pct. by Pct.': 'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election ... Pct. 1', John Cornyn 23 (Election Day 8), Ken Paxton 55 (Election Day 19); footer 'Precinct Summary - 05/26/2026 8:48 PM'. Last-Modified Wed, 27 May 2026 03:46:37 GMT = 10:46 PM CDT election night. Unofficial summary 'Election Summary - 05/26/2026 8:42 PM', 'Election Day Precincts Reporting 17 of 17'. One unofficial precinct file."
+    }
+  },
+  "rationale": "Primary and runoff END (one unofficial precinct-by-precinct report with election-day votes, printed and uploaded on election night), so PRECINCT_END_OF_NIGHT, med (check 2 with printed and upload times).",
+  "sources": [
+    {
+      "url": "https://www.co.cooke.tx.us/page/cooke.elections",
+      "what_i_checked": "results file lists; no November 2024 entries",
+      "content_hash": "92bcf1f2a5ce75dedef062c8109dd36699dc21da62bab1344a89c000ab400a5d"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/March3/2026PrimaryPctbyPctResultsUnofficial.pdf",
+      "what_i_checked": "printed 10:12 PM, Last-Modified 03:37 GMT Mar 4, election-day precinct votes",
+      "content_hash": "66b3fba6c234c2c59a0d84cd2b330bf2029a9557e227ff83b0e4ba5123c2ca6b"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/March3/2026PrimaryFinalUnofficalResults.pdf",
+      "what_i_checked": "summary printed Mar 4 10:15 AM, uploaded Mar 4",
+      "content_hash": "c1f778f8bc359ab2e564081beea66b9a43ca69ed8ffca8359fba6da95cc9b239"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/May26/2026MayCookePrimaryRunoffUnofficialResultsPctbyPct.pdf",
+      "what_i_checked": "printed 8:48 PM, Last-Modified 03:46 GMT May 27, election-day precinct votes",
+      "content_hash": "1ff2a00708c88476bd9dfcbc3f1a1fc5411cd9084ff50fadcb57732b9d560c27"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/3107/docs/2026/May26/2026MayCookePrimaryRunoffUnofficialResults.pdf",
+      "what_i_checked": "summary printed 8:42 PM, 17 of 17",
+      "content_hash": "ebd6d8058692166673516b34244177215d6adb3686ef09f86214de4e485f9109"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:13:48Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED). Research says the page 'now lists only 2025 and 2026 elections'; that is not accurate (it also lists March and May 2024 and older files), but there is no November 2024 entry, so the result stands.",
+    "2026_primary": "same (END, check 2). Both: printed 10:12 PM, Last-Modified 03:37:31 GMT (9:37 PM CST), clock offset noted by both.",
+    "2026_runoff": "same (END, check 2). Both: printed 8:48 PM, Last-Modified 03:46:37 GMT (10:46 PM CDT).",
+    "unsupported_or_unchecked": "Research statement that the elections page lists only 2025 and 2026 elections is contradicted by the page (2024 March and May and earlier files are listed). Not material to the tag."
+  },
+  "compared_at_utc": "2026-10-02T16:13:55Z"
+}

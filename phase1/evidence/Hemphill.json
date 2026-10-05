@@ -1,0 +1,93 @@
+{
+  "county": "Hemphill",
+  "tag": "PRECINCT_END_OF_NIGHT",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.hemphill.tx.us/page/hemphill.ElectionInformation",
+  "platform": "county_pdfs",
+  "host": "www.co.hemphill.tx.us",
+  "evidence_url": "https://www.co.hemphill.tx.us/upload/page/7666/SUMMARY%20REPORT%20UNOFFICIAL%20RESULTS%20BY%20PRECINCT.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 21:01 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity link; the county Election Information page posts Electionware/Hart-style PDF reports per election, many duplicated on newtools.cira.state.tx.us. 2024 general: 'SUMMARY UNOFFICIAL RESULTS REPORT BY PRECINCT' (24 pages, 'Precinct Summary - 11/05/2024 8:47 PM', Last-Modified Wed, 06 Nov 2024 03:01:51 GMT = 9:01 PM CST). 2026 primary: 'Unofficial Summary Early Voting Results by Precinct' plus 'Unofficial Summary Election Day Voting Results by Precinct' (77 pages, 'Precinct Summary - 03/03/2026 9:43 PM', Last-Modified Wed, 04 Mar 2026 04:02:52 GMT = 10:02 PM CST). 2026 runoff: on election night 'PRECINCT BY PRECINCT EARLY VOTING UNOFFICIAL RESULTS' (early votes only, Last-Modified Wed, 27 May 2026 00:39:13 GMT = 7:39 PM CDT) and 'SUMMARY UNOFFICIAL RESULTS' (county totals, 'Election Summary - 05/26/2026 7:27 PM', Last-Modified 02:02:58 GMT = 9:02 PM CDT); the page's 'PRECINCT BY PRECINCT UNOFFICIAL RESULTS' link points to the same county summary file; precinct numbers with election-day votes first appear in 'PRECINCT BY PRECINCT OFFICIAL RESULTS' (Last-Modified Fri, 05 Jun 2026 17:34:05 GMT). Check 3 pending (wayback-data branch not on origin); it could confirm whether any other runoff precinct file existed on election night. Rule 47 applied 2026-10-02 (normalize-47): none.",
+  "tag_rationale": "The 2024 general and 2026 primary are both END (one election-night precinct report with election-day votes), so the tag is PRECINCT_END_OF_NIGHT; confidence med because both were settled by check 2 with printed run times and Last-Modified times on election night. Rule 47 checked 2026-10-02: no change.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.co.hemphill.tx.us/page/hemphill.ElectionInformation",
+      "via": "fetch_module",
+      "content_hash": "1da1a01e4ad71a6ed94b972a04a5bdb8326838c87df8498c70240467d375eddf",
+      "quote": "SUMMARY UNOFFICIAL RESULTS; PRECINCT BY PRECINCT UNOFFICIAL RESULTS (-> 5-26-26 SUMMARY UNOFFICIAL RESULTS.pdf); Unofficial Summary Election Day Voting Results by Precinct; SUMMARY UNOFFICIAL RESULTS REPORT BY PRECINCT",
+      "supports": "Reports listed per election"
+    },
+    {
+      "url": "https://www.co.hemphill.tx.us/upload/page/7666/SUMMARY%20REPORT%20UNOFFICIAL%20RESULTS%20BY%20PRECINCT.pdf",
+      "via": "fetch_module",
+      "content_hash": "cee718f406c1d0ff4389f7dc9df11fd8e8ee0a47120c72df5c957a5cc6c63d73",
+      "quote": "UNOFFICIAL RESULTS TX Hemphill 241105 General 6110 ... Precinct Summary - 11/05/2024 8:47 PM",
+      "supports": "2024 general precinct numbers on election night"
+    },
+    {
+      "url": "https://www.co.hemphill.tx.us/upload/page/7666/March%202026%20Unofficial%20Election%20Day%20Results%20by%20Precinct.pdf",
+      "via": "fetch_module",
+      "content_hash": "98498a3c5d1c70dd3ffb72ad49865567eef64db8530afe20b81917b0ab055ff1",
+      "quote": "ELECTION DAY UNOFFICIAL RESULTS BY PRECINCT ... Precinct Summary - 03/03/2026 9:43 PM",
+      "supports": "2026 primary precinct numbers on election night"
+    },
+    {
+      "url": "https://www.co.hemphill.tx.us/upload/page/7666/5-26-26%20SUMMARY%20UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "4ae64191f724f89bdd81ba273661e49e835d2d7f82d79e77dc87f38c674077a0",
+      "quote": "UNOFFICIAL SUMMARY RESULTS Joint Primary Runoff Election ... Election Summary - 05/26/2026 7:27 PM",
+      "supports": "Runoff county totals on election night"
+    },
+    {
+      "url": "https://www.co.hemphill.tx.us/upload/page/7666/5-26-2026%20PRECINCT%20BY%20PRECINCT%20EV%20UNOFFICIAL%20RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "e8d176a7e5fc83f9916ebff1e36b1fe61b29bc026bcefdb21dd19d42767b1be9",
+      "quote": "PRECINT BY PRECINCT EARLY VOTING UNOFFICIAL",
+      "supports": "Runoff early-vote-only precinct numbers on election night"
+    },
+    {
+      "url": "https://www.co.hemphill.tx.us/upload/page/7666/052626%20Primary%20Runoff%20Official%20Results%20by%20Precinct.pdf",
+      "via": "fetch_module",
+      "content_hash": "7c5609d397f1cb2bc1c6dc6847b2d9d8f727efa9dd85f789f9bea15365ae4545",
+      "quote": "OFFICIAL RESULTS BY PRECINCT (Last-Modified Fri, 05 Jun 2026 17:34:05 GMT)",
+      "supports": "Runoff precinct numbers with election-day votes posted at canvass"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-05 21:01 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.hemphill.tx.us/upload/page/7666/SUMMARY%20REPORT%20UNOFFICIAL%20RESULTS%20BY%20PRECINCT.pdf",
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS TX Hemphill 241105 General 6110 November 5, 2024 ... Precinct 101 ... REP Donald J. Trump/JD Vance 289 9 215 65' (Absentee, Early Voting, Election Day per precinct); footer 'Precinct Summary - 11/05/2024 8:47 PM'; Last-Modified Wed, 06 Nov 2024 03:01:51 GMT (9:01 PM CST). Rule 47: publication shown by upload time 2024-11-05 21:01 CT in SUMMARY REPORT UNOFFICIAL RESULTS BY PRECINCT.pdf."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-03 22:02 CT",
+      "night_updates_with_precinct_numbers": "1",
+      "evidence_url": "https://www.co.hemphill.tx.us/upload/page/7666/March%202026%20Unofficial%20Election%20Day%20Results%20by%20Precinct.pdf",
+      "fact": "'Summary Results Report ELECTION DAY UNOFFICIAL RESULTS BY PRECINCT TX Hemphill County 260303 Primary 6110 ... Precinct 101 ... Ballots Cast - Total 178 3 106 69'; footer 'Precinct Summary - 03/03/2026 9:43 PM'; Last-Modified Wed, 04 Mar 2026 04:02:52 GMT (10:02 PM CST). An earlier early-voting-only precinct file was also posted. Rule 47: publication shown by upload time 2026-03-03 22:02 CT in March 2026 Unofficial Election Day Results by Precinct.pdf."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:02 CT",
+      "precinct_first_seen": "2026-06-05 12:34 CT (official, upload)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.hemphill.tx.us/upload/page/7666/5-26-26%20SUMMARY%20UNOFFICIAL%20RESULTS.pdf",
+      "fact": "Election night: 'PRECINT BY PRECINCT EARLY VOTING UNOFFICIAL' (early votes only, Last-Modified Wed, 27 May 2026 00:39:13 GMT) and 'UNOFFICIAL SUMMARY RESULTS ... Joint Primary Runoff Election' (county totals, 'Election Summary - 05/26/2026 7:27 PM', Last-Modified 02:02:58 GMT); the 'PRECINCT BY PRECINCT UNOFFICIAL RESULTS' link opens that same summary file. Precinct numbers with election-day votes: 'OFFICIAL RESULTS BY PRECINCT', Last-Modified Fri, 05 Jun 2026 17:34:05 GMT."
+    }
+  }
+}

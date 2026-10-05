@@ -1,0 +1,114 @@
+{
+  "county": "Cottle",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://newtools.cira.state.tx.us/page/cottle.Elections",
+  "platform": "county_pdfs",
+  "host": "newtools.cira.state.tx.us",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/0611/2024/results.11.5.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.cottle.tx.us/ works over https and its menu links 'Elections - Home', '2026 Elections' (page/Elections.2026) and 'Past Elections' (page/Elections.Archive), but those pages returned HTTP 200 with the Home page body, so check 2 failed (same behavior seen on Coleman's site on the same platform). No Clarity or vendor link found. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-I): The www.co.cottle.tx.us election pages still return the Home page, but the same CIRA platform serves Cottle's Elections page at newtools.cira.state.tx.us/page/cottle.Elections (found via a web search hit in upload folder 0611; cottle.Elections.2026 and .Archive return 403 there). Listed files and upload times read. 2024_general UNDETERMINED to LATER (check 2); primary and runoff stay UNDETERMINED with facts updated. Platform set to county_pdfs. Wayback harvest had no captures; no sweep file.",
+  "tag_rationale": "Only the 2024 general is determined (LATER, check 2: county totals printed 9:38 PM on election night, precinct report uploaded Jan 2025); the 2026 primary and runoff have no election-night file. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 21:38 CT (printed run time; server upload 2024-11-06 10:25 CT)",
+      "precinct_first_seen": "2025-01-23 22:28 CT (server upload of the unofficial precinct report; printed 2024-11-05 21:37)",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/0611/2024/results.11.5.pdf",
+      "fact": "The CIRA copy of the Elections page (newtools.cira.state.tx.us/page/cottle.Elections; the www.co.cottle.tx.us pages return the Home page) links 'November 2024 General Election Results' (2024/results.11.5.pdf) = scanned Electionware 'Summary Results Report TX Cottle 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS', county totals (e.g. 'REP Donald J. Trump/JD Vance 565 29 456 80'), footer 'Election Summary - 11/05/2024 9:38 PM' (election night; read from the page image), Last-Modified Wed, 06 Nov 2024 16:25:41 GMT (10:25 AM CST Nov 6). 'Precinct Results' (2024/Precinct results.pdf) = 'Summary Results Report ... UNOFFICIAL RESULTS ... PRECINCT 101' with Election Day column, footer 'Precinct Summary - 11/05/2024 9:37 PM', Last-Modified Fri, 24 Jan 2025 04:28:12 GMT, so under rule 47 it cannot show election-night publication. Rule 43: county-totals file with an election-night printed run time and no precinct numbers shown published that night gives LATER (precinct numbers posted Jan 2025). Caveat: the totals file itself was uploaded the next morning."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only official files: 'Election Results' (2026/election_results.pdf) = 'Summary Results Report TX Cottle County 260303 Primary Election 6110 March 3, 2026 OFFICIAL RESULTS', footer 'Election Summary - 03/24/2026 11:35 AM', Last-Modified Wed, 25 Mar 2026 15:11:32 GMT; 'Official Results' (2026/Official Total 2026 Primary.pdf), Last-Modified Mon, 16 Mar 2026 17:15:36 GMT. No election-night file survives (rule 43)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Unofficial Results' (2026/Unoffical Results.pdf) = scanned 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 COTTLE County' (county totals, no printed time seen), Last-Modified Wed, 27 May 2026 18:46:51 GMT (1:46 PM CDT May 27), after election night; '2026 Primary Runoff Official Results' and '... OffIcial Totals' uploaded Jun 5 2026. No election-night time, so UNDETERMINED (rule 43)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.cottle.tx.us/page/Elections.2026",
+      "via": "fetch_module",
+      "content_hash": "ee009211183f08acac35e349a726ceaf6bc48a75ff97f78c72f4065ca8287ffb",
+      "quote": "<title>Cottle County, Texas (same body as the Home page)",
+      "supports": "Elections pages serve the Home page"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/page/cottle.Elections",
+      "via": "fetch_module",
+      "content_hash": "5099df1a3242ec6200a9e21e9e527d49e91ea5ab4cf7351a9a1e10d95bdafe39",
+      "quote": "November 2024 General Election Results; Precinct Results; Unofficial Results; Election Results; Official Results; 2026 Primary Runoff Official Results",
+      "supports": "Cottle's Elections page as served by the CIRA host, listing the results files"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0611/2024/results.11.5.pdf",
+      "via": "fetch_module",
+      "content_hash": "131d71f9f9d8aad82a535b0cc4d36b2c04deebfc4a66b7e844caeb8d54e0a7b7",
+      "quote": "Summary Results Report TX Cottle 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS ... Election Summary - 11/05/2024 9:38 PM (page image)",
+      "supports": "2024_general county totals printed on election night; Last-Modified Wed, 06 Nov 2024 16:25:41 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0611/2024/Precinct%20results.pdf",
+      "via": "fetch_module",
+      "content_hash": "b96ce36454aad26cab499fe96c79d334b03e221d57d091704b4dd715657f9840",
+      "quote": "Summary Results Report TX Cottle 241105 General 6110 November 5, 2024 UNOFFICIAL RESULTS PRECINCT 101 ... Precinct Summary - 11/05/2024 9:37 PM (page image)",
+      "supports": "2024 precinct report uploaded Fri, 24 Jan 2025 04:28:12 GMT (rule 47: not election-night publication)"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0611/2026/election_results.pdf",
+      "via": "fetch_module",
+      "content_hash": "04d6ede3e0e445a7ec6e678022f5d6d4174999ad28cf3392905aea7bf24a4305",
+      "quote": "Summary Results Report TX Cottle County 260303 Primary Election 6110 March 3, 2026 OFFICIAL RESULTS ... Election Summary - 03/24/2026 11:35 AM (page image)",
+      "supports": "Primary results file is official, uploaded Mar 25 2026"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0611/2026/Official%20Total%202026%20Primary.pdf",
+      "via": "fetch_module",
+      "content_hash": "eb06278fd7d9053f40b46ac3faee50511c03361069d706d275176847dea2f9da",
+      "quote": "Official Results (link title)",
+      "supports": "Uploaded Mon, 16 Mar 2026 17:15:36 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0611/2026/Unoffical%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "796f9407a5211e9b0df2cf64067424331a92a1376628ca8fefc9f118910cff75",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION May 26, 2026 COTTLE County (page image)",
+      "supports": "Runoff unofficial county totals uploaded Wed, 27 May 2026 18:46:51 GMT, after election night"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0611/2026/2026%20Primary%20Runoff%20Official%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "a863c861c7995a6e36a7ec85c7436593419a4a6f994fbf0d16944035fa71df2d",
+      "quote": "2026 Primary Runoff Official Results (link title)",
+      "supports": "Uploaded Fri, 05 Jun 2026 15:18:28 GMT"
+    },
+    {
+      "url": "websearch:?q=cottle county texas election results 2026 primary paducah",
+      "via": "websearch",
+      "content_hash": "b92a4129954cb6390e0e17d0876fb95aaaaa3247bee71a451880b5f6cf222e83",
+      "quote": "1Notice of RD Primary https://newtools.cira.state.tx.us/upload/page/0611/2024/1Notice of RD Primary.pdf",
+      "supports": "Identified Cottle's CIRA upload folder 0611 (locating only)"
+    }
+  ]
+}

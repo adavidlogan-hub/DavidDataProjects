@@ -1,0 +1,100 @@
+{
+  "county": "Kenedy",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://kenedycountyelections.com/current-election/",
+  "platform": "county_pdfs",
+  "host": "kenedycountyelections.com",
+  "evidence_url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/05_26_26-Pct-Report.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.co.kenedy.tx.us/ returned 403; https redirects to www.kenedycountytx.gov whose Elections page links kenedycountyelections.com (WordPress). Results are scanned PDFs (VersaLink C405 scanner, no text layer, so contents read only from titles). The server's Last-Modified values are all midnight GMT dates (day granularity), so they are not usable as upload times; PDF CreationDate (scan time) shows every summary and precinct report was created after election night. No Clarity link. The page also links the SOS ENR (goelect.txelections.civixapps.com). Whether anything was posted on election night itself is not shown; check 3 pending. Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED; 2026_primary LATER kept, county_totals_first_seen 2026-03-03 20:22 CT; 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary LATER, 2026_runoff UNDETERMINED. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/Pct_-by-Pct_-Report-11-5-24.pdf",
+      "fact": "Rule 43: no election-night file survives (the precinct report is 'OFFICIAL RESULTS', footer 'Precinct Summary - 11/14/2024 12:49 PM'). Previous: Results page lists for the 2024 general only 'Summary Report' and 'Precinct by Precinct Report' (Pct_-by-Pct_-Report-11-5-24.pdf). The precinct report is a scanned PDF (Creator VersaLink C405) with CreationDate Thu Nov 14 18:29:26 2024 UTC; server Last-Modified Thu, 14 Nov 2024 00:00:00 GMT. No election-night precinct report found."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 20:22 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/03_03_26-Pct-Report-1-2-3.pdf",
+      "fact": "Current Election page lists 'Unofficial Election Results Summary Report' (03_03_26-Summary-Report.pdf, scanned, CreationDate Wed Mar 4 18:30:46 2026 UTC) and 'Unofficial Pct. Report Part 1/Part 2' (03_03_26-Pct-Report-1-2-3.pdf, scanned, CreationDate Thu Mar 5 20:46:36 2026 UTC; Last-Modified Thu, 05 Mar 2026 00:00:00 GMT). Both scanned after election night. Rule 43: county totals first seen 2026-03-03 20:22 CT in 'Unofficial Election Results Summary Report' (03_03_26-Summary-Report.pdf), Electionware county-totals 'Summary Results Report ... UNOFFICIAL RESULTS', printed footer 'Election Summary - 03/03/2026 8:22 PM'; the precinct report footer reads 'Precinct Summary - 03/05/2026 2:53 PM'."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/05_26_26-Pct-Report.pdf",
+      "fact": "Rule 43: what was posted on election night is not shown; the summary (footer 'Election Summary - 05/26/2026 7:53 PM') and the precinct report with election-day votes (footer 'Precinct Summary - 05/26/2026 7:55 PM') were both printed on election night and both scanned the next morning. Previous: Current Election page lists 'Summary Report - Unofficial Totals' (05_26_26-Summary-Report.pdf, CreationDate Wed May 27 12:59:36 2026 UTC) and 'Precinct Report - Unofficial Totals' (05_26_26-Pct-Report.pdf, scanned, CreationDate Wed May 27 13:00:30 2026 UTC = 8:00 AM CDT May 27; Last-Modified Wed, 27 May 2026 00:00:00 GMT). Scanned the morning after election night."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://kenedycountyelections.com/current-election/",
+      "via": "fetch_module",
+      "content_hash": "eedea104b336eb38c4f9c3b1c7709fab5c62190cb04e6b41c72a2c58f77d0dd7",
+      "quote": "Summary Report - Unofficial Totals | Precinct Report - Unofficial Totals (05_26_26); Unofficial Election Results Summary Report | Unofficial Pct. Report Part 1 | Part 2 (03_03_26)",
+      "supports": "2026 report lists"
+    },
+    {
+      "url": "https://kenedycountyelections.com/results/",
+      "via": "fetch_module",
+      "content_hash": "b294b9b32b2bddc45c7efcfe25e5034be26eb1101fe0beb8e8159c32bca4499e",
+      "quote": "Summary Report | Precinct by Precinct Report (Pct_-by-Pct_-Report-11-5-24.pdf)",
+      "supports": "2024 report list"
+    },
+    {
+      "url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/Pct_-by-Pct_-Report-11-5-24.pdf",
+      "via": "fetch_module",
+      "content_hash": "41f459c2c65abd667eb962d0fd6da8fda74366aefc8578d5a3d65b5c6e8bcc58",
+      "quote": "PDF metadata Creator VersaLink C405 (scanned image); CreationDate as stated in facts",
+      "supports": "2024_general precinct report scanned 14 Nov 2024"
+    },
+    {
+      "url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/03_03_26-Summary-Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "e646d1638a3cfeaafbfea66c5fa4891b2ca266847f1e14243b42ce41316b5958",
+      "quote": "PDF metadata Creator VersaLink C405 (scanned image); CreationDate as stated in facts",
+      "supports": "2026_primary summary scanned 4 Mar 2026"
+    },
+    {
+      "url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/03_03_26-Pct-Report-1-2-3.pdf",
+      "via": "fetch_module",
+      "content_hash": "22d899d9bf5f71a57ba41fa468eaa52b735bbac41cce03125f6b3650313dda52",
+      "quote": "PDF metadata Creator VersaLink C405 (scanned image); CreationDate as stated in facts",
+      "supports": "2026_primary precinct report scanned 5 Mar 2026"
+    },
+    {
+      "url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/05_26_26-Pct-Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "8082d83800bf7dd0fe6bd4a1bd3754b77a647eb47e23ccdd07006e2a10d861c1",
+      "quote": "PDF metadata Creator VersaLink C405 (scanned image); CreationDate as stated in facts",
+      "supports": "2026_runoff precinct report scanned 27 May 2026 08:00 CDT"
+    },
+    {
+      "url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/05_26_26-Summary-Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "23e185dc19a253c7a91177a8345a464c97552dbae16a7bf1b13eeee8e6a813c7",
+      "quote": "PDF metadata Creator VersaLink C405 (scanned image); CreationDate as stated in facts",
+      "supports": "2026_runoff summary scanned 27 May 2026"
+    }
+  ]
+}

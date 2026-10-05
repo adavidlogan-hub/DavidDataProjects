@@ -1,0 +1,72 @@
+{
+  "county": "Gonzales",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.gonzales.tx.us/page/gonzales.Elections.Admin",
+  "platform": "county_pdfs",
+  "host": "www.co.gonzales.tx.us",
+  "evidence_url": "https://www.co.gonzales.tx.us/upload/page/10685/030326%20Primary%20Election/Unofficial%20Results%203-3-26.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL http://www.co.gonzales.tx.us/ (https used) links 'Election Admin and Voter Registration', which lists results PDFs for 2026 elections. No Clarity site (elections.json 404). 2026 primary: 'Unofficial Results' is a scanned Electionware 'Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Total Report Gonzales County, Texas' (county totals by Absentee/Early/Election Day), footer 'Election Summary - 03/03/2026 10:05 PM', Last-Modified Wed, 04 Mar 2026 04:56:49 GMT (10:56 PM CST election night); the 'Precinct 1 ... Precinct 13' links are sample ballots. 2026 runoff: 'Unofficial Results w/reconciliation' is a Preliminary Election Reconciliation form plus a Summary Results Report (county totals), footer 'Election Summary - 05/26/2026 8:07 PM', Last-Modified Wed, 27 May 2026 01:50:18 GMT (8:50 PM CDT election night). The only other results files are 'Official Results' (with reconciliation), not opened; no precinct-level unofficial results are posted. 2024 general results are not on the current page. Last-Modified values differ per file, so they are real upload times. Check 3 pending for 2024 (origin/wayback-data not present).",
+  "tag_rationale": "2026 primary and 2026 runoff are both LATER by check 2 (county totals only on election night), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; both reports have a printed run time and a server upload time on election night, so confidence is med.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No 2024 general results on the current elections page. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 22:56 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.gonzales.tx.us/upload/page/10685/030326%20Primary%20Election/Unofficial%20Results%203-3-26.pdf",
+      "fact": "'Unofficial Results': 'Summary Results Report 2026 Primary Election March 3, 2026 UNOFFICIAL RESULTS Total Report Gonzales County, Texas ... Ballots Cast - Total 3,268 124 2,009 1,135'; footer 'Election Summary - 03/03/2026 10:05 PM'; Last-Modified Wed, 04 Mar 2026 04:56:49 GMT. County totals only; no precinct results posted.",
+      "precinct_first_seen": ""
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:50 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.gonzales.tx.us/upload/page/10685/052626%20Primary%20Runoff/Unofficial%20Results%20w%20Reconcilation%20052626.pdf",
+      "fact": "'Unofficial Results w/reconciliation': 'Preliminary Election Reconciliation - Unofficial Totals ... Joint Primary Runoff 5/26/2026' and 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Gonzales County, Texas ... Ballots Cast - Total 1,586 122 902 562'; footer 'Election Summary - 05/26/2026 8:07 PM'; Last-Modified Wed, 27 May 2026 01:50:18 GMT. County totals only.",
+      "precinct_first_seen": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.gonzales.tx.us/page/gonzales.Elections.Admin",
+      "via": "fetch_module",
+      "content_hash": "db6cefffa5031ef6c72ec0f8dbd731cca97f270d4e96b42df5c1e325997d5e66",
+      "quote": "Unofficial Results | Official Results ... Unofficial Results w/reconciliation | Official Results w/reconciliation ... Republican Sample Ballots Precinct 1 Precinct 9",
+      "supports": "report lists"
+    },
+    {
+      "url": "https://www.co.gonzales.tx.us/upload/page/10685/030326%20Primary%20Election/Unofficial%20Results%203-3-26.pdf",
+      "via": "fetch_module",
+      "content_hash": "849f26adfcd83829a8b3160b3c7c43bfefb328808994da014118e5acc7678f93",
+      "quote": "Summary Results Report 2026 Primary Election ... UNOFFICIAL RESULTS Total Report ... Election Summary - 03/03/2026 10:05 PM",
+      "supports": "2026_primary county totals uploaded 10:56 PM CST"
+    },
+    {
+      "url": "https://www.co.gonzales.tx.us/upload/page/10685/052626%20Primary%20Runoff/Unofficial%20Results%20w%20Reconcilation%20052626.pdf",
+      "via": "fetch_module",
+      "content_hash": "01d688a0ed37e21aaab0dddb92c12658b832c800945b90ec512ce8959299040b",
+      "quote": "Summary Results Report 2026 Primary Runoff Election ... Election Summary - 05/26/2026 8:07 PM",
+      "supports": "2026_runoff county totals uploaded 8:50 PM CDT"
+    }
+  ]
+}

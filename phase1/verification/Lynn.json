@@ -1,0 +1,61 @@
+{
+  "county": "Lynn",
+  "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections page lists no November 2024 results. No Clarity. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "END",
+      "check": "2",
+      "fact": "'Unofficial Precinct by Precinct Report' (20260303223813.pdf, 150-page scan, page 1 read as image): 'PRIMARY ELECTION March 3, 2026 UNOFFICIAL RESULTS PRECINCT BY PRECINCT LYNN COUNTY PRECINCT 1', REP US Senator John Cornyn 32 (Election Day 14), Ken Paxton 36 (Election Day 22); footer 'Precinct Summary - 03/03/2026 08:06PM'. Scan CreationDate 03:38 UTC Mar 4 (9:38 PM CST), Last-Modified Wed, 04 Mar 2026 03:41:48 GMT = 9:41 PM CST election night. One unofficial precinct file, posted with the unofficial summary (20260303223715.pdf, Last-Modified 03:38:11 GMT)."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "fact": "'Unoffical Precinct by Precinct Results' (20260526201006.pdf, 16-page scan, page 1 read as image): 'Precinct by Precinct Results Report May 26, 2026 UNOFFICIAL RESULTS Lynn County PRECINCT 1', REP US Senator John Cornyn 24 (Election Day 14), Ken Paxton 36 (Election Day 20); footer 'Precinct Summary - 05/26/2026 07:58PM'. Last-Modified Wed, 27 May 2026 01:13:14 GMT = 8:13 PM CDT election night. One unofficial precinct file."
+    }
+  },
+  "rationale": "Primary and runoff END (one unofficial precinct-by-precinct report with election-day votes, printed and uploaded on election night), 2024 undetermined, so PRECINCT_END_OF_NIGHT, med (check 2 with printed and upload times).",
+  "sources": [
+    {
+      "url": "https://www.co.lynn.tx.us/page/Elections",
+      "what_i_checked": "results file list and link titles",
+      "content_hash": "f3fdda65a70efb26b85a07aac15f4eb044b60e4cfd5e604d5eebd731220c1e1c"
+    },
+    {
+      "url": "https://www.co.lynn.tx.us/upload/page/0086/20260303223813.pdf",
+      "what_i_checked": "primary unofficial precinct report printed 8:06 PM, Last-Modified 03:41:48 GMT Mar 4",
+      "content_hash": "1269e3d52dcb9f5d293db930a5928a8666a65f75f8da118270cbb72904a2f807"
+    },
+    {
+      "url": "https://www.co.lynn.tx.us/upload/page/0086/20260303223715.pdf",
+      "what_i_checked": "primary unofficial summary uploaded 03:38:11 GMT Mar 4",
+      "content_hash": "eb811e73c43430c8973d2e1a04d1160d50c9d3a9215e495c852060c7a566cc1b"
+    },
+    {
+      "url": "https://www.co.lynn.tx.us/upload/page/0086/20260526201006.pdf",
+      "what_i_checked": "runoff unofficial precinct report printed 7:58 PM, Last-Modified 01:13:14 GMT May 27",
+      "content_hash": "a0e996849b4e3039a7f5b5e16ec043bb2ee3b9357dff8b7bd3acf9f3b81553b1"
+    },
+    {
+      "url": "https://www.co.lynn.tx.us/upload/page/0086/20260526200948.pdf",
+      "what_i_checked": "runoff unofficial summary uploaded 01:13:01 GMT May 27",
+      "content_hash": "46fa9f40fceef39d27faa7dba43bf94dd72dc3a5598887ea1d3204451398f7f7"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:26:50Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "same (END, check 2). Both: unofficial precinct report scanned 9:38 PM, Last-Modified 03:41:48 GMT (9:41 PM CST), with Election Day columns. Research does not quote the printed footer 'Precinct Summary - 03/03/2026 08:06PM'.",
+    "2026_runoff": "same (END, check 2). Both: Last-Modified 01:13:14 GMT (8:13 PM CDT); printed footer 07:58PM.",
+    "unsupported_or_unchecked": "None found."
+  },
+  "compared_at_utc": "2026-10-02T16:26:56Z"
+}

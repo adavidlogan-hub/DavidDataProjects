@@ -1,0 +1,86 @@
+{
+  "county": "Oldham",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.oldham.tx.us/page/Elections.Past",
+  "platform": "county_pdfs",
+  "host": "www.co.oldham.tx.us",
+  "evidence_url": "https://www.co.oldham.tx.us/upload/page/0103/03.03.2026_JOINT_PRIMARY_UNOFFICIAL_0001.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The 'Election Results/Roster' page lists unofficial and official files per election and links the SOS site as 'TEXAS ELECTION NIGHT RESULTS'. 2024 general: '11.05.2024 Oldham County Unofficial Results' is a scanned Electionware Summary Results Report (county totals), scan created 9:01 PM CST Nov 5, Last-Modified Wed, 06 Nov 2024 14:15:42 GMT (8:15 AM CST Nov 6); precinct numbers only in '11.05.2024 Oldham County - General Election Totals by Precinct' (OFFICIAL RESULTS, created Nov 22 2024, Last-Modified Mon, 10 Feb 2025). 2026 primary: '03.03.2026 JOINT PRIMARY ELECTION - UNOFFICIAL RESULTS' is a Summary Results Report with county totals (footer read as 'Election Summary - 03/03/2026 9:3x PM' at 45 dpi), scan created 9:46 PM CST, Last-Modified Wed, 04 Mar 2026 03:54:15 GMT (9:54 PM CST); precinct numbers only in '03.03.2026 Joint Primary Election Official Results - By Precinct'. 2026 runoff: 'Unofficial Totals Summary' and 'Unofficial Totals Precinct' scans were both created May 27 2026 13:58 to 14:00 UTC (8:58 to 9:00 AM CDT, the morning after), and both carry Last-Modified Thu, 30 Jul 2026 21:21:59 GMT (a later re-upload), so the runoff precinct numbers did not exist as this file until after election night. Confidence low: only the primary has both printed and upload times on election night. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER kept, county_totals_first_seen 2024-11-05 21:01 CT; 2026_runoff LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general LATER, 2026_primary LATER, 2026_runoff UNDETERMINED. Two or more elections share the result that maps to COUNTY_ONLY_PRECINCT_AT_CANVASS, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 21:01 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.oldham.tx.us/upload/page/0109/2024/11.05.2024%20Oldham%20County%20Unofficial%20Results.pdf",
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS Joint General & School Elections 6110 November 5,2024 Oldham County', county totals ('Election Day Precincts Reporting 7of7'); CreationDate Nov 6 2024 03:01 UTC; Last-Modified Wed, 06 Nov 2024 14:15:42 GMT. Precinct numbers only in the OFFICIAL 'General Election Totals by Precinct' (created Nov 22 2024). Rule 43: election-night county-totals file is 11.05.2024 Oldham County Unofficial Results.pdf, scan CreationDate Wed Nov 6 03:01:48 2024 UTC (9:01 PM CST Nov 5); its OCR layer shows 'Election Summary -11/05/2024' and '9:55 PM' (tabulator and scanner clocks differ)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:54 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.oldham.tx.us/upload/page/0103/03.03.2026_JOINT_PRIMARY_UNOFFICIAL_0001.pdf",
+      "fact": "'03.03.2026 JOINT PRIMARY ELECTION - UNOFFICIAL RESULTS': 'Summary Results Report JOINT PRIMARY ELECTION March 3, 2026 UNOFFICIAL RESULTS Oldham County', county totals ('Election Day Precincts Reporting 7 of 7'); CreationDate Mar 4 2026 03:46 UTC; Last-Modified Wed, 04 Mar 2026 03:54:15 GMT. Precinct numbers only in the Official Results - By Precinct file."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.oldham.tx.us/upload/page/0109/2026/05.26.2026_JointPrimaryRunoff_Unofficial_Totals_Precinct0001.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: '05.26.2026 Joint Primary Runoff Unofficial Totals Precinct' scan CreationDate May 27 2026 14:00:21 UTC (9:00 AM CDT May 27); summary scan 13:58 UTC; Last-Modified Thu, 30 Jul 2026 21:21:59 GMT (re-upload). Precinct numbers came after election night."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.oldham.tx.us/page/Elections.Past",
+      "via": "fetch_module",
+      "quote": "03.03.2026 JOINT PRIMARY ELECTION - UNOFFICIAL RESULTS; 05.26.2026 Joint Primary Runoff Unofficial Totals Precinct; TEXAS ELECTION NIGHT RESULTS at TexasElectionResults.com (Secretary of State)",
+      "supports": "report list",
+      "content_hash": "ccb833c895ad30f6f4d8f1d41d12f4e4d80b420efe98f8c3097366861fe5e9c8"
+    },
+    {
+      "url": "https://www.co.oldham.tx.us/upload/page/0109/2024/11.05.2024%20Oldham%20County%20Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS Joint General & School Elections",
+      "supports": "2024_general county totals",
+      "content_hash": "7e7d214194e07267a27d56e1428f32c9c8444b42c991e8873de75767a18488d1"
+    },
+    {
+      "url": "https://www.co.oldham.tx.us/upload/page/0109/2025/11.05.2024 Oldham County - General Election Totals by Precinct.pdf",
+      "via": "fetch_module",
+      "quote": "OFFICIAL RESULTS GENERAL ELECTION TOTALS BY PRECINCT; CreationDate Nov 22 2024",
+      "supports": "2024 precinct numbers at canvass",
+      "content_hash": "be00ecc45baf9621cf2837af08536651ab273833a5cc1fdb6b0798cdc4f98dd9"
+    },
+    {
+      "url": "https://www.co.oldham.tx.us/upload/page/0103/03.03.2026_JOINT_PRIMARY_UNOFFICIAL_0001.pdf",
+      "via": "fetch_module",
+      "quote": "Summary Results Report JOINT PRIMARY ELECTION March 3, 2026 UNOFFICIAL RESULTS",
+      "supports": "2026_primary county totals on election night",
+      "content_hash": "9d3cd409fbaf322f4be14f94105d7072238712621a1841903257af3d1b210ea7"
+    },
+    {
+      "url": "https://www.co.oldham.tx.us/upload/page/0109/2026/05.26.2026_JointPrimaryRunoff_Unofficial_Totals_Precinct0001.pdf",
+      "via": "fetch_module",
+      "quote": "CreationDate May 27 2026 14:00:21 UTC",
+      "supports": "2026_runoff precinct numbers after election night",
+      "content_hash": "bae53b3c87e828098474723641c6b48d912f2bf60e06e73b9a4fd44ee97e3567"
+    }
+  ]
+}

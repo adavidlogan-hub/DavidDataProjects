@@ -1,0 +1,78 @@
+{
+ "county": "Wise",
+ "reason_selected": "tag changed in targeted pass 3",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "3",
+   "county_totals_first_seen": "2024-11-05 21:14 CT",
+   "fact": "Wayback captures of the county's Elections page https://www.co.wise.tx.us/315/Elections at 2024-11-05 22:59:04 CST and 2024-11-06 02:03:40 CST (origin/wayback-data phase1/wayback_snapshots/Wise/) list the results for this election as only 'November 5, 2024 General and Special Election Unofficial Cumulative Report - Final' (DocumentCenter/View/5970) and '... Unofficial Cumulative Report - Early Voting' (View/5969); no precinct report is linked at either time. View/5970 today: 'Cumulative Results Report Wise County, Texas Unofficial Results', 'Precincts Reporting 41 of 41 = 100.00%', 'Run Time 9:14 PM', 'Run Date 11/05/2024', CreationDate Wed Nov 6 03:14:43 2024 UTC; county totals by vote type only. View/5969 printed 6:37 PM with 0 of 41 precincts. The precinct report came later: today's page links 'November 5, 2024 General and Special Election Precinct Results Report' (View/6011): 'Official Results', 'Run Date 11/18/2024', CreationDate Nov 18 2024. LATER (precinct numbers after election night)."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Today's Elections page lists only 'March 3, 2026 Joint Primary Election Official Cumulative Results Report' (View/7547: 'Official Results', 'Run Date 03/09/2026', CreationDate Mar 9 2026), reconciliation, and audit files: post-election only. Wayback harvest found zero captures of co.wise.tx.us for the election-night window. No Clarity list (403). Sweep pending."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Only 'May 26, 2026 Joint Primary Runoff Election Final Official Cumulative Results Report' (View/7776: 'Official FINAL', 'Run Date 06/02/2026', CreationDate Jun 2 2026) and reconciliation/audit files; zero Wayback captures in the window. Sweep pending."
+  }
+ },
+ "rationale": "Only Nov 2024 is decided: election-night archived copies of the county page show only county-totals reports (printed 9:14 PM) and the precinct report is dated Nov 18. One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence. Disclosure: before starting, a routine `git log --oneline` showed the latest commit subjects, which name research's pass 3 tags for Williamson, Polk, and Harrison; no evidence file, DECISIONS item 60 to 62, counties.csv, or targeted3 scratch file was opened before this file was written, and every result here rests on sources I opened myself.",
+ "sources": [
+  {
+   "url": "https://web.archive.org/web/20241106045904/https://www.co.wise.tx.us/315/Elections?os=0slw57psddf",
+   "content_hash": "6df2daac85bf3ac70fef0b1671dadf80d8a48054530356e5d37d4fc75b0a3e9d",
+   "what_i_checked": "Saved file Wise/2024_general_20241106045904_6df2daac85bf.html: links Unofficial Cumulative Report - Final (5970) and - Early Voting (5969); no precinct report."
+  },
+  {
+   "url": "https://web.archive.org/web/20241106080340/https://www.co.wise.tx.us/315/Elections?os=apprefapp",
+   "content_hash": "4fb4bb7f23df1efa472d9e4e182fdcf5d5723b06b3e1558850463afcab83a439",
+   "what_i_checked": "Same two cumulative reports at 2:03 AM; no precinct report."
+  },
+  {
+   "url": "https://www.co.wise.tx.us/DocumentCenter/View/5970",
+   "content_hash": "8f248ceb604468b68632caa5d4cd60ec4fb64a9df2d2134c1e1a4b6da2e37746",
+   "what_i_checked": "Run Time 9:14 PM 11/05/2024, 41 of 41 precincts, county totals; no Last-Modified header returned."
+  },
+  {
+   "url": "https://www.co.wise.tx.us/DocumentCenter/View/5969",
+   "content_hash": "e389e4ee146df17457ce806077706f76468a6b2aefffdcae81bc761269d02953",
+   "what_i_checked": "Run Time 6:37 PM, 0 of 41 precincts, early totals."
+  },
+  {
+   "url": "https://www.co.wise.tx.us/DocumentCenter/View/6011",
+   "content_hash": "4a0e507839c30976c5ce7af55bcd3eaecbda9697dd6f62c4a6ab3e216af081a2",
+   "what_i_checked": "Official precinct report, Run Date 11/18/2024."
+  },
+  {
+   "url": "https://www.co.wise.tx.us/315/Elections",
+   "content_hash": "648a7ed505e4b92db7ecfb4e1bef0c75a2953f15d87041dc5db5d735d0b221ce",
+   "what_i_checked": "2026 primary and runoff: only official cumulative, reconciliation, and audit files."
+  },
+  {
+   "url": "https://www.co.wise.tx.us/DocumentCenter/View/7547",
+   "content_hash": "bacf50c388c859eb941bb8d99afe0c335241a7498389d7e6b67998dca0904940",
+   "what_i_checked": "Official, Run Date 03/09/2026."
+  },
+  {
+   "url": "https://www.co.wise.tx.us/DocumentCenter/View/7776",
+   "content_hash": "d205d063ee7033f1d503856ba6906044f55a1b7f4184c7de1f85736c5855f8ed",
+   "what_i_checked": "Official FINAL, Run Date 06/02/2026."
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T22:34:01Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "Same (LATER, check 3, county totals first seen 2024-11-05 21:14 CT): election-night Wayback captures (10:59 PM and 2:03 AM CST) of /315/Elections link only the Unofficial Cumulative Report - Final (View/5970, Run Time 9:14 PM) and - Early Voting (View/5969, 6:37 PM); the precinct report (View/6011) is Official, Run Date 11/18/2024.",
+  "2026_primary": "Same (UNDETERMINED): only the official cumulative report (Run Date 03/09/2026); no captures.",
+  "2026_runoff": "Same (UNDETERMINED): only the Official FINAL cumulative report (Run Date 06/02/2026); no captures.",
+  "unsupported_claims": "None affecting results. Minor: research notes say www.co.wise.tx.us was refused by the fetch module; on my run it served /315/Elections and the DocumentCenter files directly (robots.txt allows them). The Wise County Messenger lead was not checked (lead only).",
+  "verifier": "verifier-9",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS"
+ }
+}

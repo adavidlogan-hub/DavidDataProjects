@@ -1,0 +1,79 @@
+{
+ "county": "Dallas",
+ "reason_selected": "tag LIVE_PRECINCT",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "County site dallascountyvotes.org returns an empty HTTP 202 to every request (bot protection); 2024 not listed in Clarity elections.json and no 2024 Clarity link found. Search shows 2024 summary PDFs (e.g. Upload-6.pdf) on the blocked host. Wayback index for Dallas has no 2024 election-night captures."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EIDs 126006 (Democratic) and 126007 (Republican) taken from the county ENR page as archived by Wayback 2026-03-03 19:59:54 CST (links results.enr.clarityelections.com/TX/Dallas/126006/ and /126007/); detail.xml shows Region Dallas, ElectionDate 3/3/2026. 126006: 3 distinct night releases with Election Day precinct votes (v368455 8:53:29 PM CST, Dem US Senator Election Day <Precinct name=\"1004D\" votes=\"1\" />; v368563; v368581 2:05:26 AM). 126007: 4 distinct night releases (v368531 10:48:56 PM CST ... v368568). Note 126007 v368380 (6:42 PM CST, before polls closed) already shows Election Day cells."
+  },
+  "2026_runoff": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 126270 (listed in elections.json): 6 distinct election-night releases with Election Day precinct votes, first v372964 (5/26/2026 8:16:44 PM CDT, US Senator Election Day <Precinct name=\"1143R\" votes=\"1\" />), then v372993 (8:50:24 PM, 138 precincts) through v373072 (1:14:39 AM)."
+  }
+ },
+ "rationale": "Primary and runoff settled by check 1 as LIVE; 2024 undetermined (county site blocked, no Clarity ID, no wayback capture). Two LIVE results give LIVE_PRECINCT.",
+ "sources": [
+  {
+   "url": "https://www.dallascountyvotes.org/election-results-and-maps/election-results/",
+   "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "what_i_checked": "county site: empty HTTP 202 (bot protection)"
+  },
+  {
+   "url": "wayback-data:phase1/wayback_snapshots/Dallas/2026_primary_20260304015954_1158c0a4b62d.html",
+   "content_hash": "1158c0a4b62d1277edd7eeae1aa80d2aaaac9a8d2912f005e80f89f8d102198e",
+   "what_i_checked": "archived county ENR page 2026-03-03 19:59:54 CST linking Clarity 126006 and 126007"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368455/reports/detailxml.zip",
+   "content_hash": "75fda589bec80f24448b2396a327f0e74641eccdf033a13a117eecbaaae13f46",
+   "what_i_checked": "first Dem primary night update with Election Day precinct votes; Region/ElectionDate checked"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Dallas/126006/368581/reports/detailxml.zip",
+   "content_hash": "c07ec4217ae1eb5787b1675c2284589c2322c921ca0cf41bea321786d4f4baeb",
+   "what_i_checked": "later Dem primary night update"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368380/reports/detailxml.zip",
+   "content_hash": "7fc69546902830d60563c3481d3d3b7e8490215a125c423926e8570cdb3dacd9",
+   "what_i_checked": "Rep primary 6:42 PM update (Region/ElectionDate checked)"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Dallas/126007/368531/reports/detailxml.zip",
+   "content_hash": "62c8c4d8928eb9ed1b4c72fcccd443a0cbfa918794ac7a8f547216df443eaa67",
+   "what_i_checked": "first Rep primary election-night update"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Dallas/126270/372964/reports/detailxml.zip",
+   "content_hash": "141924d6a4bb3afd71540b9ca7f9128b1a1989a128f69529f715b18cfd404432",
+   "what_i_checked": "first runoff update with Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Dallas/126270/372993/reports/detailxml.zip",
+   "content_hash": "e454811589d98743cd2792920a6148eb480416f4befac99c9c4ac13bb5b3692d",
+   "what_i_checked": "second runoff night update"
+  },
+  {
+   "url": "websearch:Dallas County November 5 2024 general election results clarityelections",
+   "content_hash": "07dea86d7a2ba4f82358c5c3bf6545d512dc847e530ba4ab0927c26f0067988d",
+   "what_i_checked": "search to locate 2024 results (found only PDFs on blocked host)"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:05Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED; site blocked, no wayback capture).",
+  "2026_primary": "same (LIVE, EIDs 126006/126007 from the archived county ENR page).",
+  "2026_runoff": "same (LIVE, EID 126270)."
+ }
+}

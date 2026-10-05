@@ -1,0 +1,56 @@
+{
+ "county": "Crockett",
+ "reason_selected": "tag changed in targeted pass 3",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "The county Elections page (co.crockett.tx.us/page/crockett.Elections; seed website blank) lists only 2026 files; nothing for Nov 2024. No Wayback folder for Crockett on wayback-data: check 3 pending. Not on Clarity (elections.json 404)."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Unofficial Primary Elections Results 03-03-26\" (2026/unofficialprimaryelectionresults030426.pdf, scanned, 20 pages, read visually): \"Summary Results Report ... UNOFFICIAL RESULTS ... Crockett County\", county totals with Election Day column, \"Election Day Precincts Reporting 4 of 4\", printed footer \"Election Summary - 03/03/2026 07:44PM\" (election night). Last-Modified Wed 04 Mar 2026 16:07:32 GMT (10:07 AM CST Mar 4). No precinct-level results report is posted for the primary (the \"Sample Ballot Pct n\" links are sample ballots)."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Election Results for Republican and Democratic 5/26/2026\" (preliminaryelectionreconciliationunofficialtotals052726.pdf, scanned, 5 pages, read visually): two preliminary reconciliation forms plus a \"Summary Results Report ... TX Crockett County 260526 Primary Runoff ... UNOFFICIAL RESULTS\", county totals with Election Day column, \"Election Day Precincts Reporting 4 of 4\", printed \"Election Summary - 05/26/2026 07:16PM\". Last-Modified Wed 27 May 2026 16:26:46 GMT. No precinct results report posted (only official reconciliations and PEHCA worksheets)."
+  }
+ },
+ "rationale": "Primary and runoff are LATER (scanned county-totals summaries printed 7:44 PM Mar 3 and 7:16 PM May 26; no precinct results posted); 2024 has no files and check 3 is pending. Two LATER results give COUNTY_ONLY_PRECINCT_AT_CANVASS, med (check 2).",
+ "sources": [
+  {
+   "url": "https://www.co.crockett.tx.us/page/crockett.Elections",
+   "content_hash": "d6c4d64f9ec1ea1e9eff780c062b2baad20fa3a9c6d052f4d0c28a5f270364e1",
+   "what_i_checked": "elections page: list of 2026 reports, nothing for 2024"
+  },
+  {
+   "url": "https://www.co.crockett.tx.us/upload/page/9753/2026/unofficialprimaryelectionresults030426.pdf",
+   "content_hash": "c315672c1774873ae37657a87a09fe25836dba9d308eb985ecff6054a710f97c",
+   "what_i_checked": "primary county totals, printed 03/03/2026 07:44PM, Last-Modified Mar 4"
+  },
+  {
+   "url": "https://www.co.crockett.tx.us/upload/page/9753/preliminaryelectionreconciliationunofficialtotals052726.pdf",
+   "content_hash": "064cf8b4e8c66ab284ab8b95212b5e3a680a335af4e7d3e656656bb5be31d393",
+   "what_i_checked": "runoff county totals, printed 05/26/2026 07:16PM, Last-Modified May 27"
+  },
+  {
+   "url": "https://www.co.crockett.tx.us/upload/page/9753/2026/preliminaryelectionreconciliationunofficialtotals2026republicanprimary030426.pdf",
+   "content_hash": "ea517ad17f27c1c494710ba0d960485632110e435db3208d4df26c01ebb926a2",
+   "what_i_checked": "primary reconciliation form, Last-Modified Mar 4"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T22:54:26Z",
+ "verifier_agent": "verifier-12",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED): no 2024 files on the Elections page; no wayback folder.",
+  "2026_primary": "same (LATER, check 2): scanned county-totals summary printed 'Election Summary - 03/03/2026 07:44PM', uploaded Mar 4 10:07 AM CST; no precinct results posted.",
+  "2026_runoff": "same (LATER, check 2): scanned county-totals summary printed 'Election Summary - 05/26/2026 07:16PM', uploaded May 27; no precinct results posted.",
+  "unsupported_claims": "None found; the quoted Paxton and Cornyn rows match the page images."
+ }
+}

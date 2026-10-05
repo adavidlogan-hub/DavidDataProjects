@@ -1,0 +1,76 @@
+{
+ "county": "Angelina",
+ "reason_selected": "tag changed in targeted pass 4",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Previous Elections page links for Nov 2024: \"View Election Unofficial Reconciliation\" (unofficial 11.05.24 totals DocScan.pdf: SOS form 12-1 Preliminary Election Reconciliation, ballot counts only, no candidate votes, handwritten date 11-5-24 without time, Last-Modified 08 Nov 2024 14:05:08 GMT), \"Official Results Election Summary\" (footer \"Election Summary - 11/14/2024 5:04 PM\", Last-Modified 25 Nov 2024) and \"Official Results Precinct Summary\" (footer \"Precinct Summary - 11/14/2024 12:31 PM\", Last-Modified 25 Nov 2024). No election-night county-totals results file; the reconciliation form is not a vote-totals file and carries no election-night time. No Clarity site (404). check 3: wayback-data index for this county has no saved election-night captures with results (CDX empty or failed); nothing to open."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "Previous Elections page links \"Unofficial Results (DEM)\" and \"(REP)\" (unofficial.results.dem/rep.030326.pdf): scanned ES&S \"Summary Results Report UNOFFICIAL RESULTS\", county totals with Absentee/Early Voting/Election Day columns, \"21 of 21 ED\", footer \"Election Summary - 03/03/2026 10:05 PM\" on each page (printed run time on election night); Last-Modified 09 Mar 2026 13:15 GMT. Also Unofficial Totals (reconciliation forms, Last-Modified Mar 4 and Mar 5). No unofficial precinct report for this election is linked or found by site search; only official reconciliation and audit files otherwise."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Previous Elections page links only Dem/Rep Official Totals (reconciliation), polling-location reconciliation, hand count audit files. No election-night results file found (site searches found none). check 3: wayback-data index for this county has no saved election-night captures with results (CDX empty or failed); nothing to open."
+  }
+ },
+ "rationale": "Only the 2026 primary is determined (LATER: county-totals summary printed 10:05 PM election night, no precinct report posted). One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS at low confidence.",
+ "sources": [
+  {
+   "url": "https://www.angelinacounty.net/previous-elections",
+   "content_hash": "65d7fcd56a4611860a63218b93c7b44d488cf6b733c584371f5f513213bc941b",
+   "what_i_checked": "list of result files for all three elections"
+  },
+  {
+   "url": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/030326/unofficial.results.dem.030326.pdf",
+   "content_hash": "8a56dd2587edc79830861498e9cc5d6f56e93781587c16a18593e0563aebe1ad",
+   "what_i_checked": "county summary, footer 03/03/2026 10:05 PM, Last-Modified 09 Mar 2026"
+  },
+  {
+   "url": "https://www.angelinacounty.net/files/pdf/elections/pdf/2026/030326/unofficial.results.rep.030326.pdf",
+   "content_hash": "72f537fa6f9086fc3c654195ad5ddc82da29fa6e67cfd7d5170531bd461d0c3c",
+   "what_i_checked": "county summary, footer 03/03/2026 10:05 PM, Last-Modified 09 Mar 2026"
+  },
+  {
+   "url": "https://www.angelinacounty.net/files/pdf/elections/pdf/2024/unofficial 11.05.24 totals DocScan.pdf",
+   "content_hash": "926281a3d346feea2f27d18b4e258fc9226f2a2edcb7d5ca05fae46703390bc7",
+   "what_i_checked": "rendered page image: reconciliation form only, date 11-5-24, Last-Modified 08 Nov 2024"
+  },
+  {
+   "url": "https://www.angelinacounty.net/files/pdf/elections/pdf/2024/Official Results Election Summary 11052024.pdf",
+   "content_hash": "bfb664bd26b7dc73dc20c754eccf0652a991bc09e27b05bfbb3962deba1b1b3f",
+   "what_i_checked": "rendered page 1: footer 11/14/2024 5:04 PM, official"
+  },
+  {
+   "url": "https://www.angelinacounty.net/files/pdf/elections/pdf/2024/Offical Precinct Summary 11052024.pdf",
+   "content_hash": "44bd1df98178fb424de63acb3036afb6ba348cd22e7a51166895cfc0cc14b934",
+   "what_i_checked": "official precinct summary 11/14/2024 12:31 PM"
+  },
+  {
+   "url": "websearch:site:angelinacounty.net unofficial results summary results report",
+   "content_hash": "04e110caff817da8cfc9ef787196760caec7a3bc4c6a6098a3227a7ad9e9c627",
+   "what_i_checked": "no unlinked files beyond those linked"
+  },
+  {
+   "url": "websearch:site:angelinacounty.net election results 2024 general unofficial 110524",
+   "content_hash": "ed1fa94f789ec1e815379008a3705ddcbbf507ae56bdca3f39bdf83a7e4b87a5",
+   "what_i_checked": "no Nov 2024 unofficial results file"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-03T00:15:00Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "Same (UNDETERMINED). Both read the Previous Elections page block: unofficial 11.05.24 totals DocScan.pdf is a Form 12-1 ballot reconciliation (no candidate votes), the results files are official (Nov 14 prints, Nov 25 uploads).",
+  "2026_primary": "Same (LATER, check 2, same files unofficial.results.dem/rep.030326.pdf, footer 'Election Summary - 03/03/2026 10:05 PM', Last-Modified 09 Mar 2026, no precinct report listed).",
+  "2026_runoff": "Same (UNDETERMINED).",
+  "unsupported_claims": "The research elections.2024_general.fact ('County Elections page lists no 2024 general results (only View Partial Manual Count)') is stale: the Previous Elections page lists the unofficial reconciliation and the official Nov 2024 summary and precinct summary; the research notes (targeted4-F) correct this, and the result is unaffected. Research claims about the live app election.angelinacounty.net (county-level data model, API 401) were not checked by me; they decide nothing. Research lists a 'General Election Canvass Report' link in the Nov 2024 block that I did not see in my link extraction; not deciding.",
+  "compared_at_utc": "2026-10-03T00:40:00Z"
+ }
+}

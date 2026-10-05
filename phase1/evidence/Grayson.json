@@ -1,0 +1,100 @@
+{
+  "county": "Grayson",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.grayson.tx.us/page/elec.history",
+  "platform": "county_pdfs",
+  "host": "www.co.grayson.tx.us",
+  "evidence_url": "https://www.co.grayson.tx.us/upload/page/0060/docs/Election%20Day%20General%20November%205%202024%20.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL (http default.aspx?name=elec.home) returned HTTP 403; https://www.co.grayson.tx.us/page/elec.home loads and links 'Prior Election Results' (/page/elec.history). No Clarity site (elections.json 404) and no other vendor results link was found on the elections pages. The Prior Election Results page lists only official, post-canvass reports for the target elections: 'Official Results Summary Report General 11.5.24 Election' and 'Official Pct. by Pct. Summary Results General 11.5.24 Election'; 'Official_Rep_Party_Pct_Summ_Results_Report_2026.pdf' and 'Official_Rep_Party_Summ_Results_Report_2026.pdf' (and Democratic) for the 2026 primary; nothing for the 2026 runoff. No election-night report remains, so check 2 cannot show what was public on election night. Document links (/page/open/...) carry no upload dates. Check 3 pending (origin/wayback-data not present). Targeted pass 3 2026-10-02 (targeted3-A): no election changed. A web search shows the county once posted unofficial 2026 primary reports ('March 3rd 2026 Primary Summary Unofficial Results Report.pdf' and 'Republican Party Summary Results Unofficial Report_.pdf' under /upload/page/0188/docs/2026/Results/Final-Unofficial/, 'Primary_Final_Unofficial_Summary_Results_Report.pdf', and /page/open/3828/0/'March 3rd 2026 Joint Primary Unoffcial Early Voting_Election Day_Absentee Summary Report.pdf'); fetched now, the /upload copies return HTTP 404 and the /page/open copy returns an empty 'Document Open' HTML page, so their content and times cannot be read (search snippets are not evidence). These are leads for the archive sweep. Site map (co.sitemap-list) and Voter Information page (vote.home) carry no results links beyond Prior Election Results. A site-restricted search of newtools.cira.state.tx.us found no Grayson copies. Wayback main harvest targeted co.grayson.tx.us only (connection refused); no phase1/targeted/ folder for Grayson; sweep pending. Targeted pass 4 2026-10-02 (targeted4-E): 2024_general changed UNDETERMINED to LATER (check 2). A web search found an election-night file not linked from any current county page, /upload/page/0060/docs/Election Day General November 5 2024 .pdf: a 24-page county-totals 'Summary Results Report UNOFFICIAL RESULTS' printed 'Election Summary - 11/05/2024 09:56PM' with 'Precincts Partially Reported 41 of 41', server Last-Modified Wed, 06 Nov 2024 04:03:28 GMT (10:03 PM CST). The only 2024 general precinct report found is the canvass 'Official Pct. by Pct.' report printed 11/19/2024 01:49PM (served via /page/open with no Last-Modified). Caveat: because this election-night file was posted outside the Prior Election Results page (page folder 0060, directory listing HTTP 403), the current page listing is not a complete record of what was posted that night; no unofficial precinct report for this election turned up in three searches. 2026 primary: still UNDETERMINED. Tried the state host newtools.cira.state.tx.us for the /upload/page/0188/.../Final-Unofficial/ files (HTTP 404; newtools does not serve Grayson files at all, even an existing 0187 file 404s), more removed names from search ('/page/open/3828/0/March 3rd 2026 Primary Republican Pary Summary Unofficial Results.pdf' and the Democratic one return the empty 'Document Open' page; 'Primary_Final_Unofficial_Summary_Results_Report.pdf' and the Democratic Final-Unofficial copy return 404). Memento aggregator and archive.today timemaps are refused by the fetch module (robots or unreachable); wayback-data has no Grayson captures (CDX empty for 2026, connection refused for 2024), no phase1/targeted/ folder and no sweep folder for Grayson (sweep pending). 2026 runoff: correction to pass 1, elec.history does list runoff files, but only official ones (folder 3854: 'Official Republican Primary Runoff Election Precinct Summary 052626.pdf', 'Official Republican Primary Runoff Election Summary 052626.pdf' and Democratic equivalents); no unofficial runoff file found; still UNDETERMINED. Check 4: Howe Enterprise article (howeenterprise.com/?p=56342, runoff night) refused by the fetch module (robots or unreachable); no other per-precinct third-party page found. Six searches, about 22 fetches. Targeted pass 5 2026-10-03 (targeted5-A): 2024_general unchanged (LATER, check 2), strengthened by a second election-night county-totals file from the sweep (printed 7:44 PM, uploaded 7:54 PM CST); county_totals_first_seen moved to 7:44 PM. Other Grayson replays are the Sept 14, 2024 Sherman special election (its unofficial precinct-by-precinct report, printed 09/14/2024 08:32PM, has original Last-Modified Sun, 15 Sep 2024 02:03:01 GMT, 9:03 PM CDT that election night, so Grayson has posted unofficial precinct reports on an election night before; no such file for Nov 5, 2024 is in the archive), road plans and notices. 2026 primary and runoff: sweep CDX queries timed out; unchanged.",
+  "tag_rationale": "Only the 2024 general is determined (LATER: an election-night county-totals summary printed 9:56 PM and uploaded 10:03 PM, with the only precinct report being the Nov 19 canvass report); the 2026 primary and runoff remain UNDETERMINED, so by rule the single determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "County-totals file 'Election Day General November 5 2024 .pdf' (24 pages, all county summary pages, no per-precinct pages): header 'Summary Results Report UNOFFICIAL RESULTS', 'November 5, 2024 General Election Grayson County', 'Election Day Precincts Reporting 41 of 41', 'Precincts Partially Reported 41 of 41', footer 'Election Summary - 11/05/2024 09:56PM'; server Last-Modified 'Wed, 06 Nov 2024 04:03:28 GMT' (10:03 PM CST election night); PDF CreationDate 2024-11-06 03:58:07 UTC (9:58 PM CST). The only precinct report found for this election is the canvass report 'Official Pct. by Pct. Summary Results General 11.5.24 Election' ('Precinct Summary Results Report OFFICIAL RESULTS', footer 'Precinct Summary - 11/19/2024 01:49PM'; served without Last-Modified); no unofficial precinct report for this election was found on the county site or in search. Rule 43 as read in DECISIONS 67: LATER. Targeted pass 5 (sweep replay): an earlier election-night county-totals release in the same folder, 'General November 5 2024 Election.pdf' (24 pages, 'Summary Results Report UNOFFICIAL RESULTS', 'Election Day Precincts Reporting 0 of 41', 'Absentee/ Early Precincts Reporting 41 of 41', footer 'Election Summary - 11/05/2024 07:44PM', no per-precinct pages), original Last-Modified Wed, 06 Nov 2024 01:54:27 GMT (7:54 PM CST). The Wayback CDX for co.grayson.tx.us from Nov 5 to Nov 26, 2024 (53 files) lists no unofficial precinct report for this election (it does list the September 14, 2024 Sherman special election's unofficial precinct report, showing the archive would have caught such a file in these folders).",
+      "county_totals_first_seen": "2024-11-05 19:44 CT (printed run time; server upload 2024-11-05 19:54 CT)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.grayson.tx.us/upload/page/0060/docs/Election%20Day%20General%20November%205%202024%20.pdf"
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only 'Official_Rep_Party_Pct_Summ_Results_Report_2026.pdf', 'Official_Rep_Party_Summ_Results_Report_2026.pdf' and Democratic equivalents listed. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No 2026 runoff results listed on the elections pages. Check 3 pending.",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.grayson.tx.us/page/elec.history",
+      "via": "fetch_module",
+      "content_hash": "d9524fee1b88bfcae05e53e759f9e06140d15353cfbeae70a12729feff75359c",
+      "quote": "Official Pct. by Pct. Summary Results General 11.5.24 Election | Official_Rep_Party_Pct_Summ_Results_Report_2026.pdf",
+      "supports": "only official reports remain"
+    },
+    {
+      "url": "https://www.co.grayson.tx.us/page/elec.home",
+      "via": "fetch_module",
+      "content_hash": "112b5ba3dca01452065845cd96d7183b42374ffaccfc8adc6259b74fecd1d432",
+      "quote": "Prior Election Results | Elections Livestream",
+      "supports": "elections page has no results vendor link"
+    },
+    {
+      "url": "https://www.co.grayson.tx.us/upload/page/0060/docs/Election%20Day%20General%20November%205%202024%20.pdf",
+      "via": "fetch_module",
+      "content_hash": "8c2ee494bbf07568bd1fd04a67534fea30b0f1aced1303d688c6dceca3a41107",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS | November 5, 2024 General Election Grayson County | Election Day Precincts Reporting 41 of 41 | Precincts Partially Reported 41 of 41 | Election Summary - 11/05/2024 09:56PM (Last-Modified: Wed, 06 Nov 2024 04:03:28 GMT)",
+      "supports": "2024_general: election-night county-totals file, printed 9:56 PM and uploaded 10:03 PM CST; summary pages only"
+    },
+    {
+      "url": "https://www.co.grayson.tx.us/page/open/3389/0/Official%20Pct.%20by%20Pct.%20Summary%20Results%20General%2011.5.24%20Election",
+      "via": "fetch_module",
+      "content_hash": "0b01141401a82dd96b2667294632347ea28e44d0fc123236f1e24457dd589118",
+      "quote": "Precinct Summary Results Report OFFICIAL RESULTS | November 5, 2024 General Election Grayson County | Precinct 101 | Precinct Summary - 11/19/2024 01:49PM",
+      "supports": "2024_general: the only precinct report found is the official canvass report printed Nov 19 2024"
+    },
+    {
+      "url": "websearch:Grayson County election results precinct by precinct November 5 2024 Sherman Denison",
+      "via": "websearch",
+      "content_hash": "5ef8a19c4d427d4576f5e377205a48dfbdccf9631361db8995b6afc6ea5b92b4",
+      "quote": "https://www.co.grayson.tx.us/upload/page/0060/docs/Election%20Day%20General%20November%205%202024%20.pdf",
+      "supports": "locating only: search found the unlinked election-night file"
+    },
+    {
+      "url": "websearch:Grayson County Texas March 3 2026 primary unofficial results precinct",
+      "via": "websearch",
+      "content_hash": "eee4a875584afe12a67b8c5f971a9d41fdd34d88eafb980f74f9f0bfcbeb7ca6",
+      "quote": "/page/open/3828/0/March 3rd 2026 Primary Republican Pary Summary Unofficial Results.pdf | /page/open/3828/0/March 3rd 2026 Primary Democratic Party Summary Unofficial Results_.pdf",
+      "supports": "locating only: further removed 2026 primary unofficial file names (all now 404 or empty 'Document Open' pages)"
+    },
+    {
+      "url": "https://web.archive.org/web/20241106074851id_/https://www.co.grayson.tx.us/upload/page/0060/docs/General%20November%205%202024%20Election.pdf",
+      "via": "wayback_branch",
+      "content_hash": "3ddef87059d3be18b05d087dd0f61ed03067da3b7eaaed8029617b26cdc0b76e",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS | November 5, 2024 General Election Grayson County | Election Day Precincts Reporting 0 of 41 | Election Summary - 11/05/2024 07:44PM | orig Last-Modified Wed, 06 Nov 2024 01:54:27 GMT",
+      "supports": "2024_general LATER: first election-night county-totals release (printed 7:44 PM, uploaded 7:54 PM CST); wayback-data phase1/targeted/sweep/Grayson/2024_general_20241106074851_c0897b1595.pdf"
+    }
+  ]
+}

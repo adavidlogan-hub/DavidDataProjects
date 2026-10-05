@@ -1,0 +1,49 @@
+{
+ "county": "Ochiltree",
+ "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No Clarity site (elections.json 404). Elections page carries no 2024 general results. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Only \"Official Results by Precincts\" (Official Results prct by prct 3.3.26.pdf, Last-Modified 13 Mar 2026) and official summary; no election-night file. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_runoff": {
+   "result": "END",
+   "check": "2",
+   "fact": "\"Unofficial Returns - Summary plus_by Precinct\" 5.26.26 Unofficial Results_summary_by precincts.pdf: Summary Results Report UNOFFICIAL RESULTS with per-precinct pages (e.g. \"Precinct 2\", Election Day column), footer \"Precinct Summary - 05/26/2026 7:54 PM\"; Last-Modified 27 May 2026 01:14:52 GMT (8:14 PM CDT)."
+  }
+ },
+ "rationale": "Only the runoff is determined (one unofficial precinct report printed and uploaded on election night). One determined election gives PRECINCT_END_OF_NIGHT at low confidence.",
+ "sources": [
+  {
+   "url": "https://www.co.ochiltree.tx.us/page/ochiltree.Elections",
+   "content_hash": "ca7343d7ac04baf2b684eda68f5cdd327698de8c2d7eeacd2e17c8399ad54e67",
+   "what_i_checked": "file list"
+  },
+  {
+   "url": "https://www.co.ochiltree.tx.us/upload/page/7514/5.26.26 Unofficial Results_summary_by precincts.pdf",
+   "content_hash": "c2b6ac434ed96cfaff31d64be1973dd378c7b0a465db138d9080ab8289011a8d",
+   "what_i_checked": "runoff unofficial precinct report printed 7:54 PM, uploaded 8:14 PM"
+  },
+  {
+   "url": "https://www.co.ochiltree.tx.us/upload/page/7514/Official Results prct by prct 3.3.26.pdf",
+   "content_hash": "253a44d7e06fe2cc02dae8bfb1a909e0c7cf49a6daaa2d37109eaac12afe1a56",
+   "what_i_checked": "primary official precinct report uploaded Mar 13"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (END, printed 7:54 PM, uploaded 8:14 PM)."
+ }
+}

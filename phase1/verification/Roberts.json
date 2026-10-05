@@ -1,0 +1,44 @@
+{
+ "county": "Roberts",
+ "reason_selected": "low confidence",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Seed list has no website; co.roberts.tx.us/page/roberts.elections lists no 2024 results. No wayback folder for this county, check 3 pending."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "Under \"PRIMARY ELECTION DAY RESULTS\": \"REPUBLICAN RESULTS.pdf\" is a scanned \"Republican Primary Cumulative Results ... Unofficial Results ... ROBERTS COUNTY\", county totals by vote type only; CreationDate 4 Mar 2026 01:16 UTC (7:16 PM CST, on election night; the only election-night time, and early for a full election-day count, so the scanner clock may be off); Last-Modified Thu 05 Mar 2026 14:12:08 GMT (after election night). No precinct numbers posted."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Runoff section lists rosters and notices only; no results file. No wayback folder for this county, check 3 pending."
+  }
+ },
+ "rationale": "Only the primary is determined (LATER: county-totals scan dated 7:16 PM CST election night, no precinct numbers), so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+ "sources": [
+  {
+   "url": "https://www.co.roberts.tx.us/page/roberts.elections",
+   "content_hash": "4ccb1f210ab2b226695bd71428660d1de8b54aaf4de370f2b3d98848ee400d87",
+   "what_i_checked": "results list"
+  },
+  {
+   "url": "https://www.co.roberts.tx.us/upload/page/9388/REPUBLICAN RESULTS.pdf",
+   "content_hash": "62edd34ffe02872d75336055f7ec79547e346f4703d176724f7191ea397d67c0",
+   "what_i_checked": "cumulative county totals, uploaded 5 Mar 2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same.",
+  "2026_primary": "same (LATER). Research fact says the CreationDate (4 Mar 01:16 UTC) and Last-Modified times are \"both after election night\"; 01:16 UTC is 7:16 PM CST on March 3, inside the election-night window, and is the only election-night time.",
+  "2026_runoff": "same."
+ }
+}

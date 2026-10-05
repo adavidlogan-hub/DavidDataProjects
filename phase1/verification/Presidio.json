@@ -1,0 +1,51 @@
+{
+  "county": "Presidio",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Election Information page lists no November 2024 results (only 2024 March primary, 2020 and 2016 generals). No Clarity. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026' (ELECTION-UNOFFICIAL-RESULT-REPORT_52712_...pdf): 'Texas Secretary of State Election Unofficial Results Report ... PRESIDIO County', county totals (Ken Paxton Election Day Count 10, Total 30); PDF CreationDate Mar 4 06:49:52 UTC = 12:49 AM CST (election night); Last-Modified Wed, 04 Mar 2026 15:58:54 GMT (9:58 AM next morning). Precinct numbers only in 'Unofficial Election Results by Precinct 2026 Republican Party' (Excel PDF, 'ELECTION DAY REPUBLICAN PRIMARY ELECTION MARCH 3, 2026 ... PCT 1 ... PCT 7'), CreationDate and Last-Modified Wed, 11 Mar 2026 16:46-16:51 GMT."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No May 26 2026 runoff results listed. Check 3 pending."
+    }
+  },
+  "rationale": "Only the primary is determined (LATER: county-total report generated 12:49 AM on election night, precinct table first posted Mar 11), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "sources": [
+    {
+      "url": "https://www.co.presidio.tx.us/page/presidio.Election.Information",
+      "what_i_checked": "results file list",
+      "content_hash": "d014a095838b59aaeb5682ae17a7c9ff7b9ba6c8bb83b247839433fbba701cb1"
+    },
+    {
+      "url": "https://www.co.presidio.tx.us/upload/page/4732/2026/ELECTION-UNOFFICIAL-RESULT-REPORT_52712_1772606992256.pdf",
+      "what_i_checked": "county totals, CreationDate 12:49 AM CST, uploaded 9:58 AM Mar 4",
+      "content_hash": "db398445c6bbae001d1c4cf03b91846c11c2a865b437ec76d8f54c65f068f90e"
+    },
+    {
+      "url": "https://www.co.presidio.tx.us/upload/page/4732/2026/2026 REPUBLICAN PRIMARY ELECTION.pdf",
+      "what_i_checked": "precinct table created and uploaded Mar 11",
+      "content_hash": "2f14c5e74822acfd41f2f84187ebf541fff6db9a842c6e1caeb78507eaddbb29"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:28:25Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "same (LATER, check 2). Both: SOS-format county totals (CreationDate 12:49 AM CST, uploaded 9:58 AM Mar 4) and precinct table uploaded Mar 11. The election-night evidence is the CreationDate (a printed time); the county totals were only uploaded the next morning.",
+    "2026_runoff": "same (UNDETERMINED).",
+    "unsupported_or_unchecked": "None found."
+  },
+  "compared_at_utc": "2026-10-02T16:28:31Z"
+}

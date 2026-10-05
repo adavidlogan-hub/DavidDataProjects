@@ -1,0 +1,417 @@
+{
+  "county": "Montague",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122664",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "346436",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/346436/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347264",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/347264/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347265",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/347265/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347269",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/347269/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/16/2024 2:09:24 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "347289",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/347289/reports/detailxml.zip",
+              "content_hash": "0970f5f14bdc19d3d9d9598341aede33825b468d9f06f45899b1b08ae9b0138b",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 5:50:54 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1539,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350537",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/350537/reports/detailxml.zip",
+              "content_hash": "cf2d243abfd0b68c75ccafd7bac61682b91c23db03eb49ff115832e411ba05ea",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:39:02 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1990,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 3530,
+              "version": "351035",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351035/reports/detailxml.zip",
+              "content_hash": "be44881ce6222913ed55b522779865897593ce0b49e08b238adae55bb5f1fbb4",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 7:53:36 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 2089,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 10769,
+              "version": "351132",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351132/reports/detailxml.zip",
+              "content_hash": "4feef7a01aa149a1669deb43a57b18dfa3aded6b346e2196f1b692a9ab486f58",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:01:27 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 2135,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 17525,
+              "version": "351192",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351192/reports/detailxml.zip",
+              "content_hash": "8cb78769f3706fc5877de5ba8050dff1f87b7ea5b9c29c5d175418d23a1cae13",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:17:47 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 2201,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 30730,
+              "version": "351370",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351370/reports/detailxml.zip",
+              "content_hash": "0c6b73cb436f21a34bf00f4f284810090bc97b55c741cf3b73ad571794d42d3c",
+              "election_night": true
+            },
+            {
+              "version": "351612",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351612/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 8:52:02 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 2228,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 47086,
+              "version": "351720",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351720/reports/detailxml.zip",
+              "content_hash": "c28fa6fc88a85f4ed9cebd40515a20c9a7f420e061beb4a2b57109214ac54b3f",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 5:50:54 PM CST",
+            "version": "350537",
+            "url": "https://results.enr.clarityelections.com/TX/Montague/122664/350537/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 5,
+          "election_night_distinct_election_day_precinct_releases": 5,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 7:39:02 PM CST",
+            "version": "351035",
+            "url": "https://results.enr.clarityelections.com/TX/Montague/122664/351035/reports/detailxml.zip"
+          },
+          "unreadable_versions": 5
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126015",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368175",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368175/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368176",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368176/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368177",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368177/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368179",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368179/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368180",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368180/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368196",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368196/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368256",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368256/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/26/2026 5:08:24 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368261",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368261/reports/detailxml.zip",
+              "content_hash": "6211572ac34739e1cb14cb8cbd21387cc7d4b2530b79fe78dfc6c8eccaf926e8",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/27/2026 10:58:34 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368267",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368267/reports/detailxml.zip",
+              "content_hash": "fab540e59cd14b1bb5e74303ddb0d99308943d8b54f23b13a977d535e6b1de11",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/27/2026 11:26:46 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368268",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368268/reports/detailxml.zip",
+              "content_hash": "7c7857faa5d867a84d78c3dafb91e3bb61368f7a1736a72a69a384c66c9b3e85",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/27/2026 11:30:09 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368269",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368269/reports/detailxml.zip",
+              "content_hash": "d0888e276cecaf38361c0a54a57b81099134807399de03e620c07cefaaef4f9d",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 4:15:43 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 2899,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368368",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368368/reports/detailxml.zip",
+              "content_hash": "378a7a4ce110deee067fb9edff5a0babda006d223f9921fddb86fdb629016ee4",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:38:53 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 3913,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 5545,
+              "version": "368406",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368406/reports/detailxml.zip",
+              "content_hash": "b4319d6652c7275514234cb48e2367dfa448ee26021197ac08ac6eeda0e7a3ed",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 7:50:39 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 4065,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 6842,
+              "version": "368411",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368411/reports/detailxml.zip",
+              "content_hash": "0bd4cd949c0c514e0051cba44670ed9c86ec7ba03b9d717fa72acb7b50f1e831",
+              "election_night": true
+            },
+            {
+              "version": "368422",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368422/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 8:19:16 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 4445,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 31303,
+              "version": "368429",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368429/reports/detailxml.zip",
+              "content_hash": "008b6c9dc1fe20d936c27e749fbcdb3d8135951cce74116d63d5302128b1acf2",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:32:50 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 4726,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 52645,
+              "version": "368438",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368438/reports/detailxml.zip",
+              "content_hash": "49e31f87ea777d36a5e390f02c4134b22644403e04e1998f5436d6163cdca280",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:48:39 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 4768,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 59303,
+              "version": "368449",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368449/reports/detailxml.zip",
+              "content_hash": "042cd6fe6331e112b06d385845535754d1fe37219e01ee67687913f35182b6a1",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 4:15:43 PM CST",
+            "version": "368368",
+            "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368368/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 5,
+          "election_night_distinct_election_day_precinct_releases": 5,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 7:38:53 PM CST",
+            "version": "368406",
+            "url": "https://results.enr.clarityelections.com/TX/Montague/126015/368406/reports/detailxml.zip"
+          },
+          "unreadable_versions": 8
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126366",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "timestamp": "5/12/2026 2:04:02 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "371248",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126366/371248/reports/detailxml.zip",
+              "content_hash": "e5094b25a77181646e2435591bc9c8890fab26932377f741223ef1590939a60d",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 4:15:06 PM CDT",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 245,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372895",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372895/reports/detailxml.zip",
+              "content_hash": "614ff43849177eb68faa23bbe681241952dd7d288e452e286976748c852ffcd4",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:16:44 PM CDT",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 328,
+              "precincts_with_election_day_votes": 12,
+              "election_day_precinct_vote_sum": 541,
+              "version": "372937",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372937/reports/detailxml.zip",
+              "content_hash": "74f6bbb97b584be3fd460894821b4508ade696edb93557abb13c5793d6b1c26d",
+              "election_night": true
+            },
+            {
+              "version": "372953",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372953/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372956",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372956/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 8:06:23 PM CDT",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 362,
+              "precincts_with_election_day_votes": 13,
+              "election_day_precinct_vote_sum": 1638,
+              "version": "372957",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372957/reports/detailxml.zip",
+              "content_hash": "453becdcedf37a835d9e02d676f398d4ea76fa5144f66be366a4b56400658b5f",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:21:27 PM CDT",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 398,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 3938,
+              "version": "372968",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372968/reports/detailxml.zip",
+              "content_hash": "58b529d4a44fe8cba93be0a077173f01f847f71a316d96f15735dd5b8fc169b6",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:52:36 PM CDT",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 404,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 4600,
+              "version": "372995",
+              "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372995/reports/detailxml.zip",
+              "content_hash": "d2230243b192ddc333dd91830a7e68e14c8ec1ce43e0f23f8c1d3850fe62170a",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 4:15:06 PM CDT",
+            "version": "372895",
+            "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372895/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 4,
+          "election_night_distinct_election_day_precinct_releases": 4,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/26/2026 7:16:44 PM CDT",
+            "version": "372937",
+            "url": "https://results.enr.clarityelections.com/TX/Montague/126366/372937/reports/detailxml.zip"
+          },
+          "unreadable_versions": 2
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122664",
+    "2026_primary": "126015",
+    "2026_runoff": "126366"
+  }
+}

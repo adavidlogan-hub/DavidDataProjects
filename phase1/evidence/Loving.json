@@ -1,0 +1,72 @@
+{
+  "county": "Loving",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "",
+  "platform": "unknown",
+  "host": "lovingcountyanddistrictclerk.com",
+  "evidence_url": "https://lovingcountyanddistrictclerk.com/elections-1",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed site www.co.loving.tx.us has no elections page; its County Clerk page points to 'Our NEW website: https://lovingcountyanddistrictclerk.com/'. That site's ELECTIONS page (fetched 2026-10) shows Nov 3, 2026 general election dates, notices, sample ballots, precinct maps and campaign finance reports back to 2022, but no election results, canvass, or returns documents for any election. Notices and Postings page has no results either. Clarity check 1: no Clarity election list (HTTP 404). One web search found no county results page. The absence of results today does not show what was posted on election night, so no election is settled as NONE; check 3 (Wayback) is pending because origin/wayback-data was not present when checked. Targeted pass 3 2026-10-02 (targeted3-H): No change. Refetch of lovingcountyanddistrictclerk.com/elections-1 failed (connection reset); the cached copy has no results, canvass or returns text. Wayback harvest covered only co.loving.tx.us and found no election-night captures; no sweep folder.",
+  "tag_rationale": "No election could be determined (all UNDETERMINED: no vendor log, no county reports, check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-A",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No Clarity site (elections.json 404). Current county elections page (lovingcountyanddistrictclerk.com/elections-1) lists only Nov 3, 2026 general election notices and no results documents for any election; that shows what is posted now, not what was posted on election night. Check 3 pending: origin/wayback-data branch not present."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No Clarity site (elections.json 404). Current county elections page (lovingcountyanddistrictclerk.com/elections-1) lists only Nov 3, 2026 general election notices and no results documents for any election; that shows what is posted now, not what was posted on election night. Check 3 pending: origin/wayback-data branch not present."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No Clarity site (elections.json 404). Current county elections page (lovingcountyanddistrictclerk.com/elections-1) lists only Nov 3, 2026 general election notices and no results documents for any election; that shows what is posted now, not what was posted on election night. Check 3 pending: origin/wayback-data branch not present."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://lovingcountyanddistrictclerk.com/elections-1",
+      "via": "fetch_module",
+      "content_hash": "073fc29027885f0ca369f15dde3f91bac5f8872d69e12162595f55dbf0b22745",
+      "quote": "LOVING COUNTY ELECTIONS NOV. 3RD, 2026, GENERAL ELECTION IMPORTANT DATES",
+      "supports": "current elections page has notices only, no results"
+    },
+    {
+      "url": "https://www.co.loving.tx.us/page/loving.County.Clerk",
+      "via": "fetch_module",
+      "content_hash": "01b22317506d1e6cef8c8267dfe592cdc56f1b337264a0d041719b27ee4e0f7a",
+      "quote": "Our NEW website: https://lovingcountyanddistrictclerk.com/",
+      "supports": "location of county clerk elections site"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Loving/elections.json",
+      "via": "clarity_script",
+      "content_hash": "",
+      "quote": "no Clarity election list (404)",
+      "supports": "no Clarity site"
+    }
+  ]
+}

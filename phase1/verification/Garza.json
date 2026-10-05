@@ -1,0 +1,63 @@
+{
+  "county": "Garza",
+  "reason_selected": "low confidence",
+  "verifier_tag": "UNKNOWN",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections page lists no November 2024 results. No Clarity. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'Republican Unofficial Results March 3, 2026 Primary': SOS-format 'Election Unofficial Results Report', county totals, no printed run time on the page; scan CreationDate Mar 4 14:22 UTC (8:22 AM CST next day); /page/open/ host sends no Last-Modified. No election-night time, so UNDETERMINED under the updated rule. No per-precinct results posted. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only 'May 26 2026 Primary Runoff Official Results.pdf' (Election Summary - 06/01/2026 5:29 PM, OFFICIAL RESULTS, county totals). No election-night file. Check 3 pending."
+    }
+  },
+  "rationale": "No election is determined: no file with an election-night printed or upload time survives for any election, so UNKNOWN.",
+  "sources": [
+    {
+      "url": "https://www.garzacounty.gov/page/elections",
+      "what_i_checked": "results links (seed garzacounty.net replaced by garzacounty.gov)",
+      "content_hash": "1c0d82739e97164aee61a0af6cb5b485e0a3623cc0b05b8444aa6205ff5e60ad"
+    },
+    {
+      "url": "https://www.garzacounty.gov/page/March3primary2026",
+      "what_i_checked": "primary unofficial results links",
+      "content_hash": "d8c888df63606c26df71193597a266b99a871a1431a80f47017abf6dd2fa7593"
+    },
+    {
+      "url": "https://www.garzacounty.gov/page/open/1660/0/March%20Primary%20Republican.pdf",
+      "what_i_checked": "SOS-format county totals, scanned Mar 4 morning",
+      "content_hash": "91f495256d11f6f48bac28981d1f361d3f7ebd50f5275a6e36ac30d74ab2758f"
+    },
+    {
+      "url": "https://www.garzacounty.gov/page/open/1666/0/Repuclican.pdf",
+      "what_i_checked": "canvass file is hand count audit sheet, not precinct results",
+      "content_hash": "4b46b5d0b936af45cc22a759368a99749f1ab8bc7aa84dc62f0346ffe0a08e40"
+    },
+    {
+      "url": "https://www.garzacounty.gov/page/open/1526/0/May%2026%202026%20Primary%20Runoff%20Official%20Results.pdf",
+      "what_i_checked": "runoff official summary printed Jun 1",
+      "content_hash": "3307e664c44c40a0ebe02a1125f610069541eb3454a2bc172ebf656a3408a499"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:17:53Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": false,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "different: research LATER from the SOS-format county-total scan created 8:22 AM CST Mar 4 with no Last-Modified. No election-night printed or upload time exists, so under the updated LATER rule the research LATER is not supported; I record UNDETERMINED.",
+    "2026_runoff": "same after revision (UNDETERMINED).",
+    "unsupported_or_unchecked": "Research tag COUNTY_ONLY_PRECINCT_AT_CANVASS rests on a primary LATER without election-night evidence."
+  },
+  "compared_at_utc": "2026-10-02T16:17:58Z",
+  "revision_note": "Revised after the orchestrator's LATER rule clarification (CHECKLIST_BRIEF updated mid-run): LATER needs a county-totals file printed or uploaded on election night; elections with only post-election files are UNDETERMINED. Revision made from my own evidence after the research file had been opened; no new facts taken from it. Changed: 2026_primary and 2026_runoff LATER to UNDETERMINED; tag COUNTY_ONLY_PRECINCT_AT_CANVASS to UNKNOWN.",
+  "revised_at_utc": "2026-10-02T16:24:55Z"
+}

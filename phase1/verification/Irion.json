@@ -1,0 +1,52 @@
+{
+  "county": "Irion",
+  "reason_selected": "low confidence",
+  "verifier_tag": "UNKNOWN",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No Clarity site (elections.json 404). Notices page 'Results' tab lists only March 3 2026 files; nothing for November 2024. check 3 pending (no folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'Unofficial March 3, 2026 Precinct by Precinct (PDF)' (DocumentCenter/View/302): scanned Precinct Results Report, Run Time 7:58 PM Run Date 03/03/2026, precinct 100 Jasmine Crockett Election Day 3; scan CreationDate 3/4/2026 15:43 UTC (9:43 AM CST). CivicPlus DocumentCenter returns the request time as Last-Modified, so no upload evidence; the online copy cannot predate the morning scan. Precinct numbers online after election night."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No runoff result file on the Notices/Results page. check 3 pending (no folder on wayback-data)."
+    }
+  },
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'UNDETERMINED', '2026_primary': 'UNDETERMINED', '2026_runoff': 'UNDETERMINED'}. Fixed rule gives UNKNOWN, confidence low. (Original blind rationale: Only 2026_primary determined (LATER, check 2: precinct report scanned the morning after). One determined, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.)",
+  "sources": [
+    {
+      "url": "https://www.co.irion.tx.us/1208/Notices",
+      "content_hash": "77486934984ad64cfb0ad4ae2ba535b15eac8948be412c5596a5f09f562c993e",
+      "what_i_checked": "Results tab lists primary files only"
+    },
+    {
+      "url": "https://www.co.irion.tx.us/DocumentCenter/View/302/Unofficial-March-3-2026-Precinct-by-Precinct-PDF",
+      "content_hash": "1dd9ed9544891445c511e35c7484fbdae1485b27ab15fd46fe59a0752363f327",
+      "what_i_checked": "printed 7:58 PM, scanned 3/4 9:43 AM"
+    },
+    {
+      "url": "https://www.co.irion.tx.us/DocumentCenter/View/303/Unofficial-March-3-2026-Primary-PDF",
+      "content_hash": "c08c1f99ad1bf2df64c838967fe9d203e24bca07cfa4761afe9c3503e64c94b5",
+      "what_i_checked": "county summary scanned 3/9"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": false,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED).",
+    "2026_primary": "same (LATER, check 2): precinct report printed 7:58 PM, scan CreationDate 3/4 15:43 UTC. Rule 43 re-applied: LATER changed to UNDETERMINED (the only file is a precinct report (printed 7:58 PM but scanned 3/4 9:43 AM); no county-totals file dated on election night, so no positive evidence of county totals only); check 3 pending.",
+    "2026_runoff": "same (UNDETERMINED).",
+    "rule_43": "rule 43 re-applied"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+}

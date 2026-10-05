@@ -1,0 +1,18 @@
+import json, sys
+sys.path.insert(0, '.')
+from phase1.schema import validate_v2
+W = " Wayback (web.archive.org) was unreachable from the fetch module throughout this pass (robots.txt request reset: 'Connection reset by peer'), so no new archive lookups were possible; sweep not expected for this county."
+N = {
+ "Hale": "Targeted pass 3 2026-10-02 (targeted3-L): No change. halecounty.org still disallows all crawlers in robots.txt (accepted). The wayback harvest (phase1/wayback_snapshots/Hale) recorded the CDX query as robots_disallowed_or_unreachable with no captures. Two web searches (Plainview Herald / myplainview.com precinct results; recorded in the search log) found no Hale County results page or third-party precinct table. Two guesses at an earlier state-hosted page (newtools.cira.state.tx.us/page/hale.Elections, hale.home) returned HTTP 403." + W,
+ "La_Salle": "Targeted pass 3 2026-10-02 (targeted3-L): No change. The site now answers at https://co.la-salle.tx.us (no www). Its per-election pages list files for all three elections (2024: 'Unofficial Results', official per-precinct files; 2026 primary: 'Cumulative Unofficial Results', SOS unofficial reports, and 'Local Elections Unofficial Results' image; runoff: 'Cumulative Results Report', SOS unofficial reports), but every file is under /images/, which robots.txt disallows ('Disallow: /images/'), so none could be opened or timed (accepted, not bypassed). The wayback branch has an election-night capture (2026-03-04 00:44 CST) of the article '2026 Primary Elections Local Results' (datePublished 2026-03-03T22:19:29-06:00) whose body is only an image, /images/images/Local_Unofficial_Results.jpg; the image itself was not saved and Wayback replay was unreachable, so its content (county totals or precinct numbers) is unknown. Election-night captures of the election-board page show no results links." + W,
+ "Wheeler": "Targeted pass 3 2026-10-02 (targeted3-L): No change. Re-listed both election pages. 2024 general: only 'Preliminary Election Reconciliation-UNOFFICIAL TOTALS' (ballot reconciliation, Last-Modified Wed, 06 Nov 2024 21:51:53 GMT, after election night) and 'Official Results'. 2026 primary: 'Democratic Unofficial Election Results' Last-Modified Thu, 05 Mar 2026 13:32:05 GMT (after election night), like the Republican file. 2026 runoff: no unofficial file listed. The wayback harvest covered only co.wheeler.tx.us (no captures; primary window connection refused); the current domain wheelercounty.texas.gov could not be checked." + W,
+ "Concho": "Targeted pass 3 2026-10-02 (targeted3-L): No change. The Elections page holds only November 3, 2026 items; the wayback harvest for co.concho.tx.us recorded robots_disallowed_or_unreachable with no captures for all three windows." + W,
+ "Terrell": "Targeted pass 3 2026-10-02 (targeted3-L): No change. Re-listed the Elections page and opened the files not checked before: 'REPUBLICAN RUN OFF VOTES 2026.xlsx' (Last-Modified Mon, 08 Jun 2026 19:59:47 GMT), 'PRIMARY RUNOFF REPUBLICAN RESULTS WORKSHEETS.pdf' (Tue, 23 Jun 2026), 'RECONCILIATION OF TOTAL VOTES CAST 03-03-2026.pdf' (Tue, 31 Mar 2026), 'RECONCILIATION ... EACH POLLING LOCATION MAY 26 2026.pdf' (Mon, 08 Jun 2026): all after election night. The 2024 file '11-05-2024 RESULTS.pdf' is still 404 and the wayback harvest shows no election-night captures for co.terrell.tx.us." + W,
+}
+for c, n in N.items():
+    p = f"phase1/evidence/{c}.json"
+    d = json.load(open(p))
+    d["notes"] = d["notes"].rstrip() + " " + n
+    validate_v2(d)
+    json.dump(d, open(p, "w"), indent=2, ensure_ascii=False)
+    print(c, d["tag"], d["confidence"])

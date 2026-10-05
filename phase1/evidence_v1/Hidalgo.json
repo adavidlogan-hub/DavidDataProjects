@@ -1,0 +1,55 @@
+{
+  "county": "Hidalgo",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.hidalgocounty.us/3477/May-26-2026-Primary-Runoff-Election",
+  "platform": "county_pdfs",
+  "host": "www.hidalgocounty.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Hidalgo County, Texas (not Hidalgo County, New Mexico; NM SOS results pages appeared in results and were ignored). Results are posted as static documents on the county CivicPlus site: per-election pages (hidalgocounty.us/3477/May-26-2026-Primary-Runoff-Election, hidalgocounty.us/3456/49276/2026-Joint-Primary-Election) and a DocumentCenter item titled 'Count_HtmlCumulativeReport' (HTML-Cumulative-Results-24GENERAL). Platform set to county_pdfs as the closest category for static result documents on the county domain; note the visible 24GENERAL item is an HTML export, not a .pdf. LEADS only (search summaries): 'Precinct by precinct reports are available' and Democratic runoff results 'by precinct (PCT by PCT)'; unofficial final runoff results linked from the department Facebook page. None says when precinct reports were posted relative to election night. Phone 956-318-2570 / (956) 318-2570 appeared only in search summaries (email redacted), not attributed verbatim to a county page title or quote, so left empty; county staff directory page exists at hidalgocounty.us/Directory/Home/DepartmentListing?DID=64. No 2025/2026 statement about changing precinct-level reporting found. No usage notice seen verbatim. Fetch module: 1 direct attempt plus wayback_probe (3 CDX windows) on hidalgocounty.us/DocumentCenter/View/, all robots_disallowed_or_unreachable. WebFetch not attempted (all earlier WebFetch attempts on county and news hosts returned EGRESS_BLOCKED).",
+  "tag_rationale": "Precinct-by-precinct reports exist on the county site, but no source states when they were posted on election night for any target election. Tag UNKNOWN.",
+  "sources": [
+    {
+      "url": "https://www.hidalgocounty.us/3477/May-26-2026-Primary-Runoff-Election",
+      "via": "websearch",
+      "query": "Hidalgo County election night results precinct report hidalgocounty.us DocumentCenter 2026 primary",
+      "quote": "May 26, 2026 Primary Runoff Election",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.hidalgocounty.us/DocumentCenter/View/69002/HTML-Cumulative-Results-24GENERAL",
+      "via": "websearch",
+      "query": "Hidalgo County elections department election results",
+      "quote": "Count_HtmlCumulativeReport",
+      "supports": "platform"
+    },
+    {
+      "url": "https://www.hidalgocounty.us/Directory/Home/DepartmentListing?DID=64",
+      "via": "websearch",
+      "query": "Hidalgo County elections department phone email",
+      "quote": "Elections Department",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.hidalgocounty.us/105/Elections-Department",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "attempt failed: robots_disallowed_or_unreachable (no content)",
+      "supports": "results_url"
+    }
+  ],
+  "searches_run": 5,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 4,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T14:00:40Z",
+  "agent": "research-B",
+  "finished_at_utc": "2026-10-02T14:24:47Z"
+}

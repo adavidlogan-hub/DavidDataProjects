@@ -1,0 +1,77 @@
+{
+  "county": "Fort Bend",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 122596 from the county's 2024 Election Results page ('Official Results' link under November 5, 2024; not in elections.json). detail.xml Region Fort Bend, ElectionDate 11/5/2024. Opened v350851 (Timestamp 11/5/2024 7:12:34 PM CST): precinct votes only under Absentee/early (e.g. Absentee precinct 1004). Opened v351874 (9:06:34 PM CST): President / Vice President, REP Donald J. Trump / JD Vance, VoteType Election Day votes=4304, <Precinct name=\"1005\" votes=\"49\" />. 5 of 6 night updates with ED precinct votes (4 distinct releases, 9:06 PM to 12:48 AM)."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 125940 from the county's 2026 Election Results page (March 3 primary 'Official Results'); Region Fort Bend, ElectionDate 3/3/2026. Opened v368391 (7:07:35 PM CST): absentee/early precinct votes only. Opened v368448 (8:48:38 PM CST): REP UNITED STATES SENATOR, JOHN CORNYN, Election Day votes=455, <Precinct name=\"1002\" votes=\"3\" />. 4 of 5 night updates with ED precinct votes (8:48 PM to 1:47 AM)."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "EID 126372 from the county's 2026 page ('May 26, 2026-Primary Runoff Election' Official Results); Region Fort Bend, ElectionDate 5/26/2026. Opened v372938 (7:17:04 PM CDT): absentee/early only. Opened v372994 (8:51:54 PM CDT): REP UNITED STATES SENATOR, JOHN CORNYN, Election Day votes=1822, <Precinct name=\"1002\" votes=\"4\" />. 3 of 4 night updates with ED precinct votes (8:51 PM, 9:46 PM, 12:03 AM)."
+    }
+  },
+  "rationale": "LIVE in all three elections from check 1, using Clarity IDs linked on the county's own results pages. LIVE_PRECINCT, high.",
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/350851/reports/detailxml.zip",
+      "content_hash": "7a2a5b32ecdc9b128c4c9924a634b9e3cabfdf3733c004f191f466b3d7de4fe6",
+      "what_i_checked": "2024 first night update, early-only"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/122596/351874/reports/detailxml.zip",
+      "content_hash": "c3ec9c0f7c4053011514a8b214ed41aaa316fbd88a5e96fdcd251070539d933b",
+      "what_i_checked": "2024 9:06 PM ED precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368391/reports/detailxml.zip",
+      "content_hash": "27565ffbe8eac92018c3737afa856d16060e6e11e87e06be7decacf758975d27",
+      "what_i_checked": "primary 7:07 PM early-only"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/125940/368448/reports/detailxml.zip",
+      "content_hash": "481bb900e0a6b726255c1a3d693bcf506de5830fbb2dc479a408a89d8d4c9c27",
+      "what_i_checked": "primary 8:48 PM ED precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/372938/reports/detailxml.zip",
+      "content_hash": "6287a55418a41464dab09f8a1efc6bf9ceee964fc2f7b580e2cf8e6eceb5cda2",
+      "what_i_checked": "runoff 7:17 PM early-only"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126372/372994/reports/detailxml.zip",
+      "content_hash": "c0c03587611baf0b03cd1dd226413fd5138eb042f730b37f394d901320de56a4",
+      "what_i_checked": "runoff 8:51 PM ED precinct votes"
+    },
+    {
+      "url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration/2024-election-results",
+      "content_hash": "4be86cf608c7f336069bcd1f2090ba09366110be5dd0ba394b6fa5bda39e2e15",
+      "what_i_checked": "Nov 5 2024 links Clarity /TX/Fort_Bend/122596"
+    },
+    {
+      "url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration/2026-election-results",
+      "content_hash": "f8d50ce9b7f34f1fc701f478436d012be220ea0ac33a7bbc1fdbd594651cd831",
+      "what_i_checked": "Mar 3 2026 links /125940; May 26 2026 Primary Runoff links /126372"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:18:41Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LIVE, check 1), EID 122596. Research lists 7:12 PM as a night update with precinct votes; I found absentee and early votes only there. Election Day precinct votes start at 9:06 PM. Result unchanged.",
+    "2026_primary": "same (LIVE, check 1), EID 125940 (7:07 PM early only; Election Day from 8:48 PM).",
+    "2026_runoff": "same (LIVE, check 1), EID 126372 (7:17 PM early only; Election Day from 8:51 PM).",
+    "rule_43": "rule 43 re-applied: no per-election result changed"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+}

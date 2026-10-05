@@ -1,0 +1,61 @@
+{
+  "county": "Burnet",
+  "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Election Results page lists only official 2024 files ('November 5, 2024 Official Precinct (PDF)', Official Cumulative, Official Canvas, etc.); no election-night file. DocumentCenter Last-Modified equals the request time, so no upload evidence. No Clarity. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Only official reports listed ('March 3, 2026 Primary Republican Official Precinct (PDF)': 'Official Results ... Run Time 9:52 AM', PDF CreationDate May 13 2026) plus unofficial reconciliation totals forms. No election-night results file remains. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "fact": "'2026 Primary Runoff Unofficial Precinct Report (PDF)' (DocumentCenter 2005): 'Precinct Results Report ... Unofficial Results ... May 2026 Primary Run-off Election ... Polling Places Reporting 18 of 18 = 100.00% ... Run Time 9:35 PM ... Run Date 05/26/2026', precinct 01 U.S. Senator Republican: John Cornyn Election Day Voting 33, Ken Paxton 61. PDF CreationDate 02:35 UTC May 27 (9:35 PM CDT). One unofficial precinct report, the final unofficial count. Upload time not available (server Last-Modified equals request time)."
+    }
+  },
+  "rationale": "Only the runoff is determined (END: one final unofficial precinct report printed 9:35 PM election night), so PRECINCT_END_OF_NIGHT with confidence low; no upload time.",
+  "sources": [
+    {
+      "url": "https://www.burnetcountytexas.org/1325/Election-Results",
+      "what_i_checked": "report lists for 2024, 2026 primary, 2026 runoff (seed default.aspx URL returns 404)",
+      "content_hash": "720542f7476348aad773e06112dc7940c00657e994ec398ed077b1de687955da"
+    },
+    {
+      "url": "https://www.burnetcountytexas.org/DocumentCenter/View/2005/2026-Primary-Runoff-Unofficial-Precinct-Report-PDF",
+      "what_i_checked": "unofficial precinct report run 9:35 PM with election-day precinct votes; Last-Modified is request time",
+      "content_hash": "7501ba221c46d75491c65478195901b51540875a4186ba4e3cce85cf506e98a1"
+    },
+    {
+      "url": "https://www.burnetcountytexas.org/DocumentCenter/View/2004/2026-Primary-Runoff-Unofficial-Cumulative-Report-PDF",
+      "what_i_checked": "unofficial cumulative run 9:34 PM, 18 of 18",
+      "content_hash": "76373726789b88ca2ffa0b6c5a489831703eec74651376b0f3050c2fd5d2bdfe"
+    },
+    {
+      "url": "https://www.burnetcountytexas.org/DocumentCenter/View/2022/March-3-2026-Primary-Republican-Official-Precinct-PDF",
+      "what_i_checked": "primary precinct report is official only",
+      "content_hash": "0a42be80812889c1624056975f883ac28e3b47f3457b0770a790a9c7c87bc1ea"
+    },
+    {
+      "url": "https://www.burnetcountytexas.org/1306/November-5-2024",
+      "what_i_checked": "2024 subpage holds only voter roster XLSX files",
+      "content_hash": "5d31681a1738e1319efb127685b6c965e72c36da6a194911b8049afd6db395f8"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:09:40Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED). Both found only official 2024 reports.",
+    "2026_primary": "same (UNDETERMINED). Both found only official precinct, cumulative and canvass reports plus reconciliations.",
+    "2026_runoff": "same (END, check 2). Both read the unofficial precinct report run 9:35 PM, 18 of 18, with Election Day precinct votes (precinct 01 Cornyn 33); both note no upload time (Last-Modified equals request time).",
+    "unsupported_or_unchecked": "None found. Note the END call rests on a printed run time only; whether the file was posted that night is not shown by any upload time."
+  },
+  "compared_at_utc": "2026-10-02T16:09:47Z"
+}

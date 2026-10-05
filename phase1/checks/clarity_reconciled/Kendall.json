@@ -1,0 +1,362 @@
+{
+  "county": "Kendall",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122829",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "348116",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/348116/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348117",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/348117/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348118",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/348118/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348119",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/348119/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/23/2024 8:04:41 PM CDT",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 1457,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 3619,
+              "version": "348120",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/348120/reports/detailxml.zip",
+              "content_hash": "7b8836a7d144161741c90f8802e7d14625fba6e1cf1a2a98ed6dd92763eeeb71",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 8:39:45 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350320",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/350320/reports/detailxml.zip",
+              "content_hash": "57e90956c13d3ad2512691d76d9f24a80b8e23f4f7f02275a29d4ae3e92abbcd",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:23:44 PM CST",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 1513,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350932",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/350932/reports/detailxml.zip",
+              "content_hash": "6c1f8baf34f34d1c93e7b4a91afe94565e6d9f52e88f561566cfc2788a734268",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:39:46 PM CST",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 2264,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 40845,
+              "version": "351618",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/351618/reports/detailxml.zip",
+              "content_hash": "d9a6d8362bc52b7a385f8e2521731e96b5205baa2772f68a5f63be99b4390585",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:18:18 PM CST",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 2297,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 75444,
+              "version": "351989",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/351989/reports/detailxml.zip",
+              "content_hash": "e9ddddfed586efc23e50a19865f282cf2742a24e3754446de99f7491535043c5",
+              "election_night": true
+            },
+            {
+              "version": "358164",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/358164/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/7/2025 3:23:26 PM CDT",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 2303,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 75508,
+              "version": "358273",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/358273/reports/detailxml.zip",
+              "content_hash": "91a27a00afdf3965fbf6ef22d2ea77c26ab36b2bf756eb65c7964123367287fe",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/7/2025 3:26:34 PM CDT",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 2303,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 75508,
+              "version": "358274",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/358274/reports/detailxml.zip",
+              "content_hash": "67fc8879672006a20deacc553f48dc8eec05f97c910d6076f2d3602ac4a32d63",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 3,
+          "election_night_updates_with_precinct_votes": 3,
+          "first_update_with_precinct_votes": {
+            "timestamp": "10/23/2024 8:04:41 PM CDT",
+            "version": "348120",
+            "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/348120/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 2,
+          "election_night_distinct_election_day_precinct_releases": 2,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "10/23/2024 8:04:41 PM CDT",
+            "version": "348120",
+            "url": "https://results.enr.clarityelections.com/TX/Kendall/122829/348120/reports/detailxml.zip"
+          },
+          "unreadable_versions": 5
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126002",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368049",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368049/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368050",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368050/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/22/2026 8:38:22 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368167",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368167/reports/detailxml.zip",
+              "content_hash": "d878d7cd7f06693f6722a995207f57650994a6a2c0b0baf8af8f616b38447b7a",
+              "election_night": false
+            },
+            {
+              "version": "368178",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368178/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 7:16:31 PM CST",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 4828,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368396",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368396/reports/detailxml.zip",
+              "content_hash": "b2e97687f920ea2cf4f55e30b5d4479f6c7b0c5fc2ddac113b932972aa95ce03",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:32:04 PM CST",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 7313,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 76964,
+              "version": "368437",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368437/reports/detailxml.zip",
+              "content_hash": "01e26cd457b6ef3351890ff9f5e3b274a0d1dbb489f580c296c5c42d32f00861",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:16:05 PM CST",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 7471,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 137192,
+              "version": "368473",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368473/reports/detailxml.zip",
+              "content_hash": "1dce262627ab1e3408ceb25a682f9f3581233f6c1b362001ee3449f728de225e",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:32:11 PM CST",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 7586,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 175321,
+              "version": "368482",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368482/reports/detailxml.zip",
+              "content_hash": "47ab5f1a83bb0a3c9de0f51585b1412743600df6062a1b19d62fe6830f7b612d",
+              "election_night": true
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:16:31 PM CST",
+            "version": "368396",
+            "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368396/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 3,
+          "election_night_distinct_election_day_precinct_releases": 3,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 8:32:04 PM CST",
+            "version": "368437",
+            "url": "https://results.enr.clarityelections.com/TX/Kendall/126002/368437/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126365",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "371122",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/371122/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371212",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/371212/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371217",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/371217/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371219",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/371219/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372143",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372143/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372144",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372144/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372145",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372145/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/22/2026 3:55:38 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372637",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372637/reports/detailxml.zip",
+              "content_hash": "c0849f5e0f8b865092ddcb28b25ecfc815875f550d02f6db5701940d1bbe25c0",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:01:59 PM CDT",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 470,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372928",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372928/reports/detailxml.zip",
+              "content_hash": "57be916b2190a9e2e82a42d0fa47a822a25fd97e3c9716c5c0af9c89c15a5695",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:04:11 PM CDT",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 700,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 7233,
+              "version": "372955",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372955/reports/detailxml.zip",
+              "content_hash": "facee2014075e2c2a9d2bbe445d06402b00e2be704d918cad89499eaf1885e58",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:24:43 PM CDT",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 707,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 12291,
+              "version": "372974",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372974/reports/detailxml.zip",
+              "content_hash": "c1e27758d02edfe5a6d122e11dd6bc3754a0bec12c080c879a1213483a23944a",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:37:14 PM CDT",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 714,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 16090,
+              "version": "372984",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372984/reports/detailxml.zip",
+              "content_hash": "334b46c204e7c5c999aa11c418f0b06d8f1dc949c51e8f78b9d60debfcbe80dc",
+              "election_night": true
+            },
+            {
+              "timestamp": "6/9/2026 8:48:14 AM CDT",
+              "precincts_with_votes": 17,
+              "nonzero_precinct_vote_cells": 717,
+              "precincts_with_election_day_votes": 17,
+              "election_day_precinct_vote_sum": 16124,
+              "version": "374714",
+              "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/374714/reports/detailxml.zip",
+              "content_hash": "e458290e5aab94ea3f4a08b58ca1dddbe48fddff4b40469d5e7d46dbe270b370",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 7:01:59 PM CDT",
+            "version": "372928",
+            "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372928/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 3,
+          "election_night_distinct_election_day_precinct_releases": 3,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/26/2026 8:04:11 PM CDT",
+            "version": "372955",
+            "url": "https://results.enr.clarityelections.com/TX/Kendall/126365/372955/reports/detailxml.zip"
+          },
+          "unreadable_versions": 7
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122829",
+    "2026_primary": "126002",
+    "2026_runoff": "126365"
+  }
+}

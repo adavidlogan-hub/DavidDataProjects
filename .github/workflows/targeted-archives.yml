@@ -1,0 +1,68 @@
+name: targeted-archives
+# Targeted archive search for the largest UNKNOWN counties (phase1/targeted/targets.json).
+# Job other-archives uses the Memento aggregator and archive.today and runs immediately.
+# Job wayback-extended shares the wayback-harvest concurrency group, so archive.org
+# never has more than one harvester at a time.
+on:
+  push:
+    branches: [claude/tx-precinct-pipeline]
+    paths: [phase1/targeted/targets.json, .github/workflows/targeted-archives.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  other-archives:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Memento aggregator and archive.today lookups
+        shell: bash
+        run: set -o pipefail; python -m phase1.archive_lookup --targets phase1/targeted/targets.json --out phase1/targeted/archives | tee lookup_log.jsonl
+      - name: Upload artifact (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: targeted-other-archives-${{ github.run_id }}
+          path: phase1/targeted/archives
+          retention-days: 30
+      - name: Push to wayback-data branch
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+          JOB: other-archives
+        run: bash tools/push_targeted.sh
+  wayback-extended:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    concurrency:
+      group: wayback-harvest
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Extended Wayback search on exact results hosts (7 PM to 9 AM, no path filter)
+        shell: bash
+        run: set -o pipefail; python -m phase1.wayback_harvest --agent targeted-wayback --cap 40 --extended --targets-file phase1/targeted/targets.json --snap-dir phase1/targeted/wayback | tee wayback_log.jsonl
+      - name: Upload artifact (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: targeted-wayback-${{ github.run_id }}
+          path: phase1/targeted/wayback
+          retention-days: 30
+      - name: Push to wayback-data branch
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+          JOB: wayback-extended
+        run: bash tools/push_targeted.sh

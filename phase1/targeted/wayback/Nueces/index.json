@@ -1,0 +1,161 @@
+{
+  "county": "Nueces",
+  "targets": [
+    "nuecescountytx.gov",
+    "nuecesco.com",
+    "co.nueces.tx.us/elections"
+  ],
+  "harvested_at_utc": "2026-10-02T20:48:34Z",
+  "windows": {
+    "2024_general": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=nuecescountytx.gov&matchType=prefix&from=20241106010000&to=20241106150000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=nuecesco.com&matchType=prefix&from=20241106010000&to=20241106150000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "496febe8513404071f2942bfdf0ecc0f4e2ea9176a5426167d9de0f525ffabcc"
+        },
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=co.nueces.tx.us%2Felections&matchType=prefix&from=20241106010000&to=20241106150000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        }
+      ],
+      "captures": [
+        {
+          "timestamp_utc": "20241106071630",
+          "local": "2024-11-06 01:16:30 CST",
+          "original": "https://www.nuecesco.com/",
+          "mimetype": "text/html",
+          "digest": "U6OPWISYR7LXPEPV7R5A64G33WX2KMRS",
+          "length": "20769",
+          "replay_url": "https://web.archive.org/web/20241106071630id_/https://www.nuecesco.com/",
+          "ok": true,
+          "error": null,
+          "content_hash": "32dde26b0d5f3cbded9b6c35512b4becd6d7394bf2eeb58b00c0602321a16372",
+          "saved_as": "Nueces/2024_general_20241106071630_32dde26b0d5f.html"
+        },
+        {
+          "timestamp_utc": "20241106100827",
+          "local": "2024-11-06 04:08:27 CST",
+          "original": "https://www.nuecesco.com/",
+          "mimetype": "text/html",
+          "digest": "63CZWZ44BFJHWPKB5EUM3QBTGKO36L46",
+          "length": "20761",
+          "replay_url": "https://web.archive.org/web/20241106100827id_/https://www.nuecesco.com/",
+          "ok": true,
+          "error": null,
+          "content_hash": "5d92854f19aef6782bedbeb9c3316cdc0ba5add26548f022a0deaca17069afae",
+          "saved_as": "Nueces/2024_general_20241106100827_5d92854f19ae.html"
+        }
+      ]
+    },
+    "2026_primary": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=nuecescountytx.gov&matchType=prefix&from=20260304010000&to=20260304150000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=nuecesco.com&matchType=prefix&from=20260304010000&to=20260304150000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "cadb7a5312839dd85f56aa9b1f0f4de67bb1e2c3028b7610cdbdacc934ca18ba"
+        },
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=co.nueces.tx.us%2Felections&matchType=prefix&from=20260304010000&to=20260304150000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        }
+      ],
+      "captures": [
+        {
+          "timestamp_utc": "20260304010743",
+          "local": "2026-03-03 19:07:43 CST",
+          "original": "https://www.nuecesco.com/",
+          "mimetype": "text/html",
+          "digest": "V6YZ73NOJ3O6JOUWKJHQ45WXDX7S6PNF",
+          "length": "23059",
+          "replay_url": "https://web.archive.org/web/20260304010743id_/https://www.nuecesco.com/",
+          "ok": true,
+          "error": null,
+          "content_hash": "8d15bad7d18881377de34fae8a48b64eba66eee72c7dfd001d3f617594e4450a",
+          "saved_as": "Nueces/2026_primary_20260304010743_8d15bad7d188.html"
+        },
+        {
+          "timestamp_utc": "20260304023211",
+          "local": "2026-03-03 20:32:11 CST",
+          "original": "https://www.nuecesco.com/",
+          "mimetype": "text/html",
+          "digest": "FVDFMFWBGTHIWRPWMGVTDWA6AFDGSGQB",
+          "length": "22617",
+          "replay_url": "https://web.archive.org/web/20260304023211id_/https://www.nuecesco.com/",
+          "ok": true,
+          "error": null,
+          "content_hash": "e09710d0da64c01878292fd66c3ad8ff97c8a27d4322d1413cff21d30528c1ad",
+          "saved_as": "Nueces/2026_primary_20260304023211_e09710d0da64.html"
+        },
+        {
+          "timestamp_utc": "20260304025612",
+          "local": "2026-03-03 20:56:12 CST",
+          "original": "https://www.nuecesco.com/courts/district-clerk/child-support",
+          "mimetype": "text/html",
+          "digest": "HLUJ6R67JMQNRB4B6PB2B5GHXFIGMJBN",
+          "length": "27131",
+          "replay_url": "https://web.archive.org/web/20260304025612id_/https://www.nuecesco.com/courts/district-clerk/child-support",
+          "ok": true,
+          "error": null,
+          "content_hash": "b621ce17c92556347c0d3c1a60804ab250ebec9746e9189d6e97ca34f7dadc4e",
+          "saved_as": "Nueces/2026_primary_20260304025612_b621ce17c925.html"
+        },
+        {
+          "timestamp_utc": "20260304100648",
+          "local": "2026-03-04 04:06:48 CST",
+          "original": "https://www.nuecesco.com/",
+          "mimetype": "text/html",
+          "digest": "PYLR5C7B2JRWDKM27YGOYYY5JBINEJQY",
+          "length": "22630",
+          "replay_url": "https://web.archive.org/web/20260304100648id_/https://www.nuecesco.com/",
+          "ok": true,
+          "error": null,
+          "content_hash": "fe451d761cf67073c35ea121dd8b35817536b327d45ff16a756f43130a5eef49",
+          "saved_as": "Nueces/2026_primary_20260304100648_fe451d761cf6.html"
+        }
+      ]
+    },
+    "2026_runoff": {
+      "cdx": [
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=nuecescountytx.gov&matchType=prefix&from=20260527000000&to=20260527140000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=nuecesco.com&matchType=prefix&from=20260527000000&to=20260527140000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+          "url": "https://web.archive.org/cdx/search/cdx?url=co.nueces.tx.us%2Felections&matchType=prefix&from=20260527000000&to=20260527140000&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&filter=statuscode:200&filter=!mimetype:image%2F.%2A&filter=!mimetype:text%2Fcss&filter=!mimetype:application%2Fjavascript&filter=!mimetype:text%2Fjavascript&filter=!mimetype:application%2Fx-javascript&filter=!mimetype:font%2F.%2A&filter=!mimetype:application%2Ffont.%2A&filter=!mimetype:application%2Fx-font.%2A&filter=!mimetype:video%2F.%2A&filter=!mimetype:audio%2F.%2A&filter=!mimetype:warc%2Frevisit&collapse=digest&limit=5000",
+          "ok": true,
+          "error": null,
+          "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        }
+      ],
+      "captures": []
+    }
+  },
+  "replays_fetched": 6
+}

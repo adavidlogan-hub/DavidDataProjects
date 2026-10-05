@@ -1,0 +1,70 @@
+{
+  "county": "Taylor",
+  "reason_selected": "tag changed in targeted pass 3",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Neither the Current Election page (/214/Current-Election) nor the Archived Election Results page (/549) lists any file for the Nov 5 2024 general election (archive page jumps from Nov 2025 and May 2025 to March 2024). Wayback harvest for taylorcounty.texas.gov failed (robots_disallowed_or_unreachable); no sweep folder; a web search found no county or third-party file. UNDETERMINED."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Current Election page, 'JOINT PRIMARY ELECTION March 3, 2026': Early Voting Results (DocumentCenter 5012/5013, PDF created 7:24-7:25 PM CST), '1st Release Election Day Results' (5015/5014; Republican page header 'Republican Party - Cumulative Report ... Unofficial Results ... Run Time 9:02 PM Run Date 03/03/2026', Precincts Reporting 0 of 68, with Election Day Voting column; scanned PDFs created 9:10 PM CST), 'Final Unofficial Results' (5016/5017; 'Run Time 10:37 PM' Dem and '10:35 PM' Rep, Run Date 03/03/2026, 68 of 68, scanned PDFs created 10:47 PM CST). All are county-wide Cumulative Reports (6 and 10 pages). The only precinct reports are 'OFFICIAL Precinct Report' 5042/5043 ('Official Results', PDF created Mar 10 and Mar 11 2026). DocumentCenter returns no Last-Modified header, so no upload time; the printed run times decide (rule 43): county totals on election night, precinct numbers only at canvass: LATER, county_totals_first_seen 2026-03-03 21:02 CT."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No May 26 2026 runoff results are linked on the Current Election or Archived Election Results pages (the Nov 3 2026 section links DocumentCenter 5196/5197, which are the June 13 2026 City of Abilene runoff, Run Time 8:13 PM 06/13/2026). No archive captures. UNDETERMINED."
+    }
+  },
+  "rationale": "Only the March 2026 primary is determined (LATER from check 2, election-night printed run times on county-totals reports, precinct report only official). Fixed rule with one determined election: COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low.",
+  "sources": [
+    {
+      "url": "https://www.taylorcounty.texas.gov/214/Current-Election",
+      "content_hash": "934f46afbd01df475e8a3b3ed126b926dc746ddea23712aa4427a2e46f636044",
+      "what_i_checked": "Election Results tab: March 3 2026 primary release list; no runoff or Nov 2024 entries."
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/549/Archived-Election-Results",
+      "content_hash": "446ce906d80b7bde9097745cc6aced4e5349cfbf32afaa15fa94c655b692e894",
+      "what_i_checked": "No Nov 2024 or May 2026 entries."
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5014",
+      "content_hash": "f6c61e9dbc846e486669a5b5135fa7e665005b29e04a54c6e9e39ed6c9bd92fa",
+      "what_i_checked": "Rendered page 1: '1st Release', Republican Cumulative Report, Run Time 9:02 PM 03/03/2026, 0 of 68 precincts; no Last-Modified header."
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5016",
+      "content_hash": "e8887dfb46d4af97b9ff4f85fda92d2e6348aa6e855635b4606eec046a3bc82d",
+      "what_i_checked": "Rendered page 1: 'Final', Democratic Cumulative Report, Unofficial, Run Time 10:37 PM 03/03/2026, 68 of 68."
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5017",
+      "content_hash": "72040fc58f26d29b12dbb576ee5353562fef693bf2a4e691b76c75a1f553f735",
+      "what_i_checked": "Rendered page 1: 'Final', Republican Cumulative Report, Unofficial, Run Time 10:35 PM 03/03/2026, 68 of 68; 10 pages, county totals only."
+    },
+    {
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5043",
+      "content_hash": "abd8deb0feadd62ab76d0558f0583c36c1a2213ce2bbcf0aaf908cab6e0b7efe",
+      "what_i_checked": "Republican precinct report is 'Official Results', Run Time 3:47 PM, PDF created 2026-03-11: precinct numbers only at canvass."
+    },
+    {
+      "url": "origin/wayback-data:phase1/wayback_snapshots/Taylor/index.json",
+      "content_hash": "",
+      "what_i_checked": "All three CDX queries failed with robots_disallowed_or_unreachable; no captures; no sweep folder."
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T22:33:36Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED). Research targeted pass 3 also found no Nov 2024 file on the Current or Archived pages. Research fact text for this election is stale ('County site unreachable from the fetch module ... check 2 could not be done'); the site is reachable now and the targeted pass 3 note says so; the result is unaffected.",
+    "2026_primary": "same (LATER, check 2). Same documents (5012 to 5017 unofficial county-level Cumulative Reports, 5042/5043 OFFICIAL precinct reports created Mar 10/11), no Last-Modified header on DocumentCenter so printed run times decide. Research county_totals_first_seen 2026-03-03 19:14 CT: I opened 5013 and it shows 'Run Time 7:14 PM, Run Date 03/03/2026', early-vote county totals, so supported (my blind value 21:02 was the first release with election-day votes; both are county totals). Research run times 9:02 PM and 10:35 PM verified on 5014 and 5017.",
+    "2026_runoff": "same (UNDETERMINED). No runoff results on any Taylor elections page; research fact text is stale (says site unreachable) but the targeted pass 3 note agrees no runoff file is listed.",
+    "unsupported_claims": "None material. The per-election facts for 2024_general and 2026_runoff still describe the site as unreachable, which is no longer true (targeted pass 3 note corrects this). The DocumentCenter 5196/5197 files linked under the Nov 3, 2026 heading are the June 13, 2026 City of Abilene runoff, not one of the three elections; research does not cite them."
+  }
+}

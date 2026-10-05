@@ -1,0 +1,65 @@
+{
+  "county": "Dallam",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.dallam.org/vote/",
+  "platform": "unknown",
+  "host": "www.dallam.org",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed http://www.dallam.org/vote/ works over https. No Clarity or vendor link. The voting page's 'Election Results' link points to the SOS historical results page and no county-posted results were found, which suggests SOS-only reporting (NONE), but the page holds only current-cycle items so this cannot be confirmed per election. Check 3 pending (wayback-data branch not on origin). Targeted pass 3 2026-10-02 (targeted3-F): wayback-data harvest: CDX ran for all three elections and found no election-night captures of dallam.org. Site is hand-written HTML, not WordPress (/wp-json/wp/v2/media returns 404). The vote page's only results links remain 'Election Results' and 'Resultados Electorales' to SOS pages. Lead only: the posted counting plan countplan.pdf (Last-Modified Wed, 04 Oct 2023 21:46:11 GMT, scanned; read from page image) says 'Unofficial election results will be released via Sherman County's Elections Department webpage, beginning no earlier than 7:00p.m. on Election Day', evidently template text from Sherman County; it decides nothing for these elections. NONE still lacks per-election positive evidence. No targeted archives, targeted Wayback or sweep file for this county on wayback-data. No result changed.",
+  "tag_rationale": "No election could be determined from checks 1 and 2, so the tag is UNKNOWN.",
+  "agent": "research-2",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county 'Voting/Votacion' page currently shows only November 3, 2026 materials; its 'Election Results' link goes to the SOS historical results page (https://www.sos.texas.gov/elections/historical/index.shtml) and no county results files are posted. The page holds current-cycle items only, so what was posted for this election cannot be judged. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county 'Voting/Votacion' page currently shows only November 3, 2026 materials; its 'Election Results' link goes to the SOS historical results page (https://www.sos.texas.gov/elections/historical/index.shtml) and no county results files are posted. The page holds current-cycle items only, so what was posted for this election cannot be judged. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The county 'Voting/Votacion' page currently shows only November 3, 2026 materials; its 'Election Results' link goes to the SOS historical results page (https://www.sos.texas.gov/elections/historical/index.shtml) and no county results files are posted. The page holds current-cycle items only, so what was posted for this election cannot be judged. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.dallam.org/vote/",
+      "via": "fetch_module",
+      "content_hash": "3fcf68f62a875368699f8ac55e22fd94cca768e2f708cb26e7d44ceef1efac49",
+      "quote": "Election Results => https://www.sos.texas.gov/elections/historical/index.shtml; Resultados Electorales => https://www.sos.texas.gov/sos_espanol.shtml",
+      "supports": "County voting page points to SOS for results"
+    },
+    {
+      "url": "https://www.dallam.org/",
+      "via": "fetch_module",
+      "content_hash": "1963d6c9723204709b2253ab77b365639d65d162edcbd21a077bddb00e13cb51",
+      "quote": "Voting/Votacion => https://www.dallam.org/vote/",
+      "supports": "County home page has only the voting page link"
+    }
+  ]
+}

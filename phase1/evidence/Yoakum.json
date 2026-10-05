@@ -1,0 +1,93 @@
+{
+  "county": "Yoakum",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.yoakum.tx.us/page/Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.yoakum.tx.us",
+  "evidence_url": "https://www.co.yoakum.tx.us/upload/page/0094/May%2026%202026%20Election%20Day%20Unofficial%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). For each election the Elections pages post scanned Electionware 'Summary Results Report ... UNOFFICIAL RESULTS' files (early voting, then election day), which are county totals with Absentee, Early Voting and Election Day columns and no precinct breakdown; no precinct-by-precinct report is posted for any of the three elections (only reconciliation forms, hand count audits and, for the primary, a 'Primary Canvass 03-12-2026'). 2024 general: 'Election Day Results-Unofficial Results' footer 'Election Summary - 11/05/2024 8:20 PM' (tabulator clock likely still on daylight time), scan CreationDate 2024-11-06 01:34:46 UTC, Last-Modified Wed, 06 Nov 2024 01:36:02 GMT (7:36 PM CST). 2026 primary: 'Unofficial Election Day Results' scan CreationDate 2026-03-04 01:52:46 UTC (7:52 PM CST) but Last-Modified Fri, 20 Mar 2026 14:14:08 GMT (file re-uploaded later). 2026 runoff: 'Election Day Results-Unofficial' footer 'Election Summary - 05/26/2026 07:29PM', CreationDate 2026-05-27 00:28:27 UTC, Last-Modified Wed, 27 May 2026 00:31:06 GMT (7:31 PM CDT); the runoff early-voting file is labelled 'May 5 2026 Early Voting Unofficial Results.pdf' but is the 260526 runoff report (Last-Modified 2026-05-27 00:11:12 GMT).",
+  "tag_rationale": "All three elections are LATER by check 2 (election-night uploads are county-total summaries and no precinct report is posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the 2024 general and 2026 runoff each have a printed run time and an election-night Last-Modified (the primary has only the printed time).",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 19:36 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.yoakum.tx.us/upload/page/0092/2024/11-5-2024%20Election%20Day%20Results-Unofficial.pdf",
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS TX Yoakum County 241105 General ... Election Day Precincts Reporting 6 of 6', footer 'Election Summary - 11/05/2024 8:20 PM', Last-Modified 2024-11-06 01:36:02 GMT; county totals only; no precinct report posted."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 19:52 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.yoakum.tx.us/upload/page/0094/2026/Unofficial%20Election%20Day%20Results.pdf",
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS TX Yoakum County 260303 Primary ... Election Day Precincts Reporting 6 of 6', scan CreationDate 2026-03-04 01:52:46 UTC; county totals only; Last-Modified 2026-03-20 (re-uploaded); no precinct report posted (canvass 03-12-2026 only)."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 19:11 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.yoakum.tx.us/upload/page/0094/May%2026%202026%20Election%20Day%20Unofficial%20Results.pdf",
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS TX Yoakum County 260526 Primary Runoff ... Election Day Precincts Reporting 6 of 6', footer 'Election Summary - 05/26/2026 07:29PM', Last-Modified 2026-05-27 00:31:06 GMT; county totals only; no precinct report posted."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.yoakum.tx.us/page/Elections",
+      "via": "fetch_module",
+      "content_hash": "06d1a3fbe23094b26934b40fcd7a9894c5d02f283fae7cfc7f62881d8ce51e1c",
+      "quote": "Early Voting Results-Unofficial ; Election Day Results-Unofficial ; Primary Canvass 03-12-2026 ; Unofficial Election Day Results ; Unofficial Early Voting Results",
+      "supports": "2026 report list"
+    },
+    {
+      "url": "https://www.co.yoakum.tx.us/page/Elections%202023-2025",
+      "via": "fetch_module",
+      "content_hash": "740094fd86a693fbbb3072c15bc0581f61b7be4e86072ad0fdc1f0d0d3407167",
+      "quote": "Election Day Results-Unofficial Results ; Early Voting - Unofficial Results ; Preliminary Election Reconciliation -Unofficial Totals",
+      "supports": "2024 report list"
+    },
+    {
+      "url": "https://www.co.yoakum.tx.us/upload/page/0092/2024/11-5-2024%20Election%20Day%20Results-Unofficial.pdf",
+      "via": "fetch_module",
+      "content_hash": "336514d6d8cb99a0a6762d5ffba398f03d2f04ae3ef27d363d92d070f75affec",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Yoakum County 241105 General ... Election Summary - 11/05/2024 8:20 PM",
+      "supports": "2024_general LATER"
+    },
+    {
+      "url": "https://www.co.yoakum.tx.us/upload/page/0094/2026/Unofficial%20Election%20Day%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "11fb3e1a51ea91de037b241028bbe8bc3ab7a22ee0b25558808a2b87fe98dd32",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Yoakum County 260303 Primary",
+      "supports": "2026_primary LATER"
+    },
+    {
+      "url": "https://www.co.yoakum.tx.us/upload/page/0094/May%2026%202026%20Election%20Day%20Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "ed663354ac0b8a20d2d57ba11a774287a89c304bd61febf6dc66c4ab17acc738",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Yoakum County 260526 Primary Runoff ... Election Summary - 05/26/2026 07:29PM",
+      "supports": "2026_runoff LATER"
+    },
+    {
+      "url": "https://www.co.yoakum.tx.us/upload/page/0094/May%205%202026%20Early%20Voting%20Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "79e679646de1e306fc565b70bb965f12ab34f426832de6c60fe89d162890eedd",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Yoakum County 260526 Primary Runoff ... Election Day Precincts Reporting 0 of 6",
+      "supports": "2026_runoff early-vote county totals first seen"
+    }
+  ]
+}

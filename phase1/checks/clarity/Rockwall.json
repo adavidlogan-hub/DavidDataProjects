@@ -1,0 +1,369 @@
+{
+  "county": "Rockwall",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122491",
+          "name": "2024 General Election",
+          "updates": [
+            {
+              "version": "347047",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/347047/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "347052",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/347052/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/29/2024 10:25:42 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "348821",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/348821/reports/detailxml.zip",
+              "content_hash": "bb30b459761ccbe39980e8a95eed664c60594662c4f471d00aaffdae4c1f2a22",
+              "election_night": false
+            },
+            {
+              "version": "350622",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/350622/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350644",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/350644/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 7:00:25 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 3051,
+              "version": "350765",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/350765/reports/detailxml.zip",
+              "content_hash": "bd82bd9bdc28277bf4de640bda4656cf9fa3d4a3d77de974f98650b6395255e7",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:30:38 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 4497,
+              "version": "351523",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/351523/reports/detailxml.zip",
+              "content_hash": "b1b91c18866d920443d5065fc77b2f96e672e67c29a029f73108e0fe86750c33",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:53:56 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 4552,
+              "version": "351733",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/351733/reports/detailxml.zip",
+              "content_hash": "d549f0b780e633f638407933dbd3806616a06e0025e7844c252a9957ecbe9890",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:06:27 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 4588,
+              "version": "351872",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/351872/reports/detailxml.zip",
+              "content_hash": "9f9bcc59b715dd98ecfca07e4a7627bc252ef66d483faccff08f56ce41703e84",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:31:21 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 4620,
+              "version": "352113",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/352113/reports/detailxml.zip",
+              "content_hash": "d7d36afdeb9814ca77ec972de8a4fca5b3b3b2da5d8b3cc72ff521c123140ca4",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:44:41 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 4652,
+              "version": "352252",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/352252/reports/detailxml.zip",
+              "content_hash": "6b9aa503e2b125a8606a20c0787c6d544621e21e920685367d27edeed001373c",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:42:50 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 4688,
+              "version": "352909",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/352909/reports/detailxml.zip",
+              "content_hash": "32d7897fd352ae5990e2576baf6af7b11acd81275e967f50dec3833348c8d7f6",
+              "election_night": true
+            },
+            {
+              "version": "355073",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/355073/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/18/2024 2:08:18 PM CST",
+              "precincts_with_votes": 26,
+              "nonzero_precinct_vote_cells": 4694,
+              "version": "355310",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/355310/reports/detailxml.zip",
+              "content_hash": "d905c87465deaf0407285e4122fe5af396c5b7d5f10cd2df7b0cbe504c545c5f",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 7,
+          "election_night_updates_with_precinct_votes": 7,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:00:25 PM CST",
+            "version": "350765",
+            "url": "https://results.enr.clarityelections.com/TX/Rockwall/122491/350765/reports/detailxml.zip"
+          },
+          "unreadable_versions": 5
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126010",
+          "name": "2026 March 3 Primary Election",
+          "updates": [
+            {
+              "version": "368333",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368333/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368334",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368334/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368335",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368335/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368336",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368336/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368369",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368369/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368374",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368374/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 6:59:10 PM CST",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 7962,
+              "version": "368383",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368383/reports/detailxml.zip",
+              "content_hash": "2708a9c2fec4805e35fb1c4efdbdab3053a0fddd3daf3fe0a250475fe4592eee",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:00:55 PM CST",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 7962,
+              "version": "368390",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368390/reports/detailxml.zip",
+              "content_hash": "a925ad25e7e12f21b556965f385632e20fb9d16bdf3f0f0b4f7de5e8a0c31e6c",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:15:05 PM CST",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 10632,
+              "version": "368427",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368427/reports/detailxml.zip",
+              "content_hash": "a9d8c4cf44b1faad692ad4624e2af7856f722500b260abe57cadda0291cb5642",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:28:08 PM CST",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 11421,
+              "version": "368434",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368434/reports/detailxml.zip",
+              "content_hash": "646be4d94da06dc15097ad3f12caff1205ff75c2a13e603e3fe647ded606913e",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 8:58:33 PM CST",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 11709,
+              "version": "368461",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368461/reports/detailxml.zip",
+              "content_hash": "ad6656ae199bfd4ed536c7912589b09614f9b059d10ee983e40d64a21f6485d9",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:11:16 PM CST",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 12162,
+              "version": "368467",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368467/reports/detailxml.zip",
+              "content_hash": "1439963a8723091fe2e35399d2e6e69d337560118c8be10d42d3700ca220d8bc",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:41:59 PM CST",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 12298,
+              "version": "368494",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368494/reports/detailxml.zip",
+              "content_hash": "d55455b186aa11023235a9a73b66f13be8991a4ca6df66c6d0913e5f1856b670",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:55:20 PM CST",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 12563,
+              "version": "368504",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368504/reports/detailxml.zip",
+              "content_hash": "2d662808dd285a63f2c759b9a5cde71640bdf6cf052e774aa9bb65a2133cbb0c",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/10/2026 11:50:02 AM CDT",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 12618,
+              "version": "368724",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368724/reports/detailxml.zip",
+              "content_hash": "ca357cbbabbe3e5af2d47d6ff747eff2d8af6a3e5433b3cea0e7301ff8abfd15",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 7,
+          "election_night_updates_with_precinct_votes": 7,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 6:59:10 PM CST",
+            "version": "368383",
+            "url": "https://results.enr.clarityelections.com/TX/Rockwall/126010/368383/reports/detailxml.zip"
+          },
+          "unreadable_versions": 6
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126371",
+          "name": "2026 May 26 Primary Runoff",
+          "updates": [
+            {
+              "version": "371740",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/371740/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372568",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372568/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372569",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372569/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372571",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372571/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/22/2026 8:55:16 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372572",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372572/reports/detailxml.zip",
+              "content_hash": "3e9c18caa0c9882b104ef8ecd06e90803451ec4a94feaf48d28fc9a029f2bd74",
+              "election_night": false
+            },
+            {
+              "version": "372689",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372689/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372728",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372728/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372742",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372742/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 7:00:04 PM CDT",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 815,
+              "version": "372926",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372926/reports/detailxml.zip",
+              "content_hash": "3543f75a788be5fa2e849780c555a43e2bbfb2680ab904d6502b1d2592e93739",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 7:37:55 PM CDT",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 1207,
+              "version": "372944",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372944/reports/detailxml.zip",
+              "content_hash": "aa74a24e751824ec7cf2994f9fa5530a03d57f7cc712a3710f362e13d389558a",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:07:14 PM CDT",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 1223,
+              "version": "372959",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372959/reports/detailxml.zip",
+              "content_hash": "1b8bde3f277fb8ea3ada9f2217dd48b89c1f02b90cb8dc6e7595bbe019855162",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:22:48 PM CDT",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 1237,
+              "version": "372971",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372971/reports/detailxml.zip",
+              "content_hash": "a748a07d47bf0a6eb0b9af8c4d92b0013bc32861817c19a97309746823e22fdb",
+              "election_night": true
+            },
+            {
+              "timestamp": "6/2/2026 10:35:17 AM CDT",
+              "precincts_with_votes": 27,
+              "nonzero_precinct_vote_cells": 1243,
+              "version": "373409",
+              "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/373409/reports/detailxml.zip",
+              "content_hash": "77612d795aa9cdddeedfc924b76241a422265f0f66803311517976618db8721a",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 7:00:04 PM CDT",
+            "version": "372926",
+            "url": "https://results.enr.clarityelections.com/TX/Rockwall/126371/372926/reports/detailxml.zip"
+          },
+          "unreadable_versions": 7
+        }
+      ]
+    }
+  }
+}

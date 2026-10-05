@@ -1,0 +1,100 @@
+{
+  "county": "Midland",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://results.enr.clarityelections.com/TX/Midland/",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Midland/122496/351587/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 20:11 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "County elections page www.co.midland.tx.us/328/Elections-Office returned HTTP 202 with an empty body to the fetch module, so the county page (and any usage notice or stated change) could not be read; results located directly on Clarity (TX/Midland), whose elections.json lists all three elections. Check 1: 2024 general first night update (8:11 PM CST) was early vote only, election-day precinct votes from 8:36 PM; 2026 primary had election-day precinct votes in all 5 night updates from 7:56 PM CST; 2026 runoff first night update 8:06 PM CDT early only, election-day precinct votes from 8:59 PM. Many versions returned HTTP 404 (13, 13, 28), mostly pre-election test versions; one 2024 night version (351981) and two runoff versions before the 8:06 PM update (372951, 372954) were unreadable. Wayback branch origin/wayback-data was not present when checked (not needed).",
+  "tag_rationale": "All three elections are LIVE by check 1 (Clarity update log), so the tag is LIVE_PRECINCT with confidence high.",
+  "agent": "research-A",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 20:11 CT",
+      "precinct_first_seen": "2024-11-05 20:11 CT",
+      "night_updates_with_precinct_numbers": "4 of 4 (3 with election-day votes, first 2024-11-05 20:36 CT)",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Midland/122496/351587/reports/detailxml.zip",
+      "fact": "Clarity EID 122496 night versions 8:11, 8:36, 8:56, 9:23 PM CST have 44 to 45 precincts with nonzero votes; Election Day precinct sums 0, 86634, 200628, 239707."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 19:56 CT",
+      "precinct_first_seen": "2026-03-03 19:56 CT",
+      "night_updates_with_precinct_numbers": "5 of 5 (all with election-day votes)",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Midland/125929/368415/reports/detailxml.zip",
+      "fact": "Clarity EID 125929 night versions 7:56, 8:09, 8:33, 8:49, 8:54 PM CST have 45 precincts with nonzero votes; Election Day precinct sums 16458, 83155, 188829, 260327, 260327."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 20:06 CT",
+      "precinct_first_seen": "2026-05-26 20:06 CT",
+      "night_updates_with_precinct_numbers": "4 of 4 (3 with election-day votes, first 2026-05-26 20:59 CT)",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Midland/126291/373000/reports/detailxml.zip",
+      "fact": "Clarity EID 126291 night versions 8:06, 8:59, 9:10, 9:51 PM CDT have 45 precincts with nonzero votes; Election Day precinct sums 0, 5847, 14984, 18099."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Midland/122496/351318/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "7a578772ebf692461b0f17f064eef91e7047b6b19be51117f3298126d7e77656",
+      "quote": "Timestamp 11/5/2024 8:11:46 PM CST; 44 precincts with nonzero votes",
+      "supports": "precinct_first_seen 2024"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Midland/122496/351587/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "5c1e5c6e7d88c66a8d1fcf959ea46d2de2d335c20af7b9805dbc3ff89145abcf",
+      "quote": "Timestamp 11/5/2024 8:36:37 PM CST; 44 precincts; Election Day 86634",
+      "supports": "2024_general LIVE"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Midland/122496/352043/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "c12748f378880e95f13bee096a20576ac367315df2c208ed7959ac9ec6e49072",
+      "quote": "Timestamp 11/5/2024 9:23:45 PM CST; 45 precincts; Election Day 239707",
+      "supports": "2024_general LIVE"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368415/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "57179f8ab6ed067e7baa3fd5b8cd5199fc2f149b5ca550b47063b2bbc38c7be4",
+      "quote": "Timestamp 3/3/2026 7:56:12 PM CST; 45 precincts; Election Day 16458",
+      "supports": "2026_primary LIVE"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Midland/125929/368452/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "fef1d9ca9a475ce88922d83f31ab12c0095f396fc9a91c1e6726016a7e8adde6",
+      "quote": "Timestamp 3/3/2026 8:49:22 PM CST; 45 precincts; Election Day 260327",
+      "supports": "2026_primary LIVE"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Midland/126291/373000/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "913aee0b6a658d63771d9df437c79b201c9659032e6ffad4da33043110002886",
+      "quote": "Timestamp 5/26/2026 8:59:11 PM CDT; 45 precincts; Election Day 5847",
+      "supports": "2026_runoff LIVE"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Midland/126291/373032/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "d1904c11769ce6c1a30adbfde69327069034b78b0e99b8b80b7a14fa07411828",
+      "quote": "Timestamp 5/26/2026 9:51:23 PM CDT; 45 precincts; Election Day 18099",
+      "supports": "2026_runoff LIVE"
+    }
+  ]
+}

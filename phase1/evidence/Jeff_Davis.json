@@ -1,0 +1,79 @@
+{
+  "county": "Jeff Davis",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.jeffdaviscounty.texas.gov/page/jeffdavis.Elections",
+  "platform": "county_pdfs",
+  "host": "www.jeffdaviscounty.texas.gov",
+  "evidence_url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/UNOFFICIAL%20RESULTS%20Absentee%20Early%20Voting%20and%20Election%20Day%20Summary%20Results%20Report%20by%20Precinct.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "County Elections page posts Electionware PDF reports per election; no Clarity link (it links the SOS historical results). Jeff Davis County is on Central time. 2024 general: 'Unofficial Election Results By Precinct EV & Absentee & ED Nov 5 2024' printed 'Precinct Summary - 11/06/2024 12:20 PM', Last-Modified Thu, 07 Nov 2024 16:54:25 GMT. 2026 primary: 'UNOFFICIAL RESULTS ... Summary Results Report by Precinct' printed 'Precinct Summary - 03/05/2026 9:45 AM', Last-Modified Thu, 05 Mar 2026 22:43:28 GMT. 2026 runoff: only 'Unofficial Results Joint Primary Runoff Election Absentee, Early Voting and Election Day Summary' (county totals, 'Election Summary - 05/26/2026 8:44 PM', Last-Modified Wed, 27 May 2026 02:33:59 GMT = 9:33 PM CDT) and an official results file; no unofficial runoff precinct report. Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-1): 2024_general LATER to UNDETERMINED; 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.jeffdaviscounty.texas.gov/page/jeffdavis.Elections",
+      "via": "fetch_module",
+      "content_hash": "75276d6f793ad59b5f2761b5c6ba0cdc1a3a3a210bd505d2b580ae7c027990c5",
+      "quote": "Unofficial Results Joint Primary Runoff Election Absentee, Early Voting and Election Day Summary; UNOFFICIAL RESULTS Absentee Early Voting and Election Day Summary Results Report by Precinct; Unofficial Election Results By Precinct EV & Absentee & ED Nov 5 2024",
+      "supports": "Reports listed per election"
+    },
+    {
+      "url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/2024/election_results_by_precinct_ev__absentee__ed_nov_5_2024.pdf",
+      "via": "fetch_module",
+      "content_hash": "1541c77972e2ae4ec5a86d168a0c246329ca9cc2b873bfa9c29ae8074a3e49b2",
+      "quote": "UNOFFICIAL RESULTS - By Precinct ... Precinct Summary - 11/06/2024 12:20 PM",
+      "supports": "2024 precinct report produced the day after"
+    },
+    {
+      "url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/UNOFFICIAL%20RESULTS%20Absentee%20Early%20Voting%20and%20Election%20Day%20Summary%20Results%20Report%20by%20Precinct.pdf",
+      "via": "fetch_module",
+      "content_hash": "d8b5a779f4756bb035bbfa3506c6c57bb180d126f400eac898b7c6cd4fc6346a",
+      "quote": "UNOFFICIAL RESULTS BY PRECINCT 2026 PRIMARY Election ... Precinct Summary - 03/05/2026 9:45 AM",
+      "supports": "2026 primary precinct report produced two days after"
+    },
+    {
+      "url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/Joint%20Primary%20Runoff%20Election%20Summary%20All_Unofficial.pdf",
+      "via": "fetch_module",
+      "content_hash": "f90e6ae80df7ff151f2d5a555fa89ede0c03a8a7f579f539defc2f7542c4716c",
+      "quote": "UNOFFICIAL RESULTS 2026 Primary Runoff Election ... Election Summary - 05/26/2026 8:44 PM",
+      "supports": "Runoff county totals on election night"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2024-11-07 10:54 CT (upload)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/2024/election_results_by_precinct_ev__absentee__ed_nov_5_2024.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: 'Summary Results Report UNOFFICIAL RESULTS - By Precinct Jeff Davis County 2024 General Election November 5, 2024 ... Precinct 1 ... Ballots Cast - Total 302 25 236 41'; footer 'Precinct Summary - 11/06/2024 12:20 PM'; Last-Modified Thu, 07 Nov 2024 16:54:25 GMT. Precinct numbers with election-day votes were produced and posted after election night."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-03-05 16:43 CT (upload)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/UNOFFICIAL%20RESULTS%20Absentee%20Early%20Voting%20and%20Election%20Day%20Summary%20Results%20Report%20by%20Precinct.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: 'Summary Results Report UNOFFICIAL RESULTS BY PRECINCT 2026 PRIMARY Election Election Day, Absentee, & Early Voting March 3, 2026 Jeff Davis County Precinct 1'; footer 'Precinct Summary - 03/05/2026 9:45 AM'; Last-Modified Thu, 05 Mar 2026 22:43:28 GMT."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:33 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.jeffdaviscounty.texas.gov/upload/page/6574/Joint%20Primary%20Runoff%20Election%20Summary%20All_Unofficial.pdf",
+      "fact": "'Summary Results Report UNOFFICIAL RESULTS 2026 Primary Runoff Election Absentee, Early Voting, and Election Day May 26, 2026 Jeff Davis County ... Election Day Precincts Reporting 5 of 5' (county totals); footer 'Election Summary - 05/26/2026 8:44 PM'; Last-Modified Wed, 27 May 2026 02:33:59 GMT. No unofficial precinct report is posted for the runoff, only 'Official Results for Joint Primary Runoff Election May 26, 2026'."
+    }
+  }
+}

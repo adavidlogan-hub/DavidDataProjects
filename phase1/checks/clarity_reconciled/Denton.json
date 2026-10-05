@@ -1,0 +1,543 @@
+{
+  "county": "Denton",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122426",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "345759",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/345759/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345760",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/345760/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345761",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/345761/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345783",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/345783/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345784",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/345784/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "9/26/2024 12:52:27 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "345844",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/345844/reports/detailxml.zip",
+              "content_hash": "0687b00d7426ca9013ffd20c30921f16afd3a141537dbe37d3e44079717a8848",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/15/2024 9:45:45 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "346987",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/346987/reports/detailxml.zip",
+              "content_hash": "6e8a0b597598af4505eb2414111b50f7828967381e42701c66adf55abb3d8065",
+              "election_night": false
+            },
+            {
+              "version": "350461",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/350461/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 6:47:29 PM CST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 27611,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "350688",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/350688/reports/detailxml.zip",
+              "content_hash": "e28cb7a8712fc093fa73d27bb2da22876251745f00078aa1f9e4ffd1a9782a70",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 8:57:31 PM CST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 28978,
+              "precincts_with_election_day_votes": 28,
+              "election_day_precinct_vote_sum": 145070,
+              "version": "351775",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/351775/reports/detailxml.zip",
+              "content_hash": "45d94f1cfac1879b35affb1394a74be11a9471999457894523969a34299dacca",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:50:32 PM CST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 31585,
+              "precincts_with_election_day_votes": 83,
+              "election_day_precinct_vote_sum": 446648,
+              "version": "352309",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/352309/reports/detailxml.zip",
+              "content_hash": "85db35ad158e868ddbd0304a4f08f137d8f3b64dca37590512bd67b0c0ea99f0",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:44:55 PM CST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 33853,
+              "precincts_with_election_day_votes": 129,
+              "election_day_precinct_vote_sum": 750581,
+              "version": "352697",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/352697/reports/detailxml.zip",
+              "content_hash": "668904a4323e4aae3513e13048e52298e0ebd64d8e48a268f43ab37ba684af9a",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:46:54 PM CST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 37121,
+              "precincts_with_election_day_votes": 196,
+              "election_day_precinct_vote_sum": 1199711,
+              "version": "352928",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/352928/reports/detailxml.zip",
+              "content_hash": "9e397dd0a77757ce6645aa50bb5c856d97d273814f061891208ee369f0d3df97",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:37:42 AM CST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 38553,
+              "precincts_with_election_day_votes": 224,
+              "election_day_precinct_vote_sum": 1428914,
+              "version": "353058",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/353058/reports/detailxml.zip",
+              "content_hash": "f4f6eec4a863e4c7c0242f4d667168f8ee600c6cfe207b46d566ed1b6dacc3fd",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:47:33 AM CST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 38553,
+              "precincts_with_election_day_votes": 224,
+              "election_day_precinct_vote_sum": 1428914,
+              "version": "353085",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/353085/reports/detailxml.zip",
+              "content_hash": "dcc73a47d17560c9f96582aeccd7ac7fd9941ee403091ed4c564946a83721aa1",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 1:12:14 AM CST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 38579,
+              "precincts_with_election_day_votes": 224,
+              "election_day_precinct_vote_sum": 1428946,
+              "version": "353132",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/353132/reports/detailxml.zip",
+              "content_hash": "45ec5ab24b3b7ac761ab7dae3743f26b0f7d2a667617c616896633ecb3150cd4",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/16/2024 12:36:53 PM CST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 38775,
+              "precincts_with_election_day_votes": 224,
+              "election_day_precinct_vote_sum": 1434409,
+              "version": "355227",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/355227/reports/detailxml.zip",
+              "content_hash": "9c3f45fa618ba2780199e154b222ac8d8d10ac5005bb43dac21ae1e807b08df9",
+              "election_night": false
+            },
+            {
+              "timestamp": "12/11/2024 8:17:11 AM CST",
+              "precincts_with_votes": 226,
+              "nonzero_precinct_vote_cells": 38775,
+              "precincts_with_election_day_votes": 224,
+              "election_day_precinct_vote_sum": 1434409,
+              "version": "355989",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/122426/355989/reports/detailxml.zip",
+              "content_hash": "83db7025cf95eeb0175aa0217f002267d4f6d06d8e81f48e91da947e7dc92512",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 7,
+          "election_night_updates_with_precinct_votes": 7,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 6:47:29 PM CST",
+            "version": "350688",
+            "url": "https://results.enr.clarityelections.com/TX/Denton/122426/350688/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 7,
+          "election_night_distinct_election_day_precinct_releases": 6,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 8:57:31 PM CST",
+            "version": "351775",
+            "url": "https://results.enr.clarityelections.com/TX/Denton/122426/351775/reports/detailxml.zip"
+          },
+          "unreadable_versions": 6
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126053",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "368280",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368280/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368281",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368281/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368283",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368283/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368284",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368284/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368298",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368298/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368307",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368307/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/2/2026 10:24:01 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368308",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368308/reports/detailxml.zip",
+              "content_hash": "b619c36e9654961e570f5ca160ad720440f867f15902b3d61e1464eb5937b9ab",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 6:42:58 PM CST",
+              "precincts_with_votes": 235,
+              "nonzero_precinct_vote_cells": 51015,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368381",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368381/reports/detailxml.zip",
+              "content_hash": "04869a6ca42296c8fba33c83c3a64d1c065e7b92c3e9ae3a3f69c75032d711a2",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 9:24:08 PM CST",
+              "precincts_with_votes": 235,
+              "nonzero_precinct_vote_cells": 53961,
+              "precincts_with_election_day_votes": 31,
+              "election_day_precinct_vote_sum": 137048,
+              "version": "368479",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368479/reports/detailxml.zip",
+              "content_hash": "1b65704433c637f35f0856c77494204ac578ee58df5b09d348bf7ca43f04dba7",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:42:10 PM CST",
+              "precincts_with_votes": 235,
+              "nonzero_precinct_vote_cells": 56482,
+              "precincts_with_election_day_votes": 57,
+              "election_day_precinct_vote_sum": 250940,
+              "version": "368493",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368493/reports/detailxml.zip",
+              "content_hash": "92c3d6e944d02478bf11a23f6d254359748b406431a0b698f02c00a57ca56570",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:14:54 PM CST",
+              "precincts_with_votes": 235,
+              "nonzero_precinct_vote_cells": 59842,
+              "precincts_with_election_day_votes": 92,
+              "election_day_precinct_vote_sum": 446117,
+              "version": "368516",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368516/reports/detailxml.zip",
+              "content_hash": "78988086361268a315be3b20f88c4e3d18e505b8b6dbec17e793abc69a4778f7",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:54:48 PM CST",
+              "precincts_with_votes": 235,
+              "nonzero_precinct_vote_cells": 63944,
+              "precincts_with_election_day_votes": 134,
+              "election_day_precinct_vote_sum": 646780,
+              "version": "368537",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368537/reports/detailxml.zip",
+              "content_hash": "ad02fa05bb4db429611a80dc82e437db118a172c4f4bbd0a554c23b445d5a1ca",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 12:04:48 AM CST",
+              "precincts_with_votes": 236,
+              "nonzero_precinct_vote_cells": 72371,
+              "precincts_with_election_day_votes": 221,
+              "election_day_precinct_vote_sum": 1058227,
+              "version": "368558",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368558/reports/detailxml.zip",
+              "content_hash": "32bdcdfd8ec0f84ea88d2e57cc142a15752d77fbbd8f37a78ee550daa7dab207",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 12:43:48 AM CST",
+              "precincts_with_votes": 236,
+              "nonzero_precinct_vote_cells": 73578,
+              "precincts_with_election_day_votes": 233,
+              "election_day_precinct_vote_sum": 1131909,
+              "version": "368564",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368564/reports/detailxml.zip",
+              "content_hash": "75ae391c87826a636732031bd6f1795af03e4e53f60c1c321d0411bafae0a1fd",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/11/2026 1:45:52 PM CDT",
+              "precincts_with_votes": 236,
+              "nonzero_precinct_vote_cells": 73906,
+              "precincts_with_election_day_votes": 233,
+              "election_day_precinct_vote_sum": 1135802,
+              "version": "368787",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368787/reports/detailxml.zip",
+              "content_hash": "7a1ca52f4f37fe23714c7e54fd54c6422110cfbd4e757d8de15cf1e52a9f537e",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/25/2026 9:33:03 AM CDT",
+              "precincts_with_votes": 236,
+              "nonzero_precinct_vote_cells": 73906,
+              "precincts_with_election_day_votes": 233,
+              "election_day_precinct_vote_sum": 1135802,
+              "version": "369125",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/369125/reports/detailxml.zip",
+              "content_hash": "3b3d11561a5c428d885d3e034e8f18467fe51055898a8067603903fc3e8d66d1",
+              "election_night": false
+            },
+            {
+              "timestamp": "4/22/2026 10:36:04 AM CDT",
+              "precincts_with_votes": 236,
+              "nonzero_precinct_vote_cells": 73906,
+              "precincts_with_election_day_votes": 233,
+              "election_day_precinct_vote_sum": 1135802,
+              "version": "369657",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126053/369657/reports/detailxml.zip",
+              "content_hash": "5262921d19ed0499b946162d6810426556fa94fbd37619c1babaa580c6d8884d",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 6,
+          "election_night_updates_with_precinct_votes": 6,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 6:42:58 PM CST",
+            "version": "368381",
+            "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368381/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 6,
+          "election_night_distinct_election_day_precinct_releases": 6,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 9:24:08 PM CST",
+            "version": "368479",
+            "url": "https://results.enr.clarityelections.com/TX/Denton/126053/368479/reports/detailxml.zip"
+          },
+          "unreadable_versions": 6
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126377",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "372349",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372349/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372351",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372351/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 2:32:41 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372798",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372798/reports/detailxml.zip",
+              "content_hash": "d4eb6f96d3399765ac66061267058b6ace5ce1f1f5055486cbc80b91e1aedae2",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 2:35:49 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372804",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372804/reports/detailxml.zip",
+              "content_hash": "b636adfe28bd4edb83302ab84e90f231c6b19a9ed24d279062f69545aaccc992",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 3:14:09 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372840",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372840/reports/detailxml.zip",
+              "content_hash": "4cca0b839953da06784c4e89120df753da84dbf4e9d5aaf13047f83e5e068610",
+              "election_night": false
+            },
+            {
+              "version": "372904",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372904/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 5:14:07 PM CDT",
+              "precincts_with_votes": 232,
+              "nonzero_precinct_vote_cells": 4457,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372907",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372907/reports/detailxml.zip",
+              "content_hash": "864f30ab8d03aa75fcbd7ff4d5194fef673231a3464a5ff003716f0890e3cf60",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 8:44:31 PM CDT",
+              "precincts_with_votes": 232,
+              "nonzero_precinct_vote_cells": 4857,
+              "precincts_with_election_day_votes": 43,
+              "election_day_precinct_vote_sum": 14469,
+              "version": "372988",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372988/reports/detailxml.zip",
+              "content_hash": "ddf6b361b872e4e431a5ac29b98b13d4298d91930208bbb1f64600846c89ebfe",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:31:27 PM CDT",
+              "precincts_with_votes": 232,
+              "nonzero_precinct_vote_cells": 5606,
+              "precincts_with_election_day_votes": 124,
+              "election_day_precinct_vote_sum": 38317,
+              "version": "373020",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/373020/reports/detailxml.zip",
+              "content_hash": "22b9c29199f2ecb191e610b9241f7561008a442d3308ea6f0418ba82a5009e6c",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:59:24 PM CDT",
+              "precincts_with_votes": 233,
+              "nonzero_precinct_vote_cells": 6038,
+              "precincts_with_election_day_votes": 174,
+              "election_day_precinct_vote_sum": 59283,
+              "version": "373036",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/373036/reports/detailxml.zip",
+              "content_hash": "5a994216effbb005a529539719a5010ab0fadaad256805624bf938010d54f1da",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 10:41:06 PM CDT",
+              "precincts_with_votes": 234,
+              "nonzero_precinct_vote_cells": 6589,
+              "precincts_with_election_day_votes": 230,
+              "election_day_precinct_vote_sum": 78990,
+              "version": "373044",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/373044/reports/detailxml.zip",
+              "content_hash": "02b23d940df07a08d1ff88cb5bf59cbf10900eb32cb5fc2efa31f5a470a372bd",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 10:44:44 PM CDT",
+              "precincts_with_votes": 234,
+              "nonzero_precinct_vote_cells": 6589,
+              "precincts_with_election_day_votes": 230,
+              "election_day_precinct_vote_sum": 78990,
+              "version": "373046",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/373046/reports/detailxml.zip",
+              "content_hash": "e5e28a854740f60a4efa8b526dce55853f8ac179c7946e97858c32b8176db0fd",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/29/2026 12:11:11 PM CDT",
+              "precincts_with_votes": 234,
+              "nonzero_precinct_vote_cells": 6600,
+              "precincts_with_election_day_votes": 230,
+              "election_day_precinct_vote_sum": 79152,
+              "version": "373250",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/373250/reports/detailxml.zip",
+              "content_hash": "b52b9dc1bcf211ab159cf0da0c2de087b35d5ea42a8da5f8fea283ab1aa88cae",
+              "election_night": false
+            },
+            {
+              "version": "374164",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/374164/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "6/4/2026 9:56:55 AM CDT",
+              "precincts_with_votes": 234,
+              "nonzero_precinct_vote_cells": 6600,
+              "precincts_with_election_day_votes": 230,
+              "election_day_precinct_vote_sum": 79152,
+              "version": "374179",
+              "url": "https://results.enr.clarityelections.com/TX/Denton/126377/374179/reports/detailxml.zip",
+              "content_hash": "6c9f13f4816f9407302ea2a6b9a09dc0b459f0b8deb42fccf18144ffd6810f9d",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 5,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 5:14:07 PM CDT",
+            "version": "372907",
+            "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372907/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 5,
+          "election_night_distinct_election_day_precinct_releases": 4,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/26/2026 8:44:31 PM CDT",
+            "version": "372988",
+            "url": "https://results.enr.clarityelections.com/TX/Denton/126377/372988/reports/detailxml.zip"
+          },
+          "unreadable_versions": 4
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122426",
+    "2026_primary": "126053",
+    "2026_runoff": "126377"
+  }
+}

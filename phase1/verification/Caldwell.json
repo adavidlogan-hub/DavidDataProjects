@@ -1,0 +1,106 @@
+{
+ "county": "Caldwell",
+ "reason_selected": "tag changed in targeted pass 3",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "med",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections.Results Page lists for Nov 5 2024 only files from after election night: \"Unofficial Early Voting and Election Day Results\" (FinalUnofficialResults110524.pdf, header \"FINAL UNOFFICIAL RESULTS\", printed \"Election Summary - 11/13/2024 5:45 PM\", Last-Modified Thu 14 Nov 2024 02:42:17 GMT), \"Unofficial Early Voting and Election Day Pct by Pct\" (FinalPCTbyPCT11052024.pdf, printed \"Precinct Summary - 11/13/2024 8:00 PM\", Last-Modified 14 Nov 2024 02:42:32 GMT), and a scanned preliminary reconciliation (Last-Modified 06 Nov 2024 15:28:53 GMT = 9:28 AM CST Nov 6). No election-night file survives. Check 3: the only election-night capture (2024-11-06 01:43 CST) is of the old /page/ElectionResults page, which still lists 2016 to 2018 files only; no 2024 content."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "County totals on election night: \"FULL Summary Results_REP Primary_030326.pdf\" and \"FULL Summary Results_DEM_Primary 030326.pdf\" (\"Summary Results Report ... UNOFFICIAL RESULTS\", county totals with an Election Day column, e.g. DEM ballots cast Election Day 1,226), printed \"03/03/2026 10:19 PM\" / \"10:18 PM\", Last-Modified Wed 04 Mar 2026 04:44:53 GMT (10:44 PM CST Mar 3); an earlier summary printed 7:14 PM was uploaded 02:20 GMT (8:20 PM CST). The only unofficial precinct reports (\"FULL PCTbyPCT_Rep/Dem Primary Unofficial_030326.pdf\", per-precinct candidate votes with Election Day column) print \"03/03/2026 10:50\" but have Last-Modified Wed 04 Mar 2026 15:47:28 and 15:47:40 GMT (9:47 AM CST Mar 4), after election night (rule 43 reading / rule 47). No other upload time found (newtools.cira mirror path 404)."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "County totals on election night: \"Unofficial_REP Primary Runoff_05262026.pdf\" and \"Unofficial_DEM ...\" (\"Summary Results Report ... UNOFFICIAL RESULTS\", Ballots Cast - Total 2,810 with Election Day 1,207), printed \"Republican Primary Runoff Results - 05/26/2026 8:57 PM\", Last-Modified Wed 27 May 2026 02:10:10 GMT (9:10 PM CDT May 26). The unofficial precinct reports (\"Unofficial_DEM/REP Primary Runoff_PCTbyPCT Report.pdf\") print \"05/28/2026 3:49 PM\" / \"3:51 PM\", Last-Modified Fri 29 May 2026 13:24 GMT; the FinalUnofficial precinct reports are from Jun 2. No precinct numbers posted on election night."
+  }
+ },
+ "rationale": "Primary and runoff are LATER (election-night county-totals PDFs with upload times on election night; the only unofficial precinct reports were uploaded the next morning or days later); 2024 has no election-night file. Two LATER results give COUNTY_ONLY_PRECINCT_AT_CANVASS, med (check 2).",
+ "sources": [
+  {
+   "url": "https://www.co.caldwell.tx.us/page/Elections.Results Page",
+   "content_hash": "f1fd3beea682c5e2a6a46720bdc4f838091de55478f0e1ed94cd7cf88709ea3c",
+   "what_i_checked": "results page: list of reports for all three elections"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2024/FinalUnofficialResults110524.pdf",
+   "content_hash": "306f776362de0fa33d702128b277b182a0d2c4da3a659ef52e718146b25898b6",
+   "what_i_checked": "2024 unofficial summary, printed Nov 13, Last-Modified Nov 14"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2024/FinalPCTbyPCT11052024.pdf",
+   "content_hash": "423a82b147c01fbf778f2f097e2272bf77537c76e17b973af29769278dbb30ba",
+   "what_i_checked": "2024 unofficial precinct report, printed Nov 13, Last-Modified Nov 14"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2024/PRELIMINARYRECONCILLIATION_110524.pdf",
+   "content_hash": "23bfb01edc6f1423089da2e9b9006d733db15d0768fbb228e6f471b19b3d9901",
+   "what_i_checked": "scanned reconciliation, Last-Modified Nov 6 9:28 AM CST"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primaries/FULL Summary Results_REP Primary_030326.pdf",
+   "content_hash": "c1cf2d685ef6116d4b3cb5b70b6d7498e7e37cc3e1c280206dbf58e508bbc105",
+   "what_i_checked": "primary county totals printed 10:19 PM, Last-Modified 10:44 PM CST Mar 3"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primaries/FULL Summary Results_DEM_Primary 030326.pdf",
+   "content_hash": "20c02346eaed5270e4113a4d88a107662c212f215798b3edcf057c1427dff86b",
+   "what_i_checked": "primary county totals printed 10:18 PM, Last-Modified 10:44 PM CST Mar 3"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primaries/Summary Results_REP Primary_030326.pdf",
+   "content_hash": "d7e14fbb9994143d3c8faddd56ec757100f5813b1cfcb5f7cac813cef32365bc",
+   "what_i_checked": "earlier summary printed 7:14 PM, Last-Modified 8:20 PM CST"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primaries/FULL PCTbyPCT_Rep Primary Unofficial_030326.pdf",
+   "content_hash": "81d9a15c00c5ed34f745d13c1c324132a91e774db4d1df26747e0edeaa4c0518",
+   "what_i_checked": "precinct report printed 10:50, Last-Modified Mar 4 9:47 AM CST"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primaries/FULL PCTbyPCT_Dem Primary Unofficial_030326.pdf",
+   "content_hash": "cd543762a5dfb322fd0391f04131c2e84a37820d0db9b75a1a3fdb9ceff7cd9b",
+   "what_i_checked": "precinct report printed 10:50, Last-Modified Mar 4 9:47 AM CST"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primary Runoff/Unofficial_REP Primary Runoff_05262026.pdf",
+   "content_hash": "1591a935745cf4a6a8d63b4710f503ed009409aca0c7a9dd499c5fbeea5ecbc6",
+   "what_i_checked": "runoff county totals printed 8:57 PM, Last-Modified 9:10 PM CDT"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primary Runoff/Unofficial_DEM Primary Runoff_05262026.pdf",
+   "content_hash": "171574620dd117f4fa1a586a2ed8661c2b3b47798a930bae03122394802d863c",
+   "what_i_checked": "runoff county totals, Last-Modified 9:10 PM CDT"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primary Runoff/Unofficial_REP Primary Runoff_PCTbyPCT Report.pdf",
+   "content_hash": "39144a6e90c8c04742b37cd66aee94c4d16d92d3c10278578c8d4adbc9e2ec2f",
+   "what_i_checked": "runoff precinct report printed May 28, Last-Modified May 29"
+  },
+  {
+   "url": "https://www.co.caldwell.tx.us/upload/page/0213/docs/2026/Primary Runoff/Unofficial_DEM Primary Runoff_PCTbyPCT Report.pdf",
+   "content_hash": "2f9c342b5d0cbd213bb849321b0209c9cc4d1e5112e30564659424c10eab80c9",
+   "what_i_checked": "runoff precinct report printed May 28, Last-Modified May 29"
+  },
+  {
+   "url": "git show origin/wayback-data:phase1/wayback_snapshots/Caldwell/2024_general_20241106074317_8210af7296bb.html",
+   "content_hash": "8210af7296bbf7e53de4442c3c328abe99b188cea0ae4fdc72c5d2398d7e7876",
+   "what_i_checked": "election-night capture of old ElectionResults page: only 2016 to 2018 files (wayback-data 792164786fb6)"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T22:54:26Z",
+ "verifier_agent": "verifier-12",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED): no election-night file survives; the only election-night Wayback capture is the retired 2016 to 2018 page.",
+  "2026_primary": "same (LATER, check 2): county totals with election-day votes uploaded 10:44 PM CST Mar 3; the unofficial PCTbyPCT reports were uploaded 9:47 AM CST Mar 4. Quoted counts (REP 3,618 61 2,206 1,351; 7:14 PM summary with Election Day 0) checked and supported.",
+  "2026_runoff": "same (LATER, check 2): county totals printed 8:57 PM (DEM 8:56 PM, checked), uploaded 9:10 PM CDT; precinct reports created May 28, uploaded May 29.",
+  "unsupported_claims": "None found. Not checked by me: the 2024 'FINAL_PCTbyPCT11052024.pdf' Last-Modified 11 Dec 2024 (official file, does not affect the result). The notes still carry the superseded first-pass sentence that the election-night summary files 'were not opened'."
+ }
+}

@@ -1,0 +1,62 @@
+{
+  "county": "Rains",
+  "reason_selected": "random 10 percent sample",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "No Clarity site (elections.json 404). 'Unofficial Results - November 5th, 2024' (scan): Cumulative Results Report, Unofficial, Run Time 10:31 PM Run Date 11/05/2024, county totals (Trump Election Day 988, Total 5,638); CreationDate 11/6/2024 03:38 UTC, Last-Modified 11/6/2024 17:00:25 GMT (next day). No 2024 precinct file listed."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'UNOFFICIAL PRECINCT BY PRECINCT RESULTS' (Precinct Results Report, Unofficial, Run Time 8:19 PM Run Date 03/04/2026, i.e. the day after), Last-Modified 4/6/2026. Unofficial county results scan CreationDate 3/4/2026 13:48 UTC, Last-Modified 3/4/2026 14:13 GMT. Precinct numbers produced the evening after election night."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'UNOFFICIAL RESULTS PRIMARY RUN-OFF 5-26-26' (scan): Cumulative Results Report, county totals only (Marcos Isaias Velez Total 23), CreationDate 5/27/2026 02:05 UTC, Last-Modified 5/27/2026 02:09:01 GMT (9:09 PM CDT). Only other runoff result file is Official Cumulative Results 6-2-2026. No precinct numbers on the night."
+    }
+  },
+  "rationale": "Rule 43 re-applied. Per-election results: {'2024_general': 'LATER', '2026_primary': 'UNDETERMINED', '2026_runoff': 'LATER'}. Fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS, confidence low. (Original blind rationale: LATER in all three (check 2); the runoff night file (uploaded 9:09 PM) is county totals and the primary precinct report was run the next evening. COUNTY_ONLY_PRECINCT_AT_CANVASS, med.)",
+  "sources": [
+    {
+      "url": "https://www.co.rains.tx.us/page/rains.Elections",
+      "content_hash": "b339051fa1e04815d90855977203a6b3cc7ab1526ba530733700461f5fc26e07",
+      "what_i_checked": "result file list"
+    },
+    {
+      "url": "https://www.co.rains.tx.us/upload/page/2858/November 5, 2024 Presidential Election/UNOFFICIAL RESULTS 11-5-24 GENERAL ELECTION-RAINS CO.pdf",
+      "content_hash": "38cc2ed63df9d12fb8b14fea80580d30974aeca2b399e98b535dc1071f9c78f9",
+      "what_i_checked": "2024 county totals 10:31 PM"
+    },
+    {
+      "url": "https://www.co.rains.tx.us/upload/page/2858/2026 PRIMARY/Unofficial Precinct by Precinct Results-3-4-2026 08-19-31 PM.pdf",
+      "content_hash": "88a9444c5823c10b9e8437d2fa6837a792c61fd2833a6b5b6dbd01176bb4f39c",
+      "what_i_checked": "primary precinct report run 3/4 8:19 PM"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/2858/2026%20PRIMARY/UNOFFICIAL%20RESULTS%20FOR%20THE%202026%20PRIMARY%20ELECTION.pdf",
+      "content_hash": "ffe577b1a661ce8b1ad1656ec729638371bbded13ab0f795d9308b681d9b2f37",
+      "what_i_checked": "primary county totals uploaded 3/4 morning"
+    },
+    {
+      "url": "https://www.co.rains.tx.us/upload/page/2858/MAY 26 2026 RUN-OFF ELEC/UNOFFICIAL RESULTS PRIMARY RUN-OFF 5-26-26.pdf",
+      "content_hash": "ea507f1b0c26cc74535897c68d852572e02b7776e5e94c8e88b813d007a3ca5f",
+      "what_i_checked": "runoff county totals uploaded 9:09 PM"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:20:21Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LATER, check 2).",
+    "2026_primary": "same (LATER, check 2): precinct report run 3/4/2026 8:19 PM. Rule 43 re-applied: LATER changed to UNDETERMINED (the earliest surviving files are dated 3/4/2026 morning (county totals) and 3/4 8:19 PM (precinct); no file dated on election night); check 3 pending.",
+    "2026_runoff": "same (LATER, check 2): county totals uploaded 02:09:01 GMT. Confidence differs: research low, mine med.",
+    "rule_43": "rule 43 re-applied"
+  },
+  "compared_at_utc": "2026-10-02T16:21:43Z",
+  "rule43_reapplied_at_utc": "2026-10-02T16:23:44Z"
+}

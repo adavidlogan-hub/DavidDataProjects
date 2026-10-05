@@ -1,0 +1,120 @@
+{
+ "county": "Lamb",
+ "reason_selected": "tag changed in targeted pass 3",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "co.lamb.tx.us/page/ElectionsHome (and its newtools.cira mirror lamb.ElectionsHome, page 9262) lists only May 26 2026 runoff results; nothing for Nov 2024; County Clerk page has no results. Check 3: the Wayback CDX request for this window failed (\"Connection refused\") on wayback-data, no captures; check 3 incomplete."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No primary results listed on ElectionsHome or its mirror. Check 3: CDX request failed (\"Connection refused\"), no captures; check 3 incomplete."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "\"Primary Runoff Election Unofficial Results 5.26.26\" (Primary Runoff Results 5.26.26.pdf, scanned, read visually): \"Summary Results Report ... TX Lamb County 260526 Primary Runoff Election ... ELECTION UNOFFICIAL SUMMARY\", county totals with Election Day column (Election Day Precincts Reporting 11 of 11), printed \"Election Summary - 05/26/2026 9:04 PM\"; Last-Modified Wed 27 May 2026 18:56:34 GMT (same on the cira mirror). \"OFFICIAL RESULTS 5.26.26\" is an official summary (Last-Modified 04 Jun 2026). The \"REP/DEM PCT n 5.26.26\" links are sample ballots (\"Official Ballot (Boleta Oficial)\"), Last-Modified Apr 30. No precinct results posted. Wayback CDX for this window ok, no captures."
+  }
+ },
+ "rationale": "Only the runoff is determined (LATER: unofficial county summary printed 9:04 PM May 26, no precinct results posted); 2024 and primary have no files and failed CDX. One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+ "sources": [
+  {
+   "url": "https://www.co.lamb.tx.us/page/ElectionsHome",
+   "content_hash": "e68404061c0b6962a9d095d5fdaf9f84927ca24219321ab1a061f03112aed83d",
+   "what_i_checked": "elections page: only runoff results"
+  },
+  {
+   "url": "https://newtools.cira.state.tx.us/page/lamb.ElectionsHome",
+   "content_hash": "f880b4b25015775f90f73603c0ab5839fc034476a5c456549a670363ca0f7f06",
+   "what_i_checked": "cira mirror: same list"
+  },
+  {
+   "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/Primary Runoff Results 5.26.26.pdf",
+   "content_hash": "ed7ce8ff688728964354e66d4519580fdcd823b99f46c7f56a1b3933c8f46dde",
+   "what_i_checked": "runoff unofficial summary printed 9:04 PM May 26, Last-Modified May 27"
+  },
+  {
+   "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/OFFICIAL RESULTS 5.26.26.pdf",
+   "content_hash": "abe0d508c9818f0dd30b1631819c6225e2158f7f344e48d7346573d5108a6a74",
+   "what_i_checked": "official summary"
+  },
+  {
+   "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/REP PCT 1 5.26.26.pdf",
+   "content_hash": "f4bed380ad2a2680c2c0acd1029322784ca5aee21799596eb1aa41ed1ce57197",
+   "what_i_checked": "sample ballot, not results"
+  },
+  {
+   "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/DEM PCT 12 5.26.26.pdf",
+   "content_hash": "9189a56463508d51ea75c238daf28152f30ff4e6d3a188f253cd6e61b2169655",
+   "what_i_checked": "sample ballot, not results"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T22:54:26Z",
+ "verifier_agent": "verifier-12",
+ "previous_verification": {
+  "county": "Lamb",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+   "2024_general": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "co.lamb.tx.us/page/ElectionsHome lists only 2026 runoff results. No wayback folder for this county, check 3 pending."
+   },
+   "2026_primary": {
+    "result": "UNDETERMINED",
+    "check": "none",
+    "fact": "No primary results listed. No wayback folder for this county, check 3 pending."
+   },
+   "2026_runoff": {
+    "result": "LATER",
+    "check": "2",
+    "fact": "\"Primary Runoff Election Unofficial Results 5.26.26\" is a \"Summary Results Report ... ELECTION UNOFFICIAL SUMMARY ... Lamb County\", printed \"Election Summary - 05/26/2026 9:04 PM\", county totals; Last-Modified Wed 27 May 2026 18:56:34 GMT (1:56 PM CDT next day). \"OFFICIAL RESULTS 5.26.26\" is also a summary (Last-Modified 4 Jun 2026). The \"REP/DEM PCT n 5.26.26\" links are sample ballots (Official Ballot), not results. Precinct numbers never posted."
+   }
+  },
+  "rationale": "Only the runoff is determined (LATER, county totals only), so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+  "sources": [
+   {
+    "url": "https://www.co.lamb.tx.us/page/ElectionsHome",
+    "content_hash": "e68404061c0b6962a9d095d5fdaf9f84927ca24219321ab1a061f03112aed83d",
+    "what_i_checked": "results list"
+   },
+   {
+    "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/Primary Runoff Results 5.26.26.pdf",
+    "content_hash": "ed7ce8ff688728964354e66d4519580fdcd823b99f46c7f56a1b3933c8f46dde",
+    "what_i_checked": "unofficial summary printed 9:04 PM, uploaded next day"
+   },
+   {
+    "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/REP PCT 1 5.26.26.pdf",
+    "content_hash": "f4bed380ad2a2680c2c0acd1029322784ca5aee21799596eb1aa41ed1ce57197",
+    "what_i_checked": "sample ballot, not results"
+   },
+   {
+    "url": "https://www.co.lamb.tx.us/upload/page/0112/docs/OFFICIAL RESULTS 5.26.26.pdf",
+    "content_hash": "abe0d508c9818f0dd30b1631819c6225e2158f7f344e48d7346573d5108a6a74",
+    "what_i_checked": "official summary"
+   }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:25:07Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+   "2024_general": "same.",
+   "2026_primary": "same.",
+   "2026_runoff": "same result (LATER) on different grounds. Research says the scanned unofficial file cannot be read and was created and uploaded on May 27, \"nothing listed was posted on election night\", which under the clarified rule would be UNDETERMINED. I read page 1 visually: \"Summary Results Report ... ELECTION UNOFFICIAL SUMMARY\", county totals, printed footer \"Election Summary - 05/26/2026 9:04 PM\", which is the election-night printed time the rule needs."
+  }
+ },
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED): no files listed; the CDX query for this window failed (connection refused), so check 3 is incomplete rather than empty.",
+  "2026_primary": "same (UNDETERMINED): no files listed; CDX query failed as above.",
+  "2026_runoff": "same (LATER, check 2): scanned 'ELECTION UNOFFICIAL SUMMARY' printed 05/26/2026 9:04 PM, uploaded May 27 1:56 PM CDT; the PCT links are sample ballots; no precinct results posted. Quoted counts checked on page images.",
+  "unsupported_claims": "None found. The web search mentioned in the notes is not checkable from sources (search text is not evidence; no effect on results)."
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "county": "Bowie",
+ "reason_selected": "tag PRECINCT_END_OF_NIGHT (after rule 43 normalization)",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Past Election Results page, 'November 5, 2024 Presidential Results': the only unofficial file is 'Unofficial Results (PDF)' (DocumentCenter/View/1179), a county-totals 'Summary Results Report UNOFFICIAL RESULTS', printed 'Election Summary - 11/06/2024 10:35 AM' (CreationDate 2024-11-06 16:38 UTC), after election night. Precinct report 'Official Results Precinct By Precinct' (1177) printed 'Precinct Summary - 11/14/2024 6:04 PM'. CivicPlus DocumentCenter returns Last-Modified equal to request time, so no upload evidence. No election-night file survives; no wayback folder for Bowie (check 3 unavailable)."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections page 'March 3, 26 Results': 'March 3 2026 Unofficial Results (PDF)' (338) is county totals printed 'Election Summary - 03/04/2026 8:32 AM' (after election night); 'Pct X Pct Democratic' (333) is 'OFFICIAL RESULTS', printed 'Precinct Summary - 03/10/2026 12:39 PM'. 'Joint Primary Preliminary Election' (337) is a scanned image, CreationDate 2026-03-05. No election-night file survives; Last-Modified is request time. Check 3 unavailable (no wayback folder)."
+  },
+  "2026_runoff": {
+   "result": "END",
+   "check": "2",
+   "fact": "'2026-05-26-Precinct-by-Precinct (PDF)' (600): 'Summary Results Report UNOFFICIAL RESULTS ... 260526 Primary Runoff ... All Ballots', per-precinct with Election Day column (precinct 1A, REP US Senator: Ken Paxton 25 total, 14 Election Day), printed 'Precinct Summary - 05/26/2026 10:33 PM' (CreationDate 2026-05-27 03:34:35 UTC). Companion summary (599) printed 05/26/2026 10:32 PM, 'Election Day Precincts Reporting 38 of 38'. Single election-night precinct report with the final unofficial count. Printed run time only; Last-Modified is request time, so no upload time."
+  }
+ },
+ "rationale": "Only the runoff is determined (END, from an unofficial precinct-by-precinct report printed 10:33 PM election night); 2024 and the primary have only post-election-night files. Exactly one determined election, so PRECINCT_END_OF_NIGHT, low.",
+ "sources": [
+  {
+   "url": "https://www.co.bowie.tx.us/1239/Elections",
+   "content_hash": "bef6edb552c1a2bee7f345c1be73c300e6906ce88a6cd392168c1425bebd8920",
+   "what_i_checked": "2026 results lists"
+  },
+  {
+   "url": "https://www.co.bowie.tx.us/1241/Past-Election-Results",
+   "content_hash": "b627321b64efb76dbcfedd7d954365f3d9111d8eb0501bf81de465c34adc4e40",
+   "what_i_checked": "2024 general results list"
+  },
+  {
+   "url": "https://www.co.bowie.tx.us/DocumentCenter/View/1179/Unofficial-Results-PDF",
+   "content_hash": "7a5bced350cd3307d3ccfa5466d7bbb7bf3583ea9d60a9ed456dc7767718c3e4",
+   "what_i_checked": "printed 11/06/2024 10:35 AM, county totals"
+  },
+  {
+   "url": "https://www.co.bowie.tx.us/DocumentCenter/View/1177/Official-Results-Precinct-By-Precinct-PDF",
+   "content_hash": "38230a56d711a7ea8d8d7748580128bbdead02ea697813e4d7402e832da6c503",
+   "what_i_checked": "official pct x pct printed 11/14/2024"
+  },
+  {
+   "url": "https://www.co.bowie.tx.us/DocumentCenter/View/338/March-3-2026-Unofficial-Results-PDF",
+   "content_hash": "e93bc2ec89344f52f97dc777345a30e261c224946af00260829e2105c275d4bd",
+   "what_i_checked": "printed 03/04/2026 8:32 AM, county totals"
+  },
+  {
+   "url": "https://www.co.bowie.tx.us/DocumentCenter/View/333/3326-Joint-Primary-Pct-X-Pct-Democratic-PDF",
+   "content_hash": "67983d74dcc7d3e0a566115f794402ebce4631b012d80f6e5d3b3837c7ae52e1",
+   "what_i_checked": "official pct x pct printed 03/10/2026"
+  },
+  {
+   "url": "https://www.co.bowie.tx.us/DocumentCenter/View/600/2026-05-26-Precinct-by-Precinct-PDF",
+   "content_hash": "9e72c84dea6c76bd9382770046fcb417033fa981b4aeea3d3321b22a2a1bdc0f",
+   "what_i_checked": "unofficial precinct report printed 05/26/2026 10:33 PM with election day votes"
+  },
+  {
+   "url": "https://www.co.bowie.tx.us/DocumentCenter/View/599/2026-05-26-Election-Summary-Report-PDF",
+   "content_hash": "c0c33d5e5551e5490552ac1b6794394d28e1f47884280d93ef14e87888177079",
+   "what_i_checked": "unofficial summary printed 05/26/2026 10:32 PM"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:41:15Z",
+ "research_tag": "PRECINCT_END_OF_NIGHT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (END, check 2). Research cites the same 2026-05-26-Precinct-by-Precinct PDF (via the bowiecounty.org alias of the same CivicPlus site); its quotes match what I read (printed 10:33 PM, 38 of 38). No unsupported claims found.",
+  "rule_47": "rule 47 applied: no change to my results (no END or LIVE rests on a printed time contradicted by a later upload). Bowie runoff END stands: the CivicPlus server gives no real upload time, so the printed 10:33 PM run time governs."
+ }
+}

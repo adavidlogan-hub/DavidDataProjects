@@ -1,0 +1,44 @@
+{
+ "county": "Real",
+ "reason_selected": "low confidence",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "No Clarity site (elections.json 404). \"November 5th, 2024 Election Results\": Summary Results Report UNOFFICIAL RESULTS, county totals, footer \"2024 GENERAL ELECTION SUMMARY REPORT - 11/05/2024 9:52 PM\"; CreationDate 2024-11-06 03:46 UTC (9:46 PM CST); Last-Modified 06 Nov 2024 18:25 GMT (next day). Only a canvass report follows."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No 2026 primary results on the elections page. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No 2026 runoff results on the elections page (only notices, sample ballots, hand count audit). Check 3 unavailable: no wayback-data folder for this county."
+  }
+ },
+ "rationale": "Only 2024 is determined (county totals printed on election night). One determined election gives COUNTY_ONLY_PRECINCT_AT_CANVASS at low confidence.",
+ "sources": [
+  {
+   "url": "https://www.co.real.tx.us/page/real.Elections",
+   "content_hash": "a65a9db06d3a097e8e061ec7fb6041253da3c3eea99134d052a4cf10c351346a",
+   "what_i_checked": "file list"
+  },
+  {
+   "url": "https://www.co.real.tx.us/upload/page/0250/docs/2024/2024_november_05_election_results.pdf",
+   "content_hash": "9f3e66af72e0f01edea0c493d0201a7b70169dbfb50b425a437a5c926755bd57",
+   "what_i_checked": "2024 unofficial summary printed 9:52 PM"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LATER, county summary printed 9:52 PM).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (UNDETERMINED)."
+ }
+}

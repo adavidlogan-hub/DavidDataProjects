@@ -1,0 +1,61 @@
+{
+  "county": "Reagan",
+  "reason_selected": "low confidence (after rule 43 normalization)",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No seed URL; reagancounty.org redirects to www.co.reagan.tx.us (www.reagancounty.org unreachable). Elections page, 2024: 'General Election Results for 11/5/2024' (scan): Cumulative Results Report 'OFFICIAL ... Run Time 7:52 AM, Run Date 11/18/2024', Last-Modified Wed 20 Nov 2024 21:56:36 GMT; 'Precinct Results Report' run 11/18/2024 7:54 AM, Last-Modified 08 Feb 2025. No election-night file. No Clarity link. check 3 unavailable (no Reagan folder on wayback-data)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Unofficial Results' (2026/332026_results.pdf), rotated scan of a Cumulative Results Report, 'Unofficial Results', county totals, header 'Run Time 9:04 PM, Run Date 03/03/2026' (read from the page image); Last-Modified Wed 04 Mar 2026 15:34:14 GMT (9:34 AM CST next day). 'PRECINCT BY PRECINCT RESULTS' is precinct_results392026_105447_am.pdf (Mar 9 2026 by file name). County totals printed on election night; precinct numbers six days later."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Official Results 5/26/2026' (results.pdf): Canon scan of Cumulative Results Report 'Unofficial Results ... Run Time 7:45 PM, Run Date 05/26/2026', county totals ('Ken Paxton 4 87 38 129'), CreationDate May 27 01:24 UTC (8:24 PM CDT), Last-Modified Wed 27 May 2026 17:20:47 GMT. 'Precinct Results 5/26/2026' (precinct_results5262026.pdf): Precinct Results Report printed 'Run Time 7:47 PM, Run Date 05/26/2026' with election-day votes, but PDF CreationDate Wed May 27 17:03:22 UTC (12:03 PM CDT next day), Last-Modified 17:22:58 GMT. County-totals scan made on election night; the precinct PDF did not exist until the next day. Caveat: by upload time both went online next day."
+    }
+  },
+  "rationale": "Primary and runoff are LATER from county-posted reports (county totals printed on election night; precinct files produced days later or, for the runoff, as a PDF created the next day). Two LATER give COUNTY_ONLY_PRECINCT_AT_CANVASS. The runoff call is weak: the precinct report's printed run time (7:47 PM) is on election night.",
+  "sources": [
+    {
+      "url": "https://www.co.reagan.tx.us/page/reagan.Elections",
+      "content_hash": "f18b22a2a6",
+      "what_i_checked": "file list per election (hash prefix shown)"
+    },
+    {
+      "url": "https://www.co.reagan.tx.us/upload/page/9496/2026/332026_results.pdf",
+      "content_hash": "2d4308240a4ed6741fe275ad03b3198dd84bbaf9b21a54e7b6a53fe40340a4c0",
+      "what_i_checked": "primary county totals run 9:04 PM 03/03/2026 (page image)"
+    },
+    {
+      "url": "https://www.co.reagan.tx.us/upload/page/9496/results.pdf",
+      "content_hash": "743e210e7c5240742ca24b98cde46956ec22416ce32093c5458dcbf8da26cce5",
+      "what_i_checked": "runoff county totals run 7:45 PM, scanned 8:24 PM CDT"
+    },
+    {
+      "url": "https://www.co.reagan.tx.us/upload/page/9496/precinct_results5262026.pdf",
+      "content_hash": "5027058435ea87e39228d3ac04c3068f281d8df7093db9954f11f52d41fe9930",
+      "what_i_checked": "runoff precinct report run 7:47 PM but PDF created May 27 17:03 UTC"
+    },
+    {
+      "url": "https://www.co.reagan.tx.us/upload/page/9496/2024/general_election_results_for_1152024.pdf",
+      "content_hash": "56f2d384bcff306df88b2c81f0490c1e8fb8c8303088af502ef357ebba36b8dc",
+      "what_i_checked": "2024 official run 11/18/2024"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:54:37Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED): 2024 files run/posted Nov 18 to Nov 20 2024 and Feb 2025.",
+    "2026_primary": "same (LATER, check 2). Research gives county_totals_first_seen 20:39 CT from the scan CreationDate; the scan's printed header reads 'Run Time 9:04 PM, Run Date 03/03/2026' (page image), which is inconsistent with an 8:39 PM scan time (scanner clock likely off). Both are on election night; no effect on the result.",
+    "2026_runoff": "different: research UNDETERMINED (only the precinct report, printed 7:47 PM but created and posted next day), I say LATER. Research does not mention 'Official Results 5/26/2026' (results.pdf), a scanned county-totals Cumulative Results Report marked 'Unofficial Results', 'Run Time 7:45 PM, Run Date 05/26/2026', scan CreationDate May 27 01:24 UTC (8:24 PM CDT), which is an election-night county-totals file under rule 43 (posted 17:20 GMT next day). The precinct report's own printed run time (7:47 PM) is also on election night, so this is a weak LATER; the precinct PDF itself was created the next day at 12:03 PM CDT. Same tag either way; with two LATER the computed confidence would be med.",
+    "unsupported_claims": "2026_runoff 'no election-night file survives' overlooks results.pdf (county totals run 7:45 PM, scanned 8:24 PM CDT)."
+  },
+  "compared_at_utc": "2026-10-02T16:54:49Z"
+}

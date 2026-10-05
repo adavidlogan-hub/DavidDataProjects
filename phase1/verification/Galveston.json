@@ -1,0 +1,69 @@
+{
+ "county": "Galveston",
+ "reason_selected": "tag LIVE_PRECINCT",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 122842 (\"2024 November Election\"). v351017 \"11/5/2024 7:37:14 PM CST\" precinct votes under Early/Absentee only (opened: VoteType \"Early\", <Precinct name=\"151\" votes=\"1417\">); v351632 \"8:42:19 PM CST\" first with Election votes in 86 precincts; then 9:14:39, 9:51:38, 11:05:07 PM with larger sums (4 distinct election-night releases, sums 109136, 206616, 386909, 696966)."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 125923. v368395 \"3/3/2026 7:13:55 PM CST\" no election-day precinct votes; v368475 \"9:19:06 PM CST\" 88 precincts with Election votes; then 9:39:49, 9:56:51, 10:51:53 PM (4 distinct releases)."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "EID 126480. Every version, election night (7:03 PM to 9:37:09 PM CDT) and after (v373446 \"6/2/2026 3:37:33 PM CDT\"), has precinct votes=\"protected\" (7320 of 7412 Precinct elements); no precinct candidate numbers on Clarity. County site www.galvestonvotes.org returns an empty HTTP 202 (bot protection), so where or whether precinct numbers were published later could not be checked. No wayback folder (check 3 pending)."
+  }
+ },
+ "rationale": "Two elections are LIVE from check 1 (election-day precinct votes in 4 distinct election-night Clarity releases each), so LIVE_PRECINCT, high. The runoff had protected precinct values on Clarity and stays UNDETERMINED.",
+ "sources": [
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Galveston/elections.json",
+   "content_hash": "9297bc6461cc49a6e542fad8a1c8386e48d077d639cf440777e267caa080a16e",
+   "what_i_checked": "EIDs 122842, 125923, 126480"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/351017/reports/detailxml.zip",
+   "content_hash": "b87553af26fb1fc9cb6a7ee6661b15502d21c03fe71472b5db61f2742be1eb4e",
+   "what_i_checked": "opened: 7:37:14 PM CST, early precinct votes only"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/351632/reports/detailxml.zip",
+   "content_hash": "806d77f8c780664db0bfc13ec4bdae9582805e6eac74b82e5c85d5d4145667f1",
+   "what_i_checked": "opened: 8:42:19 PM CST, Election votes in 86 precincts"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368475/reports/detailxml.zip",
+   "content_hash": "a5820bb8d5d6f31dd590d200cfa4879ecccd9d31cbf893f05edf761b08621511",
+   "what_i_checked": "opened: 9:19:06 PM CST, Election votes in 88 precincts"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/373023/reports/detailxml.zip",
+   "content_hash": "5486588449efbd40f05836faecd21aa499f10907d25160de5e46fcf2c88258d1",
+   "what_i_checked": "opened: 9:37:09 PM CDT, precinct votes \"protected\""
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/373446/reports/detailxml.zip",
+   "content_hash": "0500f803df9a0dd505a9df79106e8a9cdafe245718ab518eb4d8f4a89a72c54c",
+   "what_i_checked": "opened: 6/2/2026 final version, still \"protected\""
+  },
+  {
+   "url": "https://www.galvestonvotes.org/",
+   "content_hash": "",
+   "what_i_checked": "empty HTTP 202, unreadable"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:22:42Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE).",
+  "2026_primary": "same (LIVE).",
+  "2026_runoff": "different: research LATER, mine UNDETERMINED. Both read the same Clarity fact (precinct values \"protected\" on election night and still in the 6/2/2026 version). I left it UNDETERMINED because galvestonvotes.org is unreadable (empty 202), so a county-posted precinct report cannot be excluded; research reads it as LATER (never published on Clarity). Tag unaffected."
+ }
+}

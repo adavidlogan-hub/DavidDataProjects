@@ -1,0 +1,596 @@
+{
+  "county": "Galveston",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122842",
+          "name": "2024 November Election",
+          "updates": [
+            {
+              "version": "348627",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348627/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348628",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348628/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348629",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348629/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348630",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348630/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348631",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348631/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348632",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348632/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348633",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348633/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348634",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348634/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348635",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348635/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348636",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348636/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348637",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/348637/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350255",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350255/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350305",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350305/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350306",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350306/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350307",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350307/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350309",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350309/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350310",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350310/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350311",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350311/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350313",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350313/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350314",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350314/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "350315",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350315/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 8:24:11 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "350316",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/350316/reports/detailxml.zip",
+              "content_hash": "8aa039570a985c588a9a5f3120765ccda638cd63aef0b1f073a363cd15a13136",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:37:14 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 8852,
+              "version": "351017",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/351017/reports/detailxml.zip",
+              "content_hash": "b87553af26fb1fc9cb6a7ee6661b15502d21c03fe71472b5db61f2742be1eb4e",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:42:19 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 19388,
+              "version": "351632",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/351632/reports/detailxml.zip",
+              "content_hash": "806d77f8c780664db0bfc13ec4bdae9582805e6eac74b82e5c85d5d4145667f1",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:14:39 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 19653,
+              "version": "351954",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/351954/reports/detailxml.zip",
+              "content_hash": "cd9b985a7689c7c0faedaaef3cf4a3eb1075b2b59afe48bb6d265aff6ecef2b2",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:51:38 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 19916,
+              "version": "352321",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/352321/reports/detailxml.zip",
+              "content_hash": "baf62e9d3b3c8762c4065cfb84eeba0baa35463dce72faef3c25736a6759f8ff",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:05:07 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 20116,
+              "version": "352788",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/352788/reports/detailxml.zip",
+              "content_hash": "6f219ad157f45feeb2a202bd8471d56b8ef2b1f3dc8094abf87227a79d4862e2",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:45:46 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 20132,
+              "version": "352919",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/352919/reports/detailxml.zip",
+              "content_hash": "c49c920455475024cdcb929569fb4faa2613e8d01f6c621be8a0ec87c4c40673",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/14/2024 1:57:35 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 20161,
+              "version": "354913",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/354913/reports/detailxml.zip",
+              "content_hash": "2e23a5df86b1007a5eb2e4e9a7171c1f90afc809d848e6af94fceaf7feed69da",
+              "election_night": false
+            },
+            {
+              "timestamp": "12/13/2024 9:44:43 AM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 20161,
+              "version": "356002",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/356002/reports/detailxml.zip",
+              "content_hash": "bb65de81b1942a03a918a9a625aa25295e8b87daf67bfe35bd9957ca7dbb3bc5",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 6,
+          "election_night_updates_with_precinct_votes": 6,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:37:14 PM CST",
+            "version": "351017",
+            "url": "https://results.enr.clarityelections.com/TX/Galveston/122842/351017/reports/detailxml.zip"
+          },
+          "unreadable_versions": 21
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "125923",
+          "name": "2026 Joint Primary Election",
+          "updates": [
+            {
+              "version": "367748",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367748/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367751",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367751/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367757",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367757/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367758",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367758/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367759",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367759/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367762",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367762/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367763",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367763/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367764",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367764/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367765",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367765/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367766",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367766/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367767",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367767/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367771",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367771/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367772",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367772/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367773",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367773/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367774",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367774/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367775",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367775/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367858",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367858/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367859",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367859/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367860",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367860/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/11/2026 8:15:26 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "367965",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/367965/reports/detailxml.zip",
+              "content_hash": "cd9960f14fc5d32cd52803a5525d61158adbd703e2a7d09f2a07a4a9999d00e4",
+              "election_night": false
+            },
+            {
+              "version": "368022",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368022/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 7:13:55 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 23760,
+              "version": "368395",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368395/reports/detailxml.zip",
+              "content_hash": "1491aa5dbcf75539de353e3e88202a9528d762a4978b6c445af7b003c7f6c783",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 7:18:29 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 23810,
+              "version": "368399",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368399/reports/detailxml.zip",
+              "content_hash": "d36cdd86b81882277bc40a0b0e94669f102fd7589c2a76fc5d124b01cc216f9d",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:19:06 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 37382,
+              "version": "368475",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368475/reports/detailxml.zip",
+              "content_hash": "a5820bb8d5d6f31dd590d200cfa4879ecccd9d31cbf893f05edf761b08621511",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:39:49 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 37782,
+              "version": "368490",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368490/reports/detailxml.zip",
+              "content_hash": "7d4a3c2de0743cbbc63efd4fc8490470962375390afffbd11c9f7445bfc2cf2b",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:56:51 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 48960,
+              "version": "368506",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368506/reports/detailxml.zip",
+              "content_hash": "5728438d451aa0cf959442e8032aad72ef000ca5f66fd70da003df6acda1c545",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:51:53 PM CST",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 50463,
+              "version": "368533",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368533/reports/detailxml.zip",
+              "content_hash": "f063cc191fda9debbf939527aad7e83d8a91e7d3a83f2543c40889782ee1c848",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/12/2026 2:14:44 PM CDT",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 50622,
+              "version": "368807",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368807/reports/detailxml.zip",
+              "content_hash": "bacd91c50969e179ea4421f3a0cb3eed02e6c905089e59b10021687fd7de57ba",
+              "election_night": false
+            },
+            {
+              "version": "369829",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/369829/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369830",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/369830/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369831",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/369831/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369832",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/369832/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "369877",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/369877/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "4/27/2026 3:14:31 PM CDT",
+              "precincts_with_votes": 90,
+              "nonzero_precinct_vote_cells": 50622,
+              "version": "369878",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/369878/reports/detailxml.zip",
+              "content_hash": "d81bc8dd4ae9a2b63c9b0be25a54ef941a27108e349f4de43d5cd4fdf3f542fc",
+              "election_night": false
+            },
+            {
+              "version": "369879",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/369879/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "374123",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/374123/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "374124",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/374124/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "6/3/2026 12:07:50 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "374125",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/374125/reports/detailxml.zip",
+              "content_hash": "1b1657f64f5d5c21a7d051f3b1946f28d09596ed54bc3713011e3deb9f3e40b4",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 6,
+          "election_night_updates_with_precinct_votes": 6,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:13:55 PM CST",
+            "version": "368395",
+            "url": "https://results.enr.clarityelections.com/TX/Galveston/125923/368395/reports/detailxml.zip"
+          },
+          "unreadable_versions": 28
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126480",
+          "name": "2026 Joint Primary Runoff",
+          "updates": [
+            {
+              "version": "372505",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372505/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372514",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372514/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372540",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372540/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372541",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372541/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372543",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372543/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372547",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372547/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "372575",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372575/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/22/2026 9:14:16 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372576",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372576/reports/detailxml.zip",
+              "content_hash": "4a1f559969949b83221385a846a85d8d7be6b1dccb02ff27a3dd959166e66f6c",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/22/2026 9:16:41 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372577",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372577/reports/detailxml.zip",
+              "content_hash": "1dc854e9e34d062e390a4bdab344855aa6d8b358bac801f44bdbf21a346a522c",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:03:48 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372930",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372930/reports/detailxml.zip",
+              "content_hash": "af35a7b962835323684c293bd75015463e70300d810da310f99a3e7f287dfde0",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 7:48:03 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372946",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372946/reports/detailxml.zip",
+              "content_hash": "ca1180b1d3923df8ecb2945cb8b41405bf50589091c85d07559c80e1ede6207e",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:34:37 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372980",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372980/reports/detailxml.zip",
+              "content_hash": "4fcc68cf470d32f7a5c7a69e31d27df70ae1cb8afb434897849eb01c7254b536",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:36:22 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372982",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/372982/reports/detailxml.zip",
+              "content_hash": "ff12d6b0df5e7035f1ed1d59215ac0902bc5f8a94c2a3ebbf1372f9d5724896b",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:07:49 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373007",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/373007/reports/detailxml.zip",
+              "content_hash": "8afa76e6b2216ca88f1ad2417ab0ebd3ae361fbaffea3c1e5806e3d2eeeb63a2",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:37:09 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373023",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/373023/reports/detailxml.zip",
+              "content_hash": "5486588449efbd40f05836faecd21aa499f10907d25160de5e46fcf2c88258d1",
+              "election_night": true
+            },
+            {
+              "version": "373445",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/373445/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "6/2/2026 3:37:33 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373446",
+              "url": "https://results.enr.clarityelections.com/TX/Galveston/126480/373446/reports/detailxml.zip",
+              "content_hash": "0500f803df9a0dd505a9df79106e8a9cdafe245718ab518eb4d8f4a89a72c54c",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 6,
+          "election_night_updates_with_precinct_votes": 0,
+          "first_update_with_precinct_votes": null,
+          "unreadable_versions": 8
+        }
+      ]
+    }
+  }
+}

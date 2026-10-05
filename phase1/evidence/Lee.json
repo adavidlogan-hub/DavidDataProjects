@@ -1,0 +1,79 @@
+{
+  "county": "Lee",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.lee.tx.us/page/lee.elections2026",
+  "platform": "county_pdfs",
+  "host": "www.co.lee.tx.us",
+  "evidence_url": "https://newtools.cira.state.tx.us/upload/page/12529/election%20day%200152626.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL loads; Elections pages per year (lee.elections2026, lee.Elections2024). Some files are served from newtools.cira.state.tx.us (the CIRA host behind the county site). No Clarity site (elections.json 404). Reports are scanned Electionware printouts; the runoff page was read visually (PDF CreationDate 00:48 UTC differs from printed 8:28 PM; scanner clock). Last-Modified differs per file (meaningful). The county links SOS results (results.texas-election.com). 2026 primary: no results report listed; check 3 pending. Rule 43 applied 2026-10-02 (normalize-2): 2024_general LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.lee.tx.us/upload/page/11450/updated%20pct%20by%20pct%20110524.pdf",
+      "fact": "Rule 43: no election-night file survives. Previous: 2024 Election Information page lists for the November 5, 2024 election only 'precinct summary-unofficial results' (updated pct by pct 110524.pdf, scanned RICOH, 75 pages, CreationDate Mon Nov 25 15:18:15 2024 UTC, Last-Modified Mon, 25 Nov 2024 16:19:24 GMT) and 'election reconciliation-unofficial totals'. Precinct numbers appear 25 Nov 2024; no election-night results file is listed for this election."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the 2026 page lists only reconciliation and hand-count audit files for March 3, no results report"
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:41 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://newtools.cira.state.tx.us/upload/page/12529/election%20day%200152626.pdf",
+      "fact": "'UNOFFICIAL Election Night Results' (election day 0152626.pdf, scanned, read visually): 'Summary Results Report 2026 Primary Runoff Election May 26, 2026 ... UNOFFICIAL RESULTS Lee County, Texas ... Election Summary - 05/26/2026 8:28 PM'; county totals by Absentee / Early Voting / Election Day. Last-Modified Wed, 27 May 2026 01:41:47 GMT (8:41 PM CDT May 26). No runoff precinct report listed (only reconciliations and hand count audit)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.lee.tx.us/page/lee.elections2026",
+      "via": "fetch_module",
+      "content_hash": "b66a183064b61a9e1e7ca8be0991382d83edf7e98a0f3622dc0e88fbaf1f95a9",
+      "quote": "UNOFFICIAL Election Night Results | preliminary election reconciliation-unofficial totals | election reconciliation-official totals | results of the hand count audit",
+      "supports": "2026 report lists"
+    },
+    {
+      "url": "https://www.co.lee.tx.us/page/lee.Elections2024",
+      "via": "fetch_module",
+      "content_hash": "62b50c106aca3dcc3cab03e4113bcf32ba427772af52a814a99e4e806486704a",
+      "quote": "precinct summary-unofficial results | updated pct by pct 110524.pdf ; election reconciliation-unofficial totals | PREM 11524.pdf",
+      "supports": "2024 general report list"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/12529/election%20day%200152626.pdf",
+      "via": "fetch_module",
+      "content_hash": "408c980ca5c23c944337e8bc95c0e36b2aa915e984b68e678ca0a2dc5583dd76",
+      "quote": "Summary Results Report 2026 Primary Runoff Election ... UNOFFICIAL RESULTS ... Election Summary - 05/26/2026 8:28 PM",
+      "supports": "2026_runoff county totals on election night"
+    },
+    {
+      "url": "https://www.co.lee.tx.us/upload/page/11450/updated%20pct%20by%20pct%20110524.pdf",
+      "via": "fetch_module",
+      "content_hash": "1c896dffa25912b0de41026e2c89e1b52b190a1bcd8f50c42271f483746b518f",
+      "quote": "scanned PDF, 75 pages, CreationDate Mon Nov 25 15:18:15 2024 UTC; Last-Modified Mon, 25 Nov 2024 16:19:24 GMT",
+      "supports": "2024 precinct numbers posted 25 Nov 2024"
+    }
+  ]
+}

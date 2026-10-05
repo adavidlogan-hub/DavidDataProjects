@@ -1,0 +1,61 @@
+{
+  "county": "Kenedy",
+  "reason_selected": "random 10 percent sample",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Results page lists 'Summary Report' and 'Precinct by Precinct Report' for 11-5-24; the precinct report (scan read as image) is 'Precinct by Precinct Report General Election November 5, 2024 ... OFFICIAL RESULTS', footer 'Precinct Summary - 11/14/2024 12:49 PM'; scan CreationDate Nov 14. No election-night file survives. Check 3 pending (no wayback folder)."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "'Summary Report' (03_03_26-Summary-Report.pdf, scan read as image): 'Summary Results Report Joint Primary Election March 3, 2026 UNOFFICIAL RESULTS Kenedy County', 'Election Day Precincts Reporting 6 of 6', county totals, footer 'Election Summary - 03/03/2026 8:22 PM' (election night; scan CreationDate Mar 4 18:30 UTC). Precinct file 'Precinct by Precinct Report (Part 1)' is 'UNOFFICIAL RESULTS' but footer 'Precinct Summary - 03/05/2026 2:53 PM', scan CreationDate Mar 5. Server Last-Modified is date-only (Wed, 04 Mar 2026 00:00:00 GMT and Thu, 05 Mar 2026 00:00:00 GMT), so no usable upload time. Precinct numbers came after election night."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Results page lists no May 26, 2026 runoff results (only 06_16_26 reports, scanned Jul 10 2026). Check 3 pending."
+    }
+  },
+  "rationale": "Only the primary is determined (LATER: county-total summary printed 8:22 PM on election night, precinct report printed Mar 5), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "sources": [
+    {
+      "url": "https://www.kenedycountytx.gov/page/kenedy.Elections",
+      "what_i_checked": "county page sends readers to kenedycountyelections.com",
+      "content_hash": "441be552106d6e682d05b7094331cb617cccdea803e6656e5c13a6ba7ac953a6"
+    },
+    {
+      "url": "https://kenedycountyelections.com/results/",
+      "what_i_checked": "results file list",
+      "content_hash": "b294b9b32b2bddc45c7efcfe25e5034be26eb1101fe0beb8e8159c32bca4499e"
+    },
+    {
+      "url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/03_03_26-Summary-Report.pdf",
+      "what_i_checked": "primary unofficial summary printed 8:22 PM election night",
+      "content_hash": "e646d1638a3cfeaafbfea66c5fa4891b2ca266847f1e14243b42ce41316b5958"
+    },
+    {
+      "url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/03_03_26-Pct-Report-1-2-3.pdf",
+      "what_i_checked": "primary unofficial precinct report printed Mar 5 2:53 PM",
+      "content_hash": "22d899d9bf5f71a57ba41fa468eaa52b735bbac41cce03125f6b3650313dda52"
+    },
+    {
+      "url": "https://kenedycountyelections.com/wp-content/uploads/simple-file-list/Pct_-by-Pct_-Report-11-5-24.pdf",
+      "what_i_checked": "2024 precinct report official, printed Nov 14",
+      "content_hash": "41f459c2c65abd667eb962d0fd6da8fda74366aefc8578d5a3d65b5c6e8bcc58"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:23:23Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "different: research LATER, I UNDETERMINED. The only 2024 files are scans made Nov 14 2024 (precinct report marked OFFICIAL, printed 11/14/2024 12:49 PM). Under the updated LATER rule (positive election-night evidence required) no election-night file survives, so research's LATER is not supported.",
+    "2026_primary": "same result (LATER, check 2). Research rests on scan dates (both files scanned after election night); I add the printed times: summary 'Election Summary - 03/03/2026 8:22 PM' (election night, county totals) and unofficial precinct report 'Precinct Summary - 03/05/2026 2:53 PM'.",
+    "2026_runoff": "different: I recorded UNDETERMINED blind because I read only the Results page and missed the runoff files on the Current Election page. After comparison I opened them: 05_26_26-Summary-Report.pdf footer 'Election Summary - 05/26/2026 7:53 PM' and 05_26_26-Pct-Report.pdf footer 'Precinct Summary - 05/26/2026 7:55 PM', both scans created May 27 12:59-13:00 UTC (7:59-8:00 AM CDT next morning), Last-Modified date-only 27 May 2026. The posted precinct file did not exist until the morning after, which supports research's LATER; but note the precinct report itself was printed on election night. My blind verdict is left as written.",
+    "unsupported_or_unchecked": "Research 2024 LATER lacks election-night evidence under the updated rule. Research does not quote the printed footer times. Tag unchanged either way."
+  },
+  "compared_at_utc": "2026-10-02T16:24:04Z"
+}

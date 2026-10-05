@@ -1,0 +1,79 @@
+{
+  "county": "Jim Wells",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://jimwellscountyelections.gov/all-official-notices/",
+  "platform": "county_pdfs",
+  "host": "jimwellscountyelections.gov",
+  "evidence_url": "https://jimwellscountyelections.gov/wp-content/uploads/2026/03/Unofficial-Cumulative-Results-3-3-2026-08-56-04-PM.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "County site links to the elections office site jimwellscountyelections.gov (WordPress), whose 'All Notices' page lists every posted file; file names carry the Hart report run time. Its 'Election History' link (electionhistory.jimwellscountyelections.gov, an ElectionStats ballot verifier loaded by JavaScript) is a post-election archive. No Clarity link. 2024 general: night cumulative county totals 'Unoffical-on-ED-Cumulative-Results-11-5-2024-07-41-11-PM' and '2024-General-UNOFFICIAL-Cumulative-Results-11-5-2024-10-17-17-PM'; the first precinct file is '2024-GENERAL-ELECTION-UNOFFICIAL-Precinct-Results-11-6-2024-11-31-46-AM' (Last-Modified Wed, 06 Nov 2024 16:30:34 GMT; PDF CreationDate 17:32 UTC, so the two clocks differ by about an hour). 2026 primary: night file 'Unofficial-Cumulative-Results-3-3-2026-08-56-04-PM' (county totals, Last-Modified Wed, 04 Mar 2026 03:00:43 GMT = 9:00 PM CST), then 'Unofficial-after-EVBB-Cumulative-Results-3-9-2026' and the only precinct file 'FINAL-AFTER-CANVASS-6735-TOTAL-Precinct-Results-3-17-2026'. 2026 runoff: only 'UNOFFICIAL-Cumulative-Results-5-26-2026-08-22-37-PM' (county totals, Last-Modified Wed, 27 May 2026 01:25:43 GMT = 8:25 PM CDT); no runoff precinct file. Check 3 pending (wayback-data branch not on origin).",
+  "tag_rationale": "All three elections are LATER (county totals on election night, precinct numbers the next day, at canvass, or never), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the 2026 primary and runoff were settled by check 2 with printed run times and Last-Modified times on election night.",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://jimwellscountyelections.gov/all-official-notices/",
+      "via": "fetch_module",
+      "content_hash": "c4238050dc79f715f1ed3251522df7e283ea15a3f28ca10f0bccdebadbd80eae",
+      "quote": "UNOFFICIAL-Cumulative-Results-5-26-2026-08-22-37-PM.pdf; Unofficial-Cumulative-Results-3-3-2026-08-56-04-PM.pdf; FINAL-AFTER-CANVASS-6735-TOTAL-Precinct-Results-3-17-2026-01-28-19-PM.pdf; 2024-GENERAL-ELECTION-UNOFFICIAL-Precinct-Results-11-6-2024-11-31-46-AM.pdf",
+      "supports": "All posted results files with run times in file names"
+    },
+    {
+      "url": "https://jimwellscountyelections.gov/wp-content/uploads/2024/11/2024-GENERAL-ELECTION-UNOFFICIAL-Precinct-Results-11-6-2024-11-31-46-AM.pdf",
+      "via": "fetch_module",
+      "content_hash": "50a274b5cd03da344335b6fbeb02b3424563c54b50a58d0cb1b6376a73c96928",
+      "quote": "Precinct Results Report Unofficial Results JIM WELLS COUNTY, TEXAS ... GENERAL ELECTION",
+      "supports": "2024 precinct numbers posted the morning after"
+    },
+    {
+      "url": "https://jimwellscountyelections.gov/wp-content/uploads/2026/03/Unofficial-Cumulative-Results-3-3-2026-08-56-04-PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "bb964cc1c95d9673524b931adef6e6522589edea03ee10de8a92150c9f9d9f62",
+      "quote": "Cumulative Results Report JIM WELLS COUNTY, TEXAS Unofficial Results ... MARCH 3 2026 JOINT PRIMARY",
+      "supports": "Primary county totals on election night"
+    },
+    {
+      "url": "https://jimwellscountyelections.gov/wp-content/uploads/2026/05/UNOFFICIAL-Cumulative-Results-5-26-2026-08-22-37-PM.pdf",
+      "via": "fetch_module",
+      "content_hash": "845ecc7b88024641d148b9594c31796e08a6bf814924416e69bc60f2cc0959ed",
+      "quote": "Cumulative Results Report JIM WELLS COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION",
+      "supports": "Runoff county totals on election night"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 19:41 CT (run time in file name)",
+      "precinct_first_seen": "2024-11-06 10:30 CT (upload)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://jimwellscountyelections.gov/wp-content/uploads/2024/11/2024-GENERAL-ELECTION-UNOFFICIAL-Precinct-Results-11-6-2024-11-31-46-AM.pdf",
+      "fact": "Night files are cumulative county totals ('...Cumulative-Results-11-5-2024-07-41-11-PM', '...-10-17-17-PM'). The first precinct file is 'Precinct Results Report Unofficial Results JIM WELLS COUNTY, TEXAS ... GENERAL ELECTION' (file name run time 11-6-2024 11:31:46 AM), Last-Modified Wed, 06 Nov 2024 16:30:34 GMT, after election night."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:00 CT",
+      "precinct_first_seen": "2026-03-17 (after canvass)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://jimwellscountyelections.gov/wp-content/uploads/2026/03/Unofficial-Cumulative-Results-3-3-2026-08-56-04-PM.pdf",
+      "fact": "'Cumulative Results Report JIM WELLS COUNTY, TEXAS Unofficial Results ... MARCH 3 2026 JOINT PRIMARY' (county totals; file name run time 3-3-2026 08:56:04 PM), Last-Modified Wed, 04 Mar 2026 03:00:43 GMT. The only precinct file is 'FINAL-AFTER-CANVASS-6735-TOTAL-Precinct-Results-3-17-2026-01-28-19-PM'."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:25 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://jimwellscountyelections.gov/wp-content/uploads/2026/05/UNOFFICIAL-Cumulative-Results-5-26-2026-08-22-37-PM.pdf",
+      "fact": "'Cumulative Results Report JIM WELLS COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION MAY 26 2026 JOINT PRIMARY RUNOFF' (county totals; file name run time 5-26-2026 08:22:37 PM), Last-Modified Wed, 27 May 2026 01:25:43 GMT. No runoff precinct file is posted (never published online)."
+    }
+  }
+}

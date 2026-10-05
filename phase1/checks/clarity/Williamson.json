@@ -1,0 +1,79 @@
+{
+  "county": "Williamson",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": false,
+      "note": "election not listed on this county's Clarity site"
+    },
+    "2026_primary": {
+      "found": false,
+      "note": "election not listed on this county's Clarity site"
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "127277",
+          "name": "2026 May Primary Runoff",
+          "updates": [
+            {
+              "version": "379094",
+              "url": "https://results.enr.clarityelections.com/TX/Williamson/127277/379094/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "379095",
+              "url": "https://results.enr.clarityelections.com/TX/Williamson/127277/379095/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "8/27/2026 11:05:08 AM CDT",
+              "precincts_with_votes": 177,
+              "nonzero_precinct_vote_cells": 7773,
+              "version": "379158",
+              "url": "https://results.enr.clarityelections.com/TX/Williamson/127277/379158/reports/detailxml.zip",
+              "content_hash": "7aed2f08f2aaa062bf989317c373e9323f1a683a7611c4f327a9badb909f0dbc",
+              "election_night": false
+            },
+            {
+              "timestamp": "8/27/2026 2:23:16 PM CDT",
+              "precincts_with_votes": 177,
+              "nonzero_precinct_vote_cells": 7773,
+              "version": "379181",
+              "url": "https://results.enr.clarityelections.com/TX/Williamson/127277/379181/reports/detailxml.zip",
+              "content_hash": "be9d0f824f0bc7a3071dde524ad761f30c17ed003bcba69b42bd2d4e9c06cece",
+              "election_night": false
+            },
+            {
+              "timestamp": "9/30/2026 8:29:25 PM CDT",
+              "precincts_with_votes": 177,
+              "nonzero_precinct_vote_cells": 7773,
+              "version": "379585",
+              "url": "https://results.enr.clarityelections.com/TX/Williamson/127277/379585/reports/detailxml.zip",
+              "content_hash": "13cd00f2ad813aaf08eab7b53c098a42eba0dc92ca736e924c70ce8f5c504ba3",
+              "election_night": false
+            },
+            {
+              "timestamp": "9/30/2026 8:32:01 PM CDT",
+              "precincts_with_votes": 177,
+              "nonzero_precinct_vote_cells": 7773,
+              "version": "379589",
+              "url": "https://results.enr.clarityelections.com/TX/Williamson/127277/379589/reports/detailxml.zip",
+              "content_hash": "6c2d9a023a5c072d8155caa2703a0230b242b376fc5144abdfb6d4dd9c57e6ec",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 0,
+          "election_night_updates_with_precinct_votes": 0,
+          "first_update_with_precinct_votes": {
+            "timestamp": "8/27/2026 11:05:08 AM CDT",
+            "version": "379158",
+            "url": "https://results.enr.clarityelections.com/TX/Williamson/127277/379158/reports/detailxml.zip"
+          },
+          "unreadable_versions": 2
+        }
+      ]
+    }
+  }
+}

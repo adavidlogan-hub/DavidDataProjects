@@ -1,0 +1,44 @@
+{
+ "county": "San Saba",
+ "reason_selected": "random 10 percent sample",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "co.san-saba.tx.us/page/sansaba.Elections lists no 2024 results. No wayback folder for this county, check 3 pending."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No primary results listed (only rosters and sample ballots; \"Rep - Pct n\" files are sample ballots uploaded Jan 2026). No wayback folder for this county, check 3 pending."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "UNDETERMINED under the clarified LATER rule: no county file printed or uploaded on election night survives for this election, only files dated after it, so what was posted that night cannot be seen. What the surviving files show: \"Unofficial Results for San Saba County Primary Runoff May 26, 2026\" (DOC896.pdf, scanned): \"Summary Results Report ... UNOFFICIAL RESULTS\", printed \"Election Summary - 05/28/2026 11:37 AM\", county totals; Last-Modified Fri 29 May 2026 16:06:46 GMT. No precinct numbers posted. Check 3 pending (no wayback folder)."
+  }
+ },
+ "rationale": "No election is determined. The only runoff file is an unofficial county-totals summary printed 5/28 and uploaded 5/29, after election night. Tag UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://www.co.san-saba.tx.us/page/sansaba.Elections",
+   "content_hash": "86aba3e3efa7bf40a05dbcd06ffc6de484b5cda32d22b5cc35e07b0f2240758a",
+   "what_i_checked": "results list"
+  },
+  {
+   "url": "https://www.co.san-saba.tx.us/upload/page/6028/DOC896.pdf",
+   "content_hash": "618953b2c86090b320b9262dc63845d7dd6405fdc634b00381c7b58a8515d0af",
+   "what_i_checked": "runoff county totals, uploaded 29 May 2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:07Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": false,
+ "comparison_notes": {
+  "2024_general": "same.",
+  "2026_primary": "different: research LATER, mine UNDETERMINED. I did not find DOC716/DOC717 in my blind pass; research gives CreationDate 4 Mar 16:23 UTC and Last-Modified 16:45:19 GMT (10:45 AM CST March 4), after election night, so under the clarified rule it is UNDETERMINED either way.",
+  "2026_runoff": "different: research LATER, mine UNDETERMINED. Same file (DOC896.pdf, county totals, printed 05/28/2026, uploaded 29 May 2026); no election-night time, so UNDETERMINED under the clarified rule. Research footer reads \"11:57 AM\", I read \"11:37 AM\"; minor."
+ }
+}

@@ -1,0 +1,79 @@
+{
+  "county": "Mason",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.mason.tx.us/page/mason.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.mason.tx.us",
+  "evidence_url": "https://www.co.mason.tx.us/upload/page/0284/05.26.26%20Primary%20Runoff%20Election/05.26.26%20Runoff%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed https://www.co.mason.tx.us/ loads; Elections page lists results PDFs. No Clarity site (elections.json 404). Only county Summary Results Reports are posted; no precinct reports for any target election. Several files labelled 'Results' are logic and accuracy test printouts. The 2026 primary results link is broken (404); check 3 pending. Scanner and report-server clocks disagree with Last-Modified, so Last-Modified is used for upload times. The page also links the SOS results site.",
+  "tag_rationale": "2024 general and 2026 runoff are LATER by check 2 (county summaries only), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; the runoff has no readable printed run time, so confidence is low.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 20:29 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.mason.tx.us/upload/page/0284/Summary%20Results.pdf",
+      "fact": "'RESULTS!' (Summary Results.pdf, Electionware/JasperReports text): 'Summary Results Report UNOFFICIAL RESULTS TX Mason 241105 General 6110 November 5, 2024 Mason County ... Election Day Precincts Reporting 4 of 4'; county totals. PDF CreationDate Wed Nov 6 03:19:37 2024 UTC; Last-Modified Wed, 06 Nov 2024 02:29:31 GMT (8:29 PM CST; the two clocks disagree). No 2024 precinct report listed; precinct numbers not published online."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the only primary results link ('03.03.26 Official Primary Results.pdf') returns HTTP 404; other primary links are logic and accuracy test files"
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:07 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.mason.tx.us/upload/page/0284/05.26.26%20Primary%20Runoff%20Election/05.26.26%20Runoff%20Results.pdf",
+      "fact": "'05.26.26 Runoff Results.pdf' (scanned, 3 pages, read visually): 'Summary Results Report 05.26.26 Primary Runoff May 26, 2026 UNOFFICIAL RESULTS Mason County, Texas ... Absentee Early Voting Election Day'; county totals. Last-Modified Wed, 27 May 2026 01:07:19 GMT (8:07 PM CDT). Other runoff files are logic and accuracy tests and the hand count audit; no precinct report."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.mason.tx.us/page/mason.Elections",
+      "via": "fetch_module",
+      "content_hash": "6c9877b11dfac040bb0fdd017bdcfd451492a92ae68921d50eddf7877aff4d11",
+      "quote": "Results | 05.26.26 Runoff Results.pdf ; Results | 03.03.26 Official Primary Results.pdf ; RESULTS! | Summary Results.pdf",
+      "supports": "report lists"
+    },
+    {
+      "url": "https://www.co.mason.tx.us/upload/page/0284/Summary%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "7cc4d4782dc59638b2760e03a4f13e666acfdde332d676a1b677d8c1244c3b99",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Mason 241105 General",
+      "supports": "2024 county totals on election night"
+    },
+    {
+      "url": "https://www.co.mason.tx.us/upload/page/0284/05.26.26%20Primary%20Runoff%20Election/05.26.26%20Runoff%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "6ed54078ee704f052a8f2227ed6fddf9fe051a8ba503b176765bc413cfaf5bc0",
+      "quote": "Summary Results Report 05.26.26 Primary Runoff ... UNOFFICIAL RESULTS",
+      "supports": "2026_runoff county totals on election night"
+    },
+    {
+      "url": "https://www.co.mason.tx.us/upload/page/0284/03.03.26%20Official%20Primary%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "",
+      "quote": "HTTP 404",
+      "supports": "2026 primary results file missing"
+    }
+  ]
+}

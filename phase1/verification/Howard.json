@@ -1,0 +1,69 @@
+{
+  "county": "Howard",
+  "reason_selected": "tag changed in targeted pass 3",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "med",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2024-11-05 21:31 CT",
+      "fact": "Election Information page, November 5, 2024: 'Election Night UNOFFICIAL Results - ENR w WI.pdf', a 7-page 'Summary Results Report / UNOFFICIAL RESULTS / ELECTION NIGHT' of county totals ('Election Day Precincts Reporting 12 of 12'), printed 'Election Night Results - 11/05/2024 9:22 PM', server Last-Modified Wed, 06 Nov 2024 03:31:53 GMT (9:31 PM CST). Also 'EV Results w WI.pdf' (early/mail county totals, printed 8:09 PM, Last-Modified 02:14:36 GMT). No precinct report of any kind is linked for 2024."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "2026 Primary Election lists only canvass files (2026 Rep Canvass Table.pdf printed 03/10/2026 12:35 PM, Last-Modified 18 Mar 2026) and audit notices. No election-night file survives. Check 3 unavailable (harvest error).",
+      "county_totals_first_seen": ""
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:32 CT",
+      "fact": "Election Results: ENR.pdf, 4-page county totals 'Election Night Voting Results / Unofficial Results' ('Election Day Precincts Reporting 7 of 7'), printed 'Election Summary - 05/26/2026 8:32 PM' (CreationDate 2026-05-27 01:32:29 UTC), Last-Modified Wed, 27 May 2026 13:56:10 GMT. The only precinct-level file is 'Canvass Table_poll_5_26_2026.pdf' (scan, CreationDate and Last-Modified 03 Jun 2026). County totals printed on election night; no unofficial precinct report posted."
+    }
+  },
+  "rationale": "Not on Clarity (elections.json 404). 2024 and the 2026 runoff are LATER: election-night county-totals reports (2024 uploaded 9:31 PM; runoff printed 8:32 PM) and no unofficial precinct report; precinct numbers only in canvass tables. Primary undetermined. Two LATER elections from check 2 give COUNTY_ONLY_PRECINCT_AT_CANVASS, med.",
+  "sources": [
+    {
+      "url": "https://newtools.cira.state.tx.us/page/howard.Election.Information",
+      "content_hash": "96bf39d8bd3b85b26b438eae7fab803eee6d418a64ba146b851e524a62e89d66",
+      "what_i_checked": "Election Results and Past Election Results links (seed URL www.co.howard.tx.us default.aspx returns 404)"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0454/2024%20November/ENR%20w%20WI.pdf",
+      "content_hash": "39b1cd47cb19437b6365209896c7e022f9a78b46718f9f4cfea0545e9faf1e4a",
+      "what_i_checked": "County totals printed 11/05/2024 9:22 PM; Last-Modified 06 Nov 2024 03:31:53 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0454/2026%20Primary/Runoff/ENR.pdf",
+      "content_hash": "cc575ae58a3b3738cd9fb63f0f24354bc7683f7536cafba1b3c526ebeadb1d5c",
+      "what_i_checked": "County totals printed 05/26/2026 8:32 PM; Last-Modified 27 May 2026 13:56:10 GMT"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0454/2026%20Primary/Runoff/Canvass%20Table_poll_5_26_2026.pdf",
+      "content_hash": "c57ec3dc64b91e785c6f5b52e495b5b947299c2ec9aabb0152cc9e2013071f73",
+      "what_i_checked": "Precinct canvass table scanned and uploaded 03 Jun 2026"
+    },
+    {
+      "url": "https://newtools.cira.state.tx.us/upload/page/0454/2026%20Primary/Canvass/2026%20Rep%20Canvass%20Table.pdf",
+      "content_hash": "0a2f45be034b18317824bc19489cdaf8e9d0fec5c78075f756fd4a94c42a16a6",
+      "what_i_checked": "Primary canvass printed 03/10/2026; only primary results file"
+    },
+    {
+      "url": "git:origin/wayback-data:phase1/wayback_snapshots/Howard/index.json",
+      "content_hash": "",
+      "what_i_checked": "Wayback branch index.json for this county: harvest recorded every CDX query as robots_disallowed_or_unreachable, no captures; check 3 unavailable"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T22:55:15Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "Same (LATER, check 2, county_totals_first_seen 2024-11-05 21:31 CT). Same file ENR w WI.pdf, footer 9:22 PM, Last-Modified 03:31:53 GMT; no precinct file listed for 2024.",
+    "2026_primary": "Same (UNDETERMINED). Only canvass files.",
+    "2026_runoff": "Same (LATER, check 2, county_totals_first_seen 2026-05-26 20:32 CT). ENR.pdf county totals printed 8:32 PM; uploaded 8:56 AM May 27; no unofficial precinct report, only the June 3 canvass table. I confirmed research's PDF ModDate 2026-05-27 13:50:15 UTC.",
+    "unsupported_claims": "None on facts. The research notes are internally stale: the targeted pass 3 sentence says '2026_runoff stays UNDETERMINED', while the election record (updated under DECISIONS 67) is LATER; the record, not the note, matches the evidence."
+  },
+  "compared_at_utc": "2026-10-02T22:56:31Z"
+}

@@ -1,0 +1,63 @@
+{
+  "county": "Hays",
+  "generated_utc": "2026-10-02T21:29:03Z",
+  "lookups": [
+    {
+      "url": "https://www.hayscountytx.gov/257/Election-Results-Archive",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.hayscountytx.gov/257/Election-Results-Archive",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.hayscountytx.gov/257/Election-Results-Archive",
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
+          "mementos": []
+        }
+      }
+    },
+    {
+      "url": "https://www.hayscountytx.gov/172/Elections",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.hayscountytx.gov/172/Elections",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.hayscountytx.gov/172/Elections",
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
+          "mementos": []
+        }
+      }
+    },
+    {
+      "url": "https://www.livevoterturnout.com/HaysTX/LiveResults/en/Index_5.html",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.livevoterturnout.com/HaysTX/LiveResults/en/Index_5.html",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.livevoterturnout.com/HaysTX/LiveResults/en/Index_5.html",
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
+          "mementos": []
+        }
+      }
+    }
+  ]
+}

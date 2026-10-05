@@ -1,0 +1,121 @@
+{
+ "county": "Live Oak",
+ "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "confidence": "med",
+ "elections_office_phone": "",
+ "elections_office_email": "",
+ "results_url": "https://www.co.live-oak.tx.us/page/liveoak.Results",
+ "platform": "county_pdfs",
+ "host": "www.co.live-oak.tx.us",
+ "evidence_url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/SIMMONS.pdf",
+ "evidence_snapshot_timestamp": "",
+ "precinct_first_seen_local_time": "2024-11-05 21:36 CT",
+ "stated_change_2026": "n",
+ "stated_change_source": "",
+ "usage_notice_text": "",
+ "notes": "Seed https://www.co.live-oak.tx.us/ loads; results are on the Results and Election History pages (scanned Electionware-style reports; read visually). No Clarity site (elections.json 404). Last-Modified differs per file. Scanner PDF CreationDate values for the 2024 precinct files are later than their uploads (scanner clock wrong), so printed run times and Last-Modified are used. 2024: per-precinct unofficial reports uploaded one by one on election night (only 2 of 14 files fetched, at 9:36 and 10:37 PM). 2026 runoff: county cumulative only on election night. 2026 primary: no results found on the site; check 3 pending. Rule 47 applied 2026-10-02 (normalize-47): none. Targeted pass 3 2026-10-02 (targeted3-G): found the 2026 primary results on the Election History page (missed earlier): an 'Election Night Results' county-totals report printed 11:03 PM on 3/3/2026 plus cumulative and early-vote reports, all scanned and uploaded 18 Mar 2026, and no precinct report. 2026_primary stays UNDETERMINED because no copy was online on election night (rule 47 analogue); if a printed election-night run time alone is accepted for LATER, this would be LATER and the tag would become COUNTY_ONLY_PRECINCT_AT_CANVASS (lead for re-review). Wayback harvest: co.live-oak.tx.us CDX robots_disallowed_or_unreachable in all windows; a direct CDX query through the fetch module was refused the same way. Sweep: no sweep file. No change. Orchestrator ruling 2026-10-02: 2026_primary set to LATER under DECISIONS 67.",
+ "tag_rationale": "Per-election results: 2024_general LIVE, 2026_primary LATER, 2026_runoff LATER; the fixed rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS.",
+ "agent": "research-5",
+ "method_version": "v2",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "2",
+   "county_totals_first_seen": "2024-11-05 22:45 CT",
+   "precinct_first_seen": "2024-11-05 21:36 CT",
+   "night_updates_with_precinct_numbers": "2",
+   "evidence_url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/SIMMONS.pdf",
+   "fact": "Results page lists one 'Unofficial Pct. N ... Results' PDF per precinct (14) plus 'Unofficial Cumulative Results'. Two precinct files read (scanned, read visually): Pct 11 Simmons 'Unofficial Results Pct 11 ... GENERAL ELECTION 11/5/2024 ... Run Time 9:20 PM' with Election Day Voting column (Trump 31 election day), Last-Modified Wed, 06 Nov 2024 03:36:24 GMT (9:36 PM CST); Pct 2 Lagarto 'Unofficial Results Pct 2 ... Run Time 10:32 PM' (Trump 274 election day), Last-Modified Wed, 06 Nov 2024 04:37:48 GMT (10:37 PM CST). Cumulative Last-Modified 04:45:31 GMT (10:45 PM CST). Precinct numbers were posted precinct by precinct in separate uploads at different times on election night. Rule 47: publication shown by upload time 2024-11-05 21:36 CT in SIMMONS.pdf and upload time 2024-11-05 22:37 CT in LAGARTO.pdf."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2026-03-03 23:03 CT",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "0",
+   "evidence_url": "https://www.co.live-oak.tx.us/upload/page/1218/2026/Results/EN%20Unoffical%20Results.pdf",
+   "fact": "Ruled LATER under DECISIONS 67: the 'Election Night Results' county-totals report was printed 11:03 PM on election night (Run Time 11:03 PM Run Date 03/03/2026) and no unofficial precinct report was ever posted for this election; the online copy was uploaded 18 Mar 2026. Rule 43/47: no file posted on election night survives. The Election History page does list March 3, 2026 primary results: 'Early Voting Results', 'Election Night Results' (2026/Results/EN Unoffical Results.pdf), 'Cumulative Results-Democratic', 'Cumulative Results-Republican', 'Election Reconciliation - Official Totals'; no precinct report. 'Election Night Results' is a 19-page scan (read visually from the page image): 'Cumulative Results Report ... Election Night Results ... Run Time 11:03 PM Run Date 03/03/2026 ... LIVE OAK COUNTY, TEXAS PRIMARY ELECTION 3/3/2026 ... Unofficial Results ... Precincts Reporting 14 of 14', county totals by Absentee, Early and Election Day; scan CreationDate 2026-03-18 20:44:39 UTC, Last-Modified Wed, 18 Mar 2026 20:45:18 GMT. All three result files were scanned and uploaded 18 Mar 2026, so they do not show what was posted on election night."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2026-05-26 21:48 CT",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "0",
+   "evidence_url": "https://www.co.live-oak.tx.us/upload/page/1218/2026May/unoffical%20res%20rep.pdf",
+   "fact": "'Unofficial Results - Republican' (2026May/unoffical res rep.pdf, scanned, read visually): 'Cumulative Results Report LIVE OAK COUNTY, TEXAS PRIMARY RUNOFF ELECTION 5/26/2026 ... Run Time 9:38 PM ... Unofficial Results ... Precincts Reporting 14 of 14'; county totals only. Last-Modified Wed, 27 May 2026 02:48:19 GMT (9:48 PM CDT). Runoff files listed: Unofficial Results - Democratic / Republican, Official Results 5.26.26, hand-count audit; no unofficial precinct report."
+  }
+ },
+ "sources": [
+  {
+   "url": "https://www.co.live-oak.tx.us/page/liveoak.Results",
+   "via": "fetch_module",
+   "content_hash": "e9aaddd5f95221a7eea270f365dec43a86ca24b85eb61e4882d2e1c8edea21ad",
+   "quote": "Unofficial Pct. 2 Lagarto Results | ... | Unofficial Pct. 11 Simmons Results | ... | Unofficial Cumulative Results | Official General Election Results",
+   "supports": "2024 per-precinct unofficial files"
+  },
+  {
+   "url": "https://www.co.live-oak.tx.us/page/liveoak.Election%20History",
+   "via": "fetch_module",
+   "content_hash": "6ac79bd63563cf39ffa5b187468bf71e91818282b7ca7f577e27ed7eaa082215",
+   "quote": "Official Results | 2026/Results/Official Results 5.26.26.pdf ; Unofficial Results - Democratic | Unofficial Results - Republican | Unofficial Election Night Results - Republican",
+   "supports": "2026 runoff report list"
+  },
+  {
+   "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/SIMMONS.pdf",
+   "via": "fetch_module",
+   "content_hash": "883e5ad1d2e18ca7ac9a3952b73e0b721f38fadfd33a21cddc310ca652cf34e7",
+   "quote": "Unofficial Results Pct 11 ... GENERAL ELECTION 11/5/2024 ... Run Time 9:20 PM ... Election Day Voting",
+   "supports": "2024 precinct upload 9:36 PM CST"
+  },
+  {
+   "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/LAGARTO.pdf",
+   "via": "fetch_module",
+   "content_hash": "40e956f5ce643f1c36e9c14e87448b30f0c150959536ad75a4d0a567335200ec",
+   "quote": "Unofficial Results Pct 2 ... GENERAL ELECTION 11/5/2024 ... Run Time 10:32 PM ... Election Day Voting",
+   "supports": "2024 precinct upload 10:37 PM CST"
+  },
+  {
+   "url": "https://www.co.live-oak.tx.us/upload/page/1218/2024/Entered%20By%20Bec/Unofficial%20Cumulative%20Results.pdf",
+   "via": "fetch_module",
+   "content_hash": "c61155438afa2e617303fab40a325b149eded84bb104ab8817c301382db780b1",
+   "quote": "Unofficial Cumulative Results (7 pages); Last-Modified Wed, 06 Nov 2024 04:45:31 GMT",
+   "supports": "2024 county totals on election night"
+  },
+  {
+   "url": "https://www.co.live-oak.tx.us/upload/page/1218/2026May/unoffical%20res%20rep.pdf",
+   "via": "fetch_module",
+   "content_hash": "69ae5b8c93e63b984605871f196845776c04a246bae549a1d76d71ea821fa337",
+   "quote": "Cumulative Results Report ... PRIMARY RUNOFF ELECTION 5/26/2026 ... Run Time 9:38 PM ... Unofficial Results",
+   "supports": "2026_runoff county totals only on election night"
+  },
+  {
+   "url": "https://www.co.live-oak.tx.us/page/liveoak.Election%20History",
+   "via": "fetch_module",
+   "content_hash": "6ac79bd63563cf39ffa5b187468bf71e91818282b7ca7f577e27ed7eaa082215",
+   "quote": "Early Voting Results | Election Night Results | Cumulative Results-Democratic | Cumulative Results-Republican | Election Reconciliation - Official Totals",
+   "supports": "2026 primary result files listed (no precinct report)"
+  },
+  {
+   "url": "https://www.co.live-oak.tx.us/upload/page/1218/2026/Results/EN%20Unoffical%20Results.pdf",
+   "via": "fetch_module",
+   "content_hash": "38f353407b9d67e004a1e6d504a623c64a963d691aa8b33122270814963dcc7b",
+   "quote": "Cumulative Results Report ... Election Night Results ... Run Time 11:03 PM Run Date 03/03/2026 ... Unofficial Results (scan, read from page image; Last-Modified Wed, 18 Mar 2026 20:45:18 GMT)",
+   "supports": "2026 primary: county totals printed on election night but uploaded 18 Mar 2026; UNDETERMINED"
+  },
+  {
+   "url": "https://www.co.live-oak.tx.us/upload/page/1218/2026/Results/Cumulative%20Results-Rep.pdf",
+   "via": "fetch_module",
+   "content_hash": "2290f8f88b25b82a4d81dab6d92a99d22c6efd2f594f75b112faf80c2a100fcc",
+   "quote": "PaperStream scan, CreationDate 2026-03-18 20:28:10 UTC; Last-Modified Wed, 18 Mar 2026 20:35:00 GMT",
+   "supports": "2026 primary: uploaded after election night"
+  },
+  {
+   "url": "https://www.co.live-oak.tx.us/upload/page/1218/2026/Results/EV%20Unofficial%20Results.pdf",
+   "via": "fetch_module",
+   "content_hash": "2fee5b5c1580a191b7ab5e9c6dc00f13950dc9b6af10129906e3a32dde8f5a02",
+   "quote": "PaperStream scan, CreationDate 2026-03-18 20:42:09 UTC; Last-Modified Wed, 18 Mar 2026 20:42:41 GMT",
+   "supports": "2026 primary: uploaded after election night"
+  }
+ ]
+}

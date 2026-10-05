@@ -1,0 +1,85 @@
+{
+  "county": "Van Zandt",
+  "reason_selected": "tag changed in targeted pass 3",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "Elections page (vanzandtcounty.org/page/vanzandt.Elections) 'November 5th Elections' lists only 'Official Results' (cumulative_results11142024_045640_pm.pdf, Run Time 4:56 PM, created 2024-11-14, Last-Modified Fri, 15 Nov 2024 14:25:47 GMT) and a 'Preliminary Reconciliation' (Last-Modified Wed, 06 Nov 2024 14:19:02 GMT = 8:19 AM CST, after election night; a ballot reconciliation, not candidate totals). No file from election night survives; Wayback harvest for vanzandtcounty.org failed (robots_disallowed_or_unreachable); no sweep folder; web.archive.org unreachable from here. Rule 43: UNDETERMINED."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "Blind pass found no primary results file (none is linked on the Elections page). After the blind file was written I opened the research-cited file myself through the fetch module: 'unofficial final Cumulative Results-3-3-2026 11-23-52 PM.pdf' under /upload/page/2685/2026/Primary 03032026/ reads 'Cumulative Results Report VAN ZANDT COUNTY, TEXAS Unofficial Results Ballots Cast PRIMARY ELECTION 11415 ... Precincts Reporting 18 of 18 = 100.00% Run Time 11:23 PM 3/3/2026 Run Date 03/03/2026', 27 pages of county totals by Absentee, Early Voting and Election Day (the only 'Precinct' strings are office names such as 'Justice of the Peace, Precinct No. 1'). Server Last-Modified Wed, 04 Mar 2026 05:32:31 GMT (11:32 PM CST), a real upload time (request made 2026-10-02); PDF CreationDate 05:23:55 UTC. No precinct-level report for this primary was found on the county site. County totals printed and uploaded on election night with no precinct numbers seen that night: LATER (rule 43), county_totals_first_seen 2026-03-03 23:23 CT. Corrected under DECISIONS 44; blind verdict kept in blind_verdict.",
+      "corrected_after_blind": true
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "'May 26 2026 Runoff Elections' lists 'Final Results' dem_pct_by_pct622026_041001_pm.pdf and rep_pct_by_pct622026_040937_pm.pdf: 'Official Results ... Run Time 4:09 PM', PDF CreationDate 2026-06-02, Last-Modified Thu, 04 Jun 2026 14:47:37 / 14:48:46 GMT. Precinct numbers exist but only from after election night; no election-night file survives. UNDETERMINED."
+    }
+  },
+  "rationale": "Blind: no election determined (UNKNOWN). After opening the research-cited primary file myself, the 2026 primary is LATER (check 2: county-totals report printed 11:23 PM and uploaded 11:32 PM CST on election night, no precinct report). One determined election: COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+  "sources": [
+    {
+      "url": "https://www.vanzandtcounty.org/page/vanzandt.Elections",
+      "content_hash": "df1ccba4416dd5e91c22f71814c68fc07e55092020a59c55dfc8f97919f98e8a",
+      "what_i_checked": "Election sections for Nov 5 2024, Mar 3 2026, May 26 2026 and their file links."
+    },
+    {
+      "url": "https://www.vanzandtcounty.org/upload/page/2707/2024cont/cumulative_results11142024_045640_pm.pdf",
+      "content_hash": "101312c382333406e468fffd74746b9e5ca05e3945c3a83bb5c7c8113478732a",
+      "what_i_checked": "Nov 2024 official cumulative, Run Time 4:56 PM, created Nov 14 2024; Last-Modified Fri, 15 Nov 2024 14:25:47 GMT."
+    },
+    {
+      "url": "https://www.vanzandtcounty.org/upload/page/2707/2024cont/preliminary_reconciliation_form_1.pdf",
+      "content_hash": "60870d221b91f24c4d98304bf993f8dc0f8a19acd535b233c33ae26fee844f84",
+      "what_i_checked": "Preliminary reconciliation (ballot counts), Last-Modified Wed, 06 Nov 2024 14:19:02 GMT, after election night."
+    },
+    {
+      "url": "https://www.vanzandtcounty.org/upload/page/12440/dem_pct_by_pct622026_041001_pm.pdf",
+      "content_hash": "7d0eaa582657e080c5bdd2f008e3589e20893c4452921c0256a580828840dc50",
+      "what_i_checked": "Runoff official precinct results, Run Time 4:09 PM (June 2), Last-Modified Thu, 04 Jun 2026 14:47:37 GMT."
+    },
+    {
+      "url": "https://www.vanzandtcounty.org/upload/page/12440/rep_pct_by_pct622026_040937_pm.pdf",
+      "content_hash": "c99e466c7696adfc79c2c9ed2ed94ba9efdeeefbaa07cc778ae605710fce7708",
+      "what_i_checked": "Runoff official precinct results, Last-Modified Thu, 04 Jun 2026 14:48:46 GMT."
+    },
+    {
+      "url": "https://digital-release.ketk.com/news/your-local-election-hq/van-zandt-county/amp/",
+      "content_hash": "7667daade58ab8cca8b5cac9f462bb8eb2ee1e814ff330b5ee634e60cc08534b",
+      "what_i_checked": "Check 4 lead: page is 'Van Zandt County primary election results 2022', not one of the three elections."
+    },
+    {
+      "url": "origin/wayback-data:phase1/wayback_snapshots/Van_Zandt/index.json",
+      "content_hash": "",
+      "what_i_checked": "All three CDX queries failed with robots_disallowed_or_unreachable; no captures; no sweep folder."
+    },
+    {
+      "url": "https://www.vanzandtcounty.org/upload/page/2685/2026/Primary%2003032026/unofficial%20final%20Cumulative%20Results-3-3-2026%2011-23-52%20PM.pdf",
+      "content_hash": "1e5124e6e7f72ddae5cac4156b505786ff673f255f41c0c53e0aa15b7ed909d4",
+      "what_i_checked": "Opened after the blind file was written (research-cited). County totals, Run Time 11:23 PM 3/3/2026, Last-Modified Wed, 04 Mar 2026 05:32:31 GMT; no per-precinct candidate numbers."
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T22:33:36Z",
+  "blind_verdict": {
+    "verifier_tag": "UNKNOWN",
+    "verifier_confidence": "low",
+    "elections": {
+      "2024_general": "UNDETERMINED",
+      "2026_primary": "UNDETERMINED",
+      "2026_runoff": "UNDETERMINED"
+    }
+  },
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (UNDETERMINED). Research cites the same official cumulative (Last-Modified Fri, 15 Nov 2024 14:25:47 GMT); supported. The preliminary reconciliation was uploaded 8:19 AM CST Nov 6 (after election night) and is a ballot reconciliation, not candidate totals.",
+    "2026_primary": "different blind (mine UNDETERMINED, research LATER); now same. My blind pass missed the file because it is not linked on the Elections page; it sits under the home page upload folder /upload/page/2685/2026/Primary 03032026/. I opened the research-cited file myself and it supports research: county totals, Run Time 11:23 PM 3/3/2026, Last-Modified 11:32 PM CST on election night. blind miss corrected after opening 'unofficial final Cumulative Results-3-3-2026 11-23-52 PM.pdf' myself (DECISIONS 44): primary now LATER (check 2). Caveat (same as research): the absence of an election-night precinct report rests on no such file being found, not on a complete folder listing (newtools.cira.state.tx.us folder listings return HTTP 403).",
+    "2026_runoff": "same (UNDETERMINED). Research cites rep_pct_by_pct622026_040937_pm.pdf (Last-Modified Thu, 04 Jun 2026 14:48:46 GMT), matching my read. Research also cites /upload/page/2685/cumulative_results622026_041109_pm.pdf (Official, Last-Modified 14:43:24 GMT Jun 4); I did not open it, and it does not change the result.",
+    "unsupported_claims": "None found for the deciding election. Research notes from the original pass ('fetch module refused www.vanzandtcounty.org') are historical and corrected by the targeted pass 3 note. The research fact for 2026_runoff quotes 'Run Time 4:09 PM 5/26/2026 Run Date 06/02/2026' for the Republican file; my copy shows Run Time 4:09 PM and PDF CreationDate 2026-06-02, consistent."
+  }
+}

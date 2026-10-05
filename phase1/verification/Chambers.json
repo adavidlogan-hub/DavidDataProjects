@@ -1,0 +1,61 @@
+{
+  "county": "Chambers",
+  "reason_selected": "tag PRECINCT_END_OF_NIGHT",
+  "verifier_tag": "PRECINCT_END_OF_NIGHT",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "END",
+      "check": "2",
+      "fact": "'2024-11-05 Election Day Canvass Results (PDF)' (DocumentCenter 4902): 'Canvass Results Report ... Election Day ... Run Time 10:01 PM ... Run Date 11/05/2024', per-precinct rows (e.g. precinct 1: 413, 64, 0, 4 for President). PDF CreationDate Nov 6 04:01 UTC (10:01 PM CST). DocumentCenter sends no Last-Modified, so no upload time. File located through a cached search result; the Past Elections DocumentCenter folder is script-driven and its listing could not be read, so other election-night versions cannot be ruled out."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "No March 2026 results files listed on Current Elections; Past Elections DocumentCenter folder (Index/507) listing is loaded by script and could not be read. No Clarity. Check 3 pending (no wayback folder)."
+    },
+    "2026_runoff": {
+      "result": "END",
+      "check": "2",
+      "fact": "Current Elections page lists EV and ED unofficial files once each. 'ED Precinct Results with Aliases-5-26-2026 - Unofficial-WM (PDF)' (DocumentCenter 7136): 'Precinct Results ... Unofficial Results ... Election Day PRIMARY RUNOFF ELECTION ... Run Time 8:31 PM ... Run Date 05/26/2026', Precinct 1 Ken Paxton Election Day Voting 28, John Cornyn 6 (header oddly shows 'Precincts Reporting 0 of 18'). CreationDate May 27 01:32 UTC (8:32 PM CDT). No upload time (no Last-Modified)."
+    }
+  },
+  "rationale": "2024 general and 2026 runoff END (one election-day precinct report printed on election night), primary undetermined, so PRECINCT_END_OF_NIGHT. Low because there are printed run times but no server upload times.",
+  "sources": [
+    {
+      "url": "https://www.chamberscountytx.gov/503/Current-Elections",
+      "what_i_checked": "runoff result file list (seed co.chambers.tx.us and chamberstx.gov refused or 403; current host from a cached search result)",
+      "content_hash": "279f55e9fc38e6ec5c0fc8e6e7ca6bcde995dbc9b641d7e9b330d61d6c4ddfad"
+    },
+    {
+      "url": "https://www.chamberscountytx.gov/DocumentCenter/View/7136/ED-Precinct-Results-with-Aliases-5-26-2026---Unofficial-WM-PDF",
+      "what_i_checked": "runoff ED precinct report run 8:31 PM with election-day precinct votes",
+      "content_hash": "22df38e01e55e64eaa68bc4d08981ef3c38ec5133b036246d224fad63436bdfc"
+    },
+    {
+      "url": "https://www.chamberscountytx.gov/DocumentCenter/View/7134/ED-Canvass-Results-5-26-2026---Unofficial-WM-PDF",
+      "what_i_checked": "runoff ED canvass run 8:31 PM",
+      "content_hash": "2e4924d6f685ec79bb5765a98b1bcb20b3c331833e569e687edac5342d1c7919"
+    },
+    {
+      "url": "https://www.chamberscountytx.gov/DocumentCenter/View/4902/2024-11-05-Election-Day-Canvass-Results-PDF",
+      "what_i_checked": "2024 ED canvass run 10:01 PM, per-precinct rows",
+      "content_hash": "689f37b3ced630c82a9e525ad90be0aee69f8b5bb24544dbd411eadbb5239ad7"
+    },
+    {
+      "url": "https://www.chamberscountytx.gov/DocumentCenter/Index/507",
+      "what_i_checked": "Past Elections folder; listing is script-driven, unreadable",
+      "content_hash": "bf7b580e48e916ae825a1e8bde077aa42a77acb447242db663732d3d266a176b"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:12:52Z",
+  "research_tag": "PRECINCT_END_OF_NIGHT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (END, check 2). Both read the 2024 Election Day Canvass report run 10:01 PM with per-precinct rows; both note no Last-Modified. Research quotes 'Unofficial Results' and 'GENERAL ELECTION' header text that pdftotext did not show me on page 1; not material.",
+    "2026_primary": "same (UNDETERMINED). Both could not list the script-driven Past Elections folder.",
+    "2026_runoff": "same (END, check 2). Both read the ED Precinct Results report run 8:31 PM with Election Day precinct votes. Research does not mention the header 'Precincts Reporting 0 of 18' that the report shows despite containing election-day votes.",
+    "unsupported_or_unchecked": "None material. Research says www.chamberscountytx.gov was refused by the fetch module; in my session that host served normally (200)."
+  },
+  "compared_at_utc": "2026-10-02T16:12:59Z"
+}

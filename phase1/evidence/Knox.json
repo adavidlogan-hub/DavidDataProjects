@@ -1,0 +1,58 @@
+{
+  "county": "Knox",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.knoxcountytexas.org/page/knox.elections",
+  "platform": "unknown",
+  "host": "www.knoxcountytexas.org",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed www.knoxcountytexas.org loads; its Elections page (fetched 2 Oct 2026) lists only November 3, 2026 general election items (dates, polling locations image, ballot by mail applications, notices, sample ballots per precinct) and a VoteTexas.gov link. No results files for any past election are listed there, nor on the County Clerk or Public Notices pages. No Clarity site (elections.json 404). Results may have been posted and later removed, or never posted; the current site cannot tell which, so no election is determined (NONE not assigned without evidence of what was posted at the time). Check 3 pending. Targeted pass 3 2026-10-02 (targeted3-K): Tried: Wayback harvest (no election-night captures for knoxcountytexas.org); re-checked the site navigation (no results or archive page); one web search found no Knox County TX results page or election-night precinct publication (only out-of-state Knox counties and scanned weekly newspapers). No sweep file. Nothing changed.",
+  "tag_rationale": "No election was determined (all UNDETERMINED), so the rule gives UNKNOWN.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the county Elections page currently lists no results for any election"
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the county Elections page currently lists no results for any election"
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the county Elections page currently lists no results for any election"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.knoxcountytexas.org/page/knox.elections",
+      "via": "fetch_module",
+      "content_hash": "ae5e643d0cd7a4bb9fbacce25d6fab9b34ab8a58616c4469ca1a0ccb38599038",
+      "quote": "TUESDAY, NOVEMBER 3RD, 2026 - ELECTION DAY! ... NOTICE OF GENERAL ELECTION FOR NOVEMBER 3RD, 2026 ... SAMPLE BALLOT FOR GENERAL ELECTION ON NOVEMBER 3RD, 2026",
+      "supports": "no results currently listed"
+    }
+  ]
+}

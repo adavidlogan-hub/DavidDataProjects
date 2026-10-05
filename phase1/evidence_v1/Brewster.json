@@ -1,0 +1,83 @@
+{
+  "county": "Brewster",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "(432) 837-6230",
+  "elections_office_email": "election.admin@co.brewster.tx.us",
+  "results_url": "https://www.brewstercounty.gov/page/Elections.Results",
+  "platform": "county_pdfs",
+  "host": "www.brewstercounty.gov",
+  "evidence_url": "https://www.brewstercounty.gov/page/open/2199/0/REP%202026%20Primary%20Runoff%20Precinct%20Summary.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Network to county sites and the SOS opened about 14:07 UTC; all Brewster evidence below was gathered after that through the fetch module. Results are county-hosted PDFs on brewstercounty.gov (Elections Information page and Elections Results page). May 26 2026 runoff: the election-night file '52626 Unofficial Results 52626' is a county-wide 'Summary Results Report UNOFFICIAL RESULTS' from Electionware, footer 'Election Summary- 05/26/2026 8:37 PM', with all 8 precincts reporting in aggregate, plus 'Primary Runoff SoS Unofficial Results 52626' (Texas Secretary of State Election Unofficial Results Report, county-wide). The precinct-level files on the Results page, 'REP 2026 Primary Runoff Precinct Summary' and 'DEM 2026 Primary Runoff Precinct Summary', are marked UNOFFICIAL RESULTS but footers read 'Precinct Summary 06/03/2026 9:08 AM' and '06/03/2026 9:09 AM', i.e. generated eight days after election day, around canvass. Mar 3 2026 primary: the page lists only county-wide 'Unofficial Primary Results Republican/Democratic' (SOS Election Unofficial Results Report format) and county-wide 'Texas Secretary of State Canvass Report' files; no precinct-level results file is listed (the 'Total Voters by Pct' files are turnout counts, not results). Nov 5 2024: no 2024 results files are on the current pages, so that election is not evidenced. Caveats: footers timestamp generation, not posting; an earlier precinct file could have been posted and replaced. Contact from the TX SOS county election officials list (Brewster County, Elections Administrator Cynthia Cox, '(432) 837-6230', County Email Address mailto election.admin@co.brewster.tx.us); the same email appears in a county PDF title found by search. Wayback: see wayback note appended below if present. A Big Bend Sentinel search summary claimed the paper reports election-night results by precinct (lead only, not verified, and likely refers to commissioner precincts). No WebFetch attempted. No 2025 or 2026 stated change found. Usage notice: none seen on the results pages, left empty. Server Last-Modified headers (fetch module): '52626 Unofficial Results 52626' (the 8:37 PM election-night county summary) 'Fri, 29 May 2026 19:25:52 GMT', i.e. the current copy was uploaded three days later; 'Primary Runoff SoS Unofficial Results 52626' 'Wed, 27 May 2026 16:09:18 GMT' (next morning); March 'Unofficial Primary Results Republican' 'Wed, 04 Mar 2026 14:54:17 GMT' (next morning); March canvass report 'Mon, 16 Mar 2026 19:19:10 GMT'. The precinct summaries under /page/open/ returned no Last-Modified. So the county site itself is not shown to carry county totals on election night (they may have gone only to the SOS on election night); the tag rests on precinct detail appearing only at canvass time (precinct summaries generated 06/03/2026), and confidence is lowered to low for that reason. Wayback availability API (archive.org/wayback/available, via fetch module, 9 queries at 4-hour points across the three windows) for the Elections.Results page returned closest snapshot 20260915002147 for the 2024 and Mar 2026 windows and none for the runoff window, all far outside the windows, so no usable capture.",
+  "tag_rationale": "For the May 26 2026 runoff the only precinct-level files are precinct summaries generated 06/03/2026, while county-wide unofficial reports exist from election night (generated 8:37 PM) and the next morning; the Mar 3 2026 primary shows only county-wide unofficial and canvass reports. This fits county totals first with precinct detail at canvass time; low confidence because the county-site upload times for the county totals are after election night.",
+  "sources": [
+    {
+      "url": "https://www.brewstercounty.gov/upload/page/0088/52626%20Unofficial%20Results%2052626.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Brewster 260526 Primary Runoff ... Election Summary- 05/26/2026 8:37 PM (content_hash 1f2e2a9c542f)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.brewstercounty.gov/page/open/2199/0/REP%202026%20Primary%20Runoff%20Precinct%20Summary.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Summary Results Report UNOFFICIAL RESULTS TX Brewster 260526 Primary Runoff ... Precinct 1 ... Precinct Summary 06/03/2026 - 9:08 AM (content_hash 1c5d233e25d4)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.brewstercounty.gov/page/open/2199/0/DEM%202026%20Primary%20Runoff%20Precinct%20Summary.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Precinct Summary- 06/03/2026 9:09 AM (content_hash 6ebbffa572c1)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.brewstercounty.gov/upload/page/0088/030426Unofficial%20Primary%20Results%20Republican.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 BREWSTER County (content_hash 2913db3a9f19)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.brewstercounty.gov/upload/page/0088/2026%20Republican%20Primary%20Election%20Canvass%20Report.pdf",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Texas Secretary of State Canvass Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 BREWSTER (content_hash 8281105fd015)",
+      "supports": "tag"
+    },
+    {
+      "url": "https://www.brewstercounty.gov/page/Elections.Results",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "Results ... DEM 2026 Primary Runoff Precinct Summary ... REP 2026 Primary Runoff Precinct Summary ... Primary Runoff SoS Unofficial Results 52626 (content_hash e1a2bfb91d21)",
+      "supports": "results_url"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+      "via": "fetch_module",
+      "query": "",
+      "quote": "BREWSTER COUNTY Elections Administrator Cynthia Cox ... County Email Address (432) 837-6230 (mailto:election.admin@co.brewster.tx.us) (content_hash 065e1ebd63c5)",
+      "supports": "contact"
+    },
+    {
+      "url": "https://www.brewstercounty.gov/upload/page/0075/1015Important%20Primary%20Election%20Information.pdf",
+      "via": "websearch",
+      "query": "Brewster County elections administrator election night results precinct",
+      "quote": "BREWSTER COUNTY ELECTIONS ADMINISTRATION election.admin@co.brewster.tx.us",
+      "supports": "contact"
+    }
+  ],
+  "agent": "research-A",
+  "searches_run": 3,
+  "cached_search_hits": 0,
+  "fetch_module_attempts": 18,
+  "webfetch_attempts": 0,
+  "started_at_utc": "2026-10-02T14:08:29Z",
+  "finished_at_utc": "2026-10-02T14:22:01Z"
+}

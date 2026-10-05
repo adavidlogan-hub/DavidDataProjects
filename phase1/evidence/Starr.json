@@ -1,0 +1,100 @@
+{
+  "county": "Starr",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.starr.tx.us/page/Elections.2026",
+  "platform": "county_pdfs",
+  "host": "www.co.starr.tx.us",
+  "evidence_url": "https://www.co.starr.tx.us/upload/page/0119/docs/2026/March Primary/2026 PRIMARY UNOFFICIAL PCT REPORT.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL works over https; results are on page/Elections.2026 and page/Elections.Archive. No Clarity site (elections.json 404). Server Last-Modified values differ by file and follow the PDF creation times, so upload times are usable; a file replaced later would hide an earlier upload (the runoff SOS file was re-uploaded June 24, 2026). Following the pilot practice (Jim Hogg), a precinct report printed on election night but uploaded the next morning counts as LATER. Check 3 (Wayback) pending: origin/wayback-data not present, so earlier election-night uploads that were later replaced cannot be ruled out. Rule 43 applied 2026-10-02 (normalize-2): 2026_runoff LATER kept, county_totals_first_seen 2026-05-26 21:21 CT. Rule 43 applied 2026-10-02 (normalize-4): 2024_general LATER to UNDETERMINED; 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-7",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.starr.tx.us/upload/page/0121/docs/Starr 2024/Unofficial results report by Pct.pdf",
+      "fact": "Rule 43: no election-night county-totals-only file survives (earliest upload 2024-11-06 08:35 CT (upload); the county-totals SOS report (UnofficialResults.pdf, CreationDate 2024-11-06 04:31 UTC = 10:31 PM CST Nov 5) is matched by the precinct report ('Unofficial results report by Pct', printed footer 'Precinct Summary - 11/05/2024 9:55 PM', per-precinct Election Day votes, e.g. Precinct 1 Trump 181 / Harris 135), and both were uploaded the next morning (8:35 and 10:36 AM CST Nov 6), so nothing shows county totals alone that night). Previous: Past Elections, November 2024: 'Unofficial Results' = SOS 'Election Unofficial Results Report' (county totals), PDF CreationDate Wed Nov 6 04:31:10 2024 UTC (10:31 PM CST Nov 5), Last-Modified Wed, 06 Nov 2024 14:35:15 GMT (8:35 AM CST Nov 6). 'Unofficial Results by Precinct' = 84-page scan (Konica Minolta), CreationDate Wed Nov 6 15:22:45 2024 UTC, Last-Modified Wed, 06 Nov 2024 16:36:02 GMT (10:36 AM CST Nov 6). Both uploaded after election night."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.starr.tx.us/upload/page/0119/docs/2026/March Primary/2026 PRIMARY UNOFFICIAL PCT REPORT.pdf",
+      "fact": "Rule 43: no election-night county-totals-only file survives (earliest upload 2026-03-04 10:54 CT (upload); the county summary (printed 'Election Summary - 03/03/2026 9:54 PM') and the precinct report (printed 'Precinct Summary - 03/03/2026 10:01 PM', with election-day votes, 14 of 14 election-day precincts) were printed together on election night and uploaded together 2026-03-04 10:54 CT, so nothing shows county totals alone that night). Previous: 'Unofficial PCT Report Summary' = 'Precinct Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Starr County, Texas PCT 1 ...', footer 'Precinct Summary - 03/03/2026 10:01 PM'; 'Unofficial Results Report Summary' = 'Election Summary Results Report ... Election Summary - 03/03/2026 9:54 PM' (county totals, 'Election Day Precincts Reporting 14 of 14'). Both have Last-Modified Wed, 04 Mar 2026 16:54:23 GMT (10:54 AM CST Mar 4): printed on election night, uploaded the next morning. SOS 'Unofficial Results Report' Democrat/Republican files are also listed."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:21 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.starr.tx.us/upload/page/0119/2026/ELECTION-UNOFFICIAL-RESULT-REPORT_Rep.pdf",
+      "fact": "'Unofficial Election Results Republican/Democratic' = SOS 'Election Unofficial Results Report' (county totals); Republican PDF CreationDate Wed May 27 02:21:37 2026 UTC (9:21 PM CDT May 26), Last-Modified Wed, 24 Jun 2026 00:18:00 GMT. The only precinct report listed for the runoff is 'Official Pct Summary Report Democratic' (official, after canvass); no unofficial precinct report is posted. Rule 43: election-night county-totals file is ELECTION-UNOFFICIAL-RESULT-REPORT_Rep.pdf (SOS Election Unofficial Results Report, county totals), PDF CreationDate Wed May 27 02:21:37 2026 UTC (9:21 PM CDT May 26)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.starr.tx.us/page/Elections.2026",
+      "via": "fetch_module",
+      "content_hash": "442f0cb224671a1bf7c06f18e909ea7702267a1b54faf20de197a30f8768419c",
+      "quote": "Unofficial Results Report - Democrat/Republican; Unofficial PCT Report Summary; Unofficial Results Report Summary; Unofficial Election Results Republican/Democratic; Official Pct Summary Report Democratic",
+      "supports": "2026 postings"
+    },
+    {
+      "url": "https://www.co.starr.tx.us/page/Elections.Archive",
+      "via": "fetch_module",
+      "content_hash": "c023b0ed5a80dc2d7288d4405c2694cf08de6d463ac76cee2afb31476cabb477",
+      "quote": "Official Results; Official Results by Precinct; Unofficial Results; Unofficial Results by Precinct (Starr 2024)",
+      "supports": "2024 postings"
+    },
+    {
+      "url": "https://www.co.starr.tx.us/upload/page/0121/docs/Starr 2024/UnofficialResults.pdf",
+      "via": "fetch_module",
+      "content_hash": "aa7adad2ffdf9b88ff2534ac3cf05f6d2f556fe85f904d373e7531b6d56873ff",
+      "quote": "Texas Secretary of State Election Unofficial Results Report",
+      "supports": "2024 county totals uploaded Nov 6 8:35 AM"
+    },
+    {
+      "url": "https://www.co.starr.tx.us/upload/page/0121/docs/Starr 2024/Unofficial results report by Pct.pdf",
+      "via": "fetch_module",
+      "content_hash": "c529bb92c9f50e903b8f9f132f40b16f28fea55e584d1b4d1e4d95728aa14bfd",
+      "quote": "(84-page scanned unofficial precinct report, CreationDate 2024-11-06 15:22 UTC)",
+      "supports": "2024 precinct numbers uploaded Nov 6 10:36 AM"
+    },
+    {
+      "url": "https://www.co.starr.tx.us/upload/page/0119/docs/2026/March Primary/2026 PRIMARY UNOFFICIAL PCT REPORT.pdf",
+      "via": "fetch_module",
+      "content_hash": "bb2062738b9c41c4ebc4b40fce1c3341e1f0d9ff24507405f8d6dccf93203fe7",
+      "quote": "Precinct Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election March 3, 2026 Starr County, Texas PCT 1 ... Precinct Summary - 03/03/2026 10:01 PM",
+      "supports": "2026 primary precinct report printed on night, uploaded Mar 4 10:54 AM"
+    },
+    {
+      "url": "https://www.co.starr.tx.us/upload/page/0119/docs/2026/March Primary/2026 PRIMARY UNOFFICIAL SUMMARY RESULTS.pdf",
+      "via": "fetch_module",
+      "content_hash": "5cc2a27012836855fdd6be6ce46098a27e3c285cf918eea4d0494bc4c2b03575",
+      "quote": "Election Summary Results Report UNOFFICIAL RESULTS ... Election Summary - 03/03/2026 9:54 PM",
+      "supports": "2026 primary county summary, same upload time"
+    },
+    {
+      "url": "https://www.co.starr.tx.us/upload/page/0119/2026/ELECTION-UNOFFICIAL-RESULT-REPORT_Rep.pdf",
+      "via": "fetch_module",
+      "content_hash": "c25b8868d870a33deb88d062019a7b83e81625bc8433af3d815524d9dc978633",
+      "quote": "Texas Secretary of State Election Unofficial Results Report",
+      "supports": "Runoff unofficial county totals"
+    }
+  ]
+}

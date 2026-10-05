@@ -1,0 +1,79 @@
+{
+  "county": "Milam",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.milamcounty.net/departments/elections_and_voter_registrar/election_results.php",
+  "platform": "county_pdfs",
+  "host": "www.milamcounty.net",
+  "evidence_url": "https://www.milamcounty.net/departments/elections_and_voter_registrar/election_results.php",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL /page/milam.elections returned HTTP 403; the current site (Revize CMS) has an Election Results page. No Clarity site (elections.json 404). The page lists one PDF per election: '2024 General' (11.05.2024 GENERAL.pdf, a 38-page Konica Minolta scan created Nov 20 2024 15:23 UTC, Last-Modified Thu, 24 Jul 2025 17:12:26 GMT, part of a bulk re-upload with ?t=20250724 stamps) and '2026 PRIMARY' (file 'PRIMARY RUNOFF 03-03-2026.pdf', an 85-page scan created May 7 2026, Last-Modified Thu, 07 May 2026 16:28:50 GMT). No 2026 runoff file is listed. Both files are post-canvass scans, so whatever was posted on election night is not on the page now; check 2 cannot decide. Check 3 pending: origin/wayback-data not present. Targeted pass 3 2026-10-02 (targeted3-F): wayback-data harvest: CDX failed for 2024_general and 2026_primary (connection refused); the one 2026_runoff capture (2026-05-26 19:51 CDT, departments/elections_and_voter_registrar/index.php) shows only the elections home page with an 'Election Results' menu link and no results files. Current Election Results page unchanged: only post-canvass scans (2024 General, 2026 PRIMARY) and no runoff file; Revize ?t= stamps (t=202507241306320, t=202605071228540) match the known re-upload dates. One web search for Cameron Herald or Rockdale Reporter precinct results; the Cameron Herald article links it returned (node/216598, node/211043) give HTTP 404. web.archive.org is unreachable from this environment (fetch module: robots_disallowed_or_unreachable), so no direct Wayback lookups. No targeted archives, targeted Wayback or sweep file for this county on wayback-data. No result changed.",
+  "tag_rationale": "No election could be determined (only post-canvass scans remain on the county page; check 3 pending), so the rule gives UNKNOWN.",
+  "agent": "research-6",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only '2024 General' scan listed: CreationDate Nov 20 2024, Last-Modified Jul 24 2025. No election-night report remains. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only '2026 PRIMARY' scan listed: CreationDate May 7 2026, Last-Modified May 7 2026. No election-night report remains. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2026 runoff results listed on the Election Results page. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.milamcounty.net/departments/elections_and_voter_registrar/election_results.php",
+      "via": "fetch_module",
+      "quote": "2024 General; 2025 Constitutional Amendment Election; 2026 PRIMARY; 2026 MAY GENERAL - CITY AND SCHOOL DISTRICTS",
+      "supports": "list of result files",
+      "content_hash": "f9f32a6b257cb8180af8d6becf0cce671209cc14d2e50e0cbaf9ede8fb1126ca"
+    },
+    {
+      "url": "https://www.milamcounty.net/Documents/Departments/Elections and Voter Registrar/Election Results/11.05.2024 GENERAL.pdf?t=202507241306320",
+      "via": "fetch_module",
+      "quote": "Producer KONICA MINOLTA bizhub C550i; CreationDate Nov 20 2024",
+      "supports": "2024 file is a post-canvass scan",
+      "content_hash": "57a89149056f30973de4142e1246d2a1a7a05c36e2da16e7dbbfb8ee2ea5629c"
+    },
+    {
+      "url": "https://www.milamcounty.net/PRIMARY RUNOFF 03-03-2026.pdf?t=202605071228540",
+      "via": "fetch_module",
+      "quote": "CreationDate May 7 2026; Last-Modified Thu, 07 May 2026 16:28:50 GMT",
+      "supports": "2026 primary file posted in May",
+      "content_hash": "ff1d911561ca04a714a5618d95fc8031e5e3726a642daaaa2b31b55067e49954"
+    },
+    {
+      "url": "https://www.milamcounty.net/page/milam.elections",
+      "via": "fetch_module",
+      "quote": "HTTP 403",
+      "supports": "seed URL dead",
+      "content_hash": "b4eb1bad17a451ca5104514f0fcaa2f0ef0fd3f5f0e32361adba66c37452bb36"
+    }
+  ]
+}

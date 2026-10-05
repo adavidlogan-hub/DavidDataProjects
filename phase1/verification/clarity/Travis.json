@@ -1,0 +1,513 @@
+{
+  "county": "Travis",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122432",
+          "name": "2024 November Joint General and Special Elections",
+          "updates": [
+            {
+              "timestamp": "10/15/2024 5:24:42 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "346930",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/346930/reports/detailxml.zip",
+              "content_hash": "f8b210ebcd04766fde7bd867d7bb0d42fb2bc329a08caddf540ba95d53fbdc84",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/21/2024 7:39:43 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "347590",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/347590/reports/detailxml.zip",
+              "content_hash": "aef801ba16632e14bf37611bfbe8c98200672ab18df1a2659b8ae1fe41d13b5a",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/21/2024 8:12:59 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "347592",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/347592/reports/detailxml.zip",
+              "content_hash": "af2547c0f4b7696ba8f467d1ec02313e043cd92297be2c549c787fb3e53a6e59",
+              "election_night": false
+            },
+            {
+              "version": "347876",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/347876/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/22/2024 12:34:31 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "347877",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/347877/reports/detailxml.zip",
+              "content_hash": "72be15f0f596fea2503fe7c7f7ced9da75bf67b0422a4a679ed93227083f6102",
+              "election_night": false
+            },
+            {
+              "version": "347882",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/347882/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348232",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/348232/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348262",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/348262/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348264",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/348264/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/24/2024 2:39:04 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "348265",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/348265/reports/detailxml.zip",
+              "content_hash": "6bce598efb37e3cca9ca8ad9b5741acc462f54031e0d0d5601afbd07ea20dd99",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/24/2024 5:21:52 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "348290",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/348290/reports/detailxml.zip",
+              "content_hash": "5b24b1326e56e5e58f2936fb89b9fafbc70e2ad39829368d4ee81bca3e70d6ab",
+              "election_night": false
+            },
+            {
+              "version": "348291",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/348291/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348293",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/348293/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "348294",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/348294/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/24/2024 6:02:04 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "348298",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/348298/reports/detailxml.zip",
+              "content_hash": "48e501e62a29467b562a9ef67359c1db6adacb16ad68241ea3a4c175b71ab44a",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 9:42:30 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "350368",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/350368/reports/detailxml.zip",
+              "content_hash": "d5fa891b72353cf024e271cc89594b48781c10d8e55ce617230d280be9701a72",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:19:02 PM CST",
+              "precincts_with_votes": 286,
+              "nonzero_precinct_vote_cells": 53061,
+              "version": "350897",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/350897/reports/detailxml.zip",
+              "content_hash": "03f71569b21ff6c17fc05519419ff1b878fe0289061a9d20fec42a21f03b2545",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 7:26:06 PM CST",
+              "precincts_with_votes": 286,
+              "nonzero_precinct_vote_cells": 53061,
+              "version": "350948",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/350948/reports/detailxml.zip",
+              "content_hash": "ed880aae685317b335dd913866a8fda375b7692ee90ccb8f44e177af71afebeb",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 9:51:06 PM CST",
+              "precincts_with_votes": 286,
+              "nonzero_precinct_vote_cells": 73456,
+              "version": "352313",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/352313/reports/detailxml.zip",
+              "content_hash": "e2e59f4373f9d537607dd93ac5ceff9e560c76e9fc780bd0a78f2f8edfc6875d",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:53:47 PM CST",
+              "precincts_with_votes": 286,
+              "nonzero_precinct_vote_cells": 74613,
+              "version": "352736",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/352736/reports/detailxml.zip",
+              "content_hash": "e2d0be065aeeb9ac0a95fb530eee9e586b4b3422b0f954bf60c02901994b6ff0",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 11:31:02 PM CST",
+              "precincts_with_votes": 286,
+              "nonzero_precinct_vote_cells": 75039,
+              "version": "352876",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/352876/reports/detailxml.zip",
+              "content_hash": "2ef61c65732b5c3ccef2ff62f80e63d8fa6aea93b093805b90b3f4ebad00c8ec",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 12:35:18 AM CST",
+              "precincts_with_votes": 286,
+              "nonzero_precinct_vote_cells": 75193,
+              "version": "353051",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/353051/reports/detailxml.zip",
+              "content_hash": "376ab468295c8851bb6192929188b6cdf57db1e326895a87d4e490a19e2f2567",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 2:25:02 AM CST",
+              "precincts_with_votes": 286,
+              "nonzero_precinct_vote_cells": 75267,
+              "version": "353248",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/353248/reports/detailxml.zip",
+              "content_hash": "e447603406d5d65703bf07e9315e8e6036c70a8b20b9b833990f69ab1bcbc524",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/13/2024 8:42:40 PM CST",
+              "precincts_with_votes": 286,
+              "nonzero_precinct_vote_cells": 80979,
+              "version": "354736",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/354736/reports/detailxml.zip",
+              "content_hash": "19f328fe031b91818b373334f56b912d77300a4b35c4a8f0ed72b1bca5a79642",
+              "election_night": false
+            },
+            {
+              "timestamp": "12/10/2024 8:39:17 AM CST",
+              "precincts_with_votes": 286,
+              "nonzero_precinct_vote_cells": 80979,
+              "version": "355983",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/355983/reports/detailxml.zip",
+              "content_hash": "65b355fc7949bd291f5c24dc11cf0f8f4573127098ead55ddfd43743139c3f8e",
+              "election_night": false
+            },
+            {
+              "timestamp": "12/10/2024 9:01:52 AM CST",
+              "precincts_with_votes": 286,
+              "nonzero_precinct_vote_cells": 80979,
+              "version": "355984",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/122432/355984/reports/detailxml.zip",
+              "content_hash": "3a841dba839d1ad1dfe3249e5bbf84166264477f649efd7222b4ee7f23d0fe9c",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 7,
+          "election_night_updates_with_precinct_votes": 7,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:19:02 PM CST",
+            "version": "350897",
+            "url": "https://results.enr.clarityelections.com/TX/Travis/122432/350897/reports/detailxml.zip"
+          },
+          "unreadable_versions": 8
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "125931",
+          "name": "2026 March Joint Primary Elections",
+          "updates": [
+            {
+              "version": "367974",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/367974/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367975",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/367975/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367976",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/367976/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367981",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/367981/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367982",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/367982/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367996",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/367996/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367998",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/367998/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368002",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368002/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368003",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368003/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368004",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368004/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368100",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368100/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368101",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368101/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368103",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368103/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368327",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368327/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 6:53:35 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368330",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368330/reports/detailxml.zip",
+              "content_hash": "b5d8cb081163f1f1e456a3ddf4be5c3674e2af47020905cd5ae34d433123d725",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 9:01:03 PM CST",
+              "precincts_with_votes": 296,
+              "nonzero_precinct_vote_cells": 93453,
+              "version": "368463",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368463/reports/detailxml.zip",
+              "content_hash": "bdddcb1391d02edeff2959cfa240f0ad1ed6ff82ab1e51ff6f2376f9201322a3",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:19:27 PM CST",
+              "precincts_with_votes": 296,
+              "nonzero_precinct_vote_cells": 138635,
+              "version": "368520",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368520/reports/detailxml.zip",
+              "content_hash": "623db2c2317f903079c015db5a71943f31bc5cb2c2d611affb8023368a4869ef",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:19:09 PM CST",
+              "precincts_with_votes": 296,
+              "nonzero_precinct_vote_cells": 143993,
+              "version": "368545",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368545/reports/detailxml.zip",
+              "content_hash": "e1a62ebe709e84532790e0fe695197956917e4a9c75cf7fb2a44f7c4ef6143e1",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/4/2026 12:21:49 AM CST",
+              "precincts_with_votes": 297,
+              "nonzero_precinct_vote_cells": 144768,
+              "version": "368560",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368560/reports/detailxml.zip",
+              "content_hash": "e3926e184d1c57a66cea78141397baf5dc9faabe08e335abd9c52725728cb35e",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/6/2026 10:52:57 AM CST",
+              "precincts_with_votes": 297,
+              "nonzero_precinct_vote_cells": 144768,
+              "version": "368636",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368636/reports/detailxml.zip",
+              "content_hash": "1a21875e2b7847ae46e3a1582659ef98f4deb8e0580a6dba5739f35ec0ee0ee8",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/11/2026 12:53:25 PM CDT",
+              "precincts_with_votes": 297,
+              "nonzero_precinct_vote_cells": 151231,
+              "version": "368783",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368783/reports/detailxml.zip",
+              "content_hash": "f846bd3457b1ee210ed64beaf87366211a4dae43f262b1e83047b02ceed0eba7",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/16/2026 1:44:46 PM CDT",
+              "precincts_with_votes": 297,
+              "nonzero_precinct_vote_cells": 151231,
+              "version": "368845",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368845/reports/detailxml.zip",
+              "content_hash": "ffb8e5af59e2f1143392edc96ad67f77fbe8a469465ec6a840844b9abb69518a",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 4,
+          "election_night_updates_with_precinct_votes": 4,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 9:01:03 PM CST",
+            "version": "368463",
+            "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368463/reports/detailxml.zip"
+          },
+          "unreadable_versions": 14
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126357",
+          "name": "2026 May Joint Primary Runoff Elections",
+          "updates": [
+            {
+              "version": "371627",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/371627/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371629",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/371629/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371817",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/371817/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 12:08:31 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372714",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/372714/reports/detailxml.zip",
+              "content_hash": "1387fcb06bef10e2b1c0c041562c1b2f7c1b7e92f98adc20205ace6dcdb16a42",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 6:12:26 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372913",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/372913/reports/detailxml.zip",
+              "content_hash": "453a6c4be71f304e3765b7b452e20eff2419ff2a3d8fd703e1ffcf5cd15d1b98",
+              "election_night": false
+            },
+            {
+              "version": "372914",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/372914/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/26/2026 7:48:59 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372947",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/372947/reports/detailxml.zip",
+              "content_hash": "acfdaaf6dd22442055ef32b9b3d40d5c40d7c1faf31e5b8eeb6d965523082ef6",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 7:51:47 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372949",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/372949/reports/detailxml.zip",
+              "content_hash": "4abf506986b917ca235520cf775fdc1da7c0e6ee7c69e4696818e8e14a25913b",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:18:13 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373014",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373014/reports/detailxml.zip",
+              "content_hash": "4dbfee400b7a4b2172f058a5dc7260b8626ef25e84de6fbc55cb49bd1ab43bad",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:40:06 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373026",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373026/reports/detailxml.zip",
+              "content_hash": "dd0dacfc268e49abeaf11727c0e3a1b0c4a78bb8b3c0449675eb568ba80a0299",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/27/2026 12:04:57 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "373064",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373064/reports/detailxml.zip",
+              "content_hash": "2dd483140fee82084f285ee0c8b753cc4b4ede563c8e9039df4734ed6741af84",
+              "election_night": true
+            },
+            {
+              "version": "373135",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373135/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/27/2026 12:32:52 PM CDT",
+              "precincts_with_votes": 296,
+              "nonzero_precinct_vote_cells": 12952,
+              "version": "373136",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373136/reports/detailxml.zip",
+              "content_hash": "2f9f806f2e5dd0a2d55e54f6ac4ce7676e48ce3bfcdcb4339248e4b1c5a3f5c0",
+              "election_night": false
+            },
+            {
+              "timestamp": "6/3/2026 12:25:28 PM CDT",
+              "precincts_with_votes": 296,
+              "nonzero_precinct_vote_cells": 13351,
+              "version": "374127",
+              "url": "https://results.enr.clarityelections.com/TX/Travis/126357/374127/reports/detailxml.zip",
+              "content_hash": "e059082b79d885c5ef264aea2360ff7d6b380ae6337c31b32528a1f6d7e51167",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 5,
+          "election_night_updates_with_precinct_votes": 0,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/27/2026 12:32:52 PM CDT",
+            "version": "373136",
+            "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373136/reports/detailxml.zip"
+          },
+          "unreadable_versions": 5
+        }
+      ]
+    }
+  }
+}

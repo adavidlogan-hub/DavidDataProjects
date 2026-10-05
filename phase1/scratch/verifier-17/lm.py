@@ -1,0 +1,1 @@
+import sys; sys.path.insert(0,"."); from txprecinct.config import load_config; from txprecinct.store import Store; from txprecinct.fetch import normalize_url; r=Store(load_config().state_dir).latest_ok(normalize_url(sys.argv[1])); d=dict(r); print({k:d[k] for k in d if k not in ("body",)})

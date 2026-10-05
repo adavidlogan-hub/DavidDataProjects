@@ -1,0 +1,107 @@
+{
+  "county": "Victoria",
+  "tag": "LIVE_PRECINCT",
+  "confidence": "high",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.victoriacountytx.gov/228/Election-Results",
+  "platform": "vendor_hosted",
+  "host": "results.enr.clarityelections.com",
+  "evidence_url": "https://results.enr.clarityelections.com/TX/Victoria/122848/351371/reports/detailxml.zip",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "2024-11-05 19:53 CT",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL www.vctxelections.org redirects to www.victoriacountytx.gov (Elections pages). Clarity elections.json does not list 2024 or 2026 elections, so EIDs were taken from the county's own links: Election Results page links 'Election Night Reporting - Unofficial Results 8:51 pm' to results.enr.clarityelections.com/TX/Victoria/126376/ (May 26, 2026 runoff) and 'Election Night Reporting' to /126049/ (March 3, 2026 primary); the Elections Historical Archive links 'November 5, 2024 Joint General Election: Election Returns' to /122848/. Check 1 read every readable update for each (some versions returned HTTP 404). Nonzero precinct vote cells rise across election-night updates, showing election-day votes added during the night. Check 3 not needed.",
+  "tag_rationale": "All three elections are LIVE by check 1 (precinct numbers in 5, 3 and 3 election-night Clarity updates), so the tag is LIVE_PRECINCT with confidence high.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2024-11-05 19:53 CT",
+      "precinct_first_seen": "2024-11-05 19:53 CT",
+      "night_updates_with_precinct_numbers": "5 of 5",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Victoria/122848/351371/reports/detailxml.zip",
+      "fact": "Clarity update log EID 122848: election-night versions at 7:53, 8:17, 8:35, 8:51 and 9:56 PM CST each have 35 precincts with nonzero candidate votes; nonzero precinct vote cells 2886, 4281, 4379, 4395, 4402."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-03-03 20:12 CT",
+      "precinct_first_seen": "2026-03-03 20:12 CT",
+      "night_updates_with_precinct_numbers": "3 of 3",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368460/reports/detailxml.zip",
+      "fact": "Clarity update log EID 126049: election-night versions at 8:12, 8:58 and 9:38 PM CST each have 35 precincts with nonzero candidate votes; nonzero cells 8965, 13614, 14030."
+    },
+    "2026_runoff": {
+      "result": "LIVE",
+      "check": "1",
+      "county_totals_first_seen": "2026-05-26 19:19 CT",
+      "precinct_first_seen": "2026-05-26 19:19 CT",
+      "night_updates_with_precinct_numbers": "3 of 3",
+      "evidence_url": "https://results.enr.clarityelections.com/TX/Victoria/126376/372961/reports/detailxml.zip",
+      "fact": "Clarity update log EID 126376: election-night versions at 7:19, 8:07 and 8:48 PM CDT each have 35 precincts with nonzero candidate votes; nonzero cells 363, 685, 1119."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/351128/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "b1fe19f9decca1cdd32346422be5c698e8b5dca3480e5d4d62cb9831b9d27d63",
+      "quote": "Timestamp 11/5/2024 7:53:10 PM CST; 35 precincts with nonzero votes; 2886 nonzero precinct vote cells",
+      "supports": "2024_general first election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Victoria/122848/352363/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "b26089654dbfc2d96a6a3e11f96c955a50d1920863e0d2170ac7d37bc81f0ce0",
+      "quote": "Timestamp 11/5/2024 9:56:45 PM CST; 35 precincts with nonzero votes; 4402 nonzero precinct vote cells",
+      "supports": "2024_general last election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368426/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "eace2e7fa7c1940cf256551868917ad9834e04595ca5a00c7ae09cdbe4a38a71",
+      "quote": "Timestamp 3/3/2026 8:12:40 PM CST; 35 precincts with nonzero votes; 8965 nonzero precinct vote cells",
+      "supports": "2026_primary first election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Victoria/126049/368488/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "3a1594dfd03f62ad7acc969979752d7c6b7a92658fa8522e3aef479cf2a77beb",
+      "quote": "Timestamp 3/3/2026 9:38:47 PM CST; 35 precincts with nonzero votes; 14030 nonzero precinct vote cells",
+      "supports": "2026_primary last election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Victoria/126376/372941/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "48725c6b69f24d5810505bc51b6f68425f7058a40cbd0b386dd99321dd130250",
+      "quote": "Timestamp 5/26/2026 7:19:22 PM CDT; 35 precincts with nonzero votes; 363 nonzero precinct vote cells",
+      "supports": "2026_runoff first election-night update with precinct numbers"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Victoria/126376/372992/reports/detailxml.zip",
+      "via": "clarity_script",
+      "content_hash": "b91047f51e2e4a6f3be77e80bdc7bc7ae54d23c320142a7b9c0b7651cb1c421c",
+      "quote": "Timestamp 5/26/2026 8:48:46 PM CDT; 35 precincts with nonzero votes; 1119 nonzero precinct vote cells",
+      "supports": "2026_runoff last election-night update with precinct numbers"
+    },
+    {
+      "url": "https://www.victoriacountytx.gov/228/Election-Results",
+      "via": "fetch_module",
+      "content_hash": "b56a90d8d77cf8eb6493e8918a5f7f200d386872d25e975a4249e2360476f878",
+      "quote": "May 26, 2026 Joint Primary Runoff Election Election Night Reporting - Unofficial Results 8:51 pm",
+      "supports": "county links to Clarity EIDs 126376 and 126049"
+    },
+    {
+      "url": "https://www.victoriacountytx.gov/234/Elections-Historical-Archive",
+      "via": "fetch_module",
+      "content_hash": "fcc962f8d9edfbdc3b50e178936e40bfa032abe03783797a3d671e083ccb21e0",
+      "quote": "November 5, 2024 Joint General Election: Election Returns (results.enr.clarityelections.com/TX/Victoria/122848/)",
+      "supports": "county link to 2024 general EID"
+    }
+  ]
+}

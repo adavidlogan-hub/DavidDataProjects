@@ -1,0 +1,68 @@
+{
+  "county": "Ector",
+  "reason_selected": "low confidence",
+  "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "verifier_confidence": "low",
+  "elections": {
+    "2024_general": {
+      "result": "LATER",
+      "check": "2",
+      "fact": "November 5, 2024 section: 'UNOFFICIAL VOTING TOTALS (PDF)' (DocumentCenter 1095) is a scanned 'Cumulative Results Report ECTOR COUNTY, TEXAS ... ENR 11.05.2024 Run Time 12:22 AM ... Run Date 11/06/2024', county totals by vote type (Trump Election Day 9,074), scan CreationDate Nov 6 05:38 UTC. 'PRECINCT BY PRECINCT RESULTS (PDF)' (1093): 'Precinct Results Report ... Run Time 1:00 PM ... Run Date 11/13/2024', PDF CreationDate Nov 13 2024. So election-night output was county totals; precinct numbers came a week later. DocumentCenter Last-Modified equals the request time (no upload evidence). Check 3: wayback folder exists but the 2024 CDX query timed out and lists no captures."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "March 3, 2026 section lists only 'Official results for the joint primary election (PDF)' (836): Official Results, Run Date 03/10/2026, county totals only, plus reconciliation and hand count files. No election-night file survives. Wayback CDX for the night returned no captures."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "fact": "May 26, 2026 section lists 'CUMULATIVE FINAL RESULTS' Republican (2378) and Democratic (2379), county totals, scans created Jun 2-3 2026. No election-night file survives. Wayback CDX for the night returned no captures."
+    }
+  },
+  "rationale": "Only the 2024 general is determined (LATER: unofficial cumulative county totals printed 12:22 AM Nov 6, precinct report printed Nov 13), so COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "sources": [
+    {
+      "url": "https://www.ectorcountytx.gov/271/Elections",
+      "what_i_checked": "file lists per election section (seed co.ector.tx.us URL returns 404)",
+      "content_hash": "5b2b493ad85ee6731c110cd44a1155ed9d35c899ee187847fcb561589fe0802e"
+    },
+    {
+      "url": "https://www.ectorcountytx.gov/DocumentCenter/View/1095/UNOFFICIAL-VOTING-TOTALS-PDF",
+      "what_i_checked": "2024 unofficial cumulative run 12:22 AM Nov 6, totals only",
+      "content_hash": "f3e4272ea4f0892b02e40d7898462355455f15764d5044016e5f53936b190af6"
+    },
+    {
+      "url": "https://www.ectorcountytx.gov/DocumentCenter/View/1093/PRECINCT-BY-PRECINCT-RESULTS-PDF",
+      "what_i_checked": "2024 precinct report run 11/13/2024",
+      "content_hash": "81da899cc779d0d6ea69efdfa768e27930bf926e3aa2ca7ccee1e1c0834b0334"
+    },
+    {
+      "url": "https://www.ectorcountytx.gov/DocumentCenter/View/836/Official-results-for-the-joint-primary-election-PDF",
+      "what_i_checked": "primary official cumulative, totals only",
+      "content_hash": "0190c55a956eda39ae5e4789ddd67d78414e37359c727fa0aa605b8ad7c7b83a"
+    },
+    {
+      "url": "https://www.ectorcountytx.gov/DocumentCenter/View/2378/CUMULATIVE-FINAL-RESULTS-REPUBLICAN-PARTY-PDF",
+      "what_i_checked": "runoff cumulative, totals only",
+      "content_hash": "2f6178b2ffab725b774685735580756228193d9d0d04d716038cfd9d585250e9"
+    },
+    {
+      "url": "git:origin/wayback-data:phase1/wayback_snapshots/Ector/index.json",
+      "content_hash": "n/a",
+      "what_i_checked": "check 3: no captures in any window (2024 CDX timed out)"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T16:16:01Z",
+  "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LATER, check 2). Both: unofficial cumulative run 12:22 AM Nov 6 (county totals), precinct report run 11/13/2024; no upload times.",
+    "2026_primary": "same after revision (UNDETERMINED).",
+    "2026_runoff": "same after revision (UNDETERMINED).",
+    "unsupported_or_unchecked": "None found. Note: the wayback-data branch now has an Ector folder, but it lists no captures (2024 CDX timed out, 2026 CDX empty), so check 3 adds nothing."
+  },
+  "compared_at_utc": "2026-10-02T16:16:07Z",
+  "revision_note": "Revised after the orchestrator's LATER rule clarification (CHECKLIST_BRIEF updated mid-run): LATER needs a county-totals file printed or uploaded on election night; elections with only post-election files are UNDETERMINED. Revision made from my own evidence after the research file had been opened; no new facts taken from it. Changed: 2026_primary and 2026_runoff LATER to UNDETERMINED. Tag unchanged.",
+  "revised_at_utc": "2026-10-02T16:24:55Z"
+}

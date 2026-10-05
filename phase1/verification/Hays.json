@@ -1,0 +1,64 @@
+{
+ "county": "Hays",
+ "reason_selected": "random 10 percent sample",
+ "verifier_tag": "UNKNOWN",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No Clarity site (elections.json 404). Election Results Archive (Archive.aspx?AMID=53) item ADID=201 is a ZIP of official canvass and cumulative files dated 2024-11-12. No election-night page survives (hayscountytx.gov/elections/20260303 linked from KUT returns 404). HTML pages stamp Last-Modified with the request time (no upload evidence). Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Archive ADID=206 lists only official canvass/cumulative results, CVR and reconciliation; election-night page /elections/20260303 returns 404. Check 3 unavailable: no wayback-data folder for this county."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Archive ADID=208 lists only official files (canvass, cumulative, reconciliation, CVR). Check 3 unavailable: no wayback-data folder for this county."
+  }
+ },
+ "rationale": "Only post-canvass official files survive and the election-night pages are gone; all UNDETERMINED, UNKNOWN.",
+ "sources": [
+  {
+   "url": "https://www.hayscountytx.gov/Archive.aspx?AMID=53",
+   "content_hash": "d5da082f995ef32b40fc7d1974c36eaca1dfd6b9350be50f2af7db78e523e08a",
+   "what_i_checked": "archive list"
+  },
+  {
+   "url": "https://www.hayscountytx.gov/Archive.aspx?ADID=201",
+   "content_hash": "a20af42542ff9effbba06ea4a9b98aeb88bbf4a1775d6546f5247db4db0444fb",
+   "what_i_checked": "2024 ZIP contents (official only, dated 2024-11-12)"
+  },
+  {
+   "url": "https://www.hayscountytx.gov/Archive.aspx?ADID=206",
+   "content_hash": "1de53b44444259cee45a7b0248ed27c3d0bb6b8f9b5a4797400dc15bfebe6bff",
+   "what_i_checked": "primary archive entry (official only)"
+  },
+  {
+   "url": "https://www.hayscountytx.gov/Archive.aspx?ADID=208",
+   "content_hash": "f306e81ecbb40868ec796a32d8774307f8503c578012f9cf397acc1e87d63f29",
+   "what_i_checked": "runoff archive entry (official only)"
+  },
+  {
+   "url": "https://www.kut.org/politics/2026-03-03/hays-county-tx-election-results-2026-primary-buda-san-marcos-texas",
+   "content_hash": "8f755f38c7b7666e5a989fbc5844e8f74faacb531858094959b5aad1d9368b38",
+   "what_i_checked": "link to hayscountytx.gov/elections/20260303 (now 404)"
+  },
+  {
+   "url": "websearch:Hays County Texas election night unofficial results 2026 primary runoff",
+   "content_hash": "6c322f5e11343a54cee09781120f0254145e3c742ceab279fa7cfb8825f305cf",
+   "what_i_checked": "search to locate results page"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:27:15Z",
+ "research_tag": "UNKNOWN",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "same (UNDETERMINED).",
+  "2026_runoff": "same (UNDETERMINED)."
+ }
+}

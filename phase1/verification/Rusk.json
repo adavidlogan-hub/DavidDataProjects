@@ -1,0 +1,64 @@
+{
+ "county": "Rusk",
+ "reason_selected": "tag LIVE_PRECINCT",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 122760: 2 of 3 election-night updates with Election Day precinct votes, 2 distinct releases. Opened v351335 (11/5/2024 8:14:07 PM CST, no Election Day precinct cell), v351536 (8:31:52 PM CST, President/Vice President, Election Day, <Precinct name=\"111\" votes=\"69\" />) and v352092 (9:28:41 PM CST, same cell votes=\"84\")."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "Clarity EID 126016: v368444 (3/3/2026 8:42:45 PM CST) and v368510 (10:04:28 PM CST) both carry Election Day precinct votes with different sums (133122, 141744); opened both, REP US Senator Election Day <Precinct name=\"111\" votes=\"1\" />."
+  },
+  "2026_runoff": {
+   "result": "END",
+   "check": "1",
+   "fact": "Clarity EID 126475: one election-night update v372965 (5/26/2026 8:19:46 PM CDT) with Election Day votes in all 22 precincts (REP US Senator, Election Day, <Precinct name=\"111\" votes=\"10\" />); no later update listed."
+  }
+ },
+ "rationale": "Check 1 settles all three: LIVE in 2024 and the primary, END in the runoff. Two LIVE results give LIVE_PRECINCT.",
+ "sources": [
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/351335/reports/detailxml.zip",
+   "content_hash": "5d573742b773538f45ec2b6f9565a0421a5833ac0e9fc7a61760e1cc7cb1f870",
+   "what_i_checked": "first 2024 election-night update (Timestamp; no Election Day precinct votes)"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/351536/reports/detailxml.zip",
+   "content_hash": "3a9eaa496f0af00465e5b2bd3207b8dbc69d23b7fe9cba34708990fc09a490c6",
+   "what_i_checked": "first 2024 update with Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Rusk/122760/352092/reports/detailxml.zip",
+   "content_hash": "64b1c85f298c994fab1cb89790312d1f7d7ee51625dd199946c01fd8f8d2e4f3",
+   "what_i_checked": "second 2024 night update with changed Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368444/reports/detailxml.zip",
+   "content_hash": "6ba63a5ad36dd7b9d825f5efc901cf55d24f2763ae6237c2247ecfd2ba883729",
+   "what_i_checked": "primary night update 1"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Rusk/126016/368510/reports/detailxml.zip",
+   "content_hash": "28858600941a98eeb2ea2c4caef2dbc98b0871b165e440266998eb0bebf7502d",
+   "what_i_checked": "primary night update 2"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Rusk/126475/372965/reports/detailxml.zip",
+   "content_hash": "09c0772fbd62d082d58e83aebd711e08dac4657e14102ad29ec3f07fab34e3f4",
+   "what_i_checked": "runoff single night update"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:05Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (LIVE).",
+  "2026_primary": "same (LIVE).",
+  "2026_runoff": "same (END)."
+ }
+}

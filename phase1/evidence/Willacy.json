@@ -1,0 +1,86 @@
+{
+  "county": "Willacy",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "med",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.willacy.tx.us/page/willacy.Elections",
+  "platform": "county_pdfs",
+  "host": "www.co.willacy.tx.us",
+  "evidence_url": "https://www.co.willacy.tx.us/upload/page/6531/docs/Elections%20folder/2026/Primaries/Unofficial%2003%2003%202026%20Results%20.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The Elections page posts election-night PDFs (Hart-style 'Cumulative Results Report' and 'Precinct Results Report'). 2026 primary: 'Unofficial Primary Results March 03, 2026' is a Cumulative Results Report (county totals), 'Run Time 9:08 PM Run Date 03/03/2026', CreationDate 2026-03-04 03:09:07 UTC, Last-Modified Wed, 04 Mar 2026 03:46:04 GMT (9:46 PM CST). 'Unofficial Primary Results March 03, 2026 by Precinct' is a Precinct Results Report with 'Run Time 7:04 PM Run Date 03/03/2026' in which every one of the 1329 'Cast Votes' rows has 0 in the Election Day Voting column (early and absentee only); its file was modified and uploaded on 2026-03-31 (ModDate and Last-Modified Tue, 31 Mar 2026 04:35 GMT). No precinct report with election-day votes is posted. 2026 runoff: 'Unofficial Early Voting' cumulative (Run Time 6:01 PM, Last-Modified 2026-05-27 00:39:50 GMT = 7:39 PM CDT) and 'Unofficial Election Day' cumulative (Run Time 8:00 PM, CreationDate 2026-05-27 01:01:52 UTC, Last-Modified Wed, 27 May 2026 01:21:43 GMT = 8:21 PM CDT), both county totals; no runoff precinct report posted. 2024 general: not listed on the current page. Check 3 pending for 2024 general (origin/wayback-data branch not found).",
+  "tag_rationale": "2026 primary and 2026 runoff are both LATER by check 2 (election-night uploads are county totals, precinct numbers only early-vote or never posted), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because each has a printed run time and an election-night Last-Modified.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results listed on the current Elections page. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:46 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.willacy.tx.us/upload/page/6531/docs/Elections%20folder/2026/Primaries/Unofficial%2003%2003%202026%20Results%20.pdf",
+      "fact": "'Cumulative Results Report WILLACY COUNTY, TEXAS Unofficial Results PRIMARY ELECTION ... Run Time 9:08 PM Run Date 03/03/2026', Last-Modified 2026-03-04 03:46:04 GMT; the only precinct report ('Precinct Results Report ... Run Time 7:04 PM') has Election Day Voting 0 in all precincts (early-vote-only precinct numbers); no precinct report with election-day votes posted."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 19:39 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.willacy.tx.us/upload/page/6531/docs/Elections%20folder/2026/Run%20Off/Cumulative%20Result%20s%20Unofficial%20%20Results%202026.pdf",
+      "fact": "'Cumulative Results Report WILLACY COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION ... Run Time 8:00 PM Run Date 05/26/2026', Last-Modified 2026-05-27 01:21:43 GMT; county totals only; no runoff precinct report posted (precinct numbers never published online)."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.willacy.tx.us/page/willacy.Elections",
+      "via": "fetch_module",
+      "content_hash": "d9a37c5ba7ab536e26f5a2592e214208758171b325df6bc98cdb572a06e8a5d8",
+      "quote": "Unofficial Primary Results March 03, 2026 ; Unofficial Primary Results March 03, 2026 by Precinct ; Unofficial Election Day Democratic and Republican May 2026 Run Off ; Unofficial Early Voting Democratic and Republican May 2026 Run Off",
+      "supports": "report list"
+    },
+    {
+      "url": "https://www.co.willacy.tx.us/upload/page/6531/docs/Elections%20folder/2026/Primaries/Unofficial%2003%2003%202026%20Results%20.pdf",
+      "via": "fetch_module",
+      "content_hash": "1d694a1dd169a6e7fba80a74093a0e586c167bd506c14d024cae56c52e16105c",
+      "quote": "Cumulative Results Report WILLACY COUNTY, TEXAS Unofficial Results PRIMARY ELECTION ... Run Time 9:08 PM Run Date 03/03/2026",
+      "supports": "2026_primary county totals on election night"
+    },
+    {
+      "url": "https://www.co.willacy.tx.us/upload/page/6531/docs/Elections%20folder/2026/Primaries/03%2003%202026%20Precinct%20Results%20.pdf",
+      "via": "fetch_module",
+      "content_hash": "fa43112db7f8e1d4df9af2417603cc5c2465f216cdddb0f17eaeda662c8cb8c3",
+      "quote": "Precinct Results Report Unofficial Results ... Run Time 7:04 PM Run Date 03/03/2026 ... Election Day Voting 0",
+      "supports": "2026_primary precinct numbers early-vote only"
+    },
+    {
+      "url": "https://www.co.willacy.tx.us/upload/page/6531/docs/Elections%20folder/2026/Run%20Off/Cumulative%20Result%20s%20Unofficial%20%20Results%202026.pdf",
+      "via": "fetch_module",
+      "content_hash": "3531a2615c69c54f6f88ee6e8955276d8995ec4fcc836eacd9420b96adfa8ccb",
+      "quote": "Cumulative Results Report WILLACY COUNTY, TEXAS Unofficial Results PRIMARY RUNOFF ELECTION ... Run Time 8:00 PM Run Date 05/26/2026",
+      "supports": "2026_runoff county totals on election night"
+    },
+    {
+      "url": "https://www.co.willacy.tx.us/upload/page/6531/docs/Elections%20folder/2026/Run%20Off/Early%20Voting%20and%20Mail%20Ballots%202026%20Primary%20Runoff.pdf",
+      "via": "fetch_module",
+      "content_hash": "cf9ac89b2a2c7a6c1fe10b3fe08a58117cb1ba035d39d8646706ed4441adc070",
+      "quote": "Cumulative Results Report ... Run Time 6:01 PM Run Date 05/26/2026",
+      "supports": "2026_runoff early-vote county totals"
+    }
+  ]
+}

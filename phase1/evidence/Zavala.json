@@ -1,0 +1,72 @@
+{
+  "county": "Zavala",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.zavala.tx.us/page/Election%20Results%202026",
+  "platform": "county_pdfs",
+  "host": "www.co.zavala.tx.us",
+  "evidence_url": "https://www.co.zavala.tx.us/page/open/976/0/Primary%20Election%20Unofficial%20Democratic%20Results.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "No Clarity site (elections.json 404). The 'Election Results 2026' page lists only 'Primary Election Unofficial Democratic Results', 'Primary Election Unofficial Republican Results' and 'Joint Primary Runoff Unofficial Results'. The /page/open/ file server sends no Last-Modified header, so there are no upload times. 2026 primary: the Democratic file is the SOS-format 'Texas Secretary of State Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY ELECTION ... ZAVALA County' with county totals by mail, early in person and election day (the only 'PRECINCT' strings are commissioner contest names), PDF CreationDate 2026-03-04 08:22:16 UTC (2:22 AM CST, inside the election-night window); no precinct report is posted. 2026 runoff: a 2-page scan created 2026-05-27 13:43 UTC (8:43 AM CDT, after election night). 2024 general: no results listed. Check 3 pending for 2024 general and 2026 runoff (origin/wayback-data branch not found).",
+  "tag_rationale": "Only the 2026 primary is determined (LATER: the election-night file is county totals and no precinct report is posted), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS with confidence low.",
+  "agent": "research-8",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results listed on the county site. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-04 02:22 CT",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.co.zavala.tx.us/page/open/976/0/Primary%20Election%20Unofficial%20Democratic%20Results.pdf",
+      "fact": "'Texas Secretary of State Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY ELECTION March 03, 2026 ZAVALA County' county totals (Talarico 816 total, 248 election day), CreationDate 2026-03-04 08:22:16 UTC; no Last-Modified; no precinct report posted (precinct numbers never published online)."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "'Joint Primary Runoff Unofficial Results' scan CreationDate 2026-05-27 13:43 UTC (after election night); no Last-Modified. Check 3 pending."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.zavala.tx.us/page/Election%20Results%202026",
+      "via": "fetch_module",
+      "content_hash": "f9762d8979602d5c76e47b8fbee698d26e2cfea5c0339c00491b63e55885e308",
+      "quote": "Primary Election Unofficial Democratic Results ; Primary Election Unofficial Republican Results ; Joint Primary Runoff Unofficial Results",
+      "supports": "report list"
+    },
+    {
+      "url": "https://www.co.zavala.tx.us/page/open/976/0/Primary%20Election%20Unofficial%20Democratic%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "1be5dd2cfe1d7af746be505529f27c4f4db9aa8376c556a64912e45c52ec4fe6",
+      "quote": "Texas Secretary of State Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY ELECTION March 03, 2026 ZAVALA County",
+      "supports": "2026_primary LATER"
+    },
+    {
+      "url": "https://www.co.zavala.tx.us/page/open/976/0/Joint%20Primary%20Runoff%20Unofficial%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "a2aef895b27672fe385418610af5ebd8eb5e325133e56f18954b8a0a5a40469f",
+      "quote": "CreationDate: Wed May 27 13:43:33 2026 UTC (VersaLink scan)",
+      "supports": "runoff unofficial made after election night"
+    }
+  ]
+}

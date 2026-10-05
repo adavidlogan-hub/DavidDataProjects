@@ -1,0 +1,284 @@
+{
+  "county": "Gregg",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122313",
+          "name": "2024 General Election",
+          "updates": [
+            {
+              "version": "345743",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/345743/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345750",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/345750/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "345755",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/345755/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "9/24/2024 11:39:59 AM CDT",
+              "precincts_with_votes": 11,
+              "nonzero_precinct_vote_cells": 244,
+              "version": "345757",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/345757/reports/detailxml.zip",
+              "content_hash": "2d7c99f888391ae72c7c167f269a3b051bf535a45d132184cea410ad967198de",
+              "election_night": false
+            },
+            {
+              "timestamp": "9/24/2024 12:50:28 PM CDT",
+              "precincts_with_votes": 11,
+              "nonzero_precinct_vote_cells": 244,
+              "version": "345758",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/345758/reports/detailxml.zip",
+              "content_hash": "7272ccf38506487c21ad4c782ed79381c29007c7b2253eccfedba9c61798552b",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/15/2024 8:01:29 PM CDT",
+              "precincts_with_votes": 11,
+              "nonzero_precinct_vote_cells": 244,
+              "version": "346934",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/346934/reports/detailxml.zip",
+              "content_hash": "1b2eb9b375d958c8532541cfc3baf5c46b509206406e93ea7979ba934d391e63",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/15/2024 8:04:57 PM CDT",
+              "precincts_with_votes": 11,
+              "nonzero_precinct_vote_cells": 244,
+              "version": "346935",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/346935/reports/detailxml.zip",
+              "content_hash": "656d884bb67cd4b24f197cb0ae4878fef448c9daa24835be848815cf57192de6",
+              "election_night": false
+            },
+            {
+              "timestamp": "10/15/2024 8:08:32 PM CDT",
+              "precincts_with_votes": 11,
+              "nonzero_precinct_vote_cells": 244,
+              "version": "346939",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/346939/reports/detailxml.zip",
+              "content_hash": "fec6e523e09a28facc49c195a2e20fade6b3d23ba432fc84d6c6c534614318fb",
+              "election_night": false
+            },
+            {
+              "version": "352612",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/352612/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 10:34:05 PM CST",
+              "precincts_with_votes": 21,
+              "nonzero_precinct_vote_cells": 2489,
+              "version": "352631",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/352631/reports/detailxml.zip",
+              "content_hash": "d3480147f936230320004b3c1e11bf56c03d23c4b2138ff91753519f8a526f36",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:41:00 PM CST",
+              "precincts_with_votes": 21,
+              "nonzero_precinct_vote_cells": 2489,
+              "version": "352675",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/352675/reports/detailxml.zip",
+              "content_hash": "6e23f97c2bbcf5d08ee9b510b1aff18042a7fa889d58d645ccf7ec0c7a05ed73",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/20/2024 4:37:52 PM CST",
+              "precincts_with_votes": 21,
+              "nonzero_precinct_vote_cells": 2995,
+              "version": "355603",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/355603/reports/detailxml.zip",
+              "content_hash": "d0226cb4316f6031961e22d677563a9627c03ad47b683aada0bf7f859800bd25",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 2,
+          "election_night_updates_with_precinct_votes": 2,
+          "first_update_with_precinct_votes": {
+            "timestamp": "9/24/2024 11:39:59 AM CDT",
+            "version": "345757",
+            "url": "https://results.enr.clarityelections.com/TX/Gregg/122313/345757/reports/detailxml.zip"
+          },
+          "unreadable_versions": 4
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "125930",
+          "name": "2026 Joint Primary",
+          "updates": [
+            {
+              "version": "367834",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/367834/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "367843",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/367843/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/20/2026 8:08:22 AM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 1060,
+              "version": "368150",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368150/reports/detailxml.zip",
+              "content_hash": "0f5bc9d9023403c33615abb5fcdb37ab047e9ea82a34a33f24899ac5d131420f",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 1:13:48 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368356",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368356/reports/detailxml.zip",
+              "content_hash": "93822d54dd33f4ff34ea7384113cf01ae4fcb4dfb8909f816c9e5344460869a1",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 6:37:56 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "368378",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368378/reports/detailxml.zip",
+              "content_hash": "b4def2919972c687951e638597f24c2434a5d018ac637afecbf2376dbe3c30ee",
+              "election_night": false
+            },
+            {
+              "version": "368483",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368483/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 9:34:33 PM CST",
+              "precincts_with_votes": 21,
+              "nonzero_precinct_vote_cells": 11087,
+              "version": "368487",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368487/reports/detailxml.zip",
+              "content_hash": "4adeeafef748622d3ca13e45d7deb6d31066503f56ba486486f9e4089606b95f",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/12/2026 2:13:39 PM CDT",
+              "precincts_with_votes": 21,
+              "nonzero_precinct_vote_cells": 11800,
+              "version": "368806",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368806/reports/detailxml.zip",
+              "content_hash": "350747e4d33b4ec5b1ffa1e3e16596bce430d9d420b6baf3a68e861269b63ade",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 1,
+          "election_night_updates_with_precinct_votes": 1,
+          "first_update_with_precinct_votes": {
+            "timestamp": "2/20/2026 8:08:22 AM CST",
+            "version": "368150",
+            "url": "https://results.enr.clarityelections.com/TX/Gregg/125930/368150/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126274",
+          "name": "2026 Joint Primary Runoff",
+          "updates": [
+            {
+              "version": "369687",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/369687/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "4/22/2026 2:19:02 PM CDT",
+              "precincts_with_votes": 7,
+              "nonzero_precinct_vote_cells": 60,
+              "version": "369688",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/369688/reports/detailxml.zip",
+              "content_hash": "6404b8fb830f353f8742cdf3b1af7b36ddaa00960b511088839360bdcd7014cb",
+              "election_night": false
+            },
+            {
+              "version": "369720",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/369720/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "4/23/2026 8:23:57 AM CDT",
+              "precincts_with_votes": 7,
+              "nonzero_precinct_vote_cells": 60,
+              "version": "369721",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/369721/reports/detailxml.zip",
+              "content_hash": "76b7030f706764716d0b49805a378dea722911a49b6d255b2994a925c07aac62",
+              "election_night": false
+            },
+            {
+              "version": "369746",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/369746/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/20/2026 4:44:31 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372397",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/372397/reports/detailxml.zip",
+              "content_hash": "6da0404e47523bd74aae30759fa7647c340ff7ece51f0c84236c5598d1c58a62",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/20/2026 4:56:00 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "version": "372398",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/372398/reports/detailxml.zip",
+              "content_hash": "3a3a96b277caa0d085da28a98ef9ef3cbfd377c326a4d3b8219c561adbac65c7",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 8:35:28 PM CDT",
+              "precincts_with_votes": 21,
+              "nonzero_precinct_vote_cells": 998,
+              "version": "372981",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/372981/reports/detailxml.zip",
+              "content_hash": "8beccaf606ccc9c0632dcd5652c80688777be0e715fea584677ca72746088370",
+              "election_night": true
+            },
+            {
+              "timestamp": "6/2/2026 1:46:10 PM CDT",
+              "precincts_with_votes": 21,
+              "nonzero_precinct_vote_cells": 1043,
+              "version": "373432",
+              "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/373432/reports/detailxml.zip",
+              "content_hash": "5a40fb08f75b361c3337ae033070481802e808c684262cc42848b9796baf51be",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 1,
+          "election_night_updates_with_precinct_votes": 1,
+          "first_update_with_precinct_votes": {
+            "timestamp": "4/22/2026 2:19:02 PM CDT",
+            "version": "369688",
+            "url": "https://results.enr.clarityelections.com/TX/Gregg/126274/369688/reports/detailxml.zip"
+          },
+          "unreadable_versions": 3
+        }
+      ]
+    }
+  }
+}

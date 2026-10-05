@@ -1,0 +1,86 @@
+{
+  "county": "Hamilton",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.hamiltoncountytx.gov/page/hamilton.elections",
+  "platform": "county_pdfs",
+  "host": "www.hamiltoncountytx.gov",
+  "evidence_url": "https://www.hamiltoncountytx.gov/upload/page/8825/Unofficial%20Primary%20Runoff%20Results%20Report.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL hamiltoncountytx.org fails (https 521, http 403, www robots/unreachable); one web search located the current site hamiltoncountytx.gov. Results are county-posted scanned PDFs (no text layer; read visually). No Clarity link. 2024 general: no results file on the Elections page (the 'Hamilton County Final Canvas.pdf' there is from Nov 2020, Last-Modified Tue, 24 Nov 2020). 2026 primary: only 'Joint Primary Official Results Precinct Summary' (Last-Modified Mon, 16 Mar 2026 16:02:49 GMT) and 'March 3 2026 Primary Official Results Summary'; no unofficial or election-night file. 2026 runoff: 'Unofficial Primary Runoff Results Report' is the SOS Election Unofficial Results Report with county totals (Last-Modified Fri, 29 May 2026 14:32:56 GMT); the only precinct file is 'March 26 2026 Primary Runoff Official Results Precinct Summary' (title has the wrong month; Last-Modified Mon, 29 Jun 2026 15:39:20 GMT). Check 3 pending (wayback-data branch not on origin). Rule 43 applied 2026-10-02 (normalize-4): 2026_runoff LATER to UNDETERMINED. Targeted pass 3 2026-10-02 (targeted3-F): wayback-data harvest: CDX failed for 2024_general (connection refused) and returned no captures for 2026_primary and 2026_runoff (target host was the dead seed domain hamiltoncountytx.org). Re-read hamiltoncountytx.gov/page/hamilton.elections and opened the election-day files '3-3-2026.pdf' (Last-Modified Wed, 04 Mar 2026 17:09:57 GMT) and '5-26-2026.pdf' (Last-Modified Thu, 28 May 2026 15:17:21 GMT): page images show 'Election Day Voting in Person' rosters (voter names), not results. No election-night results file exists on the page. Verifier disagreement on 2026_runoff is already resolved (both UNDETERMINED). No targeted archives, targeted Wayback or sweep file for this county on wayback-data. No result changed.",
+  "tag_rationale": "Results: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff UNDETERMINED. No election is determined, so the rule gives UNKNOWN. (Recomputed under Rule 43, 2026-10-02.)",
+  "agent": "research-4",
+  "method_version": "v2",
+  "sources": [
+    {
+      "url": "https://www.hamiltoncountytx.gov/page/hamilton.elections",
+      "via": "fetch_module",
+      "content_hash": "a0088532506867483fa1710a20df14bc8807aeba378ae6c230c19c60423a71a7",
+      "quote": "Joint Primary Official Results Precinct Summary; March 3 2026 Primary Official Results Summary; March 26 2026 Primary Runoff Official Results Precinct Summary; Unofficial Primary Runoff Results Report",
+      "supports": "Results files listed on the county Elections page"
+    },
+    {
+      "url": "https://www.hamiltoncountytx.gov/upload/page/8825/Unofficial%20Primary%20Runoff%20Results%20Report.pdf",
+      "via": "fetch_module",
+      "content_hash": "11c88cbe922a41490ba7f0de0c4d39f57b75a6322bd6b86c1b57a5b22110e54f",
+      "quote": "Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY RUNOFF ELECTION May 26, 2026 HAMILTON County",
+      "supports": "Runoff unofficial results are county totals, uploaded May 29"
+    },
+    {
+      "url": "https://www.hamiltoncountytx.gov/upload/page/8825/March%2026%202026%20Primary%20Runoff%20Official%20Results%20Precinct%20Summary.pdf",
+      "via": "fetch_module",
+      "content_hash": "0c75a476743d34ab23ddb5b43936dc821412dd642915f2a6720d0a55724ba20d",
+      "quote": "Last-Modified Mon, 29 Jun 2026 15:39:20 GMT (scanned, 4 pages)",
+      "supports": "Runoff precinct numbers posted at the official stage"
+    },
+    {
+      "url": "https://www.hamiltoncountytx.gov/upload/page/8825/Official%20Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "8a36b361b100b5816db3d40e6719ae7d735190b0159c77371d4f04ed7eef7168",
+      "quote": "Joint Primary Official Results Precinct Summary, Last-Modified Mon, 16 Mar 2026 16:02:49 GMT",
+      "supports": "Primary precinct numbers posted at the official stage only"
+    },
+    {
+      "url": "websearch:Hamilton County Texas election results 2026",
+      "via": "websearch",
+      "content_hash": "48e068c9c7dabb2673ce814ff20f1c097fa0d3374bc7e93d3dbe9ecc74ec9e62",
+      "quote": "Hamilton County, Texas https://www.hamiltoncountytx.gov/page/hamilton.elections",
+      "supports": "Located the current county site"
+    }
+  ],
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "No 2024 general results file on the county Elections page; the only canvass file is from Nov 2020. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "Only official files posted: 'Joint Primary Official Results Precinct Summary' (Last-Modified Mon, 16 Mar 2026 16:02:49 GMT) and 'March 3 2026 Primary Official Results Summary'; nothing shows what was posted on election night. Check 3 pending."
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "2026-06-29 10:39 CT (official, upload)",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.hamiltoncountytx.gov/upload/page/8825/Unofficial%20Primary%20Runoff%20Results%20Report.pdf",
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-05-29 09:32 CT (upload)). Previous: 'Unofficial Primary Runoff Results Report' = 'Texas Secretary of State Election Unofficial Results Report 2026 DEMOCRATIC PRIMARY RUNOFF ELECTION May 26, 2026 HAMILTON County' (county totals by vote method), Last-Modified Fri, 29 May 2026 14:32:56 GMT. Precinct numbers appear only in 'March 26 2026 Primary Runoff Official Results Precinct Summary', Last-Modified Mon, 29 Jun 2026 15:39:20 GMT, after election night."
+    }
+  }
+}

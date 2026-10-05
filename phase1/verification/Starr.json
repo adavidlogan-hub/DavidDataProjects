@@ -1,0 +1,70 @@
+{
+ "county": "Starr",
+ "reason_selected": "low confidence (after rule 43 normalization)",
+ "verifier_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections.Archive lists for November 5, 2024 only the Roma ISD and City of Roma elections (certificate of unopposed candidates); no county results file for the general election is posted. No wayback folder (check 3 unavailable)."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Elections.2026, 'Primary Election March 3, 2026': 'Unofficial PCT Report Summary' (2026 PRIMARY UNOFFICIAL PCT REPORT.pdf): 'Precinct Summary Results Report UNOFFICIAL RESULTS 2026 Primary Election ... PCT 1', per-precinct with Absentee/Early Voting/Election Day columns (REP US Senator, PCT 1: Gus Khan 4 total, 1 Election Day), printed 'Precinct Summary - 03/03/2026 10:01 PM' (CreationDate 2026-03-04 04:01:52 UTC). Companion summary printed 9:54 PM shows 'Election Day Precincts Reporting 14 of 14', so this is the final unofficial count. Caveat: Last-Modified Wed, 04 Mar 2026 16:54:23 GMT (10:54 AM CST Mar 4), so the surviving copy was uploaded the next morning; END rests on the printed run time.",
+   "rule_47_previous": {
+    "result": "END",
+    "check": "2"
+   },
+   "rule_47_note": "DECISIONS 47: a known later upload cannot show election-night publication; precinct report upload 2026-03-04 10:54 CT (Last-Modified 16:54:23 GMT) is after election night, so UNDETERMINED (facts unchanged)."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "'Unofficial Election Results Republican/Democratic' (2026/ELECTION-UNOFFICIAL-RESULT-REPORT_Rep.pdf, _Dem.pdf): 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY RUNOFF ELECTION ... STARR County', county totals by vote type (Ken Paxton 5 / 22 / 39 = 66), CreationDate 2026-05-27 02:21:37 UTC and 02:19:13 UTC (9:21 / 9:19 PM CDT election night); Last-Modified Wed, 24 Jun 2026 00:18 GMT. Precinct numbers appear only in 'Official Pct Summary Report Democratic' (printed 'Precinct Summary - 06/01/2026 9:55 AM'). Election-night evidence is the creation time only."
+  }
+ },
+ "rationale": "After DECISIONS 47: the primary precinct report (printed 10:01 PM) was uploaded the next morning, so the primary is UNDETERMINED; the runoff is LATER (SOS county totals generated about 9:20 PM, precinct report only on June 1); 2024 has no file. One determined election, so COUNTY_ONLY_PRECINCT_AT_CANVASS, low.",
+ "sources": [
+  {
+   "url": "https://www.co.starr.tx.us/page/Elections.2026",
+   "content_hash": "442f0cb224671a1bf7c06f18e909ea7702267a1b54faf20de197a30f8768419c",
+   "what_i_checked": "2026 results lists"
+  },
+  {
+   "url": "https://www.co.starr.tx.us/page/Elections.Archive",
+   "content_hash": "c023b0ed5a80dc2d7288d4405c2694cf08de6d463ac76cee2afb31476cabb477",
+   "what_i_checked": "no 2024 general county results"
+  },
+  {
+   "url": "https://www.co.starr.tx.us/upload/page/0119/docs/2026/March Primary/2026 PRIMARY UNOFFICIAL PCT REPORT.pdf",
+   "content_hash": "bb2062738b9c41c4ebc4b40fce1c3341e1f0d9ff24507405f8d6dccf93203fe7",
+   "what_i_checked": "precinct report printed 10:01 PM, uploaded 16:54 GMT Mar 4"
+  },
+  {
+   "url": "https://www.co.starr.tx.us/upload/page/0119/docs/2026/March Primary/2026 PRIMARY UNOFFICIAL SUMMARY RESULTS.pdf",
+   "content_hash": "5cc2a27012836855fdd6be6ce46098a27e3c285cf918eea4d0494bc4c2b03575",
+   "what_i_checked": "14 of 14 precincts at 9:54 PM"
+  },
+  {
+   "url": "https://www.co.starr.tx.us/upload/page/0119/2026/ELECTION-UNOFFICIAL-RESULT-REPORT_Rep.pdf",
+   "content_hash": "c25b8868d870a33deb88d062019a7b83e81625bc8433af3d815524d9dc978633",
+   "what_i_checked": "SOS county totals created 02:21 UTC May 27"
+  },
+  {
+   "url": "https://www.co.starr.tx.us/upload/page/0119/2026/DEM Official Pct summary report.pdf",
+   "content_hash": "45996702556696f0c0b6ee06b7fe2f6dd3bc2839b9c387e03f0e5961e7e56591",
+   "what_i_checked": "official precinct report printed 06/01/2026"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:54:15Z",
+ "research_tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "same (UNDETERMINED).",
+  "2026_primary": "different: research UNDETERMINED, mine END (check 2). Same files and facts: 'Unofficial PCT Report Summary' printed 'Precinct Summary - 03/03/2026 10:01 PM' with election-day votes and 14 of 14 election-day precincts; both summary and precinct report uploaded 2026-03-04 10:54 CT. Research treats the next-morning upload as when precinct numbers appeared (so nothing from election night survives); I count the printed run time on election night as election-night evidence, the same standard rule 43 and research apply to LATER county-totals files (for example research's Cass runoff and Hartley 2024, uploaded next day, are LATER on printed time). Not a missed file, so no correction under DECISIONS 44.",
+  "2026_runoff": "same (LATER, check 2). Research and I both rely on the SOS report generated about 9:20 PM CDT (upload 24 Jun 2026) and the official precinct report printed 06/01/2026.",
+  "rule_47": "rule 47 applied: results changed: 2026_primary now UNDETERMINED; tag/confidence/agree ('UNKNOWN', 'low', False) -> ('COUNTY_ONLY_PRECINCT_AT_CANVASS', 'low', True)."
+ }
+}

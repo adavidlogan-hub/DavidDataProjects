@@ -1,0 +1,577 @@
+{
+  "county": "Wood",
+  "check": "clarity_update_log",
+  "elections": {
+    "2024_general": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "122311",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "346102",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/346102/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346103",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/346103/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346105",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/346105/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346106",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/346106/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "346107",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/346107/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "10/7/2024 11:40:52 AM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "346108",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/346108/reports/detailxml.zip",
+              "content_hash": "2c17ae5048d21c2c29ffccab267f64646f66e0abe067bc64b0fe660bbff41351",
+              "election_night": false
+            },
+            {
+              "timestamp": "11/5/2024 7:38:43 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1231,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "351031",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351031/reports/detailxml.zip",
+              "content_hash": "fab7989af1d4071e294a68458f3c754925700f9ca00ff07e40cb66e5aab0885a",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:37:38 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1305,
+              "precincts_with_election_day_votes": 1,
+              "election_day_precinct_vote_sum": 2697,
+              "version": "351602",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351602/reports/detailxml.zip",
+              "content_hash": "93a7a8814a7e7e4bd969764794c8a5e9c71f3e5324a630adfda1155586732fbb",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 8:55:01 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1342,
+              "precincts_with_election_day_votes": 2,
+              "election_day_precinct_vote_sum": 6010,
+              "version": "351743",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351743/reports/detailxml.zip",
+              "content_hash": "3e1fe8d962bb0c34859f839a9021f414ebb3705f9c206323490a36b737c7a11b",
+              "election_night": true
+            },
+            {
+              "version": "351861",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351861/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "351887",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351887/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 9:08:56 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1343,
+              "precincts_with_election_day_votes": 2,
+              "election_day_precinct_vote_sum": 6010,
+              "version": "351897",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351897/reports/detailxml.zip",
+              "content_hash": "03c8a043d2414c506c2da0d43bf3af8291b156ca86ffcc41c6f382c114db5b7a",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:02:16 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1550,
+              "precincts_with_election_day_votes": 8,
+              "election_day_precinct_vote_sum": 42609,
+              "version": "352397",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/352397/reports/detailxml.zip",
+              "content_hash": "2f7c515b9c69bc31a6422bbf820ab54ee8d53b5857b997061602eabffb81c665",
+              "election_night": true
+            },
+            {
+              "version": "352494",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/352494/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "11/5/2024 10:17:34 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1550,
+              "precincts_with_election_day_votes": 8,
+              "election_day_precinct_vote_sum": 42609,
+              "version": "352521",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/352521/reports/detailxml.zip",
+              "content_hash": "eab21ca83dd05e96474e5a28a0295f293784bb4e7b38daa1a27de7031ae90e31",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/5/2024 10:59:19 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1795,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 77698,
+              "version": "352759",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/352759/reports/detailxml.zip",
+              "content_hash": "cd55a6db2cc60d81659ffb39d90ea52c73acab5945c72811ace6050984202151",
+              "election_night": true
+            },
+            {
+              "timestamp": "11/6/2024 4:01:51 PM CST",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1801,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 78568,
+              "version": "353543",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/353543/reports/detailxml.zip",
+              "content_hash": "ce938a2efd6f9d36715b506e1c72e135c6ea0f91ee266aed4b3cbc0417032604",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/5/2025 9:48:12 AM CDT",
+              "precincts_with_votes": 15,
+              "nonzero_precinct_vote_cells": 1801,
+              "precincts_with_election_day_votes": 15,
+              "election_day_precinct_vote_sum": 78568,
+              "version": "358125",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/122311/358125/reports/detailxml.zip",
+              "content_hash": "729b7d6b0b81bb978b83cabf003981a6a8711f647bdc4ece5ca3a01b04661635",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 7,
+          "election_night_updates_with_precinct_votes": 7,
+          "first_update_with_precinct_votes": {
+            "timestamp": "11/5/2024 7:38:43 PM CST",
+            "version": "351031",
+            "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351031/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 6,
+          "election_night_distinct_election_day_precinct_releases": 4,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "11/5/2024 8:37:38 PM CST",
+            "version": "351602",
+            "url": "https://results.enr.clarityelections.com/TX/Wood/122311/351602/reports/detailxml.zip"
+          },
+          "unreadable_versions": 8
+        }
+      ]
+    },
+    "2026_primary": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "125922",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "367794",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/367794/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "2/9/2026 3:05:40 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "367936",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/367936/reports/detailxml.zip",
+              "content_hash": "5f210f986ae94dcc3203dbaa2a5e43c77ccee99d60edae1a6331c813aa898fd0",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/9/2026 3:18:25 PM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "367938",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/367938/reports/detailxml.zip",
+              "content_hash": "5749e9dcdaf6add0454e7dfdd82b73c3cd249a1d52e83aa48edae15e9e82e0e3",
+              "election_night": false
+            },
+            {
+              "timestamp": "2/20/2026 10:06:20 AM CST",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368151",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368151/reports/detailxml.zip",
+              "content_hash": "1b6c2a49453065d87a81f9136ad2b5e9094402231a92f77e2449efa0c012983c",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/3/2026 7:22:48 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 4853,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368401",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368401/reports/detailxml.zip",
+              "content_hash": "ef2333769bde057195a4cd7c41f793cc47a17d64e2e7c9193f865b5a623c0982",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 7:31:17 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 4857,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368404",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368404/reports/detailxml.zip",
+              "content_hash": "125bf709de669777d65833cb253260c9d14db54d59f91f163fd28d1bcdd7f03b",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:13:47 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 4857,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "368470",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368470/reports/detailxml.zip",
+              "content_hash": "0977d7ac39e9d21a8ac720082365eeedb9004eb84e0706c831443b3109a1b123",
+              "election_night": true
+            },
+            {
+              "version": "368474",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368474/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 9:22:41 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 5680,
+              "precincts_with_election_day_votes": 12,
+              "election_day_precinct_vote_sum": 38424,
+              "version": "368477",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368477/reports/detailxml.zip",
+              "content_hash": "312026212f18514366aa4ff344c9671df65e4cd3f5485f433bf960e89047aae1",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:35:26 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 6110,
+              "precincts_with_election_day_votes": 13,
+              "election_day_precinct_vote_sum": 62917,
+              "version": "368486",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368486/reports/detailxml.zip",
+              "content_hash": "74ef045ef44c38be405ecb01ebe8ce5950176a5951770162a4fece1375655a1d",
+              "election_night": true
+            },
+            {
+              "version": "368495",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368495/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "368497",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368497/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "3/3/2026 9:53:37 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 6209,
+              "precincts_with_election_day_votes": 13,
+              "election_day_precinct_vote_sum": 73354,
+              "version": "368500",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368500/reports/detailxml.zip",
+              "content_hash": "b533d68e145cc927a7db35460ba56a0da655ba72c2a3bb142b85f4bd0addfc86",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 9:59:28 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 6400,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 102469,
+              "version": "368508",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368508/reports/detailxml.zip",
+              "content_hash": "ebd0ef83f9824f93f3fdb0f9560c07ba9a57d055fa703ab025dd602892d2c65b",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:08:19 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 6706,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 140336,
+              "version": "368513",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368513/reports/detailxml.zip",
+              "content_hash": "aa88545fb31f8cf01297d1452d3261357735fb1a203663e1915703cf2530d7fd",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:41:31 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 6798,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 145355,
+              "version": "368526",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368526/reports/detailxml.zip",
+              "content_hash": "4032f007c37ef536cc8e206c64d54a9b8914439eb2091cd176ed80fda7f2a37f",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 10:43:41 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 6893,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 153853,
+              "version": "368529",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368529/reports/detailxml.zip",
+              "content_hash": "47b1b492c90ff1eef4294208f8a81239a0b2837968473a4ce3923a8382f0157e",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/3/2026 11:07:20 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 7171,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 186347,
+              "version": "368542",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368542/reports/detailxml.zip",
+              "content_hash": "9a17d8fb76f5b6fd50192c7da15fd8148ca734766bdb77935c167b24dd21b746",
+              "election_night": true
+            },
+            {
+              "timestamp": "3/5/2026 11:28:54 AM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 7185,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 186347,
+              "version": "368619",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368619/reports/detailxml.zip",
+              "content_hash": "2122ef7cfb4d2c9bf4bd7a66ef2a64353a578155fb5b9c79fc864c41b6eaf1e8",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/6/2026 8:27:51 AM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 7185,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 186688,
+              "version": "368631",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368631/reports/detailxml.zip",
+              "content_hash": "cf628d213eb3ae4247fa5a7151119cc5907b652b8ede95d88fb079be03d079d9",
+              "election_night": false
+            },
+            {
+              "timestamp": "3/6/2026 12:24:34 PM CST",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 7185,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 186714,
+              "version": "368640",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368640/reports/detailxml.zip",
+              "content_hash": "d4b6c1a1f83c90c94c90e2ce1e878905751f12a60bfd8a1974d5538b19430f96",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 11,
+          "election_night_updates_with_precinct_votes": 11,
+          "first_update_with_precinct_votes": {
+            "timestamp": "3/3/2026 7:22:48 PM CST",
+            "version": "368401",
+            "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368401/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 8,
+          "election_night_distinct_election_day_precinct_releases": 8,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "3/3/2026 9:22:41 PM CST",
+            "version": "368477",
+            "url": "https://results.enr.clarityelections.com/TX/Wood/125922/368477/reports/detailxml.zip"
+          },
+          "unreadable_versions": 4
+        }
+      ]
+    },
+    "2026_runoff": {
+      "found": true,
+      "listings": [
+        {
+          "eid": "126370",
+          "name": "(EID supplied from a link; check Region and ElectionDate)",
+          "updates": [
+            {
+              "version": "371744",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/371744/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "version": "371776",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/371776/reports/detailxml.zip",
+              "error": "HTTP 404"
+            },
+            {
+              "timestamp": "5/19/2026 7:18:16 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372160",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/372160/reports/detailxml.zip",
+              "content_hash": "6254be8959787dc11470d63d6488d537e5ceeda969dbbe0d6ad476af856510c7",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/22/2026 6:56:39 PM CDT",
+              "precincts_with_votes": 0,
+              "nonzero_precinct_vote_cells": 0,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372666",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/372666/reports/detailxml.zip",
+              "content_hash": "98003275cc0d5406bf26b09e8ab3730f2274992eb5ee0594cfe1a7ba1bc7cdde",
+              "election_night": false
+            },
+            {
+              "timestamp": "5/26/2026 7:06:03 PM CDT",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 344,
+              "precincts_with_election_day_votes": 0,
+              "election_day_precinct_vote_sum": 0,
+              "version": "372933",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/372933/reports/detailxml.zip",
+              "content_hash": "fdc8cce6085d31a2b35391821c60b662ee0ab279424607d99febcbaab056716a",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:29:33 PM CDT",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 366,
+              "precincts_with_election_day_votes": 7,
+              "election_day_precinct_vote_sum": 68,
+              "version": "372978",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/372978/reports/detailxml.zip",
+              "content_hash": "73635d65474ea2b0b72a56d0c797ef822eafde21ae67ce680852b2236213d4d9",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 8:47:15 PM CDT",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 386,
+              "precincts_with_election_day_votes": 9,
+              "election_day_precinct_vote_sum": 1055,
+              "version": "372989",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/372989/reports/detailxml.zip",
+              "content_hash": "67a17112f0af25b389664356410282680056ed482b5720a9e0d088e9979468a3",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:06:24 PM CDT",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 394,
+              "precincts_with_election_day_votes": 9,
+              "election_day_precinct_vote_sum": 1987,
+              "version": "373006",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/373006/reports/detailxml.zip",
+              "content_hash": "825d72647bbb7ae3b7cabb268f99f09b73ed165b472a1c3e26560aa6f76ea46a",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:26:33 PM CDT",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 428,
+              "precincts_with_election_day_votes": 12,
+              "election_day_precinct_vote_sum": 4102,
+              "version": "373018",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/373018/reports/detailxml.zip",
+              "content_hash": "99f78694eb26dc1730bb2d2d55b47d8214b956f9f73ca116ea40798d57aa7d1b",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 9:55:49 PM CDT",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 455,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 6858,
+              "version": "373034",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/373034/reports/detailxml.zip",
+              "content_hash": "5edb4808445f987cf54240bf0cf4a48aa61a415ade790d0a728b5113049bb78f",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 10:31:44 PM CDT",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 490,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 8136,
+              "version": "373042",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/373042/reports/detailxml.zip",
+              "content_hash": "1c20170e36a3fe80fffe1ac822bae11d8f3c9707284a3aaeacb6dd6905ab4718",
+              "election_night": true
+            },
+            {
+              "timestamp": "5/26/2026 11:21:24 PM CDT",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 510,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 9927,
+              "version": "373056",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/373056/reports/detailxml.zip",
+              "content_hash": "034ef0e789d3305828f89dbbde239059d0acc4d76b39d23dfe31b82c6712b648",
+              "election_night": true
+            },
+            {
+              "timestamp": "6/4/2026 10:41:46 AM CDT",
+              "precincts_with_votes": 14,
+              "nonzero_precinct_vote_cells": 510,
+              "precincts_with_election_day_votes": 14,
+              "election_day_precinct_vote_sum": 9965,
+              "version": "374184",
+              "url": "https://results.enr.clarityelections.com/TX/Wood/126370/374184/reports/detailxml.zip",
+              "content_hash": "8479d2f8e164837c51a67e866db6bfb4646a00360cf935d5b44b6f2aeb2ea2b1",
+              "election_night": false
+            }
+          ],
+          "election_night_updates": 8,
+          "election_night_updates_with_precinct_votes": 8,
+          "first_update_with_precinct_votes": {
+            "timestamp": "5/26/2026 7:06:03 PM CDT",
+            "version": "372933",
+            "url": "https://results.enr.clarityelections.com/TX/Wood/126370/372933/reports/detailxml.zip"
+          },
+          "election_night_updates_with_election_day_precinct_votes": 7,
+          "election_night_distinct_election_day_precinct_releases": 7,
+          "first_update_with_election_day_precinct_votes": {
+            "timestamp": "5/26/2026 8:29:33 PM CDT",
+            "version": "372978",
+            "url": "https://results.enr.clarityelections.com/TX/Wood/126370/372978/reports/detailxml.zip"
+          },
+          "unreadable_versions": 2
+        }
+      ]
+    }
+  },
+  "eid_overrides": {
+    "2024_general": "122311",
+    "2026_primary": "125922",
+    "2026_runoff": "126370"
+  }
+}

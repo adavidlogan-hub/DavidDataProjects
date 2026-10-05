@@ -1,0 +1,77 @@
+{
+ "county": "Collin",
+ "reason_selected": "tag changed in targeted pass 2 (UNKNOWN to PRECINCT_END_OF_NIGHT)",
+ "verifier_tag": "PRECINCT_END_OF_NIGHT",
+ "verifier_confidence": "low",
+ "elections": {
+  "2024_general": {
+   "result": "END",
+   "check": "2",
+   "fact": "No Clarity site. Archived report PDF (phase1/pdf_probe.py output, origin/wayback-data phase1/targeted/pdfs/index.json): 'November 5, 2024 Statement of Votes Cast--Unofficial Final.pdf', Wayback capture 20241106132230 (2024-11-06 07:22 CST, after election night). Archive's record of the original server header orig_last_modified 'Wed, 06 Nov 2024 07:18:16 GMT' = 2024-11-06 01:18:16 CST (on election night). CreationDate D:20241106003918-06'00' (12:39 AM CST), printed '11/06/2024 12:37 AM', Creator 'JasperReports (/Precinct Summary)'. Decoded page header (glyph code + 0x1C): 'Summary Results Report', 'General and Special Election', 'November 5th, 2024', 'SOVC', '117 of 117 Voter Centers Reporting', 'Collin County UNOFFICIAL RESULTS', 'PCT 001'; plain text that follows: 'Ballots Cast - Total 1,912 246 1,610 56 0' under 'TOTAL Election Day Early Voting Ballot by mail Limited', and 'Rep Donald J. Trump/JD Vance 1,032 54.26% 119 886 27 0', i.e. precinct candidate votes including Election Day. Upload time and printed time both on election night. Only one election-night precinct report is known (the 'Combined Election Day and Early Ballots--Accumulated Totals-Unofficial Final' PDF, orig_last_modified 06:40:17 GMT = 00:40 CST, printed 12:24 AM, is a county summary with no PCT pages; the early ballots accumulated totals PDF, orig_last_modified 01:00:27 GMT = 7:00 PM CST Nov 5, printed 6:45 PM, also a summary). One release with the final unofficial count: END. Election-night Wayback captures of the county elections pages (20:26 to 03:49 CST) are navigation pages only, no results content."
+  },
+  "2026_primary": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "No election-night report file survives. Wayback CDX for the county docs prefix 'march-3-2026---primary-election---' returned no captures (pdf probe run 2eced0a); main and targeted wayback harvests have zero 2026_primary captures. Live Results Archive lists only official files ('March 3, 2026 - Primary Election - Precinct Results Report - Official Totals', CreationDate 2026-03-11 16:48 UTC, ModDate 2026-04-15, 'FINAL RESULTS') and a scanned 'Preliminary Election Reconciliation - Unofficial Totals' (ScandAll PRO scan, CreationDate 2026-03-04 02:31 CST) that is a ballot reconciliation form, not candidate totals. The server sends no Last-Modified header for these files. No election-night county totals and no election-night precinct report: UNDETERMINED."
+  },
+  "2026_runoff": {
+   "result": "UNDETERMINED",
+   "check": "none",
+   "fact": "Archived 'May 26, 2026 - Primary Runoff Election - Election Night Summary Report - Unofficial Final' PDF (capture 20260527121539, saved 20260527121539_6cfa22749528.pdf, sha256 2fcb52df...): Creator 'JasperReports (/Election Summary)', CreationDate D:20260526225944-05'00', printed '10:58 PM', 'UNOFFICIAL RESULTS 53 of 53 Vote Centers Reporting Collin County'; county totals only ('Precinct' appears only in office names). orig_last_modified is null (no upload time), so printed 10:58 PM May 26 is the election-night time for county totals. The county results page captured 2026-05-27 07:17:36 CDT (after election night) links 'may-26-2026---primary-runoff-election---election-night-precinct-report---unofficial-final.pdf?sfvrsn=30e1b419_4'; that file has no Wayback capture (CDX prefix returned only the summary) and returns HTTP 404 live today, so it has no printed or upload time. A title is not a time: END cannot be shown, and LATER cannot be shown because there is no evidence precinct numbers were absent on election night (the precinct report existed by 07:17 the next morning and may have been posted that night). Live archive now has only official runoff files (precinct report CreationDate 2026-06-02). UNDETERMINED."
+  }
+ },
+ "rationale": "Only 2024_general is determined (END, from check 2: archived precinct-by-precinct SOVC Unofficial Final PDF with server Last-Modified 2024-11-06 01:18 CST and printed 12:37 AM, both on election night). 2026_primary and 2026_runoff are UNDETERMINED. Exactly one election determined: PRECINCT_END_OF_NIGHT, confidence low.",
+ "sources": [
+  {
+   "url": "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20Statement%20of%20Votes%20Cast--Unofficial%20Final.pdf",
+   "content_hash": "f0608a760ad6bd65d244a374251bd52f8568b7115954355808c31c4449b2ea39",
+   "what_i_checked": "origin/wayback-data phase1/targeted/pdfs/index.json (latest, commit 31d5721): capture 20241106132230, orig_last_modified Wed, 06 Nov 2024 07:18:16 GMT, CreationDate D:20241106003918-06'00', printed 11/06/2024 12:37 AM, decoded header 'SOVC', '117 of 117 Voter Centers Reporting', 'PCT 001', precinct candidate votes split by Election Day."
+  },
+  {
+   "url": "https://www.collincountytx.gov/Elections/ElectionResults/November%205,%202024%20Combined%20Election%20Day%20and%20Early%20Ballots--Accumulated%20Totals-Unofficial%20Final.pdf",
+   "content_hash": "10f61882bdb103c24815689c43d382b5b9eec4ab753455e03186641208080a79",
+   "what_i_checked": "pdf probe run 2eced0a: orig_last_modified Wed, 06 Nov 2024 06:40:17 GMT, printed 12:24 AM; opened saved 20241106223208_8828ee08c6d4.pdf: county summary 'Combined Accumulated Totals 117 of 117 Vote Centers Reporting', no PCT pages."
+  },
+  {
+   "url": "https://www.collincountytx.gov/docs/default-source/elections/election-results/may-26-2026---primary-runoff-election---election-night-summary-report---unofficial-final.pdf?sfvrsn=348e0d26_4",
+   "content_hash": "2fcb52dffaeb7e20d804407bc9662ad15eef917eef8d5cf10bf0f6c7bf7b8aef",
+   "what_i_checked": "Opened saved 20260527121539_6cfa22749528.pdf: county summary, printed 10:58 PM, CreationDate 2026-05-26 22:59:44 CDT, no orig_last_modified."
+  },
+  {
+   "url": "https://www.collincountytx.gov/elections/election-results",
+   "content_hash": "80e0f67d9e25 (Wayback capture 20260527121736, phase1/targeted/wayback/Collin/2026_runoff_20260527121736_80e0f67d9e25.html)",
+   "what_i_checked": "Runoff results page at 2026-05-27 07:17 CDT links the election-night precinct report, summary, early voting summary and preliminary reconciliation PDFs; capture is after election night."
+  },
+  {
+   "url": "https://www.collincountytx.gov/docs/default-source/elections/election-results/may-26-2026---primary-runoff-election---election-night-precinct-report---unofficial-final.pdf?sfvrsn=30e1b419_4",
+   "content_hash": "a560a7f0de4772ea05d2925352f51d58ba595300513bd93e3bcb4916228b99e2",
+   "what_i_checked": "Live fetch: HTTP 404. Not in Wayback CDX."
+  },
+  {
+   "url": "https://www.collincountytx.gov/elections/election-results-archive",
+   "content_hash": "9445b285aff65052856dc958ac6075a0fb48d8fec83026221887f5fa5498a2f7",
+   "what_i_checked": "Live Results Archive: only official or reconciliation files for March 3 and May 26, 2026; November 5, 2024 official files."
+  },
+  {
+   "url": "https://www.collincountytx.gov/docs/default-source/elections/results-archive/march-3-2026-primary-election-precinct-report-official-final.pdf?sfvrsn=6a9728bc_11",
+   "content_hash": "8dd2367e96f3ff2466d9e8b9f02174a0dcee13085d2e5d5da76e8953daec6c29",
+   "what_i_checked": "Official precinct report, CreationDate 2026-03-11 16:48 UTC, no Last-Modified header."
+  },
+  {
+   "url": "https://www.collincountytx.gov/docs/default-source/elections/results-archive/march-3-2026-preliminary-election-reconciliation-unofficial-totals.pdf?sfvrsn=24b59b32_7",
+   "content_hash": "e9acb7c798d16b156d600c650824fc468f229f0488947ec76cf63535394cb155",
+   "what_i_checked": "Scanned reconciliation form, CreationDate 2026-03-04 02:31 CST; not candidate totals."
+  },
+  {
+   "url": "https://www.collincountytx.gov/docs/default-source/elections/results-archive/may-26-2026---primary-runoff---precinct-report---final-all-races.pdf?sfvrsn=bfb8f27c_11",
+   "content_hash": "559fcc4c1b697bbfc94500c380bd3fbe7662c3696a6c4cfd766786e3eab08c31",
+   "what_i_checked": "Official runoff precinct report, CreationDate 2026-06-02 16:07 CDT."
+  },
+  {
+   "url": "git origin/wayback-data phase1/wayback_snapshots/Collin/index.json and phase1/targeted/wayback/Collin/index.json",
+   "content_hash": "",
+   "what_i_checked": "2024 election-night captures 20:26 to 03:49 CST are elections navigation pages (Livestreams, absentee, default.aspx) with no results content; zero 2026_primary captures; one 2026_runoff night capture (voter registration page, 23:27 CDT) with no results."
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T21:52:03Z"
+}

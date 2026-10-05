@@ -1,0 +1,82 @@
+{
+  "county": "Collin",
+  "generated_utc": "2026-10-02T21:28:06Z",
+  "lookups": [
+    {
+      "url": "https://www.collincountytx.gov/elections/election-results",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.collincountytx.gov/elections/election-results",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.collincountytx.gov/elections/election-results",
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
+          "mementos": []
+        }
+      }
+    },
+    {
+      "url": "https://www.collincountytx.gov/elections/election-results-archive",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.collincountytx.gov/elections/election-results-archive",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.collincountytx.gov/elections/election-results-archive",
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
+          "mementos": []
+        }
+      }
+    },
+    {
+      "url": "https://www.collincountytx.gov/Elections/Pages/default.aspx",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.collincountytx.gov/Elections/Pages/default.aspx",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.collincountytx.gov/Elections/Pages/default.aspx",
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
+          "mementos": []
+        }
+      }
+    },
+    {
+      "url": "https://www.collincountytx.gov/elections/election_results/Pages/default.aspx",
+      "sources": {
+        "memento_aggregator": {
+          "timemap": "https://timetravel.mementoweb.org/timemap/link/https://www.collincountytx.gov/elections/election_results/Pages/default.aspx",
+          "ok": false,
+          "error": "robots_disallowed_or_unreachable",
+          "content_hash": null,
+          "mementos": []
+        },
+        "archive_today": {
+          "timemap": "https://archive.ph/timemap/https://www.collincountytx.gov/elections/election_results/Pages/default.aspx",
+          "ok": true,
+          "error": null,
+          "content_hash": "130e7544882e2a9290f9d7402992c88d713826e44ab4178940e654fcdfa1aef1",
+          "mementos": []
+        }
+      }
+    }
+  ]
+}

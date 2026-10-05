@@ -1,0 +1,93 @@
+{
+ "county": "Bexar",
+ "reason_selected": "tag LIVE_PRECINCT",
+ "verifier_tag": "LIVE_PRECINCT",
+ "verifier_confidence": "high",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "fact": "Clarity elections.json is empty and no 2024 Clarity link was found; county Historical page (elections.bexar.gov/35/Historical) lists for Nov 5 2024 only official precinct report, official summary, CVR and an unofficial reconciliation report; no election-night county totals or precinct file. Wayback index for Bexar has no captures."
+  },
+  "2026_primary": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 125927 from the Wikipedia page \"2026 Bexar County elections\" (link results.enr.clarityelections.com/TX/Bexar/125927/...); detail.xml shows Region Bexar, ElectionName 2026 Joint Primary Election, ElectionDate 3/3/2026. Opened v368397 (3/3/2026 7:17:07 PM CST, no Election Day precinct cell) and v368523 (10:33:19 PM CST, DEM United States Senator, Election Day, <Precinct name=\"1003\" votes=\"1\" />, 654 precincts). 3 distinct night releases (v368523, v368551 11:42 PM, v368575 1:26 AM)."
+  },
+  "2026_runoff": {
+   "result": "LIVE",
+   "check": "1",
+   "fact": "EID 126369 from the same Wikipedia page; detail.xml Region Bexar, ElectionName 2026 Joint Primary Runoff, ElectionDate 5/26/2026. Opened v372940 (7:18:42 PM CDT, no Election Day precinct cell) and v373019 (9:29:56 PM CDT, REP United States Senator, Election Day, <Precinct name=\"1002\" votes=\"6\" />). 4 distinct night releases through v373059 (11:31:58 PM)."
+  }
+ },
+ "rationale": "Primary and runoff settled by check 1 (Clarity update logs) as LIVE; 2024 undetermined. Two LIVE results give LIVE_PRECINCT.",
+ "sources": [
+  {
+   "url": "https://elections.bexar.gov/",
+   "content_hash": "da8fd1c6a6b7c15e292a2e1da9429d21aa9cd7b09b4cc884dafd0294f39548fb",
+   "what_i_checked": "county home links only the current Clarity election 127291"
+  },
+  {
+   "url": "https://elections.bexar.gov/35/Historical",
+   "content_hash": "50fa10a083a3120d2662316d1a30c60b49671ae8e142552af4d8a4becbb25141",
+   "what_i_checked": "report list per election (2024 and 2026 files are official or reconciliation reports)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_Bexar_County_elections",
+   "content_hash": "16d75c4c4e16b499165f83c68b24463751403be740fd63c2f610bc84190b0d16",
+   "what_i_checked": "source of Clarity links 125927 and 126369"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368397/reports/detailxml.zip",
+   "content_hash": "899d667cf13845f6042c30afef53d4c46ba04a323907e2358ce7457930fc184a",
+   "what_i_checked": "first primary night update"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bexar/125927/368523/reports/detailxml.zip",
+   "content_hash": "47048f02e3d5c9f40c59fa4ba478990c2f80173d0a2eb8361de7272b6c7b95c5",
+   "what_i_checked": "first primary update with Election Day precinct votes"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/372940/reports/detailxml.zip",
+   "content_hash": "bf8d829f7fdd2eecfd324e758ed6f34c220ccd364e8282b5e35b8616dfb8e22a",
+   "what_i_checked": "first runoff night update"
+  },
+  {
+   "url": "https://results.enr.clarityelections.com/TX/Bexar/126369/373019/reports/detailxml.zip",
+   "content_hash": "5a84befb5a9ce1be053e662ce40e717db25b2d724bbc13ea02bce4ba8720d20e",
+   "what_i_checked": "first runoff update with Election Day precinct votes"
+  },
+  {
+   "url": "websearch:results.enr.clarityelections.com/TX/Bexar",
+   "content_hash": "de1c2db139adbfcf72e87c86e6c345e4fb7967fcfe9bb54ee9db545c07f73e63",
+   "what_i_checked": "search used to locate Clarity links"
+  }
+ ],
+ "written_blind_at_utc": "2026-10-02T16:25:05Z",
+ "research_tag": "LIVE_PRECINCT",
+ "agree": true,
+ "comparison_notes": {
+  "2024_general": "different: research LATER from home.bexar.org/el45a.html (county-total summary, Vote Center 302 of 302, Last-Modified on election night); verifier did not find that page and recorded UNDETERMINED. Verifier opened the cited page afterwards: it is an UNOFFICIAL Summary Results Report with county totals, so the research claim is supported. Tag unaffected. blind miss corrected after opening https://home.bexar.org/el45a.html myself.",
+  "2026_primary": "same (LIVE, check 1, EID 125927; verifier found the EID independently via Wikipedia).",
+  "2026_runoff": "same (LIVE, check 1, EID 126369)."
+ },
+ "blind_verdict": {
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "agree": true,
+  "elections": {
+   "2024_general": {
+    "result": "UNDETERMINED",
+    "check": "none"
+   },
+   "2026_primary": {
+    "result": "LIVE",
+    "check": "1"
+   },
+   "2026_runoff": {
+    "result": "LIVE",
+    "check": "1"
+   }
+  }
+ }
+}

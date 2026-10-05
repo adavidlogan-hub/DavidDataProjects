@@ -1,0 +1,76 @@
+{
+  "county": "Travis",
+  "reason_selected": "tag LIVE_PRECINCT",
+  "verifier_tag": "LIVE_PRECINCT",
+  "verifier_confidence": "high",
+  "elections": {
+    "2024_general": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 122432 (listed in Travis elections.json; votetravis.gov links results.enr.clarityelections.com/TX/Travis/). Opened v350897 (Timestamp 11/5/2024 7:19:02 PM CST): nonzero precinct votes only under Ballot by Mail, Early Voting, EV Provisional (no Election Day precinct votes). Opened v352313 (Timestamp 11/5/2024 9:51:06 PM CST): VoteType Election Day has 20256 nonzero precinct cells over 285 precincts, e.g. President / Vice President, Donald J. Trump, Election Day <Precinct name=\"100\" votes=\"71\" />. Election Day precinct votes appear in 5 night updates (9:51 PM, 10:53 PM, 11:31 PM, 12:35 AM, 2:25 AM), cells rising 20256 to 21993."
+    },
+    "2026_primary": {
+      "result": "LIVE",
+      "check": "1",
+      "fact": "Clarity EID 125931. Opened v368463 (Timestamp 3/3/2026 9:01:03 PM CST): early and mail precinct votes only, e.g. DEM United States Senator, Ahmad R. Hassan, Early Voting <Precinct name=\"101\" votes=\"1\" />. Opened v368520 (Timestamp 3/3/2026 10:19:27 PM CST): DEM United States Senator, Ahmad R. Hassan, VoteType Election Day votes=219, <Precinct name=\"100\" votes=\"1\" />. Election Day precinct votes in 3 night updates (10:19 PM, 11:19 PM, 12:21 AM), 44650 to 50783 nonzero cells."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "1",
+      "fact": "Clarity EID 126357. 5 night updates (7:48 PM to 12:04 AM). Opened v373064 (Timestamp 5/27/2026 12:04:57 AM CDT): every Precinct value is votes=\"protected\" (26785 precinct cells), totalVotes also protected in detail.xml, while summary.json for the same version shows county totals (DEM Lieutenant Governor V [7805, 45748]). Opened v373136 (Timestamp 5/27/2026 12:32:52 PM CDT, after election night): DEM Lieutenant Governor, Marcos Isaias Velez, Election Day votes=3365, <Precinct name=\"100\" votes=\"7\" />. County totals on election night; precinct numbers first published the next day (published online after election night)."
+    }
+  },
+  "rationale": "LIVE in 2024_general and 2026_primary (two of three elections, check 1), LATER in 2026_runoff because precinct values were protected on election night. Two elections share LIVE, so LIVE_PRECINCT; settled by check 1, so high.",
+  "sources": [
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/122432/350897/reports/detailxml.zip",
+      "content_hash": "03f71569b21ff6c17fc05519419ff1b878fe0289061a9d20fec42a21f03b2545",
+      "what_i_checked": "Timestamp and vote types; first night update, early-only precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/122432/352313/reports/detailxml.zip",
+      "content_hash": "e2e59f4373f9d537607dd93ac5ceff9e560c76e9fc780bd0a78f2f8edfc6875d",
+      "what_i_checked": "Timestamp 9:51 PM, Election Day precinct votes nonzero"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368463/reports/detailxml.zip",
+      "content_hash": "bdddcb1391d02edeff2959cfa240f0ad1ed6ff82ab1e51ff6f2376f9201322a3",
+      "what_i_checked": "Timestamp 9:01 PM, early-only precinct votes"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/125931/368520/reports/detailxml.zip",
+      "content_hash": "623db2c2317f903079c015db5a71943f31bc5cb2c2d611affb8023368a4869ef",
+      "what_i_checked": "Timestamp 10:19 PM, Election Day precinct votes nonzero"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373064/reports/detailxml.zip",
+      "content_hash": "2dd483140fee82084f285ee0c8b753cc4b4ede563c8e9039df4734ed6741af84",
+      "what_i_checked": "last night update, all precinct values protected"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373064/json/en/summary.json",
+      "content_hash": "652bc5288e6fd3ef4aa9db5eced5953fa43ddfbba468484dbeee336c4d5dc993",
+      "what_i_checked": "county totals present on runoff night"
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/TX/Travis/126357/373136/reports/detailxml.zip",
+      "content_hash": "2f9f806f2e5dd0a2d55e54f6ac4ce7676e48ce3bfcdcb4339248e4b1c5a3f5c0",
+      "what_i_checked": "first precinct votes, 5/27 12:32 PM"
+    },
+    {
+      "url": "https://votetravis.gov/current-election-information/election-results-and-reconciliation-forms/",
+      "content_hash": "f7ef58c2a5ee5a9f0e3bb0d10a968ba3511453bc01b239da0484b4adeaa82726",
+      "what_i_checked": "county links Clarity for election night results; no separate 2024 to 2026 election night precinct files listed"
+    }
+  ],
+  "written_blind_at_utc": "2026-10-02T15:18:13Z",
+  "research_tag": "LIVE_PRECINCT",
+  "agree": true,
+  "comparison_notes": {
+    "2024_general": "same (LIVE, check 1). Both read election-day precinct votes first at 9:51 PM CST in v352313 and five night updates with election-day votes. Research precinct_first_seen 19:19 CT is the early and mail only update; consistent with its own note.",
+    "2026_primary": "same (LIVE, check 1). Both: 9:01 PM early only, election-day precinct votes at 10:19 PM, 11:19 PM, 12:21 AM.",
+    "2026_runoff": "same (LATER, check 1). Both: night precinct values 'protected', summary.json county totals (12:04 AM v373064 V [7805, 45748] confirmed by me), precinct numbers first 5/27/2026 12:32 PM CDT. Research's 7:51 PM summary.json value [4404, 28200] (v372949) and its json/ALL.json quote were not opened by me.",
+    "unsupported_or_unchecked": "Research Election Day 'precinct sums' (541732, 1478212 etc.) are vote sums; I counted nonzero cells, not sums, so those numbers are unchecked but the direction (rising through the night) matches."
+  },
+  "compared_at_utc": "2026-10-02T15:18:52Z"
+}

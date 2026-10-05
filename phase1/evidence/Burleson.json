@@ -1,0 +1,79 @@
+{
+  "county": "Burleson",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.burlesoncountytx.gov/page/gov.election.results",
+  "platform": "county_pdfs",
+  "host": "www.burlesoncountytx.gov",
+  "evidence_url": "https://www.burlesoncountytx.gov/page/open/2922/0/Unofficial%20Results%202026%20Primary%20Runoff.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed co.burleson.tx.us redirects to www.burlesoncountytx.gov. No Clarity site (elections.json 404). The Election Results page links an 'ENR Public Portal' (results.texas-election.com/races), which returns a Cloudflare 'Just a moment...' challenge (HTTP 403) to the fetch module, so its contents and any update history could not be read; it also links the SOS results site. County-posted files are served by a handler that sends no Last-Modified, so only printed run times and scan times are available. The posted unofficial files for the 2026 primary and runoff are scanned Hart 'Cumulative Results Report' county totals (plus SOS unofficial reports for the primary); the only other result files are 'Official results'. The Election Results page lists nothing for the 2024 general; check 3 pending for it (wayback-data branch not found on origin).",
+  "tag_rationale": "2026 primary and 2026 runoff are both LATER (county totals only in the posted unofficial files, nothing at precinct level until official results), so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence low because there are no upload times and the ENR portal could not be read.",
+  "agent": "research-1",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "The Election Results page lists no 2024 general files. Check 3 pending."
+    },
+    "2026_primary": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-03-03 21:16 CT (printed run time; scan created 23:42)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.burlesoncountytx.gov/page/open/2806/0/Cumulative%20Results%20Report.pdf",
+      "fact": "'Cumulative Results Report.pdf' = scanned 'Cumulative Results Report BURLESON COUNTY, TEXAS Unofficial Results ELECTION RESULTS PRIMARY ELECTION 3/3/2026 Run Time 9:16 PM Run Date 03/03/2026 Precincts Reporting 13 of 13' (county totals); PDF CreationDate Wed Mar 4 05:42:05 2026 UTC. Also posted: SOS 'DEM/REP ELECTION-UNOFFICIAL-RESULT-REPORT' (county totals) and '2026 March Primary Official results'."
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 20:32 CT (printed run time; scan created 21:12)",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "https://www.burlesoncountytx.gov/page/open/2922/0/Unofficial%20Results%202026%20Primary%20Runoff.pdf",
+      "fact": "'Unofficial Results 2026 Primary Runoff.pdf' = scanned 'Cumulative Results Report BURLESON COUNTY, TEXAS Unofficial Results ELECTION RESULTS PRIMARY RUNOFF ELECTION 5/26/2026 Run Time 8:32 PM Run Date 05/26/2026' (county totals); PDF CreationDate Wed May 27 02:12:54 2026 UTC. Only other runoff results file is 'Offical Results 2026 Primary Runoff.pdf'."
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.burlesoncountytx.gov/page/gov.election.results",
+      "via": "fetch_module",
+      "quote": "ENR Public Portal; Unofficial Results 2026 Primary Runoff.pdf; Offical Results 2026 Primary Runoff.pdf; Cumulative Results Report.pdf; 2026 March Primary Official results.pdf",
+      "supports": "County-posted report list",
+      "content_hash": "97480d16d34885f595c73557a4d8d01e29dc3ba8737e99824df69f59ac362b80"
+    },
+    {
+      "url": "https://www.burlesoncountytx.gov/page/open/2922/0/Unofficial%20Results%202026%20Primary%20Runoff.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report BURLESON COUNTY, TEXAS Unofficial Results ... PRIMARY RUNOFF ELECTION ... Run Time 8:32 PM",
+      "supports": "Runoff election-night county totals (scan)",
+      "content_hash": "7e5cd4642cde599b7c44ba2fe98340e742ec2992e4a4b3df4718f8563802aa68"
+    },
+    {
+      "url": "https://www.burlesoncountytx.gov/page/open/2806/0/Cumulative%20Results%20Report.pdf",
+      "via": "fetch_module",
+      "quote": "Cumulative Results Report BURLESON COUNTY, TEXAS Unofficial Results ... PRIMARY ELECTION ... Run Time 9:16 PM",
+      "supports": "Primary election-night county totals (scan)",
+      "content_hash": "cbc675331d104ecc0172d23ca25c1610d24084d46dfa7dcb416da7d6cbf0bdd4"
+    },
+    {
+      "url": "https://results.texas-election.com/races",
+      "via": "fetch_module",
+      "content_hash": "79c7447328979409646a81d04f155570282fb21aafaa0b0741cc372df389a5a8",
+      "quote": "<title>Just a moment...</title>",
+      "supports": "ENR portal behind Cloudflare challenge"
+    }
+  ]
+}

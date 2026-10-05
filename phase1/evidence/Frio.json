@@ -1,0 +1,79 @@
+{
+  "county": "Frio",
+  "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://www.co.frio.tx.us/page/elect.home",
+  "platform": "county_pdfs",
+  "host": "www.co.frio.tx.us",
+  "evidence_url": "https://www.co.frio.tx.us/upload/page/0099/NewFolder%20A/NewFolder/DOC052626-006.pdf",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed URL (http default.aspx) was not used; https://www.co.frio.tx.us/page/frio.Elections returned HTTP 403, but the home page links /page/elect.home, which lists scanned results PDFs. No Clarity site (elections.json 404). 2024 general: 'UNOFFICAL RESULTS' is a scanned Texas Secretary of State 'Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION FRIO County' (county totals), Last-Modified Fri, 08 Nov 2024 15:09:05 GMT; then 'CANVASS REPORT'. 2026 primary: 'Unofficial Primary March 3, 2026, Republican' is an SOS-format county-total report, Last-Modified Wed, 04 Mar 2026 14:03:17 GMT (8:03 AM CST next morning); then Democratic and Republican Primary Canvass reports. 2026 runoff: 'Unofficial Democratic' / 'Unofficial Republican' both link to DOC052626-006.pdf, an Electionware 'Election Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Frio County, Texas' (county totals, 'Election Day Precincts Reporting 9 of 9'), Last-Modified Wed, 27 May 2026 02:19:50 GMT (9:19 PM CDT election night); then a Democratic Primary Runoff Canvass Report. No unofficial precinct-level report is posted for any of the three elections; precinct numbers, if any, are only in the canvass reports (not opened). The scanner CreationDate on the runoff file (03:18 UTC) is later than its upload time, so the scanner clock is not reliable. Check 3 pending (origin/wayback-data not present). Rule 43 applied 2026-10-02 (normalize-3): 2024_general LATER to UNDETERMINED; 2026_primary LATER to UNDETERMINED.",
+  "tag_rationale": "After Rule 43: 2024_general UNDETERMINED, 2026_primary UNDETERMINED, 2026_runoff LATER. Exactly one election is determined, so the tag is COUNTY_ONLY_PRECINCT_AT_CANVASS with low confidence.",
+  "agent": "research-3",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.frio.tx.us/upload/page/0099/NewFolder/DOC110824-001.pdf",
+      "fact": "Rule 43: no election-night file survives (earliest time 2024-11-08 09:09 CT). Previous: 'UNOFFICAL RESULTS': 'Texas Secretary of State Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 FRIO County' with Early Voting By Mail, In Person, Election Day Count, Total Votes (county totals); Last-Modified Fri, 08 Nov 2024 15:09:05 GMT. Next listed: 'CANVASS REPORT'.",
+      "precinct_first_seen": ""
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.frio.tx.us/upload/page/0099/NewFolder%20A/DOC030426-001.pdf",
+      "fact": "Rule 43: no election-night file survives (earliest time 2026-03-04 08:03 CT). Previous: 'Unofficial Primary March 3, 2026, Republican': 'Texas Secretary of State Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION March 03, 2026 FRIO County', county totals; Last-Modified Wed, 04 Mar 2026 14:03:17 GMT. Precinct numbers only in the later Primary Canvass reports.",
+      "precinct_first_seen": ""
+    },
+    "2026_runoff": {
+      "result": "LATER",
+      "check": "2",
+      "county_totals_first_seen": "2026-05-26 21:19 CT",
+      "night_updates_with_precinct_numbers": "0",
+      "evidence_url": "https://www.co.frio.tx.us/upload/page/0099/NewFolder%20A/NewFolder/DOC052626-006.pdf",
+      "fact": "'Unofficial Democratic' / 'Unofficial Republican': 'Election Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS Frio County, Texas ... Election Day Precincts Reporting 9 of 9', county totals by Absentee/Early/Election Day; Last-Modified Wed, 27 May 2026 02:19:50 GMT. Next listed: '2026 Democratic Primary Runoff Election Canvass Report'.",
+      "precinct_first_seen": ""
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.co.frio.tx.us/page/elect.home",
+      "via": "fetch_module",
+      "content_hash": "26212f50bfbdda8b70e32a531bf64d82a2233ac2ed410ee1809368bc56657321",
+      "quote": "2026 Democratic Primary Runoff Election Canvass Report | Unofficial Democratic | Unofficial Republican ... Unofficial Primary March 3, 2026, Republican ... UNOFFICAL RESULTS | CANVASS REPORT",
+      "supports": "report lists"
+    },
+    {
+      "url": "https://www.co.frio.tx.us/upload/page/0099/NewFolder%20A/NewFolder/DOC052626-006.pdf",
+      "via": "fetch_module",
+      "content_hash": "bb6f51d5e9efa92eb60e07d4e8046a687df53b0ecaceaf295b5308be436d6490",
+      "quote": "Election Summary Results Report 2026 Primary Runoff Election May 26, 2026 UNOFFICIAL RESULTS",
+      "supports": "2026_runoff county totals uploaded 9:19 PM CDT"
+    },
+    {
+      "url": "https://www.co.frio.tx.us/upload/page/0099/NewFolder%20A/DOC030426-001.pdf",
+      "via": "fetch_module",
+      "content_hash": "a771483dccef509df9d80f386dac0f3c78f4791b2402b9919cc6dbd0f751bc8d",
+      "quote": "Election Unofficial Results Report 2026 REPUBLICAN PRIMARY ELECTION FRIO County",
+      "supports": "2026_primary county totals, uploaded next morning"
+    },
+    {
+      "url": "https://www.co.frio.tx.us/upload/page/0099/NewFolder/DOC110824-001.pdf",
+      "via": "fetch_module",
+      "content_hash": "ff36298b17b2de33d55c912475b72e5f507d6889a313db6308adea79847bf219",
+      "quote": "Election Unofficial Results Report 2024 NOVEMBER 5TH GENERAL ELECTION FRIO County",
+      "supports": "2024_general county totals, uploaded 8 Nov 2024"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "county": "Maverick",
+  "tag": "UNKNOWN",
+  "confidence": "low",
+  "elections_office_phone": "",
+  "elections_office_email": "",
+  "results_url": "https://co.maverick.tx.us/elections",
+  "platform": "county_pdfs",
+  "host": "co.maverick.tx.us",
+  "evidence_url": "",
+  "evidence_snapshot_timestamp": "",
+  "precinct_first_seen_local_time": "",
+  "stated_change_2026": "n",
+  "stated_change_source": "",
+  "usage_notice_text": "",
+  "notes": "Seed https://co.maverick.tx.us/ loads; the Elections page (files served from a Cloudflare R2 bucket, pub-3ec9fd02caf74c549229cabadbf2564d.r2.dev) lists November 2026 materials, polling places, 2026 campaign finance reports, and as the only results 'Official Results - May 26, 2026' plus hand count audits. No 2024 general or March 2026 primary results and no election-night files are listed; the site appears to hold only recent material, so absence is not evidence of what was posted at the time. No Clarity site (elections.json 404). Check 3 pending for all three elections. Targeted pass 3 2026-10-02 (targeted3-C): no election changed. Tried: (1) Elections page file list re-read: the R2 bucket links hold only 2026 general notices and sample ballots, campaign finance reports, and for results only May_26_2026_Official_Results.pdf and two hand count audits; no 2024 general or March 2026 primary results and no election-night files (bucket listing not attempted; file names were not guessed). (2) Check 4: two web searches (Eagle Pass precinct results for the 2026 primary; Eagle Pass Business Journal runoff results) found no third-party per-precinct election-night page. Wayback harvest for co.maverick.tx.us found no election-night captures (runoff CDX timed out). Sweep pending. Targeted pass 4 2026-10-02 (targeted4-J): no election changed. Tried: (1) sitemap.xml (28 pages; robots.txt disallows only /admin and /api/) found /resources/canvass-reports, which holds two scanned PDFs 'MAVERICK CO. CANVASS #1' and '#2': the SOS 'Canvass Report 2024 NOVEMBER 5TH GENERAL ELECTION', county totals only, signed 11-19-24 (read from page images), CreationDate Nov 19 2024, Last-Modified May 13 2026 (bulk upload to the new site), so not election-night evidence; (2) /news and /notices have no results links; (3) maverickcounty.nowgroupdigital.com/elections (site builder's host) 404; (4) the site is a 2026 Astro rebuild by Now Group Digital (R2 files Last-Modified May 2026 or later), so the 2024 and March 2026 election-night pages of the earlier site are gone and the wayback-data branch has no Maverick captures, sweep, or targeted archive folders (sweep pending; web.archive.org unreachable here); (5) check 4: three web searches (county results, News Gram, County Judge runoff Morales v. Cantu) found only KSAT/AP county totals pages, no per-precinct third-party election-night page.",
+  "tag_rationale": "No election was determined (all UNDETERMINED), so the rule gives UNKNOWN.",
+  "agent": "research-5",
+  "method_version": "v2",
+  "elections": {
+    "2024_general": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; no 2024 results on the current Elections page"
+    },
+    "2026_primary": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; no March 2026 primary results on the current Elections page"
+    },
+    "2026_runoff": {
+      "result": "UNDETERMINED",
+      "check": "none",
+      "county_totals_first_seen": "",
+      "precinct_first_seen": "",
+      "night_updates_with_precinct_numbers": "",
+      "evidence_url": "",
+      "fact": "check 3 pending; the only runoff results file is 'Official Results - May 26, 2026' (PDF CreationDate Tue Jun 16 2026, Last-Modified Wed, 17 Jun 2026 19:11:51 GMT), posted after the canvass; what was posted on election night is not shown"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://co.maverick.tx.us/elections",
+      "via": "fetch_module",
+      "content_hash": "e07def7fafae665d6f8b8fa862345a7795caaca69c1337c4c00418a7b505207f",
+      "quote": "Official Results - May 26, 2026 (Main document) 472 KB | Democratic Party - Hand Count Audit | Republican Party - Hand Count Audit",
+      "supports": "only official runoff results listed"
+    },
+    {
+      "url": "https://pub-3ec9fd02caf74c549229cabadbf2564d.r2.dev/elections/results/2026/May_26_2026_Official_Results.pdf",
+      "via": "fetch_module",
+      "content_hash": "233df2d5bce67c003ccaf9bc0349d578a757fe2d55731e20b383b0866e398e2e",
+      "quote": "CreationDate Tue Jun 16 15:29:49 2026 UTC; Last-Modified Wed, 17 Jun 2026 19:11:51 GMT",
+      "supports": "runoff official results posted June 2026"
+    },
+    {
+      "url": "https://co.maverick.tx.us/resources/canvass-reports",
+      "via": "fetch_module",
+      "content_hash": "c268c834979969bb52028519c36a99215fcce4b884bef9e0f34f05e78c1ac398",
+      "quote": "Canvass Reports | 2 documents | Undated | MAVERICK CO. CANVASS #2 | MAVERICK CO. CANVASS #1",
+      "supports": "county site's only other results material: two canvass report PDFs"
+    },
+    {
+      "url": "https://pub-3ec9fd02caf74c549229cabadbf2564d.r2.dev/resources/canvass-reports/Undated/MAVERICK_CO._CANVASS_1__1J92_5eh.pdf",
+      "via": "fetch_module",
+      "content_hash": "20c6bf4a551bb5d8cc018ff44af554dc8931f210fedea953f7b3ef8d2adbb71b",
+      "quote": "Texas Secretary of State Canvass Report 2024 NOVEMBER 5TH GENERAL ELECTION November 05, 2024 MAVERICK Total # of Voters Voted: 16135 ... Date 11-19-24 ... Page 1 of 29 (read from page image of a scanned PDF; CreationDate Tue Nov 19 12:46:44 2024 UTC; Last-Modified Wed, 13 May 2026 06:12:28 GMT)",
+      "supports": "2024 general: only a post-canvass county-level SOS canvass report is on the site; nothing from election night"
+    },
+    {
+      "url": "https://pub-3ec9fd02caf74c549229cabadbf2564d.r2.dev/resources/canvass-reports/Undated/MAVERICK_CO._CANVASS_2__1IgPNijT.pdf",
+      "via": "fetch_module",
+      "content_hash": "cc784120ffaf45d0f7ef50ea7b817620bb3966042755e6eb27e5440d208980d2",
+      "quote": "Canvass Report 2024 NOVEMBER 5TH GENERAL ELECTION ... Page 17 of 29 (page image; CreationDate Tue Nov 19 12:47:29 2024 UTC; Last-Modified Wed, 13 May 2026 06:12:28 GMT)",
+      "supports": "second half of the same 2024 general canvass report; county totals only, signed 11-19-24"
+    }
+  ]
+}

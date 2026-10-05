@@ -1,0 +1,156 @@
+{
+ "county": "Tom Green",
+ "tag": "COUNTY_ONLY_PRECINCT_AT_CANVASS",
+ "confidence": "med",
+ "elections_office_phone": "",
+ "elections_office_email": "",
+ "results_url": "https://www.tomgreencountytx.gov/page/ele.ElectionsResults",
+ "platform": "county_pdfs",
+ "host": "www.tomgreencountytx.gov",
+ "evidence_url": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2026/March2026/6thUnofficialCumulativeresults032026.pdf",
+ "evidence_snapshot_timestamp": "",
+ "precinct_first_seen_local_time": "",
+ "stated_change_2026": "n",
+ "stated_change_source": "",
+ "usage_notice_text": "",
+ "notes": "Seed URL www.co.tom-green.tx.us returned HTTP 403 over http and an SSL EOF error over https; one web search located the current domain tomgreencountytx.gov. No Clarity site (elections.json 404). The results page lists only canvass-time reports for the three elections: 'Official Cumulative Results', 'Official Precinct Results', reconciliation and hand count PDFs. Official precinct PDFs read: 2024 general Run Date 11/27/2024 10:29 AM (CreationDate 2024-11-27, no Last-Modified header on /page/open/ paths); 2026 primary Run Date 03/26/2026 8:38 AM, Last-Modified Wed, 01 Apr 2026 13:17:02 GMT; 2026 runoff Run Date 06/08/2026 2:09 PM, Last-Modified Mon, 08 Jun 2026 21:08:17 GMT. Any election-night unofficial reports are no longer on the page, so check 2 cannot show what was posted on election night. Check 3 pending (origin/wayback-data branch not found). Targeted pass 3 2026-10-02 (targeted3-A): no election changed. A web search found '052626PROUnofficialCumulativeResults.pdf' (not linked on the results page): 'Cumulative Results Report Tom Green County Unofficial Results 052626 Primary Runoff Election ... Precincts Reporting 0 of 24 ... Run Time 3:41 PM Run Date 06/02/2026', CreationDate 2026-06-02, Last-Modified Wed, 03 Jun 2026 15:00:41 GMT: a post-election county-totals file, not election night. votetomgreencounty.gov points to the same results page. Check 4: San Angelo LIVE 'Here's How the March 3 Primary Went in Tom Green County' (published 2026-03-04T12:07-0600) gives county totals only. Wayback main harvest targeted co.tom-green.tx.us only (no captures); no phase1/targeted/ folder for Tom Green; sweep pending. Targeted pass 4 2026-10-02 (targeted4-D): 2026 primary UNDETERMINED to LATER and 2026 runoff UNDETERMINED to LATER (check 2). San Angelo LIVE election-night stories link county files that are no longer listed on the results page but still served with their original Last-Modified: '6thUnofficialCumulativeresults032026.pdf' (county totals, printed 11:20 PM, uploaded 11:52 PM CST Mar 3), 'report 2.pdf' (printed 8:05 PM, uploaded 8:26 PM CDT May 26) and 'final unofficial.pdf' (printed 8:49 PM, uploaded 9:36 PM CDT). All are scanned cumulative county-totals reports with no per-precinct numbers (read from rendered page images); the only precinct reports online are the official canvass reports, so rule 43 (DECISIONS 67 reading) gives LATER for both. The '6th' name implies earlier election-night updates that are not online; nothing found shows an unofficial precinct report was posted on those nights, but removed files cannot be ruled out. 2024 general unchanged (UNDETERMINED): no election-night file found. Tried without result: newtools.cira.state.tx.us copies of /upload/page/0091/ files (404; the site runs on ezTask Titanium, not the CIRA host; the orchestrator's /page/tomgreen.ele.ElectionsResults was 403); /page/open/2002/0 folder (404); pattern-based names November_5_*_Results_Unofficial.pdf (empty 'Document Open' page), 030326Unofficial{Cumulative,Precinct}Results.pdf, 1stUnofficialCumulativeresults032026.pdf, 6thUnofficialPrecinctresults032026.pdf, UnofficialPrecinctresults032026.pdf, 052626PROUnofficialPrecinctResults.pdf (all 404); votetomgreencounty.gov ele.ElectHomeNew and tomgreencountytx.gov ele.QuickLinks (no result files); San Angelo LIVE 2024 election-day story (no results). No check 4 page with per-precinct numbers. Quoted San Angelo LIVE text had an em dash replaced with a hyphen. Wayback main harvest has no captures; no targeted archive or sweep folder for Tom Green (sweep pending). Correction 2026-10-03: a quoted runoff total from 'report 2.pdf' was mis-copied as '3,154'; the page image shows '3,194' (63.88%), found by verifier-17. No result changes. Targeted pass 5 2026-10-03 (targeted5-A): 2024_general changed UNDETERMINED -> LATER (check 2, deciding fact the archived original Last-Modified 11:10 PM CST and printed run time 10:46 PM of report4.pdf, a county-totals Cumulative Results Report marked 'Batch 6', read from page images of the sweep replay). 'Batch 6' implies earlier releases (report1 to report3 or similar) that the archive did not capture. Other Tom Green replays (2023 COSA/ISD reports, auditor reports, 2020 sample ballots, campaign finance reports) are not target-election results. 2026 runoff: CDX empty. Tag unchanged.",
+ "tag_rationale": "All three elections are LATER (election-night county-totals uploads with no election-night precinct report; precinct numbers only in the official canvass reports), so the rule gives COUNTY_ONLY_PRECINCT_AT_CANVASS; confidence med because the deciding elections rest on check 2.",
+ "agent": "research-8",
+ "method_version": "v2",
+ "elections": {
+  "2024_general": {
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2024-11-05 23:10 CT (server upload; printed run time 2024-11-05 22:46 CT)",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "0",
+   "evidence_url": "https://web.archive.org/web/20241106070232id_/https://www.tomgreencountytx.gov/upload/page/0091/docs/2024/20241105/report4.pdf",
+   "fact": "Archived-file sweep replay (wayback-data phase1/targeted/sweep/Tom_Green/2024_general_20241106070232_b9b3ee2143.pdf, sha256 0a733df4...) of the county file /upload/page/0091/docs/2024/20241105/report4.pdf, captured 2024-11-06 01:02 CST: a 9-page scanned 'Cumulative Results Report / Tom Green County / Unofficial Results / 110524 General/Special Election', handwritten 'Batch 6', 'Run Time 10:46 PM', 'Run Date 11/05/2024', 'Precincts Reporting 0 of 49 = 0.00%', county totals per contest with Absentee, Early Voting and Election Day Voting columns (e.g. 'DONALD J. TRUMP/JD VANCE ... Election Day 6,631 ... Total 33,100'), ending '*** End of report ***'; no per-precinct numbers (read from page images 1, 5, 7, 9). Original server Last-Modified 'Wed, 06 Nov 2024 05:10:40 GMT' (11:10 PM CST election night); scan CreationDate 2024-11-06 05:02 UTC. The only precinct report for this election online is the 'Official Precinct Results' ('Official Results', Run Date 11/27/2024), and the Wayback CDX for tomgreencountytx.gov from Nov 5 to Nov 26, 2024 (53 files, keyword filter includes precinct and pct) has no 2024 general precinct report. LATER under the DECISIONS 67 reading of rule 43."
+  },
+  "2026_primary": {
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2026-03-03 23:52 CT (server upload of the 6th unofficial cumulative report; printed run time 2026-03-03 23:20 CT)",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "0",
+   "evidence_url": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2026/March2026/6thUnofficialCumulativeresults032026.pdf",
+   "fact": "'6thUnofficialCumulativeresults032026.pdf' (linked by San Angelo LIVE, no longer linked on the county results page) is a 20-page scanned 'Cumulative Results Report / Tom Green County / Unofficial Results / 030326 Primary Election', 'Run Time 11:20 PM', 'Run Date 03/03/2026', 'Precincts Reporting 0 of 70 = 0.00%', county totals per contest with Absentee, Early Voting and Election Day Voting columns (for example JOHN CORNYN Election Day 2,278, Total 5,693); no per-precinct numbers on any page (read from page images 1, 6 to 15 and 20). Server Last-Modified Wed, 04 Mar 2026 05:52:19 GMT (11:52 PM CST Mar 3); scan CreationDate 2026-03-04 05:26 UTC. The 'Preliminary Election Reconciliation - Unofficial Totals' (county-level ballot counts) was uploaded at 05:54:48 GMT. The only precinct report for this election online is 'Official Precinct Results' (Run Date 03/26/2026, Last-Modified 01 Apr 2026). Nothing shows a precinct report with election-day votes was posted on election night, so LATER under the DECISIONS 67 reading of rule 43 (precinct numbers published only at canvass)."
+  },
+  "2026_runoff": {
+   "result": "LATER",
+   "check": "2",
+   "county_totals_first_seen": "2026-05-26 20:26 CT (server upload of 'report 2.pdf'; printed run time 2026-05-26 20:05 CT)",
+   "precinct_first_seen": "",
+   "night_updates_with_precinct_numbers": "0",
+   "evidence_url": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2026/May2026/report%202.pdf",
+   "fact": "Two election-night files linked by San Angelo LIVE (not linked on the county results page today), both 2-page scanned 'Cumulative Results Report / Tom Green County / Unofficial Results / 052626 Primary Runoff Election', county totals per contest with Absentee, Early Voting and Election Day Voting columns and 'Precincts Reporting 0 of 24 = 0.00%', no per-precinct numbers (read from page images): 'report 2.pdf' 'Run Time 8:05 PM' 'Run Date 05/26/2026' (KEN PAXTON Election Day 549, Total 3,194), Last-Modified Wed, 27 May 2026 01:26:52 GMT (8:26 PM CDT May 26); 'final unofficial.pdf' 'Run Time 8:49 PM' (KEN PAXTON Election Day 1,732, Total 4,377), Last-Modified Wed, 27 May 2026 02:36:59 GMT (9:36 PM CDT). The only precinct report for this election online is 'Official Precinct Results' (Run Date 06/08/2026, Last-Modified 08 Jun 2026); the other unofficial county-totals file '052626PROUnofficialCumulativeResults.pdf' is dated 06/02/2026. Nothing shows a precinct report with election-day votes was posted on election night, so LATER under the DECISIONS 67 reading of rule 43."
+  }
+ },
+ "sources": [
+  {
+   "url": "https://www.tomgreencountytx.gov/page/ele.ElectionsResults",
+   "via": "fetch_module",
+   "content_hash": "f4ee6d7ebf11d28967162f3315874997378324418d612f67ca04eda10e2550fb",
+   "quote": "May 26, 2026 - Primary Runoff Election Results: Official Cumulative Results (PDF) Official Precinct Results (PDF) Hand Count Results (PDF)",
+   "supports": "only official reports listed"
+  },
+  {
+   "url": "https://www.tomgreencountytx.gov/page/open/2002/0/November_5_Precinct_Results.pdf",
+   "via": "fetch_module",
+   "content_hash": "70300e0fe8c65f1adc8e12c503c92a21b350457af435ae90ca4f538dbf864983",
+   "quote": "Precinct Results Report Official Results ... Run Date 11/27/2024",
+   "supports": "2024 precinct report is canvass-time"
+  },
+  {
+   "url": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2026/March2026/030326OfficialPrecinctResults.pdf",
+   "via": "fetch_module",
+   "content_hash": "b34c0ba52bbd2d93004b6a680f162f54a3e72dfff049aa9d2e1754c54687177b",
+   "quote": "Official Results ... Run Date 03/26/2026",
+   "supports": "2026 primary precinct report is canvass-time"
+  },
+  {
+   "url": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2026/May2026/PROElectionOfficialPrecinctResults.pdf",
+   "via": "fetch_module",
+   "content_hash": "03adc3a5d2b67e2c22a2d69f76cd7ba89bb1777f35555ee91d4880c1338665af",
+   "quote": "Official Results ... Run Date 06/08/2026",
+   "supports": "2026 runoff precinct report is canvass-time"
+  },
+  {
+   "url": "websearch:?q=tom%20green%20county%20texas%20elections%20results",
+   "via": "websearch",
+   "content_hash": "070f8906acad43bf2a6a16a532c80b9b2b467f457fbc684c06905b7bef5de3e5",
+   "quote": "Tom Green County https://www.tomgreencountytx.gov/page/ele.ElectionsResults",
+   "supports": "location of current county site only"
+  },
+  {
+   "url": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2026/March2026/6thUnofficialCumulativeresults032026.pdf",
+   "via": "fetch_module",
+   "content_hash": "bb579a2792216a0ba439ef1dbc6fe962d4d71f14cc7c78edd2e237116260e01f",
+   "quote": "Cumulative Results Report ... Tom Green County ... Unofficial Results ... 030326 Primary Election ... Run Time 11:20 PM ... Run Date 03/03/2026 ... Precincts Reporting 0 of 70 = 0.00% (page image); Last-Modified: Wed, 04 Mar 2026 05:52:19 GMT",
+   "supports": "2026 primary county totals uploaded on election night (11:52 PM CST), no per-precinct numbers"
+  },
+  {
+   "url": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2026/March2026/PreliminaryElectionReconciliation030326.pdf",
+   "via": "fetch_module",
+   "content_hash": "6cf7cdeb9a6b0808a32cd118f6dbbbdd76c31d93aea4d695030ec64e0f2a697f",
+   "quote": "Preliminary Election Reconciliation - Unofficial Totals ... County Tom Green ... Election Name Primary ... Election Date 3-3-26 (page image, handwritten form); Last-Modified: Wed, 04 Mar 2026 05:54:48 GMT",
+   "supports": "other election-night upload for the primary is county-level ballot counts only"
+  },
+  {
+   "url": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2026/May2026/report%202.pdf",
+   "via": "fetch_module",
+   "content_hash": "1c8b61f69c8d77acbe139719b78b9284e8fde06ebcad04c3f871bc9477548300",
+   "quote": "Cumulative Results Report ... Unofficial Results ... 052626 Primary Runoff Election ... Run Time 8:05 PM ... Run Date 05/26/2026 ... Precincts Reporting 0 of 24 = 0.00% (page image); Last-Modified: Wed, 27 May 2026 01:26:52 GMT",
+   "supports": "2026 runoff county totals uploaded on election night (8:26 PM CDT), no per-precinct numbers"
+  },
+  {
+   "url": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2026/May2026/final%20unofficial.pdf",
+   "via": "fetch_module",
+   "content_hash": "c7edf901fdbd75af97d89cf27d76d6808bb9ed20c4d945d6496e351777ff104b",
+   "quote": "Cumulative Results Report ... Unofficial Results ... 052626 Primary Runoff Election ... Run Time 8:49 PM ... Run Date 05/26/2026 (page image); Last-Modified: Wed, 27 May 2026 02:36:59 GMT",
+   "supports": "second runoff election-night county-totals upload (9:36 PM CDT), no per-precinct numbers"
+  },
+  {
+   "url": "https://sanangelolive.com/news/san-angelo/2026-03-04/heres-how-march-3-primary-went-tom-green-county",
+   "via": "fetch_module",
+   "content_hash": "eea8161a9e9892ba053d5b0ac015d219364f3119d9e3b1084d70eadfe973d12f",
+   "quote": "SAN ANGELO, TX - Unofficial results from Tuesday's Texas primaries showed 22.76% turnout in Tom Green County (links /upload/page/0091/docs/2026/March2026/6thUnofficialCumulativeresults032026.pdf)",
+   "supports": "lead: where the primary election-night file was linked (third-party, locating only)"
+  },
+  {
+   "url": "https://sanangelolive.com/news/politics/2026-05-26/tom-green-county-strongly-backs-paxton-senate-runoff",
+   "via": "fetch_module",
+   "content_hash": "d4135e1d5bed55eda0a0065cf0d6c244a86d18309c34a0bab957c8cc965b9319",
+   "quote": "SAN ANGELO, TX - In the first batch of unofficial results released Tuesday night , Tom Green County voters strongly backed Attorney General Ken Paxton (links report%202.pdf); datePublished 2026-05-26T20:37:06-0500",
+   "supports": "lead: where the runoff election-night file was linked"
+  },
+  {
+   "url": "https://sanangelolive.com/news/politics/2026-05-27/heres-how-tom-green-county-voted-primary-runoff",
+   "via": "fetch_module",
+   "content_hash": "eeff0c0bb6223eb478b4aa6de928bb560d6db8ea892b76e856c3e97b2f73a80f",
+   "quote": "according to final unofficial cumulative results released Tuesday Night (links final%20unofficial.pdf)",
+   "supports": "lead: where the final runoff election-night file was linked"
+  },
+  {
+   "url": "https://www.tomgreencountytx.gov/upload/page/0091/docs/2024/20241105/110524finalOffCumulaRes.pdf",
+   "via": "fetch_module",
+   "content_hash": "59b541984138ba55078fe028db8d597cc2ba62014939a2953d8f7ec0ac9cb803",
+   "quote": "Cumulative Results Report Tom Green County Official Results ... Run Time 10:27 AM ... Run Date 11/27/2024; Last-Modified: Tue, 03 Dec 2024 15:23:48 GMT",
+   "supports": "2024 general: only canvass-time files found"
+  },
+  {
+   "url": "websearch:?q=sanangelolive%20tom%20green%20county%20primary%20runoff%20may%2026%202026%20unofficial%20results%20paxton%20cornyn",
+   "via": "websearch",
+   "content_hash": "f01ab0413996da7a028ad3e754dfba681d8761fcc21793aaaae933f058070901",
+   "quote": "Tom Green County Strongly Backs Paxton in Senate Runoff https://sanangelolive.com/news/politics/2026-05-26/tom-green-county-strongly-backs-paxton-senate-runoff",
+   "supports": "locating the runoff news pages only"
+  },
+  {
+   "url": "https://web.archive.org/web/20241106070232id_/https://www.tomgreencountytx.gov/upload/page/0091/docs/2024/20241105/report4.pdf",
+   "via": "wayback_branch",
+   "content_hash": "0a733df41514cccc02f40da5c784a03421a2f992617c1daf96aae6b1291c7f24",
+   "quote": "Cumulative Results Report | Tom Green County | Unofficial Results | 110524 General/Special Election | Run Time 10:46 PM Run Date 11/05/2024 | Precincts Reporting 0 of 49 = 0.00% | orig Last-Modified Wed, 06 Nov 2024 05:10:40 GMT (read from page images)",
+   "supports": "2024_general LATER: county-totals report printed 10:46 PM and uploaded 11:10 PM CST on election night; wayback-data phase1/targeted/sweep/Tom_Green/2024_general_20241106070232_b9b3ee2143.pdf"
+  }
+ ]
+}
